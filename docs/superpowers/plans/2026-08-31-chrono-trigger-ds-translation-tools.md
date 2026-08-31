@@ -209,7 +209,7 @@ Run: `pytest tests/test_font_engine.py -v`
   - `build-rom` -> Pack `extracted rom/` into `rom/Chrono Trigger (Russian).nds`
   - `roundtrip` -> Execute full test suite
 
-- [ ] **Step 1: Write end-to-end roundtrip test**
+- [x] **Step 1: Write end-to-end roundtrip test**
 
 ```python
 import subprocess
@@ -221,10 +221,10 @@ def test_full_pipeline_roundtrip():
     assert result.returncode == 0
 ```
 
-- [ ] **Step 2: Implement `src/cli.py` and `tests/test_roundtrip.py`**
+- [x] **Step 2: Implement `src/cli.py` and `tests/test_roundtrip.py`**
 
-- [ ] **Step 3: Run full test suite to verify everything passes**
+- [x] **Step 3: Run full test suite to verify everything passes**
 Run: `pytest tests/ -v`
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 `git add src/cli.py tests/test_roundtrip.py && git commit -m "feat: implement CLI interface and full pipeline roundtrip tests"`
