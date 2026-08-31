@@ -30,39 +30,11 @@
   - `build_rom(extracted_dir: str, output_nds_path: str, base_nds_path: str = None) -> None`
   - `verify_rom_integrity(original_nds_path: str, rebuilt_nds_path: str) -> bool`
 
-- [ ] **Step 1: Write test for ROM unpack and repack**
-
-```python
-import os
-import pytest
-from src.rom_manager import unpack_rom, build_rom, verify_rom_integrity
-
-ORIGINAL_ROM = "rom/Chrono Trigger (Europe) (En,Fr).nds"
-
-def test_rom_unpack_and_repack(tmp_path):
-    assert os.path.exists(ORIGINAL_ROM)
-    unpack_dir = str(tmp_path / "extracted")
-    rebuilt_rom = str(tmp_path / "rebuilt.nds")
-    
-    metadata = unpack_rom(ORIGINAL_ROM, unpack_dir)
-    assert os.path.exists(os.path.join(unpack_dir, "data", "msg", "big", "system.msg"))
-    assert metadata["id_code"] == "YQUP"
-    
-    build_rom(unpack_dir, rebuilt_rom, base_nds_path=ORIGINAL_ROM)
-    assert os.path.exists(rebuilt_rom)
-    assert verify_rom_integrity(ORIGINAL_ROM, rebuilt_rom)
-```
-
-- [ ] **Step 2: Run test to verify it fails**
-Run: `pytest tests/test_rom_manager.py -v`
-
-- [ ] **Step 3: Implement `src/rom_manager.py`**
-Implement `unpack_rom`, `build_rom`, and `verify_rom_integrity` using `ndspy.rom.NintendoDSRom`.
-
-- [ ] **Step 4: Run test to verify it passes**
-Run: `pytest tests/test_rom_manager.py -v`
-
-- [ ] **Step 5: Commit**
+- [x] **Step 1: Write test for ROM unpack and repack**
+- [x] **Step 2: Run test to verify it fails**
+- [x] **Step 3: Implement `src/rom_manager.py`**
+- [x] **Step 4: Run test to verify it passes**
+- [x] **Step 5: Commit**
 `git add src/rom_manager.py tests/test_rom_manager.py && git commit -m "feat: implement NDS ROM unpacker and repacker"`
 
 ---
