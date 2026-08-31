@@ -52,7 +52,7 @@
   - `tokenize_bytes(raw_bytes: bytes) -> str`
   - `detokenize_string(text: str) -> bytes`
 
-- [ ] **Step 1: Write tests for character encoding/decoding and control tokens**
+- [x] **Step 1: Write tests for character encoding/decoding and control tokens**
 
 ```python
 import pytest
@@ -71,16 +71,16 @@ def test_control_tokens_roundtrip():
     assert decoded == sample_text
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 Run: `pytest tests/test_char_map.py -v`
 
-- [ ] **Step 3: Implement `src/char_map.py`**
+- [x] **Step 3: Implement `src/char_map.py`**
 Implement character frequency lookup, Caesar shift adjustment, and token parser/regex detokenizer.
 
-- [ ] **Step 4: Run test to verify it passes**
+- [x] **Step 4: Run test to verify it passes**
 Run: `pytest tests/test_char_map.py -v`
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 `git add src/char_map.py tests/test_char_map.py && git commit -m "feat: implement character mapping and control tokenizer"`
 
 ---
