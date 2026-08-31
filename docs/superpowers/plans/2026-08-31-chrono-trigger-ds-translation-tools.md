@@ -99,7 +99,7 @@ Run: `pytest tests/test_char_map.py -v`
   - `dump_all_msg(nitrofs_dir: str, output_json_dir: str) -> int`
   - `insert_all_msg(json_dir: str, target_nitrofs_dir: str) -> int`
 
-- [ ] **Step 1: Write tests for `.msg` parsing and roundtrip compilation**
+- [x] **Step 1: Write tests for `.msg` parsing and roundtrip compilation**
 
 ```python
 import os
@@ -128,16 +128,16 @@ def test_msg_roundtrip_cmes0():
     assert rebuilt_bytes == orig_bytes
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 Run: `pytest tests/test_text_engine.py -v`
 
-- [ ] **Step 3: Implement `src/text_engine.py`**
+- [x] **Step 3: Implement `src/text_engine.py`**
 Implement `.msg` binary reader and serializer with multi-language offset table generation.
 
-- [ ] **Step 4: Run test to verify it passes**
+- [x] **Step 4: Run test to verify it passes**
 Run: `pytest tests/test_text_engine.py -v`
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 `git add src/text_engine.py tests/test_text_engine.py && git commit -m "feat: implement .msg text dumper and compiler"`
 
 ---

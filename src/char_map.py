@@ -15,8 +15,11 @@ CHAR_TO_BYTE["\t"] = 0x09
 BYTE_TO_CHAR[0x09] = "\t"
 
 # Standard printable ASCII (0x20..0x7E) maps to bytecode ord(c) - 1 (0x1F..0x7D)
+# Note: '{' (0x7B -> 0x7A) and '}' (0x7D -> 0x7C) are reserved for control tags ({TAG:7A}, {TAG:7C})
 for code in range(0x20, 0x7F):
     char = chr(code)
+    if char in ("{", "}"):
+        continue
     byte_val = code - 1
     CHAR_TO_BYTE[char] = byte_val
     BYTE_TO_CHAR[byte_val] = char
