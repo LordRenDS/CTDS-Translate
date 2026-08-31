@@ -154,7 +154,7 @@ Run: `pytest tests/test_text_engine.py -v`
   - `build_fnt(input_png_path: str, input_json_path: str) -> bytes`
   - `inject_cyrillic_font(original_fnt_bytes: bytes) -> bytes`
 
-- [ ] **Step 1: Write test for `.fnt` font dumping, bitmap rasterization, and rebuilding**
+- [x] **Step 1: Write test for `.fnt` font dumping, bitmap rasterization, and rebuilding**
 
 ```python
 import os
@@ -179,16 +179,16 @@ def test_font_dump_and_rebuild(tmp_path):
     assert rebuilt_fnt == fnt_bytes
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 Run: `pytest tests/test_font_engine.py -v`
 
-- [ ] **Step 3: Implement `src/font_engine.py`**
+- [x] **Step 3: Implement `src/font_engine.py`**
 Implement 2bpp bitmap reader/writer, character width table parser, and Cyrillic character injection logic.
 
-- [ ] **Step 4: Run test to verify it passes**
+- [x] **Step 4: Run test to verify it passes**
 Run: `pytest tests/test_font_engine.py -v`
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 `git add src/font_engine.py tests/test_font_engine.py && git commit -m "feat: implement .fnt font dumper and compiler with Cyrillic support"`
 
 ---
