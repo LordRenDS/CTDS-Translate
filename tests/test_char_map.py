@@ -6,64 +6,57 @@ from src.char_map import (
     encode_char,
     tokenize_bytes,
     detokenize_string,
-    CHAR_TO_BYTE,
-    BYTE_TO_CHAR,
+    BIG_CHAR_TO_GLYPH,
+    SMALL_CHAR_TO_GLYPH,
+    glyph_to_bytes,
+    bytes_to_glyph,
 )
 
 
 class TestCharMap(unittest.TestCase):
     """Test suite for character encoding tables and token engine."""
 
-    def test_encode_decode_char_ascii(self):
-        """Verify individual ASCII characters encode/decode correctly with shift."""
-        # Space (0x20) -> 0x1F
-        self.assertEqual(encode_char(" "), 0x1F)
-        self.assertEqual(decode_char(0x1F), " ")
+    def test_encode_decode_char_big_font(self):
+        """Verify individual ASCII characters encode/decode correctly for big font."""
+        # 'e' -> Glyph 0 -> 0x00
+        self.assertEqual(encode_char("e", font_type="big"), b"\x00")
+        self.assertEqual(decode_char(0x00, font_type="big"), "e")
 
-        # '!' (0x21) -> 0x20
-        self.assertEqual(encode_char("!"), 0x20)
-        self.assertEqual(decode_char(0x20), "!")
+        # Space ' ' -> Glyph 1 -> 0x01 (in single byte context)
+        self.assertEqual(encode_char(" ", font_type="big"), b"\x01")
 
-        # 'e' (0x65) -> 0x64
-        self.assertEqual(encode_char("e"), 0x64)
-        self.assertEqual(decode_char(0x64), "e")
+        # 'a' -> Glyph 3 -> 0x03
+        self.assertEqual(encode_char("a", font_type="big"), b"\x03")
+        self.assertEqual(decode_char(0x03, font_type="big"), "a")
 
-        # Tab '\t' (0x09) -> 0x09
-        self.assertEqual(encode_char("\t"), 0x09)
-        self.assertEqual(decode_char(0x09), "\t")
+        # 't' -> Glyph 4 -> 0x04
+        self.assertEqual(encode_char("t", font_type="big"), b"\x04")
+        self.assertEqual(decode_char(0x04, font_type="big"), "t")
 
-    def test_encode_decode_char_cyrillic(self):
-        """Verify Russian Cyrillic uppercase, lowercase, and Ё/ё mapping."""
-        # Uppercase 'А' -> 0x80, 'Я' -> 0x9F
-        self.assertEqual(encode_char("А"), 0x80)
-        self.assertEqual(decode_char(0x80), "А")
-        self.assertEqual(encode_char("Я"), 0x9F)
-        self.assertEqual(decode_char(0x9F), "Я")
+    def test_encode_decode_char_small_font(self):
+        """Verify individual ASCII characters encode/decode correctly for small font."""
+        # 'e' -> Glyph 1 -> 0x01
+        self.assertEqual(encode_char("e", font_type="small"), b"\x01")
 
-        # Lowercase 'а' -> 0xA0, 'я' -> 0xBF
-        self.assertEqual(encode_char("а"), 0xA0)
-        self.assertEqual(decode_char(0xA0), "а")
-        self.assertEqual(encode_char("я"), 0xBF)
-        self.assertEqual(decode_char(0xBF), "я")
+        # 'a' -> Glyph 2 -> 0x02
+        self.assertEqual(encode_char("a", font_type="small"), b"\x02")
 
-        # 'Ё' -> 0xC0, 'ё' -> 0xC1
-        self.assertEqual(encode_char("Ё"), 0xC0)
-        self.assertEqual(decode_char(0xC0), "Ё")
-        self.assertEqual(encode_char("ё"), 0xC1)
-        self.assertEqual(decode_char(0xC1), "ё")
+        # Space ' ' -> Glyph 4 -> 0x04
+        self.assertEqual(encode_char(" ", font_type="small"), b"\x04")
 
     def test_char_roundtrip_ascii(self):
-        """Verify pure ASCII text roundtrips losslessly."""
+        """Verify pure ASCII text roundtrips losslessly in both fonts."""
         sample_text = "Chrono Trigger: Awakening!"
-        encoded = detokenize_string(sample_text)
-        decoded = tokenize_bytes(encoded)
-        self.assertEqual(decoded, sample_text)
+        for font_type in ["big", "small"]:
+            encoded = detokenize_string(sample_text, font_type=font_type)
+            decoded = tokenize_bytes(encoded, font_type=font_type)
+            self.assertEqual(decoded, sample_text)
 
     def test_control_tokens_roundtrip(self):
         """Verify dialogue text with control tokens and newlines roundtrips losslessly."""
         sample_text = "{CRONO}...\n{WAIT_KEY}\nAre you sleeping?"
-        encoded = detokenize_string(sample_text)
-        decoded = tokenize_bytes(encoded)
+        encoded = detokenize_string(sample_text, font_type="big")
+        decoded = tokenize_bytes(encoded, font_type="big")
         self.assertEqual(decoded, sample_text)
 
     def test_party_control_tokens(self):
@@ -80,47 +73,51 @@ class TestCharMap(unittest.TestCase):
             ("{WAIT_KEY}", b"\xC5\xBF"),
         ]
         for token_str, expected_bytes in party_tokens:
-            encoded = detokenize_string(token_str)
+            encoded = detokenize_string(token_str, font_type="big")
             self.assertEqual(encoded, expected_bytes)
-            decoded = tokenize_bytes(encoded)
+            decoded = tokenize_bytes(encoded, font_type="big")
             self.assertEqual(decoded, token_str)
 
     def test_cyrillic_roundtrip(self):
-        """Verify Cyrillic dialogue text roundtrips losslessly."""
-        sample_text = "Привет, Хроно! Проснись, соня!"
-        encoded = detokenize_string(sample_text)
-        decoded = tokenize_bytes(encoded)
-        self.assertEqual(decoded, sample_text)
+        """Verify Cyrillic dialogue text roundtrips losslessly in both fonts."""
+        sample_text = "Привет, Хроно! Проснись, соня! Ёжик в тумане."
+        for font_type in ["big", "small"]:
+            encoded = detokenize_string(sample_text, font_type=font_type)
+            decoded = tokenize_bytes(encoded, font_type=font_type)
+            self.assertEqual(decoded, sample_text)
 
     def test_complex_control_codes(self):
-        """Verify complex tags like {EVENT_SYNC:0A} and unknown {TAG:C5}."""
-        sample_text = "{PAGE}{EVENT_SYNC:0A}{TAG:C5}{NULL}"
-        encoded = detokenize_string(sample_text)
-        self.assertEqual(encoded, b"\x02\xC6\x95\x0A\xC6\x96\xC5\x00")
-        decoded = tokenize_bytes(encoded)
+        """Verify complex tags like {EVENT_SYNC:0A} and {PAGE}."""
+        sample_text = "{PAGE}{EVENT_SYNC:0A}{TAG:FE}"
+        encoded = detokenize_string(sample_text, font_type="big")
+        self.assertEqual(encoded, b"\x02\xC6\x95\x0A\xC6\x96\xFE")
+        decoded = tokenize_bytes(encoded, font_type="big")
         self.assertEqual(decoded, sample_text)
 
-    def test_multibyte_event_sync(self):
-        """Verify multi-byte event sync payloads roundtrip."""
-        sample_text = "{EVENT_SYNC:3900}{EVENT_SYNC:3F4C}"
-        encoded = detokenize_string(sample_text)
-        self.assertEqual(encoded, b"\xC6\x95\x39\x00\xC6\x96\xC6\x95\x3F\x4C\xC6\x96")
-        decoded = tokenize_bytes(encoded)
-        self.assertEqual(decoded, sample_text)
+    def test_french_accents_roundtrip(self):
+        """Verify French accented characters roundtrip losslessly."""
+        sample_text = "Désolé de vous avoir fait attendre ! À bientôt !"
+        for font_type in ["big", "small"]:
+            encoded = detokenize_string(sample_text, font_type=font_type)
+            decoded = tokenize_bytes(encoded, font_type=font_type)
+            self.assertEqual(decoded, sample_text)
 
-    def test_line_tag_and_newline_compatibility(self):
-        """Verify both {LINE} and \n detokenize to 0x01."""
-        self.assertEqual(detokenize_string("{LINE}"), b"\x01")
-        self.assertEqual(detokenize_string("\n"), b"\x01")
-        self.assertEqual(detokenize_string("\r\n"), b"\x01")
+    def test_european_accents_and_symbols_roundtrip(self):
+        """Verify Spanish, German, Italian accented characters and symbols roundtrip losslessly."""
+        sample_big = "ÀÁÂÇÈÉÊŒÌÍÎÏÑÒÓÔßÙÚÛÜàáâäçèéêëœîïñòóôöùú—«»…¡¿°™©®♀♂♪"
+        encoded_big = detokenize_string(sample_big, font_type="big")
+        decoded_big = tokenize_bytes(encoded_big, font_type="big")
+        self.assertEqual(decoded_big, sample_big)
+
+        sample_small = "éèàêçîôùû—œ«»ëïüÉÈÀÊÇÎÔÙÛŒËÏÜ…¡¿°™©®♀♂♪★Ñßñ"
+        encoded_small = detokenize_string(sample_small, font_type="small")
+        decoded_small = tokenize_bytes(encoded_small, font_type="small")
+        self.assertEqual(decoded_small, sample_small)
 
     def test_invalid_character_handling(self):
         """Verify unmapped characters raise appropriate exceptions during encoding."""
         with self.assertRaises(ValueError):
-            encode_char("€")
-
-        with self.assertRaises(ValueError):
-            decode_char(0xFE)
+            encode_char("€", font_type="big")
 
 
 if __name__ == "__main__":

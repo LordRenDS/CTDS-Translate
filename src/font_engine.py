@@ -147,8 +147,8 @@ def dump_fnt_to_png_and_json(fnt_bytes: bytes, output_png_path: str, output_json
             row_bytes = raw_bm[r * bpr : (r + 1) * bpr]
             px_row = []
             for b in row_bytes:
-                px_row.extend([(b >> 6) & 3, (b >> 4) & 3, (b >> 2) & 3, b & 3])
-            for c, val in enumerate(px_row):
+                px_row.extend([b & 3, (b >> 2) & 3, (b >> 4) & 3, (b >> 6) & 3])
+            for c, val in enumerate(px_row[:w]):
                 if c < cell_w:
                     img.putpixel((cx + c, cy + r), val)
 
@@ -283,7 +283,7 @@ def build_fnt_from_png_and_json(input_png_path: str, input_json_path: str) -> by
                     p1 = _sample_pixel_2bpp(img, cx + byte_idx * 4 + 1, cy + r)
                     p2 = _sample_pixel_2bpp(img, cx + byte_idx * 4 + 2, cy + r)
                     p3 = _sample_pixel_2bpp(img, cx + byte_idx * 4 + 3, cy + r)
-                    b = (p0 << 6) | (p1 << 4) | (p2 << 2) | p3
+                    b = (p0 & 3) | ((p1 & 3) << 2) | ((p2 & 3) << 4) | ((p3 & 3) << 6)
                     bm.append(b)
             rebuilt_glyphs.append((w, bpr, bytes(bm)))
         else:
@@ -400,20 +400,23 @@ def _render_cyrillic_glyph_2bpp(
             p1 = grid[y][byte_idx * 4 + 1] if byte_idx * 4 + 1 < width else 0
             p2 = grid[y][byte_idx * 4 + 2] if byte_idx * 4 + 2 < width else 0
             p3 = grid[y][byte_idx * 4 + 3] if byte_idx * 4 + 3 < width else 0
-            bm.append((p0 << 6) | (p1 << 4) | (p2 << 2) | p3)
+            bm.append((p0 & 3) | ((p1 & 3) << 2) | ((p2 & 3) << 4) | ((p3 & 3) << 6))
 
     return width, bpr, bytes(bm)
 
 
 def inject_cyrillic_into_fnt(original_fnt_bytes: bytes, ttf_font_path: Optional[str] = None) -> bytes:
-    """Extends a .fnt binary with 66 Cyrillic glyphs (А..Я, а..я, Ё, ё) and updates char_map.
+    """Extends a .fnt binary with 66 Cyrillic glyphs (А..Я, а..я, Ё, ё) starting at glyph index 450.
+
+    Preserves the standard 127-entry char_map (0x0E..0x10C) so that the uint32 glyph offset
+    table starts at fixed offset 0x10C expected by the Chrono Trigger DS ARM9 engine.
 
     Args:
         original_fnt_bytes: Clean original .fnt binary data.
         ttf_font_path: Optional path to a TTF font file for Cyrillic rasterization.
 
     Returns:
-        Extended .fnt binary data containing Cyrillic glyphs and extended character mapping.
+        Extended .fnt binary data containing Cyrillic glyphs with valid 0x10C offset table.
 
     Raises:
         ValueError: If input binary is invalid or corrupted.
@@ -429,10 +432,9 @@ def inject_cyrillic_into_fnt(original_fnt_bytes: bytes, ttf_font_path: Optional[
     def_w, height_words, orig_glyph_count, reserved = struct.unpack("<BBHH", original_fnt_bytes[8:14])
     cell_h = def_w
 
-    offsets_start = _find_offsets_start(original_fnt_bytes, orig_glyph_count)
-    char_map_len = (offsets_start - 14) // 2
-    char_map = list(struct.unpack(f"<{char_map_len}H", original_fnt_bytes[14 : 14 + char_map_len * 2]))
-    offsets = list(struct.unpack(f"<{orig_glyph_count}I", original_fnt_bytes[offsets_start : offsets_start + orig_glyph_count * 4]))
+    # Standard Chrono Trigger DS font header has exactly 127 char_map entries (254 bytes) from 14 to 0x10C
+    char_map = list(struct.unpack("<127H", original_fnt_bytes[14:0x10C]))
+    offsets = list(struct.unpack(f"<{orig_glyph_count}I", original_fnt_bytes[0x10C : 0x10C + orig_glyph_count * 4]))
 
     # Extract all existing glyph data blocks
     glyphs: List[Optional[Tuple[int, int, bytes]]] = []
@@ -445,33 +447,25 @@ def inject_cyrillic_into_fnt(original_fnt_bytes: bytes, ttf_font_path: Optional[
             bm = original_fnt_bytes[off + 2 : off + 2 + bpr * cell_h]
             glyphs.append((w, bpr, bm))
 
-    # Extend char_map to 255 entries (covers all bytecodes 0x00..0xFE and maintains 4-byte offset table alignment)
-    target_char_map_len = 255
-    if len(char_map) < target_char_map_len:
-        char_map.extend([0xFFFF] * (target_char_map_len - len(char_map)))
+    # Pad glyphs list up to CYRILLIC_BASE_GLYPH (450) to prevent collisions with game control codes
+    CYRILLIC_BASE_GLYPH = 450
+    while len(glyphs) < CYRILLIC_BASE_GLYPH:
+        glyphs.append(None)
 
-    # Inject Uppercase Cyrillic (0x80..0x9F)
-    for i, ch in enumerate(CYRILLIC_UPPER):
-        code = 0x80 + i
+    # Inject Uppercase Cyrillic (0x80..0x9F -> glyphs 450..481)
+    for ch in CYRILLIC_UPPER:
         w, bpr, bm = _render_cyrillic_glyph_2bpp(ch, cell_h, ttf_font_path)
-        g_idx = len(glyphs)
         glyphs.append((w, bpr, bm))
-        char_map[code] = g_idx
 
-    # Inject Lowercase Cyrillic (0xA0..0xBF)
-    for i, ch in enumerate(CYRILLIC_LOWER):
-        code = 0xA0 + i
+    # Inject Lowercase Cyrillic (0xA0..0xBF -> glyphs 482..513)
+    for ch in CYRILLIC_LOWER:
         w, bpr, bm = _render_cyrillic_glyph_2bpp(ch, cell_h, ttf_font_path)
-        g_idx = len(glyphs)
         glyphs.append((w, bpr, bm))
-        char_map[code] = g_idx
 
-    # Inject Cyrillic Ё and ё (0xC0, 0xC1)
-    for ch, code in CYRILLIC_SPECIAL:
+    # Inject Cyrillic Ё and ё (glyphs 514, 515)
+    for ch, _code in CYRILLIC_SPECIAL:
         w, bpr, bm = _render_cyrillic_glyph_2bpp(ch, cell_h, ttf_font_path)
-        g_idx = len(glyphs)
         glyphs.append((w, bpr, bm))
-        char_map[code] = g_idx
 
     new_glyph_count = len(glyphs)
 
@@ -480,9 +474,12 @@ def inject_cyrillic_into_fnt(original_fnt_bytes: bytes, ttf_font_path: Optional[
     out.extend(zeros)
     out.extend(magic)
     out.extend(struct.pack("<BBHH", def_w, height_words, new_glyph_count, reserved))
-    out.extend(struct.pack(f"<{len(char_map)}H", *char_map))
+    out.extend(struct.pack("<127H", *char_map))
 
-    new_offsets_start = len(out)
+    assert len(out) == 0x10C, f"Header size mismatch: {len(out)} != 0x10C"
+
+    # Reserve space for 32-bit offsets starting at 0x10C
+    new_offsets_start = 0x10C
     out.extend(b"\x00" * (new_glyph_count * 4))
 
     new_offsets: List[int] = []

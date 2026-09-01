@@ -36,49 +36,66 @@ class TestTextEngine(unittest.TestCase):
     def test_msg_roundtrip_system(self):
         """Verify 1:1 bit-exact roundtrip on msg/big/system.msg."""
         orig_bytes = self._get_rom_file("msg/big/system.msg")
-        entries = dump_msg(orig_bytes)
+        entries = dump_msg(orig_bytes, font_type="big")
         self.assertGreater(len(entries), 0)
         self.assertIn("original_en", entries[0])
         self.assertIn("original_fr", entries[0])
 
-        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes)
+        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes, font_type="big")
         self.assertEqual(len(rebuilt_bytes), len(orig_bytes))
         self.assertEqual(rebuilt_bytes, orig_bytes)
 
     def test_msg_roundtrip_cmes0(self):
-        """Verify 1:1 bit-exact roundtrip on msg/big/cmes0.msg."""
+        """Verify 1:1 bit-exact roundtrip and human-readable text on msg/big/cmes0.msg."""
         orig_bytes = self._get_rom_file("msg/big/cmes0.msg")
-        entries = dump_msg(orig_bytes)
+        entries = dump_msg(orig_bytes, font_type="big")
         self.assertEqual(len(entries), 256)
 
-        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes)
+        # Verify human-readable dialogue
+        self.assertIn("Mother: Come on, sleepyhead!", entries[1]["original_en"])
+        self.assertIn("Leene's Bell", entries[2]["original_en"])
+
+        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes, font_type="big")
+        self.assertEqual(rebuilt_bytes, orig_bytes)
+
+    def test_msg_roundtrip_cmes1(self):
+        """Verify human-readable dialogue on msg/big/cmes1.msg."""
+        orig_bytes = self._get_rom_file("msg/big/cmes1.msg")
+        entries = dump_msg(orig_bytes, font_type="big")
+        self.assertEqual(entries[0]["original_en"], "Hold it right there!")
+        self.assertEqual(entries[1]["original_en"], "Robots: Oh!")
+        self.assertEqual(entries[2]["original_en"], "Robots: Bro!")
+
+        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes, font_type="big")
         self.assertEqual(rebuilt_bytes, orig_bytes)
 
     def test_msg_roundtrip_item(self):
-        """Verify 1:1 bit-exact roundtrip on msg/big/item.msg."""
+        """Verify 1:1 bit-exact roundtrip and item names on msg/big/item.msg."""
         orig_bytes = self._get_rom_file("msg/big/item.msg")
-        entries = dump_msg(orig_bytes)
+        entries = dump_msg(orig_bytes, font_type="big")
         self.assertEqual(len(entries), 347)
+        self.assertIn("Wooden Sword", entries[1]["original_en"])
+        self.assertIn("Bronze Blade", entries[2]["original_en"])
 
-        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes)
+        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes, font_type="big")
         self.assertEqual(rebuilt_bytes, orig_bytes)
 
     def test_msg_roundtrip_bgm(self):
         """Verify 1:1 bit-exact roundtrip on msg/big/bgm.msg."""
         orig_bytes = self._get_rom_file("msg/big/bgm.msg")
-        entries = dump_msg(orig_bytes)
+        entries = dump_msg(orig_bytes, font_type="big")
         self.assertEqual(len(entries), 69)
 
-        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes)
+        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes, font_type="big")
         self.assertEqual(rebuilt_bytes, orig_bytes)
 
     def test_msg_roundtrip_small(self):
         """Verify 1:1 bit-exact roundtrip on msg/small/small.msg."""
         orig_bytes = self._get_rom_file("msg/small/small.msg")
-        entries = dump_msg(orig_bytes)
+        entries = dump_msg(orig_bytes, font_type="small")
         self.assertEqual(len(entries), 48)
 
-        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes)
+        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes, font_type="small")
         self.assertEqual(rebuilt_bytes, orig_bytes)
 
     def test_all_rom_msg_files_roundtrip(self):
@@ -91,8 +108,9 @@ class TestTextEngine(unittest.TestCase):
 
         for p in msg_paths:
             orig_bytes = rom.getFileByName(p)
-            entries = dump_msg(orig_bytes)
-            rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes)
+            font_type = "small" if "small" in p.lower() else "big"
+            entries = dump_msg(orig_bytes, font_type=font_type)
+            rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes, font_type=font_type)
             self.assertEqual(
                 rebuilt_bytes,
                 orig_bytes,
@@ -102,15 +120,15 @@ class TestTextEngine(unittest.TestCase):
     def test_translation_injection(self):
         """Verify Cyrillic translation replacement and roundtrip."""
         orig_bytes = self._get_rom_file("msg/big/cmes0.msg")
-        entries = dump_msg(orig_bytes)
+        entries = dump_msg(orig_bytes, font_type="big")
 
         cyrillic_text = "Привет, Хроно!\nТы проснулся?"
         entries[0]["translation"] = cyrillic_text
 
-        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes)
+        rebuilt_bytes = build_msg(entries, original_msg_bytes=orig_bytes, font_type="big")
         self.assertNotEqual(rebuilt_bytes, orig_bytes)
 
-        re_dumped = dump_msg(rebuilt_bytes)
+        re_dumped = dump_msg(rebuilt_bytes, font_type="big")
         self.assertEqual(re_dumped[0]["original_en"], cyrillic_text)
 
     def test_build_from_scratch(self):
@@ -119,10 +137,10 @@ class TestTextEngine(unittest.TestCase):
             {"id": 0, "original_en": "Wake up, Crono!", "original_fr": "Reveille-toi, Crono!", "translation": ""},
             {"id": 1, "original_en": "Hello world!", "original_fr": "Bonjour monde!", "translation": "Привет мир!"},
         ]
-        msg_bytes = build_msg(entries, original_msg_bytes=None)
+        msg_bytes = build_msg(entries, original_msg_bytes=None, font_type="big")
         self.assertGreater(len(msg_bytes), 16)
 
-        re_dumped = dump_msg(msg_bytes)
+        re_dumped = dump_msg(msg_bytes, font_type="big")
         self.assertEqual(len(re_dumped), 2)
         self.assertEqual(re_dumped[0]["original_en"], "Wake up, Crono!")
         self.assertEqual(re_dumped[1]["original_en"], "Привет мир!")
@@ -164,7 +182,7 @@ class TestTextEngine(unittest.TestCase):
         # Verify updated msg
         with open(os.path.join(msg_big_dir, "system.msg"), "rb") as f:
             updated_sys_bytes = f.read()
-        re_dumped_sys = dump_msg(updated_sys_bytes)
+        re_dumped_sys = dump_msg(updated_sys_bytes, font_type="big")
         self.assertEqual(re_dumped_sys[0]["original_en"], "Новый системный текст")
 
     def test_invalid_magic_raises(self):

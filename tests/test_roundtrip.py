@@ -152,7 +152,7 @@ class TestCLIAndRoundtrip(unittest.TestCase):
             # Verify translated .msg file in rebuilt ROM
             cmes0_bytes = rebuilt_rom.getFileByName("msg/big/cmes0.msg")
             self.assertIsNotNone(cmes0_bytes)
-            rebuilt_entries = dump_msg(cmes0_bytes)
+            rebuilt_entries = dump_msg(cmes0_bytes, font_type="big")
             self.assertEqual(rebuilt_entries[0]["original_en"], russian_dialogue)
 
             # Verify injected font file in rebuilt ROM
@@ -163,8 +163,8 @@ class TestCLIAndRoundtrip(unittest.TestCase):
             dump_fnt_to_png_and_json(fnt_bytes, font_png, font_json)
             with open(font_json, "r", encoding="utf-8") as f:
                 font_meta = json.load(f)
-            # Original glyph count is 366; extended with 66 Cyrillic glyphs = 432 glyphs
-            self.assertGreaterEqual(font_meta["glyph_count"], 432)
+            # Original glyph count is 366; padded and extended with 66 Cyrillic glyphs = 516 glyphs
+            self.assertGreaterEqual(font_meta["glyph_count"], 516)
 
             # Verify untranslated file integrity (e.g. system.msg)
             orig_rom = ndspy.rom.NintendoDSRom.fromFile(ORIGINAL_ROM)

@@ -101,12 +101,21 @@ def unpack_rom(nds_path: str, output_dir: str) -> Dict[str, Any]:
             with open(os.path.join(ov_dir, ov_filename), "wb") as f:
                 f.write(ov.data)
 
-    paths = get_nitrofs_paths(rom)
-    for path in paths:
-        target_path = os.path.join(output_dir, "data", *path.split("/"))
-        os.makedirs(os.path.dirname(target_path), exist_ok=True)
-        with open(target_path, "wb") as f:
-            f.write(rom.getFileByName(path))
+    file_count = 0
+    if rom.filenames is not None:
+        def _extract_folder(folder, current_dir):
+            nonlocal file_count
+            os.makedirs(current_dir, exist_ok=True)
+            for i, filename in enumerate(folder.files):
+                fid = folder.firstID + i
+                if fid < len(rom.files):
+                    with open(os.path.join(current_dir, filename), "wb") as f:
+                        f.write(rom.files[fid])
+                    file_count += 1
+            for folder_name, subfolder in folder.folders:
+                _extract_folder(subfolder, os.path.join(current_dir, folder_name))
+
+        _extract_folder(rom.filenames, os.path.join(output_dir, "data"))
 
     name = rom.name.decode("latin-1", errors="ignore").rstrip("\x00") if rom.name else ""
     id_code = rom.idCode.decode("latin-1", errors="ignore").rstrip("\x00") if rom.idCode else ""
@@ -116,7 +125,7 @@ def unpack_rom(nds_path: str, output_dir: str) -> Dict[str, Any]:
         "id_code": id_code,
         "arm9_size": len(rom.arm9) if rom.arm9 is not None else 0,
         "arm7_size": len(rom.arm7) if rom.arm7 is not None else 0,
-        "file_count": len(paths),
+        "file_count": file_count,
     }
 
 
@@ -151,29 +160,50 @@ def build_rom(extracted_dir: str, output_nds_path: str, base_nds_path: Optional[
     ov_dir = os.path.join(extracted_dir, "overlays")
     if os.path.isdir(ov_dir) and rom.arm9OverlayTable:
         overlays = rom.loadArm9Overlays()
+        modified_overlays = False
         for fname in os.listdir(ov_dir):
             m = re.search(r"(\d+)\.bin$", fname)
             if m:
                 ov_id = int(m.group(1))
                 if ov_id in overlays:
                     with open(os.path.join(ov_dir, fname), "rb") as f:
-                        overlays[ov_id].data = bytearray(f.read())
-                    rom.files[overlays[ov_id].fileID] = overlays[ov_id].save(
-                        compress=overlays[ov_id].compressed
-                    )
-        rom.arm9OverlayTable = ndspy.code.saveOverlayTable(overlays)
+                        new_data = bytearray(f.read())
+                    if overlays[ov_id].data != new_data:
+                        overlays[ov_id].data = new_data
+                        rom.files[overlays[ov_id].fileID] = overlays[ov_id].save(
+                            compress=overlays[ov_id].compressed
+                        )
+                        modified_overlays = True
+        if modified_overlays:
+            rom.arm9OverlayTable = ndspy.code.saveOverlayTable(overlays)
 
     data_dir = os.path.join(extracted_dir, "data")
     if os.path.isdir(data_dir):
         if base_nds_path and os.path.isfile(base_nds_path):
+            path_to_id = {}
+
+            def _map_folder(folder, prefix=""):
+                for i, name in enumerate(folder.files):
+                    fid = folder.firstID + i
+                    p = f"{prefix}/{name}" if prefix else name
+                    path_to_id[p] = fid
+                for name, sub in folder.folders:
+                    sub_p = f"{prefix}/{name}" if prefix else name
+                    _map_folder(sub, sub_p)
+
+            if rom.filenames:
+                _map_folder(rom.filenames)
+
             for root, _, files in os.walk(data_dir):
                 for file in files:
                     full_path = os.path.join(root, file)
                     rel_path = os.path.relpath(full_path, data_dir).replace("\\", "/")
-                    with open(full_path, "rb") as f:
-                        file_data = f.read()
-                    if rom.filenames and rom.filenames.idOf(rel_path) is not None:
-                        rom.setFileByName(rel_path, file_data)
+                    fid = path_to_id.get(rel_path)
+                    if fid is not None and fid < len(rom.files):
+                        with open(full_path, "rb") as f:
+                            file_data = f.read()
+                        if rom.files[fid] != file_data:
+                            rom.files[fid] = file_data
         else:
             folder, file_bytes, _ = _create_folder_from_dir(data_dir, start_id=0)
             rom.filenames = folder
@@ -207,22 +237,19 @@ def verify_rom_integrity(original_nds_path: str, rebuilt_nds_path: str) -> bool:
         return False
     if (r1.iconBanner or b"") != (r2.iconBanner or b""):
         return False
-
-    ov1 = r1.loadArm9Overlays()
-    ov2 = r2.loadArm9Overlays()
-    if set(ov1.keys()) != set(ov2.keys()):
+    if (r1.arm9OverlayTable or b"") != (r2.arm9OverlayTable or b""):
         return False
-    for k in ov1:
-        if ov1[k].data != ov2[k].data:
+
+    if len(r1.files) != len(r2.files):
+        return False
+
+    for f1, f2 in zip(r1.files, r2.files):
+        if f1 != f2:
             return False
 
     paths1 = get_nitrofs_paths(r1)
     paths2 = get_nitrofs_paths(r2)
-    if set(paths1) != set(paths2):
+    if paths1 != paths2:
         return False
-
-    for path in paths1:
-        if r1.getFileByName(path) != r2.getFileByName(path):
-            return False
 
     return True

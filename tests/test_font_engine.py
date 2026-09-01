@@ -59,6 +59,19 @@ class TestFontEngine(unittest.TestCase):
         self.assertEqual(len(rebuilt_bytes), len(orig_bytes))
         self.assertEqual(rebuilt_bytes, orig_bytes)
 
+        # Verify pixel rasterization of '@' (glyph 356) and 'A' (glyph 39)
+        from PIL import Image
+        img = Image.open(png_path)
+        cell_w = meta["cell_width"]
+        cell_h = meta["cell_height"]
+        cols = meta["grid_columns"]
+
+        # Glyph 356 '@': row 1 should have pixels [0, 0, 1, 1, 1, 3, 0, 0] (LSB-first order)
+        g356_x = (356 % cols) * cell_w
+        g356_y = (356 // cols) * cell_h
+        row1_pixels = [img.getpixel((g356_x + c, g356_y + 1)) for c in range(8)]
+        self.assertEqual(row1_pixels, [0, 0, 1, 1, 1, 3, 0, 0])
+
     def test_font_roundtrip_small(self):
         """Verify 1:1 bit-exact roundtrip on msg/small/msgcmn.fnt."""
         orig_bytes = self._get_rom_file("msg/small/msgcmn.fnt")
@@ -83,7 +96,7 @@ class TestFontEngine(unittest.TestCase):
         self.assertEqual(rebuilt_bytes, orig_bytes)
 
     def test_inject_cyrillic_big_font(self):
-        """Verify extending big font with 66 Cyrillic glyphs."""
+        """Verify extending big font with 66 Cyrillic glyphs at base 450 with 0x10C offset table."""
         orig_bytes = self._get_rom_file("msg/big/msgcmn.fnt")
         injected_bytes = inject_cyrillic_into_fnt(orig_bytes)
 
@@ -97,38 +110,23 @@ class TestFontEngine(unittest.TestCase):
         with open(json_path, "r", encoding="utf-8") as f:
             meta = json.load(f)
 
-        orig_glyph_count = 366
-        self.assertEqual(meta["glyph_count"], orig_glyph_count + 66)
-        self.assertEqual(len(meta["glyphs"]), orig_glyph_count + 66)
+        self.assertEqual(meta["glyph_count"], 516)
+        self.assertEqual(len(meta["glyphs"]), 516)
+        self.assertEqual(len(meta["char_map"]), 127)
 
-        char_map = meta["char_map"]
-        # Verify uppercase Cyrillic (0x80..0x9F)
-        for code in range(0x80, 0xA0):
-            g_idx = char_map[code]
-            self.assertNotEqual(g_idx, 0xFFFF)
-            self.assertGreaterEqual(g_idx, orig_glyph_count)
-            self.assertLess(g_idx, meta["glyph_count"])
-
-        # Verify lowercase Cyrillic (0xA0..0xBF)
-        for code in range(0xA0, 0xC0):
-            g_idx = char_map[code]
-            self.assertNotEqual(g_idx, 0xFFFF)
-            self.assertGreaterEqual(g_idx, orig_glyph_count)
-            self.assertLess(g_idx, meta["glyph_count"])
-
-        # Verify Ё and ё (0xC0, 0xC1)
-        for code in (0xC0, 0xC1):
-            g_idx = char_map[code]
-            self.assertNotEqual(g_idx, 0xFFFF)
-            self.assertGreaterEqual(g_idx, orig_glyph_count)
-            self.assertLess(g_idx, meta["glyph_count"])
+        # Verify Cyrillic glyphs are present at indices 450..515
+        glyphs = meta["glyphs"]
+        for g_idx in range(450, 516):
+            self.assertGreater(glyphs[g_idx]["width"], 0)
+            self.assertGreater(glyphs[g_idx]["offset"], 0)
+            self.assertGreaterEqual(glyphs[g_idx]["offset"], 0x91C)
 
         # Verify bit-exact roundtrip on injected font
         rebuilt_injected = build_fnt(png_path, json_path)
         self.assertEqual(rebuilt_injected, injected_bytes)
 
     def test_inject_cyrillic_small_font(self):
-        """Verify extending small font with 66 Cyrillic glyphs."""
+        """Verify extending small font with 66 Cyrillic glyphs at base 450 with 0x10C offset table."""
         orig_bytes = self._get_rom_file("msg/small/msgcmn.fnt")
         injected_bytes = inject_cyrillic_font(orig_bytes)
 
@@ -142,15 +140,14 @@ class TestFontEngine(unittest.TestCase):
         with open(json_path, "r", encoding="utf-8") as f:
             meta = json.load(f)
 
-        orig_glyph_count = 359
-        self.assertEqual(meta["glyph_count"], orig_glyph_count + 66)
+        self.assertEqual(meta["glyph_count"], 516)
+        self.assertEqual(len(meta["char_map"]), 127)
 
-        char_map = meta["char_map"]
-        for code in range(0x80, 0xC2):
-            g_idx = char_map[code]
-            self.assertNotEqual(g_idx, 0xFFFF)
-            self.assertGreaterEqual(g_idx, orig_glyph_count)
-            self.assertLess(g_idx, meta["glyph_count"])
+        glyphs = meta["glyphs"]
+        for g_idx in range(450, 516):
+            self.assertGreater(glyphs[g_idx]["width"], 0)
+            self.assertGreater(glyphs[g_idx]["offset"], 0)
+            self.assertGreaterEqual(glyphs[g_idx]["offset"], 0x91C)
 
         rebuilt_injected = build_fnt(png_path, json_path)
         self.assertEqual(rebuilt_injected, injected_bytes)

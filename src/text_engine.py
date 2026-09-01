@@ -7,11 +7,12 @@ from typing import List, Dict, Any, Optional
 from src.char_map import tokenize_bytes, detokenize_string
 
 
-def dump_msg(msg_bytes: bytes) -> List[Dict[str, Any]]:
+def dump_msg(msg_bytes: bytes, font_type: str = "big") -> List[Dict[str, Any]]:
     """Parses binary .msg data into a list of structured entry dictionaries.
 
     Args:
         msg_bytes: Raw binary content of a .msg file.
+        font_type: 'big' for dialogue files, 'small' for system/menu files.
 
     Returns:
         List of dictionaries with keys: 'id', 'original_en', 'original_fr', 'translation'.
@@ -37,7 +38,7 @@ def dump_msg(msg_bytes: bytes) -> List[Dict[str, Any]]:
         for j in range(ptr_count)
     ]
 
-    delim = bytes([msg_bytes[ptrs[0]]]) if ptrs[0] < len(msg_bytes) else b"\x02"
+    delim = bytes([msg_bytes[ptrs[0]]]) if ptrs[0] < len(msg_bytes) else (b"\x02" if font_type == "big" else b"\x00")
 
     entries: List[Dict[str, Any]] = []
 
@@ -50,7 +51,7 @@ def dump_msg(msg_bytes: bytes) -> List[Dict[str, Any]]:
             if end1 == -1 or (p2 > p1 and end1 > p2):
                 end1 = p2 - 1 if p2 > p1 else p1
             raw_en = msg_bytes[p1:end1]
-            en_text = tokenize_bytes(raw_en)
+            en_text = tokenize_bytes(raw_en, font_type=font_type)
 
             # French text at p3
             next_p0 = (
@@ -62,7 +63,7 @@ def dump_msg(msg_bytes: bytes) -> List[Dict[str, Any]]:
             if end3 == -1 or (next_p0 > p3 and end3 > next_p0):
                 end3 = next_p0 - 1 if next_p0 > p3 else p3
             raw_fr = msg_bytes[p3:end3]
-            fr_text = tokenize_bytes(raw_fr)
+            fr_text = tokenize_bytes(raw_fr, font_type=font_type)
 
             entries.append({
                 "id": i,
@@ -83,7 +84,7 @@ def dump_msg(msg_bytes: bytes) -> List[Dict[str, Any]]:
             if end1 == -1 or end1 > next_p:
                 end1 = next_p - 1 if next_p > p1 else p1
             raw_text = msg_bytes[p1:end1]
-            text = tokenize_bytes(raw_text)
+            text = tokenize_bytes(raw_text, font_type=font_type)
 
             entries.append({
                 "id": i,
@@ -98,12 +99,14 @@ def dump_msg(msg_bytes: bytes) -> List[Dict[str, Any]]:
 def build_msg(
     entries: List[Dict[str, Any]],
     original_msg_bytes: Optional[bytes] = None,
+    font_type: str = "big",
 ) -> bytes:
     """Rebuilds binary .msg from entry dictionaries with updated pointer table.
 
     Args:
         entries: List of entry dicts containing 'original_en', 'original_fr', and optional 'translation'.
         original_msg_bytes: Optional original .msg binary for 100% bit-exact untouched preservation.
+        font_type: 'big' for dialogue files, 'small' for system/menu files.
 
     Returns:
         Compiled binary bytes of the .msg file.
@@ -112,7 +115,7 @@ def build_msg(
         has_translation = any(bool(e.get("translation")) for e in entries)
         if not has_translation:
             try:
-                orig_entries = dump_msg(original_msg_bytes)
+                orig_entries = dump_msg(original_msg_bytes, font_type=font_type)
                 if entries == orig_entries:
                     return original_msg_bytes
             except Exception:
@@ -120,10 +123,10 @@ def build_msg(
 
         lang_count = original_msg_bytes[8]
         first_p0 = struct.unpack_from("<I", original_msg_bytes, 16)[0]
-        delim = bytes([original_msg_bytes[first_p0]]) if first_p0 < len(original_msg_bytes) else b"\x02"
+        delim = bytes([original_msg_bytes[first_p0]]) if first_p0 < len(original_msg_bytes) else (b"\x02" if font_type == "big" else b"\x00")
     else:
         lang_count = 4
-        delim = b"\x02"
+        delim = b"\x02" if font_type == "big" else b"\x00"
 
     entry_count = len(entries)
     payload_start_offset = 16 + entry_count * lang_count * 4
@@ -134,8 +137,8 @@ def build_msg(
         en_text = entry.get("translation") or entry.get("original_en", "")
         fr_text = entry.get("original_fr", "")
 
-        raw_en = detokenize_string(en_text)
-        raw_fr = detokenize_string(fr_text)
+        raw_en = detokenize_string(en_text, font_type=font_type)
+        raw_fr = detokenize_string(fr_text, font_type=font_type)
 
         p0 = payload_start_offset + len(out_payload)
         p1 = p0 + 1
@@ -183,7 +186,8 @@ def dump_all_msg(nitrofs_dir: str, output_json_dir: str) -> int:
                 with open(msg_path, "rb") as f:
                     msg_bytes = f.read()
 
-                entries = dump_msg(msg_bytes)
+                font_type = "small" if "small" in rel_path.lower() else "big"
+                entries = dump_msg(msg_bytes, font_type=font_type)
 
                 with open(json_path, "w", encoding="utf-8") as f:
                     json.dump(entries, f, ensure_ascii=False, indent=2)
@@ -221,7 +225,8 @@ def insert_all_msg(json_dir: str, target_nitrofs_dir: str) -> int:
                     with open(target_msg_path, "rb") as f:
                         orig_bytes = f.read()
 
-                compiled_msg = build_msg(entries, original_msg_bytes=orig_bytes)
+                font_type = "small" if "small" in rel_path.lower() else "big"
+                compiled_msg = build_msg(entries, original_msg_bytes=orig_bytes, font_type=font_type)
 
                 os.makedirs(os.path.dirname(target_msg_path), exist_ok=True)
                 with open(target_msg_path, "wb") as f:
