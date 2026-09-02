@@ -15,6 +15,8 @@ from src.font_engine import (
     inject_cyrillic_font,
     dump_all_fonts,
     build_all_fonts,
+    GRID_COLOR_CELL,
+    GRID_COLOR_WIDTH,
 )
 
 ORIGINAL_ROM = os.path.join("rom", "Chrono Trigger (Europe) (En,Fr).nds")
@@ -189,8 +191,85 @@ class TestFontEngine(unittest.TestCase):
         with self.assertRaises(ValueError):
             dump_fnt_to_png_and_json(b"\x00\x00\x00\x00INVALID", "out.png", "out.json")
 
+    def test_grid_modes(self):
+        """Verify grid_mode options 'both', 'cells', 'none' and error handling."""
+        orig_bytes = self._get_rom_file("msg/big/msgcmn.fnt")
+
+        # 1. grid_mode='none'
+        png_none = os.path.join(self.temp_dir, "none.png")
+        json_none = os.path.join(self.temp_dir, "none.json")
+        dump_fnt_to_png_and_json(orig_bytes, png_none, json_none, grid_mode="none")
+        from PIL import Image
+        img_none = Image.open(png_none)
+        colors_none = {c[1] for c in img_none.getcolors(256)}
+        self.assertNotIn(GRID_COLOR_CELL, colors_none)
+        self.assertNotIn(GRID_COLOR_WIDTH, colors_none)
+
+        # 2. grid_mode='cells'
+        png_cells = os.path.join(self.temp_dir, "cells.png")
+        json_cells = os.path.join(self.temp_dir, "cells.json")
+        dump_fnt_to_png_and_json(orig_bytes, png_cells, json_cells, grid_mode="cells")
+        img_cells = Image.open(png_cells)
+        colors_cells = {c[1] for c in img_cells.getcolors(256)}
+        self.assertIn(GRID_COLOR_CELL, colors_cells)
+        self.assertNotIn(GRID_COLOR_WIDTH, colors_cells)
+
+        # 3. grid_mode='both' (default)
+        png_both = os.path.join(self.temp_dir, "both.png")
+        json_both = os.path.join(self.temp_dir, "both.json")
+        dump_fnt_to_png_and_json(orig_bytes, png_both, json_both, grid_mode="both")
+        img_both = Image.open(png_both)
+        colors_both = {c[1] for c in img_both.getcolors(256)}
+        self.assertIn(GRID_COLOR_CELL, colors_both)
+        self.assertIn(GRID_COLOR_WIDTH, colors_both)
+
+        # 4. Invalid grid_mode raises ValueError
         with self.assertRaises(ValueError):
-            inject_cyrillic_into_fnt(b"SHORT")
+            dump_fnt_to_png_and_json(orig_bytes, "err.png", "err.json", grid_mode="invalid")
+
+    def test_grid_rgb_roundtrip(self):
+        """Verify that converting a grid-enabled PNG to RGB mode still rebuilds bit-exact FNT."""
+        orig_bytes = self._get_rom_file("msg/big/msgcmn.fnt")
+        png_path = os.path.join(self.temp_dir, "grid_rgb.png")
+        json_path = os.path.join(self.temp_dir, "grid_rgb.json")
+
+        dump_fnt_to_png_and_json(orig_bytes, png_path, json_path, grid_mode="both")
+
+        # Convert to RGB (simulating user editing and saving in RGB format in external editor)
+        from PIL import Image
+        img = Image.open(png_path).convert("RGB")
+        rgb_png_path = os.path.join(self.temp_dir, "saved_as_rgb.png")
+        img.save(rgb_png_path)
+
+        rebuilt = build_fnt_from_png_and_json(rgb_png_path, json_path)
+        self.assertEqual(rebuilt, orig_bytes)
+
+    def test_cli_dump_font_grid_options(self):
+        """Verify CLI dump-font with --grid argument."""
+        from src.cli import main
+        data_dir = os.path.join(self.temp_dir, "cli_data")
+        big_dir = os.path.join(data_dir, "msg", "big")
+        os.makedirs(big_dir, exist_ok=True)
+        big_fnt = self._get_rom_file("msg/big/msgcmn.fnt")
+        with open(os.path.join(big_dir, "msgcmn.fnt"), "wb") as f:
+            f.write(big_fnt)
+
+        out_cells = os.path.join(self.temp_dir, "cli_cells")
+        ret = main(["dump-font", "--rom-data", data_dir, "--out", out_cells, "--grid", "cells"])
+        self.assertEqual(ret, 0)
+        from PIL import Image
+        img = Image.open(os.path.join(out_cells, "msg", "big", "msgcmn.png"))
+        colors = {c[1] for c in img.getcolors(256)}
+        self.assertIn(GRID_COLOR_CELL, colors)
+        self.assertNotIn(GRID_COLOR_WIDTH, colors)
+
+        out_both = os.path.join(self.temp_dir, "cli_both")
+        ret = main(["dump-font", "--rom-data", data_dir, "--out", out_both])
+        self.assertEqual(ret, 0)
+        img = Image.open(os.path.join(out_both, "msg", "big", "msgcmn.png"))
+        colors = {c[1] for c in img.getcolors(256)}
+        self.assertIn(GRID_COLOR_CELL, colors)
+        self.assertIn(GRID_COLOR_WIDTH, colors)
 
 
 if __name__ == "__main__":

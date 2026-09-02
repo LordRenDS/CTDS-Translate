@@ -15,17 +15,24 @@ from PIL import Image, ImageDraw, ImageFont
 FONT_MAGIC = b"FONT"
 GRID_COLUMNS = 16
 
-# Standard 4-color 2bpp palette:
+GRID_COLOR_CELL = 4   # (50, 80, 140) - Muted slate blue for cell boundaries
+GRID_COLOR_WIDTH = 5  # (180, 70, 50) - Muted coral red for glyph width marker
+
+# Standard 2bpp palette expanded with guide colors:
 # 0: Transparent/Black (0,0,0)
 # 1: Main font body/White (255,255,255)
 # 2: Anti-aliasing/Light Gray (180,180,180)
 # 3: Outline/Shadow/Dark Gray (90,90,90)
+# 4: Cell border grid (50,80,140)
+# 5: Glyph width boundary (180,70,50)
 PALETTE_2BPP = [
     0, 0, 0,
     255, 255, 255,
     180, 180, 180,
     90, 90, 90,
-] + [0] * (256 * 3 - 12)
+    50, 80, 140,
+    180, 70, 50,
+] + [0] * (256 * 3 - 18)
 
 # Cyrillic character sets
 CYRILLIC_UPPER = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"  # 32 chars: 0x80..0x9F
@@ -72,17 +79,27 @@ def _find_offsets_start(fnt_bytes: bytes, glyph_count: int) -> int:
     return 0x10C
 
 
-def dump_fnt_to_png_and_json(fnt_bytes: bytes, output_png_path: str, output_json_path: str) -> None:
+def dump_fnt_to_png_and_json(
+    fnt_bytes: bytes,
+    output_png_path: str,
+    output_json_path: str,
+    grid_mode: str = "both",
+) -> None:
     """Extracts all glyphs from a .fnt binary into a PNG image grid and JSON metadata.
 
     Args:
         fnt_bytes: Raw binary content of .fnt file.
         output_png_path: File path to write the PNG glyph sheet.
         output_json_path: File path to write the metadata JSON.
+        grid_mode: Grid overlay mode: 'both' (cell borders + glyph width markers),
+            'cells' (cell borders only), or 'none' (raw background).
 
     Raises:
-        ValueError: If header magic is invalid or binary is corrupted.
+        ValueError: If header magic is invalid, binary is corrupted, or grid_mode is unknown.
     """
+    if grid_mode not in ("both", "cells", "none"):
+        raise ValueError(f"Invalid grid_mode: {grid_mode!r}. Must be 'both', 'cells', or 'none'.")
+
     if len(fnt_bytes) < 14:
         raise ValueError("Invalid FNT binary: file size too small")
 
@@ -163,6 +180,42 @@ def dump_fnt_to_png_and_json(fnt_bytes: bytes, output_png_path: str, output_json
             "char_repr": char_name,
         })
 
+    # Apply visual grid overlays if requested
+    img_w = cols * cell_w
+    img_h = rows * cell_h
+
+    if grid_mode in ("both", "cells"):
+        # Draw cell boundary lines (GRID_COLOR_CELL)
+        v_lines = [0] + [(gx + 1) * cell_w - 1 for gx in range(cols)]
+        for vx in v_lines:
+            if vx < img_w:
+                for y in range(img_h):
+                    if img.getpixel((vx, y)) == 0:
+                        img.putpixel((vx, y), GRID_COLOR_CELL)
+
+        h_lines = [0] + [(gy + 1) * cell_h - 1 for gy in range(rows)]
+        for hy in h_lines:
+            if hy < img_h:
+                for x in range(img_w):
+                    if img.getpixel((x, hy)) == 0:
+                        img.putpixel((x, hy), GRID_COLOR_CELL)
+
+    if grid_mode == "both":
+        # Draw glyph width boundary markers (GRID_COLOR_WIDTH)
+        for i in range(glyph_count):
+            g_meta = glyphs_meta[i]
+            w = g_meta["width"]
+            if g_meta["offset"] > 0 and 0 < w < cell_w:
+                gx = i % cols
+                gy = i // cols
+                cx = gx * cell_w
+                cy = gy * cell_h
+                wx = cx + w
+                if wx < img_w:
+                    for y in range(cy, cy + cell_h):
+                        if img.getpixel((wx, y)) not in (1, 2, 3):
+                            img.putpixel((wx, y), GRID_COLOR_WIDTH)
+
     # Save PNG
     os.makedirs(os.path.dirname(os.path.abspath(output_png_path)), exist_ok=True)
     img.save(output_png_path)
@@ -178,6 +231,7 @@ def dump_fnt_to_png_and_json(fnt_bytes: bytes, output_png_path: str, output_json
         "cell_height": cell_h,
         "grid_columns": cols,
         "grid_rows": rows,
+        "grid_mode": grid_mode,
         "char_map": char_map,
         "glyphs": glyphs_meta,
     }
@@ -192,22 +246,35 @@ dump_fnt = dump_fnt_to_png_and_json
 
 
 def _sample_pixel_2bpp(img: Image.Image, x: int, y: int) -> int:
-    """Samples a single 2bpp pixel (0..3) from an image regardless of color mode."""
+    """Samples a single 2bpp pixel (0..3) from an image regardless of color mode.
+
+    Grid guide lines (palette index >= 4 or colored RGB guide pixels) are automatically
+    treated as background (0).
+    """
     if x >= img.width or y >= img.height or x < 0 or y < 0:
         return 0
 
     mode = img.mode
     if mode == "P":
-        return img.getpixel((x, y)) % 4
+        val = img.getpixel((x, y))
+        if val >= 4:
+            return 0
+        return val % 4
     elif mode in ("RGBA", "RGB", "LA", "L"):
         px = img.getpixel((x, y))
         if mode == "RGBA":
             r, g, b, a = px
             if a < 32:
                 return 0
+            if max(r, g, b) - min(r, g, b) > 20:
+                # Colored grid guide line (slate blue or coral red)
+                return 0
             lum = int(0.299 * r + 0.587 * g + 0.114 * b)
         elif mode == "RGB":
             r, g, b = px
+            if max(r, g, b) - min(r, g, b) > 20:
+                # Colored grid guide line
+                return 0
             lum = int(0.299 * r + 0.587 * g + 0.114 * b)
         elif mode == "LA":
             l, a = px
@@ -501,12 +568,13 @@ def inject_cyrillic_into_fnt(original_fnt_bytes: bytes, ttf_font_path: Optional[
 inject_cyrillic_font = inject_cyrillic_into_fnt
 
 
-def dump_all_fonts(data_dir: str, output_dir: str) -> int:
+def dump_all_fonts(data_dir: str, output_dir: str, grid_mode: str = "both") -> int:
     """Finds all .fnt files in a directory tree and dumps them to PNG + JSON.
 
     Args:
         data_dir: Root directory containing extracted NitroFS files.
         output_dir: Destination directory for dumped PNGs and JSONs.
+        grid_mode: Grid overlay mode: 'both', 'cells', or 'none'.
 
     Returns:
         Number of dumped font files.
@@ -523,7 +591,7 @@ def dump_all_fonts(data_dir: str, output_dir: str) -> int:
                 with open(os.path.join(root, file), "rb") as f:
                     fnt_bytes = f.read()
 
-                dump_fnt_to_png_and_json(fnt_bytes, out_png, out_json)
+                dump_fnt_to_png_and_json(fnt_bytes, out_png, out_json, grid_mode=grid_mode)
                 count += 1
     return count
 

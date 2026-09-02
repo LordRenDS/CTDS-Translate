@@ -6,6 +6,8 @@ import sys
 import tempfile
 from typing import List, Optional
 
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from src.font_engine import (
     build_all_fonts,
     dump_all_fonts,
@@ -62,8 +64,9 @@ def cmd_dump_font(args: argparse.Namespace) -> int:
         print(f"Error: NitroFS data directory not found: {args.rom_data}")
         return 1
 
-    print(f"Dumping fonts from '{args.rom_data}' -> '{args.out}'...")
-    count = dump_all_fonts(args.rom_data, args.out)
+    grid_mode = getattr(args, "grid", "both")
+    print(f"Dumping fonts from '{args.rom_data}' -> '{args.out}' (grid: {grid_mode})...")
+    count = dump_all_fonts(args.rom_data, args.out, grid_mode=grid_mode)
     print(f"Successfully dumped {count} font files to PNG + JSON.")
     return 0
 
@@ -263,6 +266,12 @@ def create_parser() -> argparse.ArgumentParser:
         "--out",
         default="extracted fonts",
         help="Destination directory for dumped PNG and JSON font assets (default: 'extracted fonts')",
+    )
+    p_dump_font.add_argument(
+        "--grid",
+        choices=["both", "cells", "none"],
+        default="both",
+        help="Visual grid overlay mode: 'both' (cell boundary + glyph width, default), 'cells' (cell boundary only), 'none' (raw background)",
     )
 
     # build-font
