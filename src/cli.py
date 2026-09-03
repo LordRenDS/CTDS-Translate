@@ -101,7 +101,11 @@ def cmd_inject_cyrillic_font(args: argparse.Namespace) -> int:
                 with open(fnt_path, "rb") as f:
                     fnt_bytes = f.read()
 
-                extended_fnt = inject_cyrillic_into_fnt(fnt_bytes, ttf_font_path=args.font)
+                extended_fnt = inject_cyrillic_into_fnt(
+                    fnt_bytes,
+                    ttf_font_path=args.font,
+                    assets_dir=getattr(args, "assets_dir", None),
+                )
 
                 with open(fnt_path, "wb") as f:
                     f.write(extended_fnt)
@@ -302,7 +306,12 @@ def create_parser() -> argparse.ArgumentParser:
     p_inject_cyrillic.add_argument(
         "--font",
         default=None,
-        help="Optional path to TTF font file for Cyrillic glyph rasterization",
+        help="Optional path to TTF font file for Cyrillic glyph rasterization override",
+    )
+    p_inject_cyrillic.add_argument(
+        "--assets-dir",
+        default=None,
+        help="Optional path to Cyrillic font pixel assets directory (defaults to 'assets/fonts')",
     )
 
     # build-rom

@@ -472,15 +472,94 @@ def _render_cyrillic_glyph_2bpp(
     return width, bpr, bytes(bm)
 
 
-def inject_cyrillic_into_fnt(original_fnt_bytes: bytes, ttf_font_path: Optional[str] = None) -> bytes:
+def load_cyrillic_glyphs_from_assets(
+    cell_h: int,
+    assets_dir: Optional[str] = None,
+) -> Optional[Dict[str, Tuple[int, int, bytes]]]:
+    """Loads pre-rendered Cyrillic pixel glyphs from PNG+JSON asset templates.
+
+    Args:
+        cell_h: Font cell height (8 for small, 10 for big).
+        assets_dir: Optional directory containing cyrillic_small/big PNG and JSON templates.
+
+    Returns:
+        Mapping of character string -> (width, bpr, bitmap_bytes), or None if templates not found.
+    """
+    search_dirs: List[str] = []
+    if assets_dir:
+        search_dirs.append(assets_dir)
+    module_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(module_dir)
+    search_dirs.append(os.path.join(project_root, "assets", "fonts"))
+    search_dirs.append(os.path.join(os.getcwd(), "assets", "fonts"))
+    search_dirs.append(os.path.join("assets", "fonts"))
+
+    prefix = "cyrillic_small" if cell_h <= 8 else "cyrillic_big"
+    png_path = None
+    json_path = None
+
+    for d in search_dirs:
+        cand_png = os.path.join(d, f"{prefix}.png")
+        cand_json = os.path.join(d, f"{prefix}.json")
+        if os.path.isfile(cand_png) and os.path.isfile(cand_json):
+            png_path = cand_png
+            json_path = cand_json
+            break
+
+    if not png_path or not json_path:
+        return None
+
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            meta = json.load(f)
+
+        img = Image.open(png_path)
+        cell_w = meta.get("cell_width", cell_h)
+        cols = meta.get("grid_columns", 16)
+
+        glyphs_dict: Dict[str, Tuple[int, int, bytes]] = {}
+        for item in meta.get("glyphs", []):
+            char = item["char"]
+            w = item["width"]
+            bpr = item.get("bpr", (w + 3) // 4)
+            gx = item.get("grid_x", item["index"] % cols)
+            gy = item.get("grid_y", item["index"] // cols)
+            cx = gx * cell_w
+            cy = gy * cell_h
+
+            bm = bytearray()
+            for r in range(cell_h):
+                for byte_idx in range(bpr):
+                    p0 = _sample_pixel_2bpp(img, cx + byte_idx * 4 + 0, cy + r)
+                    p1 = _sample_pixel_2bpp(img, cx + byte_idx * 4 + 1, cy + r)
+                    p2 = _sample_pixel_2bpp(img, cx + byte_idx * 4 + 2, cy + r)
+                    p3 = _sample_pixel_2bpp(img, cx + byte_idx * 4 + 3, cy + r)
+                    bm.append((p0 & 3) | ((p1 & 3) << 2) | ((p2 & 3) << 4) | ((p3 & 3) << 6))
+
+            glyphs_dict[char] = (w, bpr, bytes(bm))
+
+        return glyphs_dict
+    except Exception:
+        return None
+
+
+def inject_cyrillic_into_fnt(
+    original_fnt_bytes: bytes,
+    ttf_font_path: Optional[str] = None,
+    assets_dir: Optional[str] = None,
+) -> bytes:
     """Extends a .fnt binary with 66 Cyrillic glyphs (А..Я, а..я, Ё, ё) starting at glyph index 450.
 
     Preserves the standard 127-entry char_map (0x0E..0x10C) so that the uint32 glyph offset
     table starts at fixed offset 0x10C expected by the Chrono Trigger DS ARM9 engine.
 
+    By default, loads pixel-crafted glyph templates from assets/fonts/ (matching the original
+    game font style). If ttf_font_path is explicitly provided, it rasterizes the TTF instead.
+
     Args:
         original_fnt_bytes: Clean original .fnt binary data.
-        ttf_font_path: Optional path to a TTF font file for Cyrillic rasterization.
+        ttf_font_path: Optional path to a TTF font file for Cyrillic rasterization override.
+        assets_dir: Optional path to directory containing custom cyrillic_small/big templates.
 
     Returns:
         Extended .fnt binary data containing Cyrillic glyphs with valid 0x10C offset table.
@@ -519,20 +598,27 @@ def inject_cyrillic_into_fnt(original_fnt_bytes: bytes, ttf_font_path: Optional[
     while len(glyphs) < CYRILLIC_BASE_GLYPH:
         glyphs.append(None)
 
+    # Load pixel art templates from assets (unless explicit TTF override was provided)
+    pixel_glyphs = None
+    if not ttf_font_path:
+        pixel_glyphs = load_cyrillic_glyphs_from_assets(cell_h, assets_dir)
+
+    def _get_glyph(ch: str) -> Tuple[int, int, bytes]:
+        if pixel_glyphs and ch in pixel_glyphs:
+            return pixel_glyphs[ch]
+        return _render_cyrillic_glyph_2bpp(ch, cell_h, ttf_font_path)
+
     # Inject Uppercase Cyrillic (0x80..0x9F -> glyphs 450..481)
     for ch in CYRILLIC_UPPER:
-        w, bpr, bm = _render_cyrillic_glyph_2bpp(ch, cell_h, ttf_font_path)
-        glyphs.append((w, bpr, bm))
+        glyphs.append(_get_glyph(ch))
 
     # Inject Lowercase Cyrillic (0xA0..0xBF -> glyphs 482..513)
     for ch in CYRILLIC_LOWER:
-        w, bpr, bm = _render_cyrillic_glyph_2bpp(ch, cell_h, ttf_font_path)
-        glyphs.append((w, bpr, bm))
+        glyphs.append(_get_glyph(ch))
 
     # Inject Cyrillic Ё and ё (glyphs 514, 515)
     for ch, _code in CYRILLIC_SPECIAL:
-        w, bpr, bm = _render_cyrillic_glyph_2bpp(ch, cell_h, ttf_font_path)
-        glyphs.append((w, bpr, bm))
+        glyphs.append(_get_glyph(ch))
 
     new_glyph_count = len(glyphs)
 

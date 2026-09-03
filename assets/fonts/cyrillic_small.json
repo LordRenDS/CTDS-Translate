@@ -1,0 +1,604 @@
+{
+  "magic": "CYRFONT",
+  "cell_width": 8,
+  "cell_height": 8,
+  "grid_columns": 16,
+  "grid_rows": 5,
+  "glyph_count": 66,
+  "glyphs": [
+    {
+      "index": 0,
+      "font_glyph_id": 450,
+      "char": "А",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 0,
+      "grid_y": 0
+    },
+    {
+      "index": 1,
+      "font_glyph_id": 451,
+      "char": "Б",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 1,
+      "grid_y": 0
+    },
+    {
+      "index": 2,
+      "font_glyph_id": 452,
+      "char": "В",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 2,
+      "grid_y": 0
+    },
+    {
+      "index": 3,
+      "font_glyph_id": 453,
+      "char": "Г",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 3,
+      "grid_y": 0
+    },
+    {
+      "index": 4,
+      "font_glyph_id": 454,
+      "char": "Д",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 4,
+      "grid_y": 0
+    },
+    {
+      "index": 5,
+      "font_glyph_id": 455,
+      "char": "Е",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 5,
+      "grid_y": 0
+    },
+    {
+      "index": 6,
+      "font_glyph_id": 456,
+      "char": "Ж",
+      "width": 6,
+      "bpr": 2,
+      "grid_x": 6,
+      "grid_y": 0
+    },
+    {
+      "index": 7,
+      "font_glyph_id": 457,
+      "char": "З",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 7,
+      "grid_y": 0
+    },
+    {
+      "index": 8,
+      "font_glyph_id": 458,
+      "char": "И",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 8,
+      "grid_y": 0
+    },
+    {
+      "index": 9,
+      "font_glyph_id": 459,
+      "char": "Й",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 9,
+      "grid_y": 0
+    },
+    {
+      "index": 10,
+      "font_glyph_id": 460,
+      "char": "К",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 10,
+      "grid_y": 0
+    },
+    {
+      "index": 11,
+      "font_glyph_id": 461,
+      "char": "Л",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 11,
+      "grid_y": 0
+    },
+    {
+      "index": 12,
+      "font_glyph_id": 462,
+      "char": "М",
+      "width": 6,
+      "bpr": 2,
+      "grid_x": 12,
+      "grid_y": 0
+    },
+    {
+      "index": 13,
+      "font_glyph_id": 463,
+      "char": "Н",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 13,
+      "grid_y": 0
+    },
+    {
+      "index": 14,
+      "font_glyph_id": 464,
+      "char": "О",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 14,
+      "grid_y": 0
+    },
+    {
+      "index": 15,
+      "font_glyph_id": 465,
+      "char": "П",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 15,
+      "grid_y": 0
+    },
+    {
+      "index": 16,
+      "font_glyph_id": 466,
+      "char": "Р",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 0,
+      "grid_y": 1
+    },
+    {
+      "index": 17,
+      "font_glyph_id": 467,
+      "char": "С",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 1,
+      "grid_y": 1
+    },
+    {
+      "index": 18,
+      "font_glyph_id": 468,
+      "char": "Т",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 2,
+      "grid_y": 1
+    },
+    {
+      "index": 19,
+      "font_glyph_id": 469,
+      "char": "У",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 3,
+      "grid_y": 1
+    },
+    {
+      "index": 20,
+      "font_glyph_id": 470,
+      "char": "Ф",
+      "width": 6,
+      "bpr": 2,
+      "grid_x": 4,
+      "grid_y": 1
+    },
+    {
+      "index": 21,
+      "font_glyph_id": 471,
+      "char": "Х",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 5,
+      "grid_y": 1
+    },
+    {
+      "index": 22,
+      "font_glyph_id": 472,
+      "char": "Ц",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 6,
+      "grid_y": 1
+    },
+    {
+      "index": 23,
+      "font_glyph_id": 473,
+      "char": "Ч",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 7,
+      "grid_y": 1
+    },
+    {
+      "index": 24,
+      "font_glyph_id": 474,
+      "char": "Ш",
+      "width": 6,
+      "bpr": 2,
+      "grid_x": 8,
+      "grid_y": 1
+    },
+    {
+      "index": 25,
+      "font_glyph_id": 475,
+      "char": "Щ",
+      "width": 7,
+      "bpr": 2,
+      "grid_x": 9,
+      "grid_y": 1
+    },
+    {
+      "index": 26,
+      "font_glyph_id": 476,
+      "char": "Ъ",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 10,
+      "grid_y": 1
+    },
+    {
+      "index": 27,
+      "font_glyph_id": 477,
+      "char": "Ы",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 11,
+      "grid_y": 1
+    },
+    {
+      "index": 28,
+      "font_glyph_id": 478,
+      "char": "Ь",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 12,
+      "grid_y": 1
+    },
+    {
+      "index": 29,
+      "font_glyph_id": 479,
+      "char": "Э",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 13,
+      "grid_y": 1
+    },
+    {
+      "index": 30,
+      "font_glyph_id": 480,
+      "char": "Ю",
+      "width": 6,
+      "bpr": 2,
+      "grid_x": 14,
+      "grid_y": 1
+    },
+    {
+      "index": 31,
+      "font_glyph_id": 481,
+      "char": "Я",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 15,
+      "grid_y": 1
+    },
+    {
+      "index": 32,
+      "font_glyph_id": 482,
+      "char": "а",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 0,
+      "grid_y": 2
+    },
+    {
+      "index": 33,
+      "font_glyph_id": 483,
+      "char": "б",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 1,
+      "grid_y": 2
+    },
+    {
+      "index": 34,
+      "font_glyph_id": 484,
+      "char": "в",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 2,
+      "grid_y": 2
+    },
+    {
+      "index": 35,
+      "font_glyph_id": 485,
+      "char": "г",
+      "width": 3,
+      "bpr": 1,
+      "grid_x": 3,
+      "grid_y": 2
+    },
+    {
+      "index": 36,
+      "font_glyph_id": 486,
+      "char": "д",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 4,
+      "grid_y": 2
+    },
+    {
+      "index": 37,
+      "font_glyph_id": 487,
+      "char": "е",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 5,
+      "grid_y": 2
+    },
+    {
+      "index": 38,
+      "font_glyph_id": 488,
+      "char": "ж",
+      "width": 6,
+      "bpr": 2,
+      "grid_x": 6,
+      "grid_y": 2
+    },
+    {
+      "index": 39,
+      "font_glyph_id": 489,
+      "char": "з",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 7,
+      "grid_y": 2
+    },
+    {
+      "index": 40,
+      "font_glyph_id": 490,
+      "char": "и",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 8,
+      "grid_y": 2
+    },
+    {
+      "index": 41,
+      "font_glyph_id": 491,
+      "char": "й",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 9,
+      "grid_y": 2
+    },
+    {
+      "index": 42,
+      "font_glyph_id": 492,
+      "char": "к",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 10,
+      "grid_y": 2
+    },
+    {
+      "index": 43,
+      "font_glyph_id": 493,
+      "char": "л",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 11,
+      "grid_y": 2
+    },
+    {
+      "index": 44,
+      "font_glyph_id": 494,
+      "char": "м",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 12,
+      "grid_y": 2
+    },
+    {
+      "index": 45,
+      "font_glyph_id": 495,
+      "char": "н",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 13,
+      "grid_y": 2
+    },
+    {
+      "index": 46,
+      "font_glyph_id": 496,
+      "char": "о",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 14,
+      "grid_y": 2
+    },
+    {
+      "index": 47,
+      "font_glyph_id": 497,
+      "char": "п",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 15,
+      "grid_y": 2
+    },
+    {
+      "index": 48,
+      "font_glyph_id": 498,
+      "char": "р",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 0,
+      "grid_y": 3
+    },
+    {
+      "index": 49,
+      "font_glyph_id": 499,
+      "char": "с",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 1,
+      "grid_y": 3
+    },
+    {
+      "index": 50,
+      "font_glyph_id": 500,
+      "char": "т",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 2,
+      "grid_y": 3
+    },
+    {
+      "index": 51,
+      "font_glyph_id": 501,
+      "char": "у",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 3,
+      "grid_y": 3
+    },
+    {
+      "index": 52,
+      "font_glyph_id": 502,
+      "char": "ф",
+      "width": 6,
+      "bpr": 2,
+      "grid_x": 4,
+      "grid_y": 3
+    },
+    {
+      "index": 53,
+      "font_glyph_id": 503,
+      "char": "х",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 5,
+      "grid_y": 3
+    },
+    {
+      "index": 54,
+      "font_glyph_id": 504,
+      "char": "ц",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 6,
+      "grid_y": 3
+    },
+    {
+      "index": 55,
+      "font_glyph_id": 505,
+      "char": "ч",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 7,
+      "grid_y": 3
+    },
+    {
+      "index": 56,
+      "font_glyph_id": 506,
+      "char": "ш",
+      "width": 6,
+      "bpr": 2,
+      "grid_x": 8,
+      "grid_y": 3
+    },
+    {
+      "index": 57,
+      "font_glyph_id": 507,
+      "char": "щ",
+      "width": 7,
+      "bpr": 2,
+      "grid_x": 9,
+      "grid_y": 3
+    },
+    {
+      "index": 58,
+      "font_glyph_id": 508,
+      "char": "ъ",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 10,
+      "grid_y": 3
+    },
+    {
+      "index": 59,
+      "font_glyph_id": 509,
+      "char": "ы",
+      "width": 5,
+      "bpr": 2,
+      "grid_x": 11,
+      "grid_y": 3
+    },
+    {
+      "index": 60,
+      "font_glyph_id": 510,
+      "char": "ь",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 12,
+      "grid_y": 3
+    },
+    {
+      "index": 61,
+      "font_glyph_id": 511,
+      "char": "э",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 13,
+      "grid_y": 3
+    },
+    {
+      "index": 62,
+      "font_glyph_id": 512,
+      "char": "ю",
+      "width": 6,
+      "bpr": 2,
+      "grid_x": 14,
+      "grid_y": 3
+    },
+    {
+      "index": 63,
+      "font_glyph_id": 513,
+      "char": "я",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 15,
+      "grid_y": 3
+    },
+    {
+      "index": 64,
+      "font_glyph_id": 514,
+      "char": "Ё",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 0,
+      "grid_y": 4
+    },
+    {
+      "index": 65,
+      "font_glyph_id": 515,
+      "char": "ё",
+      "width": 4,
+      "bpr": 1,
+      "grid_x": 1,
+      "grid_y": 4
+    }
+  ]
+}

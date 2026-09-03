@@ -15,6 +15,7 @@ from src.font_engine import (
     inject_cyrillic_font,
     dump_all_fonts,
     build_all_fonts,
+    load_cyrillic_glyphs_from_assets,
     GRID_COLOR_CELL,
     GRID_COLOR_WIDTH,
 )
@@ -270,6 +271,51 @@ class TestFontEngine(unittest.TestCase):
         colors = {c[1] for c in img.getcolors(256)}
         self.assertIn(GRID_COLOR_CELL, colors)
         self.assertIn(GRID_COLOR_WIDTH, colors)
+
+    def test_load_cyrillic_assets_small_and_big(self):
+        """Verify that load_cyrillic_glyphs_from_assets loads all 66 characters for both small and big fonts."""
+        small_glyphs = load_cyrillic_glyphs_from_assets(cell_h=8)
+        self.assertIsNotNone(small_glyphs)
+        self.assertEqual(len(small_glyphs), 66)
+
+        # Check small font character metrics
+        self.assertEqual(small_glyphs["А"][0], 4)
+        self.assertEqual(small_glyphs["М"][0], 6)
+        self.assertEqual(small_glyphs["Ш"][0], 6)
+        self.assertEqual(small_glyphs["Ё"][0], 4)
+        self.assertEqual(small_glyphs["ё"][0], 4)
+
+        big_glyphs = load_cyrillic_glyphs_from_assets(cell_h=10)
+        self.assertIsNotNone(big_glyphs)
+        self.assertEqual(len(big_glyphs), 66)
+
+        # Check big font character metrics
+        self.assertEqual(big_glyphs["А"][0], 5)
+        self.assertEqual(big_glyphs["Б"][0], 6)
+        self.assertEqual(big_glyphs["М"][0], 6)
+        self.assertEqual(big_glyphs["Ж"][0], 8)
+        self.assertEqual(big_glyphs["Ё"][0], 5)
+
+    def test_inject_cyrillic_with_assets_dir(self):
+        """Verify inject_cyrillic_into_fnt using explicit assets_dir."""
+        orig_bytes = self._get_rom_file("msg/small/msgcmn.fnt")
+        assets_dir = os.path.join("assets", "fonts")
+        injected = inject_cyrillic_into_fnt(orig_bytes, assets_dir=assets_dir)
+        self.assertEqual(len(injected[4:8]), 4)
+        self.assertEqual(injected[4:8], b"FONT")
+
+    def test_inject_cyrillic_cli_assets_dir_arg(self):
+        """Verify that CLI inject-cyrillic-font accepts --assets-dir argument."""
+        from src.cli import main
+        data_dir = os.path.join(self.temp_dir, "data_cli")
+        small_dir = os.path.join(data_dir, "msg", "small")
+        os.makedirs(small_dir, exist_ok=True)
+        small_fnt = self._get_rom_file("msg/small/msgcmn.fnt")
+        with open(os.path.join(small_dir, "msgcmn.fnt"), "wb") as f:
+            f.write(small_fnt)
+
+        ret = main(["inject-cyrillic-font", "--rom-data", data_dir, "--assets-dir", "assets/fonts"])
+        self.assertEqual(ret, 0)
 
 
 if __name__ == "__main__":
