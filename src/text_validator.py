@@ -5,6 +5,7 @@ and line pixel width calculation respecting dynamic hero tokens and Cyrillic gly
 """
 
 import json
+import os
 import re
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -280,4 +281,195 @@ def wrap_text_block(
 
     formatted_text = "{PAGE}".join(formatted_pages)
     return formatted_text, warnings
+
+
+def validate_and_format_file(
+    file_path: str,
+    glyph_widths: Dict[str, int],
+    max_width_px: int = 230,
+    max_lines: int = 3,
+    auto_paginate: bool = False,
+    field: str = "translation",
+    fix: bool = False,
+    out_path: Optional[str] = None,
+    hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
+) -> Dict[str, Any]:
+    """Validates and formats dialogue or UI text within a single JSON file.
+
+    Checks line pixel widths against max_width_px, collects warnings, and optionally
+    rewraps/paginates text and writes back in-place or to out_path.
+
+    Args:
+        file_path: Path to the JSON file to inspect.
+        glyph_widths: Mapping from character to pixel width.
+        max_width_px: Maximum pixel width allowed per line (default 230px).
+        max_lines: Maximum lines allowed per page/dialog box (default 3).
+        auto_paginate: If True, automatically splits pages exceeding max_lines.
+        field: Name of string field to validate (default "translation").
+        fix: If True, writes rewrapped text back to JSON file.
+        out_path: Destination path for fixed JSON file (if None, writes in-place).
+        hero_name_width_px: Estimated pixel width for dynamic hero tokens.
+
+    Returns:
+        Dict with keys: file_path, total_entries, overflows_found, warnings, modified, changes_count.
+    """
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    if isinstance(data, list):
+        entries = data
+    elif isinstance(data, dict):
+        if "entries" in data and isinstance(data["entries"], list):
+            entries = data["entries"]
+        elif any(isinstance(v, dict) for v in data.values()):
+            entries = [v for v in data.values() if isinstance(v, dict)]
+        else:
+            entries = [data]
+    else:
+        entries = []
+
+    total_entries = len(entries)
+    overflows_count = 0
+    warnings: List[str] = []
+    changes_count = 0
+
+    for i, entry in enumerate(entries):
+        if not isinstance(entry, dict):
+            continue
+        entry_id = entry.get("id", i)
+        text = entry.get(field)
+        if not text or not isinstance(text, str):
+            continue
+
+        # Check overflows in original lines
+        raw_pages = text.split("{PAGE}")
+        for raw_page in raw_pages:
+            raw_lines = re.split(r"\r?\n|\{LINE\}", raw_page)
+            for raw_line in raw_lines:
+                line_width = calculate_line_width_px(
+                    raw_line, glyph_widths, hero_name_width_px=hero_name_width_px
+                )
+                if line_width > max_width_px:
+                    overflows_count += 1
+                    warnings.append(
+                        f"Entry {entry_id}: line exceeds {max_width_px}px ({line_width}px): '{raw_line}'"
+                    )
+
+        wrapped_text, block_warnings = wrap_text_block(
+            text,
+            glyph_widths,
+            max_width_px=max_width_px,
+            max_lines=max_lines,
+            auto_paginate=auto_paginate,
+            hero_name_width_px=hero_name_width_px,
+        )
+        for bw in block_warnings:
+            warnings.append(f"Entry {entry_id}: {bw}")
+
+        if wrapped_text != text:
+            changes_count += 1
+            if fix:
+                entry[field] = wrapped_text
+
+    modified = False
+    if fix and (changes_count > 0 or out_path is not None):
+        target_path = out_path if out_path is not None else file_path
+        parent_dir = os.path.dirname(target_path)
+        if parent_dir:
+            os.makedirs(parent_dir, exist_ok=True)
+        with open(target_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        modified = True
+
+    return {
+        "file_path": file_path,
+        "total_entries": total_entries,
+        "overflows_found": overflows_count,
+        "warnings": warnings,
+        "modified": modified,
+        "changes_count": changes_count,
+    }
+
+
+def validate_and_format_directory(
+    json_dir: str,
+    font_json_path: str = "extracted fonts/msg/big/msgcmn.json",
+    cyrillic_json_path: Optional[str] = "assets/fonts/cyrillic_big.json",
+    max_width_px: int = 230,
+    max_lines: int = 3,
+    auto_paginate: bool = False,
+    field: str = "translation",
+    fix: bool = False,
+    out_dir: Optional[str] = None,
+    hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
+    glyph_widths: Optional[Dict[str, int]] = None,
+) -> Dict[str, Any]:
+    """Recursively validates and formats all JSON translation files in a directory.
+
+    Args:
+        json_dir: Root directory containing JSON translation files.
+        font_json_path: Path to base font JSON (default extracted fonts/msg/big/msgcmn.json).
+        cyrillic_json_path: Path to Cyrillic font JSON overlay.
+        max_width_px: Maximum pixel width allowed per line (default 230px).
+        max_lines: Maximum lines allowed per page/dialog box (default 3).
+        auto_paginate: If True, automatically splits pages exceeding max_lines.
+        field: Name of string field to validate (default "translation").
+        fix: If True, writes rewrapped text back.
+        out_dir: Optional destination directory mirroring input hierarchy.
+        hero_name_width_px: Estimated pixel width for dynamic hero tokens.
+        glyph_widths: Optional preloaded glyph widths dictionary.
+
+    Returns:
+        Dict with keys: files_checked, files_modified, total_entries, total_overflows, total_warnings, file_reports.
+    """
+    if glyph_widths is None:
+        glyph_widths = load_glyph_metrics(font_json_path, cyrillic_json_path)
+
+    if not os.path.isdir(json_dir):
+        raise FileNotFoundError(f"JSON directory not found: {json_dir}")
+
+    json_files: List[str] = []
+    for root, _dirs, files in os.walk(json_dir):
+        for file in files:
+            if file.lower().endswith(".json"):
+                json_files.append(os.path.join(root, file))
+
+    json_files.sort()
+
+    file_reports: List[Dict[str, Any]] = []
+    for file_path in json_files:
+        if out_dir is not None:
+            rel_path = os.path.relpath(file_path, json_dir)
+            target_out_path = os.path.join(out_dir, rel_path)
+        else:
+            target_out_path = None
+
+        report = validate_and_format_file(
+            file_path,
+            glyph_widths=glyph_widths,
+            max_width_px=max_width_px,
+            max_lines=max_lines,
+            auto_paginate=auto_paginate,
+            field=field,
+            fix=fix,
+            out_path=target_out_path,
+            hero_name_width_px=hero_name_width_px,
+        )
+        file_reports.append(report)
+
+    files_checked = len(json_files)
+    files_modified = sum(1 for r in file_reports if r["modified"])
+    total_entries = sum(r["total_entries"] for r in file_reports)
+    total_overflows = sum(r["overflows_found"] for r in file_reports)
+    total_warnings = sum(len(r["warnings"]) for r in file_reports)
+
+    return {
+        "files_checked": files_checked,
+        "files_modified": files_modified,
+        "total_entries": total_entries,
+        "total_overflows": total_overflows,
+        "total_warnings": total_warnings,
+        "file_reports": file_reports,
+    }
 

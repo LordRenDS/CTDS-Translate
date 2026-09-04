@@ -1,5 +1,5 @@
-"""Tests for text validator font metrics and line width calculation."""
-
+import json
+import os
 import pytest
 from src.text_validator import (
     load_glyph_metrics,
@@ -7,6 +7,8 @@ from src.text_validator import (
     calculate_line_width_px,
     wrap_line_to_width,
     wrap_text_block,
+    validate_and_format_file,
+    validate_and_format_directory,
     HERO_TOKENS,
 )
 
@@ -238,4 +240,262 @@ def test_wrap_text_block_empty():
     formatted, warnings = wrap_text_block("", widths)
     assert formatted == ""
     assert warnings == []
+
+
+def test_validate_file_dry_run(tmp_path):
+    """Verify overflows are detected, warnings collected, but file is NOT modified when fix=False."""
+    widths = {ch: 10 for ch in "abcdefghijklmnopqrstuvwxyz"}
+    widths[' '] = 4
+    # "a a a a a a a a" -> 8 * 10 + 7 * 4 = 108 px > 60 px
+    data = [
+        {"id": 0, "original_en": "short", "translation": "a a a a a a a a"}
+    ]
+    file_path = tmp_path / "test_dialogue.json"
+    file_path.write_text(json.dumps(data), encoding="utf-8")
+
+    res = validate_and_format_file(
+        str(file_path),
+        glyph_widths=widths,
+        max_width_px=60,
+        fix=False,
+    )
+
+    assert res["file_path"] == str(file_path)
+    assert res["total_entries"] == 1
+    assert res["overflows_found"] == 1
+    assert len(res["warnings"]) >= 1
+    assert res["modified"] is False
+    assert res["changes_count"] == 1
+
+    # Verify original file on disk is unchanged
+    with open(file_path, "r", encoding="utf-8") as f:
+        loaded = json.load(f)
+    assert loaded[0]["translation"] == "a a a a a a a a"
+
+
+def test_validate_file_fix_in_place(tmp_path):
+    """Verify file is overwritten with rewrapped text when fix=True."""
+    widths = {ch: 10 for ch in "abcdefghijklmnopqrstuvwxyz"}
+    widths[' '] = 4
+    # "aaa bbb ccc ddd" -> wraps to ["aaa bbb", "ccc ddd"] at 70px
+    data = [
+        {"id": 1, "original_en": "aaa bbb ccc ddd", "translation": "aaa bbb ccc ddd"}
+    ]
+    file_path = tmp_path / "fix_in_place.json"
+    file_path.write_text(json.dumps(data), encoding="utf-8")
+
+    res = validate_and_format_file(
+        str(file_path),
+        glyph_widths=widths,
+        max_width_px=70,
+        fix=True,
+    )
+
+    assert res["modified"] is True
+    assert res["changes_count"] == 1
+    assert res["overflows_found"] == 1
+
+    # Verify file was updated on disk
+    with open(file_path, "r", encoding="utf-8") as f:
+        updated = json.load(f)
+    assert updated[0]["translation"] == "aaa bbb\nccc ddd"
+
+
+def test_validate_file_fix_out_path(tmp_path):
+    """Verify file is written to new out_path, leaving source file untouched."""
+    widths = {ch: 10 for ch in "abcdefghijklmnopqrstuvwxyz"}
+    widths[' '] = 4
+    data = [
+        {"id": 2, "original_en": "aaa bbb ccc", "translation": "aaa bbb ccc"}
+    ]
+    src_path = tmp_path / "src.json"
+    src_path.write_text(json.dumps(data), encoding="utf-8")
+    out_path = tmp_path / "sub" / "out.json"
+
+    res = validate_and_format_file(
+        str(src_path),
+        glyph_widths=widths,
+        max_width_px=70,
+        fix=True,
+        out_path=str(out_path),
+    )
+
+    assert res["modified"] is True
+    assert res["changes_count"] == 1
+    assert out_path.is_file()
+
+    # Source file remains untouched
+    with open(src_path, "r", encoding="utf-8") as f:
+        orig = json.load(f)
+    assert orig[0]["translation"] == "aaa bbb ccc"
+
+    # Out path has wrapped text
+    with open(out_path, "r", encoding="utf-8") as f:
+        dest = json.load(f)
+    assert dest[0]["translation"] == "aaa bbb\nccc"
+
+
+def test_validate_directory_batch(tmp_path):
+    """Creates a temp directory with multiple JSON files, runs batch validation, verifies summary counts."""
+    widths = {ch: 10 for ch in "abcdefghijklmnopqrstuvwxyz"}
+    widths[' '] = 4
+
+    dir1 = tmp_path / "folder1"
+    dir2 = tmp_path / "folder2"
+    dir1.mkdir()
+    dir2.mkdir()
+
+    # File 1: needs wrapping
+    f1 = dir1 / "file1.json"
+    f1.write_text(json.dumps([
+        {"id": 0, "translation": "aaa bbb ccc ddd"}
+    ]), encoding="utf-8")
+
+    # File 2: already short, no wrapping needed
+    f2 = dir1 / "file2.json"
+    f2.write_text(json.dumps([
+        {"id": 0, "translation": "short"}
+    ]), encoding="utf-8")
+
+    # File 3: in dir2, 2 entries (1 empty skipped, 1 needs wrapping)
+    f3 = dir2 / "file3.json"
+    f3.write_text(json.dumps([
+        {"id": 0, "translation": ""},
+        {"id": 1, "translation": "aaa bbb ccc ddd"}
+    ]), encoding="utf-8")
+
+    # Run batch validation in dry-run
+    res = validate_and_format_directory(
+        str(tmp_path),
+        max_width_px=70,
+        fix=False,
+        glyph_widths=widths,
+    )
+
+    assert res["files_checked"] == 3
+    assert res["files_modified"] == 0
+    assert res["total_entries"] == 4
+    assert res["total_overflows"] == 2
+    assert len(res["file_reports"]) == 3
+
+    # Now test with fix=True and out_dir
+    out_dir = tmp_path / "output"
+    res_fix = validate_and_format_directory(
+        str(tmp_path),
+        max_width_px=70,
+        fix=True,
+        out_dir=str(out_dir),
+        glyph_widths=widths,
+    )
+
+    assert res_fix["files_checked"] == 3
+    assert res_fix["files_modified"] == 3
+    assert (out_dir / "folder1" / "file1.json").is_file()
+    assert (out_dir / "folder1" / "file2.json").is_file()
+    assert (out_dir / "folder2" / "file3.json").is_file()
+
+
+def test_validate_file_dict_format(tmp_path):
+    """Verify validation works when JSON format is a dict with 'entries' key."""
+    widths = {ch: 10 for ch in "abcdefghijklmnopqrstuvwxyz"}
+    widths[' '] = 4
+    data = {
+        "entries": [
+            {"id": 0, "translation": "aaa bbb ccc ddd"}
+        ]
+    }
+    file_path = tmp_path / "dict_format.json"
+    file_path.write_text(json.dumps(data), encoding="utf-8")
+
+    res = validate_and_format_file(
+        str(file_path),
+        glyph_widths=widths,
+        max_width_px=70,
+        fix=True,
+    )
+
+    assert res["modified"] is True
+    with open(file_path, "r", encoding="utf-8") as f:
+        loaded = json.load(f)
+    assert loaded["entries"][0]["translation"] == "aaa bbb\nccc ddd"
+
+
+def test_validate_file_custom_field(tmp_path):
+    """Verify validation works on custom field (e.g., original_en)."""
+    widths = {ch: 10 for ch in "abcdefghijklmnopqrstuvwxyz"}
+    widths[' '] = 4
+    data = [
+        {"id": 0, "original_en": "aaa bbb ccc ddd", "translation": "short"}
+    ]
+    file_path = tmp_path / "custom_field.json"
+    file_path.write_text(json.dumps(data), encoding="utf-8")
+
+    res = validate_and_format_file(
+        str(file_path),
+        glyph_widths=widths,
+        max_width_px=70,
+        field="original_en",
+        fix=True,
+    )
+
+    assert res["changes_count"] == 1
+    with open(file_path, "r", encoding="utf-8") as f:
+        loaded = json.load(f)
+    assert loaded[0]["original_en"] == "aaa bbb\nccc ddd"
+    assert loaded[0]["translation"] == "short"
+
+
+def test_validate_file_auto_paginate(tmp_path):
+    """Verify auto_paginate=True splits lines into pages with {PAGE}."""
+    widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyz0123456789 "}
+    data = [
+        {"id": 0, "translation": "Line 1\nLine 2\nLine 3\nLine 4"}
+    ]
+    file_path = tmp_path / "auto_paginate.json"
+    file_path.write_text(json.dumps(data), encoding="utf-8")
+
+    res = validate_and_format_file(
+        str(file_path),
+        glyph_widths=widths,
+        max_width_px=230,
+        max_lines=3,
+        auto_paginate=True,
+        fix=True,
+    )
+
+    assert res["changes_count"] == 1
+    assert res["modified"] is True
+    with open(file_path, "r", encoding="utf-8") as f:
+        loaded = json.load(f)
+    assert loaded[0]["translation"] == "Line 1\nLine 2\nLine 3{PAGE}Line 4"
+
+
+def test_validate_directory_with_real_font_metrics(tmp_path):
+    """Verify batch validation works with real font files from disk and Russian Cyrillic text."""
+    data = [
+        {"id": 0, "translation": "Привет мир! Это очень длинная строка диалога на русском языке для проверки переноса строк."}
+    ]
+    json_path = tmp_path / "msg0.json"
+    json_path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+
+    res = validate_and_format_directory(
+        str(tmp_path),
+        font_json_path="extracted fonts/msg/big/msgcmn.json",
+        cyrillic_json_path="assets/fonts/cyrillic_big.json",
+        max_width_px=230,
+        fix=True,
+    )
+
+    assert res["files_checked"] == 1
+    assert res["files_modified"] == 1
+    assert res["total_overflows"] >= 1
+    with open(json_path, "r", encoding="utf-8") as f:
+        updated = json.load(f)
+    assert "\n" in updated[0]["translation"]
+
+
+def test_validate_directory_missing_dir():
+    """Verify FileNotFoundError is raised when json_dir does not exist."""
+    with pytest.raises(FileNotFoundError):
+        validate_and_format_directory("nonexistent_directory_12345")
 
