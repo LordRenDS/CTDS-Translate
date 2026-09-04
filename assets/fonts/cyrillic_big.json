@@ -46,7 +46,7 @@
       "index": 4,
       "font_glyph_id": 454,
       "char": "Д",
-      "width": 6,
+      "width": 7,
       "bpr": 2,
       "grid_x": 4,
       "grid_y": 0
@@ -181,7 +181,7 @@
       "index": 19,
       "font_glyph_id": 469,
       "char": "У",
-      "width": 6,
+      "width": 5,
       "bpr": 2,
       "grid_x": 3,
       "grid_y": 1
@@ -226,7 +226,7 @@
       "index": 24,
       "font_glyph_id": 474,
       "char": "Ш",
-      "width": 8,
+      "width": 6,
       "bpr": 2,
       "grid_x": 8,
       "grid_y": 1
@@ -235,7 +235,7 @@
       "index": 25,
       "font_glyph_id": 475,
       "char": "Щ",
-      "width": 9,
+      "width": 7,
       "bpr": 3,
       "grid_x": 9,
       "grid_y": 1
@@ -244,7 +244,7 @@
       "index": 26,
       "font_glyph_id": 476,
       "char": "Ъ",
-      "width": 5,
+      "width": 6,
       "bpr": 2,
       "grid_x": 10,
       "grid_y": 1
@@ -253,7 +253,7 @@
       "index": 27,
       "font_glyph_id": 477,
       "char": "Ы",
-      "width": 6,
+      "width": 7,
       "bpr": 2,
       "grid_x": 11,
       "grid_y": 1
@@ -280,7 +280,7 @@
       "index": 30,
       "font_glyph_id": 480,
       "char": "Ю",
-      "width": 6,
+      "width": 7,
       "bpr": 2,
       "grid_x": 14,
       "grid_y": 1
@@ -298,7 +298,7 @@
       "index": 32,
       "font_glyph_id": 482,
       "char": "а",
-      "width": 5,
+      "width": 6,
       "bpr": 2,
       "grid_x": 0,
       "grid_y": 2
@@ -334,7 +334,7 @@
       "index": 36,
       "font_glyph_id": 486,
       "char": "д",
-      "width": 6,
+      "width": 7,
       "bpr": 2,
       "grid_x": 4,
       "grid_y": 2
@@ -361,7 +361,7 @@
       "index": 39,
       "font_glyph_id": 489,
       "char": "з",
-      "width": 4,
+      "width": 5,
       "bpr": 1,
       "grid_x": 7,
       "grid_y": 2
@@ -532,7 +532,7 @@
       "index": 58,
       "font_glyph_id": 508,
       "char": "ъ",
-      "width": 5,
+      "width": 6,
       "bpr": 2,
       "grid_x": 10,
       "grid_y": 3
@@ -541,7 +541,7 @@
       "index": 59,
       "font_glyph_id": 509,
       "char": "ы",
-      "width": 6,
+      "width": 7,
       "bpr": 2,
       "grid_x": 11,
       "grid_y": 3
@@ -568,7 +568,7 @@
       "index": 62,
       "font_glyph_id": 512,
       "char": "ю",
-      "width": 6,
+      "width": 7,
       "bpr": 2,
       "grid_x": 14,
       "grid_y": 3
