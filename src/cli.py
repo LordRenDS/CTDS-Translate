@@ -15,6 +15,7 @@ from src.font_engine import (
 )
 from src.rom_manager import build_rom, unpack_rom, verify_rom_integrity
 from src.text_engine import dump_all_msg, insert_all_msg
+from src.text_validator import validate_and_format_directory
 
 
 def cmd_unpack(args: argparse.Namespace) -> int:
@@ -204,6 +205,51 @@ def cmd_roundtrip(args: argparse.Namespace) -> int:
             temp_dir_obj.cleanup()
 
 
+def cmd_validate_text_length(args: argparse.Namespace) -> int:
+    """Handles the 'validate-text-length' (and alias 'validate-text-lenght') subcommand."""
+    if not os.path.isdir(args.json_dir):
+        print(f"Error: JSON directory not found: {args.json_dir}")
+        return 1
+
+    mode_str = "[FIX & FORMAT]" if args.fix else "[DRY-RUN CHECK]"
+    print(f"=== Text Length & Dialogue Validation {mode_str} ===")
+    print(f"Directory: {args.json_dir}")
+    print(f"Max width: {args.max_width} px, Max lines: {args.max_lines}")
+
+    report = validate_and_format_directory(
+        json_dir=args.json_dir,
+        font_json_path=args.font_json,
+        cyrillic_json_path=args.cyrillic_json,
+        max_width_px=args.max_width,
+        max_lines=args.max_lines,
+        auto_paginate=args.paginate,
+        field=args.field,
+        fix=args.fix,
+        out_dir=args.out,
+    )
+
+    print(f"Files inspected: {report['files_checked']}")
+    print(f"Total entries checked: {report['total_entries']}")
+    print(f"Overlong lines detected: {report['total_overflows']}")
+    print(f"Warnings: {report['total_warnings']}")
+    print(f"Files modified: {report['files_modified']}")
+
+    if report["total_overflows"] > 0 or report["total_warnings"] > 0:
+        print("\nDetail lines for files with issues:")
+        for fr in report["file_reports"]:
+            if fr["overflows_found"] > 0 or fr["warnings"]:
+                print(
+                    f"  {fr['file_path']} (Overflows: {fr['overflows_found']}, Warnings: {len(fr['warnings'])})"
+                )
+                for w in fr["warnings"]:
+                    print(f"    - {w}")
+
+    if not args.fix and (report["total_overflows"] > 0 or report["total_warnings"] > 0):
+        return 1
+
+    return 0
+
+
 def create_parser() -> argparse.ArgumentParser:
     """Constructs and returns the top-level argument parser with all subcommands."""
     parser = argparse.ArgumentParser(
@@ -350,6 +396,66 @@ def create_parser() -> argparse.ArgumentParser:
         help="Optional custom temporary working directory for roundtrip assets",
     )
 
+    # validate-text-length & validate-text-lenght
+    for subcmd_name, subcmd_help in [
+        (
+            "validate-text-length",
+            "Validate dialogue and UI text line pixel widths against font metrics",
+        ),
+        (
+            "validate-text-lenght",
+            "Alias for validate-text-length",
+        ),
+    ]:
+        p_val = subparsers.add_parser(subcmd_name, help=subcmd_help)
+        p_val.add_argument(
+            "--json-dir",
+            default="translated text",
+            help="Directory containing translation JSON files (default: 'translated text')",
+        )
+        p_val.add_argument(
+            "--fix",
+            action="store_true",
+            help="Apply fixes and write wrapped text back to JSON files",
+        )
+        p_val.add_argument(
+            "--out",
+            default=None,
+            help="Optional output directory to save fixed files without overwriting source",
+        )
+        p_val.add_argument(
+            "--max-width",
+            type=int,
+            default=230,
+            help="Maximum allowed line pixel width (default: 230)",
+        )
+        p_val.add_argument(
+            "--max-lines",
+            type=int,
+            default=3,
+            help="Maximum lines per dialogue box page (default: 3)",
+        )
+        p_val.add_argument(
+            "--paginate",
+            action="store_true",
+            help="Automatically split pages with {PAGE} if lines exceed max-lines",
+        )
+        p_val.add_argument(
+            "--font-json",
+            default="extracted fonts/msg/big/msgcmn.json",
+            help="Path to base font metrics JSON (default: 'extracted fonts/msg/big/msgcmn.json')",
+        )
+        p_val.add_argument(
+            "--cyrillic-json",
+            default="assets/fonts/cyrillic_big.json",
+            help="Path to Cyrillic font metrics JSON (default: 'assets/fonts/cyrillic_big.json')",
+        )
+        p_val.add_argument(
+            "--field",
+            default="translation",
+            help="JSON field to validate (default: 'translation')",
+        )
+
     return parser
 
 
@@ -378,6 +484,8 @@ def main(argv: Optional[List[str]] = None) -> int:
         "inject-cyrillic-font": cmd_inject_cyrillic_font,
         "build-rom": cmd_build_rom,
         "roundtrip": cmd_roundtrip,
+        "validate-text-length": cmd_validate_text_length,
+        "validate-text-lenght": cmd_validate_text_length,
     }
 
     handler = command_handlers.get(args.command)

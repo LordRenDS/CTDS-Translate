@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import pytest
@@ -11,6 +12,7 @@ from src.text_validator import (
     validate_and_format_directory,
     HERO_TOKENS,
 )
+from src.cli import create_parser, cmd_validate_text_length
 
 
 def test_load_glyph_metrics():
@@ -498,4 +500,178 @@ def test_validate_directory_missing_dir():
     """Verify FileNotFoundError is raised when json_dir does not exist."""
     with pytest.raises(FileNotFoundError):
         validate_and_format_directory("nonexistent_directory_12345")
+
+
+def test_cli_parser_validate_text_length():
+    """Verify validate-text-length subcommand arguments parsing and defaults."""
+    parser = create_parser()
+
+    # Defaults
+    args = parser.parse_args(["validate-text-length"])
+    assert args.command == "validate-text-length"
+    assert args.json_dir == "translated text"
+    assert args.fix is False
+    assert args.out is None
+    assert args.max_width == 230
+    assert args.max_lines == 3
+    assert args.paginate is False
+    assert args.font_json == "extracted fonts/msg/big/msgcmn.json"
+    assert args.cyrillic_json == "assets/fonts/cyrillic_big.json"
+    assert args.field == "translation"
+
+    # Custom options
+    args_custom = parser.parse_args([
+        "validate-text-length",
+        "--json-dir", "custom/dir",
+        "--fix",
+        "--out", "custom/out",
+        "--max-width", "200",
+        "--max-lines", "2",
+        "--paginate",
+        "--font-json", "custom/font.json",
+        "--cyrillic-json", "custom/cyrillic.json",
+        "--field", "original_en",
+    ])
+    assert args_custom.command == "validate-text-length"
+    assert args_custom.json_dir == "custom/dir"
+    assert args_custom.fix is True
+    assert args_custom.out == "custom/out"
+    assert args_custom.max_width == 200
+    assert args_custom.max_lines == 2
+    assert args_custom.paginate is True
+    assert args_custom.font_json == "custom/font.json"
+    assert args_custom.cyrillic_json == "custom/cyrillic.json"
+    assert args_custom.field == "original_en"
+
+
+def test_cli_parser_validate_text_lenght_alias():
+    """Verify validate-text-lenght alias subcommand parses identically."""
+    parser = create_parser()
+
+    args = parser.parse_args(["validate-text-lenght"])
+    assert args.command == "validate-text-lenght"
+    assert args.json_dir == "translated text"
+    assert args.fix is False
+    assert args.out is None
+    assert args.max_width == 230
+    assert args.max_lines == 3
+    assert args.paginate is False
+    assert args.font_json == "extracted fonts/msg/big/msgcmn.json"
+    assert args.cyrillic_json == "assets/fonts/cyrillic_big.json"
+    assert args.field == "translation"
+
+    args_custom = parser.parse_args([
+        "validate-text-lenght",
+        "--json-dir", "custom/dir",
+        "--fix",
+        "--out", "custom/out",
+        "--max-width", "180",
+        "--max-lines", "4",
+        "--paginate",
+        "--font-json", "custom/font.json",
+        "--cyrillic-json", "custom/cyrillic.json",
+        "--field", "original_en",
+    ])
+    assert args_custom.command == "validate-text-lenght"
+    assert args_custom.json_dir == "custom/dir"
+    assert args_custom.fix is True
+    assert args_custom.out == "custom/out"
+    assert args_custom.max_width == 180
+    assert args_custom.max_lines == 4
+    assert args_custom.paginate is True
+    assert args_custom.font_json == "custom/font.json"
+    assert args_custom.cyrillic_json == "custom/cyrillic.json"
+    assert args_custom.field == "original_en"
+
+
+def test_cli_cmd_dry_run_success_and_overflow(tmp_path, capsys):
+    """Verify cmd_validate_text_length execution for dry-run success, overflow detection, and fix mode."""
+    # 1. Nonexistent directory
+    args_nonexistent = argparse.Namespace(
+        json_dir=str(tmp_path / "does_not_exist"),
+        font_json="extracted fonts/msg/big/msgcmn.json",
+        cyrillic_json="assets/fonts/cyrillic_big.json",
+        max_width=230,
+        max_lines=3,
+        paginate=False,
+        field="translation",
+        fix=False,
+        out=None,
+    )
+    rc = cmd_validate_text_length(args_nonexistent)
+    assert rc == 1
+    captured = capsys.readouterr().out
+    assert "Error: JSON directory not found" in captured
+
+    # 2. Clean directory with 1 entry that fits
+    clean_dir = tmp_path / "clean_dir"
+    clean_dir.mkdir()
+    (clean_dir / "clean.json").write_text(
+        json.dumps([{"id": 0, "translation": "Hello"}]),
+        encoding="utf-8",
+    )
+    args_clean = argparse.Namespace(
+        json_dir=str(clean_dir),
+        font_json="extracted fonts/msg/big/msgcmn.json",
+        cyrillic_json="assets/fonts/cyrillic_big.json",
+        max_width=230,
+        max_lines=3,
+        paginate=False,
+        field="translation",
+        fix=False,
+        out=None,
+    )
+    rc_clean = cmd_validate_text_length(args_clean)
+    assert rc_clean == 0
+    captured_clean = capsys.readouterr().out
+    assert "[DRY-RUN CHECK]" in captured_clean
+    assert "Files inspected: 1" in captured_clean
+    assert "Total entries checked: 1" in captured_clean
+    assert "Overlong lines detected: 0" in captured_clean
+    assert "Warnings: 0" in captured_clean
+    assert "Files modified: 0" in captured_clean
+
+    # 3. Overflowing file in dry-run mode (expect returncode 1)
+    overflow_dir = tmp_path / "overflow_dir"
+    overflow_dir.mkdir()
+    (overflow_dir / "overflow.json").write_text(
+        json.dumps([{"id": 0, "translation": "This is a very long line of text that exceeds sixty pixels."}]),
+        encoding="utf-8",
+    )
+    args_overflow = argparse.Namespace(
+        json_dir=str(overflow_dir),
+        font_json="extracted fonts/msg/big/msgcmn.json",
+        cyrillic_json="assets/fonts/cyrillic_big.json",
+        max_width=60,
+        max_lines=3,
+        paginate=False,
+        field="translation",
+        fix=False,
+        out=None,
+    )
+    rc_overflow = cmd_validate_text_length(args_overflow)
+    assert rc_overflow == 1
+    captured_overflow = capsys.readouterr().out
+    assert "[DRY-RUN CHECK]" in captured_overflow
+    assert "Overlong lines detected: 1" in captured_overflow
+    assert "Detail lines for files with issues:" in captured_overflow
+
+    # 4. Overflowing file in fix mode (expect returncode 0 and file modified)
+    args_fix = argparse.Namespace(
+        json_dir=str(overflow_dir),
+        font_json="extracted fonts/msg/big/msgcmn.json",
+        cyrillic_json="assets/fonts/cyrillic_big.json",
+        max_width=60,
+        max_lines=3,
+        paginate=False,
+        field="translation",
+        fix=True,
+        out=None,
+    )
+    rc_fix = cmd_validate_text_length(args_fix)
+    assert rc_fix == 0
+    captured_fix = capsys.readouterr().out
+    assert "[FIX & FORMAT]" in captured_fix
+    assert "Files modified: 1" in captured_fix
+
 
