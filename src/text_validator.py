@@ -6,7 +6,7 @@ and line pixel width calculation respecting dynamic hero tokens and Cyrillic gly
 
 import json
 import re
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 from src.char_map import BIG_CHAR_TO_GLYPH
 
@@ -161,3 +161,123 @@ def calculate_line_width_px(
         total_width += glyph_widths.get(ch, DEFAULT_CHAR_WIDTH_PX)
 
     return total_width
+
+
+def wrap_line_to_width(
+    line: str,
+    glyph_widths: Dict[str, int],
+    max_width_px: int = 230,
+    hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
+) -> List[str]:
+    """Wraps a single line of text to fit within max_width_px using proportional font metrics.
+
+    Args:
+        line: Text line to wrap (may contain control tags or hero tokens).
+        glyph_widths: Mapping from character to pixel width.
+        max_width_px: Maximum pixel width allowed per line (default 230px).
+        hero_name_width_px: Estimated pixel width for dynamic hero tokens (default 30px).
+
+    Returns:
+        List of wrapped lines.
+    """
+    if calculate_line_width_px(line, glyph_widths, hero_name_width_px) <= max_width_px:
+        return [line]
+
+    words = line.split()
+    if not words:
+        return [line]
+
+    lines: List[str] = []
+    current_line = ""
+
+    for word in words:
+        if not current_line:
+            if calculate_line_width_px(word, glyph_widths, hero_name_width_px) <= max_width_px:
+                current_line = word
+            else:
+                lines.append(word)
+                current_line = ""
+        else:
+            candidate = f"{current_line} {word}"
+            if calculate_line_width_px(candidate, glyph_widths, hero_name_width_px) <= max_width_px:
+                current_line = candidate
+            else:
+                lines.append(current_line)
+                if calculate_line_width_px(word, glyph_widths, hero_name_width_px) <= max_width_px:
+                    current_line = word
+                else:
+                    lines.append(word)
+                    current_line = ""
+
+    if current_line:
+        lines.append(current_line)
+
+    return lines
+
+
+def wrap_text_block(
+    text: str,
+    glyph_widths: Dict[str, int],
+    max_width_px: int = 230,
+    max_lines: int = 3,
+    auto_paginate: bool = False,
+    hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
+) -> Tuple[str, List[str]]:
+    """Word-wraps dialogue text and optionally paginates across dialog boxes.
+
+    Preserves existing {PAGE} delimiters, splits pages into lines (\\n or {LINE}),
+    applies word-wrapping, and enforces or warns about line limits.
+
+    Args:
+        text: Full dialogue or description text block.
+        glyph_widths: Mapping from character to pixel width.
+        max_width_px: Maximum pixel width allowed per line (default 230px).
+        max_lines: Maximum lines allowed per page/dialog box (default 3).
+        auto_paginate: If True, automatically split pages exceeding max_lines with {PAGE}.
+                       If False, keep lines together and generate a warning.
+        hero_name_width_px: Estimated pixel width for dynamic hero tokens (default 30px).
+
+    Returns:
+        Tuple of (formatted_text, list_of_warnings).
+    """
+    if not text:
+        return "", []
+
+    raw_pages = text.split("{PAGE}")
+    formatted_pages: List[str] = []
+    warnings: List[str] = []
+
+    for raw_page in raw_pages:
+        raw_lines = re.split(r"\r?\n|\{LINE\}", raw_page)
+        page_lines: List[str] = []
+        for raw_line in raw_lines:
+            page_lines.extend(
+                wrap_line_to_width(
+                    raw_line,
+                    glyph_widths,
+                    max_width_px=max_width_px,
+                    hero_name_width_px=hero_name_width_px,
+                )
+            )
+
+        num_lines = len(page_lines)
+        if auto_paginate:
+            if page_lines:
+                chunk_size = max(1, max_lines)
+                chunks = [
+                    page_lines[i : i + chunk_size]
+                    for i in range(0, num_lines, chunk_size)
+                ]
+                page_str = "{PAGE}".join("\n".join(chunk) for chunk in chunks)
+            else:
+                page_str = ""
+            formatted_pages.append(page_str)
+        else:
+            if num_lines > max_lines:
+                warnings.append(f"Page has {num_lines} lines (exceeds max {max_lines})")
+            page_str = "\n".join(page_lines)
+            formatted_pages.append(page_str)
+
+    formatted_text = "{PAGE}".join(formatted_pages)
+    return formatted_text, warnings
+

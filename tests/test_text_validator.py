@@ -5,6 +5,8 @@ from src.text_validator import (
     load_glyph_metrics,
     strip_control_tags,
     calculate_line_width_px,
+    wrap_line_to_width,
+    wrap_text_block,
     HERO_TOKENS,
 )
 
@@ -120,3 +122,120 @@ def test_calculate_line_width_px_empty():
     """Verify empty string returns 0 width."""
     widths = {'a': 5}
     assert calculate_line_width_px("", widths) == 0
+
+
+def test_wrap_line_to_width_short_line():
+    """Verify line within max_width_px is returned unchanged as a single element list."""
+    widths = {'H': 8, 'e': 5, 'l': 3, 'o': 5, ' ': 3, 'w': 7, 'r': 4, 'd': 5}
+    line = "Hello world"
+    # Total width: 8+5+3+3+5 + 3 + 7+5+4+3+5 = 24 + 3 + 24 = 51 px
+    res = wrap_line_to_width(line, widths, max_width_px=230)
+    assert res == ["Hello world"]
+
+
+def test_wrap_line_to_width_long_line_word_boundaries():
+    """Verify long line wraps cleanly at word boundaries."""
+    # Char width = 10px, space = 5px
+    widths = {ch: 10 for ch in "abcdefghijklmnopqrstuvwxyz"}
+    widths[' '] = 5
+
+    # "aaa bbb ccc"
+    # "aaa" = 30px
+    # "aaa bbb" = 30 + 5 + 30 = 65px
+    # "aaa bbb ccc" = 65 + 5 + 30 = 100px
+    line = "aaa bbb ccc ddd"
+    # With max_width_px = 70:
+    # "aaa bbb" (65px <= 70)
+    # "ccc ddd" (65px <= 70)
+    res = wrap_line_to_width(line, widths, max_width_px=70)
+    assert res == ["aaa bbb", "ccc ddd"]
+
+
+def test_wrap_line_to_width_oversized_word():
+    """Verify single word exceeding max_width_px is placed on its own line."""
+    widths = {ch: 10 for ch in "abcdefghijklmnopqrstuvwxyz"}
+    widths[' '] = 5
+    # "a"*10 = 100px > 50px
+    line = "short aaaaaaaaaa end"
+    res = wrap_line_to_width(line, widths, max_width_px=50)
+    assert res == ["short", "aaaaaaaaaa", "end"]
+
+
+def test_wrap_line_to_width_preserves_control_tags():
+    """Verify control tags stay attached to adjacent tokens without corruption."""
+    widths = {ch: 10 for ch in "abcdefghijklmnopqrstuvwxyz,!"}
+    widths[' '] = 5
+    # hero token is 30px
+    # "Hello {CRONO}, look here!{WAIT_KEY}"
+    line = "{COLOR:01}aaa bbb ccc!{WAIT_KEY}"
+    # "aaa bbb" = 65px
+    # "ccc!{WAIT_KEY}" = 40px
+    res = wrap_line_to_width(line, widths, max_width_px=70)
+    assert res == ["{COLOR:01}aaa bbb", "ccc!{WAIT_KEY}"]
+
+    # Hero tag preservation
+    line_hero = "aaa {CRONO} bbb ccc"
+    # hero_name_width_px = 30
+    # "aaa {CRONO}" = 30 + 5 + 30 = 65px
+    # "bbb ccc" = 30 + 5 + 30 = 65px
+    res_hero = wrap_line_to_width(line_hero, widths, max_width_px=70, hero_name_width_px=30)
+    assert res_hero == ["aaa {CRONO}", "bbb ccc"]
+
+
+def test_wrap_text_block_preserves_existing_pages():
+    """Verify existing {PAGE} delimiters are preserved."""
+    widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyz0123456789 "}
+    text = "Page 1 line 1\nPage 1 line 2{PAGE}Page 2 line 1"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3)
+    assert formatted == "Page 1 line 1\nPage 1 line 2{PAGE}Page 2 line 1"
+    assert warnings == []
+
+
+def test_wrap_text_block_auto_paginate_true():
+    """Verify auto_paginate=True splits 4+ lines across pages with {PAGE}."""
+    widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyz0123456789 "}
+    text = "Line 1\nLine 2\nLine 3\nLine 4\nLine 5"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3, auto_paginate=True)
+    assert formatted == "Line 1\nLine 2\nLine 3{PAGE}Line 4\nLine 5"
+    assert warnings == []
+
+
+def test_wrap_text_block_auto_paginate_false_warning():
+    """Verify auto_paginate=False keeps 4+ lines and generates warning."""
+    widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyz0123456789 "}
+    text = "Line 1\nLine 2\nLine 3\nLine 4"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3, auto_paginate=False)
+    assert formatted == "Line 1\nLine 2\nLine 3\nLine 4"
+    assert len(warnings) == 1
+    assert warnings[0] == "Page has 4 lines (exceeds max 3)"
+
+
+def test_wrap_text_block_with_line_tags():
+    """Verify {LINE} tags are treated as line breaks and normalized."""
+    widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyz0123456789 "}
+    text = "Line 1{LINE}Line 2{LINE}Line 3"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3)
+    assert formatted == "Line 1\nLine 2\nLine 3"
+    assert warnings == []
+
+
+def test_wrap_text_block_wrapping_and_auto_paginate():
+    """Verify wrapping long lines into multiple lines triggers auto_pagination."""
+    widths = {ch: 10 for ch in "abcdefghijklmnopqrstuvwxyz "}
+    # One long line: "aaa bbb ccc ddd eee fff ggg hhh"
+    # With max_width_px = 70: each chunk of 2 words is ~65px.
+    # 8 words -> 4 wrapped lines.
+    # max_lines = 2 -> 2 pages with 2 lines each.
+    text = "aaa bbb ccc ddd eee fff ggg hhh"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=70, max_lines=2, auto_paginate=True)
+    assert formatted == "aaa bbb\nccc ddd{PAGE}eee fff\nggg hhh"
+    assert warnings == []
+
+
+def test_wrap_text_block_empty():
+    """Verify empty text block returns empty string and no warnings."""
+    widths = {'a': 5}
+    formatted, warnings = wrap_text_block("", widths)
+    assert formatted == ""
+    assert warnings == []
+
