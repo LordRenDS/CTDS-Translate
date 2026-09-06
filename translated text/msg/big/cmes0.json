@@ -3,127 +3,127 @@
     "id": 0,
     "original_en": "{CRONO}...\n\n\n{GLYPH:405}09{GLYPH:406}{GLYPH:407}\n{CRONO}!\n\n{GLYPH:405}0a{GLYPH:406}{GLYPH:407}\n{CRONO}, are you still sleeping?{GLYPH:405}09{GLYPH:406}{GLYPH:408}",
     "original_fr": "{CRONO}...{GLYPH:405}0e{GLYPH:406}{GLYPH:407}\n{CRONO} !{GLYPH:405}0e{GLYPH:406}{GLYPH:407}\nRéveille-toi !{GLYPH:405}09{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "{CRONO}...\n\n\n{GLYPH:405}09{GLYPH:406}{GLYPH:407}\n{CRONO}!\n\n{GLYPH:405}0a{GLYPH:406}{GLYPH:407}\n{CRONO}, ты всё ещё спишь?{GLYPH:405}09{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 1,
     "original_en": "Mother: Come on, sleepyhead!\nIt's time to get up!{GLYPH:405}0b{GLYPH:406}{GLYPH:408}",
     "original_fr": "Gina : Tu comptes dormir toute la journée ?\nAllez, debout !{GLYPH:405}0b{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "Мама: Давай, соня!\nПора вставать!{GLYPH:405}0b{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 2,
     "original_en": "Mother: Dear me! I'd forgotten how beautiful\nLeene's Bell sounds!\n{GLYPH:405}0a{GLYPH:406}{GLYPH:408}",
     "original_fr": "Gina : Ah, le timbre de la cloche de Lynne est si\nagréable !{GLYPH:405}0a{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "Мама: Боже мой! Я уже и забыла, как красиво звучит Колокол Линн!\n{GLYPH:405}0a{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 3,
     "original_en": "Mother: You must have been so excited about the\nMillennial Fair that you couldn't sleep last night,\ncould you?{GLYPH:405}11{GLYPH:406}{GLYPH:407}\nWell, you'd better not let that giddiness get you into\nany trouble. I want you to behave yourself today!\n{GLYPH:405}0e{GLYPH:406}{GLYPH:408}",
     "original_fr": "Gina : Je parie que tu étais tellement excité {TAG:3C} l'idée\nd'aller {TAG:3C} la fête du millénaire de la fondation du\nroyaume que tu n'arrivais pas {TAG:3C} t'endormir hier\nsoir.{GLYPH:405}11{GLYPH:406}{WAIT_KEY}\nNe laisse pas ton enthousiasme t'attirer des ennuis !\nTu as intérêt {TAG:3C} ne pas faire de bêtises !{GLYPH:405}0e{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "Мама: Ты, наверное, был так взволнован из-за Ярмарки Тысячелетия, что не мог заснуть вчера, не так ли?{GLYPH:405}11{GLYPH:406}{GLYPH:407}\nНу, тебе лучше не позволять этой легкомысленности втянуть тебя в неприятности. Я хочу, чтобы ты сегодня вёл себя прилично!\n{GLYPH:405}0e{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 4,
     "original_en": "Mother: Come on, now! Out of bed with you!{GLYPH:405}09{GLYPH:406}{GLYPH:408}",
     "original_fr": "Gina : Allez, hop ! Sors du lit !{GLYPH:405}09{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "Мама: Ну же! Вставай с постели!{GLYPH:405}09{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 5,
     "original_en": "{CRONO}...{WAIT_KEY}\n{CRONO}!{WAIT_KEY}\n{CRONO}, are you still sleeping?",
     "original_fr": "{CRONO}...{WAIT_KEY}\n{CRONO} !{WAIT_KEY}\nRéveille-toi !",
-    "translation": ""
+    "translation": "{CRONO}...{WAIT_KEY}\n{CRONO}!{WAIT_KEY}\n{CRONO}, ты всё ещё спишь?"
   },
   {
     "id": 6,
     "original_en": "Mother: Come on, sleepyhead!\nIt's time to get up!",
     "original_fr": "Gina : Tu comptes dormir toute la journée ?\nAllez, debout !",
-    "translation": ""
+    "translation": "Мама: Давай, соня!\nПора вставать!"
   },
   {
     "id": 7,
     "original_en": "Mother: Dear me! I'd forgotten how beautiful\nLeene's Bell sounds!{GLYPH:405}0a{GLYPH:406}",
     "original_fr": "Gina : Ah, le timbre de la cloche de Lynne est si\nagréable !",
-    "translation": ""
+    "translation": "Мама: Боже мой! Я уже и забыла, как красиво звучит Колокол Линн!\n{GLYPH:405}0a{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 8,
     "original_en": "Mother: You must have been so excited about the\nMillennial Fair that you couldn't sleep last night,\ncould you?{WAIT_KEY}\nWell, you'd better not let that giddiness get you into\nany trouble. I want you to behave yourself today!",
     "original_fr": "Gina : Je parie que tu étais tellement excité {TAG:3C} l'idée\nd'aller {TAG:3C} la fête du millénaire de la fondation du\nroyaume que tu n'arrivais pas {TAG:3C} t'endormir hier\nsoir.{WAIT_KEY}\nNe laisse pas ton enthousiasme t'attirer des ennuis !\nTu as intérêt {TAG:3C} ne pas faire de bêtises !",
-    "translation": ""
+    "translation": "Мама: Ты, наверное, был так взволнован из-за Ярмарки Тысячелетия, что не мог заснуть вчера, не так ли?{WAIT_KEY}\nНу, тебе лучше не позволять этой легкомысленности втянуть тебя в неприятности. Я хочу, чтобы ты сегодня вёл себя прилично!"
   },
   {
     "id": 9,
     "original_en": "Mother: Come on, now! Out of bed with you!",
     "original_fr": "Gina : Allez, hop ! Sors du lit !",
-    "translation": ""
+    "translation": "Мама: Ну же, давай! Вставай с постели!"
   },
   {
     "id": 10,
     "original_en": "Mother: It's about time!\nBy the way, you're going to go see—{WAIT_KEY}\nOh dear, what was her name?\nThat young inventress friend of yours...",
     "original_fr": "Gina : Tu es enfin réveillé ! Ah oui, ton amie, euh,\nl'inventrice...{WAIT_KEY}\nOh, je n'arrive pas {TAG:3C} me souvenir de son nom !\nComment s'appelle-t-elle déj{TAG:3C} ?",
-    "translation": ""
+    "translation": "Мама: Уже пора!\nКстати, ты собираешься увидиться—{WAIT_KEY}\nОй, как же её зовут?\nТа молодая изобретательница, твоя подруга..."
   },
   {
     "id": 11,
     "original_en": "Mother: That's right! {LUCCA}!\nYou're going to stop by and see her new invention\nat the fair, aren't you?",
     "original_fr": "Gina : C'est ça ! {LUCCA} !{WAIT_KEY}\nTu comptes aller voir sa toute dernière invention\naujourd'hui, n'est-ce pas ?",
-    "translation": ""
+    "translation": "Мама: Верно! {LUCCA}!\nТы собираешься заглянуть к ней и увидеть её новое изобретение на ярмарке, не так ли?"
   },
   {
     "id": 12,
     "original_en": "Mother: Well, run along, then.\nAnd be back before dinner!",
     "original_fr": "Gina : Ne rentre pas trop tard, d'accord ?",
-    "translation": ""
+    "translation": "Мама: Что ж, тогда иди. И вернись до ужина!"
   },
   {
     "id": 13,
     "original_en": "Mother: Oh, I almost forgot!\nHere's your allowance, dear.\nHave fun at the fair!{WAIT_KEY}{GLYPH:384}\n\nObtained 200 G!",
     "original_fr": "Gina : Ah, j'oubliais. Voici ton argent de poche.\nAllez, amuse-toi bien {TAG:3C} la foire !{WAIT_KEY}{GLYPH:384}\n\nVous obtenez 200 G !",
-    "translation": ""
+    "translation": "Мама: О, я почти забыла!\nВот твои карманные деньги, дорогой.\nПриятного времяпрепровождения на ярмарке!{WAIT_KEY}{GLYPH:384}\n\nПолучено 200 G!"
   },
   {
     "id": 14,
     "original_en": "Rest for a while?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous reposer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Оттдохнуть немного?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 15,
     "original_en": "{GLYPH:384}\nObtained Doppel Doll.",
     "original_fr": "{GLYPH:384}\nVous obtenez la poupée clone !",
-    "translation": ""
+    "translation": "{GLYPH:384}\nПолучена Кукла Двойник."
   },
   {
     "id": 16,
     "original_en": "Mother: Hello, {CRONO}!",
     "original_fr": "Gina : Tu as besoin de quelque chose ?",
-    "translation": ""
+    "translation": "Мама: Привет, {CRONO}!"
   },
   {
     "id": 17,
     "original_en": "{CRONO}'s Mother: Oh, hello!\nIs {CRONO} all right?",
     "original_fr": "Gina : Oh, bonjour !\nEst-ce que {CRONO} va bien ?",
-    "translation": ""
+    "translation": "Мама {CRONO}: О, привет!\nС {CRONO} всё в порядке?"
   },
   {
     "id": 18,
     "original_en": "{MARLE}: He...he's great.{WAIT_KEY}\nB-better than great.",
     "original_fr": "{MARLE} : Euh... oui, il va bien.",
-    "translation": ""
+    "translation": "Марли: Он... он великолепен.{WAIT_KEY}\nЛ-лучше, чем великолепен."
   },
   {
     "id": 19,
     "original_en": "{LUCCA}: Yeah...{WAIT_KEY}\n...{WAIT_KEY}\nHe's just...{WAIT_KEY}\nHe's just fine.",
     "original_fr": "{LUCCA} : Oui...{WAIT_KEY}\n...{WAIT_KEY}\nIl va...{WAIT_KEY}\nIl va bien.",
-    "translation": ""
+    "translation": "{LUCCA}: Да...{WAIT_KEY}\n...{WAIT_KEY}\nОн просто...{WAIT_KEY}\nС ним все с порядке."
   },
   {
     "id": 20,
     "original_en": "{FROG}: Aye...{WAIT_KEY}\nThe lad is the very...very picture of health.",
     "original_fr": "{FROG} : Ah... Ou-oui !\nIl...{WAIT_KEY}\nIl se porte bien.",
-    "translation": ""
+    "translation": "{FROG} : Ага...{WAIT_KEY}\nЭтот парень просто... воплощение здоровья."
   },
   {
     "id": 21,
