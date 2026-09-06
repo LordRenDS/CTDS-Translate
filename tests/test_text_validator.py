@@ -11,6 +11,9 @@ from src.text_validator import (
     validate_and_format_file,
     validate_and_format_directory,
     HERO_TOKENS,
+    TextWindowPreset,
+    WINDOW_PRESETS,
+    get_preset_for_file,
 )
 from src.cli import create_parser, cmd_validate_text_length
 
@@ -838,3 +841,194 @@ def test_cli_cmd_validate_text_length_no_reflow(tmp_path, capsys):
     with open(test_dir / "test.json", "r", encoding="utf-8") as f:
         content_default = json.load(f)
     assert content_default[0]["translation"] == "first line second line"
+
+
+def test_get_preset_for_file_matching():
+    """Verify auto-detection of window presets for all 9 types and fallback to dialogue."""
+    # 1. Dialogue files
+    assert get_preset_for_file("msg01.json").name == "dialogue"
+    assert get_preset_for_file("extracted text/msg/big/cmes2.json").name == "dialogue"
+    assert get_preset_for_file("kmes0.json").name == "dialogue"
+    assert get_preset_for_file("mesi_test.json").name == "dialogue"
+    assert get_preset_for_file("mesk1.json").name == "dialogue"
+    assert get_preset_for_file("mess2.json").name == "dialogue"
+    assert get_preset_for_file("mest3.json").name == "dialogue"
+    assert get_preset_for_file("exms4.json").name == "dialogue"
+    assert get_preset_for_file("comu5.json").name == "dialogue"
+
+    # 2. Tutorial / System hint files
+    p_tut = get_preset_for_file("tutorial.json")
+    assert p_tut.name == "tutorial"
+    assert p_tut.max_lines == 6
+    assert p_tut.max_width_px == 230
+    assert p_tut.reflow is True
+    assert p_tut.font_type == "big"
+    assert get_preset_for_file("start.json").name == "tutorial"
+    assert get_preset_for_file("ev_title.json").name == "tutorial"
+
+    # 3. Encyclopedia / Character bio files
+    p_encyclopedia = get_preset_for_file("player.json")
+    assert p_encyclopedia.name == "encyclopedia"
+    assert p_encyclopedia.max_lines == 6
+    assert p_encyclopedia.max_width_px == 215
+    assert get_preset_for_file("ex_montec.json").name == "encyclopedia"
+    assert get_preset_for_file("ex_itemget.json").name == "encyclopedia"
+    assert get_preset_for_file("ex_illust.json").name == "encyclopedia"
+    assert get_preset_for_file("ex_ending.json").name == "encyclopedia"
+
+    # 4. Item descriptions
+    p_item_desc = get_preset_for_file("item_mes.json")
+    assert p_item_desc.name == "item_desc"
+    assert p_item_desc.max_lines == 2
+    assert p_item_desc.max_width_px == 195
+    assert get_preset_for_file("item_mes2.json").name == "item_desc"
+
+    # 5. Item sub (short tooltips)
+    p_item_sub = get_preset_for_file("item_sub.json")
+    assert p_item_sub.name == "item_sub"
+    assert p_item_sub.max_lines == 2
+    assert p_item_sub.max_width_px == 110
+    assert p_item_sub.reflow is False
+
+    # 6. Item name
+    p_item_name = get_preset_for_file("item.json")
+    assert p_item_name.name == "item_name"
+    assert p_item_name.max_lines == 1
+    assert p_item_name.max_width_px == 105
+    assert p_item_name.reflow is False
+    assert get_preset_for_file("ex_item.json").name == "item_name"
+
+    # 7. Battle tooltips
+    p_battle = get_preset_for_file("battle.json")
+    assert p_battle.name == "battle"
+    assert p_battle.max_lines == 2
+    assert p_battle.max_width_px == 210
+    assert p_battle.reflow is True
+
+    # 8. Menu screens
+    p_menu = get_preset_for_file("menu.json")
+    assert p_menu.name == "menu"
+    assert p_menu.max_lines == 2
+    assert p_menu.max_width_px == 200
+    assert p_menu.reflow is False
+    assert get_preset_for_file("wireless0.json").name == "menu"
+    assert get_preset_for_file("ques0.json").name == "menu"
+
+    # 9. Small system font files
+    p_small = get_preset_for_file("msg/small/system.json")
+    assert p_small.name == "small_system"
+    assert p_small.max_lines == 1
+    assert p_small.max_width_px == 130
+    assert p_small.reflow is False
+    assert p_small.font_type == "small"
+
+    assert get_preset_for_file(r"msg\small\sfc_item.json").name == "small_system"
+    assert get_preset_for_file("sfc_01.json").name == "small_system"
+    assert get_preset_for_file("system.json").name == "small_system"
+
+    # Fallback to dialogue
+    assert get_preset_for_file("unknown_script.json").name == "dialogue"
+
+
+def test_get_preset_for_file_explicit():
+    """Verify explicit preset override and auto behavior."""
+    # Explicit override takes priority over path
+    p = get_preset_for_file("msg01.json", explicit_preset="tutorial")
+    assert p.name == "tutorial"
+    assert p.max_lines == 6
+
+    p2 = get_preset_for_file("tutorial.json", explicit_preset="dialogue")
+    assert p2.name == "dialogue"
+    assert p2.max_lines == 3
+
+    # explicit_preset="auto" or None uses path pattern matching
+    assert get_preset_for_file("tutorial.json", explicit_preset="auto").name == "tutorial"
+    assert get_preset_for_file("tutorial.json", explicit_preset=None).name == "tutorial"
+    assert get_preset_for_file("msg01.json", explicit_preset="auto").name == "dialogue"
+
+    # Invalid preset raises ValueError
+    with pytest.raises(ValueError, match="Unknown window preset"):
+        get_preset_for_file("msg01.json", explicit_preset="nonexistent_preset")
+
+
+def test_validate_file_auto_preset_tutorial(tmp_path):
+    """Verify tutorial.json allows up to 6 lines without warnings under auto-detected preset."""
+    widths = {'a': 5, ' ': 3}
+    data = [{"id": 0, "translation": "line1\n\nline2\n\nline3\n\nline4\n\nline5"}]
+    file_path = tmp_path / "tutorial.json"
+    file_path.write_text(json.dumps(data), encoding="utf-8")
+
+    # Auto preset resolves to tutorial (max_lines=6) -> 0 warnings
+    res = validate_and_format_file(str(file_path), widths, preset="auto")
+    assert res["preset"] == "tutorial"
+    assert len(res["warnings"]) == 0
+
+    # Overridden with dialogue preset (max_lines=3) -> warning for 5 lines
+    res_dialogue = validate_and_format_file(str(file_path), widths, preset="dialogue")
+    assert res_dialogue["preset"] == "dialogue"
+    assert any("exceeds max 3" in w for w in res_dialogue["warnings"])
+
+
+
+def test_validate_file_auto_preset_item_sub(tmp_path):
+    """Verify item_sub.json applies 110px limit and reflow=False under auto-detected preset."""
+    # 24 chars * 5px = 120px > 110px limit of item_sub, but < 230px of dialogue
+    widths = {'a': 5, ' ': 3}
+    data = [{"id": 0, "translation": "a" * 24}]
+    file_path = tmp_path / "item_sub.json"
+    file_path.write_text(json.dumps(data), encoding="utf-8")
+
+    # Auto preset resolves to item_sub (max_width_px=110) -> overflow detected
+    res = validate_and_format_file(str(file_path), widths, preset="auto")
+    assert res["preset"] == "item_sub"
+    assert res["overflows_found"] == 1
+
+    # Verify reflow=False preserves non-overflowing line breaks
+    data_lines = [{"id": 0, "translation": "short1\nshort2"}]
+    file_path_lines = tmp_path / "item_sub_lines.json"
+    file_path_lines.write_text(json.dumps(data_lines), encoding="utf-8")
+    res_lines = validate_and_format_file(
+        str(file_path_lines), widths, preset="item_sub", fix=True
+    )
+    assert res_lines["modified"] is False
+    with open(file_path_lines, "r", encoding="utf-8") as f:
+        loaded = json.load(f)
+    assert loaded[0]["translation"] == "short1\nshort2"
+
+
+def test_validate_directory_auto_presets(tmp_path):
+    """Verify validate_and_format_directory applies presets per-file and reports presets used."""
+    widths = {'a': 5, ' ': 3}
+
+    # tutorial file with 5 lines
+    tut_file = tmp_path / "tutorial.json"
+    tut_file.write_text(json.dumps([{"id": 0, "translation": "1\n2\n3\n4\n5"}]), encoding="utf-8")
+
+    # item_sub file with 120px line (exceeds 110px)
+    sub_file = tmp_path / "item_sub.json"
+    sub_file.write_text(json.dumps([{"id": 0, "translation": "a" * 24}]), encoding="utf-8")
+
+    # normal dialogue file
+    msg_file = tmp_path / "msg01.json"
+    msg_file.write_text(json.dumps([{"id": 0, "translation": "hello world"}]), encoding="utf-8")
+
+    report = validate_and_format_directory(
+        str(tmp_path),
+        glyph_widths=widths,
+        preset="auto",
+    )
+
+    assert report["files_checked"] == 3
+    # tutorial has 0 overflows, msg01 has 0 overflows, item_sub has 1 overflow
+    assert report["total_overflows"] == 1
+
+    file_presets = {os.path.basename(r["file_path"]): r["preset"] for r in report["file_reports"]}
+    assert file_presets["tutorial.json"] == "tutorial"
+    assert file_presets["item_sub.json"] == "item_sub"
+    assert file_presets["msg01.json"] == "dialogue"
+
+    assert "presets_used" in report
+    assert report["presets_used"]["tutorial"] == 1
+    assert report["presets_used"]["item_sub"] == 1
+    assert report["presets_used"]["dialogue"] == 1
+

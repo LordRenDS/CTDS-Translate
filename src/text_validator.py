@@ -4,12 +4,196 @@ Provides proportional font metrics (VWF) loading, control tag stripping,
 and line pixel width calculation respecting dynamic hero tokens and Cyrillic glyphs.
 """
 
+from dataclasses import dataclass
+import fnmatch
 import json
 import os
 import re
 from typing import Any, Dict, List, Optional, Tuple
 
 from src.char_map import BIG_CHAR_TO_GLYPH
+
+
+@dataclass(frozen=True)
+class TextWindowPreset:
+    """Configuration preset for dialogue, hint, or UI text windows."""
+
+    name: str
+    max_width_px: int
+    max_lines: int
+    reflow: bool
+    font_type: str  # "big" or "small"
+    patterns: Tuple[str, ...]
+
+
+WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
+    "dialogue": TextWindowPreset(
+        name="dialogue",
+        max_width_px=230,
+        max_lines=3,
+        reflow=True,
+        font_type="big",
+        patterns=(
+            "msg*.json",
+            "cmes*.json",
+            "kmes*.json",
+            "mesi*.json",
+            "mesk*.json",
+            "mess*.json",
+            "mest*.json",
+            "exms*.json",
+            "comu*.json",
+        ),
+    ),
+    "tutorial": TextWindowPreset(
+        name="tutorial",
+        max_width_px=230,
+        max_lines=6,
+        reflow=True,
+        font_type="big",
+        patterns=("tutorial.json", "start.json", "ev_title.json"),
+    ),
+    "encyclopedia": TextWindowPreset(
+        name="encyclopedia",
+        max_width_px=215,
+        max_lines=6,
+        reflow=True,
+        font_type="big",
+        patterns=(
+            "player.json",
+            "ex_mon*.json",
+            "ex_itemget.json",
+            "ex_illust.json",
+            "ex_ending.json",
+        ),
+    ),
+    "item_desc": TextWindowPreset(
+        name="item_desc",
+        max_width_px=195,
+        max_lines=2,
+        reflow=True,
+        font_type="big",
+        patterns=("item_mes.json", "item_mes2.json"),
+    ),
+    "item_sub": TextWindowPreset(
+        name="item_sub",
+        max_width_px=110,
+        max_lines=2,
+        reflow=False,
+        font_type="big",
+        patterns=("item_sub.json",),
+    ),
+    "item_name": TextWindowPreset(
+        name="item_name",
+        max_width_px=105,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=("item.json", "ex_item.json"),
+    ),
+    "battle": TextWindowPreset(
+        name="battle",
+        max_width_px=210,
+        max_lines=2,
+        reflow=True,
+        font_type="big",
+        patterns=("battle.json",),
+    ),
+    "menu": TextWindowPreset(
+        name="menu",
+        max_width_px=200,
+        max_lines=2,
+        reflow=False,
+        font_type="big",
+        patterns=("menu.json", "wireless*.json", "ques0.json"),
+    ),
+    "small_system": TextWindowPreset(
+        name="small_system",
+        max_width_px=130,
+        max_lines=1,
+        reflow=False,
+        font_type="small",
+        patterns=(
+            "msg/small/*.json",
+            "msg\\small\\*.json",
+            "sfc_*.json",
+            "system.json",
+        ),
+    ),
+}
+
+
+def get_preset_for_file(
+    file_path: str, explicit_preset: Optional[str] = None
+) -> TextWindowPreset:
+    """Resolves the appropriate TextWindowPreset for a given file path.
+
+    Args:
+        file_path: Path to the JSON file (can be absolute, relative, or basename).
+        explicit_preset: Optional preset name override (e.g., 'tutorial', 'auto').
+
+    Returns:
+        The matched TextWindowPreset instance.
+
+    Raises:
+        ValueError: If explicit_preset is not recognized and not 'auto' or None.
+    """
+    if explicit_preset is not None and explicit_preset != "auto":
+        if explicit_preset in WINDOW_PRESETS:
+            return WINDOW_PRESETS[explicit_preset]
+        raise ValueError(
+            f"Unknown window preset: '{explicit_preset}'. "
+            f"Valid presets: {list(WINDOW_PRESETS.keys())}"
+        )
+
+    norm_path = file_path.replace("\\", "/")
+    base_name = os.path.basename(file_path)
+
+    # Check small_system first if file is inside a small directory or starts with sfc_
+    is_small_candidate = (
+        "/small/" in norm_path
+        or norm_path.startswith("small/")
+        or norm_path.endswith("/small")
+        or base_name.startswith("sfc_")
+    )
+    if is_small_candidate:
+        small_preset = WINDOW_PRESETS["small_system"]
+        for pat in small_preset.patterns:
+            pat_norm = pat.replace("\\", "/")
+            if "/" in pat_norm:
+                if fnmatch.fnmatch(norm_path, pat_norm) or fnmatch.fnmatch(norm_path, f"*{pat_norm}"):
+                    return small_preset
+            else:
+                if fnmatch.fnmatch(base_name, pat):
+                    return small_preset
+
+    # Check non-dialogue presets first, then dialogue
+    preset_order = [
+        "small_system",
+        "tutorial",
+        "encyclopedia",
+        "item_desc",
+        "item_sub",
+        "item_name",
+        "battle",
+        "menu",
+        "dialogue",
+    ]
+
+    for preset_name in preset_order:
+        preset = WINDOW_PRESETS[preset_name]
+        for pat in preset.patterns:
+            pat_norm = pat.replace("\\", "/")
+            if "/" in pat_norm:
+                if fnmatch.fnmatch(norm_path, pat_norm) or fnmatch.fnmatch(norm_path, f"*{pat_norm}"):
+                    return preset
+            else:
+                if fnmatch.fnmatch(base_name, pat):
+                    return preset
+
+    # Default fallback
+    return WINDOW_PRESETS["dialogue"]
+
 
 # Dynamic hero name tokens that represent variable visual text in-game
 HERO_TOKENS = frozenset({
@@ -306,25 +490,26 @@ def wrap_text_block(
 def validate_and_format_file(
     file_path: str,
     glyph_widths: Dict[str, int],
-    max_width_px: int = 230,
-    max_lines: int = 3,
+    max_width_px: Optional[int] = None,
+    max_lines: Optional[int] = None,
     auto_paginate: bool = False,
     field: str = "translation",
     fix: bool = False,
     out_path: Optional[str] = None,
     hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
-    reflow: bool = True,
+    reflow: Optional[bool] = None,
+    preset: str = "auto",
 ) -> Dict[str, Any]:
     """Validates and formats dialogue or UI text within a single JSON file.
 
-    Checks line pixel widths against max_width_px, collects warnings, and optionally
+    Checks line pixel widths against effective max_width_px, collects warnings, and optionally
     rewraps/paginates text and writes back in-place or to out_path.
 
     Args:
         file_path: Path to the JSON file to inspect.
         glyph_widths: Mapping from character to pixel width.
-        max_width_px: Maximum pixel width allowed per line (default 230px).
-        max_lines: Maximum lines allowed per page/dialog box (default 3).
+        max_width_px: Maximum pixel width allowed per line (overrides preset if not None).
+        max_lines: Maximum lines allowed per page/dialog box (overrides preset if not None).
         auto_paginate: If True, automatically splits pages exceeding max_lines.
         field: Name of string field to validate (default "translation").
         fix: If True, writes rewrapped text back to JSON file.
@@ -332,10 +517,21 @@ def validate_and_format_file(
         hero_name_width_px: Estimated pixel width for dynamic hero tokens.
         reflow: If True, collapse ragged single line breaks and re-wrap paragraphs.
                 If False, preserve existing line breaks if within width.
+                (overrides preset if not None).
+        preset: Window preset name or "auto" for filename-based detection.
 
     Returns:
-        Dict with keys: file_path, total_entries, overflows_found, warnings, modified, changes_count.
+        Dict with keys: file_path, total_entries, overflows_found, warnings, modified, changes_count, preset.
     """
+    effective_preset = get_preset_for_file(file_path, explicit_preset=preset)
+    effective_max_width_px = (
+        max_width_px if max_width_px is not None else effective_preset.max_width_px
+    )
+    effective_max_lines = (
+        max_lines if max_lines is not None else effective_preset.max_lines
+    )
+    effective_reflow = reflow if reflow is not None else effective_preset.reflow
+
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -372,20 +568,20 @@ def validate_and_format_file(
                 line_width = calculate_line_width_px(
                     raw_line, glyph_widths, hero_name_width_px=hero_name_width_px
                 )
-                if line_width > max_width_px:
+                if line_width > effective_max_width_px:
                     overflows_count += 1
                     warnings.append(
-                        f"Entry {entry_id}: line exceeds {max_width_px}px ({line_width}px): '{raw_line}'"
+                        f"Entry {entry_id}: line exceeds {effective_max_width_px}px ({line_width}px): '{raw_line}'"
                     )
 
         wrapped_text, block_warnings = wrap_text_block(
             text,
             glyph_widths,
-            max_width_px=max_width_px,
-            max_lines=max_lines,
+            max_width_px=effective_max_width_px,
+            max_lines=effective_max_lines,
             auto_paginate=auto_paginate,
             hero_name_width_px=hero_name_width_px,
-            reflow=reflow,
+            reflow=effective_reflow,
         )
         for bw in block_warnings:
             warnings.append(f"Entry {entry_id}: {bw}")
@@ -413,6 +609,7 @@ def validate_and_format_file(
         "warnings": warnings,
         "modified": modified,
         "changes_count": changes_count,
+        "preset": effective_preset.name,
     }
 
 
@@ -420,15 +617,16 @@ def validate_and_format_directory(
     json_dir: str,
     font_json_path: str = "extracted fonts/msg/big/msgcmn.json",
     cyrillic_json_path: Optional[str] = "assets/fonts/cyrillic_big.json",
-    max_width_px: int = 230,
-    max_lines: int = 3,
+    max_width_px: Optional[int] = None,
+    max_lines: Optional[int] = None,
     auto_paginate: bool = False,
     field: str = "translation",
     fix: bool = False,
     out_dir: Optional[str] = None,
     hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
     glyph_widths: Optional[Dict[str, int]] = None,
-    reflow: bool = True,
+    reflow: Optional[bool] = None,
+    preset: str = "auto",
 ) -> Dict[str, Any]:
     """Recursively validates and formats all JSON translation files in a directory.
 
@@ -436,8 +634,8 @@ def validate_and_format_directory(
         json_dir: Root directory containing JSON translation files.
         font_json_path: Path to base font JSON (default extracted fonts/msg/big/msgcmn.json).
         cyrillic_json_path: Path to Cyrillic font JSON overlay.
-        max_width_px: Maximum pixel width allowed per line (default 230px).
-        max_lines: Maximum lines allowed per page/dialog box (default 3).
+        max_width_px: Maximum pixel width allowed per line (overrides presets if specified).
+        max_lines: Maximum lines allowed per page/dialog box (overrides presets if specified).
         auto_paginate: If True, automatically splits pages exceeding max_lines.
         field: Name of string field to validate (default "translation").
         fix: If True, writes rewrapped text back.
@@ -446,9 +644,11 @@ def validate_and_format_directory(
         glyph_widths: Optional preloaded glyph widths dictionary.
         reflow: If True, collapse ragged single line breaks and re-wrap paragraphs.
                 If False, preserve existing line breaks if within width.
+        preset: Window preset name or "auto" for automatic per-file detection.
 
     Returns:
-        Dict with keys: files_checked, files_modified, total_entries, total_overflows, total_warnings, file_reports.
+        Dict with keys: files_checked, files_modified, total_entries, total_overflows,
+        total_warnings, presets_used, file_reports.
     """
     if glyph_widths is None:
         glyph_widths = load_glyph_metrics(font_json_path, cyrillic_json_path)
@@ -483,6 +683,7 @@ def validate_and_format_directory(
             out_path=target_out_path,
             hero_name_width_px=hero_name_width_px,
             reflow=reflow,
+            preset=preset,
         )
         file_reports.append(report)
 
@@ -492,12 +693,18 @@ def validate_and_format_directory(
     total_overflows = sum(r["overflows_found"] for r in file_reports)
     total_warnings = sum(len(r["warnings"]) for r in file_reports)
 
+    presets_used: Dict[str, int] = {}
+    for r in file_reports:
+        p_name = r.get("preset", "dialogue")
+        presets_used[p_name] = presets_used.get(p_name, 0) + 1
+
     return {
         "files_checked": files_checked,
         "files_modified": files_modified,
         "total_entries": total_entries,
         "total_overflows": total_overflows,
         "total_warnings": total_warnings,
+        "presets_used": presets_used,
         "file_reports": file_reports,
     }
 
