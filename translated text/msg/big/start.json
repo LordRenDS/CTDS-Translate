@@ -27,7 +27,7 @@
     "id": 4,
     "original_en": "Extras",
     "original_fr": "Bonus",
-    "translation": "Дополнительно"
+    "translation": "Дополнения"
   },
   {
     "id": 5,
@@ -279,43 +279,43 @@
     "id": 46,
     "original_en": "Save game completion data?",
     "original_fr": "Voulez-vous sauvegarder votre partie finie ?",
-    "translation": "Сохранить данные о завершении игры?"
+    "translation": "Сохранить данные о прохождении игры?"
   },
   {
     "id": 47,
     "original_en": "Return to the title screen?",
     "original_fr": "Voulez-vous retourner {TAG:3C} l'écran-titre ?",
-    "translation": ""
+    "translation": "Вернуться на главный экран?"
   },
   {
     "id": 48,
     "original_en": "Unable to delete files. Please turn the\npower OFF and reinsert the Game Card.",
     "original_fr": "Impossible de supprimer le fichier.\nVeuillez éteindre la console et\nréinsérer la carte de jeu.",
-    "translation": ""
+    "translation": "Невозможно удалить файлы. Пожалуйста,\nвыключите питание и вставьте карту\nс игрой снова."
   },
   {
     "id": 49,
     "original_en": "Failed to delete data. Please turn the\npower OFF and reinsert the Game Card.",
     "original_fr": "îchec de la suppression des données.\nVeuillez éteindre la console et\nréinsérer la carte de jeu.",
-    "translation": ""
+    "translation": "Ошибка удаления данных. Пожалуйста,\nвыключите питание и вставьте карту\nс игрой снова."
   },
   {
     "id": 50,
     "original_en": "Data deleted.",
     "original_fr": "Suppression des données réussie.",
-    "translation": ""
+    "translation": "Данные удалены."
   },
   {
     "id": 51,
     "original_en": "You can now access the Arena and\nExtras options from the title screen!",
     "original_fr": "Vous pouvez désormais accéder {TAG:3C} l'arène\net aux bonus {TAG:3C} partir de l'écran-titre !",
-    "translation": ""
+    "translation": "Вы теперь можете получить доступ к\nарене и дополнениям на главном экране!"
   },
   {
     "id": 52,
     "original_en": "Scoreboard",
     "original_fr": "Historique",
-    "translation": ""
+    "translation": "Таблица рекордов"
   },
   {
     "id": 53,
@@ -333,121 +333,121 @@
     "id": 55,
     "original_en": "Accept challenge",
     "original_fr": "Relever un défi",
-    "translation": ""
+    "translation": "Принять вызов"
   },
   {
     "id": 56,
     "original_en": "Issue challenge",
     "original_fr": "Lancer un défi",
-    "translation": ""
+    "translation": "Бросить вызов"
   },
   {
     "id": 57,
     "original_en": "View inventory",
     "original_fr": "Objets",
-    "translation": ""
+    "translation": "Проверить инвентарь"
   },
   {
     "id": 58,
     "original_en": "Waiting for an opponent.",
     "original_fr": "Attente d'un adversaire...",
-    "translation": ""
+    "translation": "Ожидание противника."
   },
   {
     "id": 59,
     "original_en": "Opponent found.",
     "original_fr": "Adversaire trouvé.",
-    "translation": ""
+    "translation": "Противник найден."
   },
   {
     "id": 60,
     "original_en": "Please select an item to wager.",
     "original_fr": "Quel objet voulez-vous parier ?",
-    "translation": ""
+    "translation": "Пожалуйста, выберите предмет для ставки."
   },
   {
     "id": 61,
     "original_en": "Wager this item?",
     "original_fr": "Est-ce que cet objet vous convient ?",
-    "translation": ""
+    "translation": "Поставить этот предмет на кон?"
   },
   {
     "id": 62,
     "original_en": "Please wait...",
     "original_fr": "Veuillez patienter...",
-    "translation": ""
+    "translation": "Пожалуйста, подождите..."
   },
   {
     "id": 63,
     "original_en": "A communication error has occurred.",
     "original_fr": "La connexion a été interrompue.",
-    "translation": ""
+    "translation": "Возникла ошибка связи."
   },
   {
     "id": 64,
     "original_en": " acquired!",
     "original_fr": " !",
-    "translation": ""
+    "translation": " получено!"
   },
   {
     "id": 65,
     "original_en": " lost!",
     "original_fr": " !",
-    "translation": ""
+    "translation": " потеряно!"
   },
   {
     "id": 66,
     "original_en": "Return to Wireless\nmenu.",
     "original_fr": "La bataille\nest terminée.",
-    "translation": ""
+    "translation": "Вернуться в меню Беспроводной связи."
   },
   {
     "id": 67,
     "original_en": "Accept an opponent's challenge.",
     "original_fr": "Relever le défi d'un adversaire.",
-    "translation": ""
+    "translation": "Принять вызов противника."
   },
   {
     "id": 68,
     "original_en": "Issue an open challenge.",
     "original_fr": "Attendre un adversaire.",
-    "translation": ""
+    "translation": "Ошибка принятия вызова."
   },
   {
     "id": 69,
     "original_en": "View current inventory.",
     "original_fr": "Consulter votre liste d'objets.",
-    "translation": ""
+    "translation": "Проверить текущий инвентарь."
   },
   {
     "id": 70,
     "original_en": "Whose challenge do you wish to accept?",
     "original_fr": "Quel adversaire voulez-vous affronter ?",
-    "translation": ""
+    "translation": "Чей вызов вы хотите принять?"
   },
   {
     "id": 71,
     "original_en": "Prize obtained:",
     "original_fr": "Obtenu : ",
-    "translation": ""
+    "translation": "Приз получен:"
   },
   {
     "id": 72,
     "original_en": "Lost:",
     "original_fr": "Perdu : ",
-    "translation": ""
+    "translation": "Потеряно:"
   },
   {
     "id": 73,
     "original_en": "Game Settings",
     "original_fr": "Réglages",
-    "translation": ""
+    "translation": "Игровые Настройки"
   },
   {
     "id": 74,
     "original_en": "Game Mode",
     "original_fr": "Mode de jeu",
-    "translation": ""
+    "translation": "Режим Игры"
   },
   {
     "id": 75,
@@ -459,97 +459,97 @@
     "id": 76,
     "original_en": "CLASSIC",
     "original_fr": "MODE CLASSIQUE",
-    "translation": ""
+    "translation": "КЛАССИКА"
   },
   {
     "id": 77,
     "original_en": "DS mode utilizes dual-screen\ndisplay and stylus input in an\neasy-to-use interface.\n\nSelecting this option leaves\nthe upper screen clean and\nuncluttered.",
     "original_fr": "En mode DS, les infos sont\naffichées sur les deux\nécrans et les commandes\npeuvent être sélectionnées\navec le stylet.\nL'affichage sur l'écran\nsupérieur a été simplifié.",
-    "translation": ""
+    "translation": "В режиме DS используется второй дисплей и управление стилусом.\nВыбор этой опции оставляет верхний экран чистым и незагроможденным."
   },
   {
     "id": 78,
     "original_en": "This mode utilizes the classic\none-screen battle interface.\n\nStylus controls cannot be\nused in combat, but enemy\nand ally status information\nappears on the lower screen.",
     "original_fr": "En mode classique, l'affichage\noriginal a été reproduit.\n\nVous pourrez désormais aussi\nvérifier l'état des ennemis\net de vos personnages sur\nl'écran inférieur.",
-    "translation": ""
+    "translation": "Этот режим использует классический интерфейс битвы с одним экраном.\nУправление стилусом невозможно в бою, но вся информация отображается на нижнем экране."
   },
   {
     "id": 79,
     "original_en": "Battle Mode",
     "original_fr": "Mode de combat",
-    "translation": ""
+    "translation": "Режим Боя"
   },
   {
     "id": 80,
     "original_en": "ACTIVE",
     "original_fr": "ACTIF",
-    "translation": ""
+    "translation": "АКТИВНЫЙ"
   },
   {
     "id": 81,
     "original_en": "WAIT",
     "original_fr": "SEMI-ACTIF",
-    "translation": ""
+    "translation": "ЖДУЩИЙ"
   },
   {
     "id": 82,
     "original_en": "\nTime flows constantly in battle,\nallowing for fast-paced combat.\n",
     "original_fr": "Le temps s'écoule constamment.\nLes batailles en seront d'autant\nplus palpitantes.",
-    "translation": ""
+    "translation": "\nВремя течет постоянно в бою,\nчто позволяет вести быстрые сражения.\n"
   },
   {
     "id": 83,
     "original_en": "Time freezes while you select\nitems or techs from windows,\nallowing you to carefully plan\nyour battle strategy.",
     "original_fr": "Le temps s'arrête quand vous\nchoisissez un objet ou une\ncompétence. Vous pourrez\ncombattre sans vous presser.",
-    "translation": ""
+    "translation": "Время останавливается, пока вы выбираете предметы или техники из окон, что позволяет вам тщательно планировать свою боевую стратегию."
   },
   {
     "id": 84,
     "original_en": "Movies",
     "original_fr": "Cinématiques",
-    "translation": ""
+    "translation": "Заставки"
   },
   {
     "id": 85,
     "original_en": "ON",
     "original_fr": "OUI",
-    "translation": ""
+    "translation": "ВКЛ"
   },
   {
     "id": 86,
     "original_en": "OFF",
     "original_fr": "NON",
-    "translation": ""
+    "translation": "ВЫКЛ"
   },
   {
     "id": 87,
     "original_en": "\nMovie scenes unfold at key points\nduring your adventure.\n",
     "original_fr": "Des cinématiques vous seront\nprésentées {TAG:3C} certains moments\nde votre aventure.",
-    "translation": ""
+    "translation": "Кинематографические сцены\nразворачиваются в ключевых\nмоментах вашего приключения."
   },
   {
     "id": 88,
     "original_en": "\nMovies are skipped, allowing more\nrapid progress through the game.\n",
     "original_fr": "Il n'y aura pas de cinématiques.\nVous pourrez progresser\nrapidement et sans interruption.",
-    "translation": ""
+    "translation": "Кинематографические сцены\nпропускаются, что позволяет\nбыстрее продвигаться по игре."
   },
   {
     "id": 89,
     "original_en": "Defaults",
     "original_fr": "Rétablir",
-    "translation": ""
+    "translation": "По умолчанию"
   },
   {
     "id": 90,
     "original_en": "Accept",
     "original_fr": "Terminer",
-    "translation": ""
+    "translation": "Принять"
   },
   {
     "id": 91,
     "original_en": "These settings can be changed later.",
     "original_fr": "Réglages modifiables en cours de jeu.",
-    "translation": ""
+    "translation": "Эти настройки можно изменить позже."
   },
   {
     "id": 92,
@@ -561,13 +561,13 @@
     "id": 93,
     "original_en": "You've completed the game!",
     "original_fr": "Vous avez terminé le jeu !",
-    "translation": ""
+    "translation": "Вы прошли игру!"
   },
   {
     "id": 94,
     "original_en": "Clear count:",
     "original_fr": "Partie(s) finie(s) :",
-    "translation": ""
+    "translation": "Получено:"
   },
   {
     "id": 95,
@@ -579,13 +579,13 @@
     "id": 96,
     "original_en": "Ending No.",
     "original_fr": "{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{GLYPH:132}Fin nÎ ",
-    "translation": ""
+    "translation": "Концовка No."
   },
   {
     "id": 97,
     "original_en": "New option added to the Extras menu:",
     "original_fr": "Nouvelle section ajoutée aux bonus :",
-    "translation": ""
+    "translation": "Новые опции добавлены в меню Дополнения:"
   },
   {
     "id": 98,
@@ -597,61 +597,61 @@
     "id": 99,
     "original_en": "Save game completion data?",
     "original_fr": "Voulez-vous sauvegarder votre\npartie finie ?",
-    "translation": ""
+    "translation": "Сохранить данные о завершении игры?"
   },
   {
     "id": 100,
     "original_en": "Overwrite existing save data?",
     "original_fr": "Voulez-vous remplacer les données ?",
-    "translation": ""
+    "translation": "Перезаписать существующие данные сохранения?"
   },
   {
     "id": 101,
     "original_en": "Return to the title screen?",
     "original_fr": "Voulez-vous retourner {TAG:3C}\nl'écran-titre ?",
-    "translation": ""
+    "translation": "Вернуться на главный экран?"
   },
   {
     "id": 102,
     "original_en": "Saving data.\nDo not turn the power OFF.",
     "original_fr": "Sauvegarde des données...\nN'éteignez pas la console.",
-    "translation": ""
+    "translation": "Сохранение данных...\nНе выключайте питание."
   },
   {
     "id": 103,
     "original_en": "Save complete.",
     "original_fr": "Sauvegarde réussie.",
-    "translation": ""
+    "translation": "Сохранение завершено."
   },
   {
     "id": 104,
     "original_en": "Unable to access save file.\nPlease turn the power OFF\nand reinsert the Game Card.",
     "original_fr": "Impossible d'acquérir le fichier.\nVeuillez éteindre la console et\nréinsérer la carte de jeu.",
-    "translation": ""
+    "translation": "Невозможно получить доступ к\nфайлу сохранения. Пожалуйста,\nвыключите питание и вставьте\nкарту с игрой снова."
   },
   {
     "id": 105,
     "original_en": "Save failed.\nPlease turn the power OFF\nand reinsert the Game Card.",
     "original_fr": "îchec de la sauvegarde.\nVeuillez éteindre la console\net réinsérer la carte de jeu.",
-    "translation": ""
+    "translation": "Сохранение не удалось. Пожалуйста,\nвыключите питание и вставьте\nкарту с игрой снова."
   },
   {
     "id": 106,
     "original_en": "Unable to save.\nPlease turn the power OFF\nand reinsert the Game Card.",
     "original_fr": "Impossible d'effectuer une sauvegarde.\nVeuillez éteindre la console et réinsérer\nla carte de jeu.",
-    "translation": ""
+    "translation": "Невозможно сохранить. Пожалуйста,\nвыключите питание и вставьте\nкарту с игрой снова."
   },
   {
     "id": 107,
     "original_en": "Unable to write to save file.\nPlease turn the power OFF\nand reinsert the Game Card.",
     "original_fr": "Impossible de sauvegarder dans ce\nfichier. Veuillez éteindre la console\net réinsérer la carte de jeu.",
-    "translation": ""
+    "translation": "Невозможно записать в файл сохранения.\nПожалуйста, выключите питание и\nвставьте карту с игрой снова."
   },
   {
     "id": 108,
     "original_en": "Failed to write data to save file.\nPlease turn the power OFF and\nreinsert the Game Card.",
     "original_fr": "îchec de la sauvegarde dans ce fichier.\nVeuillez éteindre la console et réinsérer\nla carte de jeu.",
-    "translation": ""
+    "translation": "Ошибка записи данных в файл сохранения.\nПожалуйста, выключите питание и\nвставьте карту с игрой снова."
   },
   {
     "id": 109,
@@ -663,7 +663,7 @@
     "id": 110,
     "original_en": "You can now visit the Dimensional Vortex!",
     "original_fr": "Des vortex dimensionnels sont apparus !",
-    "translation": ""
+    "translation": "Вы теперь можете посетить\nПространственную Воронку!"
   },
   {
     "id": 111,
@@ -681,7 +681,7 @@
     "id": 113,
     "original_en": "Obtained Dreamseeker!",
     "original_fr": "Vous obtenez Mugen, le sabre fabuleux !",
-    "translation": ""
+    "translation": "Получено Муген!"
   },
   {
     "id": 114,
