@@ -15,7 +15,11 @@ from src.font_engine import (
 )
 from src.rom_manager import build_rom, unpack_rom, verify_rom_integrity
 from src.text_engine import dump_all_msg, insert_all_msg
-from src.text_validator import validate_and_format_directory
+from src.text_validator import (
+    load_glyph_metrics,
+    validate_and_format_directory,
+    validate_and_format_file,
+)
 
 
 def cmd_unpack(args: argparse.Namespace) -> int:
@@ -207,6 +211,53 @@ def cmd_roundtrip(args: argparse.Namespace) -> int:
 
 def cmd_validate_text_length(args: argparse.Namespace) -> int:
     """Handles the 'validate-text-length' (and alias 'validate-text-lenght') subcommand."""
+    if getattr(args, "file", None):
+        if not os.path.isfile(args.file):
+            print(f"Error: JSON file not found: {args.file}")
+            return 1
+
+        widths = load_glyph_metrics(args.font_json, args.cyrillic_json)
+        mode_str = "[FIX & FORMAT]" if args.fix else "[DRY-RUN CHECK]"
+        preset_name = getattr(args, "preset", "auto")
+        print(f"=== Text Length & Dialogue Validation {mode_str} ===")
+        print(f"File: {args.file}")
+        print(f"  Window preset          : {preset_name}")
+        print(
+            f"Max width: {args.max_width or 'auto (preset)'}, Max lines: {args.max_lines or 'auto (preset)'}"
+        )
+        print(
+            f"  Reflow existing breaks : {'Enabled' if args.reflow is None or args.reflow else 'Disabled'}"
+        )
+
+        report = validate_and_format_file(
+            file_path=args.file,
+            glyph_widths=widths,
+            max_width_px=args.max_width,
+            max_lines=args.max_lines,
+            auto_paginate=args.paginate,
+            field=args.field,
+            fix=args.fix,
+            out_path=args.out,
+            preset=args.preset,
+            reflow=args.reflow,
+        )
+
+        print(f"Preset applied: {report['preset']}")
+        print(f"Total entries checked: {report['total_entries']}")
+        print(f"Overlong lines detected: {report['overflows_found']}")
+        print(f"Warnings: {len(report['warnings'])}")
+        print(f"File modified: {report['modified']}")
+
+        if report["overflows_found"] > 0 or report["warnings"]:
+            print("\nDetail lines with issues:")
+            for w in report["warnings"]:
+                print(f"  - {w}")
+
+        if not args.fix and (report["overflows_found"] > 0 or report["warnings"]):
+            return 1
+
+        return 0
+
     if not os.path.isdir(args.json_dir):
         print(f"Error: JSON directory not found: {args.json_dir}")
         return 1
@@ -417,6 +468,13 @@ def create_parser() -> argparse.ArgumentParser:
         ),
     ]:
         p_val = subparsers.add_parser(subcmd_name, help=subcmd_help)
+        p_val.add_argument(
+            "--file",
+            "--json-file",
+            dest="file",
+            default=None,
+            help="Path to a single JSON translation file to validate (overrides --json-dir)",
+        )
         p_val.add_argument(
             "--json-dir",
             default="translated text",

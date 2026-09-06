@@ -1109,3 +1109,102 @@ def test_cli_cmd_with_explicit_override(tmp_path, capsys):
     assert "Overlong lines detected: 0" in captured
 
 
+def test_cli_parser_file_arg():
+    """Verify --file and --json-file argument parsing and defaults."""
+    parser = create_parser()
+
+    # 1. Default should be None
+    args_default = parser.parse_args(["validate-text-length"])
+    assert args_default.file is None
+
+    # 2. --file flag
+    args_file = parser.parse_args(["validate-text-length", "--file", "translated text/msg/big/tutorial.json"])
+    assert args_file.file == "translated text/msg/big/tutorial.json"
+
+    # 3. --json-file alias
+    args_json_file = parser.parse_args(["validate-text-length", "--json-file", "translated text/msg/big/tutorial.json"])
+    assert args_json_file.file == "translated text/msg/big/tutorial.json"
+
+    # 4. Alias subcommand validate-text-lenght
+    args_alias = parser.parse_args(["validate-text-lenght", "--file", "sample.json"])
+    assert args_alias.file == "sample.json"
+
+    args_alias_json = parser.parse_args(["validate-text-lenght", "--json-file", "sample.json"])
+    assert args_alias_json.file == "sample.json"
+
+
+def test_cli_cmd_single_file_dry_run_and_fix(tmp_path, capsys):
+    """Verify single file validation via CLI handler in dry-run and fix mode with --out."""
+    parser = create_parser()
+
+    # 1. Non-existent file returns 1 and error message
+    args_missing = parser.parse_args(["validate-text-length", "--file", "nonexistent_file.json"])
+    rc_missing = cmd_validate_text_length(args_missing)
+    assert rc_missing == 1
+    captured_missing = capsys.readouterr().out
+    assert "Error: JSON file not found: nonexistent_file.json" in captured_missing
+
+    # 2. Dry-run with overflows on single file
+    sample_file = tmp_path / "dialogue.json"
+    long_line = "This is an extremely long dialogue line that will certainly exceed the maximum pixel width allowed for standard dialog boxes in the game."
+    data = [{"id": 0, "translation": long_line}]
+    sample_file.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    args_dry = parser.parse_args([
+        "validate-text-length",
+        "--file", str(sample_file),
+    ])
+    rc_dry = cmd_validate_text_length(args_dry)
+    assert rc_dry == 1
+    captured_dry = capsys.readouterr().out
+    assert "=== Text Length & Dialogue Validation [DRY-RUN CHECK] ===" in captured_dry
+    assert f"File: {str(sample_file)}" in captured_dry
+    assert "Preset applied: dialogue" in captured_dry
+    assert "Total entries checked: 1" in captured_dry
+    assert "Overlong lines detected: 1" in captured_dry
+    assert "Warnings:" in captured_dry
+    assert "File modified: False" in captured_dry
+    assert "Detail lines with issues:" in captured_dry
+
+    # Check file was NOT modified on disk
+    with open(sample_file, "r", encoding="utf-8") as f:
+        disk_data = json.load(f)
+    assert disk_data[0]["translation"] == long_line
+
+    # 3. Fix mode with --out
+    out_file = tmp_path / "fixed_dialogue.json"
+    args_fix = parser.parse_args([
+        "validate-text-length",
+        "--file", str(sample_file),
+        "--fix",
+        "--out", str(out_file),
+    ])
+    rc_fix = cmd_validate_text_length(args_fix)
+    assert rc_fix == 0
+    captured_fix = capsys.readouterr().out
+    assert "=== Text Length & Dialogue Validation [FIX & FORMAT] ===" in captured_fix
+    assert "File modified: True" in captured_fix
+
+    # Original file must still be unchanged
+    with open(sample_file, "r", encoding="utf-8") as f:
+        orig_data = json.load(f)
+    assert orig_data[0]["translation"] == long_line
+
+    # Out file must exist and have wrapped lines
+    assert out_file.exists()
+    with open(out_file, "r", encoding="utf-8") as f:
+        fixed_data = json.load(f)
+    assert "\n" in fixed_data[0]["translation"] or "{PAGE}" in fixed_data[0]["translation"]
+
+    # 4. Clean file passing validation
+    clean_file = tmp_path / "clean.json"
+    clean_file.write_text(json.dumps([{"id": 0, "translation": "Short text."}], ensure_ascii=False), encoding="utf-8")
+    args_clean = parser.parse_args(["validate-text-length", "--file", str(clean_file)])
+    rc_clean = cmd_validate_text_length(args_clean)
+    assert rc_clean == 0
+    captured_clean = capsys.readouterr().out
+    assert "Overlong lines detected: 0" in captured_clean
+    assert "Warnings: 0" in captured_clean
+
+
+
