@@ -212,11 +212,15 @@ def cmd_validate_text_length(args: argparse.Namespace) -> int:
         return 1
 
     mode_str = "[FIX & FORMAT]" if args.fix else "[DRY-RUN CHECK]"
+    preset_name = getattr(args, "preset", "auto")
     print(f"=== Text Length & Dialogue Validation {mode_str} ===")
     print(f"Directory: {args.json_dir}")
-    print(f"Max width: {args.max_width} px, Max lines: {args.max_lines}")
+    print(f"  Window preset          : {preset_name}")
+    width_info = f"{args.max_width} px" if args.max_width is not None else "auto (preset)"
+    lines_info = f"{args.max_lines}" if args.max_lines is not None else "auto (preset)"
+    print(f"Max width: {width_info}, Max lines: {lines_info}")
     print(
-        f"  Reflow existing breaks : {'Enabled' if getattr(args, 'reflow', True) else 'Disabled'}"
+        f"  Reflow existing breaks : {'Disabled' if getattr(args, 'reflow', None) is False else 'Enabled'}"
     )
 
     report = validate_and_format_directory(
@@ -226,10 +230,11 @@ def cmd_validate_text_length(args: argparse.Namespace) -> int:
         max_width_px=args.max_width,
         max_lines=args.max_lines,
         auto_paginate=args.paginate,
-        reflow=getattr(args, "reflow", True),
+        reflow=getattr(args, "reflow", None),
         field=args.field,
         fix=args.fix,
         out_dir=args.out,
+        preset=preset_name,
     )
 
     print(f"Files inspected: {report['files_checked']}")
@@ -243,7 +248,7 @@ def cmd_validate_text_length(args: argparse.Namespace) -> int:
         for fr in report["file_reports"]:
             if fr["overflows_found"] > 0 or fr["warnings"]:
                 print(
-                    f"  {fr['file_path']} (Overflows: {fr['overflows_found']}, Warnings: {len(fr['warnings'])})"
+                    f"  {fr['file_path']} (Preset: {fr.get('preset', 'dialogue')}, Overflows: {fr['overflows_found']}, Warnings: {len(fr['warnings'])})"
                 )
                 for w in fr["warnings"]:
                     print(f"    - {w}")
@@ -418,6 +423,23 @@ def create_parser() -> argparse.ArgumentParser:
             help="Directory containing translation JSON files (default: 'translated text')",
         )
         p_val.add_argument(
+            "--preset",
+            choices=[
+                "auto",
+                "dialogue",
+                "tutorial",
+                "encyclopedia",
+                "item_desc",
+                "item_sub",
+                "item_name",
+                "battle",
+                "menu",
+                "small_system",
+            ],
+            default="auto",
+            help="Dialogue/window preset to apply (default: 'auto' based on file pattern)",
+        )
+        p_val.add_argument(
             "--fix",
             action="store_true",
             help="Apply fixes and write wrapped text back to JSON files",
@@ -430,14 +452,14 @@ def create_parser() -> argparse.ArgumentParser:
         p_val.add_argument(
             "--max-width",
             type=int,
-            default=230,
-            help="Maximum allowed line pixel width (default: 230)",
+            default=None,
+            help="Maximum allowed line pixel width (overrides preset default if set)",
         )
         p_val.add_argument(
             "--max-lines",
             type=int,
-            default=3,
-            help="Maximum lines per dialogue box page (default: 3)",
+            default=None,
+            help="Maximum lines per dialogue box page (overrides preset default if set)",
         )
         p_val.add_argument(
             "--paginate",
@@ -448,8 +470,8 @@ def create_parser() -> argparse.ArgumentParser:
             "--no-reflow",
             dest="reflow",
             action="store_false",
-            default=True,
-            help="Do not collapse existing line breaks within pages before wrapping (default: reflow enabled)",
+            default=None,
+            help="Do not collapse existing line breaks within pages before wrapping (default: uses preset setting)",
         )
         p_val.add_argument(
             "--font-json",

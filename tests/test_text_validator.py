@@ -522,13 +522,14 @@ def test_cli_parser_validate_text_length():
     assert args.json_dir == "translated text"
     assert args.fix is False
     assert args.out is None
-    assert args.max_width == 230
-    assert args.max_lines == 3
+    assert args.max_width is None
+    assert args.max_lines is None
     assert args.paginate is False
     assert args.font_json == "extracted fonts/msg/big/msgcmn.json"
     assert args.cyrillic_json == "assets/fonts/cyrillic_big.json"
     assert args.field == "translation"
-    assert args.reflow is True
+    assert args.reflow is None
+    assert args.preset == "auto"
 
     # Custom options
     args_custom = parser.parse_args([
@@ -564,13 +565,14 @@ def test_cli_parser_validate_text_lenght_alias():
     assert args.json_dir == "translated text"
     assert args.fix is False
     assert args.out is None
-    assert args.max_width == 230
-    assert args.max_lines == 3
+    assert args.max_width is None
+    assert args.max_lines is None
     assert args.paginate is False
     assert args.font_json == "extracted fonts/msg/big/msgcmn.json"
     assert args.cyrillic_json == "assets/fonts/cyrillic_big.json"
     assert args.field == "translation"
-    assert args.reflow is True
+    assert args.reflow is None
+    assert args.preset == "auto"
 
     args_custom = parser.parse_args([
         "validate-text-lenght",
@@ -797,7 +799,7 @@ def test_validate_directory_with_reflow(tmp_path):
 def test_cli_parser_reflow_flag():
     """Verify --no-reflow flag parser defaults and flag handling for validate-text-length and alias."""
     parser = create_parser()
-    assert parser.parse_args(["validate-text-length"]).reflow is True
+    assert parser.parse_args(["validate-text-length"]).reflow is None
     assert parser.parse_args(["validate-text-length", "--no-reflow"]).reflow is False
     assert parser.parse_args(["validate-text-lenght", "--no-reflow"]).reflow is False
 
@@ -1031,4 +1033,79 @@ def test_validate_directory_auto_presets(tmp_path):
     assert report["presets_used"]["tutorial"] == 1
     assert report["presets_used"]["item_sub"] == 1
     assert report["presets_used"]["dialogue"] == 1
+
+
+def test_cli_parser_preset_flag():
+    """Verify --preset argument choices, default value, and alias support."""
+    parser = create_parser()
+
+    # 1. Default should be "auto"
+    args_default = parser.parse_args(["validate-text-length"])
+    assert args_default.preset == "auto"
+
+    # 2. Specific valid presets
+    args_tutorial = parser.parse_args(["validate-text-length", "--preset", "tutorial"])
+    assert args_tutorial.preset == "tutorial"
+
+    args_item_sub = parser.parse_args(["validate-text-length", "--preset", "item_sub"])
+    assert args_item_sub.preset == "item_sub"
+
+    # 3. Alias validate-text-lenght
+    args_alias = parser.parse_args(["validate-text-lenght", "--preset", "menu"])
+    assert args_alias.preset == "menu"
+
+    # 4. Invalid preset raises SystemExit (argparse error)
+    with pytest.raises(SystemExit):
+        parser.parse_args(["validate-text-length", "--preset", "invalid_preset"])
+
+
+def test_cli_cmd_with_preset_auto(tmp_path, capsys):
+    """Verify cmd_validate_text_length runs with --preset auto and outputs preset info."""
+    test_dir = tmp_path / "text_dir"
+    test_dir.mkdir()
+    # tutorial.json: 5 lines (allowed in tutorial preset, which has max_lines=6)
+    data_tut = [{"id": 0, "translation": "1\n2\n3\n4\n5"}]
+    (test_dir / "tutorial.json").write_text(json.dumps(data_tut), encoding="utf-8")
+
+    # item_sub.json: 24 'a's (120px > 110px limit for item_sub)
+    data_sub = [{"id": 0, "translation": "a" * 24}]
+    (test_dir / "item_sub.json").write_text(json.dumps(data_sub), encoding="utf-8")
+
+    parser = create_parser()
+    args = parser.parse_args([
+        "validate-text-length",
+        "--json-dir", str(test_dir),
+        "--preset", "auto",
+    ])
+    # Expect return code 1 because item_sub.json overflows
+    rc = cmd_validate_text_length(args)
+    assert rc == 1
+
+    captured = capsys.readouterr().out
+    assert "Window preset          : auto" in captured
+    assert "Preset: item_sub" in captured
+
+
+def test_cli_cmd_with_explicit_override(tmp_path, capsys):
+    """Verify explicit --max-width or --max-lines overrides preset defaults."""
+    test_dir = tmp_path / "text_dir"
+    test_dir.mkdir()
+    # item_sub.json: 24 'a's (120px). item_sub default is 110px.
+    # If user explicitly passes --max-width 150, 120px should NOT overflow!
+    data_sub = [{"id": 0, "translation": "a" * 24}]
+    (test_dir / "item_sub.json").write_text(json.dumps(data_sub), encoding="utf-8")
+
+    parser = create_parser()
+    args = parser.parse_args([
+        "validate-text-length",
+        "--json-dir", str(test_dir),
+        "--preset", "auto",
+        "--max-width", "150",
+    ])
+    rc = cmd_validate_text_length(args)
+    assert rc == 0
+
+    captured = capsys.readouterr().out
+    assert "Overlong lines detected: 0" in captured
+
 
