@@ -1,0 +1,1562 @@
+[
+  {
+    "id": 0,
+    "original_en": " - Punching Glove\n - Gato's Song of Love\nCounters:\n - Multi-punch",
+    "original_fr": "- Gant de boxe\n- Mélodie d'amour\nRiposte :\n- Volée de coups",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": " - Charge",
+    "original_fr": "- Charge",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": " - Charge\n - Wing Flap",
+    "original_fr": "- Charge\n- Coup d'aile",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": " - Ding-a-ling / Confuse",
+    "original_fr": "- Ding ! Dong ! / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": " - Strike\n - Smash",
+    "original_fr": "- Taillade\n- Fracas",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": " - Smoke Bomb\nCounters:\n - Smoke Bomb",
+    "original_fr": "- Bombe fumigène\nRiposte :\n- Bombe fumigène",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": " - Hammer\n - Crushing Blow",
+    "original_fr": "- Maillet\n- Coup mortel",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": " - Stab\n - Flying Stab\n - Jump",
+    "original_fr": "- Entaille\n- Entaille en piqué\n- Saut",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": " - Flame Œ\n - Clamp\n - Ink / Blind",
+    "original_fr": "- Flammes Œ\n- Tentacules\n- Encre / Cécité",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": " - Osmose / Absorbs MP\n - Drain / Absorbs HP",
+    "original_fr": "- Succion\n  / Absorption de PM\n- Saignée / Absorption de PV",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": " - Gore",
+    "original_fr": "- Coup de corne",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": " - Spin Jump",
+    "original_fr": "- Saut tourbillon",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": " - Sonic Wave / Sleep\n - Bloodfeast / Absorbs HP",
+    "original_fr": "- Ondes nocives / Sommeil\n- Ponction / Absorption\n  de PV",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": " - Grudge",
+    "original_fr": "- Rancune",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": " - Kick\n - Jump Kick\nCounters:\n - Pebble Punt",
+    "original_fr": "- Coup de pied\n- Coup de pied sauté\nRiposte :\n- Jet de caillou",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": " - Jump Kick\n - Pebble Punt\nCounters:\n - Jump Kick",
+    "original_fr": "- Coup de pied sauté\n- Jet de caillou\nRiposte :\n- Coup de pied sauté",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": " - Spin Attack",
+    "original_fr": "- Attaque tournoyante",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": " - Spin Attack\nCounters:\n - Fiendillo Dance",
+    "original_fr": "- Attaque tournoyante\nRiposte :\n- Danse maboule",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": " - Screech / Slow",
+    "original_fr": "- Hululement / Lenteur",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": " - Charge\n - Roundillo Shot",
+    "original_fr": "- Charge\n- Lancer maboul",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": " - Peck\n - Wing Flap\n - Dive\n - Screech / Slow",
+    "original_fr": "- Coup de bec\n- Coup d'aile\n- Plongeon\n- Hululement / Lenteur",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": " - Scratch\n - Nagamour / Slow",
+    "original_fr": "- Griffes\n- ©Amour de myanne \n  / Lenteur",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": " - Bite\n - Bite / Poison",
+    "original_fr": "- Morsure\n- Morsure / Poison",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": " - Sobat\n - Whirling Kick",
+    "original_fr": "- Savate\n- Coup de pied rafale",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": " - Punch\n - Hammer Punch /\n{TAG:38}{TAG:70}Knockback\n - Rolling Attack",
+    "original_fr": "- Coup de poing\n- Coup puissant / Repousser\n- Roulade",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": " - Blood Drain / Absorbs HP",
+    "original_fr": "- Saignée vampirique \n  / Absorption de PV",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": " - Flying Lunge",
+    "original_fr": "- Jet de lance",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": " - Punch",
+    "original_fr": "- Coup de poing",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": " - Hammer\n - Great Hammer\n - Quake Hammer",
+    "original_fr": "- Maillet\n- Grand maillet\n- Maillet sismique",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Counters:\n - Ding-a-ling / Confuse",
+    "original_fr": "Riposte :\n- Ding ! Dong ! / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": " - Whirling Blade\n - Shuriken\nCounters:\n - Focused Strike",
+    "original_fr": "- îpée tournoyante\n- Shuriken\nRiposte :\n- Taillade énergique",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": " - Crush\nCounters:\n - Rain œ",
+    "original_fr": "- îcrasement\nRiposte :\n- Pluie œ",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": " - Bite\nCounters:\n - Devour Frog",
+    "original_fr": "- Morsure\nRiposte :\n- Manger grenouille",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": " - Bite\nCounters:\n - Bite",
+    "original_fr": "- Morsure\nRiposte :\n- Morsure",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": " - Bloodfeast / Absorbs HP\n - Osmose / Absorbs MP\nCounters:\n - Osmose / Absorbs MP",
+    "original_fr": "- Ponction / Absorption\n  de PV\n- Succion vampirique\n  / Absorption de PM\nRiposte :\n- Succion vampirique\n  / Absorption de PM",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": " - Rolling Attack\n - Crimson Rain\n - Hammer Punch /\n{TAG:38}{TAG:70}Knockback",
+    "original_fr": "- Roulade\n- Pluie sanglante\n- Coup puissant / Repousser",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": " - Strike\n - Wind Slash »\n - Cyclone",
+    "original_fr": "- Taillade\n- Rafale cinglante »\n- Cyclone coupant",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": " - Poison Arrows / Poison",
+    "original_fr": "- Traits empoisonnés\n  / Poison",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": " - Sobat\n - Flying Spin Kick",
+    "original_fr": "- Savate\n- Coup de pied rafale aérien",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": " None",
+    "original_fr": "Aucune",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": " - Heal\n - Annihilation Zone «",
+    "original_fr": "- Récupération\n- Zone de destruction «",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": " - Shuriken\nCombo Counters:\n - Fire Whirl Œ",
+    "original_fr": "- Shuriken\nRiposte combo :\n- Cyclone enflammé Œ",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Counters:\n - Self-destruct / Ally\n - Self-destruct / Enemy",
+    "original_fr": "Ripostes :\n- Auto-destruction (allié)\n- Auto-destruction (ennemi)",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": " - Flame Œ\nCombo Counters:\n - Fire Whirl Œ",
+    "original_fr": "- Flammes Œ\nRiposte combo :\n- Cyclone enflammé Œ",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": " - Strike\n - Drain / Absorbs HP\nCounters:\n - Grudge\n - MP Buster / Sets MP to 0",
+    "original_fr": "- Taillade\n- Saignée / Absorption de PV\nRipostes :\n- Rancune\n- Vol de PM / PM = 0",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": " - Slice\n - Triple Slice\n - Drain / Absorbs HP",
+    "original_fr": "- Fauchage\n- Triple fauchage / PV = 1\n- Saignée / Absorption de PV",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": " - Stab\n - Rush",
+    "original_fr": "- Entaille\n- Charge brutale / PV = 1",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": " - Wind Slash »\n - Grudge\n - Possess",
+    "original_fr": "- Rafale cinglante »\n- Rancune\n- Possession",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": " - Jump\nCounters:\n - Jump",
+    "original_fr": "- Saut\nRiposte :\n- Saut",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": " - Hit\n - Sand Cyclone\n - Sand Breath / Blind\nCounters:\n - Lock",
+    "original_fr": "- Frapper\n- Tourbillon de sable\n- Souffle de sable / Cécité\nRiposte :\n- Oubli",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": " - Slap\n - Needle\n - Mash",
+    "original_fr": "- Baffe\n- Aiguillon\n- Déchiquetage",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": " - Blaze Œ\nCounters:\n - Electric Maelstrom »",
+    "original_fr": "- Percuter\n- Brasier Œ\nRiposte :\n- Super-décharge »",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": " - Stomp\n - Electric Burst »\nCounters:\n - Electric Maelstrom »",
+    "original_fr": "- îcrasement\n- Petite décharge »\nRiposte :\n- Super-décharge »",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": " - Grab and Drop\n - Dive\nCounters:\n - Wing Blow / Confuse",
+    "original_fr": "- Largage\n- Plongeon\nRiposte :\n- Battement d'ailes\n  / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": " - Hit\n - Throw\nCounters:\n - Throw",
+    "original_fr": "- Frapper\n- Lancer\nRiposte :\n- Lancer",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": " - Clamp\n - Leech / Absorbs HP",
+    "original_fr": "- Tentacules\n- Tentacule vampirique\n  / Absorption de PV",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": " - Heal\n - Pollen / Poison\n - Charge",
+    "original_fr": "- Récupération\n- Pollen / Poison\n- Charge",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": " - Pyroclast Œ",
+    "original_fr": "- Projection volcanique Œ",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": " - Stretch\nCounters:\n - Terrifying Voice / Slow",
+    "original_fr": "- îtirement\nRiposte :\n- Voix terrifiante / Lenteur",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": " - Head-butt\n - Tentacle / Absorbs HP",
+    "original_fr": "- Coup de tête\n- Tentacule vampirique\n  / Absorption de PV",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": " - Gnaw",
+    "original_fr": "- Morsure",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": " - Electric Shock\n - Attack Moving Object «",
+    "original_fr": "- Décharge électrique\n- Attaque de cible en\n  mouvement «",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": " - Wing Flap\n - Sonic Wave / Sleep\n - Missiles",
+    "original_fr": "- Coup d'aile\n- Ondes nocives / Sommeil\n- Missile",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": " - Tackle\n - Machine Gun",
+    "original_fr": "- Tacle\n- Mitrailleuse",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": " - Water œ\n - Lightning »",
+    "original_fr": "- Eau œ\n- Foudre »",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": " - Slap",
+    "original_fr": "- Baffe",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": " - Electric Shock\n - Laser «",
+    "original_fr": "- Décharge électrique\n- Laser «",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": " - Tackle\n - Machine Gun\n - Flamethrower Œ",
+    "original_fr": "- Tacle\n- Mitrailleuse\n- Lance-flammes Œ",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": " - Flamethrower Œ\nCombo Counters:\n - Chemical Reaction",
+    "original_fr": "- Lance-flammes Œ\nRiposte combo :\n- Fusion chimique",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": " - Bubbles\nCombo Counters:\n - Chemical Reaction",
+    "original_fr": "- Bulles\nRiposte combo :\n- Fusion chimique",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": " - Chomp / Absorbs HP",
+    "original_fr": "- Mastication\n  / Absorption de PV",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": " - Slice\n - Scythe / Sets HP to 1\n - Crimson Rain",
+    "original_fr": "- Fauchage\n- Faux / PV = 1\n- Pluie sanglante",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": " - Stomp\n - Electric Shock\n - Laser «\n - Laser Spin «",
+    "original_fr": "- îcrasement\n- Décharge électrique\n- Laser «\n- Lasers giratoires «",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": " - Cure Beam\n - Tackle\n - Dark Beam «",
+    "original_fr": "- Rayon guérissant\n- Tacle\n- Rayon mystérieux «",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": " - Laser «\nCounters:\n - Self-destruct",
+    "original_fr": "- Laser «\nRiposte :\n- Auto-destruction",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": " - Sleep Bubble / Sleep\n - Kick Combo",
+    "original_fr": "- Bulle soporifique / Sommeil\n- Coups de pied",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": " - Charge",
+    "original_fr": "- Charge",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": " - Head-butt",
+    "original_fr": "- Coup de tête",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": " - Tongue",
+    "original_fr": "- Langue",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": " - Stretch",
+    "original_fr": "- îtirement",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": " - Claw\n - Dive\nCounters:\n - Become Red Eaglet",
+    "original_fr": "- Serres\n- Plongeon\nRiposte :\n- Transformation :\n  ouhbouh rouge",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": " - Dive\nCounters:\n - Firebreath Œ\n - Become Golden Eaglet",
+    "original_fr": "- Plongeon\nRipostes :\n- Lance-flammes Œ\n- Transformation :\n  ouhbouh doré",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": " - Fling",
+    "original_fr": "- Lancer",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": " - Gore\nCounters:\n - Slurp",
+    "original_fr": "- Coup de corne\nRiposte :\n- Aspiration de nectar",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": " - Gore\n - Firebreath Œ",
+    "original_fr": "- Coup de corne\n- Lance-flammes Œ",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": " - Osmose / Absorbs MP\n - Escape",
+    "original_fr": "- Succion\n  / Absorption de PM\n- Fuite",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Counters:\n - Pollen / Poison",
+    "original_fr": "Riposte :\n- Pollen / Poison",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": " - Scratch\nCounters:\n - Fling\n - Grab and Drop",
+    "original_fr": "- Griffes\nRipostes :\n- Lancer\n- Largage",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": " - Grab and Drop",
+    "original_fr": "- Largage",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": " - Pyroclast Œ",
+    "original_fr": "- Projection volcanique Œ",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": " - Firebreath Œ\n - Charge / Sets HP to 1\nCounters:\n - Firebreath Œ",
+    "original_fr": "- Lance-flammes Œ\n- Charge / PV = 1\nRiposte :\n- Lance-flammes Œ",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": " - Pyroclast Œ\nCounters:\n - Pyroclast Œ",
+    "original_fr": "- Projection volcanique Œ\nRiposte :\n- Projection volcanique Œ",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": " - Punch Volcanite\n - Sumo Slap",
+    "original_fr": "- Attaquer un volcan\n- Poussée",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": " - Gore\n - Charge",
+    "original_fr": "- Coup de corne\n- Charge",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": " - Omnilock\n - Escape",
+    "original_fr": "- Oubli total\n- Fuite",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": " - Kick\n - Crimson Rain",
+    "original_fr": "- Coup de pied\n- Pluie sanglante",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": " - Jump Kick\n - Pebble Punt",
+    "original_fr": "- Coup de pied sauté\n- Jet de caillou",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": " - Sobat\n - Chakram\n - Combo Attack / Sets\n{TAG:38}{TAG:70}HP to 1",
+    "original_fr": "- Savate\n- Chakra\n- Volée de coups / PV = 1",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": " - Heal\n - Miasma / Confuse",
+    "original_fr": "- Récupération\n- Miasme / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": " - Fraternal Fusion\nCombos:\n - Beast Toss\nCombo Counters:\n - Muscular Fusion",
+    "original_fr": "- Fusion fraternelle\nCombo :\n- Lancer infernal\nRiposte combo :\n- Fusion musculaire",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": " - Annihilation Zone «\nCombos:\n - Beast Toss\nCombo Counters:\n - Muscular Fusion\n",
+    "original_fr": "- Zone de destruction «\nCombo :\n- Lancer infernal\nRiposte combo :\n- Fusion musculaire",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": " - Hit\n - Energy Spheres\n - Lock",
+    "original_fr": "- Frapper\n- Sphère d'énergie\n- Oubli",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": " - Lightning »\n - 10,000 Hz / Sleep\nCounters:\n - Electric Maelstrom »\nCombo Counters:\n - Delta Force «",
+    "original_fr": "- Foudre »\n- 10 000 Hz / Sommeil\nRiposte :\n- Super-décharge »\nRiposte combo :\n- Zone delta «",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": " - Crimson Rain\nCounters:\n - Firebomb Œ\nCombo Counters:\n - Delta Force «",
+    "original_fr": "- Pluie sanglante\nRiposte :\n- Bombardement Œ\nRiposte combo :\n- Zone delta «",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": " - Rain œ\nCounters:\n - Water II œ\nCombo Counters:\n - Delta Force «",
+    "original_fr": "- Pluie œ\nRiposte :\n- Eauï œ\nRiposte combo :\n- Zone delta «",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": " - Staff\nCombo Counters:\n - Twister",
+    "original_fr": "- Coup de b{TAG:4A}ton\nRiposte combo :\n- Tornade",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": " - Strike\nCombo Counters:\n - X-Strike",
+    "original_fr": "- Taillade\nRiposte combo :\n- Taillade croisée",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": " - Staff",
+    "original_fr": "- Coup de b{TAG:4A}ton",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": " - Missiles",
+    "original_fr": "- Missile",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": " - Omnilock\n - Laser «\n - Self-destruct",
+    "original_fr": "- Oubli total\n- Laser «\n- Auto-destruction",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": " - Sleep Bubble / Sleep\nCounters:\n - Lock",
+    "original_fr": "- Projectile somnifère\n  / Sommeil\nRiposte :\n- Oubli",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": " - Laser «",
+    "original_fr": "- Laser «",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": " - Devil's Drop / Halves HP\n - Lunate Barrage\n - Hurricane\n - Wing Blow / Confuse",
+    "original_fr": "- Largage\n  / PV réduits de moitié\n- Lune vague\n- Ouragan\n- Battement d'ailes\n  / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": " - Missiles\n - Dark Beam «\n - Time Stop / Stop\n - MP Buster / Sets MP to 0",
+    "original_fr": "- Missile\n- Rayon mystérieux «\n- Stase temporelle / Stop\n- Vol de PM / PM = 0",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": " - Missiles\n - Laser «\nCombos:\n - Dark Plasma «",
+    "original_fr": "- Missile\n- Laser «\nCombo :\n- Plasma obscur «",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": " - Omnilock\n - Firebomb Œ",
+    "original_fr": "- Oubli total\n- Bombardement Œ",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": " - Escape",
+    "original_fr": "- Fuite",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": " - Tentacle / Absorbs HP\n - Crimson Rain\n - Shining Sphere »",
+    "original_fr": "- Tentacule vampirique\n  / Absorption de PV\n- Pluie sanglante\n- Sphère lumineuse »",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": " - Osmose / Absorbs MP",
+    "original_fr": "- Succion\n  / Absorption de PM",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": " - ÊLa La LaÊ / Confuse\n - Iron Sphere / Halves HP",
+    "original_fr": "- Ê La, la, laaa Ê\n  / Confusion\n- Boulet\n  / PV réduits de moitié",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": " - Bite / Instant KO",
+    "original_fr": "- Morsure / Mort subite",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "Counters:\n - Slap",
+    "original_fr": "Riposte :\n- Baffe",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "Counters:\n - MP Buster / Sets MP to 0",
+    "original_fr": "Riposte :\n- Vol de PM / PM = 0",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Counters:\n - Death / Instant KO",
+    "original_fr": "Riposte :\n- Mort",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": " - Head-butt / Sets HP to 1\n - Head-butt / 1 HP damage",
+    "original_fr": "- Coup de tête / PV = 1\n- Coup de tête\n  / 1 point de dég{TAG:4A}ts",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": " - Lightning »\n - Fire Œ\n - Ice œ",
+    "original_fr": "- Foudre »\n- Feu Œ\n- Glace œ",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": " - Lightning »\n - Fire Œ\n - Ice œ\n - Water œ",
+    "original_fr": "- Foudre »\n- Feu Œ\n- Glace œ\n- Eau œ",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": " - Lightning »\n - Fire Œ\n - Ice œ\n - Water œ",
+    "original_fr": "- Foudre »\n- Feu Œ\n- Glace œ\n- Eau œ",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": " - Lightning »\n - Fire Œ\n - Ice œ\n - Lightning II »\n - Fire II Œ\n - Ice II œ",
+    "original_fr": "- Foudre »\n- Feu Œ\n- Glace œ\n- Foudreï »\n- Feuï Œ\n- Glaceï œ",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": " - Lightning II »\n - Fire II Œ\n - Ice II œ\n - Dark Bomb «\n - Chaos Zone / Confuse\n - Instant KO",
+    "original_fr": "- Foudreï »\n- Feuï Œ\n- Glaceï œ\n- Bombe obscure «\n- Zone chaotique\n  / Confusion\n- Mort subite",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": " - Luminaire »\n - Flare Œ\n - Dark Matter «\n - Halation / Sets HP to 1\n - Salt / Restores HP",
+    "original_fr": "- Rayonnement »\n- Fission Œ\n- Matière obscure «\n- Halo / PV = 1\n- Sel / Régénération",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": " - Beat\n - Crimson Rain",
+    "original_fr": "- Cogner\n- Pluie sanglante",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": " - Kick\n - Jump Kick\n - Lambaste",
+    "original_fr": "- Coup de pied\n- Coup de pied sauté\n- Rosser",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": " - Kick\n - Temblor\n - Heart Shot / Slow\nCounters:\n - Jump Kick",
+    "original_fr": "- Coup de pied\n- Séisme\n- Lancer de c{TAG:61}urs\n  / Lenteur\nRiposte :\n- Coup de pied sauté",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": " - Lock\n - Drain / Absorbs HP\n - Pyroclast Œ\n - Escape\nCounters:\n - Pyroclast Œ",
+    "original_fr": "- Oubli\n- Saignée / Absorption de PV\n- Projection volcanique Œ\n- Fuir\nRiposte :\n- Projection volcanique Œ",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": " - Head-butt\n - Dark Flare «\n - Ink / Blind\n - Grudge\nCounters:\n - Entice",
+    "original_fr": "- Coup de tête\n- Fission obscure «\n- Encre / Cécité\n- Rancune\nRiposte :\n- Tentation",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": " - Ingest / Absorbs HP\n - Crimson Rain",
+    "original_fr": "- Mastication\n  / Absorption de PV\n- Pluie sanglante",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": " - Hammer\n - Quake Hammer\nCounters:\n - Spinning Hammer",
+    "original_fr": "- Maillet\n- Maillet sismique\nRiposte :\n- Maillet tournoyant",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": " - Punch\n - Flying Punch\nCounters:\n - Flying Punch",
+    "original_fr": "- Coup de poing\n- Coup plongeant\nRiposte :\n- Coup plongeant",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": " - Hammer\n - Hurricane Spin",
+    "original_fr": "- Maillet\n- Trombe",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": " - Punch\n - Thunder II »\n - Somniwave / Sleep\n - Water II œ",
+    "original_fr": "- Coup de poing\n- Foudreï »\n- Ondes somnifères\n  / Sommeil\n- Eauï œ",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": " - Bite\n - Stench / Poison\n - Osmose / Absorbs MP",
+    "original_fr": "- Morsure\n- Odeur fétide / Poison\n- Succion\n  / Absorption de PM",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": " - Bite\n - Ultrasonic Wave / Sleep\nCounters:\n - Ultrasonic Wave / Sleep",
+    "original_fr": "- Morsure\n- Ultrasons / Sommeil\nRiposte :\n- Ultrasons / Sommeil",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": " - Munch / Halves HP\n - Firebreath Œ\n - Electric Maelstrom »\nCounters:\n - Lock",
+    "original_fr": "- Croquer\n  / PV réduits de moitié\n- Souffle de feu Œ\n- Super-décharge »\nRiposte :\n- Oubli",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": " - Scratch\nCounters:\n - Rainbow Dust / Poison",
+    "original_fr": "- Griffes\nRiposte :\n- Poussière toxique irisée\n  / Poison",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": " - Bite\n - Firebreath Œ\n - Wild Blaze Œ",
+    "original_fr": "- Morsure\n- Souffle de feu Œ\n- Flammes frénétiques Œ",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": " - Charge\n - Dark Bomb «\n - Sonic Wave / Sleep",
+    "original_fr": "- Charge\n- Bombe obscure «\n- Ondes nocives / Sommeil",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": " - Bell Strike\n - Ding-a-ling / Confuse",
+    "original_fr": "- Coup de cloche\n- Ding ! Dong ! / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": " - Hammer\n - Crushing Blow\n - Blast Wave",
+    "original_fr": "- Maillet\n- Coup mortel\n- Onde de choc",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": " - Impale\n - Torrential Blast œ\n - Flying Lunge\n - Grudge",
+    "original_fr": "- Coup de lance\n- Piqué torrentiel œ\n- Jet de lance\n- Rancune",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": " - Flame Œ\n - Grudge\n - Siphon / Absorbs HP\nCounters:\n - Siphon / Absorbs HP",
+    "original_fr": "- Flammes Œ\n- Rancune\n- Saignée / Absorption de PV\nRiposte :\n- Saignée / Absorption de PV",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": " - Energy Spheres\n - Psychokinesis\n - Dark Flare «\n - Lock",
+    "original_fr": "- Sphère d'énergie\n- Psychokinésie\n- Fission obscure «\n- Oubli",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": " - Savage Swipe\n - Ice II œ\n - Water II œ",
+    "original_fr": "- Griffes frénétiques\n- Glaceï œ\n- Eauï œ",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": " - Flame Œ\nCounters:\n - Flare Œ",
+    "original_fr": "- Flammes Œ\nRiposte :\n- Fission Œ",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": " - Flame Œ\n - Fire II Œ\nCounters:\n - Self-destruct",
+    "original_fr": "- Flammes Œ\n- Feuï Œ\nRiposte :\n- Auto-destruction",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": " - Dark Beam «\n - Sonic Wave / Sleep\n - Electric Maelstrom »",
+    "original_fr": "- Rayon mystérieux «\n- Ondes nocives / Sommeil\n- Super-décharge »",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": " - Hidden Needles\n - Absorb Energy /\n{TAG:38}{TAG:70}Absorbs HP\n - Supersonic Wave / Sleep",
+    "original_fr": "- Aiguillon caché\n- Absorption d'énergie\n  / Absorption de PV\n- Ondes délétères / Sommeil",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": " - Missiles\n - Dark Beam «\n - Time Stop / Stop\n - Attrition / Halves HP\n - Self-destruct\nCounters:\n - Osmose / Absorbs MP",
+    "original_fr": "- Missile\n- Rayon mystérieux «\n- Stase temporelle / Stop\n- Coup dévastateur\n  / PV réduits de moitié\n- Auto-destruction\nRiposte :\n- Succion\n  / Absorption de PM",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": " - Scratch\n - Iron Sphere Blast\n - Needle Spin\n - Yakra Rumble\nCounters:\n - Yakra Rage",
+    "original_fr": "- Griffes\n- Boulet\n- Volée d'épines\n- Séisme\nRiposte :\n- Folie furieuse",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": " - Dragonfire Œ\n - Repair Body",
+    "original_fr": "- Souffle de dragon Œ\n- Réparation des dég{TAG:4A}ts",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": " - Dragon Charge",
+    "original_fr": "- Charge",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": " - Missiles\nCounters:\n - Laser «",
+    "original_fr": "- Missile\nRiposte :\n- Laser «",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": " - Revive Pods\nCombos:\n - Amplifier «\nCombo Counters:\n - Amplifier «\n - Delta Attack «",
+    "original_fr": "- Régénération du module\nCombo :\n- Amplificateur «\nRipostes combos :\n- Amplificateur «\n- Delta «",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": " - Missiles\n - Laser «\nCombos:\n - Amplifier «\nCombo Counters:\n - Amplifier «\n - Delta Attack «",
+    "original_fr": "- Missile\n- Laser «\nCombo :\n- Amplificateur «\nRipostes combos :\n- Amplificateur «\n- Delta «",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": " - Doublehand Slap\n - Mash / Sets HP to 1",
+    "original_fr": "- Battement de mains\n- Déchiquetage / PV = 1",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": " - Robo Punch\n - Robo Cable Punch\nCounters:\n - Robo Laser «\n - Robo Pitch\n - Robo Explosion",
+    "original_fr": "- Coup de poing\n- Poing-obus\nRipostes :\n- Laser «\n- Catapultage\n- Explosion",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": " - Water œ\n - Yah!\n - Nereid Cyclone œ\nCounters:\n - Water II! œ",
+    "original_fr": "- Eau œ\n- Yaaah !\n- Tourbillon marin œ\nRiposte :\n- Eauï ! œ",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": " - Lightning »",
+    "original_fr": "- Foudre »",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": " - Flame Strike Œ\n - Annihilation Ray\n - Drain / Absorbs HP\n - Fangs\nCounters:\n - Annihilation Ray\n - MP Buster / Sets MP to 0",
+    "original_fr": "- Attaque brasier Œ\n- Rayon hérétique\n- Saignée / Absorption de PV\n- Côtes\nRipostes :\n- Rayon hérétique\n- Vol de PM / PM = 0",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": " - Skull Drop\n - Earthquake",
+    "original_fr": "- Chute de cr{TAG:4A}ne\n- Tremblement de terre",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": " - Punch\nCombos:\n - Typhoon / Confuse\nCombo Counters:\n - X-Strike",
+    "original_fr": "- Coup de poing\nCombo :\n- Typhon fraternel\n  / Confusion\nRiposte combo :\n- Attaque en croix\n  fraternelle",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": " - Multi-punch\nCombos:\n - Typhoon / Confuse\nCombo Counters:\n - X-Strike",
+    "original_fr": "- Volée de coups\nCombo :\n- Typhon fraternel\n  / Confusion\nRiposte combo :\n- Attaque en croix\n  fraternelle",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": " - Doublehand Chop\n - Hurricane\n - Vacuum Wave\nCounters:\n - Wind Slash »",
+    "original_fr": "- Deux mains\n- Ouragan\n- Onde de vide »\nRiposte :\n- Rafale cinglante »",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": " - Charge\n - Earthquake\n - Electric Discharge »",
+    "original_fr": "- Charge\n- Tremblement de terre\n- îmission d'énergie\n  électrique »",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": " - Flame Strike Œ\nCounters:\n - MP Buster / Sets MP to 0",
+    "original_fr": "- Attaque brasier Œ\nRiposte :\n- Vol de PM / PM = 0",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": " - Blow Kiss © / Sleep\n - Wind Waltz © / Confuse\n - Rainbow Storm / Poison\n - Rainbow Beam © / Blind\nCounters:\n - The Look ©",
+    "original_fr": "- Baiser soufflé ©\n  / Sommeil\n- Valse du vent ©\n  / Confusion\n- Tempête irisée / Poison\n- Rayon spectral ©\n  / Cécité\nRiposte :\n- Regard affriolant ©",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": " - Rapid-fire Punch\n - Skyward Flame\nCounters:\n - Firebomb Œ",
+    "original_fr": "- Volée de coups de poing\n- Flammes dansantes\nRiposte :\n- Bombardement Œ",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": " - Strike\n - Wind Slash »\n - Cleave\n - Frenzy\nCounters:\n - Frenzy",
+    "original_fr": "- Taillade\n- Rafale cinglante »\n- Coup foudroyant\n- Tempête de lames\nRiposte :\n- Tempête de lames",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "Counters:\n - Barrier Bomb",
+    "original_fr": "Riposte :\n- Barrière vengeresse",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": " - Scythe\n - Hell Geyser\n - Dark Matter «\nCounters:\n - Lightning II »\n - Ice II œ\n - Fire II Œ\n - Dark Bomb «",
+    "original_fr": "- Coup de faux\n- Geyser infernal\n- Matière obscure «\nRipostes :\n- Foudreï »\n- Glaceï œ\n- Feuï Œ\n- Bombe obscure «",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": " - Charge\n - Nizbel Charge\n - Electric Discharge »\n - Earthquake\nCounters:\n - Hit\n - Nasal Gas / Poison",
+    "original_fr": "- Charge\n- Furie\n- Super-émission d'énergie\n  électrique »\n- Tremblement de terre\nRipostes :\n- Frapper\n- Souffle nasal / Poison",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": " - Psychokinesis\n - Teleport / Brings boulder\n - Telepathy / Sleep\nCounters:\n - Azala's Wrath",
+    "original_fr": "- Psychokinésie\n- Téléportation d'un rocher\n- Télépathie / Sommeil\nRiposte :\n- Ire d'Azara",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": " - Firebreath Œ\n - Chomp / Absorbs HP\n - Roar\n - Tyranno Flame Œ",
+    "original_fr": "- Souffle de feu Œ\n- Mastication\n  / Absorption de PV\n- Rugissement\n- Souffle de\n  tyrannosaure Œ",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": " - Iron Sphere / Halves HP\n - Electrify »\n - Dark Ray «\n - Ice œ\n - Water II œ\n - Flame Œ\n - Fire II Œ\n - Energy Spheres\nCounters:\n - Bluuurp!",
+    "original_fr": "- Boulet / PV {GLYPH:134} 2\n- Décharge »\n- Rayon obscur «\n- Glace œ\n- Eauï œ\n- Flammes Œ\n- Feuï Œ\n- Sphère d'énergie\nRiposte :\n- Prouuut !",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": " - Pebble Punt\n - Sleep Bubble / Sleep\n - Heal\nCombos:\n - Left Charge\n - Right Charge\nCombo Counters:\n - Cross Charge\n - Earthquake",
+    "original_fr": "- Jet de caillou\n- Bulle soporifique / Sommeil\n- Récupération\nCombos :\n- Charge bleue\n- Charge rouge\nRipostes combos :\n- Charges croisées\n- Tremblement de terre",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": " - Charge\nCombos:\n - Left Charge\nCombo Counters:\n - Cross Charge\n - Earthquake",
+    "original_fr": "- Charge\nCombo :\n- Charge bleue\nRipostes combos :\n- Charges croisées\n- Tremblement de terre",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": " - Charge\nCombos:\n - Right Charge\nCombo Counters:\n - Cross Charge\n - Earthquake",
+    "original_fr": "- Charge\nCombo :\n- Charge rouge\nRipostes combos :\n- Charges croisées\n- Tremblement de terre",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": " - Arm Restoration",
+    "original_fr": "- Activation du circuit de\n  réparation des bras",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": " - Water Surge œ\n - Restore Head\nCombos:\n - Doublehand Blaster Œ\n - Dark Plasma «",
+    "original_fr": "- Inondation œ\n- Réparation de la tête\nCombos :\n- Duo explosif Œ\n- Plasma obscur «",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": " - Arm Attack / Halves HP\n - Gaia Magnade Œ\nCombos:\n - Doublehand Blaster Œ\n - Dark Plasma «\n",
+    "original_fr": "- Bras offensif / PV réduits\n  de moitié\n- Grenade magma Œ\nCombos :\n- Duo explosif Œ\n- Plasma obscur «",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": " - Iron Sphere / Halves HP\nCounters:\n - Burrrp!",
+    "original_fr": "- Boulet\n  / PV réduits de moitié\nRiposte :\n- Prouuut !",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": " - Rain Destruction\n - Lavos Needle\n - Chaos Zone / Confuse\n - Earthquake",
+    "original_fr": "- Désolation\n- îpines\n- Zone chaotique\n  / Confusion\n- Tremblement de terre",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": " - Grand Destruction\n - Escape",
+    "original_fr": "- Sort ultra-destructeur\n  / Terreur\n- Fuite",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": " - Gale Slash\n - Energy Spheres\n - Burst Sphere\nCounters:\n - Iron Sphere / Halves HP\n - Lightning II »\n - Ice II œ\n - Fire II Œ",
+    "original_fr": "- Taillade bourrasque\n- Sphère d'énergie\n- Sphère éclatante\nRipostes :\n- Boulet\n  / PV réduits de moitié\n- Foudreï »\n- Glaceï œ\n- Feuï Œ",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": " - Scythe\n - Fire II Œ\n - Ice II œ\n - Lightning II »\nCounters:\n - Fire II Œ\n - Ice II œ\n - Lightning II »",
+    "original_fr": "- Coup de faux\n- Feuï Œ\n- Glaceï œ\n- Foudreï »\nRipostes :\n- Feuï Œ\n- Glaceï œ\n- Foudreï »",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": " - Miasma / Confuse\n - Lavos Breath / Sleep\n - Blanket Bomb Œ\n - Lavos Spawn Needles",
+    "original_fr": "- Miasme / Confusion\n- Soupir de Lavos / Sommeil\n- Tapis de bombes Œ\n- îpines",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "Counters:\n - Lavos Spawn Needles",
+    "original_fr": "Riposte :\n- îpines",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": " - Absorb Core Energy\n - Sand Breath / Blind\n - Blanket Bomb Œ\n - Tentacle / Absorbs HP\n - Laser Spin «\n - Dark Flare «",
+    "original_fr": "- Absorption de l'énergie\n  du c{TAG:61}ur\n- Souffle de sable / Cécité\n- Tapis de bombes Œ\n- Tentacule vampirique\n  / Absorption de PV\n- Lasers giratoires «\n- Fission obscure «",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": " - Absorb Core Energy\n - Sand Cyclone\n - Temblor\n - Chomp / Absorbs HP",
+    "original_fr": "- Absorption de l'énergie\n  du c{TAG:61}ur\n- Tourbillon de sable\n- Séisme\n- Mastication\n  / Absorption de PV",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": " - Escape",
+    "original_fr": "- Fuite",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": " - Heartfire",
+    "original_fr": "- C{TAG:61}ur de feu ©",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": " - Wind Slash »",
+    "original_fr": "- Rafale cinglante »",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": " - Heartfire\n - Rainbow Beam © / Blind\n - Rainbow Storm / Poison\nCombos:\n - Delta Force «\nCombo Counters:\n - Evil Impulse Œ\n - Delta Force «\n - Heartfire Sword Œ",
+    "original_fr": "- C{TAG:61}ur de feu ©\n- Rayon spectral © / Cécité\n- Tempête irisée / Poison\nCombo :\n- Zone delta «\nRipostes combos :\n- Impulsion démoniaque Œ\n- Zone delta «\n- Sabre de feu © Œ",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": " - Wind Slash »\n - Frenzy\nCombos:\n - Delta Force «\nCombo Counters:\n - Evil Impulse Œ\n - Delta Force «\n - Heartfire Sword Œ",
+    "original_fr": "- Rafale cinglante »\n- Tempête de lames\nCombo :\n- Zone delta «\nRipostes combos :\n- Impulsion démoniaque Œ\n- Zone delta «\n- Sabre de feu © Œ",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "Combos:\n - Delta Force «\nCombo Counters:\n - Evil Impulse Œ\n - Delta Force «",
+    "original_fr": "Combo :\n- Zone delta «\nRipostes combos :\n- Zone delta «\n- Impulsion démoniaque Œ",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": " - Rocket Punch\n - Cure Beam\n - Robo Tackle / Halves HP\n - Laser Spin «\n - Rapid-fire Fist\n - Proximity Bomb Œ\nCounters:\n - Self-destruct\n - Cricket Chirp / Sleep",
+    "original_fr": "- Poing-obus\n- Rayon guérissant\n- Turbo-tacle / PV réduits\n  de moitié\n- Lasers giratoires «\n- Poing mitrailleur\n- Pyrosphère Œ\nRipostes :\n- Auto-destruction\n- Cri-cri / Sommeil",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": " - Dark Beam «\n - Reprogram / Confuse\n - Laser Spin «\n - Memory Reset / Omnilock\n - Upgrade",
+    "original_fr": "- Rayon mystérieux «\n- Reprogrammation\n  / Confusion\n- Lasers giratoires «\n- Réinitialisation de la\n  mémoire / Oubli total\n- Mise {TAG:3C} jour",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": " - Cure Beam",
+    "original_fr": "- Rayon guérissant",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": " - Dark Beam «\n - Flare Œ\nCounters:\n - Flare Œ\n - Roulette Spin",
+    "original_fr": "- Rayon mystérieux «\n- Fission Œ\nRipostes :\n- Fission Œ\n- Mélange",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": " - Flame Counterattack Œ",
+    "original_fr": "- Flammes vengeresses Œ",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": " - Chomp / Absorbs HP\n - Roar\n - Tyranno Flame Œ",
+    "original_fr": "- Mastication\n  / Absorption de PV\n- Rugissement\n- Souffle de\n  tyrannosaure Œ",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": " - Miasma / Confuse\n - Yakra Rumble\n - Needle Spin Ver. XIII\n - Needle Spin Ver. XIII\n{TAG:38}{TAG:70}Barrage\nCounters:\n - Needle Spin Ver. XIII\n{TAG:38}{TAG:70}Barrage",
+    "original_fr": "- Miasme / Confusion\n- Séisme\n- Volée d'épines version XIII\n- Volée irrégulière d'épines\n  version XIII\nRiposte :\n- Volée irrégulière d'épines\n  version XIII",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": " - Tentacle / Absorbs HP\n - Mutant Gas / Poison\n - Mutant Gas / Sleep\n - Blacken / Blind",
+    "original_fr": "- Tentacule vampirique\n  / Absorption de PV\n- Gaz mutant / Poison\n- Gaz mutant / Sommeil\n- Noircissement",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": " - Tentacle Strike\n - Chaos Zone / Confuse\n - Scalding Steam",
+    "original_fr": "- Coup de tentacule\n- Zone chaotique\n  / Confusion\n- Vapeur stagnante",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": " - Shining Sphere »\n - Blanket Bomb Œ\n - Mutant Gas / Poison\n - Mutant Gas / Sleep\nCounters:\n - Tentacle / Absorbs MP",
+    "original_fr": "- Sphère lumineuse »\n- Tapis de bombes Œ\n- Gaz mutant / Poison\n- Gaz mutant / Sommeil\nRiposte :\n- Tentacule suceur\n  / Absorption de PM",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": " - Shuriken\n - Life Shaver / Sets HP to 1\n - Scalding Steam",
+    "original_fr": "- Shuriken\n- Siphon vital / PV = 1\n- Vapeur stagnante",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": " - Energy Spheres\n - Burst Sphere\n - Drain / Absorbs HP\n - Chaos Zone / Confuse\n - Great Pyroclast Œ\n - Halation / Sets HP to 1",
+    "original_fr": "- Sphère d'énergie\n- Sphère éclatante\n- Saignée / Absorption de PV\n- Zone chaotique\n  / Confusion\n- Super-projection\n  volcanique Œ\n- Halo / PV = 1",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "Counters:\n - Life Shaver / Sets HP to 1",
+    "original_fr": "Riposte :\n- Siphon vital / PV = 1",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": " - Water Surge œ\n - Dark Bomb «\n - Annihilation Zone «\n - Lavos Spawn Needle\n{TAG:38}{TAG:70}Barrage",
+    "original_fr": "- Inondation œ\n- Bombe obscure «\n- Zone de destruction «\n- Volée d'épines",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "Counters:\n - Lavos Spawn Needles",
+    "original_fr": "Riposte :\n- îpines",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": " - Death Kiss / Absorbs MP\n - Energy Spheres\n - Halation / Sets HP to 1",
+    "original_fr": "- Baiser de la mort\n  / Absorption de PM\n- Sphère d'énergie\n- Halo / PV = 1",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": " - Stand Still\n - Turn Attack into Defense\n - Turn Magic into Attack\n - Point Flare Œ\n - Energy Discharge",
+    "original_fr": "- Immobilité\n- Transforme attaque en\n  défense / Défense …\n- Transforme magie en\n  attaque / Attaque …\n- Fission concentrée Œ\n- îmission de l'énergie\n  accumulée",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": " - Halation / Sets HP to 1\n - Heavenly Gate »\n - Gears of Darkness «\n - Starburst œ\n - MP Buster / Sets MP to 0",
+    "original_fr": "- Halo / PV = 1\n- Portail de l'empyrée »\n- Engrenage obscur «\n- Brume hexagonale œ\n- Vol de PM / PM = 0",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": " - Laser «\nCounters:\n - Life Shaver / Sets HP to 1",
+    "original_fr": "- Laser «\nRiposte :\n- Siphon vital / PV = 1",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": " - Dark Beam «\nCounters:\n - MP Buster / Sets MP to 0",
+    "original_fr": "- Rayon mystérieux «\nRiposte :\n- Vol de PM / PM = 0",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "???",
+    "original_fr": "???",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": " - Rain Destruction\n - Lavos Needle\n - Chaos Zone / Confuse\n - Earthquake",
+    "original_fr": "- Désolation\n- îpines\n- Zone chaotique\n  / Confusion\n- Tremblement de terre",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": " - Fire Dance\n - Dark Will / Chaos\n - Umbral Embrace / Poison\n - Flames of War Œ\n - Evil Emanation / Raises\n{TAG:38}{TAG:70}Attack\n - Dark Flame's Embrace\nCombos:\n - Laser Beams",
+    "original_fr": "- Pyronéant Œ\n- Esprit malin / Confusion\n- Ombre meurtrière / Poison\n- Flammes agressives Œ\n- Radiation chtonienne\n  / Attaque …\n- Ombre maligne enflammée\nCombo :\n- îclat dévastateur",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": " - Lunate Barrage\n - Life Grip / Arm revives\n{TAG:38}{TAG:70}body\n - Curse / Voids immunities\n - Immobilize / Stop\nCombos:\n - Laser Beams",
+    "original_fr": "- Lune vague\n- îlan de vie\n  / Régénération du corps\n- Anti-protection / Rend \n  vulnérable aux altér. d'état\n- Immobilité / Stop\nCombo :\n- îclat dévastateur",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": " - Lunate Barrage\n - Life Grip / Arm revives\n{TAG:38}{TAG:70}body\n - Curse / Voids immunities\n - Immobilize / Stop\nCombos:\n - Laser Beams",
+    "original_fr": "- Lune vague\n- îlan de vie\n  / Régénération du corps\n- Anti-protection / Rend \n  vulnérable aux altér. d'état\n- Immobilité / Stop\nCombo :\n- îclat dévastateur",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": " - Obliterate\n - Negate\n - Curse / Voids immunities\n - Heal\n - Evil Touch / Absorbs MP\nCombos:\n - Unholy Light / Slow\nCombo Counters:\n - Attack",
+    "original_fr": "- Lente éradication\n- Zizanie\n- Anti-protection / Rend\n  vulnérable aux altér. d'état\n- Toucher démonial\n  / Absorption de PM\nCombo :\n- îclat pernicieux / Lenteur\nRiposte combo :\n- Attaque combinée",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": " - Suppress\n - Heavenly Tears »\n - Diabolic Whisper / Inflicts\n{TAG:38}{TAG:70}random status\n - Demon Star / Halves HP\n - Grandstone / Ult. attack\n - Dreamreaver / Ult. magic\nCombos:\n - Unholy Light / Slow",
+    "original_fr": "- îcrasement\n- Larmes du ciel »\n- Incantation\n  / Altér. d'état aléatoire\n- îtoile maléfique\n  / PV réduits de moitié\n- Aérolithe / Ult. att. phys.\n- Néant onirique / Ult. sort\nCombo :\n- îclat pernicieux / Lenteur",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": " - Temporal Shift\n - Obliterate\n - Negate\n - Resurrect / Revives Pods\nCombos:\n - Unholy Light / Slow\nCombo Counters:\n - Attack",
+    "original_fr": "- Distorsion temporelle\n- Lente éradication\n- Zizanie\n- Force vitale\n  / Régénération des\n  modules\nCombo :\n- îclat pernicieux / Lenteur\nRiposte combo :\n- Attaque combinée",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": " - Golden Hammer\n - Boulder\n - Thrash\nCounters:\n - Rush / Sets HP to 1",
+    "original_fr": "- Maillet doré\n- Rocher\n- Raclée\nRiposte :\n- Charge brutale / PV = 1",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": " - Charge\n - Head-butt / Sets HP to 1\nCounters:\n - Luminaire »\n - Dark Matter «\n - Flare Œ\n - Ice II œ\n - Hypnotize / Sleep\n - Time Freeze / Stop\n\n",
+    "original_fr": "- Charge\n- Coup de tête / PV = 1\nRipostes :\n- Rayonnement »\n- Matière obscure «\n- Fission Œ\n- Glaceï œ\n- Hypnotisme / Sommeil\n- Arrêt / Stop",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": " - Devil's Drop / Halves HP\n - Thunderbolt »\n - Head-butt / Sets HP to 1\n - Death's Rainbow /\n{TAG:38}{TAG:70}Instant KO\n - Telekinesis\n - Overdrive\nCounters:\n - Drain Health / Absorbs HP",
+    "original_fr": "- Largage / PV {GLYPH:134} 2\n- îclair »\n- Coup de tête / PV = 1\n- Arc-en-ciel létal\n  / Mort subite\n- Télékinésie\n- Pleine puissance\nRiposte :\n- Absorption d'énergie\n  / Absorption de PV",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": " - Twin Attack «\n - Earthshaker\n - Flare Œ\n - Volcano\n - Dark Matter «\n - Soul Link / Revives\nCounters:\n - Osmose / Absorbs MP",
+    "original_fr": "- Attaque double «\n- Tremblement de terre\n- Fission Œ\n- Volcan\n- Matière obscure «\n- Deux faces de la médaille\n  / Résurrection\nRiposte :\n- Succion\n  / Absorption de PM",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": " - Twin Attack «\n - Earthshaker\n - Water Surge œ\n - Water II œ\n - Snowstorm œ\n - Dark Matter «\n - Soul Link / Revives\nCounters:\n - Osmose / Absorbs MP",
+    "original_fr": "- Attaque double «\n- Tremblement de terre\n- Inondation œ\n- Eauï œ\n- Blizzard œ\n- Matière obscure «\n- Deux faces de la médaille\n  / Résurrection\nRiposte :\n- Succion / Absorpt. de PM",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": " - Holy Light »\n - Thunder »\n - Whirlwind\nCounters:\n - Tsubame Gaeshi\n - Flash of Steel",
+    "original_fr": "- Rayon céleste »\n- Tonnerre fulgurant »\n- Taillade ouragan\nRipostes :\n- Tsubame gaeshi\n- Foudroiement",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": " - Sword Strike\n - Blade Dance\n - Desperate Strike\n - First Aid / Restores HP",
+    "original_fr": "- Botte\n- Lame dansante\n- Entaille désespérée\n- Premiers soins\n  / Régénération",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": " - Iron Sphere / Halves HP\n - Gale Slash\n - Energy Spheres\n - Scorch Œ\n - Deep Freeze œ\n - Plasma »\n - Nether Blast «\nCounters:\n - MP Buster / Sets MP to 0\n - Violent Belch",
+    "original_fr": "- Boulet / PV {GLYPH:134} 2\n- Taillade bourrasque\n- Sphère d'énergie\n- Feu ardent Œ\n- Glace frigorifiante œ\n- Foudre plasma »\n- Impulsion obscure «\nRipostes :\n- Vol de PM / PM = 0\n- Prouuut ultime !",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": " - Gash\n - Energy Blast »\n - Rend\n - Thunderfall »\n - Scintillation »\nCounters:\n - Gash\n - Energy Blast »\n - Rend",
+    "original_fr": "- Entailler\n- Vague d'énergie »\n- Pourfendre\n- Fulguration »\n- Brume décha¡née »\nRipostes :\n- Entailler\n- Vague d'énergie »\n- Pourfendre",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": " - Barrage\n - Icefall œ\n - Recuperate / Restores HP\nCounters:\n - Barrage\n - Icefall œ",
+    "original_fr": "- Tir\n- Glace maudite œ\n- Récupération accrue\n  / Régénération\nRipostes :\n- Tir\n- Glace maudite œ",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": " - Barrage\n - Shadow Fire Œ\n - Explosion Œ",
+    "original_fr": "- Tir\n- Flammes maléfiques Œ\n- Explosion Œ",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": " - Poison Mist / Poison\n - Flashbomb / Blind\n - Blaring Din / Lock\n - Permeate / Cancels\n{TAG:38}{TAG:70}status immunity\n - Recover / Restores HP\nCounters:\n - Osmose / Absorbs MP",
+    "original_fr": "- Brume toxique / Poison\n- Bombe aveuglante / Cécité\n- Bruit assourdissant\n  / Oubli\n- îroder / Rend vulnérable\n  aux altérations d'état\n- Vitalité / Régénération\nRiposte :\n- Succion\n  / Absorption de PM",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "???",
+    "original_fr": "???",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 256,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 257,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 258,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 259,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

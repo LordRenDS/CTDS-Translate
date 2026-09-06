@@ -1,0 +1,872 @@
+[
+  {
+    "id": 0,
+    "original_en": "{CRONO}'s House",
+    "original_fr": "Maison de {CRONO}",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{LUCCA}'s House",
+    "original_fr": "Maison de {LUCCA}",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Truce Inn",
+    "original_fr": "Auberge de Truce",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Leene Square",
+    "original_fr": "Place de Lynne",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Ferry Office",
+    "original_fr": "Guichet du port",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Coastal Vortex",
+    "original_fr": "Tourbillon du cap",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Guardia Forest",
+    "original_fr": "Forêt de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Guardia Castle",
+    "original_fr": "Ch{TAG:4A}teau de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Prison Towers",
+    "original_fr": "Prison",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Zenan Bridge",
+    "original_fr": "Pont de Zénan",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Fiona's Shrine",
+    "original_fr": "Sanctuaire de Fiona",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Porre Inn",
+    "original_fr": "Auberge de Palpori",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Snail Stop",
+    "original_fr": "Café de la conque",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Forest Ruins",
+    "original_fr": "Ruines sylvestres",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Medina Inn",
+    "original_fr": "Auberge de Médina",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Medina Square",
+    "original_fr": "Place de Médina",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Melchior's Cabin",
+    "original_fr": "Demeure de Bosch",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Heckran Cave",
+    "original_fr": "Grottes d'Héclan",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Choras Inn",
+    "original_fr": "Auberge de Choras",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Northern Ruins",
+    "original_fr": "Ch{TAG:4A}teau en ruine",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Hero's Grave",
+    "original_fr": "Tombe du héros",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "West Cape",
+    "original_fr": "Cap ouest",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Market",
+    "original_fr": "Magasin",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Mayor's Manor",
+    "original_fr": "Résidence du maire",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Elder's House",
+    "original_fr": "Maison du maire",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Residence",
+    "original_fr": "Maison",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Sun Shrine",
+    "original_fr": "Berceau de la lumière",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Black Omen",
+    "original_fr": "Songe obscur",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Truce Inn",
+    "original_fr": "Auberge de Truce",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Truce Canyon",
+    "original_fr": "Mont Truce",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Guardia Forest",
+    "original_fr": "Forêt de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Guardia Castle",
+    "original_fr": "Ch{TAG:4A}teau de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Manolia Cathedral",
+    "original_fr": "Abbaye de Manolia",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Zenan Bridge",
+    "original_fr": "Pont de Zénan",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Dorino Inn",
+    "original_fr": "Auberge de San Dorino",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Fiona's Villa",
+    "original_fr": "Demeure de Fiona",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Sunken Desert",
+    "original_fr": "Désert souterrain",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Denadoro Mountains",
+    "original_fr": "Monts Dénadoro",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Magic Cave",
+    "original_fr": "Grotte des mystiques",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Cursed Woods",
+    "original_fr": "Forêt aux grenouilles",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Porre Inn",
+    "original_fr": "Auberge de Palpori",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Tata's House",
+    "original_fr": "Maison de Tarta",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Tavern",
+    "original_fr": "Taverne",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Choras Inn",
+    "original_fr": "Auberge de Choras",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Giant's Claw",
+    "original_fr": "Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Fiendlord's Keep",
+    "original_fr": "Palais du Magistère",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Ozzie's Fort",
+    "original_fr": "Manoir de Vinnie",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Sun Shrine",
+    "original_fr": "Berceau de la lumière",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Black Omen",
+    "original_fr": "Songe obscur",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Trann Dome",
+    "original_fr": "Dôme de Trann",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Bangor Dome",
+    "original_fr": "Dôme de Bangor",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Site 16",
+    "original_fr": "Ruines nÎ 16",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Arris Dome",
+    "original_fr": "Dôme d'Arris",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Arris Dome Substructure",
+    "original_fr": "Sous-sol d'Arris",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Site 32",
+    "original_fr": "Ruines nÎ 32",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Derelict Factory",
+    "original_fr": "Usine désaffectée",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Proto Dome",
+    "original_fr": "Dôme de Prométhée",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Geno Dome",
+    "original_fr": "Dôme de Génos",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Abandoned Sewers",
+    "original_fr": "Ancien égout",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Keeper's Dome",
+    "original_fr": "Dôme du gardien",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Death Peak",
+    "original_fr": "Mont des défunts",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Sun Temple",
+    "original_fr": "Temple du soleil",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Sun Shrine",
+    "original_fr": "Berceau de la lumière",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Black Omen",
+    "original_fr": "Songe obscur",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Mystic Mountains",
+    "original_fr": "Mont étrange",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Chief's Hut",
+    "original_fr": "Tente du chef",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Ioka Hut",
+    "original_fr": "Tente d'Ioka",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Meeting Grounds",
+    "original_fr": "Place d'Ioka",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Laruba Ruins",
+    "original_fr": "Ruines de Laruba",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Dactyl Nest",
+    "original_fr": "Nid des ptéranodons",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Hunting Range",
+    "original_fr": "Terrain de chasse",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Forest Maze",
+    "original_fr": "Jungle",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Reptite Lair",
+    "original_fr": "Antre des sauriens",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Tyranno Lair",
+    "original_fr": "Fort Tyrannos",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Tyranno Lair Ruins",
+    "original_fr": "Cratère de Tyrannos",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Sun Shrine",
+    "original_fr": "Berceau de la lumière",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Small Cave",
+    "original_fr": "Petite grotte",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Terra Cave",
+    "original_fr": "Caverne des terriens",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Skyway",
+    "original_fr": "Voie du ciel",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Land Bridge",
+    "original_fr": "Voie de la terre",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "Mudbeast Den",
+    "original_fr": "Nid du terraphage",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Mountain of Woe",
+    "original_fr": "Mont du tourment",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Enhasa",
+    "original_fr": "Enhassa",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Kajar",
+    "original_fr": "Kajar",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Blackbird",
+    "original_fr": "Cygne noir",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "Zeal Palace",
+    "original_fr": "Palais de Zhyle",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Ocean Palace",
+    "original_fr": "Sanctuaire sous-marin",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Surviving Village",
+    "original_fr": "Village des survivants",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Village Commons",
+    "original_fr": "Place du village",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "North Cape",
+    "original_fr": "Cap nord",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Sun Shrine",
+    "original_fr": "Berceau de la lumière",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Black Omen",
+    "original_fr": "Songe obscur",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "The End of Time",
+    "original_fr": "Fin des temps",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "? ? ?",
+    "original_fr": "???",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Truce",
+    "original_fr": "Truce",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Medina",
+    "original_fr": "Médina",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Porre",
+    "original_fr": "Palpori",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Choras",
+    "original_fr": "Choras",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Fiona's Forest",
+    "original_fr": "Bois de Fiona",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Truce",
+    "original_fr": "Truce",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Dorino",
+    "original_fr": "San Dorino",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Porre",
+    "original_fr": "Palpori",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Choras",
+    "original_fr": "Choras",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Ioka",
+    "original_fr": "Ioka",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Algetty",
+    "original_fr": "Alguetti",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Lost Sanctum",
+    "original_fr": "Sanctuaire oublié",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Dimensional Vortex",
+    "original_fr": "Vortex dimensionnel",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Time's Eclipse",
+    "original_fr": "Ténèbres du temps",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Arena of the Ages",
+    "original_fr": "Arène",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Lost Sanctum - Prehistory",
+    "original_fr": "Sanctuaire oublié (Préhistoire)",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Lost Sanctum - Middle Ages",
+    "original_fr": "Sanctuaire oublié (Moyen-{TAG:5F}ge)",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Dimensional Vortex - Antiquity",
+    "original_fr": "Vortex dimensionnel (Antiquité)",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Dimensional Vortex - Present",
+    "original_fr": "Vortex dimensionnel (Présent)",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "Dimensional Vortex - Future",
+    "original_fr": "Vortex dimensionnel (Futur)",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Dorino Residence",
+    "original_fr": "Maison de San Dorino",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Porre Elder's House",
+    "original_fr": "Maison du maire de Palpori",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Truce Market",
+    "original_fr": "Magasin de Truce",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "Truce Mayor's Manor",
+    "original_fr": "Résidence du maire de Truce",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "Porre Mayor's Manor",
+    "original_fr": "Résidence du maire de Palpori",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Medina Market",
+    "original_fr": "Magasin de Médina",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "Medina Elder's House",
+    "original_fr": "Maison du maire de Médina",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "Village",
+    "original_fr": "Village souterrain",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "Millennia Wood",
+    "original_fr": "Forêt millénaire",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Great Southern Swamp",
+    "original_fr": "Grand marécage",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "Southern Glade",
+    "original_fr": "Clairière",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "Winding Passage",
+    "original_fr": "Passage serpentin",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "Lightless Cave",
+    "original_fr": "Grotte sombre",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "Primeval Fortress",
+    "original_fr": "Forteresse antique",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Mount Emerald",
+    "original_fr": "Mont verdoyant",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "Great Bridge",
+    "original_fr": "Pont",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Tower of the Ancients",
+    "original_fr": "Tour séculaire",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Planar Interstice",
+    "original_fr": "Chemin sinueux",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "Strath",
+    "original_fr": "Gorge",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "Hallowed Falls",
+    "original_fr": "Chutes sacrées",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "Ancient Keep",
+    "original_fr": "Vieux ch{TAG:4A}teau",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Curious Village",
+    "original_fr": "Village étrange",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Nameless Cave",
+    "original_fr": "Grotte sans nom",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Frozen Cliffs",
+    "original_fr": "Sommets enneigés",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "Volcano",
+    "original_fr": "Volcan actif",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "Temporal Research Lab",
+    "original_fr": "Labo spatio-temporel",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Twilight Grotto",
+    "original_fr": "Passage obscur",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "Abyss",
+    "original_fr": "Ab¡me dimensionnel",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "Castle Dreamscape",
+    "original_fr": "Ch{TAG:4A}teau de Gardia ?",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "Leene Square Dreamscape",
+    "original_fr": "Place de Lynne ?",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Household Dreamscape",
+    "original_fr": "Maison de {LUCCA} ?",
+    "translation": ""
+  }
+]

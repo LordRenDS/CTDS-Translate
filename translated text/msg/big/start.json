@@ -1,0 +1,692 @@
+[
+  {
+    "id": 0,
+    "original_en": "New Game",
+    "original_fr": "Nouvelle partie",
+    "translation": "Новая игра"
+  },
+  {
+    "id": 1,
+    "original_en": "Load Game",
+    "original_fr": "Charger une partie",
+    "translation": "Загрузить игру"
+  },
+  {
+    "id": 2,
+    "original_en": "New Game +",
+    "original_fr": "Nouvelle partie ™",
+    "translation": "Новая игра +"
+  },
+  {
+    "id": 3,
+    "original_en": "Arena",
+    "original_fr": "Arène",
+    "translation": "Арена"
+  },
+  {
+    "id": 4,
+    "original_en": "Extras",
+    "original_fr": "Bonus",
+    "translation": "Дополнительно"
+  },
+  {
+    "id": 5,
+    "original_en": "Back",
+    "original_fr": "Retour",
+    "translation": "Назад"
+  },
+  {
+    "id": 6,
+    "original_en": "Accept",
+    "original_fr": "Confirmer",
+    "translation": "Принять"
+  },
+  {
+    "id": 7,
+    "original_en": "Save",
+    "original_fr": "Sauvegarde",
+    "translation": "Сохранить"
+  },
+  {
+    "id": 8,
+    "original_en": "Load",
+    "original_fr": "Chargement",
+    "translation": "Загрузить"
+  },
+  {
+    "id": 9,
+    "original_en": "File 1",
+    "original_fr": "Fichier nÎ 1",
+    "translation": "Файл 1"
+  },
+  {
+    "id": 10,
+    "original_en": "File 2",
+    "original_fr": "Fichier nÎ 2",
+    "translation": "Файл 2"
+  },
+  {
+    "id": 11,
+    "original_en": "File 3",
+    "original_fr": "Fichier nÎ 3",
+    "translation": "Файл 3"
+  },
+  {
+    "id": 12,
+    "original_en": "Data is corrupted.",
+    "original_fr": "Données corrompues",
+    "translation": "Данные повреждены"
+  },
+  {
+    "id": 13,
+    "original_en": "{TAG:38}{TAG:38}{TAG:70}Save #",
+    "original_fr": "{TAG:38}{GLYPH:132}Sauv. nÎ ",
+    "translation": "{TAG:38}{TAG:38}{TAG:70}Сохранение #"
+  },
+  {
+    "id": 14,
+    "original_en": "Empty",
+    "original_fr": "Fichier libre",
+    "translation": "Пусто"
+  },
+  {
+    "id": 15,
+    "original_en": "Yes",
+    "original_fr": "Oui",
+    "translation": "Да"
+  },
+  {
+    "id": 16,
+    "original_en": "No",
+    "original_fr": "Non",
+    "translation": "Нет"
+  },
+  {
+    "id": 17,
+    "original_en": "Please select a file.",
+    "original_fr": "Choisissez un fichier.",
+    "translation": "Пожайлуйста, выберите файл."
+  },
+  {
+    "id": 18,
+    "original_en": "Save data to this file?",
+    "original_fr": "Sauvegarder la partie dans ce fichier ?",
+    "translation": "Сохранить данные в этот файл?"
+  },
+  {
+    "id": 19,
+    "original_en": "Overwrite existing data?",
+    "original_fr": "Remplacer les données de ce fichier ?",
+    "translation": "Перезаписать существующие данные?"
+  },
+  {
+    "id": 20,
+    "original_en": "Saving data.\nDo not turn the power OFF.",
+    "original_fr": "Sauvegarde des données...\nN'éteignez pas la console.",
+    "translation": "Сохранение данных...\nНе выключайте питание."
+  },
+  {
+    "id": 21,
+    "original_en": "Saving system data.\nDo not turn the power OFF.",
+    "original_fr": "Sauvegarde des données système...\nN'éteignez pas la console.",
+    "translation": "Сохранение системных данных...\nНе выключайте питание."
+  },
+  {
+    "id": 22,
+    "original_en": "Save complete.",
+    "original_fr": "Sauvegarde réussie.",
+    "translation": "Сохранение завершено."
+  },
+  {
+    "id": 23,
+    "original_en": "Save failed. Please turn the power OFF\nand reinsert the Game Card.",
+    "original_fr": "îchec de la sauvegarde. Veuillez éteindre la console\net réinsérer la carte de jeu.",
+    "translation": "Сохранение не удалось.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+  },
+  {
+    "id": 24,
+    "original_en": "Please select a file to load.",
+    "original_fr": "Choisissez un fichier.",
+    "translation": "Пожалуйста, выберите файл для загрузки."
+  },
+  {
+    "id": 25,
+    "original_en": "Load this file?",
+    "original_fr": "Charger ce fichier ?",
+    "translation": "Загрузить этот файл?"
+  },
+  {
+    "id": 26,
+    "original_en": "Loading file.\nDo not turn the power OFF.",
+    "original_fr": "Chargement du fichier...\nN'éteignez pas la console.",
+    "translation": "Загрузка файла...\nНе выключайте питание."
+  },
+  {
+    "id": 27,
+    "original_en": "Load complete.",
+    "original_fr": "Chargement réussi.",
+    "translation": "Загрузка завершена."
+  },
+  {
+    "id": 28,
+    "original_en": "Load failed. Please turn the power OFF\nand reinsert the Game Card.",
+    "original_fr": "îchec du chargement. Veuillez éteindre la\nconsole et réinsérer la carte de jeu.",
+    "translation": "Загрузка не удалась.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+  },
+  {
+    "id": 29,
+    "original_en": "Corrupted save file detected.\nPress A Button or touch the Touch Screen\nto delete all corrupted files.",
+    "original_fr": "Au moins un fichier est corrompu. Appuyez sur\nle bouton A ou touchez l'écran inférieur pour\nsupprimer tous les fichiers corrompus.",
+    "translation": "Поврежденный файл сохранения обнаружен.\nНажмите кнопку A или коснитесь сенсорного\nэкрана, чтобы удалить все поврежденные файлы."
+  },
+  {
+    "id": 30,
+    "original_en": "Deleting corrupted files.\nDo not turn the power OFF.",
+    "original_fr": "Suppression des fichiers corrompus...\nN'éteignez pas la console.",
+    "translation": "Удаление поврежденных файлов...\nНе выключайте питание."
+  },
+  {
+    "id": 31,
+    "original_en": "Corrupted files deleted.",
+    "original_fr": "Suppression réussie.",
+    "translation": "Поврежденные файлы удалены."
+  },
+  {
+    "id": 32,
+    "original_en": "Data deletion failed. Please turn the power OFF\nand reinsert the Game Card.",
+    "original_fr": "îchec de la suppression. Veuillez éteindre la\nconsole et réinsérer la carte de jeu.",
+    "translation": "Удаление данных не удалось.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+  },
+  {
+    "id": 33,
+    "original_en": "Loading data.\nDo not turn the power OFF.",
+    "original_fr": "Chargement des données...\nN'éteignez pas la console.",
+    "translation": "Загрузка данных...\nНе выключайте питание."
+  },
+  {
+    "id": 34,
+    "original_en": "Data is corrupted.\nPress A Button or touch the Touch Screen\nto delete all corrupted data.",
+    "original_fr": "Des données sont corrompues. Appuyez sur\nle bouton A ou touchez l'écran inférieur pour\nsupprimer toutes les données corrompues.",
+    "translation": "Данные повреждены. Нажмите\nкнопку A или коснитесь сенсорного экрана,\nчтобы удалить все поврежденные данные."
+  },
+  {
+    "id": 35,
+    "original_en": "Unable to access data. Please turn the\npower OFF and reinsert the Game Card.",
+    "original_fr": "îchec de l'acquisition des données.\nVeuillez éteindre la console et réinsérer\nla carte de jeu.",
+    "translation": "Невозможно получить доступ к данным.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+  },
+  {
+    "id": 36,
+    "original_en": "Initializing save file memory.\nDo not turn the power OFF.",
+    "original_fr": "Initialisation de la mémoire de sauvegarde...\nN'éteignez pas la console.",
+    "translation": "Иницализация памяти файла сохранения.\nНе выключайте питание."
+  },
+  {
+    "id": 37,
+    "original_en": "Unable to initialize save file memory.\nPlease turn the power OFF and reinsert\nthe Game Card.",
+    "original_fr": "Impossible d'initialiser la mémoire de\nsauvegarde. Veuillez éteindre la\nconsole et réinsérer la carte de jeu.",
+    "translation": "Невозможно инициализировать память файла\nсохранения. Пожалуйста, выключите питание\nи вставьте карту с игрой снова."
+  },
+  {
+    "id": 38,
+    "original_en": "Failed to initialize save file memory.\nPlease turn the power OFF and reinsert\nthe Game Card.",
+    "original_fr": "îchec de l'initialisation. Veuillez éteindre la\nconsole et réinsérer la carte de jeu.",
+    "translation": "Ошибка инициализации памяти файла сохранения.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+  },
+  {
+    "id": 39,
+    "original_en": "Unable to access save file. Please turn\nthe power OFF and reinsert the Game Card.",
+    "original_fr": "îchec de l'acquisition du fichier. Veuillez éteindre la\nconsole et réinsérer la carte de jeu.",
+    "translation": "Невозможно получить доступ к файлу сохранения.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+  },
+  {
+    "id": 40,
+    "original_en": "Unable to delete data. Please turn the\npower OFF and reinsert the Game Card.",
+    "original_fr": "Impossible de supprimer les données.\nVeuillez éteindre la console et réinsérer\nla carte de jeu.",
+    "translation": "Невозможно удалить данные.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+  },
+  {
+    "id": 41,
+    "original_en": "The data in the existing file is corrupted.\nOverwrite existing data?",
+    "original_fr": "Ce fichier est corrompu. Voulez-vous remplacer les\ndonnées de ce fichier ?",
+    "translation": "Данные в существующем файле повреждены.\nПерезаписать существующие данные?"
+  },
+  {
+    "id": 42,
+    "original_en": "Unable to access save file. Please turn\nthe power OFF and reinsert the Game Card.",
+    "original_fr": "Impossible d'acquérir le fichier. Veuillez éteindre la\nconsole et réinsérer la carte de jeu.",
+    "translation": "Невозможно получить доступ к файлу сохранения.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+  },
+  {
+    "id": 43,
+    "original_en": "Unable to save. Please turn the power OFF\nand reinsert the Game Card.",
+    "original_fr": "Impossible d'effectuer une sauvegarde. Veuillez\néteindre la console et réinsérer la carte de jeu.",
+    "translation": "Невозможно сохранить. Пожалуйста, выключите\nпитание и вставьте карту с игрой снова."
+  },
+  {
+    "id": 44,
+    "original_en": "Unable to write to save file. Please turn\nthe power OFF and reinsert the Game Card.",
+    "original_fr": "Impossible de sauvegarder dans ce fichier. Veuillez\néteindre la console et réinsérer la carte de jeu.",
+    "translation": "Невозможно записать в файл сохранения.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+  },
+  {
+    "id": 45,
+    "original_en": "Failed to write data to save file. Please turn\nthe power OFF and reinsert the Game Card.",
+    "original_fr": "îchec de la sauvegarde dans ce fichier. Veuillez\néteindre la console et réinsérer la carte de jeu.",
+    "translation": "Ошибка записи данных в файл сохранения.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+  },
+  {
+    "id": 46,
+    "original_en": "Save game completion data?",
+    "original_fr": "Voulez-vous sauvegarder votre partie finie ?",
+    "translation": "Сохранить данные о завершении игры?"
+  },
+  {
+    "id": 47,
+    "original_en": "Return to the title screen?",
+    "original_fr": "Voulez-vous retourner {TAG:3C} l'écran-titre ?",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Unable to delete files. Please turn the\npower OFF and reinsert the Game Card.",
+    "original_fr": "Impossible de supprimer le fichier.\nVeuillez éteindre la console et\nréinsérer la carte de jeu.",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Failed to delete data. Please turn the\npower OFF and reinsert the Game Card.",
+    "original_fr": "îchec de la suppression des données.\nVeuillez éteindre la console et\nréinsérer la carte de jeu.",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Data deleted.",
+    "original_fr": "Suppression des données réussie.",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "You can now access the Arena and\nExtras options from the title screen!",
+    "original_fr": "Vous pouvez désormais accéder {TAG:3C} l'arène\net aux bonus {TAG:3C} partir de l'écran-titre !",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Scoreboard",
+    "original_fr": "Historique",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "W",
+    "original_fr": "V",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "L",
+    "original_fr": "D",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Accept challenge",
+    "original_fr": "Relever un défi",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Issue challenge",
+    "original_fr": "Lancer un défi",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "View inventory",
+    "original_fr": "Objets",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Waiting for an opponent.",
+    "original_fr": "Attente d'un adversaire...",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Opponent found.",
+    "original_fr": "Adversaire trouvé.",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Please select an item to wager.",
+    "original_fr": "Quel objet voulez-vous parier ?",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Wager this item?",
+    "original_fr": "Est-ce que cet objet vous convient ?",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Please wait...",
+    "original_fr": "Veuillez patienter...",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "A communication error has occurred.",
+    "original_fr": "La connexion a été interrompue.",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": " acquired!",
+    "original_fr": " !",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": " lost!",
+    "original_fr": " !",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Return to Wireless\nmenu.",
+    "original_fr": "La bataille\nest terminée.",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Accept an opponent's challenge.",
+    "original_fr": "Relever le défi d'un adversaire.",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Issue an open challenge.",
+    "original_fr": "Attendre un adversaire.",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "View current inventory.",
+    "original_fr": "Consulter votre liste d'objets.",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Whose challenge do you wish to accept?",
+    "original_fr": "Quel adversaire voulez-vous affronter ?",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Prize obtained:",
+    "original_fr": "Obtenu : ",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Lost:",
+    "original_fr": "Perdu : ",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Game Settings",
+    "original_fr": "Réglages",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Game Mode",
+    "original_fr": "Mode de jeu",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "DS",
+    "original_fr": "MODE DS",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "CLASSIC",
+    "original_fr": "MODE CLASSIQUE",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "DS mode utilizes dual-screen\ndisplay and stylus input in an\neasy-to-use interface.\n\nSelecting this option leaves\nthe upper screen clean and\nuncluttered.",
+    "original_fr": "En mode DS, les infos sont\naffichées sur les deux\nécrans et les commandes\npeuvent être sélectionnées\navec le stylet.\nL'affichage sur l'écran\nsupérieur a été simplifié.",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "This mode utilizes the classic\none-screen battle interface.\n\nStylus controls cannot be\nused in combat, but enemy\nand ally status information\nappears on the lower screen.",
+    "original_fr": "En mode classique, l'affichage\noriginal a été reproduit.\n\nVous pourrez désormais aussi\nvérifier l'état des ennemis\net de vos personnages sur\nl'écran inférieur.",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Battle Mode",
+    "original_fr": "Mode de combat",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "ACTIVE",
+    "original_fr": "ACTIF",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "WAIT",
+    "original_fr": "SEMI-ACTIF",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "\nTime flows constantly in battle,\nallowing for fast-paced combat.\n",
+    "original_fr": "Le temps s'écoule constamment.\nLes batailles en seront d'autant\nplus palpitantes.",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Time freezes while you select\nitems or techs from windows,\nallowing you to carefully plan\nyour battle strategy.",
+    "original_fr": "Le temps s'arrête quand vous\nchoisissez un objet ou une\ncompétence. Vous pourrez\ncombattre sans vous presser.",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Movies",
+    "original_fr": "Cinématiques",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "ON",
+    "original_fr": "OUI",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "OFF",
+    "original_fr": "NON",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "\nMovie scenes unfold at key points\nduring your adventure.\n",
+    "original_fr": "Des cinématiques vous seront\nprésentées {TAG:3C} certains moments\nde votre aventure.",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "\nMovies are skipped, allowing more\nrapid progress through the game.\n",
+    "original_fr": "Il n'y aura pas de cinématiques.\nVous pourrez progresser\nrapidement et sans interruption.",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Defaults",
+    "original_fr": "Rétablir",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Accept",
+    "original_fr": "Terminer",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "These settings can be changed later.",
+    "original_fr": "Réglages modifiables en cours de jeu.",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Touch to Start",
+    "original_fr": "Touchez pour commencer.",
+    "translation": "Коснитесь для начала"
+  },
+  {
+    "id": 93,
+    "original_en": "You've completed the game!",
+    "original_fr": "Vous avez terminé le jeu !",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Clear count:",
+    "original_fr": "Partie(s) finie(s) :",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": " ",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Ending No.",
+    "original_fr": "{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{GLYPH:132}Fin nÎ ",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "New option added to the Extras menu:",
+    "original_fr": "Nouvelle section ajoutée aux bonus :",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": " ",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Save game completion data?",
+    "original_fr": "Voulez-vous sauvegarder votre\npartie finie ?",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Overwrite existing save data?",
+    "original_fr": "Voulez-vous remplacer les données ?",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Return to the title screen?",
+    "original_fr": "Voulez-vous retourner {TAG:3C}\nl'écran-titre ?",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Saving data.\nDo not turn the power OFF.",
+    "original_fr": "Sauvegarde des données...\nN'éteignez pas la console.",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Save complete.",
+    "original_fr": "Sauvegarde réussie.",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Unable to access save file.\nPlease turn the power OFF\nand reinsert the Game Card.",
+    "original_fr": "Impossible d'acquérir le fichier.\nVeuillez éteindre la console et\nréinsérer la carte de jeu.",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Save failed.\nPlease turn the power OFF\nand reinsert the Game Card.",
+    "original_fr": "îchec de la sauvegarde.\nVeuillez éteindre la console\net réinsérer la carte de jeu.",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Unable to save.\nPlease turn the power OFF\nand reinsert the Game Card.",
+    "original_fr": "Impossible d'effectuer une sauvegarde.\nVeuillez éteindre la console et réinsérer\nla carte de jeu.",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Unable to write to save file.\nPlease turn the power OFF\nand reinsert the Game Card.",
+    "original_fr": "Impossible de sauvegarder dans ce\nfichier. Veuillez éteindre la console\net réinsérer la carte de jeu.",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Failed to write data to save file.\nPlease turn the power OFF and\nreinsert the Game Card.",
+    "original_fr": "îchec de la sauvegarde dans ce fichier.\nVeuillez éteindre la console et réinsérer\nla carte de jeu.",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "",
+    "original_fr": " ",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "You can now visit the Dimensional Vortex!",
+    "original_fr": "Des vortex dimensionnels sont apparus !",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": " ",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "Obtained Dreamseeker!",
+    "original_fr": "Vous obtenez Mugen, le sabre fabuleux !",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

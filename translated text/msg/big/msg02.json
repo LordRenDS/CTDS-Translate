@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "Welcome to Enhasa, Zeal's City of Dreams.\nWe seek enlightenment within the bliss of sleep.{WAIT_KEY}\nHmm...\nYou are...not of us, are you?",
+    "original_fr": "Bienvenue {TAG:3C} Enhassa, la cité onirique de Zhyle, l'éternel\nroyaume de la magie.{WAIT_KEY}\nNous sommes {TAG:3C} la recherche de la vérité {TAG:3C} travers la\nplénitude du sommeil.{WAIT_KEY}\nMais dites-moi, qui êtes-vous donc ?",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "This is the Magic Kingdom of Zeal,\nwhere dreams can be made reality.{WAIT_KEY}\nBut nothing in this world comes free.\nThere is always a price to be paid.",
+    "original_fr": "Zhyle est l'éternel royaume de la magie, l'endroit où tous\nles désirs deviennent réalité...{WAIT_KEY}\nMais {TAG:3C} quel prix ?",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "The world you see with your eyes may well differ\ncompletely from the one I see with mine.{WAIT_KEY}\nThere are as many different worlds as there are\nobservers. Never assume that only those things\nwhich you can see or touch are real.",
+    "original_fr": "Le monde que vous percevez avec vos yeux et le\nmonde que je perçois avec les miens pourraient\nêtre complètement différents.{WAIT_KEY}\nIl existe autant d'univers que d'êtres vivants. Le réel\nne se cantonne pas aux limites de la perception\nsensorielle.",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "I am Doreen.\nSeek the hidden path, and open the\ndoors of knowledge, each in turn.",
+    "original_fr": "Je m'appelle Dorinne. Cherchez la voie qui a été fermée.{WAIT_KEY}\nSuivez l'ordre prescrit pour ouvrir la porte du savoir.",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Welcome.\nHave you come to do business?",
+    "original_fr": "Bienvenue. Que puis-je faire pour vous ?",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "The Queen has sealed away the great elemental\nweapons and armors, forged with the power of\nthe sun, in the shrine to the north.{WAIT_KEY}\nYou can see its entrance on the northern continent,\nbut no one is allowed inside it now.",
+    "original_fr": "La reine a ordonné que les armes et les protections\ncréées {TAG:3C} partir de l'énergie élémentaire du soleil\nsoient enfermées dans le sanctuaire du nord.{WAIT_KEY}\nVous pouvez en apercevoir l'entrée sur le continent\nseptentrional, mais plus personne ne peut y accéder.",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "The door to the northern shrine is sealed by a\npowerful force. Even we, the Enlightened Ones,\nlack the means to open it.",
+    "original_fr": "Les portes du sanctuaire du nord ont été scellées {TAG:3C}\nl'aide d'un sort surpuissant. Même nous, les illuminés,\nne pouvons pas le briser.",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "You are most unusual visitors.\nAm I waking, or is this but a continuation of my dream?{WAIT_KEY}\nRegardless of that, I welcome you to Zeal.\nHer Majesty Queen Zeal rules this Magic Kingdom.\nShe is without peer in beauty or grace.",
+    "original_fr": "Oh, quels étranges voyageurs que voil{TAG:3C} ! Serais-je\nencore en train de rêver ? Bienvenue {TAG:3C} Zhyle.{WAIT_KEY}\nLa reine Zhyle guide notre royaume magique.\nSa beauté et sa puissance sont sans pareilles !",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "We owe our prosperity to Her Majesty the Queen.{WAIT_KEY}\nAfter the King died, she encouraged the development\nof our kingdom's magical prowess, which has led to\ngreat advancements. Zzz...",
+    "original_fr": "Tout ce que nous sommes, nous le devons {TAG:3C} notre reine.{WAIT_KEY}\nAprès le décès du roi, Sa Majesté a accru la puissance\nmagique du royaume pour mieux le développer. Zzz...",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "The Queen's palace sits at the heart of our kingdom.\nShe watches over all the world from its high vantage\npoint.{WAIT_KEY}\nIt's because of that we can sleep our days away\nin peace. *yawn*",
+    "original_fr": "Le palais royal est le c{TAG:61}ur de Zhyle. Du sommet du\ncontinent ouest, la reine veille constamment sur le\nmonde.{WAIT_KEY}\nC'est pour cette raison que nous pouvons passer ainsi\nnos journées {TAG:3C} rêver en toute confiance. Zzz...",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "I wonder what's within the northern shrine.{WAIT_KEY}\nNo doubt the key to unlock its seal is held at the\npalace, but entry there is strictly forbidden in the\nname of Her Majesty the Queen.",
+    "original_fr": "Que peut-il bien y avoir {TAG:3C} l'intérieur du sanctuaire du\nnord...?{WAIT_KEY}\nIl devrait y avoir une clef pour briser son sceau au\npalais, mais nul n'oserait transgresser les ordres de\nla reine...",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Do you believe in such things as fate?\nDo you think it possible our lives are\npredetermined?",
+    "original_fr": "Croyez-vous que le destin existe ? Que tout est déj{TAG:3C}\nprédéterminé en ce monde...?",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Well?\n{TAG:38}{TAG:38}{GLYPH:394}Yes, I do.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No, that's ridiculous.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}That's none of your business.{GLYPH:399}",
+    "original_fr": "Alors ?\n       {GLYPH:394}Oui, j'y crois.{GLYPH:395}\n       {GLYPH:396}Pas du tout.{GLYPH:397}\n       {GLYPH:398}Ça ne vous regarde pas.{GLYPH:399}",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "So, you're a believer, too.{WAIT_KEY}\nYes, perhaps it is arrogant to think ourselves\nstrong enough to overturn destiny.",
+    "original_fr": "C'est bien ce que je pensais...{WAIT_KEY}\nJe suppose qu'il est impossible pour des êtres humains\nd'aller contre leur destin, après tout...",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Yes, it is, isn't it?\nWe are the masters of our own destinies!{WAIT_KEY}\nSpeaking of which...I believe there may be a\ndoorway of destiny in this very place.",
+    "original_fr": "C'est ce que je pense aussi ! Nous frayons nous-mêmes\nnotre propre chemin dans la vie.{WAIT_KEY}\nAu fait... Il y a peut-être une porte {TAG:3C} cette fin ici aussi.",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "...",
+    "original_fr": "...",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "The city of Kajar, the high seat of magical research,\nlies on the edge of the western continent.{WAIT_KEY}\nThe airship, the Blackbird, is maintained there as well.\nZzz...",
+    "original_fr": "Kajar est la ville située {TAG:3C} l'extrémité du continent ouest.\nOn y étudie la magie.{WAIT_KEY}\nC'est {TAG:3C} cet endroit qu'est arrimé le Cygne noir, le\nvaisseau royal.\nZzz... Zzz...",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Zzz...zzz...\nTruths exist in dreams.\nThe world exists in me.\nZzz...",
+    "original_fr": "Zzz... Zzz...\nLa vérité réside dans les rêves.\nLe cosmos réside en mon sein.",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "This is a Font of Recovery.\nRest your wearied mind and body within, traveler.",
+    "original_fr": "Ce cercle est une source régénératrice... Vous pouvez\ny guérir les blessures du corps ainsi qu'y étancher la\nsoif de l'esprit, voyageurs.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Boy: ...",
+    "original_fr": "Garçon : ...",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "{MARLE}: What a weird kid.\nWhat's wrong with him?",
+    "original_fr": "{MARLE} : Qu'est-ce qu'il a, ce garçon ?\nIl a l'air bizarre.",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{LUCCA}: Hey, what's wrong?\nYou have something to say?",
+    "original_fr": "{LUCCA} : Qu'y a-t-il, petit ? Tu veux nous parler ?",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{ROBO}: Do you wish to speak with us?",
+    "original_fr": "{ROBO} : As-tu quelque chose {TAG:3C} nous dire ?",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{FROG}: He seems a sullen lad.",
+    "original_fr": "{FROG} : Quel enfant renfrogné...",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "{AYLA}: What wrong?\nThat animal for eat?\nTaste good?",
+    "original_fr": "{AYLA} : Gamin avoir problème ? Animal être bon {TAG:3C}\nmanger ?",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Boy: The black winds howl.",
+    "original_fr": "Garçon : Le vent sombre se lamente...",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Boy: One among you will shortly perish.",
+    "original_fr": "Garçon : L'un de vous...\n... périra bientôt.",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "{MARLE}: What!?\nWhat's that supposed to mean?",
+    "original_fr": "{MARLE} : Quoi ?! Qu'est-ce tu racontes, tout d'un\ncoup ?",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "{LUCCA}: H-hey!\nWhat do you mean?",
+    "original_fr": "{LUCCA} : Euh... Un instant ! Que veux-tu dire par\nl{TAG:3C} ?!",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{ROBO}: Is that true?\nLet me calculate the probability.",
+    "original_fr": "{ROBO} : Vraiment ? Quelles sont les probabilités\nd'une telle prédiction ?",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "{FROG}: Young one!\nOf what do you speak?",
+    "original_fr": "{FROG} : Hé, petit ! Attends...!",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{AYLA}: ?",
+    "original_fr": "{AYLA} : ???",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "{MARLE}: {CRONO}...\nThat was kind of creepy.",
+    "original_fr": "{MARLE} : {CRONO}... Il me fait froid dans le dos...",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{LUCCA}: It's only a bad joke.\nProphesy is completely unscientific.",
+    "original_fr": "{LUCCA} : Ce n'est qu'une mauvaise blague.\nCe n'est pas scientifique.",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "{ROBO}: Why would he say such a thing?",
+    "original_fr": "{ROBO} : Pourquoi ce garçon a-t-il dit une chose\npareille...?",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{FROG}: I do not know what this portends,\nbut I did not like the sound of that at all.",
+    "original_fr": "{FROG} : Je ne sais pas pourquoi, mais je n'aime pas\nce garçon...",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "{AYLA}: Strange boy...\nBut, not bad boy.",
+    "original_fr": "{AYLA} : Gamin être étrange... Mais pas méchant.",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "The Guru of Reason is gone.\nDo you want to challenge me?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Le sage de la raison n'est plus ici. Voulez-vous vous\nmesurer {TAG:3C} moi ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "All right. Prepare yourselves!",
+    "original_fr": "Alors, en garde !",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "I see.",
+    "original_fr": "Ah bon...",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "You're strong!\nTake this.",
+    "original_fr": "Vous êtes forts. Je vous offre ceci.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Weaklings.\nNu...",
+    "original_fr": "Vous êtes faibles. Gnu...",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "{GLYPH:384}\nObtained Magic Capsule!{WAIT_KEY}{GLYPH:384}\n\nObtained Speed Capsule!{WAIT_KEY}\nNu...",
+    "original_fr": "{GLYPH:384}\nVous obtenez une gélule de magie !{WAIT_KEY}{GLYPH:384}\n\nVous obtenez une gélule de rapidité !{WAIT_KEY}\nGnu...",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "The Mystery of Life\nVolume 841, Chapter 26{WAIT_KEY}\nAll life begins and ends with Nu.{WAIT_KEY}\nThis is the undeniable truth, because I believe\nit to be so. At least for the present.",
+    "original_fr": "{GLYPH:384}\n{TAG:64} Le mystère de la vie {TAG:65}\nVolume 841, chapitre 26{WAIT_KEY}\n{TAG:64} Toute vie commence avec les gnus et se termine avec\nles gnus... {TAG:65}{WAIT_KEY}\n{TAG:64} Puisque je le dis, cela doit être vrai... Probablement. {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "...{WAIT_KEY}\n...",
+    "original_fr": "...{WAIT_KEY}\n...",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "I have platinum armor, too.\nBut I need Her Majesty's permission to sell it.",
+    "original_fr": "J'ai de l'équipement de platine en stock, mais je ne peux\npas vous en vendre sans la permission de la reine.",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "...{WAIT_KEY}\nThat pendant you carry...\nIs that Schala's pendant?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "...{WAIT_KEY}\nGnu... Est-ce le pendentif de Sarah que vous\navez l{TAG:3C} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "...{WAIT_KEY}\nI've no love for liars.",
+    "original_fr": "...{WAIT_KEY}\nJe déteste les menteurs.",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "...{WAIT_KEY}\nWelcome.",
+    "original_fr": "...{WAIT_KEY}\nBienvenue.",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Come again.",
+    "original_fr": "Â bientôt.",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "The structure you can see deep beneath the waves\nbelow is the Ocean Palace—a symbol of our Queen's\ngreatness.{WAIT_KEY}\nThe Palace is the beacon of light which will guide us to\na brighter future. All praise the great and wondrous\nQueen Zeal!",
+    "original_fr": "Ce que vous pouvez apercevoir au fond de l'océan\ncentral est le témoignage de la puissance de la reine :\nle sanctuaire sous-marin.{WAIT_KEY}\nIl sera la source de l'éclat qui guidera tous les êtres\nvivants. Gloire {TAG:3C} la reine !",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "The construction of the Ocean Palace has fallen\nbehind schedule.{WAIT_KEY}\nAn everlasting palace beneath the waves...\nIt'll be a sight to see when it's finished!",
+    "original_fr": "La construction du sanctuaire sous-marin a pris du\nretard.{WAIT_KEY}\nUn sanctuaire éternel au fond de l'océan céruléen...\nQuand il sera terminé, il sera magnifique !",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "The Earthbound Ones are being allowed to work on\nthe construction of the Ocean Palace.{WAIT_KEY}\nIt seems even they have their purpose.",
+    "original_fr": "De nombreux terriens aident {TAG:3C} la construction du\nsanctuaire sous-marin au fond de l'océan. Même des\ngens comme eux peuvent parfois être utiles.",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "The Ocean Palace is complete.\nThis heralds the dawn of an eternal age of\nglory for the kingdom of Zeal!",
+    "original_fr": "Le sanctuaire sous-marin est terminé ! Oh, l'ère\néternelle de Zhyle est arrivée !",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "This is the Magic City of Kajar.{WAIT_KEY}\nWe perform research in the magical arts\nto help further Her Majesty's plans to\ndeliver our kingdom even greater glory.",
+    "original_fr": "Bienvenue {TAG:3C} Kajar, la cité des mages de Zhyle.{WAIT_KEY}\nNous faisons diverses recherches afin de contribuer au\nplan de Sa Majesté d'apporter encore plus de lumière au\nroyaume de Zhyle.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "My, you've an unusual aura!\nYou must possess the gift, too.{WAIT_KEY}\nYours seems very primitive compared to ours, though.\nYou poor thing!",
+    "original_fr": "Oh, quelle étrange aura vous avez ! Pourriez-vous donc\nutiliser la magie ?{WAIT_KEY}\nCependant, comparée {TAG:3C} la nôtre, votre magie me semble\nbien primitive. Ho, ho, ho, ho !",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Those lacking magic are known as the Earthbound\nOnes. They have always lived beneath the clouds.{WAIT_KEY}\nIt's only fitting.\nAfter all, they lack our talents.",
+    "original_fr": "Ceux qui ne peuvent pas utiliser la magie, les terriens,\nhabitent sous les nuages depuis toujours.{WAIT_KEY}\nAprès tout, ils ne sont pas comme nous. Ils n'ont pas de\npouvoirs spéciaux.",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "How is it that we came to have the powers we do?{WAIT_KEY}\nWhy do some possess the gift while others lack it?\nIt is a conundrum.",
+    "original_fr": "D'où viennent nos pouvoirs ?{WAIT_KEY}\nPourquoi certains peuvent-ils utiliser la magie alors que\nd'autres ne le peuvent pas ? Hum...",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "We've been seeing a great deal of young lord Janus\nlately. Before, he scarcely showed his face. But now\nhe paces around quite often, always looking upset.",
+    "original_fr": "Curieusement, on voit souvent Janus dans les alentours\ndepuis quelque temps.{WAIT_KEY}\nIl a l'air agité et se promène sans cesse de-ci de-l{TAG:3C}...",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "What tempest must rage in young Lord Janus's head?{WAIT_KEY}\nHis only friend, other than his sister,\nis that cat that follows him about.",
+    "original_fr": "Â part sa s{TAG:61}ur, mademoiselle Sarah, Janus n'a que son\nchat qui le suit partout pour lui tenir compagnie.{WAIT_KEY}\nQue peut-il bien voir ou entendre que nous ne pouvons\npas...?",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "The Gurus of Life, Time, and Reason dwell in Zeal.\nTheir knowledge and skill is without equal.",
+    "original_fr": "Trois sages veillent sur le royaume de Zhyle : le sage de\nla vie, le sage du temps et le sage de la raison. Nul ne\nsaurait égaler leur savoir et leur talent.",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Zeal's progress stems from our new energy source.\nIts power far surpasses that of the sun's elemental\nenergy.",
+    "original_fr": "Zhyle a prospéré en utilisant une nouvelle forme\nd'énergie beaucoup plus puissante que celle de\nl'énergie élémentaire du soleil.",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Your power...differs from ours.{WAIT_KEY}\nIt's difficult to describe, but in you I sense a\nstrange...kindness.",
+    "original_fr": "Oh ? Votre pouvoir est quelque peu différent du nôtre.{WAIT_KEY}\nQu'est-ce que c'est...? J'y discerne une étrange\nbienveillance.",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "I've been working to fashion a capsule that will\nenhance one's magical skill.{WAIT_KEY}\nBut my precious products have been disappearing\nin recent days.{WAIT_KEY}\nIt must be that naughty Nu that took them.\nThey do so love pranks. He's no doubt hidden\nthem all about. How can I work like this?",
+    "original_fr": "Nous travaillons sur des gélules qui augmentent les\npouvoirs magiques.{WAIT_KEY}\nCependant, nos précieuses gélules disparaissent\nsouvent depuis quelque temps...{WAIT_KEY}\nJe suis certain que c'est la faute de ce gnu de malheur !\nIl adore jouer des tours. Ce qu'il peut être pénible {TAG:3C} la\nfin !",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Oh, that capsule's not been completed yet.{WAIT_KEY}\nToo bad, eh?\nHa ha ha!",
+    "original_fr": "Oh, cette gélule n'est pas encore au point.{WAIT_KEY}\nDommage, hein ? Ho, ho !",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "I heard a strange prophet has come to the palace.{WAIT_KEY}\nI do not know the details, but I heard he has powers\nmost uncanny.",
+    "original_fr": "Les rumeurs racontent qu'un prophète mystérieux est\napparu au palais.{WAIT_KEY}\nJe n'ai pas de détails, mais il para¡t que c'est un mage\ntrès puissant.",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Behold! That out the window is the great Blackbird,\nbuilt by Belthasar, the Guru of Reason.{WAIT_KEY}\nTo see it soar across the sky, you'd think it alive.\nThe Guru is a genius!",
+    "original_fr": "Admirez le Cygne noir, cet immense vaisseau conçu par\nGasch, le sage de la raison.{WAIT_KEY}\nIl parcourt le ciel {TAG:3C} sa guise, comme s'il était un oiseau\nvivant. Ma¡tre Gasch est vraiment un génie !",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Her Majesty Queen Zeal has two children: Lady Schala\nand young Lord Janus.{WAIT_KEY}\nLady Schala's an incredible child with extraordinary\nmagical powers.{WAIT_KEY}\nWith such a gift, her life must be all ease and luxury.",
+    "original_fr": "La reine a donné naissance {TAG:3C} deux enfants :\nmademoiselle Sarah et Janus.{WAIT_KEY}\nMademoiselle Sarah est une enfant remarquable aux\npouvoirs magiques extraordinaires.{WAIT_KEY}\nAvec de tels pouvoirs, elle doit avoir une vie facile...",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "I heard Lady Schala's powers far surpass\nthose of her mother.{WAIT_KEY}\nThen there's her brother, young Lord Janus.\nHe's of royal blood as well, of course, but\ndoesn't seem to have the faintest trace of\nmagical ability.",
+    "original_fr": "Ce n'est qu'une rumeur, mais on dit que les pouvoirs\nmagiques de mademoiselle Sarah surpassent infiniment\nceux de la reine, sa mère.{WAIT_KEY}\nSon frère Janus, par contre... Même s'il est issu de\nla lignée royale, on dirait qu'il n'a pas de pouvoirs\nmagiques du tout.",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "That's the Sun Temple which you see on the southern\nsky isle. The Sun Stone, once our primary source of\npower, was enshrined there.{WAIT_KEY}\nHowever, the temple was sealed up along with the\nnorthern shrine once we turned to our new energy\nsource.{WAIT_KEY}\nThe Queen claimed we'd no need for the energy of the\ntired, old sun.",
+    "original_fr": "Ce que vous pouvez apercevoir sur le petit continent du\nsud est l'ancien berceau de la lumière. Nous y gardions\nla pierre du soleil qui recèle la puissance de notre astre.{WAIT_KEY}\nMais, depuis que nous utilisons une nouvelle forme\nd'énergie, le temple a été complètement scellé, tout\ncomme le sanctuaire du nord.{WAIT_KEY}\nLa reine dit que nous n'avons plus besoin de cette\nénergie obsolète qu'est celle du soleil.",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "A Guru once told me that the Sun Stone once\nheld all the nearly infinite energy of our sun.{WAIT_KEY}\nOver time that energy was slowly depleted, and\nit turned into the lightless Moon Stone.",
+    "original_fr": "La pierre du soleil avait absorbé l'énergie infinie\nde notre astre, c'est un des sages qui me l'a dit\nautrefois.{WAIT_KEY}\nCependant, après avoir épuisé toute sa puissance,\nelle a perdu son éclat et s'est transformée en pierre\nobscure.",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Know you this, traveler?{WAIT_KEY}\nThe Moon Stone could be restored to a glorious Sun\nStone if left to bask in the sun's warm light.{WAIT_KEY}\nBut such would require aeons. None of us will\never witness that gorgeous glow again.",
+    "original_fr": "Saviez-vous qu'il est possible de redonner son éclat {TAG:3C}\nla pierre obscure en la laissant dans un endroit bien\nensoleillé ?{WAIT_KEY}\nToutefois, il faudrait une durée inimaginable pour y\nréussir. Nous ne reverrons jamais son éclat...",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Scratch, scratch...",
+    "original_fr": "Gratte, gratte...",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Oooh...",
+    "original_fr": "Oh...",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Phew...",
+    "original_fr": "Aaah...!",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Tee hee!",
+    "original_fr": "Hi, hi...!",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "...",
+    "original_fr": "...",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Water summons wind...\nWind makes fire dance...",
+    "original_fr": "L'eau invoque le vent...\nLe vent fait danser le feu...",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{GLYPH:384}\nObtained an unidentifiable object!",
+    "original_fr": "{GLYPH:384}\nVous avez trouvé une poupée mystérieuse !",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{GLYPH:384}\nBut inside is a Black Gemstone!",
+    "original_fr": "{GLYPH:384}\nUne pierre noire en est sortie !",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "It all began aeons ago, when Man's ancestors\nstumbled upon a shard of strange red rock.{WAIT_KEY}\nIts power was beyond human comprehension.\nIt cultivated dreams, and gave birth to love\nand hate.{WAIT_KEY}\nOnly time will tell how it ends.",
+    "original_fr": "{TAG:64} Un fragment d'une étrange pierre rouge trouvé il y a\ndes millions et des millions d'années par les ancêtres\ndes humains... C'est ainsi que tout commença. {TAG:65}{WAIT_KEY}\n{TAG:64} Un pouvoir surpassant le savoir humain nourrit les\nrêves et donna naissance {TAG:3C} l'amour et la haine... {TAG:65}{WAIT_KEY}\n{TAG:64} Comment cela se terminera-t-il ? Seul le temps nous le\ndira. {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nTrouvé : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "In ancient times, people crafted wondrous weapons\nand armor by combining shards of a rainbow-colored\nshell with the Sun Stone's power.{WAIT_KEY}\nBut now, only the Guru of Life knows the art of\ncrafting such things. And even if others did, the\nQueen has ordered us to abandon use of the\nsun's power.",
+    "original_fr": "J'ai entendu dire qu'en combinant le coquillage\narc-en-ciel qui existait {TAG:3C} l'époque préhistorique\navec la pierre du soleil, on pourrait fabriquer des\narmes et des objets merveilleux.{WAIT_KEY}\nMais de nos jours, seul le sage de la vie possède les\ntechniques nécessaires... En outre, la reine nous a\naussi ordonné d'abandonner le pouvoir du soleil...",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Ah, such beauteous contentment there is in a newly\nblossomed bud! Would that I could be a flower.",
+    "original_fr": "Ah, les fleurs sont si belles... J'aimerais tant être une\nfleur...",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

@@ -1,0 +1,2084 @@
+[
+  {
+    "id": 0,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{TAG:3E}Wooden Sword",
+    "original_fr": "{TAG:3E}Sabre de bois",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{TAG:3E}Bronze Blade",
+    "original_fr": "{TAG:3E}Sabre de bronze",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{TAG:3E}Steel Saber",
+    "original_fr": "{TAG:3E}Sabre d'acier",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{TAG:3E}Silver Sword",
+    "original_fr": "{TAG:3E}Sabre d'argent",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{TAG:3E}Crimson Blade",
+    "original_fr": "{TAG:3E}Sabre écarlate",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{TAG:3E}Mammoth Tusk",
+    "original_fr": "{TAG:3E}Sabre d'ivoire",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{TAG:3E}Dark Saber",
+    "original_fr": "{TAG:3E}Sabre obscur",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{TAG:3E}Primeval Blade",
+    "original_fr": "{TAG:3E}Sabre antique",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{TAG:3E}Zanmato",
+    "original_fr": "{TAG:3E}Zanmato",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{TAG:3E}Vajra Sword",
+    "original_fr": "{TAG:3E}Sabre de diamant",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{TAG:3E}Empyrean Blade",
+    "original_fr": "{TAG:3E}Sabre céleste",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "{TAG:3E}Yaksha Blade",
+    "original_fr": "{TAG:3E}Yasha",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{TAG:3E}Onimaru",
+    "original_fr": "{TAG:3E}Onimaru",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{TAG:3E}Suzaku",
+    "original_fr": "{TAG:3E}Suzaku",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "{TAG:3E}Thunder Blade",
+    "original_fr": "{TAG:3E}Sabre fulgurant",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "{TAG:3E}Slasher",
+    "original_fr": "{TAG:3E}Sabre de Soja",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "{TAG:3E}Bronze Bowgun",
+    "original_fr": "{TAG:3E}Arbalète de bronze",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "{TAG:3E}Iron Bowgun",
+    "original_fr": "{TAG:3E}Arbalète de fer",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "{TAG:3E}Silver Bow",
+    "original_fr": "{TAG:3E}Arc d'argent",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "{TAG:3E}Bandit's Bow",
+    "original_fr": "{TAG:3E}Rouge-gorge",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{TAG:3E}Shaman's Bow",
+    "original_fr": "{TAG:3E}Arc de shaman",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{TAG:3E}Dreamstone Bow",
+    "original_fr": "{TAG:3E}Arc onirique",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{TAG:3E}Comet Bow",
+    "original_fr": "{TAG:3E}Comète",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "{TAG:3E}Sonic Bow",
+    "original_fr": "{TAG:3E}Supersonique",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "{TAG:3E}Valkyrie Bow",
+    "original_fr": "{TAG:3E}Walkyrie",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "{TAG:3E}Siren's Kiss",
+    "original_fr": "{TAG:3E}Sirène",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "{TAG:3E}",
+    "original_fr": "{TAG:3E}",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "{TAG:3E}",
+    "original_fr": "{TAG:3E}",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{TAG:3E}",
+    "original_fr": "{TAG:3E}",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "{TAG:3E}",
+    "original_fr": "{TAG:3E}",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{TAG:3E}Airgun",
+    "original_fr": "{TAG:3E}Pistolet {TAG:3C} air",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "{TAG:3E}Pea Shooter",
+    "original_fr": "{TAG:3E}Pistolet {TAG:3C} billes",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{TAG:3E}Pocket Blaster",
+    "original_fr": "{TAG:3E}Pistolet de duel",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "{TAG:3E}Picomagnum",
+    "original_fr": "{TAG:3E}Picomagnum",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{TAG:3E}Plasma Gun",
+    "original_fr": "{TAG:3E}Pistolet {TAG:3C} plasma",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "{TAG:3E}Ruby Gun",
+    "original_fr": "{TAG:3E}Pistolet {TAG:3C} rubis",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "{TAG:3E}Dreamstone Gun",
+    "original_fr": "{TAG:3E}Pistolet onirique",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{TAG:3E}Megablaster",
+    "original_fr": "{TAG:3E}Mégablaster",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "{TAG:3E}Shockwave",
+    "original_fr": "{TAG:3E}Onde de choc",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "{TAG:3E}Wondershot",
+    "original_fr": "{TAG:3E}Pistolet miracle",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "{TAG:3E}Gravitator",
+    "original_fr": "{TAG:3E}Gravité",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "{TAG:3E}",
+    "original_fr": "{TAG:3E}",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "{TAG:3E}",
+    "original_fr": "{TAG:3E}",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "{TAG:3E}",
+    "original_fr": "{TAG:3E}",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "{TAG:3E}",
+    "original_fr": "{TAG:3E}",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "{TAG:3E}Tin Arm",
+    "original_fr": "{TAG:3E}Bras de fer-blanc",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "{TAG:3E}Hammer Arm",
+    "original_fr": "{TAG:3E}Bras marteau",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "{TAG:3E}Mirage Hand",
+    "original_fr": "{TAG:3E}Bras mirage",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "{TAG:3E}Stone Arm",
+    "original_fr": "{TAG:3E}Bras de pierre",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "{TAG:3E}Death Claw",
+    "original_fr": "{TAG:3E}Griffes létales",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "{TAG:3E}Magma Hand",
+    "original_fr": "{TAG:3E}Bras de magma",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "{TAG:3E}Megaton Arm",
+    "original_fr": "{TAG:3E}Bras mégatonne",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "{TAG:3E}Heavy Hand",
+    "original_fr": "{TAG:3E}Main énorme",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "{TAG:3E}Kaiser Arm",
+    "original_fr": "{TAG:3E}Bras de Kaiser",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "{TAG:3E}Gigaton Arm",
+    "original_fr": "{TAG:3E}Bras gigatonne",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "{TAG:3E}Teraton Arm",
+    "original_fr": "{TAG:3E}Bras tératonne",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "{TAG:3E}Crisis Arm",
+    "original_fr": "{TAG:3E}Bras critique",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "{TAG:3E}",
+    "original_fr": "{TAG:3E}",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "{TAG:3E}Bronze Sword",
+    "original_fr": "{TAG:3E}îpée de bronze",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "{TAG:3E}Iron Sword",
+    "original_fr": "{TAG:3E}îpée de fer",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "{TAG:3E}Masamune",
+    "original_fr": "{TAG:3E}Grandléon",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "{TAG:3E}Radiant Blade",
+    "original_fr": "{TAG:3E}îpée éclatante",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{TAG:3E}Smiter's Blade",
+    "original_fr": "{TAG:3E}îpée magicide",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "{TAG:3E}Rune Blade",
+    "original_fr": "{TAG:3E}îpée runique",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "{TAG:3E}Brave Sword",
+    "original_fr": "{TAG:3E}îpée des braves",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "{TAG:3E}Masamune",
+    "original_fr": "{TAG:3E}Grandléon",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{TAG:3E}Demonslayer",
+    "original_fr": "{TAG:3E}îpée démonicide",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{TAG:3E}Fist",
+    "original_fr": "{TAG:3E}Poing",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "{TAG:3E}Fist",
+    "original_fr": "{TAG:3E}Poing",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "{TAG:3E}Fist",
+    "original_fr": "{TAG:3E}Poing",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "{TAG:3E}Iron Fist",
+    "original_fr": "{TAG:3E}Poing de fer",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{TAG:3E}Bronze Fist",
+    "original_fr": "{TAG:3E}Poing herculéen",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "{TAG:3E}",
+    "original_fr": "{TAG:3E}",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "{TAG:3E}",
+    "original_fr": "{TAG:3E}",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "{TAG:3E}Moonfall Scythe",
+    "original_fr": "{TAG:3E}Faux ténébreuse",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "{TAG:3E}Headman's Scythe",
+    "original_fr": "{TAG:3E}Faux meurtrière",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "{TAG:3E}Hadean Sickle",
+    "original_fr": "{TAG:3E}Faux infernale",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{TAG:3E}Doom Scythe",
+    "original_fr": "{TAG:3E}Faux du désespoir",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{TAG:3E}Mop",
+    "original_fr": "{TAG:3E}Balai {TAG:3C} franges",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "{TAG:3E}Broken Blade",
+    "original_fr": "{TAG:3E}Lame brisée",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "{TAG:3E}Broken Hilt",
+    "original_fr": "{TAG:3E}Poignée d'épée",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{TAG:3E}Masamune",
+    "original_fr": "{TAG:3E}Grandléon",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "{TAG:3E}Swallow",
+    "original_fr": "{TAG:3E}Tsubame",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "{TAG:3E}Slasher II",
+    "original_fr": "{TAG:3E}Sabre de Soja II",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "{TAG:3E}Rainbow",
+    "original_fr": "{TAG:3E}Niji",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "{TAG:3E}Icewyrm",
+    "original_fr": "{TAG:3E}Seiry{TAG:63}",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "{TAG:3E}Stardust Bow",
+    "original_fr": "{TAG:3E}Stella",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "{TAG:3E}Turboshot",
+    "original_fr": "{TAG:3E}Pistolet presto",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{TAG:3E}Dinoblade",
+    "original_fr": "{TAG:3E}îpée préhistorique",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "{TAG:3E}Dragon Arm",
+    "original_fr": "{TAG:3E}Bras draconien",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "{TAG:3E}Judgment Scythe",
+    "original_fr": "{TAG:3E}Faux du jugement",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "{TAG:3E}Dreamseeker",
+    "original_fr": "{TAG:3E}Mugen",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "{TAG:3E}Venus Bow",
+    "original_fr": "{TAG:3E}Vénus",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "{TAG:3E}Spellslinger",
+    "original_fr": "{TAG:3E}Pistolet occulte",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "{TAG:3E}Apocalypse Arm",
+    "original_fr": "{TAG:3E}Apocalypse",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "{TAG:3E}Dreamreaper",
+    "original_fr": "{TAG:3E}Cauchemar",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "{TAG:3E}Hide Tunic",
+    "original_fr": "{TAG:3E}Veste de cuir",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "{TAG:3E}Padded Vest",
+    "original_fr": "{TAG:3E}Tunique",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "{TAG:3E}Bronze Armor",
+    "original_fr": "{TAG:3E}Armure de bronze",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "{TAG:3E}Maiden's Suit",
+    "original_fr": "{TAG:3E}Haubert féminin",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "{TAG:3E}Iron Suit",
+    "original_fr": "{TAG:3E}Armure d'acier",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "{TAG:3E}Titanium Vest",
+    "original_fr": "{TAG:3E}Veste de titane",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "{TAG:3E}Golden Suit",
+    "original_fr": "{TAG:3E}Armure d'or",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "{TAG:3E}Ruby Vest",
+    "original_fr": "{TAG:3E}Veste de rubis",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "{TAG:3E}Dark Mail",
+    "original_fr": "{TAG:3E}Armure obscure",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "{TAG:3E}Mist Robe",
+    "original_fr": "{TAG:3E}Toge de brume",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{TAG:3E}Mesozoic Mail",
+    "original_fr": "{TAG:3E}Plastron osseux",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "{TAG:3E}Luminous Robe",
+    "original_fr": "{TAG:3E}Toge de lumière",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{TAG:3E}Radiant Plate",
+    "original_fr": "{TAG:3E}Plastron éclatant",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{TAG:3E}Platinum Vest",
+    "original_fr": "{TAG:3E}Veste de platine",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{TAG:3E}Aeonian Suit",
+    "original_fr": "{TAG:3E}Haubert éternel",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{TAG:3E}Zodiac Cape",
+    "original_fr": "{TAG:3E}Cape étoilée",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "{TAG:3E}Nova Armor",
+    "original_fr": "{TAG:3E}Armure nova",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "{TAG:3E}Prismatic Dress",
+    "original_fr": "{TAG:3E}Robe irisée",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "{TAG:3E}Moonbeam Armor",
+    "original_fr": "{TAG:3E}Armure lunaire",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "{TAG:3E}Ruby Armor",
+    "original_fr": "{TAG:3E}Armure de rubis",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "{TAG:3E}Raven Armor",
+    "original_fr": "{TAG:3E}Armure de jais",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "{TAG:3E}Gloom Cape",
+    "original_fr": "{TAG:3E}Cape du désespoir",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "{TAG:3E}White Plate",
+    "original_fr": "{TAG:3E}Plastron blanc",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "{TAG:3E}Black Plate",
+    "original_fr": "{TAG:3E}Plastron noir",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "{TAG:3E}Blue Plate",
+    "original_fr": "{TAG:3E}Plastron bleu",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "{TAG:3E}Red Plate",
+    "original_fr": "{TAG:3E}Plastron rouge",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "{TAG:3E}White Vest",
+    "original_fr": "{TAG:3E}Veste blanche",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{TAG:3E}Black Vest",
+    "original_fr": "{TAG:3E}Veste noire",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "{TAG:3E}Blue Vest",
+    "original_fr": "{TAG:3E}Veste bleue",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "{TAG:3E}Red Vest",
+    "original_fr": "{TAG:3E}Veste rouge",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "{TAG:3E}Taban's Vest",
+    "original_fr": "{TAG:3E}Veste de Taban",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{TAG:3E}Taban's Suit",
+    "original_fr": "{TAG:3E}Haubert de Taban",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "{TAG:3E}Dragon Armor",
+    "original_fr": "{TAG:3E}Armure de dragon",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "{TAG:3E}Reptite Dress",
+    "original_fr": "{TAG:3E}Parure de guivre",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "{TAG:3E}Saurian Leathers",
+    "original_fr": "{TAG:3E}Peau de dinosaure",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "{TAG:3E}Regal Plate",
+    "original_fr": "{TAG:3E}Plastron royal",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "{TAG:3E}Regal Gown",
+    "original_fr": "{TAG:3E}Robe de bal",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "{TAG:3E}Elemental Aegis",
+    "original_fr": "{TAG:3E}Cotte élémentaire",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{TAG:3E}Shadowplume Robe",
+    "original_fr": "{TAG:3E}Aube des ténèbres",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{TAG:3E}Hide Cap",
+    "original_fr": "{TAG:3E}Chapeau de cuir",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{TAG:3E}Bronze Helm",
+    "original_fr": "{TAG:3E}Armet de bronze",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{TAG:3E}Iron Helm",
+    "original_fr": "{TAG:3E}Armet d'acier",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "{TAG:3E}Porrean Beret",
+    "original_fr": "{TAG:3E}Béret de Palpori",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "{TAG:3E}Golden Helm",
+    "original_fr": "{TAG:3E}Armet d'or",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "{TAG:3E}Stone Helm",
+    "original_fr": "{TAG:3E}Armet de pierre",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "{TAG:3E}Triceratopper",
+    "original_fr": "{TAG:3E}Armet osseux",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "{TAG:3E}Radiant Helm",
+    "original_fr": "{TAG:3E}Armet éclatant",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "{TAG:3E}Platinum Helm",
+    "original_fr": "{TAG:3E}Armet de platine",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "{TAG:3E}Aeonian Helm",
+    "original_fr": "{TAG:3E}Armet éternel",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "{TAG:3E}Prismatic Helm",
+    "original_fr": "{TAG:3E}Armet irisé",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "{TAG:3E}Doom Helm",
+    "original_fr": "{TAG:3E}Armet du trépas",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "{TAG:3E}Dark Helm",
+    "original_fr": "{TAG:3E}Armet obscur",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "{TAG:3E}Gloom Helm",
+    "original_fr": "{TAG:3E}Armet des damnés",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "{TAG:3E}Guardian Helm",
+    "original_fr": "{TAG:3E}Armet gardien",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "{TAG:3E}Taban's Helm",
+    "original_fr": "{TAG:3E}Armet de Taban",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "{TAG:3E}Clarity Cap",
+    "original_fr": "{TAG:3E}Toque de lucidité",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "{TAG:3E}Memory Cap",
+    "original_fr": "{TAG:3E}Toque de mémoire",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "{TAG:3E}Time Hat",
+    "original_fr": "{TAG:3E}Toque temporelle",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "{TAG:3E}Vigilant's Hat",
+    "original_fr": "{TAG:3E}Toque protectrice",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "{TAG:3E}Ozzie Pants",
+    "original_fr": "{TAG:3E}Caleçon de Vinnie",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "{TAG:3E}Haste Helm",
+    "original_fr": "{TAG:3E}Armet de célérité",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "{TAG:3E}Rainbow Helm",
+    "original_fr": "{TAG:3E}Armet prismatique",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "{TAG:3E}Mermaid Helm",
+    "original_fr": "{TAG:3E}Armet de sirène",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "{TAG:3E}Dragonhead",
+    "original_fr": "{TAG:3E}Cr{TAG:4A}ne de dragon",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "{TAG:3E}Reptite Tiara",
+    "original_fr": "{TAG:3E}Diadème de guivre",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "{TAG:3E}Master's Crown",
+    "original_fr": "{TAG:3E}Lauriers ma¡tres",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "{TAG:3E}Angel's Tiara",
+    "original_fr": "{TAG:3E}Nimbe angélique",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "{TAG:3E}Headband",
+    "original_fr": "{TAG:3E}Bandeau",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "{TAG:3E}Ribbon",
+    "original_fr": "{TAG:3E}Ruban",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "{TAG:3E}Power Glove",
+    "original_fr": "{TAG:3E}Gants de force",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "{TAG:3E}Guardian Bangle",
+    "original_fr": "{TAG:3E}Bracelet gardien",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "{TAG:3E}Magic Scarf",
+    "original_fr": "{TAG:3E}Foulard magique",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "{TAG:3E}Schala's Amulet",
+    "original_fr": "{TAG:3E}Amulette de Sarah",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "{TAG:3E}Speed Ring",
+    "original_fr": "{TAG:3E}Bague de rapidité",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "{TAG:3E}Acuity Ring",
+    "original_fr": "{TAG:3E}Bague précision",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "{TAG:3E}Power Ring",
+    "original_fr": "{TAG:3E}Bague de force",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "{TAG:3E}Magic Ring",
+    "original_fr": "{TAG:3E}Bague de magie",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "{TAG:3E}Barrier Ring",
+    "original_fr": "{TAG:3E}Bague barrière",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "{TAG:3E}Silver Earring",
+    "original_fr": "{TAG:3E}Pendant d'argent",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "{TAG:3E}Golden Earring",
+    "original_fr": "{TAG:3E}Pendant d'or",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "{TAG:3E}Silver Stud",
+    "original_fr": "{TAG:3E}Boucle d'argent",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "{TAG:3E}Golden Stud",
+    "original_fr": "{TAG:3E}Boucle d'or",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "{TAG:3E}Sight Scope",
+    "original_fr": "{TAG:3E}Monocle d'analyse",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "{TAG:3E}Alluring Top",
+    "original_fr": "{TAG:3E}Bustier séduisant",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "{TAG:3E}Rage Band",
+    "original_fr": "{TAG:3E}Bracelet de colère",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "{TAG:3E}Wrath Band",
+    "original_fr": "{TAG:3E}Bracelet de furie",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "{TAG:3E}Third Eye",
+    "original_fr": "{TAG:3E}Troisième {TAG:61}il",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "{TAG:3E}Workman's Wallet",
+    "original_fr": "{TAG:3E}Bourse magique",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "{TAG:3E}Green Dream",
+    "original_fr": "{TAG:3E}Rêve vert",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "{TAG:3E}Berserker Ring",
+    "original_fr": "{TAG:3E}Bague de berserk",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "{TAG:3E}Power Scarf",
+    "original_fr": "{TAG:3E}îcharpe de force",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "{TAG:3E}Speed Belt",
+    "original_fr": "{TAG:3E}Ceinture rapidité",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "{TAG:3E}Black Gemstone",
+    "original_fr": "{TAG:3E}Pierre noire",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "{TAG:3E}Blue Gemstone",
+    "original_fr": "{TAG:3E}Pierre bleue",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "{TAG:3E}Silver Gemstone",
+    "original_fr": "{TAG:3E}Pierre argentée",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "{TAG:3E}White Gemstone",
+    "original_fr": "{TAG:3E}Pierre blanche",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "{TAG:3E}Golden Gemstone",
+    "original_fr": "{TAG:3E}Pierre dorée",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "{TAG:3E}Hero's Badge",
+    "original_fr": "{TAG:3E}Médaille du héros",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "{TAG:3E}Muscle Ring",
+    "original_fr": "{TAG:3E}Bague de titan",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "{TAG:3E}Flea Bustier",
+    "original_fr": "{TAG:3E}Bustier de Mayo",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "{TAG:3E}Magic Crest",
+    "original_fr": "{TAG:3E}Sceau magique",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "{TAG:3E}Power Crest",
+    "original_fr": "{TAG:3E}Sceau physique",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "{TAG:3E}Accessory",
+    "original_fr": "{TAG:3E}Accessoire",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "{TAG:3E}Seraph Song",
+    "original_fr": "{TAG:3E}Murmure d'ange",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "{TAG:3E}Sunglasses",
+    "original_fr": "{TAG:3E}Lunettes du soleil",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "{TAG:3E}Prism Spectacles",
+    "original_fr": "{TAG:3E}Lunettes irisées",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "{TAG:3E}Valor Crest",
+    "original_fr": "{TAG:3E}Blason des braves",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "{TAG:3E}Champion's Badge",
+    "original_fr": "{TAG:3E}Emblème du preux",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "{TAG:3E}Dragon's Tear",
+    "original_fr": "{TAG:3E}Larme de dragon",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "{TAG:3E}Nu Arcana",
+    "original_fr": "{TAG:3E}Arcanes des gnus",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "{TAG:3E}Uranian Mirror",
+    "original_fr": "{TAG:3E}Miroir d'Uranus",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "{TAG:3E}Pontic Mirror",
+    "original_fr": "{TAG:3E}Miroir de Neptune",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "{TAG:3E}Promethean Mirror",
+    "original_fr": "{TAG:3E}Miroir de Vulcain",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "{TAG:3E}Hadean Mirror",
+    "original_fr": "{TAG:3E}Miroir de Pluton",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "{TAG:3E}Aresian Mirror",
+    "original_fr": "{TAG:3E}Miroir de Mars",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 256,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 257,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 258,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 259,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 260,
+    "original_en": "{TAG:3E}Potion",
+    "original_fr": "{TAG:3E}Potion",
+    "translation": ""
+  },
+  {
+    "id": 261,
+    "original_en": "{TAG:3E}Mid-Potion",
+    "original_fr": "{TAG:3E}Super-potion",
+    "translation": ""
+  },
+  {
+    "id": 262,
+    "original_en": "{TAG:3E}Hi-Potion",
+    "original_fr": "{TAG:3E}Méga-potion",
+    "translation": ""
+  },
+  {
+    "id": 263,
+    "original_en": "{TAG:3E}Ether",
+    "original_fr": "{TAG:3E}îther",
+    "translation": ""
+  },
+  {
+    "id": 264,
+    "original_en": "{TAG:3E}Mid-Ether",
+    "original_fr": "{TAG:3E}Super-éther",
+    "translation": ""
+  },
+  {
+    "id": 265,
+    "original_en": "{TAG:3E}Hi-Ether",
+    "original_fr": "{TAG:3E}Méga-éther",
+    "translation": ""
+  },
+  {
+    "id": 266,
+    "original_en": "{TAG:3E}Elixir",
+    "original_fr": "{TAG:3E}îlixir",
+    "translation": ""
+  },
+  {
+    "id": 267,
+    "original_en": "{TAG:3E}Turbo Ether",
+    "original_fr": "{TAG:3E}Maxi-éther",
+    "translation": ""
+  },
+  {
+    "id": 268,
+    "original_en": "{TAG:3E}Megalixir",
+    "original_fr": "{TAG:3E}Ultra-élixir",
+    "translation": ""
+  },
+  {
+    "id": 269,
+    "original_en": "{TAG:3E}Panacea",
+    "original_fr": "{TAG:3E}Panacée",
+    "translation": ""
+  },
+  {
+    "id": 270,
+    "original_en": "{TAG:3E}Athenian Water",
+    "original_fr": "{TAG:3E}Nectar d'Athéna",
+    "translation": ""
+  },
+  {
+    "id": 271,
+    "original_en": "{TAG:3E}Shelter",
+    "original_fr": "{TAG:3E}Tente",
+    "translation": ""
+  },
+  {
+    "id": 272,
+    "original_en": "{TAG:3E}Ambrosia",
+    "original_fr": "{TAG:3E}Panier-repas",
+    "translation": ""
+  },
+  {
+    "id": 273,
+    "original_en": "{TAG:3E}Lapis",
+    "original_fr": "{TAG:3E}Lapis-lazuli",
+    "translation": ""
+  },
+  {
+    "id": 274,
+    "original_en": "{TAG:3E}Barrier Sphere",
+    "original_fr": "{TAG:3E}Sphère barrière",
+    "translation": ""
+  },
+  {
+    "id": 275,
+    "original_en": "{TAG:3E}Shield Sphere",
+    "original_fr": "{TAG:3E}Sphère bouclier",
+    "translation": ""
+  },
+  {
+    "id": 276,
+    "original_en": "{TAG:3E}Strength Capsule",
+    "original_fr": "{TAG:3E}Gélule de force",
+    "translation": ""
+  },
+  {
+    "id": 277,
+    "original_en": "{TAG:3E}Magic Capsule",
+    "original_fr": "{TAG:3E}Gélule de magie",
+    "translation": ""
+  },
+  {
+    "id": 278,
+    "original_en": "{TAG:3E}Speed Capsule",
+    "original_fr": "{TAG:3E}Gélule de rapidité",
+    "translation": ""
+  },
+  {
+    "id": 279,
+    "original_en": "{TAG:3E}Slops",
+    "original_fr": "{TAG:3E}P{TAG:4A}ture",
+    "translation": ""
+  },
+  {
+    "id": 280,
+    "original_en": "{TAG:3E}Flameclaw",
+    "original_fr": "{TAG:3E}Griffe ardente",
+    "translation": ""
+  },
+  {
+    "id": 281,
+    "original_en": "{TAG:3E}Seafang",
+    "original_fr": "{TAG:3E}Croc aqueux",
+    "translation": ""
+  },
+  {
+    "id": 282,
+    "original_en": "{TAG:3E}Duskeye",
+    "original_fr": "{TAG:3E}♂il ténébreux",
+    "translation": ""
+  },
+  {
+    "id": 283,
+    "original_en": "{TAG:3E}Luxwing",
+    "original_fr": "{TAG:3E}Aile lumineuse",
+    "translation": ""
+  },
+  {
+    "id": 284,
+    "original_en": "{TAG:3E}Hawk Talon",
+    "original_fr": "{TAG:3E}Serres d'aigle",
+    "translation": ""
+  },
+  {
+    "id": 285,
+    "original_en": "{TAG:3E}Shield Cloak",
+    "original_fr": "{TAG:3E}Cape protectrice",
+    "translation": ""
+  },
+  {
+    "id": 286,
+    "original_en": "{TAG:3E}Feral Wrath",
+    "original_fr": "{TAG:3E}Force sauvage",
+    "translation": ""
+  },
+  {
+    "id": 287,
+    "original_en": "{TAG:3E}Smoked Meat",
+    "original_fr": "{TAG:3E}Viande grillée",
+    "translation": ""
+  },
+  {
+    "id": 288,
+    "original_en": "{TAG:3E}Dried Mushroom",
+    "original_fr": "{TAG:3E}Champignon séché",
+    "translation": ""
+  },
+  {
+    "id": 289,
+    "original_en": "{TAG:3E}Sweet Banana",
+    "original_fr": "{TAG:3E}Banane sucrée",
+    "translation": ""
+  },
+  {
+    "id": 290,
+    "original_en": "{TAG:3E}Millennia Fruit",
+    "original_fr": "{TAG:3E}Gland millénaire",
+    "translation": ""
+  },
+  {
+    "id": 291,
+    "original_en": "{TAG:3E}Songbird Egg",
+    "original_fr": "{TAG:3E}♂uf d'oiseau",
+    "translation": ""
+  },
+  {
+    "id": 292,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 293,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 294,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 295,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 296,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 297,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 298,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 299,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 300,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 301,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 302,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 303,
+    "original_en": "{TAG:3E}Petal",
+    "original_fr": "{TAG:3E}Pétale",
+    "translation": ""
+  },
+  {
+    "id": 304,
+    "original_en": "{TAG:3E}Fang",
+    "original_fr": "{TAG:3E}Croc",
+    "translation": ""
+  },
+  {
+    "id": 305,
+    "original_en": "{TAG:3E}Horn",
+    "original_fr": "{TAG:3E}Corne",
+    "translation": ""
+  },
+  {
+    "id": 306,
+    "original_en": "{TAG:3E}Feather",
+    "original_fr": "{TAG:3E}Plume",
+    "translation": ""
+  },
+  {
+    "id": 307,
+    "original_en": "{TAG:3E}Seed",
+    "original_fr": "{TAG:3E}Graines",
+    "translation": ""
+  },
+  {
+    "id": 308,
+    "original_en": "{TAG:3E}Jetbike Key",
+    "original_fr": "{TAG:3E}Clef de moto",
+    "translation": ""
+  },
+  {
+    "id": 309,
+    "original_en": "{TAG:3E}Pendant",
+    "original_fr": "{TAG:3E}Pendentif",
+    "translation": ""
+  },
+  {
+    "id": 310,
+    "original_en": "{TAG:3E}Gate Key",
+    "original_fr": "{TAG:3E}Clef stabilisatrice",
+    "translation": ""
+  },
+  {
+    "id": 311,
+    "original_en": "{TAG:3E}Rainbow Shard",
+    "original_fr": "{TAG:3E}îclat irisé",
+    "translation": ""
+  },
+  {
+    "id": 312,
+    "original_en": "{TAG:3E}Chrono Trigger",
+    "original_fr": "{TAG:3E}Chrono Trigger",
+    "translation": ""
+  },
+  {
+    "id": 313,
+    "original_en": "{TAG:3E}Carpenter's Tools",
+    "original_fr": "{TAG:3E}Bo¡te {TAG:3C} outils",
+    "translation": ""
+  },
+  {
+    "id": 314,
+    "original_en": "{TAG:3E}Spiced Jerky",
+    "original_fr": "{TAG:3E}Jambon épicé",
+    "translation": ""
+  },
+  {
+    "id": 315,
+    "original_en": "{TAG:3E}Dreamstone",
+    "original_fr": "{TAG:3E}Pierre onirique",
+    "translation": ""
+  },
+  {
+    "id": 316,
+    "original_en": "{TAG:3E}Race Recorder",
+    "original_fr": "{TAG:3E}Enregistreur",
+    "translation": ""
+  },
+  {
+    "id": 317,
+    "original_en": "{TAG:3E}Moon Stone",
+    "original_fr": "{TAG:3E}Pierre obscure",
+    "translation": ""
+  },
+  {
+    "id": 318,
+    "original_en": "{TAG:3E}Sun Stone",
+    "original_fr": "{TAG:3E}Pierre du soleil",
+    "translation": ""
+  },
+  {
+    "id": 319,
+    "original_en": "{TAG:3E}Ruby Knife",
+    "original_fr": "{TAG:3E}Couteau écarlate",
+    "translation": ""
+  },
+  {
+    "id": 320,
+    "original_en": "{TAG:3E}Yakra's Key",
+    "original_fr": "{TAG:3E}Clef de Yakra",
+    "translation": ""
+  },
+  {
+    "id": 321,
+    "original_en": "{TAG:3E}Doppel Doll",
+    "original_fr": "{TAG:3E}Poupée clone",
+    "translation": ""
+  },
+  {
+    "id": 322,
+    "original_en": "{TAG:3E}Toma's Spirits",
+    "original_fr": "{TAG:3E}Vin de Toma",
+    "translation": ""
+  },
+  {
+    "id": 323,
+    "original_en": "{TAG:3E}2 Petals",
+    "original_fr": "{TAG:3E}2 pétales",
+    "translation": ""
+  },
+  {
+    "id": 324,
+    "original_en": "{TAG:3E}2 Fangs",
+    "original_fr": "{TAG:3E}2 crocs",
+    "translation": ""
+  },
+  {
+    "id": 325,
+    "original_en": "{TAG:3E}2 Horns",
+    "original_fr": "{TAG:3E}2 cornes",
+    "translation": ""
+  },
+  {
+    "id": 326,
+    "original_en": "{TAG:3E}2 Feathers",
+    "original_fr": "{TAG:3E}2 plumes",
+    "translation": ""
+  },
+  {
+    "id": 327,
+    "original_en": "{TAG:3E}Golden Sand",
+    "original_fr": "{TAG:3E}Sable doré",
+    "translation": ""
+  },
+  {
+    "id": 328,
+    "original_en": "{TAG:3E}Golden Hammer",
+    "original_fr": "{TAG:3E}Maillet doré",
+    "translation": ""
+  },
+  {
+    "id": 329,
+    "original_en": "{TAG:3E}Prismastone",
+    "original_fr": "{TAG:3E}Pierre irisée",
+    "translation": ""
+  },
+  {
+    "id": 330,
+    "original_en": "{TAG:3E}Saintstone",
+    "original_fr": "{TAG:3E}Pierre miraculeuse",
+    "translation": ""
+  },
+  {
+    "id": 331,
+    "original_en": "{TAG:3E}Reptmark",
+    "original_fr": "{TAG:3E}Emblème saurien",
+    "translation": ""
+  },
+  {
+    "id": 332,
+    "original_en": "{TAG:3E}Waystone",
+    "original_fr": "{TAG:3E}Pierre guide",
+    "translation": ""
+  },
+  {
+    "id": 333,
+    "original_en": "{TAG:3E}Godwood",
+    "original_fr": "{TAG:3E}Bois divin",
+    "translation": ""
+  },
+  {
+    "id": 334,
+    "original_en": "{TAG:3E}Steel Ingot",
+    "original_fr": "{TAG:3E}Morceau d'acier",
+    "translation": ""
+  },
+  {
+    "id": 335,
+    "original_en": "{TAG:3E}Sturdy Vines",
+    "original_fr": "{TAG:3E}Lierre résistant",
+    "translation": ""
+  },
+  {
+    "id": 336,
+    "original_en": "{TAG:3E}Hearty Lunch",
+    "original_fr": "{TAG:3E}Panier garni",
+    "translation": ""
+  },
+  {
+    "id": 337,
+    "original_en": "{TAG:3E}Rusted Blade",
+    "original_fr": "{TAG:3E}Sabre rouillé",
+    "translation": ""
+  },
+  {
+    "id": 338,
+    "original_en": "{TAG:3E}Lumicite Shard",
+    "original_fr": "{TAG:3E}Lumilithe",
+    "translation": ""
+  },
+  {
+    "id": 339,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 340,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 341,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 342,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 343,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 344,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 345,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 346,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  }
+]

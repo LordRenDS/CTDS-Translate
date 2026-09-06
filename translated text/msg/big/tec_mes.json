@@ -1,0 +1,704 @@
+[
+  {
+    "id": 0,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Whirl about enemy, striking others nearby.",
+    "original_fr": "Taillader un ennemi et ceux {TAG:3C} l'entour.",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Slash enemies with wind gusts. »",
+    "original_fr": "Projeter une puissante onde de choc. »",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Attack an enemy with lightning. »",
+    "original_fr": "Foudroyer un ennemi. »",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Deal double damage to an enemy.",
+    "original_fr": "Infliger des dég{TAG:4A}ts doubles {TAG:3C} un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Attack all enemies with lightning. »",
+    "original_fr": "Foudroyer tous les ennemis. »",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Revive KO'd ally.",
+    "original_fr": "Relever un allié du Coma.",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Strike enemy 4 times in succession.",
+    "original_fr": "Attaquer un ennemi quatre fois de suite.",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Attack all enemies with holy light. »",
+    "original_fr": "Infliger d'énormes dég{TAG:4A}ts aux ennemis. »",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Restore a small amount of HP to an ally.",
+    "original_fr": "Rendre des PV {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Confuse enemy.",
+    "original_fr": "Infliger Confusion {TAG:3C} un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Attack an enemy with ice. œ",
+    "original_fr": "Glacer un ennemi. œ",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Restore moderate HP to an ally.",
+    "original_fr": "Rendre beaucoup de PV {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Halve time between turns for ally.",
+    "original_fr": "Réduire le délai d'action d'un allié de moitié.",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Attack all enemies with ice. œ",
+    "original_fr": "Glacer tous les ennemis. œ",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Restore a large amount of HP to an ally.",
+    "original_fr": "Rendre énormément de PV {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Revive and fully heal ally.",
+    "original_fr": "Relever un allié du Coma et rétablir ses PV.",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Burn enemies along a direct line. Œ",
+    "original_fr": "Br{TAG:63}ler les ennemis en ligne droite. Œ",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Put all enemies to sleep.",
+    "original_fr": "Infliger Sommeil {TAG:3C} tous les ennemis.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Attack an enemy with fire. Œ",
+    "original_fr": "Enflammer un ennemi. Œ",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Bomb enemies within a circle. Œ",
+    "original_fr": "Infliger des dég{TAG:4A}ts de zone. Œ",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Boost ally's Defense.",
+    "original_fr": "Augmenter la défense d'un allié.",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Attack all enemies with fire. Œ",
+    "original_fr": "Enflammer tous les ennemis. Œ",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Blast enemies within a circle. Œ",
+    "original_fr": "Infliger de gros dég{TAG:4A}ts de zone. Œ",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Attack all enemies with intense fire. Œ",
+    "original_fr": "Infliger d'énormes dég{TAG:4A}ts aux ennemis. Œ",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Launch fist at an enemy.",
+    "original_fr": "Projeter son poing sur un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Restore a small amount of HP to an ally.",
+    "original_fr": "Rendre des PV {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Attack all enemies with laser. «",
+    "original_fr": "Cribler les ennemis de lasers. «",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Charge and attack an enemy.",
+    "original_fr": "Se propulser violemment sur un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Restore a small amount of HP to all allies.",
+    "original_fr": "Rendre des PV aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Barrage enemy with rocket punches.",
+    "original_fr": "Marteler un ennemi de coups rapides.",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Blast surrounding enemies. Œ",
+    "original_fr": "Br{TAG:63}ler les ennemis {TAG:3C} proximité. Œ",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Zap all enemies with electricity. »",
+    "original_fr": "îlectrocuter tous les ennemis. »",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Restore a small amount of HP to an ally.",
+    "original_fr": "Rendre des PV {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Snag enemy with tongue, then slash it.",
+    "original_fr": "Saisir un ennemi pour mieux l'attaquer.",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Attack an enemy with water. œ",
+    "original_fr": "Noyer un ennemi. œ",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Restore moderate HP to all allies.",
+    "original_fr": "Rendre beaucoup de PV aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Leap up and stab an enemy from above.",
+    "original_fr": "Attaquer un ennemi en piqué.",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Attack all enemies with water. œ",
+    "original_fr": "Noyer tous les ennemis. œ",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Restore a large amount of HP to an ally.",
+    "original_fr": "Rendre énormément de PV {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Hit all foes. Damage higher when HP is low.",
+    "original_fr": "Dég{TAG:4A}ts aux ennemis suivant les PV perdus.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Lightly heal ally and restore status.",
+    "original_fr": "Rendre PV {TAG:3C} un allié et guérir alt. d'état.",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Jump-kick an enemy.",
+    "original_fr": "Effectuer un puissant coup de pied sauté.",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Savagely claw an enemy.",
+    "original_fr": "Griffer et mordre sauvagement un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Lob an enemy as if it were a stone.",
+    "original_fr": "Lancer violemment un ennemi dans les airs.",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Seduce enemy to obtain an item.",
+    "original_fr": "Séduire un ennemi pour obtenir un objet.",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Spin and strike surrounding enemies.",
+    "original_fr": "Attaquer les ennemis {TAG:3C} proximité.",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Hit all foes. Damage higher when HP is low.",
+    "original_fr": "Dég{TAG:4A}ts aux ennemis suivant les PV perdus.",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Kick an enemy 3 times.",
+    "original_fr": "Donner trois coups de pied {TAG:3C} un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Attack all enemies with lightning. »",
+    "original_fr": "Foudroyer tous les ennemis. »",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Attack all enemies with ice. œ",
+    "original_fr": "Glacer tous les ennemis. œ",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Attack all enemies with fire. Œ",
+    "original_fr": "Enflammer tous les ennemis. Œ",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Bomb enemies within a circle. «",
+    "original_fr": "Infliger des dég{TAG:4A}ts de zone. «",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Boost ally's Magic Defense.",
+    "original_fr": "Augmenter la défense magique d'un allié.",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Attack all enemies with darkness. «",
+    "original_fr": "Infliger des dég{TAG:4A}ts {TAG:3C} tous les ennemis. «",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Attempt to banish enemies within circle.",
+    "original_fr": "Annihiler les ennemis {TAG:3C} proximité.",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Attack all enemies with darkness. «",
+    "original_fr": "Infliger d'énormes dég{TAG:4A}ts aux ennemis. «",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Restore a small amount of HP to all allies.",
+    "original_fr": "Rendre des PV aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Strike foe with enchanted blade. œ",
+    "original_fr": "Pourfendre et glacer un ennemi. œ",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Hit all foes in circle with spellblade. œ",
+    "original_fr": "Infliger des dég{TAG:4A}ts de zone. œ",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Attack all enemies in circle with fire. Œ",
+    "original_fr": "Infliger des dég{TAG:4A}ts de zone. Œ",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Strike foe with enchanted blade. Œ",
+    "original_fr": "Pourfendre et br{TAG:63}ler un ennemi. Œ",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Hit all foes in circle with spellblade. Œ",
+    "original_fr": "Infliger des dég{TAG:4A}ts de zone. Œ",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Attack all enemies with laser. «",
+    "original_fr": "Bombarder les ennemis de lasers. «",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Spin {CRONO} through enemies.",
+    "original_fr": "Taillader les ennemis {TAG:3C} proximité.",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Attack all enemies with electricity. »",
+    "original_fr": "îlectrocuter et foudroyer les ennemis. »",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Cross-slash an enemy.",
+    "original_fr": "Attaque croisée et simultanée d'un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Shower enemy in a stream of pain. œ",
+    "original_fr": "Fondre telle une cascade sur un ennemi. œ",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Skewer foe and hit with lightning. »",
+    "original_fr": "Attirer la foudre sur un ennemi. »",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Strike enemy with a penetrating kick.",
+    "original_fr": "S'abattre en vrille sur un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Deliver a charged bite to an enemy. »",
+    "original_fr": "Mordre et foudroyer un ennemi. »",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Strike along horizontal line through enemy.",
+    "original_fr": "Taillader les ennemis en ligne horizontale.",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Hit enemies in circle with fire and ice. «",
+    "original_fr": "Infliger des dég{TAG:4A}ts de zone. «",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Hit enemies in circle with fire and ice. «",
+    "original_fr": "Infliger de gros dég{TAG:4A}ts de zone. «",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Hit all enemies with fire and ice. «",
+    "original_fr": "Infliger d'énormes dég{TAG:4A}ts aux ennemis. «",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Restore a small amount of HP to all allies.",
+    "original_fr": "Rendre des PV aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Attack enemy with glacial ice. œ",
+    "original_fr": "Tacler et glacer un ennemi. œ",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Restore a large amount of HP to all allies.",
+    "original_fr": "Rendre énormément de PV aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Bathe all enemies in an icy shower. œ",
+    "original_fr": "Geler tous les ennemis. œ",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Strike enemy with colossal icicles. œ",
+    "original_fr": "Transpercer un ennemi de pics de glace. œ",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "Fully restore all allies' HP and status.",
+    "original_fr": "Restaurer les PV et l'état des alliés.",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Distract and steal from an enemy.",
+    "original_fr": "Séduire l'ennemi pour obtenir un objet.",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Lob ice at enemies in a circle. œ",
+    "original_fr": "Infliger des dég{TAG:4A}ts de zone. œ",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Lob iceberg to hit foes in a circle. œ",
+    "original_fr": "Infliger de gros dég{TAG:4A}ts de zone. œ",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Burn foes in circle with fiery punch. Œ",
+    "original_fr": "Infliger des dég{TAG:4A}ts de zone. Œ",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "Attack enemy with flames. Œ",
+    "original_fr": "Tacler et calciner un ennemi. Œ",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Blast enemies around {ROBO}. Œ",
+    "original_fr": "Infliger de gros dég{TAG:4A}ts {TAG:3C} proximité. Œ",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Strike enemy with a fiery kick. Œ",
+    "original_fr": "Donner un coup de pied enflammé. Œ",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Engulf all enemies in whirling flame. Œ",
+    "original_fr": "Calciner tous les ennemis. Œ",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Strike enemy with a fiery triple kick. Œ",
+    "original_fr": "Rouer un ennemi de coups enflammés. Œ",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Launch {FROG} to strike an enemy.",
+    "original_fr": "Transpercer les ennemis en ligne droite.",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Drop {ROBO} on an enemy.",
+    "original_fr": "Faire tomber {ROBO} sur un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Restore a large amount of HP to all allies.",
+    "original_fr": "Rendre énormément de PV aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "Inflict Stop on all enemies.",
+    "original_fr": "Infliger Stop {TAG:3C} tous les ennemis.",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Hit enemy with a spinning kick.",
+    "original_fr": "Lancer {AYLA} sur un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Throw an enemy around.",
+    "original_fr": "Se passer un ennemi et le catapulter.",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Heal all allies and restore status.",
+    "original_fr": "Restaurer les PV et l'état des alliés.",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Drop {AYLA} on an enemy.",
+    "original_fr": "Faire tomber {AYLA} sur un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Slam into an enemy from above.",
+    "original_fr": "Transpercer lourdement un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Impale enemy with a fiery blade. Œ",
+    "original_fr": "Attaquer un ennemi en piqué. Œ",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Bomb enemies along a horizontal line. Œ",
+    "original_fr": "Bombarder les ennemis en ligne. Œ",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Hit all foes with two mighty techs. Œ",
+    "original_fr": "Broyer et calciner les ennemis. Œ",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Hit all foes with an elemental blast. «",
+    "original_fr": "Puissante combinaison élémentaire. «",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Grant all allies a one-time auto-revive.",
+    "original_fr": "Sort autom. chaque allié du Coma une fois.",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Strike enemy with an icy blade. œ",
+    "original_fr": "Geler et taillader en croix un ennemi. œ",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Strike foe with an elemental kick. «",
+    "original_fr": "Donner un triple coup de pied magique. «",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Spin {CRONO} through enemies. Œ",
+    "original_fr": "Infliger d'énormes dég{TAG:4A}ts de zone. Œ",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Hit all foes with an elemental blast. «",
+    "original_fr": "Puissante combinaison élémentaire. «",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Strike foe with an elemental kick. «",
+    "original_fr": "Mitrailler un ennemi de coups. «",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Hit enemy with a three-pronged attack.",
+    "original_fr": "Effectuer une attaque triple dévastatrice.",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Hit all foes with whirling tornado. «",
+    "original_fr": "Cingler les ennemis d'une tornade. «",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Hit enemy with a triple attack.",
+    "original_fr": "Attaquer un ennemi de trois côtés.",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Attack all enemies with darkness. «",
+    "original_fr": "Bombarder les ennemis de ténèbres. «",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "Hit all foes with amplified laser. «",
+    "original_fr": "Balayer les ennemis d'un super-laser. «",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Hit enemy with a whirling leap attack.",
+    "original_fr": "Plonger violemment sur un ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Confuse all enemies and hit with ??? magic.",
+    "original_fr": "Infliger Confusion et dég{TAG:4A}ts aux ennemis.",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Call upon Masa and Mune to smite enemies.",
+    "original_fr": "Dég{TAG:4A}ts aux ennemis suivant les PV perdus.",
+    "translation": ""
+  }
+]

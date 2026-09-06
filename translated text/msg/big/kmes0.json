@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:384}\nDays remaining until execution: {GLYPH:367}\n{GLYPH:405}0a{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{GLYPH:384}\n{GLYPH:367} jour(s) avant l'exécution...{GLYPH:405}0a{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{GLYPH:384}\nFinally, the execution day has arrived...{GLYPH:405}0a{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{GLYPH:384}\nLe jour de l'exécution est arrivé...{GLYPH:405}0a{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Chancellor: This man is a seditionist who meant\nto overthrow our kingdom.",
+    "original_fr": "Chancelier : Ce rebelle a essayé de renverser le trône.",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Chancellor: He has been found guilty by trial.\nI trust him to your care.",
+    "original_fr": "Chancelier : Il a été déclaré coupable, alors je suis venu\nvous le livrer.",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Warden: So this is the monster who abducted\nthe Princess!",
+    "original_fr": "Geôlier : C'est donc lui qui a enlevé la princesse !",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Chancellor: His execution is three days hence.\nSee that he is still here to attend it.",
+    "original_fr": "Chancelier : Son exécution aura lieu dans trois jours.\nSurveillez-le et faites en sorte qu'il ne s'échappe pas !",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Warden: Yes, sir!",
+    "original_fr": "Geôlier : Entendu.",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Warden: Execution?\nI don't recall hearing anything about that.",
+    "original_fr": "Geôlier : Son exécution ? On ne m'a pas prévenu qu'il y\naurait une exécution...",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Chancellor: No cause for concern, there's\nonly been a small delay in the paperwork.\nOr do you mean to question me?",
+    "original_fr": "Chancelier : Les papiers sont en retard, voil{TAG:3C} tout.\nDouteriez-vous de ma parole ?",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Warden: N-never, sir!",
+    "original_fr": "Geôlier : Jamais !",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Warden: Guards!",
+    "original_fr": "Geôlier : Gardes !",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Warden: Take the prisoner away!",
+    "original_fr": "Geôlier : Emmenez-le !",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "What do you think you're doing?",
+    "original_fr": "Mais qu'est-ce que tu fabriques ?",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "A sympathizer from your trial brought that for you.\nEnjoy it while you can.",
+    "original_fr": "Des gens qui ont assisté au procès ont pris pitié de toi\nquand ils ont su que tu serais mis en prison. Ils t'ont\napporté ce paquet.",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{GLYPH:384}\nObtained Ether!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un éther !",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Pipe down, you!",
+    "original_fr": "La ferme !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Oh, how many times do I have to tell that filthy...{WAIT_KEY}\nIf he won't quiet down, I'll quiet him down!\nOpen the door!",
+    "original_fr": "J'ai dit {TAG:64} La ferme ! {TAG:65}, tu es sourd ou quoi ? Je vais te\nfaire taire, tu vas voir ! Ouvre la porte !",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Heh!\nThat's what you get for not doing what you're told.",
+    "original_fr": "Ça t'apprendra {TAG:3C} nous casser les oreilles !",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Where do you think you're going?",
+    "original_fr": "Où comptes-tu aller comme ça ?!",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "There he is!",
+    "original_fr": "Le prisonnier essaie de s'échapper !",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "So you're the one's gone and slipped his cell, eh?",
+    "original_fr": "C'est donc toi le prisonnier en fuite ?",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{GLYPH:384}\nHe is unconscious.",
+    "original_fr": "{GLYPH:384}\nIl a perdu connaissance...",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{GLYPH:384}\nObtained Mid-Potion!",
+    "original_fr": "{GLYPH:384}\nVous obtenez une super-potion !",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{GLYPH:384}\n...Actually, 5 of them!",
+    "original_fr": "{GLYPH:384}\nOh ! Vous en obtenez cinq !",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "{GLYPH:384}\nHP and MP restored!",
+    "original_fr": "{GLYPH:384}\nRégénération des PV et des PM !",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "I've come to escort you to the executioner's block.",
+    "original_fr": "Nous allons t'escorter jusqu'{TAG:3C} l'échafaud.",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Come along.",
+    "original_fr": "Allez, suis-moi.",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Your sentence will be dispensed by guillotine.",
+    "original_fr": "La guillotine t'attend.",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Do you have any last words?",
+    "original_fr": "As-tu quelque chose {TAG:3C} dire avant de mourir ?",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{LUCCA}: {CRONO}!\nI came to rescue you!",
+    "original_fr": "{LUCCA} : {CRONO} !\nJe suis venue te sauver !",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Guard: What!?",
+    "original_fr": "Quoi ?!",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{LUCCA}: Sorry, but you're sort of in the way.",
+    "original_fr": "{LUCCA} : Hors de mon chemin !",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "{LUCCA}: Lights out, boys!",
+    "original_fr": "{LUCCA} : Faites un petit somme !",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{LUCCA}: So, what do you think of my disposable\nZonker-38? Pretty cool, huh?",
+    "original_fr": "{LUCCA} : Alors, que penses-tu de ma meilleure\ninvention, le pistolet explosif jetable ?",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "{LUCCA}: Well, we'd better not stick around too long.\nLet's go!",
+    "original_fr": "{LUCCA} : Sortons d'ici en vitesse !",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Warden: S-somebody help!",
+    "original_fr": "Geôlier : Ah ! Â l'aide !",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "They don't pay me enough for this!",
+    "original_fr": "Je n'en peux plus...",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "{LUCCA}: Oh, looks like you didn't need my help\nafter all. Oh well.",
+    "original_fr": "{LUCCA} : Mais on dirait que tu n'avais pas besoin de\nmon aide en fin de compte... Je me suis inquiétée pour\nrien.",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{LUCCA}: This is what happens to fools who\nstand in the way of the mighty {LUCCA}!{WAIT_KEY}\n{GLYPH:384}\nHa ha ha ha!",
+    "original_fr": "{LUCCA} : Voil{TAG:3C} ce qui arrive aux idiots qui font\nobstacle {TAG:3C} {LUCCA}, la grande inventrice !{WAIT_KEY}{GLYPH:384}\n\nHo, ho, ho, ho, ho !",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "{LUCCA}: What was that?",
+    "original_fr": "{LUCCA} : D'où vient ce bruit ?",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Chancellor: Forward, Dragon Tank!\nCrush those conspirators!",
+    "original_fr": "Chancelier : Allez, dragon d'assaut ! îcrase les rebelles !",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Chancellor: M-my Dragon Tank!\nFix it! Quickly!",
+    "original_fr": "Chancelier : Le dragon d'assaut ! Réparez-le !",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Chancellor: Don't fool yourselves into thinking\nyou'll get away with this!",
+    "original_fr": "Chancelier : Grrr ! Vous me le paierez !",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "A classified document has been left lying on the floor.{WAIT_KEY}\nRead it?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Il y a un document secret sur le sol...{WAIT_KEY}\nVoulez-vous le lire ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "{TAG:38}{TAG:38}{TAG:38}{TAG:38}  Dragon Tank Design Specifications\n\n{TAG:38}{TAG:7F}Attention: Warden of the Guardia Castle Prisons{WAIT_KEY}\nThe head of the tank is equipped with the capacity\nto repair damage done to the body—an ingenious\nmarvel of engineering.{WAIT_KEY}\nThe head has also been enhanced with a shield to\nprevent damage by lightning and fire, leaving it\nvulnerable only to attacks with weapons such as\nswords and pistols.{WAIT_KEY}\nIn short, your tank should be effectively invincible,\nprovided no crazed lunatic gets the bright idea to\nrun up and try to hack away at its head with a sword.\n{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}   Guardia Royal Arms Commission",
+    "original_fr": "Â l'attention du geôlier de la prison royale de Gardia :\n\nPlans du dragon d'assaut{WAIT_KEY}\nLa tête du dragon d'assaut est munie d'un dispositif qui\nrépare les dég{TAG:4A}ts infligés au reste du corps.{WAIT_KEY}\nTant qu'elle est en état de marche, le dragon peut donc\nêtre considéré comme invincible.{WAIT_KEY}\nUn bouclier spécial la protège du feu et des foudres du\nciel, mais elle reste néanmoins vulnérable aux attaques\nphysiques.\n   - Atelier royal du génie militaire de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "H-help me, please!{WAIT_KEY}\nFree him from the guillotine?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Aidez-moi !{WAIT_KEY}\nVoulez-vous lui porter secours ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Thank you. That was close!{WAIT_KEY}\nI'm Fritz. My father runs the market in Truce.\nStop by if you're ever in the area!",
+    "original_fr": "Je vous remercie de m'avoir sauvé la vie !\nJe m'appelle Fritz.{WAIT_KEY}\nMon père tient le magasin de Truce. Venez me rendre\nvisite si vous en avez l'occasion !",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "I'm on my way to Guardia's Millennial Fair!",
+    "original_fr": "Je m'en vais {TAG:3C} la foire du millénaire du royaume de\nGardia !",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Thought I ought to see what all this Millennial Fair\nfuss is about.",
+    "original_fr": "Ce ne sont pas mes rhumatismes qui m'empêcheront\nd'aller {TAG:3C} la foire du millénaire !",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "A fair, a fair! We're going to the fair!",
+    "original_fr": "Youpi ! On va {TAG:3C} la foire !",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "I'm opening a stall at the fairgrounds.\nDrop by if you get the chance!",
+    "original_fr": "Je compte ouvrir un kiosque {TAG:3C} la foire. Venez me rendre\nvisite !",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Oh, I do love me a good fair!\nTime to forget my troubles with a few mugs of mirth!",
+    "original_fr": "Vive la foire ! C'est l'endroit parfait pour oublier tous\nvos ennuis et boire quelques verres !",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "The Fiendlord's army laid waste to this bridge.\nWe are working to repair it, but until Sir Cyrus returns,\nwe must see to the kingdom's defense as well.",
+    "original_fr": "Nous allons devoir réparer ce pont détruit lors d'un\naffrontement contre l'armée du Magistère. En attendant\nle retour de sire Cyrus, nous défendrons le royaume de\nnos vies, s'il le faut !",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "That damnable frog swam to the other side.",
+    "original_fr": "Ce vaurien qui a l'apparence d'une grenouille a traversé\nen nageant.",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "We've no more foodstuffs.",
+    "original_fr": "Nous n'avons plus de vivres...",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Now, if we can but put the Fiendlord's army to rout...",
+    "original_fr": "Il ne nous reste plus qu'{TAG:3C} repousser l'armée du\nMagistère...",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Commander: Our provisions are depleted.\nHave the supplies still not arrived from the castle?\nWe'll starve at this rate.",
+    "original_fr": "Capitaine : Nos vivres sont épuisés... Le ravitaillement\nen provenance du ch{TAG:4A}teau n'est toujours pas arrivé ?",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "We sent our order's finest knights to march on the\nenemy in order to ensure the Hero's safe passage.",
+    "original_fr": "Les chevaliers d'élite ont chargé en formant une ligne\ndéfensive devant le héros.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "It appears our men and the Fiendlord's are locked in\nbattle upon the bridge. May we emerge victorious!",
+    "original_fr": "Les chevaliers ont engagé le combat contre les forces\ndu Magistère au milieu du pont. Puissent-ils en sortir\nvainqueurs...",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Could the Hero alone truly have the power to\ndefeat an army of fiends?",
+    "original_fr": "Le héros pourrait-il vraiment vaincre l'armée du\nMagistère {TAG:3C} lui seul ?",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Would that our strength were enough to best the\nFiendlord's army. But alas, our only hope lies with\nthe Hero.",
+    "original_fr": "Nous ne pouvons pas vaincre l'armée du Magistère sans\naide... J'ai du mal {TAG:3C} l'avouer, mais le héros est notre seul\nespoir.",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "I'd thought those stories of the Hero who would\ncome bearing the Badge no more than bedtime tales.\nBut now he's come, and there's little to do but\ntrust in him.",
+    "original_fr": "Je croyais que ces histoires de héros portant une\nmédaille n'étaient que des légendes... Maintenant,\nje ne peux que croire en lui.",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Commander: The Fiendlord has sent in reinforcements.\nIt's far too dangerous to allow you through.",
+    "original_fr": "Capitaine : L'armée du Magistère a obtenu des renforts !\nRepliez-vous !",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Commander: Lord {CRONO}! What word?{WAIT_KEY}\nGive him the food?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Capitaine : Qu'y a-t-il, sire {CRONO} ?{WAIT_KEY}\nVoulez-vous lui donner les vivres du chef cuisinier ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Commander: Food! He's brought us food!{WAIT_KEY}\nIt was my brother?\nI see. He's saved us all.",
+    "original_fr": "Capitaine : Des vivres ?!{WAIT_KEY}\nJe vois, il m'a pardonné...",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Commander: Lord {CRONO}, if I should not return\nalive...give my brother my thanks.",
+    "original_fr": "Capitaine : Sire {CRONO}, si je ne rentre pas vivant\nde cette campagne, remerciez mon frère de ma part...",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Commander: What's happened?",
+    "original_fr": "Capitaine : Que se passe-t-il ?",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{MAGUS}'s troops have launched their attack!\nOur defenses will not hold!",
+    "original_fr": "L'armée du Magistère est passée {TAG:3C} l'assaut !\nNous ne tiendrons pas plus longtemps !",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Commander: You are knights of Guardia!\nDefend the honor of our order, and drive\nthe enemy back whence it came!",
+    "original_fr": "Capitaine : Ne perdez pas courage ! Nous devons\nrepousser l'envahisseur ! Il en va de notre honneur\nde chevaliers royaux de Gardia !",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "But, we are far outnumbered!",
+    "original_fr": "Mais... nous avons essuyé de grosses pertes...",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Commander: This is our last line of defense.\nIt must not break!",
+    "original_fr": "Capitaine : Ceci est notre dernière ligne de défense.\nNous devons tenir bon !",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Very well, my lord!",
+    "original_fr": "Â vos ordres !",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Ugh...",
+    "original_fr": "Oh...",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "The Hero reached the far bank, but our men\nsuffered heavy losses in the crossing.",
+    "original_fr": "Le héros a réussi {TAG:3C} traverser le pont, mais nous avons\nsubi des pertes importantes...",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "It seems mere men haven't the strength to stop\nthese fiends.",
+    "original_fr": "De simples êtres humains ne peuvent donc pas rivaliser\navec l'armée du Magistère...",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Commander: As you can see, Lord {CRONO}, it's all\nmy men can do to hold this line.{WAIT_KEY}\nMight you lend your blade to our battle as well?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Capitaine : Comme vous pouvez le constater, nos\ntroupes ont beaucoup souffert...{WAIT_KEY}\nSire {CRONO}, nous prêterez-vous main-forte ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Commander: You have my most profound gratitude.\nThe Fiendlord's troops are positioned just beyond\nthe bridge.{WAIT_KEY}\nTake this with you.\nMay it keep you safe!",
+    "original_fr": "Capitaine : Je vous remercie ! L'armée du Magistère est\nde l'autre côté du pont. Tenez, ceci devrait vous être\nutile !",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Commander: {MAGUS}'s army is a force to be\nreckoned with. Please be on your guard.",
+    "original_fr": "Capitaine : Les soldats de l'armée du Magistère sont\nredoutables. Soyez prudents.",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Commander: I see...\nBut we, too, are knights of Guardia.\nWe shall hold this position to the last man!",
+    "original_fr": "Capitaine : Je vois... Nous sommes les chevaliers royaux\nde Gardia. Sur notre honneur, nous défendrons ce pont\njusqu'{TAG:3C} la mort !",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Commander: Thanks to your aid, we were able to\ndefend the bridge. But unless we defeat {MAGUS},\nit is an empty victory.",
+    "original_fr": "Capitaine : Gr{TAG:4A}ce {TAG:3C} vous, nous avons pu protéger le\npont. Toutefois, si nous n'arrivons pas {TAG:3C} vaincre le\nMagistère, cela ne résoudra pas la situation.",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "We could not have regained the bridge without you.",
+    "original_fr": "Nous avons repris le pont de Zénan gr{TAG:4A}ce {TAG:3C} votre aide.",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Now that {MAGUS} no longer leads his troops,\nthey are not enemies in the eyes of Guardia.",
+    "original_fr": "Sans son leader, l'armée du Magistère n'est pas de taille\ncontre la nôtre.",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "When {MAGUS} left, his troops deserted.",
+    "original_fr": "Maintenant que {MAGUS} n'est plus l{TAG:3C}, ses forces se\nsont dispersées.",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "{MARLE}: Wait up, already!",
+    "original_fr": "{MARLE} : Mais attends !",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "{LUCCA}: He's pretty quick when it comes\nto running away.",
+    "original_fr": "{LUCCA} : Quand il s'agit de fuir, il est rapide.",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "{ROBO}: We have closed the distance.",
+    "original_fr": "{ROBO} : Nous l'avons rattrapé.",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Ozzie: Slay them all!",
+    "original_fr": "Vinnie : Je vais en finir avec vous !",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "I'm Ozzie, one of Lord {MAGUS}'s three generals!\nAnd to his enemies, I grant death!",
+    "original_fr": "Je suis Vinnie, un des trois généraux du Magistère !\nMort aux ennemis de Son Excellence {MAGUS} !",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Ozzie: Go, my children!\nTake 'em to their graves!",
+    "original_fr": "Vinnie : Allez, mes enfants ! îliminez-les !",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Ozzie: Hrm...\nStronger 'n I thought.",
+    "original_fr": "Vinnie : Hum... Ils sont plus forts que prévu.",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Ozzie: Seems I misjudged you the first time.\nBut I won't do that twice!",
+    "original_fr": "Vinnie : On dirait que je vous avais sous-estimés, mais\nça n'arrivera plus !",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Ozzie: Drat!",
+    "original_fr": "Vinnie : Mince !",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Ozzie: Th-that's it!\nThis time you're finished!\nI mean it!",
+    "original_fr": "Vinnie : Cette fois, vous n'irez pas plus loin !\nJe vous l'assure !",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{MARLE}: Isn't it about time you gave up?\nMess with {CRONO}, and you'll be sorry!",
+    "original_fr": "{MARLE} : Si tu sous-estimes {CRONO}, tu le\nregretteras !",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "{LUCCA}: Sore loser, aren't you?",
+    "original_fr": "{LUCCA} : Hum, tu es mauvais perdant, c'est ça ?",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "{ROBO}: You cannot win.\nSurrender at once.",
+    "original_fr": "{ROBO} : Les chances sont contre toi.\nAbandonne maintenant.",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Ozzie: Go, Zombor!\nCrush Lord {MAGUS}'s enemies!",
+    "original_fr": "Vinnie : Vas-y, mon abomination ! îcrase les ennemis du\nMagistère !",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Cyrus: Glenn...\nI've decided to join the knighthood.",
+    "original_fr": "Cyrus : Au fait, Glenn...\nJe crois que je vais devenir un chevalier...",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Glenn: I thought as much.\nYou'll be a fine knight, I'm sure of it.",
+    "original_fr": "Glenn : Je savais bien que tu allais t'engager !\nTu seras un excellent chevalier, j'en suis certain.",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Cyrus: Won't you come with me?",
+    "original_fr": "Cyrus : Tu ne vas pas t'engager, toi aussi ?",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Glenn: I...I cannot.",
+    "original_fr": "Glenn : ...\nJe ne pourrais pas.",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Cyrus: But, why?\nYou're a better sword than I, you always have been.",
+    "original_fr": "Cyrus : Ah bon ? Tu es pourtant plus habile que moi {TAG:3C}\nl'épée.",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Glenn: I haven't the nerve it takes to be a knight.\nIn a real battle, the fear would take me.",
+    "original_fr": "Glenn : Je ne serais bon {TAG:3C} rien. En combat réel, j'aurais\ntrop peur.",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Melchior: Oh, you've come to see me!\nWell, by all means, have a look at my collection.{WAIT_KEY}\nCould I interest you in a weapon?\nI'll give you a special price.\n{TAG:38}{TAG:38}{GLYPH:394}Yes, I'd like to buy one.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No, I'm not interested.{GLYPH:397}",
+    "original_fr": "Bosch : Oh, vous êtes venus me rendre visite !\nVous devriez jeter un coup d'{TAG:61}il {TAG:3C} ma collection.{WAIT_KEY}\nSeriez-vous intéressés par une des armes que j'ai\nfabriquées ? Je vous ferai un prix d'ami !\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Melchior: Weapons are not meant for the taking\nof lives. They're meant for saving them.",
+    "original_fr": "Bosch : Vous savez, les armes ne sont pas faites pour\nôter la vie, mais pour sauver celle de ceux qui sont\nmenacés.",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Melchior: Well, you know where to find me\nshould the need arise.",
+    "original_fr": "Bosch : Ah ? Voil{TAG:3C} qui est dommage.",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Melchior: That sword is a masterwork.\nLightweight, and perfectly balanced.\nForged by yours truly, of course.",
+    "original_fr": "Bosch : Ce sont des sabres légers et faciles {TAG:3C} manier.\nBien s{TAG:63}r, c'est moi qui les ai forgés.",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Melchior: Oh, if you're wanting to return\nto Truce, there's a shortcut through the\ncave in the mountains to the north.",
+    "original_fr": "Bosch : Ah, oui. Si vous voulez retourner {TAG:3C} Truce,\nvous devriez passer par les grottes situées dans\nla montagne au nord d'ici.",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Sorry, but I've gone to peddle my wares\nelsewhere and won't be back for a while. \nPlease come back some other time.\n{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}  Melchior",
+    "original_fr": "{TAG:64} Je suis parti colporter mes marchandises.\nVeuillez revenir plus tard.\n       - Bosch {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "{LUCCA}: Say, where's Melchior?",
+    "original_fr": "{LUCCA} : Mais où est Bosch ?",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "{LUCCA}: Is that a note?\nWhat does it say?",
+    "original_fr": "{LUCCA} : Un message ?\nVoyons voir...",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "{LUCCA}: What!? The geezer's gone off when we\nneed him the most!",
+    "original_fr": "{LUCCA} : Quoi ?! Il s'absente au moment critique ?!",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "{MARLE}: Hmm?\nIt looks like Melchior isn't home!",
+    "original_fr": "{MARLE} : Oh ? Bosch n'est pas l{TAG:3C}.",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "{MARLE}: I wonder what this is?\nLet's see here...",
+    "original_fr": "{MARLE} : Tiens, qu'est-ce que c'est ?\nVoyons voir...",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "{MARLE}: What!? He's gone when we need him\nthe most!",
+    "original_fr": "{MARLE} : Quoi ?! Il s'absente au moment critique ?!",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Melchior: Oh, you're back again!\nCome to see my collec—",
+    "original_fr": "Bosch : Oh, vous revoil{TAG:3C} ! Vous voulez encore jeter un\ncoup d'{TAG:61}il {TAG:3C} ma...\n...!!",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Melchior: Th-this sword, it's...the Masamune!\nHow...how did you get this?",
+    "original_fr": "Bosch : Cette épée, c'est Grandléon ! Où l'avez-vous\ntrouvée ?",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "{MARLE}: Why is your name on that sword?",
+    "original_fr": "{MARLE} : Pourquoi votre nom est-il inscrit sur sa\npoignée ?",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "{LUCCA}: Why would your name be engraved\non that sword?",
+    "original_fr": "{LUCCA} : Pourquoi votre nom est-il inscrit sur sa\npoignée ?",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Melchior: ...{WAIT_KEY}\nThat...is a very long story.",
+    "original_fr": "Bosch : ...{WAIT_KEY}\nC'est... une longue histoire...",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "Melchior: But that is the story you came to hear,\nis it not?",
+    "original_fr": "Bosch : Mais ce n'est pas pour me poser cette question\nque vous êtes venus me rendre visite, n'est-ce pas ?",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "{MARLE}: Yes! Tell us about the Masamune!",
+    "original_fr": "{MARLE} : Vous avez raison.",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{LUCCA}: Of course! Tell us about the Masamune!",
+    "original_fr": "{LUCCA} : Vous avez raison.",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "{MARLE}: Is there any way you can fix it?",
+    "original_fr": "{MARLE} : Pouvez-vous la réparer ?",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{LUCCA}: Can you reforge it?",
+    "original_fr": "{LUCCA} : Serait-il possible de la réparer ?",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "Melchior: I could—were it possible for us to get\nour hands on some of the dreamstone from which\nthe sword was made.",
+    "original_fr": "Bosch : Je le pourrais... si j'avais de la pierre onirique\ndont elle est faite...",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{MARLE}: Dreamstone?\nWhere can we get that?",
+    "original_fr": "{MARLE} : Une pierre onirique ? Où peut-on en\nobtenir ?",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{ROBO}: Dreamstone...\nNo record of such a substance exists in my\nmemory banks.",
+    "original_fr": "{ROBO} : Pierre onirique... Aucune pierre de ce nom\nn'a été enregistrée dans ma mémoire.",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Melchior: It's nowhere to be found anymore.\nIt was a glittering red stone, once valued even\nmore than gold.{WAIT_KEY}\nUnfortunately, that was long, long ago.\nLonger even than you could imagine...",
+    "original_fr": "Bosch : Je doute que vous puissiez en trouver. C'était\nune pierre rouge brillante autrefois plus précieuse que\nl'or.{WAIT_KEY}\nMais c'était il y a très, très longtemps... Plus longtemps\nque vous ne pourriez vous l'imaginer.",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "Melchior: Well, let us just say I doubt you'll ever\nfind any. But if you should, I'll be more than happy\nto repair the Masamune. Keep it with you until then.{WAIT_KEY}\nSo, would you like to buy anything?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Bosch : Hum, je ne crois pas que ce soit possible, mais\nsi par miracle vous trouvez une pierre onirique, cette\nbrillante pierre rouge, je réparerai Grandléon pour vous.\nEn attendant, gardez l'épée avec vous.{WAIT_KEY}\nVoulez-vous acheter quelque chose ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Melchior: Dear me, you truly found dreamstone!\nYes, that will do quite nicely. With that, I can\nmake the blade whole again.",
+    "original_fr": "Bosch : Oh ! Avec cette pierre onirique, je pourrai\nréparer Grandléon !",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Melchior: But first the Masamune, and now this\ndreamstone... How in the world did you—?",
+    "original_fr": "Bosch : Mais où avez-vous bien pu trouver non\nseulement Grandléon, mais aussi une pierre\nonirique...?",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "Melchior: No, I suppose it does not matter.\nMake yourselves at home! This will take some time.",
+    "original_fr": "Bosch : Bah, peu importe. Attendez un instant.",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "{LUCCA}: I'll lend you a hand!",
+    "original_fr": "{LUCCA} : Je vais vous donner un coup de main !",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "{ROBO}: I will assist you.",
+    "original_fr": "{ROBO} : Je vais vous aider.",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Melchior: Behold!\nThe Masamune, in all its glory!",
+    "original_fr": "Bosch : Admirez Grandléon dans toute sa splendeur !",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "{MARLE}: Wow!\nThat's the same sword we gave you?",
+    "original_fr": "{MARLE} : Formidable ! C'est vraiment Grandléon ?",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "{ROBO}: How peculiar.\nMy sensors are detecting pulses of mental\nenergy emanating from the Masamune.",
+    "original_fr": "{ROBO} : C'est étrange. Je détecte une énergie\nspirituelle émanant de Grandléon.",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "Melchior: A sword can be used as a tool for\nending lives or as one for saving them. It\nall depends on the one who wields it. Be sure\nyou wield yours for the proper reason.{WAIT_KEY}\nWould you like to buy something?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Bosch : Une épée peut ôter une vie ou la sauver, selon\nle c{TAG:61}ur de celui qui la manie. Ne l'utilisez pas {TAG:3C} mauvais\nescient.{WAIT_KEY}\nVoulez-vous acheter quelque chose ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{MARLE}: {CRONO}, where are you going?\nThe Masamune isn't fixed yet!",
+    "original_fr": "{MARLE} : Hé, {CRONO} ! Tu t'en vas où, comme\nça ? Grandléon n'est pas encore réparée !",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "{LUCCA}: Hey, {CRONO}! You're not just\ngonna leave the Masamune here, are you?",
+    "original_fr": "{LUCCA} : Hé, {CRONO} ! Tu veux partir sans\nGrandléon ?",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "{ROBO}: Sir {CRONO}, the Masamune has not\nyet been fully repaired.",
+    "original_fr": "{ROBO} : {CRONO}, Grandléon n'est pas encore\nréparée.",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "Melchior: All right, then...",
+    "original_fr": "Bosch : Bien, au travail...",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{LUCCA}: How are you going to fix it?",
+    "original_fr": "{LUCCA} : Je me demande comment il va la réparer.",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "{ROBO}: It looks like it will be quite difficult to\nrepair.",
+    "original_fr": "{ROBO} : Cette restauration a l'air complexe.",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "Melchior: Do not interrupt me while I'm trying to read!",
+    "original_fr": "Bosch : Je suis en train de consulter mes archives.\nNe m'adressez pas la parole.",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Melchior: You just leave this to me.",
+    "original_fr": "Bosch : Laissez-moi m'en charger.",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Melchior: Of course, the dreamstone must be\nrefined if we are to repair the Masamune.\nBut that is not all. The blade itself must\nbe activated as well.{WAIT_KEY}\nYou work on the dreamstone.\nI will take care of the sword.",
+    "original_fr": "Bosch : Pour restaurer Grandléon, il sera non seulement\nnécessaire d'affiner la pierre onirique, mais aussi de\nrendre vie {TAG:3C} l'épée elle-même.{WAIT_KEY}\nAffine la pierre pour moi et je m'occuperai du reste.",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "{LUCCA}: Okay!\nFear not, the great {LUCCA} knows her way\naround a workshop!",
+    "original_fr": "{LUCCA} : D'accord ! Vous pouvez compter sur\n{LUCCA}, le génie !",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "{ROBO}: Understood.",
+    "original_fr": "{ROBO} : Entendu.",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{LUCCA}: Well, better get busy!",
+    "original_fr": "{LUCCA} : Bien, je vais avoir du travail !",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "{ROBO}: I will prepare the tools.",
+    "original_fr": "{ROBO} : Rassemblons d'abord les instruments\nnécessaires...",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "{LUCCA}: This's pretty complicated.\nThink you could go somewhere else for a while?\nYou're ruining my concentration.",
+    "original_fr": "{LUCCA} : Hum, c'est assez compliqué. Vous me\ndistrayez, alors allez attendre ailleurs.",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "{ROBO}: Refining this dreamstone without the\nproper equipment could take a significant amount\nof time.",
+    "original_fr": "{ROBO} : Je n'ai pas l'équipement approprié, alors il\nsemble que l'affinage prendra beaucoup de temps.",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Melchior: To reawaken the sword, I must first\nbreathe life back into its shattered remains.",
+    "original_fr": "Bosch : Pour lui rendre vie, je dois de nouveau insuffler\n{TAG:3C} la lame la puissance qu'elle a perdue en se brisant.",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Melchior: The spell to restore life to the\nblade requires immense concentration.\nCould you refrain from interrupting me?",
+    "original_fr": "Bosch : L'incantation est extrêmement difficile.\nPourriez-vous ne pas m'adresser la parole\npendant un moment ?",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Melchior: All right, it's done!\nCould you bring me the dreamstone?",
+    "original_fr": "Bosch : Bon, j'ai terminé. Pourriez-vous m'apporter la\npierre onirique ?",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "{LUCCA}: I'm done here, too.",
+    "original_fr": "{LUCCA} : J'ai terminé, moi aussi.",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Melchior: All right, let's get started.",
+    "original_fr": "Bosch : Commençons.",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Melchior: Sorry to keep you waiting.",
+    "original_fr": "Bosch : Désolé de vous avoir fait attendre.",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Melchior: If you were expecting lesser work,\nyou shouldn't have come to me!",
+    "original_fr": "Bosch : Je suis un forgeron hors pair, après tout.",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "{MARLE}: Okay, {CRONO}, let's take the\nMasamune to {FROG}!",
+    "original_fr": "{MARLE} : {CRONO}, allons vite rapporter\nGrandléon {TAG:3C} {FROG} !",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{ROBO}: {CRONO}, let us take the Masamune\nto {FROG}.",
+    "original_fr": "{ROBO} : {CRONO}, allons rapporter\nGrandléon {TAG:3C} {FROG}.",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{LUCCA}: Okay, {CRONO}, we should get this\nback to {FROG}!",
+    "original_fr": "{LUCCA} : {CRONO}, allons rapporter\nGrandléon {TAG:3C} {FROG} !",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{LUCCA}: So this is the Masamune...\nIt's producing some kind of strange energy.\nIf I could only study it for a little while...",
+    "original_fr": "{LUCCA} : Grandléon... Elle émet une sorte d'énergie\nqui m'est inconnue. Ça me donne envie de l'étudier...",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "You folks came out of my wardrobe, didn't you?\nWhat are you doing in here?",
+    "original_fr": "Je rêve ou vous venez de sortir de mon armoire ?!\nQu'est-ce que vous y faisiez ?!",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "Why is there magic in you?\nMagic-using humans were supposed to have died\nout long ago.\n",
+    "original_fr": "Pourquoi des humains comme vous peuvent-ils utiliser la\nmagie ? Les mages humains ont pourtant disparu il y a\ndes lustres...",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "Who do you think you are, coming and going from\nsomeone else's wardrobe at all hours of night and\nday? Humans... I'll tell you!",
+    "original_fr": "Qu'est-ce qui vous prend de sortir des armoires des\ngens comme ça ! Pfft... ces humains.",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "Medina is a village of fiends, founded by our\nancestors when they lost their war against\nhumankind 400 years ago. Most of the townsfolk\nstill have a grudge against humans, so be careful.",
+    "original_fr": "Le village de Médina a été fondé par les descendants\ndes mystiques qui ont perdu la guerre contre les\nhumains, il y a 400 ans.{WAIT_KEY}\nLa plupart des mystiques qui habitent le village\ndétestent les humains. Soyez prudents.",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "You folks hungry?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Hum, vous en voulez ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "Wait a minute.",
+    "original_fr": "Attendez un instant.",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "Hey, hold on a minute.",
+    "original_fr": "Attendez un peu.",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "It's been 400 years since man warred against fiend.\nThere's no use living in the past. Of course, not\nmany other fiends seem to agree with that.",
+    "original_fr": "Les mystiques et les humains ont combattu il y a plus de\n400 ans. C'est de l'histoire ancienne. Il ne sert {TAG:3C} rien de\nvivre dans le passé.{WAIT_KEY}\nMalheureusement, peu de mystiques pensent comme\nnous...",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "There's an odd old human who lives near a cave in the\nmountains to the west. He may be able to help you out.",
+    "original_fr": "Un vieil homme étrange habite près des grottes de la\nmontagne de l'ouest. Il pourrait s{TAG:63}rement vous aider.",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "{MARLE}: Thanks!",
+    "original_fr": "{MARLE} : Merci de nous le dire !",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "{LUCCA}: Thanks a lot!\nBut aren't fiends supposed to hate humans?\nWhy are you being so helpful?",
+    "original_fr": "{LUCCA} : Merci pour le conseil ! Mais je croyais que\nles mystiques ha¿ssaient les humains. Pourquoi nous\naider ?",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "{ROBO}: Thank you for your advice.",
+    "original_fr": "{ROBO} : Je vous remercie pour le conseil.",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "{ROBO}: But why are you being so kind?\nDo your people not despise humans?",
+    "original_fr": "{ROBO} : Cependant, pourquoi êtes-vous aussi\naimables envers nous ?{WAIT_KEY}\nLes mystiques ne ha¿ssent-ils pas les humains ?",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "{MARLE}: But why are you being so nice?\nI thought fiends weren't supposed to get along\nwith humans.",
+    "original_fr": "{MARLE} : Mais... Pourquoi êtes-vous si gentils envers\nnous ? Les mystiques ne ha¿ssent-ils pas les humains ?",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "10 G per night. Care to stay?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous louer une chambre pour 10 G ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "Not enough coin, huh?",
+    "original_fr": "On dirait que vous n'avez pas assez d'argent.",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "No room here for humans. \nScat!\n{TAG:38}{TAG:38}{GLYPH:394}Give up.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Plead.{GLYPH:397}",
+    "original_fr": "On n'a pas de chambres pour les humains !\nDu vent !\n       {GLYPH:394}Abandonner{GLYPH:395}\n       {GLYPH:396}Supplier{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "You still talking to me?\nDon't know what's good for ya, do ya?\nGet 'em, boys!",
+    "original_fr": "Je vous ai dit de ficher le camp ! îliminez-les !",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "200 G for the night.\nWant me to put you up?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 200 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Ack, help!",
+    "original_fr": "Aaah ! Â l'aide !",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "No stinking human's gonna talk to me!",
+    "original_fr": "Ne me parlez pas, humains !",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "Out! You're spoilin' my drink!",
+    "original_fr": "Vous allez faire tourner mon vin ! Sortez d'ici !",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "I got nothing to sell to humans.\nGet out of here!\n{TAG:38}{TAG:38}{GLYPH:394}Give up.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Plead.{GLYPH:397}",
+    "original_fr": "Je n'ai rien {TAG:3C} vendre {TAG:3C} des humains.\nDu vent !\n       {GLYPH:394}Abandonner{GLYPH:395}\n       {GLYPH:396}Supplier{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "Humans—think they've got a right to everything!\nTeach 'em a lesson, Boss!",
+    "original_fr": "Humains arrogants ! Donnez-leur une bonne leçon, chef !",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "They...they beat you, Boss?\nMonsters!",
+    "original_fr": "Ils ont vaincu le chef ? Ce sont des monstres !",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "All right. I'll sell.",
+    "original_fr": "Bon, puisque j'y suis obligé, je vais vous vendre quelque\nchose.",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Heh! You think I'm gonna charge a human the going\nrate?",
+    "original_fr": "Ha ! Vous croyez que je vais vous vendre mes\nmarchandises au prix normal ?",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "{MARLE}: {CRONO}, what's that creepy chanting?",
+    "original_fr": "{MARLE} : Dis, {CRONO}, qu'est-ce que c'est que\nces voix sinistres ?",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "{LUCCA}: That chanting's pretty creepy.\nWhat do you make of it?",
+    "original_fr": "{LUCCA} : Quelles voix sinistres ! Qu'est-ce qui se\npasse ici ?",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "{ROBO}: What is the meaning of this eerie\nchanting?",
+    "original_fr": "{ROBO} : Que peuvent bien être ces voix sinistres ?",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "Oh, great Ozzie, Ozzie the Great Ê\nYours is the hand that guides us to our fate Ê",
+    "original_fr": "Ah, Vinnie, notre seigneur ! Ê\nVinnie, notre sauveur ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "Oh, great Ozzie, Ozzie the Great Ê\nEven those miserable sunny days abate Ê\nWhen we see that lovely balded pate Ê",
+    "original_fr": "Ah, Vinnie, notre seigneur ! Ê\nPar tous temps, {TAG:3C} toute heure, Ê\nTu fais notre bonheur ! Ê\nLorsque tu es l{TAG:3C}, nous n'avons jamais peur ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "It was the Fiendlord {MAGUS} who gave life to the\nalmighty Lavos to aid us. And once Lavos awakens\nfrom his long slumber, the human race is doomed.",
+    "original_fr": "Dès que Lavos, le dieu créé pour nous par\nSon Excellence {MAGUS} s'éveillera de son long\nsommeil, le monde des humains sera détruit en\nun clin d'{TAG:61}il.",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "Four hundred years have passed since {MAGUS}\ncommanded the fiends, and waged war against the\nhumans. But if Lavos can be reawakened, there\nwill be no more humans.",
+    "original_fr": "400 ans se sont écoulés depuis la guerre où\nle Magistère {MAGUS} a défié les humains.\nQuand Lavos s'éveillera, ce sera la fin des\nhumains.",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "The almighty Fiendlord delivered Lavos unto us long ago\nwith his great magic.",
+    "original_fr": "Jadis, le grand {MAGUS} usa de sa puissante magie\npour créer Lavos.",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "A fearsome beast lives in the cave on the mountain\nto the west. Only magic can harm it. I doubt a human\nwould be able to make it through, not being able to\nuse magic and all.{WAIT_KEY}\nWell, I better get back to tidying up before Ozzie\nVIII catches me!",
+    "original_fr": "Une créature habite dans les grottes de la montagne\n{TAG:3C} l'ouest. Seules les attaques magiques peuvent lui\ninfliger des dég{TAG:4A}ts.{WAIT_KEY}\nCeux qui ne peuvent pas utiliser la magie auraient du mal\n{TAG:3C} traverser ces grottes.{WAIT_KEY}\nBon, je dois terminer le ménage avant que Vinnie VIII ne\nme trouve.",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "This work is brutal.",
+    "original_fr": "Faire le ménage n'est pas de la tarte...",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "Oh, great Fiendlord!",
+    "original_fr": "Ah ! Béni soit le Magistère !",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "Oh, great Ozzie...{WAIT_KEY}\nHmph!",
+    "original_fr": "Ah ! Vinnie, notre seigneur !{WAIT_KEY}\n... Pfft !",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "Race ya!",
+    "original_fr": "Vous voulez être mes amis, dites ?",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "Hey, wait for me!",
+    "original_fr": "Moi aussi, je veux être votre ami !",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "Such a lovely day today, isn't it?",
+    "original_fr": "Il fait un temps superbe.",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "Ah, life is good!",
+    "original_fr": "La vie est belle.",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "Oh, long time no see!\nHow have you been?",
+    "original_fr": "Ah, ça fait un bail, dites donc !\nÇa va ?",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "They're gonna start running a ferry between Truce\nand Medina soon.",
+    "original_fr": "On dit qu'il y aura bientôt un bateau qui reliera Truce et\nMédina.",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "Hello there!\nHow can I help you?",
+    "original_fr": "Bienvenue !\nQue désirez-vous ?",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "It's so peaceful these days.",
+    "original_fr": "Comme la vie est paisible...",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "Filthy humans oughta all go take a hike through\nthat heckran cave and get what's coming to 'em!\nHeh heh heh...",
+    "original_fr": "Ha ! J'espère que ces humains répondront {TAG:3C} la\nprovocation d'Héclan pour qu'il leur donne une\nbonne leçon. Mouah, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "I'm Ozzie VIII, the leader of this village.\nMy great-great-great-great-great-grandfather\nfought against the humans at the side of the\nFiendlord himself.{WAIT_KEY}\nOh, great Fiendlord... Why didn't you exterminate\nthe human race four centuries ago when you had\nthe chance?",
+    "original_fr": "Je suis Vinnie VIII, le maire du village de Médina !\nMon ancêtre a combattu les humains et était le\nbras droit du Magistère {MAGUS}.{WAIT_KEY}\nAh, pourquoi notre seigneur n'a-t-il pas exterminé les\nhumains il y a 400 ans ?",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "Ozzie VIII: They still honor the statue of Ozzie I\nin the village square!",
+    "original_fr": "Vinnie VIII : Les habitants du village rendent un culte\n{TAG:3C} la statue de mon ancêtre, le Grand Vinnie I, sur la\nplace. Ha, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "Ozzie VIII: Yes, sir! I'm scrubbing as hard as I can!\nI'm not slacking off, I swear!{WAIT_KEY}\n*sniffle*\nWhy's he gotta be so mean?",
+    "original_fr": "Vinnie VIII : Oui, je nettoie de mon mieux ! Je travaille\ndur, c'est vrai !{WAIT_KEY}\n... Snif ! Il n'y a pas besoin de me tourmenter ainsi...",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "The name's Bandeau.\nHere to build the ferry that's to service\nMedina and Truce.",
+    "original_fr": "Je m'appelle Bandot. Je suis venu construire le nouveau\nport pour les bateaux qui relieront Truce {TAG:3C} Médina.",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "I'm the mayor of Medina.\nMake yourself at home.",
+    "original_fr": "Je suis le maire de Médina. Faites comme chez vous.",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "Hmm... Medina's brewers know what they're doing!",
+    "original_fr": "Hum... La bière de Médina est pas mal...",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "Why do I always get stuck doing this?",
+    "original_fr": "Le désherbage n'est pas de la tarte...",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "Blast that Ozzie VIII! Always hiding behind his\nancestral fame to boss us around!",
+    "original_fr": "Maudit soit Vinnie VIII ! Il abuse du statut de son\nancêtre pour nous exploiter !",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "Death to the enemies of fiendkind!",
+    "original_fr": "Mort aux ennemis des mystiques !",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "{MARLE}: My pendant...",
+    "original_fr": "{MARLE} : Mon pendentif...",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "{LUCCA}: Your pendant... It's glowing!",
+    "original_fr": "{LUCCA} : Le pendentif brille ?",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "{ROBO}: What is that glow?",
+    "original_fr": "{ROBO} : D'où provient cet éclat ?",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "{FROG}: Light, from the pendant!",
+    "original_fr": "{FROG} : Le pendentif émet de la lumière ?",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "{AYLA}: Shiny, shiny!",
+    "original_fr": "{AYLA} : Pendentif briller !",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "{MAGUS}: The pendant...",
+    "original_fr": "{MAGUS} : ...\nLe pendentif ?",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "The seal is broken.\nI will give to you a treasure, crafted by the\nGuru of Reason himself.",
+    "original_fr": "Le sceau a été brisé... Je vais vous octroyer un trésor\nfabriqué par le sage de la raison.",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "To your right is a weapon which will enhance\nyour strength.",
+    "original_fr": "Â droite, vous trouverez une arme qui accro¡tra votre\nforce.",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "To your left is protective gear which will\nguard your life.",
+    "original_fr": "Â gauche, vous trouverez une protection qui\npréservera votre vie.",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "Think well, and choose whichever you need the most.",
+    "original_fr": "Quel trésor vous convient ? Réfléchissez bien avant de\nprendre votre décision.",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "13,000 years was a very long time.\nBelthasar...I go to you now.",
+    "original_fr": "13 000 longues années... Ma¡tre Gasch, je vais enfin\nvous rejoindre...",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "{GLYPH:384}\nA mysterious force seals it shut.",
+    "original_fr": "{GLYPH:384}\nUn sceau magique en empêche l'ouverture...",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "Jump in?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous sauter ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "If only Lord {MAGUS} had destroyed the human race\nfour hundred years ago when he first brought forth\nLavos, the world would belong to us fiends now!",
+    "original_fr": "Si {MAGUS}, celui qui a créé Lavos, avait éliminé les\nhumains il y a 400 ans, le monde appartiendrait aux\nmystiques...",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "{GLYPH:384}\nGRRRRRRAAAGHH!",
+    "original_fr": "{GLYPH:384}\nGrrrr !",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "{LUCCA}: So, {MAGUS} created Lavos in the Middle\nAges. And in the future, Lavos destroys the planet.",
+    "original_fr": "{LUCCA} : Alors, c'est bien {MAGUS} qui a créé\nLavos au Moyen-{TAG:5F}ge, la créature qui détruira le\nfutur de la planète !",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "{MARLE}: In the Middle Ages, {MAGUS} created\nLavos, who destroys the world in the future.",
+    "original_fr": "{MARLE} : Au Moyen-{TAG:5F}ge, {MAGUS} a créé Lavos,\nla créature qui va détruire le futur de la planète.",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "{MARLE}: If we go to the Middle Ages and stop\n{MAGUS}, can we change history?",
+    "original_fr": "{MARLE} : Si on retournait au Moyen-{TAG:5F}ge pour\nvaincre {MAGUS}, pourrait-on changer l'histoire ?",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "{ROBO}: If we were to defeat {MAGUS} in\nthe Middle Ages, might it be possible for us to\nchange history?",
+    "original_fr": "{ROBO} : Si nous arrivons {TAG:3C} vaincre {MAGUS} au\nMoyen-{TAG:5F}ge, l'histoire changera-t-elle ?",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "{LUCCA}: If we used the Gate at the fairgrounds...",
+    "original_fr": "{LUCCA} : Nous pourrions utiliser le portail de la\nfoire...",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "{MARLE}: Hey, {CRONO}, what if we used the Gate\nat the fairgrounds?",
+    "original_fr": "{MARLE} : Dis, {CRONO}, on pourrait utiliser le\nportail de la foire...",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "Melchior: The Black Omen, looming in the sky...\nMade by the hands of neither fiend nor man...\nWhat does it portend?",
+    "original_fr": "Bosch : Le Songe obscur qui flotte dans le ciel n'a été\nconstruit ni par les mystiques ni par les humains...\nD'où peut-il bien venir...?",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "Oh, the Black Omen, the Black Omen Ê\nLet us say a prayer to the Black Omen Ê",
+    "original_fr": "Ah, le Songe obscur, le Songe obscur ! Ê\nAujourd'hui aussi offrons une prière\nau Songe obscur ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "{GLYPH:384}\nHm?{WAIT_KEY}{GLYPH:384}\n\nThere is something else in here.{WAIT_KEY}{GLYPH:384}\n\nWhat in the world?",
+    "original_fr": "{GLYPH:384}\nTiens ?{WAIT_KEY}{GLYPH:384}\n\nIl y a quelque chose d'autre au fond...{WAIT_KEY}{GLYPH:384}\n\nÇa alors !",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "{GLYPH:384}\nObtained 2 Ethers!",
+    "original_fr": "{GLYPH:384}\nVous obtenez deux éthers !",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "{GLYPH:384}\nObtained 3 Ethers!",
+    "original_fr": "{GLYPH:384}\nVous obtenez trois éthers !",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "{GLYPH:384}\nObtained 6 Ethers!",
+    "original_fr": "{GLYPH:384}\nVous obtenez six éthers !",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

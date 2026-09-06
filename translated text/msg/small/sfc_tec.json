@@ -1,0 +1,704 @@
+[
+  {
+    "id": 0,
+    "original_en": " ",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Cyclone",
+    "original_fr": "Cyclone coupant",
+    "translation": "Циклон"
+  },
+  {
+    "id": 2,
+    "original_en": "Wind Slash",
+    "original_fr": "Rafale cinglante",
+    "translation": "Порез Ветра"
+  },
+  {
+    "id": 3,
+    "original_en": "àLightning",
+    "original_fr": "àFoudre",
+    "translation": "Молния"
+  },
+  {
+    "id": 4,
+    "original_en": "Cleave",
+    "original_fr": "Coup foudroyant",
+    "translation": "Расскол"
+  },
+  {
+    "id": 5,
+    "original_en": "àLightning II",
+    "original_fr": "àFoudreî",
+    "translation": "Молния II"
+  },
+  {
+    "id": 6,
+    "original_en": "àRaise",
+    "original_fr": "àVie",
+    "translation": "Рост"
+  },
+  {
+    "id": 7,
+    "original_en": "Frenzy",
+    "original_fr": "Tempùte de lames",
+    "translation": "Безумие"
+  },
+  {
+    "id": 8,
+    "original_en": "àLuminaire",
+    "original_fr": "àRayonnement",
+    "translation": "Светильник"
+  },
+  {
+    "id": 9,
+    "original_en": "Aura",
+    "original_fr": "Aura",
+    "translation": "Аура"
+  },
+  {
+    "id": 10,
+    "original_en": "Allure",
+    "original_fr": "Provocation",
+    "translation": "Провокация"
+  },
+  {
+    "id": 11,
+    "original_en": "àIce",
+    "original_fr": "àGlace",
+    "translation": "Лёд"
+  },
+  {
+    "id": 12,
+    "original_en": "àCure",
+    "original_fr": "àSoin",
+    "translation": "Лечение"
+  },
+  {
+    "id": 13,
+    "original_en": "àHaste",
+    "original_fr": "àCèlèritè",
+    "translation": "Спешка"
+  },
+  {
+    "id": 14,
+    "original_en": "àIce II",
+    "original_fr": "àGlaceî",
+    "translation": "Лёд II"
+  },
+  {
+    "id": 15,
+    "original_en": "àCure II",
+    "original_fr": "àSoinî",
+    "translation": "Лечение II"
+  },
+  {
+    "id": 16,
+    "original_en": "àArise",
+    "original_fr": "àVieî",
+    "translation": "Подъём"
+  },
+  {
+    "id": 17,
+    "original_en": "Flamethrower",
+    "original_fr": "Lance-flammes",
+    "translation": "Огнемёт"
+  },
+  {
+    "id": 18,
+    "original_en": "Hypnowave",
+    "original_fr": "Onde soporifique",
+    "translation": "Гиперволна"
+  },
+  {
+    "id": 19,
+    "original_en": "àFire",
+    "original_fr": "àFeu",
+    "translation": "Огонь"
+  },
+  {
+    "id": 20,
+    "original_en": "Napalm",
+    "original_fr": "Bombe au napalm",
+    "translation": "Напалм"
+  },
+  {
+    "id": 21,
+    "original_en": "àProtect",
+    "original_fr": "àBouclier",
+    "translation": "Защита"
+  },
+  {
+    "id": 22,
+    "original_en": "àFire II",
+    "original_fr": "àFeuî",
+    "translation": "Огонь II"
+  },
+  {
+    "id": 23,
+    "original_en": "Megaton Bomb",
+    "original_fr": "Bombe mègatonne",
+    "translation": "Мегатонная Бомба"
+  },
+  {
+    "id": 24,
+    "original_en": "àFlare",
+    "original_fr": "àFission",
+    "translation": "Вспышка"
+  },
+  {
+    "id": 25,
+    "original_en": "Rocket Punch",
+    "original_fr": "Poing-obus",
+    "translation": "Ракетный Удар"
+  },
+  {
+    "id": 26,
+    "original_en": "Cure Beam",
+    "original_fr": "Rayon guèrissant",
+    "translation": "Лечащий Луч"
+  },
+  {
+    "id": 27,
+    "original_en": "Laser Spin",
+    "original_fr": "Lasers giratoires",
+    "translation": "Лазерный Вихрь"
+  },
+  {
+    "id": 28,
+    "original_en": "Robo Tackle",
+    "original_fr": "Turbo-tacle",
+    "translation": "Робо-удар"
+  },
+  {
+    "id": 29,
+    "original_en": "Heal Beam",
+    "original_fr": "Onde guèrissante",
+    "translation": "Исцеляющий Луч"
+  },
+  {
+    "id": 30,
+    "original_en": "Rapid-fire Fist",
+    "original_fr": "Poing mitrailleur",
+    "translation": "Стремительный Кулак"
+  },
+  {
+    "id": 31,
+    "original_en": "Proximity Bomb",
+    "original_fr": "Pyrosphêre",
+    "translation": "Ближняя Бомба"
+  },
+  {
+    "id": 32,
+    "original_en": "Electrocute",
+    "original_fr": "çlectrocution",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Slurp",
+    "original_fr": "Slurp",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Slurp Slash",
+    "original_fr": "Coup de langue",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "àWater",
+    "original_fr": "àEau",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "àHeal",
+    "original_fr": "àGr»ce",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Aerial Strike",
+    "original_fr": "Estocade en piquè",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "àWater II",
+    "original_fr": "àEauî",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "àCure II",
+    "original_fr": "àSoinî",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Frog Squash",
+    "original_fr": "Crapaud ècrasant",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Kiss",
+    "original_fr": "Baiser",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Roundillo Kick",
+    "original_fr": "Coup de pied roulè",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Cat Attack",
+    "original_fr": "Sauvagerie",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Boulder Toss",
+    "original_fr": "Catapultage",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Charm",
+    "original_fr": "Sèduction",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Tail Spin",
+    "original_fr": "Tourbillon caudal",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Dino Tail",
+    "original_fr": "Dinosaure",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Triple Kick",
+    "original_fr": "Triple coup de pied",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "àLightning II",
+    "original_fr": "àFoudreî",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "àIce II",
+    "original_fr": "àGlaceî",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "àFire II",
+    "original_fr": "àFeuî",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "àDark Bomb",
+    "original_fr": "àBombe obscure",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "àBarrier",
+    "original_fr": "àBarriêre",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "àDark Mist",
+    "original_fr": "àBrume obscure",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "àBlack Hole",
+    "original_fr": "àTrou noir",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "àDark Matter",
+    "original_fr": "àMatiêre obscure",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Aura Whirl",
+    "original_fr": "Cyclone d'aura",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Ice Sword",
+    "original_fr": "Sabre de glace",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Ice Sword II",
+    "original_fr": "Sabre de glaceî",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Fire Whirl",
+    "original_fr": "Cyclone enflammè",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Fire Sword",
+    "original_fr": "Sabre de feu",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Fire Sword II",
+    "original_fr": "Sabre de feuî",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Supersonic Spin",
+    "original_fr": "Cyclone laser",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Cyclone Sweep",
+    "original_fr": "MaelstrÊm",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Megavolt",
+    "original_fr": "Haute tension",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "X-Strike",
+    "original_fr": "Taillade croisèe",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Sword Stream",
+    "original_fr": "Cascade per«ante",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Lightning Rod",
+    "original_fr": "Paratonnerre",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Drill Kick",
+    "original_fr": "Coup de pied vrillè",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Thunder Chomp",
+    "original_fr": "Rage èlectrique",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Falcon Strike",
+    "original_fr": "Taillade du faucon",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Antipode Bomb",
+    "original_fr": "Antipodes",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Antipode Bomb II",
+    "original_fr": "Antipodesî",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Antipode Bomb III",
+    "original_fr": "AntipodesÎ",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Aura Beam",
+    "original_fr": "Rayons d'aura",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Ice Tackle",
+    "original_fr": "Tacle de glace",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Cure Wind",
+    "original_fr": "Vent salutaire",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Ice Water",
+    "original_fr": "Eau glacèe",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Glacial Freeze",
+    "original_fr": "Glacier",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "Double Cure",
+    "original_fr": "Double Soinî",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Twin Charm",
+    "original_fr": "Tandem sèduisant",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Ice Toss",
+    "original_fr": "Lancer de glace",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Iceberg Toss",
+    "original_fr": "Lancer de glacier",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Fire Punch",
+    "original_fr": "Poing de feu",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "Fire Tackle",
+    "original_fr": "Tacle de feu",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Double Bomb",
+    "original_fr": "Double bombe",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Flame Kick",
+    "original_fr": "Saut enflammè",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Inferno",
+    "original_fr": "Tourbillon ardent",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Blaze Kick",
+    "original_fr": "Triple brasier",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Frog Launcher",
+    "original_fr": "Lance-èpèe",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Bubble Breath",
+    "original_fr": "Bulle ècrasante",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Cure Wave",
+    "original_fr": "Onde salutaire",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "Boogie",
+    "original_fr": "Show sidèrant",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Spin Kick",
+    "original_fr": "Turbo-boulet",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Beast Toss",
+    "original_fr": "Lancer infernal",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Slurp Kiss",
+    "original_fr": "Baiser mouillè",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Bubble Burst",
+    "original_fr": "Boulet bullè",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Dropdown",
+    "original_fr": "Piquè en tailleur",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Red Needle",
+    "original_fr": "Aiguille rouge",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Line Bomb",
+    "original_fr": "Bombes alignèes",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Frog Flare",
+    "original_fr": "Crapaud nuclèaire",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Delta Force",
+    "original_fr": "Zone delta",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Lifeline",
+    "original_fr": "Aurèoles",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Frost Arc",
+    "original_fr": "Croix de glace",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Final Kick",
+    "original_fr": "Coup de pied final",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Ring of Fire",
+    "original_fr": "Cercle de feu",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Delta Storm",
+    "original_fr": "Tempùte delta",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Gatling Kick",
+    "original_fr": "Pied mitraillant",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Triple Attack",
+    "original_fr": "Triple assaut",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Twister",
+    "original_fr": "Tornade",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "3-D Attack",
+    "original_fr": "Attaque 3D",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Eternal Darkness",
+    "original_fr": "Tènêbres sans fin",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "Omega Flare",
+    "original_fr": "Fission omèga",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Spin Strike",
+    "original_fr": "Piquè mègatonne",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Poyozo Dance",
+    "original_fr": "Danse poyozo",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Master Mune",
+    "original_fr": "Songe grandiose",
+    "translation": ""
+  }
+]

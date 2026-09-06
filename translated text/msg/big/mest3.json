@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nTrouvé : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{GLYPH:384}\nRecovered money!",
+    "original_fr": "{GLYPH:384}\nVous récupérez votre argent !",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{GLYPH:384}\nRecovered party inventory!",
+    "original_fr": "{GLYPH:384}\nVous récupérez vos objets !",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{GLYPH:384}\nRecovered {GLYPH:386}'s equipment!",
+    "original_fr": "{GLYPH:384}\nVous récupérez l'équipement de {GLYPH:386} !",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{GLYPH:384}\nRecovered {GLYPH:387}'s equipment!",
+    "original_fr": "{GLYPH:384}\nVous récupérez l'équipement de {GLYPH:387} !",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{GLYPH:384}\nRecovered {GLYPH:388}'s equipment!",
+    "original_fr": "{GLYPH:384}\nVous récupérez l'équipement de {GLYPH:388} !",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Why are you here!?",
+    "original_fr": "Qui êtes-vous ?!",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "The Blackbird's a symbol of Zeal's advancement.",
+    "original_fr": "Le Cygne noir est le symbole de la civilisation de\nZhyle.",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Never dreamed a thing so big could fly, eh?",
+    "original_fr": "Vous ne pensiez pas que quelque chose d'aussi énorme\npouvait voler, hein ?",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "All is well with the Blackbird, I presume?",
+    "original_fr": "Comment se porte mon petit Cygne noir ?",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Soldier: She is fully operational, Lord Dalton!",
+    "original_fr": "Soldat : Tout est en ordre, sire Dalton !",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Dalton: Of course she is, you blundering idiot!\nWere she not, we'd all be in trouble.{WAIT_KEY}\nYou!\nWhat are you doing there?",
+    "original_fr": "Dalton : J'espère bien ! Vous avez intérêt {TAG:3C} le\nbichonner !{WAIT_KEY}\nQui sont ces gens ?",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Dalton: Hm? Those clothes...{WAIT_KEY}\nYou must be the ones the prophet said would come to\ninterfere!",
+    "original_fr": "Dalton : Hum ? Ces tenues...{WAIT_KEY}\nJe vois, vous êtes donc ceux qui veulent contrecarrer\nnos plans, comme l'a prédit le prophète...",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Dalton: I think I shall watch for the time being,\nand see how he plays his hand.",
+    "original_fr": "Dalton : Je suis curieux de voir ce qu'il va faire,\nmaintenant.",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Dalton: Not that I suspect he'll tip his cards so easily.\nHa!",
+    "original_fr": "Dalton : Je l'imagine mal lever le masque aussi\nfacilement. Ha !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "{MARLE}: Where are we?",
+    "original_fr": "{MARLE} : Où sommes-nous...?",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "{LUCCA}: Where is this?",
+    "original_fr": "{LUCCA} : Où sommes-nous ?",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "{ROBO}: Unfamiliar environs.",
+    "original_fr": "{ROBO} : Où sommes-nous...?",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "{FROG}: Where are we?",
+    "original_fr": "{FROG} : Où sommes-nous...?",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "{AYLA}: Where this?",
+    "original_fr": "{AYLA} : Où nous être ?",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{GLYPH:388}: !?",
+    "original_fr": "{GLYPH:388} : ?!",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{MARLE}: Our equipment's gone!",
+    "original_fr": "{MARLE} : On nous a volé notre équipement !",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{LUCCA}: Our equipment's gone!",
+    "original_fr": "{LUCCA} : On nous a volé tout notre équipement !",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "{ROBO}: Our equipment has been taken!",
+    "original_fr": "{ROBO} : On nous a volé tout notre équipement !",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "{FROG}: Our equipment! It's taken!",
+    "original_fr": "{FROG} : On nous a volé notre équipement !",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "{AYLA}: Weapon! Armor!\nAll gone!",
+    "original_fr": "{AYLA} : Quelqu'un voler équipement !",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "{MARLE}: Our other things, too...",
+    "original_fr": "{MARLE} : Et nos objets...!",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "{LUCCA}: All of our other things, too!",
+    "original_fr": "{LUCCA} : Et nos objets !",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{ROBO}: All of our possessions are gone!",
+    "original_fr": "{ROBO} : Nos objets aussi !",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "{FROG}: Our other possessions as well.",
+    "original_fr": "{FROG} : Et nos objets !",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{AYLA}: Other stuff, too!",
+    "original_fr": "{AYLA} : Objets aussi !",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "{MARLE}: Even our money...",
+    "original_fr": "{MARLE} : Même notre argent...",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{LUCCA}: Even our money!",
+    "original_fr": "{LUCCA} : Même notre argent a disparu !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "{ROBO}: Our money has also been stolen!",
+    "original_fr": "{ROBO} : Même notre argent a été subtilisé !",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{FROG}: Confound it!\nOur money, too!",
+    "original_fr": "{FROG} : Malédiction ! Même notre argent !",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "{AYLA}: Stuff trade for any stuff...\nCall money? That gone, too!",
+    "original_fr": "{AYLA} : Pièces de métal pour troquer avoir aussi\ndisparu !",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "{MARLE}: What do we do?",
+    "original_fr": "{MARLE} : Qu'allons-nous faire...?",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{LUCCA}: What to do...",
+    "original_fr": "{LUCCA} : Nous voil{TAG:3C} dans de beaux draps...",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "{ROBO}: We must find a way to escape.",
+    "original_fr": "{ROBO} : Nous devons trouver un moyen de nous\néchapper.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "{FROG}: What now?",
+    "original_fr": "{FROG} : Eh bien, qu'allons-nous faire maintenant ?",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "{AYLA}: {AYLA} still can fight!\nGo find weapon!\nFight bad man!",
+    "original_fr": "{AYLA} : {AYLA} pouvoir se battre !\n{AYLA} récupérer armes ! Vaincre garde !",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "{MARLE}: Eeeek!",
+    "original_fr": "{MARLE} : Aah !",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "{LUCCA}: Whoa!",
+    "original_fr": "{LUCCA} : Aah !",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "{ROBO}: Th-those are clouds!",
+    "original_fr": "{ROBO} : Des nuages !",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "{FROG}: Ack!",
+    "original_fr": "{FROG} : Aah !",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "{AYLA}: !",
+    "original_fr": "{AYLA} : !!",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "{MARLE}: We're in the sky!\nThis must be...",
+    "original_fr": "{MARLE} : Le ciel ! Alors, nous sommes sur...",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "{LUCCA}: Clouds!?\nThen, we must be on...",
+    "original_fr": "{LUCCA} : Le ciel ?! Alors, nous sommes sur...",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "{ROBO}: So we must be on...",
+    "original_fr": "{ROBO} : Nous sommes donc sur...",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "{FROG}: The sky!\nWe've been taken onto...",
+    "original_fr": "{FROG} : Quoi, le ciel ?! Alors, nous sommes sur...",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "{AYLA}: Sky!\nSky!\nThis sky!",
+    "original_fr": "{AYLA} : Ciel ! Ciel !",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "The Blackbird!?",
+    "original_fr": "Le Cygne noir ?!",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "{AYLA}: !",
+    "original_fr": "{AYLA} : !!",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "{LUCCA}: !?",
+    "original_fr": "{LUCCA} : ?!",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "{ROBO}: Wait!",
+    "original_fr": "{ROBO} : Attendez !",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "{FROG}: Hm?",
+    "original_fr": "{FROG} : Hum ?!",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "{AYLA}: Wind come in here.",
+    "original_fr": "{AYLA} : Vent entrer par ici aussi.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "{LUCCA}: There's an air duct.",
+    "original_fr": "{LUCCA} : Il y a un conduit d'aération.",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "{ROBO}: This appears to be a ventilation duct.",
+    "original_fr": "{ROBO} : Il semble qu'il y a un conduit d'aération.",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "{FROG}: We should be able to get up there.",
+    "original_fr": "{FROG} : Nous pourrons grimper par ici...",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Guard: Heh. Like watching sheep.\nThey can't try anything without weapons.",
+    "original_fr": "Garde : Vous n'êtes pas près de sortir d'ici !\nÂ moins d'apprendre {TAG:3C} voler, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "{MARLE}: What should we do, {GLYPH:386}?\n{TAG:38}{TAG:38}{GLYPH:394}Act sick.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Think of a plan.{GLYPH:397}",
+    "original_fr": "{MARLE} : As-tu une idée, {GLYPH:386} ?\n       {GLYPH:394}Faire semblant d'être malade !{GLYPH:395}\n       {GLYPH:396}Continuer de réfléchir...{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{LUCCA}: What now, {GLYPH:386}?\n{TAG:38}{TAG:38}{GLYPH:394}Pretend to be sick.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Think of another plan.{GLYPH:397}",
+    "original_fr": "{LUCCA} : As-tu une idée, {GLYPH:386} ?\n       {GLYPH:394}Faire semblant d'être malade !{GLYPH:395}\n       {GLYPH:396}Continuer de réfléchir...{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "{ROBO}: What shall we do, {GLYPH:386}?\n{TAG:38}{TAG:38}{GLYPH:394}Pretend to be sick.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Think of another plan.{GLYPH:397}",
+    "original_fr": "{ROBO} : As-tu une idée, {GLYPH:386} ?\n       {GLYPH:394}Faire semblant d'être malade !{GLYPH:395}\n       {GLYPH:396}Continuer de réfléchir...{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "{FROG}: What shall we do, {GLYPH:386}?\n{TAG:38}{TAG:38}{GLYPH:394}Pretend to be sick.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Think of another plan.{GLYPH:397}",
+    "original_fr": "{FROG} : As-tu une idée, {GLYPH:386} ?\n       {GLYPH:394}Faire semblant d'être malade !{GLYPH:395}\n       {GLYPH:396}Continuer de réfléchir...{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "{AYLA}: {GLYPH:386}! What do?\n{TAG:38}{TAG:38}{GLYPH:394}Pretend to be sick.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Think of another plan.{GLYPH:397}",
+    "original_fr": "{AYLA} : {GLYPH:386} avoir idée ?\n       {GLYPH:394}Faire semblant d'être malade !{GLYPH:395}\n       {GLYPH:396}Continuer de réfléchir...{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Guard: Yeah, right!\nNot falling for that again.",
+    "original_fr": "Garde : Tsst ! Vous ne m'aurez pas comme ça !",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "H-how did you escape!?",
+    "original_fr": "Comment êtes-vous arrivés jusqu'ici ?!",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "What are you doing here!?",
+    "original_fr": "Que faites-vous ici ?!",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Don't try anything!",
+    "original_fr": "Pas un geste !",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "{GLYPH:386} is escaping!\n{GLYPH:386} is escaping!",
+    "original_fr": "Alerte ! Les prisonniers s'échappent !",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{LUCCA}: Ah, right!\nWe'll trick the guard.",
+    "original_fr": "{LUCCA} : Ah, je vois. Nous allons attirer le garde.",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "{ROBO}: I see.\nWe will catch the guard off guard.",
+    "original_fr": "{ROBO} : Je vois, nous allons endormir la vigilance\ndu garde.",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "{FROG}: Ah, I see.\nGet the guard in here, and catch him unawares!",
+    "original_fr": "{FROG} : Je vois, tu veux attirer le garde.",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "{AYLA}: {AYLA} healthy!{WAIT_KEY}\nBut {GLYPH:386} want sick, then sick.",
+    "original_fr": "{AYLA} : {AYLA} pas être malade !{WAIT_KEY}\nMais si {GLYPH:386} vouloir que {AYLA} faire\nsemblant, d'accord.",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "{LUCCA}: Urrrgghh!\nThe pain... THE PAIN!",
+    "original_fr": "{LUCCA} : Ouh ! J'ai mal...!",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "{ROBO}: System error!\nCannot read boot sector!\nAbort, retry, fail?\nPlease, help!",
+    "original_fr": "{ROBO} : Alerte ! Perte de contrôle !\nDemande assistance immédiate !",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{FROG}: Owww!\nOh, my belly button...\nThe pain!",
+    "original_fr": "{FROG} : A¿e ! Mon ventre ! J'ai mal !",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{AYLA}: Uhnnn...!\n{AYLA}...hurt bad!",
+    "original_fr": "{AYLA} : Oh ! {AYLA} avoir mal !\nOuille ! Ouille !",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "Guard: What's the matter!?",
+    "original_fr": "Garde : Qu'y a-t-il ?!",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "{LUCCA}: Mission accomplished!",
+    "original_fr": "{LUCCA} : Cette tactique est infaillible !",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{ROBO}: It appears our plan succeeded.",
+    "original_fr": "{ROBO} : Je n'aurais pas cru que ça marcherait.",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "{FROG}: Fool.\nFrogs have no belly buttons!",
+    "original_fr": "{FROG} : Pfft ! Il faut vraiment être idiot pour se\nfaire avoir par cette ruse !",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "{AYLA}: ...{WAIT_KEY}\n{AYLA} no like lie.",
+    "original_fr": "{AYLA} : ...{WAIT_KEY}\n{AYLA} pas aimer mentir...",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "{LUCCA}: We can spy down on them through the\ngrates!",
+    "original_fr": "{LUCCA} : D'ici, nous pouvons épier ce qui se passe\ndans le vaisseau.",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "{ROBO}: We can observe the enemy from the\nvantage point of these grates.",
+    "original_fr": "{ROBO} : En jetant un coup d'{TAG:61}il ici, nous pourrons\nétablir la position de l'ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "{FROG}: We can spy upon our captors from here.",
+    "original_fr": "{FROG} : D'ici, nous saurons les mouvements de\nl'ennemi...",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "{AYLA}: There, can see down!",
+    "original_fr": "{AYLA} : Ici pouvoir voir en bas !",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Voice: You worthless cretins!",
+    "original_fr": "Espèces de bons {TAG:3C} rien !!",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Dalton: Pay close attention to what you're doing!\nThis is to be my royal Airthrone!",
+    "original_fr": "Dalton : Ne b{TAG:4A}clez pas votre travail ! Il s'agit du trône\nvolant de Sa Nouvelle Majesté Dalton !",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Dalton: The world will bow before me!",
+    "original_fr": "Dalton : Gr{TAG:4A}ce {TAG:3C} lui, le monde entier sera {TAG:3C} ma merci !",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Dalton: Mwa ha ha ha ha!",
+    "original_fr": "Dalton : Mouah, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{LUCCA}: Oh, no!\nHe's messing around with the {EPOCH}!",
+    "original_fr": "{LUCCA} : Hé ! Ils sont en train de modifier le\n{EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "{ROBO}: It appears they are modifying the\n{EPOCH}.",
+    "original_fr": "{ROBO} : Il semble qu'ils sont en train de trafiquer\nle {EPOCH}.",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "{FROG}: How dare he meddle with our things!",
+    "original_fr": "{FROG} : Quel culot ! Comment ose-t-il modifier {TAG:3C} sa\nguise ce qui ne lui appartient pas ?",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "{AYLA}: They do something {EPOCH}!",
+    "original_fr": "{AYLA} : Eux changer {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "{GLYPH:386}: Shhh!",
+    "original_fr": "{GLYPH:386} : Chut...!",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "{LUCCA}: Wait! We haven't gotten all our stuff\nback yet!\n{TAG:38}{TAG:38}{GLYPH:394}It doesn't matter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Go back.{GLYPH:397}",
+    "original_fr": "{LUCCA} : Un instant ! Nous n'avons pas encore\nrécupéré tout ce qui nous avait été volé !\n       {GLYPH:394}Continuer{GLYPH:395}\n       {GLYPH:396}Faire demi-tour{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "{ROBO}: Are we going to leave the rest of\nour things behind?\n®®{GLYPH:394}It doesn't matter.{GLYPH:395}\n®®{GLYPH:396}Go back.{GLYPH:397}",
+    "original_fr": "{ROBO} : Nous n'avons pas encore récupéré tout ce\nqui nous avait été volé.\n       {GLYPH:394}Continuer{GLYPH:395}\n       {GLYPH:396}Faire demi-tour{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "{FROG}: We've still not retrieved all of our\npossessions. Do you mean to leave them?\n{TAG:38}{TAG:38}{GLYPH:394}It doesn't matter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Go back.{GLYPH:397}",
+    "original_fr": "{FROG} : Nous n'avons pas encore récupéré tout ce\nqui nous avait été volé.\n       {GLYPH:394}Continuer{GLYPH:395}\n       {GLYPH:396}Faire demi-tour{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "{AYLA}: Some stuff still gone!\nNo need?\n{TAG:38}{TAG:38}{GLYPH:394}It doesn't matter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Go back.{GLYPH:397}",
+    "original_fr": "{AYLA} : Pas encore tout récupéré !\n\n       {GLYPH:394}Continuer{GLYPH:395}\n       {GLYPH:396}Faire demi-tour{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "{MARLE}: Wh-what's going on?",
+    "original_fr": "{MARLE} : Aah !",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "{LUCCA}: That...that's—!",
+    "original_fr": "{LUCCA} : Un golem ?",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "{ROBO}: I detect a massive magical energy reaction!",
+    "original_fr": "{ROBO} : Une puissante réaction énergétique\nmagique !",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "{FROG}: Something comes!",
+    "original_fr": "{FROG} : Attention !",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "{LUCCA}: Phew...",
+    "original_fr": "{LUCCA} : Ouf...",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "{FROG}: How tiresome.",
+    "original_fr": "{FROG} : Il commençait {TAG:3C} m'ennuyer.",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "{AYLA}: {AYLA} never lose!",
+    "original_fr": "{AYLA} : {AYLA} pas perdre !!",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Mwa ha ha...{WAIT_KEY}\nAt last!\nIt is ready!",
+    "original_fr": "Ha, ha, ha...{WAIT_KEY}\nC'est enfin terminé !",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Dalton: See these beautiful wings!\nThis is a throne truly fit for a king!\nI name it...",
+    "original_fr": "Dalton : Admirez ces ailes magnifiques ! Voil{TAG:3C} le véritable\ntrône de Sa Nouvelle Majesté Dalton ! Je vais l'appeler...",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Dalton: The Aero-Dalton Imperial!{WAIT_KEY}\nAnd those meddlesome interlopers shall be her\nfirst victims!",
+    "original_fr": "Dalton : Le Trône Céleste de Dalton !{WAIT_KEY}\nBien ! Voil{TAG:3C} mes premiers sacrifices !",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Dalton: Aero-Dalton Imperial, prepare for takeoff!",
+    "original_fr": "Dalton : Vole, Trône Céleste !",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "Dalton: No, no, no, and no!",
+    "original_fr": "Dalton : Non, non, non, non !",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Dalton: Stop the music!",
+    "original_fr": "Dalton : Arrêtez la musique !",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Dalton: Ha ha ha!\nYes, there we go!",
+    "original_fr": "Dalton : Ha, ha, ha ! Oui, c'est ça !",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Dalton: Now, then!",
+    "original_fr": "Dalton : C'est parti !",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "Dalton: Aero-Dalton Imperial!{WAIT_KEY}\nAway!",
+    "original_fr": "Dalton : En avant, Trône Céleste !",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "{GLYPH:387}: Look!",
+    "original_fr": "{GLYPH:387} : Oh !",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "{ROBO}: That was—!",
+    "original_fr": "{ROBO} : Regardez !",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "{FROG}: Th-that was—!",
+    "original_fr": "{FROG} : Incroyable !",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "{GLYPH:386}: The {EPOCH}...",
+    "original_fr": "{GLYPH:386} : Le {EPOCH}...",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{AYLA}: {EPOCH}, sky...",
+    "original_fr": "{AYLA} : {EPOCH}...",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "It can fly!?",
+    "original_fr": "Il vole ?!",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "Dalton: Her name is not the {EPOCH}!\nIt's the Aero-Dalton Imperial!",
+    "original_fr": "Dalton : Ce n'est pas le {EPOCH}, c'est le Trône\nCéleste de Dalton !",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "Dalton: And you, I'm afraid, are excess baggage!\nHa ha ha ha!",
+    "original_fr": "Dalton : Mouah, ha, ha, ha ! Cette fois, j'en ai vraiment\nfini avec vous !",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "Dalton: Time to make like the wind and blow you all\naway!",
+    "original_fr": "Dalton : Le moment est venu pour vous de l{TAG:4A}cher la\nrampe !",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{MARLE}: Eek!",
+    "original_fr": "{MARLE} : Aah !",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "{LUCCA}: Yikes!",
+    "original_fr": "{LUCCA} : Aah !",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "{ROBO}: Danger! Danger!",
+    "original_fr": "{ROBO} : Attention !",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "{FROG}: Oh, no!",
+    "original_fr": "{FROG} : Ah !",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Dalton: Mwa ha ha!\nYes, squirm about like the worms you are!",
+    "original_fr": "Dalton : Mouah, ha, ha, ha ! C'est ça, tortillez-vous\ncomme des vers !",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "{LUCCA}: Grrr!",
+    "original_fr": "{LUCCA} : Il va me le payer...!",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "{ROBO}: We must reclaim the {EPOCH}!",
+    "original_fr": "{ROBO} : Nous allons récupérer le {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "{FROG}: Curse that man!",
+    "original_fr": "{FROG} : Pfft ! Il est trop infatué de lui-même !",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "{AYLA}: Go {EPOCH}, now!",
+    "original_fr": "{AYLA} : {AYLA} venir maintenant, {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "{MARLE}: It's all your fault!{WAIT_KEY}\n{CRONO}...{WAIT_KEY}\nGive back {CRONO}!",
+    "original_fr": "{MARLE} : Tout est de votre faute...!{WAIT_KEY}\n{CRONO}...{WAIT_KEY}\nRendez-moi {CRONO} !!",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "{LUCCA}: Dalton!",
+    "original_fr": "{LUCCA} : Dalton !",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "{ROBO}: Bombs away!",
+    "original_fr": "{ROBO} : J'y vais !",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{FROG}: You learn a lesson this day!",
+    "original_fr": "{FROG} : Vaurien !",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "{AYLA}: Grrrrr!",
+    "original_fr": "{AYLA} : Oh !",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "Dalton: Y-you!",
+    "original_fr": "Dalton : Espèces de...!",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "{MARLE}: *gasp* *pant*",
+    "original_fr": "{MARLE} : Ouf, ouf...",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{LUCCA}: Is the {EPOCH} all right!?",
+    "original_fr": "{LUCCA} : Le {EPOCH} n'a rien ?!",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "{ROBO}: Objective complete!",
+    "original_fr": "{ROBO} : Nous avons réussi !",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "{FROG}: That filthy thief!",
+    "original_fr": "{FROG} : Le malandrin !",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "{AYLA}: {EPOCH}, okay?",
+    "original_fr": "{AYLA} : {EPOCH} pas cassé ?",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "{LUCCA}: More importantly, how do we control\nthis thing?",
+    "original_fr": "{LUCCA} : Comment faire pour le piloter ?!",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "{ROBO}: More importantly, we need to determine\nthe flight controls before we crash.",
+    "original_fr": "{ROBO} : Si nous ne trouvons pas rapidement\ncomment le piloter, nous allons nous écraser...",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "{AYLA}: {EPOCH} still fall.",
+    "original_fr": "{AYLA} : {EPOCH} être tranquille...",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{MARLE}: Do you think you've got it!?",
+    "original_fr": "{MARLE} : Tout va bien ?!",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "{LUCCA}: What about that lever?",
+    "original_fr": "{LUCCA} : Ce levier ?!",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "{ROBO}: These instruments are all unfamiliar.",
+    "original_fr": "{ROBO} : Je n'ai jamais utilisé ce genre\nd'instruments de bord...",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "{FROG}: Do not look to me!",
+    "original_fr": "{FROG} : Je n'y comprends rien...",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "{AYLA}: Wake up, {EPOCH}!",
+    "original_fr": "{AYLA} : {EPOCH} se réveiller !",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "{MARLE}: {GLYPH:386}!\nTry hitting that Y Button!",
+    "original_fr": "{MARLE} : {GLYPH:386} ! Ce serait pas le bouton Y,\nl{TAG:3C} ?!",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "{LUCCA}: {GLYPH:386}!\nTry hitting that Y Button!",
+    "original_fr": "{LUCCA} : {GLYPH:386} ! Appuie sur le bouton Y, l{TAG:3C} !",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "{ROBO}: {GLYPH:386}!\nPlease press that Y Button!",
+    "original_fr": "{ROBO} : {GLYPH:386} ! Essaie d'appuyer sur le\nbouton Y pour voir !",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "{FROG}: {GLYPH:386}!\nIs it not that Y Button?",
+    "original_fr": "{FROG} : {GLYPH:386} ! Essaie d'appuyer sur le\nbouton Y, l{TAG:3C} !",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "{MARLE}: Oh... Try the X Button!",
+    "original_fr": "{MARLE} : Appuie sur le bouton X !",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "{LUCCA}: Then, the X Button!\nTry the X Button!",
+    "original_fr": "{LUCCA} : Et le bouton X, l{TAG:3C} ?!",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "{ROBO}: Try the X Button!",
+    "original_fr": "{ROBO} : Appuie sur le bouton X, l{TAG:3C} !",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{FROG}: Well, what of the X Button!?",
+    "original_fr": "{FROG} : Alors, essaie le bouton X !",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{LUCCA}: Whew, I think I got a handle on it.",
+    "original_fr": "{LUCCA} : Ouf, je crois que j'ai {TAG:3C} peu près tout\ncompris.",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{ROBO}: I should have linked it to my CPU.",
+    "original_fr": "{ROBO} : J'aurais d{TAG:63} me connecter directement au\n{EPOCH}.",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "{FROG}: Incredible!\nMayhap we even owe him a touch of gratitude for this!",
+    "original_fr": "{FROG} : C'est incroyable ! Ha, ha ! Ce gredin nous\naura finalement rendu un grand service !",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "{AYLA}: {EPOCH} happy!\n{EPOCH}...become bird!",
+    "original_fr": "{AYLA} : {EPOCH} être en bon état !\n{EPOCH} être devenu oiseau !",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "{ROBO}: I believe this is what you refer to\nas a \"blessing in the midst of disaster.\"\nIt may not have been our intent, but we have gained\nthe means to fly!",
+    "original_fr": "{ROBO} : Ce fut un mal pour un bien, finalement.\nLe {EPOCH} a gagné des ailes par un coup du sort !",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "{LUCCA}: And I'd just been thinking about\nupgrading it myself, too. Oh well.",
+    "original_fr": "{LUCCA} : Et moi qui pensais le modifier moi-même...\nIl m'a g{TAG:4A}ché mon plaisir !",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "{LUCCA}: !{WAIT_KEY}\nOur things!",
+    "original_fr": "{LUCCA} : !!{WAIT_KEY}\nVoil{TAG:3C} nos objets !",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "{ROBO}: !{WAIT_KEY}\nOur possessions!",
+    "original_fr": "{ROBO} : !!{WAIT_KEY}\nCe sont nos objets !",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "{AYLA}: !{WAIT_KEY}\nFind {AYLA} stuff!",
+    "original_fr": "{AYLA} : !!{WAIT_KEY}\n{AYLA} trouver objets !",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "{LUCCA}: He was going to steal it all!",
+    "original_fr": "{LUCCA} : Il comptait tout emporter !",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "{ROBO}: Dalton was attempting to steal all\nof it.",
+    "original_fr": "{ROBO} : Dalton comptait tout emporter !",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "{FROG}: A dog of a man, if ever there was one!",
+    "original_fr": "{FROG} : Le vaurien ! Il aurait osé prendre ce qui ne\nlui appartient pas ?",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "{LUCCA}: Our...our money isn't here!",
+    "original_fr": "{LUCCA} : Notre argent n'est pas ici !",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "{ROBO}: Our money is not here!",
+    "original_fr": "{ROBO} : Notre argent n'est pas ici !",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "{FROG}: But, what of our money?",
+    "original_fr": "{FROG} : Cependant, je ne vois pas notre argent...",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "{ROBO}: Presumably, it is still within the\nBlackbird's hold.",
+    "original_fr": "{ROBO} : Il est probablement resté {TAG:3C} bord du\nCygne noir...",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "{FROG}: I suppose it's in the same watery\ngrave as the Blackbird, then.",
+    "original_fr": "{FROG} : Il a été englouti avec le Cygne noir...",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "{AYLA}: Hm? What wrong?",
+    "original_fr": "{AYLA} : Hum ? Pourquoi vous déprimés ?",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "{MARLE}: {CRONO}...",
+    "original_fr": "{MARLE} : {CRONO}...",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "{LUCCA}: {MARLE}...",
+    "original_fr": "{LUCCA} : {MARLE}...",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "{ROBO}: The {EPOCH} returned to us unscathed.\nI am certain that {CRONO} will as well.",
+    "original_fr": "{ROBO} : Le {EPOCH} est indemne. Je suis certain\nque {CRONO} est sain et sauf, lui aussi...",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "{FROG}: The poor fool...",
+    "original_fr": "{FROG} : L'idiot...",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "{AYLA}: {GLYPH:392} strong!\n{GLYPH:392} no die!",
+    "original_fr": "{AYLA} : {GLYPH:392} être fort !\n{GLYPH:392} pas mourir !",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "{GLYPH:384}\nIt's empty!",
+    "original_fr": "{GLYPH:384}\nIl est vide !",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{AYLA}: Kino!\nWhat you do?",
+    "original_fr": "{AYLA} : Kino quoi faire ici ?",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{AYLA}: Say NOW!",
+    "original_fr": "{AYLA} : Quoi arriver, Kino ?",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Kino: Kino sorry, {AYLA}...\nKino take {GLYPH:392} stuff.",
+    "original_fr": "Kino : Kino être désolé, {AYLA}... Kino voler objet de\n{GLYPH:392}...",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{AYLA}: Why take!?",
+    "original_fr": "{AYLA} : Pourquoi voler ?",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Kino: Kino like {AYLA} best.\n{AYLA} say like {GLYPH:392}, Kino mad.",
+    "original_fr": "Kino : Kino aimer {AYLA} meilleur ! {AYLA} dire\naimer {GLYPH:392}, alors Kino malheureux...",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{MARLE}: {AYLA}, y-you don't have to do that!",
+    "original_fr": "{MARLE} : Du calme, {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{LUCCA}: Wow, talk about strict!",
+    "original_fr": "{LUCCA} : Tu parles d'une réprimande...",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{ROBO}: Madam {AYLA}, violence is never\nthe best solution.",
+    "original_fr": "{ROBO} : {AYLA}, la violence ne réglera rien.",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{AYLA}: Kino know why {AYLA} hit?",
+    "original_fr": "{AYLA} : Kino comprendre pourquoi {AYLA}\nfrapper Kino ?",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Kino: {AYLA} no like Kino...",
+    "original_fr": "Kino : {AYLA} pas aimer Kino...",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{AYLA}: No!\n{AYLA} like Kino BEST!\nSo {AYLA} no want Kino do bad thing!\nBad thing not good!",
+    "original_fr": "{AYLA} : Non ! {AYLA} aimer Kino MEILLEUR !\nMais {AYLA} pas aimer mauvaises actions !\nPas bien !",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Kino: {AYLA}...",
+    "original_fr": "Kino : {AYLA}...",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Kino: Kino sorry, {AYLA}!",
+    "original_fr": "Kino : Kino être désolé, {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Kino: Kino sorry, {GLYPH:392}!",
+    "original_fr": "Kino : Kino être désolé, {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{AYLA}: Give thing back {GLYPH:392}!",
+    "original_fr": "{AYLA} : Kino rendre objet précieux {TAG:3C} {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Kino: No have. Reptites take!",
+    "original_fr": "Kino : Kino plus avoir...\nSauriens voler...",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "{AYLA}: Reptite!\nWhere reptite go!?",
+    "original_fr": "{AYLA} : Sauriens !!\nSauriens aller où ?",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Kino: Run trees, there.",
+    "original_fr": "Kino : Jungle...",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "{AYLA}: {AYLA} go.\nKino go back village.\n{AYLA} gone, Kino protect Ioka!",
+    "original_fr": "{AYLA} : {AYLA} aller chercher objet précieux\navec {GLYPH:392}. Kino rentrer et protéger village.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Kino: Okay, {AYLA}!",
+    "original_fr": "Kino : D'accord, {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "{AYLA}: Kino man...\n{AYLA} die, {AYLA} have baby, then Kino chief.",
+    "original_fr": "{AYLA} : Kino être homme... Si {AYLA} mourir,\nKino devenir chef.",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{MARLE}: {AYLA}...",
+    "original_fr": "{MARLE} : {AYLA}...",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{LUCCA}: {AYLA}'s one tough cookie.",
+    "original_fr": "{LUCCA} : {AYLA} est une dure {TAG:3C} cuire.",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{ROBO}: Madam {AYLA}, my apologies\nfor implying you may have been out of control.",
+    "original_fr": "{ROBO} : Pardonne-moi, {AYLA}, je m'étais\nmépris sur tes intentions.",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "{AYLA}: Follow reptite!\nGet {GLYPH:392} thing!",
+    "original_fr": "{AYLA} : Bon ! Suivre sauriens !\nRetrouver objet précieux de {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Reptites come.\nBurn village.",
+    "original_fr": "Sauriens appara¡tre !\nBr{TAG:63}ler village !",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "People fight...reptites kill all!",
+    "original_fr": "Habitants de Laruba résister, alors sauriens éliminer.",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Reptites follow {AYLA}.\n{AYLA} bad luck!",
+    "original_fr": "Sauriens suivre {AYLA}.\n{AYLA} porter malheur !",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "You fight, so reptites mad!",
+    "original_fr": "Vous tenir tête aux sauriens, alors sauriens être en\ncolère !",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Elder: {AYLA}...this your fault!\nLook at village!",
+    "original_fr": "Ancien : {AYLA}...\nVillage br{TAG:63}ler {TAG:3C} cause de {AYLA}...",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Elder: Reptites follow you!\nNow village ruined!",
+    "original_fr": "Ancien : Sauriens suivre {AYLA} !\nMaintenant village être en ruine !",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{AYLA}: ...{WAIT_KEY}\n{AYLA} sorry.",
+    "original_fr": "{AYLA} : ...{WAIT_KEY}\n{AYLA} être désolée. {AYLA} pas faire\nattention.",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Elder: Reptites strong, live long before us!\nSo we hide. But {AYLA} say fight together...\n{AYLA} still say fight now!?",
+    "original_fr": "Ancien : Opposer sauriens être stupide ! Sauriens vivre\nici beaucoup plus longtemps que Laruba, alors Laruba\nse cacher.{WAIT_KEY}\nMais {AYLA} vouloir combattre ensemble...\nMaintenant, village être br{TAG:63}lé...\n{AYLA} vouloir encore combattre ?",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{AYLA}: {AYLA} alive, {AYLA} fight!{WAIT_KEY}\nWin, live. Lose, die. That rule.\nNo can change rule.{WAIT_KEY}\nOld man breathe, but dead inside!",
+    "original_fr": "{AYLA} : Si {AYLA} vivante, {AYLA} se\nbattre !{WAIT_KEY}\nVainqueur vivre, perdant mourir. Loi du plus fort.\nSauriens et humains obéir {TAG:3C} loi du plus fort.{WAIT_KEY}\nSi tribu de Laruba se cacher, pas mourir... mais pas\nvivre non plus !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Elder: {AYLA} strong, so make big talk.\nWe not strong.",
+    "original_fr": "Ancien : {AYLA} être forte, alors pouvoir combattre.\nTribu de Laruba pas être forte.",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{AYLA}: No! Strong!\nFight, get more strong!{WAIT_KEY}\n{AYLA} help. But now, need dactyl.\nGive dactyl!",
+    "original_fr": "{AYLA} : Non ! {AYLA} pas combattre parce que\nêtre forte, {AYLA} devenir forte parce que\ncombattre !{WAIT_KEY}\nTribu d'Ioka aider tribu de Laruba, mais besoin de\nptéranodons ! Prêter ptéranodons {TAG:3C} {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Elder: Dactyl?",
+    "original_fr": "Ancien : Ptéranodons...?",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Elder: Go Tyranno Lair!?\nTyranno Lair, reptite castle!\nDanger. Even {AYLA} danger!\n{AYLA} want die?",
+    "original_fr": "Ancien : {AYLA} vouloir aller au fort Tyrannos ?!\nFort Tyrannos être repaire des sauriens ! Dangereux !\n{AYLA} vouloir mourir ?",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{AYLA}: No, want live, so go!\n{AYLA} be okay. Give dactyl!",
+    "original_fr": "{AYLA} : Non ! {AYLA} vouloir vivre, alors aller\nau fort Tyrannos. {AYLA} pas mourir.\nPrêter ptéranodons ?",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Elder: Yes...give dactyl.\nElder tell keeper, so go dactyl nest.\n{AYLA} be careful!",
+    "original_fr": "Ancien : ...\nD'accord. Ancien avertir gardien des ptéranodons.{WAIT_KEY}\n{AYLA} aller au nid des ptéranodons.\n{AYLA} être prudente !",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "{AYLA}: Elder, big help!",
+    "original_fr": "{AYLA} : Ancien aider beaucoup !",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Big fire come fast, no warn.\nBurn reptite castle.",
+    "original_fr": "Feu énorme appara¡tre soudainement et br{TAG:63}ler repaire\ndes sauriens.",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Reptites gone!\nPeople happy!",
+    "original_fr": "Sauriens dispara¡tre. Ounga !",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Now, no reptites.\nGood!",
+    "original_fr": "Sauriens éliminés. Bien !",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "No more fear.\nNo more run!",
+    "original_fr": "Maintenant, bien faire. Plus se cacher, plus fuir !",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "You strong. I become strong, too.",
+    "original_fr": "Vous avoir courage. Moi aussi vouloir courage.",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Elder: You take care {AYLA}.",
+    "original_fr": "Ancien : Vous prendre soin de {AYLA}...",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Elder: Reptites gone.\nAll because {AYLA}.",
+    "original_fr": "Ancien : Sauriens dispara¡tre. {AYLA} faire\ndispara¡tre sauriens.",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Reptites take Kino!\nReptites kill all try stop reptites!\nWhat do now!?",
+    "original_fr": "Sauriens enlever Kino ! Si combattre, sauriens éliminer !\nTerrible ! Terrible !",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Oh, I forgot!\nI don't need this stone, so I give it to you.",
+    "original_fr": "Au fait... Je n'ai pas besoin de cette pierre, alors je\nvous la donne.",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Nu... What? What the matter?\nI was sound asleep, nu!\nCan a Nu not get some rest?{WAIT_KEY}\nI change {GLYPH:386}'s name, so please let me go back\nto my dreams, nu.",
+    "original_fr": "Quoi ? Que se passe-t-il ? Moi qui dormais si\npaisiblement... Gnu...{WAIT_KEY}\nJe vais permettre {TAG:3C} {GLYPH:386} de changer son nom,\nalors laissez-moi dormir, d'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Nighty-night.",
+    "original_fr": "Bonne nuit.",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Would you like to rest here for the night?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous reposer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "We Earthbound Ones were banished from Zeal\nbecause we are possessed of no magical talents.",
+    "original_fr": "Nous avons été chassés du royaume empyréen de Zhyle\nparce que nous n'avons pas de pouvoirs magiques.",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "The Guru of Life voiced opposition to the Queen's\nplan, and so he was banished to the Mountain of Woe.",
+    "original_fr": "Le sage de la vie a été emprisonné sur le mont du\ntourment parce qu'il s'opposait aux plans de la reine.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Like as not, Dalton came here using the Skyway\nthat Lady Schala opened.",
+    "original_fr": "Dalton est sans doute parvenu jusqu'au village en\nutilisant la voie du ciel que mademoiselle Sarah a\nouverte.",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Many inhabitants of this land were taken to build\nthe Ocean Palace, and none were ever seen again.",
+    "original_fr": "De nombreux terriens ont été emmenés de force pour\nconstruire le sanctuaire sous-marin. Ils ne sont jamais\nrevenus...",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "The Gurus of Time and Reason are missing,\nand Lady Schala along with them.{WAIT_KEY}\nAre there none now who can stop the Queen?",
+    "original_fr": "Personne ne sait où sont le sage de la raison et le sage\ndu temps, et maintenant voil{TAG:3C} que mademoiselle Sarah\ns'est fait enlever !{WAIT_KEY}\nEst-il désormais impossible d'arrêter la reine ?",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "The mudbeast den is dangewous.\nYou shouldn't pway awound dewe.",
+    "original_fr": "Le nid du terraphage est un endroit très dangereux.\nVous ne devriez pas vous y aventurer.",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Waaah! Schawa... Wady Schawa!",
+    "original_fr": "Ouiin, mademoiselle Sarah... Mademoiselle Sarah !!",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "This tunnel connects to a mudbeast den.\nAnd beyond the mouth of the den lies the\ngreat chain that anchors the Mountain of\nWoe to the earth.",
+    "original_fr": "Ce trou mène au nid du terraphage. En le traversant,\nvous devriez pouvoir atteindre la cha¡ne qui relie le\nmont du tourment {TAG:3C} la surface.",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "This is Algetty, the village of the Earthbound.",
+    "original_fr": "Bienvenue {TAG:3C} Alguetti, le village des terriens.",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "The Queen has installed the Mammon Machine in\nthe Ocean Palace in an attempt to absorb Lavos's\nenergy, but is there not peril in such a thing?{WAIT_KEY}\nThe Guru of Life said as much, but it only led\nher to imprison him upon the Mountain of Woe.\nI fear there's little we can do.",
+    "original_fr": "La reine a installé le réceptacle sacré dans le\nsanctuaire sous-marin pour extraire encore plus\nd'énergie de Lavos... Est-ce vraiment une bonne\nidée ?{WAIT_KEY}\nLe sage de la vie qui a dit que ce serait dangereux\na été emprisonné sur le mont du tourment. Nous ne\npouvons plus rien faire...",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Elder: The Guru of Life said that young Lord Janus\npossessed power within him exceeding even that of\nLady Schala.{WAIT_KEY}\nBut then the Queen lost her mind, and the young\nlord grew to hate that power and all the suffering\nit causes Lady Schala. Now he hides it, denies it,\nand shuts it from his thoughts.",
+    "original_fr": "Ancien : Selon les sages, Janus recèlerait en lui un\npouvoir magique extraordinaire encore plus grand que\ncelui de mademoiselle Sarah.{WAIT_KEY}\nCependant, il déteste ce pouvoir qui rend la reine folle\net fait souffrir mademoiselle Sarah. C'est pourquoi il le\nrefoule et a fermé son c{TAG:61}ur aux autres.",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "In times past, the Enlightened Ones and we\nEarthbound Ones lived as one.",
+    "original_fr": "Autrefois, les illuminés et les terriens vivaient ensemble\net n'étaient qu'un seul et même peuple.",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "The three Gurus and Lady Schala are near the\nonly ones who do not treat us as inferior.",
+    "original_fr": "Seuls les trois sages et mademoiselle Sarah nous\ntraitent comme si nous étions sur un pied d'égalité.",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "When will Wady Schawa come and pway wiff us again?",
+    "original_fr": "Quand est-ce que mademoiselle Sarah va venir jouer\navec moi ?",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Might I interest you in some goods?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous acheter quelque chose ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Yer not gettin' through 'ere!",
+    "original_fr": "Je ne vous laisserai pas passer !",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "{MARLE}: The Guru of Life is trapped in there.",
+    "original_fr": "{MARLE} : C'est ici que le sage de la vie est\nemprisonné...",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "{LUCCA}: The Guru of Life's trapped inside.",
+    "original_fr": "{LUCCA} : C'est ici que le sage de la vie est\nemprisonné...",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "{ROBO}: We have found where the Guru of Life is\nimprisoned.",
+    "original_fr": "{ROBO} : C'est ici que le sage de la vie est\nemprisonné.",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{FROG}: So this is the prison that holds the Guru\nof Life.",
+    "original_fr": "{FROG} : C'est donc ici qu'est emprisonné le sage de\nla vie...?",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "{AYLA}: This, cage?",
+    "original_fr": "{AYLA} : Cristal être prison ?",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "{MARLE}: Look! It's disappearing!",
+    "original_fr": "{MARLE} : Regardez ! Le cristal dispara¡t !",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "{LUCCA}: It's disappearing!",
+    "original_fr": "{LUCCA} : Le cristal dispara¡t ?! Impossible !",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "{ROBO}: What is happening?",
+    "original_fr": "{ROBO} : Que se passe-t-il ?",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "{FROG}: It fades away before our eyes!",
+    "original_fr": "{FROG} : Le cristal dispara¡t !",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{AYLA}: {GLYPH:392}! Look!",
+    "original_fr": "{AYLA} : {GLYPH:392} ! Regarder !",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{MARLE}: M-Melchior!?",
+    "original_fr": "{MARLE} : Bosch ?!",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "{LUCCA}: Melchior!?",
+    "original_fr": "{LUCCA} : Bosch ?!",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "{ROBO}: Sir Melchior?",
+    "original_fr": "{ROBO} : Bosch ?",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{FROG}: Old Man Melchior!",
+    "original_fr": "{FROG} : Bosch...!",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "{AYLA}: Melchior?",
+    "original_fr": "{AYLA} : Bosch !",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Melchior: Indeed, I am none other.\nBut how do you know my name?\nI do not believe we've met.{WAIT_KEY}\nMore pressingly, what of the Queen and\nthe Ocean Palace? Do you know what has\nhappened?",
+    "original_fr": "Bosch : Effectivement, je m'appelle Bosch... Mais\npourquoi connaissez-vous mon nom ? Je ne me\nsouviens pas vous avoir déj{TAG:3C} rencontrés.{WAIT_KEY}\nToutefois, ce qui m'importe le plus est de savoir ce\nqu'il en est de la reine et des plans pour le sanctuaire\nsous-marin. ätes-vous au courant de la situation ?",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "Melchior: I see... The Queen's mind has already\neroded to that extent.",
+    "original_fr": "Bosch : Hum, je vois... L'état de la reine aurait empiré {TAG:3C}\nce point...",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Melchior: It seems the more energy the\nMammon Machine absorbs, the further the\nQueen descends into madness.{WAIT_KEY}\nThe immortal Lavos is overtaking her soul\nfrom within his slumber beneath the waves.",
+    "original_fr": "Bosch : Plus la quantité d'énergie que le réceptacle\nsacré absorbe augmente, plus la reine perd la raison...{WAIT_KEY}\nSon {TAG:4A}me est engloutie par Lavos, le dieu éternel qui\nsommeille au fond de l'océan...",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Melchior: We must flee! The seal is broken!\nIt will bring down the mountain!\nCome, make haste!",
+    "original_fr": "Bosch : La montagne va s'effondrer maintenant que\nvous avez brisé le sceau ! Fuyons !",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Melchior: Lavos sleeps deep underground,\nconsuming the energy of this planet.{WAIT_KEY}\nBrought so near, the Mammon Machine could\nvery well awaken him!",
+    "original_fr": "Bosch : Lavos dévore la planète tout en sommeillant au\nfond de l'océan.{WAIT_KEY}\nInstaller le réceptacle sacré si près de lui dans le\nsanctuaire sous-marin pourrait le réveiller !",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Melchior: We must hurry before it is too late!",
+    "original_fr": "Bosch : Nous devons agir avant qu'il ne soit trop tard...",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Elder! Lady Schala is here!",
+    "original_fr": "Ancien ! Mademoiselle Sarah est ici !",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Melchior: What? Schala?",
+    "original_fr": "Bosch : Quoi ? Sarah ?",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Tsk, tsk, my dear...",
+    "original_fr": "Ça suffit comme ça.",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "Janus: Such a filthy place...",
+    "original_fr": "Janus : ...\nQuel endroit insalubre.",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Elder: Lady Schala...\nWhy have you come to such a miserable place?",
+    "original_fr": "Ancien : Mademoiselle Sarah... Pourquoi êtes-vous venue\ndans un endroit pareil...?",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Schala: Do not degrade yourselves.\nWe Enlightened Ones were once the same as you.{WAIT_KEY}\nThe only difference is that we are now puppets\nof Lavos.",
+    "original_fr": "Sarah : Je vous en prie, cessez de vous dénigrer...\nLes illuminés étaient autrefois comme les terriens.\nAujourd'hui, la puissance de Lavos attise notre soif\nde pouvoir et voile notre jugement...",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Schala: Melchior...\nWhen the Mountain fell, I knew I would find you here.{WAIT_KEY}\nMelchior: But is it safe for you to leave the palace?",
+    "original_fr": "Sarah : Bosch... Je pensais bien vous trouver ici après\nla chute du mont du tourment.{WAIT_KEY}\nBosch : Avez-vous la permission de sortir du palais ?",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Schala: Whether it is safe or not no longer matters.\nThe Ocean Palace is complete!",
+    "original_fr": "Sarah : Peu importe ! Le sanctuaire sous-marin est\nterminé !",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Melchior: Then all is lost!",
+    "original_fr": "Bosch : Alors, tout est perdu !",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Schala: Not all. Without me, the Mammon Machine\nis no more than a vessel. I will not activate\nthat evil thing again.",
+    "original_fr": "Sarah : Non, sans moi, le réceptacle sacré ne fonctionne\npas... Et je ne veux plus rien avoir {TAG:3C} faire avec cette\nmachine.",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Schala: I've kept the Skyway open.\nPlease! You must stop my lady mother!",
+    "original_fr": "Sarah : J'ai laissé la voie du ciel ouverte.{WAIT_KEY}\nDépêchez-vous ! Arrêtez la reine... Arrêtez ma mère !",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Schala: Dalton!{WAIT_KEY}\nDalton: It would be quite an...inconvenience\nif you failed to activate the machine.",
+    "original_fr": "Sarah : Dalton !{WAIT_KEY}\nDalton : Il serait f{TAG:4A}cheux que vous refusiez de faire\nfonctionner le réceptacle sacré, ma chère Sarah.",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Melchior: Dalton!\nLeave her alone!",
+    "original_fr": "Bosch : Dalton ! Je ne te laisserai pas faire !",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Dalton: Ah! The fossil speaks.",
+    "original_fr": "Dalton : Je n'en peux plus de ce vieux rabat-joie !",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Dalton: Be silent!",
+    "original_fr": "Dalton : Silence !",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Melchior: Urgh!",
+    "original_fr": "Bosch : Ah !",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Dalton: You'll come to the Ocean Palace with me.\nCause any trouble, and your life is—well, I will\nbear no responsibilities.",
+    "original_fr": "Dalton : Je vous emmènerai moi-même au sanctuaire\nsous-marin, Votre Altesse. Si vous me faites obstacle,\nvous paierez de votre vie...",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Janus: Schala!",
+    "original_fr": "Janus : Sarah !",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Dalton: None of the Queen's brats know their place,\ndo they?",
+    "original_fr": "Dalton : Petite peste ! Les enfants de la reine ont\ndécidément un sale caractère ! C'est inconvenant.",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Dalton: Oh, let's not be hasty!\nI'd be more than happy to take the life of\nthis little pearl. I do not fear the Queen.",
+    "original_fr": "Dalton : Oh, ne vous mêlez pas de ça vous non plus.\nJe n'ai pas peur du tout de la reine ni de quiconque.\nJe peux trancher la tête d'une jeune fille comme elle\nn'importe quand !",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Dalton: Shall we be on our way, Schala, dear?\nYour mother is waiting.",
+    "original_fr": "Dalton : Eh bien ! Partons, ma chère Sarah.\nVotre tendre mère vous attend avec impatience.",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "{MARLE}: Melchior!",
+    "original_fr": "{MARLE} : Bosch !",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "{LUCCA}: Melchior!",
+    "original_fr": "{LUCCA} : Bosch !",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "{ROBO}: Melchior, sir!",
+    "original_fr": "{ROBO} : Bosch !",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "{FROG}: Melchior!",
+    "original_fr": "{FROG} : Bosch !",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "{AYLA}: Old man okay?",
+    "original_fr": "{AYLA} : Bosch !",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Melchior: I am all right.",
+    "original_fr": "Bosch : Je vais bien...",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "Melchior: But we must rescue Schala, or there\nwill be terrible consequences!",
+    "original_fr": "Bosch : Je dois {TAG:3C} tout prix porter secours {TAG:3C} Sarah...",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "Elder: There's no hope of rescuing her!\nNot even for you, Melchior...",
+    "original_fr": "Ancien : C'est de la folie ! Même vous ne pourriez\nréussir...",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Melchior: If the Queen's plans come to fruition,\nthere's no hope for life as we know it!",
+    "original_fr": "Bosch : Néanmoins, si le plan de la reine devient\nréalité, tous les humains, non, toute forme de vie\nsera en danger !",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "Melchior: You...you would go and stop her?",
+    "original_fr": "Bosch : Vous... irez {TAG:3C} ma place ?",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "Melchior: My pardons... You risk your life for us time\nand time again, and I do not even know your names.",
+    "original_fr": "Bosch : Je vous remercie... Je ne connais même pas vos\nnoms...",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{MARLE}: You'll know them one day!",
+    "original_fr": "{MARLE} : Rassurez-vous, je vous garantis que vous\nles apprendrez un jour !",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "{LUCCA}: Don't worry about it!\nYou're going to help us someday, too!",
+    "original_fr": "{LUCCA} : Ne vous en faites pas ! On vous doit bien\nça après ce que vous avez fait pour nous... ou plutôt ce\nque vous ferez !",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{ROBO}: You have already helped us.\nNow we are returning the favor.",
+    "original_fr": "{ROBO} : Non, c'est {TAG:3C} nous de vous remercier.\nNous ne faisons que vous rendre la pareille.",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{FROG}: Think naught of it. We've a debt to repay\nfor your repair of the Masamune.",
+    "original_fr": "{FROG} : Ne vous en faites pas. Vous avez restauré\nGrandléon, alors j'ai une dette envers vous.",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{AYLA}: Old man use red stone, help {GLYPH:392}.\nNow, {AYLA} help old man.",
+    "original_fr": "{AYLA} : Bosch utiliser pierre rouge et aider\n{GLYPH:392}. Maintenant, {AYLA} aider Bosch.",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "Melchior: Whatever are you talking about?",
+    "original_fr": "Bosch : Qu-Quoi ?",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "{MARLE}: {CRONO}, let's get going!",
+    "original_fr": "{MARLE} : Dépêchons-nous, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "{LUCCA}: Come on, {CRONO}!",
+    "original_fr": "{LUCCA} : Allons-y, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "{ROBO}: {CRONO}, we must hurry!",
+    "original_fr": "{ROBO} : Dépêchons-nous, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "{FROG}: {CRONO}, let us make haste!",
+    "original_fr": "{FROG} : Allons-y, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "{AYLA}: {GLYPH:392}! Go now!",
+    "original_fr": "{AYLA} : {GLYPH:392} ! Partir !",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "Melchior: Wait, take this with you.",
+    "original_fr": "Bosch : Attendez ! Prenez ceci...",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "Melchior: It's made from the same red stone\nas the Mammon Machine. With it, you should be\nable to destroy the thing for good.",
+    "original_fr": "Bosch : Sa lame est faite d'un fragment de la même\npierre rouge qui a servi {TAG:3C} fabriquer le réceptacle\nsacré. Il vous permettra de le détruire.",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Elder! Th-the Mountain of Woe—!",
+    "original_fr": "Ancien ! Le mont du tourment !",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Mama, the mountain's falling!",
+    "original_fr": "Maman, la montagne va s'écraser !",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Elder: Lady Schala, abducted...\nBut without magic, we're helpless to save her.",
+    "original_fr": "Ancien : Sarah a été enlevée... Nous n'avons pas de\npouvoirs magiques, alors nous ne pouvons rien faire.",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "Young Lord Janus made for the Skyway to save\nLady Schala!",
+    "original_fr": "Janus s'est dirigé vers la voie du ciel. Il voulait porter\nsecours {TAG:3C} mademoiselle Sarah.",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "I hope Lady Schala is still alive.",
+    "original_fr": "...\nEst-ce que mademoiselle Sarah est saine et sauve ?",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "You can take the Skyway to pursue Dalton.\nPlease hurry, for Lady Schala's sake!",
+    "original_fr": "Vous devriez pouvoir poursuivre Dalton en empruntant\nla voie du ciel. Dépêchez-vous de sauver mademoiselle\nSarah...",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "How could something like this happen?",
+    "original_fr": "Comment une telle chose a-t-elle pu se produire ?",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "So the Enlightened Ones truly have lost reason...",
+    "original_fr": "Alors, les illuminés...",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "Where did Wady Schawa go?",
+    "original_fr": "Elle est où, mademoiselle Sarah ?",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "A tidal wave!{GLYPH:405}08{GLYPH:406}{GLYPH:408}",
+    "original_fr": "Un raz-de-marée !{GLYPH:405}08{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "Ozzie: Welcome and well met!\nThis's the great Ozzie's—{WAIT_KEY}\nWhat!?",
+    "original_fr": "Vinnie : Bienvenue au manoir du Grand Vinnie,\nle Magistère !\n...{WAIT_KEY}{GLYPH:384}\n\n?!",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Ozzie: Gah!",
+    "original_fr": "Vinnie : Oh !",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Ozzie: L-Lord {MAGUS}!",
+    "original_fr": "Vinnie : {MAGUS}...!",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "Ozzie: You again!",
+    "original_fr": "Vinnie : Encore vous !",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Ozzie: I'm outta here!",
+    "original_fr": "Vinnie : ...\nAdieu !",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{MAGUS}: It is good to see you again, Ozzie.",
+    "original_fr": "{MAGUS} : ...\nJe vois que mon absence te profite bien...",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Ozzie: The nerve! You think you can talk to\nme after you desert your fellow fiends to\nlick the boots of these filthy humans!\nYou're not our lord! You're a traitor!",
+    "original_fr": "Vinnie : En quoi cela te regarde-t-il ? Tu as abandonné\nnotre rêve de domination du monde pour aller lécher\nles bottes des humains ! Tu n'es plus le Magistère !",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Ozzie: Why did you leave us?",
+    "original_fr": "Vinnie : Pourquoi nous as-tu trahis ?",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Flea: Stand back, great Ozzie, and let me take\ncare of these cretins.",
+    "original_fr": "Mayo : Reculez-vous, Votre Excellence. Laissez-moi\nm'en occuper !",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Ozzie: Howdy!",
+    "original_fr": "Vinnie : Vous revoil{TAG:3C} !",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Ozzie: Arise, my fearsome guardians!{WAIT_KEY}\nSlash 'em to shreds! No one's taking back the treasure\nI stole fair and square from {MAGUS}'s keep!",
+    "original_fr": "Vinnie : Venez, mes serviteurs !{WAIT_KEY}\nMettez en pièces les personnes qui essaient de voler le\ntrésor que j'ai rapporté du palais du Magistère !",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Ozzie: Claw 'em to pieces!",
+    "original_fr": "Vinnie : C'est parti !",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Ozzie: Oz...",
+    "original_fr": "Vinnie : Je...",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Ozzie's in a pickle!",
+    "original_fr": "Cours, Vinnie ! Cours !",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Ozzie: You pesky low-down good-for-nothings!\nCan't take a hint, eh?{WAIT_KEY}\nGuess I know what I have to do now!",
+    "original_fr": "Vinnie : Vous commencez {TAG:3C} m'embêter sérieusement !{WAIT_KEY}\nSi c'est comme ça...",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Ozzie: Flea!",
+    "original_fr": "Vinnie : Mayo !",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "Ozzie: Slash!",
+    "original_fr": "Vinnie : Soja !",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "Flea: You called?",
+    "original_fr": "Mayo : Vous m'avez appelé ? ©",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "Flea: Oh dear me, if it isn't Lord {MAGUS}!\nYou must like shame to have come back here.\nA human-loving traitor like you deserves to be\npunished like the bad, bad boy you are!",
+    "original_fr": "Mayo : Tiens donc, {MAGUS}. Quel culot tu as de\nvenir ici ! Je vais punir le tra¡tre qui s'est allié avec\nles humains !",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "Flea: Oh, long time no see.\nYou know, no girl likes the ones who\ncan't take a hint.",
+    "original_fr": "Mayo : Tiens donc, ça fait longtemps ! Vous savez,\nje déteste les gens collants ! ©",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "Ozzie: Right! I'll, uh, just leave it to you, then, Flea!",
+    "original_fr": "Vinnie : Je compte sur toi, Mayo !",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "Flea: All right! Time for a good, hard spanking!",
+    "original_fr": "Mayo : Vous méritez une bonne fessée ! ©",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "Flea: Oh, just you wait!\nI'll teach you a lesson next time!",
+    "original_fr": "Mayo : Ah ! Comme c'est vexant !\nVous me le paierez !",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "Slash: You summoned?",
+    "original_fr": "Soja : Vous m'avez appelé, Votre Excellence ?",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "Ozzie: D-don't you people ever give up?{WAIT_KEY}\nWell, looks like there's only one choice...",
+    "original_fr": "Vinnie : Vous m'avez encore suivi ?{WAIT_KEY}\nVous l'aurez voulu...",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "Ozzie: Take care of this for me, will ya, Slash?",
+    "original_fr": "Vinnie : Soja, je compte sur toi !",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "Ozzie: Im-impossible!",
+    "original_fr": "Vinnie : Impossible !",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "Ozzie's bungled that one!",
+    "original_fr": "Du calme, Vinnie ! Du calme !",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "Slash: Fortune favored you when last we met.\nBut it would seem your luck has run dry.",
+    "original_fr": "Soja : Vous m'avez vaincu la dernière fois, mais cela ne\nse reproduira pas.",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "Slash: Normally I would not deign to cross\nblades with my former lord, but who am I\nto question the complex workings of fate?",
+    "original_fr": "Soja : Je suis réticent {TAG:3C} croiser le fer avec mon ancien\nsouverain et celui que je révérais tant... Cependant, si\ntel est mon destin, je n'ai pas le choix !",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "Slash: Ready yourselves!",
+    "original_fr": "Soja : Faites vos prières !",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "Slash: Hmph! You win this time.",
+    "original_fr": "Soja : Hum, j'ai commis une erreur !",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "Ozzie: Come on, sweethearts!",
+    "original_fr": "Vinnie : Allez, approchez !",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "Ozzie: Mwa ha ha!\nGotcha!",
+    "original_fr": "Vinnie : Mouah, ha, ha ! J'ai réussi !",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "Ozzie: Um...sweethearts? Don't you want to open\nthe treasure chest?",
+    "original_fr": "Vinnie : Euh... Vous ne voulez pas ouvrir le coffre ?",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "Oh! Treasure!",
+    "original_fr": "Oh, un trésor !!",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "Probably filled with lots of nice goodies!",
+    "original_fr": "Il y a s{TAG:63}rement quelque chose d'intéressant {TAG:3C}\nl'intérieur !",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "Ozzie: Heh heh. Not so fast, friends.\nThis time's not going to be so easy.",
+    "original_fr": "Vinnie : Mouah, ha, ha ! La troisième fois est toujours la\nbonne ! Vous ne me vaincrez pas aussi facilement !",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "Ozzie: Ozzie Pants!",
+    "original_fr": "Vinnie : Par mon caleçon !",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Flea: Flea Bustier!",
+    "original_fr": "Mayo : Par mon bustier !",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "Slash: Slasher II!",
+    "original_fr": "Soja : Par mon sabre !",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "Ozzie: With these items combined, we're invincible!\nGet ready to witness true power!",
+    "original_fr": "Vinnie : Comme vous pouvez le voir, nous sommes bien\néquipés ! Nous n'allons faire qu'une bouchée de vous !",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "Ozzie: You can't defeat me!\nWhat would become of fiendkind?\nI can't lose! I won't!",
+    "original_fr": "Vinnie : Je ne peux pas perdre ! Quel serait l'avenir des\nmystiques ? Je dois gagner {TAG:3C} tout prix !",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "Ozzie: {MAGUS}... You really have it out for\nme, don't you? We fought side by side!\nYou said you wanted to create a world for fiends!\nIt was all a lie, wasn't it? You used me!{WAIT_KEY}\n{MAGUS}: I sought power, nothing more.\nSurely the howling of those bitter winds\ndoes not escape your ear?\nThe end draws nigh.",
+    "original_fr": "Vinnie : {MAGUS}... Tiens-tu tant {TAG:3C} me vaincre ?\nTu nous as donc menti quand tu disais vouloir\ncréer un monde meilleur pour les mystiques ?!{WAIT_KEY}\n{MAGUS} : Tsst ! Je voulais plus de pouvoir, voil{TAG:3C}\ntout. Tu peux les entendre, toi aussi, n'est-ce pas ?\nLes hurlements du vent sombre...",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "{MAGUS}: The past is gone.\nIt was but a fleeting dream.",
+    "original_fr": "{MAGUS} : Le passé n'est plus. Tout n'est qu'un rêve\néphémère...",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Ozzie: You're wasting your time!\nYou'll never defeat me!",
+    "original_fr": "Vinnie : Non ! Non ! Non ! Vous ne me vaincrez pas !",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Ozzie: Adios, amigos!",
+    "original_fr": "Vinnie : Adios, amigos !",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "Ozzie: N-no! Not that switch!",
+    "original_fr": "Vinnie : Oh non... Pas ce levier...!",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "{MARLE}: Some people just don't know when to give\nup.",
+    "original_fr": "{MARLE} : ...\nIl n'apprendra jamais.",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "{LUCCA}: What was he even trying to do?",
+    "original_fr": "{LUCCA} : ...\nQu'est-ce qu'il lui a pris ?",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "{ROBO}: I am unable to determine the logic\nbehind his actions.",
+    "original_fr": "{ROBO} : ...\nImpossible de le comprendre...",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "{FROG}: Of all the half-witted fools...",
+    "original_fr": "{FROG} : Quel idiot...",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "{AYLA}: What he want?\n{AYLA} not understand.",
+    "original_fr": "{AYLA} : Vinnie vouloir faire quoi ?\n{AYLA} pas comprendre.",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "Tata the Hero: {MAGUS}!{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "Tarta le héros : {MAGUS} !!{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  }
+]

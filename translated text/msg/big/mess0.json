@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nTrouvé : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Oh, prehistoric rhythm Ê",
+    "original_fr": "Oh, le rythme préhistorique ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "You are so very weak Ê\nI am so strong Ê\nI punched your lights out Ê\nNow go run along Ê",
+    "original_fr": "Ah, vous avez perdu ! Ê\nVous battre n'a pas été ardu ! Ê\nJe ne peux passer sous silence Ê\nQue vous manquez d'expérience ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "They call me Gato Ê\nI have metal joints Ê\nIf you can beat me up Ê\nYou'll earn 15 points Ê",
+    "original_fr": "Gonzales est mon nom ! Ê\nJe suis un combattant de renom ! Ê\nSi de moi vous triomphez, Ê\n15 points d'argent vous obtiendrez ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Oh, no, I have lost Ê\nAnd it seems you've won Ê\nHere are your 15 points Ê\nNow wasn't that fun? Ê",
+    "original_fr": "Votre force est extraordinaire ! Ê\nVous êtes vraiment du tonnerre ! Ê\nJe vous donnerai 15 points ! Ê\nPas plus, pas moins ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Soldier: There they are!\nDon't lose 'em!",
+    "original_fr": "Soldat : Les voil{TAG:3C} ! Ne les laissez pas s'échapper !",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{MARLE}: Looks like a dead end!",
+    "original_fr": "{MARLE} : Un cul-de-sac ?!",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{LUCCA}: A Gate!",
+    "original_fr": "{LUCCA} : Regardez ! Un portail !",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{MARLE}: Come on!",
+    "original_fr": "{MARLE} : Allons-y !",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{LUCCA}: Come on!?\nWe have no idea where it'll take us!\nWe might not even be able to get back!",
+    "original_fr": "{LUCCA} : Je veux bien, mais nous ne savons pas\ndans quelle époque nous allons aboutir, ni même si\nnous allons pouvoir rentrer cette fois !!",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{MARLE}: Who cares?\nAnywhere's better than here!",
+    "original_fr": "{MARLE} : Je m'en fiche ! N'importe quelle époque\nsera mieux que celle où {CRONO} va se faire\ncapturer {TAG:3C} cause de moi !",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Chancellor: Princess Nadia!",
+    "original_fr": "Chancelier : Votre Altesse !",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "{LUCCA}: This is totally irrational, you know!",
+    "original_fr": "{LUCCA} : Eh bien, advienne que pourra !",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{MARLE}: Hurry, {CRONO}!",
+    "original_fr": "{MARLE} : Partons, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Chancellor: They...they disappeared!",
+    "original_fr": "Chancelier : Ils... Ils ont disparu !",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Soldier: There's nowhere left to run!",
+    "original_fr": "Soldat : Vous n'irez pas plus loin !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Soldier: Come along quietly!",
+    "original_fr": "Soldat : Rendez-vous !",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Chancellor: Move away from that young hoodlum,\nYour Highness!",
+    "original_fr": "Chancelier : Votre Altesse, éloignez-vous de ce vaurien !",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "20 G, paid in advance.\nWould you like to stay?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 20 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Very well.",
+    "original_fr": "Ho, ho ! Très bien !",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Come again soon.",
+    "original_fr": "Revenez quand vous voulez !",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "A one-way ticket is 10 G.\nYou want one?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Un billet vous co{TAG:63}tera 10 G.\nVoulez-vous en acheter un ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Here you go.\nHave a pleasant trip!",
+    "original_fr": "Voil{TAG:3C} votre billet. Merci beaucoup !",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Well, don't blame me if you regret it later.\nYou'd love the trip, I guarantee it!",
+    "original_fr": "Un voyage en bateau, c'est si rafra¡chissant !\nÂ ce prix-l{TAG:3C}, c'est dommage de se priver...",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Sorry, looks like you're a bit short on money.",
+    "original_fr": "Vous n'avez pas assez d'argent...",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "I take the ferry every chance I get!",
+    "original_fr": "J'adore prendre le bateau !",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "I want to ride the ferry.",
+    "original_fr": "Rien ne vaut un petit tour en bateau !",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Mayor: Gah hah hah!\nI run this town, and I'm so rich I don't\nknow what to do with it all!",
+    "original_fr": "Maire : Mouah, ha, ha ! Je suis le maire de cette ville !\nC'est moi le plus riche !",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Give you 10 G if you spin around three times and\ncluck like a chicken!\n{TAG:38}{TAG:38}{GLYPH:394}Okay.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No thanks.{GLYPH:397}",
+    "original_fr": "Si tu fais trois pirouettes en poussant un cocorico,\nje te donnerai 10 G. Alors, qu'en dis-tu ?\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Mayor: Bo-oring!",
+    "original_fr": "Maire : Pfft. T'es pas drôle.",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Mayor: Gah hah hah! That was great!\nHere ya go, 10 G! Don't spend it all in one place!",
+    "original_fr": "Maire : Mouah, ha, ha ! Tiens ! 10 G !",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Help the needy—share and share alike!\nThinkin' about makin' that the town motto.",
+    "original_fr": "{TAG:64} Partagez toujours avec votre prochain et tendez la\nmain aux gens dans le besoin ! {TAG:65} Je crois que je vais\nen faire la devise de la ville !",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "I hate my dad more than anyone in the whole world.",
+    "original_fr": "La personne que je déteste le plus au monde ?\nMon père, bien s{TAG:63}r !",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "My dad is my favorite person in the whole world!",
+    "original_fr": "La personne que j'aime le plus au monde ?\nMon père, bien s{TAG:63}r !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Dad loves money more than he loves me.",
+    "original_fr": "Papa aime son argent plus que moi...",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "I love my daddy!",
+    "original_fr": "J'adore mon papa !",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "The children are slipping away from us.\nIt's so painful to see.",
+    "original_fr": "Les enfants sont de plus en plus distants.\nC'est {TAG:3C} vous fendre le c{TAG:61}ur...",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "I wish my husband were just a touch less generous.\nI mean, it wouldn't kill him to save a little for us,\nwould it?",
+    "original_fr": "Mon mari est si altruiste... Si seulement il pensait un peu\nplus {TAG:3C} lui-même...",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Everybody says Daddy's greedy.\nThat's not true, is it?",
+    "original_fr": "Tout le monde dit que papa est un rapace...\nCe n'est pas vrai, hein ?",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Everybody says Daddy's magnanimous,\nbut he says he's just big-boned.",
+    "original_fr": "Tout le monde dit que papa est généreux... Est-ce\nqu'être généreux, c'est la même chose qu'être cool ?\nSi c'est le cas, alors papa n'est pas généreux !",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Gran and Gramps went to the Millennial Fair in Truce.\nWe're keeping an eye on the house.",
+    "original_fr": "Tout le monde est parti {TAG:3C} la foire du millénaire de\nTruce, même papi et mamie... Nous prenons soin\nde la maison en leur absence.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "I wanna go to the fair, too!",
+    "original_fr": "Moi aussi, je veux aller {TAG:3C} la foire !",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Some monsters can coexist with humans.\nTake that piano player, for instance.\n",
+    "original_fr": "Il y a aussi des monstres qui vivent paisiblement avec\nles humains. Prenez ce pianiste, par exemple.",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Everyone's off to that festival.\nBuncha lazy sots...\n*burp*",
+    "original_fr": "Tout le monde est parti {TAG:3C} la foire du millénaire de\nTruce. Pfft. C'est ça, qu'ils s'amusent !",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Four centuries ago, a woman named Fiona died\ntrying to revive the great forest that once\nflourished to the north. It's a sad tale.",
+    "original_fr": "Il y a 400 ans, une femme appelée Fiona a péri en\nessayant de transformer les terres arides situées\nau nord d'ici en forêt... C'est si triste...",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Four centuries ago, a woman named Fiona revived\nthe forest to the north, aided by a strange iron\nconstruct. The thing is kept in a shrine within\nthe forest now.",
+    "original_fr": "Il y a 400 ans, une femme appelée Fiona a fait revenir\n{TAG:3C} la vie la forêt située au nord d'ici avec l'aide d'une\nétrange poupée de fer qui repose désormais dans le\nsanctuaire.",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "I'm the piano man! Whaddaya want me to play? Ê\n{TAG:38}{TAG:38}{GLYPH:394}Play me a sad one!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Something upbeat!{GLYPH:397}",
+    "original_fr": "Qu'est-ce que je vous joue ? Ê\n       {GLYPH:394}Un morceau triste{GLYPH:395}\n       {GLYPH:396}Un morceau enjoué{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "With this armor, I can join the fight against the\nFiendlord!",
+    "original_fr": "îquipé de cette armure, je vais combattre le Magistère,\nmoi aussi !",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Urgh...\nIt's so...so heavy!",
+    "original_fr": "Oooh...!\nElle est lourde...",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "I'm afraid my brother will hurt himself.",
+    "original_fr": "Ce soldat en fait trop...",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "It was the warring of the great Fiendlord that\nkilled off the forest up north.",
+    "original_fr": "C'est le Magistère qui a détruit la forêt du nord.",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Village Elder: A place known as the Magic Cave lies\neast from the Denadoro Mountains. That place will\nsend chills down a grown man's spine.",
+    "original_fr": "Maire : La grotte située dans la montagne {TAG:3C} l'est\ndes monts Dénadoro est surnommée la grotte des\nmystiques. Elle me donne la chair de poule.",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "The boxes beside the bed have been handed down\nthrough this family for generations.\nI've not the slightest inkling what's within.\nFind a way to open them, and the contents are yours.",
+    "original_fr": "Les coffres {TAG:3C} côté du lit ont été transmis de génération\nen génération dans notre famille sans être ouverts.\nJe me demande ce qu'il y a {TAG:3C} l'intérieur... Si vous\narrivez {TAG:3C} les ouvrir, je vous donnerai leur contenu.",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Fiona loves all things that are green and grow.\nShe's a pure and noble heart to her, that one.\nI pray her dream of greener days comes true.",
+    "original_fr": "Fiona a bon c{TAG:61}ur et aime la nature. Si seulement son\nrêve pouvait se réaliser...",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Tata bears the Hero's Badge.{WAIT_KEY}\nAt first I thought it for a fake,\nbut it's the genuine article.\nHe truly is the Hero of legend!{WAIT_KEY}\nI suspect he's combing the Denadoro Mountains\nto the north even now, searching for the sword\nthe legends speak of.",
+    "original_fr": "Tarta possède la médaille du héros !{WAIT_KEY}\nJe croyais d'abord que c'était une copie, mais c'est la\nvraie ! Tarta est réellement le héros !{WAIT_KEY}\nEn ce moment même, il doit être {TAG:3C} la recherche de l'épée\nlégendaire dans les monts Dénadoro au nord d'ici.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Oh, that Tata! Always stirring up trouble.\nBut how could a person be wroth at that\ninnocent little face?",
+    "original_fr": "Tarta est un bon {TAG:3C} rien... Mais on l'aime bien quand\nmême.",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "I'm going to be Tata's bride one day!",
+    "original_fr": "Je serai l'épouse de Tarta !",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "ZABIE door lock system operational.\nPlease enter passcode.",
+    "original_fr": "Verrouillage de Zabi actif.\nVeuillez saisir le mot de passe.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "EMERGENCY ALERT STATUS.\nELEVATORS DISABLED.",
+    "original_fr": "îtat d'urgence.\nAscenseurs hors d'usage.",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "{ROBO}: Emergency!\nThe security system has gone haywire.\nWe must escape immediately!",
+    "original_fr": "{ROBO} : îtat d'urgence ! Le système de sécurité\nest détraqué. Nous devons nous enfuir !",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "{ROBO}: Hurry!\nBefore it is too late!",
+    "original_fr": "{ROBO} : Vite ! Dépêchez-vous !",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "I was worn out from running around.\nBut watching this dance gave me energy again!",
+    "original_fr": "J'ai trop couru, je suis épuisée. Mais ça me redonne de\nl'énergie de les regarder danser !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "A prehistoric dance...\nEntrancing, isn't it?",
+    "original_fr": "Ils disent que c'est une danse des temps anciens.\nÇa a un charme inexplicable, vous ne trouvez pas ?",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Catchy rhythm, huh?\nYou can use the X, Y, L, and R Buttons to dance along!",
+    "original_fr": "Quelle mélodie entra¡nante ! Dansez, vous aussi !\nAppuyez sur le bouton X, le bouton Y, le bouton R\nou le bouton L !",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "La-dee-da-dee-da!\nI got spending money from the mayor!",
+    "original_fr": "La, lala, lalère ! J'ai reçu de l'argent de poche {TAG:3C} la\nrésidence du maire !",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "{MARLE}, that is, Princess Nadia, is a descendant\nof Queen Leene.",
+    "original_fr": "{MARLE}, c'est-{TAG:3C}-dire la princesse Marledia, est une\ndescendante de la reine de cette époque.",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Queen Leene was kidnapped, and someone\nwas supposed to have gone and saved her. \nBut now history's been changed!",
+    "original_fr": "Cette dernière avait été enlevée, mais quelqu'un était\ncensé l'avoir sauvée par la suite. Cependant, l'histoire\na changé...",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{MARLE} looks so much like the Queen that they\nprobably called off their search when she appeared.\nBut if the real Queen is killed...",
+    "original_fr": "Quand {MARLE} est apparue {TAG:3C} cette époque, on l'a\nprise pour son ancêtre, et les recherches pour\nretrouver la vraie reine ont été interrompues.\nSi elle meurt...",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{MARLE} will never have existed!\nBut there might still be enough time.\nIf we can save the Queen, history as\nwe know it should remain unchanged!",
+    "original_fr": "... {MARLE} n'aura jamais existé. Cependant, il nous\nreste encore du temps ! Si nous arrivons {TAG:3C} porter\nsecours {TAG:3C} la reine, l'histoire devrait retrouver son\ncours normal !",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "My own son, the legendary Hero!\nSeems I sired myself a champion.\nCan't say I truly see it, but I don't\ns'pose I ought to question good fortune.{WAIT_KEY}\nFather of the Hero!\nHeh heh... I like the ring of it.",
+    "original_fr": "On dit que mon fiston est le héros. Ce doit être un de\nde ces cas où {TAG:64} noire géline pond blanc {TAG:61}uf {TAG:65}, hein ?\nJ'ai quand même du mal {TAG:3C} y croire...{WAIT_KEY}\nBah, être le père du héros n'est pas mal du tout...\nHé, hé, hé !",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Tata: For...forgive me.\nTruth be told, I plucked this badge from the\nfloor of the tavern. Some besotted froggish\nfellow dropped it as he stumbled out.{WAIT_KEY}\nI thought to sell it, see, but then everyone\nstarted calling me the Hero when they saw it,\nand, well...I didn't know what to do but go\nalong with it.",
+    "original_fr": "Tarta : Je... Je suis désolé... C'est un homme {TAG:3C}\nl'apparence de grenouille qui l'a laissée tomber\n{TAG:3C} la taverne alors qu'il était saoul.{WAIT_KEY}\nJe pensais que je pourrais la revendre {TAG:3C} prix fort\nen ville, mais tout le monde s'est mis {TAG:3C} me traiter\nen héros, alors j'ai décidé de jouer le jeu...",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "But it's too much for me, this Hero business.\nI've had enough. Here, you can have the badge!",
+    "original_fr": "Mais je ne suis pas {TAG:3C} la hauteur... Je n'ai rien d'un héros\nlégendaire. J'en ai assez ! Tenez, je vous donne la\nmédaille !",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Tata's Father: Oh, what was I thinking?\nI knew it'd turn out to be something like this!\nI ought've seen it sooner.",
+    "original_fr": "Père de Tarta : Je m'en doutais bien... J'ai si honte que\nje pourrais pleurer !",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Tata's Father: Oh, letting myself get all swept up when\nI should have been looking out for m'boy! Well, from now\non, I'll make sure both of our feet stay on the ground.\nFor his dear departed mum's sake.",
+    "original_fr": "Quand je pense que j'ai cru que mon fils était le héros.\nPour le bien de ma femme qui n'est plus de ce monde,\ndorénavant, mon fils et moi garderons les pieds sur\nterre.",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Tata: Hmph, listen to him!\nAnd who does he think was going around\nbragging to everyone he'd raised the Hero?",
+    "original_fr": "Tarta : Pfft ! Il était bien content de raconter {TAG:3C} toute\nla ville qu'il avait élevé le héros...!",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "My grandson is the great Hero!\nThat's from my side of the family!\nHee hee hee.",
+    "original_fr": "Il para¡t que mon petit-fils est le héros ! Mon propre\nsang ! Ha, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Worry not, he's my grandson!\nHe won't let a little thing like this\nspell the end to his great deeds.{WAIT_KEY}\nHe told me already, his next goal is to\nbecome the legendary sea captain Bluebeard!\nHa ha ha!",
+    "original_fr": "Ne vous faites pas de souci pour mon petit-fils, il n'est\npas du genre {TAG:3C} se laisser décourager par si peu ! Il me\nl'a confié, son prochain objectif est de devenir un marin\nlégendaire ! Ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{GLYPH:384}\nStole 500 G!{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{GLYPH:384}\nIl vous a volé 500 G !{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{GLYPH:384}\nStole a Potion!{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{GLYPH:384}\nIl vous a volé une potion !{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "Aaahhh!",
+    "original_fr": "Aaah !",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Stop that!",
+    "original_fr": "Hé, chenapans !",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Oh, no, it's Cyrus!\nRun!",
+    "original_fr": "Oh non ! C'est Cyrus ! Fuyons !",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "*sniffle*\nThank you, Cyrus...\n*sniffle*",
+    "original_fr": "Snif... Merci... Cyrus... Snif...",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Cyrus: Glenn, there are times when a man must\nstand and face the things that trouble him.",
+    "original_fr": "Cyrus : Tu sais Glenn, il y a des moments dans la vie où\nun homme doit rendre les coups.",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "Glenn: But...it hurts to be hit.\nI cannot hurt another.\nNot...not even them.",
+    "original_fr": "Glenn : Oui, mais... Ça fait mal. Et puis ils ne sont pas\nvraiment méchants...",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Cyrus: You're too soft, Glenn.",
+    "original_fr": "Cyrus : Tu es trop gentil, Glenn...",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "{GLYPH:384}\nGuardia Castle  -  North beyond the forest",
+    "original_fr": "{GLYPH:384}\n… Ch{TAG:4A}teau de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "{GLYPH:384}\nGuardia Castle\nNo trespassing!",
+    "original_fr": "{GLYPH:384}\nCh{TAG:4A}teau de Gardia\nEntrée interdite sans permission.",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "{GLYPH:384}\nDead end ahead.",
+    "original_fr": "{GLYPH:384}\nCul-de-sac",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "{GLYPH:384}\nOpen glade ahead.",
+    "original_fr": "{GLYPH:384}\n♪ Clairière",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Your Silver Point card is full!\nI can't give you any more points.",
+    "original_fr": "Vous ne pouvez pas accumuler davantage de points\nd'argent.",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "The piano man's got talent.\nGive him a listen.",
+    "original_fr": "Notre pianiste est doué. Allez l'écouter jouer !",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "I've got some spiced jerky, but I've been saving it for\na special occasion.",
+    "original_fr": "J'ai du jambon épicé en réserve, mais...",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "I might let some go for, say, 9,900 G.\nHow's about it?\n{TAG:38}{TAG:38}{GLYPH:394}Sold.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No thanks.{GLYPH:397}",
+    "original_fr": "Je pourrais peut-être vous en vendre pour 9900 G.\nAlors, ça vous intéresse ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Now there's a customer with good taste!\nHere you go.",
+    "original_fr": "Eh bien dites donc !\nVoil{TAG:3C} !",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "I figured.",
+    "original_fr": "Je m'en doutais bien.",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "You strong!\nHere! Take!",
+    "original_fr": "Quelle force ! Acceptez ceci ! Gnu...",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "{GLYPH:384}\nObtained 3 Petals, 3 Fangs,\n3 Horns, and 3 Feathers!",
+    "original_fr": "{GLYPH:384}\nVous obtenez trois pétales, trois crocs,\ntrois cornes et trois plumes !",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "You very strong!\nTake this, too!{WAIT_KEY}{GLYPH:384}\n\nObtained Third Eye!",
+    "original_fr": "Votre force m'éblouit ! Acceptez aussi ceci !\nGnu...{WAIT_KEY}{GLYPH:384}\n\nVous obtenez un troisième {TAG:61}il !",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "{GLYPH:384}\nObtained Power Ring!",
+    "original_fr": "{GLYPH:384}\nVous obtenez une bague de force !",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "{GLYPH:384}\nA mysterious force seals it shut.",
+    "original_fr": "{GLYPH:384}\nUn sceau magique en empêche l'ouverture...",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "The item inside is reacting to the pendant.\nRemove the item?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Il y a quelque chose {TAG:3C} l'intérieur qui luit {TAG:3C} l'approche du\npendentif. Voulez-vous le prendre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "{GLYPH:384}\nObtained White Vest!",
+    "original_fr": "{GLYPH:384}\nVous obtenez une veste blanche !",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "{GLYPH:384}\nWhite Vest upgraded!\nObtained White Plate!",
+    "original_fr": "{GLYPH:384}\nLa veste blanche est devenue plus puissante !\nVous obtenez un plastron blanc !",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "{GLYPH:384}\nObtained Black Vest!",
+    "original_fr": "{GLYPH:384}\nVous obtenez une veste noire !",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "{GLYPH:384}\nBlack Vest upgraded!\nObtained Black Plate!",
+    "original_fr": "{GLYPH:384}\nLa veste noire est devenue plus puissante !\nVous obtenez un plastron noir !",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "If only I had some spiced jerky...\nWhat a wondrous meal I could make!",
+    "original_fr": "Si seulement j'avais du jambon épicé, je pourrais\npréparer un repas formidable...",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Oh! Is that not spiced jerky you're carrying?",
+    "original_fr": "Oh ! Vous avez du jambon épicé ?!",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Might you part with it for 10,000 G?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Take it for free.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}No.{GLYPH:399}",
+    "original_fr": "Voulez-vous me le vendre pour 10 000 G ?\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Le lui donner gratuitement{GLYPH:397}\n       {GLYPH:398}Refuser{GLYPH:399}",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "All right.\nHere's 10,000 G!",
+    "original_fr": "D'accord, voici 10 000 G !",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Truly? Oh, thank you! I'd thought kindness\nand sharing gone from this world altogether.\nI'll teach my children from your example.\nThere are greater things in life than money!",
+    "original_fr": "Vous voulez me le donner ?! Il y a donc encore des gens\naussi généreux que vous dans le monde...{WAIT_KEY}\nJe vais apprendre {TAG:3C} mes enfants qu'il n'y a pas que\nl'argent qui compte dans la vie !",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Oh, well.",
+    "original_fr": "Oh, dommage...",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "Right, then!\nI'd best start cooking!",
+    "original_fr": "Bien ! Je vais préparer un repas délicieux !",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "You're interested in the Moon Stone?\nA passing young traveler left it here.\nBy all means, take it. It seems to be\nimportant to you folks.",
+    "original_fr": "La pierre obscure ? Un jeune voyageur l'a laissée ici.\nOn dirait qu'elle vous est précieuse. Ne vous gênez\npas, vous pouvez l'emporter.",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Moon Stone?\nNever heard of it!",
+    "original_fr": "La pierre obscure ? Je n'ai jamais entendu parler d'une\nchose pareille.",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "{MARLE}: Is this the old Tyranno Lair?",
+    "original_fr": "{MARLE} : Le fort Tyrannos ?",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "{LUCCA}: Is this the old Tyranno Lair?",
+    "original_fr": "{LUCCA} : Le fort Tyrannos ?",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "{ROBO}: This appears to be the reptite castle.",
+    "original_fr": "{ROBO} : On dirait que nous sommes dans le ch{TAG:4A}teau\ndes sauriens.",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "{FROG}: The reptite castle?",
+    "original_fr": "{FROG} : Le fort Tyrannos ?",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "{AYLA}: What!?\nWhy reptite castle here?",
+    "original_fr": "{AYLA} : Quoi ?! Pourquoi fort Tyrannos être dans\nendroit pareil ?",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "{MAGUS}: The ruins of some ancient fortress?",
+    "original_fr": "{MAGUS} : Une ancienne forteresse ?",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{MARLE}: This place must have been pushed\nunderground when Lavos fell to the earth.",
+    "original_fr": "{MARLE} : Ces ruines ont été enfouies loin sous le sol\nquand Lavos s'est écrasé...",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "{LUCCA}: When Lavos fell, this castle\nmust have been buried beneath the earth.",
+    "original_fr": "{LUCCA} : Quand Lavos s'est écrasé, ses ruines ont\nété enfouies sous le sol.",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{ROBO}: This castle must have been buried\nunderground when Lavos impacted the surface.",
+    "original_fr": "{ROBO} : Quand Lavos s'est écrasé, ses ruines ont\nété enfouies sous le sol.",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{FROG}: When Lavos fell, this place must\nhave been buried within the earth.\nAnd here it yet lies...",
+    "original_fr": "{FROG} : Ces ruines auraient été enfouies loin sous\nle sol quand Lavos s'est écrasé...?",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{AYLA}: Lavos fall, bury Tyranno Lair.\nUnder ground, long time!",
+    "original_fr": "{AYLA} : Quand Lavos s'écraser, fort\nTyrannos être enfoui sous le sol pour toujours !",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{MAGUS}: A prehistoric castle...",
+    "original_fr": "{MAGUS} : Un ch{TAG:4A}teau de la Préhistoire ?",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "{MARLE}: This is the Rainbow Shell!",
+    "original_fr": "{MARLE} : Le coquillage arc-en-ciel !",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "{LUCCA}: The Rainbow Shell!",
+    "original_fr": "{LUCCA} : Le coquillage arc-en-ciel !",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "{ROBO}: This must be the Rainbow Shell.",
+    "original_fr": "{ROBO} : C'est le coquillage arc-en-ciel.",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "{FROG}: So, this is the fabled Rainbow Shell.",
+    "original_fr": "{FROG} : Hum. Serait-ce le coquillage arc-en-ciel ?",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "{AYLA}: Pretty! Big!\nThis Rainbow Shell?\nCan eat?",
+    "original_fr": "{AYLA} : Joli ! Très gros ! ätre coquillage\narc-en-ciel ? {AYLA} le manger ?",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "{MAGUS}: Not exactly my color.",
+    "original_fr": "{MAGUS} : Sa couleur ne me va pas...",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "{MARLE}: This thing's heavy!\nWe won't be able to carry it ourselves.\nBetter get some help at the castle!",
+    "original_fr": "{MARLE} : Il est lourd ! Nous ne pourrons pas le\ntransporter ainsi. Allons demander de l'aide au\nch{TAG:4A}teau !",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "{LUCCA}: It's too heavy.\nLet's get some help from Guardia Castle.",
+    "original_fr": "{LUCCA} : Il est trop lourd. Allons demander de l'aide\nau ch{TAG:4A}teau !",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "{ROBO}: Its mass is too great.\nWe must obtain assistance from Guardia Castle.",
+    "original_fr": "{ROBO} : Il est trop lourd. Allons demander de l'aide\nau ch{TAG:4A}teau !",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "{FROG}: It is far too heavy for these hands alone.\nLet us seek counsel with the King.",
+    "original_fr": "{FROG} : Il est lourd ! Allons demander de l'aide au\nch{TAG:4A}teau !",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "{AYLA}: Heavy, heavy!\nNo can carry.\nCastle person help?",
+    "original_fr": "{AYLA} : Lourd ! Très lourd ! {AYLA} pas\npouvoir transporter coquillage. Demander aide\nau ch{TAG:4A}teau ?",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{MAGUS}: Who shall we have carry it for us?",
+    "original_fr": "{MAGUS} : Qui pourrait le transporter ?",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Soldier: It's heavy.\nBut we will manage!",
+    "original_fr": "Soldat : Il est lourd, mais nous le transporterons sans\nfaute jusqu'au ch{TAG:4A}teau !",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "Commander: Okay, men.\nLift!",
+    "original_fr": "Capitaine : Allez, tous ensemble !",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "{GLYPH:384}\nThe enemy dropped a Shelter!",
+    "original_fr": "{GLYPH:384}\nLe monstre a laissé tomber une tente !",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{GLYPH:384}\nObtained Speed Capsule!",
+    "original_fr": "{GLYPH:384}\nVous obtenez une gélule de rapidité !",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Crumpled note written in Toma's hand:\n\"Those holes... Perhaps they are meant to be\njumped into. Yes! I'd best start all over.\"",
+    "original_fr": "Il y a une note sur le sol. On dirait l'écriture de Toma...{WAIT_KEY}\n{TAG:64} Ces trous... Y tomber est peut-être le seul moyen\nd'avancer... Et ensuite je pourrais revenir sur mes\npas et... {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

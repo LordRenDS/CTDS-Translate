@@ -11,7 +11,6 @@
 !/extracted rom/.gitkeep
 /extracted text/*
 !/extracted text/.gitkeep
-/translated text/*
 !/translated text/.gitkeep
 */__pycache__
 /.pytest_cache/

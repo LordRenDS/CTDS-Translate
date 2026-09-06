@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "\n1/11 1st Version",
+    "original_fr": "\nVersion 1/11 1 G",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{GLYPH:384}\nA mysterious force seals it shut.",
+    "original_fr": "{GLYPH:384}\nUn sceau magique en empêche l'ouverture...",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Princess!\nWearing our disguise out again, are we?",
+    "original_fr": "Vous vous êtes déguisée pour sortir aujourd'hui aussi,\nVotre Altesse ?",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Your Majesty! I'd hardly recognized\nyou with all that makeup.",
+    "original_fr": "Votre maquillage est très réussi, Votre Altesse.",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Princess!\nYou're dressed up like one of us again!",
+    "original_fr": "Princesse ! Vous avez encore une fois pris la même\napparence que nous !",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{MARLE}: Something's strange here.",
+    "original_fr": "{MARLE} : J'ai l'impression qu'il se passe quelque\nchose...",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{MARLE}: Let's go back to the castle.",
+    "original_fr": "{MARLE} : Retournons au ch{TAG:4A}teau.",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "*sniffle* *sob*\nMy kitty ran away!",
+    "original_fr": "Ouiiiiiin ! Mon chat...! J'ai perdu mon chat !",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "You brought back my kitty!\nThank you!",
+    "original_fr": "Merci de m'avoir ramené mon chat !",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Try and guess the next winner?\n{TAG:38}{TAG:38}{GLYPH:394}Sure!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Not this time.{GLYPH:397}",
+    "original_fr": "Voulez-vous prédire qui gagnera la course ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{GLYPH:384}\nYum!\nYou feel refreshed.",
+    "original_fr": "{GLYPH:384}\nLe panier-repas vous a redonné des forces !",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "And the winner of the last race was...{WAIT_KEY}\nSteel Runner!",
+    "original_fr": "Le gagnant de la course précédente est...{WAIT_KEY}\nLe coureur au masque de fer !",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "And the winner of the last race was...{WAIT_KEY}\nGreen Ambler!",
+    "original_fr": "Le gagnant de la course précédente est...{WAIT_KEY}\nLe saurien tra¡nard !",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "And the winner of the last race was...{WAIT_KEY}\nCatalack!",
+    "original_fr": "Le gagnant de la course précédente est...{WAIT_KEY}\nLe joli minet !",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "And the winner of the last race was...{WAIT_KEY}\nG.I. Jogger!",
+    "original_fr": "Le gagnant de la course précédente est...{WAIT_KEY}\nLe soldat enthousiaste !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "{TAG:38}{TAG:38}{GLYPH:394}No. 1{GLYPH:402}{TAG:38}{GLYPH:403}Steel Runner{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No. 2{GLYPH:402}{TAG:38}{GLYPH:403}Green Ambler{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}No. 3{GLYPH:402}{TAG:38}{GLYPH:403}Catalack{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}No. 4{GLYPH:402}{TAG:38}{GLYPH:403}G.I. Jogger{GLYPH:401}",
+    "original_fr": "       {GLYPH:394}Le coureur au masque de fer{GLYPH:395}\n       {GLYPH:396}Le saurien tra¡nard{GLYPH:397}\n       {GLYPH:398}Le joli minet{GLYPH:399}\n       {GLYPH:400}Le soldat enthousiaste{GLYPH:401}",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Your card is already full.\nI can't give you any more points!",
+    "original_fr": "Vous ne pouvez accumuler plus de points !",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "There's a race underway.\nBe quiet and watch!{WAIT_KEY}\nIf you want to try and guess the next winner,\ntalk to me once the runners have lined up over\nthere after the race.",
+    "original_fr": "Nous sommes en plein milieu de la course.\nTaisez-vous et regardez !{WAIT_KEY}\nSi vous voulez essayer de prédire le résultat de la\nprochaine course, revenez me parler quand les quatre\nparticipants seront alignés sur la ligne de départ.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "I've got a feeling that Steel Runner just might pull it\noff today.",
+    "original_fr": "J'ai le pressentiment que le coureur au masque de fer\nva tenter quelque chose aujourd'hui.",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "It'll be the Green Ambler for sure this time.\nI can feel it in my bones!",
+    "original_fr": "Le saurien tra¡nard... Hum... C'est sur lui que je parie.",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "That Catalack's got promise!",
+    "original_fr": "Le joli minet est une valeur s{TAG:63}re !",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "That one on G.I. Jogger's right...\nThat's gonna be our winner!",
+    "original_fr": "Le soldat enthousiaste a l'air en pleine forme !",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Not bad!\nI'll put 5 Silver Points on your card.",
+    "original_fr": "Bravo ! Vous obtenez 5 points d'argent !",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "You were right on the money!\nI'll put your 20 Silver Points on your card.",
+    "original_fr": "Bravo ! Vous obtenez 20 points d'argent !",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Press the confirmation button while facing the bell.\nJudge your distance carefully, and then press the\nA Button!",
+    "original_fr": "Placez-vous devant le gong pour prendre de l'élan,\npuis appuyez sur le bouton A au bon moment pour\nfaire monter le palet.",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Way to go!\nI'll put 1 Silver Point on your card.",
+    "original_fr": "Bravo ! Vous obtenez 1 point d'argent !",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Oh, my! That pendant is—{WAIT_KEY}\nDear me, I haven't the money to buy a thing like that!\nKeep it safe. That is a valuable trinket you carry.\n",
+    "original_fr": "Oh ! Ce pendentif !{WAIT_KEY}\nNon, je ne peux pas acheter un objet aussi précieux.\nPrenez-en grand soin.",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Melchior the swordsmith, at your service!\nMight I interest you in one of my fine blades?{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}Take a look.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No, thanks.{GLYPH:397}",
+    "original_fr": "Je suis Bosch, le forgeron. Voulez-vous acheter une\ndes armes que j'ai fabriquées ?{WAIT_KEY}\n       {GLYPH:394}Jeter un coup d'{TAG:61}il{GLYPH:395}\n       {GLYPH:396}Laisser tomber{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "By the way...{WAIT_KEY}\nIs there any chance you could talk that young lady\ninto selling her pendant to me?\n{TAG:38}{TAG:38}{GLYPH:394}I'll try.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Sorry.{GLYPH:397}",
+    "original_fr": "Au fait...{WAIT_KEY}\nPourriez-vous convaincre la jeune fille qui vous\naccompagne de me vendre son pendentif ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Melchior: I live on the continent to the east.\nCome and see me if you ever have the need.",
+    "original_fr": "Bosch : J'habite sur le continent est. Venez me rendre\nvisite un de ces jours.",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Drinking contest, step right up!\nMash the A Button as fast as you can!",
+    "original_fr": "Venez {TAG:3C} côté de moi et essayez de boire le plus de\nverres possible !{WAIT_KEY}\nAppuyez rapidement sur le bouton A de façon répétée !",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Ready?\nSet?\nGo!",
+    "original_fr": "C'est parti !",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{GLYPH:367}? Is that the best you can do?",
+    "original_fr": "Seulement {GLYPH:367} ?\nVous avez encore du chemin {TAG:3C} faire !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Not too shabby!",
+    "original_fr": "Pas mal !",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "You're too much, kid!\nI can't drink with you.",
+    "original_fr": "Je ne suis pas de taille contre vous.",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Girl: Oof!",
+    "original_fr": "Jeune fille : Ah !",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Girl: Ouch...",
+    "original_fr": "Jeune fille : Ouille...",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Girl: I'm so sorry!\nAre you okay?",
+    "original_fr": "Jeune fille : Je suis désolée ! Ça va ?",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Girl: Uh-oh...\nMy pendant!",
+    "original_fr": "Jeune fille : Oh ? Mon pendentif...",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Girl: Oh no, my pendant!\nDon't tell me I lost it!",
+    "original_fr": "Jeune fille : Oh, non ! Où est mon pendentif ?\nL'aurais-je perdu ?!",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Girl: Oh, thank goodness! My pendant!\nI know it doesn't look like much, but\nit has a lot of sentimental value.{WAIT_KEY}\nMay I have it back?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Jeune fille : Oh, tu as retrouvé mon pendentif ?\nIl est vieux, mais il m'est très précieux.{WAIT_KEY}\nPourrais-je le ravoir ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "{MARLE}: It's a family heirloom, and it's very\nimportant to me. May I please have it back?",
+    "original_fr": "{MARLE} : Il est vieux, mais il m'est très précieux.\nPourrais-je le ravoir ?",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Thank you.{WAIT_KEY}\nYou must live in this town. I came to see the fair.\nAwfully boring wandering around alone, though, isn't it?{WAIT_KEY}\nHey, why don't we walk around together for a while?\nWouldn't that be great?\n{TAG:38}{TAG:38}{GLYPH:394}Sure.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Sorry.{GLYPH:397}",
+    "original_fr": "Dis, tu es de ce village, pas vrai ? Je suis venue\nm'amuser {TAG:3C} la foire, mais toute seule, ce n'est pas\nmarrant.{WAIT_KEY}\nTu veux bien m'accompagner ?\nS'il te pla¡t !\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Girl: Oh, please!\nI'm all alone, and I don't know anyone around here!\n{TAG:38}{TAG:38}{GLYPH:394}Okay, fine.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Jeune fille : Oh, allons ! Tu refuserais de porter secours\n{TAG:3C} une jeune fille en détresse ?\n       {GLYPH:394}Accompagner la jeune fille{GLYPH:395}\n       {GLYPH:396}Refuser de l'accompagner{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Girl: Yahoo! This'll be fun!",
+    "original_fr": "Jeune fille : Super !",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Girl: Oh, I never told you my name, did I?\nIt's, uh... Umm...",
+    "original_fr": "Jeune fille : Oh, j'ai oublié de me présenter.\nEuh... Je m'appelle...",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Girl: It's {MARLE}!\nAnd you're...?",
+    "original_fr": "{MARLE} : Je m'appelle {MARLE}.\nEt toi ?",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "{MARLE}: {CRONO}... What a nice name!\nWell, pleased to meet you, {CRONO}.\nCome on, let's enjoy the fair!",
+    "original_fr": "{MARLE} : {CRONO} ? Quel joli nom !\nEnchantée ! Alors, qu'attendons-nous ?",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Today is the one thousandth anniversary of our\nkingdom's foundation. Enjoy the festivities!\nI surely would if I were your age!",
+    "original_fr": "Bienvenue {TAG:3C} la foire du millénaire du royaume !\nAmusez-vous {TAG:3C} c{TAG:61}ur joie !",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "I heard the Princess snuck out of the castle again.",
+    "original_fr": "Il para¡t que la princesse s'est encore échappée du\nch{TAG:4A}teau.",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Come one, come all, to the Tent of Horrors!\nSpend your Silver Points here!\nPut your bravery to the test!{WAIT_KEY}\nLet me check how many points you have...{GLYPH:367}.\nWell, you can only spend them in here, you know!",
+    "original_fr": "Voici la tente des horreurs ! Ce n'est qu'{TAG:3C} l'intérieur que\nvous pouvez utiliser vos points d'argent.{WAIT_KEY}\nVous en avez {GLYPH:367}. Mais aurez-vous le courage d'y\npénétrer ?",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "My dear old wife made that lunch for me.\nAlways the highlight of my day! Gives me that\nextra oomph when I'm starting to feel worn down.",
+    "original_fr": "Ce paquet rose est le panier-repas que m'a préparé\nmamie. J'attends chaque jour avec impatience le\nmoment de le manger. Il me redonne de l'énergie !",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Those runners are busy racing, so they won't\nanswer you if you talk to them.",
+    "original_fr": "Ces coureurs sont tellement concentrés sur leur course\nqu'ils ne répondent même pas quand on leur adresse la\nparole.",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "This Kingdom's been through some hard times, like\nthe war against the Fiendlord four hundred years ago.{WAIT_KEY}\nYou should be thankful things are so peaceful now.",
+    "original_fr": "Quand on y pense, il s'en est passé des choses dans ce\nroyaume... La guerre contre l'armée de {MAGUS} il y a\n400 ans, par exemple...{WAIT_KEY}\nNous devrions tous être reconnaissants de la paix qui\nrègne aujourd'hui.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "This merchant said he'd buy accessories if they're in\ngood condition.{WAIT_KEY}\nHmm... Maybe I should sell him this old pendant of mine.",
+    "original_fr": "J'ai entendu dire que ce vieil homme achète toutes\nsortes d'accessoires.{WAIT_KEY}\nHum... Je me demande s'il achète aussi des pendentifs...",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Go straight ahead if you want to try your hand\nagainst {LUCCA}'s bipedal robot battler, Gato.\nYou can win Silver Points if you beat him!",
+    "original_fr": "Par ici pour ceux qui veulent combattre Gonzales, le\nrobot bipède inventé par {LUCCA} ! Si vous arrivez {TAG:3C}\nle vaincre, vous obtiendrez des points d'argent !",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "This is Leene Square. Legend has it that people\nwho hear Leene's Bell live happily ever after.",
+    "original_fr": "La légende dit que ceux qui entendent la cloche de\nLynne seront toujours heureux !",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "There was a big war hundreds of years ago against\nthe Fiendlord's armies. My mom said if we'd lost,\nwe wouldn't be having a fair like this today!",
+    "original_fr": "Ma mère m'a raconté que notre royaume a combattu\nl'armée du Magistère il y a des centaines d'années.{WAIT_KEY}\nElle dit que si on avait perdu, il n'y aurait pas de foire\naujourd'hui.",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Preparations are still underway.\nEnjoy yourself in the square for a while,\nand check back a little later.",
+    "original_fr": "Ils n'ont pas terminé les préparatifs. Allez faire le tour\nde la foire et revenez un peu plus tard.",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "I hear {LUCCA} and her father have put together\nanother crazy invention.{WAIT_KEY}\nI just hope it doesn't blow up again like the last one.",
+    "original_fr": "Apparemment, {LUCCA} et son père, le forgeron, ont\nfabriqué une autre de leurs inventions bizarres.{WAIT_KEY}\nJ'espère qu'elle n'explosera pas comme la dernière fois...",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "They ought to be ready by now.\nThey were setting up at the far end of the square.{WAIT_KEY}\n{MARLE}: Oh, I want to see it!\nCome on, {CRONO}!",
+    "original_fr": "Leur invention devrait être prête, maintenant.\nIls l'ont installée {TAG:3C} l'autre bout de la place.{WAIT_KEY}\n{MARLE} : Oh, ça a l'air intéressant !\nAllons-y, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "{LUCCA}'s device is all set up now, you know.\nJust go straight, to the back of the square.",
+    "original_fr": "L'invention de {LUCCA} est prête.\nElle est installée au nord de la place.",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{MARLE}: Just a minute!\nI want to get some candy.",
+    "original_fr": "{MARLE} : Attends un peu ! Je veux acheter des\nbonbons !",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "{MARLE}: Wait, give me a second to choose!",
+    "original_fr": "{MARLE} : Ne sois pas si pressé ! Attends !",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "{MARLE}: Hey, there's no need to drag me by the\narm like a kidnapper!",
+    "original_fr": "{MARLE} : Arrête de me tirer par le bras comme ça !\nTu me fais mal !",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "{MARLE}: Excuse me!\nI'd like one of these.{WAIT_KEY}\nWoman: Sure, young miss.",
+    "original_fr": "{MARLE} : Je voudrais ceux-l{TAG:3C}, s'il vous pla¡t !{WAIT_KEY}\nVendeuse : Voil{TAG:3C}.",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{MARLE}: Thanks for waiting!",
+    "original_fr": "{MARLE} : Désolée de t'avoir fait attendre !",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{MARLE}: Hee hee...\nYou're such a pig, {CRONO}!",
+    "original_fr": "{MARLE} : Hi, hi, hi ! Quel glouton tu es, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "{MARLE}: {CRONO}, you're so sweet!",
+    "original_fr": "{MARLE} : Ah, tu es si gentil, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "{MARLE}: You're awfully competitive, aren't you,\n{CRONO}?",
+    "original_fr": "{MARLE} : Tu te donnes toujours {TAG:3C} fond, quoi que\ntu fasses, hein, {CRONO} ?",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "{MARLE}: Ah!\nI'm having a great time with you, {CRONO}.",
+    "original_fr": "{MARLE} : Je m'amuse tant avec toi, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "The merchants who were in the square have all left\nto restock. Why not pay a visit to the town market?",
+    "original_fr": "Les marchands de la place sont rentrés se\nréapprovisionner. Allez voir au magasin du\nvillage.",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Let me see how many Silver Points you have\non your card... Looks like you've got {GLYPH:367}.{WAIT_KEY}\nWould you like to exchange 10 Silver Points\nfor 50 G?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Vous avez actuellement {GLYPH:367} point(s) d'argent.{WAIT_KEY}\nVoulez-vous échanger 10 points d'argent contre\n50 G ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Sorry, you don't have enough points!",
+    "original_fr": "Vous n'avez pas assez de points d'argent.",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "There you go. Come again!",
+    "original_fr": "Â bientôt, j'espère.",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Oh hoh hoh... There's nothing like a good fair!\nSay, have you heard the gossip?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Ho, ho, ho ! J'aime les foires ! Au fait, avez-vous\nentendu les dernières nouvelles ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Oh... Well, never you mind, then.",
+    "original_fr": "Je vois... Eh bien, tant mieux.",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Well, just between us, I heard that the King is\ntearing his hair out over his tomboy of a daughter!{WAIT_KEY}\nJust once, I'd like to meet her and see how wild\nshe really is.",
+    "original_fr": "Entre vous et moi, il para¡t que le roi Gardia ne sait que\nfaire de sa fille qui n'est qu'un garçon manqué.{WAIT_KEY}\nCependant, j'aimerais bien voir {TAG:3C} quel point elle l'est !",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Taban: Step right on up, any with the time and courage!\nOur first-ever hyperdimensional transporter is the\ninvention of the century!",
+    "original_fr": "Taban : Approchez ! Approchez, si vous en avez le\ncourage !{WAIT_KEY}\nVoici l'invention du siècle : le premier super-téléporteur\ntransdimensionnel !",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "Taban: Simply hop up here...",
+    "original_fr": "Taban : C'est une machine extraordinaire ! Vous n'avez\nqu'{TAG:3C} monter sur cette plateforme et...",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Taban: ...and you'll be teleported here!{WAIT_KEY}\nThis fantastic machine is the masterwork of my\nbeautiful and brilliant daughter, {LUCCA}!",
+    "original_fr": "Taban : ... vous serez téléporté ici !{WAIT_KEY}\nC'est l'invention de ma brillante et ravissante fille\nunique, {LUCCA} !",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Taban: Give it a try, kid?\n...Oh, it's you, {CRONO}!",
+    "original_fr": "Taban : Oh, tu veux l'essayer, {CRONO} ?",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Taban: Nothing to be afraid of, it worked just fine with\nthe cat! No reason why it shouldn't work on a human.{WAIT_KEY}\nSo relax, step on up!",
+    "original_fr": "Taban : Il n'y a rien {TAG:3C} craindre ! Nous l'avons testée\navec succès avec des chats. Pas encore avec des\nhumains, mais bon...{WAIT_KEY}\nTu peux l'utiliser en toute confiance ! Allez !",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Taban: It...it worked!\nUnbelievable! They never—{WAIT_KEY}\nAh, ahem! As I was saying, {LUCCA} has done it\nagain, ladies and gentlemen. A thrilling display of\nscience at its best!",
+    "original_fr": "Taban : Tout s'est vraiment bien passé ?! Quel mir...\nEuh, je veux dire, bien entendu ! C'est une invention\nde {LUCCA}, après tout ! Formidable !",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "{LUCCA}: {CRONO}!",
+    "original_fr": "{LUCCA} : {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "{LUCCA}: I was wondering when you'd show up!\nNo one wants to try my Telepod.{WAIT_KEY}\nWould you be so kind?",
+    "original_fr": "{LUCCA} : Je t'attendais ! Personne ne veut essayer\nle téléporteur.{WAIT_KEY}\nQue dirais-tu de le faire ?",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "{LUCCA}: Just hop up onto the left pod.",
+    "original_fr": "{LUCCA} : Monte sur la plateforme de gauche !",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "{LUCCA}: So, how was it?\nWant to try it again?",
+    "original_fr": "{LUCCA} : Alors, qu'en dis-tu ? Tu veux réessayer ?",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "{MARLE}: Oh, this will be fun!\nI'll watch while you try it out!",
+    "original_fr": "{MARLE} : Ça a l'air amusant ! Essaie !\nJe vais te regarder !",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "{MARLE}: That looks like fun!\nI want to try it, too!",
+    "original_fr": "{MARLE} : Ça a l'air pas mal ! Je veux essayer !",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "{LUCCA}: Huh?",
+    "original_fr": "{LUCCA} : Hein ?",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "{LUCCA}: {CRONO}, when did you manage to\npick up a cutie like her?",
+    "original_fr": "{LUCCA} : Dis donc, {CRONO}, comment as-tu fait\npour dénicher soudainement une aussi jolie fille ?",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{MARLE}: It's all right, isn't it, {CRONO}?\nJust wait right here—don't run off on me!",
+    "original_fr": "{MARLE} : Reste l{TAG:3C}, d'accord {CRONO} ?\nNe bouge surtout pas !",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Taban: Behold, ladies and gentlemen, as this\nvision of loveliness steps aboard the machine!",
+    "original_fr": "Taban : Oh, c'est cette demoiselle qui va mettre la\nmachine au défi ! Par ici, s'il te pla¡t !",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "{MARLE}: Hee hee.\nOkay, I'll be right back!",
+    "original_fr": "{MARLE} : Hi, hi, hi ! Je reviens tout de suite !",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Taban: You're sure about this?\nThere's still time to change your mind.",
+    "original_fr": "Taban : Es-tu certaine de vouloir essayer ? Si tu veux\nabandonner, c'est le moment de le dire.",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "{MARLE}: No way!\nI'm not afraid.",
+    "original_fr": "{MARLE} : J'en suis s{TAG:63}re ! Je n'ai pas peur du tout !",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Taban: Okay, everyone, let's give her a great big hand\nwhen she teleports from the platform!",
+    "original_fr": "Taban : Eh bien, mesdames et messieurs ! Quand elle\ndispara¡tra comme par magie, n'oubliez pas d'applaudir !",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Taban: System activated!",
+    "original_fr": "Taban : Pleine puissance !",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "{LUCCA}: Initiating energy transfer!",
+    "original_fr": "{LUCCA} : Chargement des batteries !",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "{MARLE}: What's happening?\nMy pendant, it's—",
+    "original_fr": "{MARLE} : Qu'est-ce qui se passe ?\nMon pendentif...",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "{LUCCA}: That girl's face was so familiar.\nI know I've seen her somewhere.",
+    "original_fr": "{LUCCA} : Cette fille... Hum...\nJ'ai l'impression de l'avoir déj{TAG:3C} vue quelque part...",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "{LUCCA}: Huh?",
+    "original_fr": "{LUCCA} : Hein ?!",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Crowd: OOOOH!\nAmazing!",
+    "original_fr": "Foule : Oooh !\nFormidable !",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Taban: Hmm?",
+    "original_fr": "Taban : Euh...?!",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Taban: {LUCCA}...\nShe's not reappearing.",
+    "original_fr": "Taban : Dis, {LUCCA}, elle ne réappara¡t pas de\nl'autre côté ?",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "{LUCCA}: ...",
+    "original_fr": "{LUCCA} : ...",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Taban: W-well, all right! As you can see,\nthe girl has vanished before your very eyes!\nShow's over, folks! Move along!",
+    "original_fr": "Taban : Eh oui, mesdames et messieurs, comme vous\npouvez le constater, elle a disparu sans laisser de\ntrace ! Euh, le spectacle est fini !",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Taban: What just happened, {LUCCA}?\nWhere is she?",
+    "original_fr": "Taban : {LUCCA} ! Que s'est-il passé ?\nQu'est-il arrivé {TAG:3C} cette jeune fille ?!",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "{LUCCA}: The way she disappeared...\nThat couldn't have been the Telepod.{WAIT_KEY}\nThe way that rift appeared, and the way her\npendant seemed to be reacting to it...\nSomething else must have caused it all.",
+    "original_fr": "{LUCCA} : La façon dont elle a disparu est différente\nde l'effet habituel du téléporteur...{WAIT_KEY}\nCette distorsion de l'espace... Le pendentif semblait y\nréagir...",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Taban: Well, what are we supposed to do now?\nIs there any way we can help her?",
+    "original_fr": "Taban : Comment allons-nous faire pour la sauver ?",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "{LUCCA}: {CRONO}!\nWhere do you think you're going?\nYou brought that girl here.\nYou can't just abandon her!",
+    "original_fr": "{LUCCA} : Un instant, {CRONO} ! Où t'en vas-tu\ncomme ça ?{WAIT_KEY}\nC'est pourtant toi qui l'as emmenée ici !",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "{LUCCA}: {CRONO}!",
+    "original_fr": "{LUCCA} : {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Taban: Oh! You're going after her?\nWhat a fine lad!",
+    "original_fr": "Taban : Oh ! Tu vas la suivre, c'est ça, {CRONO} ?\nJe savais bien que tu étais un homme digne de\nce nom !",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "{LUCCA}: It's the only way.\nI don't know where that hole leads,\nbut we've got no other choice.{WAIT_KEY}\nTaban: Let's just hope it opens up again.{WAIT_KEY}\n{LUCCA}: Well, it's worth a shot!\nThat pendant seems to be the key, so hang on\nto it, {CRONO}—and brace yourself!",
+    "original_fr": "{LUCCA} : Tu as raison ! Même si on ne sait pas ce\nqu'il y a au-del{TAG:3C} de cette distorsion, je ne vois pas\nd'autre solution.{WAIT_KEY}\nTaban : Mais la distorsion pourrait ne pas appara¡tre de\nnouveau au bon moment !{WAIT_KEY}\n{LUCCA} : Ça vaut tout de même la peine d'essayer !\nLe pendentif est s{TAG:63}rement la clef, {CRONO} !\nTiens-le fermement ! La même chose devrait se\nreproduire !",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "{LUCCA}: Boost the power output!",
+    "original_fr": "{LUCCA} : Transfère plus d'énergie !",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "Taban: Roger!",
+    "original_fr": "Taban : Entendu !",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "{LUCCA}: More!\nI need more power!",
+    "original_fr": "{LUCCA} : Encore plus !",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "{LUCCA}: There!\nI think we did it!",
+    "original_fr": "{LUCCA} : Voil{TAG:3C} ! On dirait que ça va marcher !",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "{LUCCA}: Good luck, {CRONO}!\nI'll follow you as soon as I figure out what went wrong!",
+    "original_fr": "{LUCCA} : Quand j'aurai découvert la cause de ce\nphénomène, je te suivrai moi aussi, {CRONO} !\nJe compte sur toi !",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "{MARLE}: Whew!\nWe made it!",
+    "original_fr": "{MARLE} : Hourra ! On est enfin de retour !",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{MARLE}: {CRONO}, {LUCCA}!\nWhy don't you come back with me to the castle?\nIt would give me a chance to thank you properly\nfor everything!",
+    "original_fr": "{MARLE} : Dites, ça vous dirait de venir avec moi au\nch{TAG:4A}teau ? Vous avez tant fait pour moi !",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "{LUCCA}: I'm really sorry for putting you through\nall this, {MARLE}.",
+    "original_fr": "{LUCCA} : Je suis désolée de t'avoir causé autant\nd'ennuis, {MARLE}.",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{MARLE}: What are you talking about?\nIt was the most fun I've had in months!\nAnd I made new friends, too!",
+    "original_fr": "{MARLE} : Mais pas du tout ! Je me suis bien amusée !\nC'était si palpitant ! Et puis, je me suis fait de\nmerveilleux nouveaux amis !",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{LUCCA}: {CRONO}, be a gentleman and take her\nhome.{WAIT_KEY}\nI still need to do a little more snooping into why that\nGate appeared.",
+    "original_fr": "{LUCCA} : Raccompagne-la jusqu'au ch{TAG:4A}teau,\n{CRONO}. Escorte-la comme il faut, surtout !{WAIT_KEY}\nJe vais t{TAG:4A}cher de trouver la cause de l'apparition des\nportails.",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{MARLE}: See you again soon, {LUCCA}!",
+    "original_fr": "{MARLE} : Â plus, {LUCCA} !",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{MARLE}: Well, {CRONO}, are you ready to escort\nme home?",
+    "original_fr": "{MARLE} : Allez, escorte-moi jusqu'au ch{TAG:4A}teau,\n{CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "What does \"teleport\" mean?",
+    "original_fr": "C'est quoi, un téléporteur ?",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "This contraption is supposed to transport objects\nin the blink of an eye.",
+    "original_fr": "J'ai entendu dire qu'un téléporteur permet de\ntransporter les choses en un clin d'{TAG:61}il.",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Wow!",
+    "original_fr": "C'est prodigieux !",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "{LUCCA} invented this thing?\nWonder what'll go wrong this time...",
+    "original_fr": "Que va-t-il encore se passer ? Les inventions de\n{LUCCA} réservent toujours quelques surprises...",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "I suppose even {LUCCA}'s inventions are bound to\nwork sometimes.",
+    "original_fr": "Les inventions de {LUCCA} fonctionnent aussi de\ntemps en temps.",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "I, Pierre, represent the defense.",
+    "original_fr": "Je m'appelle Pierre. Je suis l'avocat de la défense.",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "I, your Chancellor, shall serve as prosecutor!",
+    "original_fr": "Je suis le chancelier du royaume et le procureur !",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Chancellor: Members of the court.{WAIT_KEY}\nI will now bring forth the defendant, {CRONO}, who\nis charged with the abduction of Princess Nadia.",
+    "original_fr": "Chancelier : Bienvenue {TAG:3C} tous. Faisons entrer\n{CRONO}, celui que l'on accuse d'avoir enlevé\nla princesse Marledia.",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Chancellor: What shall be his fate?\nTo burn at the stake, perhaps?\nTo feel the Tickler, or hang upside down?{WAIT_KEY}\nOr...shall we employ the guillotine?",
+    "original_fr": "Chancelier : Qu'allons-nous faire de lui...?\nLe condamner au b{TAG:63}cher ?\nLui faire subir le supplice des chatouilles ?\nLe suspendre la tête en bas ?{WAIT_KEY}\nOu encore... l'envoyer {TAG:3C} la guillotine...",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Chancellor: The choice is yours, good jurors.\nNow, let us begin.",
+    "original_fr": "Chancelier : C'est vous qui prendrez cette décision.\nCommençons donc.",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "Judge: We shall first hear the testimony of\nthe defense.",
+    "original_fr": "Juge : Que l'accusé se présente {TAG:3C} la barre !",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "Pierre: {CRONO} is charged with premeditated\nabduction of royalty. The question is, how\ncould he be guilty of a crime that never\noccurred?",
+    "original_fr": "Pierre : Je débuterai. {CRONO} avait-il vraiment\nl'intention d'enlever la princesse ? Non.",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Pierre: The prosecution would have you believe\nthat the defendant kidnapped the Princess.\nHowever, the truth is quite to the contrary.{WAIT_KEY}\nNot only was their meeting a coincidence, but\nit was the Princess herself who asked {CRONO}\nif she could join him.",
+    "original_fr": "Pierre : Le procureur prétend que l'accusé a enlevé la\nprincesse avec préméditation, mais est-ce le cas ?\nNon.{WAIT_KEY}\nEn fait, c'est complètement par hasard qu'ils se sont\nrencontrés.",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "Chancellor: Is this true?\nWho was responsible for initiating contact?\n{TAG:38}{TAG:38}{GLYPH:394}I was.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{MARLE} was.{GLYPH:397}",
+    "original_fr": "Chancelier : Est-ce vraiment ce qui s'est passé ?\nQui a pris l'initiative ?\n       {GLYPH:394}Moi{GLYPH:395}\n       {GLYPH:396}{MARLE}{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "Chancellor: Indeed! \nThe defendant deliberately approached the\nPrincess, pretending it was an accident.",
+    "original_fr": "Chancelier : Bien ! Comme vous venez de l'entendre,\nl'accusé s'est approché délibérément de la princesse,\nfeignant une rencontre fortuite.",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "Chancellor: Are you so certain?\nOur witnesses say that you were the\none who bumped into the Princess.",
+    "original_fr": "Chancelier : Peux-tu vraiment l'affirmer ? Des témoins\nprétendent pourtant que c'est toi qui as heurté la\nprincesse.",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Chancellor: Having subdued the Princess,\nthe defendant then coerced her into visiting \n{LUCCA}'s little sideshow. There were countless\nwitnesses to this.{WAIT_KEY}\nShortly thereafter, both the Princess and\nthe defendant vanished. If that is not\ncriminal abduction, I don't know what is.",
+    "original_fr": "Chancelier : Ensuite, tu as emmené la princesse assister\nau spectacle de {LUCCA} et de son père.{WAIT_KEY}\nPlusieurs personnes peuvent en témoigner.{WAIT_KEY}\nC'est {TAG:3C} ce moment que vous avez tous les deux\ndisparu... Si cela ne constitue pas un enlèvement,\nqu'est-ce donc ?",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "Chancellor: Several other acts have also\nbeen brought to my attention that call the\ndefendant's character into question.",
+    "original_fr": "Chancelier : J'ai en ma possession plusieurs faits qui\nmettent en cause l'intégrité de l'accusé.",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Pierre: Objection!{WAIT_KEY}\nThis cannot possibly have any relevance to the case!",
+    "original_fr": "Pierre : Objection !{WAIT_KEY}\nCela a-t-il un rapport avec notre affaire ? Non.",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Judge: Care to respond, Chancellor?",
+    "original_fr": "Juge : Cela concerne-t-il ce procès, chancelier ?",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "Chancellor: {CRONO}'s character is at the very core\nof this case, Your Honor. This evidence will show that\nhis testimony cannot be trusted.{WAIT_KEY}\nPierre: Very well. We have nothing to hide.",
+    "original_fr": "Chancelier : Oui. Il est indispensable de faire conna¡tre\nle caractère de l'accusé pour démontrer la {TAG:64} justesse {TAG:65}\nde son témoignage.{WAIT_KEY}\nPierre : Très bien.",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Pierre: I would like to call a witness who can\nvouch for the defendant's good character.",
+    "original_fr": "Pierre : Alors, appelons un témoin qui pourra attester la\nbienveillance de l'accusé.",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "That man brought me my kitty back.",
+    "original_fr": "Ce monsieur... Il m'a ramené mon chat.",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Thank you, mister!",
+    "original_fr": "Merci encore !",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Pierre: How about that?\nThe man before you is a fine, upstanding youth.\nHe deserves to be honored, not put on trial!",
+    "original_fr": "Pierre : Alors ? Que dites-vous de sa conduite ?\nDigne d'une médaille !",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Pierre: Whew...\nLooks like they're buying it.",
+    "original_fr": "Pierre : Hé hé, voil{TAG:3C} qui devrait les convaincre.",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Chancellor: The defendant's coldhearted nature\nis irrefutable.",
+    "original_fr": "Chancelier : La cruauté de l'accusé est évidente.",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Chancellor: You remember this child, don't you?\nA poor little girl who'd lost her cat...\nYou wouldn't even listen to her cries!",
+    "original_fr": "Chancelier : Te souviens-tu d'elle ? Tu as refusé d'aider\ncette petite fille {TAG:3C} retrouver son chat !",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "I remember. You ignored me!",
+    "original_fr": "Tu m'as ignorée.",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Chancellor: There, there, you poor little dear!\nI know it must be a painful memory to recall.\nYou may run along now.",
+    "original_fr": "Chancelier : Oh... La pauvre... Je te remercie.",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Chancellor: I think the people have seen enough.",
+    "original_fr": "Chancelier : Aucune autre explication n'est nécessaire.",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Chancellor: Have you ever stolen anything?\n{TAG:38}{TAG:38}{GLYPH:394}I have.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No, never!{GLYPH:397}",
+    "original_fr": "Chancelier : As-tu déj{TAG:3C} commis un vol ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Chancellor: See! He admits it.\nThis man clearly lacks morals.",
+    "original_fr": "Chancelier : Ah, vous voyez ! La moralité lui fait défaut.\nC'est un fait généralement reconnu. îcoutez donc ce\ntémoignage poignant !",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "Chancellor: Do not feign innocence!\nWe have a witness.",
+    "original_fr": "Chancelier : Ne fais pas l'ignorant ! Un témoin t'a\naperçu !",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "That's him! That's the thief who ate my lunch!\nRight off the table, too! My dear wife worked\nall morning to make that meal for me.",
+    "original_fr": "Il a mangé mon précieux panier-repas ! Celui que mamie\nm'avait si tendrement préparé !",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "Chancellor: Stealing from a helpless, hard-working\ncitizen who only wished to enjoy the fair...\nHow could anyone sympathize with such a ruffian?",
+    "original_fr": "Chancelier : L'accusé est un jeune homme sans\nscrupules qui prive un vieil homme de ses simples\net modestes plaisirs.{WAIT_KEY}\nOn ne peut avoir de la compassion pour lui.",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "Pierre: The real issue here is motive.\nWas there any motive for this good\nyouth to kidnap Princess Nadia?\nNo! There was none.",
+    "original_fr": "Pierre : Le problème demeure une question de motif.\nL'accusé avait-il une raison d'enlever la princesse ?\nNon.",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "Chancellor: Pardon me, but I believe the motive\nwas quite clear: greed.{WAIT_KEY}\nHer fortune did tempt you, did it not,\n{CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}No.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Yes.{GLYPH:397}",
+    "original_fr": "Chancelier : Désolé de vous contredire, mais...\nEt si le motif était sa fortune ?{WAIT_KEY}\nTu en voulais {TAG:3C} ses richesses, n'est-ce pas,\n{CRONO} ?\n       {GLYPH:394}Non{GLYPH:395}\n       {GLYPH:396}Oui{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "Chancellor: He does not deny it.",
+    "original_fr": "Chancelier : Tu l'avoues donc franchement.",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "Chancellor: Nothing more, Your Honor.\nThe prosecution rests.",
+    "original_fr": "Chancelier : Je n'ai plus rien {TAG:3C} ajouter, Votre Honneur.\nJ'attends votre verdict.",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "Chancellor: Are you sure?\nYou weren't in the least bit tempted?\n{TAG:38}{TAG:38}{GLYPH:394}Not at all.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Just a bit.{GLYPH:397}",
+    "original_fr": "Chancelier : Alors, sa fortune ne t'intéresse vraiment\npas du tout ?\n       {GLYPH:394}Pas du tout{GLYPH:395}\n       {GLYPH:396}Un peu{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "Chancellor: Very well.\nNo more questions, Your Honor.{WAIT_KEY}\nPierre: I believe it has been made quite\nevident that my client is a fine and virtuous\nyoung man. The defense rests, Your Honor.",
+    "original_fr": "Chancelier : Hum, bien. Je n'ai pas d'autre question.{WAIT_KEY}\nPierre : Comme vous pouvez le constater, l'accusé\nest un jeune homme d'une probité irréfutable.\nJ'attends votre verdict, Votre Honneur.",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "Chancellor: Good people, please remember\nthat the defendant claims he had no interest\nwhatsoever in the Princess's wealth.{WAIT_KEY}\nAllow me to introduce our next witness.",
+    "original_fr": "Chancelier : Gardez ces paroles {TAG:3C} l'esprit ! L'accusé\nprétend que la fortune de la princesse ne l'intéresse\npas.{WAIT_KEY}\nLaissez-moi vous présenter mon prochain témoin !",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "I saw it with my own eyes!",
+    "original_fr": "J'ai tout vu !",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "Dear me!\nI'm so nervous!",
+    "original_fr": "Ah, je suis si nerveuse tout {TAG:3C} coup !",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "That man grabbed the pendant right after he\nbumped into the Princess—before he even\nchecked to see if she was okay!",
+    "original_fr": "Quand il a bousculé la princesse, il est d'abord allé\nramasser le pendentif. C'était plus important pour\nlui que de se soucier de la princesse...",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "The Princess asked him to return her pendant,\nbut he refused.",
+    "original_fr": "De plus, il n'avait pas l'air de vouloir le lui rendre.",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "He tried to sell it to a merchant named Melchior.",
+    "original_fr": "Il a essayé de le vendre {TAG:3C} Bosch, le marchand.",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "Chancellor: And this citizen's final piece\nof testimony should eliminate any lingering\ntraces of doubt.",
+    "original_fr": "Chancelier : C'est avec un témoignage décisif que je\nconclurai mon réquisitoire.",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "I heard it from the Princess's own lips,\nclear as could be!",
+    "original_fr": "J'ai clairement entendu ces paroles de la bouche de la\nprincesse, de mes propres oreilles ! Elle a dit...",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "Oh, is that all?\nI can go now?\nGoodbye, everyone!",
+    "original_fr": "Ah, c'est tout ? Au revoir.",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "Judge: Members of the jury, it is time for a verdict.\nIf you believe the defendant guilty, stand to the left.\nInnocent, to the right.",
+    "original_fr": "Juge : Messieurs les jurés, si vous pensez que l'accusé\nest coupable, placez-vous {TAG:3C} gauche. Si vous le croyez\nau contraire innocent, placez-vous {TAG:3C} droite.",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "Guilty.",
+    "original_fr": "Coupable.",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "Not guilty.",
+    "original_fr": "Innocent.",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "Order in the court!",
+    "original_fr": "Silence ! Silence !",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "A verdict has been reached!",
+    "original_fr": "Voici le verdict !",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "It is unanimous!",
+    "original_fr": "Il est unanime !",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "The defendant has been found guilty as charged.\nHe is to be placed in solitary confinement for\na period of three days, after which he will be\nexecuted for his crime.",
+    "original_fr": "L'accusé est déclaré coupable !{WAIT_KEY}\nEmmenez-le immédiatement dans sa cellule. Il sera\nexécuté dans trois jours.",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "The defendant has been found not guilty!{WAIT_KEY}\nBut even if he did not kidnap the Princess,\nthe fact remains that he aided in her flight\nfrom the castle.{WAIT_KEY}\nI sentence the accused to three days of\nsolitary confinement as punishment.",
+    "original_fr": "L'accusé est déclaré innocent !{WAIT_KEY}\nCependant... Bien qu'il n'ait pas eu l'intention d'enlever\nla princesse, il est vrai qu'il était avec elle pendant un\ncertain temps.{WAIT_KEY}\nPour l'inciter {TAG:3C} réfléchir {TAG:3C} la gravité de ses actes, je le\ncondamne {TAG:3C} passer trois jours en prison !",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "Chancellor: Take him away!",
+    "original_fr": "Chancelier : Emmenez-le !",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "{MARLE}: Stop!{WAIT_KEY}\nChancellor: P-Princess Nadia!",
+    "original_fr": "{MARLE} : Attendez !!{WAIT_KEY}\nChancelier : Votre Altesse...!",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "King: That's quite enough, young lady!",
+    "original_fr": "Roi de Gardia : Ça suffit, Marledia !",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "{MARLE}: But, Father—!{WAIT_KEY}\nKing: All I asked was for you to remain at the castle\nand behave like a princess.{WAIT_KEY}\nWhat's done is done.\nEven royalty must obey the laws of the land.{WAIT_KEY}\nLeave the rest up to the Chancellor and forget\nabout your little escapade in town.",
+    "original_fr": "{MARLE} : Père ! îcoute-moi !{WAIT_KEY}\nRoi de Gardia : Je ne te demande que de rester\nsagement au ch{TAG:4A}teau, comme une princesse doit\nle faire.{WAIT_KEY}\nMême le roi et la princesse doivent obéir aux lois du\nroyaume... Laisse le chancelier s'occuper du reste.{WAIT_KEY}\nOublie ce qui s'est passé {TAG:3C} la foire, Marledia.",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "King: We are through here!",
+    "original_fr": "Roi de Gardia : Partons !",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "{MARLE}: {CRONO}!",
+    "original_fr": "{MARLE} : {CRONO} !!",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "Aaagh!",
+    "original_fr": "Aaah !",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "Boy: This is a terrible place!\nY-you'd best run away while you can!",
+    "original_fr": "Garçon : Cet endroit est terrible ! C'est trop dangereux !\nFichez le camp ! Fuyez !",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "The Badge...\nThe Hero's...Badge.",
+    "original_fr": "La médaille...\n...\nLa médaille... du héros...",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "{FROG}: The Masamune, if you please.",
+    "original_fr": "{FROG} : Donne-moi Grandléon.",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "{FROG}: My name is Glenn!\nLong have I carried Cyrus's hopes and dreams,\nand now I bear the Masamune as well!",
+    "original_fr": "{FROG} : Mon nom est Glenn ! Aujourd'hui, en cet\nendroit, je prends {TAG:3C} ma charge les rêves et les\naspirations de Cyrus, ainsi que Grandléon...",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "{FROG}: Henceforth, I claim them as my own!\nI shall slay the Fiendlord {MAGUS} and restore our\nhonor!",
+    "original_fr": "{FROG} : Je me vengerai de {MAGUS} !",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "{GLYPH:384}\nA message is scrawled in blood here.{WAIT_KEY}{GLYPH:384}\n\"Beware the jugglers in the Fiendlord's keep!\nStrike them, and they tighten their defense\nagainst blows. Cast spells upon them, and they\nstrengthen their defense against magic.\"",
+    "original_fr": "{GLYPH:384}\nIl a écrit un message avec son propre sang...{WAIT_KEY}\n{TAG:64} Les jongleurs du palais du Magistère deviennent\nplus résistants {TAG:3C} chaque coup qu'on leur porte... {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "{FROG}: Could it be that you wield magic?\nI thought only fiends could employ it now.",
+    "original_fr": "{FROG} : Est-ce de la magie que vous utilisez ?\nJ'avais entendu dire que seuls les mystiques en\nconnaissaient encore les secrets...",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "You might be able to learn it, too, if you\nvisit the End of Time.",
+    "original_fr": "Si tu vas {TAG:3C} la Fin des temps, tu pourras peut-être\napprendre {TAG:3C} l'utiliser, toi aussi.",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "{ROBO}: If you travel to the End of Time,\nyou may also be able to gain the use of magic.",
+    "original_fr": "{ROBO} : Si tu vas {TAG:3C} la Fin des temps, tu pourras\npeut-être apprendre {TAG:3C} l'utiliser, toi aussi.",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

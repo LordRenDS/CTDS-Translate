@@ -1,0 +1,644 @@
+[
+  {
+    "id": 0,
+    "original_en": "0123456789",
+    "original_fr": "0123456789",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "original_fr": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "abcdefghijklmnopqrstuvwxyz",
+    "original_fr": "abcdefghijklmnopqrstuvwxyz",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "ÔÙÛŒËÏÜ…¡¿°™©®♀♂♪★{TAG:76}{TAG:77}{TAG:78}{TAG:79}{TAG:7A}{TAG:7B}{TAG:7C}{TAG:7D}{TAG:7E}{TAG:7F}{GLYPH:128}{GLYPH:129}{GLYPH:130}{GLYPH:131}{GLYPH:132}{GLYPH:133}{GLYPH:134}{GLYPH:135}{GLYPH:136}{GLYPH:137}{GLYPH:138}{GLYPH:139}{GLYPH:140}{GLYPH:141}{GLYPH:142}{GLYPH:143}{GLYPH:144}{GLYPH:145}{GLYPH:146}{GLYPH:147}{GLYPH:148}{GLYPH:149}{GLYPH:150}{GLYPH:151}{GLYPH:152}{GLYPH:153}{GLYPH:154}{GLYPH:155}{GLYPH:156}{GLYPH:157}{GLYPH:158}{GLYPH:159}{GLYPH:160}{GLYPH:161}{GLYPH:162}{GLYPH:163}{GLYPH:164}{GLYPH:165}{GLYPH:166}{GLYPH:167}{GLYPH:168}{GLYPH:169}{GLYPH:170}{GLYPH:171}{GLYPH:172}{GLYPH:173}{GLYPH:174}{GLYPH:175}{GLYPH:176}{GLYPH:177}{GLYPH:178}{GLYPH:179}{GLYPH:180}{GLYPH:181}{GLYPH:182}",
+    "original_fr": "ÔÙÛŒËÏÜ…¡¿°™©®♀♂♪★{TAG:76}{TAG:77}{TAG:78}{TAG:79}{TAG:7A}{TAG:7B}{TAG:7C}{TAG:7D}{TAG:7E}{TAG:7F}{GLYPH:128}{GLYPH:129}{GLYPH:130}{GLYPH:131}{GLYPH:132}{GLYPH:133}{GLYPH:134}{GLYPH:135}{GLYPH:136}{GLYPH:137}{GLYPH:138}{GLYPH:139}{GLYPH:140}{GLYPH:141}{GLYPH:142}{GLYPH:143}{GLYPH:144}{GLYPH:145}{GLYPH:146}{GLYPH:147}{GLYPH:148}{GLYPH:149}{GLYPH:150}{GLYPH:151}{GLYPH:152}{GLYPH:153}{GLYPH:154}{GLYPH:155}{GLYPH:156}{GLYPH:157}{GLYPH:158}{GLYPH:159}{GLYPH:160}{GLYPH:161}{GLYPH:162}{GLYPH:163}{GLYPH:164}{GLYPH:165}{GLYPH:166}{GLYPH:167}{GLYPH:168}{GLYPH:169}{GLYPH:170}{GLYPH:171}{GLYPH:172}{GLYPH:173}{GLYPH:174}{GLYPH:175}{GLYPH:176}{GLYPH:177}{GLYPH:178}{GLYPH:179}{GLYPH:180}{GLYPH:181}{GLYPH:182}",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{GLYPH:183}{GLYPH:184}{GLYPH:185}{GLYPH:186}{GLYPH:187}{GLYPH:188}{GLYPH:189}{GLYPH:190}{GLYPH:191}{GLYPH:192}{GLYPH:193}{GLYPH:194}{GLYPH:195}{GLYPH:196}{GLYPH:197}{GLYPH:198}{GLYPH:199}{GLYPH:200}{GLYPH:201}{GLYPH:202}{GLYPH:203}{GLYPH:204}{GLYPH:205}{GLYPH:206}{GLYPH:207}{GLYPH:208}{GLYPH:209}{GLYPH:210}{GLYPH:211}{GLYPH:212}{GLYPH:213}{GLYPH:214}{GLYPH:215}{GLYPH:216}{GLYPH:217}{GLYPH:218}{GLYPH:219}{GLYPH:220}{GLYPH:221}{GLYPH:222}{GLYPH:223}{GLYPH:224}{GLYPH:225}{GLYPH:226}{GLYPH:227}{GLYPH:228}{GLYPH:229}{GLYPH:230}{GLYPH:231}{GLYPH:232}{GLYPH:233}{GLYPH:234}{GLYPH:235}{GLYPH:236}{GLYPH:237}{GLYPH:238}{GLYPH:239}{GLYPH:240}{GLYPH:241}{GLYPH:242}{GLYPH:243}{GLYPH:244}{GLYPH:245}{GLYPH:246}{GLYPH:247}{GLYPH:248}{GLYPH:249}{GLYPH:250}{GLYPH:251}{GLYPH:252}{GLYPH:253}{GLYPH:254}{GLYPH:255}{GLYPH:256}{GLYPH:257}{GLYPH:258}{GLYPH:259}{GLYPH:260}{GLYPH:261}{GLYPH:262}{GLYPH:263}{GLYPH:264}{GLYPH:265}{GLYPH:266}{GLYPH:267}{GLYPH:268}{GLYPH:269}",
+    "original_fr": "{GLYPH:183}{GLYPH:184}{GLYPH:185}{GLYPH:186}{GLYPH:187}{GLYPH:188}{GLYPH:189}{GLYPH:190}{GLYPH:191}{GLYPH:192}{GLYPH:193}{GLYPH:194}{GLYPH:195}{GLYPH:196}{GLYPH:197}{GLYPH:198}{GLYPH:199}{GLYPH:200}{GLYPH:201}{GLYPH:202}{GLYPH:203}{GLYPH:204}{GLYPH:205}{GLYPH:206}{GLYPH:207}{GLYPH:208}{GLYPH:209}{GLYPH:210}{GLYPH:211}{GLYPH:212}{GLYPH:213}{GLYPH:214}{GLYPH:215}{GLYPH:216}{GLYPH:217}{GLYPH:218}{GLYPH:219}{GLYPH:220}{GLYPH:221}{GLYPH:222}{GLYPH:223}{GLYPH:224}{GLYPH:225}{GLYPH:226}{GLYPH:227}{GLYPH:228}{GLYPH:229}{GLYPH:230}{GLYPH:231}{GLYPH:232}{GLYPH:233}{GLYPH:234}{GLYPH:235}{GLYPH:236}{GLYPH:237}{GLYPH:238}{GLYPH:239}{GLYPH:240}{GLYPH:241}{GLYPH:242}{GLYPH:243}{GLYPH:244}{GLYPH:245}{GLYPH:246}{GLYPH:247}{GLYPH:248}{GLYPH:249}{GLYPH:250}{GLYPH:251}{GLYPH:252}{GLYPH:253}{GLYPH:254}{GLYPH:255}{GLYPH:256}{GLYPH:257}{GLYPH:258}{GLYPH:259}{GLYPH:260}{GLYPH:261}{GLYPH:262}{GLYPH:263}{GLYPH:264}{GLYPH:265}{GLYPH:266}{GLYPH:267}{GLYPH:268}{GLYPH:269}",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{GLYPH:270}!?/&'.{GLYPH:271}{GLYPH:272}() -{GLYPH:273}",
+    "original_fr": "{GLYPH:270}!?/&'.{GLYPH:271}{GLYPH:272}() -{GLYPH:273}",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{GLYPH:274}{GLYPH:275}{GLYPH:276}{GLYPH:277}È{GLYPH:278}Ç{GLYPH:279}ç{GLYPH:280}{GLYPH:281}{GLYPH:282}{GLYPH:283}{GLYPH:284}{GLYPH:285}{GLYPH:286}{GLYPH:287}{GLYPH:288}{GLYPH:289}{GLYPH:290}{GLYPH:291}{GLYPH:292}{GLYPH:293}{GLYPH:294}{GLYPH:295}ô{GLYPH:296}»{GLYPH:297}«êèù{GLYPH:298}{GLYPH:299}{GLYPH:300}ëÉ{GLYPH:301}{GLYPH:302}{GLYPH:303}üÊ{GLYPH:304}{GLYPH:305}À{GLYPH:306}ûï",
+    "original_fr": "{GLYPH:274}{GLYPH:275}{GLYPH:276}{GLYPH:277}È{GLYPH:278}Ç{GLYPH:279}ç{GLYPH:280}{GLYPH:281}{GLYPH:282}{GLYPH:283}{GLYPH:284}{GLYPH:285}{GLYPH:286}{GLYPH:287}{GLYPH:288}{GLYPH:289}{GLYPH:290}{GLYPH:291}{GLYPH:292}{GLYPH:293}{GLYPH:294}{GLYPH:295}ô{GLYPH:296}»{GLYPH:297}«êèù{GLYPH:298}{GLYPH:299}{GLYPH:300}ëÉ{GLYPH:301}{GLYPH:302}{GLYPH:303}üÊ{GLYPH:304}{GLYPH:305}À{GLYPH:306}ûï",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Back",
+    "original_fr": "Retour",
+    "translation": "Назад"
+  },
+  {
+    "id": 8,
+    "original_en": "Accept",
+    "original_fr": "Confirmer",
+    "translation": "Принять"
+  },
+  {
+    "id": 9,
+    "original_en": "{LUCCA}\nObtained {ROBO}!",
+    "original_fr": "{LUCCA}\nObtenu : {ROBO} !",
+    "translation": "{LUCCA}\nПолучено {ROBO}!"
+  },
+  {
+    "id": 10,
+    "original_en": "{LUCCA}\nIt's empty!",
+    "original_fr": "{LUCCA}\nIl est vide !",
+    "translation": "{LUCCA}\nПусто!"
+  },
+  {
+    "id": 11,
+    "original_en": "{LUCCA}\nObtained {GLYPH:360} G!",
+    "original_fr": "{LUCCA}\nObtenu : {GLYPH:360} G !",
+    "translation": "{LUCCA}\nПолучено {GLYPH:360} G!"
+  },
+  {
+    "id": 12,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

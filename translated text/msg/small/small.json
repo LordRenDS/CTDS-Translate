@@ -1,0 +1,290 @@
+[
+  {
+    "id": 0,
+    "original_en": "/",
+    "original_fr": "/",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "+",
+    "original_fr": "+",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "-",
+    "original_fr": "-",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "DS",
+    "original_fr": "DS",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "CLASSIC",
+    "original_fr": "CLASSIQUE",
+    "translation": "КЛАССИКА"
+  },
+  {
+    "id": 5,
+    "original_en": "ACTIVE",
+    "original_fr": "ACTIF",
+    "translation": "АКТИВНЫЙ"
+  },
+  {
+    "id": 6,
+    "original_en": "WAIT",
+    "original_fr": "SEMI-ACTIF",
+    "translation": "ОЖИДАНИЕ"
+  },
+  {
+    "id": 7,
+    "original_en": "ON",
+    "original_fr": "OUI",
+    "translation": "ВКЛ"
+  },
+  {
+    "id": 8,
+    "original_en": "OFF",
+    "original_fr": "NON",
+    "translation": "ВЫКЛ"
+  },
+  {
+    "id": 9,
+    "original_en": "FULL",
+    "original_fr": "TOUT",
+    "translation": "ПОЛНЫЙ"
+  },
+  {
+    "id": 10,
+    "original_en": "ACTIONS",
+    "original_fr": "ACTIONS",
+    "translation": "ДЕЙСТВИЯ"
+  },
+  {
+    "id": 11,
+    "original_en": "COMMANDS",
+    "original_fr": "COMMANDES",
+    "translation": "КОМАНДЫ"
+  },
+  {
+    "id": 12,
+    "original_en": "TYPE A",
+    "original_fr": "TYPE A",
+    "translation": "ТИП A"
+  },
+  {
+    "id": 13,
+    "original_en": "TYPE B",
+    "original_fr": "TYPE B",
+    "translation": "ТИП B"
+  },
+  {
+    "id": 14,
+    "original_en": "TYPE C",
+    "original_fr": "TYPE C",
+    "translation": "ТИП C"
+  },
+  {
+    "id": 15,
+    "original_en": "CUSTOM",
+    "original_fr": "MODIFIçS",
+    "translation": "ВРУЧНУЮ"
+  },
+  {
+    "id": 16,
+    "original_en": "DEFAULT",
+    "original_fr": "NORMAUX",
+    "translation": "ПО УМОЛЧАНИЮ"
+  },
+  {
+    "id": 17,
+    "original_en": "JPN",
+    "original_fr": "ENG",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "ENG",
+    "original_fr": "FRA",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "JAPANESE",
+    "original_fr": "ENGLISH",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "ENGLISH",
+    "original_fr": "FRANÇAIS",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": " ",
+    "original_fr": "{GLYPH:339}",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "/",
+    "original_fr": "/",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": ":",
+    "original_fr": ":",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "G",
+    "original_fr": "G",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "TIME",
+    "original_fr": "TEMPS",
+    "translation": "ВРЕМЯ"
+  },
+  {
+    "id": 26,
+    "original_en": "àà",
+    "original_fr": "àà",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "65,000,000 B.C.",
+    "original_fr": "An -65 000 000",
+    "translation": "65,000,000 ДО Н.Э."
+  },
+  {
+    "id": 28,
+    "original_en": "12,000 B.C.",
+    "original_fr": "An -12 000",
+    "translation": "12,000 ДО Н.Э."
+  },
+  {
+    "id": 29,
+    "original_en": "600 A.D.",
+    "original_fr": "An 600",
+    "translation": "600 Н.Э."
+  },
+  {
+    "id": 30,
+    "original_en": "1000 A.D.",
+    "original_fr": "An 1000",
+    "translation": "1000 Н.Э."
+  },
+  {
+    "id": 31,
+    "original_en": "1999 A.D.",
+    "original_fr": "An 1999",
+    "translation": "1999 Н.Э."
+  },
+  {
+    "id": 32,
+    "original_en": "2300 A.D.",
+    "original_fr": "An 2300",
+    "translation": "2300 Н.Э."
+  },
+  {
+    "id": 33,
+    "original_en": "WALK",
+    "original_fr": "MARCHER",
+    "translation": "ХОДЬБА"
+  },
+  {
+    "id": 34,
+    "original_en": "RUN",
+    "original_fr": "COURIR",
+    "translation": "БЕГ"
+  },
+  {
+    "id": 35,
+    "original_en": "BOSS",
+    "original_fr": "BOSS",
+    "translation": "БОСС"
+  },
+  {
+    "id": 36,
+    "original_en": "???",
+    "original_fr": "???",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "---",
+    "original_fr": "---",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "(",
+    "original_fr": "(",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": ")",
+    "original_fr": ")",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "1 (FASTEST)",
+    "original_fr": "1 RAPIDE",
+    "translation": "1 (БЫСТРЕЕ ВСЕГО)"
+  },
+  {
+    "id": 41,
+    "original_en": "2 (VERY FAST)",
+    "original_fr": "2",
+    "translation": "2 (ОЧЕНЬ БЫСТРО)"
+  },
+  {
+    "id": 42,
+    "original_en": "3 (FAST)",
+    "original_fr": "3",
+    "translation": "3 (БЫСТРО)"
+  },
+  {
+    "id": 43,
+    "original_en": "4 (MODERATE)",
+    "original_fr": "4",
+    "translation": "4 (УМЕРЕННО)"
+  },
+  {
+    "id": 44,
+    "original_en": "5 (NORMAL)",
+    "original_fr": "5",
+    "translation": "5 (НОРМАЛЬНО)"
+  },
+  {
+    "id": 45,
+    "original_en": "6 (SLOW)",
+    "original_fr": "6",
+    "translation": "6 (МЕДЛЕННО)"
+  },
+  {
+    "id": 46,
+    "original_en": "7 (VERY SLOW)",
+    "original_fr": "7",
+    "translation": "7 (ОЧЕНЬ МЕДЛЕННО)"
+  },
+  {
+    "id": 47,
+    "original_en": "8 (SLOWEST)",
+    "original_fr": "8 LENTE",
+    "translation": "8 (МЕДЛЕННЕЕ ВСЕГО)"
+  }
+]

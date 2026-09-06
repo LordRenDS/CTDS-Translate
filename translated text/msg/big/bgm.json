@@ -1,0 +1,416 @@
+[
+  {
+    "id": 0,
+    "original_en": "A Premonition",
+    "original_fr": "Pressentiment",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Chrono Trigger",
+    "original_fr": "Chrono Trigger",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Morning Glow",
+    "original_fr": "Lueur matinale",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Peaceful Days",
+    "original_fr": "Jours paisibles",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Green Memories",
+    "original_fr": "Souvenirs verts",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Guardia's Millennial Fair",
+    "original_fr": "Foire millénaire de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Gato's Song",
+    "original_fr": "Chanson de Gonzales",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Strange Occurrences",
+    "original_fr": "îvénements étranges",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Yearnings of the Wind",
+    "original_fr": "Les aspirations du vent",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Good Night",
+    "original_fr": "Bonne nuit",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Secret of the Forest",
+    "original_fr": "Mystère sylvestre",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Battle",
+    "original_fr": "Combat",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Guardia Castle - Pride & Glory",
+    "original_fr": "Gardia - Courage et gloire",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Huh!?",
+    "original_fr": "Hein ?!",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "The Cathedral",
+    "original_fr": "Abbaye de Manolia",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "A Prayer for the Wayfarer",
+    "original_fr": "Prière aux aventuriers",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Light of Silence",
+    "original_fr": "L'éclat du silence",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Boss Battle 1",
+    "original_fr": "Combat important nÎ 1",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Frog's Theme",
+    "original_fr": "Thème de Gren",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Fanfare 1",
+    "original_fr": "Fanfare nÎ 1",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "The Trial",
+    "original_fr": "Le procès royal",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "The Hidden Truth",
+    "original_fr": "Vérité cachée",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Critical Moment",
+    "original_fr": "Situation critique",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "A Desolate World",
+    "original_fr": "Monde ravagé",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Mystery from the Past",
+    "original_fr": "Mystère du passé",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Site 16",
+    "original_fr": "Ruines nÎ 16",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Those Without the Will to Live",
+    "original_fr": "Les sans-espoir",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Lavos's Theme",
+    "original_fr": "Thème de Lavos",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "The Last Day of the World",
+    "original_fr": "Fin du monde",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Johnny of the Robo Gang ",
+    "original_fr": "Johnny et les robots bikers",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Bike Chase",
+    "original_fr": "Course {TAG:3C} moto",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Robo's Theme",
+    "original_fr": "Thème de RoBo",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Derelict Factory",
+    "original_fr": "L'usine désaffectée",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Battle 2",
+    "original_fr": "Combat nÎ 2",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Fanfare 2",
+    "original_fr": "Fanfare nÎ 2",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "At the End of Time",
+    "original_fr": "Fin des temps",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Jolly Ol' Spekkio",
+    "original_fr": "Joyeux Specchio",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Fanfare 3",
+    "original_fr": "Fanfare nÎ 3",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Creeping through the Sewers",
+    "original_fr": "îgouts",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Boss Battle 2",
+    "original_fr": "Combat important nÎ 2",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Primeval Mountain",
+    "original_fr": "Mont primitif",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Ayla's Theme",
+    "original_fr": "Thème d'Ayla",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Rhythm of Earth, Wind, and Sky",
+    "original_fr": "Vent, ciel et terre",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Burn! Bobonga! Burn!",
+    "original_fr": "La fièvre du bobonga !",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "The Fiendlord's Keep",
+    "original_fr": "Palais du Magistère",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Strains of Insanity",
+    "original_fr": "Les échos de la démence",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Magus Confronted",
+    "original_fr": "Combat contre Magus",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Singing Mountain",
+    "original_fr": "Mont chantant",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Tyranno Lair",
+    "original_fr": "Fort Tyrannos",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Depths of the Night",
+    "original_fr": "Au plus profond de la nuit",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Corridor of Time",
+    "original_fr": "Les couloirs du temps",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Zeal Palace",
+    "original_fr": "Palais de Zhyle",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Schala's Theme",
+    "original_fr": "Thème de Sarah",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Sealed Door",
+    "original_fr": "La porte scellée",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Ocean Palace",
+    "original_fr": "Sanctuaire sous-marin",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Crono & Marle - A Distant Promise",
+    "original_fr": "Chrono et Marle - Serment lointain",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "The Epoch - Wings of Time",
+    "original_fr": "Ibis - Les ailes du temps",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Black Omen",
+    "original_fr": "Songe obscur",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Determination",
+    "original_fr": "Détermination",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "World Revolution",
+    "original_fr": "Changer le monde",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "The Final Battle",
+    "original_fr": "L'ultime combat",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Festival of Stars",
+    "original_fr": "Festival des étoiles",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Epilogue - To My Dear Friends",
+    "original_fr": "îpilogue - Â mes chers amis",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Outskirts of Time",
+    "original_fr": "Au-del{TAG:3C} des temps lointains",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Rat-a-tat-tat, it's...Mitsuda ",
+    "original_fr": "Mitsuda",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "One Sunny Day When We Met",
+    "original_fr": "Rencontre d'un jour ensoleillé",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Scattering Blossoms",
+    "original_fr": "Fleurs éparpillées",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "A Meeting with Destiny",
+    "original_fr": "Vers le destin",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Time to Rest - After the Battle",
+    "original_fr": "Calme - Au-del{TAG:3C} des sentiments",
+    "translation": ""
+  }
+]

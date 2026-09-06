@@ -1,0 +1,2972 @@
+[
+  {
+    "id": 0,
+    "original_en": "Crono's House\n1F",
+    "original_fr": "Maison de Chrono\nRDC",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Crono's House\n2F",
+    "original_fr": "Maison de Chrono\n1er étage",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Lucca's House\n1F Hall / 1F Room",
+    "original_fr": "Maison de Lucca\nRDC Corridor / RDC Salle",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Lucca's House\n1F Entrance",
+    "original_fr": "Maison de Lucca\nRDC Entrée",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Leene Square\nCentral Plaza",
+    "original_fr": "Place de Lynne\nCentre",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Leene Square\nGato",
+    "original_fr": "Place de Lynne\nGonzales",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Leene Square\nPrehistoric Dancers",
+    "original_fr": "Place de Lynne\nDanseurs préhistoriques",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Leene Square\nTelepod",
+    "original_fr": "Place de Lynne\nTéléporteur",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Lucca's House\n2F Lara's Room",
+    "original_fr": "Maison de Lucca\n1er étage Chambre de Lara",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Lucca's House\n2F Lucca's Room",
+    "original_fr": "Maison de Lucca\n1er étage Chambre de Lucca",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Truce\nInn",
+    "original_fr": "Truce\nAuberge",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Truce\nMayor's House 1F",
+    "original_fr": "Truce\nMaison du maire RDC",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Truce\nMayor's House 2F",
+    "original_fr": "Truce\nMaison du maire 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Truce\nResidence A",
+    "original_fr": "Truce\nRésidence A",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Truce\nResidence B",
+    "original_fr": "Truce\nRésidence B",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Truce\nMerchant",
+    "original_fr": "Truce\nMagasin",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Truce\nFerry Office",
+    "original_fr": "Truce\nGuichet du port",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Guardia Forest (Present)",
+    "original_fr": "Forêt de Gardia (Présent)",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Guardia Forest (Present)\nTime Gate",
+    "original_fr": "Forêt de Gardia (Présent)\nPortail",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Guardia Castle (Present)\nCentral Hall",
+    "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nGrande salle",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Guardia Castle (Present)\nKing's Bedroom",
+    "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nChambre du roi",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Guardia Castle (Present)\nQueen's Bedroom",
+    "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nChambre de la reine",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Guardia Castle (Present)\nDining Hall",
+    "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nSalle {TAG:3C} manger",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Guardia Castle (Present)\nSoldiers' Room",
+    "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nSalle des soldats",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Guardia Castle (Present)\nTreasury",
+    "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nTrésorerie",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Guardia Castle (Present)\nHall of Justice",
+    "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nTribunal",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Prison Towers\nSkywalk",
+    "original_fr": "Prison\nPasserelle",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Prison Towers\nGuardroom",
+    "original_fr": "Prison\nSalle des gardes",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Prison Towers\nExecution Chamber",
+    "original_fr": "Prison\nSalle d'exécution",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Medina\nTown Square",
+    "original_fr": "Médina\nPlace principale",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Zenan Bridge",
+    "original_fr": "Pont de Zénan",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Medina\nMayor's House 1F",
+    "original_fr": "Médina\nMaison du maire RDC",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Medina\nMayor's House 2F",
+    "original_fr": "Médina\nMaison du maire 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Medina\nInn",
+    "original_fr": "Médina\nAuberge",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Medina\nResidence",
+    "original_fr": "Médina\nRésidence",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Guardia Castle (?)\nCentral Hall",
+    "original_fr": "Ch{TAG:4A}teau de Gardia (?)\nGrande salle",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Medina\nMerchant",
+    "original_fr": "Médina\nMagasin",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Melchior's Cabin\n1F",
+    "original_fr": "Demeure de Bosch\nRDC",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Melchior's Cabin\nB1",
+    "original_fr": "Demeure de Bosch\nSS1",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Forest Ruins",
+    "original_fr": "Ruines sylvestres",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Cursed Woods",
+    "original_fr": "Forêt aux grenouilles",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Future Leene's Square?\nUsed for ending",
+    "original_fr": "Place de Lynne du Futur ?\nUtilisé dans une fin",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Future Denadoro Mts.?\nUsed for ending",
+    "original_fr": "Monts Dénadoro du Futur ?\nUtilisé dans une fin",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Magus's Keep\nUsed for ending",
+    "original_fr": "Palais du Magistère\nUtilisé dans une fin",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Heckran Cave",
+    "original_fr": "Grottes d'Héclan",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Heckran Cave\nEntrance",
+    "original_fr": "Grottes d'Héclan\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Heckran Cave",
+    "original_fr": "Grottes d'Héclan",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Porre\nMayor's Manor 1F",
+    "original_fr": "Palpori\nRésidence du maire RDC",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Porre\nMayor's Manor 2F",
+    "original_fr": "Palpori\nRésidence du maire 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Porre\nResidence",
+    "original_fr": "Palpori\nRésidence",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Porre\nSnail Stop",
+    "original_fr": "Palpori\nCafé de la conque",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Porre\nMarket",
+    "original_fr": "Palpori\nMagasin",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Porre\nInn",
+    "original_fr": "Palpori\nAuberge",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Porre\nFerry Office",
+    "original_fr": "Palpori\nGuichet du port",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Fiona's Shrine",
+    "original_fr": "Sanctuaire de Fiona",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Choras\nMayor's Manor 1F",
+    "original_fr": "Choras\nRésidence du maire RDC",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Choras\nMayor's Manor 1F",
+    "original_fr": "Choras\nRésidence du maire 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Magus's Keep\nUsed for ending?",
+    "original_fr": "Palais du Magistère\nUtilisé dans une fin?",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Choras\nResidence",
+    "original_fr": "Choras\nRésidence",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Choras\nInn (and tavern)",
+    "original_fr": "Choras\nAuberge et taverne",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "West Cape",
+    "original_fr": "Cap ouest",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Sun Shrine\nPresent?",
+    "original_fr": "Berceau de la lumière\nPrésent?",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Hero's Grave\nEntrance",
+    "original_fr": "Tombe du héros\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Hero's Grave\nB1",
+    "original_fr": "Tombe du héros\nSS1",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Hero's Grave\n2F",
+    "original_fr": "Tombe du héros\n1er étage",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Hero's Grave\n2F Hall",
+    "original_fr": "Tombe du héros\n1er étage Grande salle",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Hero's Grave\n2F Rear Passage",
+    "original_fr": "Tombe du héros\n1er étage Passage du fond",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Hero's Grave\n2F Rearmost Chamber",
+    "original_fr": "Tombe du héros\n1er étage Salle du fond",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Prison Towers\nPrison / Passage",
+    "original_fr": "Prison\nPrison / Passage",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Prison Towers\nPassage/Stairs to Exec. Chamber",
+    "original_fr": "Prison\nPassage / Escaliers menant {TAG:3C} la salle d'exécution",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Hero's Grave\nCyrus's Chamber",
+    "original_fr": "Tombe du héros\nSalle de Cyrus",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Prison Towers\nOuter Wall",
+    "original_fr": "Prison\nMur extérieur",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Guardia Castle\nUsed for ending",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nUtilisé dans une fin",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Leene Square\nCentral Plaza (Parade)",
+    "original_fr": "Place de Lynne\nCentre (Défilé)",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "Leene Square\nPlaza Rear (Parade)",
+    "original_fr": "Place de Lynne\nFond (Défilé)",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Forest Near Fiona's Shrine\nLucca's Gate",
+    "original_fr": "Forêt près du sanctuaire de Fiona\nPortail de Lucca",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "End of Time",
+    "original_fr": "Fin des temps",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Leene Square\nTelepod (Parade)",
+    "original_fr": "Place de Lynne\nTéléporteur (Défilé)",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "Death Peak?\n(Event)",
+    "original_fr": "Mont des défunts?\n(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Manolia Cathedral?\n(Event)",
+    "original_fr": "Abbaye de Manolia?\n(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Artwork\nUsed for ending",
+    "original_fr": "Illustration\nUtilisé dans une fin",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Zenan Bridge\n(Event)",
+    "original_fr": "Pont de Zénan\n(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Prison Towers?\nSkywalk (Event)",
+    "original_fr": "Prison?\nPasserelle (îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Black Omen\nLower Level 4 (Lavos Spawn)",
+    "original_fr": "Songe obscur\nNiveau plus profond 4 (Larve de Lavos)",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Black Omen\nLower Level (Warp 2)",
+    "original_fr": "Songe obscur\nNiveau inférieur (Téléporteur 1)",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Black Omen\nBottom Level (Warp 2)",
+    "original_fr": "Songe obscur\nProfondeurs (Téléporteur 2)",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Black Omen\nBottom Level (Elevator)",
+    "original_fr": "Songe obscur\nProfondeurs (Ascenseur)",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Black Omen\nBottom Level (Descending)",
+    "original_fr": "Songe obscur\nProfondeurs (Descente)",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Black Omen\nBottom Level (Ascending)",
+    "original_fr": "Songe obscur\nProfondeurs (Montée)",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Black Omen Exterior\n(Event)",
+    "original_fr": "Songe obscur Extérieur\n(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Giant's Claw",
+    "original_fr": "Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Giant's Claw",
+    "original_fr": "Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Giant's Claw",
+    "original_fr": "Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Mountains Behind Truce",
+    "original_fr": "Mont de Truce",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Mountains Behind Truce\nTime Gate",
+    "original_fr": "Mont de Truce\nPortail",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "Truce\nResidence 1",
+    "original_fr": "Truce\nRésidence 1",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Truce\nResidence 2 (Banta)",
+    "original_fr": "Truce\nRésidence 2 (Banta)",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Truce\nInn 1F",
+    "original_fr": "Truce\nAuberge RDC",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Truce\nInn 2F",
+    "original_fr": "Truce\nAuberge 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "Truce\nMarket",
+    "original_fr": "Truce\nMagasin",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "Guardia Forest",
+    "original_fr": "Forêt de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Guardia Castle\nMain Hall",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nGrande salle",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "Guardia Castle\nKing's Chamber",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nChambre du roi",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "Guardia Castle\nPrincess's Chamber",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nChambre de la princesse",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "Guardia Castle\nDining Hall",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nSalle {TAG:3C} manger",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Guardia Castle\nKnight's Room",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nSalle des chevaliers",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "Magus's Keep\nLong Passage",
+    "original_fr": "Palais du Magistère\nPassage long",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "Geno Dome\nConveyer Belt (Center)",
+    "original_fr": "Dôme de Génos\nTapis roulant (Centre)",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "Geno Dome\nElevator",
+    "original_fr": "Dôme de Génos\nAscenseur",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "Geno Dome\nOblong Passage",
+    "original_fr": "Dôme de Génos\nPassage étroit",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Manolia Cathedral\nChapel",
+    "original_fr": "Abbaye de Manolia\nChapelle",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "Manolia Cathedral\nMain Hall (Front)",
+    "original_fr": "Abbaye de Manolia\nSalle principale (Devant)",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Manolia Cathedral\nMain Hall (Rear)",
+    "original_fr": "Abbaye de Manolia\nSalle principale (Derrière)",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Manolia Cathedral\nIn Front of Yakra's Room",
+    "original_fr": "Abbaye de Manolia\nDevant la salle de Yakra",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "Zenan Bridge\nBroken Bridge",
+    "original_fr": "Pont de Zénan\nPont en ruine",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "Zenan Bridge\nFood Supply Event",
+    "original_fr": "Pont de Zénan\nRavitaillement",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "Zenan Bridge\nRepaired",
+    "original_fr": "Pont de Zénan\nRéparé",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Dorino\nResidence",
+    "original_fr": "San Dorino\nRésidence",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Dorino\nElder's House",
+    "original_fr": "San Dorino\nMaison du maire",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Dorino\nInn",
+    "original_fr": "San Dorino\nAuberge",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "Dorino\nMarket",
+    "original_fr": "San Dorino\nMagasin",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "Cursed Woods",
+    "original_fr": "Forêt aux grenouilles",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Cursed Woods\nFrog's Hideaway",
+    "original_fr": "Forêt aux grenouilles\nRefuge de Gren",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "Denadoro Mountains\nMap 1",
+    "original_fr": "Monts Dénadoro\nCarte 1",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "Denadoro Mountains\nMap 2",
+    "original_fr": "Monts Dénadoro\nCarte 2",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "Denadoro Mountains\nMap 3",
+    "original_fr": "Monts Dénadoro\nCarte 3",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Denadoro Mountains\nMap 4",
+    "original_fr": "Monts Dénadoro\nCarte 4",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "Denadoro Mountains\nMap 5",
+    "original_fr": "Monts Dénadoro\nCarte 5",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Denadoro Mountains\nMap 6",
+    "original_fr": "Monts Dénadoro\nCarte 6",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Denadoro Mountains\nMap 7",
+    "original_fr": "Monts Dénadoro\nCarte 7",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "Denadoro Mountains\nMap 8",
+    "original_fr": "Monts Dénadoro\nCarte 8",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Denadoro Mountains\nMap 9",
+    "original_fr": "Monts Dénadoro\nCarte 9",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "Denadoro Mountains\nMasa / Mune's Room",
+    "original_fr": "Monts Dénadoro\nSalle de Gran et Léon",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Tata's House\n1F",
+    "original_fr": "Maison de Tarta\nRDC",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Tata's House\n2F",
+    "original_fr": "Maison de Tarta\n1er étage",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Porre\nElder's House",
+    "original_fr": "Palpori\nMaison du maire",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Porre\nTavern",
+    "original_fr": "Palpori\nTaverne",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Porre\nInn",
+    "original_fr": "Palpori\nAuberge",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Porre\nMarket",
+    "original_fr": "Palpori\nMagasin",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Fiona's Villa",
+    "original_fr": "Demeure de Fiona",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Sunken Desert\nEntrance",
+    "original_fr": "Désert souterrain\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Sunken Desert\nFront",
+    "original_fr": "Désert souterrain\nDevant",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Sunken Desert\nMelphyx's Room",
+    "original_fr": "Désert souterrain\nSalle de melfiq",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "Magic Cave\nEntrance",
+    "original_fr": "Grotte des mystiques\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "Magic Cave\nInterior",
+    "original_fr": "Grotte des mystiques\nIntérieur",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "Magus's Keep\nEntrance",
+    "original_fr": "Palais du Magistère\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "Magus's Keep\nUpon Entering",
+    "original_fr": "Palais du Magistère\nEn entrant",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "Magus's Keep\nTrap 1 - Guillotine",
+    "original_fr": "Palais du Magistère\nPiège 1 - Guillotine",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "Magus's Keep\nTrap 2 - Pit",
+    "original_fr": "Palais du Magistère\nPiège 2 - Trou",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "Magus's Keep\nSlash Battle Room",
+    "original_fr": "Palais du Magistère\nSalle bataille avec Soja",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "Magus's Keep\nCentral Chamber",
+    "original_fr": "Palais du Magistère\nSalle centrale",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "Magus's Keep\nKids' Treasure Room",
+    "original_fr": "Palais du Magistère\nSalle du trésor des enfants",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "Magus's Keep\nMagus's Chamber",
+    "original_fr": "Palais du Magistère\nSalle de Magus",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "Magus's Keep\nFlea Battle Room",
+    "original_fr": "Palais du Magistère\nSalle bataille avec Mayo",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "Magus's Keep\nOzzie Battle Room",
+    "original_fr": "Palais du Magistère\nSalle bataille avec Vinnie",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "Magus's Keep\nTrap 3 - Conveyer Belt",
+    "original_fr": "Palais du Magistère\nPiège 3 - Tapis roulant",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "Magus's Keep\nExterior Stairway 1",
+    "original_fr": "Palais du Magistère\nExtérieur Escalier 1",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "Ozzie's Fort\nUpon Entering",
+    "original_fr": "Manoir de Vinnie\nEn entrant",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "Ozzie's Fort\nFailed Trap Room",
+    "original_fr": "Manoir de Vinnie\nSalle Piège raté",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "Ozzie's Fort\nGuillotine Room",
+    "original_fr": "Manoir de Vinnie\nSalle Guillotine",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "Ozzie's Fort\nBattle Against All Three",
+    "original_fr": "Manoir de Vinnie\nBataille contre trois",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "Ozzie's Fort\nThe End of Ozzie",
+    "original_fr": "Manoir de Vinnie\nMort de Vinnie",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "Castle Exterior\n(Unused)",
+    "original_fr": "Extérieur du ch{TAG:4A}teau\n(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "Ozzie's Fort\nFlea Battle Room",
+    "original_fr": "Manoir de Vinnie\nSalle bataille contre Mayo",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "Ozzie's Fort\nSlash Battle Room",
+    "original_fr": "Manoir de Vinnie\nSalle bataille contre Soja",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Choras\nResidence 1",
+    "original_fr": "Choras\nRésidence 1",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "Choras\nResidence 2 (Carpenter) 1F",
+    "original_fr": "Choras\nRésidence 2 (Charpentier) RDC",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "Choras\nResidence 2 (Carpenter) 2F",
+    "original_fr": "Choras\nRésidence 2 (Charpentier) 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "Choras\nTavern",
+    "original_fr": "Choras\nTaverne",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "Choras\nInn",
+    "original_fr": "Choras\nAuberge",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "Choras\nMarket",
+    "original_fr": "Choras\nMagasin",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Sun Shrine\nMiddle Ages?",
+    "original_fr": "Berceau de la lumière\nMoyen-{TAG:5F}ge?",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "Giant's Claw\nMap 1",
+    "original_fr": "Griffe du géant\nCarte 1",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "Giant's Claw\nMap 2",
+    "original_fr": "Griffe du géant\nCarte 2",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "Giant's Claw\nRust Tyranno Battle Room",
+    "original_fr": "Griffe du géant\nSalle bataille contre tyrannosaure noir",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "Manolia Cathedral\nYakra Battle Room",
+    "original_fr": "Abbaye de Manolia\nSalle bataille contre Yakra",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "Manolia Cathedral\nPrison Cell",
+    "original_fr": "Abbaye de Manolia\nCellule",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "Manolia Cathedral\nPhantom Room",
+    "original_fr": "Abbaye de Manolia\nSalle des illusions",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "Manolia Cathedral\nBromide Room",
+    "original_fr": "Abbaye de Manolia\nSalle du portrait de myanne",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "Manolia Cathedral\nMonsters' Room",
+    "original_fr": "Abbaye de Manolia\nSalle des monstres",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "Manolia Cathedral\nMagus Statue",
+    "original_fr": "Abbaye de Manolia\nStatue du Magistère",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "Guardia Forest\nFrog Flashback Event",
+    "original_fr": "Forêt de Gardia\nRetour en arrière de Gren",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "Denadoro Mountains\nFrog Flashback Event",
+    "original_fr": "Monts Dénadoro\nRetour en arrière de Gren",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "Guardia Castle\nFrog Flashback Event",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nRetour en arrière de Gren",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "Bangor Dome\nGate Room",
+    "original_fr": "Dôme de Bangor\nSalle du portail",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "Bangor Dome\nSealed Treasure Room",
+    "original_fr": "Dôme de Bangor\nSalle du trésor scellé",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "Trann Dome",
+    "original_fr": "Dôme de Trann",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "Trann Dome\nSealed Treasure Room",
+    "original_fr": "Dôme de Trann\nSalle du trésor scellé",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "Site 16\nTrann Dome Side",
+    "original_fr": "Ruines nÎ 16\nCôté du dôme de Trann",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "Site 16\nArris Dome Side",
+    "original_fr": "Ruines nÎ 16\nCôté du dôme d'Arris",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "Arris Dome",
+    "original_fr": "Dôme d'Arris",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "Arris Dome Substructure\nPasscode Room 1",
+    "original_fr": "Dôme d'Arris (sous-sol)\nSalle mot de passe 1",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "Arris Dome Substructure\nUpon Entering",
+    "original_fr": "Dôme d'Arris (sous-sol)\nEn entrant",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "Arris Dome Substructure\nPasscode Room 2",
+    "original_fr": "Dôme d'Arris (sous-sol)\nSalle mot de passe 2",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "Arris Dome Substructure\nDay of Lavos Record Room",
+    "original_fr": "Dôme d'Arris (sous-sol)\nSalle archives du jour de Lavos",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "Arris Dome Substructure\nGuardian Battle",
+    "original_fr": "Dôme d'Arris (sous-sol)\nBataille contre gardien",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "Arris Dome Substructure\nSealed Treasure Room",
+    "original_fr": "Dôme d'Arris (sous-sol)\nSalle du trésor scellé",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "Arris Dome Substructure\nRat Room",
+    "original_fr": "Dôme d'Arris (sous-sol)\nSalle du rat",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "Reptite Lair",
+    "original_fr": "Antre des sauriens",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "Site 32\nWestern Bike Parking",
+    "original_fr": "Ruines nÎ 32\nStationnement ouest",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "Site 32\nRoad",
+    "original_fr": "Ruines nÎ 32\nRoute",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "Site 32\nEastern Bike Parking",
+    "original_fr": "Ruines nÎ 32\nStationnement est",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "Proto Dome\nRobo's Debut",
+    "original_fr": "Dôme de Prométhée\nEntrée en scène de RoBo",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "Proto Dome\nGate Room",
+    "original_fr": "Dôme de Prométhée\nSalle du portail",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "Derelict Factory\nEntrance",
+    "original_fr": "Usine désaffectée\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "Derelict Factory\nB1 (West)",
+    "original_fr": "Usine désaffectée\nSS1 (Ouest)",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "Derelict Factory\nB2 (West)",
+    "original_fr": "Usine désaffectée\nSS2 (Ouest)",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "Derelict Factory\nB1 (East)",
+    "original_fr": "Usine désaffectée\nSS1 (Est)",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "Derelict Factory\nBug Room",
+    "original_fr": "Usine désaffectée\nSalle des scarabogues",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "Derelict Factory\nRoom Before Crane",
+    "original_fr": "Usine désaffectée\nSalle avant grue",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "Derelict Factory\nPasscode Acquisition",
+    "original_fr": "Usine désaffectée\nObtention du mot de passe",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "Derelict Factory\nB3 (West)",
+    "original_fr": "Usine désaffectée\nSS3 (Ouest)",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "Abandoned Sewers\nEntrance",
+    "original_fr": "Ancien égout\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "Abandoned Sewers",
+    "original_fr": "Ancien égout",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "(Event?)\n(Staff Room?)",
+    "original_fr": "(îvénement?)\n(Salle de l'équipe?)",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "Keeper's Dome",
+    "original_fr": "Dôme du gardien",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "Keeper's Dome\nHallway",
+    "original_fr": "Dôme du gardien\nCorridor",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "Keeper's Dome\nEpoch Storage Room",
+    "original_fr": "Dôme du gardien\nSalle de l'Ibis",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "Death Peak\nEntrance",
+    "original_fr": "Mont des défunts\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "Death Peak\nMap 1",
+    "original_fr": "Mont des défunts\nCarte 1",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "Death Peak\nMap 2",
+    "original_fr": "Mont des défunts\nCarte 2",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "Death Peak\nMap 4 (Lavos Spawn - 2)",
+    "original_fr": "Mont des défunts\nCarte 4 (Larve de Lavos - 2)",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "Geno Dome\nEntrance",
+    "original_fr": "Dôme de Génos\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "Geno Dome\nConveyer Belt (Front)",
+    "original_fr": "Dôme de Génos\nTapis roulant (Devant)",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "Geno Dome\nConveyer Belt (Rear)",
+    "original_fr": "Dôme de Génos\nTapis roulant (Derrière)",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "Sun Temple",
+    "original_fr": "Temple du soleil",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "Leene Square\nCentral Plaza (Used for ending)",
+    "original_fr": "Place de Lynne\nCentre (Utilisé dans une fin)",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "Sun Shrine\nUnknown Era",
+    "original_fr": "Berceau de la lumière\nîpoque inconnue",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "Sun Shrine\nUnknown Era",
+    "original_fr": "Berceau de la lumière\nîpoque inconnue",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "Geno Dome\nMain Room",
+    "original_fr": "Dôme de Génos\nSalle principale",
+    "translation": ""
+  },
+  {
+    "id": 256,
+    "original_en": "Geno Dome\nTreasure Room 1",
+    "original_fr": "Dôme de Génos\nSalle au trésor 1",
+    "translation": ""
+  },
+  {
+    "id": 257,
+    "original_en": "Geno Dome\nTreasure Room 2",
+    "original_fr": "Dôme de Génos\nSalle au trésor 2",
+    "translation": ""
+  },
+  {
+    "id": 258,
+    "original_en": "Derelict Factory\nCrane Code Acquisition",
+    "original_fr": "Usine désaffectée\nObtention du code de la grue",
+    "translation": ""
+  },
+  {
+    "id": 259,
+    "original_en": "Death Peak\nMap 6",
+    "original_fr": "Mont des défunts\nCarte 6",
+    "translation": ""
+  },
+  {
+    "id": 260,
+    "original_en": "???",
+    "original_fr": "???",
+    "translation": ""
+  },
+  {
+    "id": 261,
+    "original_en": "Death Peak\nMap 5",
+    "original_fr": "Mont des défunts\nCarte 5",
+    "translation": ""
+  },
+  {
+    "id": 262,
+    "original_en": "Death Peak\nMap 3",
+    "original_fr": "Mont des défunts\nCarte 3",
+    "translation": ""
+  },
+  {
+    "id": 263,
+    "original_en": "Death Peak\nInterior (Lavos Spawn - 1)",
+    "original_fr": "Mont des défunts\nIntérieur (Larve de Lavos - 1)",
+    "translation": ""
+  },
+  {
+    "id": 264,
+    "original_en": "Death Peak\nSummit",
+    "original_fr": "Mont des défunts\nCime",
+    "translation": ""
+  },
+  {
+    "id": 265,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 266,
+    "original_en": "Geno Dome\nRear of Oblong Passage",
+    "original_fr": "Dôme de Génos\nFond du corridor étroit",
+    "translation": ""
+  },
+  {
+    "id": 267,
+    "original_en": "Geno Dome\nMother Brain Battle",
+    "original_fr": "Dôme de Génos\nBataille contre cerveau mère",
+    "translation": ""
+  },
+  {
+    "id": 268,
+    "original_en": "Geno Dome\nExecution Room",
+    "original_fr": "Dôme de Génos\nSalle d'exécution",
+    "translation": ""
+  },
+  {
+    "id": 269,
+    "original_en": "Leene Square\nPlaza Rear (Ending)",
+    "original_fr": "Place de Lynne\nArrière (Fin)",
+    "translation": ""
+  },
+  {
+    "id": 270,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 271,
+    "original_en": "Mystic Mountains\nGate",
+    "original_fr": "Mont étrange\nPortail",
+    "translation": ""
+  },
+  {
+    "id": 272,
+    "original_en": "Mystic Mountains\nAyla's Debut",
+    "original_fr": "Mont étrange\nEntrée en scène d'Ayla",
+    "translation": ""
+  },
+  {
+    "id": 273,
+    "original_en": "Mystic Mountains\nTrail",
+    "original_fr": "Mont étrange\nPassage",
+    "translation": ""
+  },
+  {
+    "id": 274,
+    "original_en": "Ioka Village\nChief's Hut",
+    "original_fr": "Village d'Ioka\nTente du chef",
+    "translation": ""
+  },
+  {
+    "id": 275,
+    "original_en": "Ioka Village Hut",
+    "original_fr": "Tente du village d'Ioka",
+    "translation": ""
+  },
+  {
+    "id": 276,
+    "original_en": "Ioka Village Hut\nTrading Room",
+    "original_fr": "Village d'Ioka\nTente de troc",
+    "translation": ""
+  },
+  {
+    "id": 277,
+    "original_en": "Ioka Village Hut\nHealing Room",
+    "original_fr": "Village d'Ioka\nTente de guérison",
+    "translation": ""
+  },
+  {
+    "id": 278,
+    "original_en": "Ioka Village\nVillage Center",
+    "original_fr": "Village d'Ioka\nPlace du village",
+    "translation": ""
+  },
+  {
+    "id": 279,
+    "original_en": "Ioka Village\nVillage Center (Night)",
+    "original_fr": "Village d'Ioka\nPlace du village (nuit)",
+    "translation": ""
+  },
+  {
+    "id": 280,
+    "original_en": "Forest Maze\nEntrance Only",
+    "original_fr": "Jungle\nEntrée seulement",
+    "translation": ""
+  },
+  {
+    "id": 281,
+    "original_en": "Forest Maze\nNormal",
+    "original_fr": "Jungle\nNormale",
+    "translation": ""
+  },
+  {
+    "id": 282,
+    "original_en": "Reptite Lair\nEntrance",
+    "original_fr": "Antre des sauriens\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 283,
+    "original_en": "Reptite Lair\nBeetle Room",
+    "original_fr": "Antre des sauriens\nSalle des insectes",
+    "translation": ""
+  },
+  {
+    "id": 284,
+    "original_en": "Reptite Lair\nHole 1",
+    "original_fr": "Antre des sauriens\nTrou 1",
+    "translation": ""
+  },
+  {
+    "id": 285,
+    "original_en": "Reptite Lair\nHole 2",
+    "original_fr": "Antre des sauriens\nTrou 2",
+    "translation": ""
+  },
+  {
+    "id": 286,
+    "original_en": "Reptite Lair\nHole 3",
+    "original_fr": "Antre des sauriens\nTrou 3",
+    "translation": ""
+  },
+  {
+    "id": 287,
+    "original_en": "Reptite Lair",
+    "original_fr": "Antre des sauriens",
+    "translation": ""
+  },
+  {
+    "id": 288,
+    "original_en": "Reptite Lair\nNizbel Battle",
+    "original_fr": "Antre des sauriens\nBataille contre Nizbel",
+    "translation": ""
+  },
+  {
+    "id": 289,
+    "original_en": "Reptite Lair",
+    "original_fr": "Antre des sauriens",
+    "translation": ""
+  },
+  {
+    "id": 290,
+    "original_en": "Hunting Range",
+    "original_fr": "Terrain de chasse",
+    "translation": ""
+  },
+  {
+    "id": 291,
+    "original_en": "Laruba Ruins",
+    "original_fr": "Ruines de Laruba",
+    "translation": ""
+  },
+  {
+    "id": 292,
+    "original_en": "Dactyl Nest\nEntrance",
+    "original_fr": "Nid des ptéranodons\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 293,
+    "original_en": "Dactyl Nest\nMountainside",
+    "original_fr": "Nid des ptéranodons\nMontagne",
+    "translation": ""
+  },
+  {
+    "id": 294,
+    "original_en": "Dactyl Nest\nPeak",
+    "original_fr": "Nid des ptéranodons\nSommet",
+    "translation": ""
+  },
+  {
+    "id": 295,
+    "original_en": "Giant's Claw",
+    "original_fr": "Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 296,
+    "original_en": "Giant's Claw",
+    "original_fr": "Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 297,
+    "original_en": "Tyranno Lair\nExterior",
+    "original_fr": "Fort Tyrannos\nExtérieur",
+    "translation": ""
+  },
+  {
+    "id": 298,
+    "original_en": "Tyranno Lair\nEntrance",
+    "original_fr": "Fort Tyrannos\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 299,
+    "original_en": "Tyranno Lair\nAzala Face-off",
+    "original_fr": "Fort Tyrannos\nConfrontation avec Azara",
+    "translation": ""
+  },
+  {
+    "id": 300,
+    "original_en": "Tyranno Lair\nBlack Tyranno Battle",
+    "original_fr": "Fort Tyrannos\nBataille tyrannosaure brun",
+    "translation": ""
+  },
+  {
+    "id": 301,
+    "original_en": "Tyranno Lair\nInterior (Prisoners, Traps)",
+    "original_fr": "Fort Tyrannos\nIntérieur (Prisoniers, Pièges)",
+    "translation": ""
+  },
+  {
+    "id": 302,
+    "original_en": "Tyranno Lair\nInterior 2 (Switches, Passages)",
+    "original_fr": "Fort Tyrannos\nIntérieur 2 (Boutons, Passages)",
+    "translation": ""
+  },
+  {
+    "id": 303,
+    "original_en": "Tyranno Lair\nNizbel II",
+    "original_fr": "Fort Tyrannos\nNizbel II",
+    "translation": ""
+  },
+  {
+    "id": 304,
+    "original_en": "Tyranno Lair\nInterior 3 (Warp Point)",
+    "original_fr": "Fort Tyrannos\nIntérieur 3 (Tuiles portails)",
+    "translation": ""
+  },
+  {
+    "id": 305,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 306,
+    "original_en": "Tyranno Lair Ruins",
+    "original_fr": "Cratère de Tyrannos",
+    "translation": ""
+  },
+  {
+    "id": 307,
+    "original_en": "Black Omen\nUpper Level 1 (Mega M.)",
+    "original_fr": "Songe obscur\nNiveau supérieur 1 (Mégamutant)",
+    "translation": ""
+  },
+  {
+    "id": 308,
+    "original_en": "Black Omen\nUpper Level 1",
+    "original_fr": "Songe obscur\nNiveau supérieur 1",
+    "translation": ""
+  },
+  {
+    "id": 309,
+    "original_en": "Black Omen\nUpper Level 2",
+    "original_fr": "Songe obscur\nNiveau supérieur 2",
+    "translation": ""
+  },
+  {
+    "id": 310,
+    "original_en": "Black Omen\nUpper Level 3",
+    "original_fr": "Songe obscur\nNiveau supérieur 3",
+    "translation": ""
+  },
+  {
+    "id": 311,
+    "original_en": "Black Omen\nUpper Level 4",
+    "original_fr": "Songe obscur\nNiveau supérieur 4",
+    "translation": ""
+  },
+  {
+    "id": 312,
+    "original_en": "Black Omen\nMiddle Level 1",
+    "original_fr": "Songe obscur\nNiveau moyen 1",
+    "translation": ""
+  },
+  {
+    "id": 313,
+    "original_en": "Black Omen\nMiddle Level 2",
+    "original_fr": "Songe obscur\nNiveau moyen 2",
+    "translation": ""
+  },
+  {
+    "id": 314,
+    "original_en": "Black Omen\nMiddle Level 3",
+    "original_fr": "Songe obscur\nNiveau moyen 3",
+    "translation": ""
+  },
+  {
+    "id": 315,
+    "original_en": "Black Omen\nMiddle Level 4",
+    "original_fr": "Songe obscur\nNiveau moyen 4",
+    "translation": ""
+  },
+  {
+    "id": 316,
+    "original_en": "Black Omen\nMiddle Level 5",
+    "original_fr": "Songe obscur\nNiveau moyen 5",
+    "translation": ""
+  },
+  {
+    "id": 317,
+    "original_en": "Black Omen\nMiddle Level 6",
+    "original_fr": "Songe obscur\nNiveau moyen 6",
+    "translation": ""
+  },
+  {
+    "id": 318,
+    "original_en": "Black Omen\nMiddle Level 7",
+    "original_fr": "Songe obscur\nNiveau moyen 7",
+    "translation": ""
+  },
+  {
+    "id": 319,
+    "original_en": "Black Omen\nMiddle Level 8 (Warp)",
+    "original_fr": "Songe obscur\nNiveau moyen 8 (Téléporteur)",
+    "translation": ""
+  },
+  {
+    "id": 320,
+    "original_en": "Black Omen\nLower Level 1 (Warp)",
+    "original_fr": "Songe obscur\nNiveau inférieur 1 (Téléporteur)",
+    "translation": ""
+  },
+  {
+    "id": 321,
+    "original_en": "Black Omen\nLower Level 2",
+    "original_fr": "Songe obscur\nNiveau inférieur 2",
+    "translation": ""
+  },
+  {
+    "id": 322,
+    "original_en": "Black Omen\nLower Level 3 (Giga M.)",
+    "original_fr": "Songe obscur\nNiveau inférieur 3 (Gigamutant)",
+    "translation": ""
+  },
+  {
+    "id": 323,
+    "original_en": "Black Omen\nBottom Level 1",
+    "original_fr": "Songe obscur\nProfondeurs 1",
+    "translation": ""
+  },
+  {
+    "id": 324,
+    "original_en": "Black Omen\nBottom Level 2 (Terra M.)",
+    "original_fr": "Songe obscur\nProfondeurs 2 (Téramutant)",
+    "translation": ""
+  },
+  {
+    "id": 325,
+    "original_en": "Black Omen\nBottom Level 3",
+    "original_fr": "Songe obscur\nProfondeurs 3",
+    "translation": ""
+  },
+  {
+    "id": 326,
+    "original_en": "Sun Shrine\nUnknown Era",
+    "original_fr": "Berceau de la lumière\nîpoque inconnue",
+    "translation": ""
+  },
+  {
+    "id": 327,
+    "original_en": "Zeal Palace\nJanus's Chamber",
+    "original_fr": "Palais de Zhyle\nChambre de Janus",
+    "translation": ""
+  },
+  {
+    "id": 328,
+    "original_en": "Zeal Palace\nSealed Door (Unopened)",
+    "original_fr": "Palais de Zhyle\nPorte scellée (pas ouverte)",
+    "translation": ""
+  },
+  {
+    "id": 329,
+    "original_en": "Zeal Palace\nSealed Door (Opened)",
+    "original_fr": "Palais de Zhyle\nPorte scellée (ouverte)",
+    "translation": ""
+  },
+  {
+    "id": 330,
+    "original_en": "Zeal Palace\nMammon Machine - 1",
+    "original_fr": "Palais de Zhyle\nRéceptacle sacré - 1",
+    "translation": ""
+  },
+  {
+    "id": 331,
+    "original_en": "Zeal Palace\nQueen's Chamber - 1",
+    "original_fr": "Palais de Zhyle\nChambre de la reine - 1",
+    "translation": ""
+  },
+  {
+    "id": 332,
+    "original_en": "Zeal Palace\nMammon Machine - 2",
+    "original_fr": "Palais de Zhyle\nRéceptacle sacré - 2",
+    "translation": ""
+  },
+  {
+    "id": 333,
+    "original_en": "Zeal Palace\nQueen's Chamber - 2",
+    "original_fr": "Palais de Zhyle\nChambre de la reine - 2",
+    "translation": ""
+  },
+  {
+    "id": 334,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 335,
+    "original_en": "Land Bridge",
+    "original_fr": "Voie de la terre",
+    "translation": ""
+  },
+  {
+    "id": 336,
+    "original_en": "Map Not Specified",
+    "original_fr": "Carte non-identifiée",
+    "translation": ""
+  },
+  {
+    "id": 337,
+    "original_en": "Dream Project\nStaff, Residence",
+    "original_fr": "Dream Team\nîquipe, Résidence",
+    "translation": ""
+  },
+  {
+    "id": 338,
+    "original_en": "Dream Project\nStaff, Prehistoric Forest",
+    "original_fr": "Dream Team\nîquipe, Forêt préhistorique",
+    "translation": ""
+  },
+  {
+    "id": 339,
+    "original_en": "Dream Project\nStaff, Ocean Palace",
+    "original_fr": "Dream Team\nîquipe, Sanctuaire sous-marin",
+    "translation": ""
+  },
+  {
+    "id": 340,
+    "original_en": "Dream Project\nStaff, Prison",
+    "original_fr": "Dream Team\nîquipe, Prison",
+    "translation": ""
+  },
+  {
+    "id": 341,
+    "original_en": "Dream Project\nStaff, Terrans",
+    "original_fr": "Dream Team\nîquipe, Terriens",
+    "translation": ""
+  },
+  {
+    "id": 342,
+    "original_en": "Dream Project\nDream Staff",
+    "original_fr": "Dream Team\nîquipe",
+    "translation": ""
+  },
+  {
+    "id": 343,
+    "original_en": "Arris Dome Substructure 4\nSupply Room",
+    "original_fr": "Dôme d'Arris (sous-sol) 4\nSalle d'entreposage des vivres",
+    "translation": ""
+  },
+  {
+    "id": 344,
+    "original_en": "Lucca's House\nEnding?",
+    "original_fr": "Maison de Lucca\nFin?",
+    "translation": ""
+  },
+  {
+    "id": 345,
+    "original_en": "Lavos Past Mode\nGuardian",
+    "original_fr": "Lavos mode du Passé\nGardien",
+    "translation": ""
+  },
+  {
+    "id": 346,
+    "original_en": "Lavos Past Mode\nDragon Tank",
+    "original_fr": "Lavos mode du Passé\nDragon d'assaut",
+    "translation": ""
+  },
+  {
+    "id": 347,
+    "original_en": "Lavos Past Mode\nHeckran",
+    "original_fr": "Lavos mode du Passé\nHéclan",
+    "translation": ""
+  },
+  {
+    "id": 348,
+    "original_en": "Lavos Past Mode\nZombor",
+    "original_fr": "Lavos mode du passé\nAbomination",
+    "translation": ""
+  },
+  {
+    "id": 349,
+    "original_en": "Lavos Past Mode\nMasa/Mune",
+    "original_fr": "Lavos mode du Passé\nGran et Léon",
+    "translation": ""
+  },
+  {
+    "id": 350,
+    "original_en": "Small Cave\nGate",
+    "original_fr": "Petite caverne\nPortail",
+    "translation": ""
+  },
+  {
+    "id": 351,
+    "original_en": "Land Bridge",
+    "original_fr": "Voie de la terre",
+    "translation": ""
+  },
+  {
+    "id": 352,
+    "original_en": "Land Bridge",
+    "original_fr": "Voie de la terre",
+    "translation": ""
+  },
+  {
+    "id": 353,
+    "original_en": "Skyway",
+    "original_fr": "Voie du ciel",
+    "translation": ""
+  },
+  {
+    "id": 354,
+    "original_en": "Enhasa\nPlaza",
+    "original_fr": "Enhassa\nPlace",
+    "translation": ""
+  },
+  {
+    "id": 355,
+    "original_en": "Skyway",
+    "original_fr": "Voie du ciel",
+    "translation": ""
+  },
+  {
+    "id": 356,
+    "original_en": "Kajar\nPlaza",
+    "original_fr": "Kajar\nGrande salle",
+    "translation": ""
+  },
+  {
+    "id": 357,
+    "original_en": "Kajar\nSmall Room",
+    "original_fr": "Kajar\nPetite salle",
+    "translation": ""
+  },
+  {
+    "id": 358,
+    "original_en": "Kajar\nHidden Room",
+    "original_fr": "Kajar\nSalle secrète",
+    "translation": ""
+  },
+  {
+    "id": 359,
+    "original_en": "Kajar\nMagic Research Lab",
+    "original_fr": "Kajar\nLaboratoire de recherche magique",
+    "translation": ""
+  },
+  {
+    "id": 360,
+    "original_en": "Enhasa\nHidden Room",
+    "original_fr": "Enhassa\nSalle secrète",
+    "translation": ""
+  },
+  {
+    "id": 361,
+    "original_en": "Blackbird Boarding Point",
+    "original_fr": "Quai du Cygne noir",
+    "translation": ""
+  },
+  {
+    "id": 362,
+    "original_en": "Blackbird\nLeft Wing",
+    "original_fr": "Cygne noir\nAile gauche",
+    "translation": ""
+  },
+  {
+    "id": 363,
+    "original_en": "Blackbird\nRight Deck",
+    "original_fr": "Cygne noir\nPont droit",
+    "translation": ""
+  },
+  {
+    "id": 364,
+    "original_en": "Blackbird\nLeft Deck",
+    "original_fr": "Cygne noir\nPont gauche",
+    "translation": ""
+  },
+  {
+    "id": 365,
+    "original_en": "Blackbird\nPanorama",
+    "original_fr": "Cygne noir\nPanorama",
+    "translation": ""
+  },
+  {
+    "id": 366,
+    "original_en": "Blackbird\nEpoch Upgrade Room",
+    "original_fr": "Cygne noir\nSalle de modification de l'Ibis",
+    "translation": ""
+  },
+  {
+    "id": 367,
+    "original_en": "Blackbird\nRearward Passage",
+    "original_fr": "Cygne noir\nPassage arrière",
+    "translation": ""
+  },
+  {
+    "id": 368,
+    "original_en": "Blackbird\nForward Passage",
+    "original_fr": "Cygne noir\nPassage avant",
+    "translation": ""
+  },
+  {
+    "id": 369,
+    "original_en": "Blackbird\nRoom 1",
+    "original_fr": "Cygne noir\nSalle 1",
+    "translation": ""
+  },
+  {
+    "id": 370,
+    "original_en": "Blackbird\nRoom 2",
+    "original_fr": "Cygne noir\nSalle 2",
+    "translation": ""
+  },
+  {
+    "id": 371,
+    "original_en": "Blackbird\nRoom 3",
+    "original_fr": "Cygne noir\nSalle 3",
+    "translation": ""
+  },
+  {
+    "id": 372,
+    "original_en": "Blackbird\nRoom 4",
+    "original_fr": "Cygne noir\nSalle 4",
+    "translation": ""
+  },
+  {
+    "id": 373,
+    "original_en": "Blackbird\nRoom 5",
+    "original_fr": "Cygne noir\nSalle 5",
+    "translation": ""
+  },
+  {
+    "id": 374,
+    "original_en": "Blackbird\nRoom 6",
+    "original_fr": "Cygne noir\nSalle 6",
+    "translation": ""
+  },
+  {
+    "id": 375,
+    "original_en": "Blackbird\nVentillation Shaft",
+    "original_fr": "Cygne noir\nConduit d'aération",
+    "translation": ""
+  },
+  {
+    "id": 376,
+    "original_en": "Epoch\nIn Flight 1",
+    "original_fr": "Ibis\nEn vol 1",
+    "translation": ""
+  },
+  {
+    "id": 377,
+    "original_en": "Dream Project\nStaff, Future Factory",
+    "original_fr": "Dream Team\nîquipe, Usine du Futur",
+    "translation": ""
+  },
+  {
+    "id": 378,
+    "original_en": "Dream Project\nEnd of Time",
+    "original_fr": "Dream Team\nFin des temps",
+    "translation": ""
+  },
+  {
+    "id": 379,
+    "original_en": "Algetty\nPanorama",
+    "original_fr": "Alguetti\nPanorama",
+    "translation": ""
+  },
+  {
+    "id": 380,
+    "original_en": "Algetty\nInn",
+    "original_fr": "Alguetti\nAuberge",
+    "translation": ""
+  },
+  {
+    "id": 381,
+    "original_en": "Algetty\nElder's Room",
+    "original_fr": "Alguetti\nSalle de l'ancien",
+    "translation": ""
+  },
+  {
+    "id": 382,
+    "original_en": "Algetty\nResident's Room",
+    "original_fr": "Alguetti\nSalle d'un habitant",
+    "translation": ""
+  },
+  {
+    "id": 383,
+    "original_en": "Algetty\nItem Shop",
+    "original_fr": "Alguetti\nMagasin",
+    "translation": ""
+  },
+  {
+    "id": 384,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 385,
+    "original_en": "Terra Cave",
+    "original_fr": "Caverne des terriens",
+    "translation": ""
+  },
+  {
+    "id": 386,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 387,
+    "original_en": "Mudbeast Den",
+    "original_fr": "Nid du terraphage",
+    "translation": ""
+  },
+  {
+    "id": 388,
+    "original_en": "Small Cave\nFloating Continent",
+    "original_fr": "Petite grotte\nContinent flottant",
+    "translation": ""
+  },
+  {
+    "id": 389,
+    "original_en": "Dream Project\nStaff, Prehistoric Hut",
+    "original_fr": "Dream Team\nîquipe, tente préhistorique",
+    "translation": ""
+  },
+  {
+    "id": 390,
+    "original_en": "Dream Project\nStaff, Magus's Keep",
+    "original_fr": "Dream Team\nîquipe, Palais du Magistère",
+    "translation": ""
+  },
+  {
+    "id": 391,
+    "original_en": "Mountain of Woe\nStation 3",
+    "original_fr": "Mont du tourment\nStation 3",
+    "translation": ""
+  },
+  {
+    "id": 392,
+    "original_en": "Mountain of Woe\nStation 5",
+    "original_fr": "Mont du tourment\nStation 5",
+    "translation": ""
+  },
+  {
+    "id": 393,
+    "original_en": "Mountain of Woe\nBase",
+    "original_fr": "Mont du tourment\nBase",
+    "translation": ""
+  },
+  {
+    "id": 394,
+    "original_en": "Mountain of Woe\nStation 8",
+    "original_fr": "Mont du tourment\nStation 8",
+    "translation": ""
+  },
+  {
+    "id": 395,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 396,
+    "original_en": "Mountain of Woe\nGiga Gaia Battle",
+    "original_fr": "Mont du tourment\nBataille gigaga¿a",
+    "translation": ""
+  },
+  {
+    "id": 397,
+    "original_en": "Leene Square\nUnspecified",
+    "original_fr": "Place de Lynne\nNon-spécifié",
+    "translation": ""
+  },
+  {
+    "id": 398,
+    "original_en": "Crono's House\nUnspecified",
+    "original_fr": "Maison de Chrono\nNon-spécifié",
+    "translation": ""
+  },
+  {
+    "id": 399,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 400,
+    "original_en": "Zeal Palace\nMain Hall",
+    "original_fr": "Palais de Zhyle\nSalle principale",
+    "translation": ""
+  },
+  {
+    "id": 401,
+    "original_en": "Zeal Palace\nPassage to Janus's Room",
+    "original_fr": "Palais de Zhyle\nCorridor vers la chambre de Janus",
+    "translation": ""
+  },
+  {
+    "id": 402,
+    "original_en": "Zeal Palace\nSchala's Room",
+    "original_fr": "Palais de Zhyle\nChambre de Sarah",
+    "translation": ""
+  },
+  {
+    "id": 403,
+    "original_en": "Ocean Palace\nUpon Entering",
+    "original_fr": "Sanctuaire sous-marin\nEn entrant",
+    "translation": ""
+  },
+  {
+    "id": 404,
+    "original_en": "Ocean Palace\nUpper Level, Main Hall",
+    "original_fr": "Sanctuaire sous-marin\nNiveau supérieur, salle principale",
+    "translation": ""
+  },
+  {
+    "id": 405,
+    "original_en": "Ocean Palace\nUpper Level, Small Room",
+    "original_fr": "Sanctuaire sous-marin\nNiveau supérieur, petite salle",
+    "translation": ""
+  },
+  {
+    "id": 406,
+    "original_en": "Ocean Palace\nUpper Level, Door Switch",
+    "original_fr": "Sanctuaire sous-marin\nNiveau supérieur, bouton",
+    "translation": ""
+  },
+  {
+    "id": 407,
+    "original_en": "Ocean Palace\nUpper Level -> Great Stair",
+    "original_fr": "Sanctuaire sous-marin\nNiveau supérieur -> grand escalier",
+    "translation": ""
+  },
+  {
+    "id": 408,
+    "original_en": "Ocean Palace\nGreat Stair",
+    "original_fr": "Sanctuaire sous-marin\nGrand escalier",
+    "translation": ""
+  },
+  {
+    "id": 409,
+    "original_en": "Ocean Palace\nGreat Stair -> Lower Level",
+    "original_fr": "Sanctuaire sous-marin\nGrand escalier -> Niveau inférieur",
+    "translation": ""
+  },
+  {
+    "id": 410,
+    "original_en": "Ocean Palace\nElevator (Lower Level)",
+    "original_fr": "Sanctuaire sous-marin\nAscenseur (Niveau inférieur)",
+    "translation": ""
+  },
+  {
+    "id": 411,
+    "original_en": "Ocean Palace\nLowest Level, Main Hall",
+    "original_fr": "Sanctuaire sous-marin\nNiveau inférieur, salle principale",
+    "translation": ""
+  },
+  {
+    "id": 412,
+    "original_en": "Ocean Palace\nLowest Level, Passage",
+    "original_fr": "Sanctuaire sous-marin\nNiveau inférieur, passage",
+    "translation": ""
+  },
+  {
+    "id": 413,
+    "original_en": "Ocean Palace\nGolem Battle",
+    "original_fr": "Sanctuaire sous-marin\nBataille golem",
+    "translation": ""
+  },
+  {
+    "id": 414,
+    "original_en": "Ocean Palace\nLowest Level, Mammon Machine",
+    "original_fr": "Sanctuaire sous-marin\nNiveau inférieur, Réceptacle sacré",
+    "translation": ""
+  },
+  {
+    "id": 415,
+    "original_en": "Ocean Palace\nElevator (Descending)",
+    "original_fr": "Sanctuaire sous-marin\nAscenseur (Descendant)",
+    "translation": ""
+  },
+  {
+    "id": 416,
+    "original_en": "Ocean Palace\nElevator (Upper Level)",
+    "original_fr": "Sanctuaire sous-marin\nAscenseur (Niveau supérieur)",
+    "translation": ""
+  },
+  {
+    "id": 417,
+    "original_en": "Ocean Palace\nElevator (Bottom Level)",
+    "original_fr": "Sanctuaire sous-marin\nAscenseur (Profondeurs)",
+    "translation": ""
+  },
+  {
+    "id": 418,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 419,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 420,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 421,
+    "original_en": "Ocean Palace\nMammon Machine Battle",
+    "original_fr": "Sanctuaire sous-marin\nBataille Réceptacle sacré",
+    "translation": ""
+  },
+  {
+    "id": 422,
+    "original_en": "Ocean Palace\nLavos Battle (Strongest)",
+    "original_fr": "Sanctuaire sous-marin\nBataille Lavos (Fort)",
+    "translation": ""
+  },
+  {
+    "id": 423,
+    "original_en": "Surviving Village\nPlaza",
+    "original_fr": "Village des survivants\nPlace du village",
+    "translation": ""
+  },
+  {
+    "id": 424,
+    "original_en": "Surviving Village\nBeds",
+    "original_fr": "Village des survivants\nLits",
+    "translation": ""
+  },
+  {
+    "id": 425,
+    "original_en": "Surviving Village\nItem Shop",
+    "original_fr": "Village des survivants\nMagasin",
+    "translation": ""
+  },
+  {
+    "id": 426,
+    "original_en": "Surviving Village\nResidence",
+    "original_fr": "Village des survivants\nRésidence",
+    "translation": ""
+  },
+  {
+    "id": 427,
+    "original_en": "North Cape",
+    "original_fr": "Cap nord",
+    "translation": ""
+  },
+  {
+    "id": 428,
+    "original_en": "Death Peak\nCrono Revival Event",
+    "original_fr": "Mont des défunts\nîvénement résurrection de Chrono",
+    "translation": ""
+  },
+  {
+    "id": 429,
+    "original_en": "Tyranno Lair\nImprisoned Villagers",
+    "original_fr": "Fort Tyrannos\nVillageois prisonniers",
+    "translation": ""
+  },
+  {
+    "id": 430,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 431,
+    "original_en": "Epoch\nIn Flight 2",
+    "original_fr": "Ibis\nEn vol 2",
+    "translation": ""
+  },
+  {
+    "id": 432,
+    "original_en": "(Unused)",
+    "original_fr": "(Pas utilisé)",
+    "translation": ""
+  },
+  {
+    "id": 433,
+    "original_en": "Leene Square\nBekkler's Lab",
+    "original_fr": "Place de Lynne\nTente de Bekkler",
+    "translation": ""
+  },
+  {
+    "id": 434,
+    "original_en": "Magic Cave\nEntrance",
+    "original_fr": "Grotte des mystiques\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 435,
+    "original_en": "Fiona's Shrine\nNearby Woods",
+    "original_fr": "Sanctuaire de Fiona\nForêt",
+    "translation": ""
+  },
+  {
+    "id": 436,
+    "original_en": "Derelict Factory\nReject Room",
+    "original_fr": "Usine désaffectée\nSalle des rejets",
+    "translation": ""
+  },
+  {
+    "id": 437,
+    "original_en": "Guardia Castle\nHall of Justice",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nTribunal",
+    "translation": ""
+  },
+  {
+    "id": 438,
+    "original_en": "Leene Square\nPlaza Rear",
+    "original_fr": "Place de Lynne\nArrière",
+    "translation": ""
+  },
+  {
+    "id": 439,
+    "original_en": "Guardia Castle\nTreasury",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nTrésorerie",
+    "translation": ""
+  },
+  {
+    "id": 440,
+    "original_en": "Guardia Castle\nBefore Hall of Justice",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nAvant tribunal",
+    "translation": ""
+  },
+  {
+    "id": 441,
+    "original_en": "Blackbird\nRoom 7",
+    "original_fr": "Cygne noir\nSalle 7",
+    "translation": ""
+  },
+  {
+    "id": 442,
+    "original_en": "Blackbird\nRoom 8",
+    "original_fr": "Cygne noir\nSalle 8",
+    "translation": ""
+  },
+  {
+    "id": 443,
+    "original_en": "Blackbird\nRoom 9",
+    "original_fr": "Cygne noir\nSalle 9",
+    "translation": ""
+  },
+  {
+    "id": 444,
+    "original_en": "Blackbird\nRoom 10",
+    "original_fr": "Cygne noir\nSalle 10",
+    "translation": ""
+  },
+  {
+    "id": 445,
+    "original_en": "Magus's Keep\nExterior Stairway 2",
+    "original_fr": "Palais du Magistère\nExtérieur Escalier 2",
+    "translation": ""
+  },
+  {
+    "id": 446,
+    "original_en": "Magus's Keep\nBefore Final Magus Battle",
+    "original_fr": "Palais du Magistère\nAvant dernière bataille Magus",
+    "translation": ""
+  },
+  {
+    "id": 447,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 448,
+    "original_en": "Black Omen\nEntrance",
+    "original_fr": "Songe obscur\nEntrée",
+    "translation": ""
+  },
+  {
+    "id": 449,
+    "original_en": "Black Omen\nBottom Level 5",
+    "original_fr": "Songe obscur\nProfondeurs 5",
+    "translation": ""
+  },
+  {
+    "id": 450,
+    "original_en": "Black Omen\nBottom Level 6 (Lowest Reaches)",
+    "original_fr": "Songe obscur\nProfondeurs 6 (Niveau inférieur)",
+    "translation": ""
+  },
+  {
+    "id": 451,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 452,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 453,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 454,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 455,
+    "original_en": "Lavos Past Mode\nNizbel",
+    "original_fr": "Lavos mode du passé\nNizbel",
+    "translation": ""
+  },
+  {
+    "id": 456,
+    "original_en": "Lavos Past Mode\nMagus",
+    "original_fr": "Lavos mode du passé\nMagus",
+    "translation": ""
+  },
+  {
+    "id": 457,
+    "original_en": "Lavos Past Mode\nBlack T. & Azala",
+    "original_fr": "Lavos mode du passé\nTyrannosaure brun et Azara",
+    "translation": ""
+  },
+  {
+    "id": 458,
+    "original_en": "Lavos Past Mode\nGiga Gaia",
+    "original_fr": "Lavos mode du passé\nGigaga¿a",
+    "translation": ""
+  },
+  {
+    "id": 459,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 460,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 461,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 462,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 463,
+    "original_en": "End of Time\nGasper's Room",
+    "original_fr": "Fin des temps\nSalle de Hasch",
+    "translation": ""
+  },
+  {
+    "id": 464,
+    "original_en": "End of Time\nSpekkio's Room",
+    "original_fr": "Fin des temps\nSalle de Specchio",
+    "translation": ""
+  },
+  {
+    "id": 465,
+    "original_en": "Lavos Shell\nShell Destroyed",
+    "original_fr": "Carapace de Lavos\nCarapace détruite",
+    "translation": ""
+  },
+  {
+    "id": 466,
+    "original_en": "Lavos Shell\nBattle vs Shell",
+    "original_fr": "Carapace de Lavos\nBataille contre carapace",
+    "translation": ""
+  },
+  {
+    "id": 467,
+    "original_en": "Guardia Castle\nWestern Stair",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier ouest",
+    "translation": ""
+  },
+  {
+    "id": 468,
+    "original_en": "Magus's Keep\nWestern Passage",
+    "original_fr": "Palais du Magistère\nCorridor ouest",
+    "translation": ""
+  },
+  {
+    "id": 469,
+    "original_en": "Magus's Keep\nBefore Ozzie's Room",
+    "original_fr": "Palais du Magistère\nAvant Salle de Vinnie",
+    "translation": ""
+  },
+  {
+    "id": 470,
+    "original_en": "Magus's Keep\nAfter Pit Trap",
+    "original_fr": "Palais du Magistère\nDevant Piège (trou)",
+    "translation": ""
+  },
+  {
+    "id": 471,
+    "original_en": "1999\nVia Epoch",
+    "original_fr": "1999\nVia Ibis",
+    "translation": ""
+  },
+  {
+    "id": 472,
+    "original_en": "End of Time\nEpoch",
+    "original_fr": "Fin des temps\nIbis",
+    "translation": ""
+  },
+  {
+    "id": 473,
+    "original_en": "Lavos Interior\nBefore Final Battle",
+    "original_fr": "Lavos Intérieur\nAvant dernière bataille",
+    "translation": ""
+  },
+  {
+    "id": 474,
+    "original_en": "Lavos Interior\nLavos Battle",
+    "original_fr": "Lavos Intérieur\nBataille de Lavos",
+    "translation": ""
+  },
+  {
+    "id": 475,
+    "original_en": "1999\nA Dome",
+    "original_fr": "1999\nUn dôme",
+    "translation": ""
+  },
+  {
+    "id": 476,
+    "original_en": "Epoch\nUnspecified",
+    "original_fr": "Ibis\nNon-spécifié",
+    "translation": ""
+  },
+  {
+    "id": 477,
+    "original_en": "Blackbird\nUnspecified (Dungeon)",
+    "original_fr": "Cygne noir\nNon-spécifié (Donjon)",
+    "translation": ""
+  },
+  {
+    "id": 478,
+    "original_en": "Lavos Interior\nLavos Core Battle",
+    "original_fr": "Lavos Intérieur\nBataille c{TAG:61}ur de Lavos",
+    "translation": ""
+  },
+  {
+    "id": 479,
+    "original_en": "Guardia Castle\nEastern Stair",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier est",
+    "translation": ""
+  },
+  {
+    "id": 480,
+    "original_en": "Blackbird\nUnspecified (Exterior)",
+    "original_fr": "Cygne noir\nNon-spécifié (Extérieur)",
+    "translation": ""
+  },
+  {
+    "id": 481,
+    "original_en": "Blackbird\nRoom 11",
+    "original_fr": "Cygne noir\nSalle 11",
+    "translation": ""
+  },
+  {
+    "id": 482,
+    "original_en": "Blackbird\nRoom 12",
+    "original_fr": "Cygne noir\nSalle 12",
+    "translation": ""
+  },
+  {
+    "id": 483,
+    "original_en": "Blackbird\nRoom 13",
+    "original_fr": "Cygne noir\nSalle 13",
+    "translation": ""
+  },
+  {
+    "id": 484,
+    "original_en": "Blackbird\nRoom 14",
+    "original_fr": "Cygne noir\nSalle 14",
+    "translation": ""
+  },
+  {
+    "id": 485,
+    "original_en": "Guardia Castle\nEastern Stair",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier est",
+    "translation": ""
+  },
+  {
+    "id": 486,
+    "original_en": "Guardia Castle\nWestern Stair",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier ouest",
+    "translation": ""
+  },
+  {
+    "id": 487,
+    "original_en": "Guardia Castle\nStair to Hall of Justice",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier du tribunal",
+    "translation": ""
+  },
+  {
+    "id": 488,
+    "original_en": "Guardia Castle\nPrison Stairway",
+    "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier de la prison",
+    "translation": ""
+  },
+  {
+    "id": 489,
+    "original_en": "Giant's Claw",
+    "original_fr": "Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 490,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 491,
+    "original_en": "(Event)",
+    "original_fr": "(îvénement)",
+    "translation": ""
+  },
+  {
+    "id": 492,
+    "original_en": "Somewhere\nDestruction of Lavos",
+    "original_fr": "Quelque part\nDestruction de Lavos",
+    "translation": ""
+  },
+  {
+    "id": 493,
+    "original_en": "Somewhere 2\nDestruction of Lavos 2",
+    "original_fr": "Quelque part 2\nDestruction de Lavos 2",
+    "translation": ""
+  },
+  {
+    "id": 494,
+    "original_en": "Death Peak\nLavos Spawn - 3",
+    "original_fr": "Mont des défunts\nLarve de Lavos - 3",
+    "translation": ""
+  }
+]

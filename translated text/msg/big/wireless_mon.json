@@ -1,0 +1,386 @@
+[
+  {
+    "id": 0,
+    "original_en": "Flame Smidge",
+    "original_fr": "Larve ignée",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Water Smidge",
+    "original_fr": "Larve aqueuse",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Light Smidge",
+    "original_fr": "Larve céleste",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Shadow Smidge",
+    "original_fr": "Larve chtonienne",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Hercules Beetle",
+    "original_fr": "Héraclès",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Rhino Weevil",
+    "original_fr": "Charançon",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Holy Knight",
+    "original_fr": "Chevalier sacré",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Royal Guard",
+    "original_fr": "Garde",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Naga",
+    "original_fr": "Myanne",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Bladesman",
+    "original_fr": "îpéiste",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Aecyto Weevil",
+    "original_fr": "Coprophage",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Gorgon",
+    "original_fr": "Gorgone",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Medusa",
+    "original_fr": "Méduse",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Fiendillo",
+    "original_fr": "Roule",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Roundillo",
+    "original_fr": "Maboul",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Ogan",
+    "original_fr": "Ogan",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Deep Ogan",
+    "original_fr": "Ombre d'ogan",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Outlaw",
+    "original_fr": "Hors-la-loi",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Ogan Youth",
+    "original_fr": "Oganox",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Freelancer",
+    "original_fr": "Mercenaire",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Roundillo Bomber",
+    "original_fr": "Bombe maboule",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Ninja",
+    "original_fr": "Hanzô",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Version 2.0",
+    "original_fr": "Modèle 2.0",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Version 4.0",
+    "original_fr": "Modèle 4.0",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Spearman",
+    "original_fr": "Longinus",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Lancer",
+    "original_fr": "Squelette lancier",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Prototype",
+    "original_fr": "Prototype",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Bone Knight",
+    "original_fr": "Chevalier osseux",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Flesh Reaper",
+    "original_fr": "Trépassé",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Macabre",
+    "original_fr": "Macchabée",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Deathscythe",
+    "original_fr": "Faucheur",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Bao Bao",
+    "original_fr": "Baobao",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Gokuu",
+    "original_fr": "Goku",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Crested Sprinter",
+    "original_fr": "Coureur {TAG:3C} crête",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Racer",
+    "original_fr": "Sprinteur",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Terasaur",
+    "original_fr": "Ultrasaure",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Parasaur",
+    "original_fr": "Skanda",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Gigantosaur",
+    "original_fr": "Gigasaure",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Cave Ape",
+    "original_fr": "Orang-outan",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Chrysosaur",
+    "original_fr": "Chrysosaure",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Pink Imp",
+    "original_fr": "Diablotin rose",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Chaos Mage",
+    "original_fr": "Mage du chaos",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Zealot Mage",
+    "original_fr": "Mage de Zhyle",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Stone Imp",
+    "original_fr": "Diablotin gris",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Archmage",
+    "original_fr": "Archimage",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Slate Imp",
+    "original_fr": "Diablotin azur",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Gargoyle",
+    "original_fr": "Gargouille",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Stone Gargoyle",
+    "original_fr": "Pétragargouille",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Spirit Gargoyle",
+    "original_fr": "Gargouille occulte",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Ouroboros",
+    "original_fr": "Ouroboros",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "R-70Y",
+    "original_fr": "R70-Y",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Deathguard",
+    "original_fr": "Sentinelle",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Dokra",
+    "original_fr": "Dokra",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Uberhulk",
+    "original_fr": "Mastodonte",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Ice Demon",
+    "original_fr": "Démon algide",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

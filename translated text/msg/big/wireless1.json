@@ -1,0 +1,608 @@
+[
+  {
+    "id": 0,
+    "original_en": "Scoreboard",
+    "original_fr": "Historique",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "W",
+    "original_fr": "V",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "L",
+    "original_fr": "D",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Accept challenge",
+    "original_fr": "Relever un défi",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Issue challenge",
+    "original_fr": "Lancer un défi",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "View inventory.",
+    "original_fr": "Objets",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Waiting for an opponent.",
+    "original_fr": "Attente d'un adversaire...",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Opponent found.",
+    "original_fr": "Adversaire trouvé.",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Please select an item to wager.",
+    "original_fr": "Quel objet voulez-vous parier ?",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Wager this item?",
+    "original_fr": "Est-ce que cet objet vous convient ?",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Please wait...",
+    "original_fr": "Veuillez patienter...",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "A communication error has occurred.",
+    "original_fr": "La connexion a été interrompue.",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": " acquired!",
+    "original_fr": " !",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{GLYPH:374}'s {GLYPH:391} has fallen silent.",
+    "original_fr": " !",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Return to the stables.",
+    "original_fr": "La bataille\nest terminée.",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Accept an opponent's challenge.",
+    "original_fr": "Relever le défi d'un adversaire.",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Issue an open challenge.",
+    "original_fr": "Attendre un adversaire.",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "View current inventory.",
+    "original_fr": "Consulter votre liste d'objets.",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Whose challenge do you wish to accept?",
+    "original_fr": "Quel adversaire voulez-vous affronter ?",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Prize obtained:",
+    "original_fr": "Obtenu : ",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Lost:",
+    "original_fr": "Perdu : ",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Arena of the Ages",
+    "original_fr": "Arène",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Wins",
+    "original_fr": "Victoires :",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "HP",
+    "original_fr": "PV",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Attack",
+    "original_fr": "Attaque",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Defense",
+    "original_fr": "Défense",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Strength",
+    "original_fr": "Force",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Accuracy",
+    "original_fr": "Précision",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Speed",
+    "original_fr": "Rapidité",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Magic",
+    "original_fr": "Magie",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Evasion",
+    "original_fr": "Esquive",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Stamina",
+    "original_fr": "Endurance",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Magic Defense",
+    "original_fr": "Déf. magique",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Item",
+    "original_fr": "Objet",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Train Monster",
+    "original_fr": "Entra¡ner",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Toggle Display",
+    "original_fr": "Modifier l'affichage",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Release Monster",
+    "original_fr": "Renvoyer",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Please select an item and era\nto use for training.",
+    "original_fr": "Choisissez un objet et une époque\npour l'entra¡nement.",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Future",
+    "original_fr": "Futur",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Present",
+    "original_fr": "Présent",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Middle Ages",
+    "original_fr": "Moyen-{TAG:5F}ge",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Antiquity",
+    "original_fr": "Antiquité",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Prehistory",
+    "original_fr": "Préhistoire",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "A monster will not return once released.\nAre you sure you wish to release it?",
+    "original_fr": "Voulez-vous vraiment renvoyer ce\nmonstre ? Il ne reviendra plus.",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Yes.",
+    "original_fr": "Oui",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "No.",
+    "original_fr": "Non",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Shop",
+    "original_fr": "Magasin",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Buy",
+    "original_fr": "Acheter",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Sell",
+    "original_fr": "Vendre",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Equip",
+    "original_fr": "îquipement",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Funds:",
+    "original_fr": "Argent",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Price:",
+    "original_fr": "Prix",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Nothing available.",
+    "original_fr": "Aucun objet {TAG:3C} acheter.",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Nothing to sell.",
+    "original_fr": "Aucun objet {TAG:3C} vendre.",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Nothing to sell.",
+    "original_fr": "Aucune arme {TAG:3C} vendre.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Nothing to sell.",
+    "original_fr": "Aucun équipement pour\nla tête {TAG:3C} vendre.",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Nothing to sell.",
+    "original_fr": "Aucun équipement pour\nle corps {TAG:3C} vendre.",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "G",
+    "original_fr": "G",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Trust",
+    "original_fr": "Confiance",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "???",
+    "original_fr": "???",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Techs:",
+    "original_fr": "Compétences",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Item:",
+    "original_fr": "Objet utilisé",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Smidge",
+    "original_fr": "Larve",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Initiate",
+    "original_fr": "Nymphe",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Veteran",
+    "original_fr": "Imago",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Master",
+    "original_fr": "Ma¡tre",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Gone for training.",
+    "original_fr": "Le monstre est parti\ns'entra¡ner.",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Returned from training.\nAttributes changed!",
+    "original_fr": "Le monstre est de retour.\nIl a évolué !",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Returned from training.\nLearned a new tech!",
+    "original_fr": "Le monstre est de retour.\nNouvelle compétence !",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Returned from training.\nAffinity became Œ!",
+    "original_fr": "Le monstre est de retour.\nNouvel élément : feu.",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Returned from training.\nAffinity became œ!",
+    "original_fr": "Le monstre est de retour.\nNouvel élément : eau.",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Returned from training.\nAffinity became »!",
+    "original_fr": "Le monstre est de retour.\nNouvel élément : lumière.",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Returned from training.\nAffinity became «!",
+    "original_fr": "Le monstre est de retour.\nNouvel élément : ténèbres.",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Returned from training.\nClass changed!",
+    "original_fr": "Le monstre est de retour.\nSa classe a changé.",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Returned from training.\nObtained {GLYPH:385}!",
+    "original_fr": "Le monstre est de retour.\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "It won its last battle.\nIt appears content.",
+    "original_fr": "Le monstre a gagné sa dernière\nbataille. Il a l'air heureux.",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "It lost its last battle.\nIt appears forlorn.",
+    "original_fr": "Le monstre a perdu sa dernière\nbataille. Il est malheureux.",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "You do not have a monster.",
+    "original_fr": "Vous n'avez pas de monstre.",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": " ",
+    "original_fr": " ",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": " ♪",
+    "original_fr": "♪",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Send monster out to train.",
+    "original_fr": "Envoyer votre monstre s'entra¡ner.",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Toggle display of attributes and tech list.",
+    "original_fr": "Afficher ou non les caractéristiques.",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Set monster free.",
+    "original_fr": "Renvoyer votre monstre.",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "A communication error has occurred.",
+    "original_fr": "Erreur de communication.",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "Preparing arena for battle.",
+    "original_fr": "Préparation de la bataille...",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Congratulations!",
+    "original_fr": "Félicitations !",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Better luck next time!",
+    "original_fr": "Dommage...",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Boosts Max HP.",
+    "original_fr": "Augmente les PV max.",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Teaches fire techs and may alter affinity.",
+    "original_fr": "Confère une comp. / Change parfois l'affinité. Œ",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Teaches water techs and may alter affinity.",
+    "original_fr": "Confère une comp. / Change parfois l'affinité. œ",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Teaches shadow techs and may alter affinity.",
+    "original_fr": "Confère une comp. / Change parfois l'affinité. «",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Teaches light techs and may alter affinity.",
+    "original_fr": "Confère une comp. / Change parfois l'affinité. »",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "Enhances offensive capabilities.",
+    "original_fr": "Augmente les caractéristiques liées {TAG:3C} l'attaque.",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Enhances defensive capabilities.",
+    "original_fr": "Augmente les caractéristiques liées {TAG:3C} la défense.",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Boosts odds of a class change occurring.",
+    "original_fr": "Augmente la probabilité de changer de classe.",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Training for Accuracy and Stamina.",
+    "original_fr": "Augmente la précision et l'endurance.",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Training for Max HP.",
+    "original_fr": "Augmente les PV max.",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Training for Strength.",
+    "original_fr": "Augmente la force.",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Tech training.",
+    "original_fr": "Facilite l'apprentissage d'une compétence.",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Training for Speed.",
+    "original_fr": "Augmente la rapidité.",
+    "translation": ""
+  }
+]

@@ -1,0 +1,2084 @@
+[
+  {
+    "id": 0,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "éWooden Sword",
+    "original_fr": "éSabre de bois",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "éBronze Blade",
+    "original_fr": "éSabre de bronze",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "éSteel Saber",
+    "original_fr": "éSabre d'acier",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "éSilver Sword",
+    "original_fr": "éSabre d'argent",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "éCrimson Blade",
+    "original_fr": "éSabre ècarlate",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "éMammoth Tusk",
+    "original_fr": "éSabre d'ivoire",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "éDark Saber",
+    "original_fr": "éSabre obscur",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "éPrimeval Blade",
+    "original_fr": "éSabre antique",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "éZanmato",
+    "original_fr": "éZanmato",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "éVajra Sword",
+    "original_fr": "éSabre de diamant",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "éEmpyrean Blade",
+    "original_fr": "éSabre cèleste",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "éYaksha Blade",
+    "original_fr": "éYasha",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "éOnimaru",
+    "original_fr": "éOnimaru",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "éSuzaku",
+    "original_fr": "éSuzaku",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "éThunder Blade",
+    "original_fr": "éSabre fulgurant",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "éSlasher",
+    "original_fr": "éSabre de Soja",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "éBronze Bowgun",
+    "original_fr": "éArbalête de bronze",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "éIron Bowgun",
+    "original_fr": "éArbalête de fer",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "éSilver Bow",
+    "original_fr": "éArc d'argent",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "éBandit's Bow",
+    "original_fr": "éRouge-gorge",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "éShaman's Bow",
+    "original_fr": "éArc de shaman",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "éDreamstone Bow",
+    "original_fr": "éArc onirique",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "éComet Bow",
+    "original_fr": "éComête",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "éSonic Bow",
+    "original_fr": "éSupersonique",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "éValkyrie Bow",
+    "original_fr": "éWalkyrie",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "éSiren's Kiss",
+    "original_fr": "éSirêne",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "é",
+    "original_fr": "é",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "é",
+    "original_fr": "é",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "é",
+    "original_fr": "é",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "é",
+    "original_fr": "é",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "éAirgun",
+    "original_fr": "éPistolet ô air",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "éPea Shooter",
+    "original_fr": "éPistolet ô billes",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "éPocket Blaster",
+    "original_fr": "éPistolet de duel",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "éPicomagnum",
+    "original_fr": "éPicomagnum",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "éPlasma Gun",
+    "original_fr": "éPistolet ô plasma",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "éRuby Gun",
+    "original_fr": "éPistolet ô rubis",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "éDreamstone Gun",
+    "original_fr": "éPistolet onirique",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "éMegablaster",
+    "original_fr": "éMègablaster",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "éShockwave",
+    "original_fr": "éOnde de choc",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "éWondershot",
+    "original_fr": "éPistolet miracle",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "éGravitator",
+    "original_fr": "éGravitè",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "é",
+    "original_fr": "é",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "é",
+    "original_fr": "é",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "é",
+    "original_fr": "é",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "é",
+    "original_fr": "é",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "éTin Arm",
+    "original_fr": "éBras de fer-blanc",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "éHammer Arm",
+    "original_fr": "éBras marteau",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "éMirage Hand",
+    "original_fr": "éBras mirage",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "éStone Arm",
+    "original_fr": "éBras de pierre",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "éDeath Claw",
+    "original_fr": "éGriffes lètales",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "éMagma Hand",
+    "original_fr": "éBras de magma",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "éMegaton Arm",
+    "original_fr": "éBras mègatonne",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "éHeavy Hand",
+    "original_fr": "éMain ènorme",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "éKaiser Arm",
+    "original_fr": "éBras de Kaiser",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "éGigaton Arm",
+    "original_fr": "éBras gigatonne",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "éTeraton Arm",
+    "original_fr": "éBras tèratonne",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "éCrisis Arm",
+    "original_fr": "éBras critique",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "é",
+    "original_fr": "é",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "éBronze Sword",
+    "original_fr": "éçpèe de bronze",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "éIron Sword",
+    "original_fr": "éçpèe de fer",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "éMasamune",
+    "original_fr": "éGrandlèon",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "éRadiant Blade",
+    "original_fr": "éçpèe èclatante",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "éSmiter's Blade",
+    "original_fr": "éMagicide",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "éRune Blade",
+    "original_fr": "éçpèe runique",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "éBrave Sword",
+    "original_fr": "éçpèe des braves",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "éMasamune",
+    "original_fr": "éGrandlèon",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "éDemonslayer",
+    "original_fr": "éçpèe dèmonicide",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "éFist",
+    "original_fr": "éPoing",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "éFist",
+    "original_fr": "éPoing",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "éFist",
+    "original_fr": "éPoing",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "éIron Fist",
+    "original_fr": "éPoing de fer",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "éBronze Fist",
+    "original_fr": "éPoing herculèen",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "é",
+    "original_fr": "é",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "é",
+    "original_fr": "é",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "éMoonfall Scythe",
+    "original_fr": "éFaux tènèbreuse",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "éHeadman's Scythe",
+    "original_fr": "éFaux meurtriêre",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "éHadean Sickle",
+    "original_fr": "éFaux infernale",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "éDoom Scythe",
+    "original_fr": "éFaux du dèsespoir",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "éMop",
+    "original_fr": "éBalai ô franges",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "éBroken Blade",
+    "original_fr": "éLame brisèe",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "éBroken Hilt",
+    "original_fr": "éPoignèe d'èpèe",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "éMasamune",
+    "original_fr": "éGrandlèon",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "éSwallow",
+    "original_fr": "éTsubame",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "éSlasher II",
+    "original_fr": "éSabre de Soja II",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "éRainbow",
+    "original_fr": "éNiji",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "éIcewyrm",
+    "original_fr": "éSeiryÀ",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "éStardust Bow",
+    "original_fr": "éStella",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "éTurboshot",
+    "original_fr": "éPistolet presto",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "éDinoblade",
+    "original_fr": "éçpèe prèhistorique",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "éDragon Arm",
+    "original_fr": "éBras draconien",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "éJudgment Scythe",
+    "original_fr": "éFaux du jugement",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "éDreamseeker",
+    "original_fr": "éMugen",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "éVenus Bow",
+    "original_fr": "éVènus",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "éSpellslinger",
+    "original_fr": "éPistolet occulte",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "éApocalypse Arm",
+    "original_fr": "éApocalypse",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "éDreamreaper",
+    "original_fr": "éCauchemar",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "éHide Tunic",
+    "original_fr": "éVeste de cuir",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "éPadded Vest",
+    "original_fr": "éTunique",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "éBronze Armor",
+    "original_fr": "éArmure de bronze",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "éMaiden's Suit",
+    "original_fr": "éHaubert fèminin",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "éIron Suit",
+    "original_fr": "éArmure d'acier",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "éTitanium Vest",
+    "original_fr": "éVeste de titane",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "éGolden Suit",
+    "original_fr": "éArmure d'or",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "éRuby Vest",
+    "original_fr": "éVeste de rubis",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "éDark Mail",
+    "original_fr": "éArmure obscure",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "éMist Robe",
+    "original_fr": "éToge de brume",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "éMesozoic Mail",
+    "original_fr": "éPlastron osseux",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "éLuminous Robe",
+    "original_fr": "éToge de lumiêre",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "éRadiant Plate",
+    "original_fr": "éPlastron èclatant",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "éPlatinum Vest",
+    "original_fr": "éVeste de platine",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "éAeonian Suit",
+    "original_fr": "éHaubert èternel",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "éZodiac Cape",
+    "original_fr": "éCape ètoilèe",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "éNova Armor",
+    "original_fr": "éArmure nova",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "éPrismatic Dress",
+    "original_fr": "éRobe irisèe",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "éMoonbeam Armor",
+    "original_fr": "éArmure lunaire",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "éRuby Armor",
+    "original_fr": "éArmure de rubis",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "éRaven Armor",
+    "original_fr": "éArmure de jais",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "éGloom Cape",
+    "original_fr": "éCape du dèsespoir",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "éWhite Plate",
+    "original_fr": "éPlastron blanc",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "éBlack Plate",
+    "original_fr": "éPlastron noir",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "éBlue Plate",
+    "original_fr": "éPlastron bleu",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "éRed Plate",
+    "original_fr": "éPlastron rouge",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "éWhite Vest",
+    "original_fr": "éVeste blanche",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "éBlack Vest",
+    "original_fr": "éVeste noire",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "éBlue Vest",
+    "original_fr": "éVeste bleue",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "éRed Vest",
+    "original_fr": "éVeste rouge",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "éTaban's Vest",
+    "original_fr": "éVeste de Taban",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "éTaban's Suit",
+    "original_fr": "éHaubert de Taban",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "éDragon Armor",
+    "original_fr": "éArmure de dragon",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "éReptite Dress",
+    "original_fr": "éParure de guivre",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "éSaurian Leathers",
+    "original_fr": "éPeau de dinosaure",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "éRegal Plate",
+    "original_fr": "éPlastron royal",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "éRegal Gown",
+    "original_fr": "éRobe de bal",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "éElemental Aegis",
+    "original_fr": "éCotte èlèmentaire",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "éShadowplume Robe",
+    "original_fr": "éAube des tènêbres",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "éHide Cap",
+    "original_fr": "éChapeau de cuir",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "éBronze Helm",
+    "original_fr": "éArmet de bronze",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "éIron Helm",
+    "original_fr": "éArmet d'acier",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "éPorrean Beret",
+    "original_fr": "éBèret de Palpori",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "éGolden Helm",
+    "original_fr": "éArmet d'or",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "éStone Helm",
+    "original_fr": "éArmet de pierre",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "éTriceratopper",
+    "original_fr": "éArmet osseux",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "éRadiant Helm",
+    "original_fr": "éArmet èclatant",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "éPlatinum Helm",
+    "original_fr": "éArmet de platine",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "éAeonian Helm",
+    "original_fr": "éArmet èternel",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "éPrismatic Helm",
+    "original_fr": "éArmet irisè",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "éDoom Helm",
+    "original_fr": "éArmet du trèpas",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "éDark Helm",
+    "original_fr": "éArmet obscur",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "éGloom Helm",
+    "original_fr": "éArmet des damnès",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "éGuardian Helm",
+    "original_fr": "éArmet gardien",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "éTaban's Helm",
+    "original_fr": "éArmet de Taban",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "éClarity Cap",
+    "original_fr": "éToque de luciditè",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "éMemory Cap",
+    "original_fr": "éToque de mèmoire",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "éTime Hat",
+    "original_fr": "éToque temporelle",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "éVigilant's Hat",
+    "original_fr": "éToque protectrice",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "éOzzie Pants",
+    "original_fr": "éCale«on de Vinnie",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "éHaste Helm",
+    "original_fr": "éArmet de cèlèritè",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "éRainbow Helm",
+    "original_fr": "éArmet prismatique",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "éMermaid Helm",
+    "original_fr": "éArmet de sirêne",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "éDragonhead",
+    "original_fr": "éCr»ne de dragon",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "éReptite Tiara",
+    "original_fr": "éDiadême de guivre",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "éMaster's Crown",
+    "original_fr": "éLauriers maëtres",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "éAngel's Tiara",
+    "original_fr": "éNimbe angèlique",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "éHeadband",
+    "original_fr": "éBandeau",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "éRibbon",
+    "original_fr": "éRuban",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "éPower Glove",
+    "original_fr": "éGants de force",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "éGuardian Bangle",
+    "original_fr": "éBracelet gardien",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "éMagic Scarf",
+    "original_fr": "éFoulard magique",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "éSchala's Amulet",
+    "original_fr": "éAmulette de Sarah",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "éSpeed Ring",
+    "original_fr": "éBague de rapiditè",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "éAcuity Ring",
+    "original_fr": "éBague prècision",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "éPower Ring",
+    "original_fr": "éBague de force",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "éMagic Ring",
+    "original_fr": "éBague de magie",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "éBarrier Ring",
+    "original_fr": "éBague barriêre",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "éSilver Earring",
+    "original_fr": "éPendant d'argent",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "éGolden Earring",
+    "original_fr": "éPendant d'or",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "éSilver Stud",
+    "original_fr": "éBoucle d'argent",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "éGolden Stud",
+    "original_fr": "éBoucle d'or",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "éSight Scope",
+    "original_fr": "éMonocle d'analyse",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "éAlluring Top",
+    "original_fr": "éBustier sèduisant",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "éRage Band",
+    "original_fr": "éBracelet de colêre",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "éWrath Band",
+    "original_fr": "éBracelet de furie",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "éThird Eye",
+    "original_fr": "éTroisiême ïil",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "éWorkman's Wallet",
+    "original_fr": "éBourse magique",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "éGreen Dream",
+    "original_fr": "éRùve vert",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "éBerserker Ring",
+    "original_fr": "éBague de berserk",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "éPower Scarf",
+    "original_fr": "éçcharpe de force",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "éSpeed Belt",
+    "original_fr": "éCeinture rapiditè",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "éBlack Gemstone",
+    "original_fr": "éPierre noire",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "éBlue Gemstone",
+    "original_fr": "éPierre bleue",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "éSilver Gemstone",
+    "original_fr": "éPierre argentèe",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "éWhite Gemstone",
+    "original_fr": "éPierre blanche",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "éGolden Gemstone",
+    "original_fr": "éPierre dorèe",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "éHero's Badge",
+    "original_fr": "éMèdaille du hèros",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "éMuscle Ring",
+    "original_fr": "éBague de titan",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "éFlea Bustier",
+    "original_fr": "éBustier de Mayo",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "éMagic Crest",
+    "original_fr": "éSceau magique",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "éPower Crest",
+    "original_fr": "éSceau physique",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "éAccessory",
+    "original_fr": "éAccessoire",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "éSeraph Song",
+    "original_fr": "éMurmure d'ange",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "éSunglasses",
+    "original_fr": "éLunettes du soleil",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "éPrism Spectacles",
+    "original_fr": "éLunettes irisèes",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "éValor Crest",
+    "original_fr": "éBlason des braves",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "éChampion's Badge",
+    "original_fr": "éEmblême du preux",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "éDragon's Tear",
+    "original_fr": "éLarme de dragon",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "éNu Arcana",
+    "original_fr": "éArcanes des gnus",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "éUranian Mirror",
+    "original_fr": "éMiroir d'Uranus",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "éPontic Mirror",
+    "original_fr": "éMiroir de Neptune",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "éPromethean Mirror",
+    "original_fr": "éMiroir de Vulcain",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "éHadean Mirror",
+    "original_fr": "éMiroir de Pluton",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "éAresian Mirror",
+    "original_fr": "éMiroir de Mars",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 256,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 257,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 258,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 259,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 260,
+    "original_en": "éPotion",
+    "original_fr": "éPotion",
+    "translation": ""
+  },
+  {
+    "id": 261,
+    "original_en": "éMid-Potion",
+    "original_fr": "éSuper-potion",
+    "translation": ""
+  },
+  {
+    "id": 262,
+    "original_en": "éHi-Potion",
+    "original_fr": "éMèga-potion",
+    "translation": ""
+  },
+  {
+    "id": 263,
+    "original_en": "éEther",
+    "original_fr": "éçther",
+    "translation": ""
+  },
+  {
+    "id": 264,
+    "original_en": "éMid-Ether",
+    "original_fr": "éSuper-èther",
+    "translation": ""
+  },
+  {
+    "id": 265,
+    "original_en": "éHi-Ether",
+    "original_fr": "éMèga-èther",
+    "translation": ""
+  },
+  {
+    "id": 266,
+    "original_en": "éElixir",
+    "original_fr": "éçlixir",
+    "translation": ""
+  },
+  {
+    "id": 267,
+    "original_en": "éTurbo Ether",
+    "original_fr": "éMaxi-èther",
+    "translation": ""
+  },
+  {
+    "id": 268,
+    "original_en": "éMegalixir",
+    "original_fr": "éUltra-èlixir",
+    "translation": ""
+  },
+  {
+    "id": 269,
+    "original_en": "éPanacea",
+    "original_fr": "éPanacèe",
+    "translation": ""
+  },
+  {
+    "id": 270,
+    "original_en": "éAthenian Water",
+    "original_fr": "éNectar d'Athèna",
+    "translation": ""
+  },
+  {
+    "id": 271,
+    "original_en": "éShelter",
+    "original_fr": "éTente",
+    "translation": ""
+  },
+  {
+    "id": 272,
+    "original_en": "éAmbrosia",
+    "original_fr": "éPanier-repas",
+    "translation": ""
+  },
+  {
+    "id": 273,
+    "original_en": "éLapis",
+    "original_fr": "éLapis-lazuli",
+    "translation": ""
+  },
+  {
+    "id": 274,
+    "original_en": "éBarrier Sphere",
+    "original_fr": "éSphêre barriêre",
+    "translation": ""
+  },
+  {
+    "id": 275,
+    "original_en": "éShield Sphere",
+    "original_fr": "éSphêre bouclier",
+    "translation": ""
+  },
+  {
+    "id": 276,
+    "original_en": "éStrength Capsule",
+    "original_fr": "éGèlule de force",
+    "translation": ""
+  },
+  {
+    "id": 277,
+    "original_en": "éMagic Capsule",
+    "original_fr": "éGèlule de magie",
+    "translation": ""
+  },
+  {
+    "id": 278,
+    "original_en": "éSpeed Capsule",
+    "original_fr": "éGèlule de rapiditè",
+    "translation": ""
+  },
+  {
+    "id": 279,
+    "original_en": "éSlops",
+    "original_fr": "éP»ture",
+    "translation": ""
+  },
+  {
+    "id": 280,
+    "original_en": "éFlameclaw",
+    "original_fr": "éGriffe ardente",
+    "translation": ""
+  },
+  {
+    "id": 281,
+    "original_en": "éSeafang",
+    "original_fr": "éCroc aqueux",
+    "translation": ""
+  },
+  {
+    "id": 282,
+    "original_en": "éDuskeye",
+    "original_fr": "éûil tènèbreux",
+    "translation": ""
+  },
+  {
+    "id": 283,
+    "original_en": "éLuxwing",
+    "original_fr": "éAile lumineuse",
+    "translation": ""
+  },
+  {
+    "id": 284,
+    "original_en": "éHawk Talon",
+    "original_fr": "éSerres d'aigle",
+    "translation": ""
+  },
+  {
+    "id": 285,
+    "original_en": "éShield Cloak",
+    "original_fr": "éCape protectrice",
+    "translation": ""
+  },
+  {
+    "id": 286,
+    "original_en": "éFeral Wrath",
+    "original_fr": "éForce sauvage",
+    "translation": ""
+  },
+  {
+    "id": 287,
+    "original_en": "éSmoked Meat",
+    "original_fr": "éViande grillèe",
+    "translation": ""
+  },
+  {
+    "id": 288,
+    "original_en": "éDried Mushroom",
+    "original_fr": "éChampignon sèchè",
+    "translation": ""
+  },
+  {
+    "id": 289,
+    "original_en": "éSweet Banana",
+    "original_fr": "éBanane sucrèe",
+    "translation": ""
+  },
+  {
+    "id": 290,
+    "original_en": "éMillennia Fruit",
+    "original_fr": "éGland millènaire",
+    "translation": ""
+  },
+  {
+    "id": 291,
+    "original_en": "éSongbird Egg",
+    "original_fr": "éûuf d'oiseau",
+    "translation": ""
+  },
+  {
+    "id": 292,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 293,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 294,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 295,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 296,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 297,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 298,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 299,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 300,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 301,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 302,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 303,
+    "original_en": "éPetal",
+    "original_fr": "éPètale",
+    "translation": ""
+  },
+  {
+    "id": 304,
+    "original_en": "éFang",
+    "original_fr": "éCroc",
+    "translation": ""
+  },
+  {
+    "id": 305,
+    "original_en": "éHorn",
+    "original_fr": "éCorne",
+    "translation": ""
+  },
+  {
+    "id": 306,
+    "original_en": "éFeather",
+    "original_fr": "éPlume",
+    "translation": ""
+  },
+  {
+    "id": 307,
+    "original_en": "éSeed",
+    "original_fr": "éGraines",
+    "translation": ""
+  },
+  {
+    "id": 308,
+    "original_en": "éJetbike Key",
+    "original_fr": "éClef de moto",
+    "translation": ""
+  },
+  {
+    "id": 309,
+    "original_en": "éPendant",
+    "original_fr": "éPendentif",
+    "translation": ""
+  },
+  {
+    "id": 310,
+    "original_en": "éGate Key",
+    "original_fr": "éClef stabilisatrice",
+    "translation": ""
+  },
+  {
+    "id": 311,
+    "original_en": "éRainbow Shard",
+    "original_fr": "éçclat irisè",
+    "translation": ""
+  },
+  {
+    "id": 312,
+    "original_en": "éChrono Trigger",
+    "original_fr": "éChrono Trigger",
+    "translation": ""
+  },
+  {
+    "id": 313,
+    "original_en": "éCarpenter's Tools",
+    "original_fr": "éBoëte ô outils",
+    "translation": ""
+  },
+  {
+    "id": 314,
+    "original_en": "éSpiced Jerky",
+    "original_fr": "éJambon èpicè",
+    "translation": ""
+  },
+  {
+    "id": 315,
+    "original_en": "éDreamstone",
+    "original_fr": "éPierre onirique",
+    "translation": ""
+  },
+  {
+    "id": 316,
+    "original_en": "éRace Recorder",
+    "original_fr": "éEnregistreur",
+    "translation": ""
+  },
+  {
+    "id": 317,
+    "original_en": "éMoon Stone",
+    "original_fr": "éPierre obscure",
+    "translation": ""
+  },
+  {
+    "id": 318,
+    "original_en": "éSun Stone",
+    "original_fr": "éPierre du soleil",
+    "translation": ""
+  },
+  {
+    "id": 319,
+    "original_en": "éRuby Knife",
+    "original_fr": "éCouteau ècarlate",
+    "translation": ""
+  },
+  {
+    "id": 320,
+    "original_en": "éYakra's Key",
+    "original_fr": "éClef de Yakra",
+    "translation": ""
+  },
+  {
+    "id": 321,
+    "original_en": "éDoppel Doll",
+    "original_fr": "éPoupèe clone",
+    "translation": ""
+  },
+  {
+    "id": 322,
+    "original_en": "éToma's Spirits",
+    "original_fr": "éVin de Toma",
+    "translation": ""
+  },
+  {
+    "id": 323,
+    "original_en": "é2 Petals",
+    "original_fr": "é2 pètales",
+    "translation": ""
+  },
+  {
+    "id": 324,
+    "original_en": "é2 Fangs",
+    "original_fr": "é2 crocs",
+    "translation": ""
+  },
+  {
+    "id": 325,
+    "original_en": "é2 Horns",
+    "original_fr": "é2 cornes",
+    "translation": ""
+  },
+  {
+    "id": 326,
+    "original_en": "é2 Feathers",
+    "original_fr": "é2 plumes",
+    "translation": ""
+  },
+  {
+    "id": 327,
+    "original_en": "éGolden Sand",
+    "original_fr": "éSable dorè",
+    "translation": ""
+  },
+  {
+    "id": 328,
+    "original_en": "éGolden Hammer",
+    "original_fr": "éMaillet dorè",
+    "translation": ""
+  },
+  {
+    "id": 329,
+    "original_en": "éPrismastone",
+    "original_fr": "éPierre irisèe",
+    "translation": ""
+  },
+  {
+    "id": 330,
+    "original_en": "éSaintstone",
+    "original_fr": "éPierre miraculeuse",
+    "translation": ""
+  },
+  {
+    "id": 331,
+    "original_en": "éReptmark",
+    "original_fr": "éEmblême saurien",
+    "translation": ""
+  },
+  {
+    "id": 332,
+    "original_en": "éWaystone",
+    "original_fr": "éPierre guide",
+    "translation": ""
+  },
+  {
+    "id": 333,
+    "original_en": "éGodwood",
+    "original_fr": "éBois divin",
+    "translation": ""
+  },
+  {
+    "id": 334,
+    "original_en": "éSteel Ingot",
+    "original_fr": "éMorceau d'acier",
+    "translation": ""
+  },
+  {
+    "id": 335,
+    "original_en": "éSturdy Vines",
+    "original_fr": "éLierre rèsistant",
+    "translation": ""
+  },
+  {
+    "id": 336,
+    "original_en": "éHearty Lunch",
+    "original_fr": "éPanier garni",
+    "translation": ""
+  },
+  {
+    "id": 337,
+    "original_en": "éRusted Blade",
+    "original_fr": "éSabre rouillè",
+    "translation": ""
+  },
+  {
+    "id": 338,
+    "original_en": "éLumicite Shard",
+    "original_fr": "éLumilithe",
+    "translation": ""
+  },
+  {
+    "id": 339,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 340,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 341,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 342,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 343,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 344,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 345,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 346,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  }
+]

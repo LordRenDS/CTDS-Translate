@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "The range of effect varies between techs.",
+    "original_fr": "Les compétences que vous utilisez pendant les combats\nont différentes portées et aires d'effet.",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Some techs affect an area surrounding the target,\ndealing damage to all enemies in the vicinity.",
+    "original_fr": "Parlons d'abord des attaques qui infligent des dég{TAG:4A}ts\nde zone.",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "For example, target this little beastie...",
+    "original_fr": "Elles sont centrées sur un ennemi et affectent\négalement ceux qui se trouvent autour de lui.\nPar exemple, si vous ciblez celui-ci...",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "...and your attack will hit the neighboring\nmonster as well, since it is within range.",
+    "original_fr": "... vous pourrez infliger des dég{TAG:4A}ts {TAG:3C} deux monstres.",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "But if you target this one in the center...",
+    "original_fr": "Mais si vous ciblez celui du milieu...",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "...you can hit all three at once!\nUse the tech's reach to your advantage.",
+    "original_fr": "... vous pourrez infliger des dég{TAG:4A}ts {TAG:3C} trois monstres en\nmême temps. Comme vous le voyez, il est important de\nbien choisir sa cible.",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Next, there are techs that hit enemies along\na straight line.",
+    "original_fr": "Ensuite, parlons des attaques qui infligent des dég{TAG:4A}ts\naux ennemis en ligne droite.",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "These types of techs come in two varieties.\nLet's take a look at the first one.",
+    "original_fr": "Il en existe deux types différents.",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "This type of tech allows you to attack all the\nenemies located on a straight line extending\nfrom you and passing through your target.\nIn this case, it would strike three enemies.",
+    "original_fr": "Le premier type inflige des dég{TAG:4A}ts {TAG:3C} tous les ennemis\nsitués en ligne droite, soit, dans le cas présent, trois\nennemis.",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "You could target any one of the enemies along\nthe line and the effect would be the same.",
+    "original_fr": "Vous pouvez alors cibler n'importe quel ennemi de la\nligne pour obtenir le même effet.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Now let's see the other variety.",
+    "original_fr": "Le deuxième type inflige des dég{TAG:4A}ts uniquement aux\nennemis situés entre vous et la cible sélectionnée.",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "A tech like this only allows you to hit enemies\nalong the line that connects you and your target.",
+    "original_fr": "Il vaut donc mieux choisir l'ennemi le plus éloigné pour\nétendre la ligne au maximum.",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "If you target the farthest enemy, you can still\ndeal damage to all three.",
+    "original_fr": "Ainsi, dans le cas présent, vous pouvez infliger des\ndég{TAG:4A}ts {TAG:3C} trois ennemis en même temps, comme dans\nl'exemple précédent.",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "But select this one, and that's all you'll get!",
+    "original_fr": "Par contre, si vous ciblez l'ennemi le plus proche,\nvotre attaque n'atteindra pas ceux qui se trouvent\nderrière lui.",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "A third type of tech strikes all enemies along\na horizontal line passing through your target.",
+    "original_fr": "Parlons maintenant des attaques qui infligent des\ndég{TAG:4A}ts aux ennemis en ligne horizontale.",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "All that matters is that your enemies form a line.",
+    "original_fr": "Dans ce cas, si les ennemis sont alignés\nhorizontalement...",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "The final pattern puts you at the center of the\nattack zone.",
+    "original_fr": "La dernière catégorie d'attaque est celle qui inflige des\ndég{TAG:4A}ts aux ennemis situés près de vous.",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "You can't use an attack like this if there are\nno enemies within range.",
+    "original_fr": "Vous ne pouvez pas utiliser ce type d'attaque\nlorsque les ennemis sont trop loin, comme c'est\nle cas actuellement.",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "But if you find yourself surrounded, using one\nof these techs will allow you to deal damage to\nall of the enemies in the circle around you.",
+    "original_fr": "Cependant, si les ennemis sont {TAG:3C} l'intérieur de la zone\nd'effet, vous pourrez tous les atteindre !",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "As long as they do, targeting any of them\nwill have the same effect.",
+    "original_fr": "... vous pouvez cibler n'importe lequel d'entre eux.",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Queen: I know what you have seen.\nIt is your futures that slumber in this hall.\nDestiny, in its essential form.{WAIT_KEY}\nAll the dreams that might have been.\nAll the happiness, and sorrow, you might have known.\nYour tomorrow, as it has been witnessed.",
+    "original_fr": "Reine : Mouah, ha, ha, ha... Votre futur sommeille ici...{WAIT_KEY}\nLes rêves encore irréalisés... Les joies et les peines...\nTout ce qui appartient {TAG:3C} votre avenir !",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Queen: The Black Omen transcends time and space,\ndrifting through the all and nothing, waiting\nfor Lavos to awaken.{WAIT_KEY}\nDestiny has led you here, and here you shall remain.\nUnless you can defeat me and bring down the Omen,\nthere is no future for you!",
+    "original_fr": "Reine : Le Songe obscur traverse les dimensions\ntemporelles, attendant patiemment l'éveil de Lavos...{WAIT_KEY}\nIl est l'inéluctable et ultime destination de votre avenir.{WAIT_KEY}\nÂ moins de me vaincre et d'arrêter le Songe obscur,\nvous n'avez pas de lendemain !",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Queen: Come, children! Lavos slumbers. \nI will guide you into the depths of his dream.{WAIT_KEY}\nDid I say dream? I meant, of course, his eternal\nnightmare!",
+    "original_fr": "Reine : Venez, enfants de l'Homme !\nJe vous invite {TAG:3C} pénétrer dans le sommeil de Lavos...{WAIT_KEY}\nDans l'éternel Songe obscur...!",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Queen: Argh! My powers don't seem to work here!{WAIT_KEY}\nAh, but I've a better idea! I can feed you to the\nMammon Machine!{WAIT_KEY}\nYou'll be made one with the Omen, Lavos—and me!",
+    "original_fr": "Reine : Je ne peux pas faire appel {TAG:3C} mon pouvoir ici...{WAIT_KEY}\nAh, je viens d'avoir une bonne idée. Je vais vous jeter\ndans le réceptacle sacré ! Vous devriez être heureux...{WAIT_KEY}\nVous allez devenir une partie de ce vaisseau !\nUne partie de moi ! Une partie de Lavos !",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "{GLYPH:384}\nObtained Moon Stone!",
+    "original_fr": "{GLYPH:384}\nVous obtenez la pierre obscure !",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "{LUCCA}: This is the ancient Sun Stone?\nIt looks like it's been drained of all its energy.",
+    "original_fr": "{LUCCA} : Est-ce la pierre du soleil de l'Antiquité ?\nElle ne brille plus du tout après tant de temps...",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "We could probably recharge it with sunlight,\nbut that would take aeons.",
+    "original_fr": "Nous pourrions peut-être lui redonner son éclat en la\nlaissant au soleil, mais ça prendrait probablement des\nmillions d'années.",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "{ROBO}: This is the Sun Stone of antiquity?\nIt appears to have lost the light it once possessed.",
+    "original_fr": "{ROBO} : Est-ce la pierre du soleil de l'Antiquité ?\nTant de temps s'est écoulé, on dirait qu'elle ne brille\nplus du tout...",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "However, it may be possible to recharge it by exposing\nit to sunlight for a long enough period of time. By my\nbest estimate, it would require a minimum of 65 million\nyears of constant exposure.",
+    "original_fr": "Nous pourrions peut-être lui redonner son éclat en la\nlaissant au soleil.{WAIT_KEY}\nSelon mes calculs, plus de 65 000 000 d'années seraient\nnécessaires.",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{MAGUS}: So this is the Sun Stone.\nIts power has been lost over these long years.",
+    "original_fr": "{MAGUS} : Ah, voil{TAG:3C} la pierre du soleil.\nAurait-elle perdu son éclat après tant d'années ?",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "With the sun's energy, it could likely be renewed.{WAIT_KEY}\nBut that would take at least 65 million years.",
+    "original_fr": "Nous pourrions peut-être le lui redonner en la laissant\nau soleil.{WAIT_KEY}\nCependant, ça prendrait plus de 65 000 000 d'années.",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{MARLE}: Is this the Sun Stone?\nThere's no light left in it.",
+    "original_fr": "{MARLE} : N'est-ce pas la pierre du soleil de\nl'Antiquité ? Elle ne brille plus, par contre...",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Maybe if we let it bask in constant sunlight again,\nit will get its glow back. Might take a while, though.",
+    "original_fr": "On pourrait peut-être lui redonner son éclat en\nla laissant au soleil, mais il faudrait des millions\nd'années pour que ça fonctionne !",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{FROG}: Is this the Sun Stone of old?\nIts flame has long since faded, I fear.",
+    "original_fr": "{FROG} : Est-ce la pierre du soleil de l'Antiquité ?\nElle ne brille plus du tout.",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Mayhap the sun could rekindle it, given time to do\nits work. But how many long years would that require?",
+    "original_fr": "Nous pourrions peut-être lui redonner son éclat en la\nlaissant au soleil. Combien de temps lui faudrait-il pour\nabsorber l'énergie du soleil ?",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "That girl {LUCCA} was over in the square going on\nabout how she'd made the discovery of a lifetime.",
+    "original_fr": "{LUCCA} a annoncé qu'elle ferait la présentation du\nsiècle {TAG:3C} la foire du millénaire.",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Heh heh...\nA man's never too old to collect Silver Points!",
+    "original_fr": "Ha, ha, on n'est jamais trop vieux pour accumuler des\npoints d'argent !",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Hmm... I was looking forward to the King's\nparade, but it still hasn't gotten underway.\nI wonder if something's wrong?",
+    "original_fr": "Au fait... Le défilé du roi n'a toujours pas commencé.\nJ'ai h{TAG:4A}te de le voir... Je me demande ce qui se passe.",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Something tells me I'm as happy now as I'll ever be.",
+    "original_fr": "Je suis si heureuse maintenant que j'aimerais parfois\nque le temps s'arrête...",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

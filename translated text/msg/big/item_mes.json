@@ -1,0 +1,2084 @@
+[
+  {
+    "id": 0,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Magic +2.",
+    "original_fr": "Magie +2",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Damage °1.5 to magical beings.",
+    "original_fr": "Dég{TAG:4A}ts aux créatures magiques +50%",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Damage °4 for critical hits.",
+    "original_fr": "Rend les coups critiques 4° plus puissants.",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Speed +2.",
+    "original_fr": "Rapidité +2",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "May inflict Slow.",
+    "original_fr": "Inflige parfois Lenteur.",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "May inflict Stop.",
+    "original_fr": "Inflige parfois Stop.",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "May inflict Stop on robots.",
+    "original_fr": "Inflige parfois Stop aux machines.",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "May inflict Confuse.",
+    "original_fr": "Inflige parfois Confusion.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Play time determines damage.",
+    "original_fr": "Dég{TAG:4A}ts variables.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "May halve enemy's HP.",
+    "original_fr": "Réduit parfois les PV de la cible de moitié.",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Last digit of own HP determines damage.",
+    "original_fr": "Dég{TAG:4A}ts variables suivant l'unité des PV.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Damage °1.5 to magical beings.",
+    "original_fr": "Dég{TAG:4A}ts aux créatures magiques +50%",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Magic +4.",
+    "original_fr": "Magie +4",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Damage °2 to magical beings.",
+    "original_fr": "Dég{TAG:4A}ts aux créatures magiques +100%",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "May inflict Confuse.",
+    "original_fr": "Inflige parfois Confusion.",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Critical hits deal 9999 damage.",
+    "original_fr": "Coups critiques infligent 9999 points de dég{TAG:4A}ts.",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Attack power grows when allies are KO'd.",
+    "original_fr": "Bonus de dég{TAG:4A}ts en cas de Coma d'un allié.",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Speed +3.",
+    "original_fr": "Rapidité +3",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "70% critical hit rate.",
+    "original_fr": "Probabilité de coup critique : 70%",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "May inflict Confuse.",
+    "original_fr": "Inflige parfois Confusion.",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Speed +3.",
+    "original_fr": "Rapidité +3",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "Strength +5.",
+    "original_fr": "Force +5",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "May inflict Stop.",
+    "original_fr": "Inflige parfois Stop.",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "90% critical hit rate.",
+    "original_fr": "Probabilité de coup critique : 90%",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Guaranteed 777 damage.",
+    "original_fr": "Inflige toujours 777 points de dég{TAG:4A}ts.",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Last digit of own MP determines damage.",
+    "original_fr": "Dég{TAG:4A}ts variables suivant l'unité des PM.",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "May inflict 9999 damage.",
+    "original_fr": "Inflige parfois 9999 points de dég{TAG:4A}ts.",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Damage °4 for critical hits.",
+    "original_fr": "Rend les coups critiques 4° plus puissants.",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Halves fire damage.",
+    "original_fr": "Dég{TAG:4A}ts de feu -50%",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "Magic Defense +5.",
+    "original_fr": "Défense magique +5",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Magic Defense +5.",
+    "original_fr": "Défense magique +5",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "Magic Defense +10.",
+    "original_fr": "Défense magique +10",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Prevents all status ailments.",
+    "original_fr": "Protège des altérations d'état.",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "Reduces magical damage by 1/3.",
+    "original_fr": "Dég{TAG:4A}ts magiques -33%",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Magic Defense +10.",
+    "original_fr": "Défense magique +10",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Reduces fire damage to 1/5.",
+    "original_fr": "Dég{TAG:4A}ts de feu -80%",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "Absorbs light damage.",
+    "original_fr": "Absorbe les dég{TAG:4A}ts de lumière.",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Absorbs shadow damage.",
+    "original_fr": "Absorbe les dég{TAG:4A}ts de ténèbres.",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Absorbs water damage.",
+    "original_fr": "Absorbe les dég{TAG:4A}ts d'eau.",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Absorbs fire damage.",
+    "original_fr": "Absorbe les dég{TAG:4A}ts de feu.",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "Absorbs 50% of light damage.",
+    "original_fr": "Absorbe 50% des dég{TAG:4A}ts de lumière.",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "Absorbs 50% of shadow damage.",
+    "original_fr": "Absorbe 50% des dég{TAG:4A}ts de ténèbres.",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Absorbs 50% of water damage.",
+    "original_fr": "Absorbe 50% des dég{TAG:4A}ts d'eau.",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "Absorbs 50% of fire damage.",
+    "original_fr": "Absorbe 50% des dég{TAG:4A}ts de feu.",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "Speed +2, halves fire damage.",
+    "original_fr": "Rapidité +2 et dég{TAG:4A}ts de feu -50%",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "Speed +3, halves fire damage.",
+    "original_fr": "Rapidité +3 et dég{TAG:4A}ts de feu -50%",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Strength +10.",
+    "original_fr": "Force +10",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "Magic +10.",
+    "original_fr": "Magie +10",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Speed +3, Strength +3.",
+    "original_fr": "Rapidité +3 et force +3",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Stamina +10, Magic Defense +10.",
+    "original_fr": "Endurance +10 et défense magique +10",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "Reduces all damage by 1/3.",
+    "original_fr": "Dég{TAG:4A}ts -33%",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Nullifies all elemental damage.",
+    "original_fr": "Annule tous les dég{TAG:4A}ts élémentaires.",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "Mag. Def. +20, reduces magical damage.",
+    "original_fr": "Défense magique +20 / Réduit dég{TAG:4A}ts magiques.",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "Mag. Def. +9, prevents all status ailments.",
+    "original_fr": "Déf. magique +9 / Protège des altérations d'état.",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "Halves shadow damage.",
+    "original_fr": "Dég{TAG:4A}ts de ténèbres -50%",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "Prevents all status ailments.",
+    "original_fr": "Protège des altérations d'état.",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "Reduces physical damage by 1/3.",
+    "original_fr": "Dég{TAG:4A}ts physiques -33%",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "Magic Defense +10.",
+    "original_fr": "Défense magique +10",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "Prevents Confuse.",
+    "original_fr": "Protège contre Confusion.",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "Prevents Lock.",
+    "original_fr": "Protège contre Oubli.",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "Prevents Stop and Slow.",
+    "original_fr": "Protège contre Stop et Lenteur.",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "Prevents all status ailments.",
+    "original_fr": "Protège des altérations d'état.",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "???",
+    "original_fr": "???",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "Halves time between turns.",
+    "original_fr": "Réduit de moitié le délai d'action.",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Halves light damage.",
+    "original_fr": "Dég{TAG:4A}ts de lumière -50%",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "Halves water damage.",
+    "original_fr": "Dég{TAG:4A}ts d'eau -50%",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "Strength +5.",
+    "original_fr": "Force +5",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "Magic +5.",
+    "original_fr": "Magie +5",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "Boosts damage, prevents status ailments.",
+    "original_fr": "Dég{TAG:4A}ts … / Protège des altérations d'état.",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "Faster turns, prevents all status ailments.",
+    "original_fr": "Délai d'action {TAG:7B} / Protège des altérations d'état.",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "Speed +1.",
+    "original_fr": "Rapidité +1",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "Accuracy +2.",
+    "original_fr": "Précision +2",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "Strength +2.",
+    "original_fr": "Force +2",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "Stamina +2.",
+    "original_fr": "Endurance +2",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "Magic +2.",
+    "original_fr": "Magie +2",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "Prevents all status ailments.",
+    "original_fr": "Protège des altérations d'état.",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "Speed +3.",
+    "original_fr": "Rapidité +3",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "Accuracy +10.",
+    "original_fr": "Précision +10",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "Strength +6.",
+    "original_fr": "Force +6",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "Magic +6.",
+    "original_fr": "Magie +6",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "Magic Defense +10.",
+    "original_fr": "Défense magique +10",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "Boosts Max HP by 25%.",
+    "original_fr": "PV max +25%",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "Boosts Max HP by 50%.",
+    "original_fr": "PV max +50%",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "Reduces MP consumption by 50%.",
+    "original_fr": "PM requis -50%",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "Reduces MP consumption by 75%.",
+    "original_fr": "PM requis -75%",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "Reveals HP of enemies.",
+    "original_fr": "Affiche les PV de la cible.",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "Boosts success rate of Charm.",
+    "original_fr": "Augmente l'efficacité de Séduction.",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "Grants 50% counter attack rate.",
+    "original_fr": "Probabilité de riposter : 50%",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "Grants 80% counter attack rate.",
+    "original_fr": "Probabilité de riposter : 80%",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "Doubles Evasion.",
+    "original_fr": "Esquive °2",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "Turns EXP into G.",
+    "original_fr": "Transforme les EXP en G.",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "Automatically revives KO'd wearer once.",
+    "original_fr": "Relève du Coma une fois par combat.",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "Boosts Attack/Defense, cannot control wearer.",
+    "original_fr": "Perte de contrôle / Attaque et défense …",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "Strength +4.",
+    "original_fr": "Force +4",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "Speed +2.",
+    "original_fr": "Rapidité +2",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "Enables Eternal Darkness triple tech.",
+    "original_fr": "Permet d'utiliser le trio Ténèbres sans fin.",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "Enables Omega Flare triple tech.",
+    "original_fr": "Permet d'utiliser le trio Fission oméga.",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "Enables Spin Strike triple tech.",
+    "original_fr": "Permet d'utiliser le trio Piqué mégatonne.",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "Enables Poyozo Dance triple tech.",
+    "original_fr": "Permet d'utiliser le trio Danse poyozo.",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "Enables Master Mune triple tech.",
+    "original_fr": "Permet d'utiliser le trio Songe grandiose.",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "Boosts critical hit rate of Masamune.",
+    "original_fr": "Probabilité de coup critique avec Grandléon …",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "Stamina +6.",
+    "original_fr": "Endurance +6",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "Magic Defense +12.",
+    "original_fr": "Défense magique +12",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "Magic +5, Magic Defense +5.",
+    "original_fr": "Magie et défense magique +5",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "Strength +10, Stamina +10.",
+    "original_fr": "Force et endurance +10",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "Boosts damage.",
+    "original_fr": "Augmente la puissance des attaques.",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "Greatly boosts damage.",
+    "original_fr": "Augmente beaucoup la puissance des attaques.",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "Boosts critical hit rate, 50% counter rate.",
+    "original_fr": "Coups critiques … / Riposte : 50%",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "Enhances Masamune, halves MP costs.",
+    "original_fr": "C. critiques avec Grandléon … / PM requis -50%",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "Boosts critical hit rate.",
+    "original_fr": "Coups critiques …",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "May instantly reduce opponent's HP to 1.",
+    "original_fr": "Réduit parfois les PV de la cible {TAG:3C} 1.",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "Counters non-light attacks 25% of the time.",
+    "original_fr": "Riposte : 25% (sauf attaques de lumière)",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "Counters non-water attacks 25% of the time.",
+    "original_fr": "Riposte : 25% (sauf attaques d'eau)",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "Counters non-fire attacks 25% of the time.",
+    "original_fr": "Riposte : 25% (sauf attaques de feu)",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "Counters non-shadow attacks 25% of the time.",
+    "original_fr": "Riposte : 25% (sauf attaques de ténèbres)",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "Counters non-physical attacks 25% of the time.",
+    "original_fr": "Riposte : 25% (sauf attaques physiques)",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 256,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 257,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 258,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 259,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 260,
+    "original_en": "Restores 50 HP.",
+    "original_fr": "Rend 50 PV {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 261,
+    "original_en": "Restores 200 HP.",
+    "original_fr": "Rend 200 PV {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 262,
+    "original_en": "Restores 500 HP.",
+    "original_fr": "Rend 500 PV {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 263,
+    "original_en": "Restores 10 MP.",
+    "original_fr": "Rend 10 PM {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 264,
+    "original_en": "Restores 30 MP.",
+    "original_fr": "Rend 30 PM {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 265,
+    "original_en": "Restores 60 MP.",
+    "original_fr": "Rend 60 PM {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 266,
+    "original_en": "Fully restores HP/MP.",
+    "original_fr": "Rend tous ses PV et PM {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 267,
+    "original_en": "Fully restores MP.",
+    "original_fr": "Rend tous ses PM {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 268,
+    "original_en": "Fully restores entire party's HP/MP.",
+    "original_fr": "Rend tous leurs PV et PM aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 269,
+    "original_en": "Removes status ailments.",
+    "original_fr": "Guérit les altérations d'état d'un allié.",
+    "translation": ""
+  },
+  {
+    "id": 270,
+    "original_en": "Revives a KO'd ally.",
+    "original_fr": "Relève un allié du Coma.",
+    "translation": ""
+  },
+  {
+    "id": 271,
+    "original_en": "Fully restores HP/MP at a save point.",
+    "original_fr": "Restaure PV et PM si sauvegarde possible.",
+    "translation": ""
+  },
+  {
+    "id": 272,
+    "original_en": "Restores ???.",
+    "original_fr": "Rend des PV et/ou des PM {TAG:3C} un allié.",
+    "translation": ""
+  },
+  {
+    "id": 273,
+    "original_en": "Restores 200 HP to all party members.",
+    "original_fr": "Rend 200 PV aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 274,
+    "original_en": "Reduces magical damage by 1/3.",
+    "original_fr": "Dég{TAG:4A}ts magiques -33% (un allié)",
+    "translation": ""
+  },
+  {
+    "id": 275,
+    "original_en": "Reduces physical damage by 1/3.",
+    "original_fr": "Dég{TAG:4A}ts physiques -33% (un allié)",
+    "translation": ""
+  },
+  {
+    "id": 276,
+    "original_en": "Permanently raises Strength by 1.",
+    "original_fr": "Augmente la force d'un allié d'un point.",
+    "translation": ""
+  },
+  {
+    "id": 277,
+    "original_en": "Permanently raises Magic by 1.",
+    "original_fr": "Augmente la magie d'un allié d'un point.",
+    "translation": ""
+  },
+  {
+    "id": 278,
+    "original_en": "Permanently raises Speed by 1.",
+    "original_fr": "Augmente la rapidité d'un allié d'un point.",
+    "translation": ""
+  },
+  {
+    "id": 279,
+    "original_en": "Restores a small amount of HP.",
+    "original_fr": "Rend quelques PV.",
+    "translation": ""
+  },
+  {
+    "id": 280,
+    "original_en": "Unleashes fire-based monster tech.",
+    "original_fr": "Permet d'utiliser une compétence. Œ",
+    "translation": ""
+  },
+  {
+    "id": 281,
+    "original_en": "Unleashes water-based monster tech.",
+    "original_fr": "Permet d'utiliser une compétence. œ",
+    "translation": ""
+  },
+  {
+    "id": 282,
+    "original_en": "Unleashes shadow-based monster tech.",
+    "original_fr": "Permet d'utiliser une compétence. «",
+    "translation": ""
+  },
+  {
+    "id": 283,
+    "original_en": "Unleashes light-based monster tech.",
+    "original_fr": "Permet d'utiliser une compétence. »",
+    "translation": ""
+  },
+  {
+    "id": 284,
+    "original_en": "Temporarily boosts Strength by 5.",
+    "original_fr": "Augmente temporairement la force de cinq points.",
+    "translation": ""
+  },
+  {
+    "id": 285,
+    "original_en": "Reduces physical damage by 1/3.",
+    "original_fr": "Dég{TAG:4A}ts -33%",
+    "translation": ""
+  },
+  {
+    "id": 286,
+    "original_en": "Boosts critical hit damage to 4°.",
+    "original_fr": "Rend les coups critiques 4° plus puissants.",
+    "translation": ""
+  },
+  {
+    "id": 287,
+    "original_en": "Restores 250 HP.",
+    "original_fr": "Rend 250 PV.",
+    "translation": ""
+  },
+  {
+    "id": 288,
+    "original_en": "Removes status ailments.",
+    "original_fr": "Guérit les altérations d'état d'un allié.",
+    "translation": ""
+  },
+  {
+    "id": 289,
+    "original_en": "Restores 20 MP.",
+    "original_fr": "Rend 20 PM.",
+    "translation": ""
+  },
+  {
+    "id": 290,
+    "original_en": "Restores 150 HP.",
+    "original_fr": "Rend 150 PV.",
+    "translation": ""
+  },
+  {
+    "id": 291,
+    "original_en": "Restores 40 MP.",
+    "original_fr": "Rend 40 PM.",
+    "translation": ""
+  },
+  {
+    "id": 292,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 293,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 294,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 295,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 296,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 297,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 298,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 299,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 300,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 301,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 302,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 303,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 304,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 305,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 306,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 307,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 308,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 309,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 310,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 311,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 312,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 313,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 314,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 315,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 316,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 317,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 318,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 319,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 320,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 321,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 322,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 323,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 324,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 325,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 326,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 327,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 328,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 329,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 330,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 331,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 332,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 333,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 334,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 335,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 336,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 337,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 338,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 339,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 340,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 341,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 342,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 343,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 344,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 345,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 346,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  }
+]

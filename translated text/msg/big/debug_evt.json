@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 0,
+    "original_en": "Truce",
+    "original_fr": "Truce",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Leene Square",
+    "original_fr": "Place de Lynne",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Marle's Entrance",
+    "original_fr": "Marle entre en scène",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Lucca's Invention",
+    "original_fr": "L'invention de Lucca",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "To the Middle Ages",
+    "original_fr": "Vers le Moyen-{TAG:5F}ge",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Truce",
+    "original_fr": "Truce",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Guardia Forest",
+    "original_fr": "Forêt de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Guardia Castle",
+    "original_fr": "Ch{TAG:4A}teau de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Lucca Joins Party",
+    "original_fr": "îchanges avec Lucca",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Naga Battle",
+    "original_fr": "Bataille contre myanne",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Manolia Cathedral",
+    "original_fr": "Abbaye de Manolia",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Yakra Battle",
+    "original_fr": "Bataille contre Yakra",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Marle Returns",
+    "original_fr": "Retour de Marle",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "To thePresent",
+    "original_fr": "Vers le Présent",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Crono on Trial",
+    "original_fr": "Le procès de Chrono",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Innocent",
+    "original_fr": "Non-coupable",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Gaoler Battle",
+    "original_fr": "Bataille contre ghia",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Dragon Tank Battle",
+    "original_fr": "Bataille contre le dragon d'assaut",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "After Dragon Tank Battle",
+    "original_fr": "Après la bataille contre le dragon d'assaut",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "To the Future",
+    "original_fr": "Vers le Futur",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Site 16",
+    "original_fr": "Ruines nÎ 16",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Arris Dome",
+    "original_fr": "Dôme d'Arris",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Guardian Battle",
+    "original_fr": "Bataille contre le gardien",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "After Guardian Battle",
+    "original_fr": "Après la bataille contre le gardien",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Keeper's Dome (Balthasar)",
+    "original_fr": "Dôme du gardien (Gasch en vie)",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Day of Lavos Record Room",
+    "original_fr": "Archives du Jour de Lavos",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Escape Out of Dome Substructure",
+    "original_fr": "Fuite du sous-sol du dôme",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Jetbike Race",
+    "original_fr": "Course {TAG:3C} moto",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Robo Revives",
+    "original_fr": "Réparation de RoBo",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Derelict Factory",
+    "original_fr": "Usine désaffectée",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "ZABIE",
+    "original_fr": "XABY",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "R-Series Battle",
+    "original_fr": "Bataille contre andro¿des série R",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "End of Time",
+    "original_fr": "Fin des temps",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Medina",
+    "original_fr": "Médina",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Heckran Cave",
+    "original_fr": "Grottes d'Héclan",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Heckran Battle",
+    "original_fr": "Bataille contre Héclan",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "After Heckran Battle",
+    "original_fr": "Après la bataille contre Héclan",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "To the Middle Ages",
+    "original_fr": "Vers le Moyen-{TAG:5F}ge",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Zenan Bridge",
+    "original_fr": "Pont de Zénan",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Food for the Soldiers",
+    "original_fr": "Ravitaillement",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Battle Upon Zenan Bridge",
+    "original_fr": "Batailles sur le pont de Zénan",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Zombor Battle",
+    "original_fr": "Bataille contre l'abomination",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Dorino",
+    "original_fr": "San Dorino",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Reunite with Frog",
+    "original_fr": "Réunion avec Gren",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Denadoro Mountains",
+    "original_fr": "Monts Dénadoro",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Masa & Mune Battle",
+    "original_fr": "Bataille contre Gran et Léon",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "After Masa & Mune Battle",
+    "original_fr": "Après la bataille contre Gran et Léon",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Hero's Badge",
+    "original_fr": "Médaille du héros",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Broken Blade",
+    "original_fr": "L'épée brisée",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Melchior's Cabin",
+    "original_fr": "Demeure de Bosch",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "To Prehistory",
+    "original_fr": "Vers la Préhistoire",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Ioka Village",
+    "original_fr": "Village d'Ioka",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "The Feast",
+    "original_fr": "Le festin",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Hunting Range",
+    "original_fr": "Terrain de chasse",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Forest Maze",
+    "original_fr": "Jungle",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Reptite Lair",
+    "original_fr": "Antre des sauriens",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Nizbel Battle",
+    "original_fr": "Bataille contre Nizbel",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Repair Masamune",
+    "original_fr": "Restauration de Grandléon",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Frog Returns",
+    "original_fr": "Retour de Gren",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Frog Magic",
+    "original_fr": "Magie de Gren",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Magic Cave, Seal",
+    "original_fr": "Sceau de la grotte des démons",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Fiendlord's Keep",
+    "original_fr": "Palais du Magistère",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Slash Battle",
+    "original_fr": "Bataille contre Soja",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Flea Battle",
+    "original_fr": "Bataille contre Mayo",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Ozzie (Trap 1)",
+    "original_fr": "Piège de Vinnie nÎ 1",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Ozzie (Trap 2)",
+    "original_fr": "Piège de Vinnie nÎ 2",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Ozzie (Trap 3)",
+    "original_fr": "Piège de Vinnie nÎ 3",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "The Last of Ozzie?",
+    "original_fr": "Mort de Vinnie ?",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Magus Battle",
+    "original_fr": "Bataille contre Magus",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Laruba Ruins",
+    "original_fr": "Laruba",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Dactyl Nest",
+    "original_fr": "Nid des ptéranodons",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Ride on Dactyl",
+    "original_fr": "Sur le dos du ptéranodon",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Tyranno Lair",
+    "original_fr": "Fort Tyrannos",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Nizbel II Battle",
+    "original_fr": "Bataille contre Nizbel II",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Azala Battle",
+    "original_fr": "Bataille contre Azara",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Tyranno Lair Ruins",
+    "original_fr": "Cratère de Tyrannos",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "To Antiquity",
+    "original_fr": "Vers l'Antiquité",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Kajar",
+    "original_fr": "Kajar",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Zeal Palace",
+    "original_fr": "Palais de Zhyle",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Golem Battle",
+    "original_fr": "Bataille contre golem de Dalton",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "To Prehistory",
+    "original_fr": "Vers la Préhistoire",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Return to Guardia Castle",
+    "original_fr": "Retour au ch{TAG:4A}teau de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Swallow or Guardian Helm",
+    "original_fr": "Tsubame ou armet gardien",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Jetbike Race Score Attack",
+    "original_fr": "Course {TAG:3C} moto (score)",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Abandoned Sewers",
+    "original_fr": "Ancien égout",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "Krawlie Battle",
+    "original_fr": "Bataille contre sieur Rampant",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Keeper's Dome",
+    "original_fr": "Dôme du gardien",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Here we go, Epoch!",
+    "original_fr": "Ibis en vol",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Back to Antiquity",
+    "original_fr": "Retour {TAG:3C} l'Antiquité",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Mudbeast Den",
+    "original_fr": "Nid du terraphage",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Mud Imp Battle",
+    "original_fr": "Bataille contre terra-diablotin",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Mountain of Woe",
+    "original_fr": "Mont du tourment",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Giga Gaia Battle",
+    "original_fr": "Bataille contre Gigaga¿a",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "Dalton Battle",
+    "original_fr": "Bataille contre Dalton",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Talk to Mune",
+    "original_fr": "Conversation avec Léon",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Talk to Masa",
+    "original_fr": "Conversation avec Gran",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Battle on the OP Elevator",
+    "original_fr": "Batailles dans l'ascenseur du sanctuaire sous-marin",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Golem Battle",
+    "original_fr": "Bataille contre les golems",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Lavos Entrance",
+    "original_fr": "Entrée en scène de Lavos",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Crono Dead",
+    "original_fr": "Mort de Chrono",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Village Ruins",
+    "original_fr": "Village des survivants",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Blackbird",
+    "original_fr": "Cygne noir",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Golem Overlord Battle",
+    "original_fr": "Bataille contre ma¡tre-golem",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "North Cape",
+    "original_fr": "Cap nord",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "After Magus Battle",
+    "original_fr": "Après la bataille contre Magus",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Black Omen Emerges",
+    "original_fr": "Apparition du Songe obscur",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Time Egg",
+    "original_fr": "♂uf de temps",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Change Name",
+    "original_fr": "Changement de nom",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Doppel Game",
+    "original_fr": "Jeu de mime",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Max Silver Points",
+    "original_fr": "Points d'argent au maximum",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Crono's House",
+    "original_fr": "Maison de Chrono",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Final Program",
+    "original_fr": "Dernier programme",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Death Peak",
+    "original_fr": "Mont des défunts",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "Lavos Spawn Battle 1",
+    "original_fr": "Bataille contre larve de Lavos nÎ 1",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Lavos Spawn Battle 2",
+    "original_fr": "Bataille contre larve de Lavos nÎ 2",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Lavos Spawn Battle 3",
+    "original_fr": "Bataille contre larve de Lavos nÎ 3",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Crono Revival",
+    "original_fr": "Résurrection de Chrono",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "Choras",
+    "original_fr": "Choras",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "Toma's Spirits",
+    "original_fr": "Vin de Toma",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Carpenter's Tools",
+    "original_fr": "Outils de charpentier",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "West Cape",
+    "original_fr": "Cap ouest",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "Giant's Claw",
+    "original_fr": "Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "Rust Tyranno Battle",
+    "original_fr": "Bataille contre tyrannosaure noir",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Rainbow Shell",
+    "original_fr": "Coquillage arc-en-ciel",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "The King on Trial",
+    "original_fr": "Procès du roi de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "The King Framed",
+    "original_fr": "Fausse déposition",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "Shell After 400 Years",
+    "original_fr": "Coquillage 400 ans plus tard",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "Yakra XIII Battle",
+    "original_fr": "Yakra XIII",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Prism (Armor)",
+    "original_fr": "îquipement spectral",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "Son of the Sun Battle",
+    "original_fr": "Bataille contre fils du soleil",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Get Moon Stone",
+    "original_fr": "Obtention de la pierre obscure",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Place Moon Stone",
+    "original_fr": "Placer la pierre obscure",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "Moon Stone Stolen",
+    "original_fr": "Vol de la pierre obscure",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "Spiced Jerky",
+    "original_fr": "Jambon épicé",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "Give Spiced Jerky",
+    "original_fr": "Donner le jambon épicé",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Mayor's Moon Stone",
+    "original_fr": "Pierre obscure du maire",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Replace Moon Stone",
+    "original_fr": "Replacer la pierre obscure",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Sun Stone",
+    "original_fr": "Pierre du soleil",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "At the End of Time",
+    "original_fr": "Le plus loin",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "Lend Carpenter's Tools",
+    "original_fr": "Donner les outils",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Repair Ruins",
+    "original_fr": "Rénovation des ruines",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "Northern Ruins",
+    "original_fr": "Ch{TAG:4A}teau en ruine",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "Repair Ruins (Paid)",
+    "original_fr": "Demande de rénovation des ruines",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "Completely Repair Ruins",
+    "original_fr": "Rénovation des ruines terminée",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Cyrus's Grave",
+    "original_fr": "Tombe de Cyrus",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "The Final Sealed Item",
+    "original_fr": "Dernier objet scellé",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Sunken Desert",
+    "original_fr": "Désert souterrain",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Melphyx Battle",
+    "original_fr": "Bataille contre melfiq",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "Fiona's Villa",
+    "original_fr": "Demeure de Fiona",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Fiona's Shrine",
+    "original_fr": "Sanctuaire de Fiona",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "Lucca's Past",
+    "original_fr": "Passé de Lucca",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Rescue Lara",
+    "original_fr": "Sauver Lara",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Fail to Rescue Lara",
+    "original_fr": "Ne pas sauver Lara",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Ozzie's Evil Plan",
+    "original_fr": "Ambition de Vinnie",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Diva Flea Battle",
+    "original_fr": "Bataille contre super-Mayo",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Super Slash Battle",
+    "original_fr": "Bataille contre super-Soja",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Battle Against All Three",
+    "original_fr": "Bataille contre les trois généraux",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Ozzie the Great Battle",
+    "original_fr": "Bataille contre Vinnie le Grand",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "The Last of Ozzie",
+    "original_fr": "Mort de Vinnie",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Geno Dome",
+    "original_fr": "Dôme de Génos",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "After Conveyer Belt Battle",
+    "original_fr": "Après la bataille sur le tapis roulant",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "Rescue",
+    "original_fr": "Sauvetage",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "Atropos XR Battle",
+    "original_fr": "Atropos",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "Mother Brain Battle",
+    "original_fr": "Bataille contre le cerveau mère",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "Rainbow and the Sun",
+    "original_fr": "Coquillage arc-en-ciel & pierre du soleil",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "Golden Gemstone",
+    "original_fr": "Pierre dorée",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "Mega Mutant Battle",
+    "original_fr": "Bataille contre mégamutant",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "Black Omen (Opening)",
+    "original_fr": "Début du Songe obscur",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "Giga Mutant Battle",
+    "original_fr": "Bataille contre gigamutant",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "Tera Mutant Battle",
+    "original_fr": "Bataille contre téramutant",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "Elder Lavos Spawn Battle",
+    "original_fr": "Bataille contre Pupe de Lavos",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "Zeal Battle",
+    "original_fr": "Batailles contre Zhyle",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "Lavos Battle (Changes Mode)",
+    "original_fr": "Bataille changeante contre Lavos",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "Lavos Shell Battle",
+    "original_fr": "Dernière bataille contre Lavos",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "ED1 Beyond Time",
+    "original_fr": "Fin nÎ 1 Au-del{TAG:3C} du temps",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "ED2 Reunion",
+    "original_fr": "Fin nÎ 2 Retrouvailles",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "ED3 Dream Project",
+    "original_fr": "Fin nÎ 3 Dream Team",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "ED4 Guardia's Successor",
+    "original_fr": "Fin nÎ 4 Descendants de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "ED5 Good Night",
+    "original_fr": "Fin nÎ 5 Bonne nuit",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "ED6 Legendary Hero",
+    "original_fr": "Fin nÎ 6 Le héros légendaire",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "ED7 The Unknown Past",
+    "original_fr": "Fin nÎ 7 Passé inconnu",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "ED8 Those Who Live in Time",
+    "original_fr": "Fin nÎ 8 Les habitants du temps",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "ED9 Promise with a Friend",
+    "original_fr": "Fin nÎ 9 Le serment",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "ED10 Dino Age",
+    "original_fr": "Fin nÎ 10 {TAG:5F}ge des sauriens",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "ED11 Prophet's Desire",
+    "original_fr": "Fin nÎ 11 Ce que recherche le prophète",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "ED12 Post-Mortem",
+    "original_fr": "Fin nÎ 12 Réunion de bilan ?",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "Lavos (Strongest) Battle",
+    "original_fr": "Ultime bataille contre Lavos",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "Parade 1 + Epoch END",
+    "original_fr": "Défilé nÎ 1 Fin avec l'Ibis",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "Paradee 2 + Balloon END",
+    "original_fr": "Défilé nÎ 2 Fin avec les ballons",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "Dream Project",
+    "original_fr": "Dream Team",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Destruction Demo for CHECK",
+    "original_fr": "Cataclysme (pour démo)",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Prophet END Demo for CHECK",
+    "original_fr": "Fin avec le prophète (pour démo)",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "001 Crono's House 1F",
+    "original_fr": "001 Maison de Chrono - RDC",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "002 Crono's House 2F",
+    "original_fr": "002 Maison de Chrono - 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "003_1 Lucca's House - 1F Hall",
+    "original_fr": "003_1 Maison de Lucca - RDC Corridor",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "003_2 Lucca's House - 1F",
+    "original_fr": "003_2 Maison de Lucca - RDC Salle",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "004 Lucca's House - 1F Entrance",
+    "original_fr": "004 Maison de Lucca - RDC Entrée",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "005 Leene Square - Central Plaza",
+    "original_fr": "005 Place de Lynne - Centre",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "006 Leene Square - Gato",
+    "original_fr": "006 Place de Lynne - Gonzales",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "007 Leene Square - Prehistoric Dancers",
+    "original_fr": "007 Place de Lynne - Danseurs préhistoriques",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "008 Leene Square - Telepod",
+    "original_fr": "008 Place de Lynne - Téléporteur",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "009 Lucca's House - 2F Lara's Room",
+    "original_fr": "009 Maison de Lucca - 1er étage Chambre de Lara",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "010 Lucca's House - 2F Lucca's Room",
+    "original_fr": "010 Maison de Lucca - 1er étage Chambre de Lucca",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "012 Truce - Inn",
+    "original_fr": "012 Truce - Auberge",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "013 Truce - Mayor's House 1F",
+    "original_fr": "013 Truce - Maison du maire RDC",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "014 Truce - Mayor's House 2F",
+    "original_fr": "014 Truce - Maison du maire 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "015 Truce - Residence A",
+    "original_fr": "015 Truce - Résidence A",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "016 Truce - Residence B",
+    "original_fr": "016 Truce - Résidence B",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "017 Truce - Merchant",
+    "original_fr": "017 Truce - Magasin",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "018 Truce - Ferry Office",
+    "original_fr": "017 Truce - Guichet du port",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "019 Guardia Forest (Present)",
+    "original_fr": "019 Forêt de Gardia (Présent)",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "020 Guardia Forest (Present) - Time Gate",
+    "original_fr": "020 Forêt de Gardia (Présent) - Portail",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "021 Guardia Castle (Present) - Central Hall",
+    "original_fr": "021 Ch{TAG:4A}teau de Gardia (Présent) - Grande salle",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "022 Guardia Castle (Present) - King's Bedroom",
+    "original_fr": "022 Ch{TAG:4A}teau de Gardia (Présent) - Chambre du roi",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "023 Guardia Castle (Present) - Queen's Bedroom",
+    "original_fr": "023 Ch{TAG:4A}teau de Gardia (Présent) - Chambre de la reine",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "024 Guardia Castle (Present) - Dining Hall",
+    "original_fr": "024 Ch{TAG:4A}teau de Gardia (Présent) - Salle {TAG:3C} manger",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "025 Guardia Castle (Present) - Soldiers' Room",
+    "original_fr": "025 Ch{TAG:4A}teau de Gardia (Présent) - Salle des soldats",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "026 Guardia Castle (Present) - Treasury",
+    "original_fr": "026 Ch{TAG:4A}teau de Gardia (Présent) - Trésorerie",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "027 Guardia Castle (Present) - Hall of Justice",
+    "original_fr": "027 Ch{TAG:4A}teau de Gardia (Présent) - Tribunal",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "028_1 Prison Towers - Skywalk 1",
+    "original_fr": "028_1 Prison - Passerelle 1er niveau",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "028_2 Prison Towers - Skywalk 2",
+    "original_fr": "028_2 Prison - Passerelle 2e niveau",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "028_3 Prison Towers - Skywalk 3",
+    "original_fr": "028_3 Prison - Passerelle 3e niveau",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "028_4 Prison Towers - Skywalk 4",
+    "original_fr": "028_4 Prison - Passerelle 4e niveau",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "029 Prison Towers - Guardroom",
+    "original_fr": "029 Prison - Salle des gardes",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "030 Prison Towers - Execution Chamber",
+    "original_fr": "030 Prison - Salle d'exécution",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "031 Medina - Town Square",
+    "original_fr": "031 Médina - Place principale",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "032 Zenan Bridge",
+    "original_fr": "032 Pont de Zénan",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "033 Medina - Mayor's House 1F",
+    "original_fr": "033 Médina - Maison du maire RDC",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "034 Medina - Mayor's House 2F",
+    "original_fr": "034 Médina - Maison du maire 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "035 Medina - Inn",
+    "original_fr": "035 Médina - Auberge",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "036 Medina - Residence",
+    "original_fr": "036 Médina - Résidence",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "039 Medina - Merchant",
+    "original_fr": "039 Médina - Magasin",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "040 Melchior's Cabin - 1F",
+    "original_fr": "040 Demeure de Bosch - RDC",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "041 Melchior's Cabin - B1",
+    "original_fr": "041 Demeure de Bosch - SS1",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "042 Forest Ruins",
+    "original_fr": "042 Ruines sylvestres",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "043 Cursed Woods",
+    "original_fr": "043 Forêt aux grenouilles",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "047 Heckran Cave",
+    "original_fr": "047 Grottes d'Héclan",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "048 Heckran Cave - Entrance",
+    "original_fr": "048 Grottes d'Héclan - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "049 Heckran Cave",
+    "original_fr": "049 Grottes d'Héclan",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "050 Porre - Mayor's Manor 1F",
+    "original_fr": "050 Palpori - Résidence du maire RDC",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "051 Porre - Mayor's Manor 2F",
+    "original_fr": "051 Palpori - Résidence du maire 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "052 Porre - Residence",
+    "original_fr": "052 Palpori - Résidence",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "053 Porre - Snail Stop",
+    "original_fr": "053 Palpori - Café de la conque",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "054 Porre - Market",
+    "original_fr": "054 Palpori - Magasin",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "055 Porre - Inn",
+    "original_fr": "055 Palpori - Auberge",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "056 Porre - Ferry Office",
+    "original_fr": "056 Palpori - Guichet du port",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "057 Fiona's Shrine",
+    "original_fr": "057 Sanctuaire de Fiona",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "058 Choras - Mayor's Manor 1F",
+    "original_fr": "058 Choras - Résidence du maire RDC",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "059 Magus's Keep - Used for ending?",
+    "original_fr": "059 Choras - Résidence du maire 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "061 Choras - Residence",
+    "original_fr": "061 Choras - Résidence",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "062 Choras - Inn (and tavern)",
+    "original_fr": "062 Choras - Auberge et taverne",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "063 West Cape",
+    "original_fr": "063 Cap ouest",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "064 Sun Shrine - Present?",
+    "original_fr": "064 Berceau de la lumière - Présent?",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "065 Hero's Grave - Entrance",
+    "original_fr": "065 Tombe du héros - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "066 Hero's Grave - B1",
+    "original_fr": "066 Tombe du héros - SS1",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "067 Hero's Grave - 2F",
+    "original_fr": "067 Tombe du héros - 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 256,
+    "original_en": "068 Hero's Grave - 2F Hall",
+    "original_fr": "068 Tombe du héros - 1er étage Grande salle",
+    "translation": ""
+  },
+  {
+    "id": 257,
+    "original_en": "069 Hero's Grave - 2F Rear Passage",
+    "original_fr": "069 Tombe du héros - 1er étage Passage du fond",
+    "translation": ""
+  },
+  {
+    "id": 258,
+    "original_en": "070 Hero's Grave - 2F Rearmost Chamber",
+    "original_fr": "070 Tombe du héros - 1er étage Salle du fond",
+    "translation": ""
+  },
+  {
+    "id": 259,
+    "original_en": "071_1 Prison Towers - Prison / Passage",
+    "original_fr": "071_1 Prison - Prison / Passage",
+    "translation": ""
+  },
+  {
+    "id": 260,
+    "original_en": "071_2 Prison Towers - Prison / Passage",
+    "original_fr": "071_2 Prison - Prison / Passage",
+    "translation": ""
+  },
+  {
+    "id": 261,
+    "original_en": "071_3 Prison Towers - Prison / Passage",
+    "original_fr": "071_3 Prison - Prison / Passage",
+    "translation": ""
+  },
+  {
+    "id": 262,
+    "original_en": "071_4 Prison Towers - Prison / Passage",
+    "original_fr": "071_4 Prison - Prison / Passage",
+    "translation": ""
+  },
+  {
+    "id": 263,
+    "original_en": "071_5 Prison Towers - Prison / Passage",
+    "original_fr": "071_5 Prison - Prison / Passage",
+    "translation": ""
+  },
+  {
+    "id": 264,
+    "original_en": "071_6 Prison Towers - Prison / Passage",
+    "original_fr": "071_6 Prison - Prison / Passage",
+    "translation": ""
+  },
+  {
+    "id": 265,
+    "original_en": "072_1 Prison Towers - Passage/Stairs to Exec. Chamber",
+    "original_fr": "072_1 Prison - Passage / Escaliers menant {TAG:3C} la salle d'exécution",
+    "translation": ""
+  },
+  {
+    "id": 266,
+    "original_en": "072_2 Prison Towers - Small Stair Room",
+    "original_fr": "072_2 Prison - Petite salle avec escalier",
+    "translation": ""
+  },
+  {
+    "id": 267,
+    "original_en": "072_3 Prison Towers - Big Stair Room (W/LIGHT)",
+    "original_fr": "072_2 Prison - Grande salle avec escalier (éclairée)",
+    "translation": ""
+  },
+  {
+    "id": 268,
+    "original_en": "072_4 Prison Towers - Big Stair Room (NO LIGHT)",
+    "original_fr": "072_3 Prison - Grande salle avec escalier (pas éclairée)",
+    "translation": ""
+  },
+  {
+    "id": 269,
+    "original_en": "073 Hero's Grave - Cyrus's Chamber",
+    "original_fr": "073 Tombe du héros - Salle de Cyrus",
+    "translation": ""
+  },
+  {
+    "id": 270,
+    "original_en": "075 Prison Towers - Outer Wall",
+    "original_fr": "075 Prison - Mur extérieur",
+    "translation": ""
+  },
+  {
+    "id": 271,
+    "original_en": "080 Leene Square - Central Plaza (Parade)",
+    "original_fr": "080 Place de Lynne - Centre (Défilé)",
+    "translation": ""
+  },
+  {
+    "id": 272,
+    "original_en": "081 Leene Square - Plaza Rear (Parade)",
+    "original_fr": "081 Place de Lynne - Fond (Défilé)",
+    "translation": ""
+  },
+  {
+    "id": 273,
+    "original_en": "083 Forest Near Fiona's Shrine - Lucca's Gate",
+    "original_fr": "083 Forêt près du sanctuaire de Fiona - Portail de Lucca",
+    "translation": ""
+  },
+  {
+    "id": 274,
+    "original_en": "084 End of Time",
+    "original_fr": "084 Fin des temps",
+    "translation": ""
+  },
+  {
+    "id": 275,
+    "original_en": "085 Leene Square - Telepod (Parade)",
+    "original_fr": "085 Place de Lynne - Téléporteur (Défilé)",
+    "translation": ""
+  },
+  {
+    "id": 276,
+    "original_en": "096 Black Omen - Lower Level 4 (Lavos Spawn)",
+    "original_fr": "096 Songe obscur - Niveau plus profond 4 (larve de Lavos)",
+    "translation": ""
+  },
+  {
+    "id": 277,
+    "original_en": "097 Black Omen - Lower Level (Warp 2)",
+    "original_fr": "097 Songe obscur - Niveau supérieur (Téléporteur 1)",
+    "translation": ""
+  },
+  {
+    "id": 278,
+    "original_en": "098 Black Omen - Upper Level (Warp 2)",
+    "original_fr": "098 Songe obscur - Niveau supérieur (Téléporteur 2)",
+    "translation": ""
+  },
+  {
+    "id": 279,
+    "original_en": "099 Black Omen - Upper Level (Elevator)",
+    "original_fr": "099 Songe obscur - Niveau supérieur (Ascenseur)",
+    "translation": ""
+  },
+  {
+    "id": 280,
+    "original_en": "099 Black Omen - Mid Level (Elevator)",
+    "original_fr": "099 Songe obscur - Niveau moyen (Ascenseur)",
+    "translation": ""
+  },
+  {
+    "id": 281,
+    "original_en": "109_1 Giant's Claw",
+    "original_fr": "109_1 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 282,
+    "original_en": "109_2 Giant's Claw",
+    "original_fr": "109_2 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 283,
+    "original_en": "109_3 Giant's Claw",
+    "original_fr": "109_3 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 284,
+    "original_en": "109_4 Giant's Claw",
+    "original_fr": "109_4 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 285,
+    "original_en": "109_6 Giant's Claw",
+    "original_fr": "109_6 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 286,
+    "original_en": "110_1 Giant's Claw",
+    "original_fr": "110_1 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 287,
+    "original_en": "110_2 Giant's Claw",
+    "original_fr": "110_2 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 288,
+    "original_en": "110_3 Giant's Claw",
+    "original_fr": "110_3 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 289,
+    "original_en": "110_6 Giant's Claw",
+    "original_fr": "110_6 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 290,
+    "original_en": "111 Giant's Claw",
+    "original_fr": "111 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 291,
+    "original_en": "112 Mountains Behind Truce",
+    "original_fr": "112 Mont de Truce",
+    "translation": ""
+  },
+  {
+    "id": 292,
+    "original_en": "113 Mountains Behind Truce - Time Gate",
+    "original_fr": "113 Mont de Truce - Portail",
+    "translation": ""
+  },
+  {
+    "id": 293,
+    "original_en": "114 Truce - Residence 1",
+    "original_fr": "114 Truce - Résidence 1",
+    "translation": ""
+  },
+  {
+    "id": 294,
+    "original_en": "115 Truce - Residence 2 (Banta)",
+    "original_fr": "115 Truce - Résidence 2 (Banta)",
+    "translation": ""
+  },
+  {
+    "id": 295,
+    "original_en": "116 Truce - Inn 1F",
+    "original_fr": "116 Truce - Auberge RDC",
+    "translation": ""
+  },
+  {
+    "id": 296,
+    "original_en": "117 Truce - Inn 2F",
+    "original_fr": "117 Truce - Auberge 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 297,
+    "original_en": "118 Truce - Market",
+    "original_fr": "118 Truce - Magasin",
+    "translation": ""
+  },
+  {
+    "id": 298,
+    "original_en": "119 Guardia Forest",
+    "original_fr": "119 Forêt de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 299,
+    "original_en": "120 Guardia Castle - Main Hall",
+    "original_fr": "120 Ch{TAG:4A}teau de Gardia - Grande salle",
+    "translation": ""
+  },
+  {
+    "id": 300,
+    "original_en": "121 Guardia Castle - King's Chamber",
+    "original_fr": "121 Ch{TAG:4A}teau de Gardia - Chambre du roi",
+    "translation": ""
+  },
+  {
+    "id": 301,
+    "original_en": "122 Guardia Castle - Princess's Chamber",
+    "original_fr": "122 Ch{TAG:4A}teau de Gardia - Chambre de la princesse",
+    "translation": ""
+  },
+  {
+    "id": 302,
+    "original_en": "123 Guardia Castle - Dining Hall",
+    "original_fr": "123 Ch{TAG:4A}teau de Gardia - Salle {TAG:3C} manger",
+    "translation": ""
+  },
+  {
+    "id": 303,
+    "original_en": "124 Guardia Castle - Knight's Room",
+    "original_fr": "124 Ch{TAG:4A}teau de Gardia - Salle des chevaliers",
+    "translation": ""
+  },
+  {
+    "id": 304,
+    "original_en": "125 Fiendlord's Keep - Long Passage",
+    "original_fr": "125 Palais du Magistère - Passage long",
+    "translation": ""
+  },
+  {
+    "id": 305,
+    "original_en": "126 Geno Dome - Conveyer Belt (Center)",
+    "original_fr": "126 Dôme de Génos - Tapis roulant (Centre)",
+    "translation": ""
+  },
+  {
+    "id": 306,
+    "original_en": "127 Geno Dome - Elevator",
+    "original_fr": "127 Dôme de Génos - Ascenseur",
+    "translation": ""
+  },
+  {
+    "id": 307,
+    "original_en": "128 Geno Dome - Oblong Passage",
+    "original_fr": "128 Dôme de Génos - Passage étroit",
+    "translation": ""
+  },
+  {
+    "id": 308,
+    "original_en": "129 Manolia Cathedral - Chapel",
+    "original_fr": "129 Abbaye de Manolia - Chapelle",
+    "translation": ""
+  },
+  {
+    "id": 309,
+    "original_en": "130 Manolia Cathedral - Main Hall (Front)",
+    "original_fr": "130 Abbaye de Manolia - Salle principale (Devant)",
+    "translation": ""
+  },
+  {
+    "id": 310,
+    "original_en": "131 Manolia Cathedral - Main Hall (Rear)",
+    "original_fr": "131 Abbaye de Manolia - Salle principale (Derrière)",
+    "translation": ""
+  },
+  {
+    "id": 311,
+    "original_en": "132 Manolia Cathedral - In Front of Yakra's Room",
+    "original_fr": "132 Abbaye de Manolia - Devant la salle de Yakra",
+    "translation": ""
+  },
+  {
+    "id": 312,
+    "original_en": "133 Zenan Bridge - Broken Bridge",
+    "original_fr": "133 Pont de Zénan - Pont en ruine",
+    "translation": ""
+  },
+  {
+    "id": 313,
+    "original_en": "136 Dorino - Residence",
+    "original_fr": "136 San Dorino - Résidence",
+    "translation": ""
+  },
+  {
+    "id": 314,
+    "original_en": "137 Dorino - Elder's House",
+    "original_fr": "137 San Dorino - Maison du maire",
+    "translation": ""
+  },
+  {
+    "id": 315,
+    "original_en": "138 Dorino - Inn",
+    "original_fr": "138 San Dorino - Auberge",
+    "translation": ""
+  },
+  {
+    "id": 316,
+    "original_en": "139 Dorino - Market",
+    "original_fr": "139 San Dorino - Magasin",
+    "translation": ""
+  },
+  {
+    "id": 317,
+    "original_en": "140 Cursed Woods",
+    "original_fr": "140 Forêt aux grenouilles",
+    "translation": ""
+  },
+  {
+    "id": 318,
+    "original_en": "141 Cursed Woods - Frog's Hideaway",
+    "original_fr": "141 Forêt aux grenouilles - Refuge de Gren",
+    "translation": ""
+  },
+  {
+    "id": 319,
+    "original_en": "142 Denadoro Mountains - Map 1",
+    "original_fr": "142 Monts Dénadoro - Carte 1",
+    "translation": ""
+  },
+  {
+    "id": 320,
+    "original_en": "143 Denadoro Mountains - Map 2",
+    "original_fr": "143 Monts Dénadoro - Carte 2",
+    "translation": ""
+  },
+  {
+    "id": 321,
+    "original_en": "144 Denadoro Mountains - Map 3",
+    "original_fr": "144 Monts Dénadoro - Carte 3",
+    "translation": ""
+  },
+  {
+    "id": 322,
+    "original_en": "145 Denadoro Mountains - Map 4",
+    "original_fr": "145 Monts Dénadoro - Carte 4",
+    "translation": ""
+  },
+  {
+    "id": 323,
+    "original_en": "145 Denadoro Mountains - Entrance",
+    "original_fr": "145 Monts Dénadoro - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 324,
+    "original_en": "146 Denadoro Mountains - Map 5",
+    "original_fr": "146 Monts Dénadoro - Carte 5",
+    "translation": ""
+  },
+  {
+    "id": 325,
+    "original_en": "147 Denadoro Mountains - Map 6",
+    "original_fr": "147 Monts Dénadoro - Carte 6",
+    "translation": ""
+  },
+  {
+    "id": 326,
+    "original_en": "148 Denadoro Mountains - Map 7",
+    "original_fr": "148 Monts Dénadoro - Carte 7",
+    "translation": ""
+  },
+  {
+    "id": 327,
+    "original_en": "149 Denadoro Mountains - Map 8",
+    "original_fr": "149 Monts Dénadoro - Carte 8",
+    "translation": ""
+  },
+  {
+    "id": 328,
+    "original_en": "150 Denadoro Mountains - Map 9",
+    "original_fr": "150 Monts Dénadoro - Carte 9",
+    "translation": ""
+  },
+  {
+    "id": 329,
+    "original_en": "151 Denadoro Mountains - Masa / Mune's Room",
+    "original_fr": "151 Monts Dénadoro - Salle de Gran et Léon",
+    "translation": ""
+  },
+  {
+    "id": 330,
+    "original_en": "152 Tata's House 1F",
+    "original_fr": "152 Maison de Tarta - RDC",
+    "translation": ""
+  },
+  {
+    "id": 331,
+    "original_en": "153 Tata's House 2F",
+    "original_fr": "153 Maison de Tarta - 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 332,
+    "original_en": "154 Porre - Elder's House",
+    "original_fr": "154 Palpori - Maison du maire",
+    "translation": ""
+  },
+  {
+    "id": 333,
+    "original_en": "155 Porre - Tavern",
+    "original_fr": "155 Palpori - Taverne",
+    "translation": ""
+  },
+  {
+    "id": 334,
+    "original_en": "156 Porre - Inn",
+    "original_fr": "156 Palpori - Auberge",
+    "translation": ""
+  },
+  {
+    "id": 335,
+    "original_en": "157 Porre - Market",
+    "original_fr": "157 Palpori - Magasin",
+    "translation": ""
+  },
+  {
+    "id": 336,
+    "original_en": "158 Fiona's Villa",
+    "original_fr": "158 Demeure de Fiona",
+    "translation": ""
+  },
+  {
+    "id": 337,
+    "original_en": "159 Sunken Desert - Entrance",
+    "original_fr": "159 Désert souterrain - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 338,
+    "original_en": "160 Sunken Desert - Front",
+    "original_fr": "160 Désert souterrain - Devant",
+    "translation": ""
+  },
+  {
+    "id": 339,
+    "original_en": "161 Sunken Desert - Melphyx's Room",
+    "original_fr": "161 Désert souterrain - Salle de melfiq",
+    "translation": ""
+  },
+  {
+    "id": 340,
+    "original_en": "163 Magic Cave - Entrance",
+    "original_fr": "163 Grotte des mystiques - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 341,
+    "original_en": "164 Magic Cave - Interior",
+    "original_fr": "164 Grotte des mystiques - Intérieur",
+    "translation": ""
+  },
+  {
+    "id": 342,
+    "original_en": "165 Magus's Keep - Entrance",
+    "original_fr": "165 Palais du Magistère - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 343,
+    "original_en": "166 Magus's Keep - Upon Entering",
+    "original_fr": "166 Palais du Magistère - En entrant",
+    "translation": ""
+  },
+  {
+    "id": 344,
+    "original_en": "167 Magus's Keep - Trap 1 - Guillotine",
+    "original_fr": "167 Palais du Magistère - Piège 1 - Guillotine",
+    "translation": ""
+  },
+  {
+    "id": 345,
+    "original_en": "168 Magus's Keep - Trap 2 - Pit",
+    "original_fr": "168 Palais du Magistère - Piège 2 - Trou",
+    "translation": ""
+  },
+  {
+    "id": 346,
+    "original_en": "169 Magus's Keep - Slash Battle Room",
+    "original_fr": "169 Palais du Magistère - Salle bataille avec Soja",
+    "translation": ""
+  },
+  {
+    "id": 347,
+    "original_en": "170 Magus's Keep - Central Chamber",
+    "original_fr": "170 Palais du Magistère - Salle centrale",
+    "translation": ""
+  },
+  {
+    "id": 348,
+    "original_en": "171 Magus's Keep - Kids' Treasure Room",
+    "original_fr": "171 Palais du Magistère - Salle du trésor des enfants",
+    "translation": ""
+  },
+  {
+    "id": 349,
+    "original_en": "172 Magus's Keep - Magus's Chamber",
+    "original_fr": "172 Palais du Magistère - Salle de Magus",
+    "translation": ""
+  },
+  {
+    "id": 350,
+    "original_en": "173 Magus's Keep - Flea Battle Room",
+    "original_fr": "173 Palais du Magistère - Salle bataille avec Mayo",
+    "translation": ""
+  },
+  {
+    "id": 351,
+    "original_en": "174 Magus's Keep - Ozzie Battle Room",
+    "original_fr": "174 Palais du Magistère - Salle bataille avec Vinnie",
+    "translation": ""
+  },
+  {
+    "id": 352,
+    "original_en": "175 Magus's Keep - Trap 3 - Conveyer Belt",
+    "original_fr": "175 Palais du Magistère - Piège 3 - Tapis roulant",
+    "translation": ""
+  },
+  {
+    "id": 353,
+    "original_en": "176 Magus's Keep - Exterior Stairway 2",
+    "original_fr": "176 Palais du Magistère - Extérieur Escalier 1",
+    "translation": ""
+  },
+  {
+    "id": 354,
+    "original_en": "177 Ozzie's Fort - Upon Entering",
+    "original_fr": "177 Manoir de Vinnie - En entrant",
+    "translation": ""
+  },
+  {
+    "id": 355,
+    "original_en": "178 Ozzie's Fort - Failed Trap Room",
+    "original_fr": "178 Manoir de Vinnie - Salle Piège raté",
+    "translation": ""
+  },
+  {
+    "id": 356,
+    "original_en": "179 Ozzie's Fort - Guillotine Room",
+    "original_fr": "179 Manoir de Vinnie - Salle Guillotine",
+    "translation": ""
+  },
+  {
+    "id": 357,
+    "original_en": "180 Ozzie's Fort - Battle Against All Three",
+    "original_fr": "180 Manoir de Vinnie - Bataille contre trois",
+    "translation": ""
+  },
+  {
+    "id": 358,
+    "original_en": "181 Ozzie's Fort - The End of Ozzie",
+    "original_fr": "181 Manoir de Vinnie - Mort de Vinnie",
+    "translation": ""
+  },
+  {
+    "id": 359,
+    "original_en": "183 Ozzie's Fort - Flea Battle Room",
+    "original_fr": "183 Manoir de Vinnie - Salle bataille contre Mayo",
+    "translation": ""
+  },
+  {
+    "id": 360,
+    "original_en": "184 Ozzie's Fort - Slash Battle Room",
+    "original_fr": "184 Manoir de Vinnie - Salle bataille contre Soja",
+    "translation": ""
+  },
+  {
+    "id": 361,
+    "original_en": "185 Choras - Residence 1",
+    "original_fr": "185 Choras - Résidence 1",
+    "translation": ""
+  },
+  {
+    "id": 362,
+    "original_en": "186 Choras - Residence 2 (Carpenter) 1F",
+    "original_fr": "186 Choras - Résidence 2 (Charpentier) RDC",
+    "translation": ""
+  },
+  {
+    "id": 363,
+    "original_en": "187 Choras - Residence 2 (Carpenter) 2F",
+    "original_fr": "187 Choras - Résidence 2 (Charpentier) 1er étage",
+    "translation": ""
+  },
+  {
+    "id": 364,
+    "original_en": "188 Choras - Tavern",
+    "original_fr": "188 Choras - Taverne",
+    "translation": ""
+  },
+  {
+    "id": 365,
+    "original_en": "189 Choras - Inn",
+    "original_fr": "189 Choras - Auberge",
+    "translation": ""
+  },
+  {
+    "id": 366,
+    "original_en": "190 Choras - Market",
+    "original_fr": "190 Choras - Magasin",
+    "translation": ""
+  },
+  {
+    "id": 367,
+    "original_en": "191 Sun Shrine - Middle Ages?",
+    "original_fr": "191 Berceau de la lumière - Moyen-{TAG:5F}ge?",
+    "translation": ""
+  },
+  {
+    "id": 368,
+    "original_en": "195_1 Giant's Claw",
+    "original_fr": "195_1 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 369,
+    "original_en": "195_3 Giant's Claw Entrance",
+    "original_fr": "195_3 Griffe du géant - Entree",
+    "translation": ""
+  },
+  {
+    "id": 370,
+    "original_en": "195_4 Giant's Claw",
+    "original_fr": "195_4 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 371,
+    "original_en": "195_5 Giant's Claw",
+    "original_fr": "195_5 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 372,
+    "original_en": "195_6 Giant's Claw",
+    "original_fr": "195_6 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 373,
+    "original_en": "196_1 Giant's Claw",
+    "original_fr": "196_1 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 374,
+    "original_en": "196_2 Giant's Claw",
+    "original_fr": "196_2 Griffe du géant",
+    "translation": ""
+  },
+  {
+    "id": 375,
+    "original_en": "197 Giant's Claw - Rust Tyranno Battle Room",
+    "original_fr": "197 Griffe du géant - Salle bataille contre tyrannosaure noir",
+    "translation": ""
+  },
+  {
+    "id": 376,
+    "original_en": "198 Manolia Cathedral - Yakra Battle Room",
+    "original_fr": "198 Abbaye de Manolia - Salle bataille contre Yakra",
+    "translation": ""
+  },
+  {
+    "id": 377,
+    "original_en": "199 Manolia Cathedral - Prison Cell",
+    "original_fr": "199 Abbaye de Manolia - Cellule",
+    "translation": ""
+  },
+  {
+    "id": 378,
+    "original_en": "200 Manolia Cathedral - Phantom Room",
+    "original_fr": "200 Abbaye de Manolia - Salle des illusions",
+    "translation": ""
+  },
+  {
+    "id": 379,
+    "original_en": "201 Manolia Cathedral - Bromide Room",
+    "original_fr": "201 Abbaye de Manolia - Salle du portrait de myanne",
+    "translation": ""
+  },
+  {
+    "id": 380,
+    "original_en": "202 Manolia Cathedral - Monsters' Room",
+    "original_fr": "202 Abbaye de Manolia - Salle des monstres",
+    "translation": ""
+  },
+  {
+    "id": 381,
+    "original_en": "203 Manolia Cathedral - Magus Statue",
+    "original_fr": "203 Abbaye de Manolia - Statue du Magistère",
+    "translation": ""
+  },
+  {
+    "id": 382,
+    "original_en": "208 Bangor Dome - Gate Room",
+    "original_fr": "208 Dôme de Bangor - Salle du portail",
+    "translation": ""
+  },
+  {
+    "id": 383,
+    "original_en": "209 Bangor Dome - Sealed Treasure Room",
+    "original_fr": "209 Dôme de Bangor - Salle du trésor scellé",
+    "translation": ""
+  },
+  {
+    "id": 384,
+    "original_en": "210 Trann Dome",
+    "original_fr": "210 Dôme de Trann",
+    "translation": ""
+  },
+  {
+    "id": 385,
+    "original_en": "211 Trann Dome - Sealed Treasure Room",
+    "original_fr": "211 Dôme de Trann - Salle du trésor scellé",
+    "translation": ""
+  },
+  {
+    "id": 386,
+    "original_en": "212 Site 16 Trann Dome Side",
+    "original_fr": "212 Ruines nÎ 16 - Côté du dôme de Trann",
+    "translation": ""
+  },
+  {
+    "id": 387,
+    "original_en": "213 Site 16 Arris Dome Side",
+    "original_fr": "213 Ruines nÎ 16 - Côté du dôme d'Arris",
+    "translation": ""
+  },
+  {
+    "id": 388,
+    "original_en": "214 Arris Dome",
+    "original_fr": "214 Dôme d'Arris",
+    "translation": ""
+  },
+  {
+    "id": 389,
+    "original_en": "215 Arris Dome Substructure - Passcode Room 1",
+    "original_fr": "215 Dôme d'Arris (sous-sol) - Salle mot de passe 1",
+    "translation": ""
+  },
+  {
+    "id": 390,
+    "original_en": "216 Arris Dome Substructure - Upon Entering",
+    "original_fr": "216 Dôme d'Arris (sous-sol) - En entrant",
+    "translation": ""
+  },
+  {
+    "id": 391,
+    "original_en": "217 Arris Dome Substructure - Passcode Room 2",
+    "original_fr": "217 Dôme d'Arris (sous-sol) - Salle mot de passe 2",
+    "translation": ""
+  },
+  {
+    "id": 392,
+    "original_en": "218 Arris Dome Substructure - Day of Lavos Record Room",
+    "original_fr": "218 Dôme d'Arris (sous-sol) - Salle archives du jour de Lavos",
+    "translation": ""
+  },
+  {
+    "id": 393,
+    "original_en": "219 Arris Dome Substructure - Guardian Battle",
+    "original_fr": "219 Dôme d'Arris (sous-sol) - Bataille contre gardien",
+    "translation": ""
+  },
+  {
+    "id": 394,
+    "original_en": "220 Arris Dome Substructure - Sealed Treasure Room",
+    "original_fr": "220 Dôme d'Arris (sous-sol) - Salle du trésor scellé",
+    "translation": ""
+  },
+  {
+    "id": 395,
+    "original_en": "221 Arris Dome Substructure - Rat Room",
+    "original_fr": "221 Dôme d'Arris (sous-sol) - Salle du rat",
+    "translation": ""
+  },
+  {
+    "id": 396,
+    "original_en": "222 Reptite Lair",
+    "original_fr": "222 Antre des sauriens",
+    "translation": ""
+  },
+  {
+    "id": 397,
+    "original_en": "223 Site 32 - Eastern Bike Parking",
+    "original_fr": "223 Ruines nÎ 32 - Stationnement ouest",
+    "translation": ""
+  },
+  {
+    "id": 398,
+    "original_en": "224 Site 32 - Road",
+    "original_fr": "224 Ruines nÎ 32 - Route",
+    "translation": ""
+  },
+  {
+    "id": 399,
+    "original_en": "225 Site 32 - Eastern Bike Parking",
+    "original_fr": "225 Ruines nÎ 32 - Stationnement est",
+    "translation": ""
+  },
+  {
+    "id": 400,
+    "original_en": "226 Proto Dome - Robo's Debut",
+    "original_fr": "226 Dôme de Prométhée - Entrée en scène de RoBo",
+    "translation": ""
+  },
+  {
+    "id": 401,
+    "original_en": "227 Proto Dome - Gate Room",
+    "original_fr": "227 Dôme de Prométhée - Salle du portail",
+    "translation": ""
+  },
+  {
+    "id": 402,
+    "original_en": "228 Derelict Factory - Entrance",
+    "original_fr": "228 Usine désaffectée - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 403,
+    "original_en": "229 Derelict Factory - B2 (West)",
+    "original_fr": "229 Usine désaffectée - SS1 (Ouest)",
+    "translation": ""
+  },
+  {
+    "id": 404,
+    "original_en": "230 Derelict Factory - B2 (West)",
+    "original_fr": "230 Usine désaffectée - SS2 (Ouest)",
+    "translation": ""
+  },
+  {
+    "id": 405,
+    "original_en": "231 Derelict Factory - B1 (East)",
+    "original_fr": "231 Usine désaffectée SS1 (Est)",
+    "translation": ""
+  },
+  {
+    "id": 406,
+    "original_en": "232 Derelict Factory - Bug Room",
+    "original_fr": "232 Usine désaffectée - Salle des scarabogues",
+    "translation": ""
+  },
+  {
+    "id": 407,
+    "original_en": "233 Derelict Factory - Room Before Crane",
+    "original_fr": "233 Usine désaffectée - Salle avant grue",
+    "translation": ""
+  },
+  {
+    "id": 408,
+    "original_en": "234 Derelict Factory - Passcode Acquisition",
+    "original_fr": "234 Usine désaffectée - Obtention du mot de passe",
+    "translation": ""
+  },
+  {
+    "id": 409,
+    "original_en": "235 Derelict Factory - B3 (West)",
+    "original_fr": "235 Usine désaffectée - SS3 (Ouest)",
+    "translation": ""
+  },
+  {
+    "id": 410,
+    "original_en": "236 Abandoned Sewers - Entrance",
+    "original_fr": "236 Ancien égout - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 411,
+    "original_en": "237 Abandoned Sewers",
+    "original_fr": "237 Ancien égout",
+    "translation": ""
+  },
+  {
+    "id": 412,
+    "original_en": "241 Keeper's Dome",
+    "original_fr": "241 Dôme du gardien",
+    "translation": ""
+  },
+  {
+    "id": 413,
+    "original_en": "242 Keeper's Dome - Hallway",
+    "original_fr": "242 Dôme du gardien - Corridor",
+    "translation": ""
+  },
+  {
+    "id": 414,
+    "original_en": "243 Keeper's Dome - Epoch Storage Room",
+    "original_fr": "243 Dôme du gardien - Salle de l'Ibis",
+    "translation": ""
+  },
+  {
+    "id": 415,
+    "original_en": "244 Death Peak - Entrance",
+    "original_fr": "244 Mont des défunts - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 416,
+    "original_en": "245 Death Peak - Map 1",
+    "original_fr": "245 Mont des défunts - Carte 1",
+    "translation": ""
+  },
+  {
+    "id": 417,
+    "original_en": "246 Death Peak - Map 2",
+    "original_fr": "246 Mont des défunts - Carte 2",
+    "translation": ""
+  },
+  {
+    "id": 418,
+    "original_en": "247 Death Peak - Map 4 (Lavos Spawn - 2)",
+    "original_fr": "247 Mont des défunts - Carte 4 (larve de Lavos 2)",
+    "translation": ""
+  },
+  {
+    "id": 419,
+    "original_en": "248 Geno Dome - Entrance",
+    "original_fr": "248 Dôme de Génos - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 420,
+    "original_en": "249 Geno Dome - Conveyer Belt (Front)",
+    "original_fr": "249 Dôme de Génos - Tapis roulant (Devant)",
+    "translation": ""
+  },
+  {
+    "id": 421,
+    "original_en": "250 Geno Dome - Conveyer Belt (Rear)",
+    "original_fr": "250 Dôme de Génos - Tapis roulant (Derrière)",
+    "translation": ""
+  },
+  {
+    "id": 422,
+    "original_en": "251 Sun Shrine",
+    "original_fr": "251 Temple du soleil",
+    "translation": ""
+  },
+  {
+    "id": 423,
+    "original_en": "253 Sun Shrine - Future?",
+    "original_fr": "253 Berceau de la lumière - Futur ?",
+    "translation": ""
+  },
+  {
+    "id": 424,
+    "original_en": "255 Sun Shrine - Prehistory?",
+    "original_fr": "255 Berceau de la lumière - Préhistoire ?",
+    "translation": ""
+  },
+  {
+    "id": 425,
+    "original_en": "256 Geno Dome - Main Room",
+    "original_fr": "256 Dôme de Génos - Salle principale",
+    "translation": ""
+  },
+  {
+    "id": 426,
+    "original_en": "257 Geno Dome - Treasure Room 1",
+    "original_fr": "257 Dôme de Génos - Salle au trésor 1",
+    "translation": ""
+  },
+  {
+    "id": 427,
+    "original_en": "258 Geno Dome - Treasure Room 2",
+    "original_fr": "258 Dôme de Génos - Salle au trésor 2",
+    "translation": ""
+  },
+  {
+    "id": 428,
+    "original_en": "259 Derelict Factory - Crane Code Acquisition",
+    "original_fr": "259 Usine désaffectée - Obtention du code de la grue",
+    "translation": ""
+  },
+  {
+    "id": 429,
+    "original_en": "260 Death Peak - Map 6",
+    "original_fr": "260 Mont des défunts - Carte 6",
+    "translation": ""
+  },
+  {
+    "id": 430,
+    "original_en": "262 Death Peak - Map 5",
+    "original_fr": "261 Mont des défunts - Carte 5",
+    "translation": ""
+  },
+  {
+    "id": 431,
+    "original_en": "263 Death Peak - Map 3",
+    "original_fr": "263 Mont des défunts - Carte 3",
+    "translation": ""
+  },
+  {
+    "id": 432,
+    "original_en": "264 Death Peak - Interior (Lavos Spawn - 1)",
+    "original_fr": "264 Mont des défunts - Intérieur (larve de Lavos 1)",
+    "translation": ""
+  },
+  {
+    "id": 433,
+    "original_en": "265 Death Peak - Summit",
+    "original_fr": "265 Mont des défunts - Cime",
+    "translation": ""
+  },
+  {
+    "id": 434,
+    "original_en": "267 Geno Dome - Rear of Oblong Passage",
+    "original_fr": "267 Dôme de Génos - Fond du corridor étroit",
+    "translation": ""
+  },
+  {
+    "id": 435,
+    "original_en": "268 Geno Dome - Mother Brain Battle",
+    "original_fr": "268 Dôme de Génos - Bataille contre cerveau mère",
+    "translation": ""
+  },
+  {
+    "id": 436,
+    "original_en": "269 Geno Dome - Execution Room",
+    "original_fr": "269 Dôme de Génos - Salle d'exécution",
+    "translation": ""
+  },
+  {
+    "id": 437,
+    "original_en": "272 Mystic Mountains - Gate",
+    "original_fr": "272 Mont étrange - Portail",
+    "translation": ""
+  },
+  {
+    "id": 438,
+    "original_en": "273 Mystic Mountains - Ayla's Debut",
+    "original_fr": "273 Mont étrange - Entrée en scène d'Ayla",
+    "translation": ""
+  },
+  {
+    "id": 439,
+    "original_en": "274 Mystic Mountains - Trail",
+    "original_fr": "274 Mont étrange - Passage",
+    "translation": ""
+  },
+  {
+    "id": 440,
+    "original_en": "275 Ioka Village - Chief's Hut",
+    "original_fr": "275 Village d'Ioka - Tente du chef",
+    "translation": ""
+  },
+  {
+    "id": 441,
+    "original_en": "276 Ioka Village Hut",
+    "original_fr": "276 Tente du village d'Ioka",
+    "translation": ""
+  },
+  {
+    "id": 442,
+    "original_en": "277 Ioka Village Hut - Trading Room",
+    "original_fr": "277 Village d'Ioka - Tente de troc",
+    "translation": ""
+  },
+  {
+    "id": 443,
+    "original_en": "278 Ioka Village Hut - Healing Room",
+    "original_fr": "278 Village d'Ioka - Tente de guérison",
+    "translation": ""
+  },
+  {
+    "id": 444,
+    "original_en": "279 Ioka Village - Village Center",
+    "original_fr": "279 Village d'Ioka - Place du village",
+    "translation": ""
+  },
+  {
+    "id": 445,
+    "original_en": "280 Ioka Village - Village Center (Night)",
+    "original_fr": "280 Village d'Ioka - Place du village (nuit)",
+    "translation": ""
+  },
+  {
+    "id": 446,
+    "original_en": "281 Forest Maze - Entrance Only",
+    "original_fr": "281 Jungle - Entrée seulement",
+    "translation": ""
+  },
+  {
+    "id": 447,
+    "original_en": "282 Forest Maze",
+    "original_fr": "282 Jungle",
+    "translation": ""
+  },
+  {
+    "id": 448,
+    "original_en": "283 Reptite Lair - Entrance",
+    "original_fr": "283 Antre des sauriens - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 449,
+    "original_en": "284 Reptite Lair - Beetle Room",
+    "original_fr": "284 Antre des sauriens - Salle des insectes",
+    "translation": ""
+  },
+  {
+    "id": 450,
+    "original_en": "285 Reptite Lair - Hole 1",
+    "original_fr": "285 Antre des sauriens - Trou 1",
+    "translation": ""
+  },
+  {
+    "id": 451,
+    "original_en": "286 Reptite Lair - Hole 2",
+    "original_fr": "286 Antre des sauriens - Trou 2",
+    "translation": ""
+  },
+  {
+    "id": 452,
+    "original_en": "287 Reptite Lair - Hole 3",
+    "original_fr": "287 Antre des sauriens - Trou 3",
+    "translation": ""
+  },
+  {
+    "id": 453,
+    "original_en": "288 Reptite Lair",
+    "original_fr": "288 Antre des sauriens",
+    "translation": ""
+  },
+  {
+    "id": 454,
+    "original_en": "289 Reptite Lair - Nizbel Battle",
+    "original_fr": "289 Antre des sauriens - Bataille contre Nizbel",
+    "translation": ""
+  },
+  {
+    "id": 455,
+    "original_en": "290 Reptite Lair",
+    "original_fr": "290 Antre des sauriens",
+    "translation": ""
+  },
+  {
+    "id": 456,
+    "original_en": "291 Hunting Range",
+    "original_fr": "291 Terrain de chasse",
+    "translation": ""
+  },
+  {
+    "id": 457,
+    "original_en": "292 Laruba Ruins",
+    "original_fr": "292 Ruines de Laruba",
+    "translation": ""
+  },
+  {
+    "id": 458,
+    "original_en": "293 Dactyl Nest - Entrance",
+    "original_fr": "293 Nid des ptéranodons - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 459,
+    "original_en": "294 Dactyl Nest - Mountainside",
+    "original_fr": "294 Nid des ptéranodons - Montagne",
+    "translation": ""
+  },
+  {
+    "id": 460,
+    "original_en": "295 Dactyl Nest - Peak",
+    "original_fr": "295 Nid des ptéranodons - Sommet",
+    "translation": ""
+  },
+  {
+    "id": 461,
+    "original_en": "298_1 Tyranno Lair - Exterior",
+    "original_fr": "298_1 Fort Tyrannos - Extérieur",
+    "translation": ""
+  },
+  {
+    "id": 462,
+    "original_en": "298_2 Tyranno Lair - Exterior",
+    "original_fr": "298_2 Fort Tyrannos - Extérieur",
+    "translation": ""
+  },
+  {
+    "id": 463,
+    "original_en": "298_3 Tyranno Lair - Exterior",
+    "original_fr": "298_3 Fort Tyrannos - Extérieur",
+    "translation": ""
+  },
+  {
+    "id": 464,
+    "original_en": "299 Tyranno Lair - Entrance",
+    "original_fr": "299 Fort Tyrannos - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 465,
+    "original_en": "300 Tyranno Lair - Azala Face-off",
+    "original_fr": "300 Fort Tyrannos - Confrontation avec Azara",
+    "translation": ""
+  },
+  {
+    "id": 466,
+    "original_en": "301 Tyranno Lair - Black Tyranno Battle",
+    "original_fr": "301 Fort Tyrannos - Bataille tyrannosaure brun",
+    "translation": ""
+  },
+  {
+    "id": 467,
+    "original_en": "302_1 Tyranno Lair - Interior (Traps)",
+    "original_fr": "302_1 Fort Tyrannos - Intérieur (Pièges)",
+    "translation": ""
+  },
+  {
+    "id": 468,
+    "original_en": "302_2 Tyranno Lair - Interior (Prisoners)",
+    "original_fr": "302_2 Fort Tyrannos - Intérieur (Prisoniers)",
+    "translation": ""
+  },
+  {
+    "id": 469,
+    "original_en": "302_3 Tyranno Lair - Interior (Prisoners, Traps)",
+    "original_fr": "302_3 Fort Tyrannos - Intérieur (Prisoniers, Pièges)",
+    "translation": ""
+  },
+  {
+    "id": 470,
+    "original_en": "302_4 Tyranno Lair - Interior (Prisoners, Traps)",
+    "original_fr": "302_4 Fort Tyrannos - Intérieur (Prisoniers, Pièges)",
+    "translation": ""
+  },
+  {
+    "id": 471,
+    "original_en": "302_5 Tyranno Lair - Interior (Prisoners, Traps)",
+    "original_fr": "302_5 Fort Tyrannos - Intérieur (Prisoniers, Pièges)",
+    "translation": ""
+  },
+  {
+    "id": 472,
+    "original_en": "302_6 Tyranno Lair - Interior (Prisoners, Traps)",
+    "original_fr": "302_6 Fort Tyrannos - Intérieur (Prisoniers, Pièges)",
+    "translation": ""
+  },
+  {
+    "id": 473,
+    "original_en": "303_1 Tyranno Lair - Interior 2 (Switches, Passages)",
+    "original_fr": "303_1 Fort Tyrannos - Intérieur 2 (Boutons, Passages)",
+    "translation": ""
+  },
+  {
+    "id": 474,
+    "original_en": "303_2 Tyranno Lair - Interior 2 (Switches, Passages)",
+    "original_fr": "303_2 Fort Tyrannos - Intérieur 2 (Boutons, Passages)",
+    "translation": ""
+  },
+  {
+    "id": 475,
+    "original_en": "303_3 Tyranno Lair - Interior 2 (Switches, Passages)",
+    "original_fr": "303_3 Fort Tyrannos - Intérieur 2 (Boutons, Passages)",
+    "translation": ""
+  },
+  {
+    "id": 476,
+    "original_en": "303_5 Tyranno Lair - Interior 2 (Switches, Passages)",
+    "original_fr": "303_5 Fort Tyrannos - Intérieur 2 (Boutons, Passages)",
+    "translation": ""
+  },
+  {
+    "id": 477,
+    "original_en": "304 Tyranno Lair - Nizbel II",
+    "original_fr": "304 Fort Tyrannos - Nizbel II",
+    "translation": ""
+  },
+  {
+    "id": 478,
+    "original_en": "305 Tyranno Lair - Interior 3 (Warp Point)",
+    "original_fr": "305 Fort Tyrannos - Intérieur 3 (Tuiles portails)",
+    "translation": ""
+  },
+  {
+    "id": 479,
+    "original_en": "307 Tyranno Lair Ruins",
+    "original_fr": "307 Cratère de Tyrannos",
+    "translation": ""
+  },
+  {
+    "id": 480,
+    "original_en": "308 Black Omen - Upper Level 1 (Mega M.)",
+    "original_fr": "308 Songe obscur - Niveau supérieur 1 (Mégamutant)",
+    "translation": ""
+  },
+  {
+    "id": 481,
+    "original_en": "309 Black Omen - Upper Level 1",
+    "original_fr": "309 Songe obscur - Niveau supérieur 1",
+    "translation": ""
+  },
+  {
+    "id": 482,
+    "original_en": "310 Black Omen - Upper Level 2",
+    "original_fr": "310 Songe obscur - Niveau supérieur 2",
+    "translation": ""
+  },
+  {
+    "id": 483,
+    "original_en": "311 Black Omen - Upper Level 3",
+    "original_fr": "311 Songe obscur - Niveau supérieur 3",
+    "translation": ""
+  },
+  {
+    "id": 484,
+    "original_en": "312 Black Omen - Upper Level 4",
+    "original_fr": "312 Songe obscur - Niveau supérieur 4",
+    "translation": ""
+  },
+  {
+    "id": 485,
+    "original_en": "313 Black Omen - Middle Level 1",
+    "original_fr": "313 Songe obscur - Niveau moyen 1",
+    "translation": ""
+  },
+  {
+    "id": 486,
+    "original_en": "314 Black Omen - Middle Level 2",
+    "original_fr": "314 Songe obscur - Niveau moyen 2",
+    "translation": ""
+  },
+  {
+    "id": 487,
+    "original_en": "315 Black Omen - Middle Level 3",
+    "original_fr": "315 Songe obscur - Niveau moyen 3",
+    "translation": ""
+  },
+  {
+    "id": 488,
+    "original_en": "316 Black Omen - Middle Level 4",
+    "original_fr": "316 Songe obscur - Niveau moyen 4",
+    "translation": ""
+  },
+  {
+    "id": 489,
+    "original_en": "317 Black Omen - Middle Level 5",
+    "original_fr": "317 Songe obscur - Niveau moyen 5",
+    "translation": ""
+  },
+  {
+    "id": 490,
+    "original_en": "318 Black Omen - Middle Level 6",
+    "original_fr": "318 Songe obscur - Niveau moyen 6",
+    "translation": ""
+  },
+  {
+    "id": 491,
+    "original_en": "319 Black Omen - Middle Level 7",
+    "original_fr": "319 Songe obscur - Niveau moyen 7",
+    "translation": ""
+  },
+  {
+    "id": 492,
+    "original_en": "320 Black Omen - Middle Level 8",
+    "original_fr": "320 Songe obscur - Niveau moyen 8 (Téléporteur)",
+    "translation": ""
+  },
+  {
+    "id": 493,
+    "original_en": "321 Black Omen - Lower Level 1 (Warp)",
+    "original_fr": "321 Songe obscur - Niveau inférieur 1 (Téléporteur)",
+    "translation": ""
+  },
+  {
+    "id": 494,
+    "original_en": "322 Black Omen - Lower Level 2",
+    "original_fr": "322 Songe obscur - Niveau inférieur 2",
+    "translation": ""
+  },
+  {
+    "id": 495,
+    "original_en": "323 Black Omen - Lower Level 3 (Giga M.)",
+    "original_fr": "323 Songe obscur - Niveau inférieur 3 (Gigamutant)",
+    "translation": ""
+  },
+  {
+    "id": 496,
+    "original_en": "324 Black Omen - Bottom Level 1",
+    "original_fr": "324 Songe obscur - Profondeurs 1",
+    "translation": ""
+  },
+  {
+    "id": 497,
+    "original_en": "325 Black Omen - Bottom Level 2 (Terra M.)",
+    "original_fr": "325 Songe obscur - Profondeurs 2 (Téramutant)",
+    "translation": ""
+  },
+  {
+    "id": 498,
+    "original_en": "326 Black Omen - Bottom Level 3",
+    "original_fr": "326 Songe obscur - Profondeurs 3",
+    "translation": ""
+  },
+  {
+    "id": 499,
+    "original_en": "327 Sun Shrine - Unknown Era",
+    "original_fr": "327 Berceau de la lumière - Antiquité ?",
+    "translation": ""
+  },
+  {
+    "id": 500,
+    "original_en": "328 Zeal Palace - Janus's Chamber",
+    "original_fr": "328 Palais de Zhyle - Chambre de Janus",
+    "translation": ""
+  },
+  {
+    "id": 501,
+    "original_en": "329 Zeal Palace - Sealed Door (Unopened)",
+    "original_fr": "329 Palais de Zhyle - Porte scellée (pas ouverte)",
+    "translation": ""
+  },
+  {
+    "id": 502,
+    "original_en": "330 Zeal Palace - Sealed Door (Opened)",
+    "original_fr": "330 Palais de Zhyle - Porte scellée (ouverte)",
+    "translation": ""
+  },
+  {
+    "id": 503,
+    "original_en": "331 Zeal Palace - Mammon Machine - 1",
+    "original_fr": "331 Palais de Zhyle - Salle du Réceptacle sacré 1",
+    "translation": ""
+  },
+  {
+    "id": 504,
+    "original_en": "332 Zeal Palace - Queen's Chamber - 1",
+    "original_fr": "332 Palais de Zhyle - Chambre de la reine 1",
+    "translation": ""
+  },
+  {
+    "id": 505,
+    "original_en": "333 Zeal Palace - Mammon Machine - 2",
+    "original_fr": "333 Palais de Zhyle - Salle du Réceptacle sacré 2",
+    "translation": ""
+  },
+  {
+    "id": 506,
+    "original_en": "334 Zeal Palace - Queen's Chamber - 2",
+    "original_fr": "334 Palais de Zhyle - Chambre de la reine 2",
+    "translation": ""
+  },
+  {
+    "id": 507,
+    "original_en": "336 Land Bridge",
+    "original_fr": "336 Voie de la terre",
+    "translation": ""
+  },
+  {
+    "id": 508,
+    "original_en": "338 Dream Project - Staff, Residence",
+    "original_fr": "338 Dream Team - îquipe, Résidence",
+    "translation": ""
+  },
+  {
+    "id": 509,
+    "original_en": "339 Dream Project - Staff, Prehistoric Forest",
+    "original_fr": "339 Dream Team - îquipe, Forêt préhistorique",
+    "translation": ""
+  },
+  {
+    "id": 510,
+    "original_en": "340 Dream Project - Staff, Ocean Palace",
+    "original_fr": "340 Dream Team - îquipe, Sanctuaire sous-marin",
+    "translation": ""
+  },
+  {
+    "id": 511,
+    "original_en": "341 Dream Project - Staff, Prison",
+    "original_fr": "341 Dream Team - îquipe, Prison",
+    "translation": ""
+  },
+  {
+    "id": 512,
+    "original_en": "342 Dream Project - Staff, Terrans",
+    "original_fr": "342 Dream Team - îquipe, Terriens",
+    "translation": ""
+  },
+  {
+    "id": 513,
+    "original_en": "343 Dream Project - Dream Staff",
+    "original_fr": "343 Dream Team - îquipe",
+    "translation": ""
+  },
+  {
+    "id": 514,
+    "original_en": "344 Arris Dome Substructure - Supply Room",
+    "original_fr": "344 Dôme d'Arris (sous-sol) 4 - Salle d'entreposage des vivres",
+    "translation": ""
+  },
+  {
+    "id": 515,
+    "original_en": "351 Small Cave - Gate",
+    "original_fr": "351 Petite caverne - Portail",
+    "translation": ""
+  },
+  {
+    "id": 516,
+    "original_en": "352 Land Bridge",
+    "original_fr": "352 Voie de la terre",
+    "translation": ""
+  },
+  {
+    "id": 517,
+    "original_en": "353 Land Bridge",
+    "original_fr": "353 Voie de la terre",
+    "translation": ""
+  },
+  {
+    "id": 518,
+    "original_en": "354 Skyway",
+    "original_fr": "354 Voie du ciel",
+    "translation": ""
+  },
+  {
+    "id": 519,
+    "original_en": "355 Enhasa - Plaza",
+    "original_fr": "355 Enhassa - Place",
+    "translation": ""
+  },
+  {
+    "id": 520,
+    "original_en": "357 Kajar - Plaza",
+    "original_fr": "357 Kajar - Grande salle",
+    "translation": ""
+  },
+  {
+    "id": 521,
+    "original_en": "358 Kajar - Small Room",
+    "original_fr": "358 Kajar - Petite salle",
+    "translation": ""
+  },
+  {
+    "id": 522,
+    "original_en": "359 Kajar - Hidden Room",
+    "original_fr": "359 Kajar - Salle secrète",
+    "translation": ""
+  },
+  {
+    "id": 523,
+    "original_en": "360 Kajar - Magic Research Lab",
+    "original_fr": "360 Kajar - Laboratoire de recherche magique",
+    "translation": ""
+  },
+  {
+    "id": 524,
+    "original_en": "361 Enhasa-  Hidden Room",
+    "original_fr": "361 Enhassa - Salle secrète",
+    "translation": ""
+  },
+  {
+    "id": 525,
+    "original_en": "362 Blackbird - Boarding Point",
+    "original_fr": "362 Quai du Cygne noir",
+    "translation": ""
+  },
+  {
+    "id": 526,
+    "original_en": "363 Blackbird - Left Wing",
+    "original_fr": "363 Cygne noir - Aile gauche",
+    "translation": ""
+  },
+  {
+    "id": 527,
+    "original_en": "364 Blackbird - Right Deck",
+    "original_fr": "364 Cygne noir - Pont droit",
+    "translation": ""
+  },
+  {
+    "id": 528,
+    "original_en": "365 Blackbird - Left Deck",
+    "original_fr": "365 Cygne noir - Pont gauche",
+    "translation": ""
+  },
+  {
+    "id": 529,
+    "original_en": "366 Blackbird - Panorama",
+    "original_fr": "366 Cygne noir - Panorama",
+    "translation": ""
+  },
+  {
+    "id": 530,
+    "original_en": "367 Blackbird - Epoch Upgrade Room",
+    "original_fr": "367 Cygne noir - Salle de modification de l'Ibis",
+    "translation": ""
+  },
+  {
+    "id": 531,
+    "original_en": "368 Blackbird - Rearward Passage",
+    "original_fr": "368 Cygne noir - Passage arrière",
+    "translation": ""
+  },
+  {
+    "id": 532,
+    "original_en": "369 Blackbird - Forward Passage",
+    "original_fr": "369 Cygne noir - Passage avant",
+    "translation": ""
+  },
+  {
+    "id": 533,
+    "original_en": "370 Blackbird Room 1",
+    "original_fr": "370 Cygne noir - Salle 1",
+    "translation": ""
+  },
+  {
+    "id": 534,
+    "original_en": "371 Blackbird Room 2",
+    "original_fr": "371 Cygne noir - Salle 2",
+    "translation": ""
+  },
+  {
+    "id": 535,
+    "original_en": "372 Blackbird Room 3",
+    "original_fr": "372 Cygne noir - Salle 3",
+    "translation": ""
+  },
+  {
+    "id": 536,
+    "original_en": "373 Blackbird Room 4",
+    "original_fr": "373 Cygne noir - Salle 4",
+    "translation": ""
+  },
+  {
+    "id": 537,
+    "original_en": "374 Blackbird Room 5",
+    "original_fr": "374 Cygne noir - Salle 5",
+    "translation": ""
+  },
+  {
+    "id": 538,
+    "original_en": "375 Blackbird Room 6",
+    "original_fr": "375 Cygne noir - Salle 6",
+    "translation": ""
+  },
+  {
+    "id": 539,
+    "original_en": "376 Blackbird - Ventillation Shaft",
+    "original_fr": "376 Cygne noir - Conduit d'aération",
+    "translation": ""
+  },
+  {
+    "id": 540,
+    "original_en": "378 Dream Project - Staff, Future Factory",
+    "original_fr": "378 Dream Team - îquipe, Usine du Futur",
+    "translation": ""
+  },
+  {
+    "id": 541,
+    "original_en": "379 Dream Project - End of Time",
+    "original_fr": "379 Dream Team - Fin des temps",
+    "translation": ""
+  },
+  {
+    "id": 542,
+    "original_en": "380 Algetty - Panorama",
+    "original_fr": "380 Alguetti - Panorama",
+    "translation": ""
+  },
+  {
+    "id": 543,
+    "original_en": "381 Algetty - Inn",
+    "original_fr": "381 Alguetti - Auberge",
+    "translation": ""
+  },
+  {
+    "id": 544,
+    "original_en": "382 Algetty - Elder's Room",
+    "original_fr": "382 Alguetti - Salle de l'ancien",
+    "translation": ""
+  },
+  {
+    "id": 545,
+    "original_en": "383 Algetty Resident's Room",
+    "original_fr": "383 Alguetti - Salle d'un habitant",
+    "translation": ""
+  },
+  {
+    "id": 546,
+    "original_en": "384 Algetty - Item Shop",
+    "original_fr": "384 Alguetti - Magasin",
+    "translation": ""
+  },
+  {
+    "id": 547,
+    "original_en": "388 Mudbeast Den",
+    "original_fr": "388 Nid du terraphage",
+    "translation": ""
+  },
+  {
+    "id": 548,
+    "original_en": "389_1 Small Cave - Floating Continent",
+    "original_fr": "389_1 Petite grotte - Continent flottant",
+    "translation": ""
+  },
+  {
+    "id": 549,
+    "original_en": "389_2 Small Cave - Floating Continent",
+    "original_fr": "389_2 Petite grotte - Continent flottant",
+    "translation": ""
+  },
+  {
+    "id": 550,
+    "original_en": "389_3 Small Cave - Floating Continent",
+    "original_fr": "389_3 Petite grotte - Continent flottant",
+    "translation": ""
+  },
+  {
+    "id": 551,
+    "original_en": "389_4 Small Cave - Floating Continent",
+    "original_fr": "389_4 Petite grotte - Continent flottant",
+    "translation": ""
+  },
+  {
+    "id": 552,
+    "original_en": "390 Dream Project - Staff, Prehistoric Hut",
+    "original_fr": "390 Dream Team - îquipe, tente préhistorique",
+    "translation": ""
+  },
+  {
+    "id": 553,
+    "original_en": "391 Dream Project - Staff, Magus's Keep",
+    "original_fr": "391 Dream Team - îquipe, Palais du Magistère",
+    "translation": ""
+  },
+  {
+    "id": 554,
+    "original_en": "392 Mountain of Woe - Station 3",
+    "original_fr": "392 Mont du tourment - Station 3",
+    "translation": ""
+  },
+  {
+    "id": 555,
+    "original_en": "393 Mountain of Woe - Station 5",
+    "original_fr": "393 Mont du tourment - Station 5",
+    "translation": ""
+  },
+  {
+    "id": 556,
+    "original_en": "394 Mountain of Woe - Base",
+    "original_fr": "394 Mont du tourment - Base",
+    "translation": ""
+  },
+  {
+    "id": 557,
+    "original_en": "395 Mountain of Woe - Station 8",
+    "original_fr": "395 Mont du tourment - Station 8",
+    "translation": ""
+  },
+  {
+    "id": 558,
+    "original_en": "397 Mountain of Woe - Giga Gaia Battle",
+    "original_fr": "397 Mont du tourment - Bataille gigaga¿a",
+    "translation": ""
+  },
+  {
+    "id": 559,
+    "original_en": "401 Zeal Palace - Main Hall",
+    "original_fr": "401 Palais de Zhyle - Salle principale",
+    "translation": ""
+  },
+  {
+    "id": 560,
+    "original_en": "402 Zeal Palace - Passage to Janus's Room",
+    "original_fr": "402 Palais de Zhyle - Corridor vers la chambre de Janus",
+    "translation": ""
+  },
+  {
+    "id": 561,
+    "original_en": "403 Zeal Palace - Schala's Room",
+    "original_fr": "403 Palais de Zhyle - Chambre de Sarah",
+    "translation": ""
+  },
+  {
+    "id": 562,
+    "original_en": "404 Ocean Palace - Upon Entering",
+    "original_fr": "404 Sanctuaire sous-marin - En entrant",
+    "translation": ""
+  },
+  {
+    "id": 563,
+    "original_en": "405 Ocean Palace - Upper Level, Main Hall",
+    "original_fr": "405 Sanctuaire sous-marin - Niveau supérieur, salle principale",
+    "translation": ""
+  },
+  {
+    "id": 564,
+    "original_en": "406_1 Ocean Palace - Upper Level, Small Room",
+    "original_fr": "406_1 Sanctuaire sous-marin - Niveau supérieur, petite salle",
+    "translation": ""
+  },
+  {
+    "id": 565,
+    "original_en": "406_2 Ocean Palace - Upper Level, Small Room",
+    "original_fr": "406_2 Sanctuaire sous-marin - Niveau supérieur, petite salle",
+    "translation": ""
+  },
+  {
+    "id": 566,
+    "original_en": "406_3 Ocean Palace - Upper Level, Small Room",
+    "original_fr": "406_3 Sanctuaire sous-marin - Niveau supérieur, petite salle",
+    "translation": ""
+  },
+  {
+    "id": 567,
+    "original_en": "406_4 Ocean Palace - Upper Level, Small Room",
+    "original_fr": "406_4 Sanctuaire sous-marin - Niveau supérieur, petite salle",
+    "translation": ""
+  },
+  {
+    "id": 568,
+    "original_en": "406_5 Ocean Palace - Upper Level, Small Room",
+    "original_fr": "406_5 Sanctuaire sous-marin - Niveau supérieur, petite salle",
+    "translation": ""
+  },
+  {
+    "id": 569,
+    "original_en": "406_6 Ocean Palace - Upper Level, Small Room",
+    "original_fr": "406_6 Sanctuaire sous-marin - Niveau supérieur, petite salle",
+    "translation": ""
+  },
+  {
+    "id": 570,
+    "original_en": "407 Ocean Palace - Upper Level, Door Switch",
+    "original_fr": "407 Sanctuaire sous-marin - Niveau supérieur, bouton",
+    "translation": ""
+  },
+  {
+    "id": 571,
+    "original_en": "408 Ocean Palace - Upper Level -> Great Stair",
+    "original_fr": "408 Sanctuaire sous-marin - Niveau supérieur -> grand escalier",
+    "translation": ""
+  },
+  {
+    "id": 572,
+    "original_en": "409 Ocean Palace - Great Stair",
+    "original_fr": "409 Sanctuaire sous-marin - Grand escalier",
+    "translation": ""
+  },
+  {
+    "id": 573,
+    "original_en": "410 Ocean Palace - Great Stair -> Lower Level",
+    "original_fr": "410 Sanctuaire sous-marin - Grand escalier -> Niveau inférieur",
+    "translation": ""
+  },
+  {
+    "id": 574,
+    "original_en": "411 Ocean Palace - Elevator (Lower Level)",
+    "original_fr": "411 Sanctuaire sous-marin - Ascenseur (Niveau inférieur)",
+    "translation": ""
+  },
+  {
+    "id": 575,
+    "original_en": "412 Ocean Palace - Lowest Level, Main Hall",
+    "original_fr": "412 Sanctuaire sous-marin - Niveau inférieur, salle principale",
+    "translation": ""
+  },
+  {
+    "id": 576,
+    "original_en": "413 Ocean Palace - Lowest Level, Passage",
+    "original_fr": "413 Sanctuaire sous-marin - Niveau inférieur, passage",
+    "translation": ""
+  },
+  {
+    "id": 577,
+    "original_en": "414 Ocean Palace - Golem Battle",
+    "original_fr": "414 Sanctuaire sous-marin - Bataille golem",
+    "translation": ""
+  },
+  {
+    "id": 578,
+    "original_en": "415 Ocean Palace - Lowest Level, Mammon Machine",
+    "original_fr": "415 Sanctuaire sous-marin - Niveau inférieur, Réceptacle sacré",
+    "translation": ""
+  },
+  {
+    "id": 579,
+    "original_en": "416 Ocean Palace - Elevator (Descending)",
+    "original_fr": "416 Sanctuaire sous-marin - Ascenseur (Descendant)",
+    "translation": ""
+  },
+  {
+    "id": 580,
+    "original_en": "417 Ocean Palace - Elevator (Upper Level)",
+    "original_fr": "417 Sanctuaire sous-marin - Ascenseur (Niveau supérieur)",
+    "translation": ""
+  },
+  {
+    "id": 581,
+    "original_en": "418 Ocean Palace - Elevator (Bottom Level)",
+    "original_fr": "418 Sanctuaire sous-marin - Ascenseur (Profondeurs)",
+    "translation": ""
+  },
+  {
+    "id": 582,
+    "original_en": "423 Ocean Palace - Lavos Battle (Strongest)",
+    "original_fr": "423 Sanctuaire sous-marin - Bataille Lavos (Fort)",
+    "translation": ""
+  },
+  {
+    "id": 583,
+    "original_en": "424 Surviving Village - Plaza",
+    "original_fr": "424 Village des survivants - Place du village",
+    "translation": ""
+  },
+  {
+    "id": 584,
+    "original_en": "425 Surviving Village - Beds",
+    "original_fr": "425 Village des survivants - Lits",
+    "translation": ""
+  },
+  {
+    "id": 585,
+    "original_en": "426 Surviving Village - Item Shop",
+    "original_fr": "426 Village des survivants - Magasin",
+    "translation": ""
+  },
+  {
+    "id": 586,
+    "original_en": "427 Surviving Village - Residence",
+    "original_fr": "427 Village des survivants - Résidence",
+    "translation": ""
+  },
+  {
+    "id": 587,
+    "original_en": "428 North Cape",
+    "original_fr": "428 Cap nord",
+    "translation": ""
+  },
+  {
+    "id": 588,
+    "original_en": "429 Death Peak - Crono Revival Event",
+    "original_fr": "429 Mont des défunts - îvénement résurrection de Chrono",
+    "translation": ""
+  },
+  {
+    "id": 589,
+    "original_en": "430 Tyranno Lair Imprisoned Villagers",
+    "original_fr": "430 Fort Tyrannos - Villageois prisonniers",
+    "translation": ""
+  },
+  {
+    "id": 590,
+    "original_en": "434 Leene Square - Bekkler's Lab",
+    "original_fr": "434 Place de Lynne - Tente de Bekkler",
+    "translation": ""
+  },
+  {
+    "id": 591,
+    "original_en": "435 Magic Cave - Entrance",
+    "original_fr": "435 Grotte des mystiques - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 592,
+    "original_en": "436 Fiona's Shrine - Nearby Woods",
+    "original_fr": "436 Sanctuaire de Fiona - Forêt",
+    "translation": ""
+  },
+  {
+    "id": 593,
+    "original_en": "437 Derelict Factory - Reject Room",
+    "original_fr": "437 Usine désaffectée - Salle des rejets",
+    "translation": ""
+  },
+  {
+    "id": 594,
+    "original_en": "438 Guardia Castle (Present) - Hall of Justice",
+    "original_fr": "438 Ch{TAG:4A}teau de Gardia (Présent) - Tribunal",
+    "translation": ""
+  },
+  {
+    "id": 595,
+    "original_en": "439 Leene Square - Plaza Rear",
+    "original_fr": "439 Place de Lynne - Arrière",
+    "translation": ""
+  },
+  {
+    "id": 596,
+    "original_en": "440 Guardia Castle (Present) - Treasury",
+    "original_fr": "440 Ch{TAG:4A}teau de Gardia (Présent ) - Trésorerie",
+    "translation": ""
+  },
+  {
+    "id": 597,
+    "original_en": "441 Guardia Castle (Present) - Before Hall of Justice",
+    "original_fr": "441 Ch{TAG:4A}teau de Gardia (Présent) - Avant tribunal",
+    "translation": ""
+  },
+  {
+    "id": 598,
+    "original_en": "442 Blackbird - Room 7",
+    "original_fr": "442 Cygne noir - Salle 7",
+    "translation": ""
+  },
+  {
+    "id": 599,
+    "original_en": "443 Blackbird - Room 8",
+    "original_fr": "443 Cygne noir - Salle 8",
+    "translation": ""
+  },
+  {
+    "id": 600,
+    "original_en": "444 Blackbird - Room 9",
+    "original_fr": "444 Cygne noir - Salle 9",
+    "translation": ""
+  },
+  {
+    "id": 601,
+    "original_en": "445 Blackbird - Room 10",
+    "original_fr": "445 Cygne noir - Salle 10",
+    "translation": ""
+  },
+  {
+    "id": 602,
+    "original_en": "446 Magus's Keep - Exterior Stairway 2",
+    "original_fr": "446 Palais du Magistère - Extérieur Escalier 2",
+    "translation": ""
+  },
+  {
+    "id": 603,
+    "original_en": "447 Magus's Keep  - Before Final Magus Battle",
+    "original_fr": "447 Palais du Magistère - Avant dernière bataille Magus",
+    "translation": ""
+  },
+  {
+    "id": 604,
+    "original_en": "449 Black Omen - Entrance",
+    "original_fr": "449 Songe obscur - Entrée",
+    "translation": ""
+  },
+  {
+    "id": 605,
+    "original_en": "450 Black Omen - Bottom Level 5",
+    "original_fr": "450 Songe obscur - Profondeurs 5",
+    "translation": ""
+  },
+  {
+    "id": 606,
+    "original_en": "451 Black Omen - Bottom Level 6 (Lowest Reaches)",
+    "original_fr": "451 Songe obscur - Profondeurs 6 (Niveau inférieur)",
+    "translation": ""
+  },
+  {
+    "id": 607,
+    "original_en": "464 End of Time - Gasper's Room",
+    "original_fr": "464 Fin des temps - Salle de Hasch",
+    "translation": ""
+  },
+  {
+    "id": 608,
+    "original_en": "465 End of Time - Spekkio's Room",
+    "original_fr": "465 Fin des temps - Salle de Specchio",
+    "translation": ""
+  },
+  {
+    "id": 609,
+    "original_en": "466 Lavos Shell - Shell Destroyed",
+    "original_fr": "466 Carapace de Lavos - Carapace détruite",
+    "translation": ""
+  },
+  {
+    "id": 610,
+    "original_en": "467 Lavos Shell - Battle vs Shell",
+    "original_fr": "467 Carapace de Lavos - Bataille contre carapace",
+    "translation": ""
+  },
+  {
+    "id": 611,
+    "original_en": "468_1 Guardia Castle - Western Stair",
+    "original_fr": "468_1 Ch{TAG:4A}teau de Gardia - Escalier ouest",
+    "translation": ""
+  },
+  {
+    "id": 612,
+    "original_en": "468_2 Guardia Castle - Western Stair",
+    "original_fr": "468_2 Ch{TAG:4A}teau de Gardia - Escalier ouest",
+    "translation": ""
+  },
+  {
+    "id": 613,
+    "original_en": "468_3 Guardia Castle - Western Stair",
+    "original_fr": "468_3 Ch{TAG:4A}teau de Gardia - Escalier ouest",
+    "translation": ""
+  },
+  {
+    "id": 614,
+    "original_en": "469 Magus's Keep - Western Passage",
+    "original_fr": "469 Palais du Magistère - Corridor ouest",
+    "translation": ""
+  },
+  {
+    "id": 615,
+    "original_en": "470 Magus's Keep - Ozzie Battle Room",
+    "original_fr": "470 Palais du Magistère - Avant salle de Vinnie",
+    "translation": ""
+  },
+  {
+    "id": 616,
+    "original_en": "471 Magus's Keep - After Pit Trap",
+    "original_fr": "471 Palais du Magistère - Devant Piège (trou)",
+    "translation": ""
+  },
+  {
+    "id": 617,
+    "original_en": "474 Lavos Interior - Before Final Battle",
+    "original_fr": "474 Lavos Intérieur - Avant dernière bataille",
+    "translation": ""
+  },
+  {
+    "id": 618,
+    "original_en": "478 Blackbird - Interior Exit",
+    "original_fr": "478 Cygne noir - Intérieur (sortie)",
+    "translation": ""
+  },
+  {
+    "id": 619,
+    "original_en": "480_1 Guardia Castle - Eastern Stair",
+    "original_fr": "480_1 Ch{TAG:4A}teau de Gardia - Escalier est",
+    "translation": ""
+  },
+  {
+    "id": 620,
+    "original_en": "480_2 Guardia Castle - Eastern Stair",
+    "original_fr": "480_2 Ch{TAG:4A}teau de Gardia - Escalier est",
+    "translation": ""
+  },
+  {
+    "id": 621,
+    "original_en": "480_3 Guardia Castle - Eastern Stair",
+    "original_fr": "480_3 Ch{TAG:4A}teau de Gardia - Escalier est",
+    "translation": ""
+  },
+  {
+    "id": 622,
+    "original_en": "486_1 Guardia Castle - Eastern Stair",
+    "original_fr": "486_1 Ch{TAG:4A}teau de Gardia - Escalier est",
+    "translation": ""
+  },
+  {
+    "id": 623,
+    "original_en": "486_2 Guardia Castle - Eastern Stair",
+    "original_fr": "486_2 Ch{TAG:4A}teau de Gardia - Escalier est",
+    "translation": ""
+  },
+  {
+    "id": 624,
+    "original_en": "486_3 Guardia Castle - Eastern Stair",
+    "original_fr": "486_3 Ch{TAG:4A}teau de Gardia - Escalier est",
+    "translation": ""
+  },
+  {
+    "id": 625,
+    "original_en": "487_1 Guardia Castle - Western Stair",
+    "original_fr": "487_1 Ch{TAG:4A}teau de Gardia - Escalier ouest",
+    "translation": ""
+  },
+  {
+    "id": 626,
+    "original_en": "487_2 Guardia Castle - Western Stair",
+    "original_fr": "487_2 Ch{TAG:4A}teau de Gardia - Escalier ouest",
+    "translation": ""
+  },
+  {
+    "id": 627,
+    "original_en": "487_3 Guardia Castle - Western Stair",
+    "original_fr": "487_3 Ch{TAG:4A}teau de Gardia - Escalier ouest",
+    "translation": ""
+  },
+  {
+    "id": 628,
+    "original_en": "488_1 Guardia Castle - Stair to Hall of Justice",
+    "original_fr": "488_1 Ch{TAG:4A}teau de Gardia - Escalier du tribunal",
+    "translation": ""
+  },
+  {
+    "id": 629,
+    "original_en": "488_2 Guardia Castle - Stair to Hall of Justice",
+    "original_fr": "488_2 Ch{TAG:4A}teau de Gardia - Escalier du tribunal",
+    "translation": ""
+  },
+  {
+    "id": 630,
+    "original_en": "488_3 Guardia Castle - Stair to Hall of Justice",
+    "original_fr": "488_3 Ch{TAG:4A}teau de Gardia - Escalier du tribunal",
+    "translation": ""
+  },
+  {
+    "id": 631,
+    "original_en": "489_1 Guardia Castle (Present) - Prison Stairway",
+    "original_fr": "489_1 Ch{TAG:4A}teau de Gardia (Présent) - Escalier de la prison",
+    "translation": ""
+  },
+  {
+    "id": 632,
+    "original_en": "489_2 Guardia Castle (Present) - Prison Stairway",
+    "original_fr": "489_2 Ch{TAG:4A}teau de Gardia (Présent) - Escalier de la prison",
+    "translation": ""
+  },
+  {
+    "id": 633,
+    "original_en": "489_3 Guardia Castle (Present) - Prison Stairway",
+    "original_fr": "489_3 Ch{TAG:4A}teau de Gardia (Présent) - Escalier de la prison",
+    "translation": ""
+  },
+  {
+    "id": 634,
+    "original_en": "495 Death Peak - Lavos Spawn - 3",
+    "original_fr": "495 Mont des défunts - Larve de Lavos 3",
+    "translation": ""
+  },
+  {
+    "id": 635,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 636,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 637,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 638,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 639,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 640,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 641,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 642,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 643,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 644,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 645,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 646,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 647,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 648,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 649,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 650,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 651,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 652,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 653,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 654,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 655,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 656,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 657,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 658,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 659,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 660,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 661,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 662,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 663,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 664,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 665,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 666,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 667,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 668,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 669,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 670,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 671,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 672,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 673,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 674,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 675,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 676,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 677,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 678,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 679,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 680,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 681,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 682,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 683,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 684,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 685,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 686,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 687,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 688,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 689,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 690,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 691,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 692,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 693,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 694,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 695,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 696,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 697,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 698,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 699,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 700,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 701,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 702,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 703,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 704,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 705,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 706,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 707,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 708,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 709,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 710,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 711,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 712,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 713,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 714,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 715,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 716,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 717,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 718,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 719,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 720,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 721,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 722,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 723,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 724,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 725,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 726,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 727,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 728,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 729,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 730,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 731,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 732,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 733,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 734,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 735,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 736,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 737,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 738,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 739,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 740,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 741,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 742,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 743,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 744,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 745,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 746,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 747,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 748,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 749,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 750,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 751,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 752,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 753,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 754,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 755,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 756,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 757,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 758,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 759,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 760,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 761,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 762,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 763,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 764,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 765,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 766,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 767,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 768,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 769,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 770,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 771,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 772,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 773,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 774,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 775,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 776,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 777,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 778,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 779,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 780,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 781,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 782,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 783,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 784,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 785,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 786,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 787,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 788,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 789,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 790,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 791,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 792,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 793,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 794,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 795,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 796,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 797,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 798,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 799,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 800,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 801,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 802,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 803,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 804,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 805,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 806,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 807,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 808,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 809,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 810,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 811,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 812,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 813,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 814,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 815,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 816,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 817,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 818,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 819,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 820,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 821,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 822,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 823,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 824,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 825,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 826,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 827,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 828,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 829,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 830,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 831,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 832,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 833,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 834,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 835,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 836,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 837,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 838,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 839,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 840,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 841,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 842,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 843,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 844,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 845,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 846,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 847,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 848,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 849,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 850,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 851,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 852,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 853,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 854,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 855,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 856,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 857,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 858,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 859,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 860,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 861,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 862,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 863,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 864,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 865,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 866,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 867,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 868,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 869,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 870,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 871,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 872,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 873,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 874,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 875,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 876,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 877,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 878,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 879,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 880,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 881,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 882,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 883,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 884,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 885,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 886,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 887,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 888,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 889,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 890,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 891,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 892,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 893,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 894,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 895,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 896,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 897,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 898,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 899,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 900,
+    "original_en": "Lost Sanctum",
+    "original_fr": "Sanctuaire oublié",
+    "translation": ""
+  },
+  {
+    "id": 901,
+    "original_en": "All monsters defeated at Millennia Wood",
+    "original_fr": "Après avoir éliminé les monstres de la forêt millénaire (Préhistoire)",
+    "translation": ""
+  },
+  {
+    "id": 902,
+    "original_en": "\"Golden Hammer\" quest",
+    "original_fr": "Chercher le maillet doré",
+    "translation": ""
+  },
+  {
+    "id": 903,
+    "original_en": "Obtained: \"Golden Sand\"",
+    "original_fr": "Obtention du sable doré",
+    "translation": ""
+  },
+  {
+    "id": 904,
+    "original_en": "Sprinkling golden san",
+    "original_fr": "Répandre le sable doré",
+    "translation": ""
+  },
+  {
+    "id": 905,
+    "original_en": "Battle for \"Golden Hammer\"",
+    "original_fr": "Combat avec l'ogon marteleur",
+    "translation": ""
+  },
+  {
+    "id": 906,
+    "original_en": "After the battle for \"Hammer\"",
+    "original_fr": "Après le combat avec l'ogon marteleur",
+    "translation": ""
+  },
+  {
+    "id": 907,
+    "original_en": "\"Prismastone\" quest",
+    "original_fr": "Chercher la pierre irisée",
+    "translation": ""
+  },
+  {
+    "id": 908,
+    "original_en": "Battle against \"Nu Guardian\"",
+    "original_fr": "Combat avec le gnu gardien",
+    "translation": ""
+  },
+  {
+    "id": 909,
+    "original_en": "After the battle against \"Nu Guardian\"",
+    "original_fr": "Après le combat avec le gnu gardien",
+    "translation": ""
+  },
+  {
+    "id": 910,
+    "original_en": "Obtained: \"Prismastone\" (Prehistory)",
+    "original_fr": "Obtention de la pierre irisée (Préhistoire)",
+    "translation": ""
+  },
+  {
+    "id": 911,
+    "original_en": "Bringing the prismastone to the mother",
+    "original_fr": "Montrer la pierre irisée",
+    "translation": ""
+  },
+  {
+    "id": 912,
+    "original_en": "Showing the elusive gem (quest)",
+    "original_fr": "Chercher une deuxième pierre irisée",
+    "translation": ""
+  },
+  {
+    "id": 913,
+    "original_en": "Obtained: \"Reptmark\"",
+    "original_fr": "Obtention de l'emblème saurien",
+    "translation": ""
+  },
+  {
+    "id": 914,
+    "original_en": "Obtained: \"Prismastone\" (the Middle Ages)",
+    "original_fr": "Obtention de la pierre irisée (Moyen-{TAG:5F}ge)",
+    "translation": ""
+  },
+  {
+    "id": 915,
+    "original_en": "Complation of \"Saintstone\"",
+    "original_fr": "Obtention de la pierre miraculeuse",
+    "translation": ""
+  },
+  {
+    "id": 916,
+    "original_en": "Placing \"Saintstone\"",
+    "original_fr": "Placer la pierre miraculeuse",
+    "translation": ""
+  },
+  {
+    "id": 917,
+    "original_en": "Check on the strange figure (Nu Guardian)",
+    "original_fr": "Accepter d'aider le gnu",
+    "translation": ""
+  },
+  {
+    "id": 918,
+    "original_en": "Obtained: \"Sturdy Vines\"",
+    "original_fr": "Obtention du lierre résistant",
+    "translation": ""
+  },
+  {
+    "id": 919,
+    "original_en": "Leaning a ladder",
+    "original_fr": "Installer l'échelle",
+    "translation": ""
+  },
+  {
+    "id": 920,
+    "original_en": "Before the battle against \"Nu Master\"",
+    "original_fr": "Avant le combat avec le gnu expert",
+    "translation": ""
+  },
+  {
+    "id": 921,
+    "original_en": "After the battle against \"Nu Master\"",
+    "original_fr": "Après le combat avec le gnu expert",
+    "translation": ""
+  },
+  {
+    "id": 922,
+    "original_en": "Obtained: \"Waystone\"",
+    "original_fr": "Obtention de la pierre guide",
+    "translation": ""
+  },
+  {
+    "id": 923,
+    "original_en": "To see what lies within the lightless cave",
+    "original_fr": "Explorer la grotte sombre",
+    "translation": ""
+  },
+  {
+    "id": 924,
+    "original_en": "Lightless Cave",
+    "original_fr": "Grotte sombre",
+    "translation": ""
+  },
+  {
+    "id": 925,
+    "original_en": "Primeval Fortress: Battles at the entrance",
+    "original_fr": "Combat {TAG:3C} l'entrée de la forteresse antique",
+    "translation": ""
+  },
+  {
+    "id": 926,
+    "original_en": "Punitive expedition in Primeval Fortress",
+    "original_fr": "Subjugation de la forteresse antique",
+    "translation": ""
+  },
+  {
+    "id": 927,
+    "original_en": "Primeval Fortress",
+    "original_fr": "Forteresse antique",
+    "translation": ""
+  },
+  {
+    "id": 928,
+    "original_en": "Before the battle against \"Archaeofangs\"",
+    "original_fr": "Avant le combat avec les frères dinocrocs",
+    "translation": ""
+  },
+  {
+    "id": 929,
+    "original_en": "After the battle against \"Archaeofangs\"",
+    "original_fr": "Après le combat avec les frères dinocrocs",
+    "translation": ""
+  },
+  {
+    "id": 930,
+    "original_en": "\"Building tools\" quest",
+    "original_fr": "Chercher des matériaux",
+    "translation": ""
+  },
+  {
+    "id": 931,
+    "original_en": "Obtained: \"Godwood\"",
+    "original_fr": "Obtention du bois divin",
+    "translation": ""
+  },
+  {
+    "id": 932,
+    "original_en": "Obtained: \"Golden Hummer\"",
+    "original_fr": "Obtention du maillet doré (bis)",
+    "translation": ""
+  },
+  {
+    "id": 933,
+    "original_en": "Obtained: \"Steel Ingot\"",
+    "original_fr": "Obtention du morceau d'acier",
+    "translation": ""
+  },
+  {
+    "id": 934,
+    "original_en": "Obtained: \"All the building tools\"",
+    "original_fr": "Obtention de tous les matériaux",
+    "translation": ""
+  },
+  {
+    "id": 935,
+    "original_en": "Check on the bridge builder",
+    "original_fr": "Chercher le constructeur de pont",
+    "translation": ""
+  },
+  {
+    "id": 936,
+    "original_en": "\"Great Bridge\"1",
+    "original_fr": "Pont 1ère partie",
+    "translation": ""
+  },
+  {
+    "id": 937,
+    "original_en": "Request Nu to build a bridge.",
+    "original_fr": "Demander au gnu d'aider {TAG:3C} construire le pont",
+    "translation": ""
+  },
+  {
+    "id": 938,
+    "original_en": "Obtained: \"Hearty Lunch\"",
+    "original_fr": "Obtention du panier garni",
+    "translation": ""
+  },
+  {
+    "id": 939,
+    "original_en": "Bringing \"Hearty Lunch\" to Nu",
+    "original_fr": "Donner le panier garni au gnu",
+    "translation": ""
+  },
+  {
+    "id": 940,
+    "original_en": "Obtained: \"Sweet Banana\"",
+    "original_fr": "Obtention d'une banane sucrée",
+    "translation": ""
+  },
+  {
+    "id": 941,
+    "original_en": "\"Great Bridge\"2",
+    "original_fr": "Pont 2e partie",
+    "translation": ""
+  },
+  {
+    "id": 942,
+    "original_en": "The reptites return to the Nu village",
+    "original_fr": "Rentrer au village avec le gnu",
+    "translation": ""
+  },
+  {
+    "id": 943,
+    "original_en": "Investigating \"Ancient Tower\" quest",
+    "original_fr": "Explorer la tour séculaire",
+    "translation": ""
+  },
+  {
+    "id": 944,
+    "original_en": "Ancient Tower",
+    "original_fr": "Tour séculaire",
+    "translation": ""
+  },
+  {
+    "id": 945,
+    "original_en": "Before the battle against \"Master-at-Arms\"",
+    "original_fr": "Avant le combat avec le mikado sabreur",
+    "translation": ""
+  },
+  {
+    "id": 946,
+    "original_en": "After the battle against \"Master-at-Arms\"",
+    "original_fr": "Après le combat avec le mikado sabreur",
+    "translation": ""
+  },
+  {
+    "id": 947,
+    "original_en": "Dimensional Vortex (The Present)",
+    "original_fr": "Vortex dimensionnel (Présent)",
+    "translation": ""
+  },
+  {
+    "id": 948,
+    "original_en": "Cave (The Present)",
+    "original_fr": "Grotte sans nom (Présent)",
+    "translation": ""
+  },
+  {
+    "id": 949,
+    "original_en": "Before the battle against \"Dalton\"",
+    "original_fr": "Avant le combat avec Dalton (Présent)",
+    "translation": ""
+  },
+  {
+    "id": 950,
+    "original_en": "After the battle against \"Dalton\"",
+    "original_fr": "Après le combat avec Dalton",
+    "translation": ""
+  },
+  {
+    "id": 951,
+    "original_en": "Before the battle against \"Steel Shade\"",
+    "original_fr": "Avant le combat avec l'ombre noire",
+    "translation": ""
+  },
+  {
+    "id": 952,
+    "original_en": "After the battle against \"Steel Shade\"",
+    "original_fr": "Après le combat avec l'ombre noire",
+    "translation": ""
+  },
+  {
+    "id": 953,
+    "original_en": "Dimensional Vortex (Antiquity)",
+    "original_fr": "Vortex dimensionnel (Antiquité)",
+    "translation": ""
+  },
+  {
+    "id": 954,
+    "original_en": "Cave (Antiquity)",
+    "original_fr": "Grotte sans nom (Antiquité)",
+    "translation": ""
+  },
+  {
+    "id": 955,
+    "original_en": "Before the battle against \"Alabaster Shade\"",
+    "original_fr": "Avant le combat avec l'ombre blanche",
+    "translation": ""
+  },
+  {
+    "id": 956,
+    "original_en": "After the battle against \"Alabaster Shade\"",
+    "original_fr": "Après le combat avec l'ombre blanche",
+    "translation": ""
+  },
+  {
+    "id": 957,
+    "original_en": "Dimensional Vortex (Future)",
+    "original_fr": "Vortex dimensionnel (Futur)",
+    "translation": ""
+  },
+  {
+    "id": 958,
+    "original_en": "Cave (Future)",
+    "original_fr": "Grotte sans nom (Futur)",
+    "translation": ""
+  },
+  {
+    "id": 959,
+    "original_en": "Temporal Research Lab",
+    "original_fr": "Labo spatio-temporel",
+    "translation": ""
+  },
+  {
+    "id": 960,
+    "original_en": "Member Change",
+    "original_fr": "Changer les membres de l'équipe",
+    "translation": ""
+  },
+  {
+    "id": 961,
+    "original_en": "Before the battle against \"Crimson Shade\"",
+    "original_fr": "Avant le combat avec l'ombre rouge",
+    "translation": ""
+  },
+  {
+    "id": 962,
+    "original_en": "Strath",
+    "original_fr": "Gorge",
+    "translation": ""
+  },
+  {
+    "id": 963,
+    "original_en": "Hallowed Falls",
+    "original_fr": "Chutes sacrées",
+    "translation": ""
+  },
+  {
+    "id": 964,
+    "original_en": "Ancient Keep",
+    "original_fr": "Vieux ch{TAG:4A}teau",
+    "translation": ""
+  },
+  {
+    "id": 965,
+    "original_en": "Curious Village{GLYPH:146}Room of Questions)",
+    "original_fr": "Village étrange (salle des questions)",
+    "translation": ""
+  },
+  {
+    "id": 966,
+    "original_en": "Curious Village{GLYPH:146}Room of Punishment)",
+    "original_fr": "Village étrange (salle des punitions)",
+    "translation": ""
+  },
+  {
+    "id": 967,
+    "original_en": "Time's Eclipse",
+    "original_fr": "Ténèbres du temps",
+    "translation": ""
+  },
+  {
+    "id": 968,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 969,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 970,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 971,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 972,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 973,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 974,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 975,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 976,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 977,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 978,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 979,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 980,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 981,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 982,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 983,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 984,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 985,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 986,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 987,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 988,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 989,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 990,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 991,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 992,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 993,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 994,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 995,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 996,
+    "original_en": "Time's Eclipse",
+    "original_fr": "Ténèbres du temps",
+    "translation": ""
+  },
+  {
+    "id": 997,
+    "original_en": "Dimensional Vortex",
+    "original_fr": "Vortex dimensionnel",
+    "translation": ""
+  },
+  {
+    "id": 998,
+    "original_en": "Dimensional Vortex (For Demo)",
+    "original_fr": "Vortex dimensionnel (pour démo)",
+    "translation": ""
+  },
+  {
+    "id": 999,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]
