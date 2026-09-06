@@ -501,6 +501,17 @@ def main(argv: Optional[List[str]] = None) -> int:
     Returns:
         Exit code (0 for success, non-zero for error).
     """
+    if hasattr(sys.stdout, "reconfigure"):
+        try:
+            sys.stdout.reconfigure(errors="backslashreplace")
+        except Exception:
+            pass
+    if hasattr(sys.stderr, "reconfigure"):
+        try:
+            sys.stderr.reconfigure(errors="backslashreplace")
+        except Exception:
+            pass
+
     parser = create_parser()
     args = parser.parse_args(argv if argv is not None else sys.argv[1:])
 
