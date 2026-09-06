@@ -223,11 +223,14 @@ def wrap_text_block(
     max_lines: int = 3,
     auto_paginate: bool = False,
     hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
+    reflow: bool = True,
 ) -> Tuple[str, List[str]]:
     """Word-wraps dialogue text and optionally paginates across dialog boxes.
 
     Preserves existing {PAGE} delimiters, splits pages into lines (\\n or {LINE}),
     applies word-wrapping, and enforces or warns about line limits.
+    When reflow is True (default), ragged single line breaks within each page are
+    collapsed into spaces before re-wrapping to fit max_width_px cleanly.
 
     Args:
         text: Full dialogue or description text block.
@@ -237,6 +240,8 @@ def wrap_text_block(
         auto_paginate: If True, automatically split pages exceeding max_lines with {PAGE}.
                        If False, keep lines together and generate a warning.
         hero_name_width_px: Estimated pixel width for dynamic hero tokens (default 30px).
+        reflow: If True, collapse ragged single line breaks and re-wrap paragraphs.
+                If False, preserve existing line breaks if within width.
 
     Returns:
         Tuple of (formatted_text, list_of_warnings).
@@ -249,17 +254,32 @@ def wrap_text_block(
     warnings: List[str] = []
 
     for raw_page in raw_pages:
-        raw_lines = re.split(r"\r?\n|\{LINE\}", raw_page)
         page_lines: List[str] = []
-        for raw_line in raw_lines:
-            page_lines.extend(
-                wrap_line_to_width(
-                    raw_line,
-                    glyph_widths,
-                    max_width_px=max_width_px,
-                    hero_name_width_px=hero_name_width_px,
+        if reflow:
+            paragraphs = re.split(r"(?:\r?\n){2,}", raw_page)
+            for para in paragraphs:
+                p_clean = re.sub(r"\r?\n|\{LINE\}", " ", para)
+                p_clean = re.sub(r" +", " ", p_clean).strip()
+                if p_clean:
+                    page_lines.extend(
+                        wrap_line_to_width(
+                            p_clean,
+                            glyph_widths,
+                            max_width_px=max_width_px,
+                            hero_name_width_px=hero_name_width_px,
+                        )
+                    )
+        else:
+            raw_lines = re.split(r"\r?\n|\{LINE\}", raw_page)
+            for raw_line in raw_lines:
+                page_lines.extend(
+                    wrap_line_to_width(
+                        raw_line,
+                        glyph_widths,
+                        max_width_px=max_width_px,
+                        hero_name_width_px=hero_name_width_px,
+                    )
                 )
-            )
 
         num_lines = len(page_lines)
         if auto_paginate:
@@ -293,6 +313,7 @@ def validate_and_format_file(
     fix: bool = False,
     out_path: Optional[str] = None,
     hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
+    reflow: bool = True,
 ) -> Dict[str, Any]:
     """Validates and formats dialogue or UI text within a single JSON file.
 
@@ -309,6 +330,8 @@ def validate_and_format_file(
         fix: If True, writes rewrapped text back to JSON file.
         out_path: Destination path for fixed JSON file (if None, writes in-place).
         hero_name_width_px: Estimated pixel width for dynamic hero tokens.
+        reflow: If True, collapse ragged single line breaks and re-wrap paragraphs.
+                If False, preserve existing line breaks if within width.
 
     Returns:
         Dict with keys: file_path, total_entries, overflows_found, warnings, modified, changes_count.
@@ -362,6 +385,7 @@ def validate_and_format_file(
             max_lines=max_lines,
             auto_paginate=auto_paginate,
             hero_name_width_px=hero_name_width_px,
+            reflow=reflow,
         )
         for bw in block_warnings:
             warnings.append(f"Entry {entry_id}: {bw}")
@@ -404,6 +428,7 @@ def validate_and_format_directory(
     out_dir: Optional[str] = None,
     hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
     glyph_widths: Optional[Dict[str, int]] = None,
+    reflow: bool = True,
 ) -> Dict[str, Any]:
     """Recursively validates and formats all JSON translation files in a directory.
 
@@ -419,6 +444,8 @@ def validate_and_format_directory(
         out_dir: Optional destination directory mirroring input hierarchy.
         hero_name_width_px: Estimated pixel width for dynamic hero tokens.
         glyph_widths: Optional preloaded glyph widths dictionary.
+        reflow: If True, collapse ragged single line breaks and re-wrap paragraphs.
+                If False, preserve existing line breaks if within width.
 
     Returns:
         Dict with keys: files_checked, files_modified, total_entries, total_overflows, total_warnings, file_reports.
@@ -455,6 +482,7 @@ def validate_and_format_directory(
             fix=fix,
             out_path=target_out_path,
             hero_name_width_px=hero_name_width_px,
+            reflow=reflow,
         )
         file_reports.append(report)
 

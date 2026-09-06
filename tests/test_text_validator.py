@@ -187,19 +187,25 @@ def test_wrap_line_to_width_preserves_control_tags():
 
 
 def test_wrap_text_block_preserves_existing_pages():
-    """Verify existing {PAGE} delimiters are preserved."""
+    """Verify existing {PAGE} delimiters are preserved across both reflow and non-reflow modes."""
     widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyz0123456789 "}
     text = "Page 1 line 1\nPage 1 line 2{PAGE}Page 2 line 1"
-    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3)
+    # When reflow=False, preserves existing newlines and {PAGE}
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3, reflow=False)
     assert formatted == "Page 1 line 1\nPage 1 line 2{PAGE}Page 2 line 1"
     assert warnings == []
+
+    # When reflow=True (default), lines within page are collapsed, but {PAGE} is preserved
+    formatted_reflow, warnings_reflow = wrap_text_block(text, widths, max_width_px=230, max_lines=3)
+    assert formatted_reflow == "Page 1 line 1 Page 1 line 2{PAGE}Page 2 line 1"
+    assert warnings_reflow == []
 
 
 def test_wrap_text_block_auto_paginate_true():
     """Verify auto_paginate=True splits 4+ lines across pages with {PAGE}."""
     widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyz0123456789 "}
     text = "Line 1\nLine 2\nLine 3\nLine 4\nLine 5"
-    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3, auto_paginate=True)
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3, auto_paginate=True, reflow=False)
     assert formatted == "Line 1\nLine 2\nLine 3{PAGE}Line 4\nLine 5"
     assert warnings == []
 
@@ -208,17 +214,17 @@ def test_wrap_text_block_auto_paginate_false_warning():
     """Verify auto_paginate=False keeps 4+ lines and generates warning."""
     widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyz0123456789 "}
     text = "Line 1\nLine 2\nLine 3\nLine 4"
-    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3, auto_paginate=False)
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3, auto_paginate=False, reflow=False)
     assert formatted == "Line 1\nLine 2\nLine 3\nLine 4"
     assert len(warnings) == 1
     assert warnings[0] == "Page has 4 lines (exceeds max 3)"
 
 
 def test_wrap_text_block_with_line_tags():
-    """Verify {LINE} tags are treated as line breaks and normalized."""
+    """Verify {LINE} tags are treated as line breaks and normalized when reflow=False."""
     widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyz0123456789 "}
     text = "Line 1{LINE}Line 2{LINE}Line 3"
-    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3)
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=230, max_lines=3, reflow=False)
     assert formatted == "Line 1\nLine 2\nLine 3"
     assert warnings == []
 
@@ -463,6 +469,7 @@ def test_validate_file_auto_paginate(tmp_path):
         max_lines=3,
         auto_paginate=True,
         fix=True,
+        reflow=False,
     )
 
     assert res["changes_count"] == 1
@@ -518,6 +525,7 @@ def test_cli_parser_validate_text_length():
     assert args.font_json == "extracted fonts/msg/big/msgcmn.json"
     assert args.cyrillic_json == "assets/fonts/cyrillic_big.json"
     assert args.field == "translation"
+    assert args.reflow is True
 
     # Custom options
     args_custom = parser.parse_args([
@@ -559,6 +567,7 @@ def test_cli_parser_validate_text_lenght_alias():
     assert args.font_json == "extracted fonts/msg/big/msgcmn.json"
     assert args.cyrillic_json == "assets/fonts/cyrillic_big.json"
     assert args.field == "translation"
+    assert args.reflow is True
 
     args_custom = parser.parse_args([
         "validate-text-lenght",
@@ -675,3 +684,157 @@ def test_cli_cmd_dry_run_success_and_overflow(tmp_path, capsys):
     assert "Files modified: 1" in captured_fix
 
 
+def test_wrap_text_block_reflow_default():
+    """Verify ragged newlines inside a page are collapsed and packed cleanly up to max_width_px by default."""
+    widths = {'a': 5, 'b': 5, 'c': 5, 'd': 5, ' ': 3}
+    text = "a\nb c"
+    # By default (reflow=True), "a\nb c" collapses to "a b c" (width: 5+3+5+3+5 = 21px <= 50px)
+    wrapped, warnings = wrap_text_block(text, widths, max_width_px=50)
+    assert wrapped == "a b c"
+    assert "\n" not in wrapped
+    assert warnings == []
+
+    # Also test with multiple ragged lines packing into fewer lines
+    text_multi = "a b\nc\nd"
+    wrapped_multi, _ = wrap_text_block(text_multi, widths, max_width_px=50)
+    assert wrapped_multi == "a b c d"
+
+
+def test_wrap_text_block_no_reflow():
+    """Verify that when reflow=False, existing newlines are preserved if each line is <= max_width_px."""
+    widths = {'a': 5, 'b': 5, 'c': 5, ' ': 3}
+    text = "a\nb c"
+    # When reflow=False, preserves existing \n because each line is <= 50px
+    wrapped, warnings = wrap_text_block(text, widths, max_width_px=50, reflow=False)
+    assert wrapped == "a\nb c"
+    assert warnings == []
+
+
+def test_wrap_text_block_reflow_paragraphs_and_line_tags():
+    """Verify double newlines define paragraphs and {LINE} tags collapse in reflow mode."""
+    widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyz "}
+    text = "first line\nsecond line\n\nnew para{LINE}line two"
+    wrapped, warnings = wrap_text_block(text, widths, max_width_px=230)
+    assert wrapped == "first line second line\nnew para line two"
+    assert warnings == []
+
+
+def test_validate_file_with_reflow(tmp_path):
+    """Verify file validation formats with reflow by default and preserves breaks when reflow=False."""
+    widths = {'a': 5, 'b': 5, 'c': 5, ' ': 3}
+    data = [
+        {"id": 0, "translation": "a\nb c"}
+    ]
+    file_path = tmp_path / "test_reflow.json"
+    file_path.write_text(json.dumps(data), encoding="utf-8")
+
+    # Default reflow=True
+    res = validate_and_format_file(
+        str(file_path),
+        glyph_widths=widths,
+        max_width_px=50,
+        fix=True,
+    )
+    assert res["modified"] is True
+    assert res["changes_count"] == 1
+    with open(file_path, "r", encoding="utf-8") as f:
+        loaded = json.load(f)
+    assert loaded[0]["translation"] == "a b c"
+
+    # With reflow=False
+    file_path_no_reflow = tmp_path / "test_no_reflow.json"
+    file_path_no_reflow.write_text(json.dumps(data), encoding="utf-8")
+    res_no_reflow = validate_and_format_file(
+        str(file_path_no_reflow),
+        glyph_widths=widths,
+        max_width_px=50,
+        fix=True,
+        reflow=False,
+    )
+    assert res_no_reflow["modified"] is False
+    assert res_no_reflow["changes_count"] == 0
+    with open(file_path_no_reflow, "r", encoding="utf-8") as f:
+        loaded_no_reflow = json.load(f)
+    assert loaded_no_reflow[0]["translation"] == "a\nb c"
+
+
+def test_validate_directory_with_reflow(tmp_path):
+    """Verify validate_and_format_directory reflows text by default and respects reflow=False."""
+    widths = {'a': 5, 'b': 5, 'c': 5, ' ': 3}
+    d = tmp_path / "trans"
+    d.mkdir()
+    (d / "file.json").write_text(json.dumps([{"id": 0, "translation": "a\nb c"}]), encoding="utf-8")
+
+    # With reflow=False
+    res_no_reflow = validate_and_format_directory(
+        str(d),
+        max_width_px=50,
+        fix=True,
+        glyph_widths=widths,
+        reflow=False,
+    )
+    assert res_no_reflow["files_modified"] == 0
+    with open(d / "file.json", "r", encoding="utf-8") as f:
+        loaded = json.load(f)
+    assert loaded[0]["translation"] == "a\nb c"
+
+    # With reflow=True (default)
+    res_default = validate_and_format_directory(
+        str(d),
+        max_width_px=50,
+        fix=True,
+        glyph_widths=widths,
+    )
+    assert res_default["files_modified"] == 1
+    with open(d / "file.json", "r", encoding="utf-8") as f:
+        loaded2 = json.load(f)
+    assert loaded2[0]["translation"] == "a b c"
+
+
+def test_cli_parser_reflow_flag():
+    """Verify --no-reflow flag parser defaults and flag handling for validate-text-length and alias."""
+    parser = create_parser()
+    assert parser.parse_args(["validate-text-length"]).reflow is True
+    assert parser.parse_args(["validate-text-length", "--no-reflow"]).reflow is False
+    assert parser.parse_args(["validate-text-lenght", "--no-reflow"]).reflow is False
+
+
+def test_cli_cmd_validate_text_length_no_reflow(tmp_path, capsys):
+    """Verify cmd_validate_text_length preserves line breaks and displays banner when --no-reflow is passed."""
+    test_dir = tmp_path / "text_dir"
+    test_dir.mkdir()
+    data = [{"id": 0, "translation": "first line\nsecond line"}]
+    (test_dir / "test.json").write_text(json.dumps(data), encoding="utf-8")
+
+    parser = create_parser()
+
+    # 1. Test execution with --no-reflow flag
+    args = parser.parse_args([
+        "validate-text-length",
+        "--json-dir", str(test_dir),
+        "--fix",
+        "--no-reflow",
+    ])
+    rc = cmd_validate_text_length(args)
+    assert rc == 0
+    captured = capsys.readouterr().out
+    assert "Reflow existing breaks : Disabled" in captured
+
+    with open(test_dir / "test.json", "r", encoding="utf-8") as f:
+        content = json.load(f)
+    assert content[0]["translation"] == "first line\nsecond line"
+
+    # 2. Test execution without --no-reflow (default reflow=True)
+    args_default = parser.parse_args([
+        "validate-text-length",
+        "--json-dir", str(test_dir),
+        "--fix",
+    ])
+    rc_default = cmd_validate_text_length(args_default)
+    assert rc_default == 0
+    captured_default = capsys.readouterr().out
+    assert "Reflow existing breaks : Enabled" in captured_default
+
+    with open(test_dir / "test.json", "r", encoding="utf-8") as f:
+        content_default = json.load(f)
+    assert content_default[0]["translation"] == "first line second line"
