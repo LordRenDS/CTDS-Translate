@@ -21,60 +21,60 @@
     "id": 3,
     "original_en": "If you wish to move an icon, first select it with\nthe cursor and press the {GLYPH:409} Button.",
     "original_fr": "Si vous voulez déplacer une icône,\nsélectionnez-la avec le bouton {GLYPH:409}.",
-    "translation": ""
+    "translation": "Если вы хотите переместить значок, сначала выделите его курсором и нажмите {GLYPH:409} Кнопку."
   },
   {
     "id": 4,
     "original_en": "After moving the cursor to the desired location,\npress the {GLYPH:409} Button again to place the icon.",
     "original_fr": "Choisissez ensuite l'endroit où vous voulez\nla déplacer en appuyant de nouveau sur le\nbouton {GLYPH:409}.",
-    "translation": ""
+    "translation": "После перемещения курсора в нужное место снова нажмите {GLYPH:409} Кнопку, чтобы разместить значок."
   },
   {
     "id": 5,
     "original_en": "You can disable an icon by selecting it and then\npressing the {GLYPH:412} Button. Disabled icons will not be\nshown while you are exploring.",
     "original_fr": "En outre, si vous appuyez sur le bouton {GLYPH:412}\naprès avoir sélectionné une icône, cette\ndernière s'assombrira. Les icônes sombres\nne sont pas affichées sur l'écran de jeu.",
-    "translation": ""
+    "translation": "Чтобы отключить значок, выберите его и нажмите {GLYPH:412} Кнопку. Отключенные значки не будут отображаться во время исследования."
   },
   {
     "id": 6,
     "original_en": "To move an icon with the stylus, simply touch\nit and slide it to the desired position.",
     "original_fr": "Si vous préférez déplacer une icône avec le\nstylet, vous n'avez qu'{TAG:3C} la faire glisser vers\nl'endroit désiré.",
-    "translation": ""
+    "translation": "Чтобы переместить значок с помощью стилуса, просто коснитесь его и перетащите в нужное место."
   },
   {
     "id": 7,
     "original_en": "To disable an icon, touch it twice quickly with\nthe stylus. Alternately, you can touch the icon\nonce to select it, and then touch the panel\nlabeled \"Enable/Disable.\"",
     "original_fr": "Pour qu'un raccourci ne soit pas affiché,\ntouchez l'icône qui y correspond rapidement\ndeux fois ou touchez {TAG:64} Ne pas utiliser {TAG:65}.",
-    "translation": ""
+    "translation": "Чтобы отключить значок, дважды быстро коснитесь его стилусом. Также можно один раз коснуться значка, чтобы выделить его, а затем коснуться панели с надписью \"Включить/Отключить\"."
   },
   {
     "id": 8,
     "original_en": "To restore all icons to their default positions,\npress SELECT or touch the panel labeled\n\"Defaults.\"",
     "original_fr": "Pour retourner {TAG:3C} l'arrangement par défaut,\nappuyez sur SELECT ou touchez {TAG:64} Rétablir {TAG:65}.",
-    "translation": ""
+    "translation": "Чтобы вернуть все значки на их исходные места, нажмите кнопку SELECT или коснитесь панели с надписью \"Defaults\"."
   },
   {
     "id": 9,
     "original_en": "To undo the changes you have made, press the\n{GLYPH:410} Button or touch the {GLYPH:410} Button icon located\nin the bottom right corner of the screen.",
     "original_fr": "Si vous voulez annuler les changements que\nvous avez effectués, appuyez sur le bouton {GLYPH:410}\nou touchez l'icône de retour.",
-    "translation": ""
+    "translation": "Чтобы отменить внесенные изменения, нажмите {GLYPH:410} Кнопку или коснитесь значка {GLYPH:410} Кнопки, расположенного в правом нижнем углу экрана."
   },
   {
     "id": 10,
     "original_en": "To save your customized layout scheme, press\nSTART or touch the panel labeled \"Save & Apply.\"",
     "original_fr": "Lorsque vous avez terminé vos modifications,\nappuyez sur START ou touchez {TAG:64} Terminer {TAG:65}.",
-    "translation": ""
+    "translation": "Чтобы сохранить настроенную схему расположения, нажмите START или коснитесь панели \"Сохранить и Применить\"."
   },
   {
     "id": 11,
     "original_en": "Well then, why don't you give it a try?",
     "original_fr": "Arrangez les icônes de raccourcis comme bon\nvous semble !",
-    "translation": ""
+    "translation": "Что ж, почему бы вам не попробовать?"
   },
   {
     "id": 12,
     "original_en": "Touch the Touch Screen or press the A Button.",
     "original_fr": "Touchez l'écran inférieur ou appuyez sur le bouton A.",
-    "translation": ""
+    "translation": "Коснитесь Сенсорного Экрана или нажмите кнопку A."
   }
 ]
