@@ -525,6 +525,7 @@ def test_cli_parser_validate_text_length():
     assert args.font_json == "extracted fonts/msg/big/msgcmn.json"
     assert args.cyrillic_json == "assets/fonts/cyrillic_big.json"
     assert args.field == "translation"
+    assert args.reflow is True
 
     # Custom options
     args_custom = parser.parse_args([
@@ -566,6 +567,7 @@ def test_cli_parser_validate_text_lenght_alias():
     assert args.font_json == "extracted fonts/msg/big/msgcmn.json"
     assert args.cyrillic_json == "assets/fonts/cyrillic_big.json"
     assert args.field == "translation"
+    assert args.reflow is True
 
     args_custom = parser.parse_args([
         "validate-text-lenght",
@@ -789,5 +791,50 @@ def test_validate_directory_with_reflow(tmp_path):
     assert loaded2[0]["translation"] == "a b c"
 
 
+def test_cli_parser_reflow_flag():
+    """Verify --no-reflow flag parser defaults and flag handling for validate-text-length and alias."""
+    parser = create_parser()
+    assert parser.parse_args(["validate-text-length"]).reflow is True
+    assert parser.parse_args(["validate-text-length", "--no-reflow"]).reflow is False
+    assert parser.parse_args(["validate-text-lenght", "--no-reflow"]).reflow is False
 
 
+def test_cli_cmd_validate_text_length_no_reflow(tmp_path, capsys):
+    """Verify cmd_validate_text_length preserves line breaks and displays banner when --no-reflow is passed."""
+    test_dir = tmp_path / "text_dir"
+    test_dir.mkdir()
+    data = [{"id": 0, "translation": "first line\nsecond line"}]
+    (test_dir / "test.json").write_text(json.dumps(data), encoding="utf-8")
+
+    parser = create_parser()
+
+    # 1. Test execution with --no-reflow flag
+    args = parser.parse_args([
+        "validate-text-length",
+        "--json-dir", str(test_dir),
+        "--fix",
+        "--no-reflow",
+    ])
+    rc = cmd_validate_text_length(args)
+    assert rc == 0
+    captured = capsys.readouterr().out
+    assert "Reflow existing breaks : Disabled" in captured
+
+    with open(test_dir / "test.json", "r", encoding="utf-8") as f:
+        content = json.load(f)
+    assert content[0]["translation"] == "first line\nsecond line"
+
+    # 2. Test execution without --no-reflow (default reflow=True)
+    args_default = parser.parse_args([
+        "validate-text-length",
+        "--json-dir", str(test_dir),
+        "--fix",
+    ])
+    rc_default = cmd_validate_text_length(args_default)
+    assert rc_default == 0
+    captured_default = capsys.readouterr().out
+    assert "Reflow existing breaks : Enabled" in captured_default
+
+    with open(test_dir / "test.json", "r", encoding="utf-8") as f:
+        content_default = json.load(f)
+    assert content_default[0]["translation"] == "first line second line"

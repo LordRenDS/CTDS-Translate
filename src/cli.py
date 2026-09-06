@@ -215,6 +215,9 @@ def cmd_validate_text_length(args: argparse.Namespace) -> int:
     print(f"=== Text Length & Dialogue Validation {mode_str} ===")
     print(f"Directory: {args.json_dir}")
     print(f"Max width: {args.max_width} px, Max lines: {args.max_lines}")
+    print(
+        f"  Reflow existing breaks : {'Enabled' if getattr(args, 'reflow', True) else 'Disabled'}"
+    )
 
     report = validate_and_format_directory(
         json_dir=args.json_dir,
@@ -223,6 +226,7 @@ def cmd_validate_text_length(args: argparse.Namespace) -> int:
         max_width_px=args.max_width,
         max_lines=args.max_lines,
         auto_paginate=args.paginate,
+        reflow=getattr(args, "reflow", True),
         field=args.field,
         fix=args.fix,
         out_dir=args.out,
@@ -439,6 +443,13 @@ def create_parser() -> argparse.ArgumentParser:
             "--paginate",
             action="store_true",
             help="Automatically split pages with {PAGE} if lines exceed max-lines",
+        )
+        p_val.add_argument(
+            "--no-reflow",
+            dest="reflow",
+            action="store_false",
+            default=True,
+            help="Do not collapse existing line breaks within pages before wrapping (default: reflow enabled)",
         )
         p_val.add_argument(
             "--font-json",
