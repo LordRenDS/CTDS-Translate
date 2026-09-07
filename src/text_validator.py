@@ -43,6 +43,7 @@ WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
             "mest*.json",
             "exms*.json",
             "comu*.json",
+            "ques*.json",
         ),
     ),
     "tutorial": TextWindowPreset(
@@ -91,6 +92,62 @@ WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
         font_type="big",
         patterns=("item.json", "ex_item.json"),
     ),
+    "tech_name": TextWindowPreset(
+        name="tech_name",
+        max_width_px=80,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=("tech.json",),
+    ),
+    "tech_desc": TextWindowPreset(
+        name="tech_desc",
+        max_width_px=190,
+        max_lines=2,
+        reflow=True,
+        font_type="big",
+        patterns=("tec_mes.json", "mon_tec.json"),
+    ),
+    "monster_name": TextWindowPreset(
+        name="monster_name",
+        max_width_px=85,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=("monster.json", "wireless_mon*.json"),
+    ),
+    "map_location": TextWindowPreset(
+        name="map_location",
+        max_width_px=120,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=("map.json", "w_map.json"),
+    ),
+    "bgm_name": TextWindowPreset(
+        name="bgm_name",
+        max_width_px=145,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=("bgm.json",),
+    ),
+    "credits": TextWindowPreset(
+        name="credits",
+        max_width_px=180,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=("endroll*.json", "staf.json"),
+    ),
+    "zukan": TextWindowPreset(
+        name="zukan",
+        max_width_px=70,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=("zukan.json",),
+    ),
     "battle": TextWindowPreset(
         name="battle",
         max_width_px=210,
@@ -105,7 +162,15 @@ WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
         max_lines=2,
         reflow=False,
         font_type="big",
-        patterns=("menu.json", "wireless*.json", "ques0.json"),
+        patterns=("menu.json", "wireless*.json"),
+    ),
+    "system_big": TextWindowPreset(
+        name="system_big",
+        max_width_px=200,
+        max_lines=2,
+        reflow=False,
+        font_type="big",
+        patterns=("msg/big/system.json", "msg\\big\\system.json", "big/system.json"),
     ),
     "small_system": TextWindowPreset(
         name="small_system",
@@ -117,6 +182,8 @@ WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
             "msg/small/*.json",
             "msg\\small\\*.json",
             "sfc_*.json",
+            "small.json",
+            "small/system.json",
             "system.json",
         ),
     ),
@@ -149,12 +216,22 @@ def get_preset_for_file(
     norm_path = file_path.replace("\\", "/")
     base_name = os.path.basename(file_path)
 
-    # Check small_system first if file is inside a small directory or starts with sfc_
+    # Big system file check
+    is_big = (
+        "/big/" in norm_path
+        or norm_path.startswith("big/")
+        or norm_path.endswith("/big")
+    )
+    if is_big and base_name == "system.json":
+        return WINDOW_PRESETS["system_big"]
+
+    # Small system candidate check
     is_small_candidate = (
         "/small/" in norm_path
         or norm_path.startswith("small/")
         or norm_path.endswith("/small")
         or base_name.startswith("sfc_")
+        or base_name == "small.json"
     )
     if is_small_candidate:
         small_preset = WINDOW_PRESETS["small_system"]
@@ -167,16 +244,24 @@ def get_preset_for_file(
                 if fnmatch.fnmatch(base_name, pat):
                     return small_preset
 
-    # Check non-dialogue presets first, then dialogue
+    # Check non-dialogue presets in order
     preset_order = [
-        "small_system",
-        "tutorial",
-        "encyclopedia",
+        "system_big",
+        "tech_name",
+        "tech_desc",
+        "monster_name",
+        "map_location",
+        "bgm_name",
+        "credits",
+        "zukan",
         "item_desc",
         "item_sub",
         "item_name",
+        "tutorial",
+        "encyclopedia",
         "battle",
         "menu",
+        "small_system",
         "dialogue",
     ]
 
@@ -193,6 +278,246 @@ def get_preset_for_file(
 
     # Default fallback
     return WINDOW_PRESETS["dialogue"]
+
+
+def get_constraints_for_entry(
+    file_path: str, entry_id: int, explicit_preset: Optional[str] = None
+) -> TextWindowPreset:
+    """Resolves the effective TextWindowPreset / constraints for a specific entry ID.
+
+    For composite files like menu.json and battle.json, returns a specialized
+    TextWindowPreset tuned to the specific UI element (e.g. 2-column config options,
+    small buttons, toggle switches, or hint bars).
+
+    Args:
+        file_path: Path to the JSON file.
+        entry_id: Integer identifier of the text entry.
+        explicit_preset: Optional preset override.
+
+    Returns:
+        The resolved TextWindowPreset for this entry.
+    """
+    if explicit_preset is not None and explicit_preset != "auto":
+        return get_preset_for_file(file_path, explicit_preset=explicit_preset)
+
+    base_preset = get_preset_for_file(file_path)
+    base_name = os.path.basename(file_path).lower()
+
+    if base_name == "menu.json":
+        # 1. Option labels (Settings 2-column table on top screen)
+        if 85 <= entry_id <= 98:
+            return TextWindowPreset(
+                name="menu_config_option",
+                max_width_px=105,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 2. Defaults button on bottom screen ([SELECT] Defaults)
+        if entry_id == 100:
+            return TextWindowPreset(
+                name="menu_defaults_button",
+                max_width_px=45,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 3. Action buttons (Cancel, Save & Apply, Enable/Disable, Accept, Toggle Run)
+        if entry_id in (99, 101, 102, 103, 104):
+            return TextWindowPreset(
+                name="menu_action_button",
+                max_width_px=65,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 4. Settings toggle values (OFF, TYPE A, TYPE B, Custom)
+        if 109 <= entry_id <= 112:
+            return TextWindowPreset(
+                name="menu_toggle",
+                max_width_px=50,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 5. Settings tab headers (Battle I, Battle II, Controls, System)
+        if 113 <= entry_id <= 116:
+            return TextWindowPreset(
+                name="menu_tab",
+                max_width_px=65,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 6. Bottom screen hint / explanation bar
+        if 144 <= entry_id <= 178:
+            return TextWindowPreset(
+                name="menu_bottom_hint",
+                max_width_px=205,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 7. Empty inventory / equip status messages
+        if 69 <= entry_id <= 74:
+            return TextWindowPreset(
+                name="menu_status_msg",
+                max_width_px=195,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 8. Era / Epoch warp destinations
+        if 39 <= entry_id <= 44:
+            return TextWindowPreset(
+                name="menu_era_dest",
+                max_width_px=130,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 9. Inventory category tabs & sort button
+        if 61 <= entry_id <= 67:
+            return TextWindowPreset(
+                name="menu_item_tab",
+                max_width_px=95,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 10. Tech category headers (Single Techs, etc.)
+        if 78 <= entry_id <= 83:
+            return TextWindowPreset(
+                name="menu_tech_category",
+                max_width_px=95,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 11. Stat labels (Attack, Defense, Magic Defense, Next level)
+        if 45 <= entry_id <= 56:
+            return TextWindowPreset(
+                name="menu_stat_param",
+                max_width_px=95,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 12. Short stats (LV, HP, MP, Time, G, etc.)
+        if 0 <= entry_id <= 35:
+            return TextWindowPreset(
+                name="menu_stat_label",
+                max_width_px=70,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 13. Equipment slot labels (Weapon, Helm, Armor, Accessory)
+        if 57 <= entry_id <= 60:
+            return TextWindowPreset(
+                name="menu_slot_label",
+                max_width_px=70,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 14. Screen Header (Settings)
+        if entry_id == 84:
+            return TextWindowPreset(
+                name="menu_header",
+                max_width_px=110,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 15. Name entry prompt (multi-line banner)
+        if entry_id == 141:
+            return TextWindowPreset(
+                name="menu_naming_prompt",
+                max_width_px=230,
+                max_lines=2,
+                reflow=True,
+                font_type="big",
+                patterns=(),
+            )
+        # 16. Control navigation help lines on bottom screen
+        if 179 <= entry_id <= 181:
+            return TextWindowPreset(
+                name="menu_control_help",
+                max_width_px=230,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        return TextWindowPreset(
+            name="menu_general",
+            max_width_px=120,
+            max_lines=1,
+            reflow=False,
+            font_type="big",
+            patterns=(),
+        )
+
+    if base_name == "battle.json":
+        # 1. Action commands (Attack, Tech, Combo, Item, Escape)
+        if 0 <= entry_id <= 7:
+            return TextWindowPreset(
+                name="battle_command",
+                max_width_px=60,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 2. Status ailments & buffs (Poison, Slow, Sleep, Stop...)
+        if 8 <= entry_id <= 23:
+            return TextWindowPreset(
+                name="battle_status",
+                max_width_px=50,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 3. Battle log / outcome messages (EXP, TP, Level Up, Escaped...)
+        if 24 <= entry_id <= 49:
+            return TextWindowPreset(
+                name="battle_message",
+                max_width_px=190,
+                max_lines=2,
+                reflow=True,
+                font_type="big",
+                patterns=(),
+            )
+
+    if base_name == "system.json" and ("small" in file_path.lower() or "sfc" in file_path.lower()):
+        # Popup prompts (e.g. {LUCCA}\nObtained {ROBO}!, It's empty!)
+        if 9 <= entry_id <= 11:
+            return TextWindowPreset(
+                name="small_system_popup",
+                max_width_px=130,
+                max_lines=2,
+                reflow=False,
+                font_type="small",
+                patterns=(),
+            )
+
+    return base_preset
 
 
 # Dynamic hero name tokens that represent variable visual text in-game
@@ -439,7 +764,12 @@ def wrap_text_block(
 
     for raw_page in raw_pages:
         page_lines: List[str] = []
-        if reflow:
+        if max_lines == 1:
+            raw_lines = re.split(r"\r?\n|\{LINE\}", raw_page)
+            page_lines = [rl for rl in raw_lines if rl.strip() or rl == ""]
+            if not page_lines and raw_page:
+                page_lines = [raw_page]
+        elif reflow:
             paragraphs = re.split(r"(?:\r?\n){2,}", raw_page)
             for para in paragraphs:
                 p_clean = re.sub(r"\r?\n|\{LINE\}", " ", para)
@@ -560,6 +890,15 @@ def validate_and_format_file(
         if not text or not isinstance(text, str):
             continue
 
+        entry_preset = get_constraints_for_entry(file_path, entry_id, explicit_preset=preset)
+        entry_max_width_px = (
+            max_width_px if max_width_px is not None else entry_preset.max_width_px
+        )
+        entry_max_lines = (
+            max_lines if max_lines is not None else entry_preset.max_lines
+        )
+        entry_reflow = reflow if reflow is not None else entry_preset.reflow
+
         # Check overflows in original lines
         raw_pages = text.split("{PAGE}")
         for raw_page in raw_pages:
@@ -568,20 +907,20 @@ def validate_and_format_file(
                 line_width = calculate_line_width_px(
                     raw_line, glyph_widths, hero_name_width_px=hero_name_width_px
                 )
-                if line_width > effective_max_width_px:
+                if line_width > entry_max_width_px:
                     overflows_count += 1
                     warnings.append(
-                        f"Entry {entry_id}: line exceeds {effective_max_width_px}px ({line_width}px): '{raw_line}'"
+                        f"Entry {entry_id}: line exceeds {entry_max_width_px}px ({line_width}px): '{raw_line}'"
                     )
 
         wrapped_text, block_warnings = wrap_text_block(
             text,
             glyph_widths,
-            max_width_px=effective_max_width_px,
-            max_lines=effective_max_lines,
+            max_width_px=entry_max_width_px,
+            max_lines=entry_max_lines,
             auto_paginate=auto_paginate,
             hero_name_width_px=hero_name_width_px,
-            reflow=effective_reflow,
+            reflow=entry_reflow,
         )
         for bw in block_warnings:
             warnings.append(f"Entry {entry_id}: {bw}")
@@ -653,6 +992,17 @@ def validate_and_format_directory(
     if glyph_widths is None:
         glyph_widths = load_glyph_metrics(font_json_path, cyrillic_json_path)
 
+    # Lazily preload small font metrics if present
+    small_glyph_widths = None
+    small_font_path = "extracted fonts/msg/small/msgcmn.json"
+    small_cyr_path = "assets/fonts/cyrillic_small.json"
+    if os.path.isfile(small_font_path):
+        try:
+            cyr_opt = small_cyr_path if os.path.isfile(small_cyr_path) else None
+            small_glyph_widths = load_glyph_metrics(small_font_path, cyr_opt)
+        except Exception:
+            small_glyph_widths = None
+
     if not os.path.isdir(json_dir):
         raise FileNotFoundError(f"JSON directory not found: {json_dir}")
 
@@ -672,9 +1022,16 @@ def validate_and_format_directory(
         else:
             target_out_path = None
 
+        target_preset = get_preset_for_file(file_path, explicit_preset=preset)
+        file_metrics = (
+            small_glyph_widths
+            if (target_preset.font_type == "small" and small_glyph_widths is not None)
+            else glyph_widths
+        )
+
         report = validate_and_format_file(
             file_path,
-            glyph_widths=glyph_widths,
+            glyph_widths=file_metrics,
             max_width_px=max_width_px,
             max_lines=max_lines,
             auto_paginate=auto_paginate,

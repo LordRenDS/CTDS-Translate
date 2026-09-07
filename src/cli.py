@@ -19,6 +19,7 @@ from src.text_validator import (
     load_glyph_metrics,
     validate_and_format_directory,
     validate_and_format_file,
+    WINDOW_PRESETS,
 )
 
 
@@ -482,18 +483,7 @@ def create_parser() -> argparse.ArgumentParser:
         )
         p_val.add_argument(
             "--preset",
-            choices=[
-                "auto",
-                "dialogue",
-                "tutorial",
-                "encyclopedia",
-                "item_desc",
-                "item_sub",
-                "item_name",
-                "battle",
-                "menu",
-                "small_system",
-            ],
+            choices=["auto"] + list(WINDOW_PRESETS.keys()),
             default="auto",
             help="Dialogue/window preset to apply (default: 'auto' based on file pattern)",
         )

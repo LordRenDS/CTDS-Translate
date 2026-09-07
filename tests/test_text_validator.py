@@ -914,7 +914,7 @@ def test_get_preset_for_file_matching():
     assert p_menu.max_width_px == 200
     assert p_menu.reflow is False
     assert get_preset_for_file("wireless0.json").name == "menu"
-    assert get_preset_for_file("ques0.json").name == "menu"
+    assert get_preset_for_file("ques0.json").name == "dialogue"
 
     # 9. Small system font files
     p_small = get_preset_for_file("msg/small/system.json")
@@ -1205,6 +1205,167 @@ def test_cli_cmd_single_file_dry_run_and_fix(tmp_path, capsys):
     captured_clean = capsys.readouterr().out
     assert "Overlong lines detected: 0" in captured_clean
     assert "Warnings: 0" in captured_clean
+
+
+def test_new_specialized_file_presets():
+    """Verify new specialized presets for tech, monsters, locations, BGM, credits, and zukan."""
+    # Tech names & descriptions
+    p_tech = get_preset_for_file("tech.json")
+    assert p_tech.name == "tech_name"
+    assert p_tech.max_width_px == 80
+    assert p_tech.max_lines == 1
+    assert p_tech.reflow is False
+
+    p_tec_mes = get_preset_for_file("tec_mes.json")
+    assert p_tec_mes.name == "tech_desc"
+    assert p_tec_mes.max_width_px == 190
+    assert p_tec_mes.max_lines == 2
+
+    p_mon_tec = get_preset_for_file("mon_tec.json")
+    assert p_mon_tec.name == "tech_desc"
+    assert p_mon_tec.max_width_px == 190
+
+    # Monster names
+    p_mon = get_preset_for_file("monster.json")
+    assert p_mon.name == "monster_name"
+    assert p_mon.max_width_px == 85
+    assert p_mon.max_lines == 1
+
+    # Map locations
+    p_map = get_preset_for_file("map.json")
+    assert p_map.name == "map_location"
+    assert p_map.max_width_px == 120
+    assert p_map.max_lines == 1
+
+    p_wmap = get_preset_for_file("w_map.json")
+    assert p_wmap.name == "map_location"
+    assert p_wmap.max_width_px == 120
+
+    # BGM tracks
+    p_bgm = get_preset_for_file("bgm.json")
+    assert p_bgm.name == "bgm_name"
+    assert p_bgm.max_width_px == 145
+    assert p_bgm.max_lines == 1
+
+    # Credits & Staff roll
+    p_cred = get_preset_for_file("endroll1.json")
+    assert p_cred.name == "credits"
+    assert p_cred.max_width_px == 180
+    assert p_cred.max_lines == 1
+
+    assert get_preset_for_file("endroll2.json").name == "credits"
+    assert get_preset_for_file("staf.json").name == "credits"
+
+    # Bestiary UI labels
+    p_zukan = get_preset_for_file("zukan.json")
+    assert p_zukan.name == "zukan"
+    assert p_zukan.max_width_px == 70
+    assert p_zukan.max_lines == 1
+
+    # Quiz questions must be dialogue, NOT menu
+    p_ques = get_preset_for_file("ques0.json")
+    assert p_ques.name == "dialogue"
+    assert p_ques.max_width_px == 230
+    assert p_ques.max_lines == 3
+
+    # system.json in msg/big must NOT be small_system
+    p_sys_big = get_preset_for_file("msg/big/system.json")
+    assert p_sys_big.name != "small_system"
+    assert p_sys_big.font_type == "big"
+
+    # system.json in msg/small MUST be small_system
+    p_sys_small = get_preset_for_file("msg/small/system.json")
+    assert p_sys_small.name == "small_system"
+    assert p_sys_small.font_type == "small"
+
+
+def test_entry_sub_preset_resolution():
+    """Verify entry-specific UI constraints in menu.json and battle.json."""
+    from src.text_validator import get_constraints_for_entry
+
+    # In menu.json:
+    # 1. Option labels (Settings 2-column table) -> max 105px, 1 line
+    c_speed = get_constraints_for_entry("menu.json", 88)
+    assert c_speed.max_width_px == 105
+    assert c_speed.max_lines == 1
+
+    # 2. Defaults button ([SELECT] Defaults) -> max 45px, 1 line
+    c_defaults = get_constraints_for_entry("menu.json", 100)
+    assert c_defaults.max_width_px == 45
+    assert c_defaults.max_lines == 1
+
+    # 3. Save & Apply button -> max 65px, 1 line
+    c_save = get_constraints_for_entry("menu.json", 101)
+    assert c_save.max_width_px == 65
+    assert c_save.max_lines == 1
+
+    # 4. Settings toggle (e.g. TYPE A) -> max 50px, 1 line
+    c_type_a = get_constraints_for_entry("menu.json", 110)
+    assert c_type_a.max_width_px == 50
+    assert c_type_a.max_lines == 1
+
+    # 5. Tab header (Battle II) -> max 65px, 1 line
+    c_tab = get_constraints_for_entry("menu.json", 114)
+    assert c_tab.max_width_px == 65
+    assert c_tab.max_lines == 1
+
+    # 6. Bottom screen hint bar -> max 205px, 1 line
+    c_hint = get_constraints_for_entry("menu.json", 157)
+    assert c_hint.max_width_px == 205
+    assert c_hint.max_lines == 1
+
+    # 7. Short stats (LV) -> max 70px, 1 line
+    c_lv = get_constraints_for_entry("menu.json", 0)
+    assert c_lv.max_width_px <= 70
+    assert c_lv.max_lines == 1
+
+    # In battle.json:
+    # Action commands -> max 60px, 1 line
+    c_atk = get_constraints_for_entry("battle.json", 0)
+    assert c_atk.max_width_px == 60
+    assert c_atk.max_lines == 1
+
+    # Status effects -> max 50px, 1 line
+    c_poi = get_constraints_for_entry("battle.json", 8)
+    assert c_poi.max_width_px == 50
+    assert c_poi.max_lines == 1
+
+    # Combat messages -> max 190px, 2 lines
+    c_exp = get_constraints_for_entry("battle.json", 37)
+    assert c_exp.max_width_px == 190
+    assert c_exp.max_lines == 2
+
+
+def test_validate_menu_catches_screenshot_bugs(tmp_path):
+    """Verify validator flags the exact truncated strings seen in in-game screenshot."""
+    big_metrics = load_glyph_metrics("extracted fonts/msg/big/msgcmn.json", "assets/fonts/cyrillic_big.json")
+
+    # Entry 88: "Скорость Сообщений в Бою" (120px > 105px)
+    # Entry 100: "По умолчанию" (62px > 45px)
+    menu_data = [
+        {"id": 88, "translation": "Скорость Сообщений в Бою"},
+        {"id": 100, "translation": "По умолчанию"},
+    ]
+    menu_file = tmp_path / "menu.json"
+    menu_file.write_text(json.dumps(menu_data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    rep = validate_and_format_file(str(menu_file), glyph_widths=big_metrics, preset="auto")
+    assert rep["overflows_found"] == 2
+    assert any("Entry 88: line exceeds 105px (120px)" in w for w in rep["warnings"])
+    assert any("Entry 100: line exceeds 45px (62px)" in w for w in rep["warnings"])
+
+    # Now verify that shortened/fixed translations pass with 0 overflows:
+    menu_data_fixed = [
+        {"id": 88, "translation": "Скор. Сообщений"},
+        {"id": 100, "translation": "Сброс"},
+    ]
+    menu_file_fixed = tmp_path / "menu_fixed.json"
+    menu_file_fixed.write_text(json.dumps(menu_data_fixed, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    rep_fixed = validate_and_format_file(str(menu_file_fixed), glyph_widths=big_metrics, preset="auto")
+    assert rep_fixed["overflows_found"] == 0
+    assert len(rep_fixed["warnings"]) == 0
+
 
 
 
