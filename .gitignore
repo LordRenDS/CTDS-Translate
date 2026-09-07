@@ -14,3 +14,4 @@
 !/translated text/.gitkeep
 */__pycache__
 /.pytest_cache/
+/.zed/

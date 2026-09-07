@@ -13,6 +13,14 @@ from src.font_engine import (
     dump_all_fonts,
     inject_cyrillic_into_fnt,
 )
+from src.graphics_engine import (
+    build_all_screens,
+    build_screen,
+    dump_all_screens,
+    dump_screen,
+    find_palette_for_screen,
+    find_tiles_for_screen,
+)
 from src.rom_manager import build_rom, unpack_rom, verify_rom_integrity
 from src.text_engine import dump_all_msg, insert_all_msg
 from src.text_validator import (
@@ -311,6 +319,137 @@ def cmd_validate_text_length(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_dump_graphics(args: argparse.Namespace) -> int:
+    """Handles the 'dump-graphics' subcommand."""
+    if args.screen:
+        screen_arg = args.screen
+        normalized = screen_arg.replace("\\", "/")
+        for suffix in ("_nsc.bin", "_ncg.bin", "_ncl.bin", ".bin", ".png", ".json"):
+            if normalized.endswith(suffix):
+                normalized = normalized[: -len(suffix)]
+                break
+
+        nsc_path = normalized + "_nsc.bin"
+        if not os.path.isfile(nsc_path):
+            print(f"Error: Screen file not found: {nsc_path}")
+            return 1
+
+        ncg_path = find_tiles_for_screen(nsc_path)
+        ncl_path = find_palette_for_screen(nsc_path)
+
+        if not ncg_path or not os.path.isfile(ncg_path):
+            print(f"Error: Matching NCG tiles not found for: {nsc_path}")
+            return 1
+        if not ncl_path or not os.path.isfile(ncl_path):
+            print(f"Error: Matching NCL palette not found for: {nsc_path}")
+            return 1
+
+        rom_data = args.rom_data.replace("\\", "/")
+        if normalized.startswith(rom_data):
+            rel = os.path.relpath(normalized, rom_data)
+        else:
+            rel = os.path.basename(normalized)
+
+        out_png = os.path.join(args.out, rel + ".png")
+        out_json = os.path.join(args.out, rel + ".json")
+
+        print(f"Dumping screen '{normalized}' -> '{out_png}'...")
+        info = dump_screen(ncg_path, ncl_path, nsc_path, out_png, out_json)
+        print(
+            f"Successfully dumped screen ({info['width_px']}x{info['height_px']} px, {info['tile_count']} tiles)."
+        )
+        return 0
+
+    if not os.path.isdir(args.rom_data):
+        print(f"Error: NitroFS data directory not found: {args.rom_data}")
+        return 1
+
+    category_str = (
+        f" [category: {args.category}]"
+        if args.category
+        else (" [ALL]" if args.all else " [default categories]")
+    )
+    print(f"Dumping graphics from '{args.rom_data}' -> '{args.out}'{category_str}...")
+    count = dump_all_screens(
+        rom_data_dir=args.rom_data,
+        output_image_dir=args.out,
+        category=args.category,
+        dump_all=args.all,
+    )
+    print(f"Successfully dumped {count} screens to PNG + JSON.")
+    return 0
+
+
+def cmd_build_graphics(args: argparse.Namespace) -> int:
+    """Handles the 'build-graphics' (and alias 'insert-graphics') subcommand."""
+    if args.screen:
+        screen_path = args.screen
+        if not os.path.isfile(screen_path):
+            print(f"Error: Image file not found: {screen_path}")
+            return 1
+
+        meta_json_path = None
+        if screen_path.endswith(".png"):
+            cand_json = screen_path[:-4] + ".json"
+            if os.path.isfile(cand_json):
+                meta_json_path = cand_json
+
+        if not meta_json_path:
+            for base_dir in (args.image_dir, args.meta_dir):
+                norm_base = base_dir.replace("\\", "/")
+                norm_scr = screen_path.replace("\\", "/")
+                if norm_scr.startswith(norm_base):
+                    rel = os.path.relpath(norm_scr, norm_base)
+                    rel_stem = os.path.splitext(rel)[0]
+                    cand = os.path.join(args.meta_dir, rel_stem + ".json")
+                    if os.path.isfile(cand):
+                        meta_json_path = cand
+                        break
+
+        if not meta_json_path or not os.path.isfile(meta_json_path):
+            base_stem = os.path.splitext(os.path.basename(screen_path))[0]
+            cand = os.path.join(args.meta_dir, base_stem + ".json")
+            if os.path.isfile(cand):
+                meta_json_path = cand
+            else:
+                print(f"Error: Metadata JSON not found for: {screen_path}")
+                return 1
+
+        rel_stem = None
+        for base_dir in (args.image_dir, args.meta_dir):
+            norm_base = base_dir.replace("\\", "/")
+            norm_scr = screen_path.replace("\\", "/")
+            if norm_scr.startswith(norm_base):
+                rel = os.path.relpath(norm_scr, norm_base)
+                rel_stem = os.path.splitext(rel)[0]
+                break
+
+        if not rel_stem:
+            rel_stem = os.path.splitext(os.path.basename(screen_path))[0]
+
+        out_ncg = os.path.join(args.rom_data, rel_stem + "_ncg.bin")
+        out_ncl = os.path.join(args.rom_data, rel_stem + "_ncl.bin")
+        out_nsc = os.path.join(args.rom_data, rel_stem + "_nsc.bin")
+
+        print(f"Building screen '{screen_path}' -> '{args.rom_data}'...")
+        info = build_screen(screen_path, meta_json_path, out_ncg, out_ncl, out_nsc)
+        print(f"Successfully rebuilt screen ({info['unique_tiles']} unique tiles).")
+        return 0
+
+    if not os.path.isdir(args.image_dir):
+        print(f"Error: Image directory not found: {args.image_dir}")
+        return 1
+
+    print(f"Building graphics from '{args.image_dir}' -> '{args.rom_data}'...")
+    count = build_all_screens(
+        image_dir=args.image_dir,
+        meta_dir=args.meta_dir,
+        target_rom_data_dir=args.rom_data,
+    )
+    print(f"Successfully rebuilt and inserted {count} screens.")
+    return 0
+
+
 def create_parser() -> argparse.ArgumentParser:
     """Constructs and returns the top-level argument parser with all subcommands."""
     parser = argparse.ArgumentParser(
@@ -537,6 +676,70 @@ def create_parser() -> argparse.ArgumentParser:
             help="JSON field to validate (default: 'translation')",
         )
 
+    # dump-graphics
+    p_dump_gfx = subparsers.add_parser(
+        "dump-graphics",
+        help="Dump background screen graphics to PNG and JSON descriptors",
+    )
+    p_dump_gfx.add_argument(
+        "--rom-data",
+        default="extracted rom/data",
+        help="Path to extracted NitroFS data directory (default: 'extracted rom/data')",
+    )
+    p_dump_gfx.add_argument(
+        "--out",
+        default="extracted image",
+        help="Destination directory for dumped PNG images (default: 'extracted image')",
+    )
+    p_dump_gfx.add_argument(
+        "--screen",
+        default=None,
+        help="Optional path or stem of a specific screen to dump (e.g. 'extracted rom/data/title/bg/kenri')",
+    )
+    p_dump_gfx.add_argument(
+        "--category",
+        default=None,
+        help="Optional category subdirectory to dump (e.g. 'title', 'Ending', 'menu')",
+    )
+    p_dump_gfx.add_argument(
+        "--all",
+        action="store_true",
+        help="Dump all screens across all directories in the ROM",
+    )
+
+    # build-graphics & insert-graphics
+    for subcmd_gfx, help_gfx in [
+        (
+            "build-graphics",
+            "Rebuild background screen binaries from PNG and JSON descriptors",
+        ),
+        (
+            "insert-graphics",
+            "Alias for build-graphics",
+        ),
+    ]:
+        p_build_gfx = subparsers.add_parser(subcmd_gfx, help=help_gfx)
+        p_build_gfx.add_argument(
+            "--image-dir",
+            default="translated image",
+            help="Directory containing translated PNG files (default: 'translated image')",
+        )
+        p_build_gfx.add_argument(
+            "--meta-dir",
+            default="extracted image",
+            help="Directory containing original metadata JSON files (default: 'extracted image')",
+        )
+        p_build_gfx.add_argument(
+            "--rom-data",
+            default="extracted rom/data",
+            help="Path to extracted NitroFS data directory (default: 'extracted rom/data')",
+        )
+        p_build_gfx.add_argument(
+            "--screen",
+            default=None,
+            help="Optional path to a specific PNG file to rebuild",
+        )
+
     return parser
 
 
@@ -578,6 +781,9 @@ def main(argv: Optional[List[str]] = None) -> int:
         "roundtrip": cmd_roundtrip,
         "validate-text-length": cmd_validate_text_length,
         "validate-text-lenght": cmd_validate_text_length,
+        "dump-graphics": cmd_dump_graphics,
+        "build-graphics": cmd_build_graphics,
+        "insert-graphics": cmd_build_graphics,
     }
 
     handler = command_handlers.get(args.command)
