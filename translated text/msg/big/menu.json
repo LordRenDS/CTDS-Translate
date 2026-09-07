@@ -321,13 +321,13 @@
     "id": 53,
     "original_en": "Stamina",
     "original_fr": "Endurance",
-    "translation": "Выносливость"
+    "translation": "Выносл."
   },
   {
     "id": 54,
     "original_en": "Magic Defense",
     "original_fr": "Déf. magique",
-    "translation": "Магическая Защита"
+    "translation": "Маг. Защита"
   },
   {
     "id": 55,
@@ -339,7 +339,7 @@
     "id": 56,
     "original_en": "Next level:",
     "original_fr": "Niv. suivant :",
-    "translation": "Следующий уровень:"
+    "translation": "След. ур.:"
   },
   {
     "id": 57,
@@ -399,13 +399,13 @@
     "id": 66,
     "original_en": "Key Items",
     "original_fr": "Objets-clefs",
-    "translation": "Важные Предметы"
+    "translation": "Важное"
   },
   {
     "id": 67,
     "original_en": "Sort list",
     "original_fr": "Trier",
-    "translation": "Сортировать список"
+    "translation": "Сорт."
   },
   {
     "id": 68,
@@ -459,7 +459,7 @@
     "id": 76,
     "original_en": "Usable by:",
     "original_fr": "Peut s'en\néquiper :",
-    "translation": "Используется:"
+    "translation": "Использ.:"
   },
   {
     "id": 77,
@@ -495,7 +495,7 @@
     "id": 82,
     "original_en": "MP Cost",
     "original_fr": "PM requis",
-    "translation": "Стоимось ОМ"
+    "translation": "Цена ОМ"
   },
   {
     "id": 83,
@@ -531,13 +531,13 @@
     "id": 88,
     "original_en": "Battle Message Speed",
     "original_fr": "Vitesse d'affichage",
-    "translation": "Скорость Сообщений в Бою"
+    "translation": "Скорость Текста"
   },
   {
     "id": 89,
     "original_en": "Battle Cursor Memory",
     "original_fr": "Curseur combat mémorisé",
-    "translation": "Память Курсора в Бою"
+    "translation": "Курсор в Бою"
   },
   {
     "id": 90,
@@ -573,19 +573,19 @@
     "id": 95,
     "original_en": "Shortcut Assignments",
     "original_fr": "Raccourcis",
-    "translation": "Назначения Ярлыков"
+    "translation": "Ярлыки"
   },
   {
     "id": 96,
     "original_en": "Control Scheme",
     "original_fr": "Boutons",
-    "translation": "Схема Управления"
+    "translation": "Управление"
   },
   {
     "id": 97,
     "original_en": "Menu Cursor Memory",
     "original_fr": "Curseur menu mémorisé",
-    "translation": "Память Курсора в Меню"
+    "translation": "Курсор в Меню"
   },
   {
     "id": 98,
@@ -603,19 +603,19 @@
     "id": 100,
     "original_en": "Defaults",
     "original_fr": "Rétablir",
-    "translation": "По умолчанию"
+    "translation": "Сброс"
   },
   {
     "id": 101,
     "original_en": "Save & Apply",
     "original_fr": "Terminer",
-    "translation": "Сохранить и Применить"
+    "translation": "Применить"
   },
   {
     "id": 102,
     "original_en": "Enable/Disable",
     "original_fr": "Utiliser/Ne pas utiliser",
-    "translation": "Включить/Выключить"
+    "translation": "Вкл/Выкл"
   },
   {
     "id": 103,
@@ -627,7 +627,7 @@
     "id": 104,
     "original_en": "Cancel/Toggle Run",
     "original_fr": "Annuler/Allure",
-    "translation": "Отмена/Переключение Бега"
+    "translation": "Отмена/Бег"
   },
   {
     "id": 105,
@@ -645,7 +645,7 @@
     "id": 107,
     "original_en": "Next page ♪",
     "original_fr": "Détails ♪",
-    "translation": "Следующая страница ♪"
+    "translation": "След. страница ♪"
   },
   {
     "id": 108,
@@ -657,7 +657,7 @@
     "id": 109,
     "original_en": "OFF",
     "original_fr": "Type A",
-    "translation": "Выкл"
+    "translation": "ВЫКЛ"
   },
   {
     "id": 110,
@@ -681,13 +681,13 @@
     "id": 113,
     "original_en": "Battle I",
     "original_fr": "Combats",
-    "translation": "Битва I"
+    "translation": "Бой I"
   },
   {
     "id": 114,
     "original_en": "Battle II",
     "original_fr": "Combats",
-    "translation": "Битва II"
+    "translation": "Бой II"
   },
   {
     "id": 115,
@@ -825,7 +825,7 @@
     "id": 137,
     "original_en": "Default",
     "original_fr": "Rétablir",
-    "translation": "По умолчанию"
+    "translation": "Сброс"
   },
   {
     "id": 138,
@@ -873,13 +873,13 @@
     "id": 145,
     "original_en": "Inventory: View or use items.",
     "original_fr": "Consulter l'inventaire ou utiliser un objet.",
-    "translation": "Инвентарь: Просмотр/использование предметов."
+    "translation": "Инвентарь: Использовать предметы."
   },
   {
     "id": 146,
     "original_en": "Techs: View or use known techs.",
     "original_fr": "Consulter ou utiliser les compétences.",
-    "translation": "Техники: Просмотр/использование известных техник."
+    "translation": "Техники: Просмотр известных техник."
   },
   {
     "id": 147,
@@ -897,7 +897,7 @@
     "id": 149,
     "original_en": "Party cannot be altered at this time.",
     "original_fr": "Impossible de changer l'équipe maintenant.",
-    "translation": "Отряд не может быть изменен в данный момент."
+    "translation": "Сейчас нельзя изменить состав отряда."
   },
   {
     "id": 150,
@@ -909,7 +909,7 @@
     "id": 151,
     "original_en": "You cannot save at this time.",
     "original_fr": "Impossible de sauvegarder maintenant.",
-    "translation": "Вы не можете сохраниться в данный момент."
+    "translation": "Сейчас нельзя сохраниться."
   },
   {
     "id": 152,
@@ -933,49 +933,49 @@
     "id": 155,
     "original_en": "Adjust rate at which time flows in battle.",
     "original_fr": "Régler la vitesse des combats.",
-    "translation": "Настроить скорость течения времени в бою."
+    "translation": "Скорость течения времени в бою."
   },
   {
     "id": 156,
     "original_en": "Adjust message display duration.",
     "original_fr": "Régler la vitesse d'affichage.",
-    "translation": "Настроить время отображения сообщений."
+    "translation": "Время отображения сообщений."
   },
   {
     "id": 157,
     "original_en": "Set cursor memory level.",
     "original_fr": "Régler la mémorisation du curseur.",
-    "translation": "Установить уровень памяти курсора."
+    "translation": "Уровень памяти курсора."
   },
   {
     "id": 158,
     "original_en": "Toggle display of status bars.",
     "original_fr": "Régler l'affichage des jauges de combat.",
-    "translation": "Включить/Выключить индикатора статуса."
+    "translation": "Вкл/Выкл индикатора статуса."
   },
   {
     "id": 159,
     "original_en": "Set battle gauge display.",
     "original_fr": "Régler l'affichage des infos.",
-    "translation": "Настроить отображение индикатора боя."
+    "translation": "Отображение индикатора боя."
   },
   {
     "id": 160,
     "original_en": "Toggle display of help messages.",
     "original_fr": "Régler l'affichage des messages d'aide.",
-    "translation": "Включить/Отключить подсказки."
+    "translation": "Вкл/Выкл подсказки."
   },
   {
     "id": 161,
     "original_en": "Modify button assignments.",
     "original_fr": "Changer la fonction des boutons.",
-    "translation": "Изменить назначение кнопок."
+    "translation": "Назначить кнопоки."
   },
   {
     "id": 162,
     "original_en": "Toggle default movement type.",
     "original_fr": "Changer le mode de déplacement.",
-    "translation": "Переключить перемещение по умолчанию."
+    "translation": "Перемещение по умолчанию."
   },
   {
     "id": 163,
@@ -987,7 +987,7 @@
     "id": 164,
     "original_en": "Toggle cursor position memory.",
     "original_fr": "Régler la mémorisation du curseur.",
-    "translation": "Переключить запоминание положения курсора."
+    "translation": "Запоминать положение курсора."
   },
   {
     "id": 165,
@@ -1029,7 +1029,7 @@
     "id": 171,
     "original_en": "Cannot be changed in Classic Mode.",
     "original_fr": "Non disponible en mode classique.",
-    "translation": "Невозможно изменить в Классическом Режиме."
+    "translation": "Нельзя изменить в классическом режиме."
   },
   {
     "id": 172,
@@ -1041,13 +1041,13 @@
     "id": 173,
     "original_en": "Inventory: View or use items.",
     "original_fr": "Consulter l'inventaire ou utiliser un objet.",
-    "translation": "Инвентарь: Просмотр/использование предметов."
+    "translation": "Инвентарь: Использовать предметы."
   },
   {
     "id": 174,
     "original_en": "Techs: View or use known techs.",
     "original_fr": "Consulter ou utiliser les compétences.",
-    "translation": "Техники: Просмотр/использование известных техник."
+    "translation": "Техники: Просмотр известных техник."
   },
   {
     "id": 175,
