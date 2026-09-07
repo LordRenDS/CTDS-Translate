@@ -3,19 +3,19 @@
     "id": 0,
     "original_en": "LV",
     "original_fr": "Niv.",
-    "translation": ""
+    "translation": "УР"
   },
   {
     "id": 1,
     "original_en": "HP",
     "original_fr": "PV",
-    "translation": ""
+    "translation": "ОЗ"
   },
   {
     "id": 2,
     "original_en": "MP",
     "original_fr": "PM",
-    "translation": ""
+    "translation": "ОМ"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "id": 5,
     "original_en": "Time",
     "original_fr": "TEMPS",
-    "translation": ""
+    "translation": "Время"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "id": 10,
     "original_en": "Back",
     "original_fr": "Retour",
-    "translation": ""
+    "translation": "Назад"
   },
   {
     "id": 11,
@@ -147,19 +147,19 @@
     "id": 24,
     "original_en": "LV",
     "original_fr": "Niv.",
-    "translation": ""
+    "translation": "УР"
   },
   {
     "id": 25,
     "original_en": "HP",
     "original_fr": "PV",
-    "translation": ""
+    "translation": "ОЗ"
   },
   {
     "id": 26,
     "original_en": "MP",
     "original_fr": "PM",
-    "translation": ""
+    "translation": "ОМ"
   },
   {
     "id": 27,
@@ -183,49 +183,49 @@
     "id": 30,
     "original_en": "Main Menu",
     "original_fr": "Menu principal",
-    "translation": ""
+    "translation": "Главное Меню"
   },
   {
     "id": 31,
     "original_en": "Equipment",
     "original_fr": "îquipement",
-    "translation": ""
+    "translation": "Экипировка"
   },
   {
     "id": 32,
     "original_en": "Inventory",
     "original_fr": "Inventaire",
-    "translation": ""
+    "translation": "Инвентарь"
   },
   {
     "id": 33,
     "original_en": "Techs",
     "original_fr": "Compétences",
-    "translation": ""
+    "translation": "Техники"
   },
   {
     "id": 34,
     "original_en": "Bestiary",
     "original_fr": "Bestiaire",
-    "translation": ""
+    "translation": "Бестиарий"
   },
   {
     "id": 35,
     "original_en": "Settings",
     "original_fr": "Réglages",
-    "translation": ""
+    "translation": "Настройки"
   },
   {
     "id": 36,
     "original_en": "Party",
     "original_fr": "Formation",
-    "translation": ""
+    "translation": "Отряд"
   },
   {
     "id": 37,
     "original_en": "Save",
     "original_fr": "Sauvegarde",
-    "translation": ""
+    "translation": "Сохранить"
   },
   {
     "id": 38,
@@ -237,553 +237,553 @@
     "id": 39,
     "original_en": "Prehistory",
     "original_fr": "Préhistoire",
-    "translation": ""
+    "translation": "Доисторический период"
   },
   {
     "id": 40,
     "original_en": "Antiquity",
     "original_fr": "Antiquité",
-    "translation": ""
+    "translation": "Древность"
   },
   {
     "id": 41,
     "original_en": "Middle Ages",
     "original_fr": "Moyen-{TAG:5F}ge",
-    "translation": ""
+    "translation": "Средневековье"
   },
   {
     "id": 42,
     "original_en": "Present",
     "original_fr": "Présent",
-    "translation": ""
+    "translation": "Настоящее"
   },
   {
     "id": 43,
     "original_en": "Future",
     "original_fr": "Futur",
-    "translation": ""
+    "translation": "Будущее"
   },
   {
     "id": 44,
     "original_en": "Dimensional Vortex",
     "original_fr": "",
-    "translation": ""
+    "translation": "Пространственная Воронка"
   },
   {
     "id": 45,
     "original_en": "Equipment",
     "original_fr": "îquipement",
-    "translation": ""
+    "translation": "Экипировка"
   },
   {
     "id": 46,
     "original_en": "Attack",
     "original_fr": "Attaque",
-    "translation": ""
+    "translation": "Аттака"
   },
   {
     "id": 47,
     "original_en": "Defense",
     "original_fr": "Défense",
-    "translation": ""
+    "translation": "Защита"
   },
   {
     "id": 48,
     "original_en": "Strength",
     "original_fr": "Force",
-    "translation": ""
+    "translation": "Сила"
   },
   {
     "id": 49,
     "original_en": "Accuracy",
     "original_fr": "Précision",
-    "translation": ""
+    "translation": "Точность"
   },
   {
     "id": 50,
     "original_en": "Speed",
     "original_fr": "Rapidité",
-    "translation": ""
+    "translation": "Скорость"
   },
   {
     "id": 51,
     "original_en": "Magic",
     "original_fr": "Magie",
-    "translation": ""
+    "translation": "Магия"
   },
   {
     "id": 52,
     "original_en": "Evasion",
     "original_fr": "Esquive",
-    "translation": ""
+    "translation": "Уклонение"
   },
   {
     "id": 53,
     "original_en": "Stamina",
     "original_fr": "Endurance",
-    "translation": ""
+    "translation": "Выносливость"
   },
   {
     "id": 54,
     "original_en": "Magic Defense",
     "original_fr": "Déf. magique",
-    "translation": ""
+    "translation": "Магическая Защита"
   },
   {
     "id": 55,
     "original_en": "EXP",
     "original_fr": "EXP",
-    "translation": ""
+    "translation": "Опыт"
   },
   {
     "id": 56,
     "original_en": "Next level:",
     "original_fr": "Niv. suivant :",
-    "translation": ""
+    "translation": "Следующий уровень:"
   },
   {
     "id": 57,
     "original_en": "Weapon",
     "original_fr": "Arme",
-    "translation": ""
+    "translation": "Оружие"
   },
   {
     "id": 58,
     "original_en": "Helm",
     "original_fr": "Tête",
-    "translation": ""
+    "translation": "Шлем"
   },
   {
     "id": 59,
     "original_en": "Armor",
     "original_fr": "Corps",
-    "translation": ""
+    "translation": "Броня"
   },
   {
     "id": 60,
     "original_en": "Accessory",
     "original_fr": "Accessoire",
-    "translation": ""
+    "translation": "Аксессуар"
   },
   {
     "id": 61,
     "original_en": "Consumables",
     "original_fr": "Objets",
-    "translation": ""
+    "translation": "Расходники"
   },
   {
     "id": 62,
     "original_en": "Weapons",
     "original_fr": "Armes",
-    "translation": ""
+    "translation": "Оружие"
   },
   {
     "id": 63,
     "original_en": "Helms",
     "original_fr": "Tête",
-    "translation": ""
+    "translation": "Шлема"
   },
   {
     "id": 64,
     "original_en": "Armor",
     "original_fr": "Corps",
-    "translation": ""
+    "translation": "Броня"
   },
   {
     "id": 65,
     "original_en": "Accessories",
     "original_fr": "Accessoires",
-    "translation": ""
+    "translation": "Аксессуары"
   },
   {
     "id": 66,
     "original_en": "Key Items",
     "original_fr": "Objets-clefs",
-    "translation": ""
+    "translation": "Важные Предметы"
   },
   {
     "id": 67,
     "original_en": "Sort list",
     "original_fr": "Trier",
-    "translation": ""
+    "translation": "Сортировать список"
   },
   {
     "id": 68,
     "original_en": "Stock:",
     "original_fr": "Stock :",
-    "translation": ""
+    "translation": "Штук:"
   },
   {
     "id": 69,
     "original_en": "The party has no consumable items.",
     "original_fr": "Vous n'avez pas d'objets.",
-    "translation": ""
+    "translation": "У отряда нет расходных предметов."
   },
   {
     "id": 70,
     "original_en": "The party has no spare weapons.",
     "original_fr": "Vous n'avez pas d'armes.",
-    "translation": ""
+    "translation": "У отряда нет запасного оружия."
   },
   {
     "id": 71,
     "original_en": "The party has no spare helms.",
     "original_fr": "Vous n'avez pas d'équipement pour la tête.",
-    "translation": ""
+    "translation": "У отряда нет запасных шлемов"
   },
   {
     "id": 72,
     "original_en": "The party has no spare armor.",
     "original_fr": "Vous n'avez pas d'équip. pour le corps.",
-    "translation": ""
+    "translation": "У отряда нет запасной брони."
   },
   {
     "id": 73,
     "original_en": "The party has no spare accessories.",
     "original_fr": "Vous n'avez pas d'accessoires.",
-    "translation": ""
+    "translation": "У отряда нет запасных аксессуаров."
   },
   {
     "id": 74,
     "original_en": "The party has no key items.",
     "original_fr": "Vous n'avez pas d'objets-clefs.",
-    "translation": ""
+    "translation": "У отряда нет ключевых предметов."
   },
   {
     "id": 75,
     "original_en": "In use:",
     "original_fr": "îquip. :",
-    "translation": ""
+    "translation": "Одето:"
   },
   {
     "id": 76,
     "original_en": "Usable by:",
     "original_fr": "Peut s'en\néquiper :",
-    "translation": ""
+    "translation": "Используется:"
   },
   {
     "id": 77,
     "original_en": "Attack:",
     "original_fr": "Attaque",
-    "translation": ""
+    "translation": "Аттака:"
   },
   {
     "id": 78,
     "original_en": "Techs",
     "original_fr": "Compétences",
-    "translation": ""
+    "translation": "Техники"
   },
   {
     "id": 79,
     "original_en": "Single Techs",
     "original_fr": "Solos",
-    "translation": ""
+    "translation": "Одиночные Техники"
   },
   {
     "id": 80,
     "original_en": "Dual Techs",
     "original_fr": "Duos",
-    "translation": ""
+    "translation": "Двойные Техники"
   },
   {
     "id": 81,
     "original_en": "Triple Techs",
     "original_fr": "Trios",
-    "translation": ""
+    "translation": "Тройные Техники"
   },
   {
     "id": 82,
     "original_en": "MP Cost",
     "original_fr": "PM requis",
-    "translation": ""
+    "translation": "Стоимось ОМ"
   },
   {
     "id": 83,
     "original_en": "{TAG:38}{TAG:38}{TAG:38}{TAG:7A}TP needed:",
     "original_fr": "PC requis",
-    "translation": ""
+    "translation": "{TAG:38}{TAG:38}{TAG:38}{TAG:7A}Нужно ОТ:"
   },
   {
     "id": 84,
     "original_en": "Settings",
     "original_fr": "Réglages",
-    "translation": ""
+    "translation": "Настройки"
   },
   {
     "id": 85,
     "original_en": "Game Mode",
     "original_fr": "Mode de jeu",
-    "translation": ""
+    "translation": "Режим Игры"
   },
   {
     "id": 86,
     "original_en": "Battle Mode",
     "original_fr": "Mode de combat",
-    "translation": ""
+    "translation": "Режим Боя"
   },
   {
     "id": 87,
     "original_en": "Battle Speed",
     "original_fr": "Vitesse de combat",
-    "translation": ""
+    "translation": "Скорость Боя"
   },
   {
     "id": 88,
     "original_en": "Battle Message Speed",
     "original_fr": "Vitesse d'affichage",
-    "translation": ""
+    "translation": "Скорость Сообщений в Бою"
   },
   {
     "id": 89,
     "original_en": "Battle Cursor Memory",
     "original_fr": "Curseur combat mémorisé",
-    "translation": ""
+    "translation": "Память Курсора в Бою"
   },
   {
     "id": 90,
     "original_en": "Status Bars",
     "original_fr": "Jauges de combat",
-    "translation": ""
+    "translation": "Индикатор Статуса"
   },
   {
     "id": 91,
     "original_en": "Battle Gauges",
     "original_fr": "Infos",
-    "translation": ""
+    "translation": "Индикаторы Боя"
   },
   {
     "id": 92,
     "original_en": "Help Messages",
     "original_fr": "Messages d'aide",
-    "translation": ""
+    "translation": "Подсказки"
   },
   {
     "id": 93,
     "original_en": "Window Design",
     "original_fr": "Fenêtres",
-    "translation": ""
+    "translation": "Дизайн Окон"
   },
   {
     "id": 94,
     "original_en": "Movies",
     "original_fr": "Cinématiques",
-    "translation": ""
+    "translation": "Заставки"
   },
   {
     "id": 95,
     "original_en": "Shortcut Assignments",
     "original_fr": "Raccourcis",
-    "translation": ""
+    "translation": "Назначения Ярлыков"
   },
   {
     "id": 96,
     "original_en": "Control Scheme",
     "original_fr": "Boutons",
-    "translation": ""
+    "translation": "Схема Управления"
   },
   {
     "id": 97,
     "original_en": "Menu Cursor Memory",
     "original_fr": "Curseur menu mémorisé",
-    "translation": ""
+    "translation": "Память Курсора в Меню"
   },
   {
     "id": 98,
     "original_en": "Language",
     "original_fr": "Langue",
-    "translation": ""
+    "translation": "Язык"
   },
   {
     "id": 99,
     "original_en": "Cancel",
     "original_fr": "Annuler",
-    "translation": ""
+    "translation": "Отмена"
   },
   {
     "id": 100,
     "original_en": "Defaults",
     "original_fr": "Rétablir",
-    "translation": ""
+    "translation": "По умолчанию"
   },
   {
     "id": 101,
     "original_en": "Save & Apply",
     "original_fr": "Terminer",
-    "translation": ""
+    "translation": "Сохранить и Применить"
   },
   {
     "id": 102,
     "original_en": "Enable/Disable",
     "original_fr": "Utiliser/Ne pas utiliser",
-    "translation": ""
+    "translation": "Включить/Выключить"
   },
   {
     "id": 103,
     "original_en": "Accept",
     "original_fr": "Confirmer",
-    "translation": ""
+    "translation": "Принять"
   },
   {
     "id": 104,
     "original_en": "Cancel/Toggle Run",
     "original_fr": "Annuler/Allure",
-    "translation": ""
+    "translation": "Отмена/Переключение Бега"
   },
   {
     "id": 105,
     "original_en": "Main Menu",
     "original_fr": "Menu principal",
-    "translation": ""
+    "translation": "Главное Меню"
   },
   {
     "id": 106,
     "original_en": "Warp",
     "original_fr": "Jauge du temps",
-    "translation": ""
+    "translation": "Прыжок"
   },
   {
     "id": 107,
     "original_en": "Next page ♪",
     "original_fr": "Détails ♪",
-    "translation": ""
+    "translation": "Следующая страница ♪"
   },
   {
     "id": 108,
     "original_en": "Movement",
     "original_fr": "Déplacements",
-    "translation": ""
+    "translation": "Перемещение"
   },
   {
     "id": 109,
     "original_en": "OFF",
     "original_fr": "Type A",
-    "translation": ""
+    "translation": "Выкл"
   },
   {
     "id": 110,
     "original_en": "TYPE A",
     "original_fr": "Type B",
-    "translation": ""
+    "translation": "ТИП A"
   },
   {
     "id": 111,
     "original_en": "TYPE B",
     "original_fr": "Type C",
-    "translation": ""
+    "translation": "ТИП B"
   },
   {
     "id": 112,
     "original_en": "Custom",
     "original_fr": "Modifier",
-    "translation": ""
+    "translation": "Вручную"
   },
   {
     "id": 113,
     "original_en": "Battle I",
     "original_fr": "Combats",
-    "translation": ""
+    "translation": "Битва I"
   },
   {
     "id": 114,
     "original_en": "Battle II",
     "original_fr": "Combats",
-    "translation": ""
+    "translation": "Битва II"
   },
   {
     "id": 115,
     "original_en": "Controls",
     "original_fr": "Commandes",
-    "translation": ""
+    "translation": "Управление"
   },
   {
     "id": 116,
     "original_en": "System",
     "original_fr": "Système",
-    "translation": ""
+    "translation": "Система"
   },
   {
     "id": 117,
     "original_en": "Shop",
     "original_fr": "Magasin",
-    "translation": ""
+    "translation": "Магазин"
   },
   {
     "id": 118,
     "original_en": "Buy",
     "original_fr": "Acheter",
-    "translation": ""
+    "translation": "Купить"
   },
   {
     "id": 119,
     "original_en": "Sell",
     "original_fr": "Vendre",
-    "translation": ""
+    "translation": "Продать"
   },
   {
     "id": 120,
     "original_en": "Equip",
     "original_fr": "îquipement",
-    "translation": ""
+    "translation": "Экипировка"
   },
   {
     "id": 121,
     "original_en": "Funds:",
     "original_fr": "Argent",
-    "translation": ""
+    "translation": "Средства:"
   },
   {
     "id": 122,
     "original_en": "Price:",
     "original_fr": "Prix",
-    "translation": ""
+    "translation": "Цена:"
   },
   {
     "id": 123,
     "original_en": "Nothing available.",
     "original_fr": "Aucun objet {TAG:3C} acheter.",
-    "translation": ""
+    "translation": "Товары не доступны."
   },
   {
     "id": 124,
     "original_en": "Nothing available.",
     "original_fr": "Aucune arme {TAG:3C} acheter.",
-    "translation": ""
+    "translation": "Оружие не доступно."
   },
   {
     "id": 125,
     "original_en": "Nothing available.",
     "original_fr": "Aucun équipement pour\nla tête {TAG:3C} acheter.",
-    "translation": ""
+    "translation": "Шлемы не доступны."
   },
   {
     "id": 126,
     "original_en": "Nothing available.",
     "original_fr": "Aucun équipement pour\nle corps {TAG:3C} acheter.",
-    "translation": ""
+    "translation": "Броня не доступна."
   },
   {
     "id": 127,
     "original_en": "Nothing to sell.",
     "original_fr": "Aucun objet {TAG:3C} vendre.",
-    "translation": ""
+    "translation": "Нет вещей для продажи."
   },
   {
     "id": 128,
     "original_en": "Nothing to sell.",
     "original_fr": "Aucune arme {TAG:3C} vendre.",
-    "translation": ""
+    "translation": "Нет оружия для продажи."
   },
   {
     "id": 129,
     "original_en": "Nothing to sell.",
     "original_fr": "Aucun équipement pour\nla tête {TAG:3C} vendre.",
-    "translation": ""
+    "translation": "Нет шлемов для продажи."
   },
   {
     "id": 130,
     "original_en": "Nothing to sell.",
     "original_fr": "Aucun équipement pour\nle corps {TAG:3C} vendre.",
-    "translation": ""
+    "translation": "Нет брони для продажи."
   },
   {
     "id": 131,
@@ -795,25 +795,25 @@
     "id": 132,
     "original_en": "Attack:",
     "original_fr": "Attaque",
-    "translation": ""
+    "translation": "Аттака:"
   },
   {
     "id": 133,
     "original_en": "Defense:",
     "original_fr": "Défense",
-    "translation": ""
+    "translation": "Защита:"
   },
   {
     "id": 134,
     "original_en": "ABC",
     "original_fr": "ABC",
-    "translation": ""
+    "translation": "АБВ"
   },
   {
     "id": 135,
     "original_en": "abc",
     "original_fr": "abc",
-    "translation": ""
+    "translation": "абв"
   },
   {
     "id": 136,
@@ -825,348 +825,348 @@
     "id": 137,
     "original_en": "Default",
     "original_fr": "Rétablir",
-    "translation": ""
+    "translation": "По умолчанию"
   },
   {
     "id": 138,
     "original_en": "Space",
     "original_fr": "Espace",
-    "translation": ""
+    "translation": "Место"
   },
   {
     "id": 139,
     "original_en": "Delete",
     "original_fr": "Effacer",
-    "translation": ""
+    "translation": "Удалить"
   },
   {
     "id": 140,
     "original_en": "Accept",
     "original_fr": "Confirmer",
-    "translation": ""
+    "translation": "Принять"
   },
   {
     "id": 141,
     "original_en": "Please enter a name and then\npress START to confirm.",
     "original_fr": "Saisissez un nom, puis\nappuyez sur START.",
-    "translation": ""
+    "translation": "Введите имя, а затем нажмите\nкнопку СТАРТ для подтверждения."
   },
   {
     "id": 142,
     "original_en": "Party",
     "original_fr": "Formation",
-    "translation": ""
+    "translation": "Отряд"
   },
   {
     "id": 143,
     "original_en": "Save",
     "original_fr": "Sauvegarde",
-    "translation": ""
+    "translation": "Сохранить"
   },
   {
     "id": 144,
     "original_en": "Equipment: Change character equipment.",
     "original_fr": "Changer l'équipement des personnages.",
-    "translation": ""
+    "translation": "Экипировка: Изменить экипировку персонажа."
   },
   {
     "id": 145,
     "original_en": "Inventory: View or use items.",
     "original_fr": "Consulter l'inventaire ou utiliser un objet.",
-    "translation": ""
+    "translation": "Инвентарь: Просмотр/использование предметов."
   },
   {
     "id": 146,
     "original_en": "Techs: View or use known techs.",
     "original_fr": "Consulter ou utiliser les compétences.",
-    "translation": ""
+    "translation": "Техники: Просмотр/использование известных техник."
   },
   {
     "id": 147,
     "original_en": "Settings: Adjust game settings.",
     "original_fr": "Changer les paramètres du jeu.",
-    "translation": ""
+    "translation": "Настройки: Настройка параметров игры."
   },
   {
     "id": 148,
     "original_en": "Party: Change party members.",
     "original_fr": "Changer les membres de l'équipe.",
-    "translation": ""
+    "translation": "Отряд: Изменить членов отряда."
   },
   {
     "id": 149,
     "original_en": "Party cannot be altered at this time.",
     "original_fr": "Impossible de changer l'équipe maintenant.",
-    "translation": ""
+    "translation": "Отряд не может быть изменен в данный момент."
   },
   {
     "id": 150,
     "original_en": "Save: Record current progress.",
     "original_fr": "Sauvegarder la partie.",
-    "translation": ""
+    "translation": "Сохранить: Записать текущий прогресс."
   },
   {
     "id": 151,
     "original_en": "You cannot save at this time.",
     "original_fr": "Impossible de sauvegarder maintenant.",
-    "translation": ""
+    "translation": "Вы не можете сохраниться в данный момент."
   },
   {
     "id": 152,
     "original_en": "Bestiary: View enemy data.",
     "original_fr": "Consulter le bestiaire.",
-    "translation": ""
+    "translation": "Бестиарий: Просмотр данных врагов."
   },
   {
     "id": 153,
     "original_en": "Toggle screen layout mode.",
     "original_fr": "Changer le mode de jeu.",
-    "translation": ""
+    "translation": "Переключить схему экрана."
   },
   {
     "id": 154,
     "original_en": "Toggle battle mode.",
     "original_fr": "Changer le mode de combat.",
-    "translation": ""
+    "translation": "Переключить режим боя."
   },
   {
     "id": 155,
     "original_en": "Adjust rate at which time flows in battle.",
     "original_fr": "Régler la vitesse des combats.",
-    "translation": ""
+    "translation": "Настроить скорость течения времени в бою."
   },
   {
     "id": 156,
     "original_en": "Adjust message display duration.",
     "original_fr": "Régler la vitesse d'affichage.",
-    "translation": ""
+    "translation": "Настроить время отображения сообщений."
   },
   {
     "id": 157,
     "original_en": "Set cursor memory level.",
     "original_fr": "Régler la mémorisation du curseur.",
-    "translation": ""
+    "translation": "Установить уровень памяти курсора."
   },
   {
     "id": 158,
     "original_en": "Toggle display of status bars.",
     "original_fr": "Régler l'affichage des jauges de combat.",
-    "translation": ""
+    "translation": "Включить/Выключить индикатора статуса."
   },
   {
     "id": 159,
     "original_en": "Set battle gauge display.",
     "original_fr": "Régler l'affichage des infos.",
-    "translation": ""
+    "translation": "Настроить отображение индикатора боя."
   },
   {
     "id": 160,
     "original_en": "Toggle display of help messages.",
     "original_fr": "Régler l'affichage des messages d'aide.",
-    "translation": ""
+    "translation": "Включить/Отключить подсказки."
   },
   {
     "id": 161,
     "original_en": "Modify button assignments.",
     "original_fr": "Changer la fonction des boutons.",
-    "translation": ""
+    "translation": "Изменить назначение кнопок."
   },
   {
     "id": 162,
     "original_en": "Toggle default movement type.",
     "original_fr": "Changer le mode de déplacement.",
-    "translation": ""
+    "translation": "Переключить перемещение по умолчанию."
   },
   {
     "id": 163,
     "original_en": "Modify layout of shortcut icons.",
     "original_fr": "Changer la position des raccourcis.",
-    "translation": ""
+    "translation": "Изменить расположение ярлыков."
   },
   {
     "id": 164,
     "original_en": "Toggle cursor position memory.",
     "original_fr": "Régler la mémorisation du curseur.",
-    "translation": ""
+    "translation": "Переключить запоминание положения курсора."
   },
   {
     "id": 165,
     "original_en": "Toggle movie playback.",
     "original_fr": "Régler la présentation des cinématiques.",
-    "translation": ""
+    "translation": "Переключить воспроизведение фильмов."
   },
   {
     "id": 166,
     "original_en": "Set window type.",
     "original_fr": "Changer le style des fenêtres.",
-    "translation": ""
+    "translation": "Установить тип окна."
   },
   {
     "id": 167,
     "original_en": "Set language.",
     "original_fr": "Choisir la langue.",
-    "translation": ""
+    "translation": "Установить язык."
   },
   {
     "id": 168,
     "original_en": "Please select party members.",
     "original_fr": "Choisissez les membres de l'équipe.",
-    "translation": ""
+    "translation": "Выберете членов отряда."
   },
   {
     "id": 169,
     "original_en": "Please select a file.",
     "original_fr": "Choisissez un fichier de sauvegarde.",
-    "translation": ""
+    "translation": "Выберите файл."
   },
   {
     "id": 170,
     "original_en": "Cannot be changed in DS Mode.",
     "original_fr": "Non disponible en mode DS.",
-    "translation": ""
+    "translation": "Невозможно изменить в режиме DS."
   },
   {
     "id": 171,
     "original_en": "Cannot be changed in Classic Mode.",
     "original_fr": "Non disponible en mode classique.",
-    "translation": ""
+    "translation": "Невозможно изменить в Классическом Режиме."
   },
   {
     "id": 172,
     "original_en": "Equipment: Change character equipment.",
     "original_fr": "Changer l'équipement des personnages.",
-    "translation": ""
+    "translation": "Экипировка: Изменить экипировку персонажа."
   },
   {
     "id": 173,
     "original_en": "Inventory: View or use items.",
     "original_fr": "Consulter l'inventaire ou utiliser un objet.",
-    "translation": ""
+    "translation": "Инвентарь: Просмотр/использование предметов."
   },
   {
     "id": 174,
     "original_en": "Techs: View or use known techs.",
     "original_fr": "Consulter ou utiliser les compétences.",
-    "translation": ""
+    "translation": "Техники: Просмотр/использование известных техник."
   },
   {
     "id": 175,
     "original_en": "Settings: Adjust game settings.",
     "original_fr": "Changer les paramètres du jeu.",
-    "translation": ""
+    "translation": "Настройки: Настройка параметров игры."
   },
   {
     "id": 176,
     "original_en": "Party: Change party members.",
     "original_fr": "Changer les membres de l'équipe.",
-    "translation": ""
+    "translation": "Отряд: Изменить членов отряда."
   },
   {
     "id": 177,
     "original_en": "Save: Record current progress.",
     "original_fr": "Sauvegarder la partie.",
-    "translation": ""
+    "translation": "Сохранить: Записать текущий прогресс."
   },
   {
     "id": 178,
     "original_en": "Bestiary: View enemy data.",
     "original_fr": "Consulter le bestiaire.",
-    "translation": ""
+    "translation": "Бестиарий: Просмотр данных врагов."
   },
   {
     "id": 179,
     "original_en": "{GLYPH:409} Button: Use{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:70}+Control Pad: Move",
     "original_fr": "Bouton {GLYPH:409} : Utiliser / Manette + : Déplacer",
-    "translation": ""
+    "translation": "{GLYPH:409} Кнопка: Использовать{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:70}+Крестовина: Переместить"
   },
   {
     "id": 180,
     "original_en": "{GLYPH:409} Button: View info{TAG:38}{TAG:38}+Control Pad: Move",
     "original_fr": "Bouton {GLYPH:409} : Infos / Manette + : Déplacer",
-    "translation": ""
+    "translation": "{GLYPH:409} Кнопка: Просмотреть{TAG:38}{TAG:38}+Крестовина: Переместить"
   },
   {
     "id": 181,
     "original_en": "+Control Pad: Move",
     "original_fr": "Manette + : Déplacer",
-    "translation": ""
+    "translation": "+Крестовина: Переместить"
   },
   {
     "id": 182,
     "original_en": "65,000,000 B.C.",
     "original_fr": "An -65 000 000",
-    "translation": ""
+    "translation": "65,000,000 ДО Н.Э."
   },
   {
     "id": 183,
     "original_en": "12,000 B.C.",
     "original_fr": "An -12 000",
-    "translation": ""
+    "translation": "12,000 ДО Н.Э."
   },
   {
     "id": 184,
     "original_en": "600 A.D.",
     "original_fr": "An 600",
-    "translation": ""
+    "translation": "600 Н.Э."
   },
   {
     "id": 185,
     "original_en": "1000 A.D.",
     "original_fr": "An 1000",
-    "translation": ""
+    "translation": "1000 Н.Э."
   },
   {
     "id": 186,
     "original_en": "2300 A.D.",
     "original_fr": "An 2300",
-    "translation": ""
+    "translation": "2300 Н.Э."
   },
   {
     "id": 187,
     "original_en": "1999 A.D.",
     "original_fr": "An 1999",
-    "translation": ""
+    "translation": "1999 Н.Э."
   },
   {
     "id": 188,
     "original_en": "Prehistory",
     "original_fr": "Préhistoire",
-    "translation": ""
+    "translation": "Доисторический период"
   },
   {
     "id": 189,
     "original_en": "Antiquity",
     "original_fr": "Antiquité",
-    "translation": ""
+    "translation": "Древность"
   },
   {
     "id": 190,
     "original_en": "Middle Ages",
     "original_fr": "Moyen-{TAG:5F}ge",
-    "translation": ""
+    "translation": "Средневековье"
   },
   {
     "id": 191,
     "original_en": "Present",
     "original_fr": "Présent",
-    "translation": ""
+    "translation": "Настоящее"
   },
   {
     "id": 192,
     "original_en": "Cataclysm",
     "original_fr": "Cataclysme",
-    "translation": ""
+    "translation": "Катаклизм"
   },
   {
     "id": 193,
     "original_en": "Future",
     "original_fr": "Futur",
-    "translation": ""
+    "translation": "Будущее"
   },
   {
     "id": 194,
     "original_en": "End of Time",
     "original_fr": "Fin des temps",
-    "translation": ""
+    "translation": "Конец Времени"
   }
 ]
