@@ -8,6 +8,7 @@ Handles extraction and re-insertion of Nintendo DS background screens:
 - Rebuilding game binary triplets (*_ncg.bin, *_ncl.bin, *_nsc.bin).
 """
 
+import json
 import os
 import struct
 from typing import Any, Dict, List, Optional, Tuple
@@ -23,6 +24,26 @@ class GraphicsEngineError(Exception):
 
 class TilePoolOverflowError(GraphicsEngineError):
     """Raised when unique tile count exceeds Nintendo DS hardware limit (1024 tiles)."""
+
+
+class DumpResult(int):
+    """Result of a graphics dump operation, behaves as an int total count."""
+
+    total: int
+    screens: int
+    slides: int
+    sprites: int
+
+    def __new__(cls, total: int, screens: int = 0, slides: int = 0, sprites: int = 0):
+        obj = super().__new__(cls, total)
+        obj.total = total
+        obj.screens = screens
+        obj.slides = slides
+        obj.sprites = sprites
+        return obj
+
+    def __repr__(self) -> str:
+        return f"<DumpResult total={self.total} screens={self.screens} slides={self.slides} sprites={self.sprites}>"
 
 
 def decompress_stream(raw_bytes: bytes) -> Tuple[bytes, int]:
@@ -104,11 +125,13 @@ def parse_nsc_header(data: bytes) -> Dict[str, Any]:
     if magic != b"NSC\x00":
         raise GraphicsEngineError(f"Invalid NSC magic: {magic!r}")
     width_tiles, height_tiles = data[8], data[9]
+    is_affine = ((flags >> 16) & 0xFF) == 1
     return {
         "magic": magic,
         "flags": flags,
         "width_tiles": width_tiles,
         "height_tiles": height_tiles,
+        "is_affine": is_affine,
         "header_size": 12,
     }
 
@@ -151,11 +174,27 @@ def dump_screen(
     fmt = ndspy.graphics2D.ImageFormat.I8 if is_8bpp else ndspy.graphics2D.ImageFormat.I4
 
     palette = ndspy.color.loadPalette(ncl_decomp[8:])
-    tiles = ndspy.graphics2D.loadImageTiles(ncg_decomp[8:], fmt)
-    tilemap = ndspy.graphics2D.loadTilemapTiles(nsc_decomp[12:], ndspy.graphics2D.TilemapFormat.I10H1V1P4)
+    # Ensure palette has at least 256 entries to prevent IndexError in ndspy
+    while len(palette) < 256:
+        palette.append((0, 0, 0, 0))
 
+    tiles = ndspy.graphics2D.loadImageTiles(ncg_decomp[8:], fmt)
     w_tiles = nsc_info["width_tiles"]
     h_tiles = nsc_info["height_tiles"]
+    is_affine = nsc_info.get("is_affine", False)
+
+    if is_affine:
+        tile_bytes_needed = w_tiles * h_tiles
+        tilemap = ndspy.graphics2D.loadTilemapTiles(
+            nsc_decomp[12 : 12 + tile_bytes_needed], ndspy.graphics2D.TilemapFormat.I8
+        )
+        extra_data = nsc_decomp[12 + tile_bytes_needed :].hex()
+    else:
+        tile_bytes_needed = w_tiles * h_tiles * 2
+        tilemap = ndspy.graphics2D.loadTilemapTiles(
+            nsc_decomp[12 : 12 + tile_bytes_needed], ndspy.graphics2D.TilemapFormat.I10H1V1P4
+        )
+        extra_data = nsc_decomp[12 + tile_bytes_needed :].hex()
 
     # Pad missing tiles with blank tiles if referenced in tilemap
     if tilemap:
@@ -177,6 +216,7 @@ def dump_screen(
 
     meta = {
         "is_8bpp": is_8bpp,
+        "is_affine": is_affine,
         "tile_count": tile_count,
         "raw_tile_count": raw_tile_cnt,
         "width_tiles": w_tiles,
@@ -184,6 +224,7 @@ def dump_screen(
         "width_px": w_tiles * 8,
         "height_px": h_tiles * 8,
         "flags": nsc_info["flags"],
+        "extra_data": extra_data,
         "color_count": ncl_info["color_count"],
         "ncg_layers": ncg_layers,
         "ncl_layers": ncl_layers,
@@ -199,6 +240,48 @@ def dump_screen(
     return meta
 
 
+def resolve_rom_directory(rom_data_dir: str, target: str) -> str:
+    """Resolves a target directory path that may be relative to rom_data_dir, absolute, or standalone."""
+    if os.path.isdir(target):
+        return os.path.abspath(target)
+    cand = os.path.join(rom_data_dir, target)
+    if os.path.isdir(cand):
+        return os.path.abspath(cand)
+    raise GraphicsEngineError(f"Directory not found: '{target}' (checked '{target}' and '{cand}')")
+
+
+def find_shared_nsc_for_tiles(ncg_path: str) -> Optional[str]:
+    """Finds a shared _nsc.bin template for illustration/slide tilesets in a folder."""
+    import glob
+    d = os.path.dirname(ncg_path)
+    b = os.path.basename(ncg_path)
+
+    # Specific prefixes
+    if b.startswith("bg_name_back_slv"):
+        cand = os.path.join(d, "bg_name_back_slv_nsc.bin")
+        if os.path.isfile(cand):
+            return cand
+    if b.startswith("bg_name_back_"):
+        cand = os.path.join(d, "bg_name_back_nsc.bin")
+        if os.path.isfile(cand):
+            return cand
+
+    # Known bg_pct templates in directory
+    for template in ("bg_pct_illust_nsc.bin", "bg_pct_end_nsc.bin", "bg_pct_skill_nsc.bin"):
+        cand = os.path.join(d, template)
+        if os.path.isfile(cand):
+            return cand
+
+    # Single NSC in directory without direct NCG companion
+    dir_nscs = glob.glob(os.path.join(d, "*_nsc.bin"))
+    if len(dir_nscs) == 1:
+        single_nsc = dir_nscs[0]
+        if not os.path.isfile(single_nsc.replace("_nsc.bin", "_ncg.bin")):
+            return single_nsc
+
+    return None
+
+
 def find_palette_for_screen(nsc_path: str) -> Optional[str]:
     """Finds matching _ncl.bin palette for a given _nsc.bin screen."""
     import glob
@@ -208,15 +291,55 @@ def find_palette_for_screen(nsc_path: str) -> Optional[str]:
         return direct
 
     dir_path = os.path.dirname(nsc_path)
-    # Match prefix
-    cand = glob.glob(os.path.join(dir_path, "*_ncl.bin"))
-    if cand:
-        return cand[0]
+    base = os.path.basename(stem)
 
-    # Check menu/plt
+    # 1. Hyphen / underscore normalization
+    for cand_name in (base.replace("-", "_") + "_ncl.bin", base.replace("_", "-") + "_ncl.bin"):
+        cand = os.path.join(dir_path, cand_name)
+        if os.path.isfile(cand):
+            return cand
+
+    # 2. Stripping double underscores or trailing underscores
+    for cand_name in (base.rstrip("_") + "__ncl.bin", base.rstrip("_") + "_ncl.bin"):
+        cand = os.path.join(dir_path, cand_name)
+        if os.path.isfile(cand):
+            return cand
+
+    # 3. Special screen palette mapping
+    special_pal_map = {
+        "kouscr": "05_racecol_ncl.bin",
+        "metescr": "20_metecol__ncl.bin",
+        "lasscr": "37_lascol_ncl.bin",
+        "moonscr": "51_mooncol_ncl.bin",
+        "wmscr": "52_wmcol1_ncl.bin",
+        "font4": "60_font4_ncl.bin",
+        "earsc": "EARCL_ncl.bin",
+    }
+    for key, val in special_pal_map.items():
+        if key in base:
+            cand = os.path.join(dir_path, val)
+            if os.path.isfile(cand):
+                return cand
+
+    # 4. Check menu/plt with theme style suffix (e.g. _1.._8)
+    style_num = None
+    for part in base.split("_"):
+        if part.isdigit():
+            style_num = part
+            break
+    if style_num:
+        menu_plt_style = os.path.join(os.path.dirname(dir_path), "plt", f"win_{style_num}_ncl.bin")
+        if os.path.isfile(menu_plt_style):
+            return menu_plt_style
+
     menu_plt = os.path.join(os.path.dirname(dir_path), "plt", "win_1_ncl.bin")
     if os.path.isfile(menu_plt):
         return menu_plt
+
+    # 5. Direct prefix in dir
+    cands = glob.glob(os.path.join(dir_path, "*_ncl.bin"))
+    if cands:
+        return cands[0]
 
     return None
 
@@ -229,7 +352,59 @@ def find_tiles_for_screen(nsc_path: str) -> Optional[str]:
         return direct
 
     dir_path = os.path.dirname(nsc_path)
-    parts = os.path.basename(stem).split("_")
+    base = os.path.basename(stem)
+
+    # 1. Hyphen / underscore normalization (e.g. wall2-256_nsc.bin -> wall2_256_ncg.bin)
+    for cand_name in (base.replace("-", "_") + "_ncg.bin", base.replace("_", "-") + "_ncg.bin"):
+        cand = os.path.join(dir_path, cand_name)
+        if os.path.isfile(cand):
+            return cand
+
+    # 2. Stripping double underscores or trailing underscores (e.g. 60_font4_nsc.bin -> 60_font4__ncg.bin)
+    for cand_name in (base.rstrip("_") + "__ncg.bin", base.rstrip("_") + "_ncg.bin"):
+        cand = os.path.join(dir_path, cand_name)
+        if os.path.isfile(cand):
+            return cand
+
+    # 3. Special screens mapping
+    special_map = {
+        "kouscr": "07_koucgx_ncg.bin",
+        "etscr": "14_etcgx__ncg.bin",
+        "metescr": "15_metecgx_ncg.bin",
+        "lasscr": "35_lascgx_ncg.bin",
+        "kokscr": "39_kokcgx_ncg.bin",
+        "wmscr": "43_wmcgx_ncg.bin",
+        "font4": "60_font4__ncg.bin",
+        "moonscr": "61_mooncgx_ncg.bin",
+        "kumscr": "66_kumcgx_ncg.bin",
+        "earsc": "EARCG_ncg.bin",
+    }
+    for key, val in special_map.items():
+        if key in base:
+            cand = os.path.join(dir_path, val)
+            if os.path.isfile(cand):
+                return cand
+
+    # 4. Ending clear window
+    if "bg_win_clear" in base:
+        cand_obj = os.path.join(dir_path, base.replace("bg_win_clear_dwn", "obj_win_clear") + "_ncg.bin")
+        if os.path.isfile(cand_obj):
+            return cand_obj
+
+    # 5. Menu background styles fallback
+    if base.startswith("bg_back_"):
+        cand_bg1 = os.path.join(dir_path, "bg_back_1_ncg.bin")
+        if os.path.isfile(cand_bg1):
+            return cand_bg1
+
+    # 6. Prefix matching
+    parts = base.split("_")
+    parts_no_pos = [p for p in parts if p not in ("up", "down", "dwn")]
+    if parts_no_pos != parts:
+        cand_pos = os.path.join(dir_path, "_".join(parts_no_pos) + "_ncg.bin")
+        if os.path.isfile(cand_pos):
+            return cand_pos
+
     for i in range(len(parts), 0, -1):
         cand = os.path.join(dir_path, "_".join(parts[:i]) + "_ncg.bin")
         if os.path.isfile(cand):
@@ -243,43 +418,47 @@ def dump_all_screens(
     output_image_dir: str,
     category: Optional[str] = None,
     dump_all: bool = False,
-) -> int:
-    """Scans rom_data_dir for screen tilemaps and dumps them to PNG + JSON.
+    directory: Optional[str] = None,
+) -> DumpResult:
+    """Scans rom_data_dir for screen tilemaps, slide sequences, and sprites and dumps them to PNG + JSON.
 
     Args:
         rom_data_dir: Path to extracted NitroFS data directory.
         output_image_dir: Output base directory (e.g. 'extracted image').
-        category: Optional category filter (e.g. 'title', 'Ending', 'menu').
-        dump_all: If True, dumps every found screen across all folders.
+        category: Optional category filter (e.g. 'title', 'Ending', 'menu') [deprecated, use directory].
+        dump_all: If True, dumps every found graphic across all folders.
+        directory: Optional directory or subdirectory to dump (e.g. 'menu', 'menu/obj', 'title/bg').
 
     Returns:
-        int: Number of screens successfully dumped.
+        DumpResult: Object behaving as int total count of dumped graphics, with .screens, .slides, .sprites.
     """
     import glob
+    import json
 
-    default_categories = ["title", "Ending", "menu/Extra", "minimap", "special"]
+    target_dir_arg = directory or category
     search_dirs = []
 
-    if category:
-        target = os.path.join(rom_data_dir, category)
-        if os.path.isdir(target):
-            search_dirs.append(target)
-        else:
-            raise GraphicsEngineError(f"Category directory not found: {target}")
+    if target_dir_arg:
+        search_dirs.append(resolve_rom_directory(rom_data_dir, target_dir_arg))
     elif dump_all:
-        search_dirs.append(rom_data_dir)
+        search_dirs.append(os.path.abspath(rom_data_dir))
     else:
+        default_categories = ["title", "Ending", "menu", "minimap", "special"]
         for c in default_categories:
             p = os.path.join(rom_data_dir, c)
             if os.path.isdir(p):
-                search_dirs.append(p)
+                search_dirs.append(os.path.abspath(p))
 
+    dumped_screens = 0
+    dumped_slides = 0
+    dumped_sprites = 0
+    dumped_ncg_paths = set()
+
+    # 1. Screen tilemaps (*_nsc.bin)
     nsc_files: List[str] = []
     for d in search_dirs:
         nsc_files.extend(glob.glob(os.path.join(d, "**", "*_nsc.bin"), recursive=True))
-
     nsc_files = sorted(list(set(nsc_files)))
-    dumped_count = 0
 
     for nsc in nsc_files:
         ncg = find_tiles_for_screen(nsc)
@@ -294,11 +473,74 @@ def dump_all_screens(
 
         try:
             dump_screen(ncg, ncl, nsc, out_png, out_json)
-            dumped_count += 1
+            dumped_screens += 1
+            dumped_ncg_paths.add(os.path.abspath(ncg))
         except Exception as e:
             print(f"Warning: Failed to dump {rel}: {e}")
 
-    return dumped_count
+    # 2. Shared-NSC slide collections (*_ncg.bin using a shared template *_nsc.bin)
+    ncg_files: List[str] = []
+    for d in search_dirs:
+        ncg_files.extend(glob.glob(os.path.join(d, "**", "*_ncg.bin"), recursive=True))
+    ncg_files = sorted(list(set(ncg_files)))
+
+    for ncg in ncg_files:
+        if os.path.abspath(ncg) in dumped_ncg_paths:
+            continue
+
+        shared_nsc = find_shared_nsc_for_tiles(ncg)
+        if not shared_nsc:
+            continue
+
+        stem_ncl = ncg[:-8] + "_ncl.bin"
+        if os.path.isfile(stem_ncl):
+            ncl = stem_ncl
+        else:
+            ncl = find_palette_for_screen(shared_nsc)
+
+        if not ncl or not os.path.isfile(ncl):
+            continue
+
+        rel = os.path.relpath(ncg, rom_data_dir)
+        rel_stem = rel[:-8]  # strip '_ncg.bin'
+        out_png = os.path.join(output_image_dir, rel_stem + ".png")
+        out_json = os.path.join(output_image_dir, rel_stem + ".json")
+
+        try:
+            meta = dump_screen(ncg, ncl, shared_nsc, out_png, out_json)
+            meta["is_shared_nsc"] = True
+            with open(out_json, "w", encoding="utf-8") as f:
+                json.dump(meta, f, indent=2)
+            dumped_slides += 1
+            dumped_ncg_paths.add(os.path.abspath(ncg))
+        except Exception as e:
+            print(f"Warning: Failed to dump slide {rel}: {e}")
+
+    # 3. Sprites (*.NCGR / *.ncgr)
+    ncgr_files: List[str] = []
+    for d in search_dirs:
+        ncgr_files.extend(glob.glob(os.path.join(d, "**", "*.ncgr"), recursive=True))
+        ncgr_files.extend(glob.glob(os.path.join(d, "**", "*.NCGR"), recursive=True))
+    ncgr_files = sorted(list(set(ncgr_files)))
+
+    for ncgr in ncgr_files:
+        rel = os.path.relpath(ncgr, rom_data_dir)
+        rel_stem = os.path.splitext(rel)[0]
+        out_png = os.path.join(output_image_dir, rel_stem + ".png")
+        out_json = os.path.join(output_image_dir, rel_stem + ".json")
+
+        nclr = find_palette_for_sprite(ncgr)
+        ncer = find_cell_bank_for_sprite(ncgr)
+
+        try:
+            dump_ncgr_sprite(ncgr, nclr, out_png, out_json, ncer_path=ncer)
+            dumped_sprites += 1
+        except Exception as e:
+            print(f"Warning: Failed to dump sprite {rel}: {e}")
+
+    total = dumped_screens + dumped_slides + dumped_sprites
+    return DumpResult(total, screens=dumped_screens, slides=dumped_slides, sprites=dumped_sprites)
+
 
 
 def pad_to_alignment(data: bytes, align: int = 4) -> bytes:
@@ -312,6 +554,7 @@ def pad_to_alignment(data: bytes, align: int = 4) -> bytes:
 def deduplicate_tiles(
     tiles_8x8: List[List[int]],
     is_8bpp: bool,
+    allow_flips: bool = True,
 ) -> Tuple[List[List[int]], List[Tuple[int, bool, bool, int]]]:
     """Deduplicates 8x8 pixel tiles and returns unique tiles + tilemap placement parameters.
 
@@ -352,24 +595,26 @@ def deduplicate_tiles(
             idx, hf, vf = tile_lookup[t_norm]
         else:
             idx = len(unique_tiles)
-            if idx >= 1024:
+            max_tiles = 256 if not allow_flips else 1024
+            if idx >= max_tiles:
                 raise TilePoolOverflowError(
-                    f"Screen exceeded maximum allowable unique tiles (1024). Got {idx + 1} unique tiles."
+                    f"Screen exceeded maximum allowable unique tiles ({max_tiles}). Got {idx + 1} unique tiles."
                 )
             unique_tiles.append(norm_px)
 
-            tile_2d = [norm_px[i * 8 : (i + 1) * 8] for i in range(8)]
-            t_h = tuple(p for row in tile_2d for p in reversed(row))
-            t_v = tuple(p for row in reversed(tile_2d) for p in row)
-            t_hv = tuple(p for row in reversed(tile_2d) for p in reversed(row))
-
             tile_lookup[t_norm] = (idx, False, False)
-            if t_h not in tile_lookup:
-                tile_lookup[t_h] = (idx, True, False)
-            if t_v not in tile_lookup:
-                tile_lookup[t_v] = (idx, False, True)
-            if t_hv not in tile_lookup:
-                tile_lookup[t_hv] = (idx, True, True)
+            if allow_flips:
+                tile_2d = [norm_px[i * 8 : (i + 1) * 8] for i in range(8)]
+                t_h = tuple(p for row in tile_2d for p in reversed(row))
+                t_v = tuple(p for row in reversed(tile_2d) for p in row)
+                t_hv = tuple(p for row in reversed(tile_2d) for p in reversed(row))
+
+                if t_h not in tile_lookup:
+                    tile_lookup[t_h] = (idx, True, False)
+                if t_v not in tile_lookup:
+                    tile_lookup[t_v] = (idx, False, True)
+                if t_hv not in tile_lookup:
+                    tile_lookup[t_hv] = (idx, True, True)
 
             hf, vf = False, False
 
@@ -396,6 +641,7 @@ def build_screen(
     w_tiles = meta["width_tiles"]
     h_tiles = meta["height_tiles"]
     flags = meta["flags"]
+    is_affine = meta.get("is_affine", False) or (((flags >> 16) & 0xFF) == 1)
 
     # Load original palette from meta or ncl_path
     with open(meta["ncl_path"], "rb") as f:
@@ -445,26 +691,39 @@ def build_screen(
                         tile_pixels.append(0)
             tiles_8x8.append(tile_pixels)
 
-    unique_tiles, placements = deduplicate_tiles(tiles_8x8, is_8bpp=is_8bpp)
+    unique_tiles, placements = deduplicate_tiles(
+        tiles_8x8, is_8bpp=is_8bpp, allow_flips=not is_affine
+    )
 
     # Construct ImageTiles and TilemapTiles
     fmt = ndspy.graphics2D.ImageFormat.I8 if is_8bpp else ndspy.graphics2D.ImageFormat.I4
     img_tiles = [ndspy.graphics2D.ImageTile.fromPixels(px, fmt) for px in unique_tiles]
 
-    tilemap_tiles = [
-        ndspy.graphics2D.TilemapTile.fromParameters(
-            idx,
-            format=ndspy.graphics2D.TilemapFormat.I10H1V1P4,
-            hFlip=hf,
-            vFlip=vf,
-            paletteNum=pal_num,
-        )
-        for (idx, hf, vf, pal_num) in placements
-    ]
+    if is_affine:
+        tilemap_tiles = [
+            ndspy.graphics2D.TilemapTile.fromParameters(
+                idx,
+                format=ndspy.graphics2D.TilemapFormat.I8,
+            )
+            for (idx, hf, vf, pal_num) in placements
+        ]
+    else:
+        tilemap_tiles = [
+            ndspy.graphics2D.TilemapTile.fromParameters(
+                idx,
+                format=ndspy.graphics2D.TilemapFormat.I10H1V1P4,
+                hFlip=hf,
+                vFlip=vf,
+                paletteNum=pal_num,
+            )
+            for (idx, hf, vf, pal_num) in placements
+        ]
 
     # Save tile binary data
     tiles_binary = ndspy.graphics2D.saveImageTiles(img_tiles)
     tilemap_binary = ndspy.graphics2D.saveTilemapTiles(tilemap_tiles)
+    if meta.get("extra_data"):
+        tilemap_binary += bytes.fromhex(meta["extra_data"])
     palette_binary = ncl_decomp[8:]
 
     # Headers
@@ -511,6 +770,7 @@ def build_all_screens(
     image_dir: str,
     meta_dir: str,
     target_rom_data_dir: str,
+    sub_dir: Optional[str] = None,
 ) -> int:
     """Scans image_dir for translated PNGs and rebuilds them into target_rom_data_dir.
 
@@ -518,6 +778,7 @@ def build_all_screens(
         image_dir: Source folder of translated PNGs (e.g. 'translated image').
         meta_dir: Folder containing metadata JSONs from original dump (e.g. 'extracted image').
         target_rom_data_dir: Target NitroFS data directory (e.g. 'extracted rom/data').
+        sub_dir: Optional subfolder within image_dir to rebuild.
 
     Returns:
         int: Number of screens rebuilt.
@@ -525,7 +786,8 @@ def build_all_screens(
     import glob
 
     built_count = 0
-    png_files = glob.glob(os.path.join(image_dir, "**", "*.png"), recursive=True)
+    search_root = os.path.join(image_dir, sub_dir) if sub_dir else image_dir
+    png_files = glob.glob(os.path.join(search_root, "**", "*.png"), recursive=True)
 
     for png_path in sorted(png_files):
         rel = os.path.relpath(png_path, image_dir)
@@ -536,9 +798,25 @@ def build_all_screens(
             print(f"Warning: Metadata JSON not found for {rel}: {meta_json_path}")
             continue
 
+        with open(meta_json_path, "r", encoding="utf-8") as f:
+            meta = json.load(f)
+
+        if meta.get("format") == "NCGR":
+            out_ncgr = os.path.join(target_rom_data_dir, rel_stem + ".NCGR")
+            try:
+                build_ncgr_sprite(png_path, meta_json_path, out_ncgr)
+                built_count += 1
+            except Exception as e:
+                print(f"Warning: Failed to build NCGR sprite {rel}: {e}")
+            continue
+
         out_ncg = os.path.join(target_rom_data_dir, rel_stem + "_ncg.bin")
         out_ncl = os.path.join(target_rom_data_dir, rel_stem + "_ncl.bin")
-        out_nsc = os.path.join(target_rom_data_dir, rel_stem + "_nsc.bin")
+        if meta.get("is_shared_nsc") and "nsc_path" in meta:
+            rel_nsc = os.path.basename(meta["nsc_path"])
+            out_nsc = os.path.join(os.path.dirname(out_ncg), rel_nsc)
+        else:
+            out_nsc = os.path.join(target_rom_data_dir, rel_stem + "_nsc.bin")
 
         try:
             build_screen(png_path, meta_json_path, out_ncg, out_ncl, out_nsc)
@@ -547,5 +825,583 @@ def build_all_screens(
             print(f"Warning: Failed to build {rel}: {e}")
 
     return built_count
+
+
+def parse_nclr_palette(data: bytes) -> List[int]:
+    """Parses an NCLR binary file and returns flat list of RGB values [r0, g0, b0, ...]."""
+    decomp, _ = decompress_stream(data)
+    ttlp_idx = decomp.find(b"TTLP")
+    if ttlp_idx != -1:
+        pal_size = int.from_bytes(decomp[ttlp_idx + 16 : ttlp_idx + 20], "little")
+        pal_offset = int.from_bytes(decomp[ttlp_idx + 20 : ttlp_idx + 24], "little")
+        # In Nitro SDK TTLP format, pal_offset (16) is relative to start of TTLP payload (ttlp_idx + 8)
+        pal_raw = decomp[ttlp_idx + 8 + pal_offset : ttlp_idx + 8 + pal_offset + pal_size]
+    elif decomp[:4] == b"NCL\x00":
+        pal_raw = decomp[8:]
+    else:
+        pal_raw = decomp[0x28:] if len(decomp) > 0x28 else decomp
+
+    colors: List[int] = []
+    for i in range(0, len(pal_raw), 2):
+        c = struct.unpack("<H", pal_raw[i : i + 2])[0]
+        r = (c & 0x1F) * 255 // 31
+        g = ((c >> 5) & 0x1F) * 255 // 31
+        b = ((c >> 10) & 0x1F) * 255 // 31
+        colors.extend([r, g, b])
+
+    while len(colors) < 256 * 3:
+        colors.extend([0, 0, 0])
+
+    return colors[: 256 * 3]
+
+
+def find_palette_for_sprite(ncgr_path: str) -> Optional[str]:
+    """Finds matching NCLR or NCL palette for a given NCGR sprite file.
+
+    Args:
+        ncgr_path: Path to the target NCGR file.
+
+    Returns:
+        Optional[str]: Path to matching palette file if found, else None.
+    """
+    stem = os.path.splitext(ncgr_path)[0]
+    dir_path = os.path.dirname(ncgr_path)
+    base = os.path.basename(stem)
+
+    # 1. Direct match with exact or lowercase extension
+    for ext in (".NCLR", ".nclr"):
+        cand = stem + ext
+        if os.path.isfile(cand):
+            return cand
+
+    # 2. Language variant fallback (e.g. icon_fra.NCGR -> icon.NCLR)
+    for lang in ("_fra", "_eng"):
+        if base.endswith(lang):
+            base_cand = os.path.join(dir_path, base[: -len(lang)] + ".NCLR")
+            if os.path.isfile(base_cand):
+                return base_cand
+
+    # 3. Menu window components (obj_win_*, obj_fld_win*, obj_soroll*)
+    if base.startswith("obj_win_") or base.startswith("obj_fld_win") or base.startswith("obj_soroll"):
+        cand_win = os.path.join(dir_path, "win_ncl.bin")
+        if os.path.isfile(cand_win):
+            return cand_win
+        cand_plt = os.path.join(os.path.dirname(dir_path), "plt", "win_1.NCLR")
+        if os.path.isfile(cand_plt):
+            return cand_plt
+
+    # 4. Face portraits (face_00..face_07 -> face.NCLR)
+    if base.startswith("face"):
+        cand = os.path.join(dir_path, "face.NCLR")
+        if os.path.isfile(cand):
+            return cand
+
+    # 5. Slave names (obj_slv_name_00.. -> obj_slv_name.NCLR)
+    if base.startswith("obj_slv_name"):
+        cand = os.path.join(dir_path, "obj_slv_name.NCLR")
+        if os.path.isfile(cand):
+            return cand
+
+    # 6. Character icons (chara -> chara_00.NCLR, chricon -> bticon.NCLR or chara_00.NCLR)
+    if base.startswith("chara"):
+        cand = os.path.join(dir_path, "chara_00.NCLR")
+        if os.path.isfile(cand):
+            return cand
+    if base == "chricon":
+        cand = os.path.join(dir_path, "bticon.NCLR")
+        if os.path.isfile(cand):
+            return cand
+
+    # 7. Cursors (btcursor, cursor_*, etc.)
+    if "cursor" in base:
+        for cand_name in ("cursor_1.NCLR", "btcursor.NCLR"):
+            cand = os.path.join(dir_path, cand_name)
+            if os.path.isfile(cand):
+                return cand
+
+    # 8. icon_bike -> icon.NCLR
+    if base == "icon_bike":
+        cand = os.path.join(dir_path, "icon.NCLR")
+        if os.path.isfile(cand):
+            return cand
+
+    return None
+
+
+OAM_SHAPES = {
+    0: {0: (8, 8), 1: (16, 16), 2: (32, 32), 3: (64, 64)},
+    1: {0: (16, 8), 1: (32, 8), 2: (32, 16), 3: (64, 32)},
+    2: {0: (8, 16), 1: (8, 32), 2: (16, 32), 3: (32, 64)},
+}
+
+
+def find_cell_bank_for_sprite(ncgr_path: str) -> Optional[str]:
+    """Finds matching NCER cell bank for a given NCGR sprite file.
+
+    Args:
+        ncgr_path: Path to the target NCGR file.
+
+    Returns:
+        Optional[str]: Path to matching NCER file if found, else None.
+    """
+    stem = os.path.splitext(ncgr_path)[0]
+    dir_path = os.path.dirname(ncgr_path)
+    base = os.path.basename(stem)
+
+    # 1. Direct match with exact or lowercase extension
+    for ext in (".NCER", ".ncer"):
+        cand = stem + ext
+        if os.path.isfile(cand):
+            return cand
+
+    # 2. Language variant fallback (e.g. icon_fra.NCGR -> icon.NCER)
+    for lang in ("_fra", "_eng"):
+        if base.endswith(lang):
+            base_cand = os.path.join(dir_path, base[: -len(lang)] + ".NCER")
+            if os.path.isfile(base_cand):
+                return base_cand
+
+    return None
+
+
+def dump_ncgr_sprite(
+    ncgr_path: str,
+    nclr_path: Optional[str],
+    out_png_path: str,
+    out_json_path: str,
+    ncer_path: Optional[str] = None,
+    tiles_per_row: int = 16,
+) -> Dict[str, Any]:
+    """Extracts an NCGR sprite character container into an editable PNG and metadata JSON.
+
+    If an NCER companion cell bank is found or specified, exports assembled 2D cell sprites
+    without 1D tile slicing distortions or alignment padding artifacts.
+    """
+    import json
+    from PIL import Image
+
+    with open(ncgr_path, "rb") as f:
+        raw = f.read()
+
+    decomp, comp_layers = decompress_stream(raw)
+    if decomp[:4] != b"RGCN":
+        raise GraphicsEngineError(f"Invalid NCGR magic: {decomp[:4]!r}")
+
+    rahc_idx = decomp.find(b"RAHC")
+    if rahc_idx == -1:
+        raise GraphicsEngineError("RAHC block not found in NCGR")
+
+    magic, block_size, tiles_y, tiles_x, depth_raw, mapping, flags, data_size, data_offset = (
+        struct.unpack("<4sIHHIIIII", decomp[rahc_idx : rahc_idx + 32])
+    )
+    is_8bpp = (depth_raw == 4)
+    tile_bytes = 64 if is_8bpp else 32
+
+    tiles_start = rahc_idx + 8 + data_offset
+    char_size = data_size
+    if char_size == 0 or tiles_start + char_size > len(decomp):
+        tiles_data = decomp[tiles_start:]
+    else:
+        tiles_data = decomp[tiles_start : tiles_start + char_size]
+
+    num_tiles = len(tiles_data) // tile_bytes
+    if num_tiles == 0:
+        raise GraphicsEngineError("No tiles found in NCGR")
+
+    # Load palette
+    if nclr_path and os.path.isfile(nclr_path):
+        with open(nclr_path, "rb") as f:
+            pal_bytes = f.read()
+        colors = parse_nclr_palette(pal_bytes)
+    else:
+        colors = []
+        for i in range(256):
+            v = min(255, i * 255 // (15 if not is_8bpp else 255))
+            colors.extend([v, v, v])
+
+    if ncer_path is None:
+        ncer_path = find_cell_bank_for_sprite(ncgr_path)
+
+    # Attempt NCER cell-aware export if NCER file is available
+    if ncer_path and os.path.isfile(ncer_path):
+        try:
+            ncer_decomp, _ = decompress_stream(open(ncer_path, "rb").read())
+            cebk_idx = ncer_decomp.find(b"KBEC")
+            if cebk_idx == -1:
+                cebk_idx = ncer_decomp.find(b"CEBK")
+            if cebk_idx != -1:
+                num_cells = struct.unpack("<H", ncer_decomp[cebk_idx + 8 : cebk_idx + 10])[0]
+                cell_data_offset = struct.unpack("<I", ncer_decomp[cebk_idx + 12 : cebk_idx + 16])[0]
+                mapping_mode = struct.unpack("<I", ncer_decomp[cebk_idx + 16 : cebk_idx + 20])[0]
+                cell_start = cebk_idx + 8 + cell_data_offset
+                oam_base = cell_start + num_cells * 8
+                tile_multiplier = 1 << mapping_mode
+
+                components = []
+                covered_tiles = set()
+
+                for i in range(num_cells):
+                    n_oam, attr, oam_off = struct.unpack(
+                        "<HHI", ncer_decomp[cell_start + i * 8 : cell_start + (i + 1) * 8]
+                    )
+                    oams = []
+                    has_overlap = False
+                    for o in range(n_oam):
+                        pos = oam_base + oam_off + o * 6
+                        a0, a1, a2 = struct.unpack("<HHH", ncer_decomp[pos : pos + 6])
+                        y = a0 & 0xFF
+                        if y >= 128:
+                            y -= 256
+                        shape = (a0 >> 14) & 3
+                        x = a1 & 0x1FF
+                        if x >= 256:
+                            x -= 512
+                        size_code = (a1 >> 14) & 3
+                        w, h = OAM_SHAPES.get(shape, {}).get(size_code, (8, 8))
+                        raw_tile = (a2 & 0x3FF) * tile_multiplier
+                        pal = (a2 >> 12) & 0xF
+                        oams.append({"x": x, "y": y, "w": w, "h": h, "tile": raw_tile, "pal": pal})
+
+                    for idx1 in range(len(oams)):
+                        for idx2 in range(idx1 + 1, len(oams)):
+                            o1, o2 = oams[idx1], oams[idx2]
+                            if not (
+                                o1["x"] + o1["w"] <= o2["x"]
+                                or o2["x"] + o2["w"] <= o1["x"]
+                                or o1["y"] + o1["h"] <= o2["y"]
+                                or o2["y"] + o2["h"] <= o1["y"]
+                            ):
+                                has_overlap = True
+                                break
+
+                    if not has_overlap:
+                        cell_tiles = set()
+                        for o in oams:
+                            num_t = (o["w"] * o["h"]) // 64
+                            for t in range(o["tile"], o["tile"] + num_t):
+                                cell_tiles.add(t)
+                        new_tiles = cell_tiles - covered_tiles
+                        if new_tiles:
+                            min_x = min(o["x"] for o in oams)
+                            min_y = min(o["y"] for o in oams)
+                            max_x = max(o["x"] + o["w"] for o in oams)
+                            max_y = max(o["y"] + o["h"] for o in oams)
+                            components.append({
+                                "type": "cell",
+                                "cell_idx": i,
+                                "min_x": min_x,
+                                "min_y": min_y,
+                                "width": max_x - min_x,
+                                "height": max_y - min_y,
+                                "oams": oams,
+                            })
+                            covered_tiles.update(new_tiles)
+                    else:
+                        for o_idx, o in enumerate(oams):
+                            num_t = (o["w"] * o["h"]) // 64
+                            oam_tiles = set(range(o["tile"], o["tile"] + num_t))
+                            new_tiles = oam_tiles - covered_tiles
+                            if new_tiles:
+                                components.append({
+                                    "type": "oam",
+                                    "cell_idx": i,
+                                    "oam_idx": o_idx,
+                                    "min_x": 0,
+                                    "min_y": 0,
+                                    "width": o["w"],
+                                    "height": o["h"],
+                                    "oams": [
+                                        {"x": 0, "y": 0, "w": o["w"], "h": o["h"], "tile": o["tile"], "pal": o["pal"]}
+                                    ],
+                                })
+                                covered_tiles.update(new_tiles)
+
+                # Determine padding byte from uncovered tiles if available
+                uncovered_tiles = set(range(num_tiles)) - covered_tiles
+                padding_byte = 0xCC
+                if uncovered_tiles:
+                    sample_t = min(uncovered_tiles)
+                    padding_byte = tiles_data[sample_t * tile_bytes]
+
+                # 2D Shelf packing
+                max_row_width = 256
+                spacing = 8
+                cur_x = spacing
+                cur_y = spacing
+                row_h = 0
+                for comp in components:
+                    cw = comp["width"]
+                    ch = comp["height"]
+                    if cur_x + cw + spacing > max_row_width:
+                        cur_x = spacing
+                        cur_y += row_h + spacing
+                        row_h = 0
+                    comp["canvas_x"] = cur_x
+                    comp["canvas_y"] = cur_y
+                    cur_x += cw + spacing
+                    row_h = max(row_h, ch)
+
+                sheet_w = max_row_width
+                sheet_h = cur_y + row_h + spacing
+
+                img = Image.new("P", (sheet_w, sheet_h), 0)
+                img.putpalette(colors)
+
+                for comp in components:
+                    cx = comp["canvas_x"]
+                    cy = comp["canvas_y"]
+                    min_x = comp["min_x"]
+                    min_y = comp["min_y"]
+                    for o in comp["oams"]:
+                        ox = o["x"] - min_x
+                        oy = o["y"] - min_y
+                        w = o["w"]
+                        h = o["h"]
+                        w_t = w // 8
+                        h_t = h // 8
+                        raw_tile = o["tile"]
+                        for ty in range(h_t):
+                            for tx in range(w_t):
+                                t_idx = raw_tile + ty * w_t + tx
+                                if t_idx >= num_tiles:
+                                    continue
+                                t_bytes = tiles_data[t_idx * tile_bytes : (t_idx + 1) * tile_bytes]
+                                for py in range(8):
+                                    for px in range(8):
+                                        if is_8bpp:
+                                            val = t_bytes[py * 8 + px]
+                                        else:
+                                            b = t_bytes[py * 4 + px // 2]
+                                            val = (b >> 4) if (px % 2) else (b & 0x0F)
+                                        px_pos = cx + ox + tx * 8 + px
+                                        py_pos = cy + oy + ty * 8 + py
+                                        if 0 <= px_pos < img.width and 0 <= py_pos < img.height:
+                                            img.putpixel((px_pos, py_pos), val)
+
+                os.makedirs(os.path.dirname(os.path.abspath(out_png_path)), exist_ok=True)
+                os.makedirs(os.path.dirname(os.path.abspath(out_json_path)), exist_ok=True)
+                img.save(out_png_path, transparency=0)
+
+                meta = {
+                    "format": "NCGR",
+                    "is_cell_sheet": True,
+                    "is_8bpp": is_8bpp,
+                    "num_tiles": num_tiles,
+                    "sheet_width": sheet_w,
+                    "sheet_height": sheet_h,
+                    "compression_layers": comp_layers,
+                    "ncgr_path": ncgr_path,
+                    "ncer_path": ncer_path,
+                    "nclr_path": nclr_path,
+                    "padding_byte": padding_byte,
+                    "components": components,
+                    "header_bytes": decomp[:tiles_start].hex(),
+                }
+
+                with open(out_json_path, "w", encoding="utf-8") as f:
+                    json.dump(meta, f, indent=2)
+
+                return meta
+        except Exception as e:
+            print(f"Warning: Failed NCER cell extraction for {ncgr_path}: {e}; falling back to raw tiles.")
+
+    # Fallback: linear raw tile grid layout
+    tiles_wide = min(num_tiles, tiles_per_row)
+    tiles_high = (num_tiles + tiles_per_row - 1) // tiles_per_row
+
+    img = Image.new("P", (tiles_wide * 8, tiles_high * 8), 0)
+    img.putpalette(colors)
+
+    for t_idx in range(num_tiles):
+        tx = (t_idx % tiles_per_row) * 8
+        ty = (t_idx // tiles_per_row) * 8
+        t_data = tiles_data[t_idx * tile_bytes : (t_idx + 1) * tile_bytes]
+        for py in range(8):
+            for px in range(8):
+                if is_8bpp:
+                    val = t_data[py * 8 + px]
+                else:
+                    byte = t_data[py * 4 + px // 2]
+                    val = (byte >> 4) if (px % 2) else (byte & 0x0F)
+                px_pos = tx + px
+                py_pos = ty + py
+                if 0 <= px_pos < img.width and 0 <= py_pos < img.height:
+                    img.putpixel((px_pos, py_pos), val)
+
+    os.makedirs(os.path.dirname(os.path.abspath(out_png_path)), exist_ok=True)
+    os.makedirs(os.path.dirname(os.path.abspath(out_json_path)), exist_ok=True)
+    img.save(out_png_path, transparency=0)
+
+    meta = {
+        "format": "NCGR",
+        "is_cell_sheet": False,
+        "is_8bpp": is_8bpp,
+        "tiles_per_row": tiles_per_row,
+        "num_tiles": num_tiles,
+        "compression_layers": comp_layers,
+        "ncgr_path": ncgr_path,
+        "nclr_path": nclr_path,
+        "header_bytes": decomp[:tiles_start].hex(),
+    }
+
+    with open(out_json_path, "w", encoding="utf-8") as f:
+        json.dump(meta, f, indent=2)
+
+    return meta
+
+
+def build_ncgr_sprite(
+    png_path: str,
+    meta_json_path: str,
+    out_ncgr_path: str,
+) -> Dict[str, Any]:
+    """Rebuilds an NCGR sprite file from an edited PNG and metadata JSON."""
+    import json
+    from PIL import Image
+
+    with open(meta_json_path, "r", encoding="utf-8") as f:
+        meta = json.load(f)
+
+    if meta.get("format") != "NCGR":
+        raise GraphicsEngineError(f"Expected NCGR format in metadata, got: {meta.get('format')}")
+
+    is_8bpp = meta["is_8bpp"]
+    num_tiles = meta["num_tiles"]
+    tile_bytes = 64 if is_8bpp else 32
+    is_cell_sheet = meta.get("is_cell_sheet", False)
+
+    with Image.open(png_path) as orig_img:
+        if orig_img.mode == "P":
+            img = orig_img.copy()
+        else:
+            rgba_img = orig_img.convert("RGBA")
+            nclr_path = meta.get("nclr_path")
+            if nclr_path and os.path.isfile(nclr_path):
+                with open(nclr_path, "rb") as f:
+                    pal_data = f.read()
+                colors = parse_nclr_palette(pal_data)
+            else:
+                colors = []
+                for i in range(256):
+                    v = min(255, i * 255 // (15 if not is_8bpp else 255))
+                    colors.extend([v, v, v])
+
+            pal_rgb = [(colors[i * 3], colors[i * 3 + 1], colors[i * 3 + 2]) for i in range(256)]
+            color_cache: Dict[Tuple[int, int, int], int] = {}
+
+            def match_color(r: int, g: int, b: int, a: int) -> int:
+                if a < 128:
+                    return 0
+                rgb = (r, g, b)
+                if rgb in color_cache:
+                    return color_cache[rgb]
+                max_pal = 256 if is_8bpp else 16
+                best_dist = float("inf")
+                best_idx = 0
+                for idx in range(max_pal):
+                    pc = pal_rgb[idx]
+                    dist = (r - pc[0]) ** 2 + (g - pc[1]) ** 2 + (b - pc[2]) ** 2
+                    if dist < best_dist:
+                        best_dist = dist
+                        best_idx = idx
+                color_cache[rgb] = best_idx
+                return best_idx
+
+            img = Image.new("P", orig_img.size, 0)
+            img.putpalette(colors)
+            for y in range(orig_img.height):
+                for x in range(orig_img.width):
+                    r, g, b, a = rgba_img.getpixel((x, y))
+                    img.putpixel((x, y), match_color(r, g, b, a))
+
+    if is_cell_sheet:
+        pad_val = meta.get("padding_byte", 0xCC)
+        tiles_data = bytearray(bytes([pad_val]) * (num_tiles * tile_bytes))
+
+        for comp in meta["components"]:
+            cx = comp["canvas_x"]
+            cy = comp["canvas_y"]
+            min_x = comp["min_x"]
+            min_y = comp["min_y"]
+            for o in comp["oams"]:
+                ox = o["x"] - min_x
+                oy = o["y"] - min_y
+                w = o["w"]
+                h = o["h"]
+                w_t = w // 8
+                h_t = h // 8
+                raw_tile = o["tile"]
+                for ty in range(h_t):
+                    for tx in range(w_t):
+                        t_idx = raw_tile + ty * w_t + tx
+                        if t_idx >= num_tiles:
+                            continue
+                        t_bytes = bytearray(tile_bytes)
+                        for py in range(8):
+                            for px in range(8):
+                                px_x = cx + ox + tx * 8 + px
+                                px_y = cy + oy + ty * 8 + py
+                                val = img.getpixel((px_x, px_y)) if px_x < img.width and px_y < img.height else 0
+                                if is_8bpp:
+                                    t_bytes[py * 8 + px] = val & 0xFF
+                                else:
+                                    val = val & 0x0F
+                                    if px % 2 == 0:
+                                        t_bytes[py * 4 + px // 2] |= val
+                                    else:
+                                        t_bytes[py * 4 + px // 2] |= (val << 4)
+                        tiles_data[t_idx * tile_bytes : (t_idx + 1) * tile_bytes] = t_bytes
+    else:
+        tiles_per_row = meta.get("tiles_per_row", 16)
+        tiles_data = bytearray()
+        for t_idx in range(num_tiles):
+            tx = (t_idx % tiles_per_row) * 8
+            ty = (t_idx // tiles_per_row) * 8
+            t_data = bytearray(tile_bytes)
+            for py in range(8):
+                for px in range(8):
+                    px_x = tx + px
+                    px_y = ty + py
+                    val = img.getpixel((px_x, px_y)) if px_x < img.width and px_y < img.height else 0
+                    if is_8bpp:
+                        t_data[py * 8 + px] = val & 0xFF
+                    else:
+                        val = val & 0x0F
+                        if px % 2 == 0:
+                            t_data[py * 4 + px // 2] |= val
+                        else:
+                            t_data[py * 4 + px // 2] |= (val << 4)
+            tiles_data.extend(t_data)
+
+    header_bytes = bytearray(bytes.fromhex(meta["header_bytes"]))
+    total_size = len(header_bytes) + len(tiles_data)
+    rahc_size = total_size - 0x10
+    char_size = len(tiles_data)
+
+    if len(header_bytes) >= 0x0C:
+        header_bytes[0x08:0x0C] = struct.pack("<I", total_size)
+    if len(header_bytes) >= 0x18:
+        header_bytes[0x14:0x18] = struct.pack("<I", rahc_size)
+    if len(header_bytes) >= 0x2C:
+        header_bytes[0x28:0x2C] = struct.pack("<I", char_size)
+
+    payload = bytes(header_bytes) + bytes(tiles_data)
+    payload = pad_to_alignment(payload, 4)
+
+    comp_layers = meta.get("compression_layers", 0)
+    for _ in range(comp_layers):
+        payload = ndspy.lz10.compress(payload)
+
+    os.makedirs(os.path.dirname(os.path.abspath(out_ncgr_path)), exist_ok=True)
+    with open(out_ncgr_path, "wb") as f:
+        f.write(payload)
+
+    return {
+        "num_tiles": num_tiles,
+        "is_8bpp": is_8bpp,
+        "total_bytes": len(payload),
+    }
+
+
 
 

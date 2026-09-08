@@ -18,7 +18,11 @@ from src.graphics_engine import (
     build_screen,
     dump_all_screens,
     dump_screen,
+    dump_ncgr_sprite,
+    build_ncgr_sprite,
+    find_cell_bank_for_sprite,
     find_palette_for_screen,
+    find_palette_for_sprite,
     find_tiles_for_screen,
 )
 from src.rom_manager import build_rom, unpack_rom, verify_rom_integrity
@@ -324,6 +328,34 @@ def cmd_dump_graphics(args: argparse.Namespace) -> int:
     if args.screen:
         screen_arg = args.screen
         normalized = screen_arg.replace("\\", "/")
+
+        # Check if screen_arg points to an NCGR sprite file
+        ncgr_cand = screen_arg if screen_arg.upper().endswith(".NCGR") else normalized + ".NCGR"
+        if os.path.isfile(ncgr_cand):
+            rom_data = args.rom_data.replace("\\", "/")
+            if ncgr_cand.replace("\\", "/").startswith(rom_data):
+                rel = os.path.relpath(ncgr_cand, rom_data)
+            else:
+                rel = os.path.basename(ncgr_cand)
+            rel_stem = os.path.splitext(rel)[0]
+            out_png = os.path.join(args.out, rel_stem + ".png")
+            out_json = os.path.join(args.out, rel_stem + ".json")
+
+            if getattr(args, "palette", None) and os.path.isfile(args.palette):
+                nclr_path = args.palette
+            else:
+                nclr_path = find_palette_for_sprite(ncgr_cand)
+
+            if getattr(args, "ncer", None) and os.path.isfile(args.ncer):
+                ncer_path = args.ncer
+            else:
+                ncer_path = find_cell_bank_for_sprite(ncgr_cand)
+
+            print(f"Dumping sprite '{ncgr_cand}' -> '{out_png}'...")
+            info = dump_ncgr_sprite(ncgr_cand, nclr_path, out_png, out_json, ncer_path=ncer_path)
+            print(f"Successfully dumped sprite ({info['num_tiles']} tiles).")
+            return 0
+
         for suffix in ("_nsc.bin", "_ncg.bin", "_ncl.bin", ".bin", ".png", ".json"):
             if normalized.endswith(suffix):
                 normalized = normalized[: -len(suffix)]
@@ -331,7 +363,7 @@ def cmd_dump_graphics(args: argparse.Namespace) -> int:
 
         nsc_path = normalized + "_nsc.bin"
         if not os.path.isfile(nsc_path):
-            print(f"Error: Screen file not found: {nsc_path}")
+            print(f"Error: Screen or sprite file not found: {screen_arg}")
             return 1
 
         ncg_path = find_tiles_for_screen(nsc_path)
@@ -364,19 +396,24 @@ def cmd_dump_graphics(args: argparse.Namespace) -> int:
         print(f"Error: NitroFS data directory not found: {args.rom_data}")
         return 1
 
-    category_str = (
-        f" [category: {args.category}]"
-        if args.category
+    target_dir = getattr(args, "directory", None) or getattr(args, "category", None)
+    dir_str = (
+        f" [dir: {target_dir}]"
+        if target_dir
         else (" [ALL]" if args.all else " [default categories]")
     )
-    print(f"Dumping graphics from '{args.rom_data}' -> '{args.out}'{category_str}...")
-    count = dump_all_screens(
+    print(f"Dumping graphics from '{args.rom_data}' -> '{args.out}'{dir_str}...")
+    result = dump_all_screens(
         rom_data_dir=args.rom_data,
         output_image_dir=args.out,
-        category=args.category,
+        category=getattr(args, "category", None),
         dump_all=args.all,
+        directory=getattr(args, "directory", None),
     )
-    print(f"Successfully dumped {count} screens to PNG + JSON.")
+    print(
+        f"Successfully dumped {int(result)} graphics "
+        f"({result.screens} screens, {result.slides} slides, {result.sprites} sprites) to PNG + JSON."
+    )
     return 0
 
 
@@ -427,6 +464,18 @@ def cmd_build_graphics(args: argparse.Namespace) -> int:
         if not rel_stem:
             rel_stem = os.path.splitext(os.path.basename(screen_path))[0]
 
+        import json
+
+        with open(meta_json_path, "r", encoding="utf-8") as f:
+            meta = json.load(f)
+
+        if meta.get("format") == "NCGR":
+            out_ncgr = os.path.join(args.rom_data, rel_stem + ".NCGR")
+            print(f"Building sprite '{screen_path}' -> '{out_ncgr}'...")
+            info = build_ncgr_sprite(screen_path, meta_json_path, out_ncgr)
+            print(f"Successfully rebuilt sprite ({info['num_tiles']} tiles).")
+            return 0
+
         out_ncg = os.path.join(args.rom_data, rel_stem + "_ncg.bin")
         out_ncl = os.path.join(args.rom_data, rel_stem + "_ncl.bin")
         out_nsc = os.path.join(args.rom_data, rel_stem + "_nsc.bin")
@@ -440,13 +489,15 @@ def cmd_build_graphics(args: argparse.Namespace) -> int:
         print(f"Error: Image directory not found: {args.image_dir}")
         return 1
 
-    print(f"Building graphics from '{args.image_dir}' -> '{args.rom_data}'...")
+    dir_str = f" [dir: {args.directory}]" if getattr(args, "directory", None) else ""
+    print(f"Building graphics from '{args.image_dir}' -> '{args.rom_data}'{dir_str}...")
     count = build_all_screens(
         image_dir=args.image_dir,
         meta_dir=args.meta_dir,
         target_rom_data_dir=args.rom_data,
+        sub_dir=getattr(args, "directory", None),
     )
-    print(f"Successfully rebuilt and inserted {count} screens.")
+    print(f"Successfully rebuilt and inserted {count} screens/sprites.")
     return 0
 
 
@@ -697,14 +748,32 @@ def create_parser() -> argparse.ArgumentParser:
         help="Optional path or stem of a specific screen to dump (e.g. 'extracted rom/data/title/bg/kenri')",
     )
     p_dump_gfx.add_argument(
+        "--palette",
+        "--nclr",
+        default=None,
+        help="Optional path to an explicit NCLR or NCL palette file to use for dumping",
+    )
+    p_dump_gfx.add_argument(
+        "--ncer",
+        default=None,
+        help="Optional path to an explicit NCER cell bank file to use for dumping",
+    )
+    p_dump_gfx.add_argument(
+        "--dir",
+        "--directory",
+        dest="directory",
+        default=None,
+        help="Optional directory or subdirectory within rom-data to dump (e.g. 'menu', 'menu/obj', 'title/bg', 'Ending')",
+    )
+    p_dump_gfx.add_argument(
         "--category",
         default=None,
-        help="Optional category subdirectory to dump (e.g. 'title', 'Ending', 'menu')",
+        help=argparse.SUPPRESS,  # Deprecated alias for --dir
     )
     p_dump_gfx.add_argument(
         "--all",
         action="store_true",
-        help="Dump all screens across all directories in the ROM",
+        help="Dump all graphics (screens, slides, sprites) across all directories in the ROM",
     )
 
     # build-graphics & insert-graphics
@@ -738,6 +807,13 @@ def create_parser() -> argparse.ArgumentParser:
             "--screen",
             default=None,
             help="Optional path to a specific PNG file to rebuild",
+        )
+        p_build_gfx.add_argument(
+            "--dir",
+            "--directory",
+            dest="directory",
+            default=None,
+            help="Optional subdirectory within image-dir to rebuild (e.g. 'menu', 'menu/obj')",
         )
 
     return parser
