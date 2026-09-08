@@ -10,6 +10,7 @@ Handles extraction and re-insertion of Nintendo DS background screens:
 
 import json
 import os
+import re
 import struct
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -964,6 +965,26 @@ def find_cell_bank_for_sprite(ncgr_path: str) -> Optional[str]:
     return None
 
 
+def _is_oam_tile_occluded(oams: List[Dict[str, Any]], k: int, tx: int, ty: int) -> bool:
+    """Checks whether the tile at (tx, ty) of oams[k] overlaps with any other OAM in the same cell."""
+    if len(oams) <= 1:
+        return False
+    o_k = oams[k]
+    tx0 = o_k["x"] + tx * 8
+    ty0 = o_k["y"] + ty * 8
+    tx1 = tx0 + 8
+    ty1 = ty0 + 8
+    for j in range(len(oams)):
+        if j == k:
+            continue
+        o_j = oams[j]
+        jx0, jy0 = o_j["x"], o_j["y"]
+        jx1, jy1 = jx0 + o_j["w"], jy0 + o_j["h"]
+        if not (tx1 <= jx0 or jx1 <= tx0 or ty1 <= jy0 or jy1 <= ty0):
+            return True
+    return False
+
+
 def dump_ncgr_sprite(
     ncgr_path: str,
     nclr_path: Optional[str],
@@ -978,6 +999,7 @@ def dump_ncgr_sprite(
     without 1D tile slicing distortions or alignment padding artifacts.
     """
     import json
+    import re
     from PIL import Image
 
     with open(ncgr_path, "rb") as f:
@@ -1007,6 +1029,24 @@ def dump_ncgr_sprite(
     num_tiles = len(tiles_data) // tile_bytes
     if num_tiles == 0:
         raise GraphicsEngineError("No tiles found in NCGR")
+
+    # Detect base_pal (0-indexed integer) from the file name
+    base = os.path.basename(ncgr_path)
+    m_face = re.search(r"face_(\d+)", base)
+    m_win = re.search(r"obj_win_.*_(\d+)", base)
+    m_slv = re.search(r"obj_slv_name_(\d+)", base)
+    m_soroll = re.search(r"obj_soroll_(\d+)", base)
+
+    if m_face:
+        base_pal = int(m_face.group(1))
+    elif m_win:
+        base_pal = max(0, int(m_win.group(1)) - 1)
+    elif m_slv:
+        base_pal = int(m_slv.group(1))
+    elif m_soroll:
+        base_pal = max(0, int(m_soroll.group(1)) - 1)
+    else:
+        base_pal = 0
 
     # Load palette
     if nclr_path and os.path.isfile(nclr_path):
@@ -1045,7 +1085,6 @@ def dump_ncgr_sprite(
                         "<HHI", ncer_decomp[cell_start + i * 8 : cell_start + (i + 1) * 8]
                     )
                     oams = []
-                    has_overlap = False
                     for o in range(n_oam):
                         pos = oam_base + oam_off + o * 6
                         a0, a1, a2 = struct.unpack("<HHH", ncer_decomp[pos : pos + 6])
@@ -1060,64 +1099,69 @@ def dump_ncgr_sprite(
                         w, h = OAM_SHAPES.get(shape, {}).get(size_code, (8, 8))
                         raw_tile = (a2 & 0x3FF) * tile_multiplier
                         pal = (a2 >> 12) & 0xF
-                        oams.append({"x": x, "y": y, "w": w, "h": h, "tile": raw_tile, "pal": pal})
+                        rot = (a0 >> 8) & 1
+                        hflip = (a1 >> 12) & 1 if not rot else 0
+                        vflip = (a1 >> 13) & 1 if not rot else 0
+                        oams.append({
+                            "x": x,
+                            "y": y,
+                            "w": w,
+                            "h": h,
+                            "tile": raw_tile,
+                            "pal": pal,
+                            "rot": rot,
+                            "hflip": hflip,
+                            "vflip": vflip,
+                        })
+                        num_t = (w * h) // 64
+                        covered_tiles.update(range(raw_tile, raw_tile + num_t))
 
-                    for idx1 in range(len(oams)):
-                        for idx2 in range(idx1 + 1, len(oams)):
-                            o1, o2 = oams[idx1], oams[idx2]
-                            if not (
-                                o1["x"] + o1["w"] <= o2["x"]
-                                or o2["x"] + o2["w"] <= o1["x"]
-                                or o1["y"] + o1["h"] <= o2["y"]
-                                or o2["y"] + o2["h"] <= o1["y"]
-                            ):
-                                has_overlap = True
-                                break
+                    if oams:
+                        min_x = min(o["x"] for o in oams)
+                        min_y = min(o["y"] for o in oams)
+                        max_x = max(o["x"] + o["w"] for o in oams)
+                        max_y = max(o["y"] + o["h"] for o in oams)
+                        components.append({
+                            "type": "cell",
+                            "cell_idx": i,
+                            "min_x": min_x,
+                            "min_y": min_y,
+                            "width": max_x - min_x,
+                            "height": max_y - min_y,
+                            "oams": oams,
+                        })
 
-                    if not has_overlap:
-                        cell_tiles = set()
-                        for o in oams:
-                            num_t = (o["w"] * o["h"]) // 64
-                            for t in range(o["tile"], o["tile"] + num_t):
-                                cell_tiles.add(t)
-                        new_tiles = cell_tiles - covered_tiles
-                        if new_tiles:
-                            min_x = min(o["x"] for o in oams)
-                            min_y = min(o["y"] for o in oams)
-                            max_x = max(o["x"] + o["w"] for o in oams)
-                            max_y = max(o["y"] + o["h"] for o in oams)
-                            components.append({
-                                "type": "cell",
-                                "cell_idx": i,
-                                "min_x": min_x,
-                                "min_y": min_y,
-                                "width": max_x - min_x,
-                                "height": max_y - min_y,
-                                "oams": oams,
-                            })
-                            covered_tiles.update(new_tiles)
-                    else:
-                        for o_idx, o in enumerate(oams):
-                            num_t = (o["w"] * o["h"]) // 64
-                            oam_tiles = set(range(o["tile"], o["tile"] + num_t))
-                            new_tiles = oam_tiles - covered_tiles
-                            if new_tiles:
-                                components.append({
-                                    "type": "oam",
-                                    "cell_idx": i,
-                                    "oam_idx": o_idx,
-                                    "min_x": 0,
-                                    "min_y": 0,
-                                    "width": o["w"],
-                                    "height": o["h"],
-                                    "oams": [
-                                        {"x": 0, "y": 0, "w": o["w"], "h": o["h"], "tile": o["tile"], "pal": o["pal"]}
-                                    ],
-                                })
-                                covered_tiles.update(new_tiles)
+                # Extra component for uncovered tiles so all tiles can be edited
+                uncovered_tiles = sorted([t for t in range(num_tiles) if t not in covered_tiles])
+                if uncovered_tiles:
+                    cols = min(len(uncovered_tiles), 16)
+                    rows = (len(uncovered_tiles) + cols - 1) // cols
+                    extra_oams = []
+                    for idx, t in enumerate(uncovered_tiles):
+                        c = idx % cols
+                        r = idx // cols
+                        extra_oams.append({
+                            "x": c * 8,
+                            "y": r * 8,
+                            "w": 8,
+                            "h": 8,
+                            "tile": t,
+                            "pal": 0,
+                            "rot": 0,
+                            "hflip": 0,
+                            "vflip": 0,
+                        })
+                    components.append({
+                        "type": "uncovered",
+                        "cell_idx": -1,
+                        "min_x": 0,
+                        "min_y": 0,
+                        "width": cols * 8,
+                        "height": rows * 8,
+                        "oams": extra_oams,
+                    })
 
                 # Determine padding byte from uncovered tiles if available
-                uncovered_tiles = set(range(num_tiles)) - covered_tiles
                 padding_byte = 0xCC
                 if uncovered_tiles:
                     sample_t = min(uncovered_tiles)
@@ -1147,12 +1191,31 @@ def dump_ncgr_sprite(
                 img = Image.new("P", (sheet_w, sheet_h), 0)
                 img.putpalette(colors)
 
+                # Record occluded tiles before rendering
+                occluded_tiles: Dict[str, str] = {}
+                for comp in components:
+                    oams = comp["oams"]
+                    for k, o in enumerate(oams):
+                        w_t = o["w"] // 8
+                        h_t = o["h"] // 8
+                        for ty in range(h_t):
+                            for tx in range(w_t):
+                                if _is_oam_tile_occluded(oams, k, tx, ty):
+                                    src_tx = (w_t - 1 - tx) if o.get("hflip", 0) else tx
+                                    src_ty = (h_t - 1 - ty) if o.get("vflip", 0) else ty
+                                    t_idx = o["tile"] + src_ty * w_t + src_tx
+                                    if t_idx < num_tiles:
+                                        occluded_tiles[str(t_idx)] = tiles_data[
+                                            t_idx * tile_bytes : (t_idx + 1) * tile_bytes
+                                        ].hex()
+
+                # Render components (reverse order so OAM 0 is drawn on top)
                 for comp in components:
                     cx = comp["canvas_x"]
                     cy = comp["canvas_y"]
                     min_x = comp["min_x"]
                     min_y = comp["min_y"]
-                    for o in comp["oams"]:
+                    for o in reversed(comp["oams"]):
                         ox = o["x"] - min_x
                         oy = o["y"] - min_y
                         w = o["w"]
@@ -1160,23 +1223,38 @@ def dump_ncgr_sprite(
                         w_t = w // 8
                         h_t = h // 8
                         raw_tile = o["tile"]
+                        eff_pal = base_pal + o.get("pal", 0)
                         for ty in range(h_t):
                             for tx in range(w_t):
-                                t_idx = raw_tile + ty * w_t + tx
+                                src_tx = (w_t - 1 - tx) if o.get("hflip", 0) else tx
+                                src_ty = (h_t - 1 - ty) if o.get("vflip", 0) else ty
+                                t_idx = raw_tile + src_ty * w_t + src_tx
                                 if t_idx >= num_tiles:
                                     continue
                                 t_bytes = tiles_data[t_idx * tile_bytes : (t_idx + 1) * tile_bytes]
                                 for py in range(8):
                                     for px in range(8):
+                                        src_px = (7 - px) if o.get("hflip", 0) else px
+                                        src_py = (7 - py) if o.get("vflip", 0) else py
                                         if is_8bpp:
-                                            val = t_bytes[py * 8 + px]
+                                            val = t_bytes[src_py * 8 + src_px]
+                                            if val != 0:
+                                                px_pos = cx + ox + tx * 8 + px
+                                                py_pos = cy + oy + ty * 8 + py
+                                                if 0 <= px_pos < img.width and 0 <= py_pos < img.height:
+                                                    img.putpixel((px_pos, py_pos), val)
                                         else:
-                                            b = t_bytes[py * 4 + px // 2]
-                                            val = (b >> 4) if (px % 2) else (b & 0x0F)
-                                        px_pos = cx + ox + tx * 8 + px
-                                        py_pos = cy + oy + ty * 8 + py
-                                        if 0 <= px_pos < img.width and 0 <= py_pos < img.height:
-                                            img.putpixel((px_pos, py_pos), val)
+                                            b = t_bytes[src_py * 4 + src_px // 2]
+                                            val = (b >> 4) if (src_px % 2) else (b & 0x0F)
+                                            if val != 0:
+                                                if len(colors) // 3 > 16 and eff_pal > 0:
+                                                    pixel_color = eff_pal * 16 + val
+                                                else:
+                                                    pixel_color = val
+                                                px_pos = cx + ox + tx * 8 + px
+                                                py_pos = cy + oy + ty * 8 + py
+                                                if 0 <= px_pos < img.width and 0 <= py_pos < img.height:
+                                                    img.putpixel((px_pos, py_pos), pixel_color)
 
                 os.makedirs(os.path.dirname(os.path.abspath(out_png_path)), exist_ok=True)
                 os.makedirs(os.path.dirname(os.path.abspath(out_json_path)), exist_ok=True)
@@ -1193,6 +1271,8 @@ def dump_ncgr_sprite(
                     "ncgr_path": ncgr_path,
                     "ncer_path": ncer_path,
                     "nclr_path": nclr_path,
+                    "base_palette_index": base_pal,
+                    "occluded_tiles": occluded_tiles,
                     "padding_byte": padding_byte,
                     "components": components,
                     "header_bytes": decomp[:tiles_start].hex(),
@@ -1223,6 +1303,8 @@ def dump_ncgr_sprite(
                 else:
                     byte = t_data[py * 4 + px // 2]
                     val = (byte >> 4) if (px % 2) else (byte & 0x0F)
+                    if len(colors) // 3 > 16 and base_pal > 0 and val != 0:
+                        val = base_pal * 16 + val
                 px_pos = tx + px
                 py_pos = ty + py
                 if 0 <= px_pos < img.width and 0 <= py_pos < img.height:
@@ -1241,6 +1323,7 @@ def dump_ncgr_sprite(
         "compression_layers": comp_layers,
         "ncgr_path": ncgr_path,
         "nclr_path": nclr_path,
+        "base_palette_index": base_pal,
         "header_bytes": decomp[:tiles_start].hex(),
     }
 
@@ -1286,7 +1369,7 @@ def build_ncgr_sprite(
                     v = min(255, i * 255 // (15 if not is_8bpp else 255))
                     colors.extend([v, v, v])
 
-            pal_rgb = [(colors[i * 3], colors[i * 3 + 1], colors[i * 3 + 2]) for i in range(256)]
+            pal_rgb = [(colors[i * 3], colors[i * 3 + 1], colors[i * 3 + 2]) for i in range(len(colors) // 3)]
             color_cache: Dict[Tuple[int, int, int], int] = {}
 
             def match_color(r: int, g: int, b: int, a: int) -> int:
@@ -1295,7 +1378,7 @@ def build_ncgr_sprite(
                 rgb = (r, g, b)
                 if rgb in color_cache:
                     return color_cache[rgb]
-                max_pal = 256 if is_8bpp else 16
+                max_pal = len(pal_rgb) if (is_8bpp or len(pal_rgb) > 16) else 16
                 best_dist = float("inf")
                 best_idx = 0
                 for idx in range(max_pal):
@@ -1317,13 +1400,21 @@ def build_ncgr_sprite(
     if is_cell_sheet:
         pad_val = meta.get("padding_byte", 0xCC)
         tiles_data = bytearray(bytes([pad_val]) * (num_tiles * tile_bytes))
+        occluded_tiles = meta.get("occluded_tiles", {})
+        if occluded_tiles:
+            for t_str, hex_val in occluded_tiles.items():
+                t_idx = int(t_str)
+                tiles_data[t_idx * tile_bytes : (t_idx + 1) * tile_bytes] = bytes.fromhex(hex_val)
+
+        tile_source_priority: Dict[int, int] = {}
 
         for comp in meta["components"]:
             cx = comp["canvas_x"]
             cy = comp["canvas_y"]
             min_x = comp["min_x"]
             min_y = comp["min_y"]
-            for o in comp["oams"]:
+            oams = comp["oams"]
+            for k, o in enumerate(oams):
                 ox = o["x"] - min_x
                 oy = o["y"] - min_y
                 w = o["w"]
@@ -1331,26 +1422,47 @@ def build_ncgr_sprite(
                 w_t = w // 8
                 h_t = h // 8
                 raw_tile = o["tile"]
+                is_flipped = bool(o.get("hflip", 0) or o.get("vflip", 0))
+                prio = 1 if is_flipped else 2
+
                 for ty in range(h_t):
                     for tx in range(w_t):
                         t_idx = raw_tile + ty * w_t + tx
                         if t_idx >= num_tiles:
                             continue
+
+                        canvas_tx = (w_t - 1 - tx) if o.get("hflip", 0) else tx
+                        canvas_ty = (h_t - 1 - ty) if o.get("vflip", 0) else ty
+
+                        if _is_oam_tile_occluded(oams, k, canvas_tx, canvas_ty):
+                            continue
+
+                        if tile_source_priority.get(t_idx, 0) > prio:
+                            continue
+
                         t_bytes = bytearray(tile_bytes)
                         for py in range(8):
                             for px in range(8):
-                                px_x = cx + ox + tx * 8 + px
-                                px_y = cy + oy + ty * 8 + py
-                                val = img.getpixel((px_x, px_y)) if px_x < img.width and px_y < img.height else 0
+                                canvas_px = (7 - px) if o.get("hflip", 0) else px
+                                canvas_py = (7 - py) if o.get("vflip", 0) else py
+                                px_x = cx + ox + canvas_tx * 8 + canvas_px
+                                px_y = cy + oy + canvas_ty * 8 + canvas_py
+                                val = (
+                                    img.getpixel((px_x, px_y))
+                                    if (0 <= px_x < img.width and 0 <= px_y < img.height)
+                                    else 0
+                                )
                                 if is_8bpp:
                                     t_bytes[py * 8 + px] = val & 0xFF
                                 else:
-                                    val = val & 0x0F
+                                    val = val % 16
                                     if px % 2 == 0:
                                         t_bytes[py * 4 + px // 2] |= val
                                     else:
                                         t_bytes[py * 4 + px // 2] |= (val << 4)
+
                         tiles_data[t_idx * tile_bytes : (t_idx + 1) * tile_bytes] = t_bytes
+                        tile_source_priority[t_idx] = prio
     else:
         tiles_per_row = meta.get("tiles_per_row", 16)
         tiles_data = bytearray()

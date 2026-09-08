@@ -439,3 +439,82 @@ def test_cli_dump_graphics_dir_flag(tmp_path):
     assert os.path.isfile(os.path.join(out_dir, "title/bg/kenri.png"))
 
 
+def test_sprite_base_palette_detection(tmp_path):
+    from src.graphics_engine import dump_ncgr_sprite
+
+    face_ncgr = "extracted rom/data/menu/obj/face_01.NCGR"
+    face_nclr = "extracted rom/data/menu/obj/face.NCLR"
+    meta_face = dump_ncgr_sprite(face_ncgr, face_nclr, os.path.join(tmp_path, "face01.png"), os.path.join(tmp_path, "face01.json"))
+    assert meta_face["base_palette_index"] == 1
+
+    bike_ncgr = "extracted rom/data/menu/obj/obj_win_bike_2.NCGR"
+    bike_nclr = "extracted rom/data/menu/obj/win_ncl.bin"
+    meta_bike = dump_ncgr_sprite(bike_ncgr, bike_nclr, os.path.join(tmp_path, "bike.png"), os.path.join(tmp_path, "bike.json"))
+    assert meta_bike["base_palette_index"] == 1
+
+    slv_ncgr = "extracted rom/data/menu/obj/obj_slv_name_01.NCGR"
+    slv_nclr = "extracted rom/data/menu/obj/obj_slv_name.NCLR"
+    meta_slv = dump_ncgr_sprite(slv_ncgr, slv_nclr, os.path.join(tmp_path, "slv.png"), os.path.join(tmp_path, "slv.json"))
+    assert meta_slv["base_palette_index"] == 1
+
+    soroll_ncgr = "extracted rom/data/menu/obj/obj_soroll_2.NCGR"
+    soroll_nclr = "extracted rom/data/menu/obj/win_ncl.bin"
+    meta_soroll = dump_ncgr_sprite(soroll_ncgr, soroll_nclr, os.path.join(tmp_path, "soroll.png"), os.path.join(tmp_path, "soroll.json"))
+    assert meta_soroll["base_palette_index"] == 1
+
+    icon_ncgr = "extracted rom/data/menu/obj/icon.NCGR"
+    icon_nclr = "extracted rom/data/menu/obj/icon.NCLR"
+    meta_icon = dump_ncgr_sprite(icon_ncgr, icon_nclr, os.path.join(tmp_path, "icon.png"), os.path.join(tmp_path, "icon.json"))
+    assert meta_icon["base_palette_index"] == 0
+
+
+def test_sprite_flips_and_roundtrip(tmp_path):
+    from src.graphics_engine import dump_ncgr_sprite, build_ncgr_sprite, decompress_stream
+
+    ncgr = "extracted rom/data/menu/obj/cursor.NCGR"
+    nclr = "extracted rom/data/menu/obj/cursor_1.NCLR"
+    out_png = os.path.join(tmp_path, "cursor.png")
+    out_json = os.path.join(tmp_path, "cursor.json")
+    reb_ncgr = os.path.join(tmp_path, "reb_cursor.NCGR")
+
+    meta = dump_ncgr_sprite(ncgr, nclr, out_png, out_json)
+    assert meta["is_cell_sheet"] is True
+    found_flip = any(
+        o.get("hflip", 0) or o.get("vflip", 0)
+        for comp in meta["components"]
+        for o in comp["oams"]
+    )
+    assert found_flip is True
+
+    build_ncgr_sprite(out_png, out_json, reb_ncgr)
+    orig_decomp, _ = decompress_stream(open(ncgr, "rb").read())
+    reb_decomp, _ = decompress_stream(open(reb_ncgr, "rb").read())
+    assert orig_decomp == reb_decomp
+
+
+def test_sprite_unified_cells_and_occluded_tiles(tmp_path):
+    from src.graphics_engine import dump_ncgr_sprite, build_ncgr_sprite, decompress_stream
+
+    ncgr = "extracted rom/data/menu/obj/icon.NCGR"
+    nclr = "extracted rom/data/menu/obj/icon.NCLR"
+    out_png = os.path.join(tmp_path, "icon.png")
+    out_json = os.path.join(tmp_path, "icon.json")
+
+    meta = dump_ncgr_sprite(ncgr, nclr, out_png, out_json)
+    cell_50 = next((c for c in meta["components"] if c.get("cell_idx") == 50), None)
+    assert cell_50 is not None
+    assert cell_50["type"] == "cell"
+    assert len(cell_50["oams"]) == 2
+
+    assert "occluded_tiles" in meta
+    assert "212" in meta["occluded_tiles"]
+    assert "214" in meta["occluded_tiles"]
+
+    reb_ncgr = os.path.join(tmp_path, "reb_icon.NCGR")
+    build_ncgr_sprite(out_png, out_json, reb_ncgr)
+    orig_decomp, _ = decompress_stream(open(ncgr, "rb").read())
+    reb_decomp, _ = decompress_stream(open(reb_ncgr, "rb").read())
+    assert orig_decomp == reb_decomp
+
+
+
