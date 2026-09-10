@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chrono Trigger DS — Title Sprite Sheet & OAM Visualizer</title>
+<style>
+  :root {
+    --bg-dark: #0d1117;
+    --bg-panel: #161b22;
+    --bg-card: #21262d;
+    --bg-card-hover: #30363d;
+    --border: #30363d;
+    --border-accent: #58a6ff;
+    --text: #c9d1d9;
+    --text-bright: #ffffff;
+    --text-muted: #8b949e;
+    --accent-cyan: #00e5ff;
+    --accent-red: #ff1744;
+    --accent-yellow: #ffd600;
+    --accent-green: #3fb950;
+    --accent-blue: #58a6ff;
+    --font-mono: 'Consolas', 'Fira Code', 'Roboto Mono', monospace;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: var(--bg-dark);
+    color: var(--text);
+    font-family: var(--font-sans);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* HEADER */
+  header {
+    background-color: var(--bg-panel);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .header-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-bright);
+    letter-spacing: 0.5px;
+  }
+
+  .header-tag {
+    background: #238636;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 12px;
+  }
+
+  .header-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .btn-group {
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .btn {
+    background: var(--bg-card);
+    border: none;
+    color: var(--text);
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    border-right: 1px solid var(--border);
+  }
+
+  .btn:last-child {
+    border-right: none;
+  }
+
+  .btn:hover {
+    background: var(--bg-card-hover);
+    color: var(--text-bright);
+  }
+
+  .btn.active {
+    background: #1f6feb;
+    color: #fff;
+  }
+
+  .coord-readout {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 4px 10px;
+    border-radius: 6px;
+    color: var(--accent-cyan);
+  }
+
+  /* MAIN LAYOUT */
+  .main-container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* LEFT SIDEBAR */
+  .sidebar-left {
+    width: 320px;
+    background-color: var(--bg-panel);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+
+  .panel-section {
+    padding: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-title {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* TOGGLE SWITCHES */
+  .toggle-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .toggle-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+    padding: 4px 0;
+  }
+
+  .toggle-item input {
+    cursor: pointer;
+    accent-color: #1f6feb;
+  }
+
+  /* CELL LIST */
+  .cell-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .cell-card {
+    background: var(--bg-card);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .cell-card:hover {
+    background: var(--bg-card-hover);
+  }
+
+  .cell-card.selected {
+    border-color: var(--border-accent);
+    background: #192330;
+  }
+
+  .cell-card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .cell-badge {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+
+  .cell-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-bright);
+    flex: 1;
+  }
+
+  .cell-id-tag {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  .cell-details {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-muted);
+    display: flex;
+    gap: 10px;
+  }
+
+  /* CRITICAL WARNING CARD */
+  .warning-box {
+    background: #271015;
+    border: 1px solid var(--accent-red);
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  .warning-title {
+    color: var(--accent-red);
+    font-weight: 700;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .warning-box ul {
+    padding-left: 16px;
+    color: #f0c5ca;
+  }
+
+  .warning-box li {
+    margin-bottom: 4px;
+  }
+
+  /* CENTER CANVAS AREA */
+  .canvas-viewport {
+    flex: 1;
+    position: relative;
+    background: #090c10;
+    overflow: hidden;
+    cursor: grab;
+  }
+
+  .canvas-viewport.dragging {
+    cursor: grabbing;
+  }
+
+  #sheetCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
+
+  /* CANVAS FLOATING TOOLBAR */
+  .canvas-toolbar {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    background: rgba(22, 27, 34, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+
+  /* TOOLTIP */
+  .floating-tooltip {
+    position: absolute;
+    background: rgba(13, 17, 23, 0.95);
+    border: 1px solid var(--accent-cyan);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    line-height: 1.4;
+    color: #fff;
+    pointer-events: none;
+    z-index: 100;
+    display: none;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.6);
+  }
+
+  /* RIGHT SIDEBAR (INSPECTOR & NDS PREVIEW) */
+  .sidebar-right {
+    width: 360px;
+    background-color: var(--bg-panel);
+    border-left: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+
+  /* NDS PREVIEW FRAME */
+  .nds-frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nds-screen-shell {
+    background: #2a2e39;
+    border: 3px solid #1c202a;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.6), 0 4px 12px rgba(0,0,0,0.5);
+  }
+
+  .nds-screen {
+    width: 256px;
+    height: 192px;
+    background: #000;
+    position: relative;
+    border: 1px solid #111;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    overflow: hidden;
+  }
+
+  #ndsCanvas {
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
+
+  .nds-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  /* PROPERTY TABLE */
+  .prop-table {
+    width: 100%;
+    font-size: 11px;
+    border-collapse: collapse;
+    font-family: var(--font-mono);
+  }
+
+  .prop-table tr {
+    border-bottom: 1px solid #262c36;
+  }
+
+  .prop-table td {
+    padding: 6px 4px;
+  }
+
+  .prop-name {
+    color: var(--text-muted);
+    width: 42%;
+  }
+
+  .prop-val {
+    color: var(--text-bright);
+    font-weight: 600;
+  }
+
+  .badge-highlight {
+    background: rgba(88, 166, 255, 0.15);
+    color: var(--accent-blue);
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <div class="header-title">Chrono Trigger DS — Title Sprite Sheet & OAM Visualizer</div>
+    <div class="header-tag">obj_logo_new</div>
+  </div>
+
+  <div class="header-controls">
+    <div class="btn-group">
+      <button class="btn active" id="btnSourceTrans">Translated (RU)</button>
+      <button class="btn" id="btnSourceOrig">Original (EN/FR)</button>
+    </div>
+
+    <div class="btn-group">
+      <button class="btn" id="btnZoom1x">1x</button>
+      <button class="btn" id="btnZoom2x">2x</button>
+      <button class="btn active" id="btnZoom4x">4x</button>
+      <button class="btn" id="btnZoom8x">8x</button>
+      <button class="btn" id="btnZoomFit">Fit</button>
+    </div>
+
+    <div class="coord-readout" id="coordReadout">X: --, Y: --</div>
+  </div>
+</header>
+
+<div class="main-container">
+  <!-- LEFT SIDEBAR -->
+  <aside class="sidebar-left">
+    <div class="panel-section">
+      <div class="section-title">Overlay Layers</div>
+      <div class="toggle-grid">
+        <label class="toggle-item">
+          <span>Cell Bounding Boxes</span>
+          <input type="checkbox" id="chkCells" checked>
+        </label>
+        <label class="toggle-item">
+          <span>OAM Boxes (Dashed)</span>
+          <input type="checkbox" id="chkOams" checked>
+        </label>
+        <label class="toggle-item">
+          <span>Seam (x=48) & 4px Gap</span>
+          <input type="checkbox" id="chkSeamGap" checked>
+        </label>
+        <label class="toggle-item">
+          <span>8x8 Tile Grid</span>
+          <input type="checkbox" id="chkGrid" checked>
+        </label>
+        <label class="toggle-item">
+          <span>Labels & Tile Tags</span>
+          <input type="checkbox" id="chkLabels" checked>
+        </label>
+      </div>
+    </div>
+
+    <div class="panel-section" style="flex: 1;">
+      <div class="section-title">
+        <span>Cells (NCER Components)</span>
+        <span id="cellCountTag" style="font-weight: 400;">10 Cells</span>
+      </div>
+      <div class="cell-list" id="cellListContainer">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <div class="warning-box">
+        <div class="warning-title">&#9888; CRITICAL: THE SEAM & GAP RULE</div>
+        <ul>
+          <li><strong>Shared ROM Tiles:</strong> Cell 0 & 3 share tiles 0..36. Cell 1 & 4 share tiles 40..88.</li>
+          <li><strong>Seam at x=48:</strong> Left word width &le; 48px (x=0..47). Seam at x=48 MUST be empty.</li>
+          <li><strong>4px Hardware Gap:</strong> Cell 3 & 4 shift the Right OAM +4px (gap at x=48..52). Any word crossing x=48 gets torn apart!</li>
+          <li><strong>No OAM in Gap:</strong> Pixels drawn in x=48..52 vanish in ROM.</li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+  <!-- CENTER CANVAS VIEWPORT -->
+  <main class="canvas-viewport" id="viewport">
+    <canvas id="sheetCanvas"></canvas>
+
+    <div class="canvas-toolbar">
+      <button class="btn" id="btnZoomIn" title="Zoom In (+)">+</button>
+      <button class="btn" id="btnZoomOut" title="Zoom Out (-)">-</button>
+      <button class="btn" id="btnResetPan" title="Center Sheet">Reset View</button>
+      <span style="font-size: 11px; color: var(--text-muted); margin-left: 6px;">Pan: Drag mouse | Zoom: Scroll</span>
+    </div>
+
+    <div class="floating-tooltip" id="tooltip"></div>
+  </main>
+
+  <!-- RIGHT SIDEBAR: NDS SCREEN PREVIEW & INSPECTOR -->
+  <aside class="sidebar-right">
+    <div class="panel-section">
+      <div class="section-title">Live NDS Screen Preview</div>
+      <div class="nds-frame-container">
+        <div class="nds-screen-shell">
+          <div class="nds-screen" id="ndsScreenShell">
+            <canvas id="ndsCanvas" width="256" height="192"></canvas>
+          </div>
+        </div>
+
+        <div class="nds-controls">
+          <button class="btn" id="btnCompareShift" style="flex: 1;">Compare Selection Shift</button>
+          <button class="btn" id="btnBlinkToggle" title="Auto-alternate between Normal and Selected">Blink: Off</button>
+        </div>
+        <div style="font-size: 11px; color: var(--text-muted); width: 100%; text-align: center;">
+          Reconstructs current cell on native 256x192 NDS screen
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <div class="section-title">Hovered OAM Inspector</div>
+      <table class="prop-table" id="oamPropTable">
+        <tr><td class="prop-name">Cell ID:</td><td class="prop-val" id="inspOamCell">--</td></tr>
+        <tr><td class="prop-name">OAM Index:</td><td class="prop-val" id="inspOamIdx">--</td></tr>
+        <tr><td class="prop-name">Rel Position:</td><td class="prop-val" id="inspOamRelPos">--</td></tr>
+        <tr><td class="prop-name">Dimensions:</td><td class="prop-val" id="inspOamSize">--</td></tr>
+        <tr><td class="prop-name">Sheet Canvas:</td><td class="prop-val" id="inspOamCanvasPos">--</td></tr>
+        <tr><td class="prop-name">NCGR Start Tile:</td><td class="prop-val" id="inspOamTile">--</td></tr>
+        <tr><td class="prop-name">Tile Count:</td><td class="prop-val" id="inspOamTileCount">--</td></tr>
+        <tr><td class="prop-name">Palette Index:</td><td class="prop-val" id="inspOamPal">--</td></tr>
+      </table>
+    </div>
+
+    <div class="panel-section">
+      <div class="section-title">Selected Cell Metadata</div>
+      <table class="prop-table" id="cellPropTable">
+        <tr><td class="prop-name">Cell ID:</td><td class="prop-val" id="inspCellId">--</td></tr>
+        <tr><td class="prop-name">Name / Role:</td><td class="prop-val" id="inspCellName">--</td></tr>
+        <tr><td class="prop-name">Sheet Pos:</td><td class="prop-val" id="inspCellPos">--</td></tr>
+        <tr><td class="prop-name">Size:</td><td class="prop-val" id="inspCellSize">--</td></tr>
+        <tr><td class="prop-name">OAM Count:</td><td class="prop-val" id="inspCellOams">--</td></tr>
+        <tr><td class="prop-name">Tile Range:</td><td class="prop-val" id="inspCellTiles">--</td></tr>
+        <tr><td class="prop-name">Min Bounds:</td><td class="prop-val" id="inspCellMin">--</td></tr>
+      </table>
+    </div>
+  </aside>
+</div>
+
+<script>
+  // Embedded Data
+  const TRANSLATED_B64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAD6CAMAAAB50mmfAAADAFBMVEU5OTkYICApKTk5QUpKSlpaWmJiYnNqc4N7e5SLlJyUnKysrLS9vc3Nzd729v////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9N7ciAAAWD0lEQVR4nO1di3bjKgzkIYRekP//23sEtuO0226e297Ws9vUIbGFxxhIMyNCOHDgwIEDBw4c+PUQZlYVuJqIgpD9d8Zy/U7h9jgzmO92x343oKla672Xa3fIOY/aEEwiXhVnQJretd8tIczMeu927Q4pQ/XfBAivjDNQx25jv1vYvgXND+4P6coduBKNJi2qr4wzAL6H3wqvI0B773RLG9NBgHYWtVfGOe/mza697B6g3lviGyo2W0DrJMqvjHPeLYQQtb2qBVDvLS4VQ2WvHna1LtoxgEkYD2De3NWfChH5hSFRCdj9omLAbuQvBm3LRgB9LM4FAQFq9GdMNIlAbV27PokAbL038AqpQQjSq3SjXrzEz1UDjoboW37zkzcAdgKkOzhIb0xVnYB1g/GxOJcEzCeaAQcDNMLe2KN+SEBv2lqL0ESsOffWpds42W5j209QgjSP6ARo78A8CLCAkwCVquIEzA2eg+X9cc67nc8fKlJ1BrQTtucQgL23Kq1zFDUxv0JBRsVGV2e9azffaKH5VhBiap3SGAW80kGrV9xYTJ2AuVFqeSzO291KoMpSRQV9B8hPIoB61wQ5p+hheN6j3Tvf4nG0V+0taG89qG8FYaq9Q6is3m5bCJj8N5EZOwFzI3s9H4lz3o1aaxQ9ohlQMw6Be62dd3fHQwS0OTRL71z8hp6Dj7Pr9clrxZRWArBTCui3wFpV7a1m75S0LRtZ62NxzruxdqWYAkqjWK3xaBi905MJ0N4lzv7Hu/bRHXsXtFTMehkVYyboEN8RkKM3SW3LBnxIwJVxzrsVbl0hhuoEgDWnrHpTewoB2LutFVOINgez0bUHb4zV70v/oZ7GvclCWXIIwOIEzNtQe0vRK6Rt2ShKj8U57xah9YYQSBvFbDZPWzo9qxO0tWJWqw/ygb1DGp1T63mtWO7zdEVqwhQC0AUBlhcClg34hICr4uwISM6TOgHoBIwXxWcQzyag+ywvj89gfQxUY6qxNM3gFfM+QGqEGAK+IYAyN78Flo38CQFXxdkRAL01s4UAnQSY95pPIcCa+STLr0ejGJMHJe3GHYJ0dK7b+JmPQdk7pIWAMQyO62HGfneqLRv5zUT55ji73dAJaAHZKILOyWKnLfhjKMzKI15tJsiSAvVam/gMrXqH4w/+w/OpMo8ToUsCiITNCVg2QOSxOPvdtJm2AKySSAez/uHoOQQ0Jh4z8wDWiCjHIL2AEY45ehvl82c+ZdLRlJnYAo0Z3bgj5+HMGIBNAgk/Fme/m4oWDZnY/FP4aC0UtuCPoVYqef6Ni8wqEgYyFK6g4EWjfG7Mx1TzICATlVBl3unotRq0mFY2xSBcH4uz362SRgoZqOZCmr0HKP7XEnoGAYhQRl0TVKYqEEqFWiDU5EWjfG4sT3MeFzLnnAMuE16oy8wfC1EpCIHXknvj7HerLUcIEQAysMRA5n3oGvwxABHJaHExIRS/wVNOkELI0YtG+dyYj4jzT2GlFAxQZs+e8uzgAlFBYkxhaSf3x9nv5h8cUogJAMjHkkJ+6mvwx5DAMbczVpwnkpbziXl5GBvjMed5sin7Ka5vXJEhR/TTevth6OY4+92WE425YPXtNF9/G/zAgf8bTqdTCOP/aTybZedyfzJ+zTct/38QTjFGP7lTPEV/Nk7WS5bycH5lvu908qc/B6fTcnLjvE6nsDwurWCe+rI9/w0+fg5O42rPf+cWEJef7dXtPScvDj8IJ7/mfsXjrgWMrd1Jr6+P3z+MgBD9dKL/Hxvj5OaWlyz/1te3/wd+Dk6jh1va/Bjuxsb8t3tpGfzW3z8Hp9nDzXFv9vXe0e+7xaVkvn/9/WNwmmPeHOvGia6D3jYwLo1k3vrr7x+D07zEy8/o+ZcBcN8Cxs+PPP8wx7h13BvTnouZwWgB46WlT/hpt0CYY9w67o1B7zwALi/Pl7a3HThw4MCBAwcOHDjwKsgrJPp3HfROb8KjaK+Q6N910Du9CY9C7pL2v+Kgd3oTHkW7S9r/ioPe6U14FHqftP8FB73Tm/Ao6D5p/wsOeqc34VHQTtp/IdF3HetZ2+8a9yEV30quPejVfoE7vQnPIACntH8n0Q88Bd2btn+ItHjUaCm58qDX+wXu9CY8gYA+pf17iX7QLlPSv2n7/Yd2av/rDnqDX+BOb8KjwE2jv5fouzbT67Bp+/3J8DJtJdcd9Aa/wJ3ehEdBm7T/UqJvi5r1rO2X7sP0VnLdQW/wC9zpTXgCAW0ZrXcSfem8ynk3bf+Q651LrjvoDX6BO70JTySgniX6U9He9tp+Hg3gXHLdQW/wC9zpTXgUuAm79xJ97WUq2nfa/jkIbSXXHfQGv8Cd3oTnEoCLRN86zDrutP1zuNpKriXgar/And6EpxOgLtZvfcTea/tt3gNbybUEXO0XuNOb8DABtkr7dxJ9Wcbrvbbfgs0nS8l1B73BL3CnN+FRlE3av5Poj6bqddi0/ZMNnk/2Gv+/HPQGv8Cd3oRH0TZp/06iP0Y8V+hv2v4h158z+aXkuoPe4Be405vwKOom7d9J9EVhKvQ3bf+Q63Or55LrDnqDX+BOb8LDBOAq7d9J9JH8rq3lrO0fcv0iu5LrDnqDX+BOb8KjgE3av5Pow6rQ37T9U66/L7nuoDf4Be70JjyKtJP2bxL95aW40/Zvcv2t5MqDXu0XuNObcODAgQMHDhw4cOC1YoDyjFx/L9Ei/CMxgDwj199LtAj/SAxQn5Hr7yVahH8kBoBn5Pp7iRbhX4kB9Am5/l6iRfhXYgB6Qq6/l2gRbq5BvD3P37rro7n+XqJFuJkAvD3P356AR3L9vUSLcCsB/Y48f+uuj+b6e4kW4SbgfXn+npXr7yVahJtA9+X5e1auv5doEW4loN2R5+9Zuf5eokW4kwC9Jc/fs3L9vUSLcBPwvjx/z8r19xItwt0E2PV5/p6V6+8lWoS7CejX5/l7Vq6/l2gRbiPA7srz96xcfy/RItyEcl+ev2fl+nuJFuEmtPvy/D0r199LtAg3od6X5+9Zuf5eokW4jQC8K8/fs3L9vUSLcBPgvjx/z8r19xItwk1I9+X5e1auv5doEQ4ceBynI9NfPDL9nY5Mf6cj09/pyPQXjkx/vxOnI9Pf6cj0dzoy/cUj09/pyPQXj0x/Bw4cOHDgwIEDPxOwy9S2fUdxRtl9VbHbydMaXCCPb8ReHuYaVL5lL2iqvJpxm+qbr/SqeAqLt0Bed9kg5dOvQ58VJgT4m0+WzW7R3YKK9hknqzL7F7NnFKr83poOFfDtt3OYCz4QptTrwgRixpTfN6ENWTznztvCj1snuGK/jTiozcy/69y9Wqbo483hgN5d7vR5c/1LGGC6LkxlRKqVP25tqVp7e6zSSv5UqNZm2kIX7l82usz2BwIS6vv2nj5vmZ+HIeOrwmRCUhX+JGlIwvaWADDAjwlAV+uSf8et2oZS9nLfPxAQ8h8I+HM3dm2YxnZNmOJ55UT1s6wp+T0BXD9R9IPXzF1LYK6GflOz9EYiv5a+b5sin6oW/hLmjwS8D1M8o1KWTwlI724B6LaqMT+oWTd0gedSM5a19yXBSQAonxtRdWEQXZYWKuDd2GI5WLqdXd/zlzAm9nEYPodhl2GRTAJWfwFTAKbiz11KcM4zGMg8hBPwaQto3e9O9rZpEMSg1FE1FqxDoQkN4jaOk5Z5c+5LoUBxnXBjGh08eocHO94/C6NYmxPwQRiBtJYuBGB1AnjxF3BlZSArCpmzE7DkGQzcCCgHaNaW6/IRAZ18oDKvWTEUMWMntBB7C0iGnuB2HqIaVPKaXZRm4uKqLhe8DE8HZ3+WrgljxfVh9lEY3pVOAoDI6VXX2CkVZGMia1THGJm2PIPBUJUxNWuSVz3mHwloXQJ6UqJuUF3+3LrWxEhujZNADbBWmEMJl+q5zeiyNBSuGjyrz7AcVPIzo11f/3EY8zDeAj4Iw7vSScCkHMmaOzyw1mbjXzNVGgQseQbVXNBOTRtV+YQAc500q4y26aL4wt0EqgiOPkBJTBYvh89EShGhy1K/CXV4SobloFrzS7vr7D8Ow6qITe2DMOIdP9X6joAqzf0FyhmaVjLl4oP2IGDmGRz9Tm8orQl9SEDpXmnzbojHpbHOkVoXYONcnAAn2hjnbBWVEviluSgNKJOAaTmQoRZtHa4IUz2MqX0QRkVNefESXbQAXfwFGZqRSCuspjYImHkGU3NTpvPcjD4cpbE3q62RkVHrhuI1K61bEasuXpbQyDjW6ipI75wwZr80F6WhCnuKw8VyIN4MxJNB/j0MNw/jBJBxfhdGSTnVKnsCfNKV2QkAawrYVNxu4YOJ5rTlGYzqd1mD0pt+/Ami9mZo3ZS1es3UDTzQWkc1jHESwDWCS0dH31viGKAvSj2d1cjxOC0H+o6Aj8NI8zCDgD+F0Vk6/dVrJygYitjiLyi1qYI0VlgJmHkGodUsveXS2yfmVvT5ibr5hdeaVa9ZmwSIE8ACOcNQQAbxmo0WsC8NJOIELJaDQcB0YP09jBPgqaP/HEaZz6WTgFqQBgHTX+AEWJImmowV0ppnMGmt0poTYEs7/ROgN8k8Gme2bmWr2bgFBgHKKgVptiIWjNnz/V6U+uRktIBpOVDPgGxDRXplGO8EPwgjtJWWkTcN/UPSmQCoTVt0AqLxaAEzzyCYO4z+TkAziWSNrURrBv6xNZbWGoiKzzoliBCltHzaYWFkZrosnQRw69Ny4N6DoLIn4C9hxMYB80WYMQrsw5ShmkafCQJPj5FZ9mFwIYAkpzXPILferbeWSrNPboFiqrFqY4PojYe0qV8qrxX5hy8JxAi1Kg25KjOVAkyXpYF84N0sBzw2aEfAJ2GEqJLPA96EqRXHPGCWjjPwKUEu5C0gVzFJPtylQQCZaFTiDGueQW2tR+8QSvvE3ly6j6SFmzEktZYri7Foo0RacybVWCpmKDGN27BySakQp4tSJ0DOloPqGwjnzzyfhZFagFSXA6aZQK6ylwotpXmGyVgQS4JCISGxEvsNhGItVhWN7PyseQb9Nss+8uTuo+MHBLSmBYp7BTA5tyVXIqz+JxtgqQWFYkbAFEd+1zEPBahU0kWpE8Bny4HHR6AzAR+HSR6mstA4YE5bGPa/e9S1dE4qU8k5+bIL6B/8q/eGkgOSWgQSjVQx0Zpn0O84FNOcSPjDJSoUISNlNIOUcy6UoGAp5J8qChFmSHko+XOdbTMVgFIgX5Z6Pgk+Ww5yZZP5UeyvYTJWqgAlXRww++v70nECCYp/MBjz2pih+KVIoRSUmAE5FqAka57BCKJUCSiBX4yPbgEk5pqK1ZRgpOfzXzJ6zVSYiKnEBCgys1uGCIXQ2+VFaajjI+pqOYhQPcPKmYBPwiQoTFgRLg6YMhAWmmGQ1j/0plJKlTmtjblU73BCylxihgpekmjLM5h8jiHir+HHnUAamv/kifl8c9Ro/fSZ/PpDiv4Xv9UY4MxnT/B3WTp65rPlIGaskHYrg3wSJmHJ78OkESa9KfXUgiO54KzJsumVyX6Xp5xi3PIMhlwg+l+RYy5rFsaXAYdh6vcikcrtWTBesYboul7xv0XyP97AXXV9W/B260+vfnrEq974XAihf46/+Wus3XrSc3npUTCXml5OZVl6ei3f3rs9PS9Gu+w2Hv8tBcVM6/qh6BZs12tbbnvW/PTmpf2z83uX13Yvnd/yb1EqZLgnset7Atblx9eXtjXJ1zderE2+Mnbe42sIAKm13JMHaPYB76/q/pTftodll+1Nu2N8GQEByidfvX2G7ebd3wLzKu/6gHN7+NN714ay7x7Cb8Ap/HKcvroCB77wUv+8RehvxK6L/Hk4LbPCravfmZfG69tp/9D+/nSe5LyZKbyZFixPfhxO62x+neN9QsBPPP+wn9ZeNIj3BPzI8w+7yeHaAi4mhGcC/vmnvgMHDhw4cODAgR8HQPzwy+PfAHDxNaCbM0r/w/db4F+0/u0Ymx/m/wdgV+CP1b2D1ffieJD8KQHjq2rFJy/7+Q9RxgIPTV3jTGXIsPcAHekNPwQXXxa2Aj530cd/iGrdM7Z3X8kT8N03nPCXld0RJfoX8VPL+39Ebd1SsUFA+IMb6y9eIPUcmJ/asr47qi/l4LJWJwCbQmgWXLXFU6zE49q6PpG9m3Sl/iinEncEFBm9YFXVIXXdDCOLhSQzF/jYtPCVqCOPurjJBJsSg7kBo7idw1f9Nh66P0By+U8ggMFAYch+8wdhwRSEPA1rQC21FIOzYWRZtSJzN62eOP67EoAuygSlquAGjFrdjIG+qHWtxCEjYyGW4gqpsY4G1OqJToWlZk4EhSAULa5PM9gMI8uqFQkasRsawrclIA0xalVq4NJbUXX3RUAeMs4EICwsouJC0bEYNjOXWISkQE1ILvPHYWFhN7swDsPIumqFCImr9sO3JWCiNFe3us+XCptyIjV1Q0OISlBEMSN7VxCGCI5idrdcqQmkanI/FGYld0M0HoaRddUK/53m6gPfm4DOk4CGbu6RxGqUxWqIxsVdC+gCTifAbxKKrg3iAgnUF8lmc8fOcI604RqBddUKX0okpWdmxH46ATDMboMAbOo0GHE2thqHCNao5iqlZh5THhR0AoanIcZQFgJqSsorAb3DumpFdv08pm85XS5LJ2jkZLjC3eX3KSSrToBCzN4/GlGsghR5uMQ5Z2SKbu70BeJReRIQky6+gYWAZdUKXznpumzjX0QAjwUVcCPAl0moDMaSc0b0AYJjlUqRAUOsOSPRIMBpCEXHYGkUk9vNBwHe+Z1XrXAGvqeSsoyJkHvwxqdB2xOQdQjGITkBshEQR1oB3hEACwEck7aVgOYErKtWBJTevuVEqFjTlFYCfB7n/gMnADmzCHo2tXGGCwEZIxGzN4EYkrg22v2g7ARoBSfArTHDMLKtWuFy8OEp/X4AMXEBtn8QRvczrAQocnYNOLiA3ecBsXClSBljJeKYJwHkU2G3OY9hUHUSsBhGVgtJbQYJR8P6dgDyuQ5gFV//USt4h+g1Zay5sABixuQOjwhUKWKGiJU4DQLcpBJjYBXMwzk2CNgMI6uFpBiTi9fDNwRUdz94n+6+Hpf4uwHDZ7sVU0YuOSO4y4MjlEqxZIje/AtSzWnYacZgSDnk6haApmfDyGohcX8IiXzLWyBjLRkQLXtfjlCSGzC8cwBKKZcK7kBPAG5fzDjcAglwOHlc0V/c/uEeGIiREFGang0jq4UkESO6leQ7Itfq65xl/4jnHwJT9rUs/I8c5OaGUqqbHHJNKUFJzok/RSqI2bdKybEAQIkhUnU32Nkwsq5akYgS8rJ6w7dDHvCtyrWC2y78yfyVoAzzRXr7MLBshZjc2hFCdGec7g0ji4VkWE++6fk/FXEMg78Y0acV4RcjyS8nIIt7bX8x0nB2/2JETwcQfjNivHKJpQMHDhw4cODAgQNfC/tifPHph4MAO1rA1+Kr74Dwxed/EBC+Gna0gK/Ft2sB4bfBDgIuEX4b7CDgEuG3wQ4CLhF+G+y3E3DgwIEDBw4cCL8N/wGHrOZIEztVBQAAAABJRU5ErkJggg==";
+  const ORIGINAL_B64 = "data:image/png;base64,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";
+  const METADATA = {"format": "NCGR", "is_cell_sheet": true, "is_8bpp": false, "num_tiles": 316, "sheet_width": 256, "sheet_height": 250, "compression_layers": 1, "ncgr_path": "D:\\Workspace\\Programing\\translate\\CTDS\\extracted rom\\data\\title\\obj\\obj_logo_new.NCGR", "ncer_path": "D:\\Workspace\\Programing\\translate\\CTDS\\extracted rom\\data\\title\\obj\\obj_logo_new.NCER", "nclr_path": "D:\\Workspace\\Programing\\translate\\CTDS\\extracted rom\\data\\title\\obj\\obj_logo_new.NCLR", "base_palette_index": 0, "occluded_tiles": {"180": "0000f0000000f000000000000000000000000000000000000000000000000000", "188": "000000000000ff000000ff00ff0f00000ff000000ff000000ff000000ff00000", "189": "000000000000000000f00f00000ff0000000f00000000f0000f0000000ffff00"}, "padding_byte": 204, "components": [{"type": "cell", "cell_idx": 0, "min_x": 0, "min_y": 0, "width": 96, "height": 24, "oams": [{"x": 48, "y": 0, "w": 32, "h": 16, "tile": 0, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 80, "y": 0, "w": 16, "h": 16, "tile": 8, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 48, "y": 16, "w": 32, "h": 8, "tile": 12, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 80, "y": 16, "w": 16, "h": 8, "tile": 16, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 0, "y": 0, "w": 32, "h": 16, "tile": 20, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 32, "y": 0, "w": 16, "h": 16, "tile": 28, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 0, "y": 16, "w": 32, "h": 8, "tile": 32, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 32, "y": 16, "w": 16, "h": 8, "tile": 36, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}], "canvas_x": 8, "canvas_y": 8}, {"type": "cell", "cell_idx": 1, "min_x": 0, "min_y": 0, "width": 96, "height": 40, "oams": [{"x": 48, "y": 0, "w": 32, "h": 16, "tile": 40, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 80, "y": 0, "w": 16, "h": 16, "tile": 48, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 48, "y": 16, "w": 32, "h": 8, "tile": 52, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 80, "y": 16, "w": 16, "h": 8, "tile": 56, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 0, "y": 0, "w": 32, "h": 16, "tile": 60, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 32, "y": 0, "w": 16, "h": 16, "tile": 68, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 0, "y": 16, "w": 32, "h": 8, "tile": 72, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 32, "y": 16, "w": 16, "h": 8, "tile": 76, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 16, "y": 24, "w": 32, "h": 16, "tile": 80, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 48, "y": 24, "w": 32, "h": 16, "tile": 88, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}], "canvas_x": 112, "canvas_y": 8}, {"type": "cell", "cell_idx": 2, "min_x": 0, "min_y": 0, "width": 96, "height": 24, "oams": [{"x": 0, "y": 0, "w": 32, "h": 16, "tile": 96, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 32, "y": 0, "w": 32, "h": 16, "tile": 104, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 64, "y": 0, "w": 32, "h": 16, "tile": 112, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 0, "y": 16, "w": 32, "h": 8, "tile": 120, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 32, "y": 16, "w": 32, "h": 8, "tile": 124, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 64, "y": 16, "w": 32, "h": 8, "tile": 128, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}], "canvas_x": 8, "canvas_y": 56}, {"type": "cell", "cell_idx": 3, "min_x": -2, "min_y": 0, "width": 100, "height": 24, "oams": [{"x": 50, "y": 0, "w": 32, "h": 16, "tile": 0, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 82, "y": 0, "w": 16, "h": 16, "tile": 8, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 50, "y": 16, "w": 32, "h": 8, "tile": 12, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 82, "y": 16, "w": 16, "h": 8, "tile": 16, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": -2, "y": 0, "w": 32, "h": 16, "tile": 20, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 30, "y": 0, "w": 16, "h": 16, "tile": 28, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": -2, "y": 16, "w": 32, "h": 8, "tile": 32, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 30, "y": 16, "w": 16, "h": 8, "tile": 36, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}], "canvas_x": 112, "canvas_y": 56}, {"type": "cell", "cell_idx": 4, "min_x": -2, "min_y": 0, "width": 100, "height": 40, "oams": [{"x": 50, "y": 0, "w": 32, "h": 16, "tile": 40, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 82, "y": 0, "w": 16, "h": 16, "tile": 48, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 50, "y": 16, "w": 32, "h": 8, "tile": 52, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 82, "y": 16, "w": 16, "h": 8, "tile": 56, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": -2, "y": 0, "w": 32, "h": 16, "tile": 60, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 30, "y": 0, "w": 16, "h": 16, "tile": 68, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": -2, "y": 16, "w": 32, "h": 8, "tile": 72, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 30, "y": 16, "w": 16, "h": 8, "tile": 76, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 16, "y": 24, "w": 32, "h": 16, "tile": 80, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 48, "y": 24, "w": 32, "h": 16, "tile": 88, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}], "canvas_x": 8, "canvas_y": 88}, {"type": "cell", "cell_idx": 5, "min_x": 0, "min_y": 0, "width": 96, "height": 24, "oams": [{"x": 0, "y": 0, "w": 32, "h": 16, "tile": 96, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 32, "y": 0, "w": 32, "h": 16, "tile": 104, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 64, "y": 0, "w": 32, "h": 16, "tile": 112, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 0, "y": 16, "w": 32, "h": 8, "tile": 120, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 32, "y": 16, "w": 32, "h": 8, "tile": 124, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 64, "y": 16, "w": 32, "h": 8, "tile": 128, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}], "canvas_x": 116, "canvas_y": 88}, {"type": "cell", "cell_idx": 6, "min_x": 0, "min_y": 0, "width": 96, "height": 32, "oams": [{"x": 0, "y": 0, "w": 64, "h": 32, "tile": 132, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 64, "y": 0, "w": 32, "h": 32, "tile": 164, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}], "canvas_x": 8, "canvas_y": 136}, {"type": "cell", "cell_idx": 7, "min_x": -18, "min_y": 0, "width": 136, "height": 42, "oams": [{"x": 59, "y": 32, "w": 8, "h": 8, "tile": 180, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 24, "y": 34, "w": 32, "h": 8, "tile": 184, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 56, "y": 34, "w": 16, "h": 8, "tile": 188, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 3, "y": 24, "w": 32, "h": 8, "tile": 192, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 35, "y": 24, "w": 32, "h": 8, "tile": 196, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 67, "y": 24, "w": 32, "h": 8, "tile": 200, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": -18, "y": 0, "w": 32, "h": 16, "tile": 204, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 14, "y": 0, "w": 32, "h": 16, "tile": 212, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 46, "y": 0, "w": 32, "h": 16, "tile": 220, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 78, "y": 0, "w": 32, "h": 16, "tile": 228, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 110, "y": 0, "w": 8, "h": 16, "tile": 236, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": -18, "y": 16, "w": 32, "h": 8, "tile": 240, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 14, "y": 16, "w": 32, "h": 8, "tile": 244, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 46, "y": 16, "w": 32, "h": 8, "tile": 248, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 78, "y": 16, "w": 32, "h": 8, "tile": 252, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 110, "y": 16, "w": 8, "h": 8, "tile": 256, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}], "canvas_x": 112, "canvas_y": 136}, {"type": "cell", "cell_idx": 8, "min_x": -8, "min_y": 0, "width": 112, "height": 32, "oams": [{"x": -8, "y": 0, "w": 64, "h": 32, "tile": 260, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 56, "y": 0, "w": 32, "h": 32, "tile": 292, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 88, "y": 0, "w": 16, "h": 32, "tile": 308, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}], "canvas_x": 8, "canvas_y": 186}, {"type": "uncovered", "cell_idx": -1, "min_x": 0, "min_y": 0, "width": 128, "height": 16, "oams": [{"x": 0, "y": 0, "w": 8, "h": 8, "tile": 18, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 8, "y": 0, "w": 8, "h": 8, "tile": 19, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 16, "y": 0, "w": 8, "h": 8, "tile": 38, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 24, "y": 0, "w": 8, "h": 8, "tile": 39, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 32, "y": 0, "w": 8, "h": 8, "tile": 58, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 40, "y": 0, "w": 8, "h": 8, "tile": 59, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 48, "y": 0, "w": 8, "h": 8, "tile": 78, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 56, "y": 0, "w": 8, "h": 8, "tile": 79, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 64, "y": 0, "w": 8, "h": 8, "tile": 181, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 72, "y": 0, "w": 8, "h": 8, "tile": 182, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 80, "y": 0, "w": 8, "h": 8, "tile": 183, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 88, "y": 0, "w": 8, "h": 8, "tile": 190, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 96, "y": 0, "w": 8, "h": 8, "tile": 191, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 104, "y": 0, "w": 8, "h": 8, "tile": 238, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 112, "y": 0, "w": 8, "h": 8, "tile": 239, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 120, "y": 0, "w": 8, "h": 8, "tile": 257, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 0, "y": 8, "w": 8, "h": 8, "tile": 258, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}, {"x": 8, "y": 8, "w": 8, "h": 8, "tile": 259, "pal": 0, "rot": 0, "hflip": 0, "vflip": 0}], "canvas_x": 8, "canvas_y": 226}], "header_bytes": "5247434efffe0101b02700001000010052414843a0270000ffffffff0300000010002000000000008027000018000000"};
+
+  const CELL_COLORS = {
+    0: "#00e5ff",
+    1: "#00e676",
+    2: "#2979ff",
+    3: "#ff9100",
+    4: "#e040fb",
+    5: "#1de9b6",
+    6: "#ff5252",
+    7: "#c6ff00",
+    8: "#ff4081",
+    "-1": "#90a4ae"
+  };
+
+  const CELL_NAMES = {
+    0: "Game Mode (Normal)",
+    1: "Battle Mode (Normal)",
+    2: "Movies (Normal)",
+    3: "Game Mode (Selected / Gap)",
+    4: "Battle Mode (Selected / Gap)",
+    5: "Movies (Selected)",
+    6: "Mode Jeu (French)",
+    7: "Mode de combat (French)",
+    8: "Cinématiques (French)",
+    "-1": "Uncovered Tiles"
+  };
+
+  // State
+  let currentImageSrc = TRANSLATED_B64 || ORIGINAL_B64;
+  let spriteImg = new Image();
+  let imgLoaded = false;
+
+  let selectedCellId = 0;
+  let hoveredOam = null;
+  let hoveredCell = null;
+
+  let scale = 4.0;
+  let panX = 40;
+  let panY = 40;
+  let isDragging = false;
+  let dragStartX = 0;
+  let dragStartY = 0;
+
+  let blinkInterval = null;
+
+  // DOM Elements
+  const viewport = document.getElementById("viewport");
+  const sheetCanvas = document.getElementById("sheetCanvas");
+  const sheetCtx = sheetCanvas.getContext("2d");
+  const ndsCanvas = document.getElementById("ndsCanvas");
+  const ndsCtx = ndsCanvas.getContext("2d");
+  const tooltip = document.getElementById("tooltip");
+  const coordReadout = document.getElementById("coordReadout");
+
+  // Layers
+  const chkCells = document.getElementById("chkCells");
+  const chkOams = document.getElementById("chkOams");
+  const chkSeamGap = document.getElementById("chkSeamGap");
+  const chkGrid = document.getElementById("chkGrid");
+  const chkLabels = document.getElementById("chkLabels");
+
+  // Initialize
+  function init() {
+    spriteImg.onload = () => {
+      imgLoaded = true;
+      renderCellList();
+      selectCell(0);
+      centerCanvas();
+      redraw();
+    };
+    spriteImg.src = currentImageSrc;
+
+    setupEvents();
+  }
+
+  function centerCanvas() {
+    const vw = viewport.clientWidth;
+    const vh = viewport.clientHeight;
+    panX = Math.round((vw - 256 * scale) / 2);
+    panY = Math.round((vh - 250 * scale) / 2);
+  }
+
+  function setupEvents() {
+    // Resize
+    window.addEventListener("resize", () => {
+      resizeSheetCanvas();
+      redraw();
+    });
+    resizeSheetCanvas();
+
+    // Source toggle
+    document.getElementById("btnSourceTrans").onclick = function() {
+      if (!TRANSLATED_B64) return;
+      document.getElementById("btnSourceTrans").classList.add("active");
+      document.getElementById("btnSourceOrig").classList.remove("active");
+      currentImageSrc = TRANSLATED_B64;
+      spriteImg.src = currentImageSrc;
+    };
+    document.getElementById("btnSourceOrig").onclick = function() {
+      if (!ORIGINAL_B64) return;
+      document.getElementById("btnSourceOrig").classList.add("active");
+      document.getElementById("btnSourceTrans").classList.remove("active");
+      currentImageSrc = ORIGINAL_B64;
+      spriteImg.src = currentImageSrc;
+    };
+
+    // Zoom Buttons
+    document.getElementById("btnZoom1x").onclick = () => setZoom(1.0);
+    document.getElementById("btnZoom2x").onclick = () => setZoom(2.0);
+    document.getElementById("btnZoom4x").onclick = () => setZoom(4.0);
+    document.getElementById("btnZoom8x").onclick = () => setZoom(8.0);
+    document.getElementById("btnZoomFit").onclick = () => {
+      const vw = viewport.clientWidth - 60;
+      const vh = viewport.clientHeight - 60;
+      const fitScale = Math.min(vw / 256, vh / 250);
+      setZoom(Math.max(1.0, Math.floor(fitScale)));
+      centerCanvas();
+    };
+    document.getElementById("btnResetPan").onclick = () => {
+      setZoom(4.0);
+      centerCanvas();
+      redraw();
+    };
+    document.getElementById("btnZoomIn").onclick = () => zoomAtCenter(1.25);
+    document.getElementById("btnZoomOut").onclick = () => zoomAtCenter(0.8);
+
+    // Pan & Mouse interaction
+    viewport.addEventListener("mousedown", (e) => {
+      if (e.button === 0) {
+        isDragging = true;
+        dragStartX = e.clientX - panX;
+        dragStartY = e.clientY - panY;
+        viewport.classList.add("dragging");
+      }
+    });
+
+    window.addEventListener("mousemove", (e) => {
+      if (isDragging) {
+        panX = e.clientX - dragStartX;
+        panY = e.clientY - dragStartY;
+        redraw();
+      } else {
+        handleCanvasHover(e);
+      }
+    });
+
+    window.addEventListener("mouseup", () => {
+      isDragging = false;
+      viewport.classList.remove("dragging");
+    });
+
+    viewport.addEventListener("wheel", (e) => {
+      e.preventDefault();
+      const rect = viewport.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+
+      const factor = e.deltaY < 0 ? 1.2 : 0.833;
+      const newScale = Math.min(24, Math.max(0.75, scale * factor));
+
+      panX = mouseX - (mouseX - panX) * (newScale / scale);
+      panY = mouseY - (mouseY - panY) * (newScale / scale);
+      scale = newScale;
+
+      updateZoomButtons();
+      redraw();
+    }, { passive: false });
+
+    // Layer toggles
+    [chkCells, chkOams, chkSeamGap, chkGrid, chkLabels].forEach(chk => {
+      chk.onchange = () => redraw();
+    });
+
+    // Shift comparison
+    document.getElementById("btnCompareShift").onclick = toggleShiftPair;
+    document.getElementById("btnBlinkToggle").onclick = toggleBlink;
+  }
+
+  function resizeSheetCanvas() {
+    sheetCanvas.width = viewport.clientWidth;
+    sheetCanvas.height = viewport.clientHeight;
+  }
+
+  function setZoom(z) {
+    const rect = viewport.getBoundingClientRect();
+    const cx = rect.width / 2;
+    const cy = rect.height / 2;
+    panX = cx - (cx - panX) * (z / scale);
+    panY = cy - (cy - panY) * (z / scale);
+    scale = z;
+    updateZoomButtons();
+    redraw();
+  }
+
+  function zoomAtCenter(factor) {
+    const rect = viewport.getBoundingClientRect();
+    const cx = rect.width / 2;
+    const cy = rect.height / 2;
+    const newScale = Math.min(24, Math.max(0.75, scale * factor));
+    panX = cx - (cx - panX) * (newScale / scale);
+    panY = cy - (cy - panY) * (newScale / scale);
+    scale = newScale;
+    updateZoomButtons();
+    redraw();
+  }
+
+  function updateZoomButtons() {
+    ["1x", "2x", "4x", "8x"].forEach(z => {
+      const b = document.getElementById("btnZoom" + z);
+      if (Math.abs(parseFloat(z) - scale) < 0.1) {
+        b.classList.add("active");
+      } else {
+        b.classList.remove("active");
+      }
+    });
+  }
+
+  function renderCellList() {
+    const container = document.getElementById("cellListContainer");
+    container.innerHTML = "";
+
+    METADATA.components.forEach(comp => {
+      const cid = comp.cell_idx;
+      const color = CELL_COLORS[cid] || "#888";
+      const name = CELL_NAMES[cid] || ("Cell " + cid);
+
+      const card = document.createElement("div");
+      card.className = "cell-card" + (cid === selectedCellId ? " selected" : "");
+      card.id = "cellCard_" + cid;
+      card.onclick = () => selectCell(cid);
+
+      const tiles = comp.oams.map(o => o.tile);
+      const minTile = tiles.length ? Math.min(...tiles) : 0;
+      const maxTile = tiles.length ? Math.max(...tiles) : 0;
+
+      card.innerHTML = `
+        <div class="cell-card-header">
+          <span class="cell-badge" style="background:${color}"></span>
+          <span class="cell-title">${name}</span>
+          <span class="cell-id-tag">[${cid}]</span>
+        </div>
+        <div class="cell-details">
+          <span>Pos: (${comp.canvas_x}, ${comp.canvas_y})</span>
+          <span>${comp.width}x${comp.height}</span>
+          <span>${comp.oams.length} OAMs</span>
+          <span>T: ${minTile}..${maxTile}</span>
+        </div>
+      `;
+      container.appendChild(card);
+    });
+  }
+
+  function selectCell(cid) {
+    selectedCellId = cid;
+    document.querySelectorAll(".cell-card").forEach(c => c.classList.remove("selected"));
+    const card = document.getElementById("cellCard_" + cid);
+    if (card) card.classList.add("selected");
+
+    updateCellInspector(cid);
+    renderNdsPreview(cid);
+    redraw();
+  }
+
+  function updateCellInspector(cid) {
+    const comp = METADATA.components.find(c => c.cell_idx === cid);
+    if (!comp) return;
+
+    document.getElementById("inspCellId").textContent = cid;
+    document.getElementById("inspCellName").textContent = CELL_NAMES[cid] || "Cell " + cid;
+    document.getElementById("inspCellPos").textContent = `(${comp.canvas_x}, ${comp.canvas_y})`;
+    document.getElementById("inspCellSize").textContent = `${comp.width} x ${comp.height} px`;
+    document.getElementById("inspCellOams").textContent = `${comp.oams.length} OAMs`;
+
+    const tiles = comp.oams.map(o => o.tile);
+    const minT = tiles.length ? Math.min(...tiles) : 0;
+    const maxT = tiles.length ? Math.max(...tiles) : 0;
+    document.getElementById("inspCellTiles").textContent = `${minT} .. ${maxT} (NCGR)`;
+    document.getElementById("inspCellMin").textContent = `min_x: ${comp.min_x}, min_y: ${comp.min_y}`;
+  }
+
+  function updateOamInspector(oam, comp, idx) {
+    if (!oam) {
+      document.getElementById("inspOamCell").textContent = "--";
+      document.getElementById("inspOamIdx").textContent = "--";
+      document.getElementById("inspOamRelPos").textContent = "--";
+      document.getElementById("inspOamSize").textContent = "--";
+      document.getElementById("inspOamCanvasPos").textContent = "--";
+      document.getElementById("inspOamTile").textContent = "--";
+      document.getElementById("inspOamTileCount").textContent = "--";
+      document.getElementById("inspOamPal").textContent = "--";
+      return;
+    }
+
+    const sx = comp.canvas_x + (oam.x - comp.min_x);
+    const sy = comp.canvas_y + (oam.y - comp.min_y);
+    const tileCount = (oam.w * oam.h) / 64;
+
+    document.getElementById("inspOamCell").textContent = `Cell ${comp.cell_idx} (${CELL_NAMES[comp.cell_idx] || ''})`;
+    document.getElementById("inspOamIdx").textContent = `#${idx}`;
+    document.getElementById("inspOamRelPos").textContent = `(${oam.x}, ${oam.y})`;
+    document.getElementById("inspOamSize").textContent = `${oam.w} x ${oam.h} px`;
+    document.getElementById("inspOamCanvasPos").textContent = `(${sx}, ${sy})`;
+    document.getElementById("inspOamTile").textContent = `Tile #${oam.tile}`;
+    document.getElementById("inspOamTileCount").textContent = `${tileCount} tiles`;
+    document.getElementById("inspOamPal").textContent = `Palette ${oam.pal}`;
+  }
+
+  // Canvas Hover Detection
+  function handleCanvasHover(e) {
+    const rect = viewport.getBoundingClientRect();
+    const mx = e.clientX - rect.left;
+    const my = e.clientY - rect.top;
+
+    const sheetX = Math.floor((mx - panX) / scale);
+    const sheetY = Math.floor((my - panY) / scale);
+
+    if (sheetX >= 0 && sheetX < 256 && sheetY >= 0 && sheetY < 250) {
+      coordReadout.textContent = `Sheet: (${sheetX}, ${sheetY})`;
+
+      // Find hovering OAM
+      let foundOam = null;
+      let foundComp = null;
+      let foundIdx = -1;
+
+      for (const comp of METADATA.components) {
+        for (let i = 0; i < comp.oams.length; i++) {
+          const oam = comp.oams[i];
+          const ox = comp.canvas_x + (oam.x - comp.min_x);
+          const oy = comp.canvas_y + (oam.y - comp.min_y);
+          if (sheetX >= ox && sheetX < ox + oam.w && sheetY >= oy && sheetY < oy + oam.h) {
+            foundOam = oam;
+            foundComp = comp;
+            foundIdx = i;
+            break;
+          }
+        }
+        if (foundOam) break;
+      }
+
+      if (foundOam) {
+        hoveredOam = { oam: foundOam, comp: foundComp, idx: foundIdx };
+        updateOamInspector(foundOam, foundComp, foundIdx);
+
+        // Tooltip
+        tooltip.style.display = "block";
+        tooltip.style.left = (mx + 16) + "px";
+        tooltip.style.top = (my + 16) + "px";
+        tooltip.innerHTML = `
+          <div style="font-weight:700; color:var(--accent-cyan);">Cell ${foundComp.cell_idx} &bull; OAM #${foundIdx}</div>
+          <div>Size: ${foundOam.w}x${foundOam.h} px</div>
+          <div>NCER Pos: (${foundOam.x}, ${foundOam.y})</div>
+          <div>Tile: #${foundOam.tile} (count: ${(foundOam.w * foundOam.h)/64})</div>
+        `;
+      } else {
+        hoveredOam = null;
+        tooltip.style.display = "none";
+        updateOamInspector(null);
+      }
+    } else {
+      coordReadout.textContent = "X: --, Y: --";
+      hoveredOam = null;
+      tooltip.style.display = "none";
+      updateOamInspector(null);
+    }
+
+    redraw();
+  }
+
+  // Redraw Main Canvas
+  function redraw() {
+    sheetCtx.clearRect(0, 0, sheetCanvas.width, sheetCanvas.height);
+    if (!imgLoaded) return;
+
+    sheetCtx.imageSmoothingEnabled = false;
+
+    // 1. Draw Sprite Sheet
+    sheetCtx.drawImage(
+      spriteImg,
+      0, 0, 256, 250,
+      panX, panY, 256 * scale, 250 * scale
+    );
+
+    // 2. Faint 8x8 Grid
+    if (chkGrid.checked) {
+      sheetCtx.strokeStyle = "rgba(255, 255, 255, 0.08)";
+      sheetCtx.lineWidth = 1;
+      const step = 8 * scale;
+      for (let x = 0; x <= 256; x += 8) {
+        const cx = panX + x * scale;
+        sheetCtx.beginPath();
+        sheetCtx.moveTo(cx, panY);
+        sheetCtx.lineTo(cx, panY + 250 * scale);
+        sheetCtx.stroke();
+      }
+      for (let y = 0; y <= 250; y += 8) {
+        const cy = panY + y * scale;
+        sheetCtx.beginPath();
+        sheetCtx.moveTo(panX, cy);
+        sheetCtx.lineTo(panX + 256 * scale, cy);
+        sheetCtx.stroke();
+      }
+    }
+
+    // 3. Cell Bounding Boxes & Labels
+    if (chkCells.checked) {
+      METADATA.components.forEach(comp => {
+        const cid = comp.cell_idx;
+        const color = CELL_COLORS[cid] || "#fff";
+        const isSel = (cid === selectedCellId);
+
+        const cx = panX + comp.canvas_x * scale;
+        const cy = panY + comp.canvas_y * scale;
+        const cw = comp.width * scale;
+        const ch = comp.height * scale;
+
+        sheetCtx.strokeStyle = color;
+        sheetCtx.lineWidth = isSel ? 3 : 1.5;
+        sheetCtx.strokeRect(cx, cy, cw, ch);
+
+        if (isSel) {
+          sheetCtx.fillStyle = color.replace(")", ", 0.08)").replace("rgb", "rgba");
+          sheetCtx.fillRect(cx, cy, cw, ch);
+        }
+
+        // Badge label
+        if (chkLabels.checked) {
+          sheetCtx.font = "bold 10px " + getComputedStyle(document.body).fontFamily;
+          const label = `[${cid}] ${CELL_NAMES[cid] || ''}`;
+          const tw = sheetCtx.measureText(label).width;
+
+          sheetCtx.fillStyle = "rgba(13, 17, 23, 0.85)";
+          sheetCtx.fillRect(cx, cy - 14, tw + 8, 14);
+          sheetCtx.strokeStyle = color;
+          sheetCtx.lineWidth = 1;
+          sheetCtx.strokeRect(cx, cy - 14, tw + 8, 14);
+
+          sheetCtx.fillStyle = color;
+          sheetCtx.fillText(label, cx + 4, cy - 3);
+        }
+      });
+    }
+
+    // 4. OAM Bounding Boxes (Dashed)
+    if (chkOams.checked) {
+      sheetCtx.setLineDash([3 * (scale > 2 ? 2 : 1), 3 * (scale > 2 ? 2 : 1)]);
+      METADATA.components.forEach(comp => {
+        const cid = comp.cell_idx;
+        const color = CELL_COLORS[cid] || "#fff";
+
+        comp.oams.forEach((oam, i) => {
+          const ox = panX + (comp.canvas_x + (oam.x - comp.min_x)) * scale;
+          const oy = panY + (comp.canvas_y + (oam.y - comp.min_y)) * scale;
+          const ow = oam.w * scale;
+          const oh = oam.h * scale;
+
+          sheetCtx.strokeStyle = color;
+          sheetCtx.lineWidth = 1;
+          sheetCtx.strokeRect(ox, oy, ow, oh);
+
+          if (chkLabels.checked && scale >= 3 && ow >= 32) {
+            sheetCtx.font = "9px monospace";
+            sheetCtx.fillStyle = color;
+            sheetCtx.fillText(`T:${oam.tile}`, ox + 3, oy + 10);
+          }
+        });
+      });
+      sheetCtx.setLineDash([]);
+    }
+
+    // 5. Seam (x=48) & 4px Hardware Gap
+    if (chkSeamGap.checked) {
+      // Cell 0 and 1: SEAM at x=48
+      [0, 1].forEach(cid => {
+        const comp = METADATA.components.find(c => c.cell_idx === cid);
+        if (comp) {
+          const sx = panX + (comp.canvas_x + 48) * scale;
+          const sy = panY + comp.canvas_y * scale;
+          const sh = 24 * scale;
+
+          // Glowing bright red line
+          sheetCtx.strokeStyle = "rgba(255, 23, 68, 0.4)";
+          sheetCtx.lineWidth = 4;
+          sheetCtx.beginPath();
+          sheetCtx.moveTo(sx, sy);
+          sheetCtx.lineTo(sx, sy + sh);
+          sheetCtx.stroke();
+
+          sheetCtx.strokeStyle = "#ff1744";
+          sheetCtx.lineWidth = 2;
+          sheetCtx.beginPath();
+          sheetCtx.moveTo(sx, sy);
+          sheetCtx.lineTo(sx, sy + sh);
+          sheetCtx.stroke();
+
+          // Seam text
+          sheetCtx.fillStyle = "#ff1744";
+          sheetCtx.font = "bold 9px monospace";
+          sheetCtx.fillText("SEAM (48px)", sx - 30, sy + sh + 11);
+        }
+      });
+
+      // Cell 3 and 4: 4px Hardware Gap at local x=48..52
+      [3, 4].forEach(cid => {
+        const comp = METADATA.components.find(c => c.cell_idx === cid);
+        if (comp) {
+          const gx1 = panX + (comp.canvas_x + 48) * scale;
+          const gy = panY + comp.canvas_y * scale;
+          const gw = 4 * scale;
+          const gh = 24 * scale;
+
+          // Yellow hatched area
+          sheetCtx.fillStyle = "rgba(255, 214, 0, 0.25)";
+          sheetCtx.fillRect(gx1, gy, gw, gh);
+          sheetCtx.strokeStyle = "#ffd600";
+          sheetCtx.lineWidth = 1.5;
+          sheetCtx.strokeRect(gx1, gy, gw, gh);
+
+          // Diagonal hatch lines
+          sheetCtx.save();
+          sheetCtx.beginPath();
+          sheetCtx.rect(gx1, gy, gw, gh);
+          sheetCtx.clip();
+          sheetCtx.strokeStyle = "rgba(255, 214, 0, 0.8)";
+          sheetCtx.lineWidth = 2;
+          for (let d = -gh; d < gw + gh; d += 6) {
+            sheetCtx.beginPath();
+            sheetCtx.moveTo(gx1 + d, gy);
+            sheetCtx.lineTo(gx1 + d + gh, gy + gh);
+            sheetCtx.stroke();
+          }
+          sheetCtx.restore();
+
+          // Warning label
+          sheetCtx.fillStyle = "#ffd600";
+          sheetCtx.font = "bold 9px monospace";
+          sheetCtx.fillText("4px GAP", gx1 - 16, gy + gh + 11);
+        }
+      });
+    }
+
+    // 6. Highlight Hovered OAM
+    if (hoveredOam) {
+      const oam = hoveredOam.oam;
+      const comp = hoveredOam.comp;
+      const hx = panX + (comp.canvas_x + (oam.x - comp.min_x)) * scale;
+      const hy = panY + (comp.canvas_y + (oam.y - comp.min_y)) * scale;
+      const hw = oam.w * scale;
+      const hh = oam.h * scale;
+
+      sheetCtx.strokeStyle = "#ffffff";
+      sheetCtx.lineWidth = 2;
+      sheetCtx.strokeRect(hx, hy, hw, hh);
+      sheetCtx.fillStyle = "rgba(255, 255, 255, 0.15)";
+      sheetCtx.fillRect(hx, hy, hw, hh);
+    }
+  }
+
+  // Live NDS Screen Preview
+  function renderNdsPreview(cid) {
+    ndsCtx.clearRect(0, 0, 256, 192);
+    if (!imgLoaded) return;
+
+    ndsCtx.imageSmoothingEnabled = false;
+
+    // Screen Background
+    ndsCtx.fillStyle = "#0c1017";
+    ndsCtx.fillRect(0, 0, 256, 192);
+
+    // Subtle Screen Grid
+    ndsCtx.strokeStyle = "rgba(255, 255, 255, 0.05)";
+    ndsCtx.lineWidth = 1;
+    for (let x = 0; x < 256; x += 16) {
+      ndsCtx.beginPath();
+      ndsCtx.moveTo(x, 0);
+      ndsCtx.lineTo(x, 192);
+      ndsCtx.stroke();
+    }
+    for (let y = 0; y < 192; y += 16) {
+      ndsCtx.beginPath();
+      ndsCtx.moveTo(0, y);
+      ndsCtx.lineTo(256, y);
+      ndsCtx.stroke();
+    }
+
+    const comp = METADATA.components.find(c => c.cell_idx === cid);
+    if (!comp) return;
+
+    // Compute cell bounding box across all OAMs
+    let minX = Infinity, maxX = -Infinity;
+    let minY = Infinity, maxY = -Infinity;
+    comp.oams.forEach(o => {
+      if (o.x < minX) minX = o.x;
+      if (o.x + o.w > maxX) maxX = o.x + o.w;
+      if (o.y < minY) minY = o.y;
+      if (o.y + o.h > maxY) maxY = o.y + o.h;
+    });
+
+    const cellW = maxX - minX;
+    const cellH = maxY - minY;
+
+    // Center on NDS screen (256x192)
+    const anchorX = Math.round((256 - cellW) / 2) - minX;
+    const anchorY = Math.round((192 - cellH) / 2) - minY;
+
+    // Draw each OAM
+    comp.oams.forEach(oam => {
+      const srcX = comp.canvas_x + (oam.x - comp.min_x);
+      const srcY = comp.canvas_y + (oam.y - comp.min_y);
+      const dstX = anchorX + oam.x;
+      const dstY = anchorY + oam.y;
+
+      ndsCtx.drawImage(
+        spriteImg,
+        srcX, srcY, oam.w, oam.h,
+        dstX, dstY, oam.w, oam.h
+      );
+    });
+
+    // Screen Center crosshair indicator
+    ndsCtx.strokeStyle = "rgba(88, 166, 255, 0.25)";
+    ndsCtx.beginPath();
+    ndsCtx.moveTo(128, 88); ndsCtx.lineTo(128, 104);
+    ndsCtx.moveTo(120, 96); ndsCtx.lineTo(136, 96);
+    ndsCtx.stroke();
+  }
+
+  // Comparison & Shift logic
+  function toggleShiftPair() {
+    if (selectedCellId === 0) selectCell(3);
+    else if (selectedCellId === 3) selectCell(0);
+    else if (selectedCellId === 1) selectCell(4);
+    else if (selectedCellId === 4) selectCell(1);
+    else if (selectedCellId === 2) selectCell(5);
+    else if (selectedCellId === 5) selectCell(2);
+    else selectCell(3);
+  }
+
+  function toggleBlink() {
+    const btn = document.getElementById("btnBlinkToggle");
+    if (blinkInterval) {
+      clearInterval(blinkInterval);
+      blinkInterval = null;
+      btn.textContent = "Blink: Off";
+      btn.classList.remove("active");
+    } else {
+      blinkInterval = setInterval(() => {
+        toggleShiftPair();
+      }, 800);
+      btn.textContent = "Blink: On";
+      btn.classList.add("active");
+    }
+  }
+
+  // Kickoff
+  init();
+</script>
+
+</body>
+</html>

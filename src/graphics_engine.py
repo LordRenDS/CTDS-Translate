@@ -935,6 +935,12 @@ OAM_SHAPES = {
     2: {0: (8, 16), 1: (8, 32), 2: (16, 32), 3: (32, 64)},
 }
 
+WH_TO_OAM_SHAPE_SIZE = {
+    (w, h): (shape, size_code)
+    for shape, sizes in OAM_SHAPES.items()
+    for size_code, (w, h) in sizes.items()
+}
+
 
 def find_cell_bank_for_sprite(ncgr_path: str) -> Optional[str]:
     """Finds matching NCER cell bank for a given NCGR sprite file.
@@ -1077,6 +1083,30 @@ def dump_ncgr_sprite(
                 oam_base = cell_start + num_cells * 8
                 tile_multiplier = 1 << mapping_mode
 
+                labels = []
+                labl_idx = ncer_decomp.find(b"LBAL")
+                if labl_idx == -1:
+                    labl_idx = ncer_decomp.find(b"LABL")
+                if labl_idx != -1 and num_cells > 0:
+                    labl_size = struct.unpack("<I", ncer_decomp[labl_idx + 4 : labl_idx + 8])[0]
+                    labl_payload = ncer_decomp[labl_idx + 8 : labl_idx + labl_size]
+                    if len(labl_payload) >= num_cells * 4:
+                        offsets = [
+                            struct.unpack("<I", labl_payload[i * 4 : (i + 1) * 4])[0]
+                            for i in range(num_cells)
+                        ]
+                        str_base = num_cells * 4
+                        for off in offsets:
+                            if str_base + off < len(labl_payload):
+                                end = labl_payload.find(b"\x00", str_base + off)
+                                if end == -1:
+                                    end = len(labl_payload)
+                                labels.append(
+                                    labl_payload[str_base + off : end].decode("latin1", errors="replace")
+                                )
+                            else:
+                                labels.append("")
+
                 components = []
                 covered_tiles = set()
 
@@ -1112,6 +1142,8 @@ def dump_ncgr_sprite(
                             "rot": rot,
                             "hflip": hflip,
                             "vflip": vflip,
+                            "shape": shape,
+                            "size_code": size_code,
                         })
                         num_t = (w * h) // 64
                         covered_tiles.update(range(raw_tile, raw_tile + num_t))
@@ -1121,15 +1153,19 @@ def dump_ncgr_sprite(
                         min_y = min(o["y"] for o in oams)
                         max_x = max(o["x"] + o["w"] for o in oams)
                         max_y = max(o["y"] + o["h"] for o in oams)
-                        components.append({
+                        comp_entry = {
                             "type": "cell",
                             "cell_idx": i,
+                            "cell_attr": attr,
                             "min_x": min_x,
                             "min_y": min_y,
                             "width": max_x - min_x,
                             "height": max_y - min_y,
                             "oams": oams,
-                        })
+                        }
+                        if i < len(labels):
+                            comp_entry["label"] = labels[i]
+                        components.append(comp_entry)
 
                 # Extra component for uncovered tiles so all tiles can be edited
                 uncovered_tiles = sorted([t for t in range(num_tiles) if t not in covered_tiles])
@@ -1274,6 +1310,8 @@ def dump_ncgr_sprite(
                     "base_palette_index": base_pal,
                     "occluded_tiles": occluded_tiles,
                     "padding_byte": padding_byte,
+                    "mapping_mode": mapping_mode,
+                    "labels": labels,
                     "components": components,
                     "header_bytes": decomp[:tiles_start].hex(),
                 }
@@ -1513,6 +1551,276 @@ def build_ncgr_sprite(
         "is_8bpp": is_8bpp,
         "total_bytes": len(payload),
     }
+
+
+def build_ncer_file(
+    components: list,
+    out_ncer_path: Optional[str] = None,
+    mapping_mode: int = 0,
+    compression_layers: int = 1,
+    labels: Optional[List[str]] = None,
+) -> bytes:
+    """Builds an NCER (Nitro Cell Resource) binary file from cell components.
+
+    Args:
+        components: List of cell components (or lists of OAM dictionaries).
+        out_ncer_path: Optional output path to write the generated NCER file.
+        mapping_mode: 1D mapping mode (e.g. 0 for 1D 32K, 1 for 64K, 2 for 128K, 3 for 256K).
+        compression_layers: Passes of LZ10 compression (0 for uncompressed, 1 for default LZ10).
+        labels: Optional list of label strings for cells in the LABL chunk.
+
+    Returns:
+        bytes: Serialized (and optionally compressed) NCER binary data.
+    """
+    tile_multiplier = 1 << mapping_mode
+
+    # Extract valid cell components, ignoring uncovered / auxiliary entries
+    cells = []
+    for comp in components:
+        if isinstance(comp, dict):
+            if comp.get("type") == "uncovered" or comp.get("cell_idx", 0) < 0:
+                continue
+            c_idx = comp.get("cell_idx", len(cells))
+            cell_attr = comp.get("cell_attr", comp.get("attr", 0))
+            oams = comp.get("oams", [])
+            label = comp.get("label", comp.get("name"))
+            cells.append({
+                "cell_idx": c_idx,
+                "cell_attr": cell_attr,
+                "oams": oams,
+                "label": label,
+            })
+        elif isinstance(comp, (list, tuple)):
+            cells.append({
+                "cell_idx": len(cells),
+                "cell_attr": 0,
+                "oams": comp,
+                "label": None,
+            })
+
+    if cells:
+        max_idx = max(c["cell_idx"] for c in cells)
+        cell_by_idx = {c["cell_idx"]: c for c in cells}
+        ordered_cells = []
+        for i in range(max_idx + 1):
+            if i in cell_by_idx:
+                ordered_cells.append(cell_by_idx[i])
+            else:
+                ordered_cells.append({
+                    "cell_idx": i,
+                    "cell_attr": 0,
+                    "oams": [],
+                    "label": None,
+                })
+        cells = ordered_cells
+
+    num_cells = len(cells)
+
+    # 1. Block 0: CEBK (Cell Bank, magic b'KBEC')
+    cebk_payload = bytearray()
+    # Payload header (24 bytes):
+    # num_cells (uint16), cell_bank_type=0 (uint16), cell_data_offset=24 (uint32),
+    # mapping_mode (uint32), vram_offset=0 (uint32), unk1=0 (uint32), unk2=0 (uint32)
+    cebk_payload += struct.pack("<HHIIIII", num_cells, 0, 24, mapping_mode, 0, 0, 0)
+
+    cell_entries = bytearray()
+    oam_pool = bytearray()
+
+    for comp in cells:
+        oams = comp.get("oams", [])
+        n_oam = len(oams)
+        attr = comp.get("cell_attr", 0)
+        oam_off = len(oam_pool)
+        cell_entries += struct.pack("<HHI", n_oam, attr, oam_off)
+
+        for o in oams:
+            x = o.get("x", 0)
+            y = o.get("y", 0)
+            w = o.get("w", 8)
+            h = o.get("h", 8)
+
+            if "shape" in o and "size_code" in o:
+                shape = o["shape"]
+                size_code = o["size_code"]
+            else:
+                shape, size_code = WH_TO_OAM_SHAPE_SIZE.get((w, h), (0, 0))
+
+            rot = int(bool(o.get("rot", 0)))
+            hflip = int(bool(o.get("hflip", 0)))
+            vflip = int(bool(o.get("vflip", 0)))
+            pal = int(o.get("pal", 0)) & 0x0F
+            raw_tile = o.get("tile", 0)
+            tile_val = (raw_tile // tile_multiplier) & 0x3FF
+
+            if "attr0" in o or "a0" in o:
+                attr0 = o.get("attr0", o.get("a0"))
+            else:
+                attr0 = (y & 0xFF) | (rot << 8) | ((shape & 3) << 14)
+
+            if "attr1" in o or "a1" in o:
+                attr1 = o.get("attr1", o.get("a1"))
+            else:
+                if rot:
+                    affine_param = int(o.get("affine_param", 0)) & 0x1F
+                    attr1 = (x & 0x1FF) | (affine_param << 9) | ((size_code & 3) << 14)
+                else:
+                    attr1 = (x & 0x1FF) | (hflip << 12) | (vflip << 13) | ((size_code & 3) << 14)
+
+            if "attr2" in o or "a2" in o:
+                attr2 = o.get("attr2", o.get("a2"))
+            else:
+                attr2 = tile_val | (pal << 12)
+
+            oam_pool += struct.pack("<HHH", attr0, attr1, attr2)
+
+    cebk_payload += cell_entries
+    cebk_payload += oam_pool
+    cebk_payload = pad_to_alignment(cebk_payload, 4)
+
+    cebk_block = struct.pack("<4sI", b"KBEC", len(cebk_payload) + 8) + bytes(cebk_payload)
+
+    # 2. Block 1: LABL (Labels, magic b'LBAL')
+    labl_payload = bytearray()
+    if labels is None:
+        if any(c.get("label") for c in cells):
+            active_labels = [c.get("label") or f"CellAnime{i}" for i, c in enumerate(cells)]
+        else:
+            active_labels = [f"CellAnime{i}" for i in range(num_cells)]
+    else:
+        active_labels = list(labels)
+        if len(active_labels) < num_cells:
+            for i in range(len(active_labels), num_cells):
+                active_labels.append(f"CellAnime{i}")
+
+    if active_labels:
+        str_data = bytearray()
+        offsets = []
+        for lbl in active_labels:
+            offsets.append(len(str_data))
+            str_data += lbl.encode("latin1", errors="replace") + b"\x00"
+        for off in offsets:
+            labl_payload += struct.pack("<I", off)
+        labl_payload += str_data
+        labl_payload = pad_to_alignment(labl_payload, 4)
+
+    labl_block = struct.pack("<4sI", b"LBAL", len(labl_payload) + 8) + bytes(labl_payload)
+
+    # 3. Block 2: UEXT (Extended User Data, magic b'TXEU')
+    uext_payload = b"\x00\x00\x00\x00"
+    uext_block = struct.pack("<4sI", b"TXEU", len(uext_payload) + 8) + uext_payload
+
+    # 4. Nitro Header (16 bytes)
+    total_size = 16 + len(cebk_block) + len(labl_block) + len(uext_block)
+    header = struct.pack("<4sHHIHH", b"RECN", 0xFEFF, 0x0100, total_size, 16, 3)
+
+    raw_ncer = header + cebk_block + labl_block + uext_block
+
+    if compression_layers > 0:
+        result = compress_stream(raw_ncer, layers=compression_layers)
+    else:
+        result = raw_ncer
+
+    if out_ncer_path:
+        os.makedirs(os.path.dirname(os.path.abspath(out_ncer_path)), exist_ok=True)
+        with open(out_ncer_path, "wb") as f:
+            f.write(result)
+
+    return result
+
+
+def rebuild_ncer_from_metadata(
+    meta_json_path: str,
+    out_ncer_path: str,
+) -> bytes:
+    """Rebuilds an NCER file using metadata from a sprite JSON metadata file.
+
+    Args:
+        meta_json_path: Path to the metadata JSON file containing cell components.
+        out_ncer_path: Path where the rebuilt NCER file will be written.
+
+    Returns:
+        bytes: Serialized binary NCER data.
+    """
+    with open(meta_json_path, "r", encoding="utf-8") as f:
+        meta = json.load(f)
+
+    components = meta.get("components", [])
+    mapping_mode = meta.get("mapping_mode")
+    compression_layers = meta.get("compression_layers", 1)
+    labels = meta.get("labels")
+
+    # If mapping_mode, labels, or cell_attrs are missing, attempt fallback inspection of original NCER
+    ncer_path = meta.get("ncer_path")
+    if ncer_path:
+        cand_paths = [
+            ncer_path,
+            os.path.join(os.path.dirname(meta_json_path), os.path.basename(ncer_path)),
+        ]
+        found_ncer = None
+        for cand in cand_paths:
+            if os.path.isfile(cand):
+                found_ncer = cand
+                break
+
+        if found_ncer:
+            try:
+                raw = open(found_ncer, "rb").read()
+                decomp, orig_layers = decompress_stream(raw)
+                cebk_idx = decomp.find(b"KBEC")
+                if cebk_idx == -1:
+                    cebk_idx = decomp.find(b"CEBK")
+                if cebk_idx != -1:
+                    num_c = struct.unpack("<H", decomp[cebk_idx + 8 : cebk_idx + 10])[0]
+                    c_data_off = struct.unpack("<I", decomp[cebk_idx + 12 : cebk_idx + 16])[0]
+                    if mapping_mode is None:
+                        mapping_mode = struct.unpack("<I", decomp[cebk_idx + 16 : cebk_idx + 20])[0]
+
+                    # Read cell_attr for components that lack it
+                    c_start = cebk_idx + 8 + c_data_off
+                    for comp in components:
+                        if isinstance(comp, dict) and comp.get("type", "cell") == "cell":
+                            c_idx = comp.get("cell_idx", -1)
+                            if 0 <= c_idx < num_c and "cell_attr" not in comp and "attr" not in comp:
+                                off = c_start + c_idx * 8
+                                _, attr, _ = struct.unpack("<HHI", decomp[off : off + 8])
+                                comp["cell_attr"] = attr
+
+                    if labels is None and num_c > 0:
+                        labl_idx = decomp.find(b"LBAL")
+                        if labl_idx == -1:
+                            labl_idx = decomp.find(b"LABL")
+                        if labl_idx != -1:
+                            l_size = struct.unpack("<I", decomp[labl_idx + 4 : labl_idx + 8])[0]
+                            payload = decomp[labl_idx + 8 : labl_idx + l_size]
+                            if len(payload) >= num_c * 4:
+                                offs = [struct.unpack("<I", payload[k * 4 : (k + 1) * 4])[0] for k in range(num_c)]
+                                s_base = num_c * 4
+                                extracted_lbls = []
+                                for o in offs:
+                                    if s_base + o < len(payload):
+                                        end = payload.find(b"\x00", s_base + o)
+                                        if end == -1:
+                                            end = len(payload)
+                                        extracted_lbls.append(
+                                            payload[s_base + o : end].decode("latin1", errors="replace")
+                                        )
+                                    else:
+                                        extracted_lbls.append("")
+                                labels = extracted_lbls
+            except Exception:
+                pass
+
+    if mapping_mode is None:
+        mapping_mode = 0
+
+    return build_ncer_file(
+        components=components,
+        out_ncer_path=out_ncer_path,
+        mapping_mode=mapping_mode,
+        compression_layers=compression_layers,
+        labels=labels,
+    )
+
 
 
 
