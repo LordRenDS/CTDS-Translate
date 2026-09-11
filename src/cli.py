@@ -20,6 +20,7 @@ from src.graphics_engine import (
     dump_screen,
     dump_ncgr_sprite,
     build_ncgr_sprite,
+    rebuild_ncer_from_metadata,
     find_cell_bank_for_sprite,
     find_palette_for_screen,
     find_palette_for_sprite,
@@ -474,6 +475,10 @@ def cmd_build_graphics(args: argparse.Namespace) -> int:
             print(f"Building sprite '{screen_path}' -> '{out_ncgr}'...")
             info = build_ncgr_sprite(screen_path, meta_json_path, out_ncgr)
             print(f"Successfully rebuilt sprite ({info['num_tiles']} tiles).")
+            if meta.get("is_cell_sheet") and meta.get("ncer_path"):
+                out_ncer = os.path.join(args.rom_data, rel_stem + ".NCER")
+                rebuild_ncer_from_metadata(meta_json_path, out_ncer)
+                print(f"Successfully rebuilt cell bank '{out_ncer}'.")
             return 0
 
         out_ncg = os.path.join(args.rom_data, rel_stem + "_ncg.bin")

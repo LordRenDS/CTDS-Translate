@@ -806,6 +806,9 @@ def build_all_screens(
             out_ncgr = os.path.join(target_rom_data_dir, rel_stem + ".NCGR")
             try:
                 build_ncgr_sprite(png_path, meta_json_path, out_ncgr)
+                if meta.get("is_cell_sheet") and meta.get("ncer_path"):
+                    out_ncer = os.path.join(target_rom_data_dir, rel_stem + ".NCER")
+                    rebuild_ncer_from_metadata(meta_json_path, out_ncer)
                 built_count += 1
             except Exception as e:
                 print(f"Warning: Failed to build NCGR sprite {rel}: {e}")
