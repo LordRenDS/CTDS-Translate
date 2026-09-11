@@ -772,6 +772,7 @@ def build_all_screens(
     meta_dir: str,
     target_rom_data_dir: str,
     sub_dir: Optional[str] = None,
+    rebuild_ncer: bool = False,
 ) -> int:
     """Scans image_dir for translated PNGs and rebuilds them into target_rom_data_dir.
 
@@ -780,6 +781,7 @@ def build_all_screens(
         meta_dir: Folder containing metadata JSONs from original dump (e.g. 'extracted image').
         target_rom_data_dir: Target NitroFS data directory (e.g. 'extracted rom/data').
         sub_dir: Optional subfolder within image_dir to rebuild.
+        rebuild_ncer: Whether to rebuild corresponding .NCER cell bank files.
 
     Returns:
         int: Number of screens rebuilt.
@@ -794,7 +796,12 @@ def build_all_screens(
         rel = os.path.relpath(png_path, image_dir)
         rel_stem = os.path.splitext(rel)[0]
 
-        meta_json_path = os.path.join(meta_dir, rel_stem + ".json")
+        cand_img_json = os.path.join(image_dir, rel_stem + ".json")
+        if os.path.isfile(cand_img_json):
+            meta_json_path = cand_img_json
+        else:
+            meta_json_path = os.path.join(meta_dir, rel_stem + ".json")
+
         if not os.path.isfile(meta_json_path):
             print(f"Warning: Metadata JSON not found for {rel}: {meta_json_path}")
             continue
@@ -806,9 +813,10 @@ def build_all_screens(
             out_ncgr = os.path.join(target_rom_data_dir, rel_stem + ".NCGR")
             try:
                 build_ncgr_sprite(png_path, meta_json_path, out_ncgr)
-                if meta.get("is_cell_sheet") and meta.get("ncer_path"):
+                if rebuild_ncer and meta.get("is_cell_sheet") and meta.get("ncer_path"):
                     out_ncer = os.path.join(target_rom_data_dir, rel_stem + ".NCER")
                     rebuild_ncer_from_metadata(meta_json_path, out_ncer)
+                    print(f"Successfully rebuilt cell bank '{out_ncer}'.")
                 built_count += 1
             except Exception as e:
                 print(f"Warning: Failed to build NCGR sprite {rel}: {e}")

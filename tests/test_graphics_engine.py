@@ -517,4 +517,101 @@ def test_sprite_unified_cells_and_occluded_tiles(tmp_path):
     assert orig_decomp == reb_decomp
 
 
+def test_cli_build_graphics_ncer_flag_single(tmp_path):
+    from src.cli import main
+    from src.graphics_engine import dump_ncgr_sprite
+
+    ncgr = "extracted rom/data/menu/obj/icon.NCGR"
+    nclr = "extracted rom/data/menu/obj/icon.NCLR"
+    ncer = "extracted rom/data/menu/obj/icon.NCER"
+    if not os.path.isfile(ncgr) or not os.path.isfile(ncer):
+        pytest.skip("NCGR/NCER source files not found")
+
+    img_dir = os.path.join(tmp_path, "img")
+    target_rom_dir = os.path.join(tmp_path, "rom_data")
+    os.makedirs(os.path.join(img_dir, "menu", "obj"), exist_ok=True)
+    out_png = os.path.join(img_dir, "menu", "obj", "icon.png")
+    out_json = os.path.join(img_dir, "menu", "obj", "icon.json")
+
+    dump_ncgr_sprite(ncgr, nclr, out_png, out_json, ncer_path=ncer)
+
+    out_ncgr_file = os.path.join(target_rom_dir, "menu", "obj", "icon.NCGR")
+    out_ncer_file = os.path.join(target_rom_dir, "menu", "obj", "icon.NCER")
+
+    # 1. Without --ncer flag: NCGR should be built, but NCER should NOT be rebuilt
+    code = main([
+        "build-graphics",
+        "--screen", out_png,
+        "--meta-dir", img_dir,
+        "--rom-data", target_rom_dir,
+    ])
+    assert code == 0
+    assert os.path.isfile(out_ncgr_file)
+    assert not os.path.exists(out_ncer_file)
+
+    # 2. With --ncer flag: NCER should be rebuilt
+    code_with_ncer = main([
+        "build-graphics",
+        "--screen", out_png,
+        "--meta-dir", img_dir,
+        "--rom-data", target_rom_dir,
+        "--ncer",
+    ])
+    assert code_with_ncer == 0
+    assert os.path.isfile(out_ncer_file)
+    assert os.path.getsize(out_ncer_file) > 0
+
+
+def test_cli_build_graphics_ncer_flag_batch(tmp_path):
+    from src.cli import main
+    from src.graphics_engine import dump_ncgr_sprite
+
+    ncgr = "extracted rom/data/menu/obj/icon.NCGR"
+    nclr = "extracted rom/data/menu/obj/icon.NCLR"
+    ncer = "extracted rom/data/menu/obj/icon.NCER"
+    if not os.path.isfile(ncgr) or not os.path.isfile(ncer):
+        pytest.skip("NCGR/NCER source files not found")
+
+    img_dir = os.path.join(tmp_path, "translated_image")
+    meta_dir = os.path.join(tmp_path, "extracted_image")
+    target_rom_dir = os.path.join(tmp_path, "rom_data")
+    os.makedirs(os.path.join(img_dir, "menu", "obj"), exist_ok=True)
+    os.makedirs(os.path.join(meta_dir, "menu", "obj"), exist_ok=True)
+
+    trans_png = os.path.join(img_dir, "menu", "obj", "icon.png")
+    trans_json = os.path.join(img_dir, "menu", "obj", "icon.json")
+    meta_json = os.path.join(meta_dir, "menu", "obj", "icon.json")
+
+    # Dump metadata to both
+    dump_ncgr_sprite(ncgr, nclr, trans_png, trans_json, ncer_path=ncer)
+    dump_ncgr_sprite(ncgr, nclr, trans_png, meta_json, ncer_path=ncer)
+
+    out_ncgr_file = os.path.join(target_rom_dir, "menu", "obj", "icon.NCGR")
+    out_ncer_file = os.path.join(target_rom_dir, "menu", "obj", "icon.NCER")
+
+    # 1. Batch mode without --ncer: NCGR created, NCER not created
+    code = main([
+        "build-graphics",
+        "--image-dir", img_dir,
+        "--meta-dir", meta_dir,
+        "--rom-data", target_rom_dir,
+    ])
+    assert code == 0
+    assert os.path.isfile(out_ncgr_file)
+    assert not os.path.exists(out_ncer_file)
+
+    # 2. Batch mode with --ncer: NCER created
+    code_ncer = main([
+        "build-graphics",
+        "--image-dir", img_dir,
+        "--meta-dir", meta_dir,
+        "--rom-data", target_rom_dir,
+        "--ncer",
+    ])
+    assert code_ncer == 0
+    assert os.path.isfile(out_ncer_file)
+    assert os.path.getsize(out_ncer_file) > 0
+
+
+
 
