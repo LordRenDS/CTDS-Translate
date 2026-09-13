@@ -39,7 +39,7 @@
     "id": 6,
     "original_en": "G",
     "original_fr": "G",
-    "translation": ""
+    "translation": "З"
   },
   {
     "id": 7,
@@ -165,19 +165,19 @@
     "id": 27,
     "original_en": "{GLYPH:137}{GLYPH:130}",
     "original_fr": "{GLYPH:139}{GLYPH:140}",
-    "translation": ""
+    "translation": "УР"
   },
   {
     "id": 28,
     "original_en": "{GLYPH:138}{TAG:7D}",
     "original_fr": "{TAG:7D}{GLYPH:130}",
-    "translation": ""
+    "translation": "ОЗ"
   },
   {
     "id": 29,
     "original_en": "{GLYPH:131}{TAG:7D}",
     "original_fr": "{TAG:7D}{GLYPH:131}",
-    "translation": ""
+    "translation": "ОМ"
   },
   {
     "id": 30,
@@ -237,7 +237,7 @@
     "id": 39,
     "original_en": "Prehistory",
     "original_fr": "Préhistoire",
-    "translation": "Доисторический период"
+    "translation": "Доистор. период"
   },
   {
     "id": 40,
@@ -1131,7 +1131,7 @@
     "id": 188,
     "original_en": "Prehistory",
     "original_fr": "Préhistoire",
-    "translation": "Доисторический период"
+    "translation": "Доистор. период"
   },
   {
     "id": 189,

@@ -13,5 +13,7 @@
 !/extracted text/.gitkeep
 !/translated text/.gitkeep
 */__pycache__
+__pycache__/
 /.pytest_cache/
 /.zed/
+/build/

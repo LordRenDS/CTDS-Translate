@@ -1,0 +1,2994 @@
+{
+  "format": "NCGR",
+  "is_cell_sheet": true,
+  "is_8bpp": false,
+  "num_tiles": 364,
+  "sheet_width": 256,
+  "sheet_height": 307,
+  "compression_layers": 1,
+  "ncgr_path": "extracted rom/data/menu/obj/icon.NCGR",
+  "ncer_path": "extracted rom/data/menu/obj/icon.NCER",
+  "nclr_path": "extracted rom/data/menu/obj/icon.NCLR",
+  "base_palette_index": 0,
+  "occluded_tiles": {
+    "1": "00000000110000005711000077370100757713007c7715005c773701c5773701",
+    "3": "cc753701577c3501777c13007737130057330100331100001100000000000000",
+    "212": "0010111100107777000071770000107700000071000000100000000000000000",
+    "214": "0000000000000000000000000000110000113311114533331051554400101111",
+    "5": "0000000077000000da770000aa5a0700adaa7500a6aa7d00d6aa5a076daa5a07",
+    "7": "66ad5a07daa65d07aaa67500aa5a7500da550700557700007700000000000000",
+    "216": "007077770070aaaa0000a7aa000070aa000000a7000000700000000000000000",
+    "218": "000000000000000000000000000077000077447777ed444470d7ddee00707777",
+    "9": "000000001100000057110000773701006c771300c4771500c57737017c773701",
+    "11": "c4773701c57735016c7713007737130057330100331100001100000000000000",
+    "13": "0000000077000000da770000aa5a0700b6aa75006faa7d006daa5a07a6aa5a07",
+    "15": "6faa5a076daa5d07b6aa7500aa5a7500da550700557700007700000000000000",
+    "17": "00000000110000005711000077370100c6771300c37715007c77370176773701",
+    "19": "7c773701c3773501c67713007737130057330100331100001100000000000000",
+    "21": "0000000077000000da770000aa4a07006aaa740064aa7d00a6aa4a07aaaa4a07",
+    "23": "a6aa4a0764aa4d076aaa7400aa4a7400da440700447700007700000000000000",
+    "25": "00000000110000005711000077370100c7731300c67515003c77370163773701",
+    "27": "7477370174773501747713007737130057330100331100001100000000000000",
+    "29": "0000000077000000da770000aa4a07006aa474006aad7d0046aa4a07a4aa4a07",
+    "31": "aeaa4a07aeaa4d07aeaa7400aa4a7400da440700447700007700000000000000",
+    "248": "0000000010111011101711171017171710171717007177110071711100101101",
+    "249": "0000000000101111007171771077711171717177777771711771711111101101",
+    "250": "0000000000110100117717001717710117777701111711011717000011110000",
+    "2": "1077c5cc10755c7700717c770031777700105377000011330000001100000000",
+    "252": "0000000000770077707177717071717170717171701711770017177700707707",
+    "253": "0000000000707777001717117011177717171711111117177117177777707707",
+    "254": "0000000000770700771171007171170771111107777177077171000077770000",
+    "6": "70aa6d6670add6aa00a7a6aa0057aaaa0070d5aa000077550000007700000000",
+    "10": "1077c7651075c7750071c7cc0031777700105377000011330000001100000000",
+    "14": "70aa6abd70ad6aad00a76a660057aaaa0070d5aa000077550000007700000000",
+    "18": "1077773c1075c7730071c7760031777700105377000011330000001100000000",
+    "22": "70aaaa4670ad6aa400a76aaa0047aaaa0070d4aa000077440000007700000000",
+    "26": "107777c6107577c7007177c70031777700105377000011330000001100000000",
+    "30": "70aaaa6a70adaa6a00a7aa6a0047aaaa0070d4aa000077440000007700000000"
+  },
+  "padding_byte": 204,
+  "components": [
+    {
+      "type": "cell",
+      "cell_idx": 0,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 0,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 8,
+      "canvas_y": 8
+    },
+    {
+      "type": "cell",
+      "cell_idx": 1,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 4,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 32,
+      "canvas_y": 8
+    },
+    {
+      "type": "cell",
+      "cell_idx": 2,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 8,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 56,
+      "canvas_y": 8
+    },
+    {
+      "type": "cell",
+      "cell_idx": 3,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 12,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 80,
+      "canvas_y": 8
+    },
+    {
+      "type": "cell",
+      "cell_idx": 4,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 16,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 104,
+      "canvas_y": 8
+    },
+    {
+      "type": "cell",
+      "cell_idx": 5,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 20,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 128,
+      "canvas_y": 8
+    },
+    {
+      "type": "cell",
+      "cell_idx": 6,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 24,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 152,
+      "canvas_y": 8
+    },
+    {
+      "type": "cell",
+      "cell_idx": 7,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 28,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 176,
+      "canvas_y": 8
+    },
+    {
+      "type": "cell",
+      "cell_idx": 8,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 32,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 200,
+      "canvas_y": 8
+    },
+    {
+      "type": "cell",
+      "cell_idx": 9,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 36,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 224,
+      "canvas_y": 8
+    },
+    {
+      "type": "cell",
+      "cell_idx": 10,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 40,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 8,
+      "canvas_y": 32
+    },
+    {
+      "type": "cell",
+      "cell_idx": 11,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 44,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 32,
+      "canvas_y": 32
+    },
+    {
+      "type": "cell",
+      "cell_idx": 12,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 32,
+      "height": 8,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 8,
+          "tile": 48,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 56,
+      "canvas_y": 32
+    },
+    {
+      "type": "cell",
+      "cell_idx": 13,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 32,
+      "height": 8,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 8,
+          "tile": 52,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 96,
+      "canvas_y": 32
+    },
+    {
+      "type": "cell",
+      "cell_idx": 14,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 32,
+      "height": 8,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 8,
+          "tile": 56,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 136,
+      "canvas_y": 32
+    },
+    {
+      "type": "cell",
+      "cell_idx": 15,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 32,
+      "height": 8,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 8,
+          "tile": 60,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 176,
+      "canvas_y": 32
+    },
+    {
+      "type": "cell",
+      "cell_idx": 16,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 64,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 216,
+      "canvas_y": 32
+    },
+    {
+      "type": "cell",
+      "cell_idx": 17,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 68,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 8,
+      "canvas_y": 56
+    },
+    {
+      "type": "cell",
+      "cell_idx": 18,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 72,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 32,
+      "canvas_y": 56
+    },
+    {
+      "type": "cell",
+      "cell_idx": 19,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 76,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 56,
+      "canvas_y": 56
+    },
+    {
+      "type": "cell",
+      "cell_idx": 20,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 80,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 80,
+      "canvas_y": 56
+    },
+    {
+      "type": "cell",
+      "cell_idx": 21,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 84,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 104,
+      "canvas_y": 56
+    },
+    {
+      "type": "cell",
+      "cell_idx": 22,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 88,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 128,
+      "canvas_y": 56
+    },
+    {
+      "type": "cell",
+      "cell_idx": 23,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 92,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 152,
+      "canvas_y": 56
+    },
+    {
+      "type": "cell",
+      "cell_idx": 24,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 96,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 176,
+      "canvas_y": 56
+    },
+    {
+      "type": "cell",
+      "cell_idx": 25,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 100,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 200,
+      "canvas_y": 56
+    },
+    {
+      "type": "cell",
+      "cell_idx": 26,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 104,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 224,
+      "canvas_y": 56
+    },
+    {
+      "type": "cell",
+      "cell_idx": 27,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 108,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 8,
+      "canvas_y": 80
+    },
+    {
+      "type": "cell",
+      "cell_idx": 28,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 112,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 32,
+      "canvas_y": 80
+    },
+    {
+      "type": "cell",
+      "cell_idx": 29,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 116,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 56,
+      "canvas_y": 80
+    },
+    {
+      "type": "cell",
+      "cell_idx": 30,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 120,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 80,
+      "canvas_y": 80
+    },
+    {
+      "type": "cell",
+      "cell_idx": 31,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 124,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 104,
+      "canvas_y": 80
+    },
+    {
+      "type": "cell",
+      "cell_idx": 32,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 128,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 128,
+      "canvas_y": 80
+    },
+    {
+      "type": "cell",
+      "cell_idx": 33,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 132,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 152,
+      "canvas_y": 80
+    },
+    {
+      "type": "cell",
+      "cell_idx": 34,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 136,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 176,
+      "canvas_y": 80
+    },
+    {
+      "type": "cell",
+      "cell_idx": 35,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 140,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 200,
+      "canvas_y": 80
+    },
+    {
+      "type": "cell",
+      "cell_idx": 36,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 144,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 224,
+      "canvas_y": 80
+    },
+    {
+      "type": "cell",
+      "cell_idx": 37,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 148,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 8,
+      "canvas_y": 104
+    },
+    {
+      "type": "cell",
+      "cell_idx": 38,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 152,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 32,
+      "canvas_y": 104
+    },
+    {
+      "type": "cell",
+      "cell_idx": 39,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 156,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 56,
+      "canvas_y": 104
+    },
+    {
+      "type": "cell",
+      "cell_idx": 40,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 160,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 80,
+      "canvas_y": 104
+    },
+    {
+      "type": "cell",
+      "cell_idx": 41,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 164,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 104,
+      "canvas_y": 104
+    },
+    {
+      "type": "cell",
+      "cell_idx": 42,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 168,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 128,
+      "canvas_y": 104
+    },
+    {
+      "type": "cell",
+      "cell_idx": 43,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 172,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 152,
+      "canvas_y": 104
+    },
+    {
+      "type": "cell",
+      "cell_idx": 44,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 176,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 176,
+      "canvas_y": 104
+    },
+    {
+      "type": "cell",
+      "cell_idx": 45,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 16,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 180,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 200,
+      "canvas_y": 104
+    },
+    {
+      "type": "cell",
+      "cell_idx": 46,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 32,
+      "height": 8,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 8,
+          "tile": 184,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 8,
+      "canvas_y": 128
+    },
+    {
+      "type": "cell",
+      "cell_idx": 47,
+      "min_x": 0,
+      "min_y": -8,
+      "width": 24,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": -8,
+          "w": 8,
+          "h": 8,
+          "tile": 188,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 8,
+          "tile": 192,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 196,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 48,
+      "canvas_y": 128
+    },
+    {
+      "type": "cell",
+      "cell_idx": 48,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 32,
+      "height": 8,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 8,
+          "tile": 200,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 80,
+      "canvas_y": 128
+    },
+    {
+      "type": "cell",
+      "cell_idx": 49,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 40,
+      "height": 8,
+      "oams": [
+        {
+          "x": 32,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 204,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 8,
+          "tile": 208,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 120,
+      "canvas_y": 128
+    },
+    {
+      "type": "cell",
+      "cell_idx": 50,
+      "min_x": 3,
+      "min_y": -1,
+      "width": 24,
+      "height": 17,
+      "oams": [
+        {
+          "x": 3,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 0,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 11,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 212,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 168,
+      "canvas_y": 128
+    },
+    {
+      "type": "cell",
+      "cell_idx": 51,
+      "min_x": 3,
+      "min_y": -1,
+      "width": 24,
+      "height": 17,
+      "oams": [
+        {
+          "x": 3,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 4,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 11,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 216,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 200,
+      "canvas_y": 128
+    },
+    {
+      "type": "cell",
+      "cell_idx": 52,
+      "min_x": 3,
+      "min_y": -1,
+      "width": 24,
+      "height": 17,
+      "oams": [
+        {
+          "x": 3,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 8,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 11,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 212,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 8,
+      "canvas_y": 153
+    },
+    {
+      "type": "cell",
+      "cell_idx": 53,
+      "min_x": 3,
+      "min_y": -1,
+      "width": 24,
+      "height": 17,
+      "oams": [
+        {
+          "x": 3,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 12,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 11,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 216,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 40,
+      "canvas_y": 153
+    },
+    {
+      "type": "cell",
+      "cell_idx": 54,
+      "min_x": 3,
+      "min_y": -1,
+      "width": 24,
+      "height": 17,
+      "oams": [
+        {
+          "x": 3,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 16,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 11,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 212,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 72,
+      "canvas_y": 153
+    },
+    {
+      "type": "cell",
+      "cell_idx": 55,
+      "min_x": 3,
+      "min_y": -1,
+      "width": 24,
+      "height": 17,
+      "oams": [
+        {
+          "x": 3,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 20,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 11,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 216,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 104,
+      "canvas_y": 153
+    },
+    {
+      "type": "cell",
+      "cell_idx": 56,
+      "min_x": 3,
+      "min_y": -1,
+      "width": 24,
+      "height": 17,
+      "oams": [
+        {
+          "x": 3,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 24,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 11,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 212,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 136,
+      "canvas_y": 153
+    },
+    {
+      "type": "cell",
+      "cell_idx": 57,
+      "min_x": 3,
+      "min_y": -1,
+      "width": 24,
+      "height": 17,
+      "oams": [
+        {
+          "x": 3,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 28,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 11,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 216,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 168,
+      "canvas_y": 153
+    },
+    {
+      "type": "cell",
+      "cell_idx": 58,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 32,
+      "height": 8,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 8,
+          "tile": 220,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 200,
+      "canvas_y": 153
+    },
+    {
+      "type": "cell",
+      "cell_idx": 59,
+      "min_x": 0,
+      "min_y": -8,
+      "width": 24,
+      "height": 16,
+      "oams": [
+        {
+          "x": 0,
+          "y": -8,
+          "w": 8,
+          "h": 8,
+          "tile": 224,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 8,
+          "tile": 228,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 232,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 8,
+      "canvas_y": 178
+    },
+    {
+      "type": "cell",
+      "cell_idx": 60,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 32,
+      "height": 8,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 8,
+          "tile": 236,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 40,
+      "canvas_y": 178
+    },
+    {
+      "type": "cell",
+      "cell_idx": 61,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 40,
+      "height": 8,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 8,
+          "tile": 240,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 244,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 80,
+      "canvas_y": 178
+    },
+    {
+      "type": "cell",
+      "cell_idx": 62,
+      "min_x": 4,
+      "min_y": -1,
+      "width": 32,
+      "height": 17,
+      "oams": [
+        {
+          "x": 4,
+          "y": 8,
+          "w": 32,
+          "h": 8,
+          "tile": 248,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 0,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 128,
+      "canvas_y": 178
+    },
+    {
+      "type": "cell",
+      "cell_idx": 63,
+      "min_x": 4,
+      "min_y": -1,
+      "width": 32,
+      "height": 17,
+      "oams": [
+        {
+          "x": 4,
+          "y": 8,
+          "w": 32,
+          "h": 8,
+          "tile": 252,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 4,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 168,
+      "canvas_y": 178
+    },
+    {
+      "type": "cell",
+      "cell_idx": 64,
+      "min_x": 4,
+      "min_y": -1,
+      "width": 32,
+      "height": 17,
+      "oams": [
+        {
+          "x": 4,
+          "y": 8,
+          "w": 32,
+          "h": 8,
+          "tile": 248,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 8,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 208,
+      "canvas_y": 178
+    },
+    {
+      "type": "cell",
+      "cell_idx": 65,
+      "min_x": 4,
+      "min_y": -1,
+      "width": 32,
+      "height": 17,
+      "oams": [
+        {
+          "x": 4,
+          "y": 8,
+          "w": 32,
+          "h": 8,
+          "tile": 252,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 12,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 8,
+      "canvas_y": 203
+    },
+    {
+      "type": "cell",
+      "cell_idx": 66,
+      "min_x": 4,
+      "min_y": -1,
+      "width": 32,
+      "height": 17,
+      "oams": [
+        {
+          "x": 4,
+          "y": 8,
+          "w": 32,
+          "h": 8,
+          "tile": 248,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 16,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 48,
+      "canvas_y": 203
+    },
+    {
+      "type": "cell",
+      "cell_idx": 67,
+      "min_x": 4,
+      "min_y": -1,
+      "width": 32,
+      "height": 17,
+      "oams": [
+        {
+          "x": 4,
+          "y": 8,
+          "w": 32,
+          "h": 8,
+          "tile": 252,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 20,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 88,
+      "canvas_y": 203
+    },
+    {
+      "type": "cell",
+      "cell_idx": 68,
+      "min_x": 4,
+      "min_y": -1,
+      "width": 32,
+      "height": 17,
+      "oams": [
+        {
+          "x": 4,
+          "y": 8,
+          "w": 32,
+          "h": 8,
+          "tile": 248,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 24,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 128,
+      "canvas_y": 203
+    },
+    {
+      "type": "cell",
+      "cell_idx": 69,
+      "min_x": 4,
+      "min_y": -1,
+      "width": 32,
+      "height": 17,
+      "oams": [
+        {
+          "x": 4,
+          "y": 8,
+          "w": 32,
+          "h": 8,
+          "tile": 252,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": -1,
+          "w": 16,
+          "h": 16,
+          "tile": 28,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 168,
+      "canvas_y": 203
+    },
+    {
+      "type": "cell",
+      "cell_idx": 70,
+      "min_x": -4,
+      "min_y": -4,
+      "width": 24,
+      "height": 24,
+      "oams": [
+        {
+          "x": 4,
+          "y": 4,
+          "w": 16,
+          "h": 16,
+          "tile": 256,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": -4,
+          "y": -4,
+          "w": 8,
+          "h": 16,
+          "tile": 260,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 208,
+      "canvas_y": 203
+    },
+    {
+      "type": "cell",
+      "cell_idx": 71,
+      "min_x": -4,
+      "min_y": 0,
+      "width": 24,
+      "height": 24,
+      "oams": [
+        {
+          "x": -4,
+          "y": 0,
+          "w": 16,
+          "h": 16,
+          "tile": 264,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 12,
+          "y": 0,
+          "w": 8,
+          "h": 16,
+          "tile": 268,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": -4,
+          "y": 16,
+          "w": 16,
+          "h": 8,
+          "tile": 272,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 12,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 276,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 8,
+      "canvas_y": 235
+    },
+    {
+      "type": "cell",
+      "cell_idx": 72,
+      "min_x": -4,
+      "min_y": -4,
+      "width": 24,
+      "height": 24,
+      "oams": [
+        {
+          "x": -4,
+          "y": -4,
+          "w": 16,
+          "h": 16,
+          "tile": 280,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 12,
+          "y": -4,
+          "w": 8,
+          "h": 16,
+          "tile": 284,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": -4,
+          "y": 12,
+          "w": 16,
+          "h": 8,
+          "tile": 288,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 12,
+          "y": 12,
+          "w": 8,
+          "h": 8,
+          "tile": 292,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 40,
+      "canvas_y": 235
+    },
+    {
+      "type": "cell",
+      "cell_idx": 73,
+      "min_x": -1,
+      "min_y": -4,
+      "width": 16,
+      "height": 24,
+      "oams": [
+        {
+          "x": -1,
+          "y": -4,
+          "w": 16,
+          "h": 16,
+          "tile": 296,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": -1,
+          "y": 12,
+          "w": 16,
+          "h": 8,
+          "tile": 300,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 72,
+      "canvas_y": 235
+    },
+    {
+      "type": "cell",
+      "cell_idx": 74,
+      "min_x": -4,
+      "min_y": -2,
+      "width": 24,
+      "height": 24,
+      "oams": [
+        {
+          "x": 0,
+          "y": 14,
+          "w": 16,
+          "h": 8,
+          "tile": 304,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": -4,
+          "y": -2,
+          "w": 16,
+          "h": 16,
+          "tile": 308,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 12,
+          "y": -2,
+          "w": 8,
+          "h": 16,
+          "tile": 312,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 96,
+      "canvas_y": 235
+    },
+    {
+      "type": "cell",
+      "cell_idx": 75,
+      "min_x": -3,
+      "min_y": -4,
+      "width": 24,
+      "height": 24,
+      "oams": [
+        {
+          "x": 13,
+          "y": 4,
+          "w": 8,
+          "h": 8,
+          "tile": 316,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": -3,
+          "y": -4,
+          "w": 16,
+          "h": 16,
+          "tile": 320,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": -3,
+          "y": 12,
+          "w": 16,
+          "h": 8,
+          "tile": 324,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 13,
+          "y": 12,
+          "w": 8,
+          "h": 8,
+          "tile": 328,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 128,
+      "canvas_y": 235
+    },
+    {
+      "type": "cell",
+      "cell_idx": 76,
+      "min_x": -1,
+      "min_y": -4,
+      "width": 16,
+      "height": 24,
+      "oams": [
+        {
+          "x": -1,
+          "y": -4,
+          "w": 16,
+          "h": 16,
+          "tile": 332,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": -1,
+          "y": 12,
+          "w": 16,
+          "h": 8,
+          "tile": 336,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 160,
+      "canvas_y": 235
+    },
+    {
+      "type": "cell",
+      "cell_idx": 77,
+      "min_x": -1,
+      "min_y": -4,
+      "width": 16,
+      "height": 24,
+      "oams": [
+        {
+          "x": -1,
+          "y": -4,
+          "w": 16,
+          "h": 16,
+          "tile": 340,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": -1,
+          "y": 12,
+          "w": 16,
+          "h": 8,
+          "tile": 344,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 184,
+      "canvas_y": 235
+    },
+    {
+      "type": "cell",
+      "cell_idx": 78,
+      "min_x": -1,
+      "min_y": -4,
+      "width": 16,
+      "height": 24,
+      "oams": [
+        {
+          "x": -1,
+          "y": -4,
+          "w": 16,
+          "h": 16,
+          "tile": 348,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": -1,
+          "y": 12,
+          "w": 16,
+          "h": 8,
+          "tile": 352,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 208,
+      "canvas_y": 235
+    },
+    {
+      "type": "cell",
+      "cell_idx": 79,
+      "min_x": -1,
+      "min_y": -4,
+      "width": 16,
+      "height": 24,
+      "oams": [
+        {
+          "x": -1,
+          "y": -4,
+          "w": 16,
+          "h": 16,
+          "tile": 356,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": -1,
+          "y": 12,
+          "w": 16,
+          "h": 8,
+          "tile": 360,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 232,
+      "canvas_y": 235
+    },
+    {
+      "type": "uncovered",
+      "cell_idx": -1,
+      "min_x": 0,
+      "min_y": 0,
+      "width": 128,
+      "height": 32,
+      "oams": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 189,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 190,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 191,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 24,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 194,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 195,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 40,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 197,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 198,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 56,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 199,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 205,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 72,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 206,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 80,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 207,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 88,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 225,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 226,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 104,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 227,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 112,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 230,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 120,
+          "y": 0,
+          "w": 8,
+          "h": 8,
+          "tile": 231,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 233,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 234,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 16,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 235,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 24,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 245,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 32,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 246,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 40,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 247,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 48,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 262,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 56,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 263,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 64,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 270,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 72,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 271,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 80,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 274,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 88,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 275,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 96,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 277,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 104,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 278,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 112,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 279,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 120,
+          "y": 8,
+          "w": 8,
+          "h": 8,
+          "tile": 286,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 287,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 290,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 16,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 291,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 24,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 293,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 32,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 294,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 40,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 295,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 48,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 302,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 56,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 303,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 64,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 306,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 72,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 307,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 80,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 314,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 88,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 315,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 96,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 317,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 104,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 318,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 112,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 319,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 120,
+          "y": 16,
+          "w": 8,
+          "h": 8,
+          "tile": 326,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 0,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 327,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 8,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 329,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 16,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 330,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 24,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 331,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 32,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 338,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 40,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 339,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 48,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 346,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 56,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 347,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 64,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 354,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 72,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 355,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 80,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 362,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        },
+        {
+          "x": 88,
+          "y": 24,
+          "w": 8,
+          "h": 8,
+          "tile": 363,
+          "pal": 0,
+          "rot": 0,
+          "hflip": 0,
+          "vflip": 0
+        }
+      ],
+      "canvas_x": 8,
+      "canvas_y": 267
+    }
+  ],
+  "header_bytes": "5247434efffe0101b02d00001000010052414843a02d0000ffffffff030000001000200000000000802d000018000000"
+}

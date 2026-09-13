@@ -3,157 +3,157 @@
     "id": 0,
     "original_en": "Attack",
     "original_fr": "Attaquer",
-    "translation": ""
+    "translation": "Атака"
   },
   {
     "id": 1,
     "original_en": "Tech",
     "original_fr": "Solos",
-    "translation": ""
+    "translation": "Техника"
   },
   {
     "id": 2,
     "original_en": "Combo",
     "original_fr": "Combos",
-    "translation": ""
+    "translation": "Комбо"
   },
   {
     "id": 3,
     "original_en": "Item",
     "original_fr": "Objets",
-    "translation": ""
+    "translation": "Предмет"
   },
   {
     "id": 4,
     "original_en": "Escape",
     "original_fr": "Fuite",
-    "translation": ""
+    "translation": "Побег"
   },
   {
     "id": 5,
     "original_en": "Single Tech",
     "original_fr": "Solos",
-    "translation": ""
+    "translation": "Один. Техн."
   },
   {
     "id": 6,
     "original_en": "Dual Tech",
     "original_fr": "Duos",
-    "translation": ""
+    "translation": "Двойн. Техн."
   },
   {
     "id": 7,
     "original_en": "Triple Tech",
     "original_fr": "Trios",
-    "translation": ""
+    "translation": "Тройн. Техн."
   },
   {
     "id": 8,
     "original_en": "Poison",
     "original_fr": "Poison",
-    "translation": ""
+    "translation": "Зелье"
   },
   {
     "id": 9,
     "original_en": "Slow",
     "original_fr": "Lenteur",
-    "translation": ""
+    "translation": "Медлит."
   },
   {
     "id": 10,
     "original_en": "Sleep",
     "original_fr": "Sommeil",
-    "translation": ""
+    "translation": "Сон"
   },
   {
     "id": 11,
     "original_en": "Confuse",
     "original_fr": "Confusion",
-    "translation": ""
+    "translation": "Контужен"
   },
   {
     "id": 12,
     "original_en": "Blind",
     "original_fr": "Cécité",
-    "translation": ""
+    "translation": "Слепота"
   },
   {
     "id": 13,
     "original_en": "Lock",
     "original_fr": "Oubli",
-    "translation": ""
+    "translation": "Блок"
   },
   {
     "id": 14,
     "original_en": "Stop",
     "original_fr": "Stop",
-    "translation": ""
+    "translation": "Стоп"
   },
   {
     "id": 15,
     "original_en": "Sap",
     "original_fr": "Nécrose",
-    "translation": ""
+    "translation": "Паралич"
   },
   {
     "id": 16,
     "original_en": "Omnilock",
     "original_fr": "Oubli total",
-    "translation": ""
+    "translation": "Забвение"
   },
   {
     "id": 17,
     "original_en": "Curse",
     "original_fr": "Anti-protection",
-    "translation": ""
+    "translation": "Проклятие"
   },
   {
     "id": 18,
     "original_en": "KO",
     "original_fr": "Coma",
-    "translation": ""
+    "translation": "Нокаут"
   },
   {
     "id": 19,
     "original_en": "Haste",
     "original_fr": "Célérité",
-    "translation": ""
+    "translation": "Спешка"
   },
   {
     "id": 20,
     "original_en": "Protect",
     "original_fr": "Bouclier",
-    "translation": ""
+    "translation": "Защита"
   },
   {
     "id": 21,
     "original_en": "Barrier",
     "original_fr": "Barrière",
-    "translation": ""
+    "translation": "Барьер"
   },
   {
     "id": 22,
     "original_en": "Reraise",
     "original_fr": "Auréole",
-    "translation": ""
+    "translation": "Воскр."
   },
   {
     "id": 23,
     "original_en": "Berserk",
     "original_fr": "Furie",
-    "translation": ""
+    "translation": "Берсерк"
   },
   {
     "id": 24,
     "original_en": "Enemies:",
     "original_fr": "Ennemi(s)",
-    "translation": ""
+    "translation": "Враги:"
   },
   {
     "id": 25,
     "original_en": "Obtained",
     "original_fr": "Gagné : ",
-    "translation": ""
+    "translation": "Получено"
   },
   {
     "id": 26,
@@ -165,13 +165,13 @@
     "id": 27,
     "original_en": "EXP",
     "original_fr": "EXP",
-    "translation": ""
+    "translation": "Опыт"
   },
   {
     "id": 28,
     "original_en": "TP",
     "original_fr": "PC",
-    "translation": ""
+    "translation": "ОТ"
   },
   {
     "id": 29,
@@ -183,7 +183,7 @@
     "id": 30,
     "original_en": "G",
     "original_fr": "G",
-    "translation": ""
+    "translation": "З"
   },
   {
     "id": 31,
@@ -195,13 +195,13 @@
     "id": 32,
     "original_en": "{GLYPH:389}'s level\nincreased!",
     "original_fr": "Le niveau de {GLYPH:389}\naugmente !",
-    "translation": ""
+    "translation": "{GLYPH:389} уровень\nувеличился!"
   },
   {
     "id": 33,
     "original_en": "LV",
     "original_fr": "Niv.",
-    "translation": ""
+    "translation": "УР"
   },
   {
     "id": 34,
@@ -213,7 +213,7 @@
     "id": 35,
     "original_en": "{GLYPH:389} learned ",
     "original_fr": "{GLYPH:389} apprend",
-    "translation": ""
+    "translation": "{GLYPH:389} изучил "
   },
   {
     "id": 36,
@@ -225,67 +225,67 @@
     "id": 37,
     "original_en": "Earned {GLYPH:367} EXP.",
     "original_fr": "Gagné : {GLYPH:367} EXP !",
-    "translation": ""
+    "translation": "Получено {GLYPH:367} Опыта."
   },
   {
     "id": 38,
     "original_en": "Earned {GLYPH:367} TP.",
     "original_fr": "Gagné : {GLYPH:367} PC !",
-    "translation": ""
+    "translation": "Получено {GLYPH:367} ОТ."
   },
   {
     "id": 39,
     "original_en": "Found {GLYPH:367} G.",
     "original_fr": "Gagné : {GLYPH:367} G !",
-    "translation": ""
+    "translation": "Найдено {GLYPH:367} З."
   },
   {
     "id": 40,
     "original_en": "Obtained {GLYPH:385}.",
     "original_fr": "Obtenu : {GLYPH:385} !",
-    "translation": ""
+    "translation": "Получено {GLYPH:385}."
   },
   {
     "id": 41,
     "original_en": "{GLYPH:389}'s level increased!",
     "original_fr": "Le niveau de {GLYPH:389} augmente !",
-    "translation": ""
+    "translation": "{GLYPH:389} уровень увеличился!"
   },
   {
     "id": 42,
     "original_en": "{GLYPH:389} learned {GLYPH:390}!",
     "original_fr": "{GLYPH:389} apprend {GLYPH:390} !",
-    "translation": ""
+    "translation": "{GLYPH:389} изучил {GLYPH:390}!"
   },
   {
     "id": 43,
     "original_en": "Learned {GLYPH:390} dual tech!",
     "original_fr": "Duo {GLYPH:390} appris !",
-    "translation": ""
+    "translation": "Изучил {GLYPH:390} двойную технику!"
   },
   {
     "id": 44,
     "original_en": "Learned {GLYPH:390} triple tech!",
     "original_fr": "Trio {GLYPH:390} appris !",
-    "translation": ""
+    "translation": "Изучил {GLYPH:390} тройную технику!"
   },
   {
     "id": 45,
     "original_en": "Escaped!",
     "original_fr": "Fuite !",
-    "translation": ""
+    "translation": "Сбежал!"
   },
   {
     "id": 46,
     "original_en": "Can't escape!",
     "original_fr": "Fuite impossible !",
-    "translation": ""
+    "translation": "Нельзя сбежать!"
   },
   {
     "id": 47,
     "original_en": "Enemy has nothing to give but gratitude.",
     "original_fr": "Ça ne lui a pas plu...",
-    "translation": ""
+    "translation": "Враг не может дать ничего,\nкроме благодарности."
   },
   {
     "id": 48,
@@ -297,6 +297,6 @@
     "id": 49,
     "original_en": "{GLYPH:389} got back up!",
     "original_fr": "{GLYPH:389} se relève !",
-    "translation": ""
+    "translation": "{GLYPH:389} снова встал на ноги!"
   }
 ]
