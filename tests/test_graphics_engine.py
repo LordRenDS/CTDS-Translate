@@ -2,6 +2,7 @@
 
 import os
 import struct
+import json
 import pytest
 from src.graphics_engine import (
     decompress_stream,
@@ -611,6 +612,148 @@ def test_cli_build_graphics_ncer_flag_batch(tmp_path):
     assert code_ncer == 0
     assert os.path.isfile(out_ncer_file)
     assert os.path.getsize(out_ncer_file) > 0
+
+
+def test_find_palette_for_chara_and_trans():
+    from src.graphics_engine import find_palette_for_sprite
+
+    # Chara/Chara_0000 -> Chara/ObjPlt_0000.NCLR
+    chara_ncgr = "extracted rom/data/Chara/Chara_0000.NCGR"
+    if os.path.isfile(chara_ncgr):
+        pal = find_palette_for_sprite(chara_ncgr)
+        assert pal is not None
+        assert "ObjPlt_0000.NCLR" in os.path.basename(pal)
+
+    # Chara_Trans/Chara_0000 -> Chara/ObjPlt_0000.NCLR
+    trans_ncgr = "extracted rom/data/Chara_Trans/Chara_0000.NCGR"
+    if os.path.isfile(trans_ncgr):
+        pal = find_palette_for_sprite(trans_ncgr)
+        assert pal is not None
+        assert "ObjPlt_0000.NCLR" in os.path.basename(pal)
+
+
+def test_find_palette_for_effect_and_wireless():
+    from src.graphics_engine import find_palette_for_sprite
+
+    # effect/obj/ObjEffect_010.NCGR -> effect/obj/ObjEffect.NCLR
+    eff_ncgr = "extracted rom/data/effect/obj/ObjEffect_010.NCGR"
+    if os.path.isfile(eff_ncgr):
+        pal = find_palette_for_sprite(eff_ncgr)
+        assert pal is not None
+        assert os.path.basename(pal) == "ObjEffect.NCLR"
+
+    # wireless/obj/obj_efe_cmu_02_0.NCGR -> wireless/obj/obj_efe_cmu_02.NCLR
+    wire_ncgr = "extracted rom/data/wireless/obj/obj_efe_cmu_02_0.NCGR"
+    if os.path.isfile(wire_ncgr):
+        pal = find_palette_for_sprite(wire_ncgr)
+        assert pal is not None
+        assert os.path.basename(pal) == "obj_efe_cmu_02.NCLR"
+
+
+def test_find_palette_for_worldmap():
+    from src.graphics_engine import find_palette_for_sprite
+
+    # WorldMap/WorldObj_0001.NCGR -> WorldMap/WorldObjPlt_0001.NCLR
+    wobj_ncgr = "extracted rom/data/WorldMap/WorldObj_0001.NCGR"
+    if os.path.isfile(wobj_ncgr):
+        pal = find_palette_for_sprite(wobj_ncgr)
+        assert pal is not None
+        assert os.path.basename(pal) == "WorldObjPlt_0001.NCLR"
+
+
+def test_find_palette_for_minimap_screen():
+    from src.graphics_engine import find_palette_for_screen
+
+    # menu/bg/minimap_002_nsc.bin -> menu/bg/minimap_000_ncl.bin
+    mmap_nsc = "extracted rom/data/menu/bg/minimap_002_nsc.bin"
+    if os.path.isfile(mmap_nsc):
+        pal = find_palette_for_screen(mmap_nsc)
+        assert pal is not None
+        assert os.path.basename(pal) == "minimap_000_ncl.bin"
+
+
+def test_fallback_grayscale_palette_banks(tmp_path):
+    from PIL import Image
+    from src.graphics_engine import dump_ncgr_sprite
+
+    # Create dummy 4bpp NCGR without NCLR
+    ncgr_path = os.path.join(tmp_path, "dummy.NCGR")
+    # Minimal NCGR binary header: 'RGCN', size, ...
+    rahc_header = struct.pack("<4sIHHIIIII", b"RAHC", 32 + 32, 1, 1, 3, 0, 0, 32, 24)
+    # Fill tile with nibble 1 (color 1)
+    tile_data = b"\x11" * 32
+    rgcn_header = struct.pack("<4sHHI", b"RGCN", 0xFEFF, 0x0101, 16 + len(rahc_header) + len(tile_data)) + b"\x00" * 4
+    with open(ncgr_path, "wb") as f:
+        f.write(rgcn_header + rahc_header + tile_data)
+
+    out_png = os.path.join(tmp_path, "dummy.png")
+    out_json = os.path.join(tmp_path, "dummy.json")
+    dump_ncgr_sprite(ncgr_path, None, out_png, out_json)
+
+    # Check that palette in dummy.png has distinct ramp per bank and is not solid white for banks 1..15
+    with Image.open(out_png) as img:
+        palette = img.getpalette()
+        assert palette is not None
+        # Color 0 of bank 1 (index 16) should be black (0, 0, 0), not pure white (255, 255, 255)
+        r0 = palette[16 * 3]
+        assert r0 == 0
+        # Color 1 of bank 1 (index 17) should be 17, not 255
+        r1 = palette[17 * 3]
+        assert r1 == 17
+
+
+def test_face_multi_palette_dump(tmp_path):
+    from PIL import Image
+    from src.graphics_engine import dump_ncgr_sprite
+
+    face_ncgr = "extracted rom/data/menu/obj/face.NCGR"
+    face_nclr = "extracted rom/data/menu/obj/face.NCLR"
+    face_ncer = "extracted rom/data/menu/obj/face.NCER"
+    if not (os.path.isfile(face_ncgr) and os.path.isfile(face_nclr) and os.path.isfile(face_ncer)):
+        pytest.skip("Face source files not found")
+
+    out_png = os.path.join(tmp_path, "face.png")
+    out_json = os.path.join(tmp_path, "face.json")
+    dump_ncgr_sprite(face_ncgr, face_nclr, out_png, out_json, ncer_path=face_ncer)
+
+    # In face.json, verify that cell 1 (Marle) has pixels rendered in palette bank 1 (indices 16..31)
+    with Image.open(out_png) as img:
+        with open(out_json, "r", encoding="utf-8") as f:
+            meta = json.load(f)
+        cell1 = meta["components"][1] # Cell 1 = Marle
+        cx, cy = cell1["canvas_x"], cell1["canvas_y"]
+        # Sample non-transparent pixels in cell 1
+        cell1_pixels = [img.getpixel((cx + x, cy + y)) for y in range(cell1["height"]) for x in range(cell1["width"])]
+        non_zero = [p for p in cell1_pixels if p != 0]
+        # At least some pixels must be in palette bank 1 (16 <= p < 32)
+        bank1_pixels = [p for p in non_zero if 16 <= p < 32]
+        assert len(bank1_pixels) > 0
+
+
+def test_worldobj_0000_multi_palette_dump(tmp_path):
+    from PIL import Image
+    from src.graphics_engine import dump_ncgr_sprite
+
+    wobj_ncgr = "extracted rom/data/WorldMap/WorldObj_0000.NCGR"
+    wobj_ncer = "extracted rom/data/WorldMap/WorldObj_0000.NCER"
+    if not (os.path.isfile(wobj_ncgr) and os.path.isfile(wobj_ncer)):
+        pytest.skip("WorldObj_0000 source files not found")
+
+    out_png = os.path.join(tmp_path, "WorldObj_0000.png")
+    out_json = os.path.join(tmp_path, "WorldObj_0000.json")
+    dump_ncgr_sprite(wobj_ncgr, None, out_png, out_json, ncer_path=wobj_ncer)
+
+    with Image.open(out_png) as img:
+        with open(out_json, "r", encoding="utf-8") as f:
+            meta = json.load(f)
+        # Verify Crono (cell 0) uses bank 0, Marle (cell 8) uses bank 1
+        cell8 = meta["components"][8] # Cell 8 = Marle walking frame
+        cx, cy = cell8["canvas_x"], cell8["canvas_y"]
+        cell8_pixels = [img.getpixel((cx + x, cy + y)) for y in range(cell8["height"]) for x in range(cell8["width"])]
+        non_zero = [p for p in cell8_pixels if p != 0]
+        bank1_pixels = [p for p in non_zero if 16 <= p < 32]
+        assert len(bank1_pixels) > 0
+
 
 
 

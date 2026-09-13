@@ -306,6 +306,12 @@ def find_palette_for_screen(nsc_path: str) -> Optional[str]:
         if os.path.isfile(cand):
             return cand
 
+    # 3. Minimap background palette fallback (menu/bg/minimap_000_ncl.bin)
+    if base.startswith("minimap_"):
+        cand_mm = os.path.join(dir_path, "minimap_000_ncl.bin")
+        if os.path.isfile(cand_mm):
+            return cand_mm
+
     # 3. Special screen palette mapping
     special_pal_map = {
         "kouscr": "05_racecol_ncl.bin",
@@ -893,7 +899,46 @@ def find_palette_for_sprite(ncgr_path: str) -> Optional[str]:
             if os.path.isfile(base_cand):
                 return base_cand
 
-    # 3. Menu window components (obj_win_*, obj_fld_win*, obj_soroll*)
+    # 3. Chara sprites (Chara_0000 -> ObjPlt_0000.NCLR in local dir or in data/Chara)
+    m_chara = re.match(r"^Chara_(\d+)", base)
+    if m_chara:
+        num_str = m_chara.group(1)
+        cand_local = os.path.join(dir_path, f"ObjPlt_{num_str}.NCLR")
+        if os.path.isfile(cand_local):
+            return cand_local
+        curr = dir_path
+        data_root = None
+        while curr and os.path.basename(curr):
+            if os.path.basename(curr) == "data":
+                data_root = curr
+                break
+            curr = os.path.dirname(curr)
+        if data_root:
+            cand_chara = os.path.join(data_root, "Chara", f"ObjPlt_{num_str}.NCLR")
+            if os.path.isfile(cand_chara):
+                return cand_chara
+
+    # 4. Effect sprites (ObjEffect_000..028 -> ObjEffect.NCLR)
+    if base.startswith("ObjEffect"):
+        cand_eff = os.path.join(dir_path, "ObjEffect.NCLR")
+        if os.path.isfile(cand_eff):
+            return cand_eff
+
+    # 5. Wireless animation frames (obj_efe_cmu_02_0 -> obj_efe_cmu_02.NCLR)
+    m_wireless = re.match(r"^(obj_efe_cmu_\d+)_\d+$", base)
+    if m_wireless:
+        cand_wire = os.path.join(dir_path, m_wireless.group(1) + ".NCLR")
+        if os.path.isfile(cand_wire):
+            return cand_wire
+
+    # 6. WorldMap sprites (WorldObj_XXXX -> WorldObjPlt_XXXX.NCLR)
+    if base.startswith("WorldObj_"):
+        suffix = base[len("WorldObj_"):]
+        cand_wobj = os.path.join(dir_path, f"WorldObjPlt_{suffix}.NCLR")
+        if os.path.isfile(cand_wobj):
+            return cand_wobj
+
+    # 7. Menu window components (obj_win_*, obj_fld_win*, obj_soroll*)
     if base.startswith("obj_win_") or base.startswith("obj_fld_win") or base.startswith("obj_soroll"):
         cand_win = os.path.join(dir_path, "win_ncl.bin")
         if os.path.isfile(cand_win):
@@ -901,6 +946,28 @@ def find_palette_for_sprite(ncgr_path: str) -> Optional[str]:
         cand_plt = os.path.join(os.path.dirname(dir_path), "plt", "win_1.NCLR")
         if os.path.isfile(cand_plt):
             return cand_plt
+        # Search global data/menu/plt/
+        curr = dir_path
+        data_root = None
+        while curr and os.path.basename(curr):
+            if os.path.basename(curr) == "data":
+                data_root = curr
+                break
+            curr = os.path.dirname(curr)
+        if data_root:
+            menu_plt_dir = os.path.join(data_root, "menu", "plt")
+            m_num = re.search(r"_(\d+)$", base)
+            if m_num:
+                cand_style = os.path.join(menu_plt_dir, f"win_{m_num.group(1)}.NCLR")
+                if os.path.isfile(cand_style):
+                    return cand_style
+                cand_style_bin = os.path.join(menu_plt_dir, f"win_{m_num.group(1)}_ncl.bin")
+                if os.path.isfile(cand_style_bin):
+                    return cand_style_bin
+            for def_win in ("win_1.NCLR", "win_1_ncl.bin"):
+                cand_def = os.path.join(menu_plt_dir, def_win)
+                if os.path.isfile(cand_def):
+                    return cand_def
 
     # 4. Face portraits (face_00..face_07 -> face.NCLR)
     if base.startswith("face"):
@@ -1066,14 +1133,50 @@ def dump_ncgr_sprite(
         base_pal = 0
 
     # Load palette
-    if nclr_path and os.path.isfile(nclr_path):
+    is_world_obj_0000 = (base == "WorldObj_0000.NCGR" or base == "WorldObj_0000")
+    is_face = (base == "face.NCGR" or base == "face")
+
+    if is_world_obj_0000:
+        colors = []
+        curr = os.path.dirname(ncgr_path)
+        data_root = None
+        while curr and os.path.basename(curr):
+            if os.path.basename(curr) == "data":
+                data_root = curr
+                break
+            curr = os.path.dirname(curr)
+        if data_root:
+            for i in range(7):
+                plt_path = os.path.join(data_root, "Chara", f"ObjPlt_{i:04d}.NCLR")
+                if os.path.isfile(plt_path):
+                    with open(plt_path, "rb") as f:
+                        c_pal = list(parse_nclr_palette(f.read())[:48])
+                        c_pal[0:3] = [0, 0, 0]
+                        colors.extend(c_pal)
+                else:
+                    colors.extend([0] * 48)
+            plt_0007 = os.path.join(os.path.dirname(ncgr_path), "WorldObjPlt_0007.NCLR")
+            if os.path.isfile(plt_0007):
+                with open(plt_0007, "rb") as f:
+                    c_pal = list(parse_nclr_palette(f.read())[:48])
+                    c_pal[0:3] = [0, 0, 0]
+                    colors.extend(c_pal)
+            else:
+                colors.extend([0] * 48)
+            while len(colors) < 256 * 3:
+                colors.extend([0, 0, 0])
+            nclr_path = os.path.join(os.path.dirname(ncgr_path), "WorldObjPlt_0000.NCLR")
+    elif nclr_path and os.path.isfile(nclr_path):
         with open(nclr_path, "rb") as f:
             pal_bytes = f.read()
         colors = parse_nclr_palette(pal_bytes)
     else:
         colors = []
         for i in range(256):
-            v = min(255, i * 255 // (15 if not is_8bpp else 255))
+            if is_8bpp:
+                v = min(255, i * 255 // 255)
+            else:
+                v = min(255, (i % 16) * 255 // 15)
             colors.extend([v, v, v])
 
     if ncer_path is None:
@@ -1270,7 +1373,14 @@ def dump_ncgr_sprite(
                         w_t = w // 8
                         h_t = h // 8
                         raw_tile = o["tile"]
-                        eff_pal = base_pal + o.get("pal", 0)
+                        cell_idx = comp.get("cell_idx", 0)
+                        if is_face and 0 <= cell_idx < 7:
+                            eff_pal = cell_idx + o.get("pal", 0)
+                        elif is_world_obj_0000:
+                            char_id = min(7, cell_idx // 8)
+                            eff_pal = char_id + o.get("pal", 0)
+                        else:
+                            eff_pal = base_pal + o.get("pal", 0)
                         for ty in range(h_t):
                             for tx in range(w_t):
                                 src_tx = (w_t - 1 - tx) if o.get("hflip", 0) else tx
