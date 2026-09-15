@@ -3,109 +3,109 @@
     "id": 0,
     "original_en": "Defeat Lavos after reviving Crono at Death Peak.",
     "original_fr": "Après avoir ressuscité Chrono sur le mont des\ndéfunts.",
-    "translation": ""
+    "translation": "Победите Лавоса после того, как воскресите\nХроно на Пике Смерти."
   },
   {
     "id": 1,
     "original_en": "Defeat Lavos while Crono is dead.",
     "original_fr": "Alors que Chrono est décédé.",
-    "translation": ""
+    "translation": "Победите Лавоса, пока Хроно мертв."
   },
   {
     "id": 2,
     "original_en": "Defeat Lavos in the Ocean Palace or immediately\nupon starting New Game +.",
     "original_fr": "Au tout début d'une nouvelle partie ™ ou dans le\nsanctuaire sous-marin.",
-    "translation": ""
+    "translation": "Победите Лавоса в Океанском Дворце или\nсразу же после начала режима Новая Игра +."
   },
   {
     "id": 3,
     "original_en": "Defeat Lavos after saving Leene and Marle,\nbut before visiting the End of Time.",
     "original_fr": "Après avoir sauvé Lynne et Marle, mais avant d'aller\n{TAG:3C} la Fin des temps.",
-    "translation": ""
+    "translation": "Победите Лавоса после спасения Линны и\nМарлы, но до посещения Конца Времени."
   },
   {
     "id": 4,
     "original_en": "Defeat Lavos after visiting the End of Time,\nbut before returning to the Middle Ages.",
     "original_fr": "Après être allé {TAG:3C} la Fin des temps, mais avant de\nretourner au Moyen-{TAG:5F}ge.",
-    "translation": ""
+    "translation": "Победите Лавоса после посещения\nКонца Времени, но до возвращения в\nСредневековье."
   },
   {
     "id": 5,
     "original_en": "Defeat Lavos after arriving in the Middle Ages,\nbut before obtaining the Hero's Badge from Tata.",
     "original_fr": "Après être retourné au Moyen-{TAG:5F}ge, mais avant de\nrecevoir la médaille du héros de Tarta.",
-    "translation": ""
+    "translation": "Победите Лавоса после прибытия в\nСредневековье, но до получения Значка Героя\nот Таты."
   },
   {
     "id": 6,
     "original_en": "Defeat Lavos after obtaining the Hero's Badge,\nbut before the Gate Key is stolen in prehistory.",
     "original_fr": "Après avoir reçu la médaille du héros, mais avant que\nla clef stabilisatrice soit volée dans la Préhistoire.",
-    "translation": ""
+    "translation": "Победите Лавоса после получения Значка\nГероя, но до того, как Ключ Врат будет\nукраден в Доисторическую Эпоху."
   },
   {
     "id": 7,
     "original_en": "Defeat Lavos after regaining the Gate Key,\nbut before giving the Masamune to Frog.",
     "original_fr": "Après avoir récupéré la clef stabilisatrice, mais\navant de rendre Grandléon {TAG:3C} Gren.",
-    "translation": ""
+    "translation": "Победите Лавоса после того, как вернете\nКлюч Врат, но до того, как отдадите\nМасамуне Фрогу."
   },
   {
     "id": 8,
     "original_en": "Defeat Lavos after giving the Masamune to Frog,\nbut before facing Magus.",
     "original_fr": "Après avoir rendu Grandléon {TAG:3C} Gren, mais avant de\ncombattre Magus.",
-    "translation": ""
+    "translation": "Победите Лавоса после того, как отдадите\nМасамуне Фрогу, но до того, как сразитесь\nс Магусом."
   },
   {
     "id": 9,
     "original_en": "Defeat Lavos after facing Magus, but before\nfacing Azala.",
     "original_fr": "Après avoir combattu Magus, mais avant de\ncombattre Azara.",
-    "translation": ""
+    "translation": "Победите Лавоса после того, как сразитесь\nс Магусом, но до того, как сразитесь с Азалой."
   },
   {
     "id": 10,
     "original_en": "Defeat Lavos after facing Azala, but before\nSchala opens the sealed door.",
     "original_fr": "Après avoir vaincu Azara, mais avant que Sarah\nn'ouvre la porte scellée.",
-    "translation": ""
+    "translation": "Победите Лавоса после того, как сразитесь\nс Азалой, но до того, как Шала откроет\nзапечатанную дверь."
   },
   {
     "id": 11,
     "original_en": "Defeat Lavos after Schala opens the sealed door,\nbut before restoring light to the pendant.",
     "original_fr": "Après que Sarah ouvre la porte scellée, mais avant\nde réactiver le pendentif.",
-    "translation": ""
+    "translation": "Победите Лавоса после того, как Шала\nоткроет запечатанную дверь, но до того,\nкак восстановите свет в кулоне."
   },
   {
     "id": 12,
     "original_en": "Defeat the Dream Devourer beyond Time's Eclipse.",
     "original_fr": "Après avoir vaincu l'onirophage qui se terre dans les\nténèbres du temps.",
-    "translation": ""
+    "translation": "Победите Пожирателя Снов за пределами\nЗатмения Времени."
   },
   {
     "id": 13,
     "original_en": "This is the standard ending. Contents vary\naccording to the status of the Epoch.",
     "original_fr": "La fin normale. La séquence change suivant que\nl'équipe possède encore l'Ibis ou non.",
-    "translation": ""
+    "translation": "Это стандартная концовка. Содержание\nменяется в зависимости от состояния Эпохи."
   },
   {
     "id": 14,
     "original_en": "This is the ending if Crono is dead. Contents\nvary according to the status of the Epoch.",
     "original_fr": "La fin si Chrono est décédé. La séquence change\nsuivant que l'équipe possède encore l'Ibis ou non.",
-    "translation": ""
+    "translation": "Эта концовка, если Хроно мертв. Содержание\nменяется в зависимости от состояния Эпохи."
   },
   {
     "id": 15,
     "original_en": "Use the right Telepod to warp to Lavos immediately\nafter starting New Game +.",
     "original_fr": "Examinez le portail sur le téléporteur de droite au\ntout début d'une nouvelle partie ™.",
-    "translation": ""
+    "translation": "Используйте правый Телепорт, чтобы сразу же\nпереместиться к Лавосу после начала режима\nНовая Игра +."
   },
   {
     "id": 16,
     "original_en": "Use the Telepod immediately upon returning to\nthe present.",
     "original_fr": "Examinez le portail sur le téléporteur de droite tout\nde suite après le retour dans le Présent.",
-    "translation": ""
+    "translation": "Используйте Телепорт сразу же после\nвозвращения в настоящее."
   },
   {
     "id": 17,
     "original_en": "Use the bucket to warp to Lavos upon reaching\nthe End of Time.",
     "original_fr": "Examinez le seau après avoir atteint la Fin des\ntemps.",
-    "translation": ""
+    "translation": "Используйте ведро, чтобы переместиться\nк Лавосу после достижения Конца Времени."
   },
   {
     "id": 18,

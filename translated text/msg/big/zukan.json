@@ -21,7 +21,7 @@
     "id": 3,
     "original_en": "Magic Defense",
     "original_fr": "Défense magique",
-    "translation": "Магическая Защита"
+    "translation": "Маг. Защита"
   },
   {
     "id": 4,
@@ -39,7 +39,7 @@
     "id": 6,
     "original_en": "G",
     "original_fr": "Argent",
-    "translation": ""
+    "translation": "З"
   },
   {
     "id": 7,
@@ -93,13 +93,13 @@
     "id": 15,
     "original_en": "Attributes",
     "original_fr": "Attributs",
-    "translation": "Аттрибуты"
+    "translation": "Атрибуты"
   },
   {
     "id": 16,
     "original_en": "Discovered:",
     "original_fr": "Rencontrés",
-    "translation": "Обнаружено:"
+    "translation": "Обнар-но:"
   },
   {
     "id": 17,
@@ -117,13 +117,13 @@
     "id": 19,
     "original_en": "Toggle form",
     "original_fr": "Autre forme",
-    "translation": "Изменить форму"
+    "translation": "Смена формы"
   },
   {
     "id": 20,
     "original_en": "Toggle type",
     "original_fr": "Variante",
-    "translation": "Изменить тип"
+    "translation": "Смена типа"
   },
   {
     "id": 21,
@@ -135,7 +135,7 @@
     "id": 22,
     "original_en": "No. ",
     "original_fr": "NÎ ",
-    "translation": ""
+    "translation": "{GLYPH:132}"
   },
   {
     "id": 23,
