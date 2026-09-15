@@ -29,7 +29,7 @@ class TextWindowPreset:
 WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
     "dialogue": TextWindowPreset(
         name="dialogue",
-        max_width_px=230,
+        max_width_px=220,
         max_lines=3,
         reflow=True,
         font_type="big",
@@ -48,7 +48,7 @@ WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
     ),
     "tutorial": TextWindowPreset(
         name="tutorial",
-        max_width_px=230,
+        max_width_px=200,
         max_lines=6,
         reflow=True,
         font_type="big",
@@ -56,7 +56,7 @@ WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
     ),
     "encyclopedia": TextWindowPreset(
         name="encyclopedia",
-        max_width_px=215,
+        max_width_px=208,
         max_lines=6,
         reflow=True,
         font_type="big",
@@ -448,7 +448,7 @@ def get_constraints_for_entry(
         if entry_id == 141:
             return TextWindowPreset(
                 name="menu_naming_prompt",
-                max_width_px=230,
+                max_width_px=220,
                 max_lines=2,
                 reflow=True,
                 font_type="big",
@@ -458,7 +458,7 @@ def get_constraints_for_entry(
         if 179 <= entry_id <= 181:
             return TextWindowPreset(
                 name="menu_control_help",
-                max_width_px=230,
+                max_width_px=224,
                 max_lines=1,
                 reflow=False,
                 font_type="big",
@@ -533,6 +533,10 @@ HERO_TOKENS = frozenset({
 })
 
 HERO_PATTERN = re.compile(r"\{(?:CRONO|MARLE|LUCCA|ROBO|FROG|AYLA|MAGUS|EPOCH)\}")
+GLYPH_PATTERN = re.compile(r"^\{GLYPH:\d+\}$")
+PLACEHOLDER_PATTERN = re.compile(
+    r"\{(?:(CRONO|MARLE|LUCCA|ROBO|FROG|AYLA|MAGUS|EPOCH)|GLYPH:(\d+))\}"
+)
 TAG_REGEX = re.compile(r"\{[^{}]+\}")
 
 DEFAULT_CHAR_WIDTH_PX = 5
@@ -543,6 +547,10 @@ DEFAULT_HERO_NAME_WIDTH_PX = 30
 class GlyphWidths(dict):
     """Dictionary mapping characters to their pixel widths with a 5px fallback."""
 
+    def __init__(self, *args, glyph_by_idx: Optional[Dict[int, int]] = None, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.glyph_by_idx: Dict[int, int] = glyph_by_idx if glyph_by_idx is not None else {}
+
     def __missing__(self, key: str) -> int:
         return DEFAULT_CHAR_WIDTH_PX
 
@@ -551,17 +559,17 @@ class GlyphWidths(dict):
 
 
 def strip_control_tags(text: str) -> str:
-    """Strips non-visual control tags while preserving dynamic hero name tokens.
+    """Strips non-visual control tags while preserving dynamic hero name tokens and glyphs.
 
     Args:
-        text: Input string with control tokens (e.g., {WAIT_KEY}, {PAGE}, {CRONO}).
+        text: Input string with control tokens (e.g., {WAIT_KEY}, {PAGE}, {CRONO}, {GLYPH:12}).
 
     Returns:
         String with non-visual control tokens removed.
     """
     def _replace(match: re.Match) -> str:
         token = match.group(0)
-        if token in HERO_TOKENS:
+        if token in HERO_TOKENS or GLYPH_PATTERN.match(token):
             return token
         return ""
 
@@ -571,7 +579,7 @@ def strip_control_tags(text: str) -> str:
 def load_glyph_metrics(
     font_json_path: str,
     cyrillic_json_path: Optional[str] = None,
-) -> Dict[str, int]:
+) -> GlyphWidths:
     """Loads font glyph widths from base font JSON and optional Cyrillic overlay.
 
     Args:
@@ -594,7 +602,17 @@ def load_glyph_metrics(
         if "index" in g and "width" in g:
             glyph_by_idx[g["index"]] = g["width"]
 
-    widths = GlyphWidths()
+    # Load Cyrillic overlay if provided
+    cyr_glyphs = []
+    if cyrillic_json_path is not None:
+        with open(cyrillic_json_path, "r", encoding="utf-8") as f:
+            cyr_data = json.load(f)
+        cyr_glyphs = cyr_data.get("glyphs", [])
+        for g in cyr_glyphs:
+            if "font_glyph_id" in g and "width" in g:
+                glyph_by_idx[g["font_glyph_id"]] = g["width"]
+
+    widths = GlyphWidths(glyph_by_idx=glyph_by_idx)
 
     # Map ASCII characters 0x1F..0x7D via char_map table if available
     char_map = base_data.get("char_map", [])
@@ -608,11 +626,17 @@ def load_glyph_metrics(
         if g_idx in glyph_by_idx:
             widths[ch] = glyph_by_idx[g_idx]
 
-    # Map any single-character char_repr from glyphs
+    # Map any single-character char_repr from base glyphs
     for g in glyphs:
         rep = g.get("char_repr")
         if rep and len(rep) == 1 and rep not in widths and "width" in g:
             widths[rep] = g["width"]
+
+    # Map Cyrillic glyphs
+    for g in cyr_glyphs:
+        ch = g.get("char") or g.get("char_repr")
+        if ch and "width" in g:
+            widths[ch] = g["width"]
 
     # Ensure space character has its correct width
     if ' ' not in widths or widths[' '] <= 0:
@@ -620,15 +644,6 @@ def load_glyph_metrics(
             widths[' '] = glyph_by_idx[1]
         else:
             widths[' '] = DEFAULT_SPACE_WIDTH_PX
-
-    # Load Cyrillic overlay if provided
-    if cyrillic_json_path is not None:
-        with open(cyrillic_json_path, "r", encoding="utf-8") as f:
-            cyr_data = json.load(f)
-        for g in cyr_data.get("glyphs", []):
-            ch = g.get("char") or g.get("char_repr")
-            if ch and "width" in g:
-                widths[ch] = g["width"]
 
     return widths
 
@@ -655,13 +670,28 @@ def calculate_line_width_px(
     total_width = 0
     last_end = 0
 
-    for match in HERO_PATTERN.finditer(clean_line):
+    for match in PLACEHOLDER_PATTERN.finditer(clean_line):
         prefix = clean_line[last_end:match.start()]
         for ch in prefix:
             if ch in ('\r', '\n'):
                 continue
             total_width += glyph_widths.get(ch, DEFAULT_CHAR_WIDTH_PX)
-        total_width += hero_name_width_px
+
+        hero_token, glyph_idx_str = match.groups()
+        if hero_token is not None:
+            total_width += hero_name_width_px
+        elif glyph_idx_str is not None:
+            glyph_idx = int(glyph_idx_str)
+            glyph_by_idx = getattr(glyph_widths, "glyph_by_idx", None)
+            if isinstance(glyph_by_idx, dict) and glyph_idx in glyph_by_idx:
+                total_width += glyph_by_idx[glyph_idx]
+            elif match.group(0) in glyph_widths:
+                total_width += glyph_widths[match.group(0)]
+            elif f"GLYPH:{glyph_idx}" in glyph_widths:
+                total_width += glyph_widths[f"GLYPH:{glyph_idx}"]
+            else:
+                total_width += DEFAULT_CHAR_WIDTH_PX
+
         last_end = match.end()
 
     suffix = clean_line[last_end:]
@@ -673,19 +703,108 @@ def calculate_line_width_px(
     return total_width
 
 
+RUS_VOWELS = frozenset("аеёиоуыэюяАЕЁИОУЫЭЮЯ")
+RUS_CONSONANTS = frozenset("бвгджзйклмнпрстфхцчшщБВГДЖЗЙКЛМНПРСТФХЦЧШЩ")
+LATIN_VOWELS = frozenset("aeiouyAEIOUY")
+
+
+def split_word_carry(
+    word: str,
+    available_width_px: int,
+    glyph_widths: Dict[str, int],
+    mode: str = "geo",
+) -> Optional[Tuple[str, str]]:
+    """Splits a word for hyphenation/carry at the end of a line.
+
+    Args:
+        word: Word to split (must not contain control tokens or placeholders).
+        available_width_px: Remaining pixel width available on current line.
+        glyph_widths: Proportional font widths dictionary.
+        mode: 'geo' (greedy geometric split) or 'syllable' (Russian syllable rules).
+
+    Returns:
+        Tuple (prefix_with_hyphen, remainder) or None if word cannot be split.
+    """
+    if TAG_REGEX.search(word):
+        return None
+
+    clean_word = re.sub(r"[^\w]", "", word)
+    if len(clean_word) < 4 or len(word) < 4:
+        return None
+
+    has_rus_vowels = any(c in RUS_VOWELS for c in word)
+    vowels = RUS_VOWELS if has_rus_vowels else LATIN_VOWELS
+
+    # Greedily search from longest valid prefix down to minimum 2 chars
+    for k in range(len(word) - 2, 1, -1):
+        prefix = word[:k]
+        remainder = word[k:]
+
+        cand = prefix if prefix.endswith("-") else f"{prefix}-"
+        cand_width = calculate_line_width_px(cand, glyph_widths)
+        if cand_width > available_width_px:
+            continue
+
+        if mode == "geo":
+            return (cand, remainder)
+
+        if mode == "syllable":
+            # Both parts must contain at least one vowel
+            if not any(c in vowels for c in prefix):
+                continue
+            if not any(c in vowels for c in remainder):
+                continue
+
+            # Do not detach ь, ъ, й (they stay with preceding part)
+            if remainder[0] in "ьъйЬЪЙ":
+                continue
+
+            # In Russian, do not detach a consonant from its following vowel (e.g. маль-чик, not мальч-ик; мо-локо, not мол-око)
+            if (
+                remainder[0].lower() in vowels
+                and prefix[-1].lower() in RUS_CONSONANTS
+            ):
+                continue
+
+            # Indivisible double consonants between vowels:
+            # Do not split before double consonants (e.g. ва-нна)
+            if (
+                k < len(word) - 1
+                and word[k].lower() == word[k + 1].lower()
+                and word[k].lower() in RUS_CONSONANTS
+                and word[k - 1].lower() in RUS_VOWELS
+            ):
+                continue
+
+            # Do not split after double consonants (e.g. ванн-ый)
+            if (
+                k >= 2
+                and word[k - 2].lower() == word[k - 1].lower()
+                and word[k - 1].lower() in RUS_CONSONANTS
+                and word[k].lower() in RUS_VOWELS
+            ):
+                continue
+
+            return (cand, remainder)
+
+    return None
+
+
 def wrap_line_to_width(
     line: str,
     glyph_widths: Dict[str, int],
-    max_width_px: int = 230,
+    max_width_px: int = 220,
     hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
+    carry: Optional[str] = None,
 ) -> List[str]:
     """Wraps a single line of text to fit within max_width_px using proportional font metrics.
 
     Args:
         line: Text line to wrap (may contain control tags or hero tokens).
         glyph_widths: Mapping from character to pixel width.
-        max_width_px: Maximum pixel width allowed per line (default 230px).
+        max_width_px: Maximum pixel width allowed per line (default 220px).
         hero_name_width_px: Estimated pixel width for dynamic hero tokens (default 30px).
+        carry: Optional word hyphenation mode ("geo" or "syllable").
 
     Returns:
         List of wrapped lines.
@@ -699,25 +818,55 @@ def wrap_line_to_width(
 
     lines: List[str] = []
     current_line = ""
+    word_queue = list(words)
+    word_idx = 0
 
-    for word in words:
+    while word_idx < len(word_queue):
+        word = word_queue[word_idx]
+        word_idx += 1
+
         if not current_line:
-            if calculate_line_width_px(word, glyph_widths, hero_name_width_px) <= max_width_px:
+            w = calculate_line_width_px(word, glyph_widths, hero_name_width_px)
+            if w <= max_width_px:
                 current_line = word
             else:
+                if carry:
+                    split_res = split_word_carry(
+                        word, max_width_px, glyph_widths, mode=carry
+                    )
+                    if split_res is not None:
+                        prefix_hyphen, remainder = split_res
+                        lines.append(prefix_hyphen)
+                        word_queue.insert(word_idx, remainder)
+                        current_line = ""
+                        continue
                 lines.append(word)
                 current_line = ""
         else:
             candidate = f"{current_line} {word}"
-            if calculate_line_width_px(candidate, glyph_widths, hero_name_width_px) <= max_width_px:
+            w = calculate_line_width_px(candidate, glyph_widths, hero_name_width_px)
+            if w <= max_width_px:
                 current_line = candidate
             else:
+                if carry:
+                    curr_w = calculate_line_width_px(
+                        current_line, glyph_widths, hero_name_width_px
+                    )
+                    space_w = glyph_widths.get(" ", DEFAULT_SPACE_WIDTH_PX)
+                    available_px = max_width_px - curr_w - space_w
+                    if available_px > 0:
+                        split_res = split_word_carry(
+                            word, available_px, glyph_widths, mode=carry
+                        )
+                        if split_res is not None:
+                            prefix_hyphen, remainder = split_res
+                            lines.append(f"{current_line} {prefix_hyphen}")
+                            word_queue.insert(word_idx, remainder)
+                            current_line = ""
+                            continue
                 lines.append(current_line)
-                if calculate_line_width_px(word, glyph_widths, hero_name_width_px) <= max_width_px:
-                    current_line = word
-                else:
-                    lines.append(word)
-                    current_line = ""
+                current_line = ""
+                word_queue.insert(word_idx, word)
 
     if current_line:
         lines.append(current_line)
@@ -728,35 +877,72 @@ def wrap_line_to_width(
 def wrap_text_block(
     text: str,
     glyph_widths: Dict[str, int],
-    max_width_px: int = 230,
+    max_width_px: int = 220,
     max_lines: int = 3,
     auto_paginate: bool = False,
     hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
     reflow: bool = True,
+    force: bool = False,
+    carry: Optional[str] = None,
 ) -> Tuple[str, List[str]]:
     """Word-wraps dialogue text and optionally paginates across dialog boxes.
 
-    Preserves existing {PAGE} delimiters, splits pages into lines (\\n or {LINE}),
-    applies word-wrapping, and enforces or warns about line limits.
-    When reflow is True (default), ragged single line breaks within each page are
-    collapsed into spaces before re-wrapping to fit max_width_px cleanly.
+    Preserves existing {PAGE} delimiters unless force=True or lines overflow in reflow mode.
+    When force=True or lines overflow (and reflow=True), completely collapses text
+    (stripping {PAGE} and line breaks) and repacks words sequentially into lines.
 
     Args:
         text: Full dialogue or description text block.
         glyph_widths: Mapping from character to pixel width.
-        max_width_px: Maximum pixel width allowed per line (default 230px).
+        max_width_px: Maximum pixel width allowed per line (default 220px).
         max_lines: Maximum lines allowed per page/dialog box (default 3).
         auto_paginate: If True, automatically split pages exceeding max_lines with {PAGE}.
                        If False, keep lines together and generate a warning.
         hero_name_width_px: Estimated pixel width for dynamic hero tokens (default 30px).
         reflow: If True, collapse ragged single line breaks and re-wrap paragraphs.
                 If False, preserve existing line breaks if within width.
+        force: If True, force complete text collapse and repacking even if lines fit.
+        carry: Optional word hyphenation mode ("geo" or "syllable").
 
     Returns:
         Tuple of (formatted_text, list_of_warnings).
     """
     if not text:
         return "", []
+
+    raw_lines_all = re.split(r"\r?\n|\{LINE\}|\{PAGE\}", text)
+    has_overflow = any(
+        calculate_line_width_px(line, glyph_widths, hero_name_width_px=hero_name_width_px) > max_width_px
+        for line in raw_lines_all
+    )
+
+    if force or (has_overflow and reflow):
+        clean_text = re.sub(r"\{PAGE\}|\r?\n|\{LINE\}", " ", text)
+        clean_text = re.sub(r" +", " ", clean_text).strip()
+        if not clean_text:
+            return "", []
+
+        lines = wrap_line_to_width(
+            clean_text,
+            glyph_widths,
+            max_width_px=max_width_px,
+            hero_name_width_px=hero_name_width_px,
+            carry=carry,
+        )
+
+        warnings: List[str] = []
+        if auto_paginate:
+            chunk_size = max(1, max_lines)
+            chunks = [
+                lines[i : i + chunk_size]
+                for i in range(0, len(lines), chunk_size)
+            ]
+            formatted_text = "{PAGE}".join("\n".join(chunk) for chunk in chunks)
+        else:
+            if len(lines) > max_lines:
+                warnings.append(f"Page has {len(lines)} lines (exceeds max {max_lines})")
+            formatted_text = "\n".join(lines)
+        return formatted_text, warnings
 
     raw_pages = text.split("{PAGE}")
     formatted_pages: List[str] = []
@@ -781,6 +967,7 @@ def wrap_text_block(
                             glyph_widths,
                             max_width_px=max_width_px,
                             hero_name_width_px=hero_name_width_px,
+                            carry=carry,
                         )
                     )
         else:
@@ -792,6 +979,7 @@ def wrap_text_block(
                         glyph_widths,
                         max_width_px=max_width_px,
                         hero_name_width_px=hero_name_width_px,
+                        carry=carry,
                     )
                 )
 
@@ -829,6 +1017,8 @@ def validate_and_format_file(
     hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
     reflow: Optional[bool] = None,
     preset: str = "auto",
+    force: bool = False,
+    carry: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Validates and formats dialogue or UI text within a single JSON file.
 
@@ -849,6 +1039,8 @@ def validate_and_format_file(
                 If False, preserve existing line breaks if within width.
                 (overrides preset if not None).
         preset: Window preset name or "auto" for filename-based detection.
+        force: If True, force recalculation and repacking of all text even if lines fit.
+        carry: Optional word hyphenation mode ("geo" or "syllable").
 
     Returns:
         Dict with keys: file_path, total_entries, overflows_found, warnings, modified, changes_count, preset.
@@ -921,6 +1113,8 @@ def validate_and_format_file(
             auto_paginate=auto_paginate,
             hero_name_width_px=hero_name_width_px,
             reflow=entry_reflow,
+            force=force,
+            carry=carry,
         )
         for bw in block_warnings:
             warnings.append(f"Entry {entry_id}: {bw}")
@@ -966,6 +1160,8 @@ def validate_and_format_directory(
     glyph_widths: Optional[Dict[str, int]] = None,
     reflow: Optional[bool] = None,
     preset: str = "auto",
+    force: bool = False,
+    carry: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Recursively validates and formats all JSON translation files in a directory.
 
@@ -984,6 +1180,8 @@ def validate_and_format_directory(
         reflow: If True, collapse ragged single line breaks and re-wrap paragraphs.
                 If False, preserve existing line breaks if within width.
         preset: Window preset name or "auto" for automatic per-file detection.
+        force: If True, force recalculation and repacking of all text even if lines fit.
+        carry: Optional word hyphenation mode ("geo" or "syllable").
 
     Returns:
         Dict with keys: files_checked, files_modified, total_entries, total_overflows,
@@ -1041,6 +1239,8 @@ def validate_and_format_directory(
             hero_name_width_px=hero_name_width_px,
             reflow=reflow,
             preset=preset,
+            force=force,
+            carry=carry,
         )
         file_reports.append(report)
 

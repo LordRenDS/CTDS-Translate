@@ -242,6 +242,12 @@ def cmd_validate_text_length(args: argparse.Namespace) -> int:
         print(
             f"  Reflow existing breaks : {'Enabled' if args.reflow is None or args.reflow else 'Disabled'}"
         )
+        print(
+            f"  Force repacking        : {'Enabled' if getattr(args, 'force', False) else 'Disabled'}"
+        )
+        print(
+            f"  Word carry (hyphen)    : {getattr(args, 'carry', None) or 'Disabled'}"
+        )
 
         report = validate_and_format_file(
             file_path=args.file,
@@ -254,6 +260,8 @@ def cmd_validate_text_length(args: argparse.Namespace) -> int:
             out_path=args.out,
             preset=args.preset,
             reflow=args.reflow,
+            force=getattr(args, "force", False),
+            carry=getattr(args, "carry", None),
         )
 
         print(f"Preset applied: {report['preset']}")
@@ -287,6 +295,12 @@ def cmd_validate_text_length(args: argparse.Namespace) -> int:
     print(
         f"  Reflow existing breaks : {'Disabled' if getattr(args, 'reflow', None) is False else 'Enabled'}"
     )
+    print(
+        f"  Force repacking        : {'Enabled' if getattr(args, 'force', False) else 'Disabled'}"
+    )
+    print(
+        f"  Word carry (hyphen)    : {getattr(args, 'carry', None) or 'Disabled'}"
+    )
 
     report = validate_and_format_directory(
         json_dir=args.json_dir,
@@ -300,6 +314,8 @@ def cmd_validate_text_length(args: argparse.Namespace) -> int:
         fix=args.fix,
         out_dir=args.out,
         preset=preset_name,
+        force=getattr(args, "force", False),
+        carry=getattr(args, "carry", None),
     )
 
     print(f"Files inspected: {report['files_checked']}")
@@ -716,6 +732,20 @@ def create_parser() -> argparse.ArgumentParser:
             action="store_false",
             default=None,
             help="Do not collapse existing line breaks within pages before wrapping (default: uses preset setting)",
+        )
+        p_val.add_argument(
+            "--force",
+            action="store_true",
+            default=False,
+            help="Force recalculation and repacking of all text even if lines fit within width",
+        )
+        p_val.add_argument(
+            "--carry",
+            nargs="?",
+            const="geo",
+            default=None,
+            choices=["geo", "syllable"],
+            help="Enable word hyphenation with '-' (default: geo, optional: syllable)",
         )
         p_val.add_argument(
             "--font-json",
