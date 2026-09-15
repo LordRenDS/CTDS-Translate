@@ -10,10 +10,13 @@ from src.text_validator import (
     wrap_text_block,
     validate_and_format_file,
     validate_and_format_directory,
+    split_word_carry,
+    GlyphWidths,
     HERO_TOKENS,
     TextWindowPreset,
     WINDOW_PRESETS,
     get_preset_for_file,
+    get_constraints_for_entry,
 )
 from src.cli import create_parser, cmd_validate_text_length
 
@@ -77,10 +80,10 @@ def test_strip_control_tags_all_hero_tokens():
 
 
 def test_strip_control_tags_various_controls():
-    """Verify various control tags (COLOR, TAG, GLYPH, LINE, SOUND, EVENT_SYNC) are stripped."""
+    """Verify non-visual control tags (COLOR, TAG, LINE, SOUND, EVENT_SYNC) are stripped while GLYPH placeholder is preserved."""
     text = "{COLOR:01}{LINE}{TAG:2A}{GLYPH:100}{SOUND:03}{EVENT_SYNC:05}Dialogue{NULL}"
     stripped = strip_control_tags(text)
-    assert stripped == "Dialogue"
+    assert stripped == "{GLYPH:100}Dialogue"
 
 
 def test_calculate_line_width_px():
@@ -862,7 +865,7 @@ def test_get_preset_for_file_matching():
     p_tut = get_preset_for_file("tutorial.json")
     assert p_tut.name == "tutorial"
     assert p_tut.max_lines == 6
-    assert p_tut.max_width_px == 230
+    assert p_tut.max_width_px == 200
     assert p_tut.reflow is True
     assert p_tut.font_type == "big"
     assert get_preset_for_file("start.json").name == "tutorial"
@@ -872,7 +875,7 @@ def test_get_preset_for_file_matching():
     p_encyclopedia = get_preset_for_file("player.json")
     assert p_encyclopedia.name == "encyclopedia"
     assert p_encyclopedia.max_lines == 6
-    assert p_encyclopedia.max_width_px == 215
+    assert p_encyclopedia.max_width_px == 208
     assert get_preset_for_file("ex_montec.json").name == "encyclopedia"
     assert get_preset_for_file("ex_itemget.json").name == "encyclopedia"
     assert get_preset_for_file("ex_illust.json").name == "encyclopedia"
@@ -1265,7 +1268,7 @@ def test_new_specialized_file_presets():
     # Quiz questions must be dialogue, NOT menu
     p_ques = get_preset_for_file("ques0.json")
     assert p_ques.name == "dialogue"
-    assert p_ques.max_width_px == 230
+    assert p_ques.max_width_px == 220
     assert p_ques.max_lines == 3
 
     # system.json in msg/big must NOT be small_system
@@ -1365,6 +1368,214 @@ def test_validate_menu_catches_screenshot_bugs(tmp_path):
     rep_fixed = validate_and_format_file(str(menu_file_fixed), glyph_widths=big_metrics, preset="auto")
     assert rep_fixed["overflows_found"] == 0
     assert len(rep_fixed["warnings"]) == 0
+
+
+def test_menu_entry_naming_prompt_and_control_help():
+    """Verify constraints for menu_naming_prompt (entry 141) and menu_control_help (entries 179..181)."""
+    c_name = get_constraints_for_entry("menu.json", 141)
+    assert c_name.name == "menu_naming_prompt"
+    assert c_name.max_width_px == 220
+    assert c_name.max_lines == 2
+    assert c_name.reflow is True
+
+    for eid in (179, 180, 181):
+        c_help = get_constraints_for_entry("menu.json", eid)
+        assert c_help.name == "menu_control_help"
+        assert c_help.max_width_px == 224
+        assert c_help.max_lines == 1
+        assert c_help.reflow is False
+
+
+def test_glyph_placeholder_width_calculation():
+    """Verify {GLYPH:N} placeholder width calculation from glyph_by_idx and fallback."""
+    widths = GlyphWidths({'a': 5, 'b': 5, ' ': 3}, glyph_by_idx={10: 14, 25: 20})
+
+    # Exact match from glyph_by_idx
+    w10 = calculate_line_width_px("{GLYPH:10}", widths)
+    assert w10 == 14
+
+    # Mixed text and glyph placeholder: "a {GLYPH:10} b" -> 5 + 3 + 14 + 3 + 5 = 30px
+    w_mixed = calculate_line_width_px("a {GLYPH:10} b", widths)
+    assert w_mixed == 30
+
+    # Unmapped glyph index defaults to 5px (DEFAULT_CHAR_WIDTH_PX)
+    w_unmapped = calculate_line_width_px("{GLYPH:999}", widths)
+    assert w_unmapped == 5
+
+    # Dynamic hero tokens keep width = 30px
+    for token in ("{CRONO}", "{MARLE}", "{LUCCA}", "{ROBO}", "{FROG}", "{AYLA}", "{MAGUS}", "{EPOCH}"):
+        assert calculate_line_width_px(token, widths) == 30
+
+    # Purely non-visual control tokens have 0px width
+    non_visual = "{WAIT_KEY}{PAGE}{LINE}{COLOR:01}{TAG:2B}{EVENT_SYNC:04}{SOUND:02}"
+    assert calculate_line_width_px(non_visual, widths) == 0
+    assert calculate_line_width_px(f"a{non_visual}b", widths) == 10
+
+
+def test_split_word_carry_geo_mode():
+    """Verify --carry geo word hyphenation behavior."""
+    widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя- "}
+
+    # 1. Word >= 4 characters splits into prefix >= 2 and remainder >= 2 with hyphen '-'
+    # "приключение": len 11, each letter 5px. Hyphen is 5px.
+    # If available width is 35px: prefix of 6 letters ("приклю") + "-" = 7 * 5 = 35px.
+    res = split_word_carry("приключение", available_width_px=35, glyph_widths=widths, mode="geo")
+    assert res == ("приклю-", "чение")
+
+    # 2. Greedy selection of longest valid prefix:
+    # If available width is 45px: prefix of 8 letters ("приключе") + "-" = 9 * 5 = 45px.
+    res_greedy = split_word_carry("приключение", available_width_px=45, glyph_widths=widths, mode="geo")
+    assert res_greedy == ("приключе-", "ние")
+
+    # 3. Available width too small to fit minimum prefix (2 chars) + hyphen (3 chars = 15px)
+    res_too_small = split_word_carry("приключение", available_width_px=14, glyph_widths=widths, mode="geo")
+    assert res_too_small is None
+
+    # 4. Words < 4 characters are carried whole (return None)
+    for short_word in ("кот", "он", "мир", "я", "да"):
+        assert split_word_carry(short_word, available_width_px=50, glyph_widths=widths, mode="geo") is None
+
+    # 5. Words with control tokens or placeholders are not split
+    for tag_word in ("{CRONO}", "{GLYPH:10}", "{WAIT_KEY}", "ге{TAG}рой"):
+        assert split_word_carry(tag_word, available_width_px=50, glyph_widths=widths, mode="geo") is None
+
+
+def test_split_word_carry_syllable_mode():
+    """Verify --carry syllable obeys Russian syllable hyphenation rules."""
+    widths = {ch: 5 for ch in "абвгдеёжзийклмнопрстуфхцчшщъыьэюя- "}
+
+    # 1. Both parts must contain at least one vowel
+    # "стол" and "всплеск" have only 1 vowel, cannot split
+    assert split_word_carry("стол", available_width_px=50, glyph_widths=widths, mode="syllable") is None
+    assert split_word_carry("всплеск", available_width_px=50, glyph_widths=widths, mode="syllable") is None
+
+    # 2. Do not detach ь, ъ, й (they stay with the preceding part)
+    # "майка" -> "май-ка" (not "ма-йка")
+    res_maika = split_word_carry("майка", available_width_px=50, glyph_widths=widths, mode="syllable")
+    assert res_maika == ("май-", "ка")
+
+    # "подъезд" -> "подъ-езд" (not "под-ъезд")
+    res_pod = split_word_carry("подъезд", available_width_px=50, glyph_widths=widths, mode="syllable")
+    assert res_pod == ("подъ-", "езд")
+
+    # "мальчик" -> "маль-чик" (not "мал-ьчик")
+    res_mal = split_word_carry("мальчик", available_width_px=50, glyph_widths=widths, mode="syllable")
+    assert res_mal == ("маль-", "чик")
+
+    # 3. Double consonants between vowels split between them ("ван-ная", not "ва-нная")
+    res_van = split_word_carry("ванная", available_width_px=50, glyph_widths=widths, mode="syllable")
+    assert res_van == ("ван-", "ная")
+
+    # 4. Prefix >= 2, remainder >= 2:
+    # "окно" -> "ок-но" (both parts len 2, vowels in both)
+    res_okno = split_word_carry("окно", available_width_px=50, glyph_widths=widths, mode="syllable")
+    assert res_okno == ("ок-", "но")
+
+
+def test_wrap_text_block_force_repack():
+    """Verify --force completely collapses text and repacks into clean lines/pages."""
+    widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyz0123456789 "}
+    # Text where original lines fit under 220px, but lines are ragged across existing {PAGE}
+    text = "Line 1\nLine 2{PAGE}Line 3\nLine 4"
+
+    # force=False preserves existing {PAGE} and line breaks when within width
+    formatted_normal, _ = wrap_text_block(text, widths, max_width_px=220, max_lines=2, auto_paginate=True, force=False)
+    assert "{PAGE}" in formatted_normal
+
+    # force=True collapses all newlines and {PAGE} into single flow:
+    # "Line 1 Line 2 Line 3 Line 4" has 29 chars * 5px = 145px <= 220px -> fits on 1 line!
+    formatted_forced, warnings = wrap_text_block(text, widths, max_width_px=220, max_lines=2, auto_paginate=True, force=True)
+    assert formatted_forced == "Line 1 Line 2 Line 3 Line 4"
+    assert "{PAGE}" not in formatted_forced
+    assert "\n" not in formatted_forced
+    assert len(warnings) == 0
+
+    # force=True with auto_paginate=True when lines exceed max_lines
+    formatted_paged, _ = wrap_text_block(
+        "one two three four five six seven eight",
+        widths,
+        max_width_px=50,
+        max_lines=2,
+        auto_paginate=True,
+        force=True,
+    )
+    pages = formatted_paged.split("{PAGE}")
+    assert len(pages) >= 2
+    for page in pages:
+        assert len(page.split("\n")) <= 2
+
+    # force=True with auto_paginate=False generates warning if lines exceed max_lines
+    formatted_no_paged, warn_no_paged = wrap_text_block(
+        "one two three four five six seven eight",
+        widths,
+        max_width_px=50,
+        max_lines=2,
+        auto_paginate=False,
+        force=True,
+    )
+    assert "{PAGE}" not in formatted_no_paged
+    assert any("exceeds max 2" in w for w in warn_no_paged)
+
+
+def test_wrap_text_block_carry_integration():
+    """Verify wrap_text_block integrates word hyphenation via carry parameter."""
+    widths = {ch: 5 for ch in "абвгдеёжзийклмнопрстуфхцчшщъыьэюя- "}
+    # "герои приключение"
+    # "герои" (5 chars * 5 = 25px) + space (5px) = 30px.
+    # max_width_px = 65px -> remaining available width = 35px.
+    # "приключение" with carry="geo" in 35px splits into "приклю-" (35px) and remainder "чение".
+    text = "герои приключение"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=65, carry="geo", reflow=True)
+    lines = formatted.split("\n")
+    assert lines[0] == "герои приклю-"
+    assert lines[1] == "чение"
+    assert len(warnings) == 0
+
+
+def test_cli_force_and_carry_arguments_and_execution(tmp_path, capsys):
+    """Verify CLI parser and execution with --force and --carry flags."""
+    parser = create_parser()
+
+    # 1. Defaults
+    args_default = parser.parse_args(["validate-text-length"])
+    assert args_default.force is False
+    assert args_default.carry is None
+
+    # 2. --force flag
+    args_force = parser.parse_args(["validate-text-length", "--force"])
+    assert args_force.force is True
+
+    # 3. --carry flag alone defaults to const "geo"
+    args_carry_default = parser.parse_args(["validate-text-length", "--carry"])
+    assert args_carry_default.carry == "geo"
+
+    # 4. --carry with explicit choices
+    args_carry_geo = parser.parse_args(["validate-text-length", "--carry", "geo"])
+    assert args_carry_geo.carry == "geo"
+
+    args_carry_syl = parser.parse_args(["validate-text-length", "--carry", "syllable"])
+    assert args_carry_syl.carry == "syllable"
+
+    # 5. Combined flags on alias
+    args_alias = parser.parse_args(["validate-text-lenght", "--force", "--carry"])
+    assert args_alias.force is True
+    assert args_alias.carry == "geo"
+
+    # 6. Execution logs display Force repacking and Word carry status
+    sample_file = tmp_path / "msg01.json"
+    sample_file.write_text(json.dumps([{"id": 0, "translation": "привет мир"}]), encoding="utf-8")
+
+    args_run = parser.parse_args([
+        "validate-text-length",
+        "--file", str(sample_file),
+        "--force",
+        "--carry", "syllable",
+    ])
+    rc = cmd_validate_text_length(args_run)
+    assert rc == 0
+    captured = capsys.readouterr().out
+    assert "Force repacking        : Enabled" in captured
+    assert "Word carry (hyphen)    : syllable" in captured
 
 
 
