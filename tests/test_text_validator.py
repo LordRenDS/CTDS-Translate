@@ -869,24 +869,25 @@ def test_get_preset_for_file_matching():
     assert p_tut.max_width_px == 200
     assert p_tut.reflow is True
     assert p_tut.font_type == "big"
-    assert get_preset_for_file("start.json").name == "tutorial"
-    assert get_preset_for_file("ev_title.json").name == "tutorial"
+    assert get_preset_for_file("start.json").name == "dialogue"
+    assert get_preset_for_file("ev_title.json").name == "chapter_title"
 
     # 3. Encyclopedia / Character bio files
     p_encyclopedia = get_preset_for_file("player.json")
     assert p_encyclopedia.name == "encyclopedia"
     assert p_encyclopedia.max_lines == 6
-    assert p_encyclopedia.max_width_px == 208
+    assert p_encyclopedia.max_width_px == 136
     assert get_preset_for_file("ex_montec.json").name == "encyclopedia"
     assert get_preset_for_file("ex_itemget.json").name == "encyclopedia"
     assert get_preset_for_file("ex_illust.json").name == "encyclopedia"
-    assert get_preset_for_file("ex_ending.json").name == "encyclopedia"
+    assert get_preset_for_file("ex_ending.json").name == "ending_desc"
 
     # 4. Item descriptions
     p_item_desc = get_preset_for_file("item_mes.json")
     assert p_item_desc.name == "item_desc"
-    assert p_item_desc.max_lines == 2
-    assert p_item_desc.max_width_px == 195
+    assert p_item_desc.max_lines == 1
+    assert p_item_desc.max_width_px == 210
+    assert p_item_desc.reflow is False
     assert get_preset_for_file("item_mes2.json").name == "item_desc"
 
     # 5. Item sub (short tooltips)
@@ -908,7 +909,7 @@ def test_get_preset_for_file_matching():
     p_battle = get_preset_for_file("battle.json")
     assert p_battle.name == "battle"
     assert p_battle.max_lines == 2
-    assert p_battle.max_width_px == 210
+    assert p_battle.max_width_px == 180
     assert p_battle.reflow is True
 
     # 8. Menu screens
@@ -1223,11 +1224,14 @@ def test_new_specialized_file_presets():
     p_tec_mes = get_preset_for_file("tec_mes.json")
     assert p_tec_mes.name == "tech_desc"
     assert p_tec_mes.max_width_px == 190
-    assert p_tec_mes.max_lines == 2
+    assert p_tec_mes.max_lines == 1
+    assert p_tec_mes.reflow is False
 
     p_mon_tec = get_preset_for_file("mon_tec.json")
-    assert p_mon_tec.name == "tech_desc"
-    assert p_mon_tec.max_width_px == 190
+    assert p_mon_tec.name == "battle_banner"
+    assert p_mon_tec.max_width_px == 238
+    assert p_mon_tec.max_lines == 1
+    assert p_mon_tec.reflow is False
 
     # Monster names
     p_mon = get_preset_for_file("monster.json")
@@ -1238,12 +1242,13 @@ def test_new_specialized_file_presets():
     # Map locations
     p_map = get_preset_for_file("map.json")
     assert p_map.name == "map_location"
-    assert p_map.max_width_px == 120
+    assert p_map.max_width_px == 140
     assert p_map.max_lines == 1
 
     p_wmap = get_preset_for_file("w_map.json")
     assert p_wmap.name == "map_location"
-    assert p_wmap.max_width_px == 120
+    assert p_wmap.max_width_px == 140
+    assert p_wmap.max_lines == 1
 
     # BGM tracks
     p_bgm = get_preset_for_file("bgm.json")
@@ -1263,13 +1268,13 @@ def test_new_specialized_file_presets():
     # Bestiary UI labels
     p_zukan = get_preset_for_file("zukan.json")
     assert p_zukan.name == "zukan"
-    assert p_zukan.max_width_px == 70
+    assert p_zukan.max_width_px == 80
     assert p_zukan.max_lines == 1
 
     # Quiz questions must be dialogue, NOT menu
     p_ques = get_preset_for_file("ques0.json")
     assert p_ques.name == "dialogue"
-    assert p_ques.max_width_px == 220
+    assert p_ques.max_width_px == 238
     assert p_ques.max_lines == 3
 
     # system.json in msg/big must NOT be small_system
@@ -1637,6 +1642,63 @@ def test_wrap_text_block_roundtrip_reflow_force():
     re_wrapped_same, _ = wrap_text_block(formatted, widths, max_width_px=65, force=True, carry=None)
     assert re_wrapped_same == "герои\nприключение"
     assert "-" not in re_wrapped_same
+
+
+def test_calibrated_window_presets():
+    """Verify calibrated window presets and new preset mappings."""
+    # Dialogue: 238px, 3 lines
+    p_diag = WINDOW_PRESETS["dialogue"]
+    assert p_diag.max_width_px == 238
+    assert p_diag.max_lines == 3
+    assert p_diag.reflow is True
+
+    # Tutorial: 200px, 6 lines, only tutorial.json
+    p_tut = WINDOW_PRESETS["tutorial"]
+    assert p_tut.max_width_px == 200
+    assert p_tut.max_lines == 6
+    assert get_preset_for_file("tutorial.json").name == "tutorial"
+
+    # Chapter Title: 130px, 1 line, ev_title.json
+    p_chap = get_preset_for_file("ev_title.json")
+    assert p_chap.name == "chapter_title"
+    assert p_chap.max_width_px == 130
+    assert p_chap.max_lines == 1
+    assert p_chap.reflow is False
+
+    # Battle Banner: 238px, 1 line, mon_tec.json
+    p_btl_banner = get_preset_for_file("mon_tec.json")
+    assert p_btl_banner.name == "battle_banner"
+    assert p_btl_banner.max_width_px == 238
+    assert p_btl_banner.max_lines == 1
+
+    # Ending Desc: 224px, 2 lines, ex_ending.json
+    p_ending = get_preset_for_file("ex_ending.json")
+    assert p_ending.name == "ending_desc"
+    assert p_ending.max_width_px == 224
+    assert p_ending.max_lines == 2
+
+    # Encyclopedia: 136px, 6 lines
+    p_encycl = WINDOW_PRESETS["encyclopedia"]
+    assert p_encycl.max_width_px == 136
+    assert p_encycl.max_lines == 6
+    assert get_preset_for_file("player.json").name == "encyclopedia"
+    assert get_preset_for_file("ex_mon.json").name == "encyclopedia"
+
+    # Item Desc & Tech Desc: 1 line strict
+    p_item = WINDOW_PRESETS["item_desc"]
+    assert p_item.max_width_px == 210
+    assert p_item.max_lines == 1
+    assert p_item.reflow is False
+
+    p_tech = WINDOW_PRESETS["tech_desc"]
+    assert p_tech.max_width_px == 190
+    assert p_tech.max_lines == 1
+    assert p_tech.reflow is False
+
+    # Map location & Zukan
+    assert WINDOW_PRESETS["map_location"].max_width_px == 140
+    assert WINDOW_PRESETS["zukan"].max_width_px == 80
+
 
 
 
