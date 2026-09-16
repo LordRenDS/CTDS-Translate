@@ -874,6 +874,114 @@ def wrap_line_to_width(
     return lines
 
 
+HYPHEN_BREAK_PATTERN = re.compile(
+    r"([a-zA-Zа-яА-ЯёЁ]+)-\s*(?:\r?\n|\{LINE\}|\{PAGE\})\s*(?:(?:\r?\n|\{LINE\}|\{PAGE\})\s*)*([a-zA-Zа-яА-ЯёЁ]+)"
+)
+
+COMPOUND_TO_PREFIXES = frozenset({
+    "что", "кто", "где", "как", "куда", "когда", "почему", "зачем", "откуда",
+    "отчего", "сколько",
+    "кого", "кому", "кем", "ком", "чего", "чему", "чем",
+    "какой", "какая", "какое", "какие", "каком", "какому", "каким", "каких", "какую", "какими",
+    "чей", "чья", "чье", "чьё", "чьи", "чьего", "чьей", "чьих", "чьим", "чьими", "чьем", "чьём",
+    "так", "все", "всё", "он", "она", "оно", "они", "я", "ты", "мы", "вы",
+    "тут", "там", "тот", "та", "те", "то", "опять", "прямо", "да", "уж", "мало",
+})
+
+COMPOUND_KA_PREFIXES = frozenset({
+    "ну", "на", "давай", "давайте", "дай", "дайте", "гляди", "глянь", "гляньте",
+    "смотри", "смотрите", "поди", "постой", "постойте", "подожди", "подождите",
+    "слушай", "слушайте", "скажи", "скажите", "покажи", "покажите", "знай",
+    "думай", "думайте", "попробуй", "попробуйте", "пойдем", "пойдемте", "посмотрим",
+    "погоди", "погодите",
+})
+
+
+def _is_genuine_compound(prefix: str, remainder: str) -> bool:
+    """Checks whether a hyphenated pair forms a genuine compound word in Russian."""
+    p_lower = prefix.lower()
+    r_lower = remainder.lower()
+
+    # Suffixes: {"то", "либо", "нибудь", "ка", "де", "с"}
+    if r_lower in {"либо", "нибудь"}:
+        return True
+
+    if r_lower == "то" and (
+        p_lower in COMPOUND_TO_PREFIXES
+        or any(p_lower.endswith("-" + x) for x in COMPOUND_TO_PREFIXES)
+    ):
+        return True
+
+    if r_lower == "ка" and p_lower in COMPOUND_KA_PREFIXES:
+        return True
+
+    if r_lower == "де" and p_lower in {
+        "он", "она", "оно", "они", "я", "ты", "мы", "вы", "мол", "говорит", "сказал"
+    }:
+        return True
+
+    if r_lower == "с" and p_lower in {
+        "да", "нет", "извольте", "слушаю", "сударь", "помилуйте"
+    }:
+        return True
+
+    # Prefixes: {"из", "кое", "по", "во", "в"} (when appropriate)
+    if p_lower == "из" and r_lower in {"за", "под", "над"}:
+        return True
+
+    if p_lower in {"кое", "кой"}:
+        return True
+
+    if p_lower == "по":
+        if (
+            r_lower.endswith(("ому", "ему", "ски", "цки", "ьи", "ыни"))
+            or r_lower in {"латыни", "памяти", "пустому"}
+        ):
+            return True
+
+    if p_lower == "во" and r_lower in {"первых", "вторых"}:
+        return True
+
+    if p_lower == "в" and r_lower in {
+        "третьих", "четвертых", "пятых", "шестых", "седьмых", "восьмых", "девятых", "десятых"
+    }:
+        return True
+
+    return False
+
+
+def collapse_hyphenated_breaks(text: str) -> str:
+    """Collapses hyphenated line and page breaks back into whole words or compound words.
+
+    Distinguishes genuine hyphenated compounds (e.g., 'что-то', 'из-за', 'где-нибудь',
+    'по-моему', 'во-первых') from soft hyphens introduced by word carry / hyphenation
+    (e.g., 'пре-\\nкрасный' -> 'прекрасный', 'стро-{LINE}ка' -> 'строка').
+
+    Args:
+        text: Input string with potential hyphenated line breaks.
+
+    Returns:
+        String with hyphenated breaks properly collapsed.
+    """
+    if not text:
+        return ""
+
+    def _replace_break(match: re.Match) -> str:
+        prefix = match.group(1)
+        remainder = match.group(2)
+        if _is_genuine_compound(prefix, remainder):
+            return f"{prefix}-{remainder}"
+        return f"{prefix}{remainder}"
+
+    prev = None
+    curr = text
+    while prev != curr:
+        prev = curr
+        curr = HYPHEN_BREAK_PATTERN.sub(_replace_break, curr)
+
+    return curr
+
+
 def wrap_text_block(
     text: str,
     glyph_widths: Dict[str, int],
@@ -917,7 +1025,8 @@ def wrap_text_block(
     )
 
     if force or (has_overflow and reflow):
-        clean_text = re.sub(r"\{PAGE\}|\r?\n|\{LINE\}", " ", text)
+        clean_text = collapse_hyphenated_breaks(text)
+        clean_text = re.sub(r"\{PAGE\}|\r?\n|\{LINE\}", " ", clean_text)
         clean_text = re.sub(r" +", " ", clean_text).strip()
         if not clean_text:
             return "", []
@@ -958,7 +1067,8 @@ def wrap_text_block(
         elif reflow:
             paragraphs = re.split(r"(?:\r?\n){2,}", raw_page)
             for para in paragraphs:
-                p_clean = re.sub(r"\r?\n|\{LINE\}", " ", para)
+                p_clean = collapse_hyphenated_breaks(para)
+                p_clean = re.sub(r"\r?\n|\{LINE\}", " ", p_clean)
                 p_clean = re.sub(r" +", " ", p_clean).strip()
                 if p_clean:
                     page_lines.extend(
