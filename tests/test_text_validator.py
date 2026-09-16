@@ -1303,9 +1303,9 @@ def test_entry_sub_preset_resolution():
     assert c_defaults.max_width_px == 45
     assert c_defaults.max_lines == 1
 
-    # 3. Save & Apply button -> max 65px, 1 line
+    # 3. Save & Apply button -> max 95px, 1 line
     c_save = get_constraints_for_entry("menu.json", 101)
-    assert c_save.max_width_px == 65
+    assert c_save.max_width_px == 95
     assert c_save.max_lines == 1
 
     # 4. Settings toggle (e.g. TYPE A) -> max 50px, 1 line
@@ -1698,6 +1698,94 @@ def test_calibrated_window_presets():
     # Map location & Zukan
     assert WINDOW_PRESETS["map_location"].max_width_px == 140
     assert WINDOW_PRESETS["zukan"].max_width_px == 80
+
+
+def test_granular_constraints_start_json():
+    from src.text_validator import get_constraints_for_entry
+
+    # Game mode description: 7 lines, 125px
+    c77 = get_constraints_for_entry("start.json", 77)
+    assert c77.name == "start_mode_desc"
+    assert c77.max_lines == 7
+    assert c77.max_width_px == 125
+    assert c77.reflow is True
+
+    # Settings explanation: 4 lines, 125px
+    c82 = get_constraints_for_entry("start.json", 82)
+    assert c82.name == "start_setting_desc"
+    assert c82.max_lines == 4
+    assert c82.max_width_px == 125
+    assert c82.reflow is True
+
+    # Card/save corruption alert: 3 lines, 220px
+    c29 = get_constraints_for_entry("start.json", 29)
+    assert c29.name == "start_alert_box"
+    assert c29.max_lines == 3
+    assert c29.max_width_px == 220
+    assert c29.reflow is True
+
+    # General start entries
+    c0 = get_constraints_for_entry("start.json", 0)
+    assert c0.name == "start_general"
+    assert c0.max_lines == 2
+    assert c0.max_width_px == 200
+    assert c0.reflow is False
+
+
+def test_granular_constraints_ex_item_json():
+    from src.text_validator import get_constraints_for_entry
+
+    # Regular item name in ex_item
+    c0 = get_constraints_for_entry("ex_item.json", 0)
+    assert c0.name == "item_name"
+    assert c0.max_width_px == 105
+    assert c0.max_lines == 1
+    assert c0.reflow is False
+
+    # Extra mode treasure combo in ex_item
+    c180 = get_constraints_for_entry("ex_item.json", 180)
+    assert c180.name == "ex_item_treasure_choice"
+    assert c180.max_width_px == 165
+    assert c180.max_lines == 1
+    assert c180.reflow is False
+
+
+def test_granular_constraints_menu_json_buttons():
+    from src.text_validator import get_constraints_for_entry
+
+    # Action button expanded to 95px
+    c102 = get_constraints_for_entry("menu.json", 102)
+    assert c102.max_width_px == 95
+    assert c102.name == "menu_action_button"
+
+    # Empty shop notice (entries 125, 126, 129, 130) -> 2 lines, 195px
+    c125 = get_constraints_for_entry("menu.json", 125)
+    assert c125.name == "menu_status_msg"
+    assert c125.max_lines == 2
+    assert c125.max_width_px == 195
+
+
+def test_system_json_charmap_exemption():
+    from src.text_validator import get_constraints_for_entry
+
+    # Naming keyboard character table entries exempt from width
+    c_big = get_constraints_for_entry("msg/big/system.json", 3)
+    assert c_big.name == "system_charmap"
+    assert c_big.max_width_px >= 9999
+    assert c_big.font_type == "big"
+
+    c_small = get_constraints_for_entry("msg/small/system.json", 6)
+    assert c_small.name == "system_charmap"
+    assert c_small.max_width_px >= 9999
+    assert c_small.font_type == "small"
+
+    # Small system popup test (entries 9..11)
+    c_popup = get_constraints_for_entry("msg/small/system.json", 10)
+    assert c_popup.name == "small_system_popup"
+    assert c_popup.max_width_px == 130
+    assert c_popup.max_lines == 2
+    assert c_popup.font_type == "small"
+
 
 
 

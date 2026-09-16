@@ -329,6 +329,62 @@ def get_constraints_for_entry(
     base_preset = get_preset_for_file(file_path)
     base_name = os.path.basename(file_path).lower()
 
+    if base_name == "start.json":
+        if entry_id in (77, 78):
+            return TextWindowPreset(
+                name="start_mode_desc",
+                max_width_px=125,
+                max_lines=7,
+                reflow=True,
+                font_type="big",
+                patterns=(),
+            )
+        if entry_id in (82, 83, 87, 88):
+            return TextWindowPreset(
+                name="start_setting_desc",
+                max_width_px=125,
+                max_lines=4,
+                reflow=True,
+                font_type="big",
+                patterns=(),
+            )
+        if entry_id in (29, 34, 37, 38, 104, 105, 106, 107, 108):
+            return TextWindowPreset(
+                name="start_alert_box",
+                max_width_px=220,
+                max_lines=3,
+                reflow=True,
+                font_type="big",
+                patterns=(),
+            )
+        return TextWindowPreset(
+            name="start_general",
+            max_width_px=200,
+            max_lines=2,
+            reflow=False,
+            font_type="big",
+            patterns=(),
+        )
+
+    if base_name == "ex_item.json":
+        if 176 <= entry_id <= 204:
+            return TextWindowPreset(
+                name="ex_item_treasure_choice",
+                max_width_px=165,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        return TextWindowPreset(
+            name="item_name",
+            max_width_px=105,
+            max_lines=1,
+            reflow=False,
+            font_type="big",
+            patterns=(),
+        )
+
     if base_name == "menu.json":
         # 1. Option labels (Settings 2-column table on top screen)
         if 85 <= entry_id <= 98:
@@ -354,7 +410,7 @@ def get_constraints_for_entry(
         if entry_id in (99, 101, 102, 103, 104):
             return TextWindowPreset(
                 name="menu_action_button",
-                max_width_px=65,
+                max_width_px=95,
                 max_lines=1,
                 reflow=False,
                 font_type="big",
@@ -390,12 +446,12 @@ def get_constraints_for_entry(
                 font_type="big",
                 patterns=(),
             )
-        # 7. Empty inventory / equip status messages
-        if 69 <= entry_id <= 74:
+        # 7. Empty inventory / equip status messages & empty shop messages
+        if (69 <= entry_id <= 74) or (entry_id in (125, 126, 129, 130)):
             return TextWindowPreset(
                 name="menu_status_msg",
                 max_width_px=195,
-                max_lines=1,
+                max_lines=2,
                 reflow=False,
                 font_type="big",
                 patterns=(),
@@ -531,17 +587,44 @@ def get_constraints_for_entry(
                 patterns=(),
             )
 
-    if base_name == "system.json" and ("small" in file_path.lower() or "sfc" in file_path.lower()):
-        # Popup prompts (e.g. {LUCCA}\nObtained {ROBO}!, It's empty!)
-        if 9 <= entry_id <= 11:
-            return TextWindowPreset(
-                name="small_system_popup",
-                max_width_px=130,
-                max_lines=2,
-                reflow=False,
-                font_type="small",
-                patterns=(),
-            )
+    if base_name == "system.json":
+        norm_path = file_path.replace("\\", "/").lower()
+        is_small = (
+            "/small/" in norm_path
+            or norm_path.startswith("small/")
+            or norm_path.endswith("/small")
+            or "sfc" in norm_path
+            or base_preset.font_type == "small"
+        )
+        if is_small:
+            if entry_id in (1, 2, 3, 4, 5, 6):
+                return TextWindowPreset(
+                    name="system_charmap",
+                    max_width_px=9999,
+                    max_lines=99,
+                    reflow=False,
+                    font_type="small",
+                    patterns=(),
+                )
+            if 9 <= entry_id <= 11:
+                return TextWindowPreset(
+                    name="small_system_popup",
+                    max_width_px=130,
+                    max_lines=2,
+                    reflow=False,
+                    font_type="small",
+                    patterns=(),
+                )
+        else:
+            if entry_id in (3, 4):
+                return TextWindowPreset(
+                    name="system_charmap",
+                    max_width_px=9999,
+                    max_lines=99,
+                    reflow=False,
+                    font_type="big",
+                    patterns=(),
+                )
 
     return base_preset
 
