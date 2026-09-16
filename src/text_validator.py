@@ -9,7 +9,8 @@ import fnmatch
 import json
 import os
 import re
-from typing import Any, Dict, List, Optional, Tuple
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple, Union
 
 from src.char_map import BIG_CHAR_TO_GLYPH
 
@@ -333,7 +334,7 @@ def get_constraints_for_entry(
         if entry_id in (77, 78):
             return TextWindowPreset(
                 name="start_mode_desc",
-                max_width_px=125,
+                max_width_px=130,
                 max_lines=7,
                 reflow=True,
                 font_type="big",
@@ -342,13 +343,13 @@ def get_constraints_for_entry(
         if entry_id in (82, 83, 87, 88):
             return TextWindowPreset(
                 name="start_setting_desc",
-                max_width_px=125,
+                max_width_px=145,
                 max_lines=4,
                 reflow=True,
                 font_type="big",
                 patterns=(),
             )
-        if entry_id in (29, 34, 37, 38, 104, 105, 106, 107, 108):
+        if (23 <= entry_id <= 45) or (104 <= entry_id <= 108):
             return TextWindowPreset(
                 name="start_alert_box",
                 max_width_px=220,
@@ -367,7 +368,7 @@ def get_constraints_for_entry(
         )
 
     if base_name == "ex_item.json":
-        if 176 <= entry_id <= 204:
+        if (176 <= entry_id <= 204) or (247 <= entry_id <= 250):
             return TextWindowPreset(
                 name="ex_item_treasure_choice",
                 max_width_px=165,
@@ -385,12 +386,51 @@ def get_constraints_for_entry(
             patterns=(),
         )
 
+    if base_name == "ex_illust.json":
+        return TextWindowPreset(
+            name="ex_illust_title",
+            max_width_px=145,
+            max_lines=1,
+            reflow=False,
+            font_type="big",
+            patterns=(),
+        )
+
+    if base_name == "tutorial.json":
+        if entry_id == 12:
+            return TextWindowPreset(
+                name="tutorial_prompt",
+                max_width_px=230,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        return TextWindowPreset(
+            name="tutorial",
+            max_width_px=210,
+            max_lines=6,
+            reflow=True,
+            font_type="big",
+            patterns=(),
+        )
+
+    if base_name.startswith("wireless") and not base_name.startswith("wireless_mon"):
+        return TextWindowPreset(
+            name="wireless_menu",
+            max_width_px=210,
+            max_lines=2,
+            reflow=False,
+            font_type="big",
+            patterns=(),
+        )
+
     if base_name == "menu.json":
         # 1. Option labels (Settings 2-column table on top screen)
         if 85 <= entry_id <= 98:
             return TextWindowPreset(
                 name="menu_config_option",
-                max_width_px=105,
+                max_width_px=110,
                 max_lines=1,
                 reflow=False,
                 font_type="big",
@@ -546,6 +586,16 @@ def get_constraints_for_entry(
                 font_type="big",
                 patterns=(),
             )
+        # 17. Usable by label (entry 76: "Usable by:" / "Peut s'en\néquiper :")
+        if entry_id == 76:
+            return TextWindowPreset(
+                name="menu_usable_by",
+                max_width_px=70,
+                max_lines=2,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
         return TextWindowPreset(
             name="menu_general",
             max_width_px=120,
@@ -570,7 +620,7 @@ def get_constraints_for_entry(
         if 8 <= entry_id <= 23:
             return TextWindowPreset(
                 name="battle_status",
-                max_width_px=50,
+                max_width_px=65,
                 max_lines=1,
                 reflow=False,
                 font_type="big",
@@ -616,7 +666,7 @@ def get_constraints_for_entry(
                     patterns=(),
                 )
         else:
-            if entry_id in (3, 4):
+            if entry_id in (3, 4, 6):
                 return TextWindowPreset(
                     name="system_charmap",
                     max_width_px=9999,
@@ -676,6 +726,10 @@ def strip_control_tags(text: str) -> str:
     Returns:
         String with non-visual control tokens removed.
     """
+    text = re.sub(r"\{GLYPH:405\}[0-9a-fA-F]+\{GLYPH:406\}", "", text)
+    text = re.sub(r"\{GLYPH:407\}[0-9a-fA-F]+\{GLYPH:408\}", "", text)
+    text = re.sub(r"\{GLYPH:40[5-8]\}", "", text)
+
     def _replace(match: re.Match) -> str:
         token = match.group(0)
         if token in HERO_TOKENS or GLYPH_PATTERN.match(token):
@@ -1225,8 +1279,8 @@ def wrap_text_block(
 
 
 def validate_and_format_file(
-    file_path: str,
-    glyph_widths: Dict[str, int],
+    file_path: Union[str, Path],
+    glyph_widths: Optional[Dict[str, int]] = None,
     max_width_px: Optional[int] = None,
     max_lines: Optional[int] = None,
     auto_paginate: bool = False,
@@ -1238,6 +1292,9 @@ def validate_and_format_file(
     preset: str = "auto",
     force: bool = False,
     carry: Optional[str] = None,
+    font_widths: Optional[Dict[str, int]] = None,
+    small_widths: Optional[Dict[str, int]] = None,
+    dry_run: Optional[bool] = None,
 ) -> Dict[str, Any]:
     """Validates and formats dialogue or UI text within a single JSON file.
 
@@ -1260,11 +1317,17 @@ def validate_and_format_file(
         preset: Window preset name or "auto" for filename-based detection.
         force: If True, force recalculation and repacking of all text even if lines fit.
         carry: Optional word hyphenation mode ("geo" or "syllable").
+        font_widths: Alias for glyph_widths.
+        small_widths: Optional metrics for small-font entries.
+        dry_run: If True, do not write changes to disk even if fix=True.
 
     Returns:
         Dict with keys: file_path, total_entries, overflows_found, warnings, modified, changes_count, preset.
     """
-    effective_preset = get_preset_for_file(file_path, explicit_preset=preset)
+    if dry_run is not None and dry_run:
+        fix = False
+
+    effective_preset = get_preset_for_file(str(file_path), explicit_preset=preset)
     effective_max_width_px = (
         max_width_px if max_width_px is not None else effective_preset.max_width_px
     )
@@ -1272,6 +1335,22 @@ def validate_and_format_file(
         max_lines if max_lines is not None else effective_preset.max_lines
     )
     effective_reflow = reflow if reflow is not None else effective_preset.reflow
+
+    active_base_widths = font_widths if font_widths is not None else glyph_widths
+    if active_base_widths is None:
+        active_base_widths = load_glyph_metrics(
+            "extracted fonts/msg/big/msgcmn.json",
+            "assets/fonts/cyrillic_big.json" if os.path.isfile("assets/fonts/cyrillic_big.json") else None,
+        )
+
+    if small_widths is None and os.path.isfile("extracted fonts/msg/small/msgcmn.json"):
+        try:
+            small_widths = load_glyph_metrics(
+                "extracted fonts/msg/small/msgcmn.json",
+                "assets/fonts/cyrillic_small.json" if os.path.isfile("assets/fonts/cyrillic_small.json") else None,
+            )
+        except Exception:
+            small_widths = None
 
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -1301,7 +1380,7 @@ def validate_and_format_file(
         if not text or not isinstance(text, str):
             continue
 
-        entry_preset = get_constraints_for_entry(file_path, entry_id, explicit_preset=preset)
+        entry_preset = get_constraints_for_entry(str(file_path), entry_id, explicit_preset=preset)
         entry_max_width_px = (
             max_width_px if max_width_px is not None else entry_preset.max_width_px
         )
@@ -1309,14 +1388,24 @@ def validate_and_format_file(
             max_lines if max_lines is not None else entry_preset.max_lines
         )
         entry_reflow = reflow if reflow is not None else entry_preset.reflow
+        active_widths = (
+            small_widths
+            if (entry_preset.font_type == "small" and small_widths is not None)
+            else active_base_widths
+        )
 
         # Check overflows in original lines
         raw_pages = text.split("{PAGE}")
         for raw_page in raw_pages:
             raw_lines = re.split(r"\r?\n|\{LINE\}", raw_page)
+            if field in ("original_en", "original_fr") and entry_max_lines == 1 and len(raw_lines) > 1:
+                overflows_count += 1
+                warnings.append(
+                    f"Entry {entry_id}: Page has {len(raw_lines)} lines (exceeds max 1)"
+                )
             for raw_line in raw_lines:
                 line_width = calculate_line_width_px(
-                    raw_line, glyph_widths, hero_name_width_px=hero_name_width_px
+                    raw_line, active_widths, hero_name_width_px=hero_name_width_px
                 )
                 if line_width > entry_max_width_px:
                     overflows_count += 1
@@ -1324,24 +1413,25 @@ def validate_and_format_file(
                         f"Entry {entry_id}: line exceeds {entry_max_width_px}px ({line_width}px): '{raw_line}'"
                     )
 
-        wrapped_text, block_warnings = wrap_text_block(
-            text,
-            glyph_widths,
-            max_width_px=entry_max_width_px,
-            max_lines=entry_max_lines,
-            auto_paginate=auto_paginate,
-            hero_name_width_px=hero_name_width_px,
-            reflow=entry_reflow,
-            force=force,
-            carry=carry,
-        )
-        for bw in block_warnings:
-            warnings.append(f"Entry {entry_id}: {bw}")
+        if fix or field not in ("original_en", "original_fr"):
+            wrapped_text, block_warnings = wrap_text_block(
+                text,
+                active_widths,
+                max_width_px=entry_max_width_px,
+                max_lines=entry_max_lines,
+                auto_paginate=auto_paginate,
+                hero_name_width_px=hero_name_width_px,
+                reflow=entry_reflow,
+                force=force,
+                carry=carry,
+            )
+            for bw in block_warnings:
+                warnings.append(f"Entry {entry_id}: {bw}")
 
-        if wrapped_text != text:
-            changes_count += 1
-            if fix:
-                entry[field] = wrapped_text
+            if wrapped_text != text:
+                changes_count += 1
+                if fix:
+                    entry[field] = wrapped_text
 
     modified = False
     if fix and (changes_count > 0 or out_path is not None):
@@ -1355,7 +1445,7 @@ def validate_and_format_file(
         modified = True
 
     return {
-        "file_path": file_path,
+        "file_path": str(file_path),
         "total_entries": total_entries,
         "overflows_found": overflows_count,
         "warnings": warnings,

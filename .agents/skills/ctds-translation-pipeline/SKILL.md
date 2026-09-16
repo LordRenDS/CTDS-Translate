@@ -1,6 +1,6 @@
 ---
 name: ctds-translation-pipeline
-description: Specialized translation, graphics, font, and ROM build pipeline for Chrono Trigger DS (CTDS), covering CLI commands, 17 window presets, VWF reflow, dialogue control tokens, and NCER sprite rules.
+description: Specialized translation, graphics, font, and ROM build pipeline for Chrono Trigger DS (CTDS), covering CLI commands, 20 window presets, VWF reflow, dialogue control tokens, and NCER sprite rules.
 ---
 
 # Chrono Trigger DS (CTDS) Translation Pipeline
@@ -154,26 +154,29 @@ python src/cli.py roundtrip --nds "rom/Chrono Trigger (Europe) (En,Fr).nds"
 
 ---
 
-## 2. Window Presets Reference (17 Presets in `src/text_validator.py`)
+## 2. Window Presets Reference (20 Presets in `src/text_validator.py`)
 
 `WINDOW_PRESETS` defines line width and page constraints for all dialogue and UI text boxes in the game.
 
 | Preset Name | Max Width (px) | Max Lines | Reflow | Font Type | Target File Patterns |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| `dialogue` | **230** | **3** | `True` | `big` | `msg*.json`, `cmes*.json`, `kmes*.json`, `mesi*.json`, `mesk*.json`, `mess*.json`, `mest*.json`, `exms*.json`, `comu*.json`, `ques*.json` |
-| `tutorial` | **230** | **6** | `True` | `big` | `tutorial.json`, `start.json`, `ev_title.json` |
-| `encyclopedia` | **215** | **6** | `True` | `big` | `player.json`, `ex_mon*.json`, `ex_itemget.json`, `ex_illust.json`, `ex_ending.json` |
-| `item_desc` | **195** | **2** | `True` | `big` | `item_mes.json`, `item_mes2.json` |
+| `dialogue` | **238** | **3** | `True` | `big` | `msg*.json`, `cmes*.json`, `kmes*.json`, `mesi*.json`, `mesk*.json`, `mess*.json`, `mest*.json`, `exms*.json`, `comu*.json`, `ques*.json` |
+| `tutorial` | **200** | **6** | `True` | `big` | `tutorial.json` |
+| `chapter_title` | **130** | **1** | `False` | `big` | `ev_title.json` |
+| `battle_banner` | **238** | **1** | `False` | `big` | `mon_tec.json` |
+| `ending_desc` | **224** | **2** | `True` | `big` | `ex_ending.json` |
+| `encyclopedia` | **136** | **6** | `True` | `big` | `player.json`, `ex_mon*.json`, `ex_itemget.json`, `ex_illust.json` |
+| `item_desc` | **210** | **1** | `False` | `big` | `item_mes.json`, `item_mes2.json` |
 | `item_sub` | **110** | **2** | `False` | `big` | `item_sub.json` |
 | `item_name` | **105** | **1** | `False` | `big` | `item.json`, `ex_item.json` |
 | `tech_name` | **80** | **1** | `False` | `big` | `tech.json` |
-| `tech_desc` | **190** | **2** | `True` | `big` | `tec_mes.json`, `mon_tec.json` |
+| `tech_desc` | **190** | **1** | `False` | `big` | `tec_mes.json` |
 | `monster_name` | **85** | **1** | `False` | `big` | `monster.json`, `wireless_mon*.json` |
-| `map_location` | **120** | **1** | `False` | `big` | `map.json`, `w_map.json` |
+| `map_location` | **140** | **1** | `False` | `big` | `map.json`, `w_map.json` |
 | `bgm_name` | **145** | **1** | `False` | `big` | `bgm.json` |
 | `credits` | **180** | **1** | `False` | `big` | `endroll*.json`, `staf.json` |
-| `zukan` | **70** | **1** | `False` | `big` | `zukan.json` |
-| `battle` | **210** | **2** | `True` | `big` | `battle.json` |
+| `zukan` | **80** | **1** | `False` | `big` | `zukan.json` |
+| `battle` | **180** | **2** | `True` | `big` | `battle.json` |
 | `menu` | **200** | **2** | `False` | `big` | `menu.json`, `wireless*.json` |
 | `system_big` | **200** | **2** | `False` | `big` | `msg/big/system.json`, `big/system.json` |
 | `small_system` | **130** | **1** | `False` | `small` | `msg/small/*.json`, `sfc_*.json`, `small.json`, `small/system.json`, `system.json` |
@@ -190,9 +193,9 @@ When translating specialized dialogs that require specific geometry not bound to
 
 ---
 
-## 3. Granular Entry Constraints (`menu.json`, `battle.json`, `system.json`)
+## 3. Granular Entry Constraints (Sub-Presets in `src/text_validator.py`)
 
-Composite UI files contain elements of radically different sizes (from 45px buttons to 205px hint bars). Function `get_constraints_for_entry` in `src/text_validator.py` applies granular per-entry constraints:
+Composite UI files contain elements of radically different sizes (from 45px buttons to 220px modal alert boxes). Function `get_constraints_for_entry` in `src/text_validator.py` applies granular per-entry constraints:
 
 ### 3.1. `menu.json` Granular Constraints
 
@@ -203,32 +206,52 @@ Composite UI files contain elements of radically different sizes (from 45px butt
 | `45` .. `56` | Stat parameter labels (`Attack`, `Defense`, `Magic Def`) | `menu_stat_param` | **95** | 1 | `False` |
 | `57` .. `60` | Equipment slot labels (`Weapon`, `Helm`, `Armor`, `Accessory`) | `menu_slot_label` | **70** | 1 | `False` |
 | `61` .. `67` | Inventory category tabs & sort button (`Items`, `Key Items`, `Sort`) | `menu_item_tab` | **95** | 1 | `False` |
-| `69` .. `74` | Empty inventory / equip status messages | `menu_status_msg` | **195** | 1 | `False` |
+| `69` .. `74` | Empty inventory / equip status messages | `menu_status_msg` | **195** | 2 | `False` |
+| `76` | Usable by equipment label (`Usable by:` / `Peut s'en\néquiper :`) | `menu_usable_by` | **70** | 2 | `False` |
 | `78` .. `83` | Tech category headers (`Single Techs`, `Double Techs`, `Triple Techs`) | `menu_tech_category` | **95** | 1 | `False` |
 | `84` | Screen Header (`Settings`) | `menu_header` | **110** | 1 | `False` |
-| `85` .. `98` | Option labels (Settings 2-column table on top screen) | `menu_config_option` | **105** | 1 | `False` |
-| `99`, `101`..`104` | Action buttons (`Cancel`, `Save & Apply`, `Enable/Disable`, `Accept`) | `menu_action_button` | **65** | 1 | `False` |
+| `85` .. `98` | Option labels (Settings 2-column table on top screen) | `menu_config_option` | **110** | 1 | `False` |
+| `99`, `101`..`104` | Action buttons (`Cancel`, `Save & Apply`, `Enable/Disable`, `Accept`) | `menu_action_button` | **95** | 1 | `False` |
 | `100` | Defaults button on bottom screen (`[SELECT] Defaults`) | `menu_defaults_button` | **45** | 1 | `False` |
 | `109` .. `112` | Settings toggle values (`OFF`, `TYPE A`, `TYPE B`, `Custom`) | `menu_toggle` | **50** | 1 | `False` |
 | `113` .. `116` | Settings tab headers (`Battle I`, `Battle II`, `Controls`, `System`) | `menu_tab` | **65** | 1 | `False` |
-| `141` | Name entry prompt (multi-line banner) | `menu_naming_prompt` | **230** | 2 | `True` |
+| `125`, `126`, `129`, `130` | Empty shop / category notices | `menu_status_msg` | **195** | 2 | `False` |
+| `141` | Name entry prompt (multi-line banner) | `menu_naming_prompt` | **220** | 2 | `True` |
 | `144` .. `178` | Bottom screen hint / explanation bar | `menu_bottom_hint` | **205** | 1 | `False` |
-| `179` .. `181` | Control navigation help lines on bottom screen | `menu_control_help` | **230** | 1 | `False` |
+| `179` .. `181` | Control navigation help lines on bottom screen | `menu_control_help` | **224** | 1 | `False` |
 | *All other entries* | General menu items fallback | `menu_general` | **120** | 1 | `False` |
 
-### 3.2. `battle.json` Granular Constraints
+### 3.2. `start.json` Granular Constraints
+
+| Entry ID Range | UI Element Description | Sub-Preset Name | Max Width (px) | Max Lines | Reflow |
+| :--- | :--- | :--- | :---: | :---: | :---: |
+| `77`, `78` | Game mode descriptions (DS Wireless Mode / Classic Mode) | `start_mode_desc` | **130** | 7 | `True` |
+| `82`, `83`, `87`, `88` | Settings descriptions (Active/Wait Battle, Movie On/Off) | `start_setting_desc` | **145** | 4 | `True` |
+| `23` .. `45`, `104` .. `108` | Save/load error and corruption alert boxes | `start_alert_box` | **220** | 3 | `True` |
+| *All other entries* | General start menu items fallback | `start_general` | **200** | 2 | `False` |
+
+### 3.3. `ex_item.json` Granular Constraints
+
+| Entry ID Range | UI Element Description | Sub-Preset Name | Max Width (px) | Max Lines | Reflow |
+| :--- | :--- | :--- | :---: | :---: | :---: |
+| `176` .. `204`, `247` .. `250` | Extra mode treasure combo / capsule rewards | `ex_item_treasure_choice` | **165** | 1 | `False` |
+| *All other entries* | Standard item names | `item_name` | **105** | 1 | `False` |
+
+### 3.4. `battle.json` Granular Constraints
 
 | Entry ID Range | UI Element Description | Sub-Preset Name | Max Width (px) | Max Lines | Reflow |
 | :--- | :--- | :--- | :---: | :---: | :---: |
 | `0` .. `7` | Action commands (`Attack`, `Tech`, `Combo`, `Item`, `Escape`) | `battle_command` | **60** | 1 | `False` |
-| `8` .. `23` | Status ailments & buffs (`Poison`, `Slow`, `Sleep`, `Stop`, `Chaos`) | `battle_status` | **50** | 1 | `False` |
+| `8` .. `23` | Status ailments & buffs (`Poison`, `Slow`, `Anti-protection`, `Stop`) | `battle_status` | **65** | 1 | `False` |
 | `24` .. `49` | Battle log / outcome messages (`EXP`, `TP`, `Level Up`, `Escaped`) | `battle_message` | **190** | 2 | `True` |
 
-### 3.3. `system.json` (Small Font / SFC) Granular Constraints
+### 3.5. `system.json` Granular Constraints
 
-| Entry ID Range | UI Element Description | Sub-Preset Name | Max Width (px) | Max Lines | Font |
+| Mode / Entry ID | UI Element Description | Sub-Preset Name | Max Width (px) | Max Lines | Font |
 | :--- | :--- | :--- | :---: | :---: | :---: |
-| `9` .. `11` | Popup prompts (`{LUCCA}\nObtained {ROBO}!`, `It's empty!`) | `small_system_popup` | **130** | 2 | `small` |
+| `small`: `1` .. `6` | Keyboard character map tables (Hiragana, Katakana, Latin) | `system_charmap` | **9999** | 99 | `small` |
+| `small`: `9` .. `11` | Popup prompts (`{LUCCA}\nObtained {ROBO}!`, `It's empty!`) | `small_system_popup` | **130** | 2 | `small` |
+| `big`: `3`, `4`, `6` | Character naming tables & French accented row | `system_charmap` | **9999** | 99 | `big` |
 
 ---
 

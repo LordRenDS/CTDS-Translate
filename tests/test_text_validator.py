@@ -1293,9 +1293,9 @@ def test_entry_sub_preset_resolution():
     from src.text_validator import get_constraints_for_entry
 
     # In menu.json:
-    # 1. Option labels (Settings 2-column table) -> max 105px, 1 line
+    # 1. Option labels (Settings 2-column table) -> max 110px, 1 line
     c_speed = get_constraints_for_entry("menu.json", 88)
-    assert c_speed.max_width_px == 105
+    assert c_speed.max_width_px == 110
     assert c_speed.max_lines == 1
 
     # 2. Defaults button ([SELECT] Defaults) -> max 45px, 1 line
@@ -1334,9 +1334,9 @@ def test_entry_sub_preset_resolution():
     assert c_atk.max_width_px == 60
     assert c_atk.max_lines == 1
 
-    # Status effects -> max 50px, 1 line
+    # Status effects -> max 65px, 1 line
     c_poi = get_constraints_for_entry("battle.json", 8)
-    assert c_poi.max_width_px == 50
+    assert c_poi.max_width_px == 65
     assert c_poi.max_lines == 1
 
     # Combat messages -> max 190px, 2 lines
@@ -1349,7 +1349,7 @@ def test_validate_menu_catches_screenshot_bugs(tmp_path):
     """Verify validator flags the exact truncated strings seen in in-game screenshot."""
     big_metrics = load_glyph_metrics("extracted fonts/msg/big/msgcmn.json", "assets/fonts/cyrillic_big.json")
 
-    # Entry 88: "Скорость Сообщений в Бою" (120px > 105px)
+    # Entry 88: "Скорость Сообщений в Бою" (120px > 110px)
     # Entry 100: "По умолчанию" (62px > 45px)
     menu_data = [
         {"id": 88, "translation": "Скорость Сообщений в Бою"},
@@ -1360,7 +1360,7 @@ def test_validate_menu_catches_screenshot_bugs(tmp_path):
 
     rep = validate_and_format_file(str(menu_file), glyph_widths=big_metrics, preset="auto")
     assert rep["overflows_found"] == 2
-    assert any("Entry 88: line exceeds 105px (120px)" in w for w in rep["warnings"])
+    assert any("Entry 88: line exceeds 110px (120px)" in w for w in rep["warnings"])
     assert any("Entry 100: line exceeds 45px (62px)" in w for w in rep["warnings"])
 
     # Now verify that shortened/fixed translations pass with 0 overflows:
@@ -1703,18 +1703,18 @@ def test_calibrated_window_presets():
 def test_granular_constraints_start_json():
     from src.text_validator import get_constraints_for_entry
 
-    # Game mode description: 7 lines, 125px
+    # Game mode description: 7 lines, 130px
     c77 = get_constraints_for_entry("start.json", 77)
     assert c77.name == "start_mode_desc"
     assert c77.max_lines == 7
-    assert c77.max_width_px == 125
+    assert c77.max_width_px == 130
     assert c77.reflow is True
 
-    # Settings explanation: 4 lines, 125px
+    # Settings explanation: 4 lines, 145px
     c82 = get_constraints_for_entry("start.json", 82)
     assert c82.name == "start_setting_desc"
     assert c82.max_lines == 4
-    assert c82.max_width_px == 125
+    assert c82.max_width_px == 145
     assert c82.reflow is True
 
     # Card/save corruption alert: 3 lines, 220px
@@ -1785,6 +1785,40 @@ def test_system_json_charmap_exemption():
     assert c_popup.max_width_px == 130
     assert c_popup.max_lines == 2
     assert c_popup.font_type == "small"
+
+
+def test_all_extracted_text_zero_false_warnings():
+    """Verify that validating all clean extracted text files produces 0 false warnings for original_en and original_fr."""
+    import glob
+
+    big_metrics = load_glyph_metrics("extracted fonts/msg/big/msgcmn.json")
+    small_metrics = load_glyph_metrics("extracted fonts/msg/small/msgcmn.json")
+
+    json_files = sorted(glob.glob("extracted text/**/*.json", recursive=True))
+    assert len(json_files) >= 70, f"Expected at least 70 text files, found {len(json_files)}"
+
+    all_warnings = []
+    for fpath in json_files:
+        if "debug_evt.json" in os.path.basename(fpath).lower():
+            continue
+
+        for field in ["original_en", "original_fr"]:
+            rep = validate_and_format_file(
+                fpath,
+                font_widths=big_metrics,
+                small_widths=small_metrics,
+                preset="auto",
+                field=field,
+                dry_run=True,
+            )
+            for w in rep.get("warnings", []):
+                all_warnings.append(f"{os.path.basename(fpath)} [{field}]: {w}")
+
+    assert len(all_warnings) == 0, (
+        f"Expected 0 warnings across all original text files, got {len(all_warnings)}:\n"
+        + "\n".join(all_warnings[:30])
+    )
+
 
 
 
