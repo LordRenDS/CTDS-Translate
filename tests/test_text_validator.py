@@ -869,24 +869,25 @@ def test_get_preset_for_file_matching():
     assert p_tut.max_width_px == 200
     assert p_tut.reflow is True
     assert p_tut.font_type == "big"
-    assert get_preset_for_file("start.json").name == "tutorial"
-    assert get_preset_for_file("ev_title.json").name == "tutorial"
+    assert get_preset_for_file("start.json").name == "dialogue"
+    assert get_preset_for_file("ev_title.json").name == "chapter_title"
 
     # 3. Encyclopedia / Character bio files
     p_encyclopedia = get_preset_for_file("player.json")
     assert p_encyclopedia.name == "encyclopedia"
     assert p_encyclopedia.max_lines == 6
-    assert p_encyclopedia.max_width_px == 208
+    assert p_encyclopedia.max_width_px == 136
     assert get_preset_for_file("ex_montec.json").name == "encyclopedia"
     assert get_preset_for_file("ex_itemget.json").name == "encyclopedia"
     assert get_preset_for_file("ex_illust.json").name == "encyclopedia"
-    assert get_preset_for_file("ex_ending.json").name == "encyclopedia"
+    assert get_preset_for_file("ex_ending.json").name == "ending_desc"
 
     # 4. Item descriptions
     p_item_desc = get_preset_for_file("item_mes.json")
     assert p_item_desc.name == "item_desc"
-    assert p_item_desc.max_lines == 2
-    assert p_item_desc.max_width_px == 195
+    assert p_item_desc.max_lines == 1
+    assert p_item_desc.max_width_px == 210
+    assert p_item_desc.reflow is False
     assert get_preset_for_file("item_mes2.json").name == "item_desc"
 
     # 5. Item sub (short tooltips)
@@ -908,7 +909,7 @@ def test_get_preset_for_file_matching():
     p_battle = get_preset_for_file("battle.json")
     assert p_battle.name == "battle"
     assert p_battle.max_lines == 2
-    assert p_battle.max_width_px == 210
+    assert p_battle.max_width_px == 180
     assert p_battle.reflow is True
 
     # 8. Menu screens
@@ -1223,11 +1224,14 @@ def test_new_specialized_file_presets():
     p_tec_mes = get_preset_for_file("tec_mes.json")
     assert p_tec_mes.name == "tech_desc"
     assert p_tec_mes.max_width_px == 190
-    assert p_tec_mes.max_lines == 2
+    assert p_tec_mes.max_lines == 1
+    assert p_tec_mes.reflow is False
 
     p_mon_tec = get_preset_for_file("mon_tec.json")
-    assert p_mon_tec.name == "tech_desc"
-    assert p_mon_tec.max_width_px == 190
+    assert p_mon_tec.name == "battle_banner"
+    assert p_mon_tec.max_width_px == 238
+    assert p_mon_tec.max_lines == 1
+    assert p_mon_tec.reflow is False
 
     # Monster names
     p_mon = get_preset_for_file("monster.json")
@@ -1238,12 +1242,13 @@ def test_new_specialized_file_presets():
     # Map locations
     p_map = get_preset_for_file("map.json")
     assert p_map.name == "map_location"
-    assert p_map.max_width_px == 120
+    assert p_map.max_width_px == 140
     assert p_map.max_lines == 1
 
     p_wmap = get_preset_for_file("w_map.json")
     assert p_wmap.name == "map_location"
-    assert p_wmap.max_width_px == 120
+    assert p_wmap.max_width_px == 140
+    assert p_wmap.max_lines == 1
 
     # BGM tracks
     p_bgm = get_preset_for_file("bgm.json")
@@ -1263,13 +1268,13 @@ def test_new_specialized_file_presets():
     # Bestiary UI labels
     p_zukan = get_preset_for_file("zukan.json")
     assert p_zukan.name == "zukan"
-    assert p_zukan.max_width_px == 70
+    assert p_zukan.max_width_px == 80
     assert p_zukan.max_lines == 1
 
     # Quiz questions must be dialogue, NOT menu
     p_ques = get_preset_for_file("ques0.json")
     assert p_ques.name == "dialogue"
-    assert p_ques.max_width_px == 220
+    assert p_ques.max_width_px == 238
     assert p_ques.max_lines == 3
 
     # system.json in msg/big must NOT be small_system
@@ -1288,9 +1293,9 @@ def test_entry_sub_preset_resolution():
     from src.text_validator import get_constraints_for_entry
 
     # In menu.json:
-    # 1. Option labels (Settings 2-column table) -> max 105px, 1 line
+    # 1. Option labels (Settings 2-column table) -> max 110px, 1 line
     c_speed = get_constraints_for_entry("menu.json", 88)
-    assert c_speed.max_width_px == 105
+    assert c_speed.max_width_px == 110
     assert c_speed.max_lines == 1
 
     # 2. Defaults button ([SELECT] Defaults) -> max 45px, 1 line
@@ -1298,9 +1303,9 @@ def test_entry_sub_preset_resolution():
     assert c_defaults.max_width_px == 45
     assert c_defaults.max_lines == 1
 
-    # 3. Save & Apply button -> max 65px, 1 line
+    # 3. Save & Apply button -> max 95px, 1 line
     c_save = get_constraints_for_entry("menu.json", 101)
-    assert c_save.max_width_px == 65
+    assert c_save.max_width_px == 95
     assert c_save.max_lines == 1
 
     # 4. Settings toggle (e.g. TYPE A) -> max 50px, 1 line
@@ -1329,9 +1334,9 @@ def test_entry_sub_preset_resolution():
     assert c_atk.max_width_px == 60
     assert c_atk.max_lines == 1
 
-    # Status effects -> max 50px, 1 line
+    # Status effects -> max 65px, 1 line
     c_poi = get_constraints_for_entry("battle.json", 8)
-    assert c_poi.max_width_px == 50
+    assert c_poi.max_width_px == 65
     assert c_poi.max_lines == 1
 
     # Combat messages -> max 190px, 2 lines
@@ -1344,7 +1349,7 @@ def test_validate_menu_catches_screenshot_bugs(tmp_path):
     """Verify validator flags the exact truncated strings seen in in-game screenshot."""
     big_metrics = load_glyph_metrics("extracted fonts/msg/big/msgcmn.json", "assets/fonts/cyrillic_big.json")
 
-    # Entry 88: "Скорость Сообщений в Бою" (120px > 105px)
+    # Entry 88: "Скорость Сообщений в Бою" (120px > 110px)
     # Entry 100: "По умолчанию" (62px > 45px)
     menu_data = [
         {"id": 88, "translation": "Скорость Сообщений в Бою"},
@@ -1355,7 +1360,7 @@ def test_validate_menu_catches_screenshot_bugs(tmp_path):
 
     rep = validate_and_format_file(str(menu_file), glyph_widths=big_metrics, preset="auto")
     assert rep["overflows_found"] == 2
-    assert any("Entry 88: line exceeds 105px (120px)" in w for w in rep["warnings"])
+    assert any("Entry 88: line exceeds 110px (120px)" in w for w in rep["warnings"])
     assert any("Entry 100: line exceeds 45px (62px)" in w for w in rep["warnings"])
 
     # Now verify that shortened/fixed translations pass with 0 overflows:
@@ -1637,6 +1642,185 @@ def test_wrap_text_block_roundtrip_reflow_force():
     re_wrapped_same, _ = wrap_text_block(formatted, widths, max_width_px=65, force=True, carry=None)
     assert re_wrapped_same == "герои\nприключение"
     assert "-" not in re_wrapped_same
+
+
+def test_calibrated_window_presets():
+    """Verify calibrated window presets and new preset mappings."""
+    # Dialogue: 238px, 3 lines
+    p_diag = WINDOW_PRESETS["dialogue"]
+    assert p_diag.max_width_px == 238
+    assert p_diag.max_lines == 3
+    assert p_diag.reflow is True
+
+    # Tutorial: 200px, 6 lines, only tutorial.json
+    p_tut = WINDOW_PRESETS["tutorial"]
+    assert p_tut.max_width_px == 200
+    assert p_tut.max_lines == 6
+    assert get_preset_for_file("tutorial.json").name == "tutorial"
+
+    # Chapter Title: 130px, 1 line, ev_title.json
+    p_chap = get_preset_for_file("ev_title.json")
+    assert p_chap.name == "chapter_title"
+    assert p_chap.max_width_px == 130
+    assert p_chap.max_lines == 1
+    assert p_chap.reflow is False
+
+    # Battle Banner: 238px, 1 line, mon_tec.json
+    p_btl_banner = get_preset_for_file("mon_tec.json")
+    assert p_btl_banner.name == "battle_banner"
+    assert p_btl_banner.max_width_px == 238
+    assert p_btl_banner.max_lines == 1
+
+    # Ending Desc: 224px, 2 lines, ex_ending.json
+    p_ending = get_preset_for_file("ex_ending.json")
+    assert p_ending.name == "ending_desc"
+    assert p_ending.max_width_px == 224
+    assert p_ending.max_lines == 2
+
+    # Encyclopedia: 136px, 6 lines
+    p_encycl = WINDOW_PRESETS["encyclopedia"]
+    assert p_encycl.max_width_px == 136
+    assert p_encycl.max_lines == 6
+    assert get_preset_for_file("player.json").name == "encyclopedia"
+    assert get_preset_for_file("ex_mon.json").name == "encyclopedia"
+
+    # Item Desc & Tech Desc: 1 line strict
+    p_item = WINDOW_PRESETS["item_desc"]
+    assert p_item.max_width_px == 210
+    assert p_item.max_lines == 1
+    assert p_item.reflow is False
+
+    p_tech = WINDOW_PRESETS["tech_desc"]
+    assert p_tech.max_width_px == 190
+    assert p_tech.max_lines == 1
+    assert p_tech.reflow is False
+
+    # Map location & Zukan
+    assert WINDOW_PRESETS["map_location"].max_width_px == 140
+    assert WINDOW_PRESETS["zukan"].max_width_px == 80
+
+
+def test_granular_constraints_start_json():
+    from src.text_validator import get_constraints_for_entry
+
+    # Game mode description: 7 lines, 130px
+    c77 = get_constraints_for_entry("start.json", 77)
+    assert c77.name == "start_mode_desc"
+    assert c77.max_lines == 7
+    assert c77.max_width_px == 130
+    assert c77.reflow is True
+
+    # Settings explanation: 4 lines, 145px
+    c82 = get_constraints_for_entry("start.json", 82)
+    assert c82.name == "start_setting_desc"
+    assert c82.max_lines == 4
+    assert c82.max_width_px == 145
+    assert c82.reflow is True
+
+    # Card/save corruption alert: 3 lines, 220px
+    c29 = get_constraints_for_entry("start.json", 29)
+    assert c29.name == "start_alert_box"
+    assert c29.max_lines == 3
+    assert c29.max_width_px == 220
+    assert c29.reflow is True
+
+    # General start entries
+    c0 = get_constraints_for_entry("start.json", 0)
+    assert c0.name == "start_general"
+    assert c0.max_lines == 2
+    assert c0.max_width_px == 200
+    assert c0.reflow is False
+
+
+def test_granular_constraints_ex_item_json():
+    from src.text_validator import get_constraints_for_entry
+
+    # Regular item name in ex_item
+    c0 = get_constraints_for_entry("ex_item.json", 0)
+    assert c0.name == "item_name"
+    assert c0.max_width_px == 105
+    assert c0.max_lines == 1
+    assert c0.reflow is False
+
+    # Extra mode treasure combo in ex_item
+    c180 = get_constraints_for_entry("ex_item.json", 180)
+    assert c180.name == "ex_item_treasure_choice"
+    assert c180.max_width_px == 165
+    assert c180.max_lines == 1
+    assert c180.reflow is False
+
+
+def test_granular_constraints_menu_json_buttons():
+    from src.text_validator import get_constraints_for_entry
+
+    # Action button expanded to 95px
+    c102 = get_constraints_for_entry("menu.json", 102)
+    assert c102.max_width_px == 95
+    assert c102.name == "menu_action_button"
+
+    # Empty shop notice (entries 125, 126, 129, 130) -> 2 lines, 195px
+    c125 = get_constraints_for_entry("menu.json", 125)
+    assert c125.name == "menu_status_msg"
+    assert c125.max_lines == 2
+    assert c125.max_width_px == 195
+
+
+def test_system_json_charmap_exemption():
+    from src.text_validator import get_constraints_for_entry
+
+    # Naming keyboard character table entries exempt from width
+    c_big = get_constraints_for_entry("msg/big/system.json", 3)
+    assert c_big.name == "system_charmap"
+    assert c_big.max_width_px >= 9999
+    assert c_big.font_type == "big"
+
+    c_small = get_constraints_for_entry("msg/small/system.json", 6)
+    assert c_small.name == "system_charmap"
+    assert c_small.max_width_px >= 9999
+    assert c_small.font_type == "small"
+
+    # Small system popup test (entries 9..11)
+    c_popup = get_constraints_for_entry("msg/small/system.json", 10)
+    assert c_popup.name == "small_system_popup"
+    assert c_popup.max_width_px == 130
+    assert c_popup.max_lines == 2
+    assert c_popup.font_type == "small"
+
+
+def test_all_extracted_text_zero_false_warnings():
+    """Verify that validating all clean extracted text files produces 0 false warnings for original_en and original_fr."""
+    import glob
+
+    big_metrics = load_glyph_metrics("extracted fonts/msg/big/msgcmn.json")
+    small_metrics = load_glyph_metrics("extracted fonts/msg/small/msgcmn.json")
+
+    json_files = sorted(glob.glob("extracted text/**/*.json", recursive=True))
+    assert len(json_files) >= 70, f"Expected at least 70 text files, found {len(json_files)}"
+
+    all_warnings = []
+    for fpath in json_files:
+        if "debug_evt.json" in os.path.basename(fpath).lower():
+            continue
+
+        for field in ["original_en", "original_fr"]:
+            rep = validate_and_format_file(
+                fpath,
+                font_widths=big_metrics,
+                small_widths=small_metrics,
+                preset="auto",
+                field=field,
+                dry_run=True,
+            )
+            for w in rep.get("warnings", []):
+                all_warnings.append(f"{os.path.basename(fpath)} [{field}]: {w}")
+
+    assert len(all_warnings) == 0, (
+        f"Expected 0 warnings across all original text files, got {len(all_warnings)}:\n"
+        + "\n".join(all_warnings[:30])
+    )
+
+
+
 
 
 
