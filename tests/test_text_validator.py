@@ -8,6 +8,7 @@ from src.text_validator import (
     calculate_line_width_px,
     wrap_line_to_width,
     wrap_text_block,
+    collapse_hyphenated_breaks,
     validate_and_format_file,
     validate_and_format_directory,
     split_word_carry,
@@ -1576,6 +1577,67 @@ def test_cli_force_and_carry_arguments_and_execution(tmp_path, capsys):
     captured = capsys.readouterr().out
     assert "Force repacking        : Enabled" in captured
     assert "Word carry (hyphen)    : syllable" in captured
+
+
+def test_collapse_hyphenated_breaks():
+    """Verify collapse_hyphenated_breaks properly recombines split words and preserves compounds."""
+    # 1. Basic carry hyphen
+    assert collapse_hyphenated_breaks("пре-\nкрасный") == "прекрасный"
+    assert collapse_hyphenated_breaks("пре-\r\nкрасный") == "прекрасный"
+
+    # 2. Carry across {LINE} and {PAGE}
+    assert collapse_hyphenated_breaks("стро-{LINE}ка") == "строка"
+    assert collapse_hyphenated_breaks("сло-\n{PAGE}во") == "слово"
+    assert collapse_hyphenated_breaks("сло-{PAGE}\nво") == "слово"
+
+    # 3. Preserving genuine compounds
+    assert collapse_hyphenated_breaks("что-\nто") == "что-то"
+    assert collapse_hyphenated_breaks("из-\nза") == "из-за"
+    assert collapse_hyphenated_breaks("из-\nпод") == "из-под"
+    assert collapse_hyphenated_breaks("где-\nнибудь") == "где-нибудь"
+    assert collapse_hyphenated_breaks("кто-\nлибо") == "кто-либо"
+    assert collapse_hyphenated_breaks("по-\nмоему") == "по-моему"
+    assert collapse_hyphenated_breaks("во-\nпервых") == "во-первых"
+    assert collapse_hyphenated_breaks("в-\nтретьих") == "в-третьих"
+    assert collapse_hyphenated_breaks("кое-\nкто") == "кое-кто"
+    assert collapse_hyphenated_breaks("смотри-\nка") == "смотри-ка"
+
+    # 4. Standard words that should NOT be hyphenated even if starting with common prefixes
+    assert collapse_hyphenated_breaks("по-\nшел") == "пошел"
+    assert collapse_hyphenated_breaks("из-\nвестный") == "известный"
+    assert collapse_hyphenated_breaks("во-\nрота") == "ворота"
+    assert collapse_hyphenated_breaks("в-\nместе") == "вместе"
+    assert collapse_hyphenated_breaks("руч-\nка") == "ручка"
+    assert collapse_hyphenated_breaks("ле-\nто") == "лето"
+
+
+def test_wrap_text_block_roundtrip_reflow_force():
+    """Verify text split with --carry can be roundtrip re-wrapped with force=True without orphan hyphens."""
+    widths = {ch: 5 for ch in "абвгдеёжзийклмнопрстуфхцчшщъыьэюя- "}
+    text = "герои приключение"
+
+    # Wrap with carry="geo" and narrow width (65px) so "приключение" gets split:
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=65, carry="geo", reflow=True)
+    assert formatted == "герои приклю-\nчение"
+    assert len(warnings) == 0
+
+    # Re-wrap that result with force=True and a wider max_width_px (100px):
+    # The word "приключение" must be recombined without orphan hyphens or stray spaces!
+    re_wrapped_wide, _ = wrap_text_block(formatted, widths, max_width_px=100, force=True)
+    assert re_wrapped_wide == "герои приключение"
+    assert "-" not in re_wrapped_wide
+
+    # Re-wrap with reflow=True and wider max_width_px without force:
+    re_wrapped_reflow, _ = wrap_text_block(formatted, widths, max_width_px=100, reflow=True)
+    assert re_wrapped_reflow == "герои приключение"
+    assert "-" not in re_wrapped_reflow
+
+    # Re-wrap with force=True and same max_width_px (65px) without carry:
+    # "приключение" (55px <= 65px) should move to line 2 whole without hyphens
+    re_wrapped_same, _ = wrap_text_block(formatted, widths, max_width_px=65, force=True, carry=None)
+    assert re_wrapped_same == "герои\nприключение"
+    assert "-" not in re_wrapped_same
+
 
 
 
