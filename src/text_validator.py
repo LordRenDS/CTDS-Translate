@@ -47,6 +47,14 @@ WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
             "ques*.json",
         ),
     ),
+    "field_choice_box": TextWindowPreset(
+        name="field_choice_box",
+        max_width_px=110,
+        max_lines=4,
+        reflow=False,
+        font_type="big",
+        patterns=(),
+    ),
     "tutorial": TextWindowPreset(
         name="tutorial",
         max_width_px=200,
@@ -78,6 +86,30 @@ WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
         reflow=True,
         font_type="big",
         patterns=("ex_ending.json",),
+    ),
+    "ending_title": TextWindowPreset(
+        name="ending_title",
+        max_width_px=180,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=(),
+    ),
+    "player_char_name": TextWindowPreset(
+        name="player_char_name",
+        max_width_px=100,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=(),
+    ),
+    "player_char_profile": TextWindowPreset(
+        name="player_char_profile",
+        max_width_px=132,
+        max_lines=6,
+        reflow=True,
+        font_type="big",
+        patterns=(),
     ),
     "encyclopedia": TextWindowPreset(
         name="encyclopedia",
@@ -331,15 +363,23 @@ def get_constraints_for_entry(
     base_name = os.path.basename(file_path).lower()
 
     if base_name == "start.json":
+        # 1. Game mode descriptions (DS Mode & Classic Mode on right of settings screen)
+        # Outer box: x=120..249 (w=130), y=79..171 (h=92).
+        # Left text anchor: x=125 (padding 5px).
+        # Symmetric right padding: 5px (x=244).
+        # Inner printable width: 244 - 125 = 119px (safe limit: 118px).
+        # Line pitch: 13px. Max lines: 7.
         if entry_id in (77, 78):
             return TextWindowPreset(
                 name="start_mode_desc",
-                max_width_px=130,
+                max_width_px=118,
                 max_lines=7,
                 reflow=True,
                 font_type="big",
                 patterns=(),
             )
+        # 2. Battle mode (Active/Wait) & Movie mode descriptions
+        # Max width: 145px, line pitch: 13px, max lines: 4.
         if entry_id in (82, 83, 87, 88):
             return TextWindowPreset(
                 name="start_setting_desc",
@@ -349,12 +389,43 @@ def get_constraints_for_entry(
                 font_type="big",
                 patterns=(),
             )
-        if (23 <= entry_id <= 45) or (104 <= entry_id <= 108):
+        # 3. Card/save corruption and file access alert modals
+        if (23 <= entry_id <= 49) or (104 <= entry_id <= 108):
             return TextWindowPreset(
                 name="start_alert_box",
                 max_width_px=220,
                 max_lines=3,
                 reflow=True,
+                font_type="big",
+                patterns=(),
+            )
+        # 4. Title screen main menu action buttons (New Game, Load Game, Arena, Extras)
+        if 0 <= entry_id <= 11:
+            return TextWindowPreset(
+                name="start_title_button",
+                max_width_px=100,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 5. Setting labels and toggle buttons (Game Mode, Classic, DS, Battle Mode, Active, Wait, etc.)
+        if entry_id in (73, 74, 75, 76, 79, 80, 81, 84, 85, 86, 89, 90):
+            return TextWindowPreset(
+                name="start_setting_button",
+                max_width_px=110,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 6. Bottom screen hint bar in settings ("These settings can be changed later")
+        if entry_id == 91:
+            return TextWindowPreset(
+                name="start_bottom_hint",
+                max_width_px=224,
+                max_lines=1,
+                reflow=False,
                 font_type="big",
                 patterns=(),
             )
@@ -395,6 +466,21 @@ def get_constraints_for_entry(
             font_type="big",
             patterns=(),
         )
+
+    if base_name == "ex_ending.json":
+        if 0 <= entry_id <= 25:
+            return WINDOW_PRESETS["ending_desc"]
+        elif 26 <= entry_id <= 38:
+            return WINDOW_PRESETS["ending_title"]
+
+    if base_name == "player.json":
+        if 0 <= entry_id <= 7:
+            return WINDOW_PRESETS["player_char_name"]
+        elif 8 <= entry_id <= 15:
+            return WINDOW_PRESETS["player_char_profile"]
+
+    if base_name == "bgm.json":
+        return WINDOW_PRESETS["bgm_name"]
 
     if base_name == "tutorial.json":
         if entry_id == 12:
@@ -476,7 +562,44 @@ def get_constraints_for_entry(
                 font_type="big",
                 patterns=(),
             )
-        # 6. Bottom screen hint / explanation bar
+        # 6. Shop UI controls & notices
+        if 117 <= entry_id <= 120:
+            return TextWindowPreset(
+                name="shop_action_button",
+                max_width_px=70,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        if entry_id in (121, 122, 135, 136):
+            return TextWindowPreset(
+                name="shop_funds_label",
+                max_width_px=75,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        if 123 <= entry_id <= 130:
+            return TextWindowPreset(
+                name="shop_empty_notice",
+                max_width_px=195,
+                max_lines=2,
+                reflow=True,
+                font_type="big",
+                patterns=(),
+            )
+        if 132 <= entry_id <= 134:
+            return TextWindowPreset(
+                name="shop_stat_label",
+                max_width_px=75,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 7. Bottom screen hint / explanation bar
         if 144 <= entry_id <= 178:
             return TextWindowPreset(
                 name="menu_bottom_hint",
@@ -486,8 +609,8 @@ def get_constraints_for_entry(
                 font_type="big",
                 patterns=(),
             )
-        # 7. Empty inventory / equip status messages & empty shop messages
-        if (69 <= entry_id <= 74) or (entry_id in (125, 126, 129, 130)):
+        # 8. Empty inventory / equip status messages
+        if 69 <= entry_id <= 74:
             return TextWindowPreset(
                 name="menu_status_msg",
                 max_width_px=195,
@@ -609,28 +732,38 @@ def get_constraints_for_entry(
         # 1. Action commands (Attack, Tech, Combo, Item, Escape)
         if 0 <= entry_id <= 7:
             return TextWindowPreset(
-                name="battle_command",
+                name="battle_cmd_button",
+                max_width_px=80,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 2. Status ailments & conditions (Poison, Slow, Sleep, Blind...)
+        if 8 <= entry_id <= 23:
+            return TextWindowPreset(
+                name="battle_status_condition",
+                max_width_px=75,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 3. Battle result labels (Enemies:, Obtained, EXP, TP, G)
+        if 24 <= entry_id <= 31:
+            return TextWindowPreset(
+                name="battle_label",
                 max_width_px=60,
                 max_lines=1,
                 reflow=False,
                 font_type="big",
                 patterns=(),
             )
-        # 2. Status ailments & buffs (Poison, Slow, Sleep, Stop...)
-        if 8 <= entry_id <= 23:
+        # 4. Battle log / outcome messages (Level Up, Learned Tech, Escaped...)
+        if 32 <= entry_id <= 49:
             return TextWindowPreset(
-                name="battle_status",
-                max_width_px=65,
-                max_lines=1,
-                reflow=False,
-                font_type="big",
-                patterns=(),
-            )
-        # 3. Battle log / outcome messages (EXP, TP, Level Up, Escaped...)
-        if 24 <= entry_id <= 49:
-            return TextWindowPreset(
-                name="battle_message",
-                max_width_px=190,
+                name="battle_result_msg",
+                max_width_px=180,
                 max_lines=2,
                 reflow=True,
                 font_type="big",
@@ -1041,6 +1174,10 @@ HYPHEN_BREAK_PATTERN = re.compile(
     r"([a-zA-Zа-яА-ЯёЁ]+)-\s*(?:\r?\n|\{LINE\}|\{PAGE\})\s*(?:(?:\r?\n|\{LINE\}|\{PAGE\})\s*)*([a-zA-Zа-яА-ЯёЁ]+)"
 )
 
+PAGE_DELIM_PATTERN = re.compile(r"(\{PAGE\}|\{WAIT_KEY\}|\{GLYPH:407\}|\{GLYPH:408\})")
+CHOICE_TAG_PATTERN = re.compile(r"\{GLYPH:(39[4-9]|40[0-3])\}")
+CHOICE_MAX_WIDTH_PX = 110
+
 COMPOUND_TO_PREFIXES = frozenset({
     "что", "кто", "где", "как", "куда", "когда", "почему", "зачем", "откуда",
     "отчего", "сколько",
@@ -1211,8 +1348,7 @@ def wrap_text_block(
             ]
             formatted_text = "{PAGE}".join("\n".join(chunk) for chunk in chunks)
         else:
-            if len(lines) > max_lines:
-                warnings.append(f"Page has {len(lines)} lines (exceeds max {max_lines})")
+            warnings.extend(_check_subpage_lines(lines, max_lines))
             formatted_text = "\n".join(lines)
         return formatted_text, warnings
 
@@ -1228,7 +1364,10 @@ def wrap_text_block(
             if not page_lines and raw_page:
                 page_lines = [raw_page]
         elif reflow:
-            paragraphs = re.split(r"(?:\r?\n){2,}", raw_page)
+            paragraphs = re.split(
+                r"(?:\r?\n){2,}|(?<=\{WAIT_KEY\})\s*\r?\n|(?<=\{GLYPH:407\})\s*\r?\n",
+                raw_page,
+            )
             for para in paragraphs:
                 p_clean = collapse_hyphenated_breaks(para)
                 p_clean = re.sub(r"\r?\n|\{LINE\}", " ", p_clean)
@@ -1256,26 +1395,40 @@ def wrap_text_block(
                     )
                 )
 
-        num_lines = len(page_lines)
         if auto_paginate:
             if page_lines:
                 chunk_size = max(1, max_lines)
                 chunks = [
                     page_lines[i : i + chunk_size]
-                    for i in range(0, num_lines, chunk_size)
+                    for i in range(0, len(page_lines), chunk_size)
                 ]
                 page_str = "{PAGE}".join("\n".join(chunk) for chunk in chunks)
             else:
                 page_str = ""
             formatted_pages.append(page_str)
         else:
-            if num_lines > max_lines:
-                warnings.append(f"Page has {num_lines} lines (exceeds max {max_lines})")
+            warnings.extend(_check_subpage_lines(page_lines, max_lines))
             page_str = "\n".join(page_lines)
             formatted_pages.append(page_str)
 
     formatted_text = "{PAGE}".join(formatted_pages)
     return formatted_text, warnings
+
+
+def _check_subpage_lines(lines: List[str], max_lines: int) -> List[str]:
+    """Checks line counts per display sub-page, recognizing {WAIT_KEY} and {GLYPH:407} breaks."""
+    warnings: List[str] = []
+    sub_pages: List[List[str]] = [[]]
+    for line in lines:
+        sub_pages[-1].append(line)
+        if PAGE_DELIM_PATTERN.search(line):
+            sub_pages.append([])
+
+    for sp in sub_pages:
+        non_empty = [l for l in sp if l.strip()]
+        if len(non_empty) > max_lines:
+            warnings.append(f"Page has {len(non_empty)} lines (exceeds max {max_lines})")
+    return warnings
 
 
 def validate_and_format_file(
@@ -1404,6 +1557,8 @@ def validate_and_format_file(
                     f"Entry {entry_id}: Page has {len(raw_lines)} lines (exceeds max 1)"
                 )
             for raw_line in raw_lines:
+                if not raw_line.strip():
+                    continue
                 line_width = calculate_line_width_px(
                     raw_line, active_widths, hero_name_width_px=hero_name_width_px
                 )

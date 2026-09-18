@@ -1,0 +1,1105 @@
+{
+  "start_mode_desc": {
+    "name": "start_mode_desc",
+    "description": "Initial Game Settings description box on right column (Classic vs DS mode)",
+    "source_image": "extracted image/title/bg/bg_ss1_new_cl.png",
+    "outer_x": 120,
+    "outer_y": 79,
+    "outer_w": 130,
+    "outer_h": 92,
+    "inner_x": 124,
+    "inner_y": 83,
+    "inner_w": 122,
+    "inner_h": 86,
+    "padding_left": 5,
+    "padding_right": 5,
+    "padding_top": 6,
+    "padding_bottom": 2,
+    "max_width_px": 118,
+    "line_pitch": 13,
+    "max_lines": 7,
+    "font_type": "big",
+    "reflow": true,
+    "patterns": [
+      "start.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 77,
+        "end": 78
+      }
+    ]
+  },
+  "start_setting_desc": {
+    "name": "start_setting_desc",
+    "description": "Initial Settings option descriptions (Battle Mode Active/Wait, Movies On/Off)",
+    "source_image": "extracted image/title/bg/bg_ss1_new_cl.png",
+    "outer_x": 120,
+    "outer_y": 79,
+    "outer_w": 130,
+    "outer_h": 92,
+    "inner_x": 124,
+    "inner_y": 83,
+    "inner_w": 122,
+    "inner_h": 86,
+    "padding_left": 5,
+    "padding_right": 5,
+    "padding_top": 6,
+    "padding_bottom": 2,
+    "max_width_px": 118,
+    "line_pitch": 13,
+    "max_lines": 4,
+    "font_type": "big",
+    "reflow": true,
+    "patterns": [
+      "start.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 82,
+        "end": 83
+      },
+      {
+        "start": 87,
+        "end": 88
+      }
+    ]
+  },
+  "start_alert_box": {
+    "name": "start_alert_box",
+    "description": "Save file corruption, initialization, and error modal popups",
+    "source_image": "extracted image/menu/bg/bg_win_men_up_1.png",
+    "outer_x": 16,
+    "outer_y": 30,
+    "outer_w": 224,
+    "outer_h": 80,
+    "inner_x": 22,
+    "inner_y": 36,
+    "inner_w": 212,
+    "inner_h": 68,
+    "padding_left": 8,
+    "padding_right": 8,
+    "padding_top": 6,
+    "padding_bottom": 6,
+    "max_width_px": 200,
+    "line_pitch": 15,
+    "max_lines": 3,
+    "font_type": "big",
+    "reflow": true,
+    "patterns": [
+      "start.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 23,
+        "end": 45
+      },
+      {
+        "start": 104,
+        "end": 108
+      }
+    ]
+  },
+  "start_title_button": {
+    "name": "start_title_button",
+    "description": "Title screen action buttons (New Game, Load Game, Arena, Extras)",
+    "source_image": "extracted image/title/bg/bg_ss2_new.png",
+    "outer_x": 32,
+    "outer_y": 100,
+    "outer_w": 120,
+    "outer_h": 24,
+    "inner_x": 36,
+    "inner_y": 102,
+    "inner_w": 112,
+    "inner_h": 20,
+    "padding_left": 8,
+    "padding_right": 8,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 100,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "start.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 0,
+        "end": 11
+      }
+    ]
+  },
+  "tutorial": {
+    "name": "tutorial",
+    "description": "In-game tutorial popups and explanations",
+    "source_image": "extracted image/menu/bg/bg_win_tuto_up_1.png",
+    "outer_x": 16,
+    "outer_y": 16,
+    "outer_w": 224,
+    "outer_h": 120,
+    "inner_x": 24,
+    "inner_y": 24,
+    "inner_w": 208,
+    "inner_h": 104,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 4,
+    "padding_bottom": 4,
+    "max_width_px": 200,
+    "line_pitch": 14,
+    "max_lines": 6,
+    "font_type": "big",
+    "reflow": true,
+    "patterns": [
+      "tutorial.json"
+    ],
+    "entry_ranges": null
+  },
+  "dialogue": {
+    "name": "dialogue",
+    "description": "Standard 3-line dialogue box with character speech",
+    "source_image": "extracted image/menu/bg/bg_fld_win_1.png",
+    "outer_x": 0,
+    "outer_y": 0,
+    "outer_w": 256,
+    "outer_h": 63,
+    "inner_x": 6,
+    "inner_y": 4,
+    "inner_w": 244,
+    "inner_h": 55,
+    "padding_left": 9,
+    "padding_right": 9,
+    "padding_top": 4,
+    "padding_bottom": 4,
+    "max_width_px": 238,
+    "line_pitch": 15,
+    "max_lines": 3,
+    "font_type": "big",
+    "reflow": true,
+    "patterns": [
+      "msg*.json",
+      "cmes*.json",
+      "kmes*.json",
+      "mesi*.json",
+      "mesk*.json",
+      "mess*.json",
+      "mest*.json",
+      "exms*.json",
+      "comu*.json",
+      "ques*.json"
+    ],
+    "entry_ranges": null
+  },
+  "field_choice_box": {
+    "name": "field_choice_box",
+    "description": "Floating decision choice box in field dialogues (Yes/No, options)",
+    "source_image": "extracted image/menu/obj/obj_fld_win.png",
+    "outer_x": 0,
+    "outer_y": 0,
+    "outer_w": 152,
+    "outer_h": 64,
+    "inner_x": 8,
+    "inner_y": 4,
+    "inner_w": 128,
+    "inner_h": 56,
+    "padding_left": 16,
+    "padding_right": 16,
+    "padding_top": 4,
+    "padding_bottom": 4,
+    "max_width_px": 110,
+    "line_pitch": 14,
+    "max_lines": 4,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "cmes*.json",
+      "msg*.json"
+    ],
+    "entry_ranges": null
+  },
+  "item_name": {
+    "name": "item_name",
+    "description": "Item name label in 2-column inventory list",
+    "source_image": "extracted image/menu/bg/bg_win_item_up_1.png",
+    "outer_x": 8,
+    "outer_y": 48,
+    "outer_w": 116,
+    "outer_h": 20,
+    "inner_x": 12,
+    "inner_y": 50,
+    "inner_w": 108,
+    "inner_h": 16,
+    "padding_left": 3,
+    "padding_right": 3,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 105,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "item.json",
+      "ex_item.json"
+    ],
+    "entry_ranges": null
+  },
+  "item_desc": {
+    "name": "item_desc",
+    "description": "Item description prompt bar across screen bottom",
+    "source_image": "extracted image/menu/bg/bg_win_item_up_1.png",
+    "outer_x": 6,
+    "outer_y": 168,
+    "outer_w": 244,
+    "outer_h": 24,
+    "inner_x": 12,
+    "inner_y": 170,
+    "inner_w": 232,
+    "inner_h": 20,
+    "padding_left": 8,
+    "padding_right": 8,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 210,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "item_mes.json",
+      "item_mes2.json"
+    ],
+    "entry_ranges": null
+  },
+  "item_sub": {
+    "name": "item_sub",
+    "description": "Item target/usable restriction indicator label",
+    "source_image": "extracted image/menu/bg/bg_win_item_down_1.png",
+    "outer_x": 8,
+    "outer_y": 10,
+    "outer_w": 120,
+    "outer_h": 34,
+    "inner_x": 12,
+    "inner_y": 12,
+    "inner_w": 112,
+    "inner_h": 30,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 110,
+    "line_pitch": 13,
+    "max_lines": 2,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "item_sub.json"
+    ],
+    "entry_ranges": null
+  },
+  "tech_name": {
+    "name": "tech_name",
+    "description": "Tech / skill action name in battle and menu list",
+    "source_image": "extracted image/menu/bg/bg_win_skill_up_1.png",
+    "outer_x": 8,
+    "outer_y": 48,
+    "outer_w": 96,
+    "outer_h": 20,
+    "inner_x": 12,
+    "inner_y": 50,
+    "inner_w": 88,
+    "inner_h": 16,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 80,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "tech.json"
+    ],
+    "entry_ranges": null
+  },
+  "tech_desc": {
+    "name": "tech_desc",
+    "description": "Tech / magic description bar at top of screen",
+    "source_image": "extracted image/menu/bg/bg_win_skill_up_1.png",
+    "outer_x": 6,
+    "outer_y": 168,
+    "outer_w": 244,
+    "outer_h": 24,
+    "inner_x": 12,
+    "inner_y": 170,
+    "inner_w": 232,
+    "inner_h": 20,
+    "padding_left": 12,
+    "padding_right": 12,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 190,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "tec_mes.json"
+    ],
+    "entry_ranges": null
+  },
+  "battle_banner": {
+    "name": "battle_banner",
+    "description": "Monster tech banner displayed at top of screen during battle",
+    "source_image": "extracted image/menu/bg/bg_win_btl_up_1.png",
+    "outer_x": 0,
+    "outer_y": 0,
+    "outer_w": 256,
+    "outer_h": 24,
+    "inner_x": 6,
+    "inner_y": 2,
+    "inner_w": 244,
+    "inner_h": 20,
+    "padding_left": 9,
+    "padding_right": 9,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 238,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "mon_tec.json"
+    ],
+    "entry_ranges": null
+  },
+  "battle_message": {
+    "name": "battle_message",
+    "description": "Battle outcome/dialogue log on bottom touch screen",
+    "source_image": "extracted image/menu/bg/bg_win_btl_dwn_1.png",
+    "outer_x": 8,
+    "outer_y": 140,
+    "outer_w": 240,
+    "outer_h": 44,
+    "inner_x": 14,
+    "inner_y": 144,
+    "inner_w": 228,
+    "inner_h": 36,
+    "padding_left": 12,
+    "padding_right": 12,
+    "padding_top": 3,
+    "padding_bottom": 3,
+    "max_width_px": 190,
+    "line_pitch": 14,
+    "max_lines": 2,
+    "font_type": "big",
+    "reflow": true,
+    "patterns": [
+      "battle.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 32,
+        "end": 49
+      }
+    ]
+  },
+  "battle_cmd_button": {
+    "name": "battle_cmd_button",
+    "description": "Battle command action buttons (Attack, Tech, Combo, Item, Escape)",
+    "source_image": "extracted image/menu/bg/bg_win_btl_dwn_1.png",
+    "outer_x": 8,
+    "outer_y": 0,
+    "outer_w": 90,
+    "outer_h": 24,
+    "inner_x": 12,
+    "inner_y": 2,
+    "inner_w": 82,
+    "inner_h": 20,
+    "padding_left": 5,
+    "padding_right": 5,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 80,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "battle.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  "battle_status_condition": {
+    "name": "battle_status_condition",
+    "description": "Battle status effect condition names (Poison, Slow, Sleep, Blind, etc.)",
+    "source_image": "extracted image/menu/bg/bg_win_btl_dwn_1.png",
+    "outer_x": 8,
+    "outer_y": 24,
+    "outer_w": 85,
+    "outer_h": 20,
+    "inner_x": 12,
+    "inner_y": 26,
+    "inner_w": 77,
+    "inner_h": 16,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 75,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "battle.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 8,
+        "end": 23
+      }
+    ]
+  },
+  "battle_label": {
+    "name": "battle_label",
+    "description": "Battle result labels (Enemies:, Obtained, EXP, TP, G)",
+    "source_image": "extracted image/menu/bg/bg_win_btl_dwn_1.png",
+    "outer_x": 8,
+    "outer_y": 48,
+    "outer_w": 70,
+    "outer_h": 20,
+    "inner_x": 12,
+    "inner_y": 50,
+    "inner_w": 62,
+    "inner_h": 16,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 60,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "battle.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 24,
+        "end": 31
+      }
+    ]
+  },
+  "encyclopedia": {
+    "name": "encyclopedia",
+    "description": "Character profile notes, monster lore, and ending descriptions",
+    "source_image": "extracted image/menu/bg/bg_win_dic_up_1.png",
+    "outer_x": 104,
+    "outer_y": 40,
+    "outer_w": 148,
+    "outer_h": 120,
+    "inner_x": 108,
+    "inner_y": 44,
+    "inner_w": 140,
+    "inner_h": 112,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 4,
+    "padding_bottom": 4,
+    "max_width_px": 136,
+    "line_pitch": 14,
+    "max_lines": 6,
+    "font_type": "big",
+    "reflow": true,
+    "patterns": [
+      "player.json",
+      "ex_mon*.json",
+      "ex_itemget.json",
+      "ex_illust.json"
+    ],
+    "entry_ranges": null
+  },
+  "menu_bottom_hint": {
+    "name": "menu_bottom_hint",
+    "description": "Main menu bottom screen description / explanation bar",
+    "source_image": "extracted image/menu/bg/bg_win_men_dwn_1.png",
+    "outer_x": 8,
+    "outer_y": 168,
+    "outer_w": 240,
+    "outer_h": 24,
+    "inner_x": 14,
+    "inner_y": 170,
+    "inner_w": 228,
+    "inner_h": 20,
+    "padding_left": 8,
+    "padding_right": 8,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 205,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "menu.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 144,
+        "end": 178
+      }
+    ]
+  },
+  "menu_config_option": {
+    "name": "menu_config_option",
+    "description": "Options & config settings label in 2-column list",
+    "source_image": "extracted image/menu/bg/bg_win_men_up_3.png",
+    "outer_x": 8,
+    "outer_y": 32,
+    "outer_w": 116,
+    "outer_h": 20,
+    "inner_x": 12,
+    "inner_y": 34,
+    "inner_w": 108,
+    "inner_h": 16,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 105,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "menu.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 85,
+        "end": 98
+      }
+    ]
+  },
+  "menu_era_dest": {
+    "name": "menu_era_dest",
+    "description": "Epoch time warp destination label",
+    "source_image": "extracted image/menu/bg/bg_win_move_up_1.png",
+    "outer_x": 8,
+    "outer_y": 40,
+    "outer_w": 144,
+    "outer_h": 24,
+    "inner_x": 12,
+    "inner_y": 42,
+    "inner_w": 136,
+    "inner_h": 20,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 130,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "menu.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 39,
+        "end": 44
+      }
+    ]
+  },
+  "small_system": {
+    "name": "small_system",
+    "description": "System notifications, small popups, and SFC-style item popups",
+    "source_image": "extracted image/Common/Common.png",
+    "outer_x": 16,
+    "outer_y": 16,
+    "outer_w": 144,
+    "outer_h": 24,
+    "inner_x": 20,
+    "inner_y": 18,
+    "inner_w": 136,
+    "inner_h": 20,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 130,
+    "line_pitch": 10,
+    "max_lines": 1,
+    "font_type": "small",
+    "reflow": false,
+    "patterns": [
+      "msg/small/*.json",
+      "sfc_*.json",
+      "small.json",
+      "small/system.json",
+      "system.json"
+    ],
+    "entry_ranges": null
+  },
+  "small_system_popup": {
+    "name": "small_system_popup",
+    "description": "Small font 2-line popup prompts ({LUCCA} Obtained {ROBO}!, It's empty!)",
+    "source_image": "extracted image/Common/Common.png",
+    "outer_x": 16,
+    "outer_y": 16,
+    "outer_w": 144,
+    "outer_h": 34,
+    "inner_x": 20,
+    "inner_y": 18,
+    "inner_w": 136,
+    "inner_h": 30,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 130,
+    "line_pitch": 10,
+    "max_lines": 2,
+    "font_type": "small",
+    "reflow": false,
+    "patterns": [
+      "system.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 9,
+        "end": 11
+      }
+    ]
+  },
+  "shop_action_button": {
+    "name": "shop_action_button",
+    "description": "Action buttons in shop menu (Buy, Sell, Equip)",
+    "source_image": "extracted image/menu/obj/obj_win_shop.png",
+    "outer_x": 0,
+    "outer_y": 0,
+    "outer_w": 80,
+    "outer_h": 24,
+    "inner_x": 0,
+    "inner_y": 0,
+    "inner_w": 80,
+    "inner_h": 24,
+    "padding_left": 5,
+    "padding_right": 5,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 70,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "menu.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 117,
+        "end": 120
+      }
+    ]
+  },
+  "shop_stat_label": {
+    "name": "shop_stat_label",
+    "description": "Parameter labels (Attack, Defense, Difference)",
+    "source_image": "extracted image/menu/bg/bg_win_shop_up_1.png",
+    "outer_x": 0,
+    "outer_y": 0,
+    "outer_w": 85,
+    "outer_h": 24,
+    "inner_x": 0,
+    "inner_y": 0,
+    "inner_w": 85,
+    "inner_h": 24,
+    "padding_left": 5,
+    "padding_right": 5,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 75,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "menu.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 132,
+        "end": 134
+      }
+    ]
+  },
+  "shop_empty_notice": {
+    "name": "shop_empty_notice",
+    "description": "Empty inventory/stock messages ('Nothing available', 'Nothing to sell')",
+    "source_image": "extracted image/menu/bg/bg_win_shop_dwn_1.png",
+    "outer_x": 0,
+    "outer_y": 0,
+    "outer_w": 205,
+    "outer_h": 40,
+    "inner_x": 0,
+    "inner_y": 0,
+    "inner_w": 205,
+    "inner_h": 40,
+    "padding_left": 5,
+    "padding_right": 5,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 195,
+    "line_pitch": 14,
+    "max_lines": 2,
+    "font_type": "big",
+    "reflow": true,
+    "patterns": [
+      "menu.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 123,
+        "end": 130
+      }
+    ]
+  },
+  "shop_funds_label": {
+    "name": "shop_funds_label",
+    "description": "Balance/Price/Total labels ('Funds:', 'Price:', 'Quantity:', 'Total:')",
+    "source_image": "extracted image/menu/bg/bg_win_shop_dwn_2.png",
+    "outer_x": 0,
+    "outer_y": 168,
+    "outer_w": 85,
+    "outer_h": 23,
+    "inner_x": 0,
+    "inner_y": 168,
+    "inner_w": 85,
+    "inner_h": 23,
+    "padding_left": 5,
+    "padding_right": 5,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 75,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "menu.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 121,
+        "end": 122
+      },
+      {
+        "start": 135,
+        "end": 136
+      }
+    ]
+  },
+  "shop_item_name": {
+    "name": "shop_item_name",
+    "description": "Item name in shop list",
+    "source_image": "extracted image/menu/bg/bg_win_shop_dwn_1.png",
+    "outer_x": 8,
+    "outer_y": 0,
+    "outer_w": 115,
+    "outer_h": 24,
+    "inner_x": 8,
+    "inner_y": 0,
+    "inner_w": 115,
+    "inner_h": 24,
+    "padding_left": 5,
+    "padding_right": 5,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 105,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "item.json"
+    ],
+    "entry_ranges": null
+  },
+  "shop_item_desc": {
+    "name": "shop_item_desc",
+    "description": "Item description in top window",
+    "source_image": "extracted image/menu/bg/bg_win_shop_up_1.png",
+    "outer_x": 0,
+    "outer_y": 0,
+    "outer_w": 220,
+    "outer_h": 24,
+    "inner_x": 0,
+    "inner_y": 0,
+    "inner_w": 220,
+    "inner_h": 24,
+    "padding_left": 5,
+    "padding_right": 5,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 210,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "item_mes.json"
+    ],
+    "entry_ranges": null
+  },
+  "ending_desc": {
+    "name": "ending_desc",
+    "description": "Ending log unlock condition description box on top screen",
+    "source_image": "extracted image/menu/bg/bg_win_end_up_2.png",
+    "outer_x": 0,
+    "outer_y": 152,
+    "outer_w": 256,
+    "outer_h": 40,
+    "inner_x": 16,
+    "inner_y": 156,
+    "inner_w": 224,
+    "inner_h": 32,
+    "padding_left": 16,
+    "padding_right": 16,
+    "padding_top": 4,
+    "padding_bottom": 4,
+    "max_width_px": 224,
+    "line_pitch": 14,
+    "max_lines": 2,
+    "font_type": "big",
+    "reflow": true,
+    "patterns": [
+      "ex_ending.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 0,
+        "end": 25
+      }
+    ]
+  },
+  "ending_title": {
+    "name": "ending_title",
+    "description": "Ending log title in selection list on bottom screen",
+    "source_image": "extracted image/menu/bg/bg_win_end_down_1.png",
+    "outer_x": 16,
+    "outer_y": 24,
+    "outer_w": 200,
+    "outer_h": 136,
+    "inner_x": 20,
+    "inner_y": 26,
+    "inner_w": 192,
+    "inner_h": 132,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 180,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "ex_ending.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 26,
+        "end": 38
+      }
+    ]
+  },
+  "bgm_name": {
+    "name": "bgm_name",
+    "description": "Music player track name in selection list",
+    "source_image": "extracted image/menu/bg/bg_win_music_down_1.png",
+    "outer_x": 16,
+    "outer_y": 24,
+    "outer_w": 224,
+    "outer_h": 144,
+    "inner_x": 24,
+    "inner_y": 28,
+    "inner_w": 208,
+    "inner_h": 136,
+    "padding_left": 8,
+    "padding_right": 8,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 145,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "bgm.json"
+    ],
+    "entry_ranges": null
+  },
+  "player_char_name": {
+    "name": "player_char_name",
+    "description": "Character profile name in Extras character list",
+    "source_image": "extracted image/menu/bg/bg_win_dic_down_1.png",
+    "outer_x": 16,
+    "outer_y": 24,
+    "outer_w": 120,
+    "outer_h": 144,
+    "inner_x": 20,
+    "inner_y": 28,
+    "inner_w": 112,
+    "inner_h": 136,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 100,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "player.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  "player_char_profile": {
+    "name": "player_char_profile",
+    "description": "Character biography / profile text in right panel of Extras screen",
+    "source_image": "extracted image/menu/bg/bg_win_dic_up_1.png",
+    "outer_x": 120,
+    "outer_y": 24,
+    "outer_w": 136,
+    "outer_h": 168,
+    "inner_x": 124,
+    "inner_y": 28,
+    "inner_w": 128,
+    "inner_h": 160,
+    "padding_left": 2,
+    "padding_right": 2,
+    "padding_top": 4,
+    "padding_bottom": 4,
+    "max_width_px": 132,
+    "line_pitch": 14,
+    "max_lines": 6,
+    "font_type": "big",
+    "reflow": true,
+    "patterns": [
+      "player.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 8,
+        "end": 15
+      }
+    ]
+  },
+  "save_slot_card": {
+    "name": "save_slot_card",
+    "description": "Save file slot card in save/load screen",
+    "source_image": "extracted image/menu/bg/bg_win_sav_dwn_1.png",
+    "outer_x": 8,
+    "outer_y": 16,
+    "outer_w": 240,
+    "outer_h": 40,
+    "inner_x": 16,
+    "inner_y": 20,
+    "inner_w": 224,
+    "inner_h": 32,
+    "padding_left": 8,
+    "padding_right": 8,
+    "padding_top": 4,
+    "padding_bottom": 4,
+    "max_width_px": 140,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "map.json"
+    ],
+    "entry_ranges": null
+  },
+  "name_entry_preview": {
+    "name": "name_entry_preview",
+    "description": "Character name input box in naming screen",
+    "source_image": "extracted image/menu/bg/bg_win_name_dwn_1.png",
+    "outer_x": 24,
+    "outer_y": 40,
+    "outer_w": 144,
+    "outer_h": 24,
+    "inner_x": 28,
+    "inner_y": 42,
+    "inner_w": 136,
+    "inner_h": 20,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 64,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "player.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  "tutorial_prompt": {
+    "name": "tutorial_prompt",
+    "description": "Blinking confirmation prompt at bottom of tutorial screen",
+    "source_image": "extracted image/menu/bg/bg_win_tuto_up_1.png",
+    "outer_x": 16,
+    "outer_y": 160,
+    "outer_w": 224,
+    "outer_h": 24,
+    "inner_x": 20,
+    "inner_y": 162,
+    "inner_w": 216,
+    "inner_h": 20,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 210,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "tutorial.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 12,
+        "end": 12
+      }
+    ]
+  }
+}

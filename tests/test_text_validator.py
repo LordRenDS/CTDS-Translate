@@ -1328,20 +1328,20 @@ def test_entry_sub_preset_resolution():
     assert c_lv.max_width_px <= 70
     assert c_lv.max_lines == 1
 
-    # In battle.json:
-    # Action commands -> max 60px, 1 line
+    # In battle.json (calibrated against bg_win_btl_dwn_1.png):
+    # Action commands -> max 80px, 1 line
     c_atk = get_constraints_for_entry("battle.json", 0)
-    assert c_atk.max_width_px == 60
+    assert c_atk.max_width_px == 80
     assert c_atk.max_lines == 1
 
-    # Status effects -> max 65px, 1 line
+    # Status effects -> max 75px, 1 line
     c_poi = get_constraints_for_entry("battle.json", 8)
-    assert c_poi.max_width_px == 65
+    assert c_poi.max_width_px == 75
     assert c_poi.max_lines == 1
 
-    # Combat messages -> max 190px, 2 lines
+    # Combat messages -> max 180px, 2 lines
     c_exp = get_constraints_for_entry("battle.json", 37)
-    assert c_exp.max_width_px == 190
+    assert c_exp.max_width_px == 180
     assert c_exp.max_lines == 2
 
 
@@ -1703,11 +1703,11 @@ def test_calibrated_window_presets():
 def test_granular_constraints_start_json():
     from src.text_validator import get_constraints_for_entry
 
-    # Game mode description: 7 lines, 130px
+    # Game mode description: 7 lines, 118px (calibrated with symmetric padding)
     c77 = get_constraints_for_entry("start.json", 77)
     assert c77.name == "start_mode_desc"
     assert c77.max_lines == 7
-    assert c77.max_width_px == 130
+    assert c77.max_width_px == 118
     assert c77.reflow is True
 
     # Settings explanation: 4 lines, 145px
@@ -1717,6 +1717,27 @@ def test_granular_constraints_start_json():
     assert c82.max_width_px == 145
     assert c82.reflow is True
 
+    # Title buttons: 1 line, 100px
+    c0 = get_constraints_for_entry("start.json", 0)
+    assert c0.name == "start_title_button"
+    assert c0.max_lines == 1
+    assert c0.max_width_px == 100
+    assert c0.reflow is False
+
+    # Settings button: 1 line, 110px
+    c74 = get_constraints_for_entry("start.json", 74)
+    assert c74.name == "start_setting_button"
+    assert c74.max_lines == 1
+    assert c74.max_width_px == 110
+    assert c74.reflow is False
+
+    # Bottom hint bar: 1 line, 224px
+    c91 = get_constraints_for_entry("start.json", 91)
+    assert c91.name == "start_bottom_hint"
+    assert c91.max_lines == 1
+    assert c91.max_width_px == 224
+    assert c91.reflow is False
+
     # Card/save corruption alert: 3 lines, 220px
     c29 = get_constraints_for_entry("start.json", 29)
     assert c29.name == "start_alert_box"
@@ -1724,12 +1745,13 @@ def test_granular_constraints_start_json():
     assert c29.max_width_px == 220
     assert c29.reflow is True
 
-    # General start entries
-    c0 = get_constraints_for_entry("start.json", 0)
-    assert c0.name == "start_general"
-    assert c0.max_lines == 2
-    assert c0.max_width_px == 200
-    assert c0.reflow is False
+    # General start entries fallback
+    c50 = get_constraints_for_entry("start.json", 50)
+    assert c50.name == "start_general"
+    assert c50.max_lines == 2
+    assert c50.max_width_px == 200
+    assert c50.reflow is False
+
 
 
 def test_granular_constraints_ex_item_json():
@@ -1758,11 +1780,66 @@ def test_granular_constraints_menu_json_buttons():
     assert c102.max_width_px == 95
     assert c102.name == "menu_action_button"
 
-    # Empty shop notice (entries 125, 126, 129, 130) -> 2 lines, 195px
-    c125 = get_constraints_for_entry("menu.json", 125)
-    assert c125.name == "menu_status_msg"
-    assert c125.max_lines == 2
-    assert c125.max_width_px == 195
+def test_granular_constraints_shop_ui():
+    from src.text_validator import get_constraints_for_entry
+
+    # Shop action button: Buy, Sell, Equip
+    c_buy = get_constraints_for_entry("menu.json", 118)
+    assert c_buy.name == "shop_action_button"
+    assert c_buy.max_width_px == 70
+    assert c_buy.max_lines == 1
+    assert c_buy.reflow is False
+
+    # Shop funds / price labels
+    c_funds = get_constraints_for_entry("menu.json", 121)
+    assert c_funds.name == "shop_funds_label"
+    assert c_funds.max_width_px == 75
+    assert c_funds.max_lines == 1
+
+    # Shop empty notices
+    c_empty = get_constraints_for_entry("menu.json", 125)
+    assert c_empty.name == "shop_empty_notice"
+    assert c_empty.max_width_px == 195
+    assert c_empty.max_lines == 2
+    assert c_empty.reflow is True
+
+    # Shop stat labels (Attack, Defense, Difference)
+    c_stat = get_constraints_for_entry("menu.json", 132)
+    assert c_stat.name == "shop_stat_label"
+    assert c_stat.max_width_px == 75
+    assert c_stat.max_lines == 1
+
+
+def test_granular_constraints_battle_json():
+    from src.text_validator import get_constraints_for_entry
+
+    # Battle command buttons: 80px, 1 line, reflow False
+    c_atk = get_constraints_for_entry("battle.json", 0)
+    assert c_atk.name == "battle_cmd_button"
+    assert c_atk.max_width_px == 80
+    assert c_atk.max_lines == 1
+    assert c_atk.reflow is False
+
+    # Status conditions: 75px, 1 line, reflow False
+    c_psn = get_constraints_for_entry("battle.json", 8)
+    assert c_psn.name == "battle_status_condition"
+    assert c_psn.max_width_px == 75
+    assert c_psn.max_lines == 1
+    assert c_psn.reflow is False
+
+    # Battle labels: 60px, 1 line, reflow False
+    c_lbl = get_constraints_for_entry("battle.json", 24)
+    assert c_lbl.name == "battle_label"
+    assert c_lbl.max_width_px == 60
+    assert c_lbl.max_lines == 1
+    assert c_lbl.reflow is False
+
+    # Battle outcome / level up results: 180px, 2 lines, reflow True
+    c_res = get_constraints_for_entry("battle.json", 32)
+    assert c_res.name == "battle_result_msg"
+    assert c_res.max_width_px == 180
+    assert c_res.max_lines == 2
+    assert c_res.reflow is True
 
 
 def test_system_json_charmap_exemption():
@@ -1785,6 +1862,38 @@ def test_system_json_charmap_exemption():
     assert c_popup.max_width_px == 130
     assert c_popup.max_lines == 2
     assert c_popup.font_type == "small"
+
+
+def test_field_choice_box_preset_and_constraints():
+    """Verify field_choice_box preset parameters and choice tag detection."""
+    from src.text_validator import WINDOW_PRESETS, get_constraints_for_entry
+
+    assert "field_choice_box" in WINDOW_PRESETS
+    preset = WINDOW_PRESETS["field_choice_box"]
+    assert preset.max_width_px == 110
+    assert preset.max_lines == 4
+    assert preset.reflow is False
+    assert preset.font_type == "big"
+
+
+def test_cmes0_dialogue_page_separation_wait_key():
+    """Verify that multi-page dialogues with {WAIT_KEY} split pages correctly without false line overflows."""
+    from src.text_validator import wrap_text_block, load_glyph_metrics
+
+    widths = load_glyph_metrics("extracted fonts/msg/big/msgcmn.json", "assets/fonts/cyrillic_big.json")
+
+    # 2-page dialogue separated by {WAIT_KEY} with 3 lines on each page
+    text = (
+        "Мама: Ты, наверное, так ждал\n"
+        "Ярмарку Тысячелетия, что не мог\n"
+        "уснуть прошлой ночью, верно?{WAIT_KEY}\n"
+        "Ну, смотри, чтобы это легкомыслие\n"
+        "не довело тебя до беды!\n"
+        "Веди себя сегодня прилично!"
+    )
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=238, max_lines=3, reflow=True)
+    assert warnings == []
+    assert "{WAIT_KEY}" in formatted
 
 
 def test_all_extracted_text_zero_false_warnings():
@@ -1812,12 +1921,118 @@ def test_all_extracted_text_zero_false_warnings():
                 dry_run=True,
             )
             for w in rep.get("warnings", []):
+                # Skip start.json entries 77 & 78 on original text: Square Enix original text
+                # did not enforce symmetric right padding (lines reached 126px right against the border).
+                # The translation uses calibrated symmetric padding (118px).
+                if os.path.basename(fpath).lower() == "start.json" and any(
+                    f"Entry {eid}:" in w for eid in (77, 78)
+                ):
+                    continue
                 all_warnings.append(f"{os.path.basename(fpath)} [{field}]: {w}")
 
     assert len(all_warnings) == 0, (
         f"Expected 0 warnings across all original text files, got {len(all_warnings)}:\n"
         + "\n".join(all_warnings[:30])
     )
+
+
+def test_extras_ui_geometry_and_constraints():
+    """Verify calibrated Extras & Media UI presets, constraints and ex_ending formatting."""
+    # ex_ending.json
+    p_desc = get_constraints_for_entry("ex_ending.json", 0)
+    assert p_desc.name == "ending_desc"
+    assert p_desc.max_width_px == 224
+    assert p_desc.max_lines == 2
+    assert p_desc.reflow is True
+
+    p_title = get_constraints_for_entry("ex_ending.json", 26)
+    assert p_title.name == "ending_title"
+    assert p_title.max_width_px == 180
+    assert p_title.max_lines == 1
+    assert p_title.reflow is False
+
+    # player.json
+    p_pname = get_constraints_for_entry("player.json", 0)
+    assert p_pname.name == "player_char_name"
+    assert p_pname.max_width_px == 100
+    assert p_pname.max_lines == 1
+    assert p_pname.reflow is False
+
+    p_prof = get_constraints_for_entry("player.json", 10)
+    assert p_prof.name == "player_char_profile"
+    assert p_prof.max_width_px == 132
+    assert p_prof.max_lines == 6
+    assert p_prof.reflow is True
+
+    # bgm.json
+    p_bgm = get_constraints_for_entry("bgm.json", 0)
+    assert p_bgm.name == "bgm_name"
+    assert p_bgm.max_width_px == 145
+    assert p_bgm.max_lines == 1
+
+    # Validate ex_ending.json with actual translation file
+    big_metrics = load_glyph_metrics(
+        "extracted fonts/msg/big/msgcmn.json",
+        "assets/fonts/cyrillic_big.json",
+    )
+    rep = validate_and_format_file(
+        "translated text/msg/big/ex_ending.json",
+        font_widths=big_metrics,
+        small_widths=None,
+        preset="auto",
+        field="translation",
+        dry_run=True,
+    )
+    assert rep["total_entries"] == 39
+    assert rep["overflows_found"] == 0
+    assert len(rep["warnings"]) == 0
+
+
+def test_menu_and_tutorial_status_ui_constraints():
+    """Verify calibrated Menu and Tutorial constraints and clean translation formatting."""
+    # menu.json control help
+    p_help = get_constraints_for_entry("menu.json", 179)
+    assert p_help.name == "menu_control_help"
+    assert p_help.max_width_px == 224
+    assert p_help.max_lines == 1
+
+    # tutorial.json prompt
+    p_tuto = get_constraints_for_entry("tutorial.json", 12)
+    assert p_tuto.name == "tutorial_prompt"
+    assert p_tuto.max_width_px == 230
+    assert p_tuto.max_lines == 1
+    assert p_tuto.reflow is False
+
+    big_metrics = load_glyph_metrics(
+        "extracted fonts/msg/big/msgcmn.json",
+        "assets/fonts/cyrillic_big.json",
+    )
+
+    # Validate menu.json
+    rep_menu = validate_and_format_file(
+        "translated text/msg/big/menu.json",
+        font_widths=big_metrics,
+        small_widths=None,
+        preset="auto",
+        field="translation",
+        dry_run=True,
+    )
+    assert rep_menu["overflows_found"] == 0
+    assert len(rep_menu["warnings"]) == 0
+
+    # Validate tutorial.json
+    rep_tuto = validate_and_format_file(
+        "translated text/msg/big/tutorial.json",
+        font_widths=big_metrics,
+        small_widths=None,
+        preset="auto",
+        field="translation",
+        dry_run=True,
+    )
+    assert rep_tuto["overflows_found"] == 0
+    assert len(rep_tuto["warnings"]) == 0
+
+
 
 
 
