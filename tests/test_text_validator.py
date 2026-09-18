@@ -1936,6 +1936,59 @@ def test_all_extracted_text_zero_false_warnings():
     )
 
 
+def test_extras_ui_geometry_and_constraints():
+    """Verify calibrated Extras & Media UI presets, constraints and ex_ending formatting."""
+    # ex_ending.json
+    p_desc = get_constraints_for_entry("ex_ending.json", 0)
+    assert p_desc.name == "ending_desc"
+    assert p_desc.max_width_px == 224
+    assert p_desc.max_lines == 2
+    assert p_desc.reflow is True
+
+    p_title = get_constraints_for_entry("ex_ending.json", 26)
+    assert p_title.name == "ending_title"
+    assert p_title.max_width_px == 180
+    assert p_title.max_lines == 1
+    assert p_title.reflow is False
+
+    # player.json
+    p_pname = get_constraints_for_entry("player.json", 0)
+    assert p_pname.name == "player_char_name"
+    assert p_pname.max_width_px == 100
+    assert p_pname.max_lines == 1
+    assert p_pname.reflow is False
+
+    p_prof = get_constraints_for_entry("player.json", 10)
+    assert p_prof.name == "player_char_profile"
+    assert p_prof.max_width_px == 132
+    assert p_prof.max_lines == 6
+    assert p_prof.reflow is True
+
+    # bgm.json
+    p_bgm = get_constraints_for_entry("bgm.json", 0)
+    assert p_bgm.name == "bgm_name"
+    assert p_bgm.max_width_px == 145
+    assert p_bgm.max_lines == 1
+
+    # Validate ex_ending.json with actual translation file
+    big_metrics = load_glyph_metrics(
+        "extracted fonts/msg/big/msgcmn.json",
+        "assets/fonts/cyrillic_big.json",
+    )
+    rep = validate_and_format_file(
+        "translated text/msg/big/ex_ending.json",
+        font_widths=big_metrics,
+        small_widths=None,
+        preset="auto",
+        field="translation",
+        dry_run=True,
+    )
+    assert rep["total_entries"] == 39
+    assert rep["overflows_found"] == 0
+    assert len(rep["warnings"]) == 0
+
+
+
 
 
 
