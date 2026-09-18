@@ -1013,5 +1013,93 @@
         "end": 15
       }
     ]
+  },
+  "save_slot_card": {
+    "name": "save_slot_card",
+    "description": "Save file slot card in save/load screen",
+    "source_image": "extracted image/menu/bg/bg_win_sav_dwn_1.png",
+    "outer_x": 8,
+    "outer_y": 16,
+    "outer_w": 240,
+    "outer_h": 40,
+    "inner_x": 16,
+    "inner_y": 20,
+    "inner_w": 224,
+    "inner_h": 32,
+    "padding_left": 8,
+    "padding_right": 8,
+    "padding_top": 4,
+    "padding_bottom": 4,
+    "max_width_px": 140,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "map.json"
+    ],
+    "entry_ranges": null
+  },
+  "name_entry_preview": {
+    "name": "name_entry_preview",
+    "description": "Character name input box in naming screen",
+    "source_image": "extracted image/menu/bg/bg_win_name_dwn_1.png",
+    "outer_x": 24,
+    "outer_y": 40,
+    "outer_w": 144,
+    "outer_h": 24,
+    "inner_x": 28,
+    "inner_y": 42,
+    "inner_w": 136,
+    "inner_h": 20,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 64,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "player.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  "tutorial_prompt": {
+    "name": "tutorial_prompt",
+    "description": "Blinking confirmation prompt at bottom of tutorial screen",
+    "source_image": "extracted image/menu/bg/bg_win_tuto_up_1.png",
+    "outer_x": 16,
+    "outer_y": 160,
+    "outer_w": 224,
+    "outer_h": 24,
+    "inner_x": 20,
+    "inner_y": 162,
+    "inner_w": 216,
+    "inner_h": 20,
+    "padding_left": 4,
+    "padding_right": 4,
+    "padding_top": 2,
+    "padding_bottom": 2,
+    "max_width_px": 210,
+    "line_pitch": 14,
+    "max_lines": 1,
+    "font_type": "big",
+    "reflow": false,
+    "patterns": [
+      "tutorial.json"
+    ],
+    "entry_ranges": [
+      {
+        "start": 12,
+        "end": 12
+      }
+    ]
   }
 }

@@ -1988,6 +1988,52 @@ def test_extras_ui_geometry_and_constraints():
     assert len(rep["warnings"]) == 0
 
 
+def test_menu_and_tutorial_status_ui_constraints():
+    """Verify calibrated Menu and Tutorial constraints and clean translation formatting."""
+    # menu.json control help
+    p_help = get_constraints_for_entry("menu.json", 179)
+    assert p_help.name == "menu_control_help"
+    assert p_help.max_width_px == 224
+    assert p_help.max_lines == 1
+
+    # tutorial.json prompt
+    p_tuto = get_constraints_for_entry("tutorial.json", 12)
+    assert p_tuto.name == "tutorial_prompt"
+    assert p_tuto.max_width_px == 230
+    assert p_tuto.max_lines == 1
+    assert p_tuto.reflow is False
+
+    big_metrics = load_glyph_metrics(
+        "extracted fonts/msg/big/msgcmn.json",
+        "assets/fonts/cyrillic_big.json",
+    )
+
+    # Validate menu.json
+    rep_menu = validate_and_format_file(
+        "translated text/msg/big/menu.json",
+        font_widths=big_metrics,
+        small_widths=None,
+        preset="auto",
+        field="translation",
+        dry_run=True,
+    )
+    assert rep_menu["overflows_found"] == 0
+    assert len(rep_menu["warnings"]) == 0
+
+    # Validate tutorial.json
+    rep_tuto = validate_and_format_file(
+        "translated text/msg/big/tutorial.json",
+        font_widths=big_metrics,
+        small_widths=None,
+        preset="auto",
+        field="translation",
+        dry_run=True,
+    )
+    assert rep_tuto["overflows_found"] == 0
+    assert len(rep_tuto["warnings"]) == 0
+
+
+
 
 
 
