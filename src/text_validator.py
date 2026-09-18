@@ -47,6 +47,14 @@ WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
             "ques*.json",
         ),
     ),
+    "field_choice_box": TextWindowPreset(
+        name="field_choice_box",
+        max_width_px=110,
+        max_lines=4,
+        reflow=False,
+        font_type="big",
+        patterns=(),
+    ),
     "tutorial": TextWindowPreset(
         name="tutorial",
         max_width_px=200,
@@ -1127,6 +1135,10 @@ HYPHEN_BREAK_PATTERN = re.compile(
     r"([a-zA-Zа-яА-ЯёЁ]+)-\s*(?:\r?\n|\{LINE\}|\{PAGE\})\s*(?:(?:\r?\n|\{LINE\}|\{PAGE\})\s*)*([a-zA-Zа-яА-ЯёЁ]+)"
 )
 
+PAGE_DELIM_PATTERN = re.compile(r"(\{PAGE\}|\{WAIT_KEY\}|\{GLYPH:407\}|\{GLYPH:408\})")
+CHOICE_TAG_PATTERN = re.compile(r"\{GLYPH:(39[4-9]|40[0-3])\}")
+CHOICE_MAX_WIDTH_PX = 110
+
 COMPOUND_TO_PREFIXES = frozenset({
     "что", "кто", "где", "как", "куда", "когда", "почему", "зачем", "откуда",
     "отчего", "сколько",
@@ -1297,8 +1309,7 @@ def wrap_text_block(
             ]
             formatted_text = "{PAGE}".join("\n".join(chunk) for chunk in chunks)
         else:
-            if len(lines) > max_lines:
-                warnings.append(f"Page has {len(lines)} lines (exceeds max {max_lines})")
+            warnings.extend(_check_subpage_lines(lines, max_lines))
             formatted_text = "\n".join(lines)
         return formatted_text, warnings
 
@@ -1314,7 +1325,10 @@ def wrap_text_block(
             if not page_lines and raw_page:
                 page_lines = [raw_page]
         elif reflow:
-            paragraphs = re.split(r"(?:\r?\n){2,}", raw_page)
+            paragraphs = re.split(
+                r"(?:\r?\n){2,}|(?<=\{WAIT_KEY\})\s*\r?\n|(?<=\{GLYPH:407\})\s*\r?\n",
+                raw_page,
+            )
             for para in paragraphs:
                 p_clean = collapse_hyphenated_breaks(para)
                 p_clean = re.sub(r"\r?\n|\{LINE\}", " ", p_clean)
@@ -1342,26 +1356,40 @@ def wrap_text_block(
                     )
                 )
 
-        num_lines = len(page_lines)
         if auto_paginate:
             if page_lines:
                 chunk_size = max(1, max_lines)
                 chunks = [
                     page_lines[i : i + chunk_size]
-                    for i in range(0, num_lines, chunk_size)
+                    for i in range(0, len(page_lines), chunk_size)
                 ]
                 page_str = "{PAGE}".join("\n".join(chunk) for chunk in chunks)
             else:
                 page_str = ""
             formatted_pages.append(page_str)
         else:
-            if num_lines > max_lines:
-                warnings.append(f"Page has {num_lines} lines (exceeds max {max_lines})")
+            warnings.extend(_check_subpage_lines(page_lines, max_lines))
             page_str = "\n".join(page_lines)
             formatted_pages.append(page_str)
 
     formatted_text = "{PAGE}".join(formatted_pages)
     return formatted_text, warnings
+
+
+def _check_subpage_lines(lines: List[str], max_lines: int) -> List[str]:
+    """Checks line counts per display sub-page, recognizing {WAIT_KEY} and {GLYPH:407} breaks."""
+    warnings: List[str] = []
+    sub_pages: List[List[str]] = [[]]
+    for line in lines:
+        sub_pages[-1].append(line)
+        if PAGE_DELIM_PATTERN.search(line):
+            sub_pages.append([])
+
+    for sp in sub_pages:
+        non_empty = [l for l in sp if l.strip()]
+        if len(non_empty) > max_lines:
+            warnings.append(f"Page has {len(non_empty)} lines (exceeds max {max_lines})")
+    return warnings
 
 
 def validate_and_format_file(
@@ -1490,6 +1518,8 @@ def validate_and_format_file(
                     f"Entry {entry_id}: Page has {len(raw_lines)} lines (exceeds max 1)"
                 )
             for raw_line in raw_lines:
+                if not raw_line.strip():
+                    continue
                 line_width = calculate_line_width_px(
                     raw_line, active_widths, hero_name_width_px=hero_name_width_px
                 )
