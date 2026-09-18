@@ -87,6 +87,30 @@ WINDOW_PRESETS: Dict[str, TextWindowPreset] = {
         font_type="big",
         patterns=("ex_ending.json",),
     ),
+    "ending_title": TextWindowPreset(
+        name="ending_title",
+        max_width_px=180,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=(),
+    ),
+    "player_char_name": TextWindowPreset(
+        name="player_char_name",
+        max_width_px=100,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=(),
+    ),
+    "player_char_profile": TextWindowPreset(
+        name="player_char_profile",
+        max_width_px=132,
+        max_lines=6,
+        reflow=True,
+        font_type="big",
+        patterns=(),
+    ),
     "encyclopedia": TextWindowPreset(
         name="encyclopedia",
         max_width_px=136,
@@ -442,6 +466,21 @@ def get_constraints_for_entry(
             font_type="big",
             patterns=(),
         )
+
+    if base_name == "ex_ending.json":
+        if 0 <= entry_id <= 25:
+            return WINDOW_PRESETS["ending_desc"]
+        elif 26 <= entry_id <= 38:
+            return WINDOW_PRESETS["ending_title"]
+
+    if base_name == "player.json":
+        if 0 <= entry_id <= 7:
+            return WINDOW_PRESETS["player_char_name"]
+        elif 8 <= entry_id <= 15:
+            return WINDOW_PRESETS["player_char_profile"]
+
+    if base_name == "bgm.json":
+        return WINDOW_PRESETS["bgm_name"]
 
     if base_name == "tutorial.json":
         if entry_id == 12:

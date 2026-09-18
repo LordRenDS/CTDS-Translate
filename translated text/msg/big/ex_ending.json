@@ -33,25 +33,25 @@
     "id": 5,
     "original_en": "Defeat Lavos after arriving in the Middle Ages,\nbut before obtaining the Hero's Badge from Tata.",
     "original_fr": "Après être retourné au Moyen-{TAG:5F}ge, mais avant de\nrecevoir la médaille du héros de Tarta.",
-    "translation": "Победите Лавоса после прибытия в\nСредневековье, но до получения Значка Героя\nот Таты."
+    "translation": "Победите Лавоса по прибытии в Средневековье,\nно до получения Значка Героя от Таты."
   },
   {
     "id": 6,
     "original_en": "Defeat Lavos after obtaining the Hero's Badge,\nbut before the Gate Key is stolen in prehistory.",
     "original_fr": "Après avoir reçu la médaille du héros, mais avant que\nla clef stabilisatrice soit volée dans la Préhistoire.",
-    "translation": "Победите Лавоса после получения Значка\nГероя, но до того, как Ключ Врат будет\nукраден в Доисторическую Эпоху."
+    "translation": "Победите Лавоса после получения Значка Героя,\nно прежде, чем украдут Ключ Врат в Доистории."
   },
   {
     "id": 7,
     "original_en": "Defeat Lavos after regaining the Gate Key,\nbut before giving the Masamune to Frog.",
     "original_fr": "Après avoir récupéré la clef stabilisatrice, mais\navant de rendre Grandléon {TAG:3C} Gren.",
-    "translation": "Победите Лавоса после того, как вернете\nКлюч Врат, но до того, как отдадите\nМасамуне Фрогу."
+    "translation": "Победите Лавоса после возврата Ключа Врат,\nно до того, как отдадите Масамуне Фрогу."
   },
   {
     "id": 8,
     "original_en": "Defeat Lavos after giving the Masamune to Frog,\nbut before facing Magus.",
     "original_fr": "Après avoir rendu Grandléon {TAG:3C} Gren, mais avant de\ncombattre Magus.",
-    "translation": "Победите Лавоса после того, как отдадите\nМасамуне Фрогу, но до того, как сразитесь\nс Магусом."
+    "translation": "Победите Лавоса, отдав Масамуне Фрогу,\nно до того, как сразитесь с Магусом."
   },
   {
     "id": 9,
@@ -63,13 +63,13 @@
     "id": 10,
     "original_en": "Defeat Lavos after facing Azala, but before\nSchala opens the sealed door.",
     "original_fr": "Après avoir vaincu Azara, mais avant que Sarah\nn'ouvre la porte scellée.",
-    "translation": "Победите Лавоса после того, как сразитесь\nс Азалой, но до того, как Шала откроет\nзапечатанную дверь."
+    "translation": "Победите Лавоса после битвы с Азалой, но до\nтого, как Шала откроет запечатанную дверь."
   },
   {
     "id": 11,
     "original_en": "Defeat Lavos after Schala opens the sealed door,\nbut before restoring light to the pendant.",
     "original_fr": "Après que Sarah ouvre la porte scellée, mais avant\nde réactiver le pendentif.",
-    "translation": "Победите Лавоса после того, как Шала\nоткроет запечатанную дверь, но до того,\nкак восстановите свет в кулоне."
+    "translation": "Победите Лавоса после снятия Шалой печати,\nно до восстановления света в кулоне."
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "id": 15,
     "original_en": "Use the right Telepod to warp to Lavos immediately\nafter starting New Game +.",
     "original_fr": "Examinez le portail sur le téléporteur de droite au\ntout début d'une nouvelle partie ™.",
-    "translation": "Используйте правый Телепорт, чтобы сразу же\nпереместиться к Лавосу после начала режима\nНовая Игра +."
+    "translation": "Используйте правый Телепорт, чтобы сразу же\nпереместиться к Лавосу в Новой Игре +."
   },
   {
     "id": 16,
