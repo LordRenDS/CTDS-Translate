@@ -685,28 +685,38 @@ def get_constraints_for_entry(
         # 1. Action commands (Attack, Tech, Combo, Item, Escape)
         if 0 <= entry_id <= 7:
             return TextWindowPreset(
-                name="battle_command",
+                name="battle_cmd_button",
+                max_width_px=80,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 2. Status ailments & conditions (Poison, Slow, Sleep, Blind...)
+        if 8 <= entry_id <= 23:
+            return TextWindowPreset(
+                name="battle_status_condition",
+                max_width_px=75,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 3. Battle result labels (Enemies:, Obtained, EXP, TP, G)
+        if 24 <= entry_id <= 31:
+            return TextWindowPreset(
+                name="battle_label",
                 max_width_px=60,
                 max_lines=1,
                 reflow=False,
                 font_type="big",
                 patterns=(),
             )
-        # 2. Status ailments & buffs (Poison, Slow, Sleep, Stop...)
-        if 8 <= entry_id <= 23:
+        # 4. Battle log / outcome messages (Level Up, Learned Tech, Escaped...)
+        if 32 <= entry_id <= 49:
             return TextWindowPreset(
-                name="battle_status",
-                max_width_px=65,
-                max_lines=1,
-                reflow=False,
-                font_type="big",
-                patterns=(),
-            )
-        # 3. Battle log / outcome messages (EXP, TP, Level Up, Escaped...)
-        if 24 <= entry_id <= 49:
-            return TextWindowPreset(
-                name="battle_message",
-                max_width_px=190,
+                name="battle_result_msg",
+                max_width_px=180,
                 max_lines=2,
                 reflow=True,
                 font_type="big",
