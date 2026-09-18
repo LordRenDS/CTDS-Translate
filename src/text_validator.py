@@ -515,7 +515,44 @@ def get_constraints_for_entry(
                 font_type="big",
                 patterns=(),
             )
-        # 6. Bottom screen hint / explanation bar
+        # 6. Shop UI controls & notices
+        if 117 <= entry_id <= 120:
+            return TextWindowPreset(
+                name="shop_action_button",
+                max_width_px=70,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        if entry_id in (121, 122, 135, 136):
+            return TextWindowPreset(
+                name="shop_funds_label",
+                max_width_px=75,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        if 123 <= entry_id <= 130:
+            return TextWindowPreset(
+                name="shop_empty_notice",
+                max_width_px=195,
+                max_lines=2,
+                reflow=True,
+                font_type="big",
+                patterns=(),
+            )
+        if 132 <= entry_id <= 134:
+            return TextWindowPreset(
+                name="shop_stat_label",
+                max_width_px=75,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 7. Bottom screen hint / explanation bar
         if 144 <= entry_id <= 178:
             return TextWindowPreset(
                 name="menu_bottom_hint",
@@ -525,8 +562,8 @@ def get_constraints_for_entry(
                 font_type="big",
                 patterns=(),
             )
-        # 7. Empty inventory / equip status messages & empty shop messages
-        if (69 <= entry_id <= 74) or (entry_id in (125, 126, 129, 130)):
+        # 8. Empty inventory / equip status messages
+        if 69 <= entry_id <= 74:
             return TextWindowPreset(
                 name="menu_status_msg",
                 max_width_px=195,
