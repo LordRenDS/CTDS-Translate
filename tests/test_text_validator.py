@@ -1328,20 +1328,20 @@ def test_entry_sub_preset_resolution():
     assert c_lv.max_width_px <= 70
     assert c_lv.max_lines == 1
 
-    # In battle.json:
-    # Action commands -> max 60px, 1 line
+    # In battle.json (calibrated against bg_win_btl_dwn_1.png):
+    # Action commands -> max 80px, 1 line
     c_atk = get_constraints_for_entry("battle.json", 0)
-    assert c_atk.max_width_px == 60
+    assert c_atk.max_width_px == 80
     assert c_atk.max_lines == 1
 
-    # Status effects -> max 65px, 1 line
+    # Status effects -> max 75px, 1 line
     c_poi = get_constraints_for_entry("battle.json", 8)
-    assert c_poi.max_width_px == 65
+    assert c_poi.max_width_px == 75
     assert c_poi.max_lines == 1
 
-    # Combat messages -> max 190px, 2 lines
+    # Combat messages -> max 180px, 2 lines
     c_exp = get_constraints_for_entry("battle.json", 37)
-    assert c_exp.max_width_px == 190
+    assert c_exp.max_width_px == 180
     assert c_exp.max_lines == 2
 
 
@@ -1808,6 +1808,38 @@ def test_granular_constraints_shop_ui():
     assert c_stat.name == "shop_stat_label"
     assert c_stat.max_width_px == 75
     assert c_stat.max_lines == 1
+
+
+def test_granular_constraints_battle_json():
+    from src.text_validator import get_constraints_for_entry
+
+    # Battle command buttons: 80px, 1 line, reflow False
+    c_atk = get_constraints_for_entry("battle.json", 0)
+    assert c_atk.name == "battle_cmd_button"
+    assert c_atk.max_width_px == 80
+    assert c_atk.max_lines == 1
+    assert c_atk.reflow is False
+
+    # Status conditions: 75px, 1 line, reflow False
+    c_psn = get_constraints_for_entry("battle.json", 8)
+    assert c_psn.name == "battle_status_condition"
+    assert c_psn.max_width_px == 75
+    assert c_psn.max_lines == 1
+    assert c_psn.reflow is False
+
+    # Battle labels: 60px, 1 line, reflow False
+    c_lbl = get_constraints_for_entry("battle.json", 24)
+    assert c_lbl.name == "battle_label"
+    assert c_lbl.max_width_px == 60
+    assert c_lbl.max_lines == 1
+    assert c_lbl.reflow is False
+
+    # Battle outcome / level up results: 180px, 2 lines, reflow True
+    c_res = get_constraints_for_entry("battle.json", 32)
+    assert c_res.name == "battle_result_msg"
+    assert c_res.max_width_px == 180
+    assert c_res.max_lines == 2
+    assert c_res.reflow is True
 
 
 def test_system_json_charmap_exemption():
