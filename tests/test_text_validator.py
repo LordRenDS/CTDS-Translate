@@ -1864,6 +1864,38 @@ def test_system_json_charmap_exemption():
     assert c_popup.font_type == "small"
 
 
+def test_field_choice_box_preset_and_constraints():
+    """Verify field_choice_box preset parameters and choice tag detection."""
+    from src.text_validator import WINDOW_PRESETS, get_constraints_for_entry
+
+    assert "field_choice_box" in WINDOW_PRESETS
+    preset = WINDOW_PRESETS["field_choice_box"]
+    assert preset.max_width_px == 110
+    assert preset.max_lines == 4
+    assert preset.reflow is False
+    assert preset.font_type == "big"
+
+
+def test_cmes0_dialogue_page_separation_wait_key():
+    """Verify that multi-page dialogues with {WAIT_KEY} split pages correctly without false line overflows."""
+    from src.text_validator import wrap_text_block, load_glyph_metrics
+
+    widths = load_glyph_metrics("extracted fonts/msg/big/msgcmn.json", "assets/fonts/cyrillic_big.json")
+
+    # 2-page dialogue separated by {WAIT_KEY} with 3 lines on each page
+    text = (
+        "Мама: Ты, наверное, так ждал\n"
+        "Ярмарку Тысячелетия, что не мог\n"
+        "уснуть прошлой ночью, верно?{WAIT_KEY}\n"
+        "Ну, смотри, чтобы это легкомыслие\n"
+        "не довело тебя до беды!\n"
+        "Веди себя сегодня прилично!"
+    )
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=238, max_lines=3, reflow=True)
+    assert warnings == []
+    assert "{WAIT_KEY}" in formatted
+
+
 def test_all_extracted_text_zero_false_warnings():
     """Verify that validating all clean extracted text files produces 0 false warnings for original_en and original_fr."""
     import glob
