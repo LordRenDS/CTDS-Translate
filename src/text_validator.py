@@ -331,15 +331,23 @@ def get_constraints_for_entry(
     base_name = os.path.basename(file_path).lower()
 
     if base_name == "start.json":
+        # 1. Game mode descriptions (DS Mode & Classic Mode on right of settings screen)
+        # Outer box: x=120..249 (w=130), y=79..171 (h=92).
+        # Left text anchor: x=125 (padding 5px).
+        # Symmetric right padding: 5px (x=244).
+        # Inner printable width: 244 - 125 = 119px (safe limit: 118px).
+        # Line pitch: 13px. Max lines: 7.
         if entry_id in (77, 78):
             return TextWindowPreset(
                 name="start_mode_desc",
-                max_width_px=130,
+                max_width_px=118,
                 max_lines=7,
                 reflow=True,
                 font_type="big",
                 patterns=(),
             )
+        # 2. Battle mode (Active/Wait) & Movie mode descriptions
+        # Max width: 145px, line pitch: 13px, max lines: 4.
         if entry_id in (82, 83, 87, 88):
             return TextWindowPreset(
                 name="start_setting_desc",
@@ -349,12 +357,43 @@ def get_constraints_for_entry(
                 font_type="big",
                 patterns=(),
             )
-        if (23 <= entry_id <= 45) or (104 <= entry_id <= 108):
+        # 3. Card/save corruption and file access alert modals
+        if (23 <= entry_id <= 49) or (104 <= entry_id <= 108):
             return TextWindowPreset(
                 name="start_alert_box",
                 max_width_px=220,
                 max_lines=3,
                 reflow=True,
+                font_type="big",
+                patterns=(),
+            )
+        # 4. Title screen main menu action buttons (New Game, Load Game, Arena, Extras)
+        if 0 <= entry_id <= 11:
+            return TextWindowPreset(
+                name="start_title_button",
+                max_width_px=100,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 5. Setting labels and toggle buttons (Game Mode, Classic, DS, Battle Mode, Active, Wait, etc.)
+        if entry_id in (73, 74, 75, 76, 79, 80, 81, 84, 85, 86, 89, 90):
+            return TextWindowPreset(
+                name="start_setting_button",
+                max_width_px=110,
+                max_lines=1,
+                reflow=False,
+                font_type="big",
+                patterns=(),
+            )
+        # 6. Bottom screen hint bar in settings ("These settings can be changed later")
+        if entry_id == 91:
+            return TextWindowPreset(
+                name="start_bottom_hint",
+                max_width_px=224,
+                max_lines=1,
+                reflow=False,
                 font_type="big",
                 patterns=(),
             )
