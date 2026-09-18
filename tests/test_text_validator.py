@@ -1780,11 +1780,34 @@ def test_granular_constraints_menu_json_buttons():
     assert c102.max_width_px == 95
     assert c102.name == "menu_action_button"
 
-    # Empty shop notice (entries 125, 126, 129, 130) -> 2 lines, 195px
-    c125 = get_constraints_for_entry("menu.json", 125)
-    assert c125.name == "menu_status_msg"
-    assert c125.max_lines == 2
-    assert c125.max_width_px == 195
+def test_granular_constraints_shop_ui():
+    from src.text_validator import get_constraints_for_entry
+
+    # Shop action button: Buy, Sell, Equip
+    c_buy = get_constraints_for_entry("menu.json", 118)
+    assert c_buy.name == "shop_action_button"
+    assert c_buy.max_width_px == 70
+    assert c_buy.max_lines == 1
+    assert c_buy.reflow is False
+
+    # Shop funds / price labels
+    c_funds = get_constraints_for_entry("menu.json", 121)
+    assert c_funds.name == "shop_funds_label"
+    assert c_funds.max_width_px == 75
+    assert c_funds.max_lines == 1
+
+    # Shop empty notices
+    c_empty = get_constraints_for_entry("menu.json", 125)
+    assert c_empty.name == "shop_empty_notice"
+    assert c_empty.max_width_px == 195
+    assert c_empty.max_lines == 2
+    assert c_empty.reflow is True
+
+    # Shop stat labels (Attack, Defense, Difference)
+    c_stat = get_constraints_for_entry("menu.json", 132)
+    assert c_stat.name == "shop_stat_label"
+    assert c_stat.max_width_px == 75
+    assert c_stat.max_lines == 1
 
 
 def test_system_json_charmap_exemption():
