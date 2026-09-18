@@ -795,7 +795,7 @@
     "id": 132,
     "original_en": "Attack:",
     "original_fr": "Attaque",
-    "translation": "Аттака:"
+    "translation": "Атака:"
   },
   {
     "id": 133,
@@ -1077,7 +1077,7 @@
     "id": 179,
     "original_en": "{GLYPH:409} Button: Use{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:70}+Control Pad: Move",
     "original_fr": "Bouton {GLYPH:409} : Utiliser / Manette + : Déplacer",
-    "translation": "{GLYPH:409} Кнопка: Использовать{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:70}+Крестовина: Переместить"
+    "translation": "{GLYPH:409} Кнопка: Применить{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:70}+Крестовина: Переместить"
   },
   {
     "id": 180,

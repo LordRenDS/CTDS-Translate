@@ -15,13 +15,13 @@
     "id": 2,
     "original_en": "Mother: Dear me! I'd forgotten how beautiful\nLeene's Bell sounds!\n{GLYPH:405}0a{GLYPH:406}{GLYPH:408}",
     "original_fr": "Gina : Ah, le timbre de la cloche de Lynne est si\nagréable !{GLYPH:405}0a{GLYPH:406}{GLYPH:408}",
-    "translation": "Мама: Боже мой! Я уже и забыла, как красиво звучит Колокол Линн!\n{GLYPH:405}0a{GLYPH:406}{GLYPH:408}"
+    "translation": "Мама: Боже мой! Я уже и забыла,\nкак красиво звучит Колокол Линн!\n{GLYPH:405}0a{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 3,
     "original_en": "Mother: You must have been so excited about the\nMillennial Fair that you couldn't sleep last night,\ncould you?{GLYPH:405}11{GLYPH:406}{GLYPH:407}\nWell, you'd better not let that giddiness get you into\nany trouble. I want you to behave yourself today!\n{GLYPH:405}0e{GLYPH:406}{GLYPH:408}",
     "original_fr": "Gina : Je parie que tu étais tellement excité {TAG:3C} l'idée\nd'aller {TAG:3C} la fête du millénaire de la fondation du\nroyaume que tu n'arrivais pas {TAG:3C} t'endormir hier\nsoir.{GLYPH:405}11{GLYPH:406}{WAIT_KEY}\nNe laisse pas ton enthousiasme t'attirer des ennuis !\nTu as intérêt {TAG:3C} ne pas faire de bêtises !{GLYPH:405}0e{GLYPH:406}{GLYPH:408}",
-    "translation": "Мама: Ты, наверное, был так взволнован из-за Ярмарки Тысячелетия, что не мог заснуть вчера, не так ли?{GLYPH:405}11{GLYPH:406}{GLYPH:407}\nНу, тебе лучше не позволять этой легкомысленности втянуть тебя в неприятности. Я хочу, чтобы ты сегодня вёл себя прилично!\n{GLYPH:405}0e{GLYPH:406}{GLYPH:408}"
+    "translation": "Мама: Ты, наверное, так ждал\nЯрмарку Тысячелетия, что не мог\nуснуть прошлой ночью, верно?{GLYPH:405}11{GLYPH:406}{GLYPH:407}\nНу, смотри, чтобы это легкомыслие\nне довело тебя до беды!\nВеди себя сегодня прилично!\n{GLYPH:405}0e{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 4,
@@ -45,13 +45,13 @@
     "id": 7,
     "original_en": "Mother: Dear me! I'd forgotten how beautiful\nLeene's Bell sounds!{GLYPH:405}0a{GLYPH:406}",
     "original_fr": "Gina : Ah, le timbre de la cloche de Lynne est si\nagréable !",
-    "translation": "Мама: Боже мой! Я уже и забыла, как красиво звучит Колокол Линн!\n{GLYPH:405}0a{GLYPH:406}{GLYPH:408}"
+    "translation": "Мама: Боже мой! Я уже и забыла,\nкак красиво звучит Колокол Линн!\n{GLYPH:405}0a{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 8,
     "original_en": "Mother: You must have been so excited about the\nMillennial Fair that you couldn't sleep last night,\ncould you?{WAIT_KEY}\nWell, you'd better not let that giddiness get you into\nany trouble. I want you to behave yourself today!",
     "original_fr": "Gina : Je parie que tu étais tellement excité {TAG:3C} l'idée\nd'aller {TAG:3C} la fête du millénaire de la fondation du\nroyaume que tu n'arrivais pas {TAG:3C} t'endormir hier\nsoir.{WAIT_KEY}\nNe laisse pas ton enthousiasme t'attirer des ennuis !\nTu as intérêt {TAG:3C} ne pas faire de bêtises !",
-    "translation": "Мама: Ты, наверное, был так взволнован из-за Ярмарки Тысячелетия, что не мог заснуть вчера, не так ли?{WAIT_KEY}\nНу, тебе лучше не позволять этой легкомысленности втянуть тебя в неприятности. Я хочу, чтобы ты сегодня вёл себя прилично!"
+    "translation": "Мама: Ты, наверное, так ждал\nЯрмарку Тысячелетия, что не мог\nуснуть прошлой ночью, верно?{WAIT_KEY}\nНу, смотри, чтобы это легкомыслие\nне довело тебя до беды!\nВеди себя сегодня прилично!"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "id": 11,
     "original_en": "Mother: That's right! {LUCCA}!\nYou're going to stop by and see her new invention\nat the fair, aren't you?",
     "original_fr": "Gina : C'est ça ! {LUCCA} !{WAIT_KEY}\nTu comptes aller voir sa toute dernière invention\naujourd'hui, n'est-ce pas ?",
-    "translation": "Мама: Верно! {LUCCA}!\nТы собираешься заглянуть к ней и увидеть её новое изобретение на ярмарке, не так ли?"
+    "translation": "Мама: Верно! {LUCCA}!\nТы ведь заглянешь к ней посмотреть на\nеё новое изобретение на ярмарке?"
   },
   {
     "id": 12,
@@ -81,7 +81,7 @@
     "id": 13,
     "original_en": "Mother: Oh, I almost forgot!\nHere's your allowance, dear.\nHave fun at the fair!{WAIT_KEY}{GLYPH:384}\n\nObtained 200 G!",
     "original_fr": "Gina : Ah, j'oubliais. Voici ton argent de poche.\nAllez, amuse-toi bien {TAG:3C} la foire !{WAIT_KEY}{GLYPH:384}\n\nVous obtenez 200 G !",
-    "translation": "Мама: О, я почти забыла!\nВот твои карманные деньги, дорогой.\nПриятного времяпрепровождения на ярмарке!{WAIT_KEY}{GLYPH:384}\n\nПолучено 200 G!"
+    "translation": "Мама: О, я чуть не забыла!\nВот твои карманные деньги, милый.\nПовеселись на ярмарке!{WAIT_KEY}{GLYPH:384}\n\nПолучено 200 G!"
   },
   {
     "id": 14,
