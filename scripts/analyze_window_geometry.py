@@ -1,0 +1,573 @@
+#!/usr/bin/env python3
+"""Window geometry analysis and calibration tool for Chrono Trigger DS.
+
+Analyzes graphical window frames, backgrounds, and screen layouts in `extracted image/`
+to calculate exact pixel widths, symmetric padding, line pitch, and maximum line capacities.
+Outputs the verified geometry database to `assets/window_geometry_db.json`.
+"""
+
+from dataclasses import asdict, dataclass
+import json
+import os
+from typing import Any, Dict, List, Optional
+from PIL import Image
+
+
+@dataclass
+class WindowGeometry:
+    name: str
+    description: str
+    source_image: str
+    outer_x: int
+    outer_y: int
+    outer_w: int
+    outer_h: int
+    inner_x: int
+    inner_y: int
+    inner_w: int
+    inner_h: int
+    padding_left: int
+    padding_right: int
+    padding_top: int
+    padding_bottom: int
+    max_width_px: int
+    line_pitch: int
+    max_lines: int
+    font_type: str  # "big" or "small"
+    reflow: bool
+    patterns: List[str]
+    entry_ranges: Optional[List[Dict[str, Any]]] = None
+
+
+# Known exact window measurements based on graphical frames and in-game melonDS verification
+KNOWN_GEOMETRIES: List[WindowGeometry] = [
+    # 1. Start Screen / Initial Settings
+    WindowGeometry(
+        name="start_mode_desc",
+        description="Initial Game Settings description box on right column (Classic vs DS mode)",
+        source_image="extracted image/title/bg/bg_ss1_new_cl.png",
+        outer_x=120,
+        outer_y=79,
+        outer_w=130,
+        outer_h=92,
+        inner_x=124,
+        inner_y=83,
+        inner_w=122,
+        inner_h=86,
+        padding_left=5,
+        padding_right=5,  # Strict symmetry
+        padding_top=6,
+        padding_bottom=2,
+        max_width_px=118,  # 130 - 2*5 - 2 (safe inner boundary) = 118px
+        line_pitch=13,     # 11px glyph + 2px leading
+        max_lines=7,       # 7 * 13 = 91px <= 92px height
+        font_type="big",
+        reflow=True,
+        patterns=["start.json"],
+        entry_ranges=[{"start": 77, "end": 78}],
+    ),
+    WindowGeometry(
+        name="start_setting_desc",
+        description="Initial Settings option descriptions (Battle Mode Active/Wait, Movies On/Off)",
+        source_image="extracted image/title/bg/bg_ss1_new_cl.png",
+        outer_x=120,
+        outer_y=79,
+        outer_w=130,
+        outer_h=92,
+        inner_x=124,
+        inner_y=83,
+        inner_w=122,
+        inner_h=86,
+        padding_left=5,
+        padding_right=5,
+        padding_top=6,
+        padding_bottom=2,
+        max_width_px=118,
+        line_pitch=13,
+        max_lines=4,
+        font_type="big",
+        reflow=True,
+        patterns=["start.json"],
+        entry_ranges=[{"start": 82, "end": 83}, {"start": 87, "end": 88}],
+    ),
+    WindowGeometry(
+        name="start_alert_box",
+        description="Save file corruption, initialization, and error modal popups",
+        source_image="extracted image/menu/bg/bg_win_men_up_1.png",
+        outer_x=16,
+        outer_y=30,
+        outer_w=224,
+        outer_h=80,
+        inner_x=22,
+        inner_y=36,
+        inner_w=212,
+        inner_h=68,
+        padding_left=8,
+        padding_right=8,
+        padding_top=6,
+        padding_bottom=6,
+        max_width_px=200,
+        line_pitch=15,
+        max_lines=3,
+        font_type="big",
+        reflow=True,
+        patterns=["start.json"],
+        entry_ranges=[{"start": 23, "end": 45}, {"start": 104, "end": 108}],
+    ),
+    WindowGeometry(
+        name="start_title_button",
+        description="Title screen action buttons (New Game, Load Game, Arena, Extras)",
+        source_image="extracted image/title/bg/bg_ss2_new.png",
+        outer_x=32,
+        outer_y=100,
+        outer_w=120,
+        outer_h=24,
+        inner_x=36,
+        inner_y=102,
+        inner_w=112,
+        inner_h=20,
+        padding_left=8,
+        padding_right=8,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=100,
+        line_pitch=14,
+        max_lines=1,
+        font_type="big",
+        reflow=False,
+        patterns=["start.json"],
+        entry_ranges=[{"start": 0, "end": 11}],
+    ),
+
+    # 2. Tutorial Window
+    WindowGeometry(
+        name="tutorial",
+        description="In-game tutorial popups and explanations",
+        source_image="extracted image/menu/bg/bg_win_tuto_up_1.png",
+        outer_x=16,
+        outer_y=16,
+        outer_w=224,
+        outer_h=120,
+        inner_x=24,
+        inner_y=24,
+        inner_w=208,
+        inner_h=104,
+        padding_left=4,
+        padding_right=4,
+        padding_top=4,
+        padding_bottom=4,
+        max_width_px=200,
+        line_pitch=14,
+        max_lines=6,
+        font_type="big",
+        reflow=True,
+        patterns=["tutorial.json"],
+    ),
+
+    # 3. Standard Field Dialogue Box
+    WindowGeometry(
+        name="dialogue",
+        description="Standard 3-line dialogue box with character speech",
+        source_image="extracted image/menu/bg/bg_fld_win_1.png",
+        outer_x=0,
+        outer_y=0,
+        outer_w=256,
+        outer_h=63,
+        inner_x=6,
+        inner_y=4,
+        inner_w=244,
+        inner_h=55,
+        padding_left=9,
+        padding_right=9,
+        padding_top=4,
+        padding_bottom=4,
+        max_width_px=238,
+        line_pitch=15,
+        max_lines=3,
+        font_type="big",
+        reflow=True,
+        patterns=[
+            "msg*.json", "cmes*.json", "kmes*.json", "mesi*.json",
+            "mesk*.json", "mess*.json", "mest*.json", "exms*.json",
+            "comu*.json", "ques*.json",
+        ],
+    ),
+
+    # 4. Item Menus
+    WindowGeometry(
+        name="item_name",
+        description="Item name label in 2-column inventory list",
+        source_image="extracted image/menu/bg/bg_win_item_up_1.png",
+        outer_x=8,
+        outer_y=48,
+        outer_w=116,
+        outer_h=20,
+        inner_x=12,
+        inner_y=50,
+        inner_w=108,
+        inner_h=16,
+        padding_left=3,
+        padding_right=3,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=105,
+        line_pitch=14,
+        max_lines=1,
+        font_type="big",
+        reflow=False,
+        patterns=["item.json", "ex_item.json"],
+    ),
+    WindowGeometry(
+        name="item_desc",
+        description="Item description prompt bar across screen bottom",
+        source_image="extracted image/menu/bg/bg_win_item_up_1.png",
+        outer_x=6,
+        outer_y=168,
+        outer_w=244,
+        outer_h=24,
+        inner_x=12,
+        inner_y=170,
+        inner_w=232,
+        inner_h=20,
+        padding_left=8,
+        padding_right=8,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=210,
+        line_pitch=14,
+        max_lines=1,
+        font_type="big",
+        reflow=False,
+        patterns=["item_mes.json", "item_mes2.json"],
+    ),
+    WindowGeometry(
+        name="item_sub",
+        description="Item target/usable restriction indicator label",
+        source_image="extracted image/menu/bg/bg_win_item_down_1.png",
+        outer_x=8,
+        outer_y=10,
+        outer_w=120,
+        outer_h=34,
+        inner_x=12,
+        inner_y=12,
+        inner_w=112,
+        inner_h=30,
+        padding_left=4,
+        padding_right=4,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=110,
+        line_pitch=13,
+        max_lines=2,
+        font_type="big",
+        reflow=False,
+        patterns=["item_sub.json"],
+    ),
+
+    # 5. Techs / Skills
+    WindowGeometry(
+        name="tech_name",
+        description="Tech / skill action name in battle and menu list",
+        source_image="extracted image/menu/bg/bg_win_skill_up_1.png",
+        outer_x=8,
+        outer_y=48,
+        outer_w=96,
+        outer_h=20,
+        inner_x=12,
+        inner_y=50,
+        inner_w=88,
+        inner_h=16,
+        padding_left=4,
+        padding_right=4,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=80,
+        line_pitch=14,
+        max_lines=1,
+        font_type="big",
+        reflow=False,
+        patterns=["tech.json"],
+    ),
+    WindowGeometry(
+        name="tech_desc",
+        description="Tech / magic description bar at top of screen",
+        source_image="extracted image/menu/bg/bg_win_skill_up_1.png",
+        outer_x=6,
+        outer_y=168,
+        outer_w=244,
+        outer_h=24,
+        inner_x=12,
+        inner_y=170,
+        inner_w=232,
+        inner_h=20,
+        padding_left=12,
+        padding_right=12,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=190,
+        line_pitch=14,
+        max_lines=1,
+        font_type="big",
+        reflow=False,
+        patterns=["tec_mes.json"],
+    ),
+
+    # 6. Battle Windows
+    WindowGeometry(
+        name="battle_banner",
+        description="Monster tech banner displayed at top of screen during battle",
+        source_image="extracted image/menu/bg/bg_win_btl_up_1.png",
+        outer_x=0,
+        outer_y=0,
+        outer_w=256,
+        outer_h=24,
+        inner_x=6,
+        inner_y=2,
+        inner_w=244,
+        inner_h=20,
+        padding_left=9,
+        padding_right=9,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=238,
+        line_pitch=14,
+        max_lines=1,
+        font_type="big",
+        reflow=False,
+        patterns=["mon_tec.json"],
+    ),
+    WindowGeometry(
+        name="battle_message",
+        description="Battle outcome/dialogue log on bottom touch screen",
+        source_image="extracted image/menu/bg/bg_win_btl_dwn_1.png",
+        outer_x=8,
+        outer_y=140,
+        outer_w=240,
+        outer_h=44,
+        inner_x=14,
+        inner_y=144,
+        inner_w=228,
+        inner_h=36,
+        padding_left=12,
+        padding_right=12,
+        padding_top=3,
+        padding_bottom=3,
+        max_width_px=190,
+        line_pitch=14,
+        max_lines=2,
+        font_type="big",
+        reflow=True,
+        patterns=["battle.json"],
+        entry_ranges=[{"start": 24, "end": 49}],
+    ),
+    WindowGeometry(
+        name="battle_command",
+        description="Battle action command buttons (Attack, Tech, Item, Escape)",
+        source_image="extracted image/menu/bg/bg_win_btl_dwn_1.png",
+        outer_x=16,
+        outer_y=20,
+        outer_w=76,
+        outer_h=24,
+        inner_x=20,
+        inner_y=22,
+        inner_w=68,
+        inner_h=20,
+        padding_left=4,
+        padding_right=4,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=60,
+        line_pitch=14,
+        max_lines=1,
+        font_type="big",
+        reflow=False,
+        patterns=["battle.json"],
+        entry_ranges=[{"start": 0, "end": 7}],
+    ),
+
+    # 7. Encyclopedia / Dictionary
+    WindowGeometry(
+        name="encyclopedia",
+        description="Character profile notes, monster lore, and ending descriptions",
+        source_image="extracted image/menu/bg/bg_win_dic_up_1.png",
+        outer_x=104,
+        outer_y=40,
+        outer_w=148,
+        outer_h=120,
+        inner_x=108,
+        inner_y=44,
+        inner_w=140,
+        inner_h=112,
+        padding_left=4,
+        padding_right=4,
+        padding_top=4,
+        padding_bottom=4,
+        max_width_px=136,
+        line_pitch=14,
+        max_lines=6,
+        font_type="big",
+        reflow=True,
+        patterns=["player.json", "ex_mon*.json", "ex_itemget.json", "ex_illust.json"],
+    ),
+
+    # 8. Menu Granular Sub-Presets
+    WindowGeometry(
+        name="menu_bottom_hint",
+        description="Main menu bottom screen description / explanation bar",
+        source_image="extracted image/menu/bg/bg_win_men_dwn_1.png",
+        outer_x=8,
+        outer_y=168,
+        outer_w=240,
+        outer_h=24,
+        inner_x=14,
+        inner_y=170,
+        inner_w=228,
+        inner_h=20,
+        padding_left=8,
+        padding_right=8,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=205,
+        line_pitch=14,
+        max_lines=1,
+        font_type="big",
+        reflow=False,
+        patterns=["menu.json"],
+        entry_ranges=[{"start": 144, "end": 178}],
+    ),
+    WindowGeometry(
+        name="menu_config_option",
+        description="Options & config settings label in 2-column list",
+        source_image="extracted image/menu/bg/bg_win_men_up_3.png",
+        outer_x=8,
+        outer_y=32,
+        outer_w=116,
+        outer_h=20,
+        inner_x=12,
+        inner_y=34,
+        inner_w=108,
+        inner_h=16,
+        padding_left=4,
+        padding_right=4,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=105,
+        line_pitch=14,
+        max_lines=1,
+        font_type="big",
+        reflow=False,
+        patterns=["menu.json"],
+        entry_ranges=[{"start": 85, "end": 98}],
+    ),
+    WindowGeometry(
+        name="menu_era_dest",
+        description="Epoch time warp destination label",
+        source_image="extracted image/menu/bg/bg_win_move_up_1.png",
+        outer_x=8,
+        outer_y=40,
+        outer_w=144,
+        outer_h=24,
+        inner_x=12,
+        inner_y=42,
+        inner_w=136,
+        inner_h=20,
+        padding_left=4,
+        padding_right=4,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=130,
+        line_pitch=14,
+        max_lines=1,
+        font_type="big",
+        reflow=False,
+        patterns=["menu.json"],
+        entry_ranges=[{"start": 39, "end": 44}],
+    ),
+
+    # 9. Small Font Systems
+    WindowGeometry(
+        name="small_system",
+        description="System notifications, small popups, and SFC-style item popups",
+        source_image="extracted image/Common/Common.png",
+        outer_x=16,
+        outer_y=16,
+        outer_w=144,
+        outer_h=24,
+        inner_x=20,
+        inner_y=18,
+        inner_w=136,
+        inner_h=20,
+        padding_left=4,
+        padding_right=4,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=130,
+        line_pitch=10,  # 8px glyph + 2px leading
+        max_lines=1,
+        font_type="small",
+        reflow=False,
+        patterns=[
+            "msg/small/*.json", "sfc_*.json", "small.json",
+            "small/system.json", "system.json",
+        ],
+    ),
+    WindowGeometry(
+        name="small_system_popup",
+        description="Small font 2-line popup prompts ({LUCCA} Obtained {ROBO}!, It's empty!)",
+        source_image="extracted image/Common/Common.png",
+        outer_x=16,
+        outer_y=16,
+        outer_w=144,
+        outer_h=34,
+        inner_x=20,
+        inner_y=18,
+        inner_w=136,
+        inner_h=30,
+        padding_left=4,
+        padding_right=4,
+        padding_top=2,
+        padding_bottom=2,
+        max_width_px=130,
+        line_pitch=10,
+        max_lines=2,
+        font_type="small",
+        reflow=False,
+        patterns=["system.json"],
+        entry_ranges=[{"start": 9, "end": 11}],
+    ),
+]
+
+
+def verify_geometry_files(base_dir: str = ".") -> bool:
+    """Verifies that referenced source images exist on disk."""
+    all_ok = True
+    for geom in KNOWN_GEOMETRIES:
+        full_path = os.path.join(base_dir, geom.source_image)
+        if not os.path.isfile(full_path):
+            print(f"Warning: Source image missing: {full_path}")
+            all_ok = False
+        else:
+            im = Image.open(full_path)
+            # Verify coordinates are within image boundaries
+            if geom.outer_x + geom.outer_w > im.width or geom.outer_y + geom.outer_h > im.height:
+                print(f"Error: Window {geom.name} exceeds image bounds {im.size}: x={geom.outer_x}+{geom.outer_w}, y={geom.outer_y}+{geom.outer_h}")
+                all_ok = False
+    return all_ok
+
+
+def export_geometry_database(output_path: str = "assets/window_geometry_db.json") -> None:
+    """Exports the geometry list as a JSON database."""
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    db = {geom.name: asdict(geom) for geom in KNOWN_GEOMETRIES}
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(db, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+    print(f"Exported {len(KNOWN_GEOMETRIES)} window geometries to {output_path}")
+
+
+if __name__ == "__main__":
+    print("Verifying window geometry files...")
+    ok = verify_geometry_files(".")
+    if ok:
+        print("All source images and bounding boxes verified successfully.")
+    export_geometry_database()

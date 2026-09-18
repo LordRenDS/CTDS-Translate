@@ -177,7 +177,7 @@
     "id": 29,
     "original_en": "Corrupted save file detected.\nPress A Button or touch the Touch Screen\nto delete all corrupted files.",
     "original_fr": "Au moins un fichier est corrompu. Appuyez sur\nle bouton A ou touchez l'écran inférieur pour\nsupprimer tous les fichiers corrompus.",
-    "translation": "Поврежденный файл сохранения обнаружен.\nНажмите кнопку A или коснитесь сенсорного\nэкрана, чтобы удалить все поврежденные файлы."
+    "translation": "Обнаружен поврежденный файл сохранения.\nНажмите кнопку A или коснитесь экрана,\nчтобы удалить все поврежденные файлы."
   },
   {
     "id": 30,
@@ -231,13 +231,13 @@
     "id": 38,
     "original_en": "Failed to initialize save file memory.\nPlease turn the power OFF and reinsert\nthe Game Card.",
     "original_fr": "îchec de l'initialisation. Veuillez éteindre la\nconsole et réinsérer la carte de jeu.",
-    "translation": "Ошибка инициализации памяти файла сохранения.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+    "translation": "Ошибка инициализации памяти сохранения.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
   },
   {
     "id": 39,
     "original_en": "Unable to access save file. Please turn\nthe power OFF and reinsert the Game Card.",
     "original_fr": "îchec de l'acquisition du fichier. Veuillez éteindre la\nconsole et réinsérer la carte de jeu.",
-    "translation": "Невозможно получить доступ к файлу сохранения.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+    "translation": "Не удалось получить доступ к файлу.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
   },
   {
     "id": 40,
@@ -255,7 +255,7 @@
     "id": 42,
     "original_en": "Unable to access save file. Please turn\nthe power OFF and reinsert the Game Card.",
     "original_fr": "Impossible d'acquérir le fichier. Veuillez éteindre la\nconsole et réinsérer la carte de jeu.",
-    "translation": "Невозможно получить доступ к файлу сохранения.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
+    "translation": "Не удалось получить доступ к файлу.\nПожалуйста, выключите питание\nи вставьте карту с игрой снова."
   },
   {
     "id": 43,
@@ -363,7 +363,7 @@
     "id": 60,
     "original_en": "Please select an item to wager.",
     "original_fr": "Quel objet voulez-vous parier ?",
-    "translation": "Пожалуйста, выберите предмет для ставки."
+    "translation": "Пожалуйста, выберите\nпредмет для ставки."
   },
   {
     "id": 61,
@@ -465,13 +465,13 @@
     "id": 77,
     "original_en": "DS mode utilizes dual-screen\ndisplay and stylus input in an\neasy-to-use interface.\n\nSelecting this option leaves\nthe upper screen clean and\nuncluttered.",
     "original_fr": "En mode DS, les infos sont\naffichées sur les deux\nécrans et les commandes\npeuvent être sélectionnées\navec le stylet.\nL'affichage sur l'écran\nsupérieur a été simplifié.",
-    "translation": "В режиме DS используется второй дисплей и управление стилусом.\nВыбор этой опции оставляет верхний экран чистым и незагроможденным."
+    "translation": "Режим DS задействует\nоба экрана и стилус с\nудобным интерфейсом.\n\nПри этом верхний экран\nостается чистым и\nнезагроможденным."
   },
   {
     "id": 78,
     "original_en": "This mode utilizes the classic\none-screen battle interface.\n\nStylus controls cannot be\nused in combat, but enemy\nand ally status information\nappears on the lower screen.",
     "original_fr": "En mode classique, l'affichage\noriginal a été reproduit.\n\nVous pourrez désormais aussi\nvérifier l'état des ennemis\net de vos personnages sur\nl'écran inférieur.",
-    "translation": "Этот режим использует классический интерфейс битвы с одним экраном.\nУправление стилусом невозможно в бою, но вся информация отображается на нижнем экране."
+    "translation": "Этот режим использует\nклассический интерфейс\nбитвы с одним экраном.\n\nСтилус в бою недоступен,\nно вся информация\nотображается на нижнем."
   },
   {
     "id": 79,
@@ -495,13 +495,13 @@
     "id": 82,
     "original_en": "\nTime flows constantly in battle,\nallowing for fast-paced combat.\n",
     "original_fr": "Le temps s'écoule constamment.\nLes batailles en seront d'autant\nplus palpitantes.",
-    "translation": "\nВремя течет постоянно в бою,\nчто позволяет вести быстрые сражения.\n"
+    "translation": "\nВремя течет в бою непрерывно,\nпозволяя вести динамичные\nсражения.\n"
   },
   {
     "id": 83,
     "original_en": "Time freezes while you select\nitems or techs from windows,\nallowing you to carefully plan\nyour battle strategy.",
     "original_fr": "Le temps s'arrête quand vous\nchoisissez un objet ou une\ncompétence. Vous pourrez\ncombattre sans vous presser.",
-    "translation": "Время останавливается, пока вы выбираете предметы или техники из окон, что позволяет вам тщательно планировать свою боевую стратегию."
+    "translation": "Время замирает при выборе\nпредметов или навыков, давая\nвам возможность тщательно\nспланировать стратегию боя."
   },
   {
     "id": 84,
@@ -525,13 +525,13 @@
     "id": 87,
     "original_en": "\nMovie scenes unfold at key points\nduring your adventure.\n",
     "original_fr": "Des cinématiques vous seront\nprésentées {TAG:3C} certains moments\nde votre aventure.",
-    "translation": "Кинематографические сцены\nразворачиваются в ключевых\nмоментах вашего приключения."
+    "translation": "\nКинематографические сцены\nразворачиваются в ключевых\nмоментах вашего приключения.\n"
   },
   {
     "id": 88,
     "original_en": "\nMovies are skipped, allowing more\nrapid progress through the game.\n",
     "original_fr": "Il n'y aura pas de cinématiques.\nVous pourrez progresser\nrapidement et sans interruption.",
-    "translation": "Кинематографические сцены\nпропускаются, что позволяет\nбыстрее продвигаться по игре."
+    "translation": "\nКинематографические сцены\nпропускаются, что позволяет\nбыстрее продвигаться по игре.\n"
   },
   {
     "id": 89,
@@ -603,7 +603,7 @@
     "id": 100,
     "original_en": "Overwrite existing save data?",
     "original_fr": "Voulez-vous remplacer les données ?",
-    "translation": "Перезаписать существующие данные сохранения?"
+    "translation": "Перезаписать существующие\nданные сохранения?"
   },
   {
     "id": 101,
