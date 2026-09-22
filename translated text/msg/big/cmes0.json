@@ -129,7 +129,7 @@
     "id": 21,
     "original_en": "{ROBO}: {CRONO}'s status is...exceptional.",
     "original_fr": "{ROBO} : Madame Gina...\nIl...",
-    "translation": ""
+    "translation": "{ROBO}: Состояние {CRONO} ... просто исключительное."
   },
   {
     "id": 22,
@@ -141,37 +141,37 @@
     "id": 23,
     "original_en": "{CRONO}'s Mother: Well, I hope he's not causing\nyou too much trouble.{WAIT_KEY}\nYou tell him I said to behave himself, all right?",
     "original_fr": "Gina : J'espère qu'il ne vous cause pas trop d'ennuis.{WAIT_KEY}\nDites-lui que je lui tirerai les oreilles s'il vous embête !",
-    "translation": ""
+    "translation": "Мама {CRONO}: Ну, надеюсь, он не доставляет тебе слишком много хлопот.{WAIT_KEY} Передай ему, чтобы он вел себя прилично, ладно?"
   },
   {
     "id": 24,
     "original_en": "{MARLE}: ...{WAIT_KEY}\nListen, um...",
     "original_fr": "{MARLE} : ...{WAIT_KEY}\nEuh...",
-    "translation": ""
+    "translation": "{MARLE}: ...{WAIT_KEY} Послушай, э-э ..."
   },
   {
     "id": 25,
     "original_en": "{LUCCA}: ...{WAIT_KEY}\nUm, listen, I...uh, I mean...",
     "original_fr": "{LUCCA} : ...{WAIT_KEY}\nEuh...",
-    "translation": ""
+    "translation": "{LUCCA} : ...{WAIT_KEY} Э-э, послушай, я... э-э, я имею в виду..."
   },
   {
     "id": 26,
     "original_en": "{FROG}: ...{WAIT_KEY}\nMilady...",
     "original_fr": "{FROG} : ...{WAIT_KEY}\nMadame...",
-    "translation": ""
+    "translation": "{FROG}: …{WAIT_KEY} Миледи..."
   },
   {
     "id": 27,
     "original_en": "{AYLA}: ...",
     "original_fr": "{AYLA} : ...",
-    "translation": ""
+    "translation": "{AYLA}: ..."
   },
   {
     "id": 28,
     "original_en": "{MARLE}: We're just going to borrow this doll,\nall right?",
     "original_fr": "{MARLE} : On vous emprunte la poupée de\n{CRONO}, d'accord ?",
-    "translation": ""
+    "translation": "{MARLE}: Мы просто возьмём эту куклу на время, ладно?"
   },
   {
     "id": 29,
@@ -183,139 +183,139 @@
     "id": 30,
     "original_en": "{FROG}: We've need of this doll, but only for\na time.",
     "original_fr": "{FROG} : Permettez-nous d'emprunter la poupée de\n{CRONO} pendant quelque temps.",
-    "translation": ""
+    "translation": "{FROG}: Нам нужна эта кукла, но только на некоторое время."
   },
   {
     "id": 31,
     "original_en": "{AYLA}: {GLYPH:392} doll, {AYLA} borrow!",
     "original_fr": "{AYLA} : {AYLA} prendre poupée de\n{GLYPH:392}, d'accord ?",
-    "translation": ""
+    "translation": "{AYLA}: {GLYPH:392} кукла, {AYLA} одолжи!"
   },
   {
     "id": 32,
     "original_en": "{CRONO}'s Mother: Go right ahead, dear.",
     "original_fr": "Gina : D'accord.",
-    "translation": ""
+    "translation": "Мама {CRONO}: Давай, дорогая."
   },
   {
     "id": 33,
     "original_en": "{CRONO}'s Mother: You stay out of trouble, now!",
     "original_fr": "Gina : Prenez-en soin.",
-    "translation": ""
+    "translation": "Мама {CRONO}: Только не вляпывайся в неприятности!"
   },
   {
     "id": 34,
     "original_en": "Mother: {CRONO}!",
     "original_fr": "Gina : {CRONO} !!",
-    "translation": ""
+    "translation": "Мама: {CRONO}!"
   },
   {
     "id": 35,
     "original_en": "Mother: Oh, {CRONO}!\nYou had me so worried!\nThey said you were to be executed!",
     "original_fr": "Gina : {CRONO} ! Le ciel soit loué ! J'avais entendu\ndire que tu allais être exécuté !",
-    "translation": ""
+    "translation": "Мама: Ой, {CRONO}! Я так за тебя переживала! Говорили, что тебя собирались казнить!"
   },
   {
     "id": 36,
     "original_en": "Mother: Don't worry your mother like that.",
     "original_fr": "Gina : Ne me fais plus jamais une peur pareille !",
-    "translation": ""
+    "translation": "Мама: Не беспокой так свою маму."
   },
   {
     "id": 37,
     "original_en": "Mother: Well, this is a pleasant surprise!\nI've never seen you bring any girls around except\nfor {LUCCA}. Who's this pretty new friend?",
     "original_fr": "Gina : Oh ! {CRONO} n'a pas l'habitude de ramener\nd'autres jeunes filles que {LUCCA} {TAG:3C} la maison.\nComment t'appelles-tu ?",
-    "translation": ""
+    "translation": "Мама: Ну, вот это приятный сюрприз! Я никогда не видела, чтобы ты приводил сюда девушек, кроме {LUCCA}. Кто эта новая симпатичная подруга?"
   },
   {
     "id": 38,
     "original_en": "{MARLE}: I'm {MARLE}. Nice to meet you!",
     "original_fr": "{MARLE} : Je m'appelle {MARLE} ! Enchantée !",
-    "translation": ""
+    "translation": "{MARLE}: Я {MARLE}. Приятно познакомиться!"
   },
   {
     "id": 39,
     "original_en": "Mother: {MARLE}, you say?\nHave we met somewhere before?\nI could swear I recognize you.\nPerhaps it's just my imagination.",
     "original_fr": "Gina : {MARLE} ?\n...{WAIT_KEY}\nC'est étrange, j'ai l'impression de t'avoir déj{TAG:3C}\nrencontrée quelque part...",
-    "translation": ""
+    "translation": "Мама: {MARLE}, говоришь? Мы где-то раньше встречались? Могу поклясться, что узнаю тебя. Возможно, это просто мое воображение."
   },
   {
     "id": 40,
     "original_en": "{LUCCA}: Hi!",
     "original_fr": "{LUCCA} : Bonjour !",
-    "translation": ""
+    "translation": "{LUCCA}: Привет!"
   },
   {
     "id": 41,
     "original_en": "Mother: {LUCCA}!\nYou haven't been coming by much lately.",
     "original_fr": "Gina : Oh, {LUCCA} !\nTu ne nous rends pas souvent visite, ces temps-ci.",
-    "translation": ""
+    "translation": "Мама: {LUCCA}! Ты в последнее время редко заглядываешь к нам."
   },
   {
     "id": 42,
     "original_en": "{LUCCA}: I've been busy with my research.",
     "original_fr": "{LUCCA} : Je suis plongée dans mes recherches.",
-    "translation": ""
+    "translation": "{LUCCA}: Я был занят своими исследованиями."
   },
   {
     "id": 43,
     "original_en": "Mother: Well, don't push yourself too hard!\nAnd say hello to your parents for me, won't you?",
     "original_fr": "Gina : Ne travaille pas trop quand même, ce n'est pas\nbon pour la santé ! Dis bonjour {TAG:3C} Lara et Taban de ma\npart.",
-    "translation": ""
+    "translation": "Мама: Ну, только не переусердствуй! И передай от меня привет своим родителям, ладно?"
   },
   {
     "id": 44,
     "original_en": "Mother: Goodness...\nIs this one of {LUCCA}'s inventions?",
     "original_fr": "Gina : Oh ! Est-ce une des inventions de {LUCCA} ?",
-    "translation": ""
+    "translation": "Мама: Боже мой... Это одно из изобретений {LUCCA}?"
   },
   {
     "id": 45,
     "original_en": "{ROBO}: Greetings, madam. I am {ROBO}.\n{CRONO} is my friend.",
     "original_fr": "{ROBO} : Enchanté de faire votre connaissance.\nJe m'appelle {ROBO}. Je suis très reconnaissant\nde l'aide que m'apporte {CRONO}.",
-    "translation": ""
+    "translation": "{ROBO}: Здравствуйте, мадам. Я — {ROBO}. {CRONO} — мой друг."
   },
   {
     "id": 46,
     "original_en": "Mother: My, how polite you are!\nA bit strange-looking, but well enough behaved.\n{CRONO}, you could learn a thing or two from him.",
     "original_fr": "Gina : Comme il est poli ! Son apparence est peut-être\nétrange, mais il ne manque pas de courtoisie !\nTu devrais prendre exemple sur lui, {CRONO} !",
-    "translation": ""
+    "translation": "Мама: Ой, какой же ты вежливый! Выглядишь немного странно, но ведешь себя вполне прилично. {CRONO}, тебе стоило бы поучиться у него."
   },
   {
     "id": 47,
     "original_en": "Mother: Dear me!{WAIT_KEY}\n{CRONO}! How many times have I told you to\nkeep your pets outside?",
     "original_fr": "Gina : ...{WAIT_KEY}\n{CRONO}... Notre maison est trop petite pour un\nanimal de compagnie aussi gros !",
-    "translation": ""
+    "translation": "Мама: Ой, боже мой!{WAIT_KEY} {CRONO}! Сколько раз я тебе уже говорила, что домашних животных нужно держать на улице?"
   },
   {
     "id": 48,
     "original_en": "{FROG}: M-milady...{WAIT_KEY}\nI am no pet. I am an accomplished swordsman,\ngreen as I may appear.",
     "original_fr": "{FROG} : Mais, madame !{WAIT_KEY}\nJe ne suis pas un animal de compagnie ! Malgré mon\napparence, je suis un chevalier.",
-    "translation": ""
+    "translation": "{FROG}: М-миледи...{WAIT_KEY} Я не домашнее животное. Я опытный фехтовальщик, хотя и выгляжу совсем неопытным."
   },
   {
     "id": 49,
     "original_en": "Mother: Oh, forgive me, sir.\nI just thought... I mean...\nI meant no offense, Sir Knight—truly!",
     "original_fr": "Gina : Ah, je suis désolée. J'ai simplement cru que...{WAIT_KEY}\nPardonnez-moi, euh, M. Chevalier.",
-    "translation": ""
+    "translation": "Мать: О, простите меня, сэр. Я просто подумала… То есть… Я не хотела вас обидеть, сэр рыцарь — честно!"
   },
   {
     "id": 50,
     "original_en": "{FROG}: My name is...",
     "original_fr": "{FROG} : Non, je m'appelle...",
-    "translation": ""
+    "translation": "{FROG}: Меня зовут..."
   },
   {
     "id": 51,
     "original_en": "Mother: Yes?",
     "original_fr": "Gina : Oui ?",
-    "translation": ""
+    "translation": "Мама: Да?"
   },
   {
     "id": 52,
     "original_en": "{FROG}: ...{WAIT_KEY}\nOn second thought, Sir Knight will suffice.",
     "original_fr": "{FROG} : ...{WAIT_KEY}\nLaissez tomber.",
-    "translation": ""
+    "translation": "{FROG}: ...{WAIT_KEY} Если хорошенько подумать, то «сэр рыцарь» вполне подойдет."
   },
   {
     "id": 53,
@@ -327,673 +327,673 @@
     "id": 54,
     "original_en": "{AYLA}: Me {AYLA}.",
     "original_fr": "{AYLA} : Moi {AYLA}.",
-    "translation": ""
+    "translation": "{AYLA}: Я {AYLA}."
   },
   {
     "id": 55,
     "original_en": "Mother: {AYLA}, dear...\nA young lady shouldn't dress like that!",
     "original_fr": "Gina : {AYLA}... Une jeune femme ne devrait pas se\npromener habillée d'une telle façon !",
-    "translation": ""
+    "translation": "Мама: {AYLA}, дорогая... Молодой девушке не следует так одеваться!"
   },
   {
     "id": 56,
     "original_en": "{AYLA}: But, {AYLA} like.",
     "original_fr": "{AYLA} : Mais, {AYLA} aimer...",
-    "translation": ""
+    "translation": "{AYLA}: Но, {AYLA} типа..."
   },
   {
     "id": 57,
     "original_en": "Mother: No buts! The proper response is, \"Yes, ma'am!\"",
     "original_fr": "Gina : Et ce n'est pas bien de répondre !",
-    "translation": ""
+    "translation": "Мама: Никаких «но»! Правильный ответ — \"Да, мадам!\""
   },
   {
     "id": 58,
     "original_en": "{AYLA}: {GLYPH:392} strong...{WAIT_KEY}\n{GLYPH:392} mom strong, too!",
     "original_fr": "{AYLA} : {GLYPH:392}...{WAIT_KEY}\nMère de {GLYPH:392} être aussi très forte...",
-    "translation": ""
+    "translation": "{AYLA}: {GLYPH:392} сильная...{WAIT_KEY} {GLYPH:392} мама тоже сильная!"
   },
   {
     "id": 59,
     "original_en": "Mother: Oh, are you another one of {CRONO}'s\nfriends?",
     "original_fr": "Gina : ätes-vous un ami de {CRONO} ?",
-    "translation": ""
+    "translation": "Мама: Ой, ты тоже один из друзей {CRONO}?"
   },
   {
     "id": 60,
     "original_en": "{MAGUS}: ...",
     "original_fr": "{MAGUS} : ...",
-    "translation": ""
+    "translation": "{MAGUS}: ..."
   },
   {
     "id": 61,
     "original_en": "Mother: Cat got your tongue?\nNo need to be shy, dear!",
     "original_fr": "Gina : Vous n'êtes pas bien bavard...\nAllez, ne soyez pas timide !",
-    "translation": ""
+    "translation": "Мама: Язык проглотил? Не нужно стесняться, дорогая!"
   },
   {
     "id": 62,
     "original_en": "Mother: Ah, such beautiful weather!\nThe Black Omen is sparkling in the sun!{WAIT_KEY}\nWhat a great day for doing laundry!",
     "original_fr": "Gina : Il fait un temps magnifique, aujourd'hui !\nLe Songe obscur brille sous le soleil.{WAIT_KEY}\nC'est le jour parfait pour faire la lessive !",
-    "translation": ""
+    "translation": "Мама: Ах, какая прекрасная погода! Чёрное Предзнаменование сияет на солнце!{WAIT_KEY} Какой чудесный день для стирки!"
   },
   {
     "id": 63,
     "original_en": "{MARLE}: Honey...you'll be late for work!{GLYPH:405}0b{GLYPH:406}{GLYPH:408}",
     "original_fr": "{MARLE} : Tu comptes dormir toute la journée ?\nDebout ! Tu vas arriver en retard au travail !{GLYPH:405}10{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "{MARLE}: Дорогой... ты опоздаешь на работу!{GLYPH:405}0b{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 64,
     "original_en": "{MARLE}: Dear me! I'd forgotten how beautiful\nLeene's Bell sounds!{GLYPH:405}0a{GLYPH:406}{GLYPH:408}",
     "original_fr": "{MARLE} : Ah, le timbre de la cloche de Lynne est si\nagréable !{GLYPH:405}12{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "{MARLE}: Ой-ой! Я совсем забыла, как прекрасно звучит «Колокольчик Лины»!{GLYPH:405}0a{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 65,
     "original_en": "{MARLE}: {CRONO}!\nWe can't keep asking my father for help.\nYou need to hold down a job!{GLYPH:405}11{GLYPH:406}{GLYPH:408}",
     "original_fr": "{MARLE} : {CRONO} ! On ne peut plus vivre aux\ncrochets de mon père, alors tu dois travailler !{GLYPH:405}16{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "{MARLE}: {CRONO}! Мы не можем постоянно просить моего отца о помощи. Тебе нужно найти постоянную работу!{GLYPH:405}11{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 66,
     "original_en": "Mwa ha ha...{WAIT_KEY}\nI've done it! It's complete!",
     "original_fr": "Ha, ha, ha !{WAIT_KEY}\nJ'ai terminé ! J'ai réussi !!",
-    "translation": ""
+    "translation": "Ха-ха-ха...{WAIT_KEY} Я сделал это! Готово!"
   },
   {
     "id": 67,
     "original_en": "Grams of cat food: {GLYPH:367}.",
     "original_fr": "{GLYPH:367} gramme(s) de nourriture pour chat.",
-    "translation": ""
+    "translation": "Грамы кошачьего корма: {GLYPH:367}."
   },
   {
     "id": 68,
     "original_en": "It's hard to believe our kingdom has stood for a\nthousand years now. Our King is the thirty-third\ndescendant to the throne of Guardia.{WAIT_KEY}\nIt's a miracle he can manage to rule the kingdom when\nhe can't even keep his own daughter in hand.{WAIT_KEY}\nShe's probably throwing a fit at the castle this very\nmoment, demanding he let her go to the fair.",
     "original_fr": "Quand je pense que nous célébrons cette année\nle millénaire de la fondation de notre royaume...\nLe roi Gardia est le 33e du nom.{WAIT_KEY}\nIl para¡t que la princesse est un vrai garçon manqué et\nqu'elle lui cause beaucoup de soucis.{WAIT_KEY}\nSi ça se trouve, elle est en ce moment même en train de\nfaire un caprice pour aller {TAG:3C} la foire.",
-    "translation": ""
+    "translation": "Трудно поверить, что наше королевство существует уже тысячу лет. Наш король — тридцать третий последователь престола Гардии.{WAIT_KEY} Это чудо, что ему удаётся править королевством, когда он даже не может удержать под контролем собственную дочь.{WAIT_KEY} Скорее всего, прямо сейчас она устраивает истерику в замке, требуя, чтобы он разрешил ей пойти на ярмарку"
   },
   {
     "id": 69,
     "original_en": "There was once a great cathedral in the western\nwoods, or so I hear.{WAIT_KEY}\nI wonder what became of it.",
     "original_fr": "Il y a plusieurs centaines d'années, il y avait une\nabbaye dans la forêt {TAG:3C} l'ouest d'ici.{WAIT_KEY}\nJe me demande pourquoi elle n'est plus l{TAG:3C}, aujourd'hui.",
-    "translation": ""
+    "translation": "«Когда-то в западных лесах стоял величественный собор, по крайней мере, так я слышал.{WAIT_KEY} Интересно, что с ним стало»."
   },
   {
     "id": 70,
     "original_en": "Elaine: If only my dear Fritz would return...\nI'd ask for nothing more. He left on a journey,\nand he's not yet returned.",
     "original_fr": "îlaine : Fritz, mon fiancé, n'est toujours pas rentré de\nvoyage... Je donnerais tout pour être {TAG:3C} ses côtés.\nJe n'ai besoin de rien d'autre que lui...",
-    "translation": ""
+    "translation": "Элейн: Если бы только мой дорогой Фриц вернулся... Больше я ничего и не просила бы. Он уехал в путешествие,и до сих пор не вернулся."
   },
   {
     "id": 71,
     "original_en": "Elaine: I hope he's not forgotten me.",
     "original_fr": "îlaine : Comment peut-il déj{TAG:3C} m'avoir oubliée...?",
-    "translation": ""
+    "translation": "Элейн: Надеюсь, он меня не забыл."
   },
   {
     "id": 72,
     "original_en": "A mysterious whirlpool sometimes appears near here.\nWhat do you suppose could cause such a thing?",
     "original_fr": "Un tourbillon mystérieux appara¡t parfois au large.\nJe me demande ce qui peut en être la cause...",
-    "translation": ""
+    "translation": "Иногда неподалеку отсюда появляется загадочный водоворот. Как ты думаешь, что может быть причиной такого явления?"
   },
   {
     "id": 73,
     "original_en": "The fare to Porre is 10 G.\nWill you be going?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous aller {TAG:3C} Palpori ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Стоимость проезда до Порре составляет 10 G. Вы поедете? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 74,
     "original_en": "Lodging is 10 G. Would you like to stay for the night?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous louer une chambre pour 10 G ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Проживание стоит 10 G. Хотите остаться на ночь? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 75,
     "original_en": "You been to the fair yet?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous avez visité la foire ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Ты уже был на ярмарке? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 76,
     "original_en": "What!? What are you doing here, then?\nYou'll have to wait a thousand years for\nanother Millennial Fair!{WAIT_KEY}\nThe festivities are in Leene Square, just up north.\nMore tents and stalls than you can shake a stick at!",
     "original_fr": "Comment ?! Dépêchez-vous ! Elle a été organisée pour\ncélébrer le millénaire de la fondation de notre royaume !{WAIT_KEY}\nIl y a tout plein d'échoppes sur la place de Lynne, au\nnord d'ici. Une vraie atmosphère de festival !",
-    "translation": ""
+    "translation": "Что!? А что ты тогда здесь делаешь? Тебе придётся ждать целую тысячу лет, пока снова не состоится Ярмарка тысячелетия!{WAIT_KEY} Праздник проходит на площади Лине, чуть севернее. Там столько палаток и ларьков, что и не сосчитать!"
   },
   {
     "id": 77,
     "original_en": "Incredible, isn't it? The shops, the events—I've\nnever seen a festival like it!",
     "original_fr": "C'est formidable, hein ? On y vend tout plein de trucs\ndifférents et il y a tellement d'attractions ! Un vrai\nfestival !",
-    "translation": ""
+    "translation": "Невероятно, правда? Магазины, мероприятия — я никогда не видела такого фестиваля!"
   },
   {
     "id": 78,
     "original_en": "Say, can you spare 10 G to buy me a drink?\n{TAG:38}{TAG:38}{GLYPH:394}Sure.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Sorry.{GLYPH:397}",
     "original_fr": "Vous me payez un petit verre, dites ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Слушай, а не найдётся ли у тебя 10 G, чтобы угостить меня выпивкой? {TAG:38}{TAG:38}{GLYPH:394}Конечно.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Извини.{GLYPH:397}"
   },
   {
     "id": 79,
     "original_en": "Remember that earthquake we had the other day?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous souvenez-vous du récent tremblement de terre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Помнишь то землетрясение, которое было на днях? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 80,
     "original_en": "You're an oblivious one, aren't you?\nWell, never mind, then.",
     "original_fr": "Ah bon ? Pourtant, ce n'est pas le genre de chose qu'on\noublie facilement...",
-    "translation": ""
+    "translation": "Ты что, совсем ничего не замечаешь? Ну, ладно, тогда неважно."
   },
   {
     "id": 81,
     "original_en": "We've been having far too many lately.\nHope it's not a sign of something bad about to happen.",
     "original_fr": "Il y en a vraiment beaucoup ces temps-ci. J'espère que\nce n'est pas un mauvais présage...",
-    "translation": ""
+    "translation": "В последнее время у нас их было слишком много. Надеюсь, это не предвещает чего-то плохого."
   },
   {
     "id": 82,
     "original_en": "The soldiers at the castle say the Chancellor's been\nacting strangely these days.",
     "original_fr": "Les soldats du ch{TAG:4A}teau disent que le chancelier agit\nbizarrement ces derniers temps.",
-    "translation": ""
+    "translation": "Солдаты в замке говорят, что канцлер в последнее время ведет себя странно."
   },
   {
     "id": 83,
     "original_en": "Thanks! Let me play you a song in return.",
     "original_fr": "Merci bien ! Pour la peine, je vais vous jouer quelque\nchose.",
-    "translation": ""
+    "translation": "Спасибо! В ответ я сыграю тебе песню."
   },
   {
     "id": 84,
     "original_en": "Let me know if you change your mind.",
     "original_fr": "Au plaisir de vous revoir.",
-    "translation": ""
+    "translation": "Дай мне знать, если передумаешь."
   },
   {
     "id": 85,
     "original_en": "Welcome, welcome! Make yourself at home.\nI suppose you won't be staying long, though.{WAIT_KEY}\nOh, I hope my shift ends soon!\nI want to go to the fair, too!",
     "original_fr": "Bienvenue ! Je ne pensais pas voir autant de clients\naujourd'hui. Moi je n'ai qu'une h{TAG:4A}te, c'est de finir mon\ntravail pour aller {TAG:3C} la foire.",
-    "translation": ""
+    "translation": "Добро пожаловать, добро пожаловать! Чувствуйте себя как дома. Хотя, полагаю, вы здесь надолго не задержитесь.{WAIT_KEY} Ой, надеюсь, моя смена скоро закончится! Я тоже хочу пойти на ярмарку!"
   },
   {
     "id": 86,
     "original_en": "There have been an awful lot of soldiers coming and\ngoing at the castle lately. I suppose that's normal,\nseeing as it is a castle and all, but still...",
     "original_fr": "Il y a un va-et-vient continu de soldats au ch{TAG:4A}teau de\nGardia ces derniers temps... J'espère qu'il ne se passe\nrien de grave.",
-    "translation": ""
+    "translation": "В последнее время в замке появляется и уходит ужасно много солдат. Наверное, это нормально, учитывая, что это же замок, но всё же..."
   },
   {
     "id": 87,
     "original_en": "Hello! Is this your first visit?\nWould you like me to tell you about this house?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Bonjour ! Voulez-vous que je vous parle de cette\nmaison ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Здравствуйте! Вы здесь впервые? Хотите, чтобы я рассказал вам об этом доме? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 88,
     "original_en": "Our mayor has a soft spot for adventurers.\nHe has established this manor as a library of\nadventuring know-how.{WAIT_KEY}\nThe contents of the chests in this house\nwere placed by him for adventurers to use.\nFeel free to take anything you'd like!",
     "original_fr": "Vous êtes dans la maison du maire. Il adore les\naventuriers ! Il enseigne les bases du combat\naux débutants.{WAIT_KEY}\nIl a même placé quelques coffres dans la maison pour\neux. Vous pouvez prendre leur contenu !",
-    "translation": ""
+    "translation": "Наш мэр питает слабость к искателям приключений. Он превратил эту усадьбу в библиотеку знаний о приключениях.{WAIT_KEY} Вещи в сундуках этого дома были помещены им специально для искателей приключений. Не стесняйтесь брать всё, что вам понравится!"
   },
   {
     "id": 89,
     "original_en": "Scattered throughout the world are points where time's\nmemory is deeply rooted. You can record the progress\nof your adventures at such places, fraught with danger\nas they may be.",
     "original_fr": "De par le monde, il existe des endroits où s'attarde\nla mémoire du temps : des points de sauvegarde.\nIls permettent de marquer des étapes lorsque vous\nvous aventurez dans des lieux hostiles et dangereux.",
-    "translation": ""
+    "translation": "По всему миру разбросаны места, где память о времени глубоко укоренилась. В таких местах, какими бы опасными они ни были, вы можете зафиксировать ход своих приключений."
   },
   {
     "id": 90,
     "original_en": "That's just a replica. But I recommend you save your\nprogress whenever you find a real one. They tend to\nshow up in dangerous places.{WAIT_KEY}\nOh, and one other thing! You can save at any time\nwhen you're on the world map. Don't let that slip\nyour mind!",
     "original_fr": "Ceci n'est qu'une réplique. Si vous trouvez un vrai point\nde sauvegarde, pensez {TAG:3C} sauvegarder votre partie !\nOn dit que plus un endroit est dangereux, plus ils\napparaissent fréquemment.{WAIT_KEY}\nAh, et n'oubliez pas : vous pouvez sauvegarder votre\npartie n'importe où sur la mappemonde.",
-    "translation": ""
+    "translation": "Это всего лишь копия. Но я рекомендую тебе сохранять прогресс всякий раз, когда найдёшь настоящий экземпляр. Они, как правило, появляются в опасных местах.{WAIT_KEY} Ах да, и ещё одно! Ты можешь сохраняться в любой момент, находясь на карте мира. Не забудь об этом!"
   },
   {
     "id": 91,
     "original_en": "I can teach you about weapons and armor.\nNeed a refresher course?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous que je vous parle des armes et des\nprotections ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Я могу рассказать тебе об оружии и доспехах.Хочешь освежить знания? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 92,
     "original_en": "Weapons come in a variety of flavors—swords,\nbows, and guns, to name a few.{WAIT_KEY}\nHowever, that doesn't mean you can just pick and\nchoose. You must be proficient with a weapon to use\nit, and everyone's proficiencies are different.{WAIT_KEY}\nArmor is divided into three categories: helms, body\narmor, and accessories. You can only equip armor\nthat fits your own body properly.{WAIT_KEY}\nThe effects of accessories vary greatly, so you'll\nneed to weigh their benefits carefully when deciding\nwhich to equip.{WAIT_KEY}\nOh, and keep in mind that swords inflict greater\ndamage as your Strength increases. Missile weapons,\non the other hand, benefit from better Accuracy.{WAIT_KEY}\nThe higher your Accuracy, the more damage you\nwill deal when attacking with a bow or gun.",
     "original_fr": "Il existe plusieurs types d'armes, comme des sabres,\ndes arbalètes ou des pistolets. Cependant, chaque\npersonne a une spécialité et ne peut utiliser que le\ntype d'arme qui lui est propre.{WAIT_KEY}\nIl y a trois catégories de protections : celles qui se\nportent sur la tête, celles qui se portent sur le corps\net les accessoires.{WAIT_KEY}\nTout comme les armes, vous ne pouvez vous équiper\nque des protections qui vous conviennent.{WAIT_KEY}\nDe nombreux accessoires possèdent des\ncaractéristiques spéciales, alors essayez-en\nplusieurs.{WAIT_KEY}\nSachez aussi qu'augmenter sa force permet d'infliger\nplus de dég{TAG:4A}ts avec des armes de mêlée telles que le\nsabre.{WAIT_KEY}\nLa puissance des armes {TAG:3C} distance, comme l'arbalète et\nle pistolet, dépend quant {TAG:3C} elle de la précision.",
-    "translation": ""
+    "translation": "Оружие бывает самых разных видов — мечи,луки и ружья, и это лишь некоторые из них.{WAIT_KEY} Однако это не значит, что вы можете просто выбирать любое. Чтобы использовать оружие, вы должны владеть им в достаточной степени, а уровень владения у всех разный.{WAIT_KEY} Броня делится на три категории: шлемы, нагрудные доспехи и аксессуары. Вы можете надевать только ту броню,которая правильно сидит на вашем теле.{WAIT_KEY} Эффекты аксессуаров сильно различаются, поэтому вам придётся тщательно взвесить их преимущества, прежде чем решать,что надеть.{WAIT_KEY} Да, и имейте в виду, что мечи наносят больше уроны по мере увеличения вашей Силы. Метательное оружие, зато, напротив, выигрывает от более высокой Точности.{WAIT_KEY} Чем выше ваша Точность, тем больше урона вы нанесёте при атаке из лука или ружья."
   },
   {
     "id": 93,
     "original_en": "You can walk around while reading messages.\nBut go too far away, and you won't be able to\nhear the person talking anymore!",
     "original_fr": "Vous pouvez vous déplacer même quand vous parlez {TAG:3C}\nquelqu'un, mais si vous allez trop loin, vous n'entendrez\nplus ce qu'on vous dit !",
-    "translation": ""
+    "translation": "Вы можете ходить, читая сообщения. Но если отойти слишком далеко, вы больше не сможете слышать, что говорит собеседник!"
   },
   {
     "id": 94,
     "original_en": "You can toggle the location of messages or the battle\nwindow between the top and bottom of the screen by\npressing the {GLYPH:412} Button.",
     "original_fr": "Utilisez le bouton {GLYPH:412} pour déplacer la fenêtre de texte\nou les fenêtres de combat en haut ou en bas de l'écran\nsupérieur.",
-    "translation": ""
+    "translation": "Вы можете переключать расположение сообщений или окна боя между верхней и нижней частью экрана, нажав кнопку {GLYPH:412}."
   },
   {
     "id": 95,
     "original_en": "Want me to share some insight?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous écouter ce que j'ai {TAG:3C} dire ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Хочешь, я поделюсь с тобой некоторыми соображениями? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 96,
     "original_en": "Listen to what the mayor has to say first.",
     "original_fr": "Adressez-vous d'abord au maire.",
-    "translation": ""
+    "translation": "Сначала послушайте, что скажет мэр."
   },
   {
     "id": 97,
     "original_en": "All right, I can teach you about techs.\nDo you want to learn?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous voulez que je vous parle de l'aire d'effet des\ncompétences ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Хорошо, я могу рассказать тебе о технике. Хочешь узнать? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397"
   },
   {
     "id": 98,
     "original_en": "That's about it. Feel a little more confident now?",
     "original_fr": "Voil{TAG:3C} ! Vous avez tout compris ?",
-    "translation": ""
+    "translation": "Вот и всё. Теперь чувствуете себя немного увереннее?"
   },
   {
     "id": 99,
     "original_en": "I can tell you've got potential. You'll learn a number\nof skills, or \"techs,\" as you fight more battles.{WAIT_KEY}\nTechs are special attacks that utilize your\nweapons as well as your own innate potential.\nBut mastering them requires repeated practice\nand training. Keep at it!",
     "original_fr": "Hum... Vous m'avez l'air d'avoir du potentiel. Vous\napprendrez s{TAG:63}rement de nombreuses compétences.{WAIT_KEY}\nMa¡triser de nouvelles attaques spéciales requiert\nbeaucoup de discipline et d'entra¡nement, mais les\noccasions de combattre ne manquent pas, hein ?",
-    "translation": ""
+    "translation": "Я вижу, что у тебя есть потенциал. По мере того, как ты будешь участвовать в новых сражениях, ты освоишь целый ряд навыков, или «техник».{WAIT_KEY} Техники — это специальные атаки, в которых задействуется как твое оружие, так и твой врождённый потенциал.Но чтобы овладеть ими, потребуются постоянная практика и тренировки. Не сдавайся!"
   },
   {
     "id": 100,
     "original_en": "My, my! You've certainly got enthusiasm!\nWhy don't you take this to help you get\nyour equipment in order?{WAIT_KEY}{GLYPH:384}\n\nObtained 300 G!",
     "original_fr": "Ha, ha, ha ! Que d'enthousiasme ! Tenez, ceci vous\naidera {TAG:3C} vous équiper convenablement.{WAIT_KEY}{GLYPH:384}\n\nVous obtenez 300 G !",
-    "translation": ""
+    "translation": "Ого! У тебя действительно есть энтузиазм! Почему бы тебе не взять это, чтобы привести свое снаряжение в порядок?{WAIT_KEY}{GLYPH:384} Получено 300 G!"
   },
   {
     "id": 101,
     "original_en": "Want to learn about the types of status ailments\nyou can suffer in combat?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous en savoir plus au sujet des altérations\nd'état ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Хотите узнать о типах статусных эффектов,которые могут возникнуть у вас в бою? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 102,
     "original_en": "Shelters are quite useful.\nDo you know about them?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Bien le bonjour {TAG:3C} vous ! Savez-vous {TAG:3C} quoi servent\nles tentes ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Приюты — это очень полезная вещь. Вы знаете о них? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 103,
     "original_en": "You can use shelters at save points, or anywhere on\nthe world map, to completely restore HP and MP.\nThey come in very handy.",
     "original_fr": "Une tente est un objet que vous pouvez utiliser sur un\npoint de sauvegarde ou sur la mappemonde afin de\nrégénérer tous vos PV et vos PM. Utile, n'est-ce pas ?",
-    "translation": ""
+    "translation": "Вы можете использовать укрытия в точках сохранения или в любом месте на карте мира, чтобы полностью восстановить HP и MP. Они очень пригодятся."
   },
   {
     "id": 104,
     "original_en": "Certain enemy attacks inflict detrimental status\nailments in addition to ordinary damage.",
     "original_fr": "Certains monstres peuvent infliger des altérations\nd'état quand ils vous attaquent.",
-    "translation": ""
+    "translation": "Некоторые атаки противника наносят не только обычный урон, но и накладывают пагубные статусные эффекты."
   },
   {
     "id": 105,
     "original_en": "Poison\n   HP gradually decreases and attacks are weakened.",
     "original_fr": "Poison :\nVous perdez peu {TAG:3C} peu des PV et votre attaque diminue.",
-    "translation": ""
+    "translation": "Яд   Здоровье постепенно уменьшается, а сила атак снижается."
   },
   {
     "id": 106,
     "original_en": "Slow\n   Lengthens the waiting time between turns.",
     "original_fr": "Lenteur :\nVous devrez attendre plus longtemps avant de pouvoir\nagir.",
-    "translation": ""
+    "translation": "Медленно   Увеличивает время ожидания между ходами."
   },
   {
     "id": 107,
     "original_en": "Sleep\n   Puts you to sleep, preventing you from acting.\n   A good hit will wake you up again.",
     "original_fr": "Sommeil :\nVous vous endormez et votre défense diminue.\nVous vous réveillerez si on vous attaque.",
-    "translation": ""
+    "translation": "Сон   Погружает вас в сон, лишая возможности действовать.   Удачный удар снова разбудит вас."
   },
   {
     "id": 108,
     "original_en": "Confuse\n   Confuses you into attacking allies.\n   This can be a little tough on friendships.",
     "original_fr": "Confusion :\nVous n'êtes plus ma¡tre de vos actions et\nvous confondez parfois alliés et ennemis.\nC'est dangereux !",
-    "translation": ""
+    "translation": "Сбить с толку   Заставляет вас атаковать союзников.   Это может немного осложнить отношения с друзьями."
   },
   {
     "id": 109,
     "original_en": "Blind\n   Clouds your vision, making it difficult to hit\n   enemies.",
     "original_fr": "Cécité :\nVous ne voyez plus très bien et il vous est difficile\nd'attaquer l'ennemi.",
-    "translation": ""
+    "translation": "Ослепление   Затуманивает зрение, затрудняя попадание   по врагам."
   },
   {
     "id": 110,
     "original_en": "Lock\n   Prevents the use of techs.",
     "original_fr": "Oubli :\nVous ne pouvez plus utiliser aucune compétence.",
-    "translation": ""
+    "translation": "Блокировка   Запрещает использование техников."
   },
   {
     "id": 111,
     "original_en": "Stop\n   Immobilizes and disables you.",
     "original_fr": "Stop :\nVous ne pouvez plus bouger ni agir.",
-    "translation": ""
+    "translation": "Стоп   Обездвиживает вас и лишает способности действовать."
   },
   {
     "id": 112,
     "original_en": "These status ailments lower your Defense as well,\nmeaning you'll sustain more damage when they're in\neffect.{WAIT_KEY}\nUse a panacea to remove them during battle, or wait\nuntil the battle ends and you will recover automatically.",
     "original_fr": "Lorsque vous êtes atteint d'une altération d'état, votre\ndéfense diminue et vous subissez plus de dég{TAG:4A}ts. {WAIT_KEY}\nPour guérir une altération d'état, utilisez une panacée\nou attendez simplement que la bataille se termine.",
-    "translation": ""
+    "translation": "Эти состояния также снижают вашу защиту, поэтому пока они действуют, вы будете получать больше урона. {WAIT_KEY} Чтобы избавиться от них во время боя, используйте панацею или дождитесь окончания боя — тогда вы восстановитесь автоматически."
   },
   {
     "id": 113,
     "original_en": "Would you like to hear more?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous en savoir plus ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Хотите узнать больше? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 114,
     "original_en": "When your HP is reduced to 0, you'll be KO'd.{WAIT_KEY}\nAthenian water can revive a fallen party member,\nbut if the entire party is KO'd, you're out of luck.\nBe careful!",
     "original_fr": "Quand vos PV sont {TAG:3C} zéro, vous tombez dans le Coma.\nVous pouvez bien s{TAG:63}r vous en sortir en buvant une\ngorgée de nectar d'Athéna.{WAIT_KEY}\nCependant, si tous les membres de votre équipe\ntombent dans le Coma, c'est la fin. Soyez prudent.",
-    "translation": ""
+    "translation": "Когда ваши HP упадут до 0, вы окажетесь в состоянии KO.{WAIT_KEY} Афинская вода может воскресить павшего члена отряда, но если весь отряд находится в состоянии KO, вам не поможет ничто. Будьте осторожны!"
   },
   {
     "id": 115,
     "original_en": "Hold down the L Button and R Button to escape from\nbattle. He who fights and runs away lives to fight\nanother day!{WAIT_KEY}\nOf course, he who always runs away will never get\nany stronger, so don't flee from every battle just\nbecause you can.{WAIT_KEY}\nOh, and let me explain the Equipment menu, too.\nThe number next to the Sword icon indicates Attack.\nThe number beside the Shield icon indicates Defense.{WAIT_KEY}\nDefense represents how effectively physical attacks\ncan be resisted. Magic Defense, on the other hand,\nis used to resist magical attacks.{WAIT_KEY}\nIf your Magic Defense is 40, for example,\nmagic damage dealt to you will be reduced\nby 40%.{WAIT_KEY}\nStars in place of a number beside any attribute\nmean that the attribute has reached its highest\npossible value.",
     "original_fr": "Maintenez le bouton R et le bouton L appuyés pour fuir\nun combat. Il est parfois important de le faire. Un repli\nstratégique, en quelque sorte !{WAIT_KEY}\nMais attention, si vous ne faites que fuir, vous\nresterez faible et ne deviendrez jamais plus fort.{WAIT_KEY}\nEt maintenant, je vais vous donner un peu plus\nd'informations au sujet du menu d'équipement.{WAIT_KEY}\nLe nombre après l'icône en forme d'épée indique votre\nattaque, alors que celui après l'icône en forme de\nbouclier représente votre défense.{WAIT_KEY}\nLa défense influe sur les dég{TAG:4A}ts que vous subissez\ndes attaques physiques.{WAIT_KEY}\nPour vous défendre contre les sorts, vous avez besoin\nde défense magique. Par exemple, si vous avez une\ndéfense magique de 40, les dég{TAG:4A}ts infligés par les\nattaques magiques seront réduits de 40%.{WAIT_KEY}\nSi le nombre qui suit une caractéristique se transforme\nen étoiles, c'est qu'il a atteint le maximum.",
-    "translation": ""
+    "translation": "Удерживайте кнопки L и R, чтобы выйти из сражения. Тот, кто сражается и убегает, остаётся в живых, чтобы сражатьс nв другой день!{WAIT_KEY} Конечно, тот, кто всегда убегает, никогда не станет сильнее, так что не стоит бежать из каждого сражения только потому, что у вас есть такая возможность.{WAIT_KEY} Ах да, и позвольте мне также объяснить, как работает меню «Снаряжение». Число рядом с иконкой меча обозначает атаку. Число рядом с иконкой щита обозначает защиту.{WAIT_KEY} Защита показывает, насколько эффективно можно противостоять физическим атакам. Магическая защита, с другой стороны, используется для отражения магических атак.{WAIT_KEY} Если, например, ваша магическая защита равна 40, урон от магии, наносимый вам, будет уменьшен a на 40%.{WAIT_KEY} Звездочки вместо числа рядом с любым атрибутом oзначат, что атрибут достиг своего максимального возможного значения."
   },
   {
     "id": 116,
     "original_en": "Hey!",
     "original_fr": "Euh, ha !",
-    "translation": ""
+    "translation": "Эй!"
   },
   {
     "id": 117,
     "original_en": "Fritz: D-Dad!",
     "original_fr": "Fritz : Papa !",
-    "translation": ""
+    "translation": "Фриц: П-папа!"
   },
   {
     "id": 118,
     "original_en": "You're not shirking off, are you?",
     "original_fr": "Tu travailles dur ?",
-    "translation": ""
+    "translation": "Ты же не уклоняешься, правда?"
   },
   {
     "id": 119,
     "original_en": "Fritz: I, um... I mean...of course not!",
     "original_fr": "Fritz : Euh... bien s{TAG:63}r !\nN'est-ce pas ?",
-    "translation": ""
+    "translation": "Фриц: Я, э-э... то есть... конечно же, нет!"
   },
   {
     "id": 120,
     "original_en": "Elaine: N-no, of course not!",
     "original_fr": "îlaine : Ou-oui.",
-    "translation": ""
+    "translation": "Элейн: Н-нет, конечно же нет!"
   },
   {
     "id": 121,
     "original_en": "Well, all right, then...",
     "original_fr": "Hum, bien.",
-    "translation": ""
+    "translation": "Ну, ладно, тогда..."
   },
   {
     "id": 122,
     "original_en": "{CRONO}...\nI appreciate what you did.",
     "original_fr": "{CRONO}...\nMerci beaucoup.",
-    "translation": ""
+    "translation": "{CRONO}... Я ценю то, что ты сделал."
   },
   {
     "id": 123,
     "original_en": "Fritz: Now, {CRONO}, down to business.\nPlease, won't you buy something?",
     "original_fr": "Fritz : Bon, {CRONO} ! Les affaires sont les affaires !\nQue diriez-vous de faire quelques achats ?",
-    "translation": ""
+    "translation": "Фриц: Ну что ж, {CRONO}, перейдём к делу.Пожалуйста, может, купишь что-нибудь?"
   },
   {
     "id": 124,
     "original_en": "Fritz: Welcome, {GLYPH:386}!",
     "original_fr": "Fritz : Bienvenue, {GLYPH:386} !",
-    "translation": ""
+    "translation": "Фриц: Добро пожаловать, {GLYPH:386}!"
   },
   {
     "id": 125,
     "original_en": "Fritz: Thanks!",
     "original_fr": "Fritz : Â bientôt !",
-    "translation": ""
+    "translation": "Фриц: Спасибо!"
   },
   {
     "id": 126,
     "original_en": "Hello, there!\nWhat can I do for you?",
     "original_fr": "Oh ! Bienvenue !\nQue puis-je faire pour vous ?",
-    "translation": ""
+    "translation": "Привет! Чем могу помочь?"
   },
   {
     "id": 127,
     "original_en": "Visit our stall in Leene Square!",
     "original_fr": "Visitez notre kiosque sur la place de Lynne !",
-    "translation": ""
+    "translation": "Посетите наш стенд на Площади Лине!"
   },
   {
     "id": 128,
     "original_en": "Elaine must be down at the pier again.\nThat Fritz! Where could he be?",
     "original_fr": "îlaine est encore allée au port...\nOù peut bien être ce Fritz ?",
-    "translation": ""
+    "translation": "Элейн, наверное, опять на пристани. Этот Фриц! Где он только может быть?"
   },
   {
     "id": 129,
     "original_en": "Fritz: Welcome! Come on in and have a—",
     "original_fr": "Fritz : Bienvenue !",
-    "translation": ""
+    "translation": "Фриц: Добро пожаловать! Заходите и присаживайтесь ..."
   },
   {
     "id": 130,
     "original_en": "Fritz: {CRONO}! Oh, you really saved my neck!\nI wouldn't be here right now if it weren't for you.",
     "original_fr": "Fritz : {CRONO} !! Merci encore de m'avoir porté\nsecours !{WAIT_KEY}\nGr{TAG:4A}ce {TAG:3C} vous, j'ai pu rentrer chez moi.",
-    "translation": ""
+    "translation": "Фриц: {CRONO}! О, ты действительно спас мне жизнь! Если бы не ты, меня бы сейчас здесь не было."
   },
   {
     "id": 131,
     "original_en": "Fritz: Whew, was I ever in a tight spot...\nI'd gone off on a buying trip, thinking I'd show\nmy dad I didn't need him anymore.{WAIT_KEY}\nThat was all well and good, but then some\nsoldiers showed up at the inn where I was\nstaying to arrest a gang of thieves, and\nmistook me for one of the criminals.{WAIT_KEY}\nThey wouldn't listen to a word I said!\nThey were going to execute me, just like that!\nSo...whew, I owe you one!",
     "original_fr": "Fritz : J'étais dans de beaux draps ! Moi qui pensais\nmontrer {TAG:3C} mon père ce dont j'étais capable en faisant\nun voyage de réapprovisionnement pour le magasin...{WAIT_KEY}\nSur le chemin du retour, une bande de voleurs s'est\nfait arrêter {TAG:3C} l'auberge où je demeurais et on m'a\nemprisonné avec eux !{WAIT_KEY}\nLes soldats n'ont même pas voulu m'écouter et j'ai été\ncondamné {TAG:3C} mort ! Vous m'avez sauvé la vie !",
-    "translation": ""
+    "translation": "Фриц: Уф, я оказался в действительно затруднительном положении... Я отправился в поездку за покупками, думая, что докажу отцу, что он мне больше не нужен. {WAIT_KEY} Всё шло хорошо, но потом в гостинице, где я остановился, появились солдаты, чтобы арестовать банду воров, и приняли меня за одного из преступников.{WAIT_KEY} Они не хотели слушать ни слова из того, что я говорил! Они собирались казнить меня, просто так! Так что... уф, я у тебя в долгу!"
   },
   {
     "id": 132,
     "original_en": "Elaine: We're in your debt!\nThank you ever so much!",
     "original_fr": "îlaine : Je vous remercie du fond du c{TAG:61}ur !\nJe suis si heureuse !",
-    "translation": ""
+    "translation": "Элейн: Мы у вас в долгу! Огромное спасибо!"
   },
   {
     "id": 133,
     "original_en": "Fritz: Don't tell my dad I gave you these.\n{WAIT_KEY}{GLYPH:384}\n\nObtained 10 Mid-Ethers!",
     "original_fr": "Fritz : Acceptez ceci, mais ne le dites pas {TAG:3C} mon père,\nhein...{WAIT_KEY}{GLYPH:384}\n\nVous obtenez dix super-éthers !",
-    "translation": ""
+    "translation": "Фриц: Не говори моему отцу, что я тебе это дал. {WAIT_KEY}{GLYPH:384} Получено 10 средних эфиров!"
   },
   {
     "id": 134,
     "original_en": "You don't have enough money.",
     "original_fr": "Vous n'avez pas assez d'argent.",
-    "translation": ""
+    "translation": "У тебя не хватает денег."
   },
   {
     "id": 135,
     "original_en": "Thank you very much.",
     "original_fr": "Â bientôt !",
-    "translation": ""
+    "translation": "Огромное спасибо!"
   },
   {
     "id": 136,
     "original_en": "Fair? Have you gone mad?\nThis is no time for mirth and mummery!",
     "original_fr": "La foire du millénaire de la fondation du royaume ?\nMais qu'est-ce que vous racontez ? Ça n'a aucun sens !",
-    "translation": ""
+    "translation": "Справедливо? Ты что, с ума сошёл? Сейчас не время для веселья и шутовства!"
   },
   {
     "id": 137,
     "original_en": "Where are you, you say? You some sort of simpleton?\nEven a half-wit should know this land for Guardia!{WAIT_KEY}\nOur kingdom wages war with the Fiendlord's army day\nand night, fighting to restore the realm's peace.",
     "original_fr": "{TAG:64} Où sommes-nous ? {TAG:65} Quelle question stupide !\nDans le royaume de Gardia, pardi !{WAIT_KEY}\nNous nous battons jour et nuit contre l'armée du\nMagistère pour rétablir la paix !",
-    "translation": ""
+    "translation": "Где ты, говоришь? Ты что, какой-то простак? Даже полуидиот должен знать, что эта земля — Гардия!{WAIT_KEY} Наше королевство ведёт войну с армией Повелителя Демонов день день и ночь, сражаясь за восстановление мира в королевстве."
   },
   {
     "id": 138,
     "original_en": "Pray tell you knew that much, at least!\n{TAG:38}{TAG:38}{GLYPH:394}Of course.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous saviez au moins ça, n'est-ce pas ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Надеюсь, ты хотя бы это знал! {TAG:38}{TAG:38}{GLYPH:394}Конечно.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 139,
     "original_en": "Then might you show the good grace to stop wandering\nabout pestering folk with moronic questions?",
     "original_fr": "Alors, arrêtez de poser de telles questions et de dire\ndes bêtises !",
-    "translation": ""
+    "translation": "Тогда не могли бы вы проявить немного такта и перестать бродить повсюду, донимая людей дурацкими вопросами?"
   },
   {
     "id": 140,
     "original_en": "Truly? You're a...wayfarer, then?\nI suppose you might not know, if that's the case.",
     "original_fr": "Quoi ?! Comment pouvez-vous ne pas le savoir ?\nVous êtes de passage par ici, c'est ça ?\nDans ce cas, vous feriez mieux de repartir.",
-    "translation": ""
+    "translation": "Правда? Значит, ты… странник? Думаю, в таком случае ты, возможно, и не знаешь."
   },
   {
     "id": 141,
     "original_en": "The Fiendlord's army laid waste to Zenan Bridge.\nWe've lost our only road to the southern continent.",
     "original_fr": "L'armée du Magistère a détruit le pont de Zénan.\nIl est impossible d'atteindre le continent sud pour\nle moment.",
-    "translation": ""
+    "translation": "Армия Владыки демонов опустошила мост Зенан.Мы лишились единственной дороги, ведущей на южный континент."
   },
   {
     "id": 142,
     "original_en": "Oh, praise be! They found Queen Leene wandering\nup in the canyon. She'd been missing for so long,\nI'd feared the worst.",
     "original_fr": "Ah, quelle joie ! On a retrouvé dans la montagne la\nreine Lynne qui avait disparu !",
-    "translation": ""
+    "translation": "О, слава богу! Они нашли королеву Лину, блуждавшую в каньоне. Она так долго считалась пропавшей, что я уже опасался худшего."
   },
   {
     "id": 143,
     "original_en": "She must be back at the castle by now, getting\nsome much-needed rest.",
     "original_fr": "Elle doit être soulagée d'être rentrée au ch{TAG:4A}teau.",
-    "translation": ""
+    "translation": "Наверное, она уже вернулась в замок и наслаждается столь необходимым отдыхом."
   },
   {
     "id": 144,
     "original_en": "It seems she was spouting nonsensical things like a\nwoman possessed when they found her. I don't know\nwhat happened, but the trauma must have taken its toll.",
     "original_fr": "Je ne sais pas pourquoi, mais la reine n'arrête pas de\nraconter des choses incompréhensibles... Elle doit\nencore être sous le choc...",
-    "translation": ""
+    "translation": "Похоже, когда её нашли, она несла какой-то бред, словно одержимая. Не знаю, что именно произошло, но, видимо, пережитый шок дал о себе знать."
   },
   {
     "id": 145,
     "original_en": "I think our hearts are all a little more at ease now.\nWhen Queen Leene disappeared, it was all the King\ncould think of.{WAIT_KEY}\nHe thought it the Fiendlord's doing, and dispatched\nsoldiers to the four corners of the realm to find her.\nBut she's been found, and that's all that matters!",
     "original_fr": "Oh, nous étions tous si inquiets ! Le roi était\ncomplètement abattu.{WAIT_KEY}\nIl pensait que la reine avait été enlevée par le\nMagistère, alors il nous a envoyés {TAG:3C} sa recherche\n{TAG:3C} travers le royaume. Heureusement que nous\nl'avons retrouvée !",
-    "translation": ""
+    "translation": "Думаю, теперь мы все почувствовали себя немного спокойнее. Когда королева Лина исчезла, король не мог думать ни о чём другом.{WAIT_KEY} Он считал, что это дело рук Владыки Зла, и отправил солдат по всем четырём углам королевства, чтобы найти её. Но её нашли, и это самое главное!"
   },
   {
     "id": 146,
     "original_en": "Toma: You an outsider, too? The name's Toma.\nI'm an explorer. And if you can spare 10 G to\nbuy this round, I'll be a storyteller, too.",
     "original_fr": "Toma : Vous n'êtes pas d'ici, vous non plus ? Je suis\nToma, l'explorateur. Si vous me payez un verre, je vous\nfilerai une bonne info.",
-    "translation": ""
+    "translation": "Тома: Ты тоже чужак? Меня зовут Тома. Я исследователь. И если у тебя найдётся 10 G, чтобы поставить всем выпивку, я ещё и рассказчиком буду."
   },
   {
     "id": 147,
     "original_en": "What do you say?\n{TAG:38}{TAG:38}{GLYPH:394}Buy him a drink.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Decline.{GLYPH:397}",
     "original_fr": "Qu'en dites-vous ?\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
-    "translation": ""
+    "translation": "Что скажешь? {TAG:38}{TAG:38}{GLYPH:394}Пригласи его выпить.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Отказаться.{GLYPH:397}"
   },
   {
     "id": 148,
     "original_en": "Toma: Cheers, friend.{WAIT_KEY}\nWell then, a promise is a promise!\nIt's about the missing Queen.{WAIT_KEY}\nMy travels have taken me to the cathedral in the\nwestern wood, and there's something most peculiar\nabout that place. It's only a hunch, but—{WAIT_KEY}\nBeg your pardon?\nThey found Queen Leene in the canyon?\nHmm... It seems my suspicions were misplaced.",
     "original_fr": "Toma : Merci bien ! C'est {TAG:3C} propos de la reine qui a\ndisparu...{WAIT_KEY}\nL'abbaye qui a été construite {TAG:3C} l'ouest m'a l'air louche.{WAIT_KEY}\nHein ? Vous dites qu'on a déj{TAG:3C} retrouvé la reine sur la\nmontagne ? Hum... Vraiment...?",
-    "translation": ""
+    "translation": "Тома: Будем здоровы, друг.{WAIT_KEY} Что ж, обещание есть обещание! Речь идёт о пропавшей королеве.{WAIT_KEY} Мои путешествия привели меня к собору в западном лесу, и в этом месте есть что-то весьма странное. Это всего лишь догадка, но…{WAIT_KEY} Прости, что? Они нашли королеву Лину в каньоне? Хм... Похоже, мои подозрения оказались напрасными."
   },
   {
     "id": 149,
     "original_en": "Toma: Hmm... I was all but certain something foul was\nafoot at that cathedral to the west.",
     "original_fr": "Toma : J'aurais pourtant juré qu'il y avait quelque chose\nde suspect au sujet de l'abbaye {TAG:3C} l'ouest...",
-    "translation": ""
+    "translation": "Тома: Хм... Я был почти уверен, что в том соборе на западе творится что-то неладное."
   },
   {
     "id": 150,
     "original_en": "Toma: Very well. I'm no beggar.\nYou needn't buy me one if you don't wish.",
     "original_fr": "Toma : Ah bon ? Je ne suis pas un mendiant.\nJe ne vous forcerai pas.",
-    "translation": ""
+    "translation": "Тома: Хорошо. Я же не нищий. Если не хочешь, не покупай мне его."
   },
   {
     "id": 151,
     "original_en": "Toma: Beg pardons.",
     "original_fr": "Toma : Pardon.",
-    "translation": ""
+    "translation": "Тома: Прошу прощения."
   },
   {
     "id": 152,
     "original_en": "Rooms are 10 G for the night.\nWill you be staying?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Номер стоит 10 G за ночь. Вы останетесь на ночь? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 153,
     "original_en": "Welcome!",
     "original_fr": "Bienvenue !",
-    "translation": ""
+    "translation": "Добро пожаловать!"
   },
   {
     "id": 154,
     "original_en": "A Millennial Fair? Here? Have you been in your cups?\nOur kingdom is only 600 years old! King Guardia XXI\nstill reigns, last as I checked.",
     "original_fr": "Une foire ? Pour célébrer le millénaire de la fondation\ndu royaume ? Mais qu'est-ce que vous racontez ?\nNous sommes en l'an 600, sous le règne du roi\nGardia XXI.",
-    "translation": ""
+    "translation": "Ярмарка тысячелетия? Здесь? Вы что, перебрали? Нашему королевству всего 600 лет! Король Гуардия XXI по-прежнему правит, насколько я знаю."
   },
   {
     "id": 155,
     "original_en": "I scarce remember the days before the war against\nthe Fiendlord began. The months turn to years.\nWhen will all this end?",
     "original_fr": "Tant d'années se sont écoulées depuis le début de la\nguerre contre l'armée du Magistère... Je me demande\ncombien de temps elle va durer...",
-    "translation": ""
+    "translation": "Я едва помню времена, когда ещё не началась война против Владыки Зла. Месяцы превращаются в годы. Когда же всё это закончится?"
   },
   {
     "id": 156,
     "original_en": "I'm Banta, the village blacksmith.\nI'm forging this bell at the King's behest,\nas a symbol of his love for Queen Leene.",
     "original_fr": "Je suis Banta, le forgeron. Je fabrique la cloche que\nSa Majesté le roi offrira {TAG:3C} son épouse adorée, la reine\nLynne.",
-    "translation": ""
+    "translation": "Меня зовут Банта, я деревенский кузнец. Я кую этот колокол по приказу короля, как символ его любви к королеве Лине."
   },
   {
     "id": 157,
     "original_en": "The Queen's vanishing act had me wondering if all\nthis work would be for naught. After all, what's the\nbell without the Queen, eh?{WAIT_KEY}\nBut it seems they found her in the canyon up north.\nShe's back at the castle now, and I'm back to work.",
     "original_fr": "Cependant, j'étais si inquiet quand la reine a disparu\nque je ne pouvais pas continuer {TAG:3C} forger la cloche.{WAIT_KEY}\nMaintenant qu'on lui a porté secours et qu'elle est saine\net sauve au ch{TAG:4A}teau, je peux me remettre au travail.",
-    "translation": ""
+    "translation": "Исчезновение Королевы заставило меня задуматься, не окажется ли вся эта работа напрасной. В конце концов, что такое колокол без Королевы, а?{WAIT_KEY}  Но, похоже, её нашли в каньоне на севере. Теперь она вернулась в замок, а я — к работе."
   },
   {
     "id": 158,
     "original_en": "My husband wants a daughter both clever and fair.",
     "original_fr": "Mon mari rêve d'avoir une fille aussi jolie qu'intelligente.",
-    "translation": ""
+    "translation": "Мой муж хочет, чтобы у нас родилась дочь — умная и красивая."
   },
   {
     "id": 159,
     "original_en": "Just as I was preparing to put the finishing touches\non Leene's Bell, our King was wounded by {MAGUS}'s\nfiends in battle. It's enough to make a man lose his\nwill to work.",
     "original_fr": "J'ai presque terminé la cloche, mais... Les forces du\nMagistère ont infligé une défaite écrasante {TAG:3C} notre\narmée et le roi a été blessé. Je n'ai plus le c{TAG:61}ur {TAG:3C}\ntravailler...",
-    "translation": ""
+    "translation": "Как раз когда я собирался доработать «Колокол Лины», наш король был ранен в бою врагами {MAGUS}'а. Этого достаточно, чтобы человек потерял всякое желание работать."
   },
   {
     "id": 160,
     "original_en": "I hope this bell will ring in an age of peace.",
     "original_fr": "J'espère qu'un jour, la cloche de Lynne résonnera dans\nun monde en paix et que nous ne perdrons jamais\nespoir, quoi qu'il arrive.",
-    "translation": ""
+    "translation": "Надеюсь, что этот колокол возвестит о наступлении эпохи мира."
   },
   {
     "id": 161,
     "original_en": "You didn't come all this way just to look, did you?\nSurely there's something you'd like to buy!",
     "original_fr": "Puisque vous êtes l{TAG:3C}, ne faites pas que regarder la\nmarchandise, profitez-en pour acheter quelque chose !",
-    "translation": ""
+    "translation": "Вы же не проделали весь этот путь только для того, чтобы посмотреть, правда? Наверняка есть что-то, что вы хотели бы купить!"
   },
   {
     "id": 162,
     "original_en": "My thanks. Do come again!",
     "original_fr": "Au plaisir de vous revoir bientôt !",
-    "translation": ""
+    "translation": "Спасибо. Приходите снова!"
   },
   {
     "id": 163,
     "original_en": "So, you've a mind to buy some weapons and join the\nfight against the Fiendlord's army, have you?\nWonderful!{WAIT_KEY}\nBut remember to equip the weapons you buy.\nNot much meaning elsewise!",
     "original_fr": "Alors, vous allez affronter l'armée du Magistère, vous\naussi ? Voil{TAG:3C} qui est remarquable !{WAIT_KEY}\nMais il ne suffit pas d'acheter des armes et des\nprotections, vous savez ! Il faut aussi s'en\néquiper !",
-    "translation": ""
+    "translation": "Значит, ты решил купить оружие и присоединиться к борьбе против армии Повелителя Зла, да? Замечательно!{WAIT_KEY} Но не забудь экипировать купленное оружие. Иначе в этом нет особого смысла!"
   },
   {
     "id": 164,
     "original_en": "{MARLE}: So, how do we get home?",
     "original_fr": "{MARLE} : Par où on va passer pour rentrer ?",
-    "translation": ""
+    "translation": "{MARLE}: Итак, как же нам добраться до дома?"
   },
   {
     "id": 165,
     "original_en": "{LUCCA}: Well, Your Highness, we—",
     "original_fr": "{LUCCA} : Si vous me le permettez, princesse\nMarledia...",
-    "translation": ""
+    "translation": "{ЛУККА}: Что ж, Ваше Высочество, мы — "
   },
   {
     "id": 166,
@@ -1005,379 +1005,379 @@
     "id": 167,
     "original_en": "{LUCCA}: Well then, {MARLE}...\nObserve!",
     "original_fr": "{LUCCA} : Euh, alors, {MARLE}...\nOuvrez grand les yeux !",
-    "translation": ""
+    "translation": "{MARLE}: Пожалуйста, зови меня {MARLE}!"
   },
   {
     "id": 168,
     "original_en": "{MARLE}: Whoa!",
     "original_fr": "{MARLE} : Ouah !",
-    "translation": ""
+    "translation": "{MARLE}: Ух ты!"
   },
   {
     "id": 169,
     "original_en": "{MARLE}: {LUCCA}, you're amazing!",
     "original_fr": "{MARLE} : {LUCCA} !\nC'est extraordinaire !",
-    "translation": ""
+    "translation": "{MARLE}: {LUCCA}, ты просто потрясающая!"
   },
   {
     "id": 170,
     "original_en": "{LUCCA}: Hee hee hee!",
     "original_fr": "{LUCCA} : N'est-ce pas ? Ho, ho, ho, ho !",
-    "translation": ""
+    "translation": "{LUCCA}: Хи-хи-хи!"
   },
   {
     "id": 171,
     "original_en": "{LUCCA}: S-sorry, I should be more humble in front\nof—",
     "original_fr": "{LUCCA} : Euh, pardonnez-moi...",
-    "translation": ""
+    "translation": "{ЛУККА}: П-простите, я должна быть скромнее перед..."
   },
   {
     "id": 172,
     "original_en": "{MARLE}: Enough already! I'm a princess, but what's\nthat mean? I can't do anything special.{WAIT_KEY}\nBut you—you're incredible!\nI'd trade my name for your genius in a heartbeat!",
     "original_fr": "{MARLE} : Allez, tu peux me tutoyer ! Et puis, tu es\nun génie, {LUCCA}. Je suis peut-être une princesse,\nmais je n'ai pas de talent particulier.",
-    "translation": ""
+    "translation": "{MARLE}: Да ладно, можешь обращаться ко мне на «ты»! Да и вообще, ты — гений, {LUCCA}. Я, может, и принцесса, но никаких особых талантов у меня нет."
   },
   {
     "id": 173,
     "original_en": "{LUCCA}: Well, if you say so...",
     "original_fr": "{LUCCA} : Si tu insistes...",
-    "translation": ""
+    "translation": "{ЛУККА}: Что ж, если ты так говоришь..."
   },
   {
     "id": 174,
     "original_en": "{LUCCA}: Anyway, I call these distortions \"Gates.\"",
     "original_fr": "{LUCCA} : J'appelle cette distorsion un {TAG:64} portail {TAG:65}.",
-    "translation": ""
+    "translation": "{LUCCA}: В любом случае, я называю эти искажения \"Гейтс\"."
   },
   {
     "id": 175,
     "original_en": "They're basically portals to the same location in a\ndifferent time.",
     "original_fr": "Il connecte un endroit dans l'espace {TAG:3C} un moment\ndifférent dans le temps.",
-    "translation": ""
+    "translation": "По сути, это порталы, ведущие в одно и то же место, но в другое время."
   },
   {
     "id": 176,
     "original_en": "But Gates are unstable—that's why they appear\nand disappear all the time. So I used the principle\nbehind my Telepod device...",
     "original_fr": "Il est instable, alors j'ai utilisé le même principe que\ncelui de mon téléporteur pour créer...",
-    "translation": ""
+    "translation": "Но Врата нестабильны — именно поэтому они то появляются, то исчезают. Поэтому я воспользовался принципом, лежащим в основе моего устройства Телепод..."
   },
   {
     "id": 177,
     "original_en": "{LUCCA}: ...to create this Gate Key!\nIt's what's locking the Gate in place.",
     "original_fr": "{LUCCA} : ... une clef stabilisatrice !",
-    "translation": ""
+    "translation": "{LUCCA}: …чтобы создать этот ключ от Врат! Именно он удерживает Врата на месте."
   },
   {
     "id": 178,
     "original_en": "{MARLE}: But why did this Gate suddenly appear\nin the first place?",
     "original_fr": "{MARLE} : Mais pourquoi ce portail est-il\nsoudainement apparu ?",
-    "translation": ""
+    "translation": "{MARLE}: Но почему эти Врата вообще внезапно появились?"
   },
   {
     "id": 179,
     "original_en": "{LUCCA}: Either the Telepod had something to do\nwith it, or something...else made it.",
     "original_fr": "{LUCCA} : C'était peut-être un effet du téléporteur,\nou alors il a été causé par quelque chose d'autre.",
-    "translation": ""
+    "translation": "{LUCCA}: Либо Телепод имел к этому какое-то отношение, либо это сделало что-то… другое."
   },
   {
     "id": 180,
     "original_en": "{MARLE}: This is starting to sound complicated.\nWhy don't we head back to our own time for now?",
     "original_fr": "{MARLE} : Tout ça m'a l'air compliqué...\nEn tout cas, retournons dans notre époque !",
-    "translation": ""
+    "translation": "Это начинает казаться слишком сложным. Может, пока вернёмся в наше время?"
   },
   {
     "id": 181,
     "original_en": "{LUCCA}: All right!\nComing, {CRONO}?",
     "original_fr": "{LUCCA} : Oui ! Rentrons, {CRONO} !",
-    "translation": ""
+    "translation": "{LUCCA}: Ладно! Идешь, {CRONO}?"
   },
   {
     "id": 182,
     "original_en": "Is the talk true? I heard the Fiendlord's army has\nbroken our line and taken the bridge!",
     "original_fr": "J'ai entendu dire que l'armée du Magistère a vaincu\nnotre première ligne et s'est avancée jusqu'au pont !",
-    "translation": ""
+    "translation": "Это правда? Я слышал, что армия Владыки Демонов прорвала наши линии и захватила мост!"
   },
   {
     "id": 183,
     "original_en": "They say even the King himself was wounded.\nIs this the end?",
     "original_fr": "On dit que le roi a lui aussi été blessé...\nC'est la fin...",
-    "translation": ""
+    "translation": "Говорят, что даже сам король был ранен. Это конец?"
   },
   {
     "id": 184,
     "original_en": "The Hero has come. He'll save us!",
     "original_fr": "Non, le héros de la légende est apparu, alors nous\nn'avons plus rien {TAG:3C} craindre !",
-    "translation": ""
+    "translation": "Герой пришёл. Он нас спасёт!"
   },
   {
     "id": 185,
     "original_en": "Have you heard? He's come at last!\nThe Hero—the legendary Hero!{WAIT_KEY}\nHe's gone to see the King already.\nNow the Fiendlord hasn't a chance!",
     "original_fr": "Vous avez entendu la rumeur ? Il est apparu ! Le héros\nde la légende est apparu !{WAIT_KEY}\nOn dit aussi qu'il est allé au ch{TAG:4A}teau pour demander\naudience au roi. Ah, c'en est fini de l'armée du\nMagistère !",
-    "translation": ""
+    "translation": "Вы слышали? Он наконец-то пришёл! Герой — легендарный Герой!{WAIT_KEY} Он уже отправился к королю. Теперь у Владыки Зла нет ни единого шанса!"
   },
   {
     "id": 186,
     "original_en": "There's naught to worry about now, the Hero's come\nto save us. There's no doubting it, he bore the\nHero's Badge!{WAIT_KEY}\nAh... It will be nice to have peace in the realm again!\n",
     "original_fr": "Il n'y a pas de quoi s'inquiéter.{WAIT_KEY}\nLe porteur de la médaille du héros est apparu !\nC'est notre sauveur !{WAIT_KEY}\nLe monde va enfin retrouver la paix. Le ciel soit loué !",
-    "translation": ""
+    "translation": "Теперь не о чем беспокоиться — Герой пришёл наш спасти. В этом нет никаких сомнений: на нём был знак Героя!{WAIT_KEY} Ах... Как же будет хорошо, когда в королевстве снова воцарится мир!"
   },
   {
     "id": 187,
     "original_en": "The runners say the Fiendlord's army has reached\nZenan Bridge. What will happen now, I wonder.",
     "original_fr": "Les rumeurs racontent que l'armée du Magistère a\navancé jusqu'au pont de Zénan. Que va-t-il nous\narriver ?",
-    "translation": ""
+    "translation": "По словам разведчиков, армия Владыки Демонов достигла моста Зенан. Интересно, что же будет дальше."
   },
   {
     "id": 188,
     "original_en": "{FROG}: Awaken, {CRONO}!",
     "original_fr": "{FROG} : Réveille-toi, {CRONO} !",
-    "translation": ""
+    "translation": "{FROG}: Проснись, {CRONO}!"
   },
   {
     "id": 189,
     "original_en": "Another mug!",
     "original_fr": "Â boire, patron !",
-    "translation": ""
+    "translation": "Еще одна кружка!"
   },
   {
     "id": 190,
     "original_en": "The Hero delivered us peace, and I delivered\nthe King his bell. All is well again.{WAIT_KEY}\nHurrah for Guardia!\nA toast, to our kingdom!",
     "original_fr": "Gr{TAG:4A}ce au héros, j'ai pu offrir la cloche de Lynne au roi\net la paix va enfin régner.{WAIT_KEY}\nVive Gardia ! Portons un toast !",
-    "translation": ""
+    "translation": "Герой принёс нам мир, а япередал королю его колокол. Всё снова в порядке.{WAIT_KEY} Ура, Гуардия! Поднимь тост за наше королевство!"
   },
   {
     "id": 191,
     "original_en": "Peace is an overdue visitor, but it's on its\nway now at long last.",
     "original_fr": "La paix régnera enfin parmi nous.",
-    "translation": ""
+    "translation": "Мир — это долгожданный гость, но вот, наконец, он уже в пути."
   },
   {
     "id": 192,
     "original_en": "Yahoooo!{WAIT_KEY}\nI'm so excited I can't stop!\nHurrah for the Hero, and hurrah for Guardia!",
     "original_fr": "Hourraaaa !{WAIT_KEY}\nJe suis si ému ! Vive le héros ! Vive Gardia !",
-    "translation": ""
+    "translation": "Урааа!{WAIT_KEY} Я так взволнован, что не могу успокоиться! Ура Герою, и ура Гардии!"
   },
   {
     "id": 193,
     "original_en": "There's talk of constructing a town square to\ncelebrate the peace that's come at last.",
     "original_fr": "On dit qu'une grand-place sera construite dans le\nvillage pour célébrer la paix, dans l'espoir qu'elle\ndure toujours.",
-    "translation": ""
+    "translation": "Говорят о том, чтобы построить городскую площадь в честь наконец-то наступившего мира."
   },
   {
     "id": 194,
     "original_en": "They say it's to be named Leene Square, for\nthe Queen.",
     "original_fr": "On compte l'appeler {TAG:64} place de Lynne {TAG:65}, en l'honneur de\nla reine.",
-    "translation": ""
+    "translation": "Говорят, что площадь назовут Лини-сквер в честь королевы."
   },
   {
     "id": 195,
     "original_en": "A cause for celebration if ever there was one!\nOn a day like today, there's no need for restraint!",
     "original_fr": "Ga, ha, ha, ha, ha ! Aujourd'hui est un jour heureux !\nEt les jours heureux, on boit un coup pour célébrer !",
-    "translation": ""
+    "translation": "Если и есть повод для празднования, то это именно он! В такой день, как сегодня, не нужно сдерживаться"
   },
   {
     "id": 196,
     "original_en": "That long and terrible conflict is finally behind us.",
     "original_fr": "La guerre est enfin finie !",
-    "translation": ""
+    "translation": "Этот долгий и ужасный конфликт наконец-то остался позади."
   },
   {
     "id": 197,
     "original_en": "My dream has come true.\nPeace is ours!",
     "original_fr": "Je suis si heureuse ! Nous allons enfin vivre en paix !",
-    "translation": ""
+    "translation": "Моя мечта сбылась. Мир — наш!"
   },
   {
     "id": 198,
     "original_en": "{GLYPH:392}!{GLYPH:405}0a{GLYPH:406}{GLYPH:407}\n{GLYPH:392}! {GLYPH:392}!\n{GLYPH:392}! {GLYPH:392}!\n{GLYPH:392}! {GLYPH:392}!\n{GLYPH:392}! {GLYPH:392}!{GLYPH:405}0a{GLYPH:406}{GLYPH:408}",
     "original_fr": "{GLYPH:392} !!{GLYPH:405}0a{GLYPH:406}{GLYPH:407}\n{GLYPH:392} ! {GLYPH:392} !\n{GLYPH:392} ! {GLYPH:392} !\n{GLYPH:392} ! {GLYPH:392} !\n{GLYPH:392} ! {GLYPH:392} !!{GLYPH:405}0a{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "{GLYPH:392}!{GLYPH:405}0a{GLYPH:406}{GLYPH:407}\n{GLYPH:392}! {GLYPH:392}!\n{GLYPH:392}! {GLYPH:392}!\n{GLYPH:392}! {GLYPH:392}!\n{GLYPH:392}! {GLYPH:392}!{GLYPH:405}0a{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 199,
     "original_en": "{MARLE}: Hmm...{WAIT_KEY}\nUh...{WAIT_KEY}\n{CRONO}...{WAIT_KEY}\n{GLYPH:392}!",
     "original_fr": "{MARLE} : Oooh...{WAIT_KEY}\nOooh...{WAIT_KEY}\n{CRONO}...{WAIT_KEY}\n{GLYPH:392}...!",
-    "translation": ""
+    "translation": "{MARLE}: Хм...{WAIT_KEY} Э-э...{WAIT_KEY} {CRONO}...{WAIT_KEY} {GLYPH:392}!"
   },
   {
     "id": 200,
     "original_en": "{LUCCA}: Hold it, {CRONO}!{WAIT_KEY}\n{GLYPH:392}!",
     "original_fr": "{LUCCA} : Non, {CRONO}...{WAIT_KEY}\n{GLYPH:392}...!",
-    "translation": ""
+    "translation": "{LUCCA}: Подожди, {CRONO}!{WAIT_KEY} {GLYPH:392}!"
   },
   {
     "id": 201,
     "original_en": "{ROBO}: Danger, {CRONO}!{WAIT_KEY}\n{GLYPH:392}!",
     "original_fr": "{ROBO} : C'est trop dangereux, {CRONO}...{WAIT_KEY}\n{GLYPH:392}...!",
-    "translation": ""
+    "translation": "{ROBO}: Опасность, {CRONO}!{WAIT_KEY}\n{GLYPH:392}!"
   },
   {
     "id": 202,
     "original_en": "{FROG}: N-nooooo!{WAIT_KEY}\n{CRONO}... {GLYPH:392}!",
     "original_fr": "{FROG} : C'est de l'inconscience...!{WAIT_KEY}\n{CRONO}... {GLYPH:392}...!",
-    "translation": ""
+    "translation": "{FROG}: Н-нет!{WAIT_KEY}\n{CRONO}... {GLYPH:392}!"
   },
   {
     "id": 203,
     "original_en": "{AYLA}: {GLYPH:392}!\nNooo!{WAIT_KEY}\n{GLYPH:392}!",
     "original_fr": "{AYLA} : {GLYPH:392} ! Noon !!{WAIT_KEY}\n{GLYPH:392}...!",
-    "translation": ""
+    "translation": "{AYLA}: {GLYPH:392}!\nНет!{WAIT_KEY}\n{GLYPH:392}!"
   },
   {
     "id": 204,
     "original_en": "{MARLE}: Uhhn...",
     "original_fr": "{MARLE} : Oooh...",
-    "translation": ""
+    "translation": "{MARLE}: Хм..."
   },
   {
     "id": 205,
     "original_en": "{LUCCA}: Ugh...",
     "original_fr": "{LUCCA} : Oooh...",
-    "translation": ""
+    "translation": "{LUCCA}: Э-э..."
   },
   {
     "id": 206,
     "original_en": "{ROBO}: ...!?",
     "original_fr": "{ROBO} : ...?!",
-    "translation": ""
+    "translation": "{ROBO}: ...!?"
   },
   {
     "id": 207,
     "original_en": "{FROG}: Ugh...",
     "original_fr": "{FROG} : Oh...?",
-    "translation": ""
+    "translation": "{FROG}: Э-э..."
   },
   {
     "id": 208,
     "original_en": "{AYLA}: Uga...",
     "original_fr": "{AYLA} : Oooh...",
-    "translation": ""
+    "translation": "{AYLA}: Уга..."
   },
   {
     "id": 209,
     "original_en": "The item inside is reacting to the pendant.\nRemove the item?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Il y a quelque chose {TAG:3C} l'intérieur qui luit {TAG:3C} l'approche du\npendentif. Voulez-vous le prendre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Предмет внутри реагирует на кулон. Удалить предмет? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 210,
     "original_en": "\"This box has been handed down for generations.\nShould you somehow manage to open it, you are\nwelcome to the contents.\"",
     "original_fr": "{TAG:64} Ce coffre est dans la famille depuis des générations.\nLa personne qui arrivera {TAG:3C} l'ouvrir pourra garder son\ncontenu. {TAG:65}",
-    "translation": ""
+    "translation": "\"Эта шкатулка передается из поколения в поколение. Если вам каким-то образом удастся её открыть, можете свободно распоряжаться её содержимым.\""
   },
   {
     "id": 211,
     "original_en": "{GLYPH:384}\nBlue Vest upgraded!\nObtained Blue Plate!",
     "original_fr": "{GLYPH:384}\nLa veste bleue est devenue plus puissante !\nVous obtenez un plastron bleu !",
-    "translation": ""
+    "translation": "{GLYPH:384} Синий жилет улучшен! Получена синяя пластина!"
   },
   {
     "id": 212,
     "original_en": "{GLYPH:384}\nObtained Blue Vest!",
     "original_fr": "{GLYPH:384}\nVous obtenez une veste bleue !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получен синий жилет!"
   },
   {
     "id": 213,
     "original_en": "{GLYPH:384}\nA mysterious force seals it shut.",
     "original_fr": "{GLYPH:384}\nUn sceau magique en empêche l'ouverture...",
-    "translation": ""
+    "translation": "{GLYPH:384}\nТаинственная сила запечатывает его."
   },
   {
     "id": 214,
     "original_en": "{CRONO}...\n\n\n{GLYPH:405}0a{GLYPH:406}{GLYPH:407}\n{CRONO}!\n\n{GLYPH:405}0a{GLYPH:406}{GLYPH:407}\n{CRONO}—!{GLYPH:405}09{GLYPH:406}{GLYPH:408}",
     "original_fr": "{CRONO}...{GLYPH:405}0a{GLYPH:406}{GLYPH:407}\n{CRONO} !{GLYPH:405}0a{GLYPH:406}{GLYPH:407}\n{CRONO} !!{GLYPH:405}09{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "{CRONO}...\n\n\n{GLYPH:405}0a{GLYPH:406}{GLYPH:407}\n{CRONO}!\n\n{GLYPH:405}0a{GLYPH:406}{GLYPH:407}\n{CRONO}—!{GLYPH:405}09{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 215,
     "original_en": "Soldier: You! Wake up, and get your wretched body\nout of bed!\n{GLYPH:405}0b{GLYPH:406}{GLYPH:408}",
     "original_fr": "Soldat : Tu comptes dormir toute la journée ?\nAllez, debout !{GLYPH:405}0b{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "Солдат: Эй, ты! Проснись и вытащи свою жалкую задницу из постели! {GLYPH:405}0b{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 216,
     "original_en": "Soldier: Your stay of execution has been withdrawn.\nYou will accompany us to the castle now, where we\nwill carry out your sentence.{GLYPH:405}11{GLYPH:406}{GLYPH:408}",
     "original_fr": "Soldat : Plus de sursis. Le jour de ton exécution est\narrivé. Je vais t'accompagner jusqu'au ch{TAG:4A}teau.{GLYPH:405}11{GLYPH:406}{GLYPH:408}",
-    "translation": ""
+    "translation": "Солдат: Отсрочка казни отменена. Сейчас вы пойдёте с нами в замок, где мы приведём приговор в исполнение.{GLYPH:405}11{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 217,
     "original_en": "You can run using the +Control Pad. If you want to\nwalk, hold the {GLYPH:410} Button while you move.{WAIT_KEY}\nSet Movement to Walk in the Settings menu and you'll\nwalk without having to press the {GLYPH:410} Button!",
     "original_fr": "Si vous préférez marcher, appuyez sur le bouton {GLYPH:410} tout\nen vous déplaçant avec la manette + !{WAIT_KEY}\nEn sélectionnant {TAG:64} Déplacements {TAG:65}, puis {TAG:64} Marcher {TAG:65} {TAG:3C}\npartir de l'option {TAG:64} Réglages {TAG:65} du menu, vous pouvez\nmarcher sans avoir {TAG:3C} appuyer sur le bouton {GLYPH:410}.",
-    "translation": ""
+    "translation": "Бегать можно с помощью +Control Pad. Если вы хотите идти пешком, удерживайте кнопку {GLYPH:410} во время движения.{WAIT_KEY} Установите в меню «Настройки» режим движения «Ходьба», и вы сможете ходить, не нажимая кнопку {GLYPH:410}!"
   },
   {
     "id": 218,
     "original_en": "Did you know you could use the stylus to move around?{WAIT_KEY}\nHold the stylus to the Touch Screen, and you'll walk\nin the stylus's direction from the center of the screen.\nTouch the edge of the screen, and you'll run in that\ndirection.{WAIT_KEY}\nYou can also tap the Touch Screen quickly to talk to\nsomeone or examine an object.",
     "original_fr": "Dites, vous savez que vous pouvez vous déplacer en\nutilisant l'écran tactile ?{WAIT_KEY}\nIl suffit de maintenir le stylet appuyé dans la direction\ndésirée par rapport au centre de l'écran.{WAIT_KEY}\nVous pouvez aussi courir en touchant le bord de l'écran.{WAIT_KEY}\nOh, et en passant, vous pouvez parler aux gens et\nexaminer les environs en touchant brièvement l'écran\ntactile.",
-    "translation": ""
+    "translation": "Знаете ли вы, что с помощью стилуса можно перемещаться?{WAIT_KEY} Прижмите стилус к сенсорному экрану, и вы начнете идти от центра экрана в направлении, указанном стилусом. Коснитесь края экрана — и вы начнете бежать в этом направлении.{WAIT_KEY} Вы также можете быстро коснуться сенсорного экрана, чтобы поговорить с кем-нибудь или осмотреть какой-либо объект."
   },
   {
     "id": 219,
     "original_en": "Would you like an explanation of how to use menu\nshortcuts?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous savoir comment fonctionnent les\nraccourcis du menu ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Хотите, чтобы вам объяснили, как пользоваться сочетаниями клавиш для вызова меню? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 220,
     "original_en": "You can jump to the various menu screens by touching\nthe icons on the lower screen.{WAIT_KEY}\nFor example, touch the Inventory icon to open the\nInventory menu.",
     "original_fr": "Vous pouvez utiliser des raccourcis vers les différents\nmenus en touchant les icônes sur l'écran inférieur.{WAIT_KEY}\nPar exemple, si vous touchez l'icône représentant un\nsac, votre inventaire s'affiche immédiatement.",
-    "translation": ""
+    "translation": "Вы можете перейти к различным экранам меню, коснувшись значков на нижнем экране.{WAIT_KEY} Например, коснитесь значка Инвентарь, чтобы открыть меню Инвентарь."
   },
   {
     "id": 221,
     "original_en": "Touching any character's status box will cause that\ncharacter's Equipment screen to appear.",
     "original_fr": "De même, si vous touchez la fenêtre d'état d'un\npersonnage, vous accédez directement {TAG:3C} son\nécran d'équipement.",
-    "translation": ""
+    "translation": "При нажатии на окно статуса любого персонажа откроется экран Снаряжение этого персонажа."
   },
   {
     "id": 222,
     "original_en": "You can arrange the positions of the shortcut icons\nhowever you like via the Shortcut Assignments option\nin the Settings menu.",
     "original_fr": "En outre, vous pouvez changer la position des icônes\nen choisissant {TAG:64} Raccourcis {TAG:65} {TAG:3C} partir de l'option\n{TAG:64} Réglages {TAG:65} du menu.{WAIT_KEY}\nVous devriez essayer !",
-    "translation": ""
+    "translation": "Вы можете расположить значки ярлыков так, как вам удобно, с помощью параметра Назначение ярлыков в меню Настройки."
   },
   {
     "id": 223,
     "original_en": "Shall I teach you the basics of battle\ncommands?\n{TAG:38}{TAG:38}{GLYPH:394}Yes, please.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Maybe later.{GLYPH:397}",
     "original_fr": "Voulez-vous que je vous explique les commandes de\nbase des combats ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Хочешь, я научу тебя азам боевых команд?\n{TAG:38}{TAG:38}{GLYPH:394}Да, пожалуйста.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Может, позже.{GLYPH:397}"
   },
   {
     "id": 224,
     "original_en": "In battle, you must make use of the Attack, Tech,\nand Item commands to defeat your enemies.{WAIT_KEY}\nIf the Game Mode is set to DS, commands will be shown\non the lower screen when a character's turn comes\naround.{WAIT_KEY}\nMove the cursor to the desired command and press the\n{GLYPH:409} Button to select it, or simply tap it with the stylus.",
     "original_fr": "Pendant la bataille, vous devez utiliser les commandes\n{TAG:64} Attaquer {TAG:65}, {TAG:64} Solos {TAG:65} et {TAG:64} Objets {TAG:65} pour vaincre les\nennemis.{WAIT_KEY}\nSi vous jouez en mode DS, les commandes sont\naffichées sur l'écran inférieur.{WAIT_KEY}\nLorsque vient votre tour, choisissez la commande\ndésirée en déplaçant le curseur, puis appuyez sur le\nbouton {GLYPH:409}, ou touchez directement l'écran inférieur.",
-    "translation": ""
+    "translation": "В бою вам нужно использовать команды Атака, Техника и Предмет, чтобы победить врагов.{WAIT_KEY} Если режим игры установлен на «DS», команды будут отображаться на нижнем экране, когда наступит ход персонажа.{WAIT_KEY} Наведите курсор на нужную команду и нажмите кнопку {GLYPH:409}, чтобы выбрать её, или просто коснитесь её стилусом."
   },
   {
     "id": 225,
     "original_en": "If the Game Mode is set to Classic, commands will\nappear on the upper screen. Move the cursor to the\ndesired command and press the {GLYPH:409} Button to select it.{WAIT_KEY}\nThe stylus cannot be used to select commands in\nClassic Mode.",
     "original_fr": "Si vous jouez en mode classique, les commandes sont\naffichées sur l'écran supérieur.{WAIT_KEY}\nChoisissez la commande désirée en déplaçant le\ncurseur, puis appuyez sur le bouton {GLYPH:409}.{WAIT_KEY}\nAttention ! En mode classique, vous ne pouvez pas\nchoisir une commande en touchant l'écran inférieur.",
-    "translation": ""
+    "translation": "Если в настройках режима игры выбран режим Классический, команды будут отображаться на верхнем экране. Наведите курсор на нужную команду и нажмите кнопку {GLYPH:409}, чтобы выбрать её.{WAIT_KEY} В режиме Классический стилус для выбора команд использовать нельзя."
   },
   {
     "id": 226,
     "original_en": "\"A Treatise on Game Modes.\"\nRead the document?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous lire le rapport intitulé\n{TAG:64} Les modes de combat {TAG:65} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "\"Трактат о режимах игры\". Вы читали этот документ?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 227,
     "original_en": "The report contains two sections.\nWhich would you like to read?\n{TAG:38}{TAG:38}{GLYPH:394}DS Mode.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Classic Mode.{GLYPH:397}",
     "original_fr": "Le rapport est divisé en deux parties.\nQuelle section voulez-vous lire ?\n       {GLYPH:394}Mode DS{GLYPH:395}\n       {GLYPH:396}Mode classique{GLYPH:397}",
-    "translation": ""
+    "translation": "Отчет состоит из двух разделов. Какой из них вы хотели бы прочитать? {TAG:38}{TAG:38}{GLYPH:394}Режим DS.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Классический режим.{GLYPH:397}"
   },
   {
     "id": 228,
     "original_en": "DS Mode employs both screens, allowing for convenient\nTouch Screen controls.{WAIT_KEY}\nThe upper screen is left uncluttered, while the lower\nscreen displays useful information and allows for\ncommand input via the stylus.{WAIT_KEY}\nDS Mode is geared towards those who wish to\nexperience the game in a new way, using only the\nTouch Screen to play.",
     "original_fr": "En mode DS, les informations sont affichées sur les\ndeux écrans et les commandes ont été réarrangées\npour offrir une meilleure maniabilité.{WAIT_KEY}\nL'écran supérieur contient moins d'informations et a été\nsimplifié. Vous pouvez sélectionner les commandes en\ntouchant l'écran inférieur.{WAIT_KEY}\nCe mode est recommandé {TAG:3C} ceux qui préfèrent utiliser\nl'écran tactile ou {TAG:3C} ceux qui veulent découvrir une\nnouvelle expérience de jeu.",
-    "translation": ""
+    "translation": "В режиме DS используются оба экрана, что обеспечивает удобное управление с помощью сенсорного экрана.{WAIT_KEY} Верхний экран остается свободным, а на нижнем отображается полезная информация и можно вводить команды с помощью стилуса.{WAIT_KEY} Режим DS предназначен для тех, кто хочет испытать игру по-новому, используя для игры исключительно сенсорный экран."
   },
   {
     "id": 229,
     "original_en": "In Classic Mode, the battle screen is presented just\nas it was in the original.{WAIT_KEY}\nThe lower screen is used to display extra information,\nsuch as information about enemies, making it easier\nto keep track of your situation.{WAIT_KEY}\nClassic Mode is recommended for those who wish to\nbask in the nostalgic glory of bygone days, without\ntrying anything new.",
     "original_fr": "En mode classique, l'affichage original a été reproduit.{WAIT_KEY}\nDes informations sur les ennemis sont affichées\nsur l'écran inférieur et il est désormais plus facile\nd'examiner la situation.{WAIT_KEY}\nCe mode est recommandé {TAG:3C} ceux qui veulent apprécier\nl'atmosphère du jeu original ou {TAG:3C} ceux qui veulent se\nsubmerger dans la nostalgie.",
-    "translation": ""
+    "translation": "В классическом режиме экран боя выглядит точно так же, как в оригинальной игре.{WAIT_KEY} Нижний экран используется для отображения дополнительной информации,  например, сведений о врагах, что позволяет легче отслеживать ситуацию на поле боя.{WAIT_KEY} Классический режим рекомендуется тем, кто хочет окунуться в ностальгическую атмосферу прошлых дней, не пробуя ничего нового."
   },
   {
     "id": 230,
