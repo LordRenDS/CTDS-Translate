@@ -3,25 +3,25 @@
     "id": 0,
     "original_en": "Attack",
     "original_fr": "Attaquer",
-    "translation": ""
+    "translation": "Атака"
   },
   {
     "id": 1,
     "original_en": "Tech",
     "original_fr": "Solos",
-    "translation": ""
+    "translation": "Техника"
   },
   {
     "id": 2,
     "original_en": "Item",
     "original_fr": "Objets",
-    "translation": ""
+    "translation": "Предмет"
   },
   {
     "id": 3,
     "original_en": "Combo",
     "original_fr": "Combos",
-    "translation": ""
+    "translation": "Комбо"
   },
   {
     "id": 4,
@@ -81,13 +81,13 @@
     "id": 13,
     "original_en": "—Dual Techœ",
     "original_fr": "—Duosœ",
-    "translation": ""
+    "translation": "—Дв. Тех.œ"
   },
   {
     "id": 14,
     "original_en": "—Trip. Techœ",
     "original_fr": "—Triosœ",
-    "translation": ""
+    "translation": "—Тр. Тех.œ"
   },
   {
     "id": 15,
@@ -99,6 +99,6 @@
     "id": 16,
     "original_en": "MISS!",
     "original_fr": "RATç !",
-    "translation": ""
+    "translation": "ПРОМАХ!"
   }
 ]
