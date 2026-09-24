@@ -51,7 +51,7 @@
     "id": 8,
     "original_en": "To restore all icons to their default positions,\npress SELECT or touch the panel labeled\n\"Defaults.\"",
     "original_fr": "Pour retourner {TAG:3C} l'arrangement par défaut,\nappuyez sur SELECT ou touchez {TAG:64} Rétablir {TAG:65}.",
-    "translation": "Чтобы вернуть все значки на их исходные\nместа, нажмите кнопку SELECT или косни-\nтесь панели с надписью \"Сбросить\"."
+    "translation": "Чтобы вернуть все значки на их исходные\nместа, нажмите Кнопку SELECT или косни-\nтесь панели с надписью \"Сбросить\"."
   },
   {
     "id": 9,
@@ -75,6 +75,6 @@
     "id": 12,
     "original_en": "Touch the Touch Screen or press the A Button.",
     "original_fr": "Touchez l'écran inférieur ou appuyez sur le bouton A.",
-    "translation": "Коснитесь экрана или нажмите кнопку A."
+    "translation": "Коснитесь экрана или нажмите Кнопку A."
   }
 ]

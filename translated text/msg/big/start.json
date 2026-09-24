@@ -579,7 +579,7 @@
     "id": 96,
     "original_en": "Ending No.",
     "original_fr": "{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{GLYPH:132}Fin nÎ ",
-    "translation": "Концовка No."
+    "translation": "Концовка {GLYPH:132}"
   },
   {
     "id": 97,
