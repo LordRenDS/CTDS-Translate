@@ -1,6 +1,6 @@
 ---
 name: ctds-translation-pipeline
-description: Specialized translation, graphics, font, and ROM build pipeline for Chrono Trigger DS (CTDS), covering CLI commands, 20 window presets, VWF reflow, dialogue control tokens, and NCER sprite rules.
+description: Specialized translation, graphics, font, and ROM build pipeline for Chrono Trigger DS (CTDS), covering CLI commands, 24 window presets, VWF reflow, dialogue control tokens, and NCER sprite rules.
 ---
 
 # Chrono Trigger DS (CTDS) Translation Pipeline
@@ -106,6 +106,8 @@ python src/cli.py validate-text-length --file "translated text/shop.json" --max-
 | `--max-lines` | `None` (preset) | Maximum lines per dialogue box page (overrides preset default). |
 | `--paginate` | `False` | Automatically split pages with `{PAGE}` when lines exceed `max-lines`. |
 | `--no-reflow` | `None` (preset) | Disable collapsing existing line breaks before re-wrapping. |
+| `--force` | `False` | Force recalculation and repacking of all text even if lines fit within width limits. |
+| `--carry` | `None` (`geo`) | Enable hyphenated line-breaking carry with `-` (`geo` for geometric, `syllable` for syllable-based). |
 | `--font-json` | `extracted fonts/msg/big/msgcmn.json` | Path to base font metrics JSON. |
 | `--cyrillic-json` | `assets/fonts/cyrillic_big.json` | Path to Cyrillic font metrics JSON. |
 | `--field` | `translation` | JSON field key to validate and wrap. |
@@ -154,17 +156,21 @@ python src/cli.py roundtrip --nds "rom/Chrono Trigger (Europe) (En,Fr).nds"
 
 ---
 
-## 2. Window Presets Reference (20 Presets in `src/text_validator.py`)
+## 2. Window Presets Reference (24 Presets in `src/text_validator.py`)
 
 `WINDOW_PRESETS` defines line width and page constraints for all dialogue and UI text boxes in the game.
 
 | Preset Name | Max Width (px) | Max Lines | Reflow | Font Type | Target File Patterns |
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | `dialogue` | **238** | **3** | `True` | `big` | `msg*.json`, `cmes*.json`, `kmes*.json`, `mesi*.json`, `mesk*.json`, `mess*.json`, `mest*.json`, `exms*.json`, `comu*.json`, `ques*.json` |
+| `field_choice_box` | **110** | **4** | `False` | `big` | Choice options dialog in field maps (CLI `--preset field_choice_box`) |
 | `tutorial` | **200** | **6** | `True` | `big` | `tutorial.json` |
 | `chapter_title` | **130** | **1** | `False` | `big` | `ev_title.json` |
 | `battle_banner` | **238** | **1** | `False` | `big` | `mon_tec.json` |
 | `ending_desc` | **224** | **2** | `True` | `big` | `ex_ending.json` |
+| `ending_title` | **180** | **1** | `False` | `big` | Ending sequence title banner (CLI `--preset ending_title`) |
+| `player_char_name` | **100** | **1** | `False` | `big` | Character status / selection names (CLI `--preset player_char_name`) |
+| `player_char_profile` | **132** | **6** | `True` | `big` | Character profile description box in status menu (CLI `--preset player_char_profile`) |
 | `encyclopedia` | **136** | **6** | `True` | `big` | `player.json`, `ex_mon*.json`, `ex_itemget.json`, `ex_illust.json` |
 | `item_desc` | **210** | **1** | `False` | `big` | `item_mes.json`, `item_mes2.json` |
 | `item_sub` | **110** | **2** | `False` | `big` | `item_sub.json` |

@@ -92,11 +92,12 @@ def test_ncer_roundtrip_obj_logo_new(tmp_path):
 
 def test_rebuild_ncer_from_metadata(tmp_path):
     """Verify rebuild_ncer_from_metadata rebuilds an NCER from a JSON metadata file."""
-    if not os.path.isfile(TRANSLATED_JSON):
-        pytest.skip(f"Metadata JSON not found at '{TRANSLATED_JSON}'")
+    meta_json = "extracted image/title/obj/obj_logo_new.json" if os.path.isfile("extracted image/title/obj/obj_logo_new.json") else TRANSLATED_JSON
+    if not os.path.isfile(meta_json):
+        pytest.skip(f"Metadata JSON not found at '{meta_json}'")
 
     out_ncer = os.path.join(tmp_path, "from_meta.NCER")
-    data = rebuild_ncer_from_metadata(TRANSLATED_JSON, out_ncer)
+    data = rebuild_ncer_from_metadata(meta_json, out_ncer)
 
     assert os.path.isfile(out_ncer)
     assert os.path.getsize(out_ncer) == len(data)
@@ -105,9 +106,17 @@ def test_rebuild_ncer_from_metadata(tmp_path):
     assert decomp[:4] == b"RECN"
 
     # If original NCER is present, verify decompressed byte equivalence
-    if os.path.isfile(ORIG_NCER):
+    if os.path.isfile(ORIG_NCER) and meta_json == "extracted image/title/obj/obj_logo_new.json":
         orig_decomp, _ = decompress_stream(open(ORIG_NCER, "rb").read())
         assert decomp == orig_decomp
+
+    # Also test translated JSON if present
+    if os.path.isfile(TRANSLATED_JSON):
+        out_trans_ncer = os.path.join(tmp_path, "from_trans_meta.NCER")
+        trans_data = rebuild_ncer_from_metadata(TRANSLATED_JSON, out_trans_ncer)
+        assert os.path.isfile(out_trans_ncer)
+        trans_decomp, _ = decompress_stream(trans_data)
+        assert trans_decomp[:4] == b"RECN"
 
 
 def test_build_ncer_synthetic_various_shapes(tmp_path):
