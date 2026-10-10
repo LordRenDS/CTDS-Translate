@@ -21,7 +21,7 @@ class GraphicsError(CtdsError):
     """Exception raised for errors during graphics conversion, palette mapping, or sprite handling."""
 
 
-class FontError(CtdsError):
+class FontError(CtdsError, ValueError):
     """Exception raised for errors during font extraction, compilation, or Cyrillic injection."""
 
 
