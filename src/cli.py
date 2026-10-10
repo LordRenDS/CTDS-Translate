@@ -1,39 +1,40 @@
 """Command-line interface (CLI) for Chrono Trigger DS translation toolset."""
 
+from __future__ import annotations
+
 import argparse
+import json
 import os
 import sys
 import tempfile
-from typing import List, Optional
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-from src.font_engine import (
+from src.core.exceptions import CtdsError
+from src.font import (
     build_all_fonts,
     dump_all_fonts,
     inject_cyrillic_into_fnt,
 )
-from src.graphics_engine import (
+from src.graphics import (
     build_all_screens,
+    build_ncgr_sprite,
     build_screen,
     dump_all_screens,
-    dump_screen,
     dump_ncgr_sprite,
-    build_ncgr_sprite,
-    rebuild_ncer_from_metadata,
+    dump_screen,
     find_cell_bank_for_sprite,
     find_palette_for_screen,
     find_palette_for_sprite,
     find_tiles_for_screen,
+    rebuild_ncer_from_metadata,
 )
-from src.rom_manager import build_rom, unpack_rom, verify_rom_integrity
-from src.text_engine import dump_all_msg, insert_all_msg
-from src.text_validator import (
+from src.rom import build_rom, unpack_rom, verify_rom_integrity
+from src.text import (
+    WINDOW_PRESETS,
     load_glyph_metrics,
     validate_and_format_directory,
     validate_and_format_file,
-    WINDOW_PRESETS,
 )
+from src.text_engine import dump_all_msg, insert_all_msg
 
 
 def cmd_unpack(args: argparse.Namespace) -> int:
@@ -481,8 +482,6 @@ def cmd_build_graphics(args: argparse.Namespace) -> int:
         if not rel_stem:
             rel_stem = os.path.splitext(os.path.basename(screen_path))[0]
 
-        import json
-
         with open(meta_json_path, "r", encoding="utf-8") as f:
             meta = json.load(f)
 
@@ -861,7 +860,7 @@ def create_parser() -> argparse.ArgumentParser:
     return parser
 
 
-def main(argv: Optional[List[str]] = None) -> int:
+def main(argv: list[str] | None = None) -> int:
     """Main CLI entrypoint.
 
     Args:
@@ -906,7 +905,11 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     handler = command_handlers.get(args.command)
     if handler:
-        return handler(args)
+        try:
+            return handler(args)
+        except CtdsError as exc:
+            print(f"Error: {exc}")
+            return 1
     else:
         parser.print_help()
         return 1

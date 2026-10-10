@@ -1,0 +1,77 @@
+"""Text formatting, metric calculation, window preset management, and dialogue validation."""
+
+from __future__ import annotations
+
+from src.text.metrics import (
+    DEFAULT_CHAR_WIDTH_PX,
+    DEFAULT_HERO_NAME_WIDTH_PX,
+    DEFAULT_SPACE_WIDTH_PX,
+    GLYPH_PATTERN,
+    HERO_PATTERN,
+    HERO_TOKENS,
+    PLACEHOLDER_PATTERN,
+    TAG_REGEX,
+    GlyphWidths,
+    calculate_line_width_px,
+    load_glyph_metrics,
+    strip_control_tags,
+)
+from src.text.presets import (
+    WINDOW_PRESETS,
+    TextWindowPreset,
+    get_constraints_for_entry,
+    get_preset_for_file,
+)
+from src.text.reflow import (
+    CHOICE_MAX_WIDTH_PX,
+    CHOICE_TAG_PATTERN,
+    COMPOUND_KA_PREFIXES,
+    COMPOUND_TO_PREFIXES,
+    HYPHEN_BREAK_PATTERN,
+    LATIN_VOWELS,
+    PAGE_DELIM_PATTERN,
+    RUS_CONSONANTS,
+    RUS_VOWELS,
+    collapse_hyphenated_breaks,
+    split_word_carry,
+    wrap_line_to_width,
+    wrap_text_block,
+)
+from src.text.validator import (
+    validate_and_format_directory,
+    validate_and_format_file,
+)
+
+__all__ = [
+    "CHOICE_MAX_WIDTH_PX",
+    "CHOICE_TAG_PATTERN",
+    "COMPOUND_KA_PREFIXES",
+    "COMPOUND_TO_PREFIXES",
+    "DEFAULT_CHAR_WIDTH_PX",
+    "DEFAULT_HERO_NAME_WIDTH_PX",
+    "DEFAULT_SPACE_WIDTH_PX",
+    "GLYPH_PATTERN",
+    "GlyphWidths",
+    "HERO_PATTERN",
+    "HERO_TOKENS",
+    "HYPHEN_BREAK_PATTERN",
+    "LATIN_VOWELS",
+    "PAGE_DELIM_PATTERN",
+    "PLACEHOLDER_PATTERN",
+    "RUS_CONSONANTS",
+    "RUS_VOWELS",
+    "TAG_REGEX",
+    "TextWindowPreset",
+    "WINDOW_PRESETS",
+    "calculate_line_width_px",
+    "collapse_hyphenated_breaks",
+    "get_constraints_for_entry",
+    "get_preset_for_file",
+    "load_glyph_metrics",
+    "split_word_carry",
+    "strip_control_tags",
+    "validate_and_format_directory",
+    "validate_and_format_file",
+    "wrap_line_to_width",
+    "wrap_text_block",
+]
