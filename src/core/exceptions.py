@@ -25,5 +25,5 @@ class FontError(CtdsError, ValueError):
     """Exception raised for errors during font extraction, compilation, or Cyrillic injection."""
 
 
-class ValidationError(CtdsError):
+class ValidationError(CtdsError, ValueError):
     """Exception raised for errors during dialogue length validation, metric calculation, or reflow."""
