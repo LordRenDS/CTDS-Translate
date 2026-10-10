@@ -354,20 +354,13 @@ When highlighted, the NDS engine shifts the Right OAM block **+4 pixels to the r
 - **Hardware Gap Rule:** In Cell 3 and Cell 4, the 4-pixel column range $x \in [48, 51]$ **must be completely empty** (pixel value 0). Any graphics drawn in $x=48..51$ will cause tile misalignment and will not be displayed correctly in-game.
 
 ### 5.4. Cell Synchronization Pattern
-To avoid visual glitches caused by tile sharing in ROM:
-1. Always edit the base cells: **Cell 0**, **Cell 1**, **Cell 2**.
-2. Run the automated synchronizer script:
-   ```powershell
-   python scripts/title_logo_manager.py sync
-   ```
-   This automatically generates:
+Sprite editing, cell layout, and cell synchronization are performed via `CTDS_NCER_editor` to avoid visual glitches caused by tile sharing in ROM:
+1. Edit the base cells: **Cell 0**, **Cell 1**, **Cell 2**.
+2. Perform automated synchronization and validation within `CTDS_NCER_editor`:
    - Cell 3 from Cell 0 with the +4px hardware right-shift.
    - Cell 4 from Cell 1 with the +4px hardware right-shift and +2px subtitle shift.
    - Cell 5 from Cell 2 (exact duplicate).
-3. Validate before building:
-   ```powershell
-   python scripts/title_logo_manager.py validate
-   ```
+   - OAM seam at $x=48$ and selection gap ($x=48..51$) validation.
 
 ### 5.5. Graphics Editor Coordinate Math
 When translating coordinates between JSON and editors (Aseprite, Photoshop):
@@ -385,7 +378,7 @@ When implementing translation or graphics updates, follow this end-to-end execut
 ```mermaid
 graph TD
     A["1. Edit JSON Translations / PNG Graphics"] --> B["2. Validate Text Length & VWF Reflow<br/><code>python src/cli.py validate-text-length --fix</code>"]
-    B --> C["3. Validate Sprite Constraints<br/><code>python scripts/title_logo_manager.py validate</code>"]
+    B --> C["3. Validate Sprite Constraints & Sync Cells<br/><code>CTDS_NCER_editor</code>"]
     C --> D["4. Rebuild Graphics & NCER Cells<br/><code>python src/cli.py build-graphics --ncer</code>"]
     D --> E["5. Inject Cyrillic Font Glyphs<br/><code>python src/cli.py inject-cyrillic-font</code>"]
     E --> F["6. Insert Translated Text<br/><code>python src/cli.py insert-text</code>"]

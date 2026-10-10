@@ -244,27 +244,15 @@ $$\text{Y}_{\text{end}} = \text{Y}_{\text{start}} + h - 1$$
    - Включите `Snap to Grid` (Привязка к сетке).
    - Так как все OAM кратны 8, выделения и направляющие будут автоматически примагничиваться к границам тайлов.
 
-3. **Используйте готовый шаблон разметки**:
-   - В проекте сгенерирован размеченный файл:
-     [`translated image/title/obj/obj_logo_new_layout_guide.png`](../translated%20image/title/obj/obj_logo_new_layout_guide.png)
-   - Уменьшите его масштаб в 4 раза (до 256×250) и вставьте в редактор отдельным полупрозрачным слоем сверху — границы всех ячеек, швов и зазоров будут видны прямо во время рисования.
+3. **Редактирование разметки и проверка швов**:
+   - Разметка ячеек, интерактивный предпросмотр границ OAM, проверка швов и валидация зазоров выполняются в специализированном редакторе `CTDS_NCER_editor`.
 
 ---
 
-## 5. Полезные команды проекта
+## 5. Работа со спрайтами и сборка
 
-- **Проверить спрайтовый лист на ошибки швов и зазоров:**
-  ```powershell
-  python scripts/title_logo_manager.py validate
-  ```
-- **Синхронизировать Cell 0 -> Cell 3 и Cell 1 -> Cell 4 (авто-сдвиг +4px):**
-  ```powershell
-  python scripts/title_logo_manager.py sync
-  ```
-- **Сгенерировать скриншот экранного предпросмотра ячейки (NDS Preview):**
-  ```powershell
-  python scripts/title_logo_manager.py preview --cell 0
-  ```
+- **Редактирование разметки, проверка швов и синхронизация ячеек:**
+  Разметка ячеек (Cell), проверка аппаратных швов (seam at x=48), валидация зазоров (4px selection gap) и синхронизация ячеек (Cell 0 $\rightarrow$ Cell 3, Cell 1 $\rightarrow$ Cell 4, Cell 2 $\rightarrow$ Cell 5) выполняются в приложении `CTDS_NCER_editor`.
 - **Скомпилировать измененный спрайт и ячейки NCER в ROM:**
   ```powershell
   python src/cli.py build-graphics --screen "translated image/title/obj/obj_logo_new.png"
