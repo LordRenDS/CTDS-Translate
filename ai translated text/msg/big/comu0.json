@@ -1,0 +1,776 @@
+[
+  {
+    "id": 0,
+    "original_en": "Man: Welcome to the Arena of the Ages!{WAIT_KEY}\nThis coliseum hosts battles between monsters\nfrom all across time. I'm the stable master.",
+    "original_fr": "??? : Bienvenue {TAG:3C} l'arène, l'endroit où se rassemblent\ndes gens de différentes époques pour faire combattre\ndes monstres. Je suis un instructeur.",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Stable Master: You want a rundown of the place?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Instructeur : Voulez-vous en savoir plus ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Stable Master: These are the monster stables.\nWe raise 'em up strong here. Even monsters need\ntraining if they want to be tough!{WAIT_KEY}\nWhat do we train 'em for, you ask?\nWhy, for fighting, of course!\nThen we set 'em against each other in the Pit.",
+    "original_fr": "Instructeur : Dans l'arène, vous pouvez entra¡ner des\nmonstres et les rendre puissants !{WAIT_KEY}\nDans quel but ? Mais pour les faire combattre d'autres\nmonstres, pardi !",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "That blue-faced fellow with the winsome smile?\nHe's a merchant.",
+    "original_fr": "La charmante créature bleue tient quant {TAG:3C} elle la\nboutique de l'arène.",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "There are a lot of specialized items that we use for\ntraining and battling beasts, and he deals in the tools\nof the trade. You'll want to talk to him later on.{WAIT_KEY}\nWell, that's the meat and bones of it.\nYou'll catch on quick, don't you worry.{WAIT_KEY}\nOh, one more thing, though—this is important.",
+    "original_fr": "Il vous faudra des objets spéciaux pour entra¡ner ou\nfaire combattre un monstre. Vous devriez aller jeter un\ncoup d'{TAG:61}il {TAG:3C} ses marchandises plus tard.{WAIT_KEY}\nAlors, vous avez compris ? Bah, vous vous y habituerez\nbien assez vite.{WAIT_KEY}\nAh oui ! Il y a quelque chose que vous ne devez pas\noublier.",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Stable Master: One of them learn-by-doing types, eh?\nWell, you've got me here if you need anything.\nYou should be all right.{WAIT_KEY}\nOh, but there is one more thing I should tell you.",
+    "original_fr": "Instructeur : Vous préférez apprendre sur le tas,\nc'est ça ? Bah, je suis l{TAG:3C} pour vous aider.\nVous devriez pouvoir vous débrouiller.{WAIT_KEY}\nToutefois, il y a quelque chose que vous ne devez pas\noublier.",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Stable Master: Got the itch to raise yourself a\nmonster, eh?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Instructeur : Vous voulez essayer d'élever un monstre,\nn'est-ce pas ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Stable Master: Like that one, do you?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Instructeur : Ce monstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Stable Master: Take good care of it, then, and raise\nit up tough!",
+    "original_fr": "Instructeur : Faites-en un champion !",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Stable Master: What do you need?",
+    "original_fr": "Instructeur : Que voulez-vous faire ?",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{MARLE}: Good luck!",
+    "original_fr": "{MARLE} : Bon courage ! ©",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{LUCCA}: Don't hurt yourself!",
+    "original_fr": "{LUCCA} : N'en fais pas trop !",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "{ROBO}: Please make good developmental progress.",
+    "original_fr": "{ROBO} : Tu atteindras peut-être bientôt ton\nobjectif de croissance !",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{FROG}: Return strong!",
+    "original_fr": "{FROG} : Reviens quand tu seras plus fort !",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{AYLA}: Not strong, lose.\nSo, get strong!",
+    "original_fr": "{AYLA} : Sans entra¡nement, devenir p{TAG:4A}ture.\nLoi du plus fort !",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "{MAGUS}: Never forget.\nThe weak go quickly to their graves.",
+    "original_fr": "{MAGUS} : N'oublie pas, les faibles se font écraser du\npied comme de misérables vers.",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Stable Master: Your monster's safely on its way.\nI take it you'll be off again as well?{WAIT_KEY}\nYour little darling should return before too long.\nGive it some time and then check back.",
+    "original_fr": "Instructeur : Votre monstre a l'air d'être parti sans\nproblème. Allez-vous retourner {TAG:3C} votre aventure ?{WAIT_KEY}\nRevenez un peu plus tard, il sera sans doute rentré.",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Stable Master: Oh, excellent timing! Your monster\nshould be back from training any moment now.",
+    "original_fr": "Instructeur : Vous tombez pile. Votre monstre devrait\nbientôt être de retour...",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Stable Master: Oh, looks like it's got something.\nMust have found it while it was off training.",
+    "original_fr": "Instructeur : Oh, il a rapporté quelque chose. On dirait\nqu'il l'a trouvé pendant son entra¡nement.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Pit Boss: This must be your first time, no?\nThis is the Pit, where monsters put their training\nto the test.{WAIT_KEY}\nWant to see how strong the one you've raised is?{WAIT_KEY}\nYou can let it fight another one of our monsters\nin a prize match, or set it against an opponent's\nmonster in an interdimensional battle via DS Wireless\nCommunications.",
+    "original_fr": "Employé de l'arène : C'est votre première visite ?\nBienvenue {TAG:3C} l'arène, l'endroit où les monstres\ns'affrontent en duel !{WAIT_KEY}\nVous pouvez y mesurer la force de votre monstre !{WAIT_KEY}\nIl existe deux types de batailles. Vous pouvez lui faire\ncombattre les monstres enregistrés {TAG:3C} l'arène dans un\ntournoi.{WAIT_KEY}\nVous pouvez aussi combattre les monstres d'autres\njoueurs gr{TAG:4A}ce {TAG:3C} la communication sans fil !",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Pit Boss: What do you say?\nWant to enter a monster battle?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Employé de l'arène : Voulez-vous prendre part {TAG:3C} une\nbataille ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Pit Boss: Sorry, the Pit's only for monster battles.\nIf you don't have a monsters, well...not much I can do\nfor you, I'm afraid. Come back again when you've got\none.",
+    "original_fr": "Employé de l'arène : Je suis désolé. Pour prendre part {TAG:3C}\nune bataille dans l'arène, vous devez d'abord avoir un\nmonstre. Au plaisir de vous revoir bientôt !",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Pit Boss: Excellent! Just select a tier and I'll sign\nyou up.{WAIT_KEY}\nHigher tiered battles have higher entrance fees and\noffer better prizes, but the entrants are usually\nstronger. Which tier would you like to compete in?",
+    "original_fr": "Employé de l'arène : Choisissez avec soin le niveau de la\nbataille {TAG:3C} laquelle vous voulez prendre part. Des frais\nde participation s'appliquent.{WAIT_KEY}\nPlus le niveau est élevé, plus les récompenses en valent\nla peine, mais votre adversaire sera évidemment plus\nféroce !",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Pit Boss: Sorry, looks like you're short on funds.\nI'll go ahead and cancel your registration.\nPlease come again soon.",
+    "original_fr": "Employé de l'arène : Vous n'avez pas assez d'argent.\nVotre participation {TAG:3C} la bataille a été annulée.\nAu plaisir de vous revoir bientôt !",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Pit Boss: Thank you very much.\nI'll just take your entrance fee, then.\nBest of luck to you!",
+    "original_fr": "Employé de l'arène : Bonne chance !",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Pit Boss: What kind of battle would you like to enter?\n{TAG:38}{TAG:38}{GLYPH:394}Prize match.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Interdimensional battle.{GLYPH:402} {GLYPH:403}(Wireless battle){GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Cancel.{GLYPH:399}",
+    "original_fr": "Employé de l'arène : Choisissez un type de bataille.\n       {GLYPH:394}Tournoi de l'arène{GLYPH:395}\n       {GLYPH:396}Communication sans fil{GLYPH:397}\n       {GLYPH:398}Annuler{GLYPH:399}",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Buy?",
+    "original_fr": "Vous voulez acheter quelque chose ?",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Come again.",
+    "original_fr": "Â bientôt.",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Stable Master: Hey!\nYou remember to save your progress?",
+    "original_fr": "Instructeur : Un instant. Avez-vous sauvegardé votre\naventure ?",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Stable Master: Oh... But if you came from somewhere\nother than the End of Time, we can't have you keeping\nrecords of this place, now can we?{WAIT_KEY}\nTell you what. If you came here from somewhere else,\nI'll add a note of what happened here to the last\nrecord you made, whenever and wherever that was.{WAIT_KEY}\nThat would be more convenient for you anyway,\nwouldn't it?\n",
+    "original_fr": "Instructeur : Cependant, si vous venez d'ailleurs, je ne\npeux pas vous dire l'emplacement de l'arène...{WAIT_KEY}\nVous oublierez tout ce qui s'est passé ici {TAG:3C} l'instant\nmême où vous sortirez.{WAIT_KEY}\nVous ne voulez pas que ça se produise ? Eh bien,\nsauvegardez votre aventure avant de partir.\nJe vais enregistrer vos souvenirs dans votre\nsauvegarde la plus récente.{WAIT_KEY}\nC'est très avantageux pour vous, n'est-ce pas ?",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Return to the End of Time?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous retourner {TAG:3C} la Fin des temps ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Return to the title screen?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous retourner {TAG:3C} l'écran-titre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Tier 1:{TAG:7E} 100 G{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Tier 2:{TAG:7A} 500 G{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Tier 3:{TAG:70} 1000 G{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Cancel.{GLYPH:401}",
+    "original_fr": "       {GLYPH:394}Niveau 1 : 100 G{GLYPH:395}\n       {GLYPH:396}Niveau 2 : 500 G{GLYPH:397}\n       {GLYPH:398}Niveau 3 : 1000 G{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Tier 2:{TAG:7A} 500 G{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Tier 3:{TAG:70} 1000 G{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Tier 4: 3000 G{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Cancel.{GLYPH:401}",
+    "original_fr": "       {GLYPH:394}Niveau 2 : 500 G{GLYPH:395}\n       {GLYPH:396}Niveau 3 : 1000 G{GLYPH:397}\n       {GLYPH:398}Niveau 4 : 3000 G{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Tier 3:{TAG:7F} 1000 G{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Tier 4:♀ 3000 G{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Tier 5:♀ 5000 G{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Cancel.{GLYPH:401}",
+    "original_fr": "       {GLYPH:394}Niveau 3 : 1000 G{GLYPH:395}\n       {GLYPH:396}Niveau 4 : 3000 G{GLYPH:397}\n       {GLYPH:398}Niveau 5 : 5000 G{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Tier 4:♀ 3000 G{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Tier 5:♀ 5000 G{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Tier 6: 10,000 G{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Cancel.{GLYPH:401}",
+    "original_fr": "       {GLYPH:394}Niveau 4 : 3000 G{GLYPH:395}\n       {GLYPH:396}Niveau 5 : 5000 G{GLYPH:397}\n       {GLYPH:398}Niveau 6 : 10 000 G{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Stable Master: One more thing...\nHere's a little gift for you.",
+    "original_fr": "Instructeur : Et voici un petit cadeau pour partir du bon\npied !",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{GLYPH:384}\nMonster trainer's starter kit!{WAIT_KEY}{GLYPH:384}\nObtained Slops, Flameclaw, Seafang,\nDuskeye, Luxwing, Hawk Talon,\nShield Cloak, and Feral Wrath!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un assortiment d'objets de l'arène !{WAIT_KEY}{GLYPH:384}\nIl contient un sachet de p{TAG:4A}ture, une griffe ardente,\nun croc aqueux, un {TAG:61}il ténébreux, une aile lumineuse,\ndes serres d'aigle, une cape protectrice\net une fiole de force sauvage.",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Stable Master: The items in that starter kit are things\nyou'll need while you're raising that monster.{WAIT_KEY}\nFor instance, you'll need to give your monster an item\nto carry with it when you send it off for training.\nThe one you give it will determine the outcome of its\nefforts.{WAIT_KEY}\nYou can also pass items to your monster during duels\nin the Pit. You know—help the critter out.{WAIT_KEY}\nIf you run out, you can buy more from the merchant\nover there. Best to stock up in advance, though!{WAIT_KEY}\nOh, and I suppose I should explain a bit about training,\ntoo.{WAIT_KEY}\nIf you decide to send your monster out for training,\nyou'll have to choose an era. Sending it to different\neras will cause it to grow in different ways.{WAIT_KEY}\nOf course, you can only send it to time periods that\nyou've already visited. So if you want your monster\nto progress in its training, you'd best progress\nwith your quest!",
+    "original_fr": "Instructeur : Ces objets sont essentiels pour l'élevage\nde monstres.{WAIT_KEY}\nPar exemple, donnez-en un {TAG:3C} votre monstre quand il\npart s'entra¡ner. Les résultats de son entra¡nement\nvarieront selon celui que vous avez choisi.{WAIT_KEY}\nEn outre, vous pouvez aussi en donner {TAG:3C} votre monstre\npendant une bataille pour l'aider.{WAIT_KEY}\nSi vous voulez vous procurer plus d'objets, achetez-en\n{TAG:3C} la boutique du gnu.{WAIT_KEY}\nAh, laissez-moi maintenant vous parler un peu plus de\nl'entra¡nement de votre monstre.{WAIT_KEY}\nVous devrez également choisir l'époque où il ira\ns'entra¡ner. Ce choix influe aussi sur l'évolution\nde ses caractéristiques.{WAIT_KEY}\nCependant, vous ne pouvez choisir que parmi les\népoques que vous avez vous-même visitées, ce qui\nveut dire que de nouvelles options d'entra¡nement\nvous seront offertes au cours de votre aventure.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Stable Master: That orange one's got fire affinity.\nBlue, water affinity. Yellow, light.\nAnd purple, shadow.{WAIT_KEY}\nThey're just smidges, now—itsy-bitsy monsters.\nBut go on, take your pick!",
+    "original_fr": "Instructeur : Elles ont chacune une affinité élémentaire\ndifférente suivant leur couleur. Rouge pour le feu,\nbleu pour l'eau, jaune pour la lumière et violet pour\nles ténèbres.{WAIT_KEY}\nCe ne sont encore que des larves, mais elles ont du\npotentiel. Allez, faites votre choix.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Time flows a little differently here.\nMight call it a different dimension altogether.{WAIT_KEY}\nIf you came from the End of Time, that old man can\nprobably keep things straight for you. But if you\ncame from anywhere else, everything that happened\nhere will be washed away the second you leave.{WAIT_KEY}\nIf you don't want that to happen, you'd best save\nyour progress over there before you go.",
+    "original_fr": "L'arène est dans une dimension différente de la vôtre\net le flot du temps n'est pas exactement le même.{WAIT_KEY}\nSi vous avez atteint cet endroit en passant par la Fin\ndes temps, vous pourrez y retourner sans problème\ngr{TAG:4A}ce aux talents du vieil homme qui y réside.{WAIT_KEY}\nVous pouvez aussi sauvegarder votre partie ici.",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Pit Boss: What tier would you like to compete in?\nThe entrance fees are steeper for the higher tiers.",
+    "original_fr": "Employé de l'arène : Choisissez avec soin le niveau de la\nbataille {TAG:3C} laquelle vous voulez prendre part. Des frais\nde participation s'appliquent.",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Pit Boss: You want to enter a Tier 1 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
+    "original_fr": "Employé de l'arène : Une bataille de niveau 1 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Pit Boss: You want to enter a Tier 2 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
+    "original_fr": "Employé de l'arène : Une bataille de niveau 2 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Pit Boss: You want to enter a Tier 3 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
+    "original_fr": "Employé de l'arène : Une bataille de niveau 3 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Pit Boss: You want to enter a Tier 4 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
+    "original_fr": "Employé de l'arène : Une bataille de niveau 4 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Pit Boss: You want to enter a Tier 5 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
+    "original_fr": "Employé de l'arène : Une bataille de niveau 5 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Pit Boss: You want to enter a Tier 6 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
+    "original_fr": "Employé de l'arène : Une bataille de niveau 6 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Pit Boss: Changed your mind?\nWell, please come back when you're ready!",
+    "original_fr": "Employé de l'arène : Vous avez changé d'avis ?\nAu plaisir de vous revoir bientôt !",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Stable Master: Oh, hello there!\nWe're doing some maintenance here, unfortunately.\nThe facilities are closed at the moment.{WAIT_KEY}\nThings should be back to normal before too long,\nbut why don't you take care of any other business\nyou have in the meantime?",
+    "original_fr": "Instructeur : Bienvenue {TAG:3C} l'arène... Euh...{WAIT_KEY}\nVoil{TAG:3C} qui est un peu embarrassant... Â vrai dire, l'arène\nest actuellement fermée. Nous rouvrirons bientôt, mais\npour l'instant, retournez {TAG:3C} votre aventure.",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Man: Oh, is this your first visit?\nWelcome to the Arena of the Ages!{WAIT_KEY}\nThis coliseum hosts battles between monsters\nfrom all across time. Unfortunately, we're doing\nsome maintenance now. The facilities are closed.{WAIT_KEY}\nThings should be back to normal before too long,\nso why don't you take care of any other business\nyou have in the meantime and check back later?",
+    "original_fr": "??? : Tiens, de la visite ! Bienvenue {TAG:3C} l'arène, l'endroit où\nse rassemblent des gens de différentes époques pour\nfaire combattre des monstres.{WAIT_KEY}\nMalheureusement, l'arène est actuellement fermée.\nNous rouvrirons bientôt, mais pour l'instant, retournez\n{TAG:3C} votre aventure.",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Have you earned your monster's trust?{WAIT_KEY}\nIf your monster doesn't trust you very much, it\nprobably won't use the items you give it in battle.{WAIT_KEY}\nYou'll gain more trust the more your monster fights.\nLet it do some training and fight a few battles and\nyou'll start to develop a better bond.",
+    "original_fr": "Votre monstre vous fait-il confiance ?{WAIT_KEY}\nSi ce n'est pas le cas, il ne voudra pas utiliser les\nobjets que vous lui donnez pendant la bataille.{WAIT_KEY}\nVous gagnerez sa confiance au fil des combats, alors\nfaites-le s'entra¡ner et combattre le plus possible !",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "What do you think of my monster?\nLooks pretty tough, eh?\nTrusts me, too!",
+    "original_fr": "Alors, qu'en dites-vous ? Mon monstre a l'air fort, non ?\nEt il me fait confiance, bien entendu !",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Do you know your monster's elemental affinity?\nYou have to pay attention to that when it's dueling,\nyou know.{WAIT_KEY}\nMonsters do more damage when they use techs that\nmatch their own affinities. But if they use a tech\nthat matches their opponent's affinity, it won't be\nvery effective.",
+    "original_fr": "Quel est l'élément de votre monstre ?{WAIT_KEY}\nVous devez faire attention aux affinités élémentaires\nlors d'une bataille.{WAIT_KEY}\nVotre monstre infligera plus de dég{TAG:4A}ts s'il utilise une\ncompétence de son propre élément.{WAIT_KEY}\nPar contre, s'il utilise une compétence du même élément\nque celui de son adversaire, il infligera moins de dég{TAG:4A}ts.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "I heard that a monster's elemental affinity can\nchange when you send it off for training.",
+    "original_fr": "J'ai entendu dire que parfois, après son entra¡nement,\nun monstre peut changer d'affinité élémentaire !",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Has your monster learned any techs yet?\nMine finally learned a fire tech.{WAIT_KEY}\nMy dad told me the item your monster takes with it\nwhen you send it out to train affects what it learns.\nI gave mine a flameclaw.",
+    "original_fr": "Est-ce que votre monstre a appris une compétence ?\nLe mien a enfin appris une compétence de feu !{WAIT_KEY}\nJe lui avais donné une griffe ardente ! Papa m'avait dit\nque l'objet qu'on donne {TAG:3C} un monstre quand il part\ns'entra¡ner a une influence sur ce genre de choses...",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "You should try giving your monster different items\nwhen it goes off for training.",
+    "original_fr": "Donnez toutes sortes d'objets {TAG:3C} votre monstre quand il\npart s'entra¡ner !",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "{GLYPH:386}: What is this place?",
+    "original_fr": "{GLYPH:386} : Où sommes-nous...?",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "{GLYPH:387}: What is this place?",
+    "original_fr": "{GLYPH:387} : Où sommes-nous...?",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "{AYLA}: What this place?",
+    "original_fr": "{AYLA} : Où nous être...?",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "{ROBO}: What is this place?",
+    "original_fr": "{ROBO} : Quel est cet endroit...?",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Man: Oh, is this your first visit?",
+    "original_fr": "??? : Tiens, de la visite !",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Stable Master: Come over here, will you?",
+    "original_fr": "Instructeur : Approchez !",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "You want to stage a fight, you talk to that guy\nover there in the armor.",
+    "original_fr": "Si vous voulez vous préparer pour une bataille,\nadressez-vous {TAG:3C} celui qui porte une armure.",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Come and see me if you ever decide you'd like to try\nyour hand at raising a monster of your own.",
+    "original_fr": "Si vous voulez élever un monstre, faites-moi signe !",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Stable Master: That's a flame smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Instructeur : C'est une larve ignée. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Stable Master: That's a water smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Instructeur : C'est une larve aqueuse. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Stable Master: That's a light smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Instructeur : C'est une larve céleste. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Stable Master: That's a shadow smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Instructeur : C'est une larve chtonienne. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Stable Master: All right.\nLet's take a look at how strong it is.",
+    "original_fr": "Instructeur : Examinez-le pour mieux le conna¡tre !",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Stable Master: If you ever want to take a closer look\nat your monster's abilities or send it off for some\ntraining, just come and talk to me.",
+    "original_fr": "Instructeur : Pour examiner de nouveau votre monstre\nou l'envoyer s'entra¡ner, adressez-vous {TAG:3C} moi !",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Pit Boss: Isn't your monster off training right now?\nYou'll have to wait for it to get back before you can\nregister it for a battle.",
+    "original_fr": "Employé de l'arène : Votre monstre est parti s'entra¡ner.\nIl pourra participer {TAG:3C} une bataille quand il sera rentré.",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Pit Boss: Let me explain how combat works here.\nAll fights in the Pit are one-on-one matches between\nmonsters.{WAIT_KEY}\nOnce the battle begins, each monster will attack its\nopponent automatically. You can't issue commands,\nbut you can support your monster to help give it a\nfighting chance.{WAIT_KEY}\nPass your monster the right items at the right time,\nand it can use them to unleash abilities it knows or\nheal its wounds.{WAIT_KEY}\nYour monster won't necessarily use an item you give it\nright away, though. And once you've given an item to a\nmonster, it's gone for good—even if the monster\nnever uses it.{WAIT_KEY}\nYou can always pass your monster a new item, even if\nit's already holding one. But if you do, the old item will\nbe lost for good. So always think carefully about which\nitems to give it, and when.{WAIT_KEY}\nBest of luck to you!",
+    "original_fr": "Employé de l'arène : Lors d'une bataille, les monstres\ns'affrontent en duel et attaquent automatiquement leur\nadversaire.{WAIT_KEY}\nCependant, sans votre aide, votre monstre pourrait\navoir du mal {TAG:3C} gagner. Donnez-lui un objet pour lui\npermettre d'utiliser les compétences qu'il a apprises\nou de récupérer des PV !{WAIT_KEY}\nEn lui prêtant main-forte, vous pourriez lui donner\nl'avantage !{WAIT_KEY}\nToutefois, votre monstre n'utilisera pas nécessairement\nl'objet que vous lui avez donné immédiatement.{WAIT_KEY}\nDe plus, vous ne pouvez pas récupérer un objet après\nl'avoir offert {TAG:3C} votre monstre, alors attention ! Si vous\nlui en donnez un autre avant qu'il n'utilise le précédent,\nce dernier sera perdu.",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "I wish I could show you my monster, but he's off\ntraining right now. Such a shame!",
+    "original_fr": "Mon monstre est parti s'entra¡ner. C'est vraiment\ndommage, j'aurais voulu vous le montrer.",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "All right, I'll give you one.\nYou just pick the one you want.",
+    "original_fr": "Bien. Je vais vous confier une de ces quatre créatures.",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

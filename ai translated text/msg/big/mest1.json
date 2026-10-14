@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nTrouvé : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{FROG}: This is it.",
+    "original_fr": "{FROG} : Cet endroit...",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{FROG}: The Fiendlord's keep!",
+    "original_fr": "{FROG} : C'est le palais du Magistère...!",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{FROG}: Ozzie!",
+    "original_fr": "{FROG} : Vinnie !",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Ozzie: Welcome, Glenn! Or should I say, Sir Froggy?\nMwa ha ha! Never expected to see you here.\nAre those your replacements for Cyrus?{WAIT_KEY}\nLord {MAGUS} is a tad busy right now.\nYou'll have to take up your business with me.{WAIT_KEY}\nAfter you take it up with the master swordsman\nSlash, and Flea, the magician, that is. Oh, right...",
+    "original_fr": "Vinnie : Sois le bienvenu, Glenn. Non, attends, tu n'es\nqu'une grenouille désormais.{WAIT_KEY}\nSont-ce les remplaçants de Cyrus ?{WAIT_KEY}\nSon Excellence est actuellement en plein milieu d'un\nrituel important. Je serai votre adversaire.{WAIT_KEY}\nSi vous arrivez {TAG:3C} vaincre d'abord Soja, l'épéiste des\nténèbres, Mayo, le mage du néant, ainsi que...",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Ozzie: And all 100 beasts in this keep, of course!",
+    "original_fr": "Vinnie : ... les 100 monstres de ce palais !",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Please, help us escape...",
+    "original_fr": "Délivrez-nous...",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "From this eternal suffering!",
+    "original_fr": "... de nos souffrances !",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "...",
+    "original_fr": "...",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Hee hee...",
+    "original_fr": "Ha, ha...",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Let's play.",
+    "original_fr": "Jouons ensemble...",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "This is our treasure.",
+    "original_fr": "Notre trésor...",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Do you want our treasure?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Vous voulez notre trésor...?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Really? It's good.",
+    "original_fr": "C'est pourtant un joli trésor...",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Okay, but first...{WAIT_KEY}\nPlay with us! Please!\nPretty please!",
+    "original_fr": "En échange, jouez...{WAIT_KEY}\nJouez avec nous ! Jouez !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Hmm...{WAIT_KEY}\nIt seems you've freed my undying slaves.\nSuch insolence...\n",
+    "original_fr": "Oh...{WAIT_KEY}\nVous vous êtes débarrassés si facilement de mes\ncadavériques amis.",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "{FROG}: It has been ages, Slash.",
+    "original_fr": "{FROG} : Cela fait longtemps, Soja, épéiste des\nténèbres...!",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Slash: I must admit, I'd not even dreamed you\nwould find the courage to come here.{WAIT_KEY}\nHad Cyrus not been with you the last time,\nyour fate would have been the same as all\nthe others.",
+    "original_fr": "Soja : Jamais je n'aurais cru que tu parviendrais\njusqu'ici, Glenn.{WAIT_KEY}\nSi Cyrus n'avait pas été l{TAG:3C} la dernière fois, tu aurais\nsubi le même sort...",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Slash: But I'm sure you'd have fit right in\nwith those skeletal servants of mine!",
+    "original_fr": "Soja : ... que les cadavres que tu viens de rencontrer !",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Slash: You've some prowess.\nFor the first time in ages, perhaps\nI'd best employ all of my own as well!",
+    "original_fr": "Soja : Pas mal. Je vais combattre sérieusement pour la\npremière fois depuis un bon moment.",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Slash: And you, without Cyrus...",
+    "original_fr": "Soja : Mais sans Cyrus...",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Slash: You've no hope!",
+    "original_fr": "Soja : ... pourras-tu me vaincre ?",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Slash: Unbelievable!\nBut to fall fighting for Lord {MAGUS}...",
+    "original_fr": "Soja : Bravo...! Je m'avoue vaincu...",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Slash: There could be no greater honor!",
+    "original_fr": "Soja : Cependant, je n'ai aucun regret, car c'est pour le\nMagistère que je me suis battu...",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "{FROG}: The magician, Flea, I presume?",
+    "original_fr": "{FROG} : Mayo, le mage du néant ?!",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "{FROG}: That was not Flea.\nWhere is the true one?",
+    "original_fr": "{FROG} : Ce n'était pas Mayo... Où est le vrai\nMayo ?!",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Tee hee hee...\nI am here.\nRight here...",
+    "original_fr": "Hi, hi, hi... Je suis ici...",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Greetings, little green one!",
+    "original_fr": "Cela faisait longtemps qu'on ne t'avait vu, ma petite\ngrenouille !",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{MARLE}: What's with her?",
+    "original_fr": "{MARLE} : Qui est cette fille ?",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "{LUCCA}: Who are you?",
+    "original_fr": "{LUCCA} : Qui es-tu ?!",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{ROBO}: Who is this person?",
+    "original_fr": "{ROBO} : Qui est cette personne ?",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "{FROG}: She is a powerful magician.\nDo not lower your guard!\nFlea is not the mere woman she seems.",
+    "original_fr": "{FROG} : Restez sur vos gardes ! C'est Mayo, le\nmage du néant ! Ce n'est pas une femme ordinaire.",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Flea: Yes, yes...\nI'm a man, after all, right?\n*pout*",
+    "original_fr": "Mayo : Ce que tu peux être vexant !\nJe suis un homme, un vrai !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "{MARLE}: That's a guy?",
+    "original_fr": "{MARLE} : Cette fille ?! Un homme...?!",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{LUCCA}: Say what?\nThat's a guy!?",
+    "original_fr": "{LUCCA} : Hein ? Un homme ?! Toi ?!",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "{ROBO}: But its exterior is clearly that of a female.",
+    "original_fr": "{ROBO} : Je ne peux m'empêcher de penser que son\napparence est de toute évidence celle d'une femme...",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Flea: Tee hee hee...\nMan or woman, it's all the same.\nPower is beauty, and I'm deliciously strong!",
+    "original_fr": "Mayo : Hi, hi, hi... Femme ou homme, peu importe.\nLa beauté fait la force !",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Flea: Poor little Froggy!\nYou must be lonely now that Cyrus is gone.{WAIT_KEY}\nAnd to be turned into something so hideous—how\ndreadful!",
+    "original_fr": "Mayo : Maintenant que Cyrus n'est plus l{TAG:3C}, tu dois être\nsi triste... D'autant que tu es devenu une hideuse petite\ngrenouille ! Beurk !",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Flea: But since you've brought your new friends\nover to play...",
+    "original_fr": "Mayo : Mais tu t'es donné tant de mal pour venir jouer\navec moi accompagné de tes nouveaux amis...",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Flea: Let me show you all a good time!",
+    "original_fr": "Mayo : Je me dois de vous accueillir chaleureusement !",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Flea: But...but, I'm so beautiful!{WAIT_KEY}\nLord {MAGUS}...",
+    "original_fr": "Mayo : Comment... avez-vous pu me battre...?\nMa beauté est pourtant sans pareille !{WAIT_KEY}\nSire {MAGUS} ! ©",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "{CRONO}! So this is where you've been since the fair.\nYou had me worried sick!",
+    "original_fr": "{CRONO}, je me demandais où tu étais car tu n'es\npas revenu après la foire... Que fais-tu dans un\nendroit pareil ?",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "You've been very naughty.{WAIT_KEY}\nI think you'll have to die!",
+    "original_fr": "Un aussi vilain garçon...{WAIT_KEY}\n... mérite la mort !",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Nadia...{WAIT_KEY}\nForgive me. I was wrong.\nPlease, return to the castle.",
+    "original_fr": "Marledia...{WAIT_KEY}\nJ'avais tort, reviens au ch{TAG:4A}teau...",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "That's where I'll bury you!",
+    "original_fr": "... dans un cercueil !",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Well, there you are, {LUCCA}!",
+    "original_fr": "Oh, c'est toi, {LUCCA} ?",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "You're still alive?",
+    "original_fr": "Tu es encore en vie ?!",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "{ROBO}, don't waste your energy.",
+    "original_fr": "{ROBO}, n'en fais pas trop !",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "I'm only going to disassemble you anyway!",
+    "original_fr": "De toute façon, je vais te mettre en pièces !",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "{FROG}, you're safe!",
+    "original_fr": "{FROG}, tu es sain et sauf ?",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "That will not do at all.",
+    "original_fr": "Alors, laisse-moi y remédier !",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Dance, dance!\nThe god of all fiends is born tonight!",
+    "original_fr": "Dansez, dansez ! Cette nuit verra la naissance du dieu\ndes mystiques !",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Ah!\nThe sacrifice has arrived!",
+    "original_fr": "Oh, voici le sacrifice !",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Even death does not stop your lust to kill one another.",
+    "original_fr": "Même {TAG:3C} l'état de squelette, ils continuent {TAG:3C} s'entretuer.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Such foolish creatures, you humans!",
+    "original_fr": "Les humains, quelles idiotes créatures...!",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Please, grant me death.",
+    "original_fr": "Laissez-moi mourir...",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Take my life.",
+    "original_fr": "Achevez-moi...",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "The torment...",
+    "original_fr": "Ah...",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "End this misery!",
+    "original_fr": "Arrêtez...",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Ozzie: So, you've made it.",
+    "original_fr": "Vinnie : Vous voil{TAG:3C} donc...",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Ozzie: Flea!",
+    "original_fr": "Vinnie : Mayo !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Ozzie: Slash!",
+    "original_fr": "Vinnie : Soja !!",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{FROG}: Pardons, Ozzie.\nThey cannot help you anymore.",
+    "original_fr": "{FROG} : Dommage, Vinnie, ils ne peuvent plus venir\nt'aider.",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Ozzie: You fly-eating, tongue-flicking...",
+    "original_fr": "Vinnie : Espèce de vaurien gobeur de mouches !",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Ozzie: Oz...{WAIT_KEY}\nOzzie's in a pickle!",
+    "original_fr": "Vinnie : Je...{WAIT_KEY}\nJe suis dans le pétrin !",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "{FROG}: You'll not escape us!",
+    "original_fr": "{FROG} : Tu ne t'échapperas pas !",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Ozzie: Welcome!",
+    "original_fr": "Vinnie : Bienvenue...!",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Ozzie: Heh heh... Not bad.\nHow's this?",
+    "original_fr": "Vinnie : Ho, ho, pas mal. Mais que dites-vous de ça ?!",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Ozzie: *pant* *gasp* *wheeze*...",
+    "original_fr": "Vinnie : Ouf, ouf, ouf...",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Ozzie: What!?\nImpossible!",
+    "original_fr": "Vinnie : Gnnniii ! Impossible...!",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Ozzie: Doh!\nYou weren't supposed to make it this far!",
+    "original_fr": "Vinnie : Grrr... Est-ce la fin ?!",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{FROG}: Ozzie...\nYour time is nigh.",
+    "original_fr": "{FROG} : Le moment est venu de payer pour tes\ncrimes, Vinnie.",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Ozzie: Heh heh heh...{WAIT_KEY}\nLord {MAGUS} should have finished summoning Lavos\nby now.",
+    "original_fr": "Vinnie : Ga, ha, ha, ha...{WAIT_KEY}\nSon Excellence est probablement déj{TAG:3C} en train\nd'invoquer le grand Lavos...!",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Ozzie: I won't be defeated by you, I won't!\nNo attack can pierce my barrier!\nI'm invincible!",
+    "original_fr": "Vinnie : Je ne serai pas vaincu ! Je ne serai pas vaincu !\nMa barrière saura repousser toutes les attaques !",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Ozzie: Gwah hah hah hah! Missed me!",
+    "original_fr": "Vinnie : Ga, ha, ha, ha...",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Ozzie: Where do you think you're aiming!?",
+    "original_fr": "Vinnie : C'est tout ce que tu sais faire ?",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Ozzie: Mwee hee hee...",
+    "original_fr": "Vinnie : Ga, ha, ha, ha...",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Ozzie: Huh!?",
+    "original_fr": "Vinnie : Hein ?!",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{MARLE}: That was a breeze!",
+    "original_fr": "{MARLE} : C'était du g{TAG:4A}teau !",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "{LUCCA}: What's that guy's problem?",
+    "original_fr": "{LUCCA} : C'était quoi, son problème, au juste ?",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "{ROBO}: I wonder what affliction of the mind\nthat one must have been suffering from.",
+    "original_fr": "{ROBO} : Quel étrange personnage, ce Vinnie...",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{FROG}: Time is our enemy now.\nWe must hurry to {MAGUS}!",
+    "original_fr": "{FROG} : Nous n'avons pas une minute {TAG:3C} perdre !\nDépêchons-nous de trouver {MAGUS} !",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Dal zumal phara-lo lierra...",
+    "original_fr": "Da, zuma, lafa, ro, la¿ra...",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Cast open the gates that lie betwixt heaven and earth...",
+    "original_fr": "Sois tissé entre ciel et terre...",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "In exchange for the life of this world...",
+    "original_fr": "En échange de la vie de ce monde...!",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "{FROG}: {MAGUS}!",
+    "original_fr": "{FROG} : {MAGUS} !!",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "{MAGUS}: Ah, that frog of so many days ago.{WAIT_KEY}\nHow have you fared since last we met?",
+    "original_fr": "{MAGUS} : La grenouille de l'autre fois...?{WAIT_KEY}\nQue penses-tu de ta vie depuis ?",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "{FROG}: Well enough. I owe you my gratitude.\nThis form has been a blessing in disguise.\nWithout it...",
+    "original_fr": "{FROG} : Je te suis reconnaissant. C'est justement\nparce que j'ai une telle apparence...",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "{FROG}: There are things I'd never have obtained!",
+    "original_fr": "{FROG} : ... que j'ai pu obtenir ceci !",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "{MAGUS}: Ah, the Masamune...\nThen you've come for me.{GLYPH:405}06{GLYPH:406}{GLYPH:407}\nLet us hope no others interfere this time.{GLYPH:405}08{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MAGUS} : Oh... Grandléon...{GLYPH:405}06{GLYPH:406}{GLYPH:407}\nEspérons que personne ne nous fera obstacle, cette\nfois.{GLYPH:405}08{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "{MAGUS}: Again, the bitter black winds begin to\nhowl.{GLYPH:405}06{GLYPH:406}{GLYPH:407}\nVery well.{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MAGUS} : Le vent sombre se lamente de nouveau...{GLYPH:405}06{GLYPH:406}{GLYPH:407}\nViens, je t'attends...{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "{MAGUS}: Come, if it is death you seek!{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MAGUS} : J'espère que tu es prêt {TAG:3C} mourir !{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{MAGUS}: Your skill with the Masamune is that great\nalready?",
+    "original_fr": "{MAGUS} : Grandléon... Tu la ma¡trises {TAG:3C} ce point...",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "{MARLE}: What's that?",
+    "original_fr": "{MARLE} : Qu'est-ce qui se passe ?!",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "{LUCCA}: What's happening?",
+    "original_fr": "{LUCCA} : Que se passe-t-il ?!",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "{ROBO}: Large-scale energy reaction detected!",
+    "original_fr": "{ROBO} : Une puissante réaction énergétique !",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "{FROG}: Could it be Lavos?",
+    "original_fr": "{FROG} : Est-ce Lavos ?!",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "{MAGUS}: No!\nHe mustn't awaken from his slumber yet!",
+    "original_fr": "{MAGUS} : Malédiction ! Il ne doit pas se réveiller\nmaintenant !",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "{MARLE}: Awaken?\nYou just created him, didn't you?",
+    "original_fr": "{MARLE} : Se réveiller ? Mais tu l'as créé !",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "{LUCCA}: What do you mean?\nDidn't you create him?",
+    "original_fr": "{LUCCA} : Que veux-tu dire, se réveiller ?\nNe l'as-tu pas créé ?!",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "{ROBO}: Awaken? I do not understand.\nAccording to the records, Lavos was created here,\nat this precise moment.",
+    "original_fr": "{ROBO} : Se réveiller ? Selon les archives,\nLavos est né {TAG:3C} cet instant précis...",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "{MAGUS}: You fools!\nI but summoned him!{WAIT_KEY}\nHe has dwelt within the earth for aeons, absorbing\nthe land's energy and growing ever stronger!",
+    "original_fr": "{MAGUS} : Imbéciles ! Je n'ai fait que l'invoquer !{WAIT_KEY}\nIl existe depuis des lustres, loin sous la terre,\ncontinuant de cro¡tre lentement au fur et {TAG:3C}\nmesure qu'il absorbe l'énergie de la planète !",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "{MARLE}: What?",
+    "original_fr": "{MARLE} : Qu'est-ce que tu dis ?!",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "{LUCCA}: Then, he wasn't born in this age.",
+    "original_fr": "{LUCCA} : Alors, cela veut dire qu'il n'est pas né {TAG:3C}\ncette époque...",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "{ROBO}: It appears my data was incorrect.",
+    "original_fr": "{ROBO} : Tu veux dire que mes archives sont\nincorrectes ?",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "{FROG}: What is this energy in the air?",
+    "original_fr": "{FROG} : Qu'est-ce que c'est ?!",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "{MARLE}: A Gate?",
+    "original_fr": "{MARLE} : Un portail ?!",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "{LUCCA}: A Gate!?\nAnd a huge one, too!",
+    "original_fr": "{LUCCA} : Un portail ?! Il est énorme...!",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "{ROBO}: I am detecting the emergence of a Gate of\ntheoretically improbable proportions!",
+    "original_fr": "{ROBO} : Impossible ! Un portail d'une taille pareille\nest inconcevable !",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "{MAGUS}: You!\nIf you had not interfered...!",
+    "original_fr": "{MAGUS} : Si seulement vous n'étiez pas venus...!",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "{MARLE}: {CRONO}!",
+    "original_fr": "{MARLE} : {CRONO} !!",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "{LUCCA}: We're being drawn in!",
+    "original_fr": "{LUCCA} : Nous allons être aspirés...!",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "{ROBO}: An enormous gravity sink is forming!",
+    "original_fr": "{ROBO} : L'énergie gravitationnelle est\nsurpuissante !",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "{FROG}: Whoa—!",
+    "original_fr": "{FROG} : Aaah !",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "{LUCCA}: Phew...\nThis one's a bit stubborn.{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\n{ROBO}: My apologies, {LUCCA}...{GLYPH:405}06{GLYPH:406}{GLYPH:407}\n{LUCCA}: You don't have to apologize.\nIt was humans who put all these weapons\non you in the first place.{GLYPH:405}0f{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{LUCCA} : Dis donc, celui-l{TAG:3C} est plutôt coriace.{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\n{ROBO} : Je suis désolé, {LUCCA}...{GLYPH:405}06{GLYPH:406}{GLYPH:407}\n{LUCCA} : Ce n'est pas ta faute. Ce sont des humains\nqui t'ont muni d'armes, après tout.{GLYPH:405}0f{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "{LUCCA}: That idiot's the one who should be\napologizing, sitting around sleeping all the time.\nI should wake him up and make him help!{GLYPH:405}0e{GLYPH:406}{GLYPH:407}\nVoice: Don't you dare!{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{LUCCA} : Pfft, il dort comme une souche, cet idiot.\nJe me demande si je ne devrais pas le réveiller pour\nqu'il me donne un coup de main...{GLYPH:405}0f{GLYPH:406}{GLYPH:407}\nNon !{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "{MARLE}: Let him sleep.\nHe's earned it, fighting that long and hard.{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MARLE} : Laissons-le dormir. Il le mérite, après une\ntelle bataille.{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "{FROG}: ...{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{FROG} : ...{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "{LUCCA}: Hmph...\nFine, whatever.{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{LUCCA} : Hum... Bon, d'accord.{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "{MARLE}: Where are you going?\nI just made some tea!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MARLE} : Où t'en vas-tu comme ça ? Je viens tout\njuste de préparer du thé pour tout le monde.{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "{FROG}: I've some business to attend.{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{FROG} : J'ai quelque chose {TAG:3C} régler.{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{MARLE}: Hee hee...{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MARLE} : Ha, ha...{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Fool!{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "Pauvre fou...{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "So, you wish to die an early death!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "Il y avait longtemps que je n'avais pas vu quelqu'un\naussi pressé de mourir !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "Tee hee hee!\nSomebody's gotten himself in too deep!{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "Hi, hi, hi... Tu dois me sous-estimer...{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "Thinking one man is enough to take me...{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "Si tu crois pouvoir me vaincre seul !{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "Y-you!{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "Mais c'est...!!{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Dal zumal phara-lo lierra...\nCast open the gates that lie betwixt heaven and earth...{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "Da, zuma, lafa, ro, la¿ra...\nSois tissé entre ciel et terre...{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "In exchange for the life of this world...{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "En échange de la vie de ce monde...!{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "{MAGUS}: So, you came.{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MAGUS} : Tu es donc venu...{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "{MAGUS}: Fiends and humans alike are nigh\ndestroyed.{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\nSave you and I, the ones who remain are but sheep.{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\nThe victor of this battle shall have the world as\nhis prize.{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\nNo—he shall have the future!{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MAGUS} : Les mystiques et les humains ont pour la\nplupart péri...{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\nEn dehors de toi et moi, ceux qui ont survécu ne sont\nque des vers...{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\nAprès cette bataille, celui d'entre nous qui sera\ntoujours en vie aura le monde entre ses mains...{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\nNon, je devrais plutôt dire, le Futur...{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "{FROG}: It seems as such.\nBut it is no prize I seek.{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{FROG} : On dirait bien... Cependant, ce genre de\nchose m'importe peu.{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "{FROG}: It is vengeance!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{FROG} : Tout ce qui compte, c'est notre combat !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "{MAGUS}: Ah, the Masamune...{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\nVery well.{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MAGUS} : Oh... Grandléon...{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\nViens, je t'attends...{GLYPH:405}06{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "What're you lookin' at?{WAIT_KEY}\nMe? I'm Spekkio, the Master of War!\nI watch all kinds of battles from here.",
+    "original_fr": "Qu'est-ce que vous me voulez ?{WAIT_KEY}\nMoi ? Je suis Specchio, le dieu de la guerre !\nD'ici, j'observe les conflits de différentes\népoques.",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Spekkio: How do I look to you?\n{TAG:38}{TAG:38}{GLYPH:394}Strong!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Weak!{GLYPH:397}",
+    "original_fr": "Specchio : Selon vous, ai-je l'air fort ou faible ?\n       {GLYPH:394}Fort{GLYPH:395}\n       {GLYPH:396}Faible{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Spekkio: I see.\nHow I look depends on how strong you are.\nIf you're strong, I look strong.\nIf you're weak, I look weak.",
+    "original_fr": "Specchio : Je vois. Mon apparence est une réflexion\nde votre force. Si j'ai l'air fort, c'est que vous êtes\nforts, si j'ai l'air faible, c'est que vous êtes faibles.",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "Spekkio: Hm?{WAIT_KEY}\nOh, you've got it in you, don't you?\nThat must be why the old guy let you through.{WAIT_KEY}\nSee, a long, long time before you were born,\nthere was a kingdom where magic flourished.\nEveryone there could use it!{WAIT_KEY}\nBut the people abused their powers, and ended\nup destroyin' the place. After that, there wasn't\nanyone left who could use magic—well, exceptin'\nfiends, of course.{WAIT_KEY}\nBut you have it! That inner strength, I mean.\nMagic needs power of the heart.\nThat's where it flows from.{WAIT_KEY}\nThere're four types of magic: fire, water, light,\nand shadow. Not everyone's got the same type.",
+    "original_fr": "Specchio : Hum ?{WAIT_KEY}\nVous possédez le pouvoir de l'{TAG:4A}me...{WAIT_KEY}\nAh, c'est pour ça que le vieillard vous a laissés entrer\nici.{WAIT_KEY}\nBien avant votre naissance, il y avait un royaume qui\nprospérait gr{TAG:4A}ce {TAG:3C} la magie... Tous ceux qui y habitaient\npouvaient s'en servir.{WAIT_KEY}\nCependant, ils en devinrent dépendants et le royaume\nfut détruit... Par la suite, personne ne put utiliser la\nmagie, {TAG:3C} part les mystiques, évidemment.{WAIT_KEY}\nToutefois, vous l'avez, cette force de l'{TAG:4A}me, et c'est\nd'elle que la magie tire son pouvoir.{WAIT_KEY}\nElle est divisée en quatre éléments : lumière, ténèbres,\nfeu et eau.",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "Spekkio: You, with the punk hairdo!\nYou've got light.",
+    "original_fr": "Specchio : Toi, avec les cheveux pointus, ton élément\nest la lumière.",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Spekkio: The gal with the ponytail has the power of\nwater.",
+    "original_fr": "Specchio : L'élément de la fille avec la queue de cheval\nest l'eau.",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "Spekkio: That girl with the goofy glasses...\nHer power is fire.",
+    "original_fr": "Specchio : L'élément de la fille aux lunettes est le feu.",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "Spekkio: What's with this big clunky thing?\nSorry, buddy. But, well...you aren't alive.{WAIT_KEY}\nYou've got great inner strength, for what it's worth.\nIt's just...you aren't descended from the ancient magic\nusers, so you're never goin' to be able to cast spells.{WAIT_KEY}\nYour laser weapons and whatnot should suffice, though.\nThey can inflict shadow damage, kind of like shadow\nmagic.",
+    "original_fr": "Specchio : L'élément de cette énorme poupée est...\nDis, tu n'es pas un être vivant.{WAIT_KEY}\nTon {TAG:4A}me est forte, toi aussi, mais puisque tu n'es pas\nun descendant de ces anciens magiciens, tu ne peux\npas utiliser la magie.{WAIT_KEY}\nCependant, tes lasers ont un pouvoir très destructif\nqui ressemble {TAG:3C} celui de l'élément ténèbres.",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "Spekkio: By the way, it's not just magic—everything\nis made up of those four elements.",
+    "original_fr": "Specchio : Et ce n'est pas seulement la magie, tout ce\nqui existe est constitué d'un mélange de ces quatre\néléments.",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Spekkio: All right. Starting from the door, circle\nclockwise along the walls of my room three times\nand say \"I want to use magic!\" over and over in\nyour head.{WAIT_KEY}\nDon't lose track, now. Three times!\nDon't want you churnin' yourselves into butter.",
+    "original_fr": "Specchio : En priant silencieusement {TAG:64} Je veux utiliser\nla magie ! {TAG:65}, faites trois fois le tour de cette pièce dans\nle sens des aiguilles d'une montre, en commençant\ndevant la porte !{WAIT_KEY}\nNe faites pas d'erreur, surtout !",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "Spekkio: No cheatin'!\nI've got my eye on you!{WAIT_KEY}\nDo it over! From the door, clockwise along the wall,\nthree times!",
+    "original_fr": "Specchio : Pas de tricherie ! Je vous regarde !{WAIT_KEY}\nRecommencez ! Faites trois fois le tour de la pièce dans\nle sens des aiguilles d'une montre, en commençant\ndevant la porte !",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Spekkio: Well done!",
+    "original_fr": "Specchio : Très bien !",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Spekkio: Ipso facto, meeny moe...MAGIC-O!",
+    "original_fr": "Specchio : Abracadabri, abracadabra !",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "{GLYPH:384}\n{CRONO} learned to use magic!",
+    "original_fr": "{GLYPH:384}\n{CRONO} peut désormais utiliser la magie !",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "{GLYPH:384}\n{MARLE} learned to use magic!",
+    "original_fr": "{GLYPH:384}\n{MARLE} peut désormais utiliser la magie !",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{GLYPH:384}\n{LUCCA} learned to use magic!",
+    "original_fr": "{GLYPH:384}\n{LUCCA} peut désormais utiliser la magie !",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "{GLYPH:384}\n{ROBO} cannot learn magic!",
+    "original_fr": "{GLYPH:384}\n{ROBO} ne peut pas utiliser la magie !",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Spekkio: So! All fortified with magic!\nWanna try it out?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Specchio : Alors, excités par ce nouveau pouvoir qui\nvous envahit ? Voulez-vous l'essayer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Spekkio: All right!",
+    "original_fr": "Specchio : Oh ! Je meurs d'impatience !",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Spekkio: What do you want?\nYou lookin' for some practice?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Specchio : Qu'y a-t-il ? Vous voulez vous mesurer\n{TAG:3C} moi ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Spekkio: Any time, friends.\nAfter all, I'm the Master of War!",
+    "original_fr": "Specchio : Revenez quand vous voulez. De toute façon,\nje suis le dieu de la guerre !",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Spekkio: Oh me, oh my...{WAIT_KEY}\nThat was embarrassing.",
+    "original_fr": "Specchio : Hum...?{WAIT_KEY}\nComment ai-je pu perdre...?!",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Spekkio: There must have been some mistake!\nI'm the Master of War!{WAIT_KEY}\nOh yeah, it's 'cause I taught you magic!\nYeah, that's why you won!",
+    "original_fr": "Specchio : Il doit y avoir une erreur quelque part !\nJe suis le dieu de la guerre ! Ah, je sais ! C'est parce\nque JE vous ai enseigné la magie que vous avez gagné !",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Spekkio: See, I really am the Master of War!\nWah ha ha!",
+    "original_fr": "Specchio : Je suis le dieu de la guerre, pas de doute\nl{TAG:3C}-dessus ! La, lalaa ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Spekkio: Hmph...\nGuess you, uh, ain't so bad after all.\nHere, this is for you.",
+    "original_fr": "Specchio : Hum... Pas mal. D'accord, prenez ceci.",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Spekkio: What can I say? I'm the Master of War!",
+    "original_fr": "Specchio : Je suis le dieu de la guerre ! Je suis\ngénéreux ! La, lalaa ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "Spekkio: Hee hee hee!\nI win!",
+    "original_fr": "Specchio :  La, lalaa ! Ê\nJ'ai gagné !",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "Spekkio: You make any new friends, you bring 'em\nto see me, you hear? I like you guys!",
+    "original_fr": "Specchio : Si vous vous faites de nouveaux amis, venez\nme les présenter. Vous êtes marrants !",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "Spekkio: Now there's a weird fellow.\nLooks like his power is water.\nAnd a frog—who'd have guessed?",
+    "original_fr": "Specchio : Quelle étrange créature que voil{TAG:3C} !{WAIT_KEY}\nComme vous pouvez le deviner par son apparence, son\nélément est l'eau.",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{GLYPH:384}\n{FROG} learned to use magic!",
+    "original_fr": "{GLYPH:384}\n{FROG} peut désormais utiliser la magie !",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "Spekkio: Hey there, sweetheart!{WAIT_KEY}\nUnfortunately, you were born before magic existed,\nso casting spells is right out. But if it's any\nconsolation, you seem to have plenty of other assets.\nAhem.",
+    "original_fr": "Specchio : Quelle jolie créature que voil{TAG:3C} !{WAIT_KEY}\nMalheureusement, ma chérie, tu es née avant l'ère des\nmagiciens. Tu es canon, mais tu ne peux pas utiliser la\nmagie.",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "{GLYPH:384}\n{AYLA} cannot learn magic.",
+    "original_fr": "{GLYPH:384}\n{AYLA} ne peut pas utiliser la magie !",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "Spekkio: Wowza!{WAIT_KEY}\nYou hauled in a marlin here, kids!{WAIT_KEY}\nHe can use shadow magic.\nHe could probably teach me a thing or two,\nbut there's nothin' I can teach him.",
+    "original_fr": "Specchio : ...!!{WAIT_KEY}\nVotre nouveau compagnon est vraiment fantastique !{WAIT_KEY}\nIl peut utiliser le pouvoir exceptionnel des ténèbres...!\nIl n'y a rien que je puisse lui apprendre.",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "Spekkio: Hey, that spiky-haired fellow hasn't\nbeen coming around lately.",
+    "original_fr": "Specchio : Hum ? Il y a un moment que je n'ai pas vu le\ngarçon aux cheveux pointus.",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "Spekkio: Hey, punkhead!\nWhere ya been?",
+    "original_fr": "Specchio : Ah ! Le garçon aux cheveux pointus !\nÇa va ? Où étais-tu passé ?",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "{GLYPH:384}\nSpekkio's special refresher set!{WAIT_KEY}{GLYPH:384}\n\nObtained 1 Magic Capsule and 5 Ethers!",
+    "original_fr": "{GLYPH:384}\nVous obtenez l'assortiment rafra¡chissant\nde Specchio !{WAIT_KEY}{GLYPH:384}\n\nUne gélule de magie et cinq éthers !",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "{GLYPH:384}\nSpekkio's choice set!{WAIT_KEY}{GLYPH:384}\n\nObtained 1 Magic Capsule and 5 Mid-Ethers!",
+    "original_fr": "{GLYPH:384}\nVous obtenez l'assortiment flexible\nde Specchio !{WAIT_KEY}{GLYPH:384}\n\nUne gélule de magie et cinq super-éthers !",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "{GLYPH:384}\nSpekkio's healthy choice set!{WAIT_KEY}{GLYPH:384}\n\nObtained 1 Magic Capsule and 5 Hi-Ethers!",
+    "original_fr": "{GLYPH:384}\nVous obtenez l'assortiment sain\nde Specchio !{WAIT_KEY}{GLYPH:384}\n\nUne gélule de magie et cinq méga-éthers !",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "{GLYPH:384}\nSpekkio's gratuity set!{WAIT_KEY}{GLYPH:384}\n\nObtained 1 Magic Capsule, 1 Speed Capsule,\n1 Strength Capsule, and 10 Elixirs!",
+    "original_fr": "{GLYPH:384}\nVous obtenez l'assortiment gracieux\nde Specchio !{WAIT_KEY}{GLYPH:384}\n\nUne gélule de magie, une gélule de rapidité,\nune gélule de force et dix élixirs !",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "{GLYPH:384}\nSpekkio's cheer and joy set!{WAIT_KEY}{GLYPH:384}\n\nObtained 10 Magic Capsules, 10 Speed Capsules,\n10 Strength Capsules, and 10 Megalixirs!{WAIT_KEY}{GLYPH:384}\n\nReceived enough of Spekkio's praise\nto last a year!",
+    "original_fr": "{GLYPH:384}\nVous obtenez l'assortiment joyeux\nde Specchio !{WAIT_KEY}{GLYPH:384}\n\nDix gélules de magie, dix gélules de rapidité,\ndix gélules de force et dix ultra-élixirs...!{WAIT_KEY}{GLYPH:384}\n\nIl y a de quoi faire pendant un an !",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "Spekkio: Gimme a break, fellas!\nI'm empty!",
+    "original_fr": "Specchio : Ça suffit ! Je n'ai plus rien {TAG:3C} vous offrir !",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "Spekkio: What're you laughin' at?{WAIT_KEY}\nDon't judge a book by its cover.\nStrength's got nothin' to do with looks!",
+    "original_fr": "Specchio : Pourquoi vous riez comme ça...?{WAIT_KEY}\nL'habit ne fait pas le moine.",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "{GLYPH:384}\nIt's empty!",
+    "original_fr": "{GLYPH:384}\nIl est vide !",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

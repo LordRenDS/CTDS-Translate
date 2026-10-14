@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "This is the Queen's palace, and the center of the\nMagic Kingdom of Zeal.{WAIT_KEY}\nWhich is to say, this is the center of the universe.",
+    "original_fr": "Bienvenue au palais royal, le c{TAG:61}ur du royaume de\nZhyle...{WAIT_KEY}\nAutrement dit, bienvenue au centre de l'univers !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Her Majesty said she had business at the Ocean Palace.\nNone may pass until her return.",
+    "original_fr": "Personne ne peut passer pendant que la reine est au\nsanctuaire sous-marin.",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "That door cannot be opened from the outside,\nsave with a powerful magic key like Lady Schala's\npendant.",
+    "original_fr": "Il est impossible d'ouvrir cette porte scellée de\nl'extérieur {TAG:3C} moins d'avoir une clef puissante\npour rompre le sort, comme le pendentif de\nmademoiselle Sarah.",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Your pendant—it looks identical to Lady Schala's!{WAIT_KEY}\nI heard that when Lady Schala communes with the\nMammon Machine, her pendant glows with a strange\nlight.",
+    "original_fr": "Oh, ce pendentif... Il ressemble beaucoup {TAG:3C} celui de\nmademoiselle Sarah.{WAIT_KEY}\nJ'ai entendu dire que ce dernier émet une lueur\nmystérieuse quand mademoiselle Sarah communie\navec le réceptacle sacré.",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "My, what strange clothes!\nYou must be travelers from afar.{WAIT_KEY}\nUse the Font of Recovery if you'd like to\nrecuperate from your long journey.",
+    "original_fr": "Oh, comme vous portez d'étranges vêtements !\nVous devez venir de très loin.{WAIT_KEY}\nRécupérez donc de la fatigue du voyage gr{TAG:4A}ce {TAG:3C} cette\nsource régénératrice.",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Do you like plants, traveler?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Aimez-vous les plantes, voyageurs ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "I see.\nThen you're of a mind with Her Majesty.",
+    "original_fr": "Je vois... Vous êtes comme la reine.",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Oh, I love them, too!{WAIT_KEY}\nBut the Queen ordered me to burn this tiny\nsapling I received from the Guru of Life.{WAIT_KEY}\nHe said it was a special tree, with powers\nto restore the earth.",
+    "original_fr": "Oh, je les adore, moi aussi !{WAIT_KEY}\nCependant, la reine m'a ordonné de br{TAG:63}ler ce jeune\narbre que m'a donné le sage de la vie...{WAIT_KEY}\nCe dernier m'a pourtant dit que l'arbre avait l'étrange\npouvoir de protéger la végétation...",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Oh, what shall I do?\n{TAG:38}{TAG:38}{GLYPH:394}Burn it.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Grow it in secret.{GLYPH:397}",
+    "original_fr": "Que devrais-je faire ?\n       {GLYPH:394}Le br{TAG:63}ler !{GLYPH:395}\n       {GLYPH:396}Le planter quelque part{GLYPH:402}\n       {GLYPH:403}en secret...{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "You're right.\nI must obey Her Majesty's orders, mustn't I?",
+    "original_fr": "Bien... Après tout, si c'est l'ordre de la reine...",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "You're right!\nQueen's orders though they may be, it wouldn't\ndo to burn a gift from the Guru of Life.{WAIT_KEY}\nVery well, then. I'll care for it somewhere\nsafe and secret. Someday it just may help\nsomeone else who loves the earth and trees.",
+    "original_fr": "Vous avez raison ! Même si la reine me l'ordonne, je ne\npeux pas br{TAG:63}ler quelque chose que m'a donné le sage\nde la vie...{WAIT_KEY}\nJe vais planter ce jeune arbre quelque part et en\nprendre grand soin.{WAIT_KEY}\nIl sera peut-être utile un jour {TAG:3C} quelqu'un qui voudra\nprotéger l'environnement.",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "If I'm reborn, I hope it will be in a land\nfull of verdant forests.",
+    "original_fr": "Dans ma prochaine vie, j'aimerais vivre sur la terre en\nharmonie avec la nature...",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "The Queen's two children, Lady Schala and Lord Janus,\nget along so well.{WAIT_KEY}\nIf only young Lord Janus would open up to others...",
+    "original_fr": "Les deux enfants de la reine, mademoiselle Sarah et\nJanus, s'entendent très bien ensemble.{WAIT_KEY}\nSi seulement Janus pouvait ouvrir son c{TAG:61}ur {TAG:3C} d'autres\npersonnes que mademoiselle Sarah...",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Were you aware that Belthasar, the Guru of Reason,\nmaintains secret chambers in Enhasa and Kajar?",
+    "original_fr": "Le saviez-vous, voyageurs ? On dit que Gasch, le sage\nde la raison, a des salles secrètes {TAG:3C} Enhassa et Kajar.",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "The Queen's counsel, Lord Dalton, was in charge of\nthe Ocean Palace's construction until a wandering\nprophet arrived and took over.{WAIT_KEY}\nLord Dalton's in a foul mood these days.\nBest avoid him if you can.",
+    "original_fr": "Auparavant, Dalton, le bras droit de la reine, était\nen charge du projet du sanctuaire sous-marin,\nmais maintenant, le prophète errant l'a remplacé.{WAIT_KEY}\nDalton est de très mauvaise humeur, alors vous feriez\nmieux de l'éviter pendant quelque temps.",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "That man appeared only recently, but he earned the\nQueen's trust quickly with his startlingly accurate\npredictions.{WAIT_KEY}\nHis origins are a mystery. He's not one of us\nEnlightened Ones, but nor is he an Earthbound\nOne. From where could such a man have come?",
+    "original_fr": "Ce prophète est arrivé au palais il y a peu de temps et a\nacquis la confiance de la reine par des prédictions qui\nse sont avérées justes.{WAIT_KEY}\nPersonne ne sait d'où il vient. Il n'est pas un illuminé\ncomme nous et il va sans dire qu'il n'est pas un terrien\nnon plus... Hum...",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "The completion of the Ocean Palace will secure\neverlasting glory for the kingdom of Zeal.{WAIT_KEY}\nThere will be no more fear or sadness, only\neternal peace.",
+    "original_fr": "Quand le sanctuaire sous-marin sera terminé, le\nroyaume de Zhyle sera enveloppé par la lumière\néternelle...{WAIT_KEY}\nIl n'y aura plus de peur ni de tristesse. Seule la sérénité\nsans fin nous attend.",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "The source of our energy rests deep below the sea.\nOnce its exact location was determined, we began\nconstructing the Ocean Palace there.",
+    "original_fr": "Une source d'énergie énorme sommeille tout au fond de\nl'océan.{WAIT_KEY}\nAvec la découverte de son emplacement exact, nous\navons enfin pu réaliser le projet de construire le\nsanctuaire sous-marin.",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "The portal to the Ocean Palace is in Her Majesty's\naudience chamber. Mind you, it hasn't been completed\nyet.",
+    "original_fr": "On dit que l'entrée du sanctuaire sous-marin, qui n'est\npas encore terminé, est située dans la salle d'audience\nde la reine.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "The Queen must have borne a great deal of pain\nand sorrow in silence.{WAIT_KEY}\nProgress requires equal sacrifice.\nMuch must have been given to allow\nZeal to attain the glory it now knows.",
+    "original_fr": "La reine a s{TAG:63}rement enduré seule un chagrin et une\ndouleur indicibles.{WAIT_KEY}\nLe prix {TAG:3C} payer pour l'acquisition d'un grand pouvoir est\nsouvent très élevé. C'est au sacrifice de la reine que\nnous devons ce que le royaume est devenu aujourd'hui.",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "That wandering prophet is amazing.\nEvery prophecy to escape his lips has come to pass.{WAIT_KEY}\nIt's as though he already knows the events to come.\nUnnerving, is it not?",
+    "original_fr": "Ce prophète errant peut vraiment prédire l'avenir !\nSes prédictions sont toujours justes !{WAIT_KEY}\nC'est comme s'il savait d'avance ce qui allait arriver...\nC'est un peu troublant.",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "They say that Gaspar, the Guru of Time,\ncontinues his work on some deserted island.{WAIT_KEY}\nHe strives to make a \"Time Egg,\" or some such\nnonsense. But no one has seen him for years.",
+    "original_fr": "On raconte que Hasch, le sage du temps, continue ses\nrecherches dans la solitude, sur une petite ¡le, quelque\npart.{WAIT_KEY}\nIl serait en train de fabriquer un {TAG:64} {TAG:61}uf de temps {TAG:65}, ou\nquelque chose du genre... Personne ne l'a vu depuis\nplusieurs années...",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Even Belthasar, who designed the Blackbird and\nthe Ocean Palace, has vanished.{WAIT_KEY}\nHow strange that the three Gurus who guided Zeal\nto its present glory have all disappeared at once.",
+    "original_fr": "On ne sait pas non plus où est passé Gasch, le sage\nde la raison, celui qui a conçu le Cygne noir et le\nsanctuaire sous-marin.{WAIT_KEY}\nQui aurait cru que les trois sages qui ont guidé le\nroyaume de Zhyle se cacheraient tous...?",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Beings that are born of dreams must always return\nto them in the end.{WAIT_KEY}\nBut at times, people's dreams and prayers call\nupon the power of Lavos and are made reality.",
+    "original_fr": "Il y a aussi des créatures qui naissent de rêves et y\nretourneront un jour...{WAIT_KEY}\nParfois, les souhaits et les désirs des gens peuvent\ndevenir réalité par le biais du pouvoir de Lavos.",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "You'd do best to speak to the Queen or the Gurus\nif you wish to learn of the Mammon Machine and the\nOcean Palace.{WAIT_KEY}\nBut just between you and I, I'd not place much faith\nin any answers Her Majesty gave you right now.\nShe's been...different as of late.",
+    "original_fr": "Si vous voulez en savoir plus au sujet du réceptacle\nsacré ou du sanctuaire sous-marin, vous devriez vous\nadresser aux trois sages ou {TAG:3C} la reine.{WAIT_KEY}\nMais entre vous et moi, je ne sais pas quelles sortes de\nréponses la reine vous donnerait actuellement...",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Listen to me. The earth is alive, and always has\nbeen. She changes slowly, so you never see it.\nFrom flat lands into mountains, from mountains\ninto seas...{WAIT_KEY}\nA way may someday open even to the forbidden shrine\nin the north, or to the Sun Temple—but it could take\nuntold years.",
+    "original_fr": "îcoutez bien, la planète est vivante. Au cours des\nmillénaires, elle se transforme lentement... Les plaines\ndeviennent des montagnes... Les montagnes deviennent\ndes océans...{WAIT_KEY}\nAprès des dizaines de milliers d'années, il serait\nprobablement possible d'atteindre des endroits qui\nsont actuellement inaccessibles, tel que le sanctuaire\ndu nord ou le berceau de la lumière.",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "I want to be the wind, Masa!",
+    "original_fr": "Je veux devenir le vent, Gran !",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Oh, you will someday—if you try hard enough.",
+    "original_fr": "Tu le seras un jour, j'en suis certain, frérot...",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Our big sister Doreen went to Enhasa again.",
+    "original_fr": "Notre s{TAG:61}ur Dorinne est encore partie s'amuser {TAG:3C}\nEnhassa.",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Yeah...\nShe likes to dream.",
+    "original_fr": "Oui... C'est parce qu'elle aime les rêves.",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "I like the wind better than dreams!\nWhoosh!",
+    "original_fr": "Moi, je préfère le vent !\nOuuuuh !",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "I wonder how the Guru of Life is doing.\nWhat are we supposed to do without him?\nHumans—I'll tell ya!",
+    "original_fr": "Je me demande ce que fabrique le vieux sage de la vie...\nIl y a longtemps qu'on ne l'a pas vu. Pfft, ces humains...",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Oh, itchy...\nCould you...scratch my back?\n{TAG:38}{TAG:38}{GLYPH:394}Sure!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No way!{GLYPH:397}",
+    "original_fr": "Pourriez-vous...\nPourriez-vous me gratter le dos ?\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "...{WAIT_KEY}\nHow mean...",
+    "original_fr": "...{WAIT_KEY}\nVous êtes méchants...",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Oh, wonderful!",
+    "original_fr": "Ouah, youpi !",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Uhnnn... Oh, right there!\nYou got it.{WAIT_KEY}\nAhhh...",
+    "original_fr": "Oui...\nL{TAG:3C}, l{TAG:3C}...{WAIT_KEY}\nAah...!",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Whew...\nThank you!",
+    "original_fr": "Ouf...\nMerci...",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "{GLYPH:384}\nDiscovered the Nu's scratching spot!",
+    "original_fr": "{GLYPH:384}\nVous avez découvert le point sensible du gnu !",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "That pendant of yours...{WAIT_KEY}\nIt looks like Lady Schala's, but it doesn't glow like hers.",
+    "original_fr": "Oh, ce pendentif que vous portez...{WAIT_KEY}\nIl ressemble beaucoup {TAG:3C} celui de mademoiselle\nSarah.{WAIT_KEY}\nCependant, il n'en a pas l'éclat mystérieux.",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Lady Schala's pendant was made from the\nsame red stone as the Mammon Machine.{WAIT_KEY}\nWhen she prays to the device, the pendant glows\nwith an unearthly light.",
+    "original_fr": "On dit que le pendentif de mademoiselle Sarah a été\nfabriqué {TAG:3C} partir de la même pierre rouge que celle\nqui a été utilisée pour créer le réceptacle sacré.{WAIT_KEY}\nQuand mademoiselle Sarah communie avec ce dernier,\nson pendentif émet une lueur étrange.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Beyond lies the Mammon Machine chamber.\nYou can feel the glorious energy of Lavos\nsurging from it.",
+    "original_fr": "La salle du réceptacle sacré est un peu plus loin.\nOh, une aura formidable s'en dégage... Celle de\nl'énergie de Lavos !",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Beyond lies the Mammon Machine chamber.\nBut the machine's awesome power can be felt\nno longer, I'm afraid.",
+    "original_fr": "La salle du réceptacle sacré est un peu plus loin,\nmais je ne sens plus cette incroyable aura...",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "The Mammon Machine?\nYou came to see it?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "ätes-vous venus admirer le réceptacle sacré,\nvous aussi ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "I thought as much!\nCan you feel the flow of the mighty Lavos's power?\nOh, it brings tears to my eyes!",
+    "original_fr": "Je m'en doutais ! L'écho du pouvoir de Lavos, le\nglorieux, résonne ! Ah, j'en ai les larmes aux yeux...",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "I thought as much!\nUnfortunately, the Mammon Machine has been moved.",
+    "original_fr": "Je m'en doutais ! Malheureusement, le réceptacle sacré\nn'est plus ici. Ah, j'en ai les larmes aux yeux...",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Oh, but you simply must experience it!\nTo feel the great Lavos's emanations is\na spiritual awakening!",
+    "original_fr": "Oh non...! Vous devez absolument faire vous-mêmes\nl'expérience de l'écho de Lavos ! C'est si émouvant !",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Oh...I see.\nI cannot feel the rapture of its energy\nanymore either, now that it's gone.",
+    "original_fr": "Ah... Je ne ressens plus cette énergie si émouvante...",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "The prophet's aura is clouded with hatred and sorrow.{WAIT_KEY}\nIf he does not free himself of those emotions, he'll\ndestroy himself and those he loves along with him.",
+    "original_fr": "L'aura du prophète est remplie de haine et de chagrin...{WAIT_KEY}\nS'il continue ainsi, il se détruira lui-même et entra¡nera\naussi avec lui ceux qui lui sont chers...",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "This way leads to the Mammon Machine chamber.",
+    "original_fr": "Ce corridor mène {TAG:3C} la salle du réceptacle sacré...",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "This way leads to the Queen's audience chamber.",
+    "original_fr": "Ce corridor mène {TAG:3C} la salle d'audience de la reine...",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "This way will take you to the bedchambers.",
+    "original_fr": "Ce corridor mène aux chambres {TAG:3C} coucher...",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "This is the font of Zeal's power—the Mammon Machine.\nIt draws and magnifies the limitless power of Lavos.",
+    "original_fr": "Voici la véritable source du pouvoir de Zhyle :\nle réceptacle sacré qui extrait et amplifie\nl'énergie infinie de Lavos.",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Oh, that pendant...\nIt looks just like Lady Schala's.{WAIT_KEY}\nWhen she clutches her pendant and prays to the\nMammon Machine, the pendant radiates a strange\nlight.{WAIT_KEY}\nIt's almost as if it was speaking to the device in\na language only the two of them could understand.",
+    "original_fr": "Oh, ce pendentif... Il ressemble beaucoup {TAG:3C} celui de\nmademoiselle Sarah.{WAIT_KEY}\nIl émet une lueur mystérieuse quand mademoiselle Sarah\ncommunie avec le réceptacle sacré.{WAIT_KEY}\nC'est comme s'ils se parlaient dans un langage secret.",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "The three Gurus constructed the Mammon Machine\nfrom a reddish stone that had been kept in the\nroyal treasury for generations.{WAIT_KEY}\nThe Guru of Life, Melchior, was in charge of the\nplans and conducted a great deal of research on\nthe nature of Lavos. But now—well, I'm sure you\nknow the rest.",
+    "original_fr": "Les trois sages ont fabriqué le réceptacle sacré\n{TAG:3C} partir d'une pierre rouge transmise depuis des\ngénérations dans la famille royale.{WAIT_KEY}\nLe sage de la vie, qui était en charge du projet,\na beaucoup étudié Lavos. Et ensuite...",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Operating the Mammon Machine requires magic\npowerful enough to regulate the energy the\nmachine extracts.{WAIT_KEY}\nExcepting the Gurus, Lady Schala is the only one\nwith such power.",
+    "original_fr": "Il faut posséder des pouvoirs magiques puissants afin\nde ma¡triser l'énergie qu'extrait le réceptacle sacré.{WAIT_KEY}\nÂ part les trois sages, seule mademoiselle Sarah peut\nactuellement le man{TAG:61}uvrer.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "When the Mammon Machine was finished, the Queen\nbecame a different person almost overnight—a much\ncolder one.{WAIT_KEY}\nJust between us, I heard that any who oppose\nHer Majesty—and not just the Earthbound\nOnes—vanish and are never heard from again.",
+    "original_fr": "Depuis la création du réceptacle sacré, la reine est\ndevenue froide, comme si elle était une personne\ndifférente.{WAIT_KEY}\nEntre vous et moi, les rumeurs racontent que non\nseulement les terriens, mais aussi les illuminés sont\nexécutés s'ils s'opposent {TAG:3C} ses plans...",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Melchior, the Guru of Life, opposed the Queen's\nplans and disappeared shortly thereafter.\nIt pains me to consider some conspiracy may be\nat work, but it is terribly suspicious.",
+    "original_fr": "On n'a plus revu le sage de la vie depuis qu'il s'est\nopposé aux plans de la reine. Vous ne pensez pas\nque...?",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "If the Mammon Machine is moved to the Ocean Palace,\nwe can extract even more energy from Lavos.\nThe dream of eternal life will be made possible!{WAIT_KEY}\nOh, almighty Queen!\nOur kingdom will reign for all eternity!",
+    "original_fr": "En transférant le réceptacle sacré dans le sanctuaire\nsous-marin, nous pourrons obtenir encore plus\nd'énergie du grand Lavos.{WAIT_KEY}\nNotre rêve ultime d'immortalité deviendra réalité !{WAIT_KEY}\në reine glorieuse ! Le royaume de Zhyle sera éternel !!",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "That glow!{WAIT_KEY}\nThat's the pendant the Gurus made for Lady Schala!\nHow did you come to have that?",
+    "original_fr": "Oh, cet éclat...?!{WAIT_KEY}\nIl n'y a pas de doute, c'est le pendentif que les\nsages ont fabriqué pour mademoiselle Sarah !\nComment êtes-vous entrés en sa possession ?!",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "That light...\nIs that Lady Schala's pendant?",
+    "original_fr": "Cet éclat...! Serait-ce le pendentif de mademoiselle\nSarah ?",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "{MARLE}: Hmm...\nIt won't budge.",
+    "original_fr": "{MARLE} : Oh ? Elle ne veut vraiment pas s'ouvrir.",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "{AYLA}: Strange.\nWhy no move?",
+    "original_fr": "{AYLA} : Porte être étrange. Pourquoi pas s'ouvrir ?",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "{ROBO}: This door appears to be a highly\neffective security system.\n",
+    "original_fr": "{ROBO} : Cette porte possède un puissant\nmécanisme de défense.",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{LUCCA}: Hmm...\nThere must be something different about that\npendant.",
+    "original_fr": "{LUCCA} : Hum... Je m'en doutais. Il y a quelque chose\nau sujet de ce pendentif...",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "{FROG}: A mere door binds us hand, foot,\nand tongue.",
+    "original_fr": "{FROG} : Malédiction ! Ce n'est qu'une simple porte\net nous n'arrivons même pas {TAG:3C} l'ouvrir.",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "{MARLE}: We did it!",
+    "original_fr": "{MARLE} : Hourra ! La porte s'est ouverte !",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "{LUCCA}: Heh heh...\nNo door can bar the way of scientific progress!",
+    "original_fr": "{LUCCA} : Hé, hé, hé... Un tel mécanisme de défense\nne saurait arrêter le progrès de la science !",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{ROBO}: {MARLE}'s pendant is most\ncertainly made of the Gurus' stone.",
+    "original_fr": "{ROBO} : Le pendentif de {MARLE} est vraiment\ncelui qu'ont créé les sages.",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{FROG}: What trial awaits us next?",
+    "original_fr": "{FROG} : Qu'est-ce qui nous attend derrière cette\nporte ?",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "{AYLA}: {AYLA} go!\nNo be scared, {GLYPH:392}!",
+    "original_fr": "{AYLA} : {AYLA} continuer ! Toujours\ncontinuer, {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Schala!",
+    "original_fr": "Sarah !",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Oh, Janus, you've returned!\nIs something wrong?",
+    "original_fr": "Ah, tu es rentré. Qu'y a-t-il, Janus ?",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Janus: The black winds...",
+    "original_fr": "Janus : Le vent sombre...",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Schala: You feel the foreboding, too?\nDon't worry, it will be all right.",
+    "original_fr": "Sarah : Tu la sens, n'est-ce pas ? Cette aura funeste...?\nTout ira bien, tu n'as pas {TAG:3C} t'inquiéter.",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Schala: Here, keep this close.",
+    "original_fr": "Sarah : Tiens, prends ça.",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Janus: What is it?",
+    "original_fr": "Janus : Qu'est-ce que c'est ?",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Schala: It's an amulet containing my prayers.\nIf something should happen, it will keep you safe.{WAIT_KEY}\nI wish that I could remain with you always.\nBut Mother has other plans.",
+    "original_fr": "Sarah : Une amulette qui renferme mes prières.\nSi le pire venait {TAG:3C} se produire, elle te protégera.{WAIT_KEY}\nJ'aimerais pouvoir toujours demeurer {TAG:3C} tes côtés...\nCependant, les plans de notre mère...",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Janus: That's not our mother!\nShe looks like her, but she's not the same inside.",
+    "original_fr": "Janus : Cette femme n'est pas notre mère ! Elle en a\nl'apparence, mais {TAG:3C} l'intérieur, ce n'est pas elle...",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Schala: ...{WAIT_KEY}\nEven still...\nForgive me, Janus.",
+    "original_fr": "Sarah : ...{WAIT_KEY}\nToutefois, je... Je suis désolée, Janus...",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Pardons, Your Highness.",
+    "original_fr": "Pardonnez-moi, Votre Altesse.",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "The Queen requests your immediate presence at the\nOcean Palace.",
+    "original_fr": "La reine vous mande. Votre présence est requise\nimmédiatement dans le sanctuaire sous-marin.",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Schala: Very well.",
+    "original_fr": "Sarah : ...\nEntendu.",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Schala: Well, then, Janus...\nI must be on my way.",
+    "original_fr": "Sarah : Au revoir, Janus...",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Schala: Oh!\nWho might you be?",
+    "original_fr": "Sarah : Oh... Qui sont ces gens...?",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Forgive me, my lady, but we must hurry.\nIf we're late, I fear I'll be—well, you know the Queen.",
+    "original_fr": "Dépêchez-vous, Votre Altesse. Si vous êtes en retard,\nla reine me punira...",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "Schala: Of course. My apologies.",
+    "original_fr": "Sarah : Oui, pardonnez-moi.",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Janus: ....\nGo away.",
+    "original_fr": "Janus : ...\nAllez-vous-en.",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Janus: Don't waste your time.\nAlfador only likes me.",
+    "original_fr": "Janus : Inutile. Alphard n'aime que moi.",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Prophet: !?",
+    "original_fr": "Prophète : ?!",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Dalton: Oh, it's you.",
+    "original_fr": "Dalton : Oh, c'est vous...",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Queen: Who are you!?\nHow did you get in here?",
+    "original_fr": "Reine : Qui êtes-vous ?! Comment êtes-vous parvenus\njusqu'ici ?",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Prophet: Your Majesty...\nThese are the bringers of disaster of whom I spoke.",
+    "original_fr": "Prophète : Votre Majesté... Ce sont ceux contre qui\nje vous avais mise en garde, ceux qui apportent le\nmalheur...",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Queen: Indeed! They and the Gurus alike.\nHow dare you outlanders attempt to oppose me?",
+    "original_fr": "Reine : Comment ?! îtrangers ! Vous oseriez me défier\ncomme l'ont fait les sages ?!",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "Queen: Fools, one and all.\nDalton, seize them!",
+    "original_fr": "Reine : Pauvres fous ! Dalton, capture-les !",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Dalton: Yes, Your Majesty!\nWith pleasure...",
+    "original_fr": "Dalton : Â vos ordres, Votre Majesté !",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Dalton: Golem!",
+    "original_fr": "Dalton : Golem !",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Dalton: Oh, my poor Golem!\nYou'll pay for that!",
+    "original_fr": "Dalton : Mon golem...! Vous me le paierez !",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Queen: Mwa ha ha...\nFear not! I won't kill you—not immediately, that is.{WAIT_KEY}\nI'll allow you to sample every type of pain and fear\nimaginable first. By the time we're through, you'll be\nbegging us to end your suffering.{WAIT_KEY}\nAh, what a delicious diversion!",
+    "original_fr": "Reine : Ha, ha, ha, ha... Rassurez-vous, je ne vous\néliminerai pas tout de suite...{WAIT_KEY}\nJe vais d'abord vous faire go{TAG:63}ter la tristesse,\nla souffrance et la terreur ! Vous regretterez\namèrement de vous être opposés {TAG:3C} mes plans.{WAIT_KEY}\nHo, ho, ho, ho...\nMouah, ha, ha, ha...!",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Janus: Hmph! Idiots.\nWhat will you do, Schala?",
+    "original_fr": "Janus : Pfft, ils ne sont que des idiots...\nQue comptes-tu faire, Sarah ?",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Schala: Let us help them.",
+    "original_fr": "Sarah : Je vais leur porter secours.",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Janus: I don't think it'll be of any use.\nAnd you'll be in trouble if you let them escape.",
+    "original_fr": "Janus : Ça ne servirait {TAG:3C} rien... Et puis, si tu les laisses\ns'échapper, tu seras punie.",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Schala: Don't worry about me.\nI'll be fine.{WAIT_KEY}\nAnd they just might be able to rescue Melchior.",
+    "original_fr": "Sarah : Ne t'inquiète pas.{WAIT_KEY}\nD'ailleurs, ces gens pourraient aider le sage...",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Janus: Schala...",
+    "original_fr": "Janus : Sarah...",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Schala: Are you all right?\nQuickly, you must flee the palace!{WAIT_KEY}\nAnd if you can, please—free the Guru of Life!",
+    "original_fr": "Sarah : Vous n'avez rien ? Vite, enfuyez-vous du palais.{WAIT_KEY}\nEnsuite, si vous en êtes capables, aidez le sage de la\nvie, je vous en supplie...",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Schala: He was sent to the Mountain of Woe\nfor opposing my mother's plan.{WAIT_KEY}\nPlease! You must help him!",
+    "original_fr": "Sarah : Il a été emprisonné sur le mont du tourment\nparce qu'il s'opposait aux plans de la reine...{WAIT_KEY}\nS'il vous pla¡t, sauvez-le...",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "I'm afraid I cannot allow that.",
+    "original_fr": "Je ne vous laisserai pas faire...",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Prophet: Your meddling tires me.\nIt seems I'll need to put an end to you here.",
+    "original_fr": "Prophète : Je ne peux pas vous permettre de me faire\nobstacle plus longtemps... Je vous éliminerai ici !",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Schala: No, you mustn't!",
+    "original_fr": "Sarah : Non !",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Prophet: ...!",
+    "original_fr": "Prophète : ...!",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Janus: Don't!",
+    "original_fr": "Janus : Arrêtez !",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Prophet: Hmph.\nVery well...I'll spare their lives.{WAIT_KEY}\nBut in return, you will cooperate with me, Schala.",
+    "original_fr": "Prophète : ... Hum.\nBien, je leur laisserai la vie sauve.{WAIT_KEY}\nMais en échange, tu vas m'aider, Sarah...",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Prophet: Now, show me how it is you came here.",
+    "original_fr": "Prophète : Maintenant, vous allez me dire comment vous\nêtes arrivés {TAG:3C} cette époque...",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "The Mammon Machine was transported to the\nOcean Palace to begin harvesting the raw\nenergy of Lavos.",
+    "original_fr": "Le réceptacle sacré a été transféré dans le sanctuaire\nsous-marin. Nous allons enfin obtenir l'énergie véritable\nde Lavos.",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "The Ocean Palace is complete.\nZeal will reign forever!",
+    "original_fr": "Le sanctuaire sous-marin est terminé !\nC'est l'avènement de l'ère éternelle de Zhyle !",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Our kingdom will be shrouded in the glorious\nlight of eternity.{WAIT_KEY}\nThere will be no more sadness or fear, only\npeace everlasting.",
+    "original_fr": "Le royaume de Zhyle sera enveloppé par la lumière\néternelle...{WAIT_KEY}\nIl n'y aura plus ni peur ni tristesse, seule une sérénité\nsans fin.",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "The Queen and Lady Schala both have descended\nto the Ocean Palace.{WAIT_KEY}\nIn a short time, we Enlightened Ones will finally\nattain immortality.",
+    "original_fr": "Sa Majesté est descendue dans le sanctuaire\nsous-marin accompagnée de mademoiselle Sarah.{WAIT_KEY}\nNous allons enfin obtenir la vie éternelle.",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "The portal to the Ocean Palace is in Her Majesty's\naudience chamber.{WAIT_KEY}\nIt will not be long before the day when any may\ngaze upon the resplendent new Mammon Machine.",
+    "original_fr": "On dit que l'entrée du sanctuaire sous-marin est située\ndans la salle d'audience de la reine.{WAIT_KEY}\nBientôt, tous pourront admirer l'éclat étincelant du\nnouveau réceptacle sacré !",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "Dalton: Hmph. Why is that prophet allowed inside\nwhile I'm stuck guarding a place like this?",
+    "original_fr": "Dalton : Pfft, pourquoi quelqu'un comme moi doit-il servir\nde sentinelle alors que ce prophète de malheur est {TAG:3C}\nl'intérieur ?",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "Dalton: Ah!\nYou came.",
+    "original_fr": "Dalton : Oh, vous voil{TAG:3C} donc...",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Dalton: I decided to leave you alone before, hoping\nyou might make that prophet show his true colors.\nBut I've no use for you anymore.",
+    "original_fr": "Dalton : J'ai laissé le prophète agir {TAG:3C} sa guise, pensant\nqu'il se trahirait, d'une façon ou d'une autre... Vous ne\nm'êtes plus d'aucune utilité, vous non plus.",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "Dalton: You're history!",
+    "original_fr": "Dalton : Acceptez votre défaite avec fierté !",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "Dalton: Nooooo!\nI can't be beaten now!\nNot with eternal life just within my grasp!",
+    "original_fr": "Dalton : Non...! Je vais obtenir le pouvoir de l'éternité !\nJe ne peux pas me faire battre si près du but !",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "Mune: I feel dark energy filling this place.\nSomething frightening stirs.",
+    "original_fr": "Léon : L'aura sombre grandit... Une créature terrifiante\ns'éveille.",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Queen: Schala, raise the output of the\nMammon Machine to its limit!",
+    "original_fr": "Reine : Allez, Sarah. Augmente la puissance du\nréceptacle sacré jusqu'{TAG:3C} sa limite !",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "Schala: ...",
+    "original_fr": "Sarah : ...",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "Queen: Schala!\nYou dare disobey me?",
+    "original_fr": "Reine : Sarah ! Désobéirais-tu {TAG:3C} mes ordres ?!",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "Schala: Very well, Mother.",
+    "original_fr": "Sarah : Non, mère...",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "Prophet: ...",
+    "original_fr": "Prophète : ...",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Queen: Oh...what splendor!\nBehold the incredible power of Lavos!",
+    "original_fr": "Reine : Oh... Quel éclat éblouissant ! Le merveilleux\npouvoir du grand Lavos !",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "Schala: Ugh...",
+    "original_fr": "Sarah : Ooh...",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Prophet: ...",
+    "original_fr": "Prophète : ...",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Queen: Ahhh, I can feel it!\nThe pulse of life eternal!\nMwa ha ha ha ha!",
+    "original_fr": "Reine : Ah, je les sens... Je les sens ! Les pulsations de\nla vie éternelle...! Ha, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "Schala: What...what is this dark energy?\nUrgh!",
+    "original_fr": "Sarah : L'aura sombre se décha¡ne ! Aaah !",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "Prophet: ...!",
+    "original_fr": "Prophète : ...!",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "The Mammon Machine!\nYour Majesty, it's too dangerous to continue!",
+    "original_fr": "Le réceptacle sacré...! Votre Majesté, c'est trop\ndangereux !",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Schala: Mother!",
+    "original_fr": "Sarah : Mère...!",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Queen: Don't stop, Schala!\nWe've only a little longer to go!{WAIT_KEY}\nImmortality will be ours!\nZeal will have the eternal glory it deserves!",
+    "original_fr": "Reine : Continue, Sarah ! Nous y sommes presque...{WAIT_KEY}\nJ'obtiendrai la vie éternelle ! La lumière divine\nenveloppera le royaume de Zhyle !",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Queen: Mwa ha ha...\nSo long have I waited!",
+    "original_fr": "Reine : Ha, ha, ha, ha, ha...\nMouah, ha, ha, ha, ha...!",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "This is the Mammon Machine altar.{WAIT_KEY}\nNow is the time if you want to turn back, nu.",
+    "original_fr": "Ceci est l'autel du réceptacle sacré...{WAIT_KEY}\nIl est encore temps de faire demi-tour, gnu...",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{MARLE}: Schala!\nWe're here to save you!\nCome on!",
+    "original_fr": "{MARLE} : Sarah ! Nous sommes venus te sauver !\nFuyons cet endroit !",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "{LUCCA}: We just made it in time!{WAIT_KEY}\nIt's a pity, but I'm afraid we have to shut\ndown that machine for good!",
+    "original_fr": "{LUCCA} : On dirait que nous sommes arrivés {TAG:3C}\ntemps ! C'est un peu dommage, mais je vais\narrêter cette machine !",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "{ROBO}: What is this gravitational field!?\nI detect incredible dimensional fluctuations!",
+    "original_fr": "{ROBO} : Cette onde gravitationnelle est\nsurpuissante ! Je détecte une fluctuation\ndimensionnelle !",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "{FROG}: Your flirtations with Lavos are at an end,\nYour Majesty!",
+    "original_fr": "{FROG} : Nous ne vous laisserons pas jouer avec\nLavos, Votre Majesté !",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{AYLA}: {AYLA} here!\nWhere strong one!?",
+    "original_fr": "{AYLA} : {AYLA} venir ! Où être méchant fort ?!",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Schala: You, you're—",
+    "original_fr": "Sarah : Vous...!",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "Schala: Help!",
+    "original_fr": "Sarah : Aaaaaah !",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Prophet: Schala!",
+    "original_fr": "Prophète : Sarah !",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Queen: What are you doing, Schala!?\nControl the machine!",
+    "original_fr": "Reine : Mais qu'est-ce que tu fais, Sarah ?! Ne peux-tu\npas contrôler la machine comme il faut ?",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "{MARLE}: {CRONO}!\nThe knife!",
+    "original_fr": "{MARLE} : {CRONO}...! Le couteau écarlate !",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "{LUCCA}: Quickly, {CRONO}!\nThere's no time!",
+    "original_fr": "{LUCCA} : Vas-y, {CRONO} ! Si tu ne te dépêches\npas, nous serons dans de beaux draps !",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{ROBO}: We must stop the machine with\nSir Melchior's knife!",
+    "original_fr": "{ROBO} : Nous devons arrêter le réceptacle sacré\navec le couteau que Bosch nous a donné !",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "{FROG}: Use the old man's knife, {CRONO}!\nStop that accursed thing!",
+    "original_fr": "{FROG} : Le couteau de Bosch, {CRONO} !\nArrête le réceptacle sacré !!",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "{AYLA}: {GLYPH:392}!\nRed knife!",
+    "original_fr": "{AYLA} : {GLYPH:392} ! Couteau écarlate !",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Masa: Here we go, Mune!",
+    "original_fr": "Gran : Allons-y, Léon !",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Mune: Ready when you are, Masa!",
+    "original_fr": "Léon : D'accord, Gran !",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "{FROG}: Is that...the Masamune!?",
+    "original_fr": "{FROG} : C'est... Grandléon ?!",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "{LUCCA}: The machine's energy transformed\nthe knife into a sword?",
+    "original_fr": "{LUCCA} : L'énergie du réceptacle sacré a\ntransformé le couteau en épée ?!",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "{MARLE}: Whoa!\nIt turned into the Masamune!?",
+    "original_fr": "{MARLE} : C'est...? Il est devenu Grandléon ?!",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "{ROBO}: The knife appears to have absorbed\nthe machine's power to transform into a sword!",
+    "original_fr": "{ROBO} : Le couteau a absorbé l'énergie du\nréceptacle sacré et est devenu une épée ?!",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Queen: The Mammon Machine!",
+    "original_fr": "Reine : Le... Le réceptacle sacré ?!",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Prophet: It's too late. He comes!",
+    "original_fr": "Prophète : Il approche...!",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "Schala: It's no use!\nThat sword alone cannot stop it!",
+    "original_fr": "Sarah : Non...! Cette épée {TAG:3C} elle seule ne saurait contenir\ncette force...!",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "How long I've waited for this!",
+    "original_fr": "J'ai attendu ce moment depuis si longtemps !",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{MAGUS}: It's been quite some time, Lavos.",
+    "original_fr": "{MAGUS} : Nous nous retrouvons enfin, Lavos...",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{MAGUS}: I swore on that day long ago that\nI'd destroy you, no matter the price!{WAIT_KEY}\nIt is time to fulfill that vow.\nFeel my wrath, Lavos!",
+    "original_fr": "{MAGUS} : En ce jour lointain, j'ai juré que je\nt'écraserais de mes propres mains !{WAIT_KEY}\nMême si je devais tout perdre pour y arriver !{WAIT_KEY}\nLe moment est enfin venu de respecter mon serment.\nMeurs, Lavos !!",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "Voice: You truly think you possess the power?",
+    "original_fr": "Crois-tu vraiment en être capable ?",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "Queen: What are you but a false prophet?\nYou'll be no more than grazings for the great Lavos!",
+    "original_fr": "Reine : Imposteur... Tu seras toi aussi la proie du grand\nLavos.",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "Schala: Mother, please stop this madness!{WAIT_KEY}\nThis power can only end in ruin!",
+    "original_fr": "Sarah : Mère, arrêtez !{WAIT_KEY}\nCe pouvoir n'apporte que des malheurs ! Je ne veux\nplus...",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "Queen: Step aside, Schala!{WAIT_KEY}\nThe almighty life force of Lavos flows through us all.\nYou are a part of it. You cannot change that fate now!{WAIT_KEY}\nOppose me, and I will destroy you!",
+    "original_fr": "Reine : îcarte-toi, Sarah ! La glorieuse force vitale du\ngrand Lavos respire en moi... Tu en fais aussi partie.{WAIT_KEY}\nTu ne peux plus changer le destin ! Si tu comptes me\nfaire obstacle, je t'éliminerai comme les autres !",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "Aaaah!",
+    "original_fr": "Ooh !",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "Nooo!",
+    "original_fr": "Aah !",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "Schala: Aaaah!",
+    "original_fr": "Sarah : Aaaaaah !",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "{MAGUS}: No!",
+    "original_fr": "{MAGUS} : Non...!",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "Queen: Come, Prophet of Lies!\nFeel the power of Lavos!",
+    "original_fr": "Reine : Viens, prophète ! Découvre le pouvoir du grand\nLavos !",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "{MAGUS}: Ugh!",
+    "original_fr": "{MAGUS} : Ah...!",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "{MAGUS}: Urgh!\nMy...my magic!\nHe's draining it!",
+    "original_fr": "{MAGUS} : Non... Ma magie... Elle se fait drainer...?!",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "{MAGUS}: Ungh...\nI won't... I won't be beaten!{WAIT_KEY}\nI endured the darkness alone...for the sole purpose\nof defeating you!",
+    "original_fr": "{MAGUS} : Ngaaah... Tu ne me vaincras pas...!{WAIT_KEY}\nJ'ai vécu seul dans les ténèbres afin de t'abattre,\nLavos !",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "{MAGUS}: Take this, Lavos!{WAIT_KEY}\nGraaah!",
+    "original_fr": "{MAGUS} : Prends ça !{WAIT_KEY}\nRaaah...!",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "{MAGUS}: What!?\nNo effect at all?{WAIT_KEY}\nAaaaugh!",
+    "original_fr": "{MAGUS} : Comment...?! Ça n'a aucun effet ?!{WAIT_KEY}\nAaah !",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "Queen: Fool!\nYour pitiful powers are no match for his!",
+    "original_fr": "Reine : Espèce d'idiot ! Un pouvoir aussi infime que\nle tien ne saurait faire ombrage {TAG:3C} la gloire du grand\nLavos !",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "Queen: I shall give you a gift.\nEternal life, as part of Lavos!{WAIT_KEY}\nUwa ha ha ha!",
+    "original_fr": "Reine : Je t'offre un cadeau. Reçois la vie éternelle... en\nne faisant qu'un avec le grand Lavos !{WAIT_KEY}\nHo, ho, ho, ho...!\nHa, ha, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "{MARLE}: Can you move, {CRONO}?\nPlease, help Schala!",
+    "original_fr": "{MARLE} : Peux-tu bouger, {CRONO}...?\nS'il te pla¡t, aide Sarah...!",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "{LUCCA}: Are...are you all right?\nAt this rate, we're all doomed.",
+    "original_fr": "{LUCCA} : Ça... va ? Si ça continue ainsi, nous serons\ntous... Ah...!",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "{FROG}: {MAGUS}!\nYou cannot die at the hands of some other foe!\nYou're mine to defeat!",
+    "original_fr": "{FROG} : {MAGUS}...! Il n'est pas question que je\nlaisse quelqu'un d'autre te vaincre...!",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "{AYLA}: {GLYPH:392}, stand!\n{AYLA} no like lose!",
+    "original_fr": "{AYLA} : {GLYPH:392} pouvoir se lever...?\n{AYLA} détester perdre !",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "{ROBO}: The field of dimensional instability\nis expanding! We cannot stay here!",
+    "original_fr": "{ROBO} : La fluctuation dimensionnelle grandit...!\nIl faut faire quelque chose !",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "{MARLE}: {CRONO}...\nWe can't leave Schala here.",
+    "original_fr": "{MARLE} : {CRONO}... Si ça continue,\nSarah...",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "{FROG}: Grr...!\nJust you wait, {MAGUS}!",
+    "original_fr": "{FROG} : Ah...! Attends... {MAGUS}...!",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "{LUCCA}: I...I can't let science lose out here.\nNot like this.",
+    "original_fr": "{LUCCA} : Non... La science ne peut pas perdre...\nPas maintenant...",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "{ROBO}: If we are caught in that energy field,\nour molecular structures will be decomposed!",
+    "original_fr": "{ROBO} : Si nous nous faisons absorber par\nce champ d'énergie, nous serons désintégrés\njusqu'au dernier atome !",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "{AYLA}: Urgh...\n{AYLA} no lose!\nFight more!",
+    "original_fr": "{AYLA} : Gniii...! {AYLA} pas perdre !\nBataille commencer maintenant...!",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Schala: Please...please escape, {CRONO}.\nMere humans haven't the means to stop such power.",
+    "original_fr": "Sarah : Fuis... {CRONO}... Je t'en supplie...!\nCombattre une telle entité est peine perdue...",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "Queen: {CRONO}, is it?\nWhy not do as Schala says, and run away,\ntail betwixt your legs?{WAIT_KEY}\nIs your life not precious to you?\nHee hee hee! Mwa ha ha ha ha!",
+    "original_fr": "Reine : {CRONO}, c'est ça ? Pourquoi ne t'enfuis-tu\npas la queue entre les jambes, comme te le suggère\nSarah ?{WAIT_KEY}\nNe tiens-tu pas {TAG:3C} la vie ?\nHo, ho, ho, ho...\nHa, ha, ha, ha, ha...!",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "{MAGUS}: Schala...\nIs Schala all right?",
+    "original_fr": "{MAGUS} : Sa... Sarah... Est-elle saine et sauve...?!",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "Queen: You've still not given up?\nWhat do you hope to do?{WAIT_KEY}\nYou would challenge Lavos alone,\nwith that battered body of yours?",
+    "original_fr": "Reine : Oh, tu veux te battre ? Qu'espères-tu\naccomplir ?{WAIT_KEY}\nTu comptes défier le grand Lavos seul et blessé ?",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "Queen: Mwa ha ha...\nGaze upon the power of Lavos and your doom!",
+    "original_fr": "Reine : Ho, ho, ho, ho... Meurs, misérable vermine !\nAdmire la puissance du grand Lavos !",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "{MARLE}: {CRONO}!",
+    "original_fr": "{MARLE} : {CRONO} !!",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "{LUCCA}: No! {CRONO}!",
+    "original_fr": "{LUCCA} : Non, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "{ROBO}: Sir {CRONO}!",
+    "original_fr": "{ROBO} : {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "{FROG}: Oh, no!\n{CRONO}!",
+    "original_fr": "{FROG} : Non...! {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "{AYLA}: {GLYPH:392}!",
+    "original_fr": "{AYLA} : {GLYPH:392} !!",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "{MAGUS}: Lavos!",
+    "original_fr": "{MAGUS} : Lavos !!",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "{CRONO}...!?{GLYPH:405}08{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{CRONO}...?!{GLYPH:405}08{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "{CRONO}...!{GLYPH:405}07{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{CRONO}...!{GLYPH:405}07{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "{MARLE}: {CRONO}?\nWhere's {CRONO}!?{WAIT_KEY}\nNooooooo!",
+    "original_fr": "{MARLE} : {CRONO}...? Où est {CRONO}...?!{WAIT_KEY}\nNoooon...!!",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "{LUCCA}: {CRONO}...!\nThere was nothing I could do!",
+    "original_fr": "{LUCCA} : {CRONO}...!! Je n'ai rien pu faire...",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "{ROBO}: The structure is collapsing!{WAIT_KEY}\nWe must prioritize our escape!",
+    "original_fr": "{ROBO} : Le sanctuaire s'écroule !{WAIT_KEY}\nNotre priorité est de nous enfuir de cet endroit !",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "{FROG}: Urgh...!{WAIT_KEY}\nWe must think only of our escape for now!\nThe palace threatens to collapse!",
+    "original_fr": "{FROG} : Aah...!{WAIT_KEY}\nPour l'instant, nous devons plutôt penser {TAG:3C} sortir d'ici\nvivants ! Le sanctuaire ne tiendra pas longtemps !",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "{AYLA}: Here, bottom sea!\nWhere go!?",
+    "original_fr": "{AYLA} : Ici être fond de l'océan ! Quoi faire ?!",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "{MAGUS}: I haven't the power to defeat him, then?",
+    "original_fr": "{MAGUS} : Cela veut-il dire que je ne peux pas\nvaincre Lavos...?!",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "Schala: The last of my pendant's power will\nsend you to safety.",
+    "original_fr": "Sarah : Si j'utilise tout ce qui reste de la puissance\nde mon pendentif, je devrais pouvoir au moins vous\ntéléporter en lieu s{TAG:63}r.",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "Schala: I know you will not be able to forgive her, but...{WAIT_KEY}\nPlease, do not hate my mother, or our kingdom.",
+    "original_fr": "Sarah : Je sais que ce qu'elle a fait est impardonnable...{WAIT_KEY}\nMais je vous en prie, n'en veuillez pas {TAG:3C} ma mère...\nN'ha¿ssez pas notre royaume...",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "Schala: I'm so sorry!{WAIT_KEY}\nNow, quickly—to the surface!",
+    "original_fr": "Sarah : Je suis désolée...!{WAIT_KEY}\nEt maintenant, vers la surface...!",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "{MAGUS}: ...!",
+    "original_fr": "{MAGUS} : ...!",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "Schala: ...{GLYPH:405}04{GLYPH:406}\n{CRONO}...{GLYPH:405}08{GLYPH:406}{GLYPH:408}",
+    "original_fr": "Sarah : ...{GLYPH:405}04{GLYPH:406}\n{CRONO}...{GLYPH:405}08{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "{MARLE}: {CRONO}...!",
+    "original_fr": "{MARLE} : {CRONO}...!",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "{LUCCA}: The Chrono Trigger...\nThe Guru's Time Egg!{WAIT_KEY}\nThose...those are our past selves!\nWe're really back—right at that instant!",
+    "original_fr": "{LUCCA} : Le Chrono Trigger... L'{TAG:61}uf de temps...!{WAIT_KEY}\nC'est nous, dans le passé ?! Nous avons vraiment réussi\n{TAG:3C} retourner en arrière ! Â cet instant précis...!",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "{ROBO}: It appears that time has been suspended!",
+    "original_fr": "{ROBO} : Il semble que le temps s'est arrêté, sauf\npour nous !",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "{MAGUS}: A time freeze...\nI never dreamt it possible.",
+    "original_fr": "{MAGUS} : Le temps est figé...? C'est donc vraiment\npossible...",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "{FROG}: Like stone statues.\nAn unsettling sight...",
+    "original_fr": "{FROG} : On dirait des statues de pierre.\nÇa me fait froid dans le dos...",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "{AYLA}: Just {AYLA} move?",
+    "original_fr": "{AYLA} : Nous seulement pouvoir bouger ?",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "We just need to exchange the doppel doll for\n{CRONO}.",
+    "original_fr": "Alors, en mettant la poupée clone {TAG:3C} la place de\n{CRONO}...",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "{MARLE}: {CRONO}?{WAIT_KEY}\nIt's {CRONO}!\n{CRONO}, you're alive!",
+    "original_fr": "{MARLE} : {CRONO}...?{WAIT_KEY}\nC'est {CRONO}...! Tu es en vie, n'est-ce pas,\n{CRONO} ?!",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "{LUCCA}: We've got to hurry!",
+    "original_fr": "{LUCCA} : Dépêchons-nous !",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "{ROBO}: What a relief!\nSir {CRONO}, thank goodness you are all right!",
+    "original_fr": "{ROBO} : Ah, quel soulagement ! Je suis heureux de\nvoir que tu es sain et sauf, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "{FROG}: I'd remain here no longer than we must.\nLet us be gone.",
+    "original_fr": "{FROG} : Cet endroit me donne la chair de poule,\nsi j'ose dire. Rentrons sans plus tarder.",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "{AYLA}: Hurry!\nTake {GLYPH:392}!",
+    "original_fr": "{AYLA} : Vite ! Emmener {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "{MAGUS}: Save the tearful reunions for later!\nIf we've done all we must, let us be on our way.",
+    "original_fr": "{MAGUS} : Gardez vos retrouvailles touchantes pour\nplus tard ! Si nous avons terminé, rentrons.",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "{MAGUS}: ...",
+    "original_fr": "{MAGUS} : ...",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "{MAGUS}: It was all for naught...{WAIT_KEY}\nWe changed nothing.",
+    "original_fr": "{MAGUS} : Pitoyable... J'ai été incapable de changer\nquoi que ce soit en fin de compte...",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nTrouvé : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "Queen: So, Melchior?\nYou see, the Mammon Machine functions flawlessly.{WAIT_KEY}\nYour worries were for naught.",
+    "original_fr": "Reine : Alors, Bosch ? Comme tu peux le voir, le\nréceptacle sacré est parfait.{WAIT_KEY}\nIl semblerait que vous vous inquiétiez pour rien, toi et\ntes compagnons.",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "Queen: Belthasar, Guru of Reason.",
+    "original_fr": "Reine : Gasch, le sage de la raison.",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "Queen: And Gaspar, Guru of Time.",
+    "original_fr": "Reine : Ainsi que Hasch, le sage du temps.",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "Queen: Behold, foolish ones!{WAIT_KEY}\nThe great Lavos awakens!\nThe sun shall never set on the glory of Zeal!",
+    "original_fr": "Reine : Observez bien, sages insensés !{WAIT_KEY}\nVoici le réveil du grand Lavos ! L'ère de gloire de notre\nroyaume commence maintenant !",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "Gaspar: What's this?\nA dimensional vortex!?{WAIT_KEY}\nBelthasar: We were right, then!\nThis power is beyond human control!",
+    "original_fr": "Hasch : Oh...! Une distorsion dimensionnelle...?!{WAIT_KEY}\nGasch : Nous avions donc raison ! Il est impossible pour\nl'Homme de ma¡triser ce pouvoir !",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "Melchior: Oh, no!\nWe'll be dragged into the rift!",
+    "original_fr": "Bosch : Non...! Nous allons être engloutis par ce\ntourbillon dimensionnel !",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "Schala!",
+    "original_fr": "Sarah...!",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "Schala: No, Janus!\nStay away!",
+    "original_fr": "Sarah : Non, Janus ! N'approche pas !",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "Janus: B-but...",
+    "original_fr": "Janus : Mais...?!",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "Melchior: It...it's a—!",
+    "original_fr": "Bosch : Mais c'est...!",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "Gaspar: A Timegate!?",
+    "original_fr": "Hasch : Impossible ! Un portail temporel ?!",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "Belthasar: No!",
+    "original_fr": "Gasch : Oh non...!",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "Schala: Gurus!",
+    "original_fr": "Sarah : Gasch...?!",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "Janus: Schala—!",
+    "original_fr": "Janus : Sa... Sarah !",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "Schala: Janus!",
+    "original_fr": "Sarah : Janus ?!",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

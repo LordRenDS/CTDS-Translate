@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "Leene: Cyrus...\nYou're leaving, aren't you?",
+    "original_fr": "Lynne : Tu vas donc partir, Cyrus ?",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Cyrus: I am. It's long past time we reclaimed the Badge\nfrom the Frog King.{WAIT_KEY}\nAnd I need to see that sword with my own eyes.",
+    "original_fr": "Cyrus : Oui, Votre Majesté. Je crois qu'il est grand\ntemps que quelqu'un aille récupérer la médaille qu'a\nvolée cette grenouille dorée de malheur...{WAIT_KEY}\nEn outre, je veux essayer de confirmer moi-même\nl'existence de cette épée légendaire...",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "King: Cyrus, this kingdom has need of you.{WAIT_KEY}\nLeene and I need you as well.\nSee that you return.",
+    "original_fr": "Roi de Gardia : Cyrus, le royaume a besoin de toi...{WAIT_KEY}\nEt tu es un ami précieux, pour moi comme pour Lynne.\nTu dois nous promettre que tu reviendras.",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Cyrus: As long as there is life in these bones,\nI shall—come what may.{WAIT_KEY}\nWell then, by your leave...",
+    "original_fr": "Cyrus : Sur ma vie, j'en fais le serment. Je reviendrai,\nquoi qu'il advienne.{WAIT_KEY}\nAvec votre permission, je vais maintenant me retirer...",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Knights: Sir Cyrus!",
+    "original_fr": "Soldats : Sire Cyrus !",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Knight: On behalf of the knighthood,\nwe wish you a safe journey and Godspeed.",
+    "original_fr": "Soldat : Tous les chevaliers désirent vous souhaiter bon\nvoyage ! Revenez sain et sauf, capitaine !",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Cyrus: My brothers...",
+    "original_fr": "Cyrus : Mes amis...",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Cyrus: I trust the kingdom's protection to you.\nSee that she is kept safe from her enemies.",
+    "original_fr": "Cyrus : Protégez le royaume en mon absence.",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Cyrus: Pardon the delay.\nLet us be on our way.",
+    "original_fr": "Cyrus : Désolé de t'avoir fait attendre. Allons-y.",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Leene: Glenn, you be careful, too!",
+    "original_fr": "Lynne : Glenn ! Sois prudent, toi aussi.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Glenn: Be well, Your Majesty!",
+    "original_fr": "Glenn : Que le ciel vous protège, Votre Majesté !",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "So! You seek the Hero's Badge, knight of the kingdom\nof men? Come and take it, then—if you can!\nCROAK!",
+    "original_fr": "Si tu veux la médaille du héros, tu devras l'obtenir par la\nforce, chevalier ! Ga, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Cyrus: That is what I mean to do.{WAIT_KEY}\nNirvana Strike!",
+    "original_fr": "Cyrus : C'est justement ce que je comptais faire !\nEn garde, grenouille dorée !{WAIT_KEY}\nEntaille nirvana !",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "GRAAAACK!\nI... I'm beaten!{WAIT_KEY}\nPfft! Filthy badge!\nDo not think I'll forget this!",
+    "original_fr": "Hagyaaa...!! Haaa... Haaa... Comment oses-tu ?!{WAIT_KEY}\nCette médaille n'en vaut pas la peine ! Tu me le paieras !",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Child: I'm the wind!\nWhoosh!",
+    "original_fr": "Enfant : Je suis le vent ! Ouuuuh !",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Child: Hey, don't go up there!",
+    "original_fr": "Enfant : Arrêtez !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Child: Did you come to take it?\nThe Masamune, I mean.\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Enfant : ätes-vous venus chercher Grandléon,\nvous aussi ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Child: You didn't?\nYou should hurry up and leave, then.",
+    "original_fr": "Enfant : Ah bon ? Alors vous feriez mieux de quitter\ncette montagne au plus vite.",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Child: I thought so.\nWait just a second, all right?",
+    "original_fr": "Enfant : Hum, je vois. Attendez un instant...",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Child: Oh Big Brother...\nWhere are you, Masa?",
+    "original_fr": "Enfant : Graaan !",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Masa: What is it, Mune?",
+    "original_fr": "Gran : Qu'y a-t-il, Léon ?",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Masa: Not again!",
+    "original_fr": "Gran : Oh, l{TAG:3C}, l{TAG:3C}... Encore ?",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Masa: So, thought you'd make a name for yourself\nas Hero by grabbing the Masamune, did you?\nWhat a buffoon!",
+    "original_fr": "Gran : Vous voulez obtenir Grandléon et vous faire une\nréputation en tant que héros, c'est ça ? C'est ridicule...",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Mune: Humans are all the same, aren't they?\nIt's how you use the sword that's important,\nnot just that you have the strongest one!",
+    "original_fr": "Léon : Les êtres humains ne sont que des idiots. Ce qui\ncompte, c'est pourtant la façon dont on utilise la force\nque l'on a...",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Masa: You can't even understand something as simple\nas that. Guess that proves you're human.",
+    "original_fr": "Gran : C'est parce qu'ils ne comprennent pas quelque\nchose d'aussi évident qu'ils sont des êtres humains.",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Mune: What should we do?",
+    "original_fr": "Léon : Que devrions-nous faire, Gran ?",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Masa: The usual—test them.\nMight as well give them the chance\nto entertain us for awhile.",
+    "original_fr": "Gran : Les mettre {TAG:3C} l'épreuve, bien s{TAG:63}r. Jouons un peu\navec eux.",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Mune: All right!\nHere we go!\nWhoooosh!",
+    "original_fr": "Léon : Oui, allons-y ! Youpi !",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Mune: Hey, Masa, these ones are pretty tough.",
+    "original_fr": "Léon : Ils se débrouillent pas mal, hein ?",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Masa: No one's lasted this long since Cyrus.",
+    "original_fr": "Gran : Vous êtes les seuls {TAG:3C} nous avoir donné du fil {TAG:3C}\nretordre depuis Cyrus.",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Masa: We fight them for real, of course!",
+    "original_fr": "Gran : Nous allons nous battre tout de bon !",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Mune: All right, this is it!{WAIT_KEY}\nMasa: No more games!",
+    "original_fr": "Léon : Bien ! Cette fois...{WAIT_KEY}\nGran : On ne joue plus !",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "With Masa's bravery...",
+    "original_fr": "Gran, le courage...",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "And Mune's brains...",
+    "original_fr": "... et Léon, la sagesse !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "We're unstoppable!",
+    "original_fr": "Deux ne font qu'un !",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Mune: They beat us, Masa.",
+    "original_fr": "Léon : Ils nous ont vaincus, Gran.",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Masa: That was fun!",
+    "original_fr": "Gran : Je me suis bien amusé !",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Mune: Do you think they'll fix us?{WAIT_KEY}\nWill they find our proper owner?",
+    "original_fr": "Léon : Je me demande si ces gens vont nous restaurer...{WAIT_KEY}\nSauront-ils nous trouver un ma¡tre ?",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Masa: Yes, it'll be all right.",
+    "original_fr": "Gran : Oui, tout ira bien.",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Mune: Good luck to you.",
+    "original_fr": "Léon : Nous comptons sur vous...",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Masa: Allow me!\nWe'll ride the wind to the base of the mountain!",
+    "original_fr": "Gran : Je vais vous faire porter par le vent jusqu'au\npied de la montagne.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "{LUCCA}: So this is the Masamune.{WAIT_KEY}\nIt looks like it's been broken for ages.",
+    "original_fr": "{LUCCA} : C'est Grandléon, l'épée légendaire...{WAIT_KEY}\nCependant, elle semble avoir été brisée il y a\nlongtemps...",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "{ROBO}: This sword is the legendary Masamune.{WAIT_KEY}\nIts appearance would indicate that a great\ndeal of time has passed since it was broken.",
+    "original_fr": "{ROBO} : Grandléon, l'épée légendaire...{WAIT_KEY}\nCependant, beaucoup de temps s'est écoulé depuis\nqu'elle a été brisée.",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "{GLYPH:384}\nObtained the broken Masamune!",
+    "original_fr": "{GLYPH:384}\nVous obtenez la lame brisée de Grandléon.",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Ride the wind?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous être portés par le vent ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "{FROG}: You're no match for me, freelancer!",
+    "original_fr": "{FROG} : Je t'ai vu, mercenaire !",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "{GLYPH:384}\nThe rock glows in {FROG}'s hand.",
+    "original_fr": "{GLYPH:384}\nLa pierre brille d'un vif éclat dans\nla main de {FROG} !",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "{GLYPH:384}\nObtained Golden Gemstone!",
+    "original_fr": "{GLYPH:384}\nVous obtenez la pierre dorée !",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "{FROG}: I am no longer the frog I was before!",
+    "original_fr": "{FROG} : Je ne suis plus l'homme que j'étais !",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Y-you're humans?{WAIT_KEY}\nThey've hidden the Queen in the back.\nPlease rescue her!",
+    "original_fr": "Quoi, des humains ?!{WAIT_KEY}\nLa reine est prisonnière un peu plus loin. Je vous en\nsupplie, portez-lui secours !",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Somewhere within this complex, there's a shrine to\nthe Fiendlord. I heard there's treasure to be found\nthere as well.",
+    "original_fr": "Il para¡t que quelque part dans cette abbaye, il y a\nune salle dédiée au culte de cet abominable Magistère,\n{MAGUS}. On dit qu'elle recèle des trésors.",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "{GLYPH:384}\nObtained hidden Naga Bromide!",
+    "original_fr": "{GLYPH:384}\nVous trouvez un portait défendu de myanne !",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Hey!\nThere're humans in here!",
+    "original_fr": "Hé, ce sont des humains !",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Try and steal our bromide, will you?",
+    "original_fr": "Notre précieux portrait...!",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Get 'em!",
+    "original_fr": "Ils vont l'ab¡mer !",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "*belch*\nHmm? What's with the disguises?{WAIT_KEY}\nHurry up and change!\nNo need to be walking around like humans in here.",
+    "original_fr": "Hum... Quoi ? Hic !{WAIT_KEY}\nReprenez vite votre forme normale, vous aussi !\nVous comptez rester déguisés en humains jusqu'{TAG:3C}\nquand ? Hic !",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Ugh, it's almost time for my shift.\nI hate pretending to be human!\nThey're so smelly and repulsive.\nIt's demeaning! *burp*",
+    "original_fr": "Ah, c'est déj{TAG:3C} l'heure de la relève ? Je déteste me\ntransformer en humain ! Ils sont grossiers et sentent\nmauvais !",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "All right, think I'll pay my respects to the\nFiendlord's statue before my shift starts.",
+    "original_fr": "Je vais aller faire une petite prière au pied de la statue\ndu Magistère avant de reprendre mon poste.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Those ones we ate last time weren't so bad.\nAnd those two soldiers we just caught look\nplump and juicy. Hee hee hee...",
+    "original_fr": "Les humains que nous avons dévorés la dernière fois\nn'étaient pas si mauvais que ça.{WAIT_KEY}\nJe me demande ce que valent les deux soldats que nous\navons capturés. Hi, hi, hi...",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Yakra's a genius!\nHis plan to imprison the Chancellor and\ntake on his role worked like magic!{WAIT_KEY}\nNow the Queen's ours, and the castle's in an uproar.\nThis is rich!",
+    "original_fr": "Le plan de ma¡tre Yakra a fonctionné {TAG:3C} merveille !\nEn prenant la place du chancelier, il a pu capturer\nla reine sans la moindre peine !{WAIT_KEY}\nÇa doit être la panique au ch{TAG:4A}teau en ce moment !\nGniark, gniark, gniark !",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Oh, how good of you to come.\nI'm sure Yakra will be pleased.{WAIT_KEY}\nPlease, pass the time in here with us until he has\na chance to come and greet you properly.",
+    "original_fr": "Bienvenue. Yakra, notre ma¡tre, sera sans doute\nheureux de vous voir.{WAIT_KEY}\nVous devriez vous reposer tranquillement dans cette\npièce jusqu'{TAG:3C} ce qu'il puisse vous recevoir.",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Oh, you came to rescue me? How kind of you.\nBut I assure you, there's no need.{WAIT_KEY}\nThe master of this place, Yakra, is so very kind.\nI've decided to stay here. Please, make yourselves\nat home, too!",
+    "original_fr": "Vous êtes venus me porter secours, n'est-ce pas ?\nCependant, ce n'est pas la peine.{WAIT_KEY}\nMa¡tre Yakra est quelqu'un de très aimable. J'ai décidé\nde rester ici. Allez, faites comme chez vous, vous\naussi !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Did you by chance come to save Queen Leene?{WAIT_KEY}\nOh, you did! That's good to know.",
+    "original_fr": "Vous... Vous êtes ceux qui sont venus secourir la\nreine ?!{WAIT_KEY}\nOh, je m'en doutais bien !",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Don't be in such a hurry to leave!\nPlease, take the time to enjoy yourselves with us.\nMwa ha ha ha!",
+    "original_fr": "Oh, ne partez pas si vite, restez encore un peu,\nje vous en prie... Gya, ha, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Oh great {MAGUS}, {MAGUS} the Great Ê\nYour eyes are brighter than the stars Ê\nYour flowing hair, like waves atop the sea Ê{WAIT_KEY}\nEven those miserable sunny days abate Ê\nWhen we feel your seething hate Ê\nEven brightened halls hold no fear Ê\nJust so long as you are near Ê",
+    "original_fr": "Ah, {MAGUS}, notre seigneur ! Ê\nAvec tes yeux scintillants Ê\nEt tes cheveux qui flottent dans le vent ! Ê{WAIT_KEY}\nPlus grand que les monts culminants Ê\nEt plus profond que l'océan Ê\nEst notre dévouement ! Ê{WAIT_KEY}\nPar tous temps, {TAG:3C} toute heure, Ê\nTu fais notre bonheur ! Ê\nMême dans les endroits tristes sans noirceur, Ê\nLorsque tu es l{TAG:3C}, nous n'avons jamais peur ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Chorus: {MAGUS}, oh Lord {MAGUS} Ê\nYou are our Fiendlord and Savior Ê",
+    "original_fr": "Ch{TAG:61}ur : Ah, {MAGUS}, notre seigneur ! Ê\n{MAGUS}, notre sauveur ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Come, join us in singing your funeral dirge!\nGyah hah hah!",
+    "original_fr": "Allez, chantez avec nous votre propre chant funèbre !\nMouah, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nTrouvé : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Dalton: You truly made it all this way.\nPerhaps I did underestimate you.",
+    "original_fr": "Dalton : Alors, vous êtes vraiment parvenus jusqu'ici.\nOn dirait que je vous avais sous-estimés...",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Dalton: But this is the end.\nMy pets will put a stop to you!",
+    "original_fr": "Dalton : Cependant, vous n'irez pas plus loin.\nIls sauront se débarrasser de vous !",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Dalton: Come forth, Golem Sisters!",
+    "original_fr": "Dalton : Venez, golems jumeaux !",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Dalton: Grr... The Sisters, too!\nI suppose I've but one choice left.",
+    "original_fr": "Dalton : Malédiction ! Ils ont vaincu les jumeaux...!\nPuisqu'il en est ainsi...",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Dalton: What's this?\nI feel something strange.{WAIT_KEY}\nCould this be...Lavos's energy!?",
+    "original_fr": "Dalton : Qu'est-ce que... Quelle est cette aura sinistre\nqui grandit ?{WAIT_KEY}\nSerait-ce... la véritable énergie de Lavos...?!",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Dalton: ...\nThis won't do at all.{WAIT_KEY}\nAll my hard work will be in vain if I die before attaining\nimmortality!",
+    "original_fr": "Dalton : ...\nJ'ai comme l'impression que la situation va se g{TAG:4A}ter...{WAIT_KEY}\nJe ne tiens pas {TAG:3C} mourir juste avant d'obtenir la vie\néternelle !",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Dalton: It seems this is your lucky day!{WAIT_KEY}\nFarewell!",
+    "original_fr": "Dalton : Bien, je fermerai les yeux sur votre affront\npour cette fois-ci !{WAIT_KEY}\nAdieu !",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "If history is to change, let it change!\nIf the world is to be destroyed, so be it!{GLYPH:405}12{GLYPH:406}{GLYPH:407}\nIf I must vanish from existence to see this done,\nthen I shall welcome that fate!{GLYPH:405}14{GLYPH:406}{GLYPH:408}",
+    "original_fr": "Si l'histoire doit changer, qu'elle change ! Si le monde\ndoit être détruit, peu m'importe !{GLYPH:405}12{GLYPH:406}{GLYPH:407}\nSi, pour y arriver, je dois mourir... Eh bien, cela sera\nd'autant plus intéressant !!{GLYPH:405}14{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "I'm coming, Lavos!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "J'arrive, Lavos !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

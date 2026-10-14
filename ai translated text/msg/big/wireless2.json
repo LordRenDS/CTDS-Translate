@@ -1,0 +1,158 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:374}'s {GLYPH:391} steps into the Pit\non the side of Player 1.",
+    "original_fr": "Dans le côté gauche, nous avons... {GLYPH:391} !\nJ1 : {GLYPH:374}",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{GLYPH:374}'s {GLYPH:391} steps into the Pit\non the side of Player 2.",
+    "original_fr": "Et dans le côté droit, nous avons... {GLYPH:391} !\nJ2 : {GLYPH:374}",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{GLYPH:374}'s {GLYPH:391} attacks!",
+    "original_fr": "{GLYPH:391}, de {GLYPH:374},\npasse {TAG:3C} l'offensive !",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{GLYPH:374}'s {GLYPH:391} attacks!",
+    "original_fr": "{GLYPH:391}, de {GLYPH:374},\ns'avance...",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{GLYPH:374}'s {GLYPH:391} attacks!",
+    "original_fr": "{GLYPH:391} attaque !\nQue nous réserve {GLYPH:374} ?",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{GLYPH:390}!",
+    "original_fr": "{GLYPH:390} !",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{GLYPH:390}!",
+    "original_fr": "{GLYPH:390} !",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{GLYPH:390}!\nCritical hit!",
+    "original_fr": "{GLYPH:390} !\nC'est un coup critique !",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{GLYPH:367} damage!",
+    "original_fr": "{GLYPH:367} point(s) de dég{TAG:4A}ts !",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{GLYPH:374}'s {GLYPH:391}\nhas acquired a status ailment!",
+    "original_fr": "Oh... {GLYPH:391} a l'air mal en point.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{GLYPH:374}'s {GLYPH:391} has won the battle!",
+    "original_fr": "{GLYPH:391}, de {GLYPH:374},\nremporte la victoire !",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{GLYPH:390}!\nMiss!",
+    "original_fr": "{GLYPH:390} !\nNon ! Son adversaire esquive !",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "{GLYPH:374}'s {GLYPH:391} has fallen quiet.",
+    "original_fr": "{GLYPH:391}, de {GLYPH:374},\nest imperturbable.",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Please select a fighter.",
+    "original_fr": "Choisissez le monstre qui combattra pour vous.",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{GLYPH:374}'s {GLYPH:391} knows no fire-based techs.",
+    "original_fr": "{GLYPH:391}, de {GLYPH:374},\nne conna¡t pas de compétence de feu !",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "{GLYPH:374}'s {GLYPH:391}\nknows no water-based techs.",
+    "original_fr": "{GLYPH:391}, de {GLYPH:374},\nne conna¡t pas de compétence d'eau !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "{GLYPH:374}'s {GLYPH:391}\nknows no light-based techs.",
+    "original_fr": "{GLYPH:391}, de {GLYPH:374},\nne conna¡t pas de compétence de lumière !",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "{GLYPH:374}'s {GLYPH:391}\nknows no shadow-based techs.",
+    "original_fr": "{GLYPH:391}, de {GLYPH:374},\nne conna¡t pas de compétence de ténèbres !",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "{GLYPH:367} damage!\n{GLYPH:374}'s {GLYPH:391} is blinded!",
+    "original_fr": "{GLYPH:367} point(s) de dég{TAG:4A}ts !\n{GLYPH:391}, de {GLYPH:374},\nsubit l'altération d'état Cécité !",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "{GLYPH:367} damage!\n{GLYPH:374}'s {GLYPH:391} is confused!",
+    "original_fr": "{GLYPH:367} point(s) de dég{TAG:4A}ts !\n{GLYPH:391} , de {GLYPH:374},\nsubit l'altération d'état Confusion !",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "{GLYPH:367} damage!\n{GLYPH:374}'s {GLYPH:391} is slowed!",
+    "original_fr": "{GLYPH:367} point(s) de dég{TAG:4A}ts !\n{GLYPH:391}, de {GLYPH:374},\nsubit l'altération d'état Lenteur !",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "P1",
+    "original_fr": "J1",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{TAG:38}P2",
+    "original_fr": "{TAG:38}J2",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "/",
+    "original_fr": "/",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "???",
+    "original_fr": "???",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "NPC",
+    "original_fr": "PNJ",
+    "translation": ""
+  }
+]

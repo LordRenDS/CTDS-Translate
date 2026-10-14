@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "Info %dw\nX®{GLYPH:367}®{GLYPH:367}\nY®{GLYPH:367}®{GLYPH:367}",
+    "original_fr": "Informations  %dw\nX   {GLYPH:367}  {GLYPH:367}\nY  {GLYPH:367}  {GLYPH:367}",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "It appears to be a decorative statue.{WAIT_KEY}\nA note is attached to it.{WAIT_KEY}{GLYPH:384}\nWARNING:\nANYONE APPROACHING THE FOOD STOCKS\nIS SUBJECT TO ATTACK.",
+    "original_fr": "On dirait que ce n'est qu'une statue.{WAIT_KEY}\nIl y a quelque chose d'écrit sur un papier.{WAIT_KEY}{GLYPH:384}\n- Avertissement -\nCeux qui s'approchent de l'entrepôt\nde provisions paieront de leur vie !",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{MARLE}: There!\nThat must be it!",
+    "original_fr": "{MARLE} : Le voil{TAG:3C} !\nC'est lui !",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{LUCCA}: Shhh!\nIt might run away.{WAIT_KEY}\nRun after it, and press the {GLYPH:409} Button to catch it!",
+    "original_fr": "{LUCCA} : Chut !{WAIT_KEY}\nIl pourrait s'enfuir.{WAIT_KEY}\n(Courez et attrapez-le en appuyant sur le bouton {GLYPH:409}.)",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Squeak!\nI got it! I give up.{WAIT_KEY}\nI'll tell you everything, squeak!{WAIT_KEY}\nPress and hold the L Button and R Button and then\npress the {GLYPH:409} Button to activate the switch, squeak.{WAIT_KEY}\nIf you go and change the control scheme around later,\nyou'll have to figure it out on your own, squeak!",
+    "original_fr": "Je te tiens !{WAIT_KEY}\nPardonnez-moi !{WAIT_KEY}\nJe vous dirai tout !{WAIT_KEY}\nPour ouvrir le passage, maintenez le bouton R et le\nbouton L appuyés, puis appuyez sur le bouton {GLYPH:409} !{WAIT_KEY}\nCependant, si vous changez le réglage des boutons,\nles commandes changeront en conséquence !",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{MARLE}: Yuck!\nSomething reeks!",
+    "original_fr": "{MARLE} : Quelle est cette odeur ?",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{LUCCA}: Everything's completely rotten.\nThe refrigeration must have failed.",
+    "original_fr": "{LUCCA} : C'est affreux, tout est pourri...\nLe courant devait être instable...",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{MARLE}: {CRONO}, look!{WAIT_KEY}\n...{WAIT_KEY}\n...{WAIT_KEY}\nHe's not breathing.\nMust have died down here...",
+    "original_fr": "{MARLE} : {CRONO} !!{WAIT_KEY}\n...{WAIT_KEY}\n...{WAIT_KEY}\nIl ne respire plus...",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{MARLE}: There's something in his hand.\nWhat do you suppose this is?",
+    "original_fr": "{MARLE} : Il y a quelque chose dans sa main.\nQu'est-ce que ça peut bien être ?",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{LUCCA}: It looks like some kind of seed.",
+    "original_fr": "{LUCCA} : On dirait des graines.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{MARLE}: A seed?\nCould it even grow in a place like this?",
+    "original_fr": "{MARLE} : Des graines...? Je me demande si elles\npourraient germer dans un endroit pareil...",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "A note is written on a soiled scrap of paper.{WAIT_KEY}\n   That rat is more than just a statue!\n   It knows the secret of this dome.\n   Catch it!",
+    "original_fr": "Il y a quelque chose d'écrit sur un papier sale.{WAIT_KEY}\n{TAG:64} Ce rat n'est pas une statue. Il conna¡t les secrets du\ndôme. Attrapez le rat sur les poutres métalliques ! {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "INITIATING COMMAND SEQUENCE...",
+    "original_fr": "Exécution du programme de sécurité !",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{MARLE}: {CRONO}!\nWhat's that?",
+    "original_fr": "{MARLE} : {CRONO} !\nQue se passe-t-il ?!",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{LUCCA}: {MARLE}!{WAIT_KEY}\nLet's smash this thing!",
+    "original_fr": "{LUCCA} : {MARLE} !{WAIT_KEY}\nAllons-y !",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Old Man: ...",
+    "original_fr": "Vieil homme : ...",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Old Man: No!{WAIT_KEY}\nYou mustn't go to Death Peak!{WAIT_KEY}\nWouldn't make it very far, anyway...\nIt has to be the right time, and...and it\nhas to be them, or...or the way is shut!\nYes, yes...",
+    "original_fr": "Vieil homme : Non !{WAIT_KEY}\nVous ne devez pas y aller !{WAIT_KEY}\nPas sur le mont des défunts !{WAIT_KEY}\n...\nDe toute façon, si ce n'est pas au bon moment et si ce\nne sont pas les bonnes personnes, il est impossible d'y\naller... Ha, ha.",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Old Man: Schala... Oh, I've missed you so!",
+    "original_fr": "Vieil homme : Est-ce toi, Sarah...? Cela fait si longtemps...",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Old Man: Say!{WAIT_KEY}\nHave you seen my masterpieces?\nThe Ocean Palace and the Blackbird?\nI designed and built them both, you know.\nFine works, wouldn't you say?",
+    "original_fr": "Vieil homme : Mais d'abord et avant tout !{WAIT_KEY}\nAvez-vous déj{TAG:3C} vu mes créations ? Le sanctuaire\nsous-marin et le Cygne noir ? Ce sont de véritables\nchefs-d'{TAG:61}uvre ! Ha, ha.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Strange Construct: O Wise One, I cannot wait to\nsee what program code you will install in me next!{WAIT_KEY}\nOld Man: Oh, now that's the sort of appreciation\nthat makes all my work worthwhile!{WAIT_KEY}\nHow's the current one?\nSeems a little better than before, anyhow...",
+    "original_fr": "Créature étrange : J'ai très h{TAG:4A}te de savoir quel\nprogramme vous allez me donner, professeur.{WAIT_KEY}\nVieil homme : Ton impatience me flatte et me donne\nde l'entrain ! Qu'en dis-tu ? Ça commence {TAG:3C} prendre\nforme, hein ?",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Hmm?",
+    "original_fr": "Hum...?",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "You who have opened the door...{WAIT_KEY}\nI am Belthasar, the Guru of Reason,\nand formerly of the kingdom of Zeal.\nI was cast into this era by a great\ndisaster which befell our land.{WAIT_KEY}\nMuch to my surprise, I have learned that\nthe creature Lavos was not a product of\nour age—far from it.{WAIT_KEY}\nIt seems that the being fell from the\nsky in a bygone age, burrowing deep into\nthe planet's core. There he began to feed\nupon its energy, growing ever stronger.",
+    "original_fr": "Â ceux qui ont ouvert cette porte...{WAIT_KEY}\nJe suis Gasch, le sage de la raison du royaume de\nZhyle. J'ai été propulsé jusqu'{TAG:3C} cette époque lors\ndu grand désastre de Zhyle...{WAIT_KEY}\nC'est avec surprise que j'ai constaté que Lavos ne\ns'était pas manifesté qu'{TAG:3C} mon époque...{WAIT_KEY}\nIl est tombé du ciel il y a des millions d'années, a surgi {TAG:3C}\nZhyle, puis a continué de cro¡tre en absorbant l'énergie\nde cette planète, profondément enfoui sous terre.",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Lavos's form was revealed briefly when he\nwas summoned forth by a mighty wizard by\nthe name of {MAGUS} in the year 600.{WAIT_KEY}\nIn the year 1999, Lavos emerged to claim\nthe surface.{WAIT_KEY}\nNow he has taken the place I've named Death\nPeak as his throne—or nest, as it may well be.\nHis miniature spawn now flow from the mountaintop,\nan avalanche of death.{WAIT_KEY}\nLavos is a parasite—a parasite of gargantuan\nproportions whose host is the planet itself.",
+    "original_fr": "En l'an 600 du calendrier du royaume de Gardia, il est\napparu brièvement lorsque {MAGUS} l'a invoqué.{WAIT_KEY}\nEn l'an 1999 du même calendrier, il a finalement aussi\nconquis la surface.{WAIT_KEY}\nEnsuite, il a engendré des larves {TAG:3C} une cadence\nincroyable {TAG:3C} l'endroit que j'ai surnommé le mont\ndes défunts.{WAIT_KEY}\nLavos est un parasite géant qui a fait de la planète son\nnid.",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Trapped here, I endeavor to continue my study and\nobservation of Lavos. But I believe the end draws\nnear.{WAIT_KEY}\nMaintaining one's sanity is an endeavor in and of\nitself in an age such as this—an endeavor I fear\nmay be futile.{WAIT_KEY}\nSo before my mind is lost forever, I have decided to\nleave these records of my knowledge behind, along\nwith my greatest invention.",
+    "original_fr": "J'ai continué d'observer et d'étudier Lavos ici.{WAIT_KEY}\nCependant, j'ai déj{TAG:3C} atteint mes limites. Il est sans\ndoute impossible de maintenir un esprit sain en\nvivant {TAG:3C} une telle époque...{WAIT_KEY}\nAvant que je perde la raison, j'ai décidé de laisser cet\nenregistrement, ainsi que mon ultime invention...",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Ever did I long to return home, and toil endlessly\nin search of a way. But as I neared the completion\nof my research, so did I near the end of my days.{WAIT_KEY}\nI have grown old, and frail. And so I leave it in\nyour hands—you, who have opened the way.{WAIT_KEY}\nTake hold the reins of time, and let all the people\nof this planet's past and future join as one!\nThen—only then—you just may be able\nto stop Lavos.",
+    "original_fr": "J'ai poursuivi mes recherches pendant des années dans\nl'espoir de retourner {TAG:3C} mon époque, mais mes forces\nm'ont abandonné alors que j'atteignais enfin mon but.{WAIT_KEY}\nC'est pourquoi je vous confie ma création, {TAG:3C} vous qui\navez ouvert cette porte.{WAIT_KEY}\nS'il était possible de parcourir la rivière du temps...\nSi des humains de toutes les époques s'unissaient\npour le bien de cette planète...{WAIT_KEY}\nAlors, Lavos pourrait peut-être être vaincu...",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "You have little chance of success.\nBut even a little chance is still a chance! \nYou who have opened the door...the fate\nof the world is in your hands.{WAIT_KEY}\nOpen now the final door, and claim what awaits you.\nMy last and greatest work...{WAIT_KEY}\nThe Wings of Time.",
+    "original_fr": "La probabilité est proche de zéro... Toutefois, tant\nqu'elle n'est pas nulle, je tenterai ma chance. Je miserai\nla planète entière sur ceux qui ouvriront cette porte...{WAIT_KEY}\nFranchissez le seuil fatidique {TAG:3C} la rencontre de mon\nultime invention...{WAIT_KEY}\nLes ailes qui traversent le temps.",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "{MARLE}: Wow... This is amazing!{WAIT_KEY}\nWhich...which end do you suppose is the front?",
+    "original_fr": "{MARLE} : C'est incroyable...{WAIT_KEY}\nMais je me demande quel côté est l'avant...",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "{LUCCA}: This must be Belthasar's invention.",
+    "original_fr": "{LUCCA} : L'ultime invention de Gasch, le sage de la\nraison...",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "{ROBO}: This must be the invention mentioned\nin his recordings, the Wings of Time.",
+    "original_fr": "{ROBO} : Ce sont les ailes qui traversent le temps\ndont il nous parlait...",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{FROG}: This must be it—the Wings of Time!",
+    "original_fr": "{FROG} : Les ailes qui traversent le temps !",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "{AYLA}: Oh!{WAIT_KEY}\nWhat this thing?",
+    "original_fr": "{AYLA} : Ça... ailes ?",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{GLYPH:384}\nA curious crest is engraved here,\nand a mysterious force seals it shut.",
+    "original_fr": "{GLYPH:384}La porte est gravée d'un emblème et scellée\npar une force mystérieuse.",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "{GLYPH:384}\nThe pendant begins to glow.",
+    "original_fr": "{GLYPH:384}\nLe pendentif se met {TAG:3C} briller !",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Strange Construct: The final instruction\nsequence the Wise One programmed into me\nwas for his burial.{WAIT_KEY}\nNow I can join him in his eternal rest.{WAIT_KEY}\nBut first...{WAIT_KEY}\nHmm... I am certain there was one more\ntask I was ordered to complete.{WAIT_KEY}\nSomething about the seats...{WAIT_KEY}\n...{WAIT_KEY}\n...{WAIT_KEY}\n...{WAIT_KEY}\nMemory error. I forget.",
+    "original_fr": "Créature étrange : Le dernier programme qui m'a été\nintégré fut celui des funérailles du professeur.{WAIT_KEY}\nJe peux ainsi passer l'éternité en sa compagnie.{WAIT_KEY}\nIl me semble que j'avais encore une chose {TAG:3C} faire...{WAIT_KEY}\nQuelque chose au sujet de sièges...{WAIT_KEY}\n...{WAIT_KEY}\nJ'ai oublié...",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Strange Construct: Please do not disturb my slumber.",
+    "original_fr": "Créature étrange : Ne me réveillez pas.\nMoi qui dormais si paisiblement...",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Strange Construct: Warning.\nTemporal turbulence detected ahead.",
+    "original_fr": "Créature étrange : Il est dangereux d'aller plus loin.\nL'axe du temps est déréglé.",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Strange Construct: Scared you, didn't I?{WAIT_KEY}\nIt's me...Belthasar!\nI copied my memory into this thing.{WAIT_KEY}\nWhat do you think? Precious, isn't he?{WAIT_KEY}\nAnyway, there is something I need to explain.\nNamely, how to transcend time!{WAIT_KEY}\nPress the {GLYPH:412} Button to display the Time Gauge.\nThen, use the L Button and R Button to select an era.",
+    "original_fr": "Créature étrange : Je vous ai surpris ? C'est moi...{WAIT_KEY}\nOui, c'est moi, Gasch. J'ai copié mes pensées dans le\ncerveau de cette créature.{WAIT_KEY}\nElle vous pla¡t ?{WAIT_KEY}\nJe dois vous expliquer quelque chose, {TAG:3C} savoir,\ncomment atteindre une autre époque.{WAIT_KEY}\nAppuyez sur le bouton {GLYPH:412} pour afficher la jauge\ndu temps, puis choisissez l'époque où vous\nvoulez aller avec le bouton R ou le bouton L.",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Belthasar: Ah, yes!",
+    "original_fr": "Gasch : Ah, j'oubliais !",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Belthasar: Before you go, why don't you give\na name to my time machine?",
+    "original_fr": "Gasch : Avant de partir, que diriez-vous de donner un\nnom {TAG:3C} ma machine {TAG:3C} voyager dans le temps ?",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Belthasar: Well then, hop aboard!",
+    "original_fr": "Gasch : Allez, montez {TAG:3C} bord !",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "No dozing off, now!{GLYPH:408}",
+    "original_fr": "Ce n'est pas le moment de dormir !{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Strange Construct: Instructions for the\ntime machine are as follows.{WAIT_KEY}\n{GLYPH:412} Button:\nDisplay time gauge.{WAIT_KEY}\nL Button and R Button / +Control Pad:\nSelect destination in time.{WAIT_KEY}\n{GLYPH:409} Button:\nBoard, disembark, or activate time warp.{WAIT_KEY}\nEnd of message.",
+    "original_fr": "Créature étrange : Instructions d'utilisation de la\nmachine {TAG:3C} voyager dans le temps.{WAIT_KEY}\nBouton {GLYPH:412}\nAfficher la jauge du temps (en vol).{WAIT_KEY}\nBouton R, bouton L et manette +\nChoisir une époque.{WAIT_KEY}\nBouton {GLYPH:409}\nEmbarquer, descendre ou activer le portail temporel.{WAIT_KEY}\nFin du message du professeur.",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Strange Construct: Enter name of time machine.",
+    "original_fr": "Créature étrange : Veuillez saisir le nom de la machine {TAG:3C}\nvoyager dans le temps.",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Lookout: Eek! Outsiders!\nBetter report to Krawlie!",
+    "original_fr": "Sentinelle : Hi ! Des intrus ! Je dois avertir le\nsieur Rampant immédiatement ! Hi !",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Underling: There was a bridge here!\nI saw it! I swear, ribbit!",
+    "original_fr": "Acolyte : Il y avait un pont ici, je l'ai vu, co{TAG:4A}{TAG:4A} !\nC'est vrai ! Je le jure, co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Boss: What, it got up and walked away, ribbit?\nDon't you lie to me!\nThere's nothing here at all, ribbit!",
+    "original_fr": "Chef : Ne mens pas, co{TAG:4A}{TAG:4A} !\nIl n'y a rien ici, co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Underling: But it's true, ribbit...",
+    "original_fr": "Acolyte : Mais c'est pourtant la vérité, co{TAG:4A}{TAG:4A}...",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Boss: Someone's coming!\nLet's scram, ribbit!",
+    "original_fr": "Chef : Hum ? Quelqu'un approche ! Fuyons, co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "{MARLE}: This place is a tad on the spooky side.",
+    "original_fr": "{MARLE} : J'ai un peu la frousse...",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "{LUCCA}: I've got a bad feeling about this.",
+    "original_fr": "{LUCCA} : Quel endroit sinistre... Ça ne me dit rien qui\nvaille.",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "{AYLA}: This bad place...\nBe careful!",
+    "original_fr": "{AYLA} : Sentir danger... Faire attention !",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "{GLYPH:384}\nNOTICE\nCircle around to press the switch!",
+    "original_fr": "Vous trouvez une note.{WAIT_KEY}{GLYPH:384}\n\n{TAG:64} Faites le tour et appuyez sur le bouton ! {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Lookout: There's three of 'em, and they're almost here!",
+    "original_fr": "Sentinelle : Hi ! Trois intrus approchent ! Hi !",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Krawlie: Waltzing through the sewers like they\nown the place, eh? Must have a death wish.\nWe'll teach 'em a little respect!",
+    "original_fr": "Sieur Rampant : Ils sont plutôt téméraires de\ns'aventurer ainsi dans cet égout. Je vais leur\nfaire découvrir la terreur qui y règne !",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Lookout: Yes!\nYes we will!\nHee hee hee...",
+    "original_fr": "Sentinelle : Hi ! Montrons-leur ! Hi !",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Krawlie: Just let 'em come through here!\nThey'll be chopped liver! Pulverized!\nWon't even know what to call 'em when we're done!",
+    "original_fr": "Sieur Rampant : S'ils osent venir jusqu'ici, je les\ndéchiquetterai !",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Krawlie: Gah ha ha ha ha!{WAIT_KEY}\nLookout: Hee hee hee hee hee!{WAIT_KEY}\nKrawlie: Har har har har!{WAIT_KEY}\nLookout: HA HA HA HA HA!{WAIT_KEY}\nKrawlie: HEEEEE HEE HEE HEE!",
+    "original_fr": "Sieur Rampant : Mouah, ha, ha, ha !{WAIT_KEY}\nSentinelle : Hi, hi, hi, hi, hi !{WAIT_KEY}\nSieur Rampant : Ho, ho, ho, ho, ho !{WAIT_KEY}\nSentinelle : Hi, hi, hi, hi, hi !{WAIT_KEY}\nSieur Rampant : Hé, hé, hé, hé, hé !",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Lookout: !",
+    "original_fr": "Sentinelle : !",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Krawlie: Hm?",
+    "original_fr": "Sieur Rampant : Hein ?",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Quiet! You'll ruin our ambush!",
+    "original_fr": "Taisez-vous ! Ne me dérangez pas !",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Mountains're so nice.",
+    "original_fr": "Ah, comme les montagnes sont jolies.",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "This's such a nice view.",
+    "original_fr": "Elles sont si belles.",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Mountains're so nice.",
+    "original_fr": "Ah, comme les montagnes sont jolies.",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "You really aren't gonna leave me alone, huh?\nHere, take this.",
+    "original_fr": "Vous n'abandonnez donc jamais ? Tenez.",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Azala: Hear that lovely voice?{WAIT_KEY}\nYou'll soon be hearing more of it than you'd ever wish!",
+    "original_fr": "Azara : Avez-vous entendu ce rugissement ?{WAIT_KEY}\nHo, ho, vous pourrez l'entendre autant que vous le\nvoudrez !",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Azala: Damnable red star...{WAIT_KEY}\nFall, why don't you?{WAIT_KEY}\nStain the earth red!",
+    "original_fr": "Azara : îtoile rouge de malheur... îcrase-toi et\nenveloppe ces terres de ton éclat écarlate !",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Azala: This black tyranno will have the honor of\nwiping you filthy apes from existence forever!\nMwa ha ha!",
+    "original_fr": "Azara : Ho, ho, ho ! Ce tyrannosaure va vous faire\ndispara¡tre {TAG:3C} jamais de l'histoire !",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Azala: At last, the final confrontation.\nIt was but a matter of time.{WAIT_KEY}\nWill it be we reptites who inherit the earth—or you\nsoft-skinned apes?",
+    "original_fr": "Azara : Alors vous êtes venus... Le moment de notre\ndernière bataille est enfin arrivé.{WAIT_KEY}\nNous devrons déterminer qui de nous, sauriens ou\nprimates, survivra.",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{AYLA}: Strong live, weak die.\n{AYLA} just fight!",
+    "original_fr": "{AYLA} : Loi du plus fort décider.\n{AYLA} juste combattre !",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Azala: Even should it prove our fate to die, we\nwill not relinquish this world to the likes of you!",
+    "original_fr": "Azara : Même si l'extinction est notre destin, nous ne\nferons jamais place aux primates !",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Azala: No... It can't be!\nCould the heavens truly have sided with the apes?{WAIT_KEY}\nListen, primates, and let it be known for all time.\nWe reptites fought proudly to the bitter end!",
+    "original_fr": "Azara : Le ciel aurait-il choisi les primates...?{WAIT_KEY}\nîcoutez-moi et transmettez mes paroles.{WAIT_KEY}\nLes sauriens ont défié leur destin et ont péri la tête\nhaute...!",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "{AYLA}: {AYLA} know.",
+    "original_fr": "{AYLA} : D'accord...",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{AYLA}: !?",
+    "original_fr": "{AYLA} : ?!",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Azala: First, a great fiery stone will crash to the earth.\nIts flames will soon spread to scorch every corner of\nthe land.{WAIT_KEY}\nThen the chill will begin to creep across the blackened\nplains, ushering in a long, cruel age of ice and snow.{WAIT_KEY}\nHa ha ha...\nA fitting end to our age indeed!{WAIT_KEY}\nMwa ha ha ha ha!",
+    "original_fr": "Azara : D'abord, le grand rocher enflammé va tomber du\nciel... La boule de feu ardente réduira tout en cendre.{WAIT_KEY}\nUn jour, la terre br{TAG:63}lée refroidira, annonçant la venue\nd'une longue période où tout sera gelé...{WAIT_KEY}\nHa ha... On ne pouvait rêver mieux pour marquer la fin de\nnotre ère. Ha ha ha...",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "{AYLA}: Lavos...",
+    "original_fr": "{AYLA} : Lavos...",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "{MARLE}: What?",
+    "original_fr": "{MARLE} : Quoi ?",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "{LUCCA}: L-Lavos!?",
+    "original_fr": "{LUCCA} : La... Lavos ?!",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "{ROBO}: Lavos... But, that is impossible!",
+    "original_fr": "{ROBO} : Lavos... Impossible !",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{AYLA}: {AYLA} people word.\n\"La\" mean fire.\n\"Vos\" mean big.",
+    "original_fr": "{AYLA} : Mots anciens de {AYLA}.\n{TAG:64} La {TAG:65} être {TAG:64} feu {TAG:65}.\n{TAG:64} Vos {TAG:65} être {TAG:64} grand {TAG:65}...",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Voice: {AYLA}!",
+    "original_fr": "{AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "{AYLA}: Kino!",
+    "original_fr": "{AYLA} : Kino !",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "{AYLA}: Hurry!\nLavos fall soon!",
+    "original_fr": "{AYLA} : Vite ! Lavos s'écraser !",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{AYLA}: All ride dactyl!",
+    "original_fr": "{AYLA} : Tous sur ptéranodons !",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "{AYLA}: Kino!\nHurry!",
+    "original_fr": "{AYLA} : Kino ! Vite !",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Kino: {AYLA}!\nWhat you do?",
+    "original_fr": "Kino : {AYLA} !{WAIT_KEY}\n{AYLA} faire quoi ?!",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "{AYLA}: Come!\nAzala!\nCome!",
+    "original_fr": "{AYLA} : Azara venir ! Vite !",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Azala: No!\nThis is the will of the earth!",
+    "original_fr": "Azara : Non ! La loi du plus fort a décidé !",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "{AYLA}: ...",
+    "original_fr": "{AYLA} : ...",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Kino: {AYLA}!\nHurry!",
+    "original_fr": "Kino : {AYLA} ! Vite !!",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "{AYLA}: Azala...{WAIT_KEY}\n{AYLA} not forget.",
+    "original_fr": "{AYLA} : Azara...{WAIT_KEY}\n{AYLA} pas oublier...",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Azala: Take...",
+    "original_fr": "Azara : Le futur...",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "{AYLA}: Take?{WAIT_KEY}\nWhat take?",
+    "original_fr": "{AYLA} : Futur ?{WAIT_KEY}\nFutur quoi ?",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Azala: Take care...of this world.",
+    "original_fr": "Azara : Le futur vous appartient...",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "Nizbel: Lookin' for Azala?\nShe's just through here.",
+    "original_fr": "Nizbel : Si vous cherchez Azara, il est un peu plus loin.",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Nizbel: Hold it!{WAIT_KEY}\nWhen I said she's through here, I meant you gotta\nget through me first! Whaddaya think I was flexin'\nmy muscles and lookin' all intimidatin' for?",
+    "original_fr": "Nizbel : Un instant.{WAIT_KEY}\nVous devrez d'abord me vaincre pour l'atteindre !",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Nizbel: Hey!{WAIT_KEY}\nYou've got some nerve just walkin' past me,\nthe great Nizbel! I'll show you!",
+    "original_fr": "Nizbel : Eh bien !{WAIT_KEY}\nQuel culot vous avez de m'ignorer comme ça !",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Underling: Looks like you just hafta press this\nswitch, and the bridge'll extend across, ribbit!",
+    "original_fr": "Acolyte : Si on appuie sur le bouton, le pont appara¡t,\nco{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Boss: So, switch it on already, ribbit!",
+    "original_fr": "Chef : Mais alors, qu'est-ce que tu attends, co{TAG:4A}{TAG:4A} ?\nAppuie dessus, co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Underling: Riiiiiibbit!{WAIT_KEY}\nCan't reach it, ribbit!",
+    "original_fr": "Acolyte : Co{TAG:4A}{TAG:4A} !{WAIT_KEY}\nJe n'y arrive pas, il est trop haut, co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Boss: And you call yourself a frog, ribbit!",
+    "original_fr": "Chef : T'en as autant dans les cuisses que dans la\ncervelle, co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "There is a diary here.\nThe final entry reads as follows:{WAIT_KEY}\n\"I'm through. I can't take any more of this.\nThe fishmen attack if I make even the slightest noise.{WAIT_KEY}\n\"If I knew things would be like this, I'd have\ntaken the guillotine any day of the week.{WAIT_KEY}\n\"Think I'll go out with a good, loud scream—see how\nthe soggy freaks like that!\"",
+    "original_fr": "Vous trouvez un journal. Il y a quelque chose d'écrit sur\nla dernière page.{WAIT_KEY}\n{TAG:64} Je n'en peux plus. Si je fais le moindre bruit, les\nhommes-poissons m'attaquent... Je ne peux plus\nle supporter. {TAG:65}{WAIT_KEY}\n{TAG:64} Si j'avais su qu'il en serait ainsi, j'aurais préféré la\nguillotine. Je vais en finir et crier ! {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Strange Construct: *mumble mumble*?\n{TAG:38}{TAG:38}{GLYPH:394}Take off.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Get off.{GLYPH:397}",
+    "original_fr": "Créature étrange : Zzz... Hmm...?\n       {GLYPH:394}Mettre la machine en marche{GLYPH:395}\n       {GLYPH:396}Descendre{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "{MARLE}: Let's go!",
+    "original_fr": "{MARLE} : C'est parti !",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "{LUCCA}: Come on, {EPOCH}!",
+    "original_fr": "{LUCCA} : Â toi de jouer, {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "{ROBO}: {EPOCH} engines engaged!",
+    "original_fr": "{ROBO} : Mise en marche du {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "{FROG}: Away, {EPOCH}!",
+    "original_fr": "{FROG} : En route, {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "{AYLA}: {EPOCH}, go!",
+    "original_fr": "{AYLA} : {EPOCH} voler !",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "{MAGUS}: We go.",
+    "original_fr": "{MAGUS} : Allons-y...",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nTrouvé : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Strange Construct: I will now deliver a message\nfrom the Wise One.",
+    "original_fr": "Créature étrange : Je vais vous transmettre un\nmessage du professeur.",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Belthasar: Death Peak harbors a power capable\nof restoring the slain to life.{WAIT_KEY}\nBut the power to reverse death is not one easily\ninvoked. The need must be great, and the person's\nexistence of the utmost importance.{WAIT_KEY}\nAnd what's more, you'll need a double—a doll identical\nto that person in every detail.{WAIT_KEY}\nThen, and only then, will the power deign to hatch\nthe Egg.",
+    "original_fr": "Gasch : Le mont des défunts a le pouvoir de rendre la\nvie {TAG:3C} ceux qui l'ont perdue.{WAIT_KEY}\nCependant, pour invoquer ce pouvoir, l'existence de la\npersonne {TAG:3C} ressusciter doit être plus qu'importante,\nelle doit être essentielle.{WAIT_KEY}\nEn outre, vous aurez besoin d'une poupée qui lui\nressemble comme deux gouttes d'eau.{WAIT_KEY}\nSi vous remplissez ces conditions, l'{TAG:61}uf devrait éclore.",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Belthasar: Yes... That will do quite well.{WAIT_KEY}\nIt seems the time has come for you to attempt\nDeath Peak. It is the only chance you have of\nreviving your friend.{WAIT_KEY}\nI've implanted one final program—truly, I mean\nit this time—in this construct's memory banks.\nIt will help to guide you up the mountain.{WAIT_KEY}\nPlease stand back.",
+    "original_fr": "Gasch : Hum... Cette poupée devrait suffire.{WAIT_KEY}\nLe moment où vous serez admis sur le mont des défunts\nsemble être arrivé. Ce sera votre dernière chance de\nressusciter votre compagnon qui vous est si cher.{WAIT_KEY}\nLes dernières consignes que j'ai programmées dans\ncette créature serviront {TAG:3C} vous guider jusqu'au\nsommet !{WAIT_KEY}\nReculez un peu.",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "Belthasar: Without the doppel doll, there is\nno meaning in going to Death Peak. Go to the\nplace you have left it, and retrieve it with\nall haste!",
+    "original_fr": "Gasch : Sans une poupée clone, il ne servirait {TAG:3C} rien\nd'aller sur le mont des défunts ! Dépêchez-vous d'aller\nla récupérer !",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Belthasar: A doppel doll! That would do nicely.\nThe magician Norstein Bekkler could whip one\nup in the wink of an eye, if only he were here.{WAIT_KEY}\nYou've not heard of him, you say? Well, he loves\nfestivals. Find a fair, and there, too, you shall\nalmost certainly find Bekkler!",
+    "original_fr": "Gasch : Une poupée clone ! Si seulement le magicien\nNorstein Bekkler était ici, il pourrait en fabriquer\nune en moins de deux...{WAIT_KEY}\nQuoi ? Vous ne connaissez pas Norstein Bekkler ?{WAIT_KEY}\nIl aime les foires et les festivals, alors c'est {TAG:3C} ce genre\nd'endroit que vous pourrez le rencontrer...",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Executing program!",
+    "original_fr": "Exécution du programme !",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Belthasar: The three entities you just saw will\naid you on Death Peak.{WAIT_KEY}\nThis ends my message.\nNow, I must ask you for a favor.{WAIT_KEY}\nThis construct has reached the end of his final\nprogram. Please, let him rest. The switch is on\nhis stomach.",
+    "original_fr": "Gasch : Les trois figurines qui viennent de s'envoler\ndevraient vous protéger sur le mont des défunts.{WAIT_KEY}\nMon message est maintenant terminé.{WAIT_KEY}\nPour finir, puis-je vous demander de me rendre un\nservice ?{WAIT_KEY}\nLe programme de cette créature est aussi terminé.\nAccordez-lui le repos qu'elle mérite.{WAIT_KEY}\nL'interrupteur est situé sur son ventre.",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "Switch the construct off?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous appuyer sur l'interrupteur ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "Time no longer appears to flow for this construct.",
+    "original_fr": "Il semble que le temps ne s'écoule plus pour cette\ncréature.",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Oh, three of you! And in a place like this!\nYou've a long journey ahead of you yet,\nso please rest here a while.{WAIT_KEY}\nOf course, if you wish to escape from the Omen,\nI'll see what I can do.",
+    "original_fr": "Oh ! Des gens ici, et trois en plus ! Vous avez encore\nbeaucoup de chemin {TAG:3C} faire, alors reposez-vous ici\naussi longtemps que vous voulez.{WAIT_KEY}\nToutefois, si vous voulez sortir de ce songe, nous\npouvons peut-être vous aider.",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "What will you do?\n{TAG:38}{TAG:38}{GLYPH:394}Escape.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Remain here.{GLYPH:397}",
+    "original_fr": "Qu'allez-vous faire ?\n       {GLYPH:394}Sortir{GLYPH:395}\n       {GLYPH:396}Rester ici{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "Hey! A real, live customer!",
+    "original_fr": "Hé ! On a de la visite !",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "Underling: Get on, ribbit!",
+    "original_fr": "Acolyte : Montez {TAG:3C} bord, co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "What will you do?\n{TAG:38}{TAG:38}{GLYPH:394}Shop.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Just chat.{GLYPH:397}",
+    "original_fr": "Qu'allez-vous faire ?\n       {GLYPH:394}Faire des achats{GLYPH:395}\n       {GLYPH:396}Juste dire bonjour{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "I've all kinds of great stuff!",
+    "original_fr": "J'ai tout plein de marchandises intéressantes !",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "Come again!",
+    "original_fr": "Â bientôt, j'espère !",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "*sigh*\nHard to make a living here...",
+    "original_fr": "Je n'ai pas beaucoup de clients, ici. Ho, ho !",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "Come back here!{GLYPH:408}",
+    "original_fr": "Au revoir !{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Underling: Hrmph. How long are we gonna\nkeep taking orders from that loser, ribbit?",
+    "original_fr": "Acolyte : Pfft ! Jusqu'{TAG:3C} quand devrons-nous l'écouter,\nco{TAG:4A}{TAG:4A} ?",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "Boss: Just shut up and push it, will ya, ribbit?",
+    "original_fr": "Chef : Tais-toi et pousse, co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Underling: Don't you have any bigger dream\nin life, ribbit?",
+    "original_fr": "Acolyte : Dites, chef, quel est votre rêve le plus cher,\nco{TAG:4A}{TAG:4A} ?",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Boss: My dream, huh, ribbit?{WAIT_KEY}\nTo be King of the Sewers! Yeah, ribbit!",
+    "original_fr": "Chef : Mon rêve le plus cher...?{WAIT_KEY}\nAh, je sais, être le roi des égouts !\nOui, c'est ça, co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "Boss: All right, then... What's your little\ndream, ribbit?",
+    "original_fr": "Chef : Et toi, co{TAG:4A}{TAG:4A} ?",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "Underling: All I want is to keep working for\nyou, ribbit.",
+    "original_fr": "Acolyte : Mon rêve est de rester votre acolyte, co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "Boss: Sheesh... Go and make me get all\nteary-eyed, why don't you, ribbit?{WAIT_KEY}\nOh, if only Krawlie and that lookout of his\ncould've heard that, ribbit!",
+    "original_fr": "Chef : Pfft ! Tu vas me faire pleurer !{WAIT_KEY}\nJe vais le dire au sieur Rampant et {TAG:3C} sa sentinelle,\nco{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Underling: Ribbit...ribbit, ribbit!",
+    "original_fr": "Acolyte : Co{TAG:4A}{TAG:4A} ! Co{TAG:4A}{TAG:4A} ! Co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Boss: Ribbit! Ribbit, ribbit!",
+    "original_fr": "Chef : Co{TAG:4A}{TAG:4A} ! Co{TAG:4A}{TAG:4A} ! Co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "{MARLE}: What?\nIt's over already?",
+    "original_fr": "{MARLE} : Quoi ? C'est déj{TAG:3C} la fin ?",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "{LUCCA}: That is what \"The End\" usually means.",
+    "original_fr": "{LUCCA} : Quand ces mots apparaissent, c'est ce\nque ça veut dire habituellement.",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{MARLE}: But things were just starting to\nget interesting!",
+    "original_fr": "{MARLE} : Mais c'est pourtant maintenant que les\nchoses deviennent intéressantes !",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "{LUCCA}: Well, let's see if we can get these\nwords out of the way, then.",
+    "original_fr": "{LUCCA} : Eh bien, demandons-leur de remonter ces\nmots.",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "{MARLE}: Yeah, take 'em away!\nThen we can take a little trip down memory lane\nand reflect on all the good times we had!",
+    "original_fr": "{MARLE} : Remontez-les ! Remontez-les !\nFaisons une réunion de bilan pour voir !",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "{LUCCA}: Art director! Would you mind?",
+    "original_fr": "{LUCCA} : Monsieur l'infographiste !\nS'il vous pla¡t !",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{MARLE}: First, let's take a closer look at\nLeene Square!",
+    "original_fr": "{MARLE} : Faisons d'abord un gros plan sur la place\nde Lynne !",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "{LUCCA}: There's the Steel Runner.",
+    "original_fr": "{LUCCA} : C'est le coureur au masque de fer.",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "{MARLE}: I just don't think I could go for\none like that. The armor would poke you all\nthe time.",
+    "original_fr": "{MARLE} : Je ne peux pas supporter les hommes\ncomme lui ! Et puis, son armure a l'air trop dure...",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "{LUCCA}: Forget that!\nCan you imagine what the inside of\nthat armor must smell like?",
+    "original_fr": "{LUCCA} : Il ne fait que courir... Même si son armure\nest un désavantage.",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "{MARLE}: What a lovely thought, {LUCCA}.\nLet's get on with the show, okay?",
+    "original_fr": "{MARLE} : La prochaine fois, alors. Au revoir !",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "{LUCCA}: Next up is your home, Guardia Castle. ",
+    "original_fr": "{LUCCA} : Et maintenant, le ch{TAG:4A}teau de Gardia,\nchez toi.",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "{MARLE}: Heh heh...\nThis one's a VERY nice memory!",
+    "original_fr": "{MARLE} : Hi, hi ! Nous avons de beaux soldats au\nch{TAG:4A}teau !",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{LUCCA}: Is it ever! Whew!",
+    "original_fr": "{LUCCA} : Oh oui, je l'ai remarqué, lui. J'en ai encore\nle c{TAG:61}ur qui bat la chamade.",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "{MARLE}: He was the only one you couldn't bring\nyourself to shoot with your Zonker, wasn't he?\nHis name's Peter. He's not really a man, though.",
+    "original_fr": "{MARLE} : N'est-il pas le seul sur lequel tu n'as pas\ntiré avec ton pistolet explosif ? Il s'appelle Peter.\nMais c'est une femme.",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "{LUCCA}: I...I knew that!",
+    "original_fr": "{LUCCA} : Hein ?!\nMais les femmes ne m'intéressent pas !",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "{MARLE}: Oh, it's Pierre!",
+    "original_fr": "{MARLE} : Ah ! C'est Pierre !",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "{LUCCA}: Wouldn't want anything to do\nwith someone like that. Obviously corrupt.\nSomeone ought to put him on trial!",
+    "original_fr": "{LUCCA} : Un non catégorique {TAG:3C} ce genre d'homme !\nOn devrait avoir des procès plus justes !",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "{MARLE}: This next one just doesn't have\nany spark. Where's the energy? That drive to\nmake the best of your situation? Cheer up!",
+    "original_fr": "{MARLE} : Regarde comme il manque de caractère.\nAllez, faites quelque chose ! Un peu de courage !\nD'énergie !!",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "{LUCCA}: We might not be any better than\nhim if we were in his shoes.",
+    "original_fr": "{LUCCA} : Â sa place, nous serions peut-être\npareilles, remarque. Allez, secouez-vous !",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "{MARLE}: Well, good luck sowing that seed of yours!",
+    "original_fr": "{MARLE} : Les graines. J'espère qu'elles vont\ngermer...",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "{LUCCA}: Theeeeere's Johnny!\nMr. Speed himself!",
+    "original_fr": "{LUCCA} : Johnny...? Le fou de la vitesse ?",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "{MARLE}: I don't know about a guy whose\ngreatest talent is being fast...\n\n",
+    "original_fr": "{MARLE} : Il n'est que rapide, c'est tout...",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "{LUCCA}: Hey, look close!\nHe's really a tricycle!\nNo, thanks!",
+    "original_fr": "{LUCCA} : Quoi ? En regardant de plus près, c'est un\ntricycle ! Passons, passons !",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "{MARLE}: Try again when you learn to ride, buddy!",
+    "original_fr": "{MARLE} : Et il pensait pouvoir gagner !\nIl rêve !",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{LUCCA}: There's that stuffed-shirt, Cyrus!",
+    "original_fr": "{LUCCA} : Cyrus, un peu prétentieux sur les bords.",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{MARLE}: He is awfully handsome...",
+    "original_fr": "{MARLE} : Mais il est plutôt pas mal. Assez craquant\nmême, je dirais...",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{LUCCA}: But those clothes have got to go.",
+    "original_fr": "{LUCCA} : Je n'aime pas trop comment il s'habille.",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "{MARLE}: Oh, and did you know he plucks his\neyebrows?",
+    "original_fr": "{MARLE} : Tu savais qu'il se dessine les sourcils ?",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "{LUCCA}: Ugh, you've got to be joking!\nHmm... Still a hunk, though!",
+    "original_fr": "{LUCCA} : Tu rigoles ?! Beurk, ça me dégo{TAG:63}te !\nMais bon, il est courageux, alors je lui pardonne !",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "{MARLE}: Toma!\nNow he's definitely my type!",
+    "original_fr": "{MARLE} : Ooh, Toma ! Mon préféré !",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "{LUCCA}: Aw, he's just a sot.",
+    "original_fr": "{LUCCA} : Il est un peu trop porté sur la bouteille.",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "{MARLE}: Probably has dozens of girlfriends, too.",
+    "original_fr": "{MARLE} : Et si ça se trouve, ce n'est qu'un coureur\nde jupons.",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "{LUCCA}: Or boyfriends. Come to think of it, he\nnever really talked about his love life...",
+    "original_fr": "{LUCCA} : Ou peut-être qu'il préfère les coquillages...\narc-en-ciel, hi, hi !",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "{MARLE}: What about him?\nThat Kino guy?",
+    "original_fr": "{MARLE} : Que penses-tu de lui ? C'est Kino...",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "{LUCCA}: Forget it.\nTotal Neanderthal!",
+    "original_fr": "{LUCCA} : C'est un gringalet. Il ne m'intéresse pas du\ntout.",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "{MARLE}: But the single-mindedness is kind of\ncute, don't you think?",
+    "original_fr": "{MARLE} : Mais sa loyauté le rend mignon...\nJe plaisante.",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "{LUCCA}: He walks like a DUCK!",
+    "original_fr": "{LUCCA} : Je déteste comment il marche !\nC'est bizarre !",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "{MARLE}: He was a nice enough guy, though.",
+    "original_fr": "{MARLE} : Mais c'était quelqu'un de bien.",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "{LUCCA}: Yeah, he meant well.",
+    "original_fr": "{LUCCA} : Il était vraiment très gentil.",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "{LUCCA}: {CRONO}!",
+    "original_fr": "{LUCCA} : {CRONO} !!",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "{CRONO}: This is your idea of a nice\nlittle trip down memory lane?",
+    "original_fr": "{CRONO} : Quelle sorte de {TAG:64} bilan {TAG:65} êtes-vous donc\nen train de faire ?!",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "{MARLE}: Heh heh!\nI...I guess we got a little carried away!",
+    "original_fr": "{MARLE} : Euh... Hi, hi, hi !",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "{LUCCA}: Say, what era should we go to now?",
+    "original_fr": "{LUCCA} : Dis, quelle époque allons-nous visiter\nmaintenant ?",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "{MARLE}: One with lots of fun things to do!",
+    "original_fr": "{MARLE} : Une époque où il y a plein de choses\namusantes !",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "{CRONO}: Now!",
+    "original_fr": "{CRONO} : Maintenant !",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "{LUCCA}: Now, as in...the present?",
+    "original_fr": "{LUCCA} : {TAG:64} Maintenant {TAG:65}...? Tu veux dire le\nPrésent ?",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "{MARLE}: Okay!\nThe present it is!",
+    "original_fr": "{MARLE} : D'accord ! Va pour le Présent !",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "{LUCCA}: So, I guess we won't be needing\nthis Gate Key anymore, will we?",
+    "original_fr": "{LUCCA} : Je me demande si ça veut dire que nous\nn'aurons plus besoin de la clef stabilisatrice...?",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "{LUCCA}: Hey!\nWait for me!",
+    "original_fr": "{LUCCA} : Hé ! Attendez !",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

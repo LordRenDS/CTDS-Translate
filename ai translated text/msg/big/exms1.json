@@ -1,0 +1,1778 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{LUCCA}: It looks like everyone's all right.",
+    "original_fr": "{LUCCA} : Tout le monde va bien ?",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{ROBO}: Where are we?\nMy memory banks contain no data on this location.",
+    "original_fr": "{ROBO} : Où sommes-nous ? Cet endroit n'est pas\ndans ma base de données.",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{AYLA}: {AYLA} smell something.\nMaybe animal here!",
+    "original_fr": "{AYLA} : {AYLA} sentir odeur d'êtres vivants\ntout près !",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{MAGUS}: I've not seen this place before.\nIs this a world apart from our own?\nPerhaps a different dimension altogether...\nThere may be some value in the knowing.\n",
+    "original_fr": "{MAGUS} : Serait-ce une contrée inconnue, un autre\nmonde, voire une autre dimension...?",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{FROG}: Well, since we've come all this way...\nShall we have a look around?",
+    "original_fr": "{FROG} : Eh bien, puisque nous sommes ici, nous\ndevrions en profiter pour explorer les alentours.",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{MARLE}: I wonder if there are any people here.",
+    "original_fr": "{MARLE} : Il y a peut-être des gens quelque part...",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Would you like to leave?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous rentrer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{FROG}: Anybody here?\n...Apparently not.{WAIT_KEY}\nBut it looks to be a village of sorts, does it not?\nMayhap a search will turn up some people.",
+    "original_fr": "{FROG} : On dirait qu'il n'y a personne ici.{WAIT_KEY}\nCependant, cet endroit a l'air d'être un village.\nEn cherchant aux alentours, nous trouverons\npeut-être quelqu'un.",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{ROBO}: This appears to be a settlement.\nWe may be able to find people nearby if we search.",
+    "original_fr": "{ROBO} : On dirait un village. En cherchant aux\nalentours, nous trouverons peut-être quelqu'un.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{AYLA}: This village?\nBut no person.\nMaybe near?",
+    "original_fr": "{AYLA} : Ici être village ? Mais pas de villageois.\nChercher aux alentours !",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{MAGUS}: Not a soul to be seen...\nAnd yet all signs point toward habitation.\nPerhaps a search will yield some clue.",
+    "original_fr": "{MAGUS} : Il n'y a pas {TAG:4A}me qui vive. On dirait pourtant\nque quelqu'un habite ici... îtrange. En cherchant aux\nalentours, nous en saurons peut-être plus.",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "{MARLE}: Is anybody here?{WAIT_KEY}\nI guess not.\nBut this is a village, isn't it?\nIt sure looks like one.\nLet's look around!",
+    "original_fr": "{MARLE} : On dirait qu'il n'y a personne. Mais c'est\nbien un village, n'est-ce pas ? Allons explorer les\nalentours !",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{MARLE}: Whew, I'm worn out!\nWhy don't we head back?\nThere doesn't seem to be anything here\nbut monsters, anyway.",
+    "original_fr": "{MARLE} : Ah, je suis épuisée... Nous avons regardé\npartout, mais il n'y avait que des monstres. Rentrons.",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{LUCCA}: There's nothing here at all!\nGuess I shouldn't have gotten my hopes up.\nI'm getting kind of tired, too.\nWhy don't we head back?",
+    "original_fr": "{LUCCA} : Moi qui m'attendais {TAG:3C} découvrir quelque\nchose... Rien ! Je suis fatiguée... Retournons dans\nnotre monde, d'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "{FROG}: Naught to be found here, it seems.\nShall we return, then?",
+    "original_fr": "{FROG} : Nous n'avons rien trouvé de particulier.\nQu'allons-nous faire maintenant ? Ne devrions-nous\npas rentrer ?",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "{ROBO}: We've discovered nothing of significance.\nWhat shall we do now?",
+    "original_fr": "{ROBO} : Nous n'avons rien découvert de particulier.\nQu'allons-nous faire maintenant ?",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "{AYLA}: Boring. Nothing here.\nGo back now?",
+    "original_fr": "{AYLA} : Rien ici. Quoi faire maintenant ? Rentrer ?",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Voice: Who's making all that hullabaloo outside?\nGo on, get yourself eaten by monsters!\nServe you right, it will!",
+    "original_fr": "Qui est-ce qui fait tout ce chahut dehors ? Faites-vous\ndévorer par les monstres, je m'en fiche !",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "{MARLE}: Oh! A reptite!\nThey're still alive!",
+    "original_fr": "{MARLE} : Ah ! Un saurien ! Ils sont toujours en vie !",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "{LUCCA}: Oh, no, not another—oh!\nYou're a reptite, aren't you?\nDon't scare people like that!",
+    "original_fr": "{LUCCA} : Ah ! Mais c'est un saurien ! Ne me faites\npas des peurs pareilles !",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{FROG}: Oh, there is someone here after all!\nYou are a reptite, are you not?",
+    "original_fr": "{FROG} : Vous m'avez fait peur ! Ne seriez-vous pas\nun saurien ?",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{ROBO}: You appear similar in nature to the\ncreatures known as reptites.",
+    "original_fr": "{ROBO} : Vous... êtes un être vivant semblable {TAG:3C} un\nsaurien.",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{AYLA}: Ack!\nNo surprise!\n{AYLA} no like surprise!\nYou...reptite?",
+    "original_fr": "{AYLA} : Ah ! Pas surgir comme ça !\n{AYLA} détester !{WAIT_KEY}\n... Toi être saurien ?",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "T-talking apes!\nAnd—they stand upon two feet?\nWhat madness is this?",
+    "original_fr": "Oh ! Des primates qui se tiennent debout ! Et qui parlent\nen plus...! Que se passe-t-il ?",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "{MAGUS}: You'd call me an ape?\nYou'd best learn your place, and quickly.",
+    "original_fr": "{MAGUS} : Des primates...? Sais-tu qui tu oses traiter\nde primate ?!",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "{AYLA}: Ape no good?\nYou say bad {AYLA}?\nYou bad reptite!",
+    "original_fr": "{AYLA} : Saurien avoir problème avec primates ?\nSaurien insulter {AYLA} ! Saurien méchant !",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "{ROBO}: You classify humans as apes?\nI suppose that is a logical grouping,\nfrom a reptilian perspective.",
+    "original_fr": "{ROBO} : Des primates ? Vous voulez dire les êtres\nhumains ? Il est vrai qu'aux yeux des sauriens, les\nhumains ressemblent {TAG:3C} des primates.",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "{FROG}: You'd have me for an ape?\nI am quite wholly froggish, last I checked.",
+    "original_fr": "{FROG} : Moi qui croyais qu'on m'avait changé en\nbatracien, voil{TAG:3C} maintenant qu'on me traite de\nprimate.",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{LUCCA}: Apes!?\nI'm not about to take that from some creepy\ngreen-skinned thing!",
+    "original_fr": "{LUCCA} : Des primates ?! Il y a tout de même des\nlimites ! Vous pouvez bien parler avec votre peau\nverte dégo{TAG:63}tante !",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Well, never minding that...did you not spy any big,\nstrong beasties about?",
+    "original_fr": "... Tiens ? Il n'y avait pas des monstres redoutables\nprès d'ici ?",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{FROG}: We've slain the monsters that lurked in\nthis place. I hope you'll not be missing them.",
+    "original_fr": "{FROG} : Oh, ceux-l{TAG:3C} ? Nous les avons éliminés.\n... Nous n'aurions pas d{TAG:63} ?",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "{ROBO}: Do you mean the monsters in the forest?\nWe have exterminated them.",
+    "original_fr": "{ROBO} : Oh, les monstres ? Nous les avons vaincus.",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{AYLA}: {AYLA} beat monster.",
+    "original_fr": "{AYLA} : Nous vaincre monstres.",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "{MAGUS}: Beasts, yes. Strong ones, no.\nWe slew them all.",
+    "original_fr": "{MAGUS} : Il n'y avait pas de monstres redoutables\naux alentours, seulement du menu fretin, et nous\nl'avons éliminé.",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{MARLE}: We cleared out all the monsters in the\nwoods, if that's what you mean.",
+    "original_fr": "{MARLE} : Les monstres ? Nous les avons vaincus.",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "You...you—WHAT!?",
+    "original_fr": "Quoi ?! Diantre, vous...",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Oh, you wonderful, beautiful apes!",
+    "original_fr": "Vous êtes héro¿ques !",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{GLYPH:387}: Hm?",
+    "original_fr": "{GLYPH:387} : ???",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "{GLYPH:386}: Hm?",
+    "original_fr": "{GLYPH:386} : ???",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "We're free at last! Prisoners in our homes no more!\nAfter all these long years of suffering...{WAIT_KEY}\nCome out, everyone!\nThe monsters are gone for good!",
+    "original_fr": "Hourra ! Après de longues années de souffrance, nous\nsommes libres !{WAIT_KEY}\nVenez tous ! Nous pouvons sortir ! Ils ont éliminé les\nmonstres de la forêt !",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "This isn't some cruel joke, is it?",
+    "original_fr": "Hé, sans blague ?",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Is it truly safe?",
+    "original_fr": "Nous sommes vraiment libres ?",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "We can come outside?",
+    "original_fr": "Hein ? Nous pouvons aller {TAG:3C} l'extérieur ?",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "You have our most heartfelt thanks.\nWho would have dreamt that ape-men\nwould come to save us?",
+    "original_fr": "Jamais je n'aurais cru que nous serions sauvés par des\nprimates !",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Our days of cowering in cramped caves are finally at\nan end!",
+    "original_fr": "Nous n'avons plus {TAG:3C} nous terrer dans un trou !",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "You've done us a great kindness.",
+    "original_fr": "Je vous remercie du fond du c{TAG:61}ur !",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "It's not much, but we'd like to offer you this in thanks.\nAfter all you've done, it's the least we can give you.",
+    "original_fr": "Tenez, ce n'est pas grand-chose, mais nous voulons\nvous l'offrir. C'est la moindre des choses.",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "{GLYPH:384}\nObtained Dragon's Tear!",
+    "original_fr": "{GLYPH:384}\nVous obtenez une larme de dragon !",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "I, uh—well, I mean, provided you've the time and all,\nbut...being as strong as you are, I don't suppose you'd\nbe willing to lend an ear when we've need of some help,\nwould you?{WAIT_KEY}\nWe wouldn't ask you to work for free, of course.\nWe're prepared to compensate you for your efforts,\nand I think it would be worth your while.\nWhat do you say?",
+    "original_fr": "Dites... Puisque votre bravoure est sans pareille,\npourriez-vous nous rendre quelques services ?{WAIT_KEY}\nPas gratuitement, bien s{TAG:63}r. Nous comptons vous donner\nune récompense appropriée. C'est une bonne affaire, je\nvous assure. Alors, qu'en dites-vous ?",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Agree to listen to the reptites' requests?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Accepter la proposition des sauriens ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Please, won't you at least hear what we'd ask?",
+    "original_fr": "Je vous en supplie, acceptez !",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Excellent! Come and speak to us now and again, then.\nWe'll tell you if we ever have need of anything.",
+    "original_fr": "Bien ! Dans ce cas, venez nous voir de temps {TAG:3C}\nautre. Nous aurons des faveurs {TAG:3C} vous demander.\nNous comptons sur vous !",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "{LUCCA}: It wouldn't hurt to apologize for calling us\napes before you start asking for favors!",
+    "original_fr": "{LUCCA} : Euh... Excusez-vous d'abord ! Nous traiter\nde primates, c'est un peu fort !",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "{MARLE}: Are we sure about this?",
+    "original_fr": "{MARLE} : ...\nJe me demande si c'était la bonne décision.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "{MAGUS}: Yet more meaningless endeavors?",
+    "original_fr": "{MAGUS} : ...\nEncore des ennuis.",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "{AYLA}: Help reptite?\n{AYLA} no understand.",
+    "original_fr": "{AYLA} : Aider sauriens ?\n... {AYLA} pas comprendre.",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "{ROBO}: So, this time we are on the reptites' side,\ncorrect?",
+    "original_fr": "{ROBO} : Alors cette fois nous allons aider les\nsauriens.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "This is grave news, indeed.\nWe cannot stand against that horde.\nEveryone, prepare to flee for your lives!\nYou all had best return to your own village, too.",
+    "original_fr": "Quoi ? C'est terrible ! Préparez-vous tous {TAG:3C} fuir !\nNous ne sommes pas de taille contre eux !\nRetournez dans votre village, vous aussi !",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "{AYLA}: {AYLA} help!",
+    "original_fr": "{AYLA} : Nous sauver sauriens !",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "{MARLE}: Hey, we can help you!",
+    "original_fr": "{MARLE} : Nous nous en occupons !",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "{LUCCA}: Leave it to us!",
+    "original_fr": "{LUCCA} : Laissez-nous nous en charger !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "{FROG}: No fiends will claim this village on my watch!",
+    "original_fr": "{FROG} : Nous pouvons les arrêter !",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{ROBO}: We shall stop the monsters.",
+    "original_fr": "{ROBO} : Nous allons nous occuper de ces monstres.",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "You...you'd do that?\nI certainly cannot protest, but...to speak frankly,\nyou stand to gain nothing by helping us, you know?{WAIT_KEY}\nThey've far greater numbers this time.\nAnd strong as you may be, surely there's no need for\nyou to risk your lives. This is not even your village.{WAIT_KEY}\nYou've risked a great deal on our behalf already,\nand we're grateful for it. But that is enough.\nYou needn't fight all our battles for us.",
+    "original_fr": "V... Vraiment ?! Ça nous tirerait du pétrin, mais... Pour\nparler franchement, vous n'avez pas quoi que ce soit\n{TAG:3C} gagner {TAG:3C} nous porter secours, n'est-ce pas ?{WAIT_KEY}\nCette fois, ils sont très nombreux. Même avec une force\ncomme la vôtre, vous ne devriez pas protéger le village\nau péril de vos vies.{WAIT_KEY}\nVous nous avez déj{TAG:3C} amplement aidés jusqu'{TAG:3C} présent.\nNous vous sommes très reconnaissants.",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "{ROBO}: We are friends, are we not?\nIt is quite normal to fight on behalf of one's friends.",
+    "original_fr": "{ROBO} : Les habitants de ce village sont mes amis.\nIl est normal de protéger ses amis.",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "{FROG}: We can win, and we shall.\nI do not wish to lose more friends!",
+    "original_fr": "{FROG} : Nous saurons les éliminer.\nEt puis... je ne veux plus jamais perdre un ami !",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{LUCCA}: We're friends, aren't we?\nYou just leave this to me and my genius!",
+    "original_fr": "{LUCCA} : Nous sommes amis, maintenant ! Laissez\n{LUCCA}, le génie, résoudre votre problème !",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{MARLE}: We're friends.\nThat's reason enough to help!",
+    "original_fr": "{MARLE} : Nous sommes amis, après tout.",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "{AYLA}: Reptite...before, fight.\nNow, friend.\n{AYLA} help friend!",
+    "original_fr": "{AYLA} :  Sauriens autrefois être ennemis.\nMaintenant, être amis. {AYLA} toujours\naider amis !",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Truly? You consider us friends?{WAIT_KEY}\nWell, you'll hear no more protests from me.\nOur lives are in your hands!",
+    "original_fr": "Vous feriez ça pour nous...? Entendu. Puisque vous\ninsistez, le sort du village est entre vos mains.",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "You've done it!\nMagnificent!{WAIT_KEY}\nPerhaps now joy and laughter can take the place of\nfear and dread in our lives.{WAIT_KEY}\nNo words are enough to express our appreciation.\nBut know that word of your great deeds will be\nlegend in our village for generations to come.",
+    "original_fr": "Ah, merveilleux ! Merci beaucoup !{WAIT_KEY}\nGr{TAG:4A}ce {TAG:3C} vous, nous pourrons vivre en paix au lieu de\nvivre dans la terreur.{WAIT_KEY}\nJe ne pourrai jamais assez vous remercier. L'histoire de\nvos exploits sera transmise dans les légendes du village\npour les générations {TAG:3C} venir.",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "This is the Valor Crest, an ancient treasure of our\nvillage. Please, accept it as a token of our gratitude.\nYou are our saviors.",
+    "original_fr": "Voici le meilleur cadeau que nous pouvons vous offrir.\nIl s'agit de l'antique trésor secret du village, le blason\ndes braves !{WAIT_KEY}\nVous nous avez sauvés ! Je vous prie de l'accepter.",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "{GLYPH:384}\nObtained Valor Crest!",
+    "original_fr": "{GLYPH:384}\nVous obtenez le blason des braves !",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Oh, greetings again!\nIf I've ever another favor to ask of you,\nI'll be sure to ask.",
+    "original_fr": "Oh, c'est vous ? Si nous avons besoin de votre aide,\nnous vous ferons signe.",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Looking for the Golden Hammer, you say? Well, there's\na patch of golden sand in the flower meadow down in\nthe Great Southern Swamp. Guess that's not what\nyou're looking for, though, is it?",
+    "original_fr": "Un maillet doré ? Je n'en ai jamais entendu parler.\nPar contre, je sais qu'on peut trouver du sable doré\ndans le champ de fleurs du grand marécage au sud\nd'ici, si ça peut vous aider...",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Lumber, eh?\nTry my friend in the Millennia Wood.\nHe might be able to help.",
+    "original_fr": "Du bois ? Adressez-vous {TAG:3C} mon ami dans la forêt\nmillénaire. Il devrait pouvoir vous aider.",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Something to feed a Nu? Well, monsters sometimes\ncarry food. Why not hunt some in the woods or\nup in the mountains or somewhere else nearby?\nYou're bound to find something a Nu can eat.",
+    "original_fr": "De la nourriture pour un gnu ? Pourquoi ne pas chasser\ndes monstres un peu partout autour du village ?\nVous pourriez trouver toutes sortes de vivres.",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "We'll stay in the village and do what we can to help.\nThe rest is up to you!",
+    "original_fr": "Nous resterons ici et ferons tout notre possible pour\nvous apporter notre soutien. Bon courage !",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "I'll see that your deeds become the words of legend.",
+    "original_fr": "Merci beaucoup. Nous transmettrons votre légende de\ngénération en génération.",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "There's something I was hoping you might help me with.\nA legend in our village tells of a tool known as the\nGolden Hammer, and I'd like you to search for it, if\nyou'd be willing.{WAIT_KEY}\nThe tales say it's made from the wood of a golden\ntree, but I'm afraid I can't tell you very much else.\nDo you suppose you could spare the time to search?",
+    "original_fr": "J'ai une faveur {TAG:3C} vous demander. J'aimerais que vous\ntrouviez un maillet doré pour moi.{WAIT_KEY}\nNos ancêtres racontaient qu'il peut être fabriqué {TAG:3C}\npartir de bois doré... Alors, pourriez-vous le trouver ?",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Oh, my! This—this is it!\nThe Golden Hammer of legend!",
+    "original_fr": "Mais...! C'est bel et bien un maillet doré, comme celui des\nlégendes !",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{GLYPH:384}\nObtained 100,000 G!",
+    "original_fr": "{GLYPH:384}\nVous obtenez 100 000 G !",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Thank you ever so much!\nThe Golden Hammer is as glorious as the legends say.",
+    "original_fr": "Ce maillet doré est en parfaite condition ! C'est gr{TAG:4A}ce {TAG:3C}\nvous que j'ai pu l'obtenir ! Merci encore !",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "What?\nYou need to borrow the Golden Hammer?",
+    "original_fr": "Hein ? Vous avez besoin du maillet doré ?",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "All right. I'm not using it at the moment,\nand I did receive it from you, after all.\nHere you go!",
+    "original_fr": "Entendu. C'est vous qui me l'avez donné, après tout.\nPuisque je ne m'en sers pas actuellement, vous pouvez\nl'avoir.",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "{GLYPH:384}\nObtained Golden Hammer!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un maillet doré !",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Take care of that hammer, you hear?",
+    "original_fr": "Prenez bien soin du maillet doré !",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "You've brought wondrous change to our lives.\nIt's hard to believe this is the same village.\nThank you ever so much.",
+    "original_fr": "Gr{TAG:4A}ce {TAG:3C} vous, le village a changé. Merci beaucoup.",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Thank you for all you've done. Now, if only I could\nfind a way to make that child of mine feel better...\nShe's a bit under the weather, I'm afraid.",
+    "original_fr": "Merci pour tout. Je vous suis reconnaissante, moi aussi.\nCependant, depuis quelque temps, ma fille ne se sent\npas bien...{WAIT_KEY}\nJ'aimerais bien pouvoir la soulager, mais je ne sais pas\ncomment.",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "I've need of your help.\nMy daughter has taken gravely ill, you see.{WAIT_KEY}\nDo you know of the Prismastone?\nIt's said to hold the power to cure affliction.{WAIT_KEY}\nThe tales say it sits at the peak of Mount Emerald,\neast of the Great Southern Swamp. But a guardian\nblocks the way up the mountain, and I cannot go.\nPlease, will you not retrieve it for me?",
+    "original_fr": "Ma fille est gravement malade...{WAIT_KEY}\nOn dit que la pierre irisée a le pouvoir de guérir tous les\nmaux. Selon la légende, elle se trouve au sommet du\nmont verdoyant, {TAG:3C} l'est du grand marécage, mais une\nétrange créature bloque la route.{WAIT_KEY}\nPourriez-vous me la ramener ?",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "The Prismastone—you've found it!\nMay I borrow it?",
+    "original_fr": "Oui, c'est vraiment la pierre irisée ! Pourrais-je vous\nl'emprunter ?",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Oh, praise be!\nMy daughter should be fine now.{WAIT_KEY}\nThis is all I have to offer you in thanks,\nbut I hope it will prove useful.\nPlease, take it.",
+    "original_fr": "Ma fille est en pleine forme ! Comment pourrais-je vous\nremercier ? Vous êtes vraiment formidables !{WAIT_KEY}\nC'est tout ce que je possède, mais j'aimerais que vous\nl'acceptiez. J'espère que ça vous sera utile.",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{GLYPH:384}\nObtained Capsule Set!{WAIT_KEY}{GLYPH:384}\n\nInside are 2 Strength Capsules,\n2 Magic Capsules, and 2 Speed Capsules!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un assortiment de gélules !{WAIT_KEY}{GLYPH:384}\n\nIl contient deux gélules de force, deux gélules\nde magie et deux gélules de rapidité !\n",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "My daughter is as hale as before, thanks to you.\nYou've no idea how a mother worries when her child\nis not well!",
+    "original_fr": "Ma fille s'est remise de sa maladie et est en pleine\nforme, comme avant. Les enfants devraient toujours\nêtre en bonne santé !",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "I'll never forget your unselfish charity.\nYou've saved me and my daughter both.",
+    "original_fr": "Jamais nous n'oublierons votre bienveillance.",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "If you happen to come across a rusted blade, bring it\nto me, will you? I'll reforge it for you.",
+    "original_fr": "Je suis un artisan hors pair ! Je peux reforger n'importe\nquelle arme rouillée en moins de deux !",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Oh, you've brought me a rusted blade!\nVery well, then. I'll set to work straight away!",
+    "original_fr": "Oh, oui ! Vous avez trouvé un sabre rouillé ! Je vais me\nmettre au travail tout de suite !",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "It's finished.\nHere you are—Icewyrm!",
+    "original_fr": "J'ai terminé ! Tenez, je l'ai nommé Seiry{TAG:63} !",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "{GLYPH:384}\nObtained Icewyrm!",
+    "original_fr": "{GLYPH:384}\nVous obtenez Seiry{TAG:63} !",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "This is a gift from me to you.\nMay it help to keep you safe.",
+    "original_fr": "Je veux vous offrir un cadeau. J'espère que vous\nresterez toujours sains et saufs.",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "{GLYPH:384}\nObtained Megalixir!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un ultra-élixir !",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Are the monsters truly gone for good?\nNo one has seen any, but I still find it hard to relax.",
+    "original_fr": "Je me demande s'il n'y a vraiment plus de monstres.\nTout le monde dit que c'est le cas, mais je m'inquiète\ntoujours.",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "The legend of the Golden Hammer? Ah, yes...\nAs I heard it long ago, sprinkling golden sand about\na young sapling will cause it to produce golden wood.\nThe hammer is made from that.",
+    "original_fr": "Un maillet doré ? Il y a très longtemps, j'ai entendu dire\nque si on versait du sable doré sur un jeune arbre, il\ndeviendrait un arbre doré.",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "You need something that will shine in the darkness?\nWell, the Prismastone is said to absorb light.{WAIT_KEY}\nPerhaps if you left a stone like that in the sun on\nsome high peak for a long time, it would absorb\nenough light to shine on its very own.",
+    "original_fr": "Une pierre qui peut percer les ténèbres ?{WAIT_KEY}\nOn raconte que les gemmes comme la pierre irisée\npeuvent absorber la lumière.{WAIT_KEY}\nSi on laissait très longtemps une telle pierre dans un\nendroit ensoleillé comme le sommet d'une montagne,\nalors elle pourrait peut-être briller assez...",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "We've nothing more to worry about, thanks to you.",
+    "original_fr": "Il n'y a vraiment plus de quoi s'inquiéter. Merci\nbeaucoup.",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Through the narrow passage to the west is a cavern\ndark as pitch. Beyond that...well, who could know?\nThe place is so dark you cannot see a thing.\nBut I think there's something hidden there.",
+    "original_fr": "Si vous empruntez le passage serpentin situé {TAG:3C} l'ouest\ndu grand marécage, vous atteindrez une autre grotte\nplongée dans les ténèbres.{WAIT_KEY}\nJe crois qu'il y a quelque chose {TAG:3C} l'intérieur,\nmais il y fait si noir qu'on ne peut rien y voir.\nComment pourrait-on l'explorer ?",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Oh, that stone—it shines like the sun!{WAIT_KEY}\nWith that, you should be able to find your way even\nin the deepest darkness! Won't you go and see what\nlies within that darkened cave beyond the Great\nSouthern Swamp?",
+    "original_fr": "Oh, cette pierre...! Quel éclat remarquable !{WAIT_KEY}\nAvec elle, vous devriez pouvoir percer même les\nténèbres les plus profondes ! Pourriez-vous aller\nvoir ce qu'il y a au-del{TAG:3C} du passage serpentin {TAG:3C}\nl'ouest du grand marécage ?",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Won't you go and see what lies within that dark cave?",
+    "original_fr": "Pourriez-vous aller voir ce qui se cache dans les\nténèbres de cette grotte ?",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "What? The cave is full of monsters?\nAnd they're planning to attack the village!?{WAIT_KEY}\nOh, no!\nWe have to call everyone together!",
+    "original_fr": "Qu'est-ce que vous dites ?! Il y a un grand nombre de\nmonstres et ils s'apprêtent {TAG:3C} attaquer le village ?{WAIT_KEY}\nVoil{TAG:3C} qui est grave ! Hé, écoutez tous !",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "So, that cave was the monsters' lair...\nIt's a good thing I asked you to investigate.\n",
+    "original_fr": "Alors, cette grotte était le repaire de monstres...\nJ'ai bien fait de vous demander d'aller y jeter un\ncoup d'{TAG:61}il.",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "We'll seal off the interior of the cave to make sure no\nmore monsters come out.",
+    "original_fr": "Nous allons bloquer l'intérieur de la grotte pour que\nd'autres monstres ne nous attaquent pas.",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "I love things that sparkle. Don't you?\nGemstones and such. They're so beautiful!",
+    "original_fr": "J'adore les choses qui brillent. Les pierres précieuses\nsont terriblement jolies !",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "You know, it's said that if two such stones are\nenshrined together in this village's sanctuary,\na divine power will merge them to form a gem of\neven greater power.",
+    "original_fr": "Pour vous remercier de me l'avoir montrée, je vais vous\ndire un précieux secret {TAG:3C} son sujet.{WAIT_KEY}\nIl para¡t que si vous placez deux pierres irisées\nsur l'autel du village, vous obtiendrez une pierre\nmiraculeuse encore plus puissante.",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Oh, I'd love to see such a gem.\nAnd you already have the Prismastone!\nWon't you try to make my dream come true?",
+    "original_fr": "J'aimerais bien la voir ne serait-ce qu'une fois...\nPourriez-vous réaliser mon souhait, vous qui\npossédez cette pierre irisée ?",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "It couldn't be!\nThis is the gem I spoke of?\nMy, it certainly is gorgeous!{WAIT_KEY}\nBut wherever did you find another Prismastone?\nThere shouldn't have been more than one in the world.",
+    "original_fr": "Hein, quoi ?! C'est la pierre miraculeuse dont je vous\navais parlé ? Ouah, elle est magnifique...{WAIT_KEY}\nOù avez-vous bien pu trouver une autre pierre irisée ?\nIl ne devrait pourtant bien en avoir qu'une seule !",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "You...traveled through time?\nI'm afraid I don't understand what you mean.\nBut still, I appreciate you coming to show it to me.{WAIT_KEY}\nLet me give you a little something, as a way of\nsaying thanks. Hold on, I just need to put the\nfinishing touches on it.",
+    "original_fr": "... Vous avez voyagé dans le temps ? Hum, je ne\ncomprends pas. En tout cas, merci de me l'avoir\nmontrée !{WAIT_KEY}\nAh oui, J'aimerais vous offrir quelque chose pour vous\nremercier. Attendez ici.",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "Here you are. Go on, take it!",
+    "original_fr": "Voil{TAG:3C} !",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "{GLYPH:384}\nObtained Dragon Arm!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un bras draconien !",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Such a gorgeous gem that was!\nIf you find any other pretty stones,\nbe sure to show me them, all right?",
+    "original_fr": "Cette pierre miraculeuse était si ravissante... Si vous\ntrouvez d'autres jolies pierres, venez me les montrer,\nd'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "Thank you so much! The village is saved.\nI, um...I don't suppose you've found any new gems?",
+    "original_fr": "Vous avez sauvé le village, n'est-ce pas ? Merci.\nEuh, vous n'auriez pas d'autres jolies pierres...?",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "If you're tired, feel free to rest in my home.",
+    "original_fr": "Si la fatigue vous accable, venez vous reposer ici,\nc'est gratuit !",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "Set the Prismastone here?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous placer la pierre irisée ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Take the Prismastone?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous prendre la pierre irisée ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{GLYPH:384}\nObtained Saintstone!",
+    "original_fr": "{GLYPH:384}\nVous obtenez la pierre miraculeuse !",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{LUCCA}: This place is full of monsters.\nYou don't suppose they got the people in that village,\ndo you?",
+    "original_fr": "{LUCCA} : Il n'y a que des monstres ici. Ne me dites\npas que les habitants du village abandonné ont\npéri...!",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{MARLE}: Look at all those monsters!\nI wonder if they attacked that village.",
+    "original_fr": "{MARLE} : Il n'y a que des monstres ici. Les habitants\ndu village abandonné ont peut-être tous péri.",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{MAGUS}: Monsters everywhere.\nYet there seem to be no humans...\nAre they all dead?",
+    "original_fr": "{MAGUS} : On dirait qu'il n'y a que des monstres\net personne d'autre... Les habitants du village\nabandonné auraient-ils tous péri ?",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "{AYLA}: No person.\nMonster eat person?",
+    "original_fr": "{AYLA} : Personne ici. Monstres éliminer tout le\nmonde ?",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "{ROBO}: There is a high monster population here.\nIt is possible that humans have become extinct.",
+    "original_fr": "{ROBO} : Il n'y a que des monstres ! Il est possible\nque les habitants du village abandonné aient tous\npéri.",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "{AYLA}: Come on!\nFight monster!\nBeat all!",
+    "original_fr": "{AYLA} : Nous vaincre monstres !",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "{MAGUS}: Hmph.\nEither way, we'd best clear out all these monsters.",
+    "original_fr": "{MAGUS} : Pour le moment, débarrassons-nous des\nmonstres.",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "{MARLE}: Well, we'd better take care of all the\nmonsters first! We don't want them attacking\nus while we search for the villagers.",
+    "original_fr": "{MARLE} : Débarrassons-nous d'abord des monstres !\nSi ça continue, nous pourrions mourir avant même de\ntrouver quelqu'un.",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "{LUCCA}: Well, first things first.\nLet's get rid of all these monsters!\nWe don't want them catching us off guard.",
+    "original_fr": "{LUCCA} : En tout cas, nous devons d'abord éliminer\nles montres. Je ne voudrais pas mourir dans un\nendroit pareil.",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "{FROG}: Best slay the lot of these fiends,\nbefore we risk whatever fate befell the others.",
+    "original_fr": "{FROG} : Les monstres sont notre priorité. Je ne\nvoudrais pas mourir dans un endroit pareil.",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "{ROBO}: Look!\nThis appears to be a freshly sprouted sapling.",
+    "original_fr": "{ROBO} : Il semble que c'est un jeune arbre.",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "{FROG}: What's this?\nHmm... A young seedling.",
+    "original_fr": "{FROG} : On dirait un jeune arbre.",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "{LUCCA}: Look!\nA sapling!",
+    "original_fr": "{LUCCA} : On dirait que c'est un tout jeune arbre.",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "{MARLE}: Look, a little tree!\nIt's so cute!",
+    "original_fr": "{MARLE} : Oh, un petit arbre, comme il est mignon !",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{MAGUS}: Hmm...\nA sapling.",
+    "original_fr": "{MAGUS} : Serait-ce... un jeune arbre ?",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Sprinkle the golden sand around the sapling?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous répandre le sable doré ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "{MARLE}: All right.\nNow we just have to wait for it to grow into a tree!\nHow long do you suppose that will take?{WAIT_KEY}\nOh! What if we came back here through the other Gate\nin the Middle Ages? Maybe it would have already grown!",
+    "original_fr": "{MARLE} : C'est bon ! Mais attendre qu'il atteigne sa\ntaille adulte pourrait prendre des lustres...{WAIT_KEY}\nJ'ai une idée ! Si nous revenons ici en passant par le\nportail du Moyen-{TAG:5F}ge, il aura s{TAG:63}rement eu le temps de\ngrandir !",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "{LUCCA}: Well, we spread the sand. Now all we can\ndo is wait for it to grow into a proper tree.{WAIT_KEY}\nHey! There was a Gate to this place in the Middle\nAges, too. What if we tried going there?{WAIT_KEY}\nI really am a genius!",
+    "original_fr": "{LUCCA} : Maintenant que nous avons répandu le\nsable, il ne reste plus qu'{TAG:3C} attendre patiemment\nqu'il atteigne sa maturité. Je me demande combien\nde temps ça prendra...{WAIT_KEY}\nAh, je sais ! Si nous revenons par le portail du\nMoyen-{TAG:5F}ge... Ho, ho, ho, ho ! Je suis un génie !",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{FROG}: There's naught we can do now but wait.\nLet us hope it truly grows to be a golden tree.\nI wonder how many long years it will take?{WAIT_KEY}\nWait... There was another Gate leading here in my\nown era. What if we were to come through it?",
+    "original_fr": "{FROG} : Et maintenant, il ne reste plus qu'{TAG:3C}\nattendre qu'il grandisse. Hum, nous pourrions\npasser le reste de notre vie {TAG:3C} le faire...!{WAIT_KEY}\n... Un instant. Il y a aussi un portail au Moyen-{TAG:5F}ge.\nSi nous passons par l{TAG:3C}...",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "{ROBO}: Objective complete.\nNow we must wait for the tree to grow up.\nThat may take longer than your lifespans, though.{WAIT_KEY}\nWas there not another Gate to this place from the\nyear 600 A.D.? Surely it will have become a golden\ntree by then!",
+    "original_fr": "{ROBO} : Nous avons répandu le sable. Maintenant,\nil ne reste plus qu'{TAG:3C} attendre que l'arbre grandisse.\nCependant, cela prendra beaucoup de temps et vos\nvies sont trop courtes...{WAIT_KEY}\nIl n'y a qu'une solution ! Retournons ici en passant par\nle portail de l'an 600 ! Il sera s{TAG:63}rement devenu un arbre\ndoré {TAG:3C} cette époque.",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "{AYLA}: All done.\nNow wait, tree get big!\nLong, long wait!\nMaybe {AYLA} no can wait.{WAIT_KEY}\nOh!\nOther Gate!\nGo there, maybe big tree!\n",
+    "original_fr": "{AYLA} : Nous répandre sable. Maintenant, attendre\nqu'arbre grandir. Très longtemps ! Mais {AYLA} pas\nvouloir attendre !{WAIT_KEY}\nIdée ! Revenir ici par autre portail ! Portail Moyen-{TAG:5F}ge !\nArbre s{TAG:63}rement devenir grand !",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "There used to be an enormous tree growing in this\nwood, but those monsters felled it.",
+    "original_fr": "Il y avait un grand arbre l{TAG:3C}-bas, mais des monstres l'ont\ndéraciné.",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "What a waste.\nIt was such a strong and stalwart tree.",
+    "original_fr": "C'est dommage... C'était un arbre fort et robuste.",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "You need lumber to build a bridge?\nWell, I'd much rather see that tree\nused than let it go to waste.",
+    "original_fr": "Vous voulez utiliser le bois de cet arbre pour fabriquer\nun pont ? Je serais très heureux qu'il puisse servir {TAG:3C}\nquelque chose !",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Wait right here.\nI'll saw some wood for you.",
+    "original_fr": "Attendez un instant. Je vais le couper et vous\nl'apporter.",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "Here you go.\nI'm sure it will serve well.",
+    "original_fr": "Voil{TAG:3C} ! Utilisez-le {TAG:3C} bon escient.",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "{GLYPH:384}\nObtained Godwood!",
+    "original_fr": "{GLYPH:384}\nVous obtenez le bois divin !",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "{GLYPH:384}\nObtained Reptmark!",
+    "original_fr": "{GLYPH:384}\nVous obtenez la clef de l'autel !",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "{GLYPH:384}\nObtained Golden Sand!",
+    "original_fr": "{GLYPH:384}\nVous obtenez le sable doré !",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "{MAGUS}: They've come this far already.\nThey move quickly.",
+    "original_fr": "{MAGUS} : Ils sont déj{TAG:3C} parvenus jusqu'ici ?\nIls sont rapides...",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "{AYLA}: Monster here now!\nVillage danger!\nQuick, beat monster!",
+    "original_fr": "{AYLA} : Monstres être déj{TAG:3C} ici. Sauriens être en\ndanger. Vite ! îliminer monstres !",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "{ROBO}: They have already come this far.\nThe village is in danger!",
+    "original_fr": "{ROBO} : Ils sont déj{TAG:3C} aussi près... Les sauriens\nsont en danger !",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "{FROG}: They move quickly.\nWe must make haste if we are to save the village.",
+    "original_fr": "{FROG} : Les monstres sont rapides. Si nous ne\nnous dépêchons pas d'attaquer leur repaire,\nle village ne tiendra pas.",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "{LUCCA}: They're already here.\nWe have to stop them!",
+    "original_fr": "{LUCCA} : Les monstres sont déj{TAG:3C} ici...\nNous devons les arrêter !",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "{FROG}: I cannot see a thing.\nWe'd best go back for now.",
+    "original_fr": "{FROG} : Il fait trop sombre, on n'y voit goutte.\nFaisons demi-tour.",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "{ROBO}: My visual sensors do not function in total\ndarkness. We should go back!",
+    "original_fr": "{ROBO} : Nous ne pouvons rien voir.\nFaisons demi-tour.",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "{AYLA}: No can see.\nGo back!",
+    "original_fr": "{AYLA} : {AYLA} rien voir.\nFaire demi-tour.",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{MAGUS}: It's too dark to see a thing.\nMight I suggest we not waste our time here?",
+    "original_fr": "{MAGUS} : Il fait trop noir ici. On n'y voit rien.\nOn dirait que nous ferions mieux de rebrousser\nchemin.",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{MARLE}: It's too dark to see anything in here.\nCan we go back? This place is kind of scary.",
+    "original_fr": "{MARLE} : Il fait noir et on n'y voit rien.\nJ'ai un peu peur... Faisons demi-tour, d'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{LUCCA}: Wow, that was amazing!\nThere's a path ahead. Let's go!",
+    "original_fr": "{LUCCA} : Quel éclat formidable ! Il y a un passage\nplus loin. Allons-y !",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "{MARLE}: Wow, that was bright!\nLooks like there's a path ahead.\nLet's check it out!",
+    "original_fr": "{MARLE} : Quel éclat éblouissant ! On dirait qu'il y a\nun passage plus loin. Allons voir.",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "{MAGUS}: Incredible...\nCome, let us press onward.",
+    "original_fr": "{MAGUS} : Quel éclat formidable...\nContinuons sans plus tarder.",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "{AYLA}: Bright, bright!\n{AYLA} eye hurt.\nGo up?",
+    "original_fr": "{AYLA} : {AYLA} être éblouie.\nSuivre passage dans grotte ?",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "{ROBO}: Such a dazzling scintillation!\nIt nearly overloaded my sensors.\nBut it revealed a path.\nShall we go?",
+    "original_fr": "{ROBO} : Quel éclat formidable ! Gr{TAG:4A}ce {TAG:3C} lui,\nnous pouvons apercevoir un autre passage.\nAllons l'explorer.",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "{AYLA}: Hide!\nSomething come!",
+    "original_fr": "{AYLA} : Quelqu'un approcher ! Tout le monde se\ncacher !",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "{MAGUS}: Someone comes!",
+    "original_fr": "{MAGUS} : Quelqu'un approche !",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "{MARLE}: Quick, hide!\nSomeone's coming!",
+    "original_fr": "{MARLE} : Quelqu'un approche !\nCachons-nous !",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "{FROG}: Someone comes!\nQuickly, take cover!",
+    "original_fr": "{FROG} : On dirait que quelqu'un approche !\nCachons-nous !",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "{ROBO}: Approaching entities detected.\nPlease take cover!",
+    "original_fr": "{ROBO} : Je détecte la présence de créatures.\nCachons-nous !",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "I hear there are reptites living nearby.\n*hiss*",
+    "original_fr": "On dirait que des sauriens habitent près d'ici...",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "Finally, some good prey! *hiss*\nOh, I can't wait to sink my teeth into 'em!",
+    "original_fr": "Des proies, après si longtemps... Nous allons les mettre\nen pièces !",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "Don't be so hasty! *hiss*\nWe've gotta wait for the boss.\nThen it's feeding time!",
+    "original_fr": "Attendons les ordres des chefs...\nEnsuite, nous éliminerons tous les sauriens.",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "Hey...\nWho's hiding down there!?",
+    "original_fr": "Un instant... Qui va l{TAG:3C} ?!",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "{ROBO}: This is an emergency!\nWe must inform the villagers!",
+    "original_fr": "{ROBO} : îtat d'urgence ! Allons avertir les\nsauriens !",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "{FROG}: They mean to strike the village.\nWe must warn them!",
+    "original_fr": "{FROG} : Leur cible est le village. Ne devrions-nous\npas aller avertir les sauriens au plus vite ?",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "{LUCCA}: Oh, no!\nThey're going to attack the village!\nWe have to go and warn them!",
+    "original_fr": "{LUCCA} : Oh, non ! Le village est leur cible !\nAllons avertir les sauriens !",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "{MARLE}: We have to warn the villagers!\nThey're in danger!",
+    "original_fr": "{MARLE} : Le village est en danger ! Nous devons\nretourner l{TAG:3C}-bas au plus vite pour avertir les\nsauriens.",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "{MAGUS}: So, they plan to feed upon the villagers.\nYou'll no doubt wish to go and warn them, yes?\nI'd as soon attend to more important matters.",
+    "original_fr": "{MAGUS} : Le village est en danger. Ne devrions-nous\npas aller avertir les sauriens ? Il m'importe peu que\nnous le fassions ou non, remarquez.",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "Intruders!\n*hiss*",
+    "original_fr": "Alerte ! Quelqu'un essaie de s'infiltrer dans la\nforteresse...!!",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Voice: So, it's you who meddle in our plans...",
+    "original_fr": "{GLYPH:384}Voil{TAG:3C} donc les primates qui sont\nvenus nous faire obstacle...",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "We will not suffer meddlers to live!",
+    "original_fr": "{GLYPH:384}Cet endroit sera votre tombeau !",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "{MARLE}: Whew...\nWe did it.",
+    "original_fr": "{MARLE} : Ouf... Nous avons réussi {TAG:3C} les vaincre tant\nbien que mal...",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "{LUCCA}: We won!",
+    "original_fr": "{LUCCA} : Nous les avons vaincus tant bien que mal.",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "{FROG}: That should put the matter to rest.",
+    "original_fr": "{FROG} : Voil{TAG:3C} une bonne chose de faite.",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "{ROBO}: That was a difficult battle.\nBut we succeeded!",
+    "original_fr": "{ROBO} : Ce fut un combat dangereux, mais nous\navons triomphé tant bien que mal.",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "{AYLA}: Village safe now!",
+    "original_fr": "{AYLA} : {AYLA} protéger village !",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "{MAGUS}: We've no more business here.\nLet's be on our way.",
+    "original_fr": "{MAGUS} : Nous n'avons plus rien {TAG:3C} faire ici.\nPartons.",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "{AYLA}: Go tell village!\nEveryone happy!",
+    "original_fr": "{AYLA} : {AYLA} dire bonne nouvelle aux\nsauriens ! Sauriens être heureux !",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "{ROBO}: We should return to report our success.",
+    "original_fr": "{ROBO} : Retournons au village pour apprendre la\nnouvelle aux sauriens.",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "{FROG}: Well then...\nLet us return and tell of our success!",
+    "original_fr": "{FROG} : Retournons au village pour le dire aux\nsauriens.",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "{LUCCA}: Let's go tell everyone they're safe now!",
+    "original_fr": "{LUCCA} : Retournons au village pour le dire aux\nsauriens.",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "I guard here.\nYou no pass.",
+    "original_fr": "Je suis le gardien de cet endroit. Je ne laisse passer\npersonne.",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "You not bad.\nIf I lose, I no more guard here.",
+    "original_fr": "Vous vous battez bien. Mais, si je perds, je ne serai\nplus un gardien.",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "I guard here.\nThis time I win.",
+    "original_fr": "Je suis le gardien de cet endroit. Cette fois, je vais\ngagner.",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "You really good.\nBut I guard.\nI no lose.",
+    "original_fr": "Vous avez du talent, mais je suis le gardien. Je ne peux\npas être battu.",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "I guard here.\nThis time I don't hold back.",
+    "original_fr": "Je suis le gardien de cet endroit. Cette fois, c'est du\nsérieux.",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "I lose.\nYou really tough!\nYou can pass.",
+    "original_fr": "J'ai perdu. Votre force est sans égale. Vous pouvez\npasser.",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "Next time I don't lose.\nI train hard. Very hard!\nThen I win.",
+    "original_fr": "La prochaine fois, vous ne me battrez pas. Je vais\nm'entra¡ner et m'entra¡ner. Un jour, je triompherai\nde vous.",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "{FROG}: This is the ladder that had collapsed.\nLet us build the new one beside it.",
+    "original_fr": "{FROG} :  C'est l'échelle qui est endommagée au\nMoyen-{TAG:5F}ge... Installons-en une autre {TAG:3C} côté.",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "{ROBO}: This ladder is the one that collapsed.\nLet us put our new one beside it.",
+    "original_fr": "{ROBO} : C'est l'échelle qui est endommagée au\nMoyen-{TAG:5F}ge. Installons-en une autre {TAG:3C} côté.",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "{AYLA}: This ladder break.\nPut new one here!",
+    "original_fr": "{AYLA} : îchelle être cassée Moyen-{TAG:5F}ge !\nInstaller autre échelle ici !",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "{MAGUS}: This is the ladder that was broken.\nHang our new one here, and the problem is solved.",
+    "original_fr": "{MAGUS} : On dirait que c'est l'échelle qui est\nendommagée au Moyen-{TAG:5F}ge. Nous n'avons qu'{TAG:3C}\nen installer une autre ici.",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "{LUCCA}: This looks like our problem ladder.\nWhy don't we put the new one next to it?",
+    "original_fr": "{LUCCA} : C'est l'échelle qui est endommagée au\nMoyen-{TAG:5F}ge. Installons-en une autre {TAG:3C} côté.",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "{LUCCA}: That oughta do it.\nNow we just need to come back in the other era!",
+    "original_fr": "{LUCCA} : Bien. Maintenant, retournons au même\nendroit plus tard.",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "{MARLE}: Perfect!\nLet's just hope this one lasts for a long, long time.",
+    "original_fr": "{MARLE} : Parfait ! Il ne reste plus qu'{TAG:3C} espérer\nque cette échelle tiendra le coup pendant très\nlongtemps...",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "{MAGUS}: This should suffice, no?\nAssuming this one does not fail as well.",
+    "original_fr": "{MAGUS} : Ça devrait résoudre le problème, {TAG:3C} compter\nqu'elle tienne le coup.",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "{AYLA}: New ladder, all done!",
+    "original_fr": "{AYLA} : Nouvelle échelle être prête !",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "{ROBO}: That should resolve the problem.",
+    "original_fr": "{ROBO} : Cette échelle devrait faire l'affaire.",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "{GLYPH:384}\nObtained Prismastone!",
+    "original_fr": "{GLYPH:384}\nVous obtenez la pierre irisée !",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "Place the Saintstone here?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous placer la pierre miraculeuse {TAG:3C} cet endroit ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "Oh, how are you liking that Golden Hammer?",
+    "original_fr": "Comment allez-vous ? Et le maillet doré, vous en prenez\nsoin ?",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "I'll be praying for your safety.",
+    "original_fr": "Bon courage !",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "{AYLA}: Nothing here.\nGo other place?",
+    "original_fr": "{AYLA} : Rien ici. Aller ailleurs ?",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "{ROBO}: I detect no human activity.\nShall we search someplace else?",
+    "original_fr": "{ROBO} : Je ne détecte pas la présence d'êtres\nintelligents. Allons explorer un autre endroit.",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "{MAGUS}: There's no one here.\nLet us search elsewhere.",
+    "original_fr": "{MAGUS} : Il n'y a personne ici. Allons voir ailleurs...",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "{FROG}: There's not a soul here.\nShall we try our luck elsewhere?",
+    "original_fr": "{FROG} : Il semble qu'il n'y a personne ici.\nNous devrions aller ailleurs.",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "{MARLE}: There's nobody here.\nLet's try somewhere else!",
+    "original_fr": "{MARLE} : On dirait qu'il n'y a personne ici.\nAllons voir ailleurs.",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "{AYLA}: Beat all monster!\nGo back?",
+    "original_fr": "{AYLA} : Monstres tous vaincus ! Retourner au\nvillage ?",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "{MAGUS}: I believe those were the last of them.\nWhat now? Do we return?",
+    "original_fr": "{MAGUS} : Il semble qu'il n'y a plus de monstres.\nQu'allons-nous faire maintenant ? Retourner au\nvillage ?",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "{MARLE}: I think we got them all.\nWhy don't we head back to the village?",
+    "original_fr": "{MARLE} : On dirait qu'il n'y a plus de monstres.\nRetournons au village !",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "{LUCCA}: I don't see any more monsters around.\nWhy don't we head back to the village now?",
+    "original_fr": "{LUCCA} : On dirait qu'il n'y a plus de monstres.\nRetournons au village.",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "{FROG}: The monsters are all slain.\nShall we return to that village?",
+    "original_fr": "{FROG} : Nous nous sommes enfin débarrassés des\nmonstres. Que faire maintenant ? Hum, retournons\nau village.",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "{ROBO}: Yes.\nLet us return for now.",
+    "original_fr": "{ROBO} : Entendu. Rentrons.",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "{FROG}: Yes, mayhap we overlooked something.",
+    "original_fr": "{FROG} : Tu as raison. Il y a peut-être du nouveau\nl{TAG:3C}-bas. Rentrons.",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "{LUCCA}: Yes.\nMaybe someone's come back.",
+    "original_fr": "{LUCCA} : Tu as raison. Il y a peut-être du nouveau\nl{TAG:3C}-bas. Rentrons.",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "{MARLE}: Yes, the villagers might have come back.\nLet's go see!",
+    "original_fr": "{MARLE} : Tu as raison. Qui sait, il y a peut-être du\nnouveau l{TAG:3C}-bas. Rentrons !",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "{MAGUS}: It appears we've little other choice.",
+    "original_fr": "{MAGUS} : Nous n'avons pas le choix.",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "Won't you give it to me?\nI will make it well worth your while.\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Pourriez-vous me le donner ? Je vous récompenserai,\nje vous assure !\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "Thank you ever so much!\nPlease, take this in return.",
+    "original_fr": "Je vous suis très reconnaissant. J'aimerais vous offrir\nceci pour la peine.",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "I see. Well, it is your decision to make.\nCome back anytime if you change your mind.",
+    "original_fr": "Ah, bon. Je n'insisterai pas, alors. Si vous changez\nd'avis, revenez me voir.",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "You no pass.\nI win.\nYou want pass, you come back.",
+    "original_fr": "Je ne vous laisserai pas passer. Si vous voulez de\nnouveau tenter votre chance, revenez plus tard.",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "*gasp* *pant* *wheeze*\nYou...no pass.\nI...win.\nPlease...don't come back!",
+    "original_fr": "Ouf, ouf... Vous ne m'avez pas battu. Je ne vous\nlaisserai pas passer. Ne revenez plus...",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "{LUCCA}: There are still monsters out there.\nShouldn't we finish them off?",
+    "original_fr": "{LUCCA} : Vous voulez déj{TAG:3C} partir ? On dirait qu'il y a\nencore des monstres. Continuons !",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "{FROG}: Are you certain we should leave?\nThere are still monsters afoot.",
+    "original_fr": "{FROG} : Vous voulez déj{TAG:3C} partir ? Je sens toujours\nla présence de monstres...",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "{MAGUS}: Monsters yet remain.\nI can feel their presence.",
+    "original_fr": "{MAGUS} : Voulez-vous déj{TAG:3C} partir ? Des monstres se\nterrent toujours quelque part dans cette forêt.",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "{AYLA}: Forest, still monster!\n{AYLA} can smell!",
+    "original_fr": "{AYLA} : {AYLA} encore sentir monstres\nquelque part dans forêt ! Vouloir partir ?",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "{ROBO}: My sensors detect activity!\nThere are still monsters within the forest.",
+    "original_fr": "{ROBO} : Voulez-vous vraiment partir ? Je détecte\ntoujours la présence de monstres dans cette forêt !",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "Look!",
+    "original_fr": "Il y a quelque chose sur le sol...",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "Would you like to rest?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous reposer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "How did you sleep?",
+    "original_fr": "Vous vous sentez mieux ? Faites attention {TAG:3C} vous !",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "{FROG}: There will be no end this way.\nWe need to enter their castle, and defeat\nthe one who commands these foul fiends!",
+    "original_fr": "{FROG} : Ça n'en finit pas... Nous devrions plutôt\npénétrer dans le ch{TAG:4A}teau et combattre leur chef.",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "{ROBO}: There is no end in sight!\nWe must neutralize their leader within the castle!\n",
+    "original_fr": "{ROBO} : Il y a toujours encore plus d'ennemis !\nDépêchons-nous d'aller vaincre leur chef dans\nle ch{TAG:4A}teau, sinon, nous n'en finirons jamais !",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "{AYLA}: Too many monster! No stop!\nBeat chief, make stop!",
+    "original_fr": "{AYLA} : Encore beaucoup ennemis ! Vaincre chef,\nvite !",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "{MAGUS}: Let us not waste time on these vermin.\nWe should enter the keep and slay their leader.",
+    "original_fr": "{MAGUS} : Je n'ai pas de temps {TAG:3C} perdre avec\ndu menu fretin... Ils n'en valent pas la peine.\nNe devrions-nous pas pénétrer dans le ch{TAG:4A}teau ?",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "{MARLE}: Let's try to keep moving forward!\nWe can't fight them all here!",
+    "original_fr": "{MARLE} : Avançons ! Nous ne tiendrons pas\nlongtemps comme ça {TAG:3C} ce train, et le village\nnon plus !",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "Agree to search for the Golden Hammer?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Accepter de chercher un maillet doré ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "Truly?\nOh, I knew I could depend on you!",
+    "original_fr": "Oh, vous acceptez ? Je compte sur vous !",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "Don't have the time? I understand.\nJust let me know if you change your mind.",
+    "original_fr": "Ça ne vous dit pas...? Je vois. Revenez me voir si vous\nchangez d'avis.",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "Agree to look for the Prismastone?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Accepter de récupérer la pierre irisée ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "Oh, bless your heart!\nI've no one else to turn to.\nI'll be waiting for your return!",
+    "original_fr": "Merci beaucoup ! Je m'en remets {TAG:3C} vous.",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "But, my daughter...\nIs there no way I can convince you to help?",
+    "original_fr": "Oh... Je vous en supplie !",
+    "translation": ""
+  },
+  {
+    "id": 256,
+    "original_en": "That stone—is that the Prismastone?",
+    "original_fr": "Se pourrait-il que cette pierre que vous avez soit la\nlégendaire pierre irisée ?",
+    "translation": ""
+  },
+  {
+    "id": 257,
+    "original_en": "Incredible!\nIt truly exists!",
+    "original_fr": "Ah, quel éclat sublime ! Et dire qu'elle existait vraiment...!",
+    "translation": ""
+  },
+  {
+    "id": 258,
+    "original_en": "Agree to try and show her the elusive gem?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Accepter de chercher une pierre miraculeuse ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 259,
+    "original_en": "You mean it!?\nOh, I can't wait!\nIf anyone can do it, it's you!",
+    "original_fr": "Vraiment ?! Alors, j'attendrai votre retour avec espoir !",
+    "translation": ""
+  },
+  {
+    "id": 260,
+    "original_en": "Yes, I suppose that's a lot to promise, isn't it?\nStill...",
+    "original_fr": "Oh... Je savais bien que c'était impossible...",
+    "translation": ""
+  },
+  {
+    "id": 261,
+    "original_en": "Agree to explore the cave?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Accepter d'aller explorer la grotte sombre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 262,
+    "original_en": "Wonderful! But please be careful.\nFoul things lurk in dark places.",
+    "original_fr": "Vous acceptez ? Il pourrait y avoir des monstres dans\nla grotte, alors je vous en prie, faites attention !",
+    "translation": ""
+  },
+  {
+    "id": 263,
+    "original_en": "Hmm. Are you sure you won't reconsider?\nThere's really no one else I can ask.",
+    "original_fr": "Je vois... Cependant, je ne peux demander l'aide de\npersonne d'autre ! Je vous en prie, aidez-moi !",
+    "translation": ""
+  },
+  {
+    "id": 264,
+    "original_en": "Oh, hello.\nHave you sampled any of our local delicacies?\nMonsters love them, so they sometimes carry them.\nYou should find some and give them a try!",
+    "original_fr": "Bonjour ! Avez-vous déj{TAG:3C} entendu parler de ces fruits\njaunes qui sont la spécialité du village ? Les monstres\nen sont très friands, alors certains d'entre eux en\ntransportent peut-être.{WAIT_KEY}\nÇa fait longtemps que je n'en ai pas mangé, mais ils\nsont savoureux !",
+    "translation": ""
+  },
+  {
+    "id": 265,
+    "original_en": "If it's not one thing, it's the next.\nYou'll save our village, won't you?",
+    "original_fr": "Quelle catastrophe ! S'il vous pla¡t, protégez notre\nvillage !",
+    "translation": ""
+  },
+  {
+    "id": 266,
+    "original_en": "My daughter has just recovered, and now this...\nPlease, you must protect our village!",
+    "original_fr": "Et ma fille qui venait de se remettre...! Protégez notre\nvillage, je vous en conjure !",
+    "translation": ""
+  },
+  {
+    "id": 267,
+    "original_en": "I've crafted some truly fine equipment.\nWon't you have a look before you go?",
+    "original_fr": "Voici mes meilleures marchandises ! Voulez-vous y jeter\nun coup d'{TAG:61}il ?",
+    "translation": ""
+  },
+  {
+    "id": 268,
+    "original_en": "Monsters are coming to attack the village.\nI'm so scared. What should I do?",
+    "original_fr": "Oh, non ! Des monstres vont nous attaquer ! J'ai si\npeur...",
+    "translation": ""
+  },
+  {
+    "id": 269,
+    "original_en": "Monsters are coming to attack the village.\nI hope they don't take away my gems!",
+    "original_fr": "Oh, non ! Des monstres vont nous attaquer ! Je me\ndemande si la pierre miraculeuse pourrait nous\nsauver...",
+    "translation": ""
+  },
+  {
+    "id": 270,
+    "original_en": "Where could you have found such a stone?\nYou really are mysterious apes, aren't you?",
+    "original_fr": "Où avez-vous bien pu trouver cette pierre...? Vous êtes\nvraiment des primates extraordinaires.",
+    "translation": ""
+  },
+  {
+    "id": 271,
+    "original_en": "{MARLE}: Hey, that looks pretty good.\nThat must be what the Nu wanted.",
+    "original_fr": "{MARLE} : Ça a l'air délicieux. C'est s{TAG:63}rement ce que\nle gnu veut manger !",
+    "translation": ""
+  },
+  {
+    "id": 272,
+    "original_en": "{LUCCA}: That looks tasty enough.\nI wonder if that's the food the Nu wanted.",
+    "original_fr": "{LUCCA} : Ça a l'air délicieux. N'est-ce pas ce que le\ngnu veut manger ?",
+    "translation": ""
+  },
+  {
+    "id": 273,
+    "original_en": "{FROG}: That looks savory enough.\nMust it not be the food of which the Nu spoke?",
+    "original_fr": "{FROG} : Ça a l'air délicieux. N'est-ce pas ce dont le\ngnu nous parlait ?",
+    "translation": ""
+  },
+  {
+    "id": 274,
+    "original_en": "{ROBO}: I am not capable of ingesting food, but\nthat looks like it would be pleasing to your palates.\nPerhaps that is what that Nu wanted us to bring him.",
+    "original_fr": "{ROBO} : Je n'ai pas besoin de manger pour vivre,\nmais ça me semble être délicieux. Est-ce ce que le\ngnu voulait ?",
+    "translation": ""
+  },
+  {
+    "id": 275,
+    "original_en": "{AYLA}: Oh, look good food!\nNu want eat, maybe that!",
+    "original_fr": "{AYLA} : Ça avoir l'air délicieux !\nätre nourriture que gnu vouloir manger !\n{AYLA} certaine !",
+    "translation": ""
+  },
+  {
+    "id": 276,
+    "original_en": "Any luck finding the Golden Hammer? It's said to be\ncrafted from the wood of a golden tree, but it's not\nvery often you see one of those, either.",
+    "original_fr": "Pensez-vous pouvoir trouver un maillet doré ? Il devrait\nêtre fait de bois doré... Je compte sur vous !",
+    "translation": ""
+  },
+  {
+    "id": 277,
+    "original_en": "Thank you so much for offering to help!\nThe Prismastone should be at the peak of Mount\nEmerald, east of the Great Southern Swamp.",
+    "original_fr": "Merci encore d'avoir accepté de m'aider.{WAIT_KEY}\nOn raconte que la pierre irisée se trouve au sommet du\nmont verdoyant, {TAG:3C} l'est du grand marécage.",
+    "translation": ""
+  },
+  {
+    "id": 278,
+    "original_en": "I'll be waiting to hear what you find in that cave.\nIt lies through a narrow tunnel just beyond the\nGreat Southern Swamp.",
+    "original_fr": "Je vous laisse vous occuper d'explorer le fond de ce\npassage serpentin, {TAG:3C} l'ouest du grand marécage.",
+    "translation": ""
+  },
+  {
+    "id": 279,
+    "original_en": "You want to hear the secret of the Prismastone again?{WAIT_KEY}\nIt's said that if two such gems are enshrined together\nin this village's sanctuary, a divine power will merge\nthem to form a stone of even greater power.{WAIT_KEY}\nIf you ever happen to encounter a stone like that,\nbring it to me to see, won't you?",
+    "original_fr": "Vous voulez que je vous dise encore une fois le\nprécieux secret de la pierre irisée ?{WAIT_KEY}\nIl para¡t que si vous placez deux pierres irisées\nsur l'autel du village, vous obtiendrez une pierre\nmiraculeuse encore plus puissante.",
+    "translation": ""
+  },
+  {
+    "id": 280,
+    "original_en": "Please, take this!\nIt might be of some help.",
+    "original_fr": "Tenez ! Ça vous sera s{TAG:63}rement utile !",
+    "translation": ""
+  },
+  {
+    "id": 281,
+    "original_en": "{GLYPH:384}\nObtained Judgment Scythe!",
+    "original_fr": "{GLYPH:384}\nVous obtenez la faux du jugement !",
+    "translation": ""
+  },
+  {
+    "id": 282,
+    "original_en": "Greetings! I hope you'll be willing to help us out again\nif anything else should happen.",
+    "original_fr": "Comment allez-vous ? Si j'ai besoin de votre aide,\nje vous ferai signe.",
+    "translation": ""
+  },
+  {
+    "id": 283,
+    "original_en": "You seem to be doing well.\nIf only my daughter had that much energy...",
+    "original_fr": "Vous ne manquez pas d'entrain ! Si seulement ma fille\nétait comme vous...",
+    "translation": ""
+  },
+  {
+    "id": 284,
+    "original_en": "I'm afraid I'm bit of a worrywart. Everyone tells me I\nhave to relax, but it's hard for me to stop worrying\nabout things.",
+    "original_fr": "Je suis un éternel inquiet... Tout le monde me dit que je\nm'en fais pour rien. C'en est honteux.",
+    "translation": ""
+  },
+  {
+    "id": 285,
+    "original_en": "I like exploring dark places. I go to the cave west of\nthe Great Southern Swamp all the time.",
+    "original_fr": "J'adore les endroits sombres. Je vais souvent explorer\nla grotte {TAG:3C} l'ouest du grand marécage.",
+    "translation": ""
+  },
+  {
+    "id": 286,
+    "original_en": "I guard here.\nYou no pass.{WAIT_KEY}\nYou beat me, then you can pass.",
+    "original_fr": "Je suis le gardien de cet endroit. Je ne laisse passer\npersonne.{WAIT_KEY}\nCependant, si vous arrivez {TAG:3C} me vaincre, je ferai\nune exception.",
+    "translation": ""
+  },
+  {
+    "id": 287,
+    "original_en": "{MAGUS}: We've no quarrel with you, but if you mean\nto bar our way then we'll remove you from it.",
+    "original_fr": "{MAGUS} : Je n'ai rien contre toi, mais...\nPuisque tu me fais obstacle, je vais te combattre.",
+    "translation": ""
+  },
+  {
+    "id": 288,
+    "original_en": "{ROBO}: It appears we have no choice except to\neliminate the obstacle in our path.",
+    "original_fr": "{ROBO} : Il semble que tu ne veux pas nous laisser\npasser. Nous n'avons pas le choix. Nous passerons\nde force.",
+    "translation": ""
+  },
+  {
+    "id": 289,
+    "original_en": "{LUCCA}: So much for getting through the easy way.\nI guess we'll do it the hard way!",
+    "original_fr": "{LUCCA} : Tu n'as pas l'air de vouloir nous laisser\npasser. Nous n'avons pas le choix. Nous ne te\nvoulons pas de mal, mais quelqu'un a besoin de\nnotre aide ! En garde !",
+    "translation": ""
+  },
+  {
+    "id": 290,
+    "original_en": "{MARLE}: You really won't let us through?\nWe'd rather not fight, but we need to get\nby one way or another!",
+    "original_fr": "{MARLE} : Tu ne vas donc pas nous laisser passer...\nJe n'ai pas vraiment envie de te forcer {TAG:3C} bouger,\nmais quelqu'un a besoin de notre aide !",
+    "translation": ""
+  },
+  {
+    "id": 291,
+    "original_en": "{FROG}: If you'll not stand aside, then I suppose\nwe've no choice but to go through you!",
+    "original_fr": "{FROG} : Tu n'as pas l'air de vouloir bouger...\nDans ce cas, nous nous fraierons un chemin\nde force !",
+    "translation": ""
+  },
+  {
+    "id": 292,
+    "original_en": "Hand over the rusted blade?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous lui donner le sabre rouillé ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 293,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 294,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 295,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

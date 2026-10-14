@@ -1,0 +1,404 @@
+[
+  {
+    "id": 0,
+    "original_en": "Extras",
+    "original_fr": "Bonus",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Personal Data",
+    "original_fr": "Données personnelles",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "™COMPLETION DATA",
+    "original_fr": "™Partie finie",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Enemies encountered:",
+    "original_fr": "Monstres rencontrés",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Items obtained:",
+    "original_fr": "Objets obtenus",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Techs learned:",
+    "original_fr": "Compétences apprises",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Save count:",
+    "original_fr": "Nombre de sauvegardes",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "%",
+    "original_fr": "%",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Theater",
+    "original_fr": "Cinéma",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Art Gallery",
+    "original_fr": "Galerie",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Music Box",
+    "original_fr": "Auditorium",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Dojo",
+    "original_fr": "Dôjô",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Bestiary",
+    "original_fr": "Bestiaire",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Item Encyclopedia",
+    "original_fr": "Encyclopédie",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Ending Log",
+    "original_fr": "Fins",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Treasure Atlas",
+    "original_fr": "Atlas des trésors",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "???",
+    "original_fr": "???",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Track No.",
+    "original_fr": "Piste nÎ ",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "TITLE",
+    "original_fr": "Titre",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "PLAY",
+    "original_fr": "îcoute",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Timing",
+    "original_fr": "Prérequis",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Notes",
+    "original_fr": "Note",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Image",
+    "original_fr": "Voir l'image",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "STOP",
+    "original_fr": "Arrêt",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "MP",
+    "original_fr": "PM",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Single Techs",
+    "original_fr": "Solos",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Dual Techs",
+    "original_fr": "Duos",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Triple Techs",
+    "original_fr": "Trios",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Consumables",
+    "original_fr": "Objets",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Weapons",
+    "original_fr": "Armes",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Helms",
+    "original_fr": "Tête",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Armor",
+    "original_fr": "Corps",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Accessories",
+    "original_fr": "Accessoires",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Key Items",
+    "original_fr": "Objets-clefs",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Effects:",
+    "original_fr": "Caractéristiques",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Attack: ",
+    "original_fr": "Attaque",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Defense: ",
+    "original_fr": "Défense",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Usable by:",
+    "original_fr": "Peut s'en équiper :",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Purchase: ",
+    "original_fr": "Prix d'achat",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Sell: ",
+    "original_fr": "Prix de vente",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": " G",
+    "original_fr": " G",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Prehistory",
+    "original_fr": "Préhistoire",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Antiquity",
+    "original_fr": "Antiquité",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Middle Ages",
+    "original_fr": "Moyen-{TAG:5F}ge",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Present",
+    "original_fr": "Présent",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Future",
+    "original_fr": "Futur",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "End of Time",
+    "original_fr": "Fin des temps",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Black Omen",
+    "original_fr": "Songe obscur",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Bonus Areas",
+    "original_fr": "Donjons bonus",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "{GLYPH:128}-----",
+    "original_fr": "---",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "View in-game movies.",
+    "original_fr": "Visionner les cinématiques.",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "View concept artwork.",
+    "original_fr": "Regarder les illustrations conceptuelles.",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Listen to music tracks.",
+    "original_fr": "îcouter les musiques du jeu.",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "View character tech skill information.",
+    "original_fr": "Consulter la liste des compétences des alliés.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "View detailed enemy information.",
+    "original_fr": "Consulter les caractéristiques des monstres.",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "View item information.",
+    "original_fr": "Consulter la liste des objets.",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "View requirements for obtaining game endings.",
+    "original_fr": "Vérifier les prérequis pour chaque fin.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "View treasure locations.",
+    "original_fr": "Vérifier l'emplacement des trésors.",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Please select a movie.",
+    "original_fr": "Choisissez une cinématique.",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Please select an illustration.",
+    "original_fr": "Choisissez une illustration.",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Please select music.",
+    "original_fr": "Choisissez une piste.",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Please select a tech.",
+    "original_fr": "Choisissez une compétence ou un combo.",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Please select an item.",
+    "original_fr": "Choisissez un objet.",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Please select an ending.",
+    "original_fr": "Choisissez une fin.",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Please select an era.",
+    "original_fr": "Choisissez une époque.",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Please select a map.",
+    "original_fr": "Choisissez une carte.",
+    "translation": ""
+  }
+]

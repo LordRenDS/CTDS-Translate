@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "original_en": "Crono",
+    "original_fr": "Chrono",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Marle",
+    "original_fr": "Marle",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Lucca",
+    "original_fr": "Lucca",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Robo",
+    "original_fr": "RoBo",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Frog",
+    "original_fr": "Gren",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Ayla",
+    "original_fr": "Ayla",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Magus",
+    "original_fr": "Magus",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Epoch",
+    "original_fr": "Ibis",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "A kindhearted youth raised\nin the quiet village of Truce.\nSelfless and courageous, he\nstands up for his beliefs and\nlends a hand to those in need.",
+    "original_fr": "Un jeune homme du village de\nTruce. Aimable et courageux,\nil est toujours prêt {TAG:3C} aider les\ngens dans le besoin au mépris\ndu danger.",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "An unusual young girl met\nthrough random happenstance.\nEndearingly strong-willed, she\nseems to cherish the pendant\nthat hangs about her neck.",
+    "original_fr": "Une ravissante jeune fille qui\nne manque ni d'énergie ni de\ncaractère. Elle semble très\nattachée {TAG:3C} son pendentif.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{CRONO}'s childhood friend.\nA passionate inventor, she\nhas a gift for building and\nrepairing all things mechanical.",
+    "original_fr": "L'amie d'enfance de\n{CRONO}. C'est une\ninventrice experte dans la\nfabrication et la réparation\nde machines.",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "A robot fixed and reactivated\nby {LUCCA}. Bearing the\nproduction number R-66Y, it\nboasts technology of an era\nfar beyond the present.",
+    "original_fr": "L'andro¿de R66-Y réparé par\n{LUCCA}. Le niveau de\ntechnologie nécessaire {TAG:3C}\nsa fabrication dépasse\nl'entendement.",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "A mysterious amphibian knight\nwhose speech and manner\nalike seem human. His elegant\nswordsmanship speaks of\nvast experience and skill.",
+    "original_fr": "Un guerrier énigmatique qui\nparle et se comporte comme\nun être humain malgré son\naspect batracien. Il semble\ntrès habile {TAG:3C} l'épée.",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "A beautiful female warrior from\na time before written record.\nShe favors the strong, her\nown might far exceeding that\nof any ordinary human.",
+    "original_fr": "Une ravissante guerrière d'un\npassé très lointain dont les\ncapacités physiques excèdent\ncelles du commun des mortels.\nElle aime les gens forts.",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "The once-prince of ancient\nZeal. Thrust into the Middle\nAges by Lavos's power, the\nmighty sorcerer soon donned\nthe darker mantle of Fiendlord.",
+    "original_fr": "Le prince de Zhyle. Propulsé\njusqu'au Moyen-{TAG:5F}ge par\nLavos, il y est devenu le\nMagistère. C'est un mage\npuissant, mais solitaire.",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "A machine whose wings span\ntime itself. Its completion\nculminated the life work of\nBalthasar, one of the three\nGurus of antiquity.",
+    "original_fr": "Une machine qui permet de\nvoler {TAG:3C} travers le temps.\nGasch, l'un des trois sages\nde l'Antiquité, a consacré sa\nvie entière {TAG:3C} sa conception.",
+    "translation": ""
+  }
+]

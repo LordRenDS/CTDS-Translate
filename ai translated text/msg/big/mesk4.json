@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Congratulations on finishing the game!\nYou're now a member of the Dream Team!{WAIT_KEY}\nAnd since you blew through the game so fast,\nwe've adjusted the credits to suit your style!",
+    "original_fr": "Bravo ! Vous avez terminé le jeu !{WAIT_KEY}\nVous êtes maintenant un membre de la {TAG:64} Dream Team {TAG:65}\nvous aussi. Félicitations !{WAIT_KEY}\nNous allons vous présenter un générique qui convient\n{TAG:3C} quelqu'un dont l'impatience lui a fait terminer le jeu\naussi rapidement. C'est parti !",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Akira Toriyama: Hey! Sasuke! Kikka!\nPop's working on games, too!\nAre you seeing this?\nIsn't this great?",
+    "original_fr": "Akira Toriyama : Hé ! Sasuke ! Kikka ! Papa a aussi\ntravaillé sur ce jeu !{WAIT_KEY}\nVous regardez, dites ? C'est formidable, non ?!",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Yuji Horii: Wow, the years sure do fly by.\nThis game was first released in 1995!",
+    "original_fr": "Y{TAG:63}ji Horii : Ce jeu est sorti pour la première fois en\n1995, vous savez ! Ça fait drôlement longtemps !",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Hironobu Sakaguchi: Boy, it used to be\nthat I'd get thinner after each game.\nNow I'm gaining weight instead.\nAck! I must be getting old.",
+    "original_fr": "Hironobu Sakaguchi : Avant, chaque projet me faisait\nmaigrir, mais depuis quelque temps, j'ai pris du poids.\nHum ! Ça doit être l'{TAG:4A}ge !",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Kazuhiko Aoki: Guess what?\nI hit the 100,000 yen jackpot!",
+    "original_fr": "Kazuhiko Aoki : J'ai gagné 100 000 yen {TAG:3C} la loterie de fin\nd'année !",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Ken Narita: Love was in the air...but then\nthe engines cut out.\n*sigh*",
+    "original_fr": "Ken Narita : Je suis tombé amoureux plusieurs fois,\nmais je n'ai pas trouvé l'{TAG:4A}me s{TAG:61}ur...",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Hiroyuki Ito: Heh heh... The Tyranno Lair?\nYup, it was my bright idea to put the switch\nin the mouth! Sorry 'bout that.",
+    "original_fr": "Hiroyuki Itô : Le fort Tyrannos ? C'était mon idée de\nmettre le bouton dans la gueule ! Désolé ! Co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Kazuo Suzuki: I'm the consummate professional.",
+    "original_fr": "Kazuo Suzuki : Moi, je suis un artisan !",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Shun Moriya: I've been working 24 hours a day!",
+    "original_fr": "Shun Moriya : Je travaille 24 heures sur 24.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Masanori Hoshino: Hey, they promised\nto name this game Hoshino Trigger!",
+    "original_fr": "Masanori Hoshino : Â la base, ce jeu devait s'appeler\nHoshino Trigger !{WAIT_KEY}\nDans mes rêves, hé, hé !",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Mami Kawai: Oops!\nDid I forget to insert a few parts again?\nI'm so sorry, it won't happen again!",
+    "original_fr": "Mami Kawai : Oh ?! J'ai encore oublié des pièces ?!\nSnif, snif... Puis-je les ajouter maintenant ?",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Taizo Mamo: What are you lookin' at, buddy?\nTryin' to start something'?\nC'mon, bring it on!",
+    "original_fr": "Taizô Mamo : ... Hein ? Mais quessé qu'tu fais ?\nFiche-moi 'a paix !! Tu veux que j'te sacre une volée ?!",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Don't look for me.\n{TAG:38}{TAG:38}{TAG:38}{TAG:38} Hiroko Yamamoto",
+    "original_fr": "{GLYPH:384}\nN'essayez pas de me trouver.\n- Hiroto Yamamoto",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Minoru Akao: Ah, I love a good quest!\nDon't you?",
+    "original_fr": "Minoru Akao : J'aime les voyages et aussi m'amuser !\nFaut profiter de la vie !",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Eiji Nakamura: Congrats on finishing the game!\nWhy don't you spend some time outside tomorrow?",
+    "original_fr": "Eiji Nakamura : Félicitations !! Mais j'espère que vous ne\npassez pas tout votre temps devant l'écran !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Katsuhisa Higuchi: Legendary programmer, 29,\nseeks that special someone. Not quite Hero\nmaterial, but still the stuff of legend.\nWaiting for those cards and letters.",
+    "original_fr": "Katsuhisa Higuchi : Programmeur légendaire, 29 ans.\nJe n'ai pas réussi {TAG:3C} devenir un héros, seulement {TAG:3C}\ndevenir une légende.{WAIT_KEY}\nEnvoyez-moi vos lettres.",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Kenichi Nishi: Man, that was a long haul.\nI got my first gray hair working on this game.\nLost weight, too.",
+    "original_fr": "Ken'ichi Nishi : C'était un long projet. J'en ai eu mes\npremiers cheveux blancs et j'ai perdu du poids.",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Hey out there in TV land! How're we doing today?\nIt's me, Manabu Daishima! Let's all buy games, okay?\nNone of this renting and borrowing stuff!",
+    "original_fr": "Salut {TAG:3C} vous, de l'autre côté de l'écran ! Ça va ?\nJe m'appelle Manabu Daishima ! N'oubliez pas !\nIl faut acheter les jeux, pas les emprunter !",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Shinichiro Okaniwa: I can't even remember the\nlast time I cut my hair. Look how long it is!\nBetter get myself to a barber.",
+    "original_fr": "Shin'ichirô Okaniwa : Hé, hé... Je ne me suis pas coupé\nles cheveux pendant si longtemps, ils sont devenus\naussi longs que ça. En route pour le coiffeur !",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Good job! You reached the hardest ending!\nThis is the Chrono Trigger development room.\nTake a walk around and hear what the team\nhas to say!{WAIT_KEY}\nKeizo Kokubo: I hope you and all of the staff\nwho worked on the game took something from it\nand will continue to grow and prosper, no matter\nwhat the future holds in store.{WAIT_KEY}\nCome back to see me again once you complete\nyour rounds.",
+    "original_fr": "Félicitations ! Vous avez réussi {TAG:3C} terminer le jeu dans\ndes conditions très difficiles !{WAIT_KEY}\nBienvenue au bureau de l'équipe de développement.\nAllez parler aux membres de l'équipe.{WAIT_KEY}\nKeizô Kokubo : J'espère que ça aura été une expérience\nenrichissante {TAG:3C} la fois pour les joueurs et pour tous\nceux qui ont participé {TAG:3C} ce projet.{WAIT_KEY}\nRevenez me voir quand vous aurez parlé {TAG:3C} tout le\nmonde.",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Well then, open the gates to the Dream Team!",
+    "original_fr": "Eh bien... Ouvrons la porte de la Dream Team !",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "You may proceed.\nThe project team's upper echelon awaits!",
+    "original_fr": "Allez, entrez ! Les membres les plus importants de\nl'équipe vous attendent.",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Hiroshi Uchiyama: That's a pretty good\ncostume you got on there, kid!\nWait—it's really you, isn't it!?\nSorry, thought you were just a cosplayer!",
+    "original_fr": "Hiroshi Uchiyama : Quel beau costume ! Vous avez\nd{TAG:63} passer des heures {TAG:3C} le fabriquer ! Hein ? Quoi ?\nVous êtes le vrai ?! Oh, désolé !",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Fumi Nakashima: Did you see the little character\nanimations on the world map, ribbit? There's\nLucca reading a book, Chrono all in a rush...\nKnow what I'm talking about, ribbit?",
+    "original_fr": "Fumi Nakashima : Bonjour, bonjour, co{TAG:4A}{TAG:4A} ! Vous avez\nremarqué les actions des petits personnages sur la\nmappemonde, co{TAG:4A}{TAG:4A} ? Lucca qui lit un livre, co{TAG:4A}{TAG:4A} !\nChrono qui s'impatiente, co{TAG:4A}{TAG:4A} !",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Yasuhiko Kamata: Having 32 megs means we can\nuse a lot of graphics. Using a lot of graphics\nmeans we have to create a lot of graphics.\nWell, it was hard work, but it sure was fun!",
+    "original_fr": "Yasuhiko Kamata : Ah, c'est bien d'avoir 32 Mo ! On peut\navoir deux fois plus d'images ! C'était difficile, mais je\nme suis tout de même amusé.",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Keita Eto: You want a buggy map repaired?\n10,000,000 G ought to cover the cost.",
+    "original_fr": "Keita Etô : Vous voulez réparer une carte endommagée ?\nCela vous co{TAG:63}tera 10 000 000 G !",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Haruyuki Nishida: Hey, do you think there\nwill be a sequel?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Haruyuki Nishida, création des monstres :\nVous croyez qu'il y aura un Chrono Trigger 2 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "That'd be nice, huh?",
+    "original_fr": "Ce serait génial, hein ?",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Kato: No storm lasts forever.{WAIT_KEY}\nEven eternity must come to an end.{WAIT_KEY}\nI think.",
+    "original_fr": "Katô : Après la pluie vient le beau temps.{WAIT_KEY}\nMême l'éternité doit bien avoir une fin...{WAIT_KEY}\nEnfin, c'est ce que je crois...",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Nobuo Uematsu: siht daer naht od ot retteb\ngnihton evah I\nNow run along and play, boys and girls!",
+    "original_fr": "Nobuo Uematsu : Etxet ec sap zesil en.\nEt maintenant, essayez de lire {TAG:3C} l'envers !",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Keisuke Matsuhara: Thank you, thank you,\nno applause necessary, just send money.\nI hope you enjoyed all of my events.{WAIT_KEY}\nAnother of my masterpieces will be available\nsoon, so stay tuned!",
+    "original_fr": "Keisuke Matsuhara : Salut ! Vous avez aimé les scènes\nque j'ai écrites ? J'ai encore plein d'idées géniales pour\nle prochain jeu, alors ne le manquez pas !",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Matsuzo Itakura: Did you figure out\nmy Poyozo Dance attack?\nSee you again in another game soon!",
+    "original_fr": "Matsuzô Itakura : Bonjour ! Avez-vous découvert mon\ntrio Danse de poyozo ? Â la prochaine dans un autre\njeu !",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Hasui: Shh, I'm in the middle of something\ngood here!",
+    "original_fr": "Hasui : Ne me parlez pas ! Je suis occupé !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Akane Haruki: Please, feed me!\nI'm starving!",
+    "original_fr": "Haruki Akane : J'ai faim !",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Hiroki Chiba: 1-4! 1-4! Come on, 1-4!\nNoooooo! I lost again!",
+    "original_fr": "Hiroki Chiba : 1-4 ! 1-4 !! 1-4 !!! 1-4 !!!!\nZut ! Encore raté !!",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Kazuhiro Ohkawa: Congratulations!\nDid you have a good time?",
+    "original_fr": "Kazuhiro ëkawa : Vous avez terminé le jeu, félicitations !\nÇa vous a plu ?",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Akiyoshi Masuda: Kokubo and I've been practicing\nour anti-stress massages on each other instead\nof working.{WAIT_KEY}\nShoulder massages—shoulder!",
+    "original_fr": "Akiyoshi Masuda : Je ne compte même plus les heures\nqu'on a passées {TAG:3C} se masser les épaules pour se\ndécontracter avec Kokubo !",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Tetsuya Takahashi: If you thought this was tough,\nyou should get a load of Final Fantasy IV!",
+    "original_fr": "Tetsuya Takahashi : Cette fois j'ai pas fini au bout\ndu rouleau ! C'était dur, mais pas autant que\nFinal Fantasy IV !",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Yoshinori Ogura: I'm just happy to have been able\nto work on this game!",
+    "original_fr": "Yoshinori Ogura : Je suis heureux d'avoir pu participer\nun peu {TAG:3C} la création de ce jeu.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Koji Sugimoto: The jetbike race programmer's\nhigh score was 2110. Bet you can't beat that!",
+    "original_fr": "Kôji Sugimoto : Il para¡t que le meilleur score des\nprogrammeurs {TAG:3C} la course {TAG:3C} moto est de 2110.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Koichi Ebe: Thanks for playing Chrono Trigger\nall the way to the end. Here, have a kiss to\nremember it by!",
+    "original_fr": "Kôichi Ebe : Merci d'avoir joué {TAG:3C} Chrono Trigger jusqu'{TAG:3C}\nla fin ! Vous méritez une bise ! Hmmouah !{GLYPH:145}©",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Toshiaki Suzuki: Uhnnn... So tired...\nBut so hungry...\nOne thing at a time...\nZzz...",
+    "original_fr": "Toshiaki Suzuki : Hum... Ah, j'ai sommeil...\nOh, j'ai faim... Bah, qui dort d¡ne.",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Kiyoshi Yoshii: Ah, yes, such a moving story\nin that 128th entry to the Chrono series!{WAIT_KEY}\nWhat? Oh no, this must be the wrong era!",
+    "original_fr": "Kiyoshi Yoshii : Ce 128e épisode de la série\nChrono Trigger était vraiment émouvant...{WAIT_KEY}\nAh ! On dirait que je me suis encore trompé d'époque !",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Tsutomu Terada: I've caught every cold that's gone\naround this year—achoo! Hey, I know you've\ngotten strong, but don't—achoo!—go picking\non my monsters now, you hear?",
+    "original_fr": "Tsutomu Terada : Cette année j'ai attrapé tous les\nrhumes qu'il y avait {TAG:3C} attraper. Atchoum !! Vous êtes\nsi forts, maintenant... Atchoum ! Ne soyez pas trop\nméchants avec les monstres, d'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Tadahiro Usuda: Look closely and you'll appreciate\nthe little details on the monsters. Like—here,\ncheck out the shadow on this guy's sword! See it?",
+    "original_fr": "Tadahiro Usuda : Si vous regardez attentivement, vous\nremarquerez plein de petits détails sur les monstres.\nAh, par exemple, l'ombre de l'épée de celui-ci...\nAlors, vous voyez ?",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Makoto Shimamoto: Boom!\n9999 damage!\nYou do!",
+    "original_fr": "Makoto Shimamoto : Vous avez déj{TAG:3C} réussi {TAG:3C} infliger\n9999 points de dég{TAG:4A}ts ? Ça défoule !",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Yasunori Mitsuda: Well, now it's my turn to set\noff on a journey to see what the world holds in store.\nI wonder if I shall ever return.",
+    "original_fr": "Yasunori Mitsuda : Je vais partir en voyage dans\nun endroit très lointain... C'est la prochaine étape.\nMais je ne sais pas si je reviendrai...",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Kazumi Kobayashi: I've lost 22 pounds working\non this game.",
+    "original_fr": "Kazumi Kobayashi : J'ai maigri... J'ai perdu 10 kilos...",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Kaname: I'm just a map design n00b.\nBut my dad's a pro gamer.\nHe pwns n00bs at the arcade.",
+    "original_fr": "Kaname : Je suis apprenti créateur de cartes.\nMon superviseur ? Il est parti jouer {TAG:3C} la salle\nd'arcades.",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Hirokatsu Sasaki: Ever since I started growing\nout my hair, I've been getting a lot of\nattention...from guys! I can't believe it!",
+    "original_fr": "Hirokatsu Sasaki : Depuis que je me suis laissé pousser\nles cheveux, je me fais souvent aborder dans la rue...\npar des hommes ! Quel choc !",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Sorry, it's a bad makeup day for Takashi Tokita.",
+    "original_fr": "Ah, pardon, je ne porte pas de masque...{WAIT_KEY}\nC'est Takashi Tokita, {TAG:3C} la mode de Liverpool.",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Yukio Nakatani: Thanks for playing!\nAre you a girl?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Yukio Nakatani : Merci d'avoir joué ! Au fait, êtes-vous\nune fille ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Akihiko Matsui: What did you think?\nI hope you had a good time!\nSee you in another game!",
+    "original_fr": "Akihiko Matsui : Alors, qu'en dites-vous ? Si le jeu vous a\nplu, je suis heureux. Â la prochaine dans un autre jeu !",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Tetsuya Nomura: 3...{GLYPH:405}08{GLYPH:406}\n2... {GLYPH:405}08{GLYPH:406}1...{GLYPH:405}08{GLYPH:406}\nRESET!",
+    "original_fr": "Tetsuya Nomura : 3...{GLYPH:405}08{GLYPH:406}\n2...{GLYPH:405}08{GLYPH:406}\n1...{GLYPH:405}08{GLYPH:406}\nRedémarrage de la console !",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Just joking!",
+    "original_fr": "Je plaisante !",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Yasuyuki Honne: This was my first project.\nWhew, was I ever nervous!\nWhat a relief it's over!",
+    "original_fr": "Yasuyuki Honne : C'était mon premier projet.\nJ'étais si nerveux !",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Shinichiro Hamasaka: I just helped the Chrono\nTrigger team a tiny bit. Good job, guys!",
+    "original_fr": "Shin'ichirô Hamasaka : L'équipe de Chrono Trigger s'est\nvraiment donnée {TAG:3C} fond ! Moi, je n'ai fait que donner un\ncoup de main.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Yoshinori Kitase: There are more than ten\ndifferent endings. Have you seen them all?\nThe ending you get depends on when you\nchallenge Lavos.",
+    "original_fr": "Yoshinori Kitase : Il y a plus de 10 fins différentes.\nElles varient en fonction d'où et de quand vous\ncombattez Lavos !{WAIT_KEY}\nLes avez-vous toutes vues ?",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Yusuke Naora: How was the art?\nI had a blast working on it!",
+    "original_fr": "Y{TAG:63}suke Naora : C'était un plaisir de participer {TAG:3C} ce\nprojet. J'espère que mes dessins vous ont plu.",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Takayuki Ohtachi: Well done!",
+    "original_fr": "Takayuki ëtachi : Bon travail !",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Kezuka: Better find the switch soon or\nit'll all go up in flames!",
+    "original_fr": "Kezuka : Si vous ne trouvez pas l'interrupteur\nrapidement, tout va br{TAG:63}ler !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "{ROBO}: I realized something during these\npast four hundred years.{WAIT_KEY}\nI believe we may have been incorrect in our\nassumption that Lavos was responsible for the\ncreation of the Gates.",
+    "original_fr": "{ROBO} : Après avoir passé 400 ans ici, je me suis\nrendu compte de quelque chose.{WAIT_KEY}\nNous pensions que les portails étaient des distorsions\ncausées par le pouvoir de Lavos, mais je crois que\nnous avions tort.",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{MARLE}: What do you mean?",
+    "original_fr": "{MARLE} : Que veux-tu dire par l{TAG:3C} ?",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "{ROBO}: It is not a certainty, but I have\ncome to believe it possible that some entity\nwished for us to witness these events.{WAIT_KEY}\nPerhaps it wanted us to see all of these\nvarious ages. Alternately, it may have wished\nto see them for itself.{WAIT_KEY}\nIt seems almost as though it was reflecting\non the days of its past.",
+    "original_fr": "{ROBO} : Je ne peux pas en être certain, mais\nquelqu'un ne voulait-il pas nous montrer quelque\nchose, en nous faisant voyager {TAG:3C} travers les\n{TAG:4A}ges par ces portails...?{WAIT_KEY}\nOu encore, cette personne voulait peut-être le voir de\nses propres yeux, pour se souvenir de ce qu'elle avait\nvécu...",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "{AYLA}: {AYLA} know.\nPerson die, see life pass by.\nElder say!",
+    "original_fr": "{AYLA} : {AYLA} comprendre. Légende dire que\nlorsque quelqu'un mourir, voir tous souvenirs !",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "{FROG}: Before death claims a man, he is\nmade to bear witness a second time to those\nmemories engraved most deeply upon his heart.{WAIT_KEY}\nThere may be fond memories among them, yes.\nBut often as not, the ones which grieve us\nare the most profound.",
+    "original_fr": "{FROG} : On raconte qu'au décès d'une personne,\nles souvenirs gravés au plus profond de son c{TAG:61}ur\npendant sa vie lui reviennent {TAG:3C} l'esprit, les uns après\nles autres.{WAIT_KEY}\nCe sont parfois des souvenirs heureux, mais dans la\nplupart des cas, ce sont des souvenirs tristes.",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{ROBO}: Knowing the end is approaching\nlikely reactivates dormant feelings of regret,\nand desire to return to moments in the past.",
+    "original_fr": "{ROBO} : Ce sont sans doute les moments les plus\nmémorables de notre existence, ceux que l'on voudrait\nrevivre ou ceux que l'on voudrait changer...",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{MARLE}: Do you suppose that will happen when\nour time comes?{WAIT_KEY}\n{LUCCA}: Probably... Who knows?{WAIT_KEY}\n{MARLE}: Is there a point in time you'd want\nto return to, {LUCCA}?",
+    "original_fr": "{MARLE} : Je me demande si ça m'arrivera aussi\nquand je vais mourir...{WAIT_KEY}\n{LUCCA} : Sans doute.{WAIT_KEY}\n{MARLE} : Y a-t-il quelque chose dans ta vie que tu\nvoudrais changer, {LUCCA} ?",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "{LUCCA}: I—no, not...not really.{WAIT_KEY}\n{MARLE}: I'm sorry, I probably shouldn't have asked.",
+    "original_fr": "{LUCCA} : Je... Non... Pas vraiment.{WAIT_KEY}\n{MARLE} : Désolée... Je n'aurais pas d{TAG:63} te le\ndemander ?",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "{LUCCA}: No, it's okay. It's just something I\ndon't like to think about too much.",
+    "original_fr": "{LUCCA} : J'essaie de ne pas trop y penser.",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "{FROG}: But even if Lavos did not open the\nGates, his fate is clearly bound to that of the\none who did.{WAIT_KEY}\nLavos has played a role in every age we've seen.",
+    "original_fr": "{FROG} : La personne {TAG:3C} qui appartiennent ces\nsouvenirs doit avoir toute une connexion avec\nLavos.{WAIT_KEY}\nIls sont tous liés {TAG:3C} ce dernier, quelle que soit l'époque.",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{MAGUS}: Who do you think it is?",
+    "original_fr": "{MAGUS} : ...\nAlors, qui est donc cette personne ?",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "{ROBO}: It is unknown to me whose memories\nthese are. It is likely an entity greater than\nany of us.{WAIT_KEY}\nPerhaps we will not know until our journey has\ncome to an end.\n{GLYPH:405}08{GLYPH:406}Shall we turn in for the night?",
+    "original_fr": "{ROBO} : Je ne sais pas {TAG:3C} qui ils appartiennent.\nCe n'est peut-être pas une personne... mais plutôt\nune entité beaucoup plus grande.{WAIT_KEY}\nIl est possible que nous ne le sachions que lorsque\nnotre aventure se terminera. {GLYPH:405}08{GLYPH:406}Nous devrions sans\ndoute dormir...",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "{ROBO}: You can give her my legs!\nThey are lightweight, with a highly compact\nform factor and exceptional balance.{WAIT_KEY}\nYou could mount some treads on me instead.\nAnything would be fine.",
+    "original_fr": "{ROBO} : Je lui donnerai mes jambes ! Elles sont très\nstables et peu encombrantes. Tu n'as qu'{TAG:3C} me donner\nun système de propulsion {TAG:3C} chenilles, et...",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "{ROBO}: Please do not be sad, {LUCCA}.",
+    "original_fr": "{ROBO} : Ne sois pas si triste.",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "{LUCCA}: Thank you.\nYou're such a good friend.",
+    "original_fr": "{LUCCA} : Je te remercie. J'ai un ami si généreux...",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "{ROBO}: A good...friend?\nYou called me your friend?\nBut...I am only a robot.",
+    "original_fr": "{ROBO} : Un ami...\nMoi, un robot...?",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{ROBO}: That was always weighing on\nyour mind, was it not, {LUCCA}?\nYou are always thinking of others.",
+    "original_fr": "{ROBO} : Cela te tourmentait pendant tout ce\ntemps... Tu as bon c{TAG:61}ur, {LUCCA}.",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{ROBO}: I have a present for you.\nIt is a piece of amber I created using\nsap from the trees in this forest.{WAIT_KEY}\nIt required four hundred years and a\ngreat deal of pressurization to make.\nI hope you will find it useful.",
+    "original_fr": "{ROBO} : Je veux te donner quelque chose. C'est un\nmorceau d'ambre que j'ai créé en faisant durcir la\nrésine des arbres de la forêt.{WAIT_KEY}\nIl m'a fallu 400 années pour le fabriquer. J'espère qu'il\nte sera utile.",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "{LUCCA}: {ROBO}...\nYou're so sweet. Thank you.",
+    "original_fr": "{LUCCA} : Merci beaucoup, {ROBO}...",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

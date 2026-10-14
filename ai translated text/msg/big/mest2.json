@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{MARLE}: What!?",
+    "original_fr": "{MARLE} : Qu'est-ce que...?!",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{LUCCA}: This must be the Day of...of...!",
+    "original_fr": "{LUCCA} : Serait-ce...",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{ROBO}: Energy reading at 100!\n200, and increasing!",
+    "original_fr": "{ROBO} : Niveau d'énergie {TAG:3C} 100 ! 200...!\nIl continue de monter !",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{FROG}: What dark sorcery is this?",
+    "original_fr": "{FROG} : Qu'est-ce que c'est ?!",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{AYLA}: !",
+    "original_fr": "{AYLA} : !!",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{MAGUS}: He comes.",
+    "original_fr": "{MAGUS} : Il approche...",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{MARLE}: It's emerging?",
+    "original_fr": "{MARLE} : Il va sortir ?!",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{LUCCA}: No way!",
+    "original_fr": "{LUCCA} : Oh non !",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{ROBO}: 1999 A.D.! Date confirmed!\nThe time is 1:24!\nThis is the precise moment!",
+    "original_fr": "{ROBO} : Nous sommes en l'an 1999 {TAG:3C} 01:24 !\nIl n'y a pas d'erreur !",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{FROG}: Lavos?",
+    "original_fr": "{FROG} : Lavos ?!",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{AYLA}: He strong!\nStrong, strong, strong!",
+    "original_fr": "{AYLA} : Fort ! Très fort !",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{MAGUS}: Come... Face me!",
+    "original_fr": "{MAGUS} : Allez, viens...!",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "{MARLE}: That...that's—!",
+    "original_fr": "{MARLE} : C'est...!",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{LUCCA}: Oh, my...",
+    "original_fr": "{LUCCA} :  Aah...",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{ROBO}: Offensive capabilities...incalculable!",
+    "original_fr": "{ROBO} : Impossibilité de mesurer la puissance\nd'attaque ?!",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "{FROG}: Sweet mercy...\nThe size of it!",
+    "original_fr": "{FROG} : Il est... gigantesque...",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "{AYLA}: Ooohhhh...",
+    "original_fr": "{AYLA} : Oooh...!",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "{MAGUS}: Oh, how I've awaited this!",
+    "original_fr": "{MAGUS} : J'ai tant attendu ce moment...!",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Lavos...",
+    "original_fr": "Lavos...!",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "{MARLE}: {GLYPH:386}! What do we do?\n{TAG:38}{TAG:38}{GLYPH:394}Fight!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Flee for now.{GLYPH:397}",
+    "original_fr": "{MARLE} : Qu'allons-nous faire, {GLYPH:386} ?\n       {GLYPH:394}Combattre !{GLYPH:395}\n       {GLYPH:396}Fuir !{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "{LUCCA}: Are...are we really going on?\n{TAG:38}{TAG:38}{GLYPH:394}Fight!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Flee for now.{GLYPH:397}",
+    "original_fr": "{LUCCA} : Nous allons vraiment continuer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{ROBO}: {GLYPH:386}, shall we go?\n{TAG:38}{TAG:38}{GLYPH:394}Fight!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Flee for now.{GLYPH:397}",
+    "original_fr": "{ROBO} : Souhaites-tu continuer, {GLYPH:386} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{FROG}: {GLYPH:386}! Do you truly mean to do this?\n{TAG:38}{TAG:38}{GLYPH:394}Fight!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Flee for now.{GLYPH:397}",
+    "original_fr": "{FROG} : Tu veux vraiment y aller, {GLYPH:386} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{AYLA}: Fight now?\n{TAG:38}{TAG:38}{GLYPH:394}Fight!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Flee for now.{GLYPH:397}",
+    "original_fr": "{AYLA} : Combattre maintenant ?!\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "{MAGUS}: Hmph. You grow hesitant?\n{TAG:38}{TAG:38}{GLYPH:394}Fight!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Flee for now.{GLYPH:397}",
+    "original_fr": "{MAGUS} : Hésitez-vous ? Qu'allez-vous faire ?\n       {GLYPH:394}Combattre !{GLYPH:395}\n       {GLYPH:396}Fuir !{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "{MARLE}: You're right!\nFor Doan and the others, too!",
+    "original_fr": "{MARLE} : Tu as raison ! Nous combattrons aussi\npour Don et les autres !",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "{LUCCA}: Ours was a short youth!",
+    "original_fr": "{LUCCA} : Notre jeunesse aura été bien courte...!",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "{ROBO}: Understood! Let us go!",
+    "original_fr": "{ROBO} : Allons-y !",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "{FROG}: Masamune, do not fail me now!",
+    "original_fr": "{FROG} : En avant, Grandléon !",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{AYLA}: {AYLA} no run!\n{AYLA} fight!",
+    "original_fr": "{AYLA} : {AYLA} pas fuir !\n{AYLA} se battre !",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "{MAGUS}: Finally, I shall destroy you for good\nand all!",
+    "original_fr": "{MAGUS} : Cette fois, je vais te détruire !",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Did we do it?",
+    "original_fr": "Nous... Nous avons réussi...?",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "{MARLE}: Unbelievable!",
+    "original_fr": "{MARLE} : Nous avons réussi...!",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{LUCCA}: It's finally over.",
+    "original_fr": "{LUCCA} : Nous avons réussi...",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "{ROBO}: Mission accomplished!",
+    "original_fr": "{ROBO} : Nous avons réussi !!",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{FROG}: He is truly slain?",
+    "original_fr": "{FROG} : Nous avons réussi ?!",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "{AYLA}: Lavos lose!\n{AYLA} most strong!",
+    "original_fr": "{AYLA} : {AYLA} vaincre Lavos !\n{AYLA} être plus forte !!",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "{MAGUS}: It is done? Hmm...",
+    "original_fr": "{MAGUS} : Nous avons réussi...?",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{MARLE}: Look, a hole!",
+    "original_fr": "{MARLE} : Nous avons fait un trou !",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "{LUCCA}: Did we make that?",
+    "original_fr": "{LUCCA} : C'est nous qui avons fait ça ?!",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "{ROBO}: Did that hole result from the damage\nwe inflicted?",
+    "original_fr": "{ROBO} : On dirait que nous avons fait un trou...",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "{FROG}: That hole...\nDid we open that?",
+    "original_fr": "{FROG} : Nous avons fait un trou...",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "{AYLA}: Lavos...hole!",
+    "original_fr": "{AYLA} : Trou dans Lavos !",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "{MAGUS}: The carapace is dead.",
+    "original_fr": "{MAGUS} : Nous avons eu raison de son enveloppe\nextérieure...",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "{MARLE}: This couldn't be enough to have\ndone in something so strong!",
+    "original_fr": "{MARLE} : Mais je doute que ça suffise...",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "{LUCCA}: I wish it were over, but I get the\nfeeling it's not.",
+    "original_fr": "{LUCCA} : Je serais heureuse que ce soit maintenant\nfini, mais...",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "{ROBO}: I detect even more powerful life force\nwithin Lavos's shell!",
+    "original_fr": "{ROBO} : Une énergie vitale encore plus puissante\némane de l'intérieur du corps de Lavos !",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "{FROG}: I cannot think this the end of such\na creature.",
+    "original_fr": "{FROG} : Cependant, on dirait que ce n'est pas\nencore fini...",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "{AYLA}: This, Lavos shell.\nInside, still strong!",
+    "original_fr": "{AYLA} : Carapace de Lavos morte, mais intérieur\nencore vivant !",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "{MAGUS}: Be wary!\nThe end is yet far.",
+    "original_fr": "{MAGUS} : Mais il est encore trop tôt pour se\nréjouir...",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "{MARLE}: L-let's go in, then.",
+    "original_fr": "{MARLE} : Allons {TAG:3C} l'intérieur !",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "{LUCCA}: Ugh...\nI guess we don't have a choice.",
+    "original_fr": "{LUCCA} : Nous n'avons pas d'autre choix que d'aller\n{TAG:3C} l'intérieur...",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "{ROBO}: We must enter the interior and destroy\nits core!",
+    "original_fr": "{ROBO} : Nous devons pénétrer {TAG:3C} l'intérieur et\nvaincre le c{TAG:61}ur !",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "{FROG}: These plates are but its armor!\nWhat we need destroy lies within.",
+    "original_fr": "{FROG} : Après tout, cette carapace n'est que son\narmure. Nous devons détruire ce qu'il y a {TAG:3C} l'intérieur !",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "{AYLA}: {AYLA} no lose!",
+    "original_fr": "{AYLA} : {AYLA} continuer !!",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "{MAGUS}: I will sever the wick of your life's\ncandle, Lavos!",
+    "original_fr": "{MAGUS} : Je vais mettre fin {TAG:3C} ton existence,\nLavos...!",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Operator: Tr-Truce!\nDirect impact on Truce!",
+    "original_fr": "Opérateur : Tr... Truce a été touchée de plein fouet !!",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Director: Calm yourself!\nGive me a full status update!",
+    "original_fr": "Directeur : Calmez-vous ! Dans quel état sont les autres\nvilles ?",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Operator: Porre...Choras...Medina!{WAIT_KEY}\nThey've all been destroyed!",
+    "original_fr": "Opérateur : Palpori...! Choras...! Médina...!{WAIT_KEY}\nElles ont toutes été détruites !",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Director: ...",
+    "original_fr": "Directeur : ...",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Operator: Director, we've got incoming!",
+    "original_fr": "Opérateur : Attention ! Nous sommes aussi en danger !",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Director: Evacuate to the shelter dome!",
+    "original_fr": "Directeur : Que tout le personnel se réfugie dans le\ndôme protecteur !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Operator: Director!\nSir, you must come with us!",
+    "original_fr": "Opérateur : Monsieur le directeur ?",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Director: There's no time!\nGet moving!",
+    "original_fr": "Directeur : Il n'y a pas de temps {TAG:3C} perdre !\nDépêchez-vous !",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Operator: Y-yes, sir!",
+    "original_fr": "Opérateur : Â... Â vos ordres !",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Director: ...{WAIT_KEY}\nLavos...",
+    "original_fr": "Directeur : ...{WAIT_KEY}\nLavos...",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "{MARLE}: Eeeek!",
+    "original_fr": "{MARLE} : Aaah !",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{LUCCA}: We're all right, aren't we?!",
+    "original_fr": "{LUCCA} : Tout le monde va bien ?!",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{ROBO}: Unbelievable energy readings!\nIt is as if the total mental energy of all\nhumans who ever lived were being amplified!",
+    "original_fr": "{ROBO} : Je n'ai jamais vu une telle énergie !\nÇa ressemble {TAG:3C} une force mentale humaine\namplifiée {TAG:3C} l'extrême !",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "{FROG}: Wh-what's this?",
+    "original_fr": "{FROG} : Que... Que se passe-t-il ?!",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "{AYLA}: {EPOCH} alive?",
+    "original_fr": "{AYLA} : {EPOCH} être vivant ?",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "{MARLE}: Wow!",
+    "original_fr": "{MARLE} : Incroyable !",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{LUCCA}: Interdimensional travel at warp speed!",
+    "original_fr": "{LUCCA} : Il traverse l'espace dimensionnel {TAG:3C} une\nvitesse phénoménale !",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "{ROBO}: Even in my time, we did not have vehicles\ncapable of time travel!",
+    "original_fr": "{ROBO} : Et dire qu'il n'y avait même pas de\nvéhicules spatio-temporels {TAG:3C} mon époque !",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "{FROG}: Whoa!",
+    "original_fr": "{FROG} : Ouah...!",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "{AYLA}: This great!\nFast, fast!",
+    "original_fr": "{AYLA} : {EPOCH} être très puissant !\n{EPOCH} très rapide !",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "The {EPOCH} is capable of this?",
+    "original_fr": "C'est incroyable...",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "{MARLE}: {CRONO}'s gotta be somewhere!\nI'll find him!",
+    "original_fr": "{MARLE} : {CRONO} doit bien être quelque part !\nJe vais le chercher !!",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{LUCCA}: {CRONO} might be on this island.",
+    "original_fr": "{LUCCA} : Si ça se trouve, {CRONO} s'est\npeut-être aussi retrouvé sur cette ¡le...",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{ROBO}: We should search for {CRONO}.",
+    "original_fr": "{ROBO} : Allons chercher {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "{FROG}: We must find {CRONO}, regardless of\nwhat fate may have befallen him.",
+    "original_fr": "{FROG} : Allons chercher {CRONO}, qu'il soit mort\nou vivant...",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "{AYLA}: Find {CRONO}!\n{CRONO} alive!\n{AYLA} know!",
+    "original_fr": "{AYLA} : {AYLA} chercher {GLYPH:392} !\n{GLYPH:392} toujours en vie !",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{MARLE}: What's that?",
+    "original_fr": "{MARLE} : Qu'est-ce que c'est ?!",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "{LUCCA}: Impossible!\nI'm picking up interference from an enormous Gate!\nCould it be Lavos!?",
+    "original_fr": "{LUCCA} : Un portail énorme ?! Non...\nLavos ?!",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "{ROBO}: The {EPOCH}'s space-time compass has\ngone haywire!",
+    "original_fr": "{ROBO} : Le gyroscope temporel du {EPOCH}\ns'affole !",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "{FROG}: !?",
+    "original_fr": "{FROG} : ?!",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "{MAGUS}: That's...!",
+    "original_fr": "{MAGUS} : C'est...!",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "{MARLE}: It's like it's calling us.",
+    "original_fr": "{MARLE} : On dirait qu'il nous appelle...",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "{LUCCA}: It feels like we're going to get\nsucked in there.",
+    "original_fr": "{LUCCA} : Quelle présence imposante !\nJ'ai l'impression d'être aspirée rien qu'{TAG:3C} le regarder...",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "{ROBO}: It is enormous!\nI detect a tremendous amount of mental energy!",
+    "original_fr": "{ROBO} : Il est gigantesque ! Il s'en dégage une\nimmense quantité d'énergie spirituelle !",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "{FROG}: D-Death's Ferry?\nHas it come for us?",
+    "original_fr": "{FROG} : Cette chose semble sortie tout droit du\nmonde des ténèbres...",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "{AYLA}: {AYLA} no like boat.\nBoat no like {AYLA}!",
+    "original_fr": "{AYLA} : {AYLA} ha¿r chose flottante !\nChose flottante ha¿r {AYLA} et amis !",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "{MAGUS}: The Ocean Palace?\nBut—no!",
+    "original_fr": "{MAGUS} : ... Le sanctuaire sous-marin ?\nC'est impossible...!",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{MAGUS}: We'll break our way through.",
+    "original_fr": "{MAGUS} : Fonçons-lui dedans !",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "{AYLA}: Okay! {EPOCH}, go!",
+    "original_fr": "{AYLA} : Bien ! {EPOCH} continuer !",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "{FROG}: We stand no chance if we face him head on.{WAIT_KEY}\nWe must use the {EPOCH} to breach his armor!",
+    "original_fr": "{FROG} : L'affronter tel quel serait une perte de\ntemps !{WAIT_KEY}\nPourquoi ne pas pénétrer de force {TAG:3C} l'intérieur avec le\n{EPOCH} ?",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "{MARLE}: Let's bust through Lavos's shell with\nthe {EPOCH}!",
+    "original_fr": "{MARLE} : Pénétrons de force {TAG:3C} l'intérieur de Lavos\navec le {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "{ROBO}: We will be unable to damage it from here.{WAIT_KEY}\nWhy do we not penetrate his shell with the {EPOCH}\nand attack from within?",
+    "original_fr": "{ROBO} : Attaquer la carapace de Lavos n'aurait\nque peu d'effet.{WAIT_KEY}\nQue diriez-vous de pénétrer {TAG:3C} l'intérieur avec le\n{EPOCH} pour mieux le combattre ?",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "{LUCCA}: Wonder if we can burst through his\nouter shell with the {EPOCH}?",
+    "original_fr": "{LUCCA} : Je me demande si nous ne pourrions pas\npénétrer en force {TAG:3C} l'intérieur de Lavos {TAG:3C} l'aide du\n{EPOCH}...",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "{LUCCA}: It might destroy the {EPOCH}!\nOf course, there's no telling if we'll make it, either.",
+    "original_fr": "{LUCCA} : Le {EPOCH} pourrait être détruit !\nJe ne sais même pas si nous pourrions survivre\nau choc...",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "{ROBO}: The {EPOCH}'s durability is roughly\nequivalent to that of Lavos's armor, but I cannot\nbe sure that we will withstand the impact.",
+    "original_fr": "{ROBO} : La dureté de la carapace de Lavos est {TAG:3C}\npeu près équivalente {TAG:3C} celle de la coque du {EPOCH},\nmais je ne sais pas si nous pourrions survivre au choc\nde l'impact...",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "{MARLE}: What!?\nThat'll be the end of us all!",
+    "original_fr": "{MARLE} : Hein ?! Si nous nous écrasons sur Lavos,\nnous pourrions tous mourir !",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "{FROG}: Should we err in this, we'll have no\nsecond chance.",
+    "original_fr": "{FROG} : Nous risquerions d'y rester...",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "{AYLA}: That okay!?\n{EPOCH} not die!?",
+    "original_fr": "{AYLA} : Pas dangereux ?! {EPOCH} pas mourir ?!",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "{MAGUS}: Have you even a reason to believe this\nmight succeed?",
+    "original_fr": "{MAGUS} : ätes-vous certains que cela\nfonctionnera ?",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "{MAGUS}: I suppose our odds of defeating him\nin open combat are no greater.",
+    "original_fr": "{MAGUS} : Nous n'avons aucune chance en\ncombattant Lavos directement...",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "{MARLE}: Let's put our trust in the {EPOCH}!",
+    "original_fr": "{MARLE} : Faisons confiance au {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "{LUCCA}: The {EPOCH}'ll get us through.",
+    "original_fr": "{LUCCA} : Le {EPOCH} devrait pouvoir y arriver !",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "{ROBO}: The odds of success are abysmally low.{WAIT_KEY}\nBut perhaps by combining the energy of the\n{EPOCH} with our own...",
+    "original_fr": "{ROBO} : Nos chances de succès sont très faibles...{WAIT_KEY}\nSi nous unissions notre énergie spirituelle {TAG:3C} celle du\n{EPOCH}, alors peut-être...",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "{FROG}: We've no choice!\nIf we're to slay this beast, we must break through!",
+    "original_fr": "{FROG} : Pour vaincre cette créature, nous n'avons\npas d'autre choix que de la combattre de l'intérieur...!",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "{AYLA}: {EPOCH} win!\n{AYLA} win, too!",
+    "original_fr": "{AYLA} : {EPOCH} pas perdre !\n{AYLA} pas perdre non plus !",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "{MAGUS}: Very well.",
+    "original_fr": "{MAGUS} : Très bien...",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "{MARLE}: Please, {EPOCH}!\nDo this for us!",
+    "original_fr": "{MARLE} : Nous comptons sur toi, {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "{LUCCA}: Sorry, {EPOCH}...",
+    "original_fr": "{LUCCA} : Je suis désolée, {EPOCH}...",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "{ROBO}: I am unable to ascertain any other plan\nwith a higher chance of success.",
+    "original_fr": "{ROBO} : Nous n'avons certainement aucune autre\nchance de réussir.",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "{FROG}: Let us cast the dice.",
+    "original_fr": "{FROG} : C'est le tout pour le tout...",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "{AYLA}: Okay!\n{AYLA} try!\n{EPOCH} try, too!!",
+    "original_fr": "{AYLA} : Bien ! {AYLA} faire de son mieux !\n{EPOCH} aussi faire de son mieux !",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "{MARLE}: Hold on tight!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MARLE} : Tenez-vous bien !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "{LUCCA}: We believe in you,\n{EPOCH}!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{LUCCA} : Nous croyons en toi, {EPOCH} !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "{ROBO}: Everyone, please brace for impact!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{ROBO} : Parez-vous au choc de l'impact !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "{FROG}: Cyrus, watch over us!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{FROG} : Veille sur nous, Cyrus !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "{AYLA}: {AYLA} not give up!\n{EPOCH} not give up, too!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{AYLA} : {AYLA} pas perdre !\n{EPOCH} pas perdre non plus !!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{MAGUS}: Your time is nigh, Lavos.{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MAGUS} : Ton heure est proche, Lavos...{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "{MARLE}: All right, everyone!\nLet's do this!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MARLE} : Allons-y !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{LUCCA}: {EPOCH}, don't let\nus down!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{LUCCA} : Nous comptons sur toi, {EPOCH} !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{ROBO}: Here we go!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{ROBO} : En avant, {EPOCH} !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{FROG}: Away, {EPOCH}!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{FROG} : En avant, {EPOCH} !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{AYLA}: {EPOCH}, go!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{AYLA} : {EPOCH} foncer !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "{MAGUS}: I am coming for you, Lavos!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "original_fr": "{MAGUS} : J'arrive, Lavos...!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "{MARLE}: Uhhnnn...",
+    "original_fr": "{MARLE} : Oooh...",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "{LUCCA}: Is...is everyone okay?",
+    "original_fr": "{LUCCA} : Tout le monde va bien ?",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "{ROBO}: ...",
+    "original_fr": "{ROBO} : ...",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "{FROG}: Owwww...",
+    "original_fr": "{FROG} : A¿e...",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "{AYLA}: {AYLA}...alive!",
+    "original_fr": "{AYLA} : {AYLA} survivre...!",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "{MAGUS}: Get up, we've no time to lick our wounds!\nWe're within the beast!",
+    "original_fr": "{MAGUS} : Relevez-vous ! Nous sommes {TAG:3C} l'intérieur...",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "{FROG}: We made it.\nWe beat the odds.",
+    "original_fr": "{FROG} : ... Nous y sommes parvenus.",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "{ROBO}: The {EPOCH} is in pieces.",
+    "original_fr": "{ROBO} : Le {EPOCH}... Il est en morceaux.",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "{MARLE}: Thanks, {EPOCH}.",
+    "original_fr": "{MARLE} : Je te remercie, {EPOCH}...",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "{LUCCA}: I'm sorry, {EPOCH}.",
+    "original_fr": "{LUCCA} : Je suis désolée, {EPOCH}...",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{AYLA}: {EPOCH}...\n{AYLA} proud!",
+    "original_fr": "{AYLA} : {EPOCH} bien se battre !",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "{MAGUS}: There is no turning back now.",
+    "original_fr": "{MAGUS} : ...\nNous ne pouvons plus reculer.",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "{MARLE}: We're in pretty deep.",
+    "original_fr": "{MARLE} : Nous avons pénétré très loin {TAG:3C} l'intérieur...",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "{LUCCA}: We're okay...right?",
+    "original_fr": "{LUCCA} : Tout va bien, n'est-ce pas...?",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{ROBO}: According to my sensors, we are close\nto the core!",
+    "original_fr": "{ROBO} : Je détecte que nous sommes près du\ncentre !",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "{FROG}: This is one dreadful place.\nEven more ghastly than {MAGUS}'s keep...",
+    "original_fr": "{FROG} : Cet endroit me donne encore plus la chair\nde poule que le palais du Magistère...",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "{AYLA}: !{WAIT_KEY}\nLavos smell get strong!",
+    "original_fr": "{AYLA} : !!{WAIT_KEY}\nOdeur de Lavos devenir plus forte !",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "{MARLE}: This must be Lavos!",
+    "original_fr": "{MARLE} : C'est... Lavos !",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "{LUCCA}: This's the real thing!?",
+    "original_fr": "{LUCCA} : Est-ce... sa véritable forme ?!",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "{ROBO}: Amazing...\nIt possesses the DNA of every organism that has\never dwelt on this planet!",
+    "original_fr": "{ROBO} : Je n'arrive pas {TAG:3C} y croire...! Il possède les\ngènes de tous les êtres vivants qui ont existé depuis\nl'apparition de la vie sur la planète !",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "{FROG}: Cyrus...\nStand with me in this battle!",
+    "original_fr": "{FROG} : Combats {TAG:3C} mes côtés, Cyrus...!",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{AYLA}: {AYLA} no lose!",
+    "original_fr": "{AYLA} : {AYLA} pas perdre !!",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "{MAGUS}: At last...\nYou meet your end, Lavos!",
+    "original_fr": "{MAGUS} : Cette fois, je te le promets...\nJe vais en finir avec toi...!",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "{MARLE}: It's...humanoid.{WAIT_KEY}\nCould...could it have acquired the powers\nof every creature on this planet?",
+    "original_fr": "{MARLE} : Il est de forme humano¿de...{WAIT_KEY}\nIl... Serait-il possible qu'il possède la force de tous les\nêtres vivants de la planète...?",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "{LUCCA}: Now I understand.{WAIT_KEY}\nIt lives on a planet for as long as possible,\nselecting the most desirable life forms, allowing\nthem to advance and then harvesting their DNA.{WAIT_KEY}\nThe young it gave birth to on Death Peak must\nhave all of that DNA. Eventually they'll migrate\nto other planets, and repeat the cycle.",
+    "original_fr": "{LUCCA} : J'ai compris quel est son objectif...{WAIT_KEY}\nC'est un parasite. Pendant des millions d'années, il\nchoisit avec soin et accumule les meilleurs éléments\ndes êtres vivants d'une planète...{WAIT_KEY}\nIl engendre ensuite des larves portant ces gènes sur le\nmont des défunts, puis se rend vers une autre planète...",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "{ROBO}: That was Lavos's goal!{WAIT_KEY}\nStoring and analyzing the genetic code of every\ncreature on the planet...{WAIT_KEY}\nHe aimed to use it all to induce self-evolution into\nthe ultimate form of life!",
+    "original_fr": "{ROBO} : C'était donc l'objectif de Lavos...!{WAIT_KEY}\nIl voulait obtenir une copie des gènes de tous les êtres\nvivants de la planète...{WAIT_KEY}\nEt ce, pour pouvoir évoluer lui-même !",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "{FROG}: What manner of evil is this?{WAIT_KEY}\nIt looks to possess the strength of every bird\nand beast ever to have lived upon this earth.\nThat must be the reason it is here!{WAIT_KEY}\nYes! And in its sleep, it hoarded what it\ngleaned from all our progress!",
+    "original_fr": "{FROG} : Qu'est-ce qui se passe...?!{WAIT_KEY}\nUn instant, ne me dites pas qu'il a les pouvoirs de tous\nles êtres vivants...?{WAIT_KEY}\nJe vois ! Il a donc accumulé pendant son sommeil les\ngènes de tous les habitants de la planète...!",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "{MAGUS}: ...{WAIT_KEY}\nSo... Since the dawn of time, it has slept\nunderground, guiding the evolution of this\nplanet's life toward its own foul purpose.",
+    "original_fr": "{MAGUS} : ...{WAIT_KEY}\nIl a dormi sous le sol, faisant sienne l'évolution de tous\nles êtres vivants de cette planète depuis l'aube des\ntemps...",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "{AYLA}: Smell like reptite, dactyl,\nNizbel...{WAIT_KEY}\nSmell like {AYLA}, {GLYPH:386}!\nSmell like everyone!{WAIT_KEY}\nSmell like all thing!\nPerson, beast, all!",
+    "original_fr": "{AYLA} : Lavos être nous ! ätre sauriens,\nptéranodons, Nizbel...!{WAIT_KEY}\nLavos sentir comme {AYLA}, {GLYPH:386}, tous,\ntous...!{WAIT_KEY}\nLavos sentir comme tous êtres vivants de planète !",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "{ROBO}: His offensive capabilities are...{WAIT_KEY}\nIncalculable!\nMy sensors are overheating!",
+    "original_fr": "{ROBO} : Sa puissance d'attaque est...{WAIT_KEY}\nAh, impossible {TAG:3C} mesurer ! Mes capteurs s'affolent !",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "{MARLE}: This thing is the reason we're all here?",
+    "original_fr": "{MARLE} : On aurait vécu pour lui ?!",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "{MAGUS}: We were but sown for him to reap.\nAll of humanity...{WAIT_KEY}\nOr, rather, all life on this planet.",
+    "original_fr": "{MAGUS} : Nous ne sommes, en quelque sorte, qu'une\nmoisson abondante que Lavos a récoltée...{WAIT_KEY}\nTous les êtres humains, non...{WAIT_KEY}\nTous les êtres vivants de cette planète...",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "{LUCCA}: It's a parasite!\nSleeping within the earth all this time,\nstealing all our progress!",
+    "original_fr": "{LUCCA} : Il a utilisé l'évolution des êtres vivants\nde notre planète pendant si longtemps juste en\ndormant ? Quel égo¿ste...!",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{FROG}: Such a vile being...\nWe do not live for your ends!",
+    "original_fr": "{FROG} : Dites-moi que je rêve... Nous ne vivons pas\npour satisfaire tes besoins, Lavos !",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{AYLA}: {AYLA} no run!\nHate lose, hate run more!",
+    "original_fr": "{AYLA} : {AYLA} pas fuir ! {AYLA} détester\nfuir plus que perdre !",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{MARLE}: This planet is our home!\nLeene's, Doan's...everyone's!",
+    "original_fr": "{MARLE} : C'est notre planète !",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "{MARLE}: This planet is our home!",
+    "original_fr": "{MARLE} : C'est notre planète !",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "And we're taking it back!",
+    "original_fr": "La planète de tous les êtres vivants !",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "{LUCCA}: Impossible...",
+    "original_fr": "{LUCCA} : Non...",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "You can't toy with an entire world and think I'll\nlet you get away with it!",
+    "original_fr": "Tu ne t'en tireras pas {TAG:3C} si bon compte !",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "{ROBO}: I was given life by human hands.{WAIT_KEY}\nBut life is life!\nI am no different from {LUCCA} and the others.",
+    "original_fr": "{ROBO} : C'est l'Homme qui m'a créé...{WAIT_KEY}\nNéanmoins, je suis vivant malgré tout !\nComme {LUCCA} et les autres...",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "This planet is my home!",
+    "original_fr": "Je suis un des êtres vivants de cette planète !",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "{FROG}: Murderer...",
+    "original_fr": "{FROG} : Tu as vécu trop longtemps aux dépens des\nhabitants de cette planète...",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "We'll not be used by the likes of you!",
+    "original_fr": "Il est grand temps de payer !",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "{AYLA}: {AYLA} no lose!\nThis {AYLA} home!",
+    "original_fr": "{AYLA} : {AYLA} pas perdre !\nNous être vie de planète !",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "Not Lavos home!\nLavos lose!",
+    "original_fr": "Lavos pas être vie de planète !",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "{MAGUS}: ...{WAIT_KEY}\nAt last, our final meeting...",
+    "original_fr": "{MAGUS} : ...{WAIT_KEY}\nCette fois, je te vaincrai pour de bon...",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "Your life ends here!",
+    "original_fr": "Il y a si longtemps que j'attends ce moment !",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "{GLYPH:384}\nLavos enters attack mode!",
+    "original_fr": "{GLYPH:384}\nLavos entre en mode d'attaque !",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "{GLYPH:384}\nLavos changes attack modes!",
+    "original_fr": "{GLYPH:384}\nLavos change son mode d'attaque !",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "{LUCCA}: Hey, look at the time-space monitor!\nIt looks like something's happening in other ages, too!",
+    "original_fr": "{LUCCA} : Regardez le moniteur spatio-temporel !\nOn dirait que quelque chose se produit aussi aux\nautres époques.",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "{ROBO}: Look at the {EPOCH}'s time-space\nmonitor! There is activity in other ages as well.",
+    "original_fr": "{ROBO} : Regardez le moniteur spatio-temporel du\n{EPOCH} ! On dirait que quelque chose se produit\naussi aux autres époques.",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "{MARLE}: Uh-oh! Look at that screen!\nIt looks like something is happening!",
+    "original_fr": "{MARLE} : Oh, non ! Regardez cet écran ! On dirait\nque quelque chose se produit aussi aux autres\népoques !",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "{AYLA}: Look, look!\nSomething strange!",
+    "original_fr": "{AYLA} : Regarder écran ! îtrange !",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "{FROG}: A vortex has appeared.\nBut why?",
+    "original_fr": "{FROG} : Un vortex est soudainement apparu.\nQue se passe-t-il ?",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "{ROBO}: The space-time balance appears to be\nslipping off its axes.",
+    "original_fr": "{ROBO} : Il semble que l'équilibre du temps\ncommence {TAG:3C} se rompre.",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "{MAGUS}: Is Lavos's hand in this as well?",
+    "original_fr": "{MAGUS} : Est-ce encore une manigance de Lavos ?",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "{AYLA}: {AYLA} not understand.\nThink too much, head go boom.",
+    "original_fr": "{AYLA} : {AYLA} pas comprendre !\nTête de {AYLA} exploser !",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "{MARLE}: What's happening to our world?",
+    "original_fr": "{MARLE} : Qu'arrivera-t-il {TAG:3C} notre monde ?",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "{LUCCA}: We need to hurry and do something about\nLavos!",
+    "original_fr": "{LUCCA} : Nous devons nous occuper de\nLavos au plus vite !",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

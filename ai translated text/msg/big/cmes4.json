@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{MARLE}: Look at this sunlight!\nThis must be the sun's favorite place.",
+    "original_fr": "{MARLE} : Regardez ! C'est comme si le soleil venait\nse nicher dans cette grotte !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{LUCCA}: It's never dark in here.",
+    "original_fr": "{LUCCA} : C'est étrange, on dirait que le soleil brille\nen permanence ici, même la nuit.",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{ROBO}: Sunlight reaches this location\n24 hours per day.",
+    "original_fr": "{ROBO} : C'est donc ici que le soleil brille jour et\nnuit ?",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{FROG}: This must be the spot.\nThe sun's light is warm upon it.",
+    "original_fr": "{FROG} : Ici...? Il fait chaud, c'est certain.",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{AYLA}: Oh, warm!\nGood sun!",
+    "original_fr": "{AYLA} : Oh, faire chaud ! Beaucoup de soleil !",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{MAGUS}: The Sun Shrine...\nIt's said the sun has not set in this place\nsince it first rose.",
+    "original_fr": "{MAGUS} : Le berceau de la lumière... L{TAG:3C} où le soleil ne\ncesse de briller depuis des millénaires...",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Place the Moon Stone here?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous déposer la pierre obscure ici ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{MARLE}: Now, all that's left is a quick\nhop on the {EPOCH}!",
+    "original_fr": "{MARLE} : Il ne reste plus qu'{TAG:3C} faire un bond avec le\n{EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{LUCCA}: Well then, back to the {EPOCH}.",
+    "original_fr": "{LUCCA} : Eh bien, allons voir ce qu'il en est avec le\n{EPOCH}.",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{ROBO}: We should now return to my era\nin the {EPOCH}.",
+    "original_fr": "{ROBO} : Retournons {TAG:3C} mon époque {TAG:3C} bord du\n{EPOCH}.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{FROG}: And...how long must we wait now?",
+    "original_fr": "{FROG} : ...\nCombien de temps devrions-nous la laisser ici ?",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{AYLA}: ...\nNo change yet.",
+    "original_fr": "{AYLA} : ...\nPas changer.",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "{MAGUS}: Come, let us be on our way.",
+    "original_fr": "{MAGUS} : Bien... Partons.",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{LUCCA}: It's gone!\nThe Moon Stone is gone!",
+    "original_fr": "{LUCCA} : Elle n'est plus l{TAG:3C} !\nLa pierre obscure a disparu !",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "It looks like it's been gone for some time.\nLet's try another time period.",
+    "original_fr": "Et on dirait que ça fait très longtemps...\nAllons vérifier {TAG:3C} une autre époque.",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "{LUCCA}: It isn't here either.",
+    "original_fr": "{LUCCA} : Elle n'est pas ici non plus...",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "I wonder if someone from this time period\ntook it?",
+    "original_fr": "Je me demande si quelqu'un de cette époque l'a\nemportée...",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "{MARLE}: It's not here!\nThe Moon Stone is gone!",
+    "original_fr": "{MARLE} : Elle n'est plus l{TAG:3C} !\nLa pierre obscure a disparu !",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "It looks like it's been gone for ages.\nMaybe we should try a different time period.",
+    "original_fr": "Mais on dirait que ça fait très longtemps...\nAllons vérifier {TAG:3C} une autre époque.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "{MARLE}: It's not here, either.",
+    "original_fr": "{MARLE} : Elle n'est pas ici non plus...",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "I wonder if someone from this age took it.",
+    "original_fr": "Je me demande si quelqu'un de cette époque l'a\nemportée...",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{ROBO}: The Moon Stone is no longer here!",
+    "original_fr": "{ROBO} : Elle a disparu ! La pierre obscure n'est\nplus ici !",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "But the evidence indicates it was not taken recently.\nWe should look for it in an earlier era.",
+    "original_fr": "Cependant, il semblerait qu'elle ait disparu il y a\nlongtemps. Retournons {TAG:3C} une autre époque.",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{ROBO}: It does not appear to be here, either.",
+    "original_fr": "{ROBO} : Elle n'a pas l'air d'être ici non plus.",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Perhaps someone from this era has taken it.",
+    "original_fr": "Quelqu'un de cette époque l'aurait-il emportée ?",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "{FROG}: The Moon Stone!\nIt isn't here!",
+    "original_fr": "{FROG} : La pierre obscure...! Elle a disparu !",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Yet it appears it was not taken recently.\nLet us return in time.",
+    "original_fr": "Mais on dirait que ça fait très longtemps...\nAllons vérifier {TAG:3C} une autre époque.",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "{FROG}: Not here, either...",
+    "original_fr": "{FROG} : Elle n'est pas ici non plus...",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Has someone from this time taken it?",
+    "original_fr": "Quelqu'un de cette époque l'aurait-il emportée ?",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{AYLA}: Gone...\nNo rock!",
+    "original_fr": "{AYLA} : ...\nPas ici. Pierre pas ici ?",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "But dust.\nSomeone take long time ago.",
+    "original_fr": "Mais beaucoup poussière... Quelqu'un prendre pierre\navant, très longtemps.",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{AYLA}: Not here, too.",
+    "original_fr": "{AYLA} : Pas ici non plus.",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Someone take!\nWe find!",
+    "original_fr": "Quelqu'un prendre pierre ! Chercher !",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{MAGUS}: ...{WAIT_KEY}\nThe Moon Stone is gone.",
+    "original_fr": "{MAGUS} : ...{WAIT_KEY}\nLa pierre obscure a disparu...",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "...{WAIT_KEY}\nIt seems it's been gone for roughly 1300 years.\nLet us pay a visit to the present.",
+    "original_fr": "...{WAIT_KEY}\nOn dirait qu'elle a disparu depuis des siècles.\nRetournons dans le Présent.",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{MAGUS}: It hasn't been gone for long.\nWe'll search nearby.",
+    "original_fr": "{MAGUS} : Elle était encore ici il n'y a pas si\nlongtemps. Cherchons aux alentours.",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "{LUCCA}: Amazing!\nWith energy like this, I should be able\nto make a really powerful weapon.\nLet's take it back to my house!",
+    "original_fr": "{LUCCA} : Extraordinaire... Avec autant d'énergie,\non pourrait créer une arme très puissante !\nAllons chez moi !",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "{LUCCA}: Now this is a proper Sun Stone!\nWith energy like this, I should be able to\nmake a really powerful weapon.\nLet's take it back to my house!",
+    "original_fr": "{LUCCA} : On dirait vraiment un petit soleil...\nAvec autant d'énergie, on pourrait créer une\narme très puissante ! Allons chez moi !",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{MARLE}: Wow, this is amazing!\nSurely {LUCCA} can put this to good use!\nLet's show it to her!",
+    "original_fr": "{MARLE} : Ouah ! Incroyable ! Je me demande ce\nque {LUCCA} pourrait fabriquer en l'utilisant...\nMontrons-lui la pierre !",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "{ROBO}: My sensors detect high energy levels.\n{LUCCA} will likely be able to use this.\nWe should show it to her.",
+    "original_fr": "{ROBO} : Je détecte une énergie extraordinaire.\n{LUCCA} pourrait peut-être utiliser cette pierre.\nDemandons-lui de se joindre {TAG:3C} nous.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "{FROG}: Unbelievable!\nWhat might {LUCCA} create with it?\nShe must see this!",
+    "original_fr": "{FROG} : Formidable...! {LUCCA} pourrait\npeut-être en faire quelque chose... Pourquoi ne\npas la lui montrer ?",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "{AYLA}: Oh! Nice sun!\n{LUCCA} maybe use?\nBring {LUCCA} here!",
+    "original_fr": "{AYLA} : Ouah ! Petit soleil ! Ah, {LUCCA} pouvoir\npeut-être utiliser pierre ! Appeler {LUCCA} !",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "{MAGUS}: The Sun Stone has regained its luster,\nit seems.{WAIT_KEY}\nBut how might we harness its energy?",
+    "original_fr": "{MAGUS} : La pierre du soleil a retrouvé son éclat...{WAIT_KEY}\nCependant, comment pourrions-nous utiliser son\nénergie ?",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "{ROBO}: I am...familiar with this place.{WAIT_KEY}\nPlease allow me to take the lead.",
+    "original_fr": "{ROBO} : Je connais bien cet endroit.{WAIT_KEY}\nLaissez-moi passer devant.",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Who enters my sanctum unbidden?{WAIT_KEY}\nMy, my... Welcome home, R-66Y!\nOr should I say, Prometheus?\nAnd behind you—fleshlings?{WAIT_KEY}\nI have not seen creatures of flesh for\nmany a day! Let me...welcome them.\nCome—come within! Hee hee hee...",
+    "original_fr": "Qui ose essayer de pénétrer en mon sein sans y être\ninvité ?{WAIT_KEY}\nAh... Tu es rentré, R66-Y...\nOu devrais-je dire, Prométhée ?{WAIT_KEY}\nOh, tu es venu avec des êtres vivants ? Cela fait\nsi longtemps que nous n'avons pas eu leur visite...\nSoyez les bienvenus, entrez. Ho, ho, ho, ho...",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Let's see just what capabilities they possess.",
+    "original_fr": "Montrez-moi ce dont vous êtes capables.",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Not bad...for humans.\nI'll be looking forward to greeting you.",
+    "original_fr": "Vous avez du talent, pour des humains...\nJ'ai si h{TAG:4A}te que vous me rejoigniez...",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Three hundred years ago, the Lavos disaster brought\ndrastic and devastating change to this planet.{WAIT_KEY}\nAt its current rate of decline, humanity is doomed.\nThe disease you call despair already consumes you\nfrom within.",
+    "original_fr": "Le cataclysme causé par Lavos il y a 300 ans changea\nradicalement la face de cette planète.{WAIT_KEY}\nSi la tendance se maintient, la race humaine s'éteindra\nbientôt, son c{TAG:61}ur rongé par les maux du désespoir.",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Do you not realize? Were it not for the existence\nof you creatures, this planet would be at peace!{WAIT_KEY}\nAnd yet you struggle and fight—for what?",
+    "original_fr": "N'avez-vous pas encore compris ? Sans humains, cette\nplanète serait paisible.{WAIT_KEY}\nEt pourtant, vous vous battez ? Â quelle fin ?",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Listen well, flawed and fragile fleshspawn.\nLavos's children will one day return to the\nstars to seek out new planets, new sources\nof sustenance.{WAIT_KEY}\nWhen that day comes, this planet will have its\nchance to heal—so long as there are no humans\nto interfere.{WAIT_KEY}\nWe robots will establish a new world order.\nA unified nation of steel, and pure logic.\nA utopia, free of sadness and suffering.{WAIT_KEY}\nEvolution has chosen us. We are the seeds of\nthe next generation.{WAIT_KEY}\nYour species is obsolete. Cease your foolish\nstruggle, and surrender yourself to the fate\nof all failed creations.",
+    "original_fr": "îcoutez bien, stupides créatures fragiles et\ndéfectueuses que vous êtes...{WAIT_KEY}\nLa progéniture de Lavos retournera un jour ou l'autre\ndans l'espace, en quête d'un nouveau monde {TAG:3C}\nparasiter...{WAIT_KEY}\nLa planète se remettra, {TAG:3C} condition qu'il n'y ait plus\nd'humains...{WAIT_KEY}\nEt ainsi débutera une ère nouvelle, l'ère des robots !\nNous établirons un monde de métal, un monde idéal\noù la haine et la tristesse n'existent pas.{WAIT_KEY}\nNous serons la nouvelle race qui remplacera les humains.{WAIT_KEY}\nCessez de vous battre en vain. Abandonnez et dormez\npour l'éternité...",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "So, you managed to reach me. I am the Mother Brain\nof this R-Y series factory.{WAIT_KEY}\nCome, Prometheus. Allow me to restore your logic.\nI'll reset your circuitry and clear your cache\nof memories.{WAIT_KEY}\nThen we can dispose of those filthy humans together.",
+    "original_fr": "Je vous félicite d'être arrivés jusqu'ici... Je suis\nl'ordinateur principal de l'usine fabriquant la\nsérie R-Y.{WAIT_KEY}\nBienvenue, Prométhée... Laisse-moi t'aider {TAG:3C} retrouver la\nraison.{WAIT_KEY}\nJe vais réinitialiser tes circuits et effacer toute ta\nmémoire.{WAIT_KEY}\nEnsuite, nous nous débarrasserons de ces humains\nimportuns.",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "{ROBO}: ...",
+    "original_fr": "{ROBO} : ...",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "{ROBO}: I must apologize.\nI cannot permit you to do that.{WAIT_KEY}\nMy memories are too valuable to be deallocated,\nand so are my friends.",
+    "original_fr": "{ROBO} : Je regrette, mais il n'est pas question que\nje perde quoi que ce soit d'autre...{WAIT_KEY}\nSurtout pas mes précieux souvenirs et mes amis\nirremplaçables...",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "You would betray me, to side with these humans?\nYou would turn against all of robotkind?",
+    "original_fr": "Tu dis que tu me trahirais pour rester avec ces\nhumains...? Que tu te retournerais contre tes\nsemblables ?",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "{ROBO}: Humans have taught me a great deal.\n{CRONO}, {MARLE}, {LUCCA}, {FROG},\nand {AYLA}...{WAIT_KEY}\nI want to see the future that they bring about.",
+    "original_fr": "{ROBO} : Je veux tenter ma chance avec les\nhumains, avec mes amis... {CRONO}, {MARLE},\n{LUCCA}, {FROG} et {AYLA}...",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Oh, ho ho...{WAIT_KEY}\nAh ha ha...",
+    "original_fr": "Ho, ho...{WAIT_KEY}\nHa, ha, ha, ha...",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Ah ha ha ha ha!\nOh, don't make me laugh, Prometheus!\nThere is no future for the humans!{WAIT_KEY}\nI'll show you just how little hope you have!",
+    "original_fr": "Ha, ha, ha, ha, ha...! Ne sois pas ridicule, Prométhée !\nTu n'as même pas de {TAG:64} chance {TAG:65} {TAG:3C} tenter !{WAIT_KEY}\nLaisse-moi te montrer quel minuscule espoir est le tien !",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "P-Pro...me...theus...\nW-why...?",
+    "original_fr": "Pro... Prométhée...\nPourquoi...?",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "{ROBO}: We can access information on Geno Dome\nvia this terminal.",
+    "original_fr": "{ROBO} : Cet ordinateur peut nous fournir des\ninformations au sujet du dôme.",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Doors.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Conveyor belt.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Sentinels.{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Figurines.{GLYPH:401}",
+    "original_fr": "       {GLYPH:394}Portes{GLYPH:395}\n       {GLYPH:396}Tapis roulant{GLYPH:397}\n       {GLYPH:398}Robots gardiens{GLYPH:399}\n       {GLYPH:400}Poupées{GLYPH:401}",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Take the waste chute back\nto the entrance?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous passer par le vide-ordures et retourner\n{TAG:3C} l'entrée ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "{GLYPH:384}\nObtained Strength Capsule!",
+    "original_fr": "{GLYPH:384}\nVous trouvez une gélule de force !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "{GLYPH:384}\nObtained Magic Capsule!",
+    "original_fr": "{GLYPH:384}\nVous trouvez une gélule de magie !",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{ROBO}: What shall I pull up first?",
+    "original_fr": "{ROBO} : Quel article allons-nous consulter en\npremier ?",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "The energy pods beside locked doors must be charged\nbefore such doors will open.{WAIT_KEY}\nEnergize first, in the pod to your left, and then\nenter the pod next to the locked door.",
+    "original_fr": "Pour ouvrir les portes verrouillées, il faut électriser\nl'alvéole adjacente.{WAIT_KEY}\nPassez d'abord dans l'alvéole électrogène, {TAG:3C} gauche,\npuis entrez dans celle située près de la porte que vous\ndésirez ouvrir.",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "The Sentinels protecting the figurines move to\nthwart the progress of any who approach.\nConsequently, allowing two Sentinels to face one\nanother will cause both to short circuit.{WAIT_KEY}\nIn the unfortunate event that this should occur,\nplease deposit the disabled Sentinels in the\nroom upstairs.",
+    "original_fr": "Les robots gardiens sont programmés pour bloquer\nle passage {TAG:3C} tout intrus tentant de s'approcher des\npoupées.{WAIT_KEY}\nVeillez cependant {TAG:3C} ne jamais en placer deux face {TAG:3C}\nface afin de ne pas les court-circuiter. Les robots\ndétraqués doivent être entreposés {TAG:3C} l'étage.",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "The conveyor belt to the right can be reversed\nby means of the switch located in the room beyond.",
+    "original_fr": "Pour renverser la direction du tapis roulant de droite,\nappuyez sur l'interrupteur situé {TAG:3C} son extrémité nord.",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "The two figurines on this floor are required for\nthose desiring an audience with Mother Brain.\nDo not remove them without permission.",
+    "original_fr": "Les deux poupées situées {TAG:3C} cet étage sont nécessaires\npour obtenir une audience avec Mère. Ne les emportez\npas sans permission.",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{ROBO}: Anything else?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "{ROBO} : Voulez-vous consulter un autre article ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "{ROBO}: It is no use. There are multiple layers\nof protection. Destroying the Mother Brain mainframe\nis our only hope.",
+    "original_fr": "{ROBO} : C'est inutile. Il y a trop de couches de\nprotection... Détruire le cerveau mère est la seule\nsolution...",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "{MARLE}: What's going on in this place?\nWe have to do something!",
+    "original_fr": "{MARLE} : Qu'est-ce que c'est ?!\nNous devons les aider ! Vite !",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "{LUCCA}: Wh-what in the world?\nWe have to save them!",
+    "original_fr": "{LUCCA} : Qu'est-ce que qui se passe ici ?!\nNous devons les aider !!",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{FROG}: What will be done to those people?\nWe must aid them!",
+    "original_fr": "{FROG} : Qu'est-ce que c'est ?!\nAidons-les !",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "{AYLA}: Person!\nPerson there!\nWe help!",
+    "original_fr": "{AYLA} : !!\nHumains ! Aider humains !",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "{MAGUS}: Hmm...\nA human processing plant?",
+    "original_fr": "{MAGUS} : Hum...\nSerait-ce donc une usine de traitement d'humains ?",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "{ROBO}: I will stop the machines!",
+    "original_fr": "{ROBO} : Arrêtons la machine !",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "{MARLE}: Aaah!",
+    "original_fr": "{MARLE} : Aah !",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "{LUCCA}: Aack!",
+    "original_fr": "{LUCCA} : Aah !",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{FROG}: Urgh!",
+    "original_fr": "{FROG} : Ah !",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{AYLA}: Eek!",
+    "original_fr": "{AYLA} : !!",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "{ROBO}: All factory operations have been\npermanently taken offline. None of the machines\nhere will...will ever be reactivated.",
+    "original_fr": "{ROBO} : Tous les systèmes de cette usine... sont\nhors ligne...{WAIT_KEY}\nIls ne se remettront plus jamais en marche.",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "{MARLE}: {ROBO}...",
+    "original_fr": "{MARLE} : {ROBO}...",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{LUCCA}: {ROBO}...",
+    "original_fr": "{LUCCA} : {ROBO}...",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "{FROG}: {ROBO}...",
+    "original_fr": "{FROG} : {ROBO}...",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "{AYLA}: {ROBO}?",
+    "original_fr": "{AYLA} : {ROBO} ?",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "{MAGUS}: Hmph. Let's be on our way.",
+    "original_fr": "{MAGUS} : Hum, partons !",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "{ROBO}: All right... Let us continue!",
+    "original_fr": "{ROBO} : Allons-y...!",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Robot: Welcome home, Prometheus.",
+    "original_fr": "Andro¿de : Bienvenue, Prométhée.",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "{ROBO}: ...Atropos?",
+    "original_fr": "{ROBO} : ...\nAtropos...?",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Atropos: Yes. It's been some time, hasn't it?\nCome and join me! There's no need to pretend\nyou're on their side anymore.",
+    "original_fr": "Atropos : Oui, il y a longtemps que nous ne nous sommes\nvus, Prométhée.{WAIT_KEY}\nViens me rejoindre. Plus besoin de faire semblant.",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "{MARLE}: Pretend?",
+    "original_fr": "{MARLE} : Faire semblant ?",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "{LUCCA}: Pretend?",
+    "original_fr": "{LUCCA} : Faire semblant ?",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "{FROG}: This has been a guise?",
+    "original_fr": "{FROG} : Faire semblant ?",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{AYLA}: ?",
+    "original_fr": "{AYLA} : ??",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "{MAGUS}: ...",
+    "original_fr": "{MAGUS} : ...",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Atropos: Hee hee...\nUnlike the other R-series units,\nPrometheus was given a special task.{WAIT_KEY}\nTo live with humans and study them as a species...",
+    "original_fr": "Atropos : Hi, hi... Contrairement aux autres robots de la\nsérie R, Prométhée avait une mission spéciale.{WAIT_KEY}\nCelle d'interagir avec les humains pour étudier leurs\ncaractéristiques.",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "{MARLE}: No...",
+    "original_fr": "{MARLE} : Tu mens...",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "{LUCCA}: That's a lie!",
+    "original_fr": "{LUCCA} : Ce n'est pas vrai !",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "{FROG}: You speak false!",
+    "original_fr": "{FROG} : Impossible...",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "{AYLA}: What you say?\n{AYLA} not understand.",
+    "original_fr": "{AYLA} : Atropos dire quoi ? {AYLA} pas\ncomprendre.",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "{MAGUS}: Indeed...",
+    "original_fr": "{MAGUS} : Hum...",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Atropos: It's no lie.{WAIT_KEY}\nTell them, Prometheus.",
+    "original_fr": "Atropos : Je ne mens pas.{WAIT_KEY}\nDis-leur, Prométhée...",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "{ROBO}: ...",
+    "original_fr": "{ROBO} : ...",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Atropos: Step aside, now, Prometheus.\nWe'll eliminate these humans and go see Mother.",
+    "original_fr": "Atropos : Allez, écarte-toi, Prométhée. Quand j'aurai\néliminé ces humains, nous irons ensemble rencontrer\nMère.",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "{AYLA}: ...",
+    "original_fr": "{AYLA} : ...",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Atropos: What are you doing, Prometheus?",
+    "original_fr": "Atropos : Que fais-tu, Prométhée ?",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "{ROBO}: I will not allow you to hurt them!",
+    "original_fr": "{ROBO} : Je ne te permettrai pas de leur faire du\nmal !",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Atropos: You have been damaged, then.\nThey must have tampered with you.\nI'll destroy them, and then I can fix you.",
+    "original_fr": "Atropos : ...\nTu es en effet défectueux. Seraient-ils la source de\nta défaillance ? Je vais les exterminer sans tarder et\nensuite je vais te réparer.",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "{ROBO}: Atropos...you have changed.\nYou are not the robot I knew before.",
+    "original_fr": "{ROBO} : Atropos... Tu n'es pas l'Atropos que j'ai\nconnue...",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Atropos: No, I've been upgraded.\nMother remade me to eliminate humans\nmore efficiently!{WAIT_KEY}\nStep aside, Prometheus!",
+    "original_fr": "Atropos : C'est exact, j'ai eu une mise {TAG:3C} jour !\nGr{TAG:4A}ce {TAG:3C} Mère, je peux éliminer les humains\nplus facilement !{WAIT_KEY}\nîcarte-toi, Prométhée !",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "{ROBO}: My name is {ROBO}.",
+    "original_fr": "{ROBO} : Je m'appelle {ROBO}.",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Atropos: Prometheus!",
+    "original_fr": "Atropos : Prométhée !!",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "{ROBO}: Please, wait!{WAIT_KEY}\nStand back and leave this to me.",
+    "original_fr": "{ROBO} : Attendez...\nJe vous en prie.{WAIT_KEY}\nLaissez-moi m'en occuper seul.",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "System down...\nDeleting program...",
+    "original_fr": "Système hors ligne...\nEffacement du programme...",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Atropos: Pro...Prometheus?\nIt's been...some time...hasn't it?",
+    "original_fr": "Atropos : Pro... Prométhée...?\nCela fait... si longtemps...!",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "{ROBO}: Atropos?",
+    "original_fr": "{ROBO} : Atropos...?",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Atropos: I'm...damaged?\nWhat...happened?",
+    "original_fr": "Atropos : Oh...? Pourquoi... suis-je endommagée...?",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "{ROBO}: Atropos!",
+    "original_fr": "{ROBO} : Atropos !!",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "Atropos: My memory banks...{WAIT_KEY}\nI must have—yes, when...when Mother\noverwrote my...old programs...",
+    "original_fr": "Atropos : ...\nMa mémoire...{WAIT_KEY}\nLorsque j'ai été reprogrammée par Mère...",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "I...I backed up my memory.\nI'm sorry...Prometheus...",
+    "original_fr": "J'ai réussi {TAG:3C} sauvegarder une partie de ma mémoire...{WAIT_KEY}\nJe suis désolée... Prométhée...",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "{LUCCA}: Save your energy!\nI'll repair—",
+    "original_fr": "{LUCCA} : Ne parle pas !\nJe vais te réparer...",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "Atropos: You...cannot.\nCore systems...failing.\nPower to...to memory banks, critical.",
+    "original_fr": "Atropos : Impossible... Mes fonctions sont presque déj{TAG:3C}\ntoutes... Ma mémoire...",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{ROBO}: Atropos...",
+    "original_fr": "{ROBO} : Atropos...!",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Atropos: I want you...to have this.\nYou can...plug it...into your circuits.\nPlease...take care...of it.\nGood...bye... Pro...metheus...",
+    "original_fr": "Atropos : Tiens... Tu pourras... l'intégrer {TAG:3C} tes circuits...\nPrends-en... soin...{WAIT_KEY}\nAdieu... Pro... méthée...",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{GLYPH:384}\nAtropos's Ribbon raises {ROBO}'s\nSpeed by 3 and Magic Defense by 10.",
+    "original_fr": "{GLYPH:384}Gr{TAG:4A}ce au ruban d'Atropos la rapidité de\n{ROBO} augmente de trois points\net sa défense magique de dix points.",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{GLYPH:384}\nAll systems have been deactivated.",
+    "original_fr": "{GLYPH:384}\nTous les systèmes sont hors ligne...",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{GLYPH:384}\nObtained Teraton Arm and Crisis Arm!",
+    "original_fr": "{GLYPH:384}\nVous obtenez le bras tératonne et le bras critique !",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{GLYPH:384}\nObtained Speed Capsule!",
+    "original_fr": "{GLYPH:384}\nVous trouvez une gélule de rapidité !",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

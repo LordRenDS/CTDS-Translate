@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nTrouvé : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{GLYPH:384}\nThe pendant begins to glow.",
+    "original_fr": "{GLYPH:384}\nLe pendentif se met {TAG:3C} briller !",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{MARLE}: Eek!",
+    "original_fr": "{MARLE} : Aaah !",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{LUCCA}: Oww...",
+    "original_fr": "{LUCCA} : A¿e...",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{MARLE}: There's no way the Chancellor can get\nus here.",
+    "original_fr": "{MARLE} : Le chancelier ne pourra jamais nous suivre\njusqu'ici.",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{MARLE}: But, where are we?",
+    "original_fr": "{MARLE} : Mais où sommes-nous... exactement ?",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{LUCCA}: The civilization here seems pretty\nadvanced.",
+    "original_fr": "{LUCCA} : Cette civilisation a l'air très avancée,\nmais...",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{MARLE}: It almost looks like we're in another world.",
+    "original_fr": "{MARLE} : C'est comme si on était arrivés sur une\nautre planète.",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{GLYPH:384}\nA curious crest is engraved here,\nand a mysterious force seals it shut.",
+    "original_fr": "{GLYPH:384}La porte est gravée d'un emblème et scellée\npar une force mystérieuse.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "If you're looking for food, you won't find any here.",
+    "original_fr": "Si c'est de la nourriture que vous cherchez, il n'y en a\npas...",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "It's strange. Looking at that thing makes me want to\nkeep on living.",
+    "original_fr": "Quand je regarde cette chose, j'ai une étrange envie de\nsurvivre.",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Truce? Never heard of a dome by that name.\nThis is Trann Dome.",
+    "original_fr": "Truce ? Je n'ai jamais entendu parler de dôme de ce\nnom. Ici, c'est le dôme de Trann.",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "What's this?{WAIT_KEY}\nA plant, you say?\nWhat's a plant?",
+    "original_fr": "Qu'est-ce que c'est ?{WAIT_KEY}\nUne plante ? C'est quoi une plante ?",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Kingdom? Chancellor?\nHas the hunger driven you mad?",
+    "original_fr": "Le calendrier du royaume ? Qu'est-ce que vous voulez\ndire par l{TAG:3C}...?",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "I've never seen a thing like this before.",
+    "original_fr": "C'est la première fois que je vois quelque chose de ce\ngenre.",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "There should still be some food at Arris Dome to\nthe northeast, if you can get through Site 16 alive.{WAIT_KEY}\nThe specters that haunt the place can't be harmed\nby weapons, like guns or blades.",
+    "original_fr": "Il para¡t qu'on pourrait obtenir de la nourriture en\nallant au dôme d'Arris, au nord-est d'ici. Cependant,\nil faudrait d'abord traverser les ruines nÎ 16...{WAIT_KEY}\nCertaines des créatures qui y vivent ne peuvent pas\nêtre éliminées avec des attaques physiques...",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "So, there are still people in Arris Dome, too!",
+    "original_fr": "Il y avait donc aussi des gens dans le dôme d'Arris !",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "This is an Enertron.\nYou get a full night's sleep in a few seconds,\nbut it won't do a thing for your hunger.",
+    "original_fr": "Cette machine est un énergiseur. Elle permet de\nprendre une nuit de repos en quelques instants,\nmais elle n'assouvit pas la faim.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "That thing edible?",
+    "original_fr": "Ça se mange...?",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "*wheeze*... *pant*...{WAIT_KEY}\nI made it through the ruins with a cutting from\nthe sapling that grew from that seed.{WAIT_KEY}\nAmazing what you can do when you think you're\ndead anyway.",
+    "original_fr": "Ouf, ouf...{WAIT_KEY}\nJe suis parvenu {TAG:3C} traverser les ruines en transportant\nle jeune arbre qui a poussé des graines. C'est fou ce\nqu'on peut accomplir quand on est prêt {TAG:3C} mourir...",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Rest in the Enertron?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous reposer dans l'énergiseur ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{GLYPH:384}\nHP and MP restored!",
+    "original_fr": "{GLYPH:384}\nRégénération des PV et des PM !",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{GLYPH:384}\nBut you're still just as hungry as before.",
+    "original_fr": "{GLYPH:384}\nMais ça ne remplit pas l'estomac !",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Old Man: You there, where have you come from?",
+    "original_fr": "Vieil homme : D'où sortez-vous...?",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "{LUCCA}: We just came from the other side of the\nruins to the west.",
+    "original_fr": "{LUCCA} : Nous avons traversé les ruines {TAG:3C} l'ouest\nd'ici.",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Old Man: Wh-what did you say?",
+    "original_fr": "Vieil homme : Comment ?!",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Old Man: Hey, we've got people who crossed the ruins!",
+    "original_fr": "Vieil homme : Hé, écoutez tous ! Ils ont traversé les\nruines !",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "What?",
+    "original_fr": "Hein ?",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Are you serious?",
+    "original_fr": "Vraiment ?!",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Old Man: So there are people strong enough to fight\nthose mutants...",
+    "original_fr": "Vieil homme : Il y a donc des gens capables de vaincre\nces mutants...",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Old Man: Pardon me, I didn't even tell you my name.\nI'm Doan, a descendant of the former director of this\ninformation center—in the days when it still was one.{WAIT_KEY}\nThis dome's substructure holds a supercomputer and\na food storage facility. But the robot guards are still\nactive and will not let us through.{WAIT_KEY}\nIronic, is it not?\nWe starve right atop our own stores of food.",
+    "original_fr": "Vieil homme : Je m'appelle Don. Désolé de ne pas m'être\nprésenté plus tôt. Je suis un descendant du directeur\nde cet ancien centre d'information.{WAIT_KEY}\nDans le sous-sol de ce dôme, vous trouverez entre\nautres un ordinateur {TAG:3C} grande capacité et un entrepôt\nde provisions.{WAIT_KEY}\nMalheureusement, le robot gardien est toujours actif et\nnous ne pouvons pas nous en approcher. Quelle ironie...",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Doan: You plan to go below?",
+    "original_fr": "Don : Vous comptez aller au sous-sol ?",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{MARLE}: Of course!",
+    "original_fr": "{MARLE} : Mais bien s{TAG:63}r !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Doan: We've made many attempts ourselves,\nbut they've always met with failure.",
+    "original_fr": "Don : Nous avons essayé plusieurs fois d'atteindre\nl'entrepôt de provisions, mais nous n'y sommes\njamais parvenus.",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{LUCCA}: Well, there's no way of knowing\nwhat'll happen unless we try, right?",
+    "original_fr": "{LUCCA} : On ne saura pas sans essayer\nnous-mêmes, non ?",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Doan: Hmm.{WAIT_KEY}\nIt's nice to see such spirited young people for a\nchange.",
+    "original_fr": "Don : ...{WAIT_KEY}\nIl y a longtemps que je n'ai pas vu de jeunes gens si\npleins de vie.",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Doan: Careful, then.\nAnd come back alive.",
+    "original_fr": "Don : Soyez prudents et revenez vivants.",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Doan: Oh, it's you!\nLook! The seed's sprouted!",
+    "original_fr": "Don : Oh, regardez ! Les graines ont germé !",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "The door with the crest?\nPush it, pull it, bash it—the thing won't budge.",
+    "original_fr": "Les portes avec un emblème ? Qu'on pousse ou qu'on\ntire, elles ne veulent pas s'ouvrir. On n'arrive même\npas {TAG:3C} les endommager.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Proto Dome and an old abandoned factory site lie to\nthe east. We can't get near them, though. The places\nare filled with robots running berserk.",
+    "original_fr": "Â l'est d'ici, il y a le dôme de Prométhée et une usine\ndésaffectée. Ces endroits fourmillent de robots\ndétraqués, alors on ne peut pas s'en approcher.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Since you've come, everyone seems to\nhave regained their will to survive.\nIt appears your energy is contagious.",
+    "original_fr": "Depuis votre venue, on dirait qu'une énergie nous\ndonnant le go{TAG:63}t de vivre nous envahit. Serait-ce\nce qu'on appelle {TAG:64} être joyeux {TAG:65} ?",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "You can reach the continent to the south through\nthe sewers, but I wouldn't advise it. That's where\nDeath Peak sits—the source of all this devastation.{WAIT_KEY}\nAnd besides, even someone as strong as you would\nnever stand a chance against the mutants that live\ndown in those sewers.",
+    "original_fr": "Je vous déconseille d'aller sur l'autre continent : c'est\nl{TAG:3C} que se trouve le mont des défunts, la source du\ncataclysme...{WAIT_KEY}\nDe toute façon, il faudrait pour ça que vous traversiez\nl'égout, et vous n'êtes probablement pas de taille\ncontre les puissants mutants qui y vivent...",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "There's an old man living in a dome he built near\nDeath Peak—said he wanted to monitor it.\nTalk about crackpots!",
+    "original_fr": "Un curieux vieillard a construit un dôme près du mont\ndes défunts pour mieux le surveiller.",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "There's something odd about you.\nDid you really come from the dome to the west?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Il y a quelque chose d'étrange chez vous... ätes-vous\nvraiment venus du dôme de l'ouest...?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "All right...\nNot that it really matters.",
+    "original_fr": "Je vois... Peu m'importe, après tout...",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Huh? A rift in...time?\nWell, I can't help you, but if you can get the\nsupercomputer in the substructure running, you\nmight be able to find some helpful information.",
+    "original_fr": "Hein ? Une distorsion temporelle ? De quoi parlez-vous...?\nBah, en faisant fonctionner l'ordinateur du sous-sol,\nvous pourriez peut-être trouver plus d'informations...",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Thank you.\nYou've filled me with hope.",
+    "original_fr": "Je vous remercie... Quand je vous vois, je retrouve\nl'espoir de vivre.",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Wonder what kind of fruit that thing will bear.",
+    "original_fr": "Je me demande quelle sorte de fruits il va donner...",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Daddy's gonna be back with some food soon.",
+    "original_fr": "Papa va bientôt nous rapporter de la nourriture.",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Mommy said Daddy's somewhere far away now.",
+    "original_fr": "Maman dit que papa est parti très loin.",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "My husband left for the food storage facility down\nbelow.{WAIT_KEY}\nWe haven't seen him since.",
+    "original_fr": "Mon mari est descendu au sous-sol pour essayer de\ntrouver l'entrepôt de provisions...{WAIT_KEY}\nOn ne l'a pas revu depuis...",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Don't worry, I won't give up.\nI have this child to raise, and that sapling.",
+    "original_fr": "Je n'abandonnerai pas. Je vais élever mon enfant, ainsi\nque cette plante...",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Who are you?",
+    "original_fr": "Qui êtes-vous...?",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Hey!\nYou're back!",
+    "original_fr": "Oh ! Vous êtes de retour !",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Hey!\nYou're back!",
+    "original_fr": "Oh ! Vous êtes de retour !",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "{LUCCA}: This must be the supercomputer!",
+    "original_fr": "{LUCCA} : Voil{TAG:3C} le centre d'information !",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "{LUCCA}: Good! It's still operational!\nIf we run a search on temporal distortions,\nwe might just find our Gate!",
+    "original_fr": "{LUCCA} : Génial ! L'ordinateur est encore en état de\nmarche ! En faisant une recherche sur les distorsions,\nnous trouverons peut-être l'emplacement d'un portail !",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "{LUCCA}: Got it!",
+    "original_fr": "{LUCCA} : Voil{TAG:3C} !",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "{LUCCA}: East of here...",
+    "original_fr": "{LUCCA} : Â l'est du dôme d'Arris, où nous sommes\nmaintenant...",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "{LUCCA}: There!\nProto Dome!",
+    "original_fr": "{LUCCA} : Le dôme de Prométhée !",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "{MARLE}: Leave it to {LUCCA}!\nWho'd have thought this machine could\ntell us something like that?",
+    "original_fr": "{MARLE} : Bravo, {LUCCA} ! C'est {TAG:3C} croire que\ncette machine a réponse {TAG:3C} tout !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "{MARLE}: Say, what does this button do?",
+    "original_fr": "{MARLE} : Que pourrions-nous apprendre en\nappuyant sur ce bouton...?",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{LUCCA}: 1999 A.D.?\nVisual record of the Day of Lavos...",
+    "original_fr": "{LUCCA} : L'an 1999 ?\nArchives du {TAG:64} Jour de Lavos {TAG:65}...?",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "{MARLE}: What...what was that?",
+    "original_fr": "{MARLE} : Qu'est-ce...{WAIT_KEY}\nQu'est-ce que c'est...?",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "{LUCCA}: Lavos...\nIs that what destroyed the world?",
+    "original_fr": "{LUCCA} : La... Lavos...? C'est le cataclysme qui a\ndétruit notre monde ?",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "{MARLE}: Then, this really is our future?",
+    "original_fr": "{MARLE} : Donc ceci est vraiment notre avenir ?!",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{MARLE}: No! It can't be!\nI won't believe it!",
+    "original_fr": "{MARLE} : C'est horrible ! Horrible !\nC'est impossible !",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{MARLE}: This...",
+    "original_fr": "{MARLE} : Comment...",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "{MARLE}: This can't be the way the world ends...",
+    "original_fr": "{MARLE} : Comment cet endroit peut-il être notre\navenir...?",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "{LUCCA}: ...",
+    "original_fr": "{LUCCA} : ...",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "{MARLE}: {CRONO}...",
+    "original_fr": "{MARLE} : {CRONO}...",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{MARLE}: Hey, that's right! We can change it!\nChange history, just like {CRONO} did when he\nsaved me! We have to!",
+    "original_fr": "{MARLE} : J'ai une idée ! Changeons le Futur !\nComme quand {CRONO} m'a sauvée !",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "{MARLE}: Right, {LUCCA}?",
+    "original_fr": "{MARLE} : Hein, {LUCCA} ?",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "{MARLE}: Right, {CRONO}!?",
+    "original_fr": "{MARLE} : {CRONO} ?",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "{LUCCA}: Yeah, I guess so.",
+    "original_fr": "{LUCCA} : Hum...",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "{LUCCA}: We can't just go back to our own\ntime and live knowing this is what the future\nhas in store.",
+    "original_fr": "{LUCCA} : Nous ne pouvons pas retourner {TAG:3C} notre\népoque et vivre dans l'insouciance, comme si rien\nne s'était passé.",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "{LUCCA}: And fortunately, we've got Gates\nthat will let us move through time.\n",
+    "original_fr": "{LUCCA} : Heureusement, les portails nous\npermettent de passer d'une époque {TAG:3C} l'autre.",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{LUCCA}: What do you say, {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Okay, let's do it!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No way.{GLYPH:397}",
+    "original_fr": "{LUCCA} : Qu'en dis-tu, {CRONO} ?\n       {GLYPH:394}Oui, changeons le Futur !{GLYPH:395}\n       {GLYPH:396}Mais...{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{LUCCA}: Come on, dummy!\nShow {MARLE} what you're made of!",
+    "original_fr": "{LUCCA} : Tu n'es qu'un idiot. Sois au moins plus\nvaillant devant {MARLE} !",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "{MARLE}: All right, it's set!\n{CRONO}! {LUCCA}!\nLet's do this!",
+    "original_fr": "{MARLE} : Allons-y, {CRONO} ! {LUCCA} !",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "{LUCCA}: First things first, let's get back to\nour own time period and see if we can find any\ninformation about this Lavos!",
+    "original_fr": "{LUCCA} : Dépêchons-nous de retourner {TAG:3C} notre\népoque pour faire des recherches sur Lavos !",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{LUCCA}: Next stop, Proto Dome!",
+    "original_fr": "{LUCCA} : En route pour le dôme de Prométhée !",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Doan: You...you're back!",
+    "original_fr": "Don : Vous... Vous êtes de retour !",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Doan: And?\nWhat did you discover?",
+    "original_fr": "Don : Qu'avez-vous découvert ?",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "{MARLE}: This is...our future!",
+    "original_fr": "{MARLE} : Cet endroit... est notre avenir !",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Doan: Hmm?",
+    "original_fr": "Don : ?",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Man: Who cares? Where's the food!?",
+    "original_fr": "Homme : Peu importe ! Et l'entrepôt de provisions ?!",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "{MARLE}: This was the only thing left.",
+    "original_fr": "{MARLE} : Il ne restait plus que ça...",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Doan: A seed...",
+    "original_fr": "Don : Des graines...?",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "{LUCCA}: You don't know how long that Enertron'll\nhold out. That seed might be your only hope.",
+    "original_fr": "{LUCCA} : Qui sait pour combien de temps encore\nl'énergiseur fonctionnera ? Plantez ces graines,\nd'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "{MARLE}: Anyway, just...stay alive!\nDon't give up! We won't either!",
+    "original_fr": "{MARLE} : En tout cas, vivez ! Faites de votre mieux !\nNous allons essayer de faire la même chose, nous\naussi !",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Doan: Hmm...{WAIT_KEY}\nYou're a strange bunch.\nYou're...different from us, somehow.",
+    "original_fr": "Don : Hum...{WAIT_KEY}\nVous êtes bien étranges. Différents de nous, pour une\nraison ou une autre...",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{MARLE}: You mean because we haven't lost hope?",
+    "original_fr": "{MARLE} : Nous sommes peut-être un peu plus joyeux\nque vous.",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Doan: Hope...\nThere's a word I haven't heard in some time.\nIt does have a comforting ring to it, though.{WAIT_KEY}\nI don't know what kind of seed this is,\nbut I'll do my best to grow it.",
+    "original_fr": "Don : Joyeux ? Je n'ai jamais entendu ce mot, mais il est\nagréable {TAG:3C} l'oreille...{WAIT_KEY}\nJe ne sais pas quelle sorte de graines elles sont, mais\nnous les planterons pour voir.",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Child: What's that?",
+    "original_fr": "Enfant : C'est quoi ?",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Doan: This may be just the thing we needed.",
+    "original_fr": "Don : Elles sont peut-être ce dont nous avions besoin.",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Doan: You're off to Proto Dome, then?\nYou'll need to pass through Site 32.\nTake this with you.",
+    "original_fr": "Don : Vous allez au dôme de Prométhée ? Si vous\ncomptez traverser les ruines nÎ 32, prenez ceci.",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Doan: It's the key to a jetbike parked at the Site 32\nruins.{WAIT_KEY}\nI used to ride it when I was young.\nHopefully it still works.",
+    "original_fr": "Don : C'est la clef de la moto que j'utilisais quand j'étais\njeune. Je l'ai laissée {TAG:3C} l'entrée des ruines. J'espère\nqu'elle fonctionne toujours...",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Doan: They've got even more powerful robots\nin that dome, and they've overrun the place.\nTake care, and...don't give up hope!",
+    "original_fr": "Don : Les robots détraqués au-del{TAG:3C} des ruines nÎ 32\nsont beaucoup plus puissants qu'ici. Bonne chance...",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "So my husband, he's...gone.{WAIT_KEY}\nBut he left me precious gifts.\nThat seed...and our child.",
+    "original_fr": "Alors mon mari est...{WAIT_KEY}\nIl m'a laissé quelque chose de précieux : ces graines\net... cet enfant.",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Why's Daddy taking so long?",
+    "original_fr": "Quand est-ce qu'il va revenir, mon papa ?",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "{ROBO}: Where are we?",
+    "original_fr": "{ROBO} : Où sommes-nous ?",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Old Man: Ah, more drifters...",
+    "original_fr": "Vieil homme : Tiens, encore des visiteurs...",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "{MARLE}: Where...where are we?",
+    "original_fr": "{MARLE} : Euh, où sommes-nous ?",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "{LUCCA}: \"Drifters\"?\nWhere are we?",
+    "original_fr": "{LUCCA} : Des visiteurs...?\nEuh, où sommes-nous ?",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Old Man: It is not a question of where, my friends,\nso much as when. This is the End of Time.{WAIT_KEY}\nTravelers lost in time's flow turn up\nhere, much like driftwood on a beach.\nMight I ask when you are from?",
+    "original_fr": "Vieil homme : Cet endroit est la Fin des temps...{WAIT_KEY}\nC'est ici qu'aboutissent ceux qui se perdent dans la\nrivière du temps. D'où venez-vous ?",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "{LUCCA}: We're from 1000 A.D.",
+    "original_fr": "{LUCCA} : Nous sommes de l'an 1000, selon le\ncalendrier du royaume de Gardia.",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "{ROBO}: I come from the year 2300 A.D.",
+    "original_fr": "{ROBO} : Et moi, je viens de l'an 2300.",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Old Man: When four or more entities of varying\norigins enter a temporal rift together, the\ntorsion exerted on time's flow pushes them to\nthe point of least resistance: here.{WAIT_KEY}\nThere have been a number of folks turning up\nhere unintended recently like yourselves. I fear\nsomething is having a powerful effect on the\nvery fabric of time.",
+    "original_fr": "Vieil homme : Quand plus de trois personnes provenant\nd'époques différentes pénètrent dans une distorsion\nspatio-temporelle, le continuum espace-temps se tord...{WAIT_KEY}\nToutefois, il y a beaucoup de ces distorsions depuis\nquelque temps. Des gens apparaissent ici {TAG:3C} l'improviste,\ncomme vous...{WAIT_KEY}\nIl y a peut-être quelque chose qui influe sur la trame\ntout entière du temps...",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "{LUCCA}: Which means it would be safest if one of\nus stayed here.",
+    "original_fr": "{LUCCA} : Ce qui veut dire qu'il serait plus prudent\nque l'un de nous reste ici.",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "{MARLE}: Here? Alone?",
+    "original_fr": "{MARLE} : Quoi, quelqu'un devra rester dans un\nendroit pareil ?",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Old Man: It is a bleak place, isn't it?{WAIT_KEY}\nBut not to worry. For all its desolation,\nit is well connected. There are roads here\nto any time you could ever wish to visit.{WAIT_KEY}\nShould you so desire, you can call upon your\nfriends at any time. But you can never travel\nin groups of more than three.",
+    "original_fr": "Vieil homme : Hum, je dois admettre que cet endroit n'est\nen effet pas très accueillant...{WAIT_KEY}\nVous n'avez pas {TAG:3C} vous inquiéter. D'ici, vous pouvez\naccéder {TAG:3C} toutes les époques...{WAIT_KEY}\nEn cas de besoin, faites appel {TAG:3C} vos compagnons.\nCependant, les voyages temporels sont très instables.{WAIT_KEY}\nVous devriez toujours agir en groupe de trois\npersonnes au plus.",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "{ROBO}: One of us must remain.",
+    "original_fr": "{ROBO} : Alors, quelqu'un doit demeurer ici.",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "{LUCCA}: Who'll it be, {CRONO}?",
+    "original_fr": "{LUCCA} : Qui restera ici, {CRONO} ?",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "{MARLE}: Don't leave me here for long, {CRONO}!",
+    "original_fr": "{MARLE} : Ne me laisse pas ici trop longtemps,\n{CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "{LUCCA}: Don't you go getting any ideas because\nit's just the two of us, mister!",
+    "original_fr": "{LUCCA} : Ne te fais pas des idées parce que nous\nrestons seuls tous les deux, vieil homme !",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "{ROBO}: I will be happy to assist you again\nwhenever you have the need.",
+    "original_fr": "{ROBO} : Faites appel {TAG:3C} moi quand vous aurez\nbesoin de mon aide.",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "Old Man: Should the need arise, you can place\na person left here in your party at any time.",
+    "original_fr": "Vieil homme : Vous pouvez changer les membres de votre\néquipe quand vous le voulez.",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Old Man: Well, that is the way of things.{WAIT_KEY}\nShould you desire to switch party members, you\ncan do so via the main menu whenever you wish.",
+    "original_fr": "Vieil homme : C'est {TAG:3C} peu près tout. En passant par\nl'option {TAG:64} Formation {TAG:65} du menu, vous pouvez changer\nles membres de votre équipe quand vous le voulez.\nNe l'oubliez surtout pas !",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "{MARLE}: How do we get back to our own time?",
+    "original_fr": "{MARLE} : Que devrions-nous faire pour retourner {TAG:3C}\nnotre époque ?",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "Old Man: You saw the pillars of light when you\narrived, yes? Each connects this place to a\ndifferent era.{WAIT_KEY}\nOnce you've been through a Gate, you can\nuse it to return here whenever you wish.\nStep back into the light and press the\n{GLYPH:409} Button, and you will return to the Gate.{WAIT_KEY}\nBut beware the Gate connected to that bucket.",
+    "original_fr": "Vieil homme : Il y a des colonnes de lumière l{TAG:3C} où vous\nêtes arrivés, n'est-ce pas ? Elles relient les distorsions\ndimensionnelles {TAG:3C} la Fin des temps.{WAIT_KEY}\nVous devriez pouvoir venir ici {TAG:3C} partir de n'importe quel\nportail que vous avez déj{TAG:3C} utilisé. Pour retraverser le\nportail, placez-vous dans la colonne de lumière et\nappuyez sur le bouton {GLYPH:409}.{WAIT_KEY}\nCependant, gare au portail auquel vous pouvez accéder\npar ce seau, l{TAG:3C}-bas...",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "Old Man: That Gate leads to 1999 A.D.,\nthe Day of Lavos...{WAIT_KEY}\nIf you wish to see the world destroyed before\nyour very eyes, then by all means, go.\nBut know that you yourselves may share the\nsame fate.",
+    "original_fr": "Vieil homme : Ce portail mène {TAG:3C} l'an 1999, au\n{TAG:64} Jour de Lavos {TAG:65}...{WAIT_KEY}\nSi vous voulez voir la destruction du monde, allez-y,\nmais...{WAIT_KEY}\nVous pourriez facilement y laisser la vie.",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Old Man: Hey!",
+    "original_fr": "Vieil homme : Hé !",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "Old Man: You needn't be in such a rush.\nBefore you go, have a look past the door behind me.",
+    "original_fr": "Vieil homme : Pas besoin de vous presser autant.\nPourquoi ne pas jeter un coup d'{TAG:61}il derrière cette\nporte ?",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{GLYPH:384}\nIt is firmly sealed.",
+    "original_fr": "{GLYPH:384}\nElle est solidement verrouillée...",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "Old Man: Well, well... It seems I was right.\nPeople who lived long ago all enjoyed such\npowers, you know.{WAIT_KEY}\nYes, long, long ago...{WAIT_KEY}\nWell, I know you must be eager to finish this\nthing you seem so intent on doing, but why not\nfirst pay a visit back to your own era?{WAIT_KEY}\nHaste makes waste, as they say.\nAnd you'll find that even truer here.{WAIT_KEY}\nCome and see me whenever you have the need.\nThink of me as your guide on time's road.",
+    "original_fr": "Vieil homme : Oh, je m'en doutais bien. Il y a de cela\ntrès longtemps, tout le monde avait de tels pouvoirs.\nOui, très, très longtemps...{WAIT_KEY}\nOn dirait que vous allez essayer d'accomplir quelque\nchose d'extraordinaire, mais vous devriez peut-être\nretourner d'abord {TAG:3C} votre époque.{WAIT_KEY}\nH{TAG:4A}tez-vous lentement. En vivant ici, on vient {TAG:3C} mieux\ncomprendre la signification d'une telle expression...{WAIT_KEY}\nSi vous avez besoin de mon aide, venez me voir.\nJe vous guiderai {TAG:3C} travers le temps.",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "Old Man: Come and see me whenever you have the\nneed. Think of me as your guide on time's road.",
+    "original_fr": "Vieil homme : Si vous avez besoin de mon aide, venez me\nvoir. Je vous guiderai {TAG:3C} travers le temps.",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Will you take {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Emmener {CRONO} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "{MARLE}: Take me with you!\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "{MARLE} : Emmenez-moi avec vous !\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "{MARLE}: All right!",
+    "original_fr": "{MARLE} : Super !",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "{MARLE}: Aw, come on!",
+    "original_fr": "{MARLE} : Oh, allez !",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "{LUCCA}: Don't you need my brain power?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "{LUCCA} : Vous avez besoin de mon génie ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "{LUCCA}: See!\nYou do need me!",
+    "original_fr": "{LUCCA} : Je savais bien que vous ne pourriez pas\ncontinuer sans moi !",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "{LUCCA}: Oh...",
+    "original_fr": "{LUCCA} : Ah, vraiment ?",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "{ROBO}: May I be of assistance?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "{ROBO} : Puis-je vous être utile ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "{ROBO}: I am ready, {GLYPH:386}!",
+    "original_fr": "{ROBO} : Je suis prêt, {GLYPH:386} !",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "{ROBO}: I shall await your next instruction, then.",
+    "original_fr": "{ROBO} : N'hésitez pas {TAG:3C} venir me voir quand vous\naurez besoin de moi.",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "{FROG}: You've returned!\nHave you a need for my sword?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "{FROG} : Vous ne pouvez aller nulle part sans un\nchevalier comme moi, n'est-ce pas ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{FROG}: Very well. Let us be on our way!",
+    "original_fr": "{FROG} : Bien ! Qu'attendons-nous ?",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "{FROG}: The unused blade goes to rust, you know.",
+    "original_fr": "{FROG} : Si ça continue, je vais me rouiller !",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "{AYLA}: {AYLA} go.\nBoring here.\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "{AYLA} : {AYLA} combattre !\nIci être ennuyant ! Alors ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "{AYLA}: {AYLA} fight hard!\nToo much no fight!",
+    "original_fr": "{AYLA} : {AYLA} se décha¡ner !",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{AYLA}: {GLYPH:392}, take {AYLA}!",
+    "original_fr": "{AYLA} : {GLYPH:392} ! Emmener {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "{AYLA}: {GLYPH:386}, take {AYLA}!",
+    "original_fr": "{AYLA} : {GLYPH:386} ! Emmener {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "{MAGUS}: Are my powers required?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "{MAGUS} : Auriez-vous besoin de mes pouvoirs...?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "{MAGUS}: Know that I will not hesitate to\ntake your life should you prove a hindrance.",
+    "original_fr": "{MAGUS} : Si vous devenez une gêne pour moi, je\nvous éliminerai...",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "{MAGUS}: Hmph. The weak comfort themselves\nwith delusions of their own grandeur.",
+    "original_fr": "{MAGUS} : Hum, plus on est faible, plus on bravade...",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "Go to the Day of Lavos,\n1999 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous rendre au Jour de Lavos,\nen l'an 1999 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Go to Proto Dome,\n2300 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous rendre au dôme de Prométhée,\nen l'an 2300 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "Go to Medina Village,\n1000 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous rendre {TAG:3C} Médina,\nen l'an 1000 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Go to the Mystic Mountains,\n65,000,000 B.C.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous rendre au mont étrange,\nen l'an -65 000 000 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Go to Leene Square,\n1000 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous rendre {TAG:3C} la place de Lynne,\nen l'an 1000 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Go to Truce Canyon,\n600 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous rendre au mont de Truce,\nen l'an 600 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Go to Guardia Forest,\n1000 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous rendre {TAG:3C} la forêt de Gardia,\nen l'an 1000 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Go to Bangor Dome,\n2300 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous rendre au dôme de Bangor,\nen l'an 2300 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Go to the Tyranno Lair ruins,\n65,000,000 B.C.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous rendre au cratère de Tyrannos,\nen l'an -65 000 000 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Go to the Earthbound Isle,\n12,000 B.C.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous rendre au continent des terriens,\nen l'an -12 000 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Take off.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Get off.{GLYPH:397}",
+    "original_fr": "       {GLYPH:394}Jauge du temps{GLYPH:395}\n       {GLYPH:396}Descendre{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "{MARLE}: Let's go!",
+    "original_fr": "{MARLE} : C'est parti !",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "{LUCCA}: Come on, {EPOCH}!",
+    "original_fr": "{LUCCA} : Â toi de jouer, {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "{ROBO}: {EPOCH} engines engaged!",
+    "original_fr": "{ROBO} : Mise en marche du {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{FROG}: Away, {EPOCH}!",
+    "original_fr": "{FROG} : En route, {EPOCH} !",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{AYLA}: {EPOCH}, go!",
+    "original_fr": "{AYLA} : {EPOCH} voler !",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{MAGUS}: We go.",
+    "original_fr": "{MAGUS} : Allons-y...",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "Board the {EPOCH}?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous monter {TAG:3C} bord du {EPOCH} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "Got any cash?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Vous avez de l'argent ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "This stuff real?\nNever seen money like this before...\nOh well, I have some good stuff for ya.",
+    "original_fr": "Ça ne ressemble pas {TAG:3C} l'argent que je connais.{WAIT_KEY}\nBah, peu importe, j'ai des marchandises intéressantes,\nvous verrez.",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "Then I got nothing for you.",
+    "original_fr": "Pas d'argent, pas de marchandise !",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "If I just keep saving up money, someday it'll come\nin handy. That's what I tell myself, anyway.",
+    "original_fr": "îpargnez votre argent, un jour, il vous sera utile.\nC'est ma devise.",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "Do you have money?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Avez-vous de l'argent ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "You sure this stuff is money?\nWell, here's what I have.",
+    "original_fr": "Ça ne ressemble pas {TAG:3C} l'argent que je connais.{WAIT_KEY}\nBah, peu importe, j'ai des marchandises intéressantes,\nvous verrez.",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "Then I can't sell you anything!",
+    "original_fr": "Pas d'argent, pas de marchandise !",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "If I just keep saving up money, someday it'll come in\nhandy.{WAIT_KEY}\nThat's what that guy who left to cross the ruins used\nto say.",
+    "original_fr": "îpargnez votre argent, un jour, il vous sera utile.{WAIT_KEY}\nC'était ce que disait le monsieur qui est allé dans l'autre\ndôme.",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "Old Man: Oh, where's that sprightly young man?",
+    "original_fr": "Vieil homme : Tiens, qu'est-il arrivé {TAG:3C} ce jeune homme\nénergique ?",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "Old Man: ...{WAIT_KEY}\nI see. How terrible...{WAIT_KEY}\nThere's little I can do for you, but let me honor him\nwith a song.{WAIT_KEY}\nI'll call it...\"Memories of {CRONO}.\"",
+    "original_fr": "Vieil homme : ...{WAIT_KEY}\nJe vois...{WAIT_KEY}\nJe ne peux pas faire grand-chose, mais je vais vous\noffrir cette mélodie. Je l'appelle...{WAIT_KEY}\n{TAG:64} En mémoire de {CRONO} {TAG:65}...",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "Old Man: Were there anything more I could do,\nI would, but I fear I can be of little aid.",
+    "original_fr": "Vieil homme : J'aimerais vous aider, si seulement je\npouvais faire quelque chose...",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "{MARLE}: We're looking for the Guru of Time.",
+    "original_fr": "{MARLE} : Nous sommes {TAG:3C} la recherche du sage du\ntemps...",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "{MAGUS}: Only the Guru of Time can help us now.",
+    "original_fr": "{MAGUS} : Il y a quelque chose que seul le sage du\ntemps pourrait accomplir...",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "{AYLA}: {AYLA} need Time Guru.\nWant meet. Search!",
+    "original_fr": "{AYLA} : {AYLA} vouloir rencontrer sage du\ntemps. {AYLA} chercher !",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "{ROBO}: We are looking for an individual\nknown as the Guru of Time.",
+    "original_fr": "{ROBO} : Nous sommes {TAG:3C} la recherche d'un individu\nsurnommé le {TAG:64} sage du temps {TAG:65}.",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "Old Man: That face...\nHave I not seen you before?",
+    "original_fr": "Vieil homme : îtrange, j'ai l'impression de te conna¡tre...",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "Old Man: Ah, indeed...\nYou've grown strong.\nTainted of soul, to be sure,\nbut formidable all the same.",
+    "original_fr": "Vieil homme : Oh, je vois... Tu es devenu imposant.\nTu as beaucoup vieilli, par contre.",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "{MAGUS}: Hmm?",
+    "original_fr": "{MAGUS} : Quoi...?",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Old Man: The Guru of Time, you say?{WAIT_KEY}\nI know of him.\nBut what business have you with the Guru of Time?",
+    "original_fr": "Vieil homme : Le sage du temps...?{WAIT_KEY}\nOui, j'ai déj{TAG:3C} entendu parler de lui, mais que lui\nvoulez-vous donc ?",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "{MARLE}: We heard he knows a way to bring\n{CRONO} back.",
+    "original_fr": "{MARLE} : Il para¡t qu'il conna¡t un moyen de\nressusciter {CRONO}...",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "{FROG}: We've heard he may know a way\nto restore life to our fallen friend.\nThe truth of it I do not know.\n",
+    "original_fr": "{FROG} : On dit qu'il pourrait ramener {CRONO}\n{TAG:3C} la vie, d'une façon ou d'une autre, mais c'est\ndifficile {TAG:3C} croire.",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "{AYLA}: Time Guru bring back {GLYPH:392}!\nHe strong.",
+    "original_fr": "{AYLA} : Sage du temps pouvoir rendre vie {TAG:3C}\n{CRONO}.",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "{LUCCA}: We think he can tell us a way to\nbring {CRONO} back to life.",
+    "original_fr": "{LUCCA} : Nous avons entendu dire que nous\npourrons trouver un moyen de ressusciter {CRONO}\nsi nous le rencontrons.",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "Old Man: Ah, yes...to break death's hold over one you\nhold dearer still. You are not the first to wish such\na thing, nor will you be the last.{WAIT_KEY}\n{CRONO} must be happy indeed, knowing such dear\nfriends as you.",
+    "original_fr": "Vieil homme : Rendre la vie {TAG:3C} ceux qui ont péri...\nCombien de gens ont voulu y arriver jusqu'{TAG:3C}\nmaintenant ?{WAIT_KEY}\n{CRONO} a de la chance...{WAIT_KEY}\nIl a des amis qui tiennent {TAG:3C} lui...",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Old Man: Here.\nTake this with you.",
+    "original_fr": "Vieil homme : Apportez ceci.",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "{AYLA}: Egg!\n{AYLA} eat!\nOkay eat?",
+    "original_fr": "{AYLA} : ♂uf ! {AYLA} pouvoir manger {TAG:61}uf ?",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "{FROG}: What is this?\nThe egg of some beast?",
+    "original_fr": "{FROG} : Qu'est-ce que c'est ? Une sorte d'{TAG:61}uf ?",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "{ROBO}: This is...an egg, is it not?",
+    "original_fr": "{ROBO} : Est-ce... un {TAG:61}uf ?",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "{LUCCA}: An...egg?",
+    "original_fr": "{LUCCA} : Qu'est-ce que c'est ? Un {TAG:61}uf ?",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "Old Man: That is the Chrono Trigger—a Time Egg.\nShould you wish to try and hatch it, the one who\ncrafted your Wings of Time can tell you the way.{WAIT_KEY}\nBut know that it may not necessarily hatch the\nresults which you desire.{WAIT_KEY}\nThe Chrono Trigger represents potential.\nResults require action.{WAIT_KEY}\nAs long as you keep {CRONO} in your heart and\npursue what you seek, the results should follow.\nBut I can make no guarantees.",
+    "original_fr": "Vieil homme : C'est le Chrono Trigger... Un {TAG:61}uf de temps.\nDemandez {TAG:3C} celui qui a construit les ailes qui vous\npermettent de parcourir le temps comment le faire\néclore...{WAIT_KEY}\nCependant, il est possible que tout ne se passe pas\ncomme vous le voulez. Cet {TAG:61}uf a le potentiel de changer\nles choses, mais sans vous, il n'est qu'une coquille vide :\nseules vos actions détermineront son vrai pouvoir.{WAIT_KEY}\nNe l'oubliez pas. Si vous tenez {TAG:3C} {CRONO}, alors\npeut-être...",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "{MAGUS}: I see it now.\nIt's you, isn't it?",
+    "original_fr": "{MAGUS} : Je vois, c'est donc vous...",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "{MARLE}: Wait, then...{WAIT_KEY}\nDoes that mean you're Gaspar?\nThe Guru of Time?",
+    "original_fr": "{MARLE} : Alors...{WAIT_KEY}\nC'est vous, Hasch, le sage du temps ?",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "{LUCCA}: It's you, isn't it?{WAIT_KEY}\nYou're Gaspar, the Guru of Time!",
+    "original_fr": "{LUCCA} : Alors...!{WAIT_KEY}\nVous êtes le sage du temps... Hasch ?!",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "{ROBO}: I have arrived at a hypothesis.{WAIT_KEY}\nSir, are you Gaspar, the Guru of Time?",
+    "original_fr": "{ROBO} : Ce qui veut dire que...{WAIT_KEY}\nVous êtes Hasch, le sage du temps ?!",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "{FROG}: Then...{WAIT_KEY}\nThen, you are Gaspar, the Guru of Time!",
+    "original_fr": "{FROG} : Hein ?!{WAIT_KEY}\nCe qui veut dire que...{WAIT_KEY}\nVous êtes Hasch, le sage du temps ?!",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "Old Man: Ah ha ha...{WAIT_KEY}\nYes, I believe that is what they used to call me.{WAIT_KEY}\nBut that was long, long ago.",
+    "original_fr": "Vieil homme : Hum...{WAIT_KEY}\nJ'ai aussi l'impression que j'ai porté ce nom...\nOui, il y a de cela très longtemps...",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "{LUCCA}: This console controls the door lock.\nWe need a password to get through.",
+    "original_fr": "{LUCCA} : Cette console contrôle le passage.\nOn dirait qu'elle est verrouillée par un mot de\npasse.",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "{MARLE}: Let's go!\nLet's go get {CRONO}!",
+    "original_fr": "{MARLE} : {CRONO} ! Allons chercher {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "{LUCCA}: ...{WAIT_KEY}\nI mean, he was always a pain, but now that he's gone...{WAIT_KEY}\nDon't...don't go getting any crazy ideas, now!\nI just thought of him like...like a brother!{WAIT_KEY}\n...",
+    "original_fr": "{LUCCA} : ...{WAIT_KEY}\nIl nous a causé bien du souci, mais maintenant qu'il\nn'est plus l{TAG:3C}...{WAIT_KEY}\nNe... Ne vous méprenez pas ! Je l'ai toujours considéré\ncomme mon petit frère !{WAIT_KEY}\n...",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "{ROBO}: {CRONO}'s absence seems to\nadversely affect everyone's mood.",
+    "original_fr": "{ROBO} : Sans {CRONO}, tout le monde est si\nsombre...",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "{FROG}: That fool...{WAIT_KEY}\nNo man so young should have to die.",
+    "original_fr": "{FROG} : Cet idiot...{WAIT_KEY}\nLes plus jeunes ne devraient pas partir les premiers...",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "{AYLA}: {GLYPH:392} strong!\n{GLYPH:392} no die! No true!\n{AYLA} find {GLYPH:392}!",
+    "original_fr": "{AYLA} : {GLYPH:392} être fort ! {GLYPH:392} pas\nvraiment être mort !! {AYLA} trouver {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "{MAGUS}: That boy's existence is of no consequence.{WAIT_KEY}\nMy attention is focused elsewhere.",
+    "original_fr": "{MAGUS} : Peu importe s'il est l{TAG:3C} ou non, du moment\nque je peux vaincre Lavos...",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "{MARLE}: I can't believe it!\nI'm so happy!",
+    "original_fr": "{MARLE} : Je suis si heureuse que tu sois vivant,\n{CRONO}...!",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "{LUCCA}: Don't you dare put us through that again!",
+    "original_fr": "{LUCCA} : Tu n'as pas honte d'avoir fait pleurer les\nfilles, {CRONO} ?",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "{ROBO}: Everyone appears to be in a more\ncheerful state when {CRONO} is here!",
+    "original_fr": "{ROBO} : C'est évident ! Quand tu es l{TAG:3C}, {CRONO},\ntout le monde est heureux !",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "{FROG}: Hah! Look at you—ladies weeping over you\nleft and right!",
+    "original_fr": "{FROG} : Ça doit être dur d'être aussi populaire,\nn'est-ce pas, {CRONO} ? Tu n'as même pas eu le\ndroit au repos éternel !",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "{AYLA}: {GLYPH:392}!\n{GLYPH:392}!\n{GLYPH:392}!",
+    "original_fr": "{AYLA} : {GLYPH:392} ! {GLYPH:392} ! {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "{MAGUS}: ...{WAIT_KEY}\nYour death was owed to weakness.",
+    "original_fr": "{MAGUS} : ...{WAIT_KEY}\nTu as péri parce que tu étais faible.",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "Old Man: So, all went well...{WAIT_KEY}\nNo, don't thank me.\nI merely placed a piece upon the board.\nIt was not my hand that moved it.{WAIT_KEY}\nIf you would thank someone, thank the ones who\ncared enough to see their friend returned to them.{WAIT_KEY}\nBy the way, the Wings of Time have come looking\nfor you. They seem to have a heart and mind all\ntheir own.",
+    "original_fr": "Vieil homme : Oh, tout s'est bien passé, on dirait...{WAIT_KEY}\nNon, non, je n'ai pas fait grand-chose. Je ne vous ai\noffert qu'une opportunité. Si vous voulez remercier\nquelqu'un, remerciez vos compagnons, ils tiennent\ntant {TAG:3C} vous.{WAIT_KEY}\nVotre vaisseau vous a aussi suivi jusqu'ici.\nIl a peut-être un c{TAG:61}ur, lui aussi, qui sait...",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "Old Man: You wish to fight Lavos, correct?{WAIT_KEY}\nMany paths lie before you.\nYou might choose to leap into that bucket,\nor fly the Wings of Time to the Day of Lavos.{WAIT_KEY}\nOr there is the Black Omen, which now straddles\ntime, seeking to summon Lavos yet again.\nSuch folly! Lusting so greedily after power\nthat the power wields you...{WAIT_KEY}\nIt is up to you to decide when and where you\nwill face Lavos. However, do not think that\nyou stand alone.{WAIT_KEY}\nI have had glimpses, albeit vague, of events,\npeople, and places that will empower you.",
+    "original_fr": "Vieil homme : Vous comptez combattre Lavos...{WAIT_KEY}\nSauterez-vous dans le portail du seau l{TAG:3C}-bas ?\nIrez-vous au {TAG:64} Jour de Lavos {TAG:65} {TAG:3C} bord de votre\nvaisseau...?{WAIT_KEY}\nOu encore sur cette énorme forteresse volante qui\nest apparue {TAG:3C} travers les {TAG:4A}ges...? Quelqu'un {TAG:3C} bord\nessaie aussi d'éveiller Lavos une fois de plus...{WAIT_KEY}\nUne {TAG:4A}me insensée qui dépendait de son pouvoir et qui\na été dévorée par ce dernier... Si vous allez sur ce\nsombre cauchemar, vous y combattrez probablement\naussi Lavos.{WAIT_KEY}\nÂ vous de décider où et quand vous voulez l'affronter.\nCependant, je vous en prie, ne combattez pas seuls...{WAIT_KEY}\nJe n'arrive pas {TAG:3C} les voir clairement, mais il y a\ncertaines choses qui pourront vous venir en\naide...",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "A forest brought back to life by the sheer\ndetermination of a woman in the Middle Ages...",
+    "original_fr": "Au Moyen-{TAG:5F}ge, une forêt qui revient {TAG:3C} la vie gr{TAG:4A}ce au\nc{TAG:61}ur généreux d'une femme...",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "The fortress of one of {MAGUS}'s three former\ngenerals in the Middle Ages...",
+    "original_fr": "L'endroit où se sont réfugiés les trois anciens généraux\nde {MAGUS} au Moyen-{TAG:5F}ge...",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "A task to be done in the future, in a birthplace\nof machines...",
+    "original_fr": "Dans le Futur, l'endroit où sont nées les machines...",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "A prehistoric stone that will shine with the\nlight of all the ages of the world...",
+    "original_fr": "Une pierre qui traverse toutes les époques, de la\nPréhistoire au Futur, absorbant les rayons du soleil...",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "The restless spirit of a proud knight,\nslain by {MAGUS} in the Middle Ages,\nand lingering even in the present...",
+    "original_fr": "L'{TAG:4A}me d'un fier chevalier qui a péri des mains de\n{MAGUS} au Moyen-{TAG:5F}ge et qui erre toujours dans\nle Présent...",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "An object of legend in the Middle Ages that\nsparkles like a rainbow...",
+    "original_fr": "Au Moyen-{TAG:5F}ge, un objet mythique qui brille des couleurs\nde l'arc-en-ciel...",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "Old Man: Speak to your companions.\nSome among you may well know the figures\nbehind the events which I have seen.{WAIT_KEY}\nBorrow the might of all these lives throughout\nthe ages. Let their strength become your own!\nFor only then can you hope to defeat the\nenemy you face.{WAIT_KEY}\nSuch is the power required, should you wish to\nchange the future.{WAIT_KEY}\nI will remain here, and bear witness to the world's fate.",
+    "original_fr": "Vieil homme : Vos compagnons devraient en savoir\nplus si cela concerne leur époque. Vous devriez le\nleur demander, pour voir...{WAIT_KEY}\nCombattez en faisant appel aux gens de toutes les\népoques, non, en faisant appel {TAG:3C} tous les êtres\nvivants de cette planète...!{WAIT_KEY}\nSans eux, vous ne pourrez pas vaincre Lavos.\nPour changer le Futur, il vous faudra une telle\nquantité d'énergie...{WAIT_KEY}\nJ'observerai d'ici patiemment vos actions et l'avenir de\nla planète...",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "Old Man: The Black Omen is gone, and that\nwoman's tortured soul is finally at rest.\nShe has regained her humanity at last.{WAIT_KEY}\nNow is the time for you to enter the Gate\ncontained within that bucket!{WAIT_KEY}\nYou fight not only for yourselves, but for\nall that lives and breathes in this world.{WAIT_KEY}\nThis is a battle between Lavos and the very\nplanet itself!",
+    "original_fr": "Vieil homme : Le Songe obscur a disparu et cette femme\npeut maintenant reposer en paix. Elle est redevenue\nhumaine...{WAIT_KEY}\nLe moment est venu de plonger dans le portail du seau,\nl{TAG:3C}-bas...!{WAIT_KEY}\nCe n'est pas que votre combat. C'est aussi celui de tous\nles êtres vivants de cette planète...{WAIT_KEY}\nOui, c'est le combat de la planète contre Lavos...!",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "Old Man: Ah!\nYou've been to the Magic Kingdom.{WAIT_KEY}\nWith that pillar of light sealed, you'll be needing\nto find a way to move through time more freely\nshould you wish to return.{WAIT_KEY}\nI recall someone working on such a device.\nThe Wings of Time, I believe he called it.\nThough, sadly, I fear the man's mind left him\nin the course of those long years of research.",
+    "original_fr": "Vieil homme : Oh ? Alors, vous êtes allés au royaume de\nla magie...?{WAIT_KEY}\nPuisque la colonne de lumière a été scellée, vous aurez\nbesoin d'ailes pouvant parcourir librement le temps...{WAIT_KEY}\nUn homme s'y intéressait, mais on dirait qu'il a un\npeu perdu l'esprit, absorbé comme il était par ses\nrecherches...",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "Old Man: Interesting.\nSo he actually completed his Wings of Time.{WAIT_KEY}\nAnd at the cost of his own life, no less.{WAIT_KEY}\nWhy not put those Wings to good use, and pay\na visit to the ancient Magic Kingdom?",
+    "original_fr": "Vieil homme : Je vois... Alors, il les avait terminées, ces\nailes qui traversent le temps...{WAIT_KEY}\nIl aura payé de sa vie...{WAIT_KEY}\nPourquoi ne retourneriez-vous pas dans l'ancien\nroyaume de la magie {TAG:3C} bord de ce vaisseau ?",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "Old Man: Dreamstone?{WAIT_KEY}\nYes, I remember that word.\nIt's an incredibly ancient mineral, if I recall.{WAIT_KEY}\nHave you considered searching for some in the\nprehistoric era?",
+    "original_fr": "Vieil homme : Une pierre onirique...?{WAIT_KEY}\nCela me dit quelque chose. Il s'agit d'une pierre très,\ntrès ancienne, pour ne pas dire préhistorique...!{WAIT_KEY}\nNe devriez-vous pas pouvoir en trouver en allant dans\nla Préhistoire ?",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "Old Man: Ah, dreamstone.\nI'd forgotten how beautifully it shone.{WAIT_KEY}\nThere is a man who knows the secret to working\nthat stone. He resides near Medina, a village\nof fiends.",
+    "original_fr": "Vieil homme : Oh, une pierre onirique ? Quel éclat\nnostalgique...{WAIT_KEY}\nL'homme pouvant la manipuler...? Il a établi son domicile\nprès de Médina, le village des mystiques.",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "Old Man: What luster!\nIs that the Masamune?{WAIT_KEY}\nIn the Middle Ages, there is one who is\nfated to slay {MAGUS} with that blade.\nCan none among you wield it?",
+    "original_fr": "Vieil homme : Cet éclat... Gran... Grandléon ?{WAIT_KEY}\nIl devrait y avoir quelqu'un au Moyen-{TAG:5F}ge qui doit\nvaincre le Magistère {TAG:3C} l'aide de cette épée.\nPourriez-vous vous en charger ?",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "Old Man: What a peculiar new guest!\nYou are from the Middle Ages, yes?",
+    "original_fr": "Vieil homme : Tiens, quel visiteur étrange !\nVenez-vous du Moyen-{TAG:5F}ge ?",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "Gaspar: What...what is this place?",
+    "original_fr": "Hasch, sage du temps : Où suis-je...?",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "Hello?",
+    "original_fr": "Hé !",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "There's no one here.{WAIT_KEY}\nIs this...the End of Time?",
+    "original_fr": "Il n'y a rien... Cet endroit...{WAIT_KEY}\nEst-ce la Fin des temps...?",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "{MAGUS}: My generals...{WAIT_KEY}\nSo, they still live.{WAIT_KEY}\nOzzie did maintain a fortress in the style of\nmy own keep. I wonder...",
+    "original_fr": "{MAGUS} : ...{WAIT_KEY}\nCes trois-l{TAG:3C} sont donc toujours vivants.{WAIT_KEY}\nAu fait, Vinnie avait un manoir qui ressemblait {TAG:3C} mon\npalais...",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "{MARLE}: Father...{WAIT_KEY}\nI wonder how you're doing now.",
+    "original_fr": "{MARLE} : Mon père...{WAIT_KEY}\nJe me demande comment il va...",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "{ROBO}: A birthplace of machines...{WAIT_KEY}\nDo I have a hometown, too?",
+    "original_fr": "{ROBO} : L'endroit où sont nées les machines...?\nSuis-je vraiment né quelque part, moi aussi ?",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "{FROG}: The spirit of a proud knight...{WAIT_KEY}\nCould it be?",
+    "original_fr": "{FROG} : L'{TAG:4A}me d'un chevalier qui erre...{WAIT_KEY}\nSe pourrait-il que ce soit...",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "{AYLA}: Fight Lavos!\nStrong armor, {AYLA} village have!\nGo see!",
+    "original_fr": "{AYLA} : Combattre Lavos ! Village de {AYLA}\navoir bon équipement ! Aller voir !!",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "{LUCCA}: Solar energy was used aeons ago,\nlong before Lavos was discovered as a source\nof power.{WAIT_KEY}\nIt might be just the thing we need to combat him.",
+    "original_fr": "{LUCCA} : On dit que dans l'Antiquité, on utilisait\nl'énergie solaire avant d'utiliser l'énergie de Lavos...{WAIT_KEY}\nCe pourrait être l'idéal pour l'affronter.",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "Old Man: Have you, by chance, observed any odd\ndistortions in time's fabric in recent days?",
+    "original_fr": "Vieil homme : Vous n'auriez pas vu des endroits où les\ndimensions se distordent ?",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "{MAGUS}: You speak of the dimensional vortices, no?\nOne appears to have arisen in every age.",
+    "original_fr": "{MAGUS} : Des vortex dimensionnels ? Si c'est bien\nce dont vous parlez, il semble effectivement que des\nendroits étranges apparaissent {TAG:3C} chaque époque.",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "{ROBO}: Yes, we have.\nDimensional vortices connecting to a place with\na civilization entirely different from our own.",
+    "original_fr": "{ROBO} : Vous voulez dire des vortex\ndimensionnels ?{WAIT_KEY}\nUne civilisation complètement différente de la nôtre les\na développés.",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "{LUCCA}: Oh, you mean the dimensional vortices?\nYes, we went inside. It was like an entirely\ndifferent world in there.",
+    "original_fr": "{LUCCA} : Vous voulez dire des vortex\ndimensionnels ?{WAIT_KEY}\nNous en avons fait l'expérience. J'ai eu l'impression\nqu'ils menaient {TAG:3C} un monde différent du nôtre.",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "{FROG}: Yes, we've seen sights most peculiar.\nNo matter where we go, a strange dimensional\ndistortion now lies within our own world.",
+    "original_fr": "{FROG} : Oui, il y a quelque chose d'étrange ces\nderniers temps. Quelle que soit l'époque où nous\nallons, il existe une distorsion des dimensions.",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "{MARLE}: Oh, yeah! I think we've been there.\nIt was strange—different from our world.",
+    "original_fr": "{MARLE} : Ah ! Nous en avons peut-être fait\nl'expérience. C'est un endroit étrange qui n'est\npas exactement pareil {TAG:3C} notre monde.",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "Old Man: Indeed...\nThen it is as I thought.",
+    "original_fr": "Vieil homme : Je m'en doutais bien... Hum, la planète\ncherche peut-être {TAG:3C} vous aider.",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "{AYLA}: What you mean?",
+    "original_fr": "{AYLA} : Quoi ?",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "{MARLE}: Has something happened?",
+    "original_fr": "{MARLE} : Que s'est-il passé ?",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "{FROG}: Is something the matter?",
+    "original_fr": "{FROG} : S'est-il passé quelque chose ?",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "{LUCCA}: Is something wrong?",
+    "original_fr": "{LUCCA} : Qu'y a-t-il ?",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "{ROBO}: What has happened?",
+    "original_fr": "{ROBO} : Est-il arrivé quelque chose ?",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "Old Man: As it were, the bucket here has seemed a\nbit...different as of late. It's still connected to the\nDay of Lavos, of course, but...there's more.{WAIT_KEY}\nA great power flows into it from some distant plane,\nfar beyond even the darkened borders of Time's\nEclipse.{WAIT_KEY}\nIt's a power similar to that of Lavos, but not entirely\nthe same—a fearsome presence, to be sure. And yet\nI sense longing and loneliness there as well.{WAIT_KEY}\nIt may well be another terrible foe awaits you in\nthat place. If you have a mind to face it, by all\nmeans go—but I cannot say I recommend it.",
+    "original_fr": "Vieil homme : Â vrai dire, il y a quelque chose d'étrange {TAG:3C}\npropos du seau ces derniers temps. Il mène toujours au\n{TAG:64} Jour de Lavos {TAG:65}, mais...{WAIT_KEY}\nC'est comme si une force énorme s'y déversait d'une\nautre dimension lointaine... des ténèbres profondes\ndu temps...{WAIT_KEY}\nOn dirait qu'elle ressemble {TAG:3C} celle de Lavos, mais plus\nredoutable encore. Pourtant, j'y décèle une sorte de\ntriste solitude...{WAIT_KEY}\nUne nouvelle et terrible créature vous attend peut-être\ndans une autre dimension.{WAIT_KEY}\nSi vous êtes prêts {TAG:3C} l'affronter, allez voir ce qu'il en\nest. Cependant, je ne vous le recommande guère.",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "Old Man: I will remain here, and bear witness to the\nworld's fate.",
+    "original_fr": "Vieil homme : J'observerai d'ici patiemment vos actions\net l'avenir de l'univers...",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "Where will you go?\n{TAG:38}{TAG:38}{GLYPH:394}The Day of Lavos, 1999 A.D.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Time's Eclipse.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Remain here.{GLYPH:399}",
+    "original_fr": "Où voulez-vous aller ?\n       {GLYPH:394}An 1999, Jour de Lavos{GLYPH:395}\n       {GLYPH:396}Les ténèbres du temps{GLYPH:397}\n       {GLYPH:398}Rester ici{GLYPH:399}",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "Go to the Arena of the Ages,\nbeyond the flow of time?\n®®{GLYPH:394}Yes.{GLYPH:395}\n®®{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous rendre {TAG:3C} l'arène\ninterdimensionnelle ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  }
+]

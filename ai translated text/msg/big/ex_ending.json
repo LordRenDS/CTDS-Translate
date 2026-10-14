@@ -1,0 +1,236 @@
+[
+  {
+    "id": 0,
+    "original_en": "Defeat Lavos after reviving Crono at Death Peak.",
+    "original_fr": "Après avoir ressuscité Chrono sur le mont des\ndéfunts.",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Defeat Lavos while Crono is dead.",
+    "original_fr": "Alors que Chrono est décédé.",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Defeat Lavos in the Ocean Palace or immediately\nupon starting New Game +.",
+    "original_fr": "Au tout début d'une nouvelle partie ™ ou dans le\nsanctuaire sous-marin.",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Defeat Lavos after saving Leene and Marle,\nbut before visiting the End of Time.",
+    "original_fr": "Après avoir sauvé Lynne et Marle, mais avant d'aller\n{TAG:3C} la Fin des temps.",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Defeat Lavos after visiting the End of Time,\nbut before returning to the Middle Ages.",
+    "original_fr": "Après être allé {TAG:3C} la Fin des temps, mais avant de\nretourner au Moyen-{TAG:5F}ge.",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Defeat Lavos after arriving in the Middle Ages,\nbut before obtaining the Hero's Badge from Tata.",
+    "original_fr": "Après être retourné au Moyen-{TAG:5F}ge, mais avant de\nrecevoir la médaille du héros de Tarta.",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Defeat Lavos after obtaining the Hero's Badge,\nbut before the Gate Key is stolen in prehistory.",
+    "original_fr": "Après avoir reçu la médaille du héros, mais avant que\nla clef stabilisatrice soit volée dans la Préhistoire.",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Defeat Lavos after regaining the Gate Key,\nbut before giving the Masamune to Frog.",
+    "original_fr": "Après avoir récupéré la clef stabilisatrice, mais\navant de rendre Grandléon {TAG:3C} Gren.",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Defeat Lavos after giving the Masamune to Frog,\nbut before facing Magus.",
+    "original_fr": "Après avoir rendu Grandléon {TAG:3C} Gren, mais avant de\ncombattre Magus.",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Defeat Lavos after facing Magus, but before\nfacing Azala.",
+    "original_fr": "Après avoir combattu Magus, mais avant de\ncombattre Azara.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Defeat Lavos after facing Azala, but before\nSchala opens the sealed door.",
+    "original_fr": "Après avoir vaincu Azara, mais avant que Sarah\nn'ouvre la porte scellée.",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Defeat Lavos after Schala opens the sealed door,\nbut before restoring light to the pendant.",
+    "original_fr": "Après que Sarah ouvre la porte scellée, mais avant\nde réactiver le pendentif.",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Defeat the Dream Devourer beyond Time's Eclipse.",
+    "original_fr": "Après avoir vaincu l'onirophage qui se terre dans les\nténèbres du temps.",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "This is the standard ending. Contents vary\naccording to the status of the Epoch.",
+    "original_fr": "La fin normale. La séquence change suivant que\nl'équipe possède encore l'Ibis ou non.",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "This is the ending if Crono is dead. Contents\nvary according to the status of the Epoch.",
+    "original_fr": "La fin si Chrono est décédé. La séquence change\nsuivant que l'équipe possède encore l'Ibis ou non.",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Use the right Telepod to warp to Lavos immediately\nafter starting New Game +.",
+    "original_fr": "Examinez le portail sur le téléporteur de droite au\ntout début d'une nouvelle partie ™.",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Use the Telepod immediately upon returning to\nthe present.",
+    "original_fr": "Examinez le portail sur le téléporteur de droite tout\nde suite après le retour dans le Présent.",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Use the bucket to warp to Lavos upon reaching\nthe End of Time.",
+    "original_fr": "Examinez le seau après avoir atteint la Fin des\ntemps.",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Face Lavos after the fight with Zombor.",
+    "original_fr": "Après avoir vaincu l'abomination.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Head to fight Lavos once Tata has given you the\nHero's Badge.",
+    "original_fr": "Tout de suite après avoir reçu la médaille du héros\nde Tarta.",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Face Lavos once you have restored the Masamune.",
+    "original_fr": "Après avoir restauré Grandléon.",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Double back upon entering the Magic Cave and\nhead for the End of Time.",
+    "original_fr": "Après avoir pénétré dans la grotte des mystiques,\nrebroussez chemin et retournez {TAG:3C} la Fin des temps.",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Go to the End of Time from the Mystic Mountains\nafter the fight with Magus.",
+    "original_fr": "Après avoir combattu Magus, retournez {TAG:3C} la\nFin des temps en passant par le mont étrange.",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Go to face Lavos without entering the Gate at the\nTyranno Lair.",
+    "original_fr": "Après l'arrivée de Lavos, sans passer par le cratère\nde Tyrannos.",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Face Lavos immediately after opening the sealed\ndoor. Becomes unavailable shortly thereafter.",
+    "original_fr": "Immédiatement après l'ouverture de la porte scellée.\nGare {TAG:3C} ne pas faire progresser l'histoire !",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Use the gate at the End of Time to warp to Time's\nEclipse after clearing the dimensional vortex.",
+    "original_fr": "Après avoir terminé le vortex dimensionnel, pénétrez\nles ténèbres du temps {TAG:3C} partir de la Fin des temps.",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Beyond Time",
+    "original_fr": "Au-del{TAG:3C} du temps",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Reunion",
+    "original_fr": "Retrouvailles",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "The Dream Project",
+    "original_fr": "Dream Team",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "The Successor of Guardia",
+    "original_fr": "Descendants de Gardia",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Good Night",
+    "original_fr": "Bonne nuit",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "The Legendary Hero",
+    "original_fr": "Le héros légendaire",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "The Unknown Past",
+    "original_fr": "Passé inconnu",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "People of the Times",
+    "original_fr": "Les habitants du temps",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "The Oath",
+    "original_fr": "Le serment",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Dino Age",
+    "original_fr": "{TAG:5F}ge des sauriens",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "What the Prophet Seeks",
+    "original_fr": "Ce que recherche le prophète",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Memory Lane",
+    "original_fr": "Réunion de bilan ?",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Dream's Epilogue",
+    "original_fr": "Une fois le rêve terminé",
+    "translation": ""
+  }
+]

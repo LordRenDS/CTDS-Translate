@@ -1,0 +1,2084 @@
+[
+  {
+    "id": 0,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Magic +2",
+    "original_fr": "Magie +2",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "1.5° damage to\nmagical beings",
+    "original_fr": "Dég{TAG:4A}ts aux créat.\nmagiques +50%",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "4° damage for\ncritical hits",
+    "original_fr": "Coups critiques :\ndég{TAG:4A}ts °4",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Speed +2",
+    "original_fr": "Rapidité +2",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Inflicts Slow",
+    "original_fr": "Inflige\nLenteur",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Inflicts Stop",
+    "original_fr": "Inflige Stop",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Inflicts Stop\non robots",
+    "original_fr": "Inflige Stop\naux machines",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Inflicts Confuse",
+    "original_fr": "Inflige\nConfusion",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Random damage",
+    "original_fr": "Dég{TAG:4A}ts aléatoires",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Halves enemy HP",
+    "original_fr": "Réduit parfois\nles PV de moitié",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Damage based on\nlast digit of HP",
+    "original_fr": "Dég{TAG:4A}ts basés sur\nles PV du porteur",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "1.5° damage to\nmagical beings",
+    "original_fr": "Dég{TAG:4A}ts aux créat.\nmagiques +50%",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Magic +4",
+    "original_fr": "Magie +4",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "2° damage to\nmagical beings",
+    "original_fr": "Dég{TAG:4A}ts aux créat.\nmagiques +100%",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Inflicts Confuse",
+    "original_fr": "Inflige\nConfusion",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "9999 damage\nfor critical hits",
+    "original_fr": "Coups critiques :\n9999 pts dég{TAG:4A}ts",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Damage boost\nwhen allies KO'd",
+    "original_fr": "Coma d'un allié :\nattaque …",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Speed +3",
+    "original_fr": "Rapidité +3",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "Critical rate: 70%",
+    "original_fr": "Coups critiques :\n70%",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Inflicts Confuse",
+    "original_fr": "Inflige\nConfusion",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Speed +3",
+    "original_fr": "Rapidité +3",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "Strength +5",
+    "original_fr": "Force +5",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Inflicts Stop",
+    "original_fr": "Inflige Stop",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Critical rate: 90%",
+    "original_fr": "Coups critiques :\n90%",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Deals 777 damage",
+    "original_fr": "Toujours 777 pts\nde dég{TAG:4A}ts",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Damage based on\nlast digit of MP",
+    "original_fr": "Dég{TAG:4A}ts basés sur\nles PM du porteur",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "May deal 9999\ndamage",
+    "original_fr": "Parfois 9999 pts\nde dég{TAG:4A}ts",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "4° damage for\ncritical hits",
+    "original_fr": "Coups critiques :\ndég{TAG:4A}ts °4",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Halves Œ",
+    "original_fr": "Dég{TAG:4A}ts Œ -50%",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "Magic Defense +5",
+    "original_fr": "Défense\nmagique +5",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Magic Defense +5",
+    "original_fr": "Défense\nmagique +5",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "Magic Defense +10",
+    "original_fr": "Défense\nmagique +10",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Status immunity",
+    "original_fr": "Protège des\naltérations d'état",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "Auto-Barrier",
+    "original_fr": "Auto-Barrière",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Magic Defense +10",
+    "original_fr": "Défense\nmagique +10",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Reduces Œ\ndamage to 20%",
+    "original_fr": "Dég{TAG:4A}ts Œ -80%",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "Absorbs »",
+    "original_fr": "Absorbe dég{TAG:4A}ts »",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Absorbs «",
+    "original_fr": "Absorbe dég{TAG:4A}ts «",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Absorbs œ",
+    "original_fr": "Absorbe dég{TAG:4A}ts œ",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Absorbs Œ",
+    "original_fr": "Absorbe dég{TAG:4A}ts Œ",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "Absorbs 50% of »",
+    "original_fr": "Absorbe 50% des\ndég{TAG:4A}ts »",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "Absorbs 50% of «",
+    "original_fr": "Absorbe 50% des\ndég{TAG:4A}ts «",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Absorbs 50% of œ",
+    "original_fr": "Absorbe 50% des\ndég{TAG:4A}ts œ",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "Absorbs 50% of Œ",
+    "original_fr": "Absorbe 50% des\ndég{TAG:4A}ts Œ",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "Speed +2\nHalves Œ",
+    "original_fr": "Rapidité +2 et\ndég{TAG:4A}ts Œ -50%",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "Speed +3\nHalves Œ",
+    "original_fr": "Rapidité +3 et\ndég{TAG:4A}ts Œ -50%",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Strength +10",
+    "original_fr": "Force +10",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "Magic +10",
+    "original_fr": "Magie +10",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Speed + 3\nStrength +3",
+    "original_fr": "Rapidité +3 et\nforce +3",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Stamina +10\nMagic Defense +10",
+    "original_fr": "Endurance +10 et\ndéf. magique +10",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "Auto-Protect\nAuto-Barrier",
+    "original_fr": "Auto-Bouclier\nAuto-Barrière",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Elemental immunity",
+    "original_fr": "Annule dég{TAG:4A}ts\nélémentaires",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "Magic Defense +20\nAuto-Barrier",
+    "original_fr": "Déf. magique +20\nAuto-Barrière",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "Magic Defense +9\nStatus immunity",
+    "original_fr": "Déf. mag. +9 et\nprot. altér. d'état",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "Halves «",
+    "original_fr": "Dég{TAG:4A}ts « -50%",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "Status immunity",
+    "original_fr": "Protège des\naltérations d'état",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "Auto-Protect",
+    "original_fr": "Auto-Bouclier",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "Magic Defense +10",
+    "original_fr": "Défense\nmagique +10",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "Prevents Confuse",
+    "original_fr": "Protège contre\nConfusion",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "Prevents Lock",
+    "original_fr": "Protège contre\nOubli",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "Prevents Stop\nand Slow",
+    "original_fr": "Protège contre\nStop et Lenteur",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "Status immunity",
+    "original_fr": "Protège des\naltérations d'état",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "???",
+    "original_fr": "???",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "Auto-Haste",
+    "original_fr": "Auto-Célérité",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Halves »",
+    "original_fr": "Dég{TAG:4A}ts » -50%",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "Halves œ",
+    "original_fr": "Dég{TAG:4A}ts œ -50%",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "Strength +5",
+    "original_fr": "Force +5",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "Magic +5",
+    "original_fr": "Magie +5",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "Damage boost\nStatus immunity",
+    "original_fr": "C. critiques …/Prot.\ndes altér. d'état",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "Auto-Haste\nStatus immunity",
+    "original_fr": "Auto-Célérité/Prot.\ndes altér. d'état",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "Speed +1",
+    "original_fr": "Rapidité +1",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "Accuracy +2",
+    "original_fr": "Précision +2",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "Strength +2",
+    "original_fr": "Force +2",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "Stamina +2",
+    "original_fr": "Endurance +2",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "Magic +2",
+    "original_fr": "Magie +2",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "Status immunity",
+    "original_fr": "Protège des\naltérations d'état",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "Speed +3",
+    "original_fr": "Rapidité +3",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "Accuracy +10",
+    "original_fr": "Précision +10",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "Strength +6",
+    "original_fr": "Force +6",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "Magic +6",
+    "original_fr": "Magie +6",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "Magic Defense +10",
+    "original_fr": "Défense\nmagique +10",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "Max HP +25%",
+    "original_fr": "PV max +25%",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "Max HP +50%",
+    "original_fr": "PV max +50%",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "50% MP costs",
+    "original_fr": "PM requis -50%",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "25% MP costs",
+    "original_fr": "PM requis -75%",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "Reveals enemy HP",
+    "original_fr": "Affiche les PV\nde la cible",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "Charm rate …",
+    "original_fr": "Efficacité de\nSéduction …",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "Counter rate: 50% ",
+    "original_fr": "Riposte : 50%",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "Counter rate: 80%",
+    "original_fr": "Riposte : 80%",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "Doubles Evasion",
+    "original_fr": "Esquive °2",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "Turns EXP into G",
+    "original_fr": "Transforme les\nEXP en G",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "Auto-Raise\n(one time only)",
+    "original_fr": "Relève du Coma\n1 fois par combat",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "Auto-Berserk\nAuto-Protect",
+    "original_fr": "Auto-Furie\nAuto-Bouclier",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "Strength +4",
+    "original_fr": "Force +4",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "Speed +2",
+    "original_fr": "Rapidité +2",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "Enables use of\nEternal Darkness",
+    "original_fr": "Ténèbres sans fin\ndisponible",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "Enables use of\nOmega Flare",
+    "original_fr": "Fission oméga\ndisponible",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "Enables use of\nSpin Strike",
+    "original_fr": "Piqué mégatonne\ndisponible",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "Enables use of\nPoyozo Dance",
+    "original_fr": "Danse poyozo\ndisponible",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "Enables use of\nMaster Mune",
+    "original_fr": "Songe grandiose\ndisponible",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "Masamune crit. % …",
+    "original_fr": "C. critiques avec\nGrandléon …",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "Stamina +6",
+    "original_fr": "Endurance +6",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "Magic Defense +12",
+    "original_fr": "Défense\nmagique +12",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "Magic +5\nMagic Defense +5",
+    "original_fr": "Magie et défense\nmagique +5",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "Strength +10\nStamina +10",
+    "original_fr": "Force et\nendurance +10",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "Damage boost",
+    "original_fr": "Puissance des\nattaques …",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "Major dmg. boost",
+    "original_fr": "Puissance des\nattaques ……",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "Critical rate …\nCounter rate: 50%",
+    "original_fr": "Coups critiques …\nRiposte : 50%",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "Masamune crit. % …\nHalves MP costs",
+    "original_fr": "Crit. Grandléon …\nPM requis -50%",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "Critical rate …",
+    "original_fr": "Coups critiques …",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "Sets enemy HP to 1",
+    "original_fr": "Réduit PV de\nla cible {TAG:3C} 1",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "Counter rate: 25%\nfor non-»",
+    "original_fr": "Riposte : 25% sauf\nattaques »",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "Counter rate: 25%\nfor non-œ",
+    "original_fr": "Riposte : 25% sauf\nattaques œ",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "Counter rate: 25%\nfor non-Œ",
+    "original_fr": "Riposte : 25% sauf\nattaques Œ",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "Counter rate: 25%\nfor non-«",
+    "original_fr": "Riposte : 25% sauf\nattaques «",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "Counter rate: 25%\nfor non-physical",
+    "original_fr": "Riposte : 25% sauf\natt. physiques",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 256,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 257,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 258,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 259,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 260,
+    "original_en": "Restores 50 HP",
+    "original_fr": "Rend 50 PV.",
+    "translation": ""
+  },
+  {
+    "id": 261,
+    "original_en": "Restores 200 HP",
+    "original_fr": "Rend 200 PV.",
+    "translation": ""
+  },
+  {
+    "id": 262,
+    "original_en": "Restores 500 HP",
+    "original_fr": "Rend 500 PV.",
+    "translation": ""
+  },
+  {
+    "id": 263,
+    "original_en": "Restores 10 MP",
+    "original_fr": "Rend 10 PM.",
+    "translation": ""
+  },
+  {
+    "id": 264,
+    "original_en": "Restores 30 MP",
+    "original_fr": "Rend 30 PM.",
+    "translation": ""
+  },
+  {
+    "id": 265,
+    "original_en": "Restores 60 MP",
+    "original_fr": "Rend 60 PM.",
+    "translation": ""
+  },
+  {
+    "id": 266,
+    "original_en": "Fully restores\nHP and MP",
+    "original_fr": "Rend tous les PV et PM.",
+    "translation": ""
+  },
+  {
+    "id": 267,
+    "original_en": "Fully restores MP",
+    "original_fr": "Rend tous les PM.",
+    "translation": ""
+  },
+  {
+    "id": 268,
+    "original_en": "Fully restores\nparty's HP and MP",
+    "original_fr": "Rend tous leurs PV\net PM aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 269,
+    "original_en": "Removes status\nailments",
+    "original_fr": "Guérit les\naltérations d'état.",
+    "translation": ""
+  },
+  {
+    "id": 270,
+    "original_en": "Revives KO'd ally",
+    "original_fr": "Relève du Coma.",
+    "translation": ""
+  },
+  {
+    "id": 271,
+    "original_en": "Fully restores HP,\nMP at save point",
+    "original_fr": "Restaure PV et PM si\nsauvegarde possible.",
+    "translation": ""
+  },
+  {
+    "id": 272,
+    "original_en": "Restores HP or MP",
+    "original_fr": "Rend des PV\net/ou des PM.",
+    "translation": ""
+  },
+  {
+    "id": 273,
+    "original_en": "Restores 200 HP\nto entire party",
+    "original_fr": "Rend 200 PV aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 274,
+    "original_en": "Casts Barrier",
+    "original_fr": "Auto-Barrière",
+    "translation": ""
+  },
+  {
+    "id": 275,
+    "original_en": "Casts Protect",
+    "original_fr": "Auto-Bouclier",
+    "translation": ""
+  },
+  {
+    "id": 276,
+    "original_en": "Permanently raises\nStrength by 1",
+    "original_fr": "Augmente la force\nd'un point.",
+    "translation": ""
+  },
+  {
+    "id": 277,
+    "original_en": "Permanently raises\nMagic by 1",
+    "original_fr": "Augmente la magie\nd'un point.",
+    "translation": ""
+  },
+  {
+    "id": 278,
+    "original_en": "Permanently raises\nSpeed by 1",
+    "original_fr": "Augmente la rapidité\nd'un point.",
+    "translation": ""
+  },
+  {
+    "id": 279,
+    "original_en": "Restores some HP\nto monster",
+    "original_fr": "Rend quelques PV.\n(Arène)",
+    "translation": ""
+  },
+  {
+    "id": 280,
+    "original_en": "Causes monster\nto use Œ tech",
+    "original_fr": "Permet d'utiliser une\ncompétence. Œ (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 281,
+    "original_en": "Causes monster\nto use œ tech",
+    "original_fr": "Permet d'utiliser une\ncompétence. œ (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 282,
+    "original_en": "Causes monster\nto use « tech",
+    "original_fr": "Permet d'utiliser une\ncompétence. « (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 283,
+    "original_en": "Causes monster\nto use » tech",
+    "original_fr": "Permet d'utiliser une\ncompétence. » (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 284,
+    "original_en": "Temporarily raises\nStrength by 5",
+    "original_fr": "Force +5 temporairement\n(Arène)",
+    "translation": ""
+  },
+  {
+    "id": 285,
+    "original_en": "Damage reduction",
+    "original_fr": "Dég{TAG:4A}ts -33%\n(Arène)",
+    "translation": ""
+  },
+  {
+    "id": 286,
+    "original_en": "4° damage for\ncritical hits",
+    "original_fr": "Coups critiques :\ndég{TAG:4A}ts °4",
+    "translation": ""
+  },
+  {
+    "id": 287,
+    "original_en": "Restores 250 HP",
+    "original_fr": "Rend 250 PV.",
+    "translation": ""
+  },
+  {
+    "id": 288,
+    "original_en": "Removes status\nailments",
+    "original_fr": "Guérit les\naltérations d'état.",
+    "translation": ""
+  },
+  {
+    "id": 289,
+    "original_en": "Restores 20 MP",
+    "original_fr": "Rend 20 PM.",
+    "translation": ""
+  },
+  {
+    "id": 290,
+    "original_en": "Restores 150 HP",
+    "original_fr": "Rend 150 PV.",
+    "translation": ""
+  },
+  {
+    "id": 291,
+    "original_en": "Restores 40 MP",
+    "original_fr": "Rend 40 PM.",
+    "translation": ""
+  },
+  {
+    "id": 292,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 293,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 294,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 295,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 296,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 297,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 298,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 299,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 300,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 301,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 302,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 303,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 304,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 305,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 306,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 307,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 308,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 309,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 310,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 311,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 312,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 313,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 314,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 315,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 316,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 317,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 318,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 319,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 320,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 321,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 322,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 323,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 324,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 325,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 326,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 327,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 328,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 329,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 330,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 331,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 332,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 333,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 334,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 335,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 336,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 337,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 338,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 339,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 340,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 341,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 342,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 343,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 344,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 345,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 346,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

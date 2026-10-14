@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{MARLE}: Wh-what are those?",
+    "original_fr": "{MARLE} : Qui sont-ils ?",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{LUCCA}: Those things, they're all green and scaly!",
+    "original_fr": "{LUCCA} : Ils sont tout vert et recouverts\nd'écailles !",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{ROBO}: This life form is most perplexingly unusual.\nIt appears to possess both human and dinosaur traits.",
+    "original_fr": "{ROBO} : Des créatures {TAG:3C} mi-chemin entre un humain\net un dinosaure... Inconcevable.",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{MARLE}: What should we do, {CRONO}?",
+    "original_fr": "{MARLE} : Qu'allons-nous faire, {CRONO} ?",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{LUCCA}: We're outnumbered!",
+    "original_fr": "{LUCCA} : Ils sont trop nombreux !",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{MARLE}: Goodness! She's tough!",
+    "original_fr": "{MARLE} : Ce qu'elle est forte !",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{LUCCA}: Who...who is that?",
+    "original_fr": "{LUCCA} : Qui est-elle ?",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{ROBO}: Her combat capabilities far exceed those\nof ordinary humans.",
+    "original_fr": "{ROBO} : L'aptitude au combat de cette femme\ndépasse de loin celle d'un être humain normal.",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{MARLE}: Uh-oh...they're coming our way!",
+    "original_fr": "{MARLE} : Oh oh... Pourquoi ils nous regardent comme\nça ?",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{ROBO}: This shift in behavior corresponds to an\nunfavorable change in targets!",
+    "original_fr": "{ROBO} : Il semblerait que nous sommes désormais\nleur cible.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{MARLE}: Wh-what do you want?",
+    "original_fr": "{MARLE} : Qu'est-ce qu'elle nous veut ?",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{LUCCA}: What are you—?",
+    "original_fr": "{LUCCA} : Qu'est-ce que...!",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "{ROBO}: This female is in a severely agitated state.\nProvocation is inadvisable.",
+    "original_fr": "{ROBO} : Ne la provoquez pas. Elle est déj{TAG:3C}\nsurexcitée.",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{MARLE}: Ack!",
+    "original_fr": "{MARLE} : Ah !",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{LUCCA}: Is she trying to pick a fight?",
+    "original_fr": "{LUCCA} : Elle veut nous attaquer ?!",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "{CRONO}!",
+    "original_fr": "{CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "{ROBO}: Her...expressive abilities also appear\nfar greater than an ordinary human's.",
+    "original_fr": "{ROBO} : Et sa rapidité dépasse de loin celle d'un\nhumain, elle aussi.",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Woman: You strong.\nWhat name?{WAIT_KEY}\n{GLYPH:392} name? Good name.\nMe name? Me...",
+    "original_fr": "Femme : Toi être fort. Toi t'appeler comment ?{WAIT_KEY}\n{GLYPH:392}, hein ?\nJoli nom. Moi...",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "{AYLA}: Me {AYLA}.\n{AYLA} like strong man.\nSo {AYLA} like {GLYPH:392}!",
+    "original_fr": "{AYLA} : Moi {AYLA}. {AYLA} aimer hommes\nforts ! {AYLA} aimer {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "{MARLE}: Get away from her, {CRONO}!",
+    "original_fr": "{MARLE} : îcarte-toi, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "{LUCCA}: Looks like somebody's got a new friend.",
+    "original_fr": "{LUCCA} : Tu as une admiratrice musclée,\n{CRONO}...",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{AYLA}: You strong, too.\n{AYLA} like strong person.\nMan, woman...both like!",
+    "original_fr": "{AYLA} : Vous être tous forts. {AYLA} aimer\nhommes forts ET femmes fortes.",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{MARLE}: Oh, dear...",
+    "original_fr": "{MARLE} : Ah, d'accord...",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{LUCCA}: I...I don't... I mean, I'm not—!",
+    "original_fr": "{LUCCA} : Je... Je ne suis pas intéressée !",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "{ROBO}: Y-yes?",
+    "original_fr": "{ROBO} : Qu'y a-t-il ?",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "{AYLA}: You strange person. But strong, too.",
+    "original_fr": "{AYLA} : Toi être différent, mais toi être fort,\naussi.",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "{ROBO}: That is because I am a robot.",
+    "original_fr": "{ROBO} : C'est parce que je ne suis pas comme\nvous. Je suis un robot.",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "{AYLA}: Row-bot? What row-bot?\n{AYLA} not know row-bot.",
+    "original_fr": "{AYLA} : Rot-beau ? {AYLA} pas comprendre.",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "{ROBO}: A robot is a humanoid machine constructed\nby humans.",
+    "original_fr": "{ROBO} : Je suis un automate {TAG:3C} forme humaine créé\npar l'Homme.",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{AYLA}: What you say? No say word {AYLA}\nnot know, {AYLA} head go boom!",
+    "original_fr": "{AYLA} : Toi arrêter de dire choses que {AYLA}\npas comprendre ! Tête de {AYLA} exploser !",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "{AYLA}: {GLYPH:392}, where from?",
+    "original_fr": "{AYLA} : Vous venir d'où ?",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{MARLE}: Um, how can we explain?",
+    "original_fr": "{MARLE} : Euh... Comment pourrions-nous te\nl'expliquer...?",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "{ROBO}: An explanation cannot be formulated within\nthe bounds of her understanding.",
+    "original_fr": "{ROBO} : Il serait impossible de le lui expliquer de\nfaçon {TAG:3C} ce qu'elle comprenne.",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{LUCCA}: We're from way after the day after\ntomorrow.",
+    "original_fr": "{LUCCA} : Nous venons d'après-après-après-\naprès-demain.",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "{MARLE}: We came from many days ahead of\ntomorrow.",
+    "original_fr": "{MARLE} : Nous venons d'un jour beaucoup, beaucoup\nplus lointain que demain.",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{AYLA}: Ha ha, you funny!\n{AYLA} like funny person.",
+    "original_fr": "{AYLA} : Ha, ha, ha ! Vous être drôles !\n{AYLA} aimer gens drôles.",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "{LUCCA}: It's no use.",
+    "original_fr": "{LUCCA} : Nous n'y arriverons pas.",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "{AYLA}: You come village!\nTalk and eat. Dance! Drink!\nFun!",
+    "original_fr": "{AYLA} : Vous venir village ! Festin de bienvenue !\nBoire ! Danser ! S'amuser !",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{MARLE}: Thank you, but we can't.\nWe need to find some dreamstone.",
+    "original_fr": "{MARLE} : C'est très gentil de nous inviter, mais nous\nsommes {TAG:3C} la recherche d'une pierre onirique.",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "{LUCCA}: We'd love to go, but we're looking for\nsome dreamstone right now.",
+    "original_fr": "{LUCCA} : Nous aimerions vraiment t'accompagner,\nmais nous sommes {TAG:3C} la recherche d'une pierre onirique.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "{AYLA}: Stone? Stone everywhere!\nHere, there, village...\n{AYLA} give you many, many stone!",
+    "original_fr": "{AYLA} : Pierre ? Pierres partout. L{TAG:3C}-bas, ici,\nvillage. Si vouloir pierre, {AYLA} donner beaucoup\nde pierres.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Ioka village this way.\nFollow {AYLA}!",
+    "original_fr": "{GLYPH:392} suivre {AYLA} ! Ioka par ici !",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "{AYLA}: {GLYPH:392} slow!",
+    "original_fr": "{AYLA} : {GLYPH:392} être trop lent !",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Jump down?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous sauter ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Chief hut, north of village.",
+    "original_fr": "Tente du chef être nord du village.",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "You wear funny skins.",
+    "original_fr": "Vous porter peaux bizarres...",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "You reptite friend?\nI beat you up!",
+    "original_fr": "Vous être amis des sauriens ?\nMoi vous écraser !",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Reptites scales, cold blood.\nHard to beat.",
+    "original_fr": "Sauriens être féroces. Sauriens avoir écailles dures.\nPour battre sauriens, besoin de beaucoup de force.",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "You want see pretty stone?\nRed stone. Chief has.",
+    "original_fr": "Pierre rouge être très jolie. Vous vouloir voir pierre\nrouge ? Chef avoir pierre rouge.",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "You come mountain?\nStrange mountain. Strange thing happen.\nThat why Mystic Mountain.",
+    "original_fr": "Vous venir de montagne ? Beaucoup de choses étranges\ndans montagne, alors nous appeler montagne {TAG:64} mont\nétrange {TAG:65}.",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Kino same, like you.\nChief find Kino cry on mountain.\nChief raise Kino.\nNow Kino chief's right arm.",
+    "original_fr": "Kino aussi venir de montagne. Un jour, Kino pleurer dans\nmontagne. Chef sauver et élever Kino. Maintenant Kino\naider chef.",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "We fight reptites.\nLaruba clan no fight reptites.",
+    "original_fr": "Nous combattre sauriens. Tribu de Laruba pas\ncombattre sauriens.",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Laruba clan hide in north woods.\nAlways hide, run from reptites.\nThey weak!",
+    "original_fr": "Tribu de Laruba se cacher dans forêt du nord.\nSe cacher partout ! Tribu de Laruba fuir sauriens.\nL{TAG:4A}ches !",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Drink happy water?\nDrink, feel good!\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Vous vouloir boire eau de courage ? Eau de courage\nrendre fort !\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Rest for a while?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous reposer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Kino: Where you from?\nWhy you here?{WAIT_KEY}\nKino no like you!",
+    "original_fr": "Kino : Vous venir d'où ? Pourquoi vous venir ici ?{WAIT_KEY}\nKino pas aimer vous !",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "You strange.\nHave good stuff?\nNo...chief no say okay.\nNo can trade!",
+    "original_fr": "Vous être bizarres. Vous vouloir troquer ? Si chef pas\nêtre d'accord, pas pouvoir troquer.",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Oh, you come see me!\nWhat you have?",
+    "original_fr": "Bienvenue.\nVous vouloir troquer ?",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "{GLYPH:384}\nTransform!",
+    "original_fr": "{GLYPH:384}\nTransformation !",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "This, trade house.\nYou bring things, trade for new things!",
+    "original_fr": "Ici, tente de troc. Pouvoir échanger plein d'objets.",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "{AYLA}: Listen {AYLA}!\nWe make new friend!",
+    "original_fr": "{AYLA} : Tout le monde écouter {AYLA} !\nVoici nouveaux amis !",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Strong man, {GLYPH:392}!",
+    "original_fr": "Homme fort !\n{GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "{GLYPH:392} friend, {GLYPH:387}, {GLYPH:388}!",
+    "original_fr": "Et aussi {GLYPH:387} et {GLYPH:388} !",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "All: Oogaaah!",
+    "original_fr": "Tous : Oungaaah !",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "{AYLA}: Now, dance bobonga!",
+    "original_fr": "{AYLA} : Maintenant, danser bobonga !",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Ooga, booga Ê\nMunga, meeple Ê\nDance with wind people Ê",
+    "original_fr": "Bobonga, konga ! Ê\nOunga, bounga ! Ê\nChanter, danser avec vents ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Ooga, booga Ê\nMunga, meeple Ê\nDance with mountain people Ê",
+    "original_fr": "Bobonga, konga ! Ê\nOunga, bounga ! Ê\nChanter, danser avec monts ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Ooga, booga Ê\nMunga, might Ê\nSing, sing, dance all night Ê",
+    "original_fr": "Bobonga, konga ! Ê\nOunga, bounga ! Ê\nChanter, danser toute la nuit ! Ê",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{AYLA}: {GLYPH:392}, eat, drink, dance, sing!",
+    "original_fr": "{AYLA} : {GLYPH:392} boire, manger, chanter,\ndanser !",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "{MARLE}: Come on, {CRONO}, let's have fun!",
+    "original_fr": "{MARLE} : Allez, {CRONO}, amusons-nous !",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "{LUCCA}: Oh, should I or shouldn't I?",
+    "original_fr": "{LUCCA} : Nous voil{TAG:3C} dans de beaux draps...",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "{ROBO}: Is this the most appropriate use of\nour time in the current situation?",
+    "original_fr": "{ROBO} : Le moment est-il bien choisi pour faire la\nfête ?",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{MARLE}: This is wonderful, isn't it, {CRONO}?",
+    "original_fr": "{MARLE} : C'est bizarre, mais je me sens bien tout {TAG:3C}\ncoup !",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "{MARLE}: I think I'll dance, too!",
+    "original_fr": "{MARLE} : Je veux danser, moi aussi ! ©",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "{MARLE}: This is great!\nC'mon {CRONO}. Let's dance!\n{TAG:38}{TAG:38}{GLYPH:394}Sure.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Nah.{GLYPH:397}",
+    "original_fr": "{MARLE} : C'est génial ! © Viens, {CRONO}, danse\navec moi !\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "{LUCCA}: Hic! Tee hee...\n{CRONO}, you've got to try shum of thish!\n{TAG:38}{TAG:38}{GLYPH:394}Okay.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No, thanks.{GLYPH:397}",
+    "original_fr": "{LUCCA} : Miam ! {CRONO} !\nGo{TAG:63}tes-y toi aussi !\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "{LUCCA}: What'sh that? You a man, or a moushe?\nDrink it in one gulp!",
+    "original_fr": "{LUCCA} : Allez, sois un homme !\nAvale tout d'une traite !",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "{LUCCA}: *buuurp*",
+    "original_fr": "{LUCCA} : Oh... Burp !",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{LUCCA}: What, my cup'sh not good enough for you?\nC'mon, drink up!\n{TAG:38}{TAG:38}{GLYPH:394}Okay.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "{LUCCA} : T'as peur ou quoi ?\nAllez, vas-y, go{TAG:63}te !\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{ROBO}: This fluid contains immeasurable impurities!",
+    "original_fr": "{ROBO} : Ce... liquide contient trop d'impuretés.",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "Kino: You not Ioka person.\nWhy {AYLA} give party?\nStrange...",
+    "original_fr": "Kino : {AYLA} organiser festin pour étrangers.\nKino pas comprendre.",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "{AYLA}: {GLYPH:392} try drink?\nThis, only special time drink!\nGood drink! Name skull-smash!\nNext day, skull feel like smash!",
+    "original_fr": "{AYLA} : {GLYPH:392} go{TAG:63}ter ? Soupe spéciale de\ngrains écrasés ! Miam, miam !",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{AYLA}: Ioka village fight reptite.\nLeader name Azala. Azala very smart.",
+    "original_fr": "{AYLA} : {AYLA} combattre sauriens.\nAzara être chef des sauriens.\nTrès intelligent !",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "{AYLA}: All in Ioka village fight.\nNo fight person go Laruba village.\nAlways run from reptite, always hide.\nNot know where village.",
+    "original_fr": "{AYLA} : Tribu d'Ioka se battre, sinon joindre tribu\nde Laruba. {AYLA} pas savoir où Laruba être.\nLaruba toujours fuir sauriens.",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Azala want destroy Ioka, Laruba, both.",
+    "original_fr": "Azara vouloir détruire Ioka et Laruba.",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "But {AYLA} no lose.\nOnly when {AYLA} dead, stop fight!",
+    "original_fr": "Mais {AYLA} pas abandonner ! Si {AYLA} être\nvivante, {AYLA} combattre !",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "{AYLA}: No more talk that.",
+    "original_fr": "{AYLA} : Bon.",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Today meet {GLYPH:392}.\nGood day!\nEat, drink, dance, sing!",
+    "original_fr": "Aujourd'hui, {AYLA} rencontrer {GLYPH:392} !\nJour heureux !\nBoire, manger, chanter, danser !",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "{AYLA}: {GLYPH:392}, red rock look for, this rock?",
+    "original_fr": "{AYLA} : {GLYPH:392} chercher pierre rouge comme\npierre de {AYLA} ?",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Rare, red rock. Have rock, mean strong person.\n{AYLA} most strong Ioka village.\nSo {AYLA} rock!{WAIT_KEY}\n{GLYPH:392} want, {GLYPH:392} challenge {AYLA}!\nWin, {AYLA} give.",
+    "original_fr": "Pierre rouge être très rare. Preuve de force !\n{AYLA} être plus forte d'Ioka, alors {AYLA}\navoir pierre rouge.{WAIT_KEY}\nSi {GLYPH:392} battre {AYLA}, {AYLA} donner\npierre rouge {TAG:3C} {GLYPH:392}.",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "{AYLA}: {GLYPH:392} challenge {AYLA}?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "{AYLA} : Défier {AYLA} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "{AYLA}: {GLYPH:392} scared!?\n{GLYPH:392} strong. {AYLA} strong!\nWe battle!",
+    "original_fr": "{AYLA} : {GLYPH:392} avoir peur ? {GLYPH:392} être\nfort, comme {AYLA} ! Bon défi !",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "{AYLA}: {AYLA} go, get more skull-smash!",
+    "original_fr": "{AYLA} : Apporter beaucoup de soupe !",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{AYLA}: Party now, so drink!\n{GLYPH:392} and {AYLA} have battle,\nwho drink more!",
+    "original_fr": "{AYLA} : Aujourd'hui festin, alors défi de soupe !\n{GLYPH:392} essayer de manger plus que {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "{AYLA}: We start now.\nPush A Button many time!",
+    "original_fr": "{AYLA} : Appuyer beaucoup sur bouton A !",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "{AYLA}: Braaap!",
+    "original_fr": "{AYLA} : Burp !",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "{AYLA}: What?\n{GLYPH:392} give up?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No way!{GLYPH:397}",
+    "original_fr": "{AYLA} : Quoi ?\n{GLYPH:392} abandonner ?!\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "{AYLA}: {GLYPH:392} drink more?\n{AYLA} no can...",
+    "original_fr": "{AYLA} : {GLYPH:392} encore manger ?\n{AYLA} abandonner...",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "{AYLA}: Stop already?\nYou strong, but no can drink.",
+    "original_fr": "{AYLA} : {GLYPH:392} déj{TAG:3C} abandonner ?\n{GLYPH:392} être fort, mais avoir petit estomac.",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "{AYLA}: No more, {GLYPH:392}...\n{AYLA} lose, give rock!",
+    "original_fr": "{AYLA} : Assez. {GLYPH:392} gagner.\n{AYLA} donner pierre {TAG:3C} {GLYPH:392}.",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "{AYLA}: {GLYPH:392} drink good.\nDrink one more! To strong {GLYPH:392}!",
+    "original_fr": "{AYLA} : {GLYPH:392} bien manger.\nDernier bol pour honorer {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "{AYLA}: Pour!",
+    "original_fr": "{AYLA} : Prêts ?",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "{AYLA}: Maybe too much drink...",
+    "original_fr": "{AYLA} : Pour {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Good music!\nWe want pass down many, many generation!",
+    "original_fr": "Moi vouloir transmettre musique {TAG:3C} enfants et enfants\ndes enfants, très, très longtemps !",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "{LUCCA}: Hic...",
+    "original_fr": "{LUCCA} : Oooh, j'ai trop mangé...",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "{LUCCA}: Gah ha ha!",
+    "original_fr": "{LUCCA} : Ha, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "{MARLE}: Morning, {CRONO}!\nWasn't last night fun?",
+    "original_fr": "{MARLE} : Bonjour {CRONO} !\nOn s'est bien amusés hier soir, hein ?",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "{LUCCA}: Uhnnn... My head...{WAIT_KEY}\nI did what last night!? Liar!\nOh...but why does my head hurt like this?",
+    "original_fr": "{LUCCA} : Ooooh... J'ai mal au ventre...{WAIT_KEY}\nHein ? Qu'est-ce que tu dis ? Je n'ai rien fait de tel !\nCe n'est pas vrai !{WAIT_KEY}\n...\nMais, j'ai tout de même l'estomac {TAG:3C} l'envers...",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "{ROBO}: Good...good morning.\nIt appears that liquid induces peculiar\nbehavior in humans.",
+    "original_fr": "{ROBO} : Bon... Bonjour. Il semble que ce liquide a un\neffet spécial sur les humains.",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "{MARLE}: What made all these footprints?",
+    "original_fr": "{MARLE} : D'où viennent ces empreintes ?",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "{LUCCA}: Hey... Where did these footprints come\nfrom?",
+    "original_fr": "{LUCCA} : Oh, c'est quoi, ces empreintes ?",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "{MARLE}: It's...it's gone!",
+    "original_fr": "{MARLE} : Elle a disparu !",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "{LUCCA}: It's gone!",
+    "original_fr": "{LUCCA} : Elle a disparu !",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "{MARLE}: The Gate Key! It's gone!",
+    "original_fr": "{MARLE} : Oh non ! La clef stabilisatrice a disparu !",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "{LUCCA}: The Gate Key's gone!",
+    "original_fr": "{LUCCA} : On a volé la clef stabilisatrice !",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "{LUCCA}: The thief must have left these prints.",
+    "original_fr": "{LUCCA} : Ces empreintes doivent être celles du\nvoleur !",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "{ROBO}: It is probable that these tracks\nwere produced by the perpetrator.",
+    "original_fr": "{ROBO} : Ces empreintes sont sans doute celles de\nla personne qui a volé la clef stabilisatrice.",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "{LUCCA}: Without the Key, we're stuck here forever!",
+    "original_fr": "{LUCCA} : Sans la clef, nous devrons rester ici pour\ntoujours !",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "{ROBO}: Attempting to enter a Gate without the\nGate Key would involve an unacceptable degree of risk.",
+    "original_fr": "{ROBO} : Il serait trop dangereux de traverser le\nportail sans la clef.",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "{MARLE}: {CRONO}, let's go find {AYLA}!",
+    "original_fr": "{MARLE} : {CRONO} !\nAllons parler {TAG:3C} {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "{LUCCA}: This is bad!\nWe have to go see {AYLA}!",
+    "original_fr": "{LUCCA} : La situation est sérieuse !\nAllons parler {TAG:3C} {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "{AYLA}: Zzz...zzz... *snort*",
+    "original_fr": "{AYLA} : Rrrrrfl... Zzz... Zzz...",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{AYLA}: Uhnn...\nOh, {GLYPH:392} early awake...\nUgh...",
+    "original_fr": "{AYLA} : Oooh...\nOh, {GLYPH:392} réveillé ?",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "{AYLA}: Urgh...\nToo much skull-smash...",
+    "original_fr": "{AYLA} : Trop de soupe hier. Bleuh...",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{LUCCA}: Sorry to wake you, but someone stole\nsomething important from us while we were asleep!",
+    "original_fr": "{LUCCA} : Nous sommes désolés de t'avoir réveillée,\nmais on dirait qu'un objet précieux nous a été volé\npendant notre sommeil.",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{MARLE}: We wish we could let you sleep, but a\nvaluable thing was stolen from us!",
+    "original_fr": "{MARLE} : Désolée de te réveiller, mais on nous a\nvolé un objet précieux.",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{AYLA}: What? Stole? Must be reptite!\n*burp*",
+    "original_fr": "{AYLA} : Quoi ?\n...\nSauriens ! {AYLA} être certaine !\n... Bleuuh...",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{AYLA}: {GLYPH:392} go with {AYLA}!\nWe find bad reptite!",
+    "original_fr": "{AYLA} : Faute des sauriens ! {GLYPH:392} venir\navec {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "{AYLA}: Who else come?",
+    "original_fr": "{AYLA} : Qui venir avec {GLYPH:392} et {AYLA} ?",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "{AYLA}: Maybe village person see.\nWe go ask. {GLYPH:392} come!\nHic!",
+    "original_fr": "{AYLA} : Les autres peut-être voir voleur.\n{GLYPH:392} aller demander !\n... Bleuuh...",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Where Kino? No see all day.",
+    "original_fr": "Où être Kino ? Pas voir Kino depuis matin.",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Me see reptites.\nCome from meeting grounds.\nGo south, forest maze.",
+    "original_fr": "Moi voir sauriens sortir de place d'Ioka. Aller vers jungle\nau sud.",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "Forest maze, scary place.\nMany monsters, many paths.\nChief be careful!",
+    "original_fr": "Jungle être très dangereuse. Pleine de monstres.\nPerdre chemin. Chef être prudent !",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "Reptites strong...\nChief, take this.",
+    "original_fr": "Sauriens être très forts. Chef prendre ça.",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "Reptite leave footprint when run.\nFollow print, find lair!",
+    "original_fr": "Sauriens laisser empreintes. Suivre empreintes pour\nsuivre sauriens !",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "You brave!",
+    "original_fr": "Vous être courageux !",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Chief strong!\nYou strong too!",
+    "original_fr": "Chef être fort ! Vous être fort !",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Reptites now no come here for little while.",
+    "original_fr": "Sauriens plus venir.",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "{AYLA}: Good, {GLYPH:392} come.\nNight soon, finish ready for party.\n{GLYPH:392} this way!",
+    "original_fr": "{AYLA} : {GLYPH:392} ! Nuit bientôt tomber.\nFestin être prêt ! {GLYPH:392} suivre {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "No finish yet.\nMore wait.",
+    "original_fr": "Festin pas être encore prêt. Vous attendre.",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Where Azala run?",
+    "original_fr": "Azara fuir où ?",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "{GLYPH:392} great!\nStrong!",
+    "original_fr": "Moi admirer force de {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "What in the world...?\nCould those filthy apes have crafted\nsomething this advanced?",
+    "original_fr": "Qu'est-ce que ce peut bien être ? Comment ces\nprimates ont-ils fabriqué un objet aussi complexe ?",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{AYLA}: Azala!",
+    "original_fr": "{AYLA} : Azara !",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Azala: And so the hairless apes arrive!\nAh, and these new ones appear cut from\na finer cloth than {AYLA}.{WAIT_KEY}\nPerfect! This should make things easier.\nTell me, apes, what is the purpose of this device?",
+    "original_fr": "Azara : Voil{TAG:3C} les primates...{WAIT_KEY}\nTiens, vous n'avez pas l'air d'être des membres de la\ntribu de {AYLA}...",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "Tell Azala about the Gate Key?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Hum, parfait ! Dites-moi, {TAG:3C} quoi sert cette chose ?\n       {GLYPH:394}Répondre{GLYPH:395}\n       {GLYPH:396}Refuser de répondre{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Azala: Lies! Do you take me for a fool?\nNo one would talk so easily if that were true.\nBut perhaps this might loosen your tongues!",
+    "original_fr": "Azara : Menteurs. Personne ne dirait la vérité aussi\nfacilement. Néanmoins, ceci devrait vous aider {TAG:3C} ne\nplus mentir.",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Azala: I suppose you need some...motivation.\nSo be it!",
+    "original_fr": "Azara : Très bien. Je vois que vous avez besoin d'un\npeu de persuasion...",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "Azala: Come, Nizbel!",
+    "original_fr": "Azara : Viens, Nizbel !",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Azala: The apes...beat Nizbel!",
+    "original_fr": "Azara : Impossible... Comment des primates ont-ils pu\nvaincre Nizbel ?!",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{AYLA}: Give thing back {GLYPH:392} now!",
+    "original_fr": "{AYLA} : Azara rendre objet précieux de\n{GLYPH:392} maintenant !",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Azala: Very well... You've won today.\nBut know that we reptites are the rulers of this world!",
+    "original_fr": "Azara : Vous avez gagné cette bataille, mais n'oubliez\npas ! Ces terres appartiennent aux sauriens !",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Azala: We'll not surrender it to you filthy apes!",
+    "original_fr": "Azara : Nous ne les céderons jamais {TAG:3C} de vulgaires\nprimates !",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "{MARLE}: Is the Gate Key all right?",
+    "original_fr": "{MARLE} : Est-ce que la clef est endommagée ?!",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "{LUCCA}: The Gate Key's not broken, is it?",
+    "original_fr": "{LUCCA} : La clef n'est pas endommagée, j'espère ?!",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "{LUCCA}: Phew, I think it's okay.\nWe should be able to get back now!",
+    "original_fr": "{LUCCA} : Ouf ! Elle fonctionne toujours.\nNous pourrons rentrer !",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "{ROBO}: No damage detected.\nThe Gate Key appears operational.",
+    "original_fr": "{ROBO} : Je ne vois aucun dommage particulier.",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "{MARLE}: Oh, thank goodness!\nIt looks like it's okay.",
+    "original_fr": "{MARLE} : Ouf ! On dirait qu'elle est intacte.",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "{AYLA}: Azala come any time!\n{AYLA} no—!\nUgh... Urgh...",
+    "original_fr": "{AYLA} : Azara défier {AYLA} ?\n{AYLA} pas perdre !\n...{WAIT_KEY}\nBleuuh...",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "{AYLA}: B-bleeeugh!",
+    "original_fr": "{AYLA} : Bleuuh...",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "{AYLA}: {GLYPH:392} leave?\nNo {GLYPH:392}, {AYLA} no fun!",
+    "original_fr": "{AYLA} : {GLYPH:392} partir ?\n{AYLA} s'ennuyer.",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "{MARLE}: Thank you so much for everything,\n{AYLA}. We had a great time with you!",
+    "original_fr": "{MARLE} : Merci encore pour tout...\nOn s'est bien amusés !",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{LUCCA}: Thanks, {AYLA}.\nI learned a lot from you.",
+    "original_fr": "{LUCCA} : Merci, {AYLA}. Tu m'as beaucoup\nappris.",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "Kino: Sorry, {GLYPH:392}.\nKino try be strong now.\nEven more strong {GLYPH:392}!",
+    "original_fr": "Kino : Pardon, {GLYPH:392}. Kino devenir fort, plus fort\nque {GLYPH:392} !",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{AYLA}: Come again, {GLYPH:392}!\nHave party! Drink! Eat! Dance!\nFight! Fun!",
+    "original_fr": "{AYLA} : {GLYPH:392} revenir bientôt !\nFestin ! Boire ! Manger ! Danser !\nCombattre ! S'amuser !",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "{AYLA}: Come again, {GLYPH:392}!\n{GLYPH:387}, {GLYPH:388}, too!",
+    "original_fr": "{AYLA} : Â bientôt, {GLYPH:392} !\nÂ bientôt, {GLYPH:387} ! Â bientôt, {GLYPH:388} !",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "L, R, X, Y, B Button, dance!\nA Button, stop.",
+    "original_fr": "Danser ! Appuyer sur bouton L, bouton R, bouton X,\nbouton Y, bouton B ! Appuyer sur bouton A pour\narrêter.",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "Fang, petal, horn, feather...\nGive me 6! 3 each, 2 kind!\nI give you good strong thing!\nWhat you give me?",
+    "original_fr": "Crocs, pétales, cornes et plumes être objets de troc.\nTroquer deux types, trois chaque, contre arme ou\nprotection. Vous troquer quoi ?",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Petal: {GLYPH:367}{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Fang: {GLYPH:367}{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Horn: {GLYPH:367}{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Feather: {GLYPH:367}{GLYPH:401}",
+    "original_fr": "       {GLYPH:394}{GLYPH:367} pétale(s){GLYPH:395}\n       {GLYPH:396}{GLYPH:367} croc(s){GLYPH:397}\n       {GLYPH:398}{GLYPH:367} corne(s){GLYPH:399}\n       {GLYPH:400}{GLYPH:367} plume(s){GLYPH:401}",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "What else you give me?",
+    "original_fr": "Et quoi troquer aussi ?",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "Same thing, no good!\nGive 2 different thing!",
+    "original_fr": "Non, pas même objet ! Choisir deux types !",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "You have no thing. No thing, no trade!",
+    "original_fr": "Pas d'objets, pas de troc !",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "Fang, Petal, Horn, Feather...\nGive me 6! 3 each, 2 kind!\nI give you good strong thing!",
+    "original_fr": "Pétales, crocs, cornes et plumes être objets de troc.\nTroquer deux types, trois chaque, contre arme ou\nprotection.",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "Still want trade?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Vouloir encore troquer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "Okay trade for Ruby Gun?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Troquer contre pistolet {TAG:3C} rubis ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "{GLYPH:384}\nObtained Ruby Gun!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un pistolet {TAG:3C} rubis !",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "Okay trade for Shaman's Bow?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Troquer contre arc de shaman ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "{GLYPH:384}\nObtained Shaman's Bow!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un arc de shaman !",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "Okay trade for Stone Arm?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Troquer contre bras de pierre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "{GLYPH:384}\nObtained Stone Arm!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un bras de pierre !",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "Okay trade for Mammoth Tusk?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Troquer contre sabre d'ivoire ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "{GLYPH:384}\nObtained Mammoth Tusk!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un sabre d'ivoire !",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "Okay trade for Ruby Vest?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Troquer contre veste de rubis ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "{GLYPH:384}\nObtained Ruby Vest!",
+    "original_fr": "{GLYPH:384}\nVous obtenez une veste de rubis !",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Okay trade for Stone Helm?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Troquer contre armet de pierre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "{GLYPH:384}\nObtained Stone Helm!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un armet de pierre !",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "Okay trade for Primeval Blade?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Troquer contre sabre antique ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "{GLYPH:384}\nObtained Primeval Blade!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un sabre antique !",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "Okay trade for Magma Hand?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Troquer contre bras de magma ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "{GLYPH:384}\nObtained Magma Hand!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un bras de magma !",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Okay trade for Dreamstone Bow?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Troquer contre arc onirique ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "{GLYPH:384}\nObtained Dreamstone Bow!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un arc onirique !",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "Okay trade for Dreamstone Gun?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Troquer contre un pistolet onirique ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "{GLYPH:384}\nObtained Dreamstone Gun!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un pistolet onirique !",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "Trade! Trade your shiny stone!?",
+    "original_fr": "Troquer pierres brillantes !",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "{GLYPH:384}\nObtained 4 Potions!",
+    "original_fr": "{GLYPH:384}\nVous obtenez quatre potions !",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "Make strong armor, use many rubies.\nTrade for petal, fang, horn, feather,\n10 each.",
+    "original_fr": "Moi fabriquer armure avec beaucoup de rubis. Troquer\ncontre dix pétales, dix crocs, dix cornes et dix plumes.",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "You want trade?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Vous vouloir troquer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "You still want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Vous vouloir encore troquer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "{GLYPH:384}\nObtained Ruby Armor!",
+    "original_fr": "{GLYPH:384}\nVous obtenez une armure de rubis !",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "{AYLA}: {GLYPH:392} awake!?",
+    "original_fr": "{AYLA} : {GLYPH:392} être réveillé ?",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "{MARLE}: {AYLA}!",
+    "original_fr": "{MARLE} : {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "{LUCCA}: {AYLA}!?",
+    "original_fr": "{LUCCA} : {AYLA} ?!",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "{ROBO}: Madam {AYLA}!\nWhich would mean we are currently...",
+    "original_fr": "{ROBO} : {AYLA} ? Alors, nous sommes...",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "{AYLA}: {AYLA} want see {CRONO}, go\nMystic Mountain. You there, fall down hurt.{WAIT_KEY}\n{AYLA} carry back hut.",
+    "original_fr": "{AYLA} : {AYLA} vouloir voir {GLYPH:392}.\n{AYLA} aller sur montagne étrange et\ntrouver {GLYPH:392} avec amis, blessés.{WAIT_KEY}\n{AYLA} transporter {GLYPH:392} et amis ici.",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "{FROG}: {MAGUS}!",
+    "original_fr": "{FROG} : {MAGUS} !",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "{AYLA}: Big frog present?\nFor {AYLA} eat?",
+    "original_fr": "{AYLA} : Grosse grenouille ! Cadeau pour\n{AYLA} ? Miam, miam !",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "{FROG}: P-perish the thought! \nBut what of the pale-faced man in the cape?\nWas he not with us?",
+    "original_fr": "{FROG} : Idiote ! Dis-moi plutôt si tu as aperçu un\nhomme au visage p{TAG:4A}le portant une cape !",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "{AYLA}: No, only find you.\nCape one more tasty?",
+    "original_fr": "{AYLA} : Non, juste {GLYPH:392} et amis.\nVisage p{TAG:4A}le être meilleur que grenouille ?",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "{FROG}: So, he has fled.",
+    "original_fr": "{FROG} : Il s'est donc enfui...",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "{AYLA}: Lavos?\nYou no worry now.\nYou rest. Hurt bad.",
+    "original_fr": "{AYLA} : Lavos ? Pas important. {GLYPH:392} et amis\nêtre blessés. Se reposer.",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "{MARLE}: But if {MAGUS} didn't create\nLavos...then where did it come from?",
+    "original_fr": "{MARLE} : Mais si {MAGUS} n'a pas créé Lavos,\nd'où vient-il ?",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "{ROBO}: The records were incorrect.\nBut if {MAGUS} did not create Lavos,\nthen in what era did it originate?",
+    "original_fr": "{ROBO} : Les archives disant que {MAGUS} avait\ncréé Lavos étaient donc incorrectes.{WAIT_KEY}\nAlors, quand Lavos est-il vraiment né ?",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "{LUCCA}: {MAGUS} said that Lavos had\nexisted since ancient times.",
+    "original_fr": "{LUCCA} : Au fait, {MAGUS} a dit que Lavos\nexistait depuis des temps immémoriaux...",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "Kino: {GLYPH:392} okay now?\n{AYLA} busy, try find Laruba village.{WAIT_KEY}\nFind village, fight reptites together.\nBig fight, last fight!\nBeat all reptites or reptites beat us all!",
+    "original_fr": "Kino : {GLYPH:392} et amis aller mieux ? {AYLA} être\npartie chercher tribu de Laruba.{WAIT_KEY}\nIoka et Laruba combattre sauriens ensemble ! Si Ioka et\nLaruba pas détruire sauriens, sauriens détruire Ioka et\nLaruba !",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "Kino!",
+    "original_fr": "Kino !",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "Kino: What wrong?\n{GLYPH:392} rest, you be quiet!\n",
+    "original_fr": "Kino : Quoi ? {GLYPH:392} et amis se reposer !\nPas faire de bruit !",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "North wood, fire!\nBurn! Big burn!",
+    "original_fr": "Feu ! Feu ! Forêt du nord br{TAG:63}ler !",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "Chief look Laruba village north wood!\nChief okay?",
+    "original_fr": "Chef chercher Laruba dans forêt du nord !\nChef en danger ?",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "Red star in sky.\nSee even daytime!",
+    "original_fr": "Voir étoile rouge dans le ciel ! Même quand faire soleil !",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "Red star grow bright!\nBad sign...",
+    "original_fr": "îtoile rouge briller fort ! Mauvais signe...",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "Me see reptites!\nChase chief, go north wood!",
+    "original_fr": "Moi voir sauriens suivre chef vers forêt du nord !",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "Go lava field east, hear strange beast sound.\nNever hear before.",
+    "original_fr": "Entendre cri sinistre dans champ de lave {TAG:3C} l'est.\nJamais entendre avant.",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "Weird thing in lava field. Maybe Azala!\nBut need flying dactyl go there, over mountain.",
+    "original_fr": "Chose bizarre appara¡tre dans champ de lave.\nS{TAG:63}rement Azara ! Mais pour passer montagnes,\nbesoin de ptéranodons.",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "Trader get new weapon!\nGo see.",
+    "original_fr": "Tente de troc avoir nouvelles armes.\nVous aller voir ?",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "Laruba clan call dactyl.\nFly in sky!\nWe no can call, no can fly.",
+    "original_fr": "Tribu de Laruba pouvoir appeler ptéranodons.\nVoler dans ciel ! Ioka pas pouvoir appeler\nptéranodons. Pas voler dans ciel...",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "Go hunt hunting range.\nGet petal, fang, horn, feather!{WAIT_KEY}\nWhen rain, rare monster come out!\nRare one, good hunt!",
+    "original_fr": "Trouver pétales, crocs, cornes et plumes sur terrain de\nchasse !{WAIT_KEY}\nSi pluie tomber, monstre rare appara¡tre ! Monstre rare\nêtre très bonne prise !",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "Strong person become chief.\nMan, woman, boy, girl, no matter.\nIoka chief, big muscle!",
+    "original_fr": "Plus fort être chef d'Ioka. Homme, femme ou enfant !\nChef d'Ioka être toujours musclé !",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "{GLYPH:384}\nHP and MP restored!",
+    "original_fr": "{GLYPH:384}\nRégénération des PV et des PM !",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "Lightning stun dinosaur!\nYou know?",
+    "original_fr": "Vous savoir ? Dinosaures avoir peur de foudre !",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "Want know item?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Vous vouloir conna¡tre marchandises ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "Petal and fang, trade Ruby Gun.\nPetal and horn, trade Shaman's Bow.\nPetal and feather, trade Stone Arm.\nFang and horn, trade Mammoth Tusk.{WAIT_KEY}\nFang and feather, trade Ruby Vest.\nHorn and feather, trade Stone Helm.{WAIT_KEY}\nI tell you good thing!\nRuby Vest strong against fire.\nNot too hot when wear.",
+    "original_fr": "Troquer pétales et crocs contre pistolet {TAG:3C} rubis.\nTroquer pétales et cornes contre arc de shaman.\nTroquer pétales et plumes contre bras de pierre.{WAIT_KEY}\nTroquer crocs et cornes contre sabre d'ivoire.\nTroquer crocs et plumes contre veste de rubis.\nTroquer cornes et plumes contre armet de pierre.{WAIT_KEY}\nBon conseil : veste de rubis résister feu.\nPas br{TAG:63}ler quand porter.",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "Petal and fang, trade Dreamstone Gun.\nPetal and horn, trade Dreamstone Bow.\nPetal and feather, trade Magma Hand.\nFang and horn, trade Primeval Blade.{WAIT_KEY}\nFang and feather, trade Ruby Vest.\nHorn and feather, trade Stone Helm.{WAIT_KEY}\nI tell you good thing!\nRuby Vest strong against fire.\nNot too hot when wear.",
+    "original_fr": "Troquer pétales et crocs contre pistolet onirique.\nTroquer pétales et cornes contre arc onirique.\nTroquer pétales et plumes contre bras de magma.{WAIT_KEY}\nTroquer crocs et cornes contre sabre antique.\nTroquer crocs et plumes contre veste de rubis.\nTroquer cornes et plumes contre armet de pierre.{WAIT_KEY}\nBon conseil : veste de rubis résister feu.\nPas br{TAG:63}ler quand porter.",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "Reptites gone!\nHappy, happy!",
+    "original_fr": "Sauriens être finis !\nOunga ! Ounga !",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "We peace.\nWant long time.\nNow, no worry.",
+    "original_fr": "Tribu être rassurée. Paix enfin régner.",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "Red star fall...bad sign.\nBut reptites all gone!\nHappy!",
+    "original_fr": "îtoile rouge tombée ! Très mauvais !\nMais sauriens être tous finis ! Très bien !",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "Red star! Me see!\nLavos fall place, big fire!\nMe scared, make little water.",
+    "original_fr": "Moi avoir vu étoile rouge ! Avoir vu grand feu Lavos\ns'écraser. Terrible ! Moi avoir peur !",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "No reptites!\nHappy! Good!",
+    "original_fr": "Sauriens plus attaquer ! Youpi !",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "Reptites gone!",
+    "original_fr": "Sauriens être finis !\nOunga !",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "Strong chief, strong {GLYPH:392}!\nBig pride!",
+    "original_fr": "Moi admirer force du chef, {GLYPH:392} et amis !",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "Kino: You come see Kino!\nTake time, rest!",
+    "original_fr": "Kino : Bienvenue !\nIci pouvoir se reposer !",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "Kino: {AYLA}!\n{AYLA} okay?\nKino okay!",
+    "original_fr": "Kino : {AYLA} !! {AYLA} bien aller ?\nKino bien aller !",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "Kino: Lavos fall.\nReptites gone. That good!\nBut get cold now.\nHunt, but not many beasts.",
+    "original_fr": "Kino : Lavos s'écraser, sauriens être finis, bon !\nMais maintenant, devenir froid... Pas bon pour chasser.",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "But Kino no stop!\n{AYLA} no worry, leave to Kino!",
+    "original_fr": "Kino pas abandonner ! {AYLA} pas s'inquiéter.\nKino s'occuper d'Ioka.",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "{AYLA} quit chief.\nNow Kino chief.",
+    "original_fr": "{AYLA} plus être chef. Maintenant, Kino être chef.",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "Big fire, Lavos, fall.\nNow get cold.",
+    "original_fr": "Grand feu Lavos s'écraser. Maintenant, dehors être\nfroid...",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "Brr! Cold!",
+    "original_fr": "Brrr ! Froid !",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "Less monster, now cold.\nLess game, too.",
+    "original_fr": "Dehors être froid, alors moins de monstres.\nMoins d'animaux, aussi...",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "Happy water, all gone.\nBefore never happen.",
+    "original_fr": "Eau du courage être épuisée.\nJamais arriver avant...",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "Find strange rock!\nBut feel icky when touch, so throw away.",
+    "original_fr": "Moi trouver pierre étrange ! Désagréable {TAG:3C} toucher,\nalors moi jeter pierre.",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "Ioka people good, nice people.\nWhen village burn, they say okay live here.",
+    "original_fr": "Nous être reconnaissants. Quand village être détruit,\nIoka recueillir tribu.",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "Sky, many cloud.\nNo can see sun.",
+    "original_fr": "Beaucoup de nuages dans ciel.\nDifficile de voir soleil.",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "I look inside trade hut.\nNew thing there!",
+    "original_fr": "Visiter tente de troc.\nNouvelle protection !",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "White, cold stuff fall from sky.\nWhat that?",
+    "original_fr": "Petite chose blanche et froide tomber du ciel.\nQuoi être ? Jamais vue avant.",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

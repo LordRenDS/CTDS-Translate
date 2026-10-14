@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{MAGUS}: Their numbers are too great.\nWe must withdraw for now.",
+    "original_fr": "{MAGUS} : Cet endroit fourmille de monstres.\n... Rentrons.",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{AYLA}: Many, many monster!\n{AYLA} fight here, lose!\nNo good.",
+    "original_fr": "{AYLA} : Trop de monstres. Dangereux de\ncombattre ici. Rentrer !",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{ROBO}: Our odds against these numbers are\nunfavorable. It would be inadvisable to fight here.\nWe should return.",
+    "original_fr": "{ROBO} : Il y a énormément de monstres.\nRetirons-nous.",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{FROG}: This place is overrun with monsters.\nWe must go back, at least for now.",
+    "original_fr": "{FROG} : Cet endroit fourmille de monstres.\nRebroussons chemin.",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{LUCCA}: Eek, look at all those monsters!\nWe'd better head back!",
+    "original_fr": "{LUCCA} : Ah ! Il y a des monstres partout !\nRentrons immédiatement !",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{FROG}: What's the matter?\nHas something startled you?",
+    "original_fr": "{FROG} : Quoi ? Qu'y a-t-il de si surprenant ?",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{ROBO}: Have we startled you?",
+    "original_fr": "{ROBO} : Nous vous avons fait peur ?",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{AYLA}: Why you scared?",
+    "original_fr": "{AYLA} : Quoi ? Pourquoi être surpris ?",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{MAGUS}: Have you something to say?",
+    "original_fr": "{MAGUS} : Vous me voulez quelque chose ?",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{MARLE}: What's wrong?\nWhy are you so scared?",
+    "original_fr": "{MARLE} : Qu'y a-t-il ? Pourquoi êtes-vous aussi\nsurpris...?",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "T-talking apes!\nHairless, talking apes!",
+    "original_fr": "Des... Des primates qui parlent ! Il y a des primates qui\nparlent !!",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "RUN FOR YOUR LIVES!",
+    "original_fr": "Aaah ! Fuyons !!",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Voice: Wait!",
+    "original_fr": "Attendez !",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Are you truly talking apes?",
+    "original_fr": "ätes-vous vraiment des primates qui parlent ?",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "{LUCCA}: We're not apes!\nWe're humans! HU-MANS!\nGot it?",
+    "original_fr": "{LUCCA} : Quoi, des primates ?! Nous sommes des\nhumains ! HU-MAINS ! Pas des primates !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "{MARLE}: You're a rude one, aren't you?\nNo, we're not apes! We're humans.",
+    "original_fr": "{MARLE} : Comme vous êtes impolis ! Nous ne sommes\npas des primates, nous sommes des humains !",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "{MAGUS}: And if we are?",
+    "original_fr": "{MAGUS} : Qu'est-ce que vous dites...?!",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "{AYLA}: Why say ape?\n{AYLA} person.\nNo ape!",
+    "original_fr": "{AYLA} : Primates ! Primates ! Agaçant !\n{AYLA} être humaine, pas primate.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "{ROBO}: While technically the case, human is a\nmore precise and far preferable descriptor.\nI am a robot made by humans.",
+    "original_fr": "{ROBO} : En termes plus précis, ils sont des êtres\nhumains, et non des primates. Pour ma part, je suis\nun andro¿de fabriqué par un membre de leur espèce.",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "I see...\nSo, the legend was true after all.",
+    "original_fr": "Alors la légende disait donc vrai...",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "What do you mean, Elder?",
+    "original_fr": "Quelle légende, ancien ?",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "It is a most ancient legend.{WAIT_KEY}\nLong ago, hordes of vicious monsters preyed upon our\nvillage, threatening to destroy our people entirely.\nBut just when hope was lost, the most unusual of\nheroes appeared.",
+    "original_fr": "Il s'agit d'une légende transmise dans notre village\ndepuis les temps immémoriaux...{WAIT_KEY}\nIl y a de cela très, très longtemps, des monstres ont\nattaqué le village, menaçant d'exterminer nos ancêtres.{WAIT_KEY}\nAlors que tous croyaient que la situation était sans\nespoir sont apparus...",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Talking apes!?",
+    "original_fr": "Les primates qui parlent ?!",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "None other.\nAnd in no time at all, they drove the\nmonsters away and saved the village.",
+    "original_fr": "C'est exact. On raconte que ces primates ont éliminé les\nmonstres en un clin d'{TAG:61}il et sauvé le village.",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "So...these apes are the heroes from the legend?",
+    "original_fr": "Alors, ces gens seraient les primates héro¿ques\nd'antan ?",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "I believe they may well be.",
+    "original_fr": "Cela est fort probable.",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Pardon me for being so forward, but might we contract\nyour assistance?",
+    "original_fr": "Que diriez-vous de faire un pacte avec nous ?",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "{GLYPH:386}: Contract?",
+    "original_fr": "{GLYPH:386} : Un pacte ?",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{GLYPH:387}: Contract?",
+    "original_fr": "{GLYPH:387} : Un pacte ?",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "I would propose a contract by which we would reward\nyou for your aid on certain tasks and errands which we\ncannot do ourselves.{WAIT_KEY}\nIf you've the strength you seem to have, I think you'd\nfind it a profitable proposition. What do you say?",
+    "original_fr": "Oui, en échange de vos services, nous vous donnerons\ndes récompenses.{WAIT_KEY}\nSi vous êtes capables, je crois que c'est une bonne\naffaire... Qu'en dites-vous ?",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Agree to help the reptites?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous faire un pacte avec les sauriens ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Are you certain?\nWe've rich rewards to offer you.",
+    "original_fr": "Vraiment ? Nous avons pourtant des récompenses\nintéressantes {TAG:3C} vous offrir...",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Then we are agreed!\nAnd if it's not too sudden, I've a task for you already.{WAIT_KEY}\nThe monsters in the wood beyond have been growing\nin number as of late. Would you vanquish them for us,\nbrave heroes?",
+    "original_fr": "Le pacte est conclu. Alors, sans plus tarder...{WAIT_KEY}\nPourriez-vous éliminer les monstres qui se sont\nmultipliés dans la forêt ? Nous comptons sur vous,\nprimates héro¿ques !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "{AYLA}: What mean vanquish?\nMean eat?",
+    "original_fr": "{AYLA} : Avant, {AYLA} être chef d'Ioka !\nMaintenant, {AYLA} être héro¿ne !",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{MAGUS}: The Fiendlord, a hero...\nA droll thought.",
+    "original_fr": "{MAGUS} : Le Magistère, un héros...?\nHa ! Quelle ironie...",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "{MARLE}: I'm a hero? All right!\nI always wanted to be one!",
+    "original_fr": "{MARLE} : Une héro¿ne, moi ? Hourra ! J'ai toujours\nvoulu en être une !",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "{LUCCA}: Brave hero...\nI could get used to that!",
+    "original_fr": "{LUCCA} : Une héro¿ne ? C'est plutôt cool !",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{FROG}: Hero, you say? I wonder...\nDo my deeds measure up to yours, Cyrus?",
+    "original_fr": "{FROG} : Un héros ? Cyrus... Aurais-je maintenant\nl'étoffe d'un héros comme toi ?",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "{ROBO}: We have vanquished the monsters as\npromised, Elder, sir.",
+    "original_fr": "{ROBO} : Tel que promis, nous avons éliminé les\nmonstres, ancien.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "{FROG}: Those monsters will trouble you no more.",
+    "original_fr": "{FROG} : Nous nous sommes débarrassés des\nmonstres.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "{LUCCA}: Problem solved!\nWe took care of them all.",
+    "original_fr": "{LUCCA} : Nous nous sommes débarrassés de tous\nles monstres, ancien !",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "{MARLE}: We got rid of all the monsters!",
+    "original_fr": "{MARLE} : Nous nous sommes débarrassés de tous\nles monstres, ancien !",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "{MAGUS}: It is done.",
+    "original_fr": "{MAGUS} : Nous nous sommes débarrassés des\nmonstres...",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "You slew all of them?\nHeroes, indeed!{WAIT_KEY}\nPlease, take this as your reward.",
+    "original_fr": "Oh ? Voil{TAG:3C} qui est digne de votre réputation !{WAIT_KEY}\nVoici votre récompense.",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "{GLYPH:384}\nObtained 5 Megalixirs!",
+    "original_fr": "{GLYPH:384}\nVous obtenez cinq ultra-élixirs !",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "I'm sure we'll have other tasks to request of you in\nthe days to come. I hope we can count on your aid!",
+    "original_fr": "Nous aurons d'autres faveurs {TAG:3C} vous demander plus\ntard. Nous comptons sur vous !",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "*pant* *wheeze* *gasp*\nH-heroes!\nThank goodness you're here!{WAIT_KEY}\nI've just come from across the new bridge.\nThought I'd see what lay beyond the mountains.\nWell, I saw it—a huge, eerie tower!{WAIT_KEY}\nThere wasn't a soul around the place, but I got\nthe feeling there was something frightening inside.\nGave me the creeps. I ran all the way back here!",
+    "original_fr": "Ouf, ouf... Vous tombez pile !{WAIT_KEY}\nJe suis allé au-del{TAG:3C} de la montagne de l'autre côté du\nnouveau pont, mais une haute tour sinistre s'y dresse.{WAIT_KEY}\nIl n'y avait personne aux alentours, mais j'ai eu des\nfrissons rien qu'{TAG:3C} la regarder. J'ai pris peur, alors je\nme suis enfui.",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "Elder: A tower, you say?",
+    "original_fr": "Comment ? Une tour, tu dis ?",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "Elder?\nDo you know something of it?",
+    "original_fr": "Ancien ? Qu'y a-t-il ?",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "The old legends speak of a high tower on whose\nsummit the Heavenly Idols perch, watching over\nour village.{WAIT_KEY}\nThe Heavenly Idols are our guardians, you see.\nThey are harbingers of hope, and protectors of\npeace.{WAIT_KEY}\nIf there is a tower so near to the village, then it\nis almost certainly the one. And if you felt an\nimpure presence there, something may be amiss.",
+    "original_fr": "Une légende raconte que des déités tutélaires veillent\nsur notre village du haut d'une tour. Elles sont censées\nnous apporter la paix et l'espoir.{WAIT_KEY}\nSi cette tour est située près du village, ce doit être\ncelle dont parle la légende. Toutefois, puisqu'elle a\nune apparence sinistre, il est peut-être arrivé quelque\nchose d'anormal.",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Oh brave heroes, would it be too much trouble for you\nto go and investigate?",
+    "original_fr": "Pourriez-vous faire l'investigation de la tour ?",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "{MARLE}: Of course not!\nWe'll let you know what we find.",
+    "original_fr": "{MARLE} : Entendu. Allons voir ça de plus près.",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "{LUCCA}: A creepy old tower, huh?\nAll right, I suppose brave heroes can't\nbe afraid of a little something like that.",
+    "original_fr": "{LUCCA} : Entendu. Une tour sinistre...?\nÇa me fait un peu peur.",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "{FROG}: Not at all.\nLet us go and have a look.",
+    "original_fr": "{FROG} : C'est entendu. Allons l'examiner.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "{ROBO}: You wish for us to investigate the tower,\ncorrect? Understood.",
+    "original_fr": "{ROBO} : L'investigation de la tour ?\nC'est entendu.",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "{AYLA}: Go tower.\n{AYLA} understand.",
+    "original_fr": "{AYLA} : {AYLA} examiner tour ?\n{AYLA} comprendre.",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "My thanks.\nI'll be waiting to hear what you find.",
+    "original_fr": "Je compte sur vous.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Everyone!\nOur heroes have returned!",
+    "original_fr": "Hé, tout le monde ! Les primates sont de retour !",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "And?\nWhat news of the tower?",
+    "original_fr": "Oh, vous revoil{TAG:3C} ! Alors, et la tour ?",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "{MAGUS}: It was infested with spirits of the dead,\nbut they have been sent to the great beyond.",
+    "original_fr": "{MAGUS} : Des fantômes s'y étaient installés, mais\nnous nous en sommes débarrassés. Il ne devrait\nplus y avoir de problème.",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "{AYLA}: Strong enemy. Many strong enemy.\nBut {AYLA} beat! Now okay!",
+    "original_fr": "{AYLA} : Beaucoup de fantômes coriaces dans tour,\nmais nous vaincre fantômes. Plus de problème !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "{ROBO}: The tower was full of ghosts, but we have\neliminated them.",
+    "original_fr": "{ROBO} : Il y avait beaucoup de fantômes, mais\nnous les avons vaincus. Il n'y a plus rien {TAG:3C}\ncraindre.",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{FROG}: A great many ghosts haunted its halls.\nBut they dwell there no more.",
+    "original_fr": "{FROG} : Elle était hantée, mais nous nous sommes\ndébarrassés des fantômes. Il n'y a plus rien {TAG:3C}\ncraindre pour le moment.",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "{LUCCA}: It really was a creepy place.\nThere were ghosts everywhere!\nBut we chased them all away.",
+    "original_fr": "{LUCCA} : Elle était remplie de fantômes ! J'en ai eu la\nchair de poule... Cependant, nous les avons chassés,\nalors il n'y a plus rien {TAG:3C} craindre a priori.",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Then you have our thanks.\nDid you happen to spy our Heavenly Idols?",
+    "original_fr": "Je vois. Bon travail. Au fait, avez-vous trouvé les\ndéités tutélaires ?",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "{FROG}: Yes, they stood upon the highest floor.\nThey were too heavy to move, but they were\nquite striking.",
+    "original_fr": "{FROG} : Elles étaient au sommet de la tour.\nElles sont lourdes, alors nous les avons\nlaissées l{TAG:3C}-bas... Ce sont de magnifiques\nstatues.",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{ROBO}: We found objects on the uppermost floor\nwhich we believe to be your idols. Their weight made\nthem impossible to move, but you will be surprised\nby their appearance.",
+    "original_fr": "{ROBO} : Nous avons découvert des statues qui\npourraient être vos déités tutélaires au sommet\nde la tour.{WAIT_KEY}\nElles sont lourdes, alors nous les avons laissées l{TAG:3C}-bas,\nmais... si vous allez les voir, vous serez étonnés.",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{MAGUS}: They rest upon the tower's highest floor.\nI do not know by whose hand they were crafted,\nbut the workmanship is impeccable.",
+    "original_fr": "{MAGUS} : Nous les avons laissées au sommet de la\ntour. Je ne sais pas qui a sculpté ces statues,\nmais ils sont doués.",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "{MARLE}: Yes, they were at the top of the tower,\njust like you said. They were too heavy to carry back,\nbut I think you'll be surprised when you see them!",
+    "original_fr": "{MARLE} : Elles sont au sommet de la tour. Elles sont\nlourdes, alors nous les avons laissées l{TAG:3C}-bas, mais...\nsi vous allez les voir, vous risquez d'être étonnés.",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "{LUCCA}: Oh, those stone statues?\nYeah, they were at the top of the tower.\nThey were too heavy to budge, but you're\nin for a surprise when you see them!",
+    "original_fr": "{LUCCA} : Ah, les statues ? Elles étaient au sommet\nde la tour. Elles étaient lourdes, alors nous les avons\nlaissées l{TAG:3C}-bas, mais... si vous allez les voir, vous\nserez surpris.",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "So, they truly were there after all.\nYou've earned our gratitude once again, brave heroes.{WAIT_KEY}\nThis is a thank-you of sorts, from the village to our\nchampions. I hope it serves you well.",
+    "original_fr": "Alors, les déités existent vraiment...\nComment pourrais-je vous remercier...?{WAIT_KEY}\nVoici un témoignage de notre reconnaissance.\nVeuillez l'accepter.",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{GLYPH:384}\nObtained Champion's Badge!",
+    "original_fr": "{GLYPH:384}\nVous obtenez l'emblème du preux !",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Oh, what brings you up here?\nThis is our village sanctuary, but entry is forbidden.",
+    "original_fr": "Oh, qu'y a-t-il ? L'autel du village est situé derrière moi.\nActuellement, personne ne peut y accéder.",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "You want to enter the sanctuary?\nWell, you are our heroes...\nBut there are customs to be obeyed.{WAIT_KEY}\nEntrance is forbidden without the blessed Reptmark.\nWould you be kind enough to fetch it from the northern\nwood first?{WAIT_KEY}\nIf you retrieve the crest, I will allow you inside.",
+    "original_fr": "Vous voulez pénétrer dans la salle de l'autel ? C'est bien\nparce que c'est vous qui le demandez...{WAIT_KEY}\nSelon la coutume du village, il vous faudra l'emblème\nsaurien pour y accéder. Vous devriez pouvoir le trouver\ndans la forêt du nord. Si vous me le rapportez, je vous\nlaisserai passer.",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Yes, yes, this is it!\nVery well, then, into the sanctuary!",
+    "original_fr": "Oh, vous l'avez trouvé ! Eh bien, entrez.",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "I'll be waiting to hear what you find in the tower.",
+    "original_fr": "Allez faire l'investigation de la tour.",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "I'd love to go and see the Idols with my own eyes,\nbut I fear the years have begun to catch up with me.",
+    "original_fr": "J'aimerais bien aller admirer les déités tutélaires, mais\nmes vieux os m'en empêchent...",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "I've been thinking of taking a walk in the mountains.\nYou should go, too!",
+    "original_fr": "Je pensais aller me promener dans la montagne.\nVous devriez y aller, vous aussi !",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "I have a favor to ask.{WAIT_KEY}\nThere is a strange character at the base of the\nmountain to the southeast. When I spoke to him, he\ntold me he'd been waiting there for a \"strong person\"\nall alone for a long, long time.{WAIT_KEY}\nHe looks so lonely, and I think you might be able to\nhelp him. Please, won't you try and do something?",
+    "original_fr": "J'ai une faveur {TAG:3C} vous demander. Au pied de la montagne\nau sud-est, il y a une créature étrange.{WAIT_KEY}\nElle est toujours seule et dit qu'elle attend des gens\nforts.{WAIT_KEY}\nVous devriez correspondre {TAG:3C} ses critères. Je vous en\nprie, aidez cette créature {TAG:3C} l'air solitaire.",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "Please, won't you go to the mountain in the southeast\nand try to do something for that poor, lonely thing?",
+    "original_fr": "Je vous en prie, aidez cette créature {TAG:3C} l'air solitaire.\nElle devrait se trouver au pied de la montagne au\nsud-est d'ici.",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "You befriended him?\nOh, I knew I was right to ask you!{WAIT_KEY}\nLet me give you this for going out of your way to help\nhim.",
+    "original_fr": "Vous étiez bien les gens forts qu'attendait cette\ncréature ? Je m'en doutais !{WAIT_KEY}\nJe veux vous offrir ceci en guise de remerciement.",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Oh, I...I have one more request.\nWould you, um, take this to him for me?{WAIT_KEY}\nLet him eat it if he gets hungry.\nIt will give him his energy back.",
+    "original_fr": "Euh... Puis-je vous demander une autre faveur ?\nS'il vous pla¡t, apportez ceci {TAG:3C} la créature !{WAIT_KEY}\nC'est un panier garni qui donne beaucoup d'énergie.\nDonnez-le-lui quand elle aura l'estomac vide.",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "{GLYPH:384}\nObtained Hearty Lunch!",
+    "original_fr": "{GLYPH:384}\nVous obtenez le panier garni !",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Thank you very much.\nI hope I can be his friend someday, too.",
+    "original_fr": "J'aimerais tant un jour devenir l'ami de cette créature,\nmoi aussi...",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "To think we would end up living together!\nThis is a dream come true!",
+    "original_fr": "Je n'aurais jamais espéré vivre avec lui. J'ai l'impression\nd'être dans un rêve !",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "He's opened up a shop, you know.\nMe? I'm gathering goods for him to sell.",
+    "original_fr": "Il a ouvert un magasin. Et moi ? Je lui fournis des\nmarchandises.",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Were I as strong as you, I'd become an explorer.\nBut I'm not, so I have to make do with exploring\nclose to home.",
+    "original_fr": "Je veux devenir un explorateur. Malheureusement, je\nsuis plutôt faible, alors je dois me contenter d'explorer\nles alentours. Je vous envie...",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "I noticed the golden tree in the Millennia Wood was\ngone when I went exploring not long ago. Cut down\nby ogans, no doubt. They're always felling trees to\ncraft those hammers of theirs.",
+    "original_fr": "En m'aventurant dans la forêt du nord récemment,\nj'ai découvert que l'arbre doré avait disparu. C'est\nprobablement l'{TAG:61}uvre des ogans.{WAIT_KEY}\nLes ogans excellent dans la fabrication de maillets {TAG:3C}\npartir de troncs d'arbres.",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Looking for some metal, you say?{WAIT_KEY}\nI once hid a lump of steel in a box within the cave\nto the west. It was too heavy for me to carry all\nthe way back here. I can't promise it's still there,\nbut it's worth a look.",
+    "original_fr": "Vous cherchez du métal ? Dans un passage {TAG:3C} l'ouest du\ngrand marécage, j'ai caché autrefois dans un coffre un\nmorceau d'acier que je n'arrivais pas {TAG:3C} transporter.{WAIT_KEY}\nIl y est peut-être encore actuellement.",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "I had a wonderful time exploring around the bridge.\nNext time I've a mind to climb that tower!",
+    "original_fr": "Je me suis bien amusé {TAG:3C} explorer le pont !\nIl y a longtemps que je n'avais pas eu\nautant de frissons... La prochaine fois,\nj'irai explorer la tour.",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "If you ever happen to find some lumicite, would you\nbring it to me? I'll craft you some fine armor from it.\nI've been a smith for a great many years.",
+    "original_fr": "Je viens d'une famille de forgerons. Si vous trouvez un\nlumilithe, pourriez-vous me l'apporter ? Je pourrais en\nfaire une protection formidable !",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Oh, you found some lumicite!\nWell then, allow me to get to work!",
+    "original_fr": "Oh, oui c'est ça ! Je vais me mettre au travail tout de\nsuite !",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "It's finished!\nAnd fine work, if I may say.",
+    "original_fr": "J'ai terminé ! C'est un chef-d'{TAG:61}uvre !",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "{GLYPH:384}\nObtained Elemental Aegis!",
+    "original_fr": "{GLYPH:384}\nVous obtenez une cotte élémentaire !",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "That neighbor of mine loves to build things—almost as\nmuch as he loves to tell me about it. Hasn't he anyone\nelse to bother all day?",
+    "original_fr": "Mes voisins adorent fabriquer toutes sortes de choses.\nIls ne parlent que de ça. Qu'ils aillent embêter quelqu'un\nd'autre !",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "My neighbor has been working on building that bridge,\nbut lately he hasn't even been coming home.{WAIT_KEY}\nI don't suppose you could go and make sure he's all\nright, could you? It's not like him at all to be gone\nthis long. He always used to return at night.",
+    "original_fr": "Mon voisin qui est allé construire un pont n'est pas\nencore revenu.{WAIT_KEY}\nD'habitude, il revient pourtant tous les jours...\nPourriez-vous aller voir ce qu'il en est ?",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "He may have always prattled on a bit much, but still...\nIt's lonely without him around.{WAIT_KEY}\nHe's building his bridge on Mount Emerald, east\nthrough the southern glade. Please, go and make\nsure he's all right.",
+    "original_fr": "Même si mon voisin m'embête, je me sens un peu seul\ndepuis qu'il est parti si soudainement.{WAIT_KEY}\nJe parie qu'il est en train de construire un pont quelque\npart sur le mont verdoyant {TAG:3C} l'est de la clairière.\nJe vous en prie, allez voir ce qui lui est arrivé.",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Oh, thank goodness! You're all right!\nYou had me worried.",
+    "original_fr": "Ah, vous n'avez rien ! J'étais inquiet, vous savez !",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Forgive me.\nBut thanks to these fine folks, I'm alive and well.\nAnd what's more, I've completed the bridge!",
+    "original_fr": "Je suis désolé de vous avoir causé du souci.\nLes primates m'ont sauvé la vie et m'ont aidé\n{TAG:3C} réaliser mon rêve !",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Oh, that's wonderful!",
+    "original_fr": "Quelle bonne nouvelle ! Et tout ça, gr{TAG:4A}ce aux primates\nhéro¿ques !",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "That it is.\nThank you for everything, brave heroes!",
+    "original_fr": "Oui ! Je leur suis très reconnaissant !",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Oh, you've come, too!\nIs something the matter?",
+    "original_fr": "Oh ? C'est le gnu ! Qu'y a-t-il ?",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "I was alone on mountain.\nBut there are people here.\nSo I come here.",
+    "original_fr": "Sur la montagne, je suis seul, mais ici, il y a des gens,\nalors je suis venu.",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Oh? Well, ours is a humble village, but you're more than\nwelcome here. We're in your debt!",
+    "original_fr": "Oh ? Notre village n'est pas particulièrement attrayant,\nmais tu y es le bienvenu ! On te doit bien ça.",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Um, excuse me.\nI...",
+    "original_fr": "Euh... Je...",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "I liked your food.",
+    "original_fr": "Le panier garni était délicieux.",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Oh...thank you!\nAnd you finally came to see me.",
+    "original_fr": "C'est vrai ? Ça me fait plaisir ! Tu es enfin venu...",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Yep.",
+    "original_fr": "Oui.",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Do you...do you want to live with me?",
+    "original_fr": "Veux-tu habiter avec moi ?",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "All right.",
+    "original_fr": "D'accord.",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Truly? Oh, we'll be the best of friends!\nFollow me!",
+    "original_fr": "Hourra ! Nous serons les meilleurs amis du monde !\nAllons ensemble {TAG:3C} la maison !",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Seems he's made himself a new friend.",
+    "original_fr": "On dirait que le gnu s'est lui aussi fait un nouvel ami.",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "What a wonderful day for the village!",
+    "original_fr": "Tout est bien qui finit bien !",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "I don't know how to thank you properly, but I hope\nthis will be a start. It isn't much, but I'd like you to\nhave it.",
+    "original_fr": "Je ne sais pas comment vous remercier, mais j'espère\nque ceci vous sera utile. Tenez !",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "{GLYPH:384}\nObtained Saurian Leathers!",
+    "original_fr": "{GLYPH:384}\nVous obtenez une peau de dinosaure !",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "It's good to have things back to normal again.\nBut when I think of the endless stories I'll have\nto endure, I sometimes wonder if it's truly for\nthe best.",
+    "original_fr": "C'est bien que tout soit rentré dans l'ordre. Cependant,\nje dois de nouveau endurer ses histoires... J'en ressors\ntoujours perdant.",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "I want to build something that will last for future\ngenerations to use. Like a ladder! Incredible, aren't\nthey—ladders? I always wonder who built them, and\nwhen.",
+    "original_fr": "J'aimerais fabriquer quelque chose de solide qui durera\nlongtemps.{WAIT_KEY}\nPrenez les échelles, par exemple ! Formidables !\nJe me demande par qui et quand elles ont été\nfabriquées...",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "Is that the Prismastone?{WAIT_KEY}\nNow there's something that's stood the test of time!\nIf you could somehow hold that up next to the same\nstone from millions of years ago, I doubt you could\neven tell which was which!",
+    "original_fr": "La pierre irisée ? Cette pierre magnifique qui date d'il y\na très longtemps, c'est ça ? Je parie qu'elle a toujours\nla même apparence, même après toutes ces années.",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "You'll need sturdy vines to make a sturdy ladder.\nYou ought to be able to find some growing in a\nthicket down in the southern glade.",
+    "original_fr": "Pour fabriquer une échelle, il faudrait du lierre\nrésistant. Vous devriez pouvoir en trouver dans\nles fourrés de la clairière au sud d'ici.",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "I've decided to make it my goal to protect that\nwondrous new bridge. I'll see that it outlives us all!",
+    "original_fr": "Vous savez ce pont qui a récemment été construit ?\nEh bien, j'ai décidé de le protéger et de l'entretenir.\nJe ferai en sorte qu'il dure très longtemps !",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "It's been my lifelong dream to build a great bridge to\nspan the mountains.{WAIT_KEY}\nUnfortunately, I've had no luck acquiring the tools\nI'd need for such a task.",
+    "original_fr": "Mon rêve serait de construire un pont énorme entre\ndeux montagnes.{WAIT_KEY}\nCependant, pour ce faire, il me faudrait des matériaux\nque je n'arrive pas {TAG:3C} me procurer...",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "If you happen to come across anything you\nthink I could use, would you bring it to me?\nIt would be enormously helpful.",
+    "original_fr": "Si jamais vous trouvez ce dont j'ai besoin,\npourriez-vous me l'apporter ? Je compte\nsur vous !",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Ah, that godwood should do quite nicely for the lumber!",
+    "original_fr": "Hum ? Ce bois divin pourra me servir !",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "Oh, I ought to be able to use that steel ingot for the\nmetal I need!",
+    "original_fr": "Oh, ce morceau d'acier me sera utile !",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "Dear me! That Golden Hammer is glorious!\nThat should serve splendidly.",
+    "original_fr": "Ah ! Je pourrais utiliser ce maillet doré !",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "My thanks! With all this, I should be able to make the\nbridge of my dreams a reality.{WAIT_KEY}\nHere, take this as a token of my gratitude.",
+    "original_fr": "Je vous remercie ! Je crois que je vais désormais\npouvoir réaliser mon rêve de construire ce pont !{WAIT_KEY}\nAcceptez ceci en guise de remerciement.",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{GLYPH:384}\nObtained Haste Helm!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un armet de célérité !",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Well, then, off to the mountains I go!",
+    "original_fr": "Et maintenant, je vais sans plus tarder aller sur la\nmontagne !",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "The bridge is complete!\nMy dream has come true.\nThank you so much!",
+    "original_fr": "J'ai construit le pont de mes rêves gr{TAG:4A}ce {TAG:3C} vous, merci !",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "How have you been? If you have the chance, go\nand take a stroll along the bridge sometime!",
+    "original_fr": "Comment allez-vous ? Si le c{TAG:61}ur vous en dit, n'hésitez\npas {TAG:3C} emprunter de nouveau ce long pont.",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Will you stay for the night?\nYou'll feel much better.",
+    "original_fr": "Voulez-vous passer la nuit ici ? Votre fatigue\ndispara¡tra !",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "I help everyone.",
+    "original_fr": "Je vous donnerai un coup de main.",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "I have store now.\nLook at my stuff.",
+    "original_fr": "J'ai ouvert un magasin. Regardez.",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "I have good stuff.\nLook at my stuff.",
+    "original_fr": "J'ai beaucoup de marchandises intéressantes.\nRegardez.",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Set the Prismastone here?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous placer la pierre irisée ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Take the Prismastone?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous prendre la pierre irisée ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "{AYLA}: No shiny tree!\n{AYLA} grow! Why no here?",
+    "original_fr": "{AYLA} : Arbre brillant disparu ! Nous prendre soin\nd'arbre ici. Pourquoi être disparu ?",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "{ROBO}: How peculiar.\nThe golden tree we were growing is no longer here.",
+    "original_fr": "{ROBO} : C'est étrange. L'arbre doré qui devait\npousser ici a disparu.",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{FROG}: Odd...\nWhat's become of our golden tree?\nShould it not be here?",
+    "original_fr": "{FROG} : îtrange ! Qu'est-il arrivé {TAG:3C} l'arbre doré ?\nN'est-il pas censé être ici ?",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "{LUCCA}: Oh no!\nThe golden tree's gone!\nWhat do you suppose happened to it?",
+    "original_fr": "{LUCCA} : Oh, l'arbre doré a disparu ! Il était\npourtant censé être ici. Je me demande ce\nqui lui est arrivé...",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "{MARLE}: What happened to our golden tree?\nYou don't suppose it died, do you?",
+    "original_fr": "{MARLE} : L'arbre doré a disparu ! Que lui est-il\narrivé ? Nous en avons pourtant pris soin.\nAurait-il péri ?",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "{FROG}: Look!\nThe Golden Hammer!",
+    "original_fr": "{FROG} : Regardez ! Ce monstre a un maillet doré !",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{ROBO}: Over there!\nThat is the Golden Hammer!",
+    "original_fr": "{ROBO} : Regardez ! Ce monstre a un maillet doré !",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "{AYLA}: Look!\nGold Hammer!",
+    "original_fr": "{AYLA} : Regarder ! Monstre avoir maillet doré !",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "{MARLE}: Look, look!\nIt's the Golden Hammer!",
+    "original_fr": "{MARLE} : Oh, regardez ! Ce monstre a un maillet\ndoré !",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "{LUCCA}: Hey, is that the Golden Hammer!?",
+    "original_fr": "{LUCCA} : Un instant... N'est-ce pas un maillet doré\ndans la main de ce monstre ?!",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "{LUCCA}: H-hey, where are you going!?",
+    "original_fr": "{LUCCA} : Hé, attends un peu !",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "{MARLE}: Wait!",
+    "original_fr": "{MARLE} : Ah ! Attends !",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "{AYLA}: Stop! No run!",
+    "original_fr": "{AYLA} : Non ! Pas fuir !",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{ROBO}: It is fleeing!",
+    "original_fr": "{ROBO} : Un instant !",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "{FROG}: Hold!",
+    "original_fr": "{FROG} : Hé, attends !",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "{MAGUS}: He is fled.\nBut he cannot have gone far.",
+    "original_fr": "{MAGUS} : Il s'est enfui... Cependant, il devrait\ntoujours être dans les environs.",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "{MARLE}: He should still be around here.\nLet's go find him!",
+    "original_fr": "{MARLE} : Il devrait encore être dans les environs !\nTrouvons-le !",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "{LUCCA}: He's gotta be around here somewhere.\nLet's go after him!",
+    "original_fr": "{LUCCA} : Il est sans doute encore dans les\nenvirons. Allons lui prendre son maillet doré !",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "{FROG}: He cannot have fled far.\nWe can still give chase!",
+    "original_fr": "{FROG} : Il devrait encore être dans les environs.\nPartons {TAG:3C} sa recherche avant qu'il ne soit trop loin.",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "{ROBO}: He should still be within the vicinity.\nWe should search the area!",
+    "original_fr": "{ROBO} : Il devrait toujours être dans les environs !\nTrouvons-le !",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "{ROBO}: We have subdued him.\nNow we can take the Golden Hammer.",
+    "original_fr": "{ROBO} : Nous t'avons enfin attrapé.\nDonne-nous ton maillet doré.",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "{FROG}: You are defeated.\nWe'll have that hammer from you now!",
+    "original_fr": "{FROG} : Nous t'avons enfin attrapé.\nDonne-nous ton maillet doré.",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "{LUCCA}: Gotcha!\nPut up a good fight, didn't you?\nBut now it's time you handed over that hammer!",
+    "original_fr": "{LUCCA} : Nous t'avons attrapé ! Tu nous as donné\ndu fil {TAG:3C} retordre, tu sais. Allez, donne-nous ton\nmaillet doré !",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "{MARLE}: Finally got you!\nSorry, but we need that hammer!",
+    "original_fr": "{MARLE} : Nous t'avons enfin attrapé. Désolée, nous\navons besoin de ton maillet doré.",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "{AYLA}: Catch!\nTake hammer now!",
+    "original_fr": "{AYLA} : Plus fuir ! Donner maillet doré !",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{GLYPH:384}\nObtained Golden Hammer!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un maillet doré !",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{GLYPH:384}\nObtained Sturdy Vines!",
+    "original_fr": "{GLYPH:384}\nVous obtenez du lierre résistant !",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{GLYPH:384}\nObtained Steel Ingot!",
+    "original_fr": "{GLYPH:384}\nVous obtenez un morceau d'acier !",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "I guard here.\nYou no pass.",
+    "original_fr": "Je suis le gardien de cet endroit. Je ne laisserai passer\npersonne.",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "You remember?\nI lose. Then I train.\nThen I no lose no more.\nNext time I beat you.{WAIT_KEY}\nI wait on top of mountain.\nLots of monsters on mountain.\nYou come up!",
+    "original_fr": "Vous vous souvenez ? J'ai perdu contre vous, alors\nje me suis entra¡né. Je n'ai plus jamais perdu depuis.{WAIT_KEY}\nJe vous attendrai au sommet de la montagne.\nDes monstres féroces y vivent. Pourrez-vous\nl'escalader ?{WAIT_KEY}\nSi vous y arrivez, je vous affronterai pour la dernière\nfois !",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "{AYLA}: Ladder break.\nNo can go up.\nMake new strong ladder?",
+    "original_fr": "{AYLA} : îchelle être cassée. {AYLA} pas\npouvoir grimper. {AYLA} devoir fabriquer\nnouvelle échelle solide !",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "{MAGUS}: The ladder has collapsed.\nWe'll need a new one if we are to reach the summit.",
+    "original_fr": "{MAGUS} : Cette échelle est endommagée.{WAIT_KEY}\nSans une échelle solide, nous ne pourrons pas aller plus\nloin...",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "{MARLE}: The ladder's broken!\nHow are we supposed to get up there?\nI guess we'll have to build our own.",
+    "original_fr": "{MARLE} : Cette échelle est endommagée ! Nous ne\npourrons pas aller plus loin. Nous allons devoir\nfabriquer une échelle solide.",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "{LUCCA}: The ladder's broken.\nLooks like we won't be able to get up there\nunless we can put together a new one.",
+    "original_fr": "{LUCCA} : Cette échelle est endommagée. Si nous n'en\nfabriquons pas une autre plus solide, nous ne\npourrons pas aller plus loin.",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "{FROG}: It appears the ladder is broken.\nShall we make a new one to replace it?",
+    "original_fr": "{FROG} : Cette échelle est endommagée.\nNous devrons en fabriquer une autre.",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "{ROBO}: We lack the means to hang a new ladder.\nWe would need some way to reach the top. I do not\nthink we will be successful in this era.",
+    "original_fr": "{ROBO} : Le lierre n'atteint pas le haut de la falaise.\nSi seulement nous pouvions grimper plus haut...\nToutefois, cela semble impossible {TAG:3C} cette époque.",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "{FROG}: We've no way to reach the top.\nWe need to hang the ladder from above, but\nI do not think we will be doing so in this age.",
+    "original_fr": "{FROG} : Le lierre n'atteint pas le haut de la falaise.\nSi seulement nous pouvions grimper plus haut...\nToutefois, il est impossible de le faire {TAG:3C} cette\népoque.",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "{LUCCA}: Hmm...\nThere's no way for us to tie the vines to the top.\nWe need a way to climb up there, and I don't think\nthere is one in this era.",
+    "original_fr": "{LUCCA} : Le lierre n'atteint pas le haut de la falaise.\nSi seulement nous pouvions grimper plus haut...\nToutefois, il est impossible de le faire {TAG:3C} cette\népoque.",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "{MARLE}: How are we supposed to hang a new ladder\ndown? We'd need to get up to the top to do it.\nMaybe if we went to a different age...",
+    "original_fr": "{MARLE} : Le lierre n'atteint pas le haut de la falaise.\nIl doit pourtant y avoir un moyen de grimper plus haut.\nÂ une autre époque, peut-être...",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "{MAGUS}: We've no way to hang a new ladder.\nWe'd need to be able to reach the top to do so.\nLet us try in another era.",
+    "original_fr": "{MAGUS} : Il est impossible de l'installer d'ici. Nous\ndevons grimper plus haut... Il faudra aller {TAG:3C} une\népoque différente.",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "Oh, you finally get here.{WAIT_KEY}\nI wait long time for you.\nI train lots and lots.\nNow I beat you.",
+    "original_fr": "Vous voil{TAG:3C} enfin.{WAIT_KEY}\nJe vous attends depuis longtemps. Je me suis beaucoup\nentra¡né.{WAIT_KEY}\nCette fois, je vais vous vaincre.",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "Why I lose?\nI very strong now.\nBut I can't win.",
+    "original_fr": "Pourquoi ai-je perdu ? Je suis devenu très fort et\npourtant je n'arrive pas {TAG:3C} vous vaincre.",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "{FROG}: Have you no companions?\nNo people you wish to protect?\nThose are what drive a man to victory,\nnot strength of arm.",
+    "original_fr": "{FROG} : As-tu quelqu'un que tu veux protéger ou\ndes amis avec qui tu peux partager les hauts et\nles bas ?{WAIT_KEY}\nCe n'est pas une question de force physique, mais une\nquestion de force de l'{TAG:4A}me.",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "{MARLE}: Well, it's not all about strength,\nyou know. It helps having friends to help you\nor someone important you want to protect.",
+    "original_fr": "{MARLE} : Hum... Je vois. Tu n'as sans doute pas\nquelqu'un {TAG:3C} protéger, ou encore d'amis qui\ncombattent {TAG:3C} tes côtés.{WAIT_KEY}\nIl n'y a pas que la force brute qui compte, tu sais.",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "{LUCCA}: Don't you have any friends to fight\nwith you, or anyone important to protect?\nYou can't expect to be strong inside if\nyou're always alone!",
+    "original_fr": "{LUCCA} : Tu n'as pas quelqu'un {TAG:3C} protéger ou d'amis\nqui combattent {TAG:3C} tes côtés ? C'est ton {TAG:4A}me qui est\nfaible.",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "{ROBO}: I have friends assisting me in battle,\nand people I wish to protect. You do not. I believe\nthe outcome is a result of that discrepancy.",
+    "original_fr": "{ROBO} : Nous avons quelqu'un {TAG:3C} protéger et des\namis qui combattent {TAG:3C} nos côtés. Tu n'as personne.\nVoil{TAG:3C} la différence.",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "{AYLA}: {AYLA} have strong friend.\nSo fight hard.\nYou, no friend.\nSo lose.",
+    "original_fr": "{AYLA} : {AYLA} avoir quelqu'un {TAG:3C} protéger et\ncombattre avec amis. Gnu pas avoir, alors gnu\nperdre.",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Oh.\nI need friends?",
+    "original_fr": "Ah bon. Des amis ?",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "I never think like that.\nMaybe you right.",
+    "original_fr": "Je n'avais jamais pensé qu'il n'est pas bien d'être seul\net qu'il est important d'avoir des amis.",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "Will you be my friends?",
+    "original_fr": "Puis-je être votre ami ?",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "{AYLA}: Not ask, be friend!\nBe nice, help, be friend.\nTake time.{WAIT_KEY}\nBut, maybe {AYLA} be friend.",
+    "original_fr": "{AYLA} : Pas pouvoir devenir amis tout de suite.\nD'abord s'entraider, ensuite être amis.",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "{ROBO}: Issuing a request is not the\nstandard protocol for initiating friendship.\nPeople become friends after spending time\ntogether through joy and hardship.{WAIT_KEY}\nBut we are acquainted now, so I believe we\nare well on the road to becoming friends.",
+    "original_fr": "{ROBO} : Nous ne pouvons pas être tes amis parce\nque tu nous le demandes. C'est en partageant de\nbons moments et aussi des moments difficiles\nqu'un jour on devient amis.",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "{LUCCA}: Well, that's a little...direct, but\nI think we can be friends. Someday, anyway.\nIt takes time, you know.",
+    "original_fr": "{LUCCA} : ätre amis, comme ça, tout d'un coup...?\nC'est un peu soudain. Un jour, peut-être...",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "{MARLE}: Well, it's not that easy.\nIt takes time to become friends.\nBut I think we're on the way!",
+    "original_fr": "{MARLE} : Ce n'est pas aussi simple que ça.\nOn ne peut pas être amis dès le début.\nUn jour, peut-être...",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Okay.\nYou need something, I help you.\nI be your friend.",
+    "original_fr": "Entendu. Si vous avez besoin de moi, je vous prêterai\nmain-forte. Un jour, nous serons amis.",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "You need something, I help you.\nI be your friend.",
+    "original_fr": "Si vous avez besoin de moi, je vous prêterai main-forte.\nUn jour, nous serons amis.",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "{ROBO}: We have a request for you.\nWould you be willing to assist in the\nconstruction of a bridge?",
+    "original_fr": "{ROBO} : Nous avons une faveur {TAG:3C} te demander...\nNous voudrions que tu aides quelqu'un {TAG:3C} construire\nun pont.",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "{FROG}: We've a favor to ask. Would you be\nwilling to aid in the building of a bridge?",
+    "original_fr": "{FROG} : Nous avons une faveur {TAG:3C} te demander...\nPourrais-tu aider quelqu'un {TAG:3C} construire un pont ?",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "{LUCCA}: Do you think you could help build a bridge?",
+    "original_fr": "{LUCCA} : Nous avons une faveur {TAG:3C} te demander...\nPourrais-tu aider quelqu'un {TAG:3C} construire un pont ?",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "{MARLE}: We were wondering if you might be willing\nto help build a bridge.",
+    "original_fr": "{MARLE} : Nous avons une faveur {TAG:3C} te demander...\nPourrais-tu aider quelqu'un {TAG:3C} construire un pont ?",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "{MAGUS}: Think you can handle some manual labor?\nYour strength is needed to build a bridge.",
+    "original_fr": "{MAGUS} : Saurais-tu construire un pont ?",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "Yes, I try.\nI want help you.",
+    "original_fr": "Je vais essayer. Je veux vous apporter mon aide.",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "{GLYPH:384}\nThe stone shines with an inner light.",
+    "original_fr": "{GLYPH:384}\nLa pierre brille avec éclat !",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "{GLYPH:384}\nObtained Waystone!",
+    "original_fr": "{GLYPH:384}\nVous obtenez la pierre guide !",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "It's been my lifelong dream to build a great bridge to\nspan the mountains. I'll do it, just you watch!",
+    "original_fr": "Mon rêve serait de construire un pont énorme entre\ndeux montagnes. Vous allez voir, un jour, je vais le\nréaliser !",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "{GLYPH:384}\nObtained Nova Armor!",
+    "original_fr": "{GLYPH:384}\nVous obtenez une armure nova !",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "{AYLA}: Con...track?",
+    "original_fr": "{AYLA} : Pacte ?",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "{FROG}: Mayhap someday we will.\nFriendships are forged over time, you know.\n",
+    "original_fr": "{FROG} : C'est un peu tôt. Pour devenir amis, il faut\nd'abord passer du temps ensemble.",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "{ROBO}: Have you encountered a man attempting to\nconstruct a bridge upon this mountain?",
+    "original_fr": "{ROBO} : Aurais-tu récemment aperçu un\nhomme construisant un pont aux alentours ?",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "{LUCCA}: We're trying to find a man who came up\nthis mountain to build a bridge. You haven't\nhappened to have seen him, have you?",
+    "original_fr": "{LUCCA} : Un homme qui veut construire un pont\ns'est aventuré dans la montagne. L'aurais-tu vu ?",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "{MARLE}: We're looking for a man who said he\nwas going to build a bridge on this mountain.\nHave you seen anyone like that around here?",
+    "original_fr": "{MARLE} : Nous cherchons un homme qui a dit qu'il\nallait construire un pont. L'aurais-tu aperçu ?",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "{FROG}: We seek a man keen on constructing a\nbridge upon the mountain. Have you seen him?",
+    "original_fr": "{FROG} : Nous sommes {TAG:3C} la recherche d'un homme\nqui voulait construire un pont. L'aurais-tu aperçu ?",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "{AYLA}: Man say build bridge.\nYou know?\n",
+    "original_fr": "{AYLA} : Nous chercher homme. Lui construire pont.\nToi l'avoir vu ?",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "I see him.\nHe build bridge alone, just past here.",
+    "original_fr": "Oui. Il y a quelqu'un qui construit un pont seul un peu\nplus loin.",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "{AYLA}: {AYLA} want talk him.\nLet {AYLA} cross.",
+    "original_fr": "{AYLA} : Bien ! Gnu laisser passer !",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "{ROBO}: There is a high probability that the man\nyou saw is who we seek. Will you allow us to pass?",
+    "original_fr": "{ROBO} : C'est peut-être lui. Pourrais-tu nous\nlaisser passer ?",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "{MAGUS}: Then might you stand aside?\nWe've business with him.",
+    "original_fr": "{MAGUS} : C'est sans doute l'homme que nous\ncherchons. Laisse-nous passer.",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "{MARLE}: That must be him!\nWill you let us through? Please?",
+    "original_fr": "{MARLE} : C'est probablement lui ! Dis, tu pourrais\nnous laisser passer ?",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "{FROG}: That must be him.\nWill you let us pass?",
+    "original_fr": "{FROG} : C'est s{TAG:63}rement lui. Pourrais-tu nous laisser\npasser ?",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "Okay.",
+    "original_fr": "D'accord.",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "Zzz...",
+    "original_fr": "Zzz...",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "Agree to look for building materials?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous chercher des matériaux de construction ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "Oh, thank you! I'll be waiting here.\nIf you could bring me each of those three things,\nit would mean the world to me.",
+    "original_fr": "Merci beaucoup. Vous pouvez me les apporter un par un.\nJe vous attendrai ici !",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "All right... I understand.\nIf you have a change of heart,\nplease come back and let me know.",
+    "original_fr": "Je vois... Si vous changez d'avis, faites-moi signe,\nd'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "Agree to check on the lonely figure?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous aider la créature solitaire ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "Oh, you're so kind!\nI appreciate it, truly.",
+    "original_fr": "Je vous remercie !",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "Well, I won't force you to go.\nBut please, give it some more thought.",
+    "original_fr": "Je ne veux pas vous forcer. Réfléchissez-y quand\nmême, d'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "If there's anything I can ever do to help you or\nthat fellow out, please don't hesitate to ask.",
+    "original_fr": "S'il arrive quoi que ce soit {TAG:3C} cette créature, venez m'en\nparler, d'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "Oh dear, he's hungry?{WAIT_KEY}\nWell then, will you give him this for me?",
+    "original_fr": "Oh, cette créature veut de la nourriture ?{WAIT_KEY}\nDans ce cas, pourriez-vous lui donner ceci ?",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "That fellow's been around for a very long time.\nI don't know if my cooking will be anything like\nwhat he's used to, but I hope he enjoys it.",
+    "original_fr": "Cette créature a vécu si longtemps... Je ne sais pas si\nça lui plaira, mais offrez-le-lui quand même de ma part.",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "Agree to check on the bridge builder?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous chercher le constructeur de pont ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "I appreciate it. He should be somewhere on Mount\nEmerald, east of the southern glade.",
+    "original_fr": "Merci bien ! Il devrait être quelque part sur le mont\nverdoyant {TAG:3C} l'est de la clairière. Je m'en remets {TAG:3C}\nvous !",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "I only want you to go and make sure he's all right.\nYou really can't do that for me?",
+    "original_fr": "Vous n'auriez pourtant qu'{TAG:3C} aller voir ce qu'il lui est\narrivé, c'est tout...",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "He's well, then. That's a relief. If you see him again,\nbe sure to give him my best wishes.",
+    "original_fr": "Je me demande si mon voisin se porte bien...\nJ'espère que oui. Si vous le voyez, dites-lui\nde ne pas abandonner !",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "Oh, you're finally back!\nI must say, I'd grown a bit worried.",
+    "original_fr": "Vous avez enfin terminé votre pont. Je m'étais tant\ninquiété...",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "I spared no effort on that piece.\nI hope it serves you well!",
+    "original_fr": "C'est mon chef-d'{TAG:61}uvre. Qu'en pensez-vous ?",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "Why don't you stay for the night?\nYou'll feel much better.\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Une bonne nuit de sommeil fait toujours du bien !\nVoulez-vous vous reposer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "Did you sleep well?",
+    "original_fr": "Vous vous sentez mieux ? Faites attention {TAG:3C} vous !",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "I train hard for long time.\nI tired now.\nI rest a little.",
+    "original_fr": "Je me suis beaucoup entra¡né, alors je suis fatigué.\nJe vais me reposer un peu.",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "To build the frame, I need sturdy lumber.",
+    "original_fr": "{GLYPH:384}\nDu bois dur et solide qui peut constituer\nla charpente d'un pont.",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "To reinforce the structure, I'll need strong metal.",
+    "original_fr": "{GLYPH:384}\nDu métal très dur qui peut servir\n{TAG:3C} renforcer une structure en bois.",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "To nail it all together, I'll need a durable hammer.",
+    "original_fr": "{GLYPH:384}\nUn maillet ouvré permettant de fixer\nensemble du métal et du bois.",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "You've done a lot for this village.\nWe owe you a great deal of thanks.",
+    "original_fr": "Votre aide nous a été très précieuse. Merci encore !",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "We're counting on you to clear the wood of monsters.",
+    "original_fr": "S'il vous pla¡t, éliminez les monstres de la forêt !",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "We know our village has a long history, but I wonder\njust how long ago it was truly founded.",
+    "original_fr": "On raconte que notre village a toujours existé, mais je\nme demande quand il a vraiment été fondé...",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "I love to build things. I want to make something that\nwill last for centuries to come.",
+    "original_fr": "J'adore fabriquer toutes sortes de choses, mais\nsurtout, je veux que mes créations durent très\nlongtemps.",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "We pray for the peace of our world.\nWe are ever so devout.\nTee hee hee...",
+    "original_fr": "Nous prions pour que la paix règne partout dans le\nmonde. Hi, hi...",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "...that we might reclaim the future for ourselves,\nin Your name.{WAIT_KEY}\nOh, how delicious—I mean, delightful-looking you are!",
+    "original_fr": "Nous prions pour qu'un jour, bientôt, nous puissions\nrétablir notre avenir... Oh, comme vous avez l'air déli...{WAIT_KEY}\nEuh, ce n'est rien. Ho, ho, ho, ho.",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Oh great Lord and Master, deliver your judgment\nupon the weak and undeserving!",
+    "original_fr": "ë ma¡tre suprême ! Faites tomber la foudre du jugement\nsur les êtres fragiles et sans défense... Hi, hi, hi...",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Why not say a prayer for yourselves?\nHee hee hee...",
+    "original_fr": "Je vous invite vous aussi {TAG:3C} prier pour votre salut.\nHé, hé, hé...",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{LUCCA}: What did you find?",
+    "original_fr": "{LUCCA} : As-tu trouvé quelque chose ?",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{LUCCA}: A hairpin?",
+    "original_fr": "{LUCCA} : Une barrette en corail...?",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{LUCCA}: Hey, this is Guardia's royal crest!",
+    "original_fr": "{LUCCA} : Ce sont les armoiries de la famille royale de\nGardia !",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{LUCCA}: Phew!\nWasn't expecting that.",
+    "original_fr": "{LUCCA} : Ouf ! Elles m'ont fait peur !",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{LUCCA}: Ack!",
+    "original_fr": "{LUCCA} : Aah !",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Lower your guard, and you allow the enemy in!",
+    "original_fr": "Restez toujours sur vos gardes. C'est justement\nlorsque l'on est transporté par la victoire que l'on\nrel{TAG:4A}che sa vigilance.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "You've come to save the Queen?{WAIT_KEY}\nThe fiends' lair lies within, it would seem.\nWill you accompany me?",
+    "original_fr": "ätes-vous vous aussi venus porter secours {TAG:3C} la reine ?{WAIT_KEY}\nOn dirait que cet endroit est le nid des monstres.\nQue diriez-vous de m'accompagner ?",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{LUCCA}: You... You're a...{WAIT_KEY}\n{CRONO}, it's a giant talking frog!\nYou...you know I can't stand frogs!",
+    "original_fr": "{LUCCA} : C'est une...?!{WAIT_KEY}\n{CRONO}, tu sais bien que je ne supporte pas les\ngrenouilles...!",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "I suppose I ought not expect you to trust me,\nlooking as I do.",
+    "original_fr": "Il est vrai que mon apparence inspire rarement\nconfiance...",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Very well. Do as you please.\nBut I must save the Queen.",
+    "original_fr": "Bien, faites ce que vous voulez. Toutefois, je dois aller\nsauver la reine...",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{LUCCA}: W-wait!",
+    "original_fr": "{LUCCA} : Euh... Attends...",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "{LUCCA}: You...you don't seem like a bad frog.\nI mean, person. I mean...umm...",
+    "original_fr": "{LUCCA} : Tu n'as pas l'air d'être une mauvaise gren...\nEuh, personne... Euh...",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "{LUCCA}: What should we do, {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Go with the frog.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Refuse.{GLYPH:397}",
+    "original_fr": "{LUCCA} : Qu'allons-nous faire {CRONO} ?\n       {GLYPH:394}Accompagner la grenouille{GLYPH:395}\n       {GLYPH:396}Refuser de l'accompagner{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "{LUCCA}: It may be risky going alone.",
+    "original_fr": "{LUCCA} : Cependant, continuer seuls m'inquiète un\npeu...",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "{LUCCA}: Right. I guess I'll just have to get over\nmy...my aversions to slimy—err, moist-skinned—\ncreatures. ",
+    "original_fr": "{LUCCA} : Je vais essayer de m'y faire.\nContinuons ensemble !",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "{LUCCA}: So, what's your name?",
+    "original_fr": "{LUCCA} : Quel est ton nom ?",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "{FROG}: {FROG} will suffice.",
+    "original_fr": "{FROG} : Tu peux m'appeler {FROG}.",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{LUCCA}: All right...\nNice...nice to meet you, {FROG}.",
+    "original_fr": "{LUCCA} : D'accord... Sois patient avec moi,\n{FROG}.",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{FROG}: And you as well.\nThis room must conceal a hidden passage.\nLet us search every corner!",
+    "original_fr": "{FROG} : Entendu. Il doit s{TAG:63}rement y avoir un\npassage secret donnant accès au reste de\nl'abbaye quelque part dans cette pièce.",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "In this world, there are no rains that fail to\nlift—no nights that are not dispelled by dawn.{WAIT_KEY}\nWhat's important is to trust in those you love,\nand never to abandon hope.{WAIT_KEY}\nThat person you cherish is no doubt watching over\nyou from some distant place.",
+    "original_fr": "Dans ce monde, il n'y a pas de pluie éternelle, et même\nla nuit la plus noire finit par voir la lueur de l'aube.{WAIT_KEY}\nL'important est de croire en ceux qui vous sont chers\net de ne jamais abandonner.{WAIT_KEY}\nJe suis certaine que ceux qui vous aiment, où qu'ils\nsoient, veillent sur vous.",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Gack! Intruders!\nSsstop them!",
+    "original_fr": "Arrêtez ! Des intrus ! Gah !",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Sign: No entry within.",
+    "original_fr": "{GLYPH:384}{TAG:64} Accès interdit. {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Sign: If you're that determined to get through,\nby all means...",
+    "original_fr": "{GLYPH:384}{TAG:64} Seuls ceux au c{TAG:61}ur déterminé\nsauront trouver la voie. {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Zzz... Zzz...{WAIT_KEY}\nNo... Stop that, you idiot...\nI said a million times, that one's just a decoy...",
+    "original_fr": "Zzz... Zzz...{WAIT_KEY}\nNon, pas ça, idiot... Je t'ai pourtant dit que ce n'était\npas un vrai...",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Hrgh!?",
+    "original_fr": "Hein ?!",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Sneaking past me, huh?\nYou must really think you're smart!",
+    "original_fr": "Vous vous êtes glissés derrière moi...?! Vous n'êtes pas\ndes intrus ordinaires, c'est certain !",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Prepare yourself, Queen Leene.\nIt is time you bid farewell to this world.",
+    "original_fr": "ätes-vous prête, Votre Majesté ? Le moment est venu\npour vous de dire adieu {TAG:3C} ce monde.",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Chancellor: You!\nHow did you get in here?",
+    "original_fr": "Chancelier : Oh, c'est vous...!! Je vous félicite de vous\nêtre infiltrés jusqu'ici.",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Leene: {FROG}!",
+    "original_fr": "Lynne : {FROG} !",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{FROG}: Flee, Your Majesty!\nWe shall dispatch this fiend!",
+    "original_fr": "{FROG} : îcartez-vous, Votre Majesté !\nNous allons nous débarrasser de lui !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Leene: Be careful!",
+    "original_fr": "Lynne : Sois prudent...",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Chancellor: Gah ha ha!\nThere's no use in fighting!\nNone of you will leave this place alive!",
+    "original_fr": "Chancelier : Mouah, ha, ha, ha, ha...! Vous n'avez aucune\nchance ! Je ne laisserai aucun de vous sortir d'ici\nvivant !",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Chancellor: Intolerable frog!\nLet us see you hop your way out of this!",
+    "original_fr": "Chancelier : Ha ! Grenouille de malheur...! Je me baignerai\ndans votre sang !",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Chancellor: Enough of this Chancellor charade.",
+    "original_fr": "Chancelier : Je commençais {TAG:3C} me sentir {TAG:3C} l'étroit dans ce\ncorps rabougri !",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{GLYPH:384}\nThe Chancellor transformed into Yakra!",
+    "original_fr": "{GLYPH:384}Yakra !! Droooo !",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Leene: Thank you, {FROG}.\nI knew you'd come to rescue me!",
+    "original_fr": "Lynne : Je savais que tu viendrais, {FROG}...",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "{FROG}: His Majesty awaits most anxiously.\nWe should return to the castle.",
+    "original_fr": "{FROG} : Le roi s'inquiète {TAG:3C} votre sujet.\nRetournons au ch{TAG:4A}teau.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "{FROG}: I thank you, {CRONO} and {LUCCA},\nfor all your aid.",
+    "original_fr": "{FROG} : {CRONO}, {LUCCA}, je vous suis\nreconnaissant de l'aide que vous m'avez\napportée...",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Leene: And I as well.\nPlease, accompany us to the castle.\nYou will be most welcome guests.",
+    "original_fr": "Lynne : Merci beaucoup. Venez au ch{TAG:4A}teau avec nous,\nvous aussi.",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "Leene: Yes, let us be on our way.",
+    "original_fr": "Lynne : Bien, retournons au ch{TAG:4A}teau.",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "True Chancellor: W-wait!\nWhat about me!?\nI'm still alive, too!\nEntirely undamaged!",
+    "original_fr": "Vrai chancelier : Mais... attendez ! Comme vous pouvez le\nconstater, mon vrai moi est sain et sauf !",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "True Chancellor: Whew! My thanks.\nThat monster stuffed me in there like a sack of coin.",
+    "original_fr": "Vrai chancelier : Ouf ! Je l'ai échappé belle ! Comment ce\nmonstre a-t-il pu oser me laisser enfermé dans un\nendroit pareil ?!",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "True Chancellor: Oh! Your Majesty!\nI am undamaged, as you can see!",
+    "original_fr": "Vrai chancelier : Oh, Votre Majesté ?! Comme vous\npouvez le constater, mon vrai moi est sain et sauf !",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Welcome. What can I do for you?",
+    "original_fr": "Bienvenue ! Que puis-je faire pour vous aujourd'hui ?",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "My thanks.",
+    "original_fr": "Â bientôt, j'espère !",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "The Hero has come at last?{WAIT_KEY}\nThen I suppose it is only a matter of time before\nthe epic battle begins.",
+    "original_fr": "Alors il para¡t que le héros légendaire est apparu ?{WAIT_KEY}\nLe moment du combat qui entrera dans l'histoire est\ndonc finalement arrivé...",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "Peace at last, thanks be to the Hero!{WAIT_KEY}\nHurrah for the Hero!\nHurrah for Guardia!",
+    "original_fr": "On dirait bien que la paix sera enfin rétablie, et ce,\ngr{TAG:4A}ce au héros.{WAIT_KEY}\nVive le héros ! Vive le royaume de Gardia !",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "Yay!\nThe Hero beat all the evil monsters!",
+    "original_fr": "Le vaillant héros a battu les méchants monstres !{WAIT_KEY}\nYoupi ! Youpi !",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Is it true that His Majesty suffered injury?{WAIT_KEY}\nOh, what will become of us and our kingdom now?",
+    "original_fr": "Les rumeurs racontent que le roi a été blessé...\nEst-ce vrai ?{WAIT_KEY}\nOh, qu'adviendra-t-il de notre royaume ? Qu'allons-nous\ndevenir ?",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Oh, where could Sir Cyrus be?{WAIT_KEY}\nSurely he hasn't deserted the kingdom?",
+    "original_fr": "Ah, où est donc sire Cyrus ?{WAIT_KEY}\nNon... Il ne se serait tout de même pas enfui,\nabandonnant notre royaume ?",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "{FROG}: ...",
+    "original_fr": "{FROG} : ...",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "I heard talk that the Hero was Sir Cyrus's friend.{WAIT_KEY}\nAh, he must be a truly handsome knight!",
+    "original_fr": "On dit que le héros actuel était un ami de sire Cyrus.{WAIT_KEY}\nAh, je suis certaine qu'il est un magnifique chevalier !",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "{FROG}: ...{WAIT_KEY}\n...",
+    "original_fr": "{FROG} : ...{WAIT_KEY}\n...",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "{FROG}: Heh heh...",
+    "original_fr": "{FROG} : Hé, hé, hé...",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Mother says I'm not to play outside because it's\ndangerous with all the monsters.{WAIT_KEY}\nI'm so bored!",
+    "original_fr": "Maman dit que je peux pas jouer dehors parce qu'il y a\nbeaucoup de monstres près d'ici.{WAIT_KEY}\nJe m'ennuie !",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "They say the Fiendlord is a master of the arcane magic\nof old. The cantrips of his fiends are nothing compared\nto what he wields.",
+    "original_fr": "Il para¡t que le Magistère utilise la magie oubliée de\nl'Antiquité.{WAIT_KEY}\nOn dit qu'il s'agit de terribles sorts surpassant de loin\nceux des monstres.",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "That {MAGUS} survived and is in hiding now,\nso I hear.{WAIT_KEY}\nWe cannot let that fiend escape!\nThink of all the soldiers who fell.",
+    "original_fr": "Il para¡t que le Magistère est toujours en vie et se\ncache quelque part...{WAIT_KEY}\nAu nom de tous les soldats qui ont péri au combat,\non ne peut pas le laisser s'échapper !",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "This house belongs to Dorino's village elder.{WAIT_KEY}\nMy, that is unusual garb you wear!\nAre you outlanders?\nDid you come fleeing {MAGUS}'s fiends, too?",
+    "original_fr": "Bienvenue {TAG:3C} la maison du maire de San Dorino.{WAIT_KEY}\nVous n'avez pas l'air d'être de la région. Avez-vous été\nchassés de votre contrée par l'armée du Magistère ?",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "This house belongs to Dorino's village elder.\nIt seems we'll have some peace here again at last.",
+    "original_fr": "Bienvenue {TAG:3C} la maison du maire de San Dorino.{WAIT_KEY}\nBientôt, la paix régnera de nouveau !",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{MAGUS} commands three fearsome generals:\nOzzie, Flea, and Slash.{WAIT_KEY}\nBest stay far away from the lot of them.\nThere's not a drop of humanity to be found\namongst them—they're fiends through and\nthrough.",
+    "original_fr": "Le Magistère a trois terribles serviteurs : Vinnie, Mayo\net Soja.{WAIT_KEY}\nDans la mesure du possible, vous feriez mieux de ne pas\navoir affaire {TAG:3C} eux. Ce sont des monstres sans c{TAG:61}ur.",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "{MAGUS}'s three generals fled.\nI've heard they're hiding on some island.{WAIT_KEY}\nWill we never rid this world of evildoers?",
+    "original_fr": "J'ai entendu dire que les trois serviteurs du Magistère\nse sont enfuis et se sont réfugiés sur une ¡le quelque\npart...{WAIT_KEY}\nNe serons-nous jamais débarrassés de ces sous-fifres\nmalfaisants...?",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "{MAGUS}'s keep sits on an island to the east.\nThe sheer cliffs surrounding it make it inaccessible.",
+    "original_fr": "Le palais du Magistère est situé {TAG:3C} l'est d'ici, sur une ¡le\nbordée de falaises si escarpées que personne ne peut\nl'atteindre.",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "It's said only the ancient sword, the Masamune,\ncan slay the Fiendlord. And only the chosen Hero\nof legend can wield the blade.",
+    "original_fr": "Selon la légende, seule Grandléon, l'épée antique,\npourrait vaincre {MAGUS}, le Magistère.{WAIT_KEY}\nEn outre, la légende dit aussi que seul l'élu pourra la\nbrandir.",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Behold!{WAIT_KEY}\nThe legendary Hero, sword in hand!{WAIT_KEY}\nAh...\nJust once, I wish I could be in the Hero's shoes!",
+    "original_fr": "Regardez...!{WAIT_KEY}\nLe héros légendaire et sa fameuse épée !{WAIT_KEY}\nAh, j'aimerais tant qu'on parle de moi ainsi, ne serait-ce\nqu'une fois !",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "The Hero's here to save us!{WAIT_KEY}\nHe's strong and he'll stop all the bad monsters!",
+    "original_fr": "Le héros est apparu !{WAIT_KEY}\nC'est un homme très très fort qui va battre les\nméchants pour nous !",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Village Elder: The item I seek is the mythical\nRainbow Shell.{WAIT_KEY}\nHere's some money to cover your expenses.\nYou'll have the rest when you've retrieved it.\nI am counting on you, Toma.",
+    "original_fr": "Maire : Je veux que tu trouves le mythique coquillage\narc-en-ciel pour moi...{WAIT_KEY}\nVoici une avance. Je compte sur toi, Toma !",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Toma: Worry not. They do not call me a legendary\nexplorer without reason. I will not disappoint.",
+    "original_fr": "Toma : Hé, hé, je m'en charge. On me surnomme\nl'explorateur légendaire, après tout. Vous ne\nserez pas déçu, monsieur le maire.",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Village Elder: Hmph...\nI'll be awaiting good news.",
+    "original_fr": "Maire : Hum... J'espère que tu reviendras avec une bonne\nnouvelle.",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Toma: Well then! Now that the business is settled,\nI think I'll go down a drink for the road.",
+    "original_fr": "Toma : Bon, je vais aller prendre un verre pour partir du\nbon pied !",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Toma: I'm a bit busy right now.\nLet's talk later.",
+    "original_fr": "Toma : Dites, je suis occupé. Nous pourrons discuter\nplus tard.",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Village Elder: With the Rainbow Shell, we could\nmake prismatic armor to guard against magic.{WAIT_KEY}\nYet I worry I may have misplaced my trust in that\nyoung man. He claims to be a great explorer, but\nwas I right to believe him?",
+    "original_fr": "Maire : Si seulement nous avions le coquillage\narc-en-ciel, nous pourrions fabriquer d'incomparables\npièces d'équipement permettant de se protéger contre\nla magie.{WAIT_KEY}\nCependant, je me demande si j'ai bien fait de faire\nconfiance {TAG:3C} ce jeune blanc-bec... Il prétend être un\ngrand explorateur, mais...",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Village Elder: Legendary explorer, he says.\nThe lying, no-good thief!{WAIT_KEY}\nHe used all the money, but still can't find\nwhat I asked for. He may as well have robbed\nme at knifepoint!",
+    "original_fr": "Maire : Ce Toma n'est pas du tout un grand explorateur !\nIl n'est qu'un menteur et un imbécile !{WAIT_KEY}\nNon seulement il n'a pas trouvé ce que je lui avais\ndemandé, mais en plus il a dépensé toute l'avance\nque je lui avais donnée ! C'est un imposteur !",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Greetings! This is the Dorino Inn.\nIt'll cost you 50 G for the night, if you please.",
+    "original_fr": "Bonjour ! Bienvenue {TAG:3C} l'hôtel de l'amour et du repos.\nLe prix d'une chambre est de 50 G. ©",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Will you stay?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous vous reposer ? ©\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Oh, wonderful!\nWell then, rest and relax!",
+    "original_fr": "Super ! ©\nReposez-vous bien !",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Huh?\nYou don't have enough!",
+    "original_fr": "Oh, vous n'avez pas assez d'argent.",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "What a shame!\nI'll be awaiting your return, then.",
+    "original_fr": "Oh, quel dommage ! J'attendrai votre retour avec\nimpatience ! Hi, hi ! ©",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Are the rumors true?\nIs the Fiendlord's army truly closing in?{WAIT_KEY}\nWell, the mythical Hero has appeared, so I'm sure\nwe'll be all right!",
+    "original_fr": "Les rumeurs racontent que l'armée du Magistère est sur\nle point de nous envahir. Je me demande si elles disent\nvrai...{WAIT_KEY}\nToutefois, le héros légendaire est apparu alors nous\nn'avons plus rien {TAG:3C} craindre, n'est-ce pas ?",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Tales say the legendary Masamune sleeps deep within\nthe Denadoro Mountains. But they say a terrible beast\nrests there as well, guarding the blade.",
+    "original_fr": "On dit que Grandléon, l'épée légendaire, sommeille\nquelque part dans les monts Dénadoro.{WAIT_KEY}\nCependant, on dit aussi qu'elle est protégée par des\ncréatures terribles !",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Want to hear something interesting?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Vous voulez que je vous dise un secret ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "The Denadoro Mountains to the east are filled\nwith monsters called ogans that wield huge hammers.\nBut burn their weapons, and they're pussycats.",
+    "original_fr": "Des monstres appelés {TAG:64} ogans {TAG:65} rôdent dans les monts\nDénadoro. Certains d'entre eux possèdent un énorme\nmaillet !{WAIT_KEY}\nCependant, si on br{TAG:63}le leur maillet, ils ne sont pas\naussi terribles qu'ils n'en ont l'air.",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "So be it. I'll tell someone else.",
+    "original_fr": "Bien. Je le garderai pour moi, alors...",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "The winds off the Denadoros have grown mild as of late.",
+    "original_fr": "Depuis quelque temps, les vents des monts Dénadoro\nsont calmes et sereins.",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Have you met the Hero already?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Avez-vous déj{TAG:3C} rencontré le héros ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Truly? Oh, I wish I could catch a glimpse of him!\nI've butterflies in my stomach just to think of it!",
+    "original_fr": "Ouah ! J'aimerais tant le voir moi aussi, ne serait-ce que\nbrièvement...! J'en ai les larmes aux yeux !",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Oh... I haven't met him, either.{WAIT_KEY}\nI wonder what the champion of the world looks like.\nI'm so thrilled to see!",
+    "original_fr": "Ah bon... Moi non plus.{WAIT_KEY}\nJe me demande quelle sorte d'homme il peut bien être,\nce héros qui va sauver le monde... J'en ai les larmes\naux yeux !",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Pray. The end of the world is at hand.",
+    "original_fr": "Priez, la fin du monde approche.",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "We're saved!\nWell, at least for the time being.",
+    "original_fr": "Ah, nous sommes sauvés ! Du moins, pour l'instant...",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "A great swordsmith of long ago once forged a\nmasterwork blade called the something-or-other-\nmooney. No one alive today has the skill to make\na sword to rival it.",
+    "original_fr": "On raconte que l'épée du nom de {TAG:64} Gros lion {TAG:65}, ou\nquelque chose du genre, a été forgée il y a de cela\ntrès longtemps par un peuple disparu.{WAIT_KEY}\nIl para¡t que personne de nos jours ne pourrait\nfabriquer une épée pareille.",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "Proprietor: You're looking for the Hero?{WAIT_KEY}\nYou might have better luck down south, in the village\nof Porre. That's where they say he's from.",
+    "original_fr": "Patron : Vous êtes {TAG:3C} la recherche du héros ?\nAlors allez au village de Palpori, au sud d'ici.{WAIT_KEY}\nOn dit que c'est {TAG:3C} cet endroit qu'il est apparu.",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Proprietor: Last I heard, the Hero went to the\nDenadoro Mountains in search of a sword. I've\nno idea where he might have headed after that.",
+    "original_fr": "Patron : Le héros est allé récupérer une épée quelque\npart dans les monts Dénadoro. Personne n'a eu de ses\nnouvelles depuis...{WAIT_KEY}\nOù est-il allé ensuite...?",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Proprietor: Ha!\n{MAGUS} is gone!{WAIT_KEY}\nNow there's nothing to fear!\nIt's time to celebrate!",
+    "original_fr": "Patron : Ah, le Magistère a eu ce qu'il méritait !{WAIT_KEY}\nDésormais, nous pourrons boire en toute tranquillité !\nSanté !",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Many people visit inns. If you're searching for someone,\ninns are a fine place to ask.{WAIT_KEY}\nBy the way, did you know whirlwind energy\nwill dissipate if it's hit with a wind slash?\nNature has a way of balancing things out.",
+    "original_fr": "Toutes sortes de gens passent par l'auberge. Si vous\ncherchez quelqu'un, vous devriez sans doute vous\nadresser au patron.{WAIT_KEY}\nAu fait, saviez-vous que si vous utilisez une rafale\ncinglante, l'énergie tourbillonnante sera dissipée ?{WAIT_KEY}\nLa nature est constituée de l'équilibre et l'harmonie de\ntoutes choses.",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "{MAGUS} is trying to summon a terrible evil.\nIf he succeeds, there will be no quarter for us.\nWe'll all perish.{WAIT_KEY}\nThat's why I mean to keep hiding in the bottom of this\nmug. Hic!",
+    "original_fr": "On raconte que le Magistère tente de faire venir en ce\nmonde une puissance maléfique prodigieuse...{WAIT_KEY}\nS'il y parvient, nous périrons tous, peu importe où nous\nnous enfuirons...{WAIT_KEY}\nC'est pour cette raison que moi, j'ai décidé de fuir dans\nmon verre. Hic !",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "{MAGUS}'s plan was thwarted. Now we should all be\nsafe no matter what we do!{WAIT_KEY}\nThat's why I mean to keep looking for paradise in the\nbottom of this mug. Hic!",
+    "original_fr": "Il semble qu'on soit parvenu tant bien que mal {TAG:3C}\nempêcher le Magistère de créer cette créature\nmaléfique.{WAIT_KEY}\nDésormais, nous sommes en sécurité, peu importe où\nnous allons et peu importe ce que nous faisons !{WAIT_KEY}\nC'est pour cette raison que moi, j'irai au paradis en\nbuvant ! Hic !",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Toma: Ah, hello! How have the days treated you?\nI've got some information for you, if you'd care\nto buy me a drink.",
+    "original_fr": "Toma : Comment allez-vous ? Si vous me payez un verre,\nje vous filerai une bonne info.",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "What say you? Can you spare 30 G?\n{TAG:38}{TAG:38}{GLYPH:394}All right.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Sorry.{GLYPH:397}",
+    "original_fr": "Qu'en dites-vous ?\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Toma: My thanks.",
+    "original_fr": "Toma : Merci bien !",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Toma: Tsk!\nYou don't have the money!",
+    "original_fr": "Toma : Pfft, vous n'avez pas assez d'argent !",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Toma: Barkeep! Another round!",
+    "original_fr": "Toma : Patron ! La même chose !",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Toma: Word has it an odd beast has taken up residence\ndeep in the southern wood. Strange as it may sound,\nthey say it's a monstrous frog. How about that, eh?",
+    "original_fr": "Toma : J'ai entendu dire qu'une créature étrange vit en\ncachette au fond de la forêt au sud d'ici.{WAIT_KEY}\nIl para¡t que c'est une sinistre grenouille monstrueuse.",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Toma: Would you mind finding somewhere else to go,\nthen? I don't have time for you.",
+    "original_fr": "Toma : Oh ? Dans ce cas, laissez-moi tranquille.\nJe suis occupé.",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Toma: The Rainbow Shell, eh?\nI suppose Porre would be the first place to look.",
+    "original_fr": "Toma : Bon, comment je vais trouver ce coquillage\narc-en-ciel, moi ? Je crois que je vais commencer\nmes recherches {TAG:3C} Palpori...",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Toma: Oh! How have you been, {GLYPH:386}?\nI kept my word and found it!",
+    "original_fr": "Toma : Comment vas-tu, {GLYPH:386} ? J'ai gardé ma\npromesse. J'ai trouvé ce que je cherchais.",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Toma: I'll be waiting to see you when all is through.\nTreat me to another round when next we meet!{WAIT_KEY}\nI promise I'll make it worth your while.\nHeh heh...",
+    "original_fr": "Toma : Je vous attendrai... Â notre prochaine rencontre,\noffrez-moi un dernier verre.{WAIT_KEY}\nJe vous donnerai une bonne info... Hé, hé !",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Oh, stop that, you bad boy!",
+    "original_fr": "Espèce de pervers !",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Sign: Private property.\nNo trespassing, ribbit.",
+    "original_fr": "{GLYPH:384}{TAG:64} Propriété privée.\nAccès interdit. {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Who's there!?",
+    "original_fr": "Qui va l{TAG:3C} ?!",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "{FROG}: Ah, {CRONO}!\nWhat brings you here?\nCome to practice your swordplay?",
+    "original_fr": "{FROG} : Ah, c'est toi, {CRONO} !\nQu'y a-t-il ? Serais-tu venu t'exercer {TAG:3C} l'épée ?",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "{FROG}: What!?\nHis Majesty, wounded?",
+    "original_fr": "{FROG} : Comment ?! Le roi a été blessé...?",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "{FROG}: ...{WAIT_KEY}\nI see.",
+    "original_fr": "{FROG} : ...{WAIT_KEY}\nJe vois...",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "{FROG}: There's naught I can do.\nPray forgive me, but...I'd like to be alone.",
+    "original_fr": "{FROG} : Il n'y a rien que je puisse faire.\nJe suis désolé... Laissez-moi seul...",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "{FROG}: I am no Hero.\nThere's naught I can do to help.",
+    "original_fr": "{FROG} : Je ne suis pas un héros. Je ne peux rien\nfaire.",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "{FROG}: You've returned?\nThat...that badge!",
+    "original_fr": "{FROG} : Vous êtes revenus...? Oh !\nCette médaille...",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "{FROG}: I'm surprised you found this place.\nThat badge...is that—!?",
+    "original_fr": "{FROG} : Je vous félicite d'avoir trouvé cet\nendroit... Oh ! Cette médaille...",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "{FROG}: I see. So you met the lad.\nBut there's not a thing I can do against the Fiendlord.",
+    "original_fr": "{FROG} : Je vois... Vous avez donc rencontré ce\njeune garçon. Toutefois, je ne peux plus rien contre\n{MAGUS}...",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "{FROG}: To fight him would require the legendary\nMasamune, which is—no, it matters little.{WAIT_KEY}\nEven had I the blade, I've no right to wield it.",
+    "original_fr": "{FROG} : Grandléon, l'épée légendaire nécessaire\npour combattre {MAGUS}, elle est... Peu importe.{WAIT_KEY}\nMême si je l'avais, je serais indigne de la manier.",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "{FROG}: Please, leave me be.",
+    "original_fr": "{FROG} : Ne pourriez-vous pas me laisser\ntranquille...?",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{FROG}: There are none alive who could mend\nthe Masamune.",
+    "original_fr": "{FROG} : Il n'existe personne en ce monde qui\npourrait restaurer Grandléon.",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "{LUCCA}: A broken sword hilt...\nThis is part of the Masamune!",
+    "original_fr": "{LUCCA} : Une poignée brisée... C'est un morceau de\nGrandléon !",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{ROBO}: A broken sword hilt.\nThis must be part of the Masamune!",
+    "original_fr": "{ROBO} : Une poignée brisée... C'est un morceau de\nGrandléon !",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{LUCCA}: It's engraved with archaic letters.\nI think I can make it out.\nUmm... Let's see...",
+    "original_fr": "{LUCCA} : Il y a quelque chose de gravé en lettres\nantiques. Je crois que je peux les lire. Hum...",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{LUCCA}: M...E...L...C...H...I...O...R!",
+    "original_fr": "{LUCCA} : ... Bo... sch...?",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{LUCCA}: Melchior!?\nThat guy from Medina?\nNo, it couldn't be.",
+    "original_fr": "{LUCCA} : {TAG:64} Bosch {TAG:65} ?! Non, pas celui de\nMédina...?!",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "{ROBO}: Something is written in archaic script.\nI will attempt to decipher it.",
+    "original_fr": "{ROBO} : Quelque chose y est inscrit avec des\nhiéroglyphes anciens. Je vais essayer de les\ndéchiffrer.",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "{ROBO}: ...\nR...O...I...H...C...L...E...M?",
+    "original_fr": "{ROBO} : ...\n... h... c... s... o... b...?",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "{ROBO}: Roihclem?",
+    "original_fr": "{ROBO} : Hcsob...?",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "{ROBO}: Error!\nI reversed the order!\nIt says \"Melchior.\"",
+    "original_fr": "{ROBO} : Ah, j'ai inversé l'ordre des lettres !\nIl est inscrit {TAG:64} Bosch {TAG:65}.",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "{MARLE}: Melchior?\nThat guy from Medina Village?{WAIT_KEY}\nWhat does this mean, {CRONO}?",
+    "original_fr": "{MARLE} : Bosch ? Notre Bosch ? Celui de Médina...?{WAIT_KEY}\nQu'est-ce que ça signifie, {CRONO} ?",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "{FROG}: You've come again.",
+    "original_fr": "{FROG} : Ah, vous revoil{TAG:3C}...",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "{FROG}: This sword... No, it could not be!\nThe Masamune?",
+    "original_fr": "{FROG} : Impossible, cette épée...\nC'est Grandléon...?!",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "{FROG}: I must ponder this turn of events.\nYou may remain here for the night.",
+    "original_fr": "{FROG} : Laissez-moi réfléchir. Vous pouvez passer\nla nuit ici...",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Glenn: Gah!",
+    "original_fr": "Glenn : Hein ?!",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Cyrus: Glenn, watch out!",
+    "original_fr": "Cyrus : Attention, Glenn !!",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "Glenn: Cyrus!\nYour sword...!{WAIT_KEY}\nThe Masamune!",
+    "original_fr": "Glenn : Cyrus ! L'épée...?!{WAIT_KEY}\nGrandléon...!!",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "Ozzie: Gah ha ha...\nIs that the best you can do?{WAIT_KEY}\nWithout your sword, you're nothing!",
+    "original_fr": "Vinnie : Mouah, ha, ha, ha ! Qu'y a-t-il ? Est-ce tout ce\ndont vous êtes capables ?{WAIT_KEY}\nMaintenant que l'épée légendaire est brisée, vous ne\npouvez plus rien contre nous !",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Cyrus: Grr!\nYou've not bested me yet!",
+    "original_fr": "Cyrus : Ah ! Vous ne m'avez pas encore battu...!",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "Glenn: Cyrus...\nI...I'm done for.",
+    "original_fr": "Glenn : Cy... Cyrus... Je n'en peux plus...",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "Cyrus: Listen to me, Glenn!\nI will hold them here.\nUse that chance to escape!",
+    "original_fr": "Cyrus : îcoute-moi bien, Glenn. Je vais les retenir.\nProfites-en pour t'enfuir.",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "Glenn: B-but—!",
+    "original_fr": "Glenn : Mais...!",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Cyrus: Stay, and they'll only kill us both.\nGo, Glenn!",
+    "original_fr": "Cyrus : Si tu restes, nous périrons tous les deux...\nFuis, Glenn !",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "{MAGUS}: Hadn't you better worry about yourself,\nCyrus? I do not think you've the time to be concerned\nwith the well-being of others.",
+    "original_fr": "{MAGUS} : Quel admirable esprit d'abnégation ! Cyrus,\nc'est bien ça ? Je m'inquiéterais pour ma propre vie,\n{TAG:3C} ta place...",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Cyrus: This is it, Glenn!\nGo!",
+    "original_fr": "Cyrus : Glenn ! Maintenant !",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Cyrus: Gaaahhh!",
+    "original_fr": "Cyrus : Pour Gardia !",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "Glenn: Cyrus!",
+    "original_fr": "Glenn : Cy... Cyrus !",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Cyrus: Run...run, Glenn.{WAIT_KEY}\nThe Queen...\nTake care of...Queen Leene.\nI...beg...{WAIT_KEY}\n...",
+    "original_fr": "Cyrus : Fuis... Glenn...{WAIT_KEY}\nLa reine... Protège... la reine Lynne...\nJe compte sur...{WAIT_KEY}\n...",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "Glenn: Cyrus!\nCyrus!?{WAIT_KEY}\nNooooo!",
+    "original_fr": "Glenn : Cy... Cyrus ?!{WAIT_KEY}\nCyrus !!",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "{MAGUS}: Hmph!\nWhat's the matter?\nAre you not going to try your luck?",
+    "original_fr": "{MAGUS} : Tsst ! Qu'y a-t-il ? Tu ne vas pas\nm'attaquer ?",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Glenn: Grr!",
+    "original_fr": "Glenn : Euh...!",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Ozzie: Gah ha ha!\nLike a scared little frog with no pond to jump into!",
+    "original_fr": "Vinnie : Gah, ha, ha, ha... Tu es paralysé par la peur,\ncomme une grenouille sous le regard d'un serpent,\npetit ?",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Ozzie: How about it, Lord {MAGUS}?\nCan't you give him a more fitting form?",
+    "original_fr": "Vinnie : Alors, Votre Excellence ? Que diriez-vous de\ndonner {TAG:3C} ce l{TAG:4A}che une forme plus appropriée ?",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "{MAGUS}: Very well.\nNo act of defiance goes unpunished.",
+    "original_fr": "{MAGUS} : Hum, pourquoi pas... Je supprime tous ceux\nqui me font obstacle.",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Glenn: No!",
+    "original_fr": "Glenn : !!",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Glenn: Urgh... Gah!",
+    "original_fr": "Glenn : Oh... Aaah !",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Glenn: Aaaaaaagh!",
+    "original_fr": "Glenn : Aaah !!",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Ozzie: Gah ha ha ha ha!\nThat's more like it!\nYou spineless wimp!",
+    "original_fr": "Vinnie : Gah, ha, ha, ha...! Espèce de ver peureux !",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "{FROG}: Ten long years have passed.{WAIT_KEY}\nHave I the strength?\nOh, Cyrus...",
+    "original_fr": "{FROG} : 10 ans se sont déj{TAG:3C} écoulés depuis...{WAIT_KEY}\nPourrais-je y arriver...? Moi...?\nOh, Cyrus...",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "{FROG}: Wake, {CRONO}.",
+    "original_fr": "{FROG} : Réveille-toi, {CRONO}.",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{FROG}: I do not know how far my skills will\ncarry me, but I will put them to the test.\nLet us go to {MAGUS}'s keep.",
+    "original_fr": "{FROG} : Je ne sais pas si j'arriverai {TAG:3C} le vaincre,\nmais... Allons ensemble au palais du Magistère.",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{FROG}: His strength is no small thing.\nDo you understand the odds we face?",
+    "original_fr": "{FROG} : C'est un mage puissant...\nätes-vous prêts {TAG:3C} l'affronter ?",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{LUCCA}: Nothing can beat science!",
+    "original_fr": "{LUCCA} : Il n'est pas de taille contre la science !",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "{MARLE}: The good guys always win!",
+    "original_fr": "{MARLE} : Nous ne serons pas battus par un\nméchant !",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "{ROBO}: We must do it for the future!",
+    "original_fr": "{ROBO} : Oui, pour sauver notre avenir...!",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "A strange monster came here drinking not long past,\nmumbling about \"Queen Leene\" this and \"Masamune\"\nthat.",
+    "original_fr": "Je me souviens d'une étrange créature qui était venue\nboire ici.{WAIT_KEY}\nElle marmonnait {TAG:3C} propos de la reine Lynne et de\nGrandléon...",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "Sure was an ugly frog-man!\nHeh heh!",
+    "original_fr": "Elle était vraiment monstrueuse, cette grenouille !\nHa, ha !",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "That sure was an ugly fr—ahem.{WAIT_KEY}\nI meant, such a magnificent frog!\nSure to be a great hero or chancellor someday!",
+    "original_fr": "Elle était vraiment monstrueuse, cette gren...\nEuh...{WAIT_KEY}\nJe veux dire, elle était vraiment magnifique, cette\ngrenouille. Elle deviendra s{TAG:63}rement un héros ou le\nchancelier un jour...!",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "Proprietress: I've not seen little Tata lately.\nI wonder where he's gone off to.{WAIT_KEY}\nI suppose I should count my blessings.\nThings are a lot quieter without that\nbrat around causing trouble.",
+    "original_fr": "Patronne : Je me demande où est passé Tarta.\nÇa fait un moment qu'on ne l'a pas vu...{WAIT_KEY}\nNéanmoins, sans ce petit polisson, je peux enfin\nrespirer.",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "Proprietress: Tata came home, it seems.\nAnd here it was so peaceful in the village without him!{WAIT_KEY}\nBut I'm glad he's all right.\nI'd almost started to miss him, and he'd caused a lot\nof worry.",
+    "original_fr": "Patronne : On dirait que Tarta est rentré. Le village\nétait pourtant si paisible, pendant son absence...{WAIT_KEY}\nToutefois, je suis heureuse qu'il soit sain et sauf.\nTout était un peu trop tranquille sans lui. Et puis,\nson père s'inquiétait tant {TAG:3C} son sujet...",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "Proprietress: I have a little dream of my own, you know.\nHee hee...{WAIT_KEY}\nI wonder if I could be a good mother to that boy?",
+    "original_fr": "Patronne : Moi aussi, j'ai un rêve... Hi, hi...{WAIT_KEY}\nJe me demande si je pourrais être une bonne mère pour\nce petit...",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "I can't believe that naughty little urchin, Tata,\nis the legendary Hero!",
+    "original_fr": "Je n'arrive pas {TAG:3C} croire que ce chenapan de Tarta soit\nle héros légendaire...",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "So, Tata was only a fraud after all.\nAlways causing trouble, that one.{WAIT_KEY}\nBut if he's not the Hero, then where's the real one?",
+    "original_fr": "Je savais bien que Tarta n'était pas un vrai héros.\nCe n'est qu'un petit galopin !{WAIT_KEY}\nCependant, est-ce que ça veut dire qu'il existe un\nvéritable héros quelque part ?",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "Tata's been working hard lately.\nHe just may have learned his lesson.",
+    "original_fr": "On dirait que Tarta travaille vraiment dur ces derniers\ntemps. Il a peut-être m{TAG:63}ri un peu.",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "I cannot believe the legendary Hero is a boy from this\nvery village!",
+    "original_fr": "Quelle surprise ! Le héros légendaire est un jeune\nhomme de notre village !",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "Have you heard the latest?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Vous le saviez ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "Yes, I suppose everyone must be talking about it.\nHis old man must be so proud!",
+    "original_fr": "Ah, cette histoire est déj{TAG:3C} donc si bien connue !\nJe parie que son père est fier de lui !",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "Well, then let me be the one to tell you.\nThe legendary Hero is from our own village!",
+    "original_fr": "Eh bien, ne l'oubliez pas ! C'est dans ce village qu'est né\nle héros légendaire !",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "And I'd thought the Hero one of our own.\nHow disappointing.",
+    "original_fr": "Moi qui croyais que le héros légendaire était né dans\nnotre village... Quelle déception !",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "Have you heard about the Magic Cave?\nThe one east of the Denadoro Mountains?{WAIT_KEY}\nI saw a sheer rock wall there part like a castle gate,\nand then a host of fiends strolled right in!{WAIT_KEY}\nBest leave {MAGUS} and his cronies to their own\ndevices though, less'n you want trouble.",
+    "original_fr": "Connaissez-vous la grotte des mystiques située {TAG:3C} l'est\ndes monts Dénadoro ?{WAIT_KEY}\nJ'ai vu le flanc de la montagne s'ouvrir et des mystiques\ny pénétrer !{WAIT_KEY}\nCependant, quand il s'agit du Magistère, qui s'y frotte,\ns'y pique, comme on dit.",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "A slimy frog-man bested {MAGUS}?{WAIT_KEY}\nI'd have gone and slew the fiend myself if'n\nI'd known it would be that easy! ",
+    "original_fr": "Alors, cet étrange homme-grenouille a vaincu le\nMagistère ?{WAIT_KEY}\nS'il a pu le faire, j'aurais d{TAG:63} m'en charger moi-même !\nPfft !",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "Toma: Oh, we meet again.\nWhat say you buy me a drink?\n{TAG:38}{TAG:38}{GLYPH:394}Sure.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No way.{GLYPH:397}",
+    "original_fr": "Toma : Oh, comme on se retrouve ! Que diriez-vous de\nme payer un verre ?\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Toma: Cheers!\nTo your safety and success!",
+    "original_fr": "Toma : Ah, merci bien. J'espère que vos aventures se\ndérouleront sans encombre.",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "Toma: I tracked down the Rainbow Shell that the\nDorino elder hired me to find. It's on a small island,\nit seems.{WAIT_KEY}\nBut there's the rub.\nI don't know which one!{WAIT_KEY}\nThe money he fronted me is all gone, too.\nOh, what should I do?",
+    "original_fr": "Toma : J'ai réussi {TAG:3C} découvrir que le coquillage\narc-en-ciel que le maire de San Dorino recherche\nest sur une ¡le, quelque part, mais...{WAIT_KEY}\nJe n'ai pas la moindre idée d'où elle peut bien se\ntrouver, cette ¡le.{WAIT_KEY}\nDe plus, j'ai déj{TAG:3C} dépensé toute l'avance que m'avait\ndonnée le maire. Que vais-je faire...?",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "Toma: Miser!{WAIT_KEY}\nHmph, let's see if I've enough of that money the elder\nfronted me to cover another mug.",
+    "original_fr": "Toma : Pfft, comme vous êtes avares.{WAIT_KEY}\nJe me demande s'il me reste assez de l'avance du maire\npour me payer un verre...",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "{GLYPH:384}\nIt is locked.",
+    "original_fr": "{GLYPH:384}\nIl est fermé {TAG:3C} clef !",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "Oh, dear me!\nIs that Naga bromide you're hiding there?",
+    "original_fr": "Oh...! Serait-ce un de ces portraits défendus de myanne\nque vous cachez l{TAG:3C} ?",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "Won't you do an old man a favor and trade it to me?\nI'll give you something good in exchange.\n{TAG:38}{TAG:38}{GLYPH:394}All right.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}I don't need your rubbish.{GLYPH:397}",
+    "original_fr": "Je pourrais vous l'échanger contre quelque chose de\nbien... Qu'en dites-vous ?\n       {GLYPH:394}Faire l'échange{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Hmph!\nVery well, suit yourself.",
+    "original_fr": "Hum...! Comme vous voulez.",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Truly, you mean it?{WAIT_KEY}\nYahoo! Oh, what a glorious day!\nNow then, just wait right there.\nNo need to get impatient.",
+    "original_fr": "Vraiment ? Vraiment ?!{WAIT_KEY}\nYoupi ! Attendez un instant !",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "It's unlocked. Feel free to take what's inside.{WAIT_KEY}\nAnd I'll be taking this bromide!\nHee hee...",
+    "original_fr": "J'ai déverrouillé le tiroir, alors ne vous gênez pas !{WAIT_KEY}\nMoi, je prendrai le portrait ! © Ho, ho, ho, ho !",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "Don't tell Granny.\nHee hee... My very own sweet naga pet!",
+    "original_fr": "Ne le dites pas {TAG:3C} mamie, d'accord ? Oh, comme elle est\nmignonne, ma petite myanne... ©",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nTrouvé : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "{GLYPH:384}\nIt's empty!",
+    "original_fr": "{GLYPH:384}\nIl est vide !",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

@@ -1,0 +1,2084 @@
+[
+  {
+    "id": 0,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "A sturdy hardwood blade.",
+    "original_fr": "Un sabre de bois dur.",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "A single-edged bronze sword.",
+    "original_fr": "Un sabre de bronze finement ciselé.",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "An orthodox steel saber.",
+    "original_fr": "Un sabre d'acier traditionnel.",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "A distinctive sword with a lustrous blade.",
+    "original_fr": "Un sabre d'argent aux reflets éclatants.",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "A red stone sword imbued with magic.",
+    "original_fr": "Un sabre fait d'une pierre rouge magique.",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "A sword carved from a mammoth's tusk.",
+    "original_fr": "Une défense de mammouth taillée.",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "A blade enveloped in darkness.",
+    "original_fr": "Un sabre facile {TAG:3C} dissimuler dans l'ombre.",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "A sword steeped in ancient power.",
+    "original_fr": "Un sabre recelant un pouvoir ancien.",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "A blade forged to pierce demonic armor.",
+    "original_fr": "Un sabre dont le fil pourfend le mal.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "A diamond-edged sword.",
+    "original_fr": "Un splendide sabre taillé dans le diamant.",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "A heavenly sword gifted to kings of men.",
+    "original_fr": "Un don du ciel au conquérant de la terre.",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "A sword that draws upon a yaksha's might.",
+    "original_fr": "Un sabre béni par un dieu protecteur.",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "A blade with a demon's soul bound inside.",
+    "original_fr": "Un sabre qui retient un démon prisonnier.",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "A sword imbued with holy power.",
+    "original_fr": "Un sabre renfermant la force d'une déité.",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "A mighty sword that strikes like lightning.",
+    "original_fr": "Un sabre qui coupe comme un éclair.",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Slash's beloved katana.",
+    "original_fr": "Le sabre de Soja.",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "A bronzework bowgun.",
+    "original_fr": "Une arbalète de bronze.",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "A small crossbow that fires iron bolts.",
+    "original_fr": "Une arbalète tirant des carreaux de fer.",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "A bow crafted of dazzling silver.",
+    "original_fr": "Un arc tirant des flèches d'argent.",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "A type of bow favored by outlaws.",
+    "original_fr": "Un arc utilisé par un archer célèbre.",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "A bow employed by ancient occultists.",
+    "original_fr": "Un arc utilisé par les tribus préhistoriques.",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "A cinnabar-hued dreamstone bow.",
+    "original_fr": "Un arc fait de pierre onirique.",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "A bow whose shafts strike like meteorites.",
+    "original_fr": "Un arc aux traits transperçants.",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "A bow that fires arrows at sonic speed.",
+    "original_fr": "Un arc au tir ultrarapide.",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "A longbow instilled with a valkyrie's might.",
+    "original_fr": "Un arc béni par une déesse guerrière.",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "A legendary bow with a sonorous string.",
+    "original_fr": "Un arc légendaire au timbre harmonieux.",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "A gun whose bullets are propelled by air.",
+    "original_fr": "Un pistolet {TAG:3C} air comprimé.",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "A gun that fires pea-sized bullets.",
+    "original_fr": "Une arme qui tire de petites balles rondes.",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "A gun that can be shot with one hand.",
+    "original_fr": "Un pistolet facile {TAG:3C} manier.",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "A toy-like revolver.",
+    "original_fr": "Un gros calibre {TAG:3C} l'aspect de jouet.",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "A gun capable of freezing robots in their tracks.",
+    "original_fr": "Un pistolet qui peut arrêter les machines.",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "A pistol that focuses light through a ruby.",
+    "original_fr": "Un pistolet au rayon traversant un rubis.",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "A dreamstone pistol that fires light beams.",
+    "original_fr": "Une arme {TAG:3C} faisceau de lumière amplifiée.",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "A devastatingly powerful laser blaster.",
+    "original_fr": "Un pistolet qui tire des rayons cinglants.",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "A handheld electric wave blaster.",
+    "original_fr": "Un pistolet électrique {TAG:3C} ondes sonores.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "A gun containing the Sun Stone's strength.",
+    "original_fr": "Un pistolet qui renferme la force du soleil.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "A mighty weapon that alters gravity.",
+    "original_fr": "Un puissant pistolet qui distord la gravité.",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "A robotic arm constructed of tin.",
+    "original_fr": "Un bras de fer recouvert d'étain.",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "A hammer-shaped arm for pounding.",
+    "original_fr": "Un bras en forme de marteau-pilon.",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "A punching arm enhanced for speed.",
+    "original_fr": "Un bras {TAG:3C} très grande vitesse de frappe.",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "A stone-launching attack arm.",
+    "original_fr": "Un bras lance-pierre.",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "An attack arm employing fearsome claws.",
+    "original_fr": "Un bras muni de griffes crochues.",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "An arm containing superheated magma.",
+    "original_fr": "Un bras émettant la chaleur du magma.",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "An arm that packs a massive punch.",
+    "original_fr": "Un bras au pouvoir destructif.",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "An enormously destructive crushing arm.",
+    "original_fr": "Une main énorme {TAG:3C} la force dévastatrice.",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "A fighting arm tipped with a large blade.",
+    "original_fr": "Un bras muni d'une grande lame.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "An arm capable of dealing a mighty wallop.",
+    "original_fr": "Un bras au grand pouvoir destructif.",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "A terribly powerful punching arm.",
+    "original_fr": "Un bras haut de gamme ultra-destructif.",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "A fierce arm capable of incredible attacks.",
+    "original_fr": "Un bras {TAG:3C} la force changeante.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "A simple sword wrought from bronze.",
+    "original_fr": "Une épée de bronze ordinaire.",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "A standard iron military sword.",
+    "original_fr": "Une épée de fer utilisée par les soldats.",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "A legendary sword of antiquity.",
+    "original_fr": "L'épée légendaire.",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "A sword that gleams with hallowed light.",
+    "original_fr": "Une épée qui brille d'un éclat divin.",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "A sword forged to slay foul creatures.",
+    "original_fr": "Une épée créée pour vaincre les êtres magiques.",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "A blade etched with ensorcelled runes.",
+    "original_fr": "Une épée singulière imprégnée de magie.",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "A blade that shares its wielder's courage.",
+    "original_fr": "Une épée qui tire sa force de la bravoure.",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "A legendary blade awoken by virtue.",
+    "original_fr": "L'épée légendaire éveillée par un héros.",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "A sword forged to hunt fell creatures.",
+    "original_fr": "Une épée offerte aux chasseurs du mal.",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "A fist possessing untold strength.",
+    "original_fr": "Un poing d'une force inimaginable.",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "A fist possessing untold strength.",
+    "original_fr": "Un poing d'une force inimaginable.",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "A fist possessing untold strength.",
+    "original_fr": "Un poing d'une force inimaginable.",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Knuckles capable of pulverizing stone.",
+    "original_fr": "Un poing capable de tout détruire.",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Knuckles capable of pulverizing anything.",
+    "original_fr": "Un poing qui pulvérise tout d'un coup.",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "A scythe wielded by dwellers of darkness.",
+    "original_fr": "La faux des habitants des ténèbres.",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "A scythe made to sever life's string.",
+    "original_fr": "Une faux qui décide qui vit et qui meurt.",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "A weapon of underworld design.",
+    "original_fr": "La faux du souverain du royaume des ombres.",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "A scythe that fills foes with dread.",
+    "original_fr": "Une faux qui livre l'ennemi au désespoir.",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "A wooden mop made for scrubbing floors.",
+    "original_fr": "Un balai {TAG:3C} franges au manche de bois.",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "The shattered blade of a legendary sword.",
+    "original_fr": "La lame de l'épée légendaire.",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "The useless hilt of a legendary sword.",
+    "original_fr": "La poignée de l'épée légendaire.",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "A legendary sword wielded by the chosen.",
+    "original_fr": "L'épée légendaire maniée par l'élu.",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "A masterwork blade with a fine edge.",
+    "original_fr": "Un sabre {TAG:3C} la lame fine et acérée.",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Slash's beloved katana.",
+    "original_fr": "Le sabre préféré de Soja.",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "A blade that shimmers in prismatic hues.",
+    "original_fr": "Un sabre aux couleurs de l'arc-en-ciel.",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "A katana engraved with a brilliant blue dragon.",
+    "original_fr": "Un sabre décoré de l'emblème d'un dragon bleu.",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "A bow whose arrows strike like falling stars.",
+    "original_fr": "Un arc au tir aussi rapide qu'une étoile filante.",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "A gun designed to fire rounds at rapid speed.",
+    "original_fr": "Un pistolet très performant au tir ultra-rapide.",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "A sword of prehistoric make.",
+    "original_fr": "Une épée d'aspect primitif mais très solide.",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "An arm with the crushing strength of a dragon.",
+    "original_fr": "Un bras dont la force égale celle d'un dragon.",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "A scythe that renders but one judgment: guilty.",
+    "original_fr": "La faux du juge universel.",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "A mystical blade said to be forged of dreams.",
+    "original_fr": "Un sabre miraculeux.",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "A bow crafted in the image of beauty.",
+    "original_fr": "Un arc inspiré d'une déesse d'une grande beauté.",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "A fearsome gun that fires spectral energy.",
+    "original_fr": "Un pistolet dangereux au rayon maléfique.",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "An arm engineered for sheer destructive force.",
+    "original_fr": "Un bras conçu pour tout briser d'un coup.",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "A scythe that harvests souls.",
+    "original_fr": "Une faux terrifiante qui offre le repos éternel.",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "A tunic sewn from lightweight hides.",
+    "original_fr": "Une veste de cuir souple.",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "A durable training vest.",
+    "original_fr": "Une tunique d'entra¡nement résistante.",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Light armor crafted of bronze.",
+    "original_fr": "Une armure de bronze légère.",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Protective wear for women.",
+    "original_fr": "Une chemise de mailles pour femme.",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Heavy armor crafted of iron.",
+    "original_fr": "Une solide armure d'acier.",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "A light, strong titanium vest.",
+    "original_fr": "Une veste de titane légère et robuste.",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "A suit of glorious gilded armor.",
+    "original_fr": "Une resplendissante armure d'or.",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "A vest studded with rubies.",
+    "original_fr": "Une veste incrustée de rubis.",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "A suit of mail enchanted by dark magic.",
+    "original_fr": "Une armure renfermant une magie sombre.",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "A robe that produces mysterious mist.",
+    "original_fr": "Une toge étrange qui émet de la brume.",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "Primitive armor made from dinosaur bones.",
+    "original_fr": "Un plastron fait d'os de dinosaure.",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "A robe enchanted with divine magic.",
+    "original_fr": "Une toge imprégnée du pouvoir de la lumière.",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "Armor that shines with divine light.",
+    "original_fr": "Un plastron émettant une lueur éclatante.",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "An extremely tough platinum vest.",
+    "original_fr": "Une veste en platine très fonctionnelle.",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "A battle suit of exceptional quality.",
+    "original_fr": "Un haubert de très haute qualité.",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "A cape ornamented with constellations.",
+    "original_fr": "Une cape sacrée décorée d'étoiles.",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "Sacred armor vested with stellar power.",
+    "original_fr": "Une armure recelant la force des étoiles.",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "A dress that glitters in myriad colors.",
+    "original_fr": "Une robe aux reflets irisés.",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Armor forged by the light of the moon.",
+    "original_fr": "Une armure qui émet un éclat lunaire.",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "A suit of brilliant crimson armor.",
+    "original_fr": "Une armure scintillante sertie de rubis.",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "Armor empowered through dark rituals.",
+    "original_fr": "Une armure née du pouvoir des ténèbres.",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "A cape that evokes feelings of despair.",
+    "original_fr": "Une cape dont la vue réduit au désespoir.",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "Magical armor anointed by light.",
+    "original_fr": "Un plastron bienfaisant comme la lumière.",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Magical armor anointed by shadow.",
+    "original_fr": "Un plastron funeste comme les ténèbres.",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Magical armor anointed by water.",
+    "original_fr": "Un plastron miroitant comme l'eau.",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Magical armor anointed by fire.",
+    "original_fr": "Un plastron br{TAG:63}lant comme le feu.",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "A fine vest steeped in light energy.",
+    "original_fr": "Une veste recelant la force de la lumière.",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "A fine vest steeped in shadow energy.",
+    "original_fr": "Une veste recelant la force des ténèbres.",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "A fine vest steeped in water energy.",
+    "original_fr": "Une veste recelant la force de l'eau.",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "A fine vest steeped in fire energy.",
+    "original_fr": "Une veste recelant la force du feu.",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "A fire-resistant vest sewn by Taban.",
+    "original_fr": "Une veste ignifugée créée par Taban.",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "A tough armored suit made by Taban.",
+    "original_fr": "Un haubert spécial renforcé par Taban.",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Resilient armor made of wyrmscale plates.",
+    "original_fr": "Une armure faite d'écailles de dragon.",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "A dress once worn by a reptite princess.",
+    "original_fr": "La parure de la princesse des guivres.",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Protective garb made from dinosaur hide.",
+    "original_fr": "Une tunique de cuir de dinosaure.",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Armor crafted for warriors proven in battle.",
+    "original_fr": "Le plastron d'un glorieux chevalier.",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "A beautiful ivory-colored gown.",
+    "original_fr": "Une magnifique robe de dentelle blanche.",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Armor steeped in elemental energies.",
+    "original_fr": "Une cotte rare recelant le pouvoir de la Nature.",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "A feathered robe fit for an underworld king.",
+    "original_fr": "L'aube noir de jais portée par le roi des démons.",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "A lightweight leather cap.",
+    "original_fr": "Un chapeau de cuir léger.",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "A cast bronze helm.",
+    "original_fr": "Un armet de bronze.",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "A helm of hammered iron.",
+    "original_fr": "Un solide armet d'acier.",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "A traditional beret of Porre.",
+    "original_fr": "Un béret souple fabriqué {TAG:3C} Palpori.",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "A luxurious solid gold helm.",
+    "original_fr": "Un splendide armet d'or.",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "A heavy helm carved from a single stone.",
+    "original_fr": "Un armet taillé dans un gros rocher.",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "A stout helm adorned with dinosaur horns.",
+    "original_fr": "Un armet fait d'os de dinosaure.",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "A helm that shines with heavenly light.",
+    "original_fr": "Un armet qui émet une lumière éclatante.",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "A sleek helm of worked platinum.",
+    "original_fr": "Un armet en platine facile {TAG:3C} porter.",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "A multipurpose helm of superior make.",
+    "original_fr": "Un armet résistant de haute qualité.",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "A helm that gleams like a rainbow.",
+    "original_fr": "Un armet mystique aux reflets irisés.",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "A helm made in the image of Death himself.",
+    "original_fr": "Un armet évoquant le dieu de la mort.",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "A demonic helm infused with dark power.",
+    "original_fr": "Un armet invoquant la force des ténèbres.",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "A helm made to evoke despair in enemies.",
+    "original_fr": "Un armet funeste inspirant le désespoir.",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "A helm designed with protection in mind.",
+    "original_fr": "Un armet enchanté très résistant.",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "A magic-resistant helm crafted by Taban.",
+    "original_fr": "Un armet magique conçu par Taban.",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "A hat that heightens the wearer's senses.",
+    "original_fr": "Une toque fortifiant la volonté.",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "A hat that guards the wearer's memories.",
+    "original_fr": "Une toque permettant de ne rien oublier.",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "A hat that stabilizes the flow of time.",
+    "original_fr": "Une toque marquant le passage du temps.",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "A hat imbued with divine protection.",
+    "original_fr": "Une toque offrant une protection divine.",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "Disgusting pants that reek of Ozzie.",
+    "original_fr": "Le caleçon dégo{TAG:63}tant de Vinnie.",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "A helm that grants the wearer swiftness.",
+    "original_fr": "Un armet étrange qui augmente la rapidité.",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "A rare helm that emits a prismatic glow.",
+    "original_fr": "Un armet forgé au pied d'un arc-en-ciel.",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "A helm said to house a mermaid's power.",
+    "original_fr": "Un armet béni par une sirène légendaire.",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "A helm crafted from the skull of a great wyrm.",
+    "original_fr": "Un armet façonné {TAG:3C} partir du cr{TAG:4A}ne d'un dragon.",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "A tiara once worn by a reptite princess.",
+    "original_fr": "Le diadème de la princesse des guivres.",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "A ceremonial crown awarded to battle veterans.",
+    "original_fr": "Les lauriers d'un glorieux conquérant.",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "A tiara that grants divine protection.",
+    "original_fr": "Un nimbe qui confère la protection d'un ange.",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "A simple cloth headband.",
+    "original_fr": "Un bandeau insufflant un esprit combatif.",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "A charming hair ribbon.",
+    "original_fr": "Un ruban attrayant.",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "A glove that strengthens the wearer.",
+    "original_fr": "Des gants qui éveillent la force latente.",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "A protective charm.",
+    "original_fr": "Un bracelet protecteur.",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "An enchanted scarf.",
+    "original_fr": "Un foulard qui intensifie la magie.",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "An amulet received from Schala.",
+    "original_fr": "Une amulette donnant du courage.",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "A ring that quickens the body's movement.",
+    "original_fr": "Une bague augmentant la rapidité.",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "A ring that enhances attack precision.",
+    "original_fr": "Une bague augmentant la précision.",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "A ring that boosts its wearer's strength.",
+    "original_fr": "Une bague augmentant la force.",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "A ring that amplifies the wearer's magic.",
+    "original_fr": "Une bague augmentant la magie.",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "A ring that erects a magical barrier.",
+    "original_fr": "Une bague créant une barrière magique.",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "An earring that grants vigor.",
+    "original_fr": "Un pendant donnant de la vitalité.",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "An earring that grants great vigor.",
+    "original_fr": "Un pendant donnant beaucoup de vitalité.",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "An earring that grants intellect.",
+    "original_fr": "Une boucle augmentant l'esprit.",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "An earring that grants great intellect.",
+    "original_fr": "Une boucle augmentant beaucoup l'esprit.",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "A scope that analyzes enemy attributes.",
+    "original_fr": "Un monocle pouvant analyser l'ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "A revealing article that entrances foes.",
+    "original_fr": "Un bustier aidant {TAG:3C} séduire l'ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "An armband that fans the wearer's rage.",
+    "original_fr": "Un bracelet attisant la colère.",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "An armband that greatly amplifies anger.",
+    "original_fr": "Un bracelet provoquant la furie.",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "A third eye that helps avoid attacks.",
+    "original_fr": "Un {TAG:61}il qui permet d'anticiper les attaques.",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "A wallet that turns effort into affluence.",
+    "original_fr": "Une bourse changeant tout en argent.",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "An orb containing pure life essence.",
+    "original_fr": "Un extrait de la force de Mère Nature.",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "A dangerous ring that enrages the wearer.",
+    "original_fr": "Une bague forçant {TAG:3C} attaquer sans arrêt.",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "A scarf that surges with power.",
+    "original_fr": "Une écharpe débordant de force.",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "A belt that hastens the wearer.",
+    "original_fr": "Une ceinture augmentant la rapidité.",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "A polished black gemstone.",
+    "original_fr": "Une pierre précieuse {TAG:3C} l'éclat ténébreux.",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "A brilliant blue gemstone.",
+    "original_fr": "Une pierre précieuse {TAG:3C} l'éclat céruléen.",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "A brilliant silver gemstone.",
+    "original_fr": "Une pierre précieuse {TAG:3C} l'éclat argenté.",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "A brilliant white gemstone.",
+    "original_fr": "Une pierre précieuse {TAG:3C} l'éclat opalin.",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "A brilliant golden gemstone.",
+    "original_fr": "Une pierre précieuse {TAG:3C} l'éclat doré.",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "A medal carried by true heroes.",
+    "original_fr": "La médaille légendaire du véritable héros.",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "A ring that adds muscle tone.",
+    "original_fr": "Une bague augmentant l'endurance.",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "Flea's favorite bustier.",
+    "original_fr": "Le bustier préféré de Mayo.",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "An emblem that boosts magical strength.",
+    "original_fr": "Un sceau fortifiant l'aspect magique.",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "An emblem that boosts physical strength.",
+    "original_fr": "Un sceau fortifiant l'aspect physique.",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "An item that produces soft, sweet music.",
+    "original_fr": "Un accessoire émettant une douce voix.",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "Magical glasses that grant unrivaled power.",
+    "original_fr": "Des lunettes magiques octroyant la force.",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "Prismatic glasses that grant true power.",
+    "original_fr": "Des lunettes octroyant la force véritable.",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "An emblem that boosts combat abilities.",
+    "original_fr": "Un blason qui octroie une grande force.",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "A medal awarded to champions of the realm.",
+    "original_fr": "L'illustre emblème d'un preux chevalier.",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "An earring made from a great wyrm's teardrop.",
+    "original_fr": "Une boucle d'oreille faite d'une larme de dragon.",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "A scroll that sheds light on nu mysteries.",
+    "original_fr": "Un papyrus recelant l'étrange pouvoir des gnus.",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "A mirror bearing the image of a light deity.",
+    "original_fr": "Le mystérieux miroir béni par le dieu du ciel.",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "A mirror bearing the image of a water deity.",
+    "original_fr": "Le mystérieux miroir béni par le dieu des océans.",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "A mirror bearing the image of a fire deity.",
+    "original_fr": "Le mystérieux miroir béni par le dieu de la forge.",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "A mirror bearing the image of a shadow deity.",
+    "original_fr": "Le mystérieux miroir béni par le dieu des enfers.",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "A mirror bearing the image of a warrior deity.",
+    "original_fr": "Le mystérieux miroir béni par le dieu de la guerre.",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 256,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 257,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 258,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 259,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 260,
+    "original_en": "Medicine that restores a small amount of HP.",
+    "original_fr": "Une potion qui rend quelques PV.",
+    "translation": ""
+  },
+  {
+    "id": 261,
+    "original_en": "Medicine that restores a moderate amount of HP.",
+    "original_fr": "Une potion qui rend des PV.",
+    "translation": ""
+  },
+  {
+    "id": 262,
+    "original_en": "Medicine that restores a large amount of HP.",
+    "original_fr": "Une potion qui rend beaucoup de PV.",
+    "translation": ""
+  },
+  {
+    "id": 263,
+    "original_en": "Medicine that restores a small amount of MP.",
+    "original_fr": "Un éther qui rend quelques PM.",
+    "translation": ""
+  },
+  {
+    "id": 264,
+    "original_en": "Medicine that restores a moderate amount of MP.",
+    "original_fr": "Un éther qui rend des PM.",
+    "translation": ""
+  },
+  {
+    "id": 265,
+    "original_en": "Medicine that restores a large amount of MP.",
+    "original_fr": "Un éther qui rend beaucoup de PM.",
+    "translation": ""
+  },
+  {
+    "id": 266,
+    "original_en": "Medicine that fully restores HP and MP.",
+    "original_fr": "Un élixir qui rend tous les PV et PM.",
+    "translation": ""
+  },
+  {
+    "id": 267,
+    "original_en": "Medicine that fully restores MP.",
+    "original_fr": "Un éther qui rend tous les PM.",
+    "translation": ""
+  },
+  {
+    "id": 268,
+    "original_en": "Medicine that fully restores party's HP and MP.",
+    "original_fr": "Un élixir qui rend tous leurs PV et PM aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 269,
+    "original_en": "Medicine that cures a variety of ailments.",
+    "original_fr": "Une panacée qui guérit les altérations d'état.",
+    "translation": ""
+  },
+  {
+    "id": 270,
+    "original_en": "Water that restores life to the fallen.",
+    "original_fr": "Un nectar qui relève du Coma.",
+    "translation": ""
+  },
+  {
+    "id": 271,
+    "original_en": "A portable shelter providing a safe night's rest.",
+    "original_fr": "Une tente qui permet de se reposer en sécurité.",
+    "translation": ""
+  },
+  {
+    "id": 272,
+    "original_en": "Sweet, nourishing food.",
+    "original_fr": "Un panier-repas préparé avec soin.",
+    "translation": ""
+  },
+  {
+    "id": 273,
+    "original_en": "Medicine that restores HP to all party members.",
+    "original_fr": "Une pierre étrange qui rend des PV aux alliés.",
+    "translation": ""
+  },
+  {
+    "id": 274,
+    "original_en": "A sphere that erects a magical barrier.",
+    "original_fr": "Une sphère qui érige une barrière magique.",
+    "translation": ""
+  },
+  {
+    "id": 275,
+    "original_en": "A sphere that erects a physical barrier.",
+    "original_fr": "Une sphère qui fortifie la défense.",
+    "translation": ""
+  },
+  {
+    "id": 276,
+    "original_en": "A capsule that permanently enhances Strength.",
+    "original_fr": "Une gélule qui augmente la force.",
+    "translation": ""
+  },
+  {
+    "id": 277,
+    "original_en": "A capsule that permanently enhances Magic.",
+    "original_fr": "Une gélule qui augmente la magie.",
+    "translation": ""
+  },
+  {
+    "id": 278,
+    "original_en": "A capsule that permanently enhances Speed.",
+    "original_fr": "Une gélule qui augmente la rapidité.",
+    "translation": ""
+  },
+  {
+    "id": 279,
+    "original_en": "Nourishing food that restores HP. (Arena only)",
+    "original_fr": "Rend des PV au monstre. (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 280,
+    "original_en": "Unleashes fire-based tech. (Arena only)",
+    "original_fr": "Fait utiliser une compétence de feu. (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 281,
+    "original_en": "Unleashes water-based tech. (Arena only)",
+    "original_fr": "Fait utiliser une compétence d'eau. (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 282,
+    "original_en": "Unleashes shadow-based tech. (Arena only)",
+    "original_fr": "Fait utiliser une compétence de ténèbres. (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 283,
+    "original_en": "Unleashes light-based tech. (Arena only)",
+    "original_fr": "Fait utiliser une compétence de lumière. (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 284,
+    "original_en": "Boosts monster's Strength. (Arena only)",
+    "original_fr": "Augmente la force du monstre. (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 285,
+    "original_en": "Boosts monster's Defense. (Arena only)",
+    "original_fr": "Augmente la défense du monstre. (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 286,
+    "original_en": "Boosts critical hit damage. (Arena only)",
+    "original_fr": "Rend les coups critiques plus puissants. (Arène)",
+    "translation": ""
+  },
+  {
+    "id": 287,
+    "original_en": "The smoked meat of a game beast.",
+    "original_fr": "Une brochette de viande grillée.",
+    "translation": ""
+  },
+  {
+    "id": 288,
+    "original_en": "A dried mountain mushroom.",
+    "original_fr": "Un champignon récolté dans la montagne.",
+    "translation": ""
+  },
+  {
+    "id": 289,
+    "original_en": "A plump forest banana.",
+    "original_fr": "Une banane fra¡chement cueillie.",
+    "translation": ""
+  },
+  {
+    "id": 290,
+    "original_en": "The sweet fruit of the millennia tree.",
+    "original_fr": "Un gland d'un arbre de la forêt millénaire.",
+    "translation": ""
+  },
+  {
+    "id": 291,
+    "original_en": "A rare egg swiped from a songbird nest.",
+    "original_fr": "Un {TAG:61}uf rare trouvé dans un nid.",
+    "translation": ""
+  },
+  {
+    "id": 292,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 293,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 294,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 295,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 296,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 297,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 298,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 299,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 300,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 301,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 302,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 303,
+    "original_en": "The petal of a delicate prehistoric flower.",
+    "original_fr": "Un joli pétale de fleur préhistorique.",
+    "translation": ""
+  },
+  {
+    "id": 304,
+    "original_en": "The sharp fang of an ancient beast.",
+    "original_fr": "Un croc acéré d'un animal préhistorique.",
+    "translation": ""
+  },
+  {
+    "id": 305,
+    "original_en": "The great horn of a prehistoric creature.",
+    "original_fr": "Une corne dure d'un animal préhistorique.",
+    "translation": ""
+  },
+  {
+    "id": 306,
+    "original_en": "The colorful feather of a prehistoric bird.",
+    "original_fr": "Une grande plume d'oiseau préhistorique.",
+    "translation": ""
+  },
+  {
+    "id": 307,
+    "original_en": "A seed discovered in a food storage facility.",
+    "original_fr": "Les graines de l'entrepôt de provisions.",
+    "translation": ""
+  },
+  {
+    "id": 308,
+    "original_en": "The key to Doan's jetbike.",
+    "original_fr": "La clef de l'ancienne moto de Don.",
+    "translation": ""
+  },
+  {
+    "id": 309,
+    "original_en": "A pendant that glows with a strange light.",
+    "original_fr": "Un pendentif qui émet une lueur étrange.",
+    "translation": ""
+  },
+  {
+    "id": 310,
+    "original_en": "A device capable of stabilizing Gates.",
+    "original_fr": "Une clef qui permet de stabiliser les portails.",
+    "translation": ""
+  },
+  {
+    "id": 311,
+    "original_en": "A small fragment of the Rainbow Shell.",
+    "original_fr": "Un morceau du coquillage arc-en-ciel.",
+    "translation": ""
+  },
+  {
+    "id": 312,
+    "original_en": "An egg-like object capable of conjuring miracles.",
+    "original_fr": "Un {TAG:61}uf prodigieux qui peut opérer des miracles.",
+    "translation": ""
+  },
+  {
+    "id": 313,
+    "original_en": "Tools used for construction and repair.",
+    "original_fr": "Une bo¡te {TAG:3C} outils de charpentier.",
+    "translation": ""
+  },
+  {
+    "id": 314,
+    "original_en": "A delicacy known for its intense flavor.",
+    "original_fr": "Le jambon préféré des gastronomes.",
+    "translation": ""
+  },
+  {
+    "id": 315,
+    "original_en": "An ancient mineral used to craft a mighty blade.",
+    "original_fr": "De cette pierre l'épée légendaire a été forgée.",
+    "translation": ""
+  },
+  {
+    "id": 316,
+    "original_en": "A device that logs the score of jetbike races.",
+    "original_fr": "Enregistre les records des courses.",
+    "translation": ""
+  },
+  {
+    "id": 317,
+    "original_en": "A darkened stone devoid of solar energy.",
+    "original_fr": "Une pierre qui a perdu son énergie solaire.",
+    "translation": ""
+  },
+  {
+    "id": 318,
+    "original_en": "A stone effulgent with the sun's brilliant light.",
+    "original_fr": "La pierre légendaire débordant d'énergie solaire.",
+    "translation": ""
+  },
+  {
+    "id": 319,
+    "original_en": "A ruby-colored knife carved from dreamstone.",
+    "original_fr": "Un couteau fait de pierre onirique.",
+    "translation": ""
+  },
+  {
+    "id": 320,
+    "original_en": "The key to a secret treasure chest.",
+    "original_fr": "La clef qui ouvre un coffre mystérieux.",
+    "translation": ""
+  },
+  {
+    "id": 321,
+    "original_en": "A doll made in a person's perfect likeness.",
+    "original_fr": "Une poupée quasi-identique {TAG:3C} son modèle.",
+    "translation": ""
+  },
+  {
+    "id": 322,
+    "original_en": "A bottle of spirits received from an explorer.",
+    "original_fr": "La bouteille de vin que vous a confiée Toma.",
+    "translation": ""
+  },
+  {
+    "id": 323,
+    "original_en": "The petals of a delicate prehistoric flower.",
+    "original_fr": "Un joli pétale de fleur préhistorique.",
+    "translation": ""
+  },
+  {
+    "id": 324,
+    "original_en": "The sharp fangs of an ancient beast.",
+    "original_fr": "Un croc acéré d'un animal préhistorique.",
+    "translation": ""
+  },
+  {
+    "id": 325,
+    "original_en": "The great horns of a prehistoric creature.",
+    "original_fr": "Une corne dure d'un animal préhistorique.",
+    "translation": ""
+  },
+  {
+    "id": 326,
+    "original_en": "The colorful feathers of a prehistoric bird.",
+    "original_fr": "Une grande plume d'oiseau préhistorique.",
+    "translation": ""
+  },
+  {
+    "id": 327,
+    "original_en": "Glittering golden sand.",
+    "original_fr": "Du sable doré qui brille splendidement.",
+    "translation": ""
+  },
+  {
+    "id": 328,
+    "original_en": "A hammer crafted from golden wood.",
+    "original_fr": "Un maillet fait du tronc de l'arbre doré.",
+    "translation": ""
+  },
+  {
+    "id": 329,
+    "original_en": "A mysterious stone said to have healing powers.",
+    "original_fr": "Une pierre aux propriétés curatives.",
+    "translation": ""
+  },
+  {
+    "id": 330,
+    "original_en": "An elusive gem that radiates light.",
+    "original_fr": "Une pierre chimérique qui scintille de mille feux.",
+    "translation": ""
+  },
+  {
+    "id": 331,
+    "original_en": "A talisman needed to enter a reptite sanctuary.",
+    "original_fr": "Un emblème qui donne accès {TAG:3C} l'autel saurien.",
+    "translation": ""
+  },
+  {
+    "id": 332,
+    "original_en": "A gem that shines with an inner light.",
+    "original_fr": "Une pierre aux rayons aveuglants.",
+    "translation": ""
+  },
+  {
+    "id": 333,
+    "original_en": "Lumber from an ancient godwood tree.",
+    "original_fr": "Le tronc d'un arbre géant millénaire.",
+    "translation": ""
+  },
+  {
+    "id": 334,
+    "original_en": "A lump of fine steel.",
+    "original_fr": "De l'acier {TAG:3C} la dureté remarquable.",
+    "translation": ""
+  },
+  {
+    "id": 335,
+    "original_en": "Stout and rugged vines.",
+    "original_fr": "Du lierre épais et résistant.",
+    "translation": ""
+  },
+  {
+    "id": 336,
+    "original_en": "A nutritious lunch made with love.",
+    "original_fr": "Un panier-repas préparé avec amour.",
+    "translation": ""
+  },
+  {
+    "id": 337,
+    "original_en": "A katana rendered useless by rust.",
+    "original_fr": "Un sabre rouillé et inutilisable.",
+    "translation": ""
+  },
+  {
+    "id": 338,
+    "original_en": "A mineral with many powerful properties.",
+    "original_fr": "Un éclat renfermant la force de la Nature.",
+    "translation": ""
+  },
+  {
+    "id": 339,
+    "original_en": "A rusted katana engraved with a dragon crest.",
+    "original_fr": "Un sabre rouillé décoré de l'emblème d'un dragon.",
+    "translation": ""
+  },
+  {
+    "id": 340,
+    "original_en": "A luminous stone shard.",
+    "original_fr": "Un éclat d'une jolie pierre brillante.",
+    "translation": ""
+  },
+  {
+    "id": 341,
+    "original_en": "",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 342,
+    "original_en": "",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 343,
+    "original_en": "",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 344,
+    "original_en": "",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 345,
+    "original_en": "",
+    "original_fr": "Factice",
+    "translation": ""
+  },
+  {
+    "id": 346,
+    "original_en": "",
+    "original_fr": "Factice",
+    "translation": ""
+  }
+]

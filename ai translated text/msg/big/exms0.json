@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{GLYPH:386}: Ugh...",
+    "original_fr": "{GLYPH:386} : Oh...",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{GLYPH:387}: Ugh...",
+    "original_fr": "{GLYPH:387} : Ooh...",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{ROBO}: Unh...",
+    "original_fr": "{ROBO} : Oh...",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{GLYPH:387}: Where are we?",
+    "original_fr": "{GLYPH:387} : Où sommes-nous...?",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{GLYPH:388}: Where are we?",
+    "original_fr": "{GLYPH:388} : Où sommes-nous...?",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{ROBO}: What is this place?",
+    "original_fr": "{ROBO} : Quel est cet endroit...?",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Voice: Here, Lavos is no more.\nThis is the future in which we've defeated him.",
+    "original_fr": "??? : Vous êtes dans un futur où Lavos n'existe plus.\nDans un espace-temps où nous l'avons déj{TAG:3C} vaincu.",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{MAGUS}: ...!",
+    "original_fr": "{MAGUS} : ...!",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{MAGUS}: Whether that is the future of the world\nfrom which you've come, I do not know.{WAIT_KEY}\nThere are as many worlds as there are potentialities.",
+    "original_fr": "{MAGUS} : Toutefois, je ne saurais dire s'il s'agit du\nfutur de votre monde.{WAIT_KEY}\nIl existe autant de mondes parallèles que de choix.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{MAGUS}: A new foe has arisen here, in this endless\nexpanse that is Time's Eclipse.{WAIT_KEY}\nIt feasts upon thoughts, dreams, and memories.\n",
+    "original_fr": "{MAGUS} : Un nouvel ennemi s'apprête {TAG:3C} na¡tre dans\nles profondeurs des ténèbres du temps qui s'étendent\nau-del{TAG:3C}.{WAIT_KEY}\nIl cherche {TAG:3C} dévorer les souvenirs, les rêves et les\nsentiments des êtres humains...",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{MAGUS}: Do not think to meddle here.\nThis enemy is my affair.",
+    "original_fr": "{MAGUS} : Je vous interdis d'intervenir.\nVous n'avez qu'{TAG:3C} regarder de l{TAG:3C} où vous êtes.",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "{MAGUS}: Grr...\nI've not finished with you yet.",
+    "original_fr": "{MAGUS} : Aaargh...\nJe ne suis pas... encore... vaincu...",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{GLYPH:386}: {MAGUS}!",
+    "original_fr": "{GLYPH:386} : {MAGUS} !",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{GLYPH:387}: {MAGUS}!",
+    "original_fr": "{GLYPH:387} : {MAGUS} !",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "{GLYPH:388}: {MAGUS}!",
+    "original_fr": "{GLYPH:388} : {MAGUS} !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "{MAGUS}: I believe I told you...not to interfere!",
+    "original_fr": "{MAGUS} : Je vous ai dit de ne pas intervenir !",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Schala: Let all that once was fade into oblivion!\nI welcome the end of existence.",
+    "original_fr": "Sarah : Tout doit dispara¡tre. Rien ne mérite de\nsubsister !",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "{MAGUS}: No, Schala!\nFree yourself from its spell!\nPlease... You must open your eyes!",
+    "original_fr": "{MAGUS} : Non ! Ouvre les yeux ! Réveille-toi,\nSarah, je t'en prie !",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Oh no!",
+    "original_fr": "Attention !",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "{LUCCA}: This is the new enemy?\nWhat...what is doing here?",
+    "original_fr": "{LUCCA} : C'est... le nouvel ennemi ?!\nQue s'est-il passé ?!",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{ROBO}: Offensive power incalculable.\nWe are in extreme danger!",
+    "original_fr": "{ROBO} : Alerte ! Il m'est impossible de mesurer sa\npuissance !",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{FROG}: It seems we've little choice but to fight.",
+    "original_fr": "{FROG} : Pfft, on dirait que nous allons devoir nous\nen charger.",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{MARLE}: Isn't that...Lavos?\nWhy is Schala with it?",
+    "original_fr": "{MARLE} : Est-ce Lavos ?! Pourquoi Sarah est-elle\nici ?!",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "{AYLA}: {AYLA} no lose!",
+    "original_fr": "{AYLA} : {AYLA} pas perdre !",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "{MAGUS}: No...\nImpossible!",
+    "original_fr": "{MAGUS} : Non...! C'est impossible...!",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Schala: Embrace your destruction!\nIt is inevitable!",
+    "original_fr": "Sarah : La fin approche !",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Schala: The end of all is nigh.",
+    "original_fr": "Sarah : Que l'univers entier soit détruit !",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "{MAGUS}: No!\nSchala!",
+    "original_fr": "{MAGUS} : Non ! Arrête, Sarah...!",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{MAGUS}: Schala!",
+    "original_fr": "{MAGUS} : Sarah !!",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "{MAGUS}: Schala?",
+    "original_fr": "{MAGUS} : Sa... Sarah...?",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Schala: It is no doubt but a matter of time before\nLavos consumes the whole of my awareness.{WAIT_KEY}\nIt was I, after all, who wished it—wished from the\ndepths of my sadness and despair that all that was\nwould be erased.",
+    "original_fr": "Sarah : Tôt ou tard, ma conscience sera complètement\nabsorbée par Lavos.{WAIT_KEY}\nDans les profondeurs du désespoir et de la tristesse,\nj'ai moi-même souhaité dispara¡tre avec tout le reste...",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Schala: The strength you wield now cannot free me.{WAIT_KEY}\nNo, perhaps it is better said that no strength can.\nSo long as you lean upon the crutch of power, this\nworld's sorrow can know no true end.{WAIT_KEY}\nReturn to your own time now.\nDwell not on this.",
+    "original_fr": "Sarah : Vous n'avez pas la force nécessaire pour me\nlibérer.{WAIT_KEY}\nD'ailleurs, tant que vous vous en remettrez {TAG:3C} la force,\nvous n'aurez pas la moindre chance d'apaiser la\ntristesse et le désespoir de ce monde...{WAIT_KEY}\nAllez, retournez maintenant dans votre propre\nespace-temps.",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{MAGUS}: Schala...",
+    "original_fr": "{MAGUS} : Sarah...",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Schala: Janus...thank you.\nBut I am the girl I was no more.\nLive, and be strong.",
+    "original_fr": "Sarah : Janus... Je te remercie. Je ne suis plus celle que\nj'étais... Mais toi, tu dois vivre, envers et contre tout.",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{MAGUS}: Schala!",
+    "original_fr": "{MAGUS} : Sarah !",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Schala: Farewell...",
+    "original_fr": "Sarah : Adieu...",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "{MAGUS}: So, you mean to say that no matter how\nhard I strive—no matter how strong I grow—there\nis nothing I might do to save you?{WAIT_KEY}\nWhat purpose, then, does this existence serve?",
+    "original_fr": "{MAGUS} : Est-ce {TAG:3C} dire que je ne serai jamais assez\npuissant ?{WAIT_KEY}\nSi c'est le cas, {TAG:3C} quoi bon continuer d'exister...?",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{MAGUS}: Hmph. If this is to be the way of things,\nthen let me abandon all that was and fade away as well.{WAIT_KEY}\nShould a part of me somehow even then remain,\nthen perhaps that will be the birth of something\nnew—something with greater meaning than all this.",
+    "original_fr": "{MAGUS} : Tsst ! Soit... Je vais moi aussi tout\nabandonner et dispara¡tre.{WAIT_KEY}\nSi malgré tout une petite partie de mon {TAG:4A}me venait {TAG:3C}\nsubsister, peut-être donnerait-elle naissance {TAG:3C} quelque\nchose de nouveau...",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "What is this place?",
+    "original_fr": "Où suis-je...?",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "Who...who am I?\nWhat's happened?\nI...I don't remember anything.",
+    "original_fr": "Je... Qui suis-je ? Je ne me souviens de rien...\nQue m'est-il arrivé...?",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "There was something...something I needed to do.\nSomething I needed to...to find.",
+    "original_fr": "Il y avait quelque chose que je devais faire...\nQuelque chose que je devais trouver...",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "I must find a way to remember.\nI will.",
+    "original_fr": "Je vais le récupérer, co{TAG:63}te que co{TAG:63}te. Je le jure...",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "A new enemy waits beyond.\nWhat will you do?\n{TAG:38}{TAG:38}{GLYPH:394}Fight!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Turn back for now.{GLYPH:397}",
+    "original_fr": "Un nouvel ennemi vous attend au-del{TAG:3C} du portail.\nQue voulez-vous faire ?\n       {GLYPH:394}Combattre !{GLYPH:395}\n       {GLYPH:396}Faire demi-tour...{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Return to the End of Time?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous retourner {TAG:3C} la Fin des temps ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "{AYLA}: Ugh...",
+    "original_fr": "{AYLA} : Oh...",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "{AYLA}: What this place?",
+    "original_fr": "{AYLA} : Où nous être...?",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "Ugh...",
+    "original_fr": "Oh...",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "{MAGUS}: But, Schala—",
+    "original_fr": "{MAGUS} : Sarah ?!",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "{MAGUS}: Urgh!",
+    "original_fr": "{MAGUS} : Sa... Sarah...!",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Br-brave heroes! H-help!",
+    "original_fr": "Je vous en supplie ! Aidez-moi !",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "M-my thanks.\nI fear I'd not have survived much longer.",
+    "original_fr": "Merci beaucoup de m'avoir porté secours ! J'ai bien cru\nque j'allais y rester.",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "I've been toiling away at this bridge, but the work\ntakes a good deal out of a man. Seems I grew a tad\ncareless and lost my footing.",
+    "original_fr": "Je construis ce pont depuis des lustres, mais c'est un\ntravail harassant. Je n'ai pas fait assez attention et j'ai\nperdu l'équilibre.",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "If only I'd someone with more brawn to assist me.\nIt'll be some time before I finish at this rate.",
+    "original_fr": "Si seulement j'avais l'aide de quelqu'un de très costaud...\nTout seul, je ne suis pas près d'en voir le bout...",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "{MAGUS}: Why not use a Nu?\nThey've strength and stamina enough.",
+    "original_fr": "{MAGUS} : Pourquoi ne pas utiliser un gnu ?\nLeur force et leur endurance devraient\nconvenir parfaitement.",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "{AYLA}: Nu strong!\nAsk Nu!",
+    "original_fr": "{AYLA} : Gnu avoir force et endurance !\nDemander {TAG:3C} gnu !",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "{ROBO}: Nu possess great strength and endurance.\nWhy do we not ask that Nu?",
+    "original_fr": "{ROBO} : Les gnus ont la force et l'endurance\nnécessaires. Allons demander {TAG:3C} celui que nous\navons rencontré.",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "{FROG}: Would that Nu not serve?\nThey've strength and stamina to match.\nWe ought to ask.",
+    "original_fr": "{FROG} : Le gnu pourrait le faire, non ? Il aurait\nla force et l'endurance nécessaires. Allons le lui\ndemander pour voir.",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "{LUCCA}: Couldn't that Nu help?\nThey're incredibly strong.\nLet's ask!",
+    "original_fr": "{LUCCA} : Le gnu pourrait s'en charger, non ?\nIl a la force et l'endurance nécessaires.\nAllons le lui demander !",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "You've an idea of someone who could help?\nMy pardons, but it would be most gracious\nof you if you could inquire on my behalf.",
+    "original_fr": "Vous savez qui pourrait m'aider ? J'étais certain de\npouvoir compter sur vous !",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "This...this is the assistant of whom you spoke?",
+    "original_fr": "Euh... c'est lui qui va m'aider ?",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "{MARLE}: Don't worry.\nHe's a lot stronger than he looks!",
+    "original_fr": "{MARLE} : Ne vous en faites pas.\nMalgré son apparence, il est très fort !",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "{LUCCA}: Sure is!\nDon't judge the book by its cover.\nHe's a strong one!",
+    "original_fr": "{LUCCA} : Oui ! Ne le jugez pas sur son apparence !\nIl est très fort !",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "{FROG}: Do not be deceived by appearances.\nTen men could not match the might of this Nu.",
+    "original_fr": "{FROG} : Ne le jugez pas sur son apparence.\nIl est plus fort que dix hommes !",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "{ROBO}: Yes, it is.\nHis strength is far greater than it appears.\nPlease exercise caution.",
+    "original_fr": "{ROBO} : C'est exact. Prenez garde, il est\nbeaucoup plus fort que vous ne le croyez.",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "{AYLA}: He strong.\nSo, no worry!",
+    "original_fr": "{AYLA} : Gnu être fort ! Gnu réussir !",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "I...I see.\nWell, I suppose if you say so...",
+    "original_fr": "Ah bon... Si vous le dites...",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "It all right. I strong.",
+    "original_fr": "Pas de problème. Je suis fort.",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "Well then, haste makes waste.\nFirst things first...",
+    "original_fr": "Eh bien, mettons-nous au travail sans plus tarder.\nD'abord...",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "You aren't so bad at all.",
+    "original_fr": "Tu te débrouilles bien, gnu !",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "No, I not bad at all.",
+    "original_fr": "Oui, je me débrouille bien.",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "All right, next we need to—",
+    "original_fr": "Alors, ensuite...",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "What's the matter, Nu!?",
+    "original_fr": "Qu'y a-t-il, gnu ?!",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Hungry. Can't move.\nNeed food!",
+    "original_fr": "J'ai faim, alors je ne peux plus bouger !\nJe veux manger quelque chose !",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{ROBO}: We have a lunch we obtained in the village.",
+    "original_fr": "{ROBO} : Nous avons le panier garni que nous avons\nobtenu au village.",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{FROG}: We've a lunch we acquired in the village.",
+    "original_fr": "{FROG} : Nous avons le panier garni que nous avons\nobtenu au village.",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{LUCCA}: We have a lunch we got in the village.\nYou're welcome to it.",
+    "original_fr": "{LUCCA} : Nous avons le panier garni que nous avons\nobtenu au village. Tu peux le manger si tu veux.",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{MARLE}: Well, we do have this lunch we got in the\nvillage. You can have it if you'd like.",
+    "original_fr": "{MARLE} : Nous avons le panier garni que nous avons\nobtenu au village. Tu peux le manger si tu veux.",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "{MAGUS}: What of that lunch we had?\nWe could let it eat that.",
+    "original_fr": "{MAGUS} : N'avons-nous pas un panier garni ?\nPourquoi ne pas le laisser le manger ?",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "Mmm... Taste good.",
+    "original_fr": "C'est délicieux !",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "{MARLE}: You like it?\nA villager made that for you.",
+    "original_fr": "{MARLE} : Tant mieux ! Un villageois l'a préparé\nexprès pour toi.",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "{LUCCA}: Glad you like it.\nA villager made that for you.",
+    "original_fr": "{LUCCA} : Tant mieux ! Un villageois l'a préparé\nexprès pour toi.",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "{FROG}: A villager made that for you.\nIt's to her you owe your thanks.",
+    "original_fr": "{FROG} : Un villageois l'a préparé exprès pour toi.\nTu devrais être reconnaissant.",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "{ROBO}: A reptite in the village worked very hard to\nmake that for you. It is no wonder it tastes so good.",
+    "original_fr": "{ROBO} : Un villageois l'a préparé avec ardeur pour\ntoi. Il est normal qu'il soit savoureux.",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "{AYLA}: Villager make for you.",
+    "original_fr": "{AYLA} : Villageois préparer panier garni pour gnu.",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Oh, she made this?\nI feel strong now.\nI work hard again.",
+    "original_fr": "Il l'a préparé pour moi...? J'ai repris beaucoup de forces.\nJe vais de nouveau travailler dur.",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Can I ask favor?",
+    "original_fr": "J'ai une faveur {TAG:3C} vous demander.",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "{AYLA}: Favor? What favor?",
+    "original_fr": "{AYLA} : Faveur ? Quoi être ?",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "{MAGUS}: Speak.",
+    "original_fr": "{MAGUS} : ... Que veux-tu ?",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{MARLE}: What is it?",
+    "original_fr": "{MARLE} : Qu'est-ce que c'est ?",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "{LUCCA}: What?",
+    "original_fr": "{LUCCA} : Qu'est-ce que c'est ?",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "{FROG}: What manner of favor?",
+    "original_fr": "{FROG} : Quelle sorte de faveur ?",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "I get hungry, I can't work.\nI want you bring me food.{WAIT_KEY}\nOld monster have good food, long, long time ago.\nSweet, yellow thing. I like that food.",
+    "original_fr": "Quand mon estomac est vide, je perds mes forces.{WAIT_KEY}\nJ'aimerais que vous m'apportiez des vivres... Ce sont\nles fruits jaunes sucrés des créatures d'il y a très\nlongtemps qui me redonnent le plus d'énergie.",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{LUCCA}: All right.\nYou just keep working on the bridge!",
+    "original_fr": "{LUCCA} : Entendu. Occupe-toi de construire le pont !",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "{MARLE}: Okay.\nWe'll try to bring you some!",
+    "original_fr": "{MARLE} : Entendu. Nous te rapporterons quelque\nchose de bon !",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "{ROBO}: More food, correct?\nUnderstood.",
+    "original_fr": "{ROBO} : Des vivres ? C'est entendu.",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "{FROG}: Very well.\nI'd not deny such a simple request.",
+    "original_fr": "{FROG} : C'est entendu. Je ne pourrais refuser une\nfaveur {TAG:3C} un ami.",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "{AYLA}: Okay.\n{AYLA} bring good food!",
+    "original_fr": "{AYLA} : {AYLA} comprendre.\n{AYLA} rapporter vivres !",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "I'll watch over this Nu.\nPlease, hurry back if you can.",
+    "original_fr": "Je veillerai sur le gnu. Je compte sur vous !",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "{FROG}: As promised.",
+    "original_fr": "{FROG} : Nous t'avons apporté des vivres, tel que\npromis.",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{ROBO}: We have brought food.",
+    "original_fr": "{ROBO} : Nous t'avons apporté des vivres.",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "{AYLA}: Bring food.\nEat!",
+    "original_fr": "{AYLA} : {AYLA} apporter vivres !\nToi manger et devenir fort !",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "{MAGUS}: I trust this will suffice.",
+    "original_fr": "{MAGUS} : ...\nCeci devrait te convenir.",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "{MARLE}: We brought you this to eat.",
+    "original_fr": "{MARLE} : Nous t'avons apporté des vivres !",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Thank you.",
+    "original_fr": "Merci.",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Hmm...\nNot food I wanted.\nStill hungry.",
+    "original_fr": "J'ai encore faim.",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Oh, better now!\nYou wait, I finish.",
+    "original_fr": "J'ai bien mangé. Attendez que je termine le pont.",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "Nu: All done!",
+    "original_fr": "J'ai fini !",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "Oh, at long last! The bridge is complete!\nYou have my deepest gratitude for all your help.",
+    "original_fr": "Hourra ! Mon pont adoré est enfin terminé !\nJe vous remercie tous infiniment !",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "I'd best return to the village.\nI'm sure everyone's worried.",
+    "original_fr": "Je crois que les habitants du village s'inquiètent, alors\nje vais rentrer.",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "{LUCCA}: We'll go with you.",
+    "original_fr": "{LUCCA} : Nous allons t'accompagner.",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "{MARLE}: Why don't we go with you?",
+    "original_fr": "{MARLE} : Vous avez raison. Retournons au village,\nnous aussi.",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{ROBO}: We will accompany you.",
+    "original_fr": "{ROBO} : Nous allons retourner au village, nous\naussi.",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{FROG}: Shall we go together, then?",
+    "original_fr": "{FROG} : Retournons au village, nous aussi.",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{AYLA}: {AYLA} go, too!",
+    "original_fr": "{AYLA} : {AYLA} aussi retourner au village !",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "Death to all who yet draw breath!",
+    "original_fr": "Mort aux êtres vivants...",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "{MAGUS}: That spirit will stir no more.\nLet us find the idols.",
+    "original_fr": "{MAGUS} : Les fantômes ont disparu. Et maintenant,\noù sont ces déités tutélaires ?",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "{AYLA}: {AYLA} win!\nWhere idol?",
+    "original_fr": "{AYLA} : {AYLA} éliminer ennemis.\nOù être déités tutélaires ?",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "{ROBO}: Did we eliminate that ghost?",
+    "original_fr": "{ROBO} : Les fantômes sont-ils désormais dans\nl'au-del{TAG:3C} ?",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "{FROG}: I do believe we've exorcised that ghost.\nAll that remains now is to find the idols.",
+    "original_fr": "{FROG} : Nous nous sommes débarrassés des\nesprits malins. Et maintenant, cherchons ces\ndéités tutélaires.",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "{LUCCA}: Well, that spirit's been put to rest.\nNow let's look for the village's guardian idols!",
+    "original_fr": "{LUCCA} : Je me demande si leur {TAG:4A}me est allée au\nciel, mais l'important est désormais de chercher\nces déités tutélaires.",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "{MARLE}: These...these are statues of us!",
+    "original_fr": "{MARLE} : Mais ce sont... des statues de nous !",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "{LUCCA}: They've...idolized us.",
+    "original_fr": "{LUCCA} : Ces statues de nous sont donc les déités\ntutélaires des habitants du village.",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "{MAGUS}: Trust to a primitive people to engage in\nsuch foolishness.",
+    "original_fr": "{MAGUS} : Les habitants du village de la\nPréhistoire étaient bien habiles...",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "{FROG}: We must have become the stuff of legend\nto these people. I feel honored.",
+    "original_fr": "{FROG} : Nous sommes passés dans les mythes du\nvillage ? Quel honneur !",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "{ROBO}: This work is exquisite.\nThey resemble us in every detail.",
+    "original_fr": "{ROBO} : Elles ont été sculptées avec habileté.\nElles nous ressemblent beaucoup.",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "{AYLA}: Village person see, maybe surprise!",
+    "original_fr": "{AYLA} : Quand {AYLA} apprendre nouvelle aux\nsauriens, eux être surpris !",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "{MARLE}: Well, I guess this ends our investigation.\nTime to head back to the village.",
+    "original_fr": "{MARLE} : Eh bien, nous avons terminé notre\ninvestigation. Retournons au village, d'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "{LUCCA}: Well, looks like we're all done here.\nWhy don't we head back to the village?",
+    "original_fr": "{LUCCA} : Eh bien, nous avons terminé notre\ninvestigation. Retournons au village, d'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "{MAGUS}: Are we done here?\nLet us return.",
+    "original_fr": "{MAGUS} : Nous avons terminé notre investigation.\nRentrons...",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "{FROG}: Well, we've seen all there is to see.\nShall we be on our way?",
+    "original_fr": "{FROG} : Nous avons terminé notre investigation...\nRetournons au village.",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "{ROBO}: Our investigation is complete.\nShall we return to the village?",
+    "original_fr": "{ROBO} : Notre investigation est terminée.\nRetournons au village.",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "{AYLA}: Done here.\nGo back village now!",
+    "original_fr": "{AYLA} : Fini ! Maintenant, retourner au village !",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "You bring food?",
+    "original_fr": "Vous m'avez apporté de la nourriture ?",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Oh, dear. This is a problem.\nPlease, I beg you!\nBring this poor Nu something to eat.",
+    "original_fr": "Je vous en supplie, apportez-lui de la nourriture !",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "{ROBO}: Why do we not ask that villager if there\nis somewhere we might obtain food?",
+    "original_fr": "{ROBO} : De la nourriture ? Pourquoi ne pas aller\nparler {TAG:3C} ce saurien qui était inquiet pour le gnu ?",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "{FROG}: Something to eat?\nMayhap that villager could help us.",
+    "original_fr": "{FROG} : De la nourriture... Allons parler {TAG:3C} ce\nsaurien qui était inquiet pour le gnu.",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "{LUCCA}: Hmm...\nWhy don't we ask that villager?",
+    "original_fr": "{LUCCA} : Hum... Pourquoi ne pas aller parler {TAG:3C} ce\nsaurien qui s'inquiétait pour le gnu ?",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "{MARLE}: All right.\nWe should ask that reptite in the village!",
+    "original_fr": "{MARLE} : Tu as faim ? Nous devrions aller parler au\nsaurien qui s'inquiétait {TAG:3C} ton sujet.",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "{MAGUS}: Well?\nShall we ask at the village?",
+    "original_fr": "{MAGUS} : Qu'allez-vous faire ? Retourner au\nvillage parler aux sauriens ?",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Oh, you know where you might be able to get some\nfood? Wonderful! I'll wait here with him.",
+    "original_fr": "Vous avez une idée ? Je vous en prie, aidez le gnu !",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Oh, you've brought him food?\nThank you ever so much!",
+    "original_fr": "Vous lui avez apporté de la nourriture ? Merci !",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "Yes. This is sweet yellow food.\nNow I can work.\nYou wait.\nI build bridge.",
+    "original_fr": "C'est bien ce que je voulais manger. Attendez que je\ntermine le pont. Je ferai de mon mieux.",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "The bridge is almost finished now, thanks to all his\nhelp. You should check back from time to time and\nwatch how things are coming along.",
+    "original_fr": "Gr{TAG:4A}ce au gnu, le pont sera bientôt terminé. Je vais\nrester avec lui pour l'aider. Revenez nous voir de\ntemps {TAG:3C} autre, d'accord ?",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "This isn't sweet yellow food.\nOh, I'm hungry.\nI can't work.",
+    "original_fr": "Ce ne sont pas des fruits jaunes sucrés.\nÇa ne me donnera pas assez de force...",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

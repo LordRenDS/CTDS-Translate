@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 0,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Head repairs damage.",
+    "original_fr": "La tête répare les dég{TAG:4A}ts.",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Wheels storing energy for a charge.",
+    "original_fr": "Accumulation d'énergie dans les roues.",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Too far to counterattack.",
+    "original_fr": "Trop loin ! Impossible de riposter !",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Too close to counterattack.",
+    "original_fr": "Trop près ! Impossible de riposter !",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Crushing Blow",
+    "original_fr": "Coup mortel !",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Needle Spin: Yakra's needle-launching attack",
+    "original_fr": "Volée d'épines / Attaque d'épines géantes",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Nagamour: Slow",
+    "original_fr": "©Amour de myanne / Lenteur",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Ding-a-ling: Confuse",
+    "original_fr": "Ding ! Dong ! / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Grraaagh!",
+    "original_fr": "Drooo...",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Attacking detected motion source.",
+    "original_fr": "Attaque de la cible en mouvement",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "I'll mash you to goo!",
+    "original_fr": "Je vais vous déchiqueter !",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Breakdown",
+    "original_fr": "Effondrement",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Amplifier",
+    "original_fr": "Amplificateur",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Ozzie's spell is broken.",
+    "original_fr": "Le sort de Vinnie est rompu !",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Ozzie's in a pickle!",
+    "original_fr": "Vinnie est dans le pétrin !",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Sand Breath: Blind",
+    "original_fr": "Souffle de sable / Cécité",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Triple Counter - Delta Attack",
+    "original_fr": "Riposte {TAG:3C} trois : Delta",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Blood, blood, blood...",
+    "original_fr": "Sang, sang, sang, sang...",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Death, death, death...",
+    "original_fr": "Mort, mort, mort, mort...",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Graaah!",
+    "original_fr": "Grrrr...",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Go ahead, try and attack! See what it gets you!",
+    "original_fr": "Allez ! Attaquez-moi pour voir...",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Water II!",
+    "original_fr": "Eauï !",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Pods revived.",
+    "original_fr": "Régénération des modules",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Counterattack stance disengaged.",
+    "original_fr": "Interruption temporaire des ripostes",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Chemical Reaction",
+    "original_fr": "Fusion chimique avec un allié",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Storing whirlwind energy.",
+    "original_fr": "Accumulation d'énergie tourbillonnante",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Whirlwind energy dissipated.",
+    "original_fr": "înergie tourbillonnante dissipée",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Counter - Amplifier",
+    "original_fr": "Riposte : Amplificateur",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Vacuum Wave!",
+    "original_fr": "Onde de vide !",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "What are you aiming at, you imbecile?",
+    "original_fr": "C'est tout ce que tu sais faire ?",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Yah!",
+    "original_fr": "Yaaah !",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Ha ha ha ha ha!",
+    "original_fr": "Ho, ho, ho, ho, ho !",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Shocked!",
+    "original_fr": "îlectrocuté !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Recovered from shock.",
+    "original_fr": "Il n'est plus électrocuté.",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Dark Matter: Fiendlord's strongest dark magic",
+    "original_fr": "Matière obscure",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Electric Discharge",
+    "original_fr": "îmission de l'énergie électrique accumulée.",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Wind Waltz ©: Confuse",
+    "original_fr": "Valse du vent © / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "Rainbow Beam ©: Blind",
+    "original_fr": "Rayon spectral © / Cécité",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Pods disappear with Lavos Core.",
+    "original_fr": "Destruction du c{TAG:61}ur de Lavos : le reste dispara¡t.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "MP Buster: Steals MP",
+    "original_fr": "Vol de PM",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "Magic Guard: Weak against physical attacks",
+    "original_fr": "Défense magique … / Défense physique {TAG:7B}",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "Physical Guard: Weak against magical attacks",
+    "original_fr": "Défense physique … / Défense magique {TAG:7B}",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "The Look ©: Flea's © Magic",
+    "original_fr": "Regard affriolant ©",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "Crimson Rain: Sap",
+    "original_fr": "Pluie sanglante / Nécrose",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "Hell Geyser: Sap",
+    "original_fr": "Geyser infernal / Nécrose",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "{MAGUS}'s Magic Defense reduced by Masamune!",
+    "original_fr": "Grandléon diminue la déf. magique de Magus.",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "{MAGUS} lowers his guard to begin casting a spell.",
+    "original_fr": "Magus dissipe sa barrière pour lancer un sort.",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "3",
+    "original_fr": "3",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "2",
+    "original_fr": "2",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "1",
+    "original_fr": "1",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "0",
+    "original_fr": "0",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "Jab, lunge, thrust!",
+    "original_fr": "Prends ça !",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "Barrier Change: Absorbs all but light",
+    "original_fr": "Changement de barrière / Absorbe tout sauf lumière",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "Barrier Change: Absorbs all but shadow",
+    "original_fr": "Changement de barrière / Absorbe tout sauf ténèbres",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "Barrier Change: Absorbs all but fire",
+    "original_fr": "Changement de barrière / Absorbe tout sauf feu",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "Barrier Change: Absorbs all but water",
+    "original_fr": "Changement de barrière / Absorbe tout sauf eau",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "Defense lowered by electric shock!",
+    "original_fr": "Défense {TAG:7B} lorsqu'électrocuté.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "Telepathy: Sleep",
+    "original_fr": "Télépathie / Sommeil",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Teleport: Summons forth boulder",
+    "original_fr": "Téléportation d'un rocher",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "Annihilation Zone",
+    "original_fr": "Zone de destruction",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "Rainbow Storm: Poison cloud",
+    "original_fr": "Tempête irisée / Vent toxique",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "Defense boosted when attacked!",
+    "original_fr": "Défense … lorsqu'attaqué.",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "Electric Discharge",
+    "original_fr": "îmission de l'énergie électrique accumulée.",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Electric Maelstrom",
+    "original_fr": "Super-décharge",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "4",
+    "original_fr": "4",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "5",
+    "original_fr": "5",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Azala's Wrath: Sap",
+    "original_fr": "Ire d'Azara / Nécrose",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Lowers Defense and begins storing power.",
+    "original_fr": "Levée des défenses / Accumulation de puissance",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Attack increased!",
+    "original_fr": "Attaque …",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "Psychokinesis",
+    "original_fr": "Psychokinésie",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Lavos Core lowers its defenses.",
+    "original_fr": "Le c{TAG:61}ur de Lavos lève les défenses.",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "Escaped!",
+    "original_fr": "Fuite !",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Rising Sun",
+    "original_fr": "Soleil levant",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Imitate: Copies physical attack",
+    "original_fr": "Imitation / Copie les attaques physiques !",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Imitate: Copies tech",
+    "original_fr": "Imitation / Copie les compétences !",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Masa and Mune are each powerless alone.",
+    "original_fr": "Séparés, Gran et Léon ne peuvent pas combattre.",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Doublehand Attack - Doublehand Blaster Œ",
+    "original_fr": "Deux mains : Duo explosif Œ",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Combo Attack: Reduces HP to 1",
+    "original_fr": "Attaques répétées / Réduit les PV {TAG:3C} 1",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "Omnilock: Disables Tech and Item commands",
+    "original_fr": "Oubli total / Compétences et objets inutilisables !",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Commencing arm restoration.",
+    "original_fr": "Activation du circuit de réparation des bras",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Arm Attack: Halves HP",
+    "original_fr": "Bras offensif / Réduit les PV de moitié",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Ghul's Shield dispelled!",
+    "original_fr": "Le bouclier du génie est brisé.",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "Defense arm restores head!",
+    "original_fr": "Le bras défensif rend des PV {TAG:3C} la tête.",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "10,000 Hz: Sleep",
+    "original_fr": "10 000 Hz / Sommeil",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Lock: Disables Tech command",
+    "original_fr": "Oubli / Compétences inutilisables !",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Delta Force: Enemy triple tech",
+    "original_fr": "Zone delta",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "Iron Sphere: Halves HP",
+    "original_fr": "Boulet / Réduit les PV de moitié",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Roundillo Kick",
+    "original_fr": "Coup de pied roulé",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Hypnowave",
+    "original_fr": "Onde soporifique",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "Possess: Fuses with Fallen",
+    "original_fr": "Possession / Fusion avec un défunt",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "HP recovery magic",
+    "original_fr": "Sort de guérison",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "Combo Counter",
+    "original_fr": "Riposte combo",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Grudge",
+    "original_fr": "Rancune",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Evil Impulse: Enemy triple tech",
+    "original_fr": "Impulsion démoniaque",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "Protected by Ghul's Shield.",
+    "original_fr": "Le bouclier du génie le protège.",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "Muscular Fusion",
+    "original_fr": "Fusion musculaire",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "Cannot damage sandlike body!",
+    "original_fr": "Impossible d'infliger des dég{TAG:4A}ts {TAG:3C} du sable.",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "Water hardens sand. Defense reduced!",
+    "original_fr": "L'eau agglutine le sable. / Défense {TAG:7B}",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "Heartfire Sword",
+    "original_fr": "Sabre de feu ©",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "FOOLISH CRETINS...",
+    "original_fr": "Inutile...",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "Mother Brain Attack Mode",
+    "original_fr": "Mode d'attaque du cerveau mère activé.",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "Mother Brain running wild without displays!",
+    "original_fr": "Sans moniteur, le cerveau mère s'affole.",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "Memory Reset: Lock",
+    "original_fr": "Réinitialisation de la mémoire / Oubli",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "3, 2, 1...",
+    "original_fr": "3... 2... 1...",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "Nereid Cyclone œ",
+    "original_fr": "Tourbillon marin œ",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "Sand Cyclone",
+    "original_fr": "Tourbillon de sable",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "Golem Overlord: Um...",
+    "original_fr": "Ma¡tre golem : Euh...",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "Flame strengthened!",
+    "original_fr": "Puissance du brasier accrue !",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "Power increased!",
+    "original_fr": "Puissance accrue !",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "Miasma: Confuse",
+    "original_fr": "Miasme / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Water Surge œ",
+    "original_fr": "Inondation œ",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "Doublehand Attack - Dark Plasma «",
+    "original_fr": "Deux mains : Plasma obscur «",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Gaia Magnade Œ",
+    "original_fr": "Grenade magma Œ",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Darn it! Burrrp!",
+    "original_fr": "Malédiction ! Prouuut !",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Fraternal Fusion",
+    "original_fr": "Fusion fraternelle",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "Bluuurp!: Mimic Dalton",
+    "original_fr": "Imitation de Dalton / Prouuut !",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "Running wild without core.",
+    "original_fr": "S'enrage quand le c{TAG:61}ur est détruit.",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "Absorbing energy from core.",
+    "original_fr": "Absorption de l'énergie du c{TAG:61}ur.",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "Go! ...Golem Overlord?",
+    "original_fr": "Â l'attaque ! Ma¡tre golem...?",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "Napalm",
+    "original_fr": "Bombe au napalm",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "Polarity Inversion: Strikes with opposing magic",
+    "original_fr": "Esprit de contradiction / Sort d'élément opposé",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "Wing Blow: Confuse",
+    "original_fr": "Battement d'ailes/ Confusion",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "Dalton: Take this!",
+    "original_fr": "Dalton : Tiens !",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "Self-destruct",
+    "original_fr": "Auto-destruction",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "Shell Counter - Lavos Spawn Needles",
+    "original_fr": "Riposte de la carapace / îpines",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "Electric Mini-burst",
+    "original_fr": "Petite décharge",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "Needle Spin Version XIII",
+    "original_fr": "Volée d'épines version XIII",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "Reprogram: Confuse",
+    "original_fr": "Reprogrammation / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "I heard about you from my ancestors!",
+    "original_fr": "Je l'ai appris de mon ancêtre...",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "Your weakness is...",
+    "original_fr": "Votre point faible est...",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "This!",
+    "original_fr": "Voil{TAG:3C} !",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "N-no... Not again...",
+    "original_fr": "En... Encore vaincu...",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "Roulette Spin",
+    "original_fr": "Mélange",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "Roulette Stop",
+    "original_fr": "Mélange terminé",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "Counter - Flare",
+    "original_fr": "Riposte : Fission",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "Miss - Flame Counterattack",
+    "original_fr": "Raté ! / Flammes vengeresses",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "Cricket Chirp: Sleep",
+    "original_fr": "Cri-cri / Sommeil",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "Flare",
+    "original_fr": "Fission",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "Son of the Sun is losing his light.",
+    "original_fr": "Le fils du soleil perd son éclat...",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "Time Stop: Stop",
+    "original_fr": "Stase temporelle / Stop",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "Mutant Gas: Sleep",
+    "original_fr": "Gaz mutant / Sommeil",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "Mutant Gas: Poison",
+    "original_fr": "Gaz mutant / Poison",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "Scalding Steam: Sap",
+    "original_fr": "Vapeur stagnante / Nécrose",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "Chaos Zone: Confuse",
+    "original_fr": "Zone chaotique / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "Blacken",
+    "original_fr": "Noircissement",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "Point Flare",
+    "original_fr": "Fission concentrée",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "Closed Shield Counter - Lock",
+    "original_fr": "Caché derrière son bouclier, il riposte avec Oubli.",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "Lunate Barrage",
+    "original_fr": "Lune vague",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "Hurricane",
+    "original_fr": "Ouragan",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Devil's Drop: Halves HP",
+    "original_fr": "Largage / Réduit les PV de moitié",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "ÊLa La LaÊ: Confuse",
+    "original_fr": "Ê La, la, laaa Ê / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Osmose: Steals MP",
+    "original_fr": "Succion / Absorption de quelques PM",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "Magic sacrificed to increase Attack.",
+    "original_fr": "La magie augmente son attaque.",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Releases stored energy!",
+    "original_fr": "îmission de l'énergie accumulée",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "The Mammon Machine alters all energy.",
+    "original_fr": "Le réceptacle sacré transforme toute forme d'énergie.",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "The Mammon Machine remains still.",
+    "original_fr": "Le réceptacle sacré demeure immobile.",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "Attack sacrificed to increase Defense.",
+    "original_fr": "Les attaques physiques augmentent sa défense.",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Life Shaver: Reduces HP to 1",
+    "original_fr": "Siphon vital / Réduit les PV {TAG:3C} 1",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "Dark Bomb",
+    "original_fr": "Bombe obscure",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "Lavos Spawn Needle Barrage",
+    "original_fr": "îpines désordonnées",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "Halation: Reduces HP to 1",
+    "original_fr": "Halo / Réduit les PV {TAG:3C} 1",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "Masamune absorbs the energy.",
+    "original_fr": "Grandléon absorbe l'énergie.",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "Gears of Darkness «",
+    "original_fr": "Engrenage obscur «",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "Heavenly Gate »",
+    "original_fr": "Portail de l'empyrée »",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "Starburst œ",
+    "original_fr": "Brume hexagonale œ",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "Counter - MP Buster",
+    "original_fr": "Riposte : Vol de PM",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "Destruction rains from the heavens!",
+    "original_fr": "La désolation s'abat du ciel !",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "Counter - Life Shaver",
+    "original_fr": "Riposte : Siphon vital",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "Right-hand part is storing energy.",
+    "original_fr": "La partie droite accumule l'énergie.",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "Left-hand part restores body!",
+    "original_fr": "La partie gauche rend des PV.",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "Lavos's Magic Defense reduced by Masamune!",
+    "original_fr": "Grandléon diminue la défense magique de Lavos.",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "Lavos begins casting a spell.",
+    "original_fr": "Lavos s'apprête {TAG:3C} lancer un sort.",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "Combined Attack - Twin Blaster",
+    "original_fr": "Attaque combo : Duo explosif",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "Combined Attack - Dark Plasma",
+    "original_fr": "Attaque combo : Plasma obscur",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "Commencing repair of parts.",
+    "original_fr": "Restauration des pièces",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "Defense parts restore head!",
+    "original_fr": "La partie défensive régénère la tête.",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "Barrier Change",
+    "original_fr": "Changement de barrière",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "Body activated!",
+    "original_fr": "Activation du corps",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "Curse: Disables status ailment immunity",
+    "original_fr": "Anti-protection / Rend vulnérable aux altérations d'état.",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "Evil Emanation: Raises Lavos's Attack",
+    "original_fr": "Radiation chtonienne / Attaque …",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "Laser Beams: Arms open the doors to oblivion",
+    "original_fr": "îclat dévastateur  / Portail de la destruction ouvert",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "Dark Will",
+    "original_fr": "Esprit malin",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "Umbral Embrace",
+    "original_fr": "Ombre meurtrière",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "Flames of War",
+    "original_fr": "Flammes agressives",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "Dark Flame's Embrace",
+    "original_fr": "Ombre maligne enflammée",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "Life Grip: Arm revives body",
+    "original_fr": "îlan de vie / Régénération du corps",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "Lavos Core is defending!",
+    "original_fr": "Le c{TAG:61}ur de Lavos se défend.",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "Defense lowered by use of Resurrect.",
+    "original_fr": "Baisse de défense due {TAG:3C} l'utilisation de Force vitale",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "Temporal Shift",
+    "original_fr": "Distorsion temporelle",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "Counters physical attack.",
+    "original_fr": "Riposte aux attaques physiques",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "Resurrect: Revives Lavos Pods",
+    "original_fr": "Force vitale / Régénération des modules",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "Counters magic.",
+    "original_fr": "Riposte aux sorts",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "Lavos Core's Defense restored!",
+    "original_fr": "Défense du c{TAG:61}ur rétablie",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "Demon Star: Halves HP",
+    "original_fr": "îtoile maléfique / Réduit les PV de moitié",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "Grandstone: Ultimate physical attack",
+    "original_fr": "Aérolithe / Ultime attaque physique",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "Diabolic Whisper: Random status ailment",
+    "original_fr": "Incantation / Altération d'état aléatoire",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "Dreamreaver: Ultimate magical attack",
+    "original_fr": "Néant onirique / Attaque magique suprême",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "Unholy Light: Slow",
+    "original_fr": "îclat pernicieux / Lenteur",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "Immobilize: Stop",
+    "original_fr": "Immobilité / Stop",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "Heavenly Tears",
+    "original_fr": "Larmes du ciel »",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "Lavos Core preparing Resurrect. Defense down!",
+    "original_fr": "Baisse de défense due {TAG:3C} la préparation de Force vitale",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "I...",
+    "original_fr": "Je suis...",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "Proximity Bomb",
+    "original_fr": "Pyrosphère",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "Scouter counters non-light magic.",
+    "original_fr": "L'éclaireur riposte {TAG:3C} toute magie sauf lumière.",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "Red Scouter counters non-fire magic.",
+    "original_fr": "L'éclaireur rouge riposte {TAG:3C} toute magie sauf feu.",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "Blue Scouter counters non-water magic.",
+    "original_fr": "L'éclaireur bleu riposte {TAG:3C} toute magie sauf eau.",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "Lavos Breath: Sleep",
+    "original_fr": "Soupir de Lavos / Sommeil",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "Salt",
+    "original_fr": "Sel",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "Shining Sphere »",
+    "original_fr": "Sphère lumineuse »",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "Attack: Counter employed when Center Pod not present",
+    "original_fr": "Attaque combinée / Riposte si module central détruit",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "Imitate: Copies light tech",
+    "original_fr": "Imitation / Copie les compétences de lumière",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "Imitate: Copies shadow tech",
+    "original_fr": "Imitation / Copie les compétences de ténèbres",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "Imitate: Copies water tech",
+    "original_fr": "Imitation / Copie les compétences d'eau",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "Imitate: Copies fire tech",
+    "original_fr": "Imitation / Copie les compétences de feu",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "Golem Overlord: N-no! I...I'm scared!",
+    "original_fr": "Ma¡tre golem : Au secours ! J'ai trop peur !",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "Golem Overlord: I hate heights!",
+    "original_fr": "Ma¡tre golem : J'ai le vertige !",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "Golem Overlord: Take this!",
+    "original_fr": "Ma¡tre golem : Voici mon sort ultra-destructeur !",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "Golem Overlord: 5",
+    "original_fr": "Ma¡tre golem : 5...",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "Golem Overlord: 4",
+    "original_fr": "Ma¡tre golem : 4...",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "Golem Overlord: 3",
+    "original_fr": "Ma¡tre golem : 3...",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "Golem Overlord: 2",
+    "original_fr": "Ma¡tre golem : 2...",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "Golem Overlord: 1",
+    "original_fr": "Ma¡tre golem : 1...",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "Boulder",
+    "original_fr": "Rocher",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "Rush: Reduces HP to 1",
+    "original_fr": "Charge brutale / Réduit les PV {TAG:3C} 1",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "Thrash",
+    "original_fr": "Raclée",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "Snowstorm œ",
+    "original_fr": "Blizzard œ",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "Volcano",
+    "original_fr": "Volcan",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "Earthshaker",
+    "original_fr": "Tremblement de terre",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "Soul Link: One revives the other",
+    "original_fr": "Deux faces de la médaille / L'un régénère l'autre",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "Counter - Flash of Steel",
+    "original_fr": "Foudroiement",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "Whirlwind",
+    "original_fr": "Taillade ouragan",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "Defensive Stance: Boosts Defense",
+    "original_fr": "Position défensive / Défense …",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "Offensive Stance: Boosts Attack",
+    "original_fr": "Position offensive / Attaque …",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "Counter - Tsubame Gaeshi",
+    "original_fr": "Tsubame gaeshi / Riposte mortelle",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "First Aid: Heals Master-at-Arms",
+    "original_fr": "Premiers soins / Régénération du mikado sabreur",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "Blade Dance",
+    "original_fr": "Lame dansante",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "Focus: Boosts Attack",
+    "original_fr": "Méditation / Attaque …",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "Desperate Strike: Dazes opponent",
+    "original_fr": "Entaille désespérée / Distraction",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "Energy Blast: Line attack",
+    "original_fr": "Vague d'énergie / Attaque en ligne droite",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "Rend",
+    "original_fr": "Pourfendre",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "Thunderfall »",
+    "original_fr": "Fulguration »",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "Scintillation »",
+    "original_fr": "Brume décha¡née »",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "Icefall œ",
+    "original_fr": "Glace maudite œ",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "Beguile: Confuse",
+    "original_fr": "Charme / Confusion",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "Icefall œ",
+    "original_fr": "Glace maudite œ",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 256,
+    "original_en": "Obliterate: Instant KO",
+    "original_fr": "Vol de vie / Mort subite",
+    "translation": ""
+  },
+  {
+    "id": 257,
+    "original_en": "Recuperate: Restore HP",
+    "original_fr": "Récupération accrue / Regain de PV",
+    "translation": ""
+  },
+  {
+    "id": 258,
+    "original_en": "Poison Mist: Poison",
+    "original_fr": "Brume toxique / Poison",
+    "translation": ""
+  },
+  {
+    "id": 259,
+    "original_en": "Flashbomb: Blind",
+    "original_fr": "Bombe aveuglante / Cécité",
+    "translation": ""
+  },
+  {
+    "id": 260,
+    "original_en": "Blaring Din: Lock",
+    "original_fr": "Bruit assourdissant / Oubli",
+    "translation": ""
+  },
+  {
+    "id": 261,
+    "original_en": "Shadow Fire Œ",
+    "original_fr": "Flammes maléfiques Œ",
+    "translation": ""
+  },
+  {
+    "id": 262,
+    "original_en": "Explosion Œ",
+    "original_fr": "Explosion Œ",
+    "translation": ""
+  },
+  {
+    "id": 263,
+    "original_en": "Permeate: Dispels status immunity",
+    "original_fr": "îroder / Rend vulnérable aux altérations d'état",
+    "translation": ""
+  },
+  {
+    "id": 264,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 265,
+    "original_en": "Ha ha ha!",
+    "original_fr": "Ha, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 266,
+    "original_en": "Fool!",
+    "original_fr": "Imbéciles !",
+    "translation": ""
+  },
+  {
+    "id": 267,
+    "original_en": "I'll flatten you out!",
+    "original_fr": "Je vais vous écraser !",
+    "translation": ""
+  },
+  {
+    "id": 268,
+    "original_en": "Scorch Œ",
+    "original_fr": "Feu ardent Œ",
+    "translation": ""
+  },
+  {
+    "id": 269,
+    "original_en": "Deep Freeze œ",
+    "original_fr": "Glace frigorifiante œ",
+    "translation": ""
+  },
+  {
+    "id": 270,
+    "original_en": "Plasma »",
+    "original_fr": "Foudre plasma »",
+    "translation": ""
+  },
+  {
+    "id": 271,
+    "original_en": "Nether Blast «",
+    "original_fr": "Impulsion obscure «",
+    "translation": ""
+  },
+  {
+    "id": 272,
+    "original_en": "Violent Belch: Dalton's sour grapes",
+    "original_fr": "Prouuut ultime !",
+    "translation": ""
+  },
+  {
+    "id": 273,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 274,
+    "original_en": "Devours dreams from a distant dimension.",
+    "original_fr": "Les ténèbres engloutissent le rêve de la planète...",
+    "translation": ""
+  },
+  {
+    "id": 275,
+    "original_en": "Pandemonium",
+    "original_fr": "Rêverie fracassée",
+    "translation": ""
+  },
+  {
+    "id": 276,
+    "original_en": "Heavenly Peal",
+    "original_fr": "Cri empyréen",
+    "translation": ""
+  },
+  {
+    "id": 277,
+    "original_en": "Starfall: Devastating physical attack",
+    "original_fr": "Météore / Ultime attaque physique",
+    "translation": ""
+  },
+  {
+    "id": 278,
+    "original_en": "Phantasm: Devastating magical attack",
+    "original_fr": "Songe illusoire / Ultime sort",
+    "translation": ""
+  },
+  {
+    "id": 279,
+    "original_en": "Dreambind: Random status ailment",
+    "original_fr": "Envo{TAG:63}tement / Stop",
+    "translation": ""
+  },
+  {
+    "id": 280,
+    "original_en": "Mana Reaver: Steals MP",
+    "original_fr": "Sceau magique / Vol de PM",
+    "translation": ""
+  },
+  {
+    "id": 281,
+    "original_en": "Life Reaver: Steals HP",
+    "original_fr": "Sceau vital / Vol de PV",
+    "translation": ""
+  },
+  {
+    "id": 282,
+    "original_en": "Ice Lance œ",
+    "original_fr": "Lance de glace œ",
+    "translation": ""
+  },
+  {
+    "id": 283,
+    "original_en": "Incinerate Œ",
+    "original_fr": "Chaleur suffocante Œ",
+    "translation": ""
+  },
+  {
+    "id": 284,
+    "original_en": "Supernova »",
+    "original_fr": "Supernova »",
+    "translation": ""
+  },
+  {
+    "id": 285,
+    "original_en": "Gravity Sphere «",
+    "original_fr": "Trou noir «",
+    "translation": ""
+  },
+  {
+    "id": 286,
+    "original_en": "The End of All and Nothing",
+    "original_fr": "Fin du monde",
+    "translation": ""
+  },
+  {
+    "id": 287,
+    "original_en": "Holy Light »",
+    "original_fr": "Rayon céleste »",
+    "translation": ""
+  },
+  {
+    "id": 288,
+    "original_en": "Thunder »",
+    "original_fr": "Tonnerre fulgurant »",
+    "translation": ""
+  },
+  {
+    "id": 289,
+    "original_en": "Telekinesis",
+    "original_fr": "Télékinésie",
+    "translation": ""
+  },
+  {
+    "id": 290,
+    "original_en": "Thunderburst »",
+    "original_fr": "Chute d'éclairs »",
+    "translation": ""
+  },
+  {
+    "id": 291,
+    "original_en": "Overdrive",
+    "original_fr": "Pleine puissance",
+    "translation": ""
+  },
+  {
+    "id": 292,
+    "original_en": "Death's Rainbow",
+    "original_fr": "Arc-en-ciel létal",
+    "translation": ""
+  },
+  {
+    "id": 293,
+    "original_en": "It's not over yet!",
+    "original_fr": "Je n'ai pas dit mon dernier mot !",
+    "translation": ""
+  },
+  {
+    "id": 294,
+    "original_en": "Yah!",
+    "original_fr": "Ha !",
+    "translation": ""
+  },
+  {
+    "id": 295,
+    "original_en": "Second Wind",
+    "original_fr": "îveil",
+    "translation": ""
+  },
+  {
+    "id": 296,
+    "original_en": "Dreambind: Stop",
+    "original_fr": "Envo{TAG:63}tement / Stop",
+    "translation": ""
+  },
+  {
+    "id": 297,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 298,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 299,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

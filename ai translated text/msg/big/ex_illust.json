@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "original_en": "Crono",
+    "original_fr": "Chrono",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Marle",
+    "original_fr": "Marle",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Lucca",
+    "original_fr": "Lucca",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Robo",
+    "original_fr": "RoBo",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "Frog",
+    "original_fr": "Gren",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Ayla",
+    "original_fr": "Ayla",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Magus",
+    "original_fr": "Magus",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Ice and Flame",
+    "original_fr": "Duo Antipodes",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Ayla's Entrance",
+    "original_fr": "L'entrée en scène d'Ayla",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Ayla and the Dactyl",
+    "original_fr": "Ayla et le ptéranodon",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Chief, Fly High",
+    "original_fr": "Chef voler !",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "The Epoch",
+    "original_fr": "Ibis",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Smiling Princess",
+    "original_fr": "Le sourire de la princesse",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Into the Maw of Darkness",
+    "original_fr": "Le repaire d'un vieil ennemi",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Wings of Time",
+    "original_fr": "Le vaisseau qui traverse le temps",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Wedding Ceremony",
+    "original_fr": "Les noces",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Crono Sketch",
+    "original_fr": "Croquis de Chrono",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "Marle Sketch",
+    "original_fr": "Croquis de Marle",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Lucca Sketch",
+    "original_fr": "Croquis de Lucca",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Robo Sketch",
+    "original_fr": "Croquis de RoBo",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Frog Sketch",
+    "original_fr": "Croquis de Gren",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "Ayla Sketch",
+    "original_fr": "Croquis d'Ayla",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "Magus Sketch",
+    "original_fr": "Croquis de Magus",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Dungeon Battle",
+    "original_fr": "Bataille dans un donjon",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Combo Attack",
+    "original_fr": "Attaque combo",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "Fiendlord Face-off",
+    "original_fr": "Bataille contre Magus",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "Dactyl Riders",
+    "original_fr": "Sur le dos du ptéranodon",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "Epoch, Away!",
+    "original_fr": "L'envol de l'Ibis",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "The Forest Camp",
+    "original_fr": "Campement dans la forêt",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "Beneath Starlit Skies",
+    "original_fr": "Sous le ciel étoilé",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Reflections",
+    "original_fr": "Réflexions",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "What Comes to Pass",
+    "original_fr": "Le cours du temps",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "Misfortune Falls",
+    "original_fr": "Calamité",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "Robo in Disrepair",
+    "original_fr": "Lucca répare RoBo",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "The Mighty Ayla",
+    "original_fr": "Ayla, la force de la Nature",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "The Masamune Unsheathed",
+    "original_fr": "Â l'attaque, Grandléon !",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "Before the Fiendlord",
+    "original_fr": "L'entrée en scène de Magus",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "Flight of the Dactyls",
+    "original_fr": "Sur le dos du ptéranodon",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "The Epoch's Maiden Flight",
+    "original_fr": "L'envol de l'Ibis",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "Prophecy Fulfilled",
+    "original_fr": "Prophétie réalisée",
+    "translation": ""
+  }
+]

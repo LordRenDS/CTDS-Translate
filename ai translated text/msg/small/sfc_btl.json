@@ -1,0 +1,104 @@
+[
+  {
+    "id": 0,
+    "original_en": "Attack",
+    "original_fr": "Attaquer",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Tech",
+    "original_fr": "Solos",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Item",
+    "original_fr": "Objets",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Combo",
+    "original_fr": "Combos",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": " ",
+    "original_fr": " ",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "-",
+    "original_fr": "-",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{GLYPH:368}",
+    "original_fr": "{GLYPH:368}",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{GLYPH:369}",
+    "original_fr": "{GLYPH:369}",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{GLYPH:370}",
+    "original_fr": "{GLYPH:370}",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{GLYPH:371}",
+    "original_fr": "{GLYPH:371}",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{GLYPH:372}",
+    "original_fr": "{GLYPH:372}",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{GLYPH:373}",
+    "original_fr": "{GLYPH:373}",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "{GLYPH:374}",
+    "original_fr": "{GLYPH:374}",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "—Dual Techœ",
+    "original_fr": "—Duosœ",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "—Trip. Techœ",
+    "original_fr": "—Triosœ",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "/",
+    "original_fr": "/",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "MISS!",
+    "original_fr": "RATç !",
+    "translation": ""
+  }
+]

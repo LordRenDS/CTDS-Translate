@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Lara: Oh, hello, {CRONO}.\n{LUCCA}'s off at Leene Square with her father\nTaban, unveiling her new invention.",
+    "original_fr": "Lara : Oh, bonjour {CRONO} ! Si c'est {LUCCA} que\ntu cherches, elle est allée {TAG:3C} la place de Lynne avec\nTaban.{WAIT_KEY}\nElle a dit qu'elle y montrerait l'invention du siècle.",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Lara: {LUCCA} and Taban are always off\ntinkering on their latest inventions.",
+    "original_fr": "Lara : {LUCCA} et Taban sont absorbés par leurs\ninventions.",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Lara: What a beautiful day! I think I'll go\nfor a walk once I finish the housework.",
+    "original_fr": "Lara : Quelle journée magnifique ! Quand j'aurai terminé\nle ménage et arrosé les plantes, j'irai peut-être faire\nune promenade.",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{LUCCA}: Hmm...\nReducing the form factor of a bipedal robot without\ncompromising balance is tougher than I thought.{WAIT_KEY}\nOh, {CRONO}! Hurry up and escort the Princess\nback to the castle!",
+    "original_fr": "{LUCCA} : Hum... Construire un petit robot qui peut\nmarcher sur deux jambes en équilibre n'est vraiment\npas évident.{WAIT_KEY}\nAh ! {CRONO} ! Dépêche-toi de raccompagner la\nprincesse au ch{TAG:4A}teau !",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "Taban: I bought you this apple with what we\nearned today.",
+    "original_fr": "Taban : Regarde, j'ai acheté des pommes avec l'argent\nque j'ai gagné aujourd'hui.",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "Lara: Oh, you're so thoughtful.",
+    "original_fr": "Lara : Tu es toujours si attentionné.",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Taban: Oh! {LUCCA}'s friends!",
+    "original_fr": "Taban : Oh ! Vous êtes les amis de {LUCCA}, n'est-ce\npas ?",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "If you see {LUCCA}, tell her to drop by sometime.",
+    "original_fr": "Quand vous verrez {LUCCA}, dites-lui de venir me\nvoir de temps en temps.",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Taban: Hey, {LUCCA}!",
+    "original_fr": "Taban : Oh ! {LUCCA} !",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Taban: I've been working on some defensive gear for\nmy favorite daughter.",
+    "original_fr": "Taban : Je suis en train d'élaborer des protections\nspéciales.",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Taban: Oh, perfect timing!",
+    "original_fr": "Taban : Vous tombez pile.",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Taban: Another great invention—just completed!\nThe ultimate in defense for my beautiful daughter!",
+    "original_fr": "Taban : Voici une de mes meilleures inventions !\nUne protection faite sur mesure pour ma petite\n{LUCCA} !",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{LUCCA}: Wh-what's this?",
+    "original_fr": "{LUCCA} : Est-ce...?",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "June 24, 990\nDad promised to go hiking with me, but he\nblew me off again because of his research.{WAIT_KEY}\nI don't get it. But whatever.\nWho cares about stupid science anyway?\nGirls don't need to know about that stuff!",
+    "original_fr": "{TAG:64} 24 / 6 / 990\nPapa avait promis que nous irions faire une excursion\nensemble, mais il s'est défilé parce qu'il avait encore\ndes recherches {TAG:3C} faire. {TAG:65}{WAIT_KEY}\n{TAG:64} Je ne comprends rien {TAG:3C} son travail... Mais, peu\nimporte. Un jour, je me marierai et j'aurai beaucoup\nd'enfants, comme toutes les autres filles, alors je\nn'aurai pas besoin de comprendre la science ! {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Lara: What is this thing, anyway?\nTaban said to keep away from it, but it's so dusty.\nSurely it wouldn't hurt just to tidy up a little.",
+    "original_fr": "Lara : Hum, quelle sorte de machine est-ce donc...?\nTaban m'a dit de ne pas m'en approcher parce qu'elle\nest dangereuse, mais elle est toute sale.",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Lara: Dear me!\nMy skirt, it's—I'm stuck!\n{LUCCA}!\n{LUCCA}, help!",
+    "original_fr": "Lara : Oh ? Le bas de ma jupe est pris ! {LUCCA} !\n{LUCCA}, viens m'aider !",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "{LUCCA}: I can't pull it out.",
+    "original_fr": "{LUCCA} : Je n'y arrive pas !",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "Lara: Oh, no! {LUCCA}!\nEnter the password!\nStop the machine!{WAIT_KEY}\n{LUCCA}: But I don't know it, Mom!",
+    "original_fr": "Lara : Ah !! {LUCCA} ! Arrête la machine !\nSaisis le mot de passe !{WAIT_KEY}\n{LUCCA} : Je ne le connais pas ! Maman !",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Lara: Oh, no...\nHelp!{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "original_fr": "Lara : Au secours ! Taban !{GLYPH:405}04{GLYPH:406}{GLYPH:408}",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "July 1, 990\nI wish I hadn't heard what the doctor told Dad.{WAIT_KEY}\nMom's legs, they're...",
+    "original_fr": "{TAG:64} 1 / 7 / 990\nJ'ai entendu papa parler avec le docteur... {TAG:65}{WAIT_KEY}\n{TAG:64} Mais j'aurais préféré n'avoir rien entendu...\nMaman... ses jambes... {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "July 15, 990\nIf only I'd known more about machines,\nthen Mom would still be okay.\nIt's all my fault.",
+    "original_fr": "{TAG:64} 15 / 7 / 990\nSi seulement je connaissais mieux les machines, ça ne\nserait pas arrivé... C'est de ma faute... {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "July 2, 990\nThat was close. I think I'd better study a\nlittle more about machines in case anything\nlike that ever happens again.",
+    "original_fr": "{TAG:64} 2 / 7 / 990\nNous l'avons échappé belle. Je crois que je vais en\napprendre un peu plus sur les machines pour savoir\nquoi faire si une telle situation se reproduisait. {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Enter password.",
+    "original_fr": "Saisissez le mot de passe.",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "{LUCCA}: Mommy... Thank goodness!{WAIT_KEY}\nLara: {LUCCA}... Oh, {LUCCA}...",
+    "original_fr": "{LUCCA} : Oh, maman ! J'ai eu si peur !{WAIT_KEY}\nLara : {LUCCA}... Oh, {LUCCA}...",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "The password to shut down the device is\nthe name of my one true love.\nUse it in an emergency.\n{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}  -Taban",
+    "original_fr": "{TAG:64} Le mot de passe pour arrêter la machine en cas\nd'urgence est... le nom de ma bien-aimée.\n       -Taban {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "{LUCCA}: First, we'll extract the Sun Stone's\nenergy and convert it to a more manageable form.",
+    "original_fr": "{LUCCA} : Il faut transformer l'énergie de la pierre\ndu soleil en une forme plus facile {TAG:3C} manipuler...",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "{LUCCA}: Then, we'll just vacuum pack it into\na cartridge...",
+    "original_fr": "{LUCCA} : ... et la transférer dans une cartouche\nsous vide...",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "{LUCCA}: ...and it's finished!",
+    "original_fr": "{LUCCA} : J'ai terminé !",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{LUCCA}: Sometimes I amaze myself!",
+    "original_fr": "{LUCCA} : Mon génie m'éblouit...",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "Taban: Take a look at this, {LUCCA}!\nI borrowed a bit of the Sun Stone to\ncreate something nifty of my own.",
+    "original_fr": "Taban : Regarde, {LUCCA} ! Moi aussi j'ai fabriqué\nquelque chose gr{TAG:4A}ce {TAG:3C} la pierre du soleil.",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{ROBO}: Override Security System 00.",
+    "original_fr": "{ROBO} : Désactivation du système de sécurité 00.",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Up.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Down.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Cancel.{GLYPH:399}",
+    "original_fr": "       {GLYPH:394}Haut{GLYPH:395}\n       {GLYPH:396}Bas{GLYPH:397}\n       {GLYPH:398}Annuler{GLYPH:399}",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{GLYPH:384}\nLeft - Laboratory\nRight - Factory{WAIT_KEY}{GLYPH:384}\nDANGER - RISK OF DEATH\nDeactivation of factory conveyor belt forbidden.\nStopping the belt will activate the security\nsystem, which could result in loss of life.",
+    "original_fr": "{GLYPH:144}{TAG:38}{TAG:38}{TAG:7A}Laboratoire\n{TAG:38}{TAG:38}{TAG:38}Usine{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:7A}♪{WAIT_KEY}\nAttention de ne pas arrêter le tapis roulant de l'usine.\nCeci activerait les mesures de sécurité et pourrait être\ndangereux.",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "Hatch opened.",
+    "original_fr": "Ouverture de l'écoutille.",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{ROBO}: All systems down.\nDefense lasers deactivated.",
+    "original_fr": "{ROBO} : Tous les systèmes sont hors ligne...\nLes lasers de défense ont été désactivés.",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "EMERGENCY ALERT STATUS.\nELEVATORS DISABLED.",
+    "original_fr": "îtat d'urgence.\nAscenseurs hors d'usage.",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "{ROBO}: Wait!\nThese...these are my friends!",
+    "original_fr": "{ROBO} : Oh... Ce sont mes compagnons !",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{ROBO}: R-64Y, R-67Y, R-69Y!\nIt is good to see you again!",
+    "original_fr": "{ROBO} : R64-Y, R67-Y et R69-Y !\nVous n'avez rien ! Je suis si heureux !",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "{ROBO}: Wh-what are you doing?",
+    "original_fr": "{ROBO} : Mais, que...?",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "R-64Y: YOU ARE DEFECTIVE.{WAIT_KEY}\nR-67Y: YOU ARE NOT ONE OF US.",
+    "original_fr": "R64-Y : Tu es défectueux.{WAIT_KEY}\nR67-Y : Tu n'es pas notre compagnon.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "{ROBO}: Pardon?",
+    "original_fr": "{ROBO} : ...?!",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "R-69Y: HAVE YOU FORGOTTEN OUR ASSIGNED TASK?{WAIT_KEY}\nALL INTRUDERS MUST BE ELIMINATED.",
+    "original_fr": "R69-Y : Aurais-tu oublié notre mission ?{WAIT_KEY}\nNous devons éliminer tous ceux qui entrent sans\npermission dans cette usine !",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "{ROBO}: That was the reason for my creation?",
+    "original_fr": "{ROBO} : Tu veux dire que c'est pour accomplir une\ntelle mission que j'ai été créé ?!",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "{ROBO}: I am...malfunctioning?{WAIT_KEY}\nR-64Y: AFFIRMATIVE.",
+    "original_fr": "{ROBO} : Défectueux...{WAIT_KEY}\nR64-Y : C'est exact. Il y a une défaillance dans ton\nsystème.",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "{ROBO}: A defect...\nI am a defect!",
+    "original_fr": "{ROBO} : Défectueux...\nJe suis... défectueux...",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "R-64Y: YOU DISGRACE OUR SERIES.\nYOU MUST BE DESTROYED.",
+    "original_fr": "R64-Y : Tu nous couvres de honte ! Disparais !",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "{LUCCA}: N-no! Stop!",
+    "original_fr": "{LUCCA} : Qu'est-ce que vous faites ?!",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "{MARLE}: {ROBO}!\n{CRONO}, they're tearing him apart!",
+    "original_fr": "{MARLE} : {CRONO}, il faut aider {ROBO} !",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "{ROBO}: D-do not harm them, please!\nThese robots are my brothers!",
+    "original_fr": "{ROBO} : Arrêtez... Ces robots sont mes frères.",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "{LUCCA}: They'll destroy you!",
+    "original_fr": "{LUCCA} : Mais ils vont te détruire !",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "{MARLE}: But what about you!?",
+    "original_fr": "{MARLE} : Oui, mais si ça continue ainsi,\n{ROBO}, ils vont te détruire...!",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "{ROBO}: Please stop.\nPlease...",
+    "original_fr": "{ROBO} : S'il vous pla¡t, arrêtez.\nArrê... tez...",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "{ROBO}!",
+    "original_fr": "{ROBO} !",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "R-64Y: NOW WE SHALL ELIMINATE THE INTRUDERS.",
+    "original_fr": "R64-Y : Nous allons maintenant nous débarrasser des\nintrus.",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "{LUCCA}: No...{WAIT_KEY}\nI think the intruders will eliminate you!",
+    "original_fr": "{LUCCA} : Essayez un peu pour voir !",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "{MARLE}: You cocky boxes of bolts!\nYou're not getting away with this!",
+    "original_fr": "{MARLE} : Ça suffit ! Jamais je ne vous pardonnerai !",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "I see him! He got stuck!",
+    "original_fr": "Il est coincé !",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "{LUCCA}: They really thrashed him.\nI'm not sure I can fix this.",
+    "original_fr": "{LUCCA} : C'est affreux... Je me demande si je vais\npouvoir le réparer.",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "{LUCCA}: Let's get him back to Proto Dome for now.",
+    "original_fr": "{LUCCA} : Transportons-le d'abord jusqu'au dôme de\nProméthée...",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "{MARLE}: Oh, no! What should we do?\nHe's in terrible shape!",
+    "original_fr": "{MARLE} : Oh, non ! Qu'allons-nous faire ?\nPauvre {ROBO} !",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "{MARLE}: {CRONO}, let's take him back to\n{LUCCA}!",
+    "original_fr": "{MARLE} : {CRONO} ! Ramenons-le {TAG:3C} {LUCCA} !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "To activate the crane, wait for the tone and white\nflash and then press any two of the buttons labeled\nwith the letters A, B, X, or Y, one after the next.\n",
+    "original_fr": "{GLYPH:384}\nGuide d'utilisation de la grue{WAIT_KEY}\nAu signal, saisissez, dans l'ordre, une combinaison de\ndeux boutons parmi les boutons suivants : bouton A,\nbouton B, bouton X et bouton Y.",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "ZABIE ULTRA-HIGH SECURITY DOOR LOCK SYSTEM\nCODE: X A B Y",
+    "original_fr": "Code d'ouverture de la porte de haute-sécurité :\nZabi.{WAIT_KEY}\nZabi...\nDécodage : X A B Y.",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "Crane control codes:\nPattern 00: X A\nPattern 01: B B",
+    "original_fr": "Codes d'activation de la grue :\nCode 00{TAG:38}♀X{TAG:70}  A\nCode 01{TAG:38}{TAG:7F}B  B",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "Chancellor: Good citizens!\nHave any of you heard of the royal heirloom\nknown as the Rainbow Shell?{WAIT_KEY}\nI, too, had no idea of its existence—until I laid eyes\nupon this, that is.",
+    "original_fr": "Chancelier : Messieurs les jurés, avez-vous déj{TAG:3C}\nentendu parler du coquillage arc-en-ciel, ce trésor\ntransmis de génération en génération dans la famille\nroyale ?{WAIT_KEY}\nAvant de voir ceci, je n'en connaissais pas moi-même\nl'existence.",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "Chancellor: I hold before you an ancestral\nwill, written by the hand of our own King's\ndistant forebears. If I may...{WAIT_KEY}\n\"Unveil the Rainbow Shell to the people\nat the Millennial Fair, that they might\nenjoy the blessing of our royal treasure.\"",
+    "original_fr": "Chancelier : Il s'agit d'un testament rédigé par un des\nancêtres du roi de Gardia.{WAIT_KEY}\n{TAG:64} Présentez au peuple le coquillage arc-en-ciel, notre\ntrésor de famille, lors de la foire du millénaire de la\nfondation du royaume. {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "King: I have no idea what you're talking about!\nWe have no ancient royal heirlooms here.",
+    "original_fr": "Roi de Gardia : Je ne sais pas ce dont vous parlez !\nIl n'y a jamais eu de tel trésor de famille au ch{TAG:4A}teau !",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "Chancellor: Surely you don't intend to claim\nthis a forgery?{WAIT_KEY}\nI ask you, good people of the court, why does\nthe defendant deny you a glimpse of this glorious\n\"Rainbow Shell\"?{WAIT_KEY}\nWhy, because he no longer owns it.\nHe sold a priceless heirloom of our kingdom,\nfor no reason other than his own greed.\nWitness, if you would please—",
+    "original_fr": "Chancelier : Prétendez-vous que ce testament est\nun faux ? Pourquoi l'accusé ne présente-t-il pas le\ncoquillage arc-en-ciel au peuple ?{WAIT_KEY}\nC'est parce qu'il n'est plus ici. L'accusé, aveuglé par\nsa cupidité, a vendu ce précieux trésor de famille.\nEt maintenant, les témoins...",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "Chancellor: P-Princess!\nWe are conducting a trial here.{WAIT_KEY}\n{MARLE}: Father!",
+    "original_fr": "Chancelier : Qu'y a-t-il, Votre Altesse ? Nous sommes en\nplein procès.{WAIT_KEY}\n{MARLE} : Père !",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "King: Nadia!\nThe Chancellor is trying to frame me.",
+    "original_fr": "Roi de Gardia : Oh, Marledia ! Je suis la victime d'une\nmachination du chancelier !",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "Chancellor: Let us not hurl insults.\nIf you are innocent, it should be simple\nenough to confirm the matter with proof.{WAIT_KEY}\n{MARLE}: Proof?{WAIT_KEY}\nChancellor: Yes.\nIf His Grace has not sold the heirloom,\nit should remain within the castle.{WAIT_KEY}\nBring the Rainbow Shell before the court,\nand his innocence will be beyond question.\nNot that I expect you will succeed.\nHeh heh...",
+    "original_fr": "Chancelier : Vos insultes ne vous mèneront nulle part.\nSi seulement vous aviez une preuve, vous pourriez\ndémontrer votre innocence !{WAIT_KEY}\n{MARLE} : Une preuve ?{WAIT_KEY}\nChancelier : Oui. Si le roi n'a pas vendu le coquillage\narc-en-ciel, ce dernier devrait toujours se trouver\nquelque part dans le ch{TAG:4A}teau.{WAIT_KEY}\nApportez-le-moi et je reconna¡trai que le roi est\ninnocent. Je doute toutefois que vous en soyez\ncapable... Ho, ho, ho, ho...",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "King: Chancellor!\nWhat kind of trickery is this?",
+    "original_fr": "Roi de Gardia : Chancelier ! Qu'est-ce que vous\nmanigancez ?",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "Chancellor: Remove them!",
+    "original_fr": "Chancelier : Mettez-la dehors !",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "Merchant: Yes, I bought it from the King.\nI wasn't sure if I should, but, well...he\nlooked so desperate for the money.{WAIT_KEY}\nKing: Liar!\nI've never even seen you before!",
+    "original_fr": "Marchand : Oui, je l'ai bien acheté du roi. Il avait l'air\nd'être criblé de dettes...{WAIT_KEY}\nRoi de Gardia : Ne mentez pas ! Je ne vous ai jamais vu\nde ma vie !",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Judge: Order in the court!",
+    "original_fr": "Juge : Silence !",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "Merchant: Heh heh...\nWas I convincing?{WAIT_KEY}\nChancellor: Perfect!",
+    "original_fr": "Marchand : Hé, hé.\nAlors, j'étais comment ?{WAIT_KEY}\nChancelier : Parfait !",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Judge: Members of the jury, it is time for a verdict.\nIf you believe the defendant guilty, stand to the left.\nInnocent, to the right.",
+    "original_fr": "Juge : Messieurs les jurés, si vous pensez que l'accusé\nest coupable, placez-vous {TAG:3C} gauche. Si vous le croyez\nau contraire innocent, placez-vous {TAG:3C} droite.",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "Guilty.",
+    "original_fr": "Coupable.",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "Not guilty.",
+    "original_fr": "Innocent.",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "Judge: A verdict has been reached!\nFour votes of guilty to a single of not guilty.\nThe defendant has been found guilty as charged.",
+    "original_fr": "Juge : Je vais maintenant prononcer la sentence !\nQuatre votes de culpabilité contre un vote d'innocence.\nL'accusé est donc déclaré coupable !!",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "Chancellor: The line of Guardia has ended.\nThis kingdom shall be mine!{WAIT_KEY}\nTake him away!",
+    "original_fr": "Chancelier : Ainsi s'achève le règne de Gardia...\nDorénavant, le royaume m'appartient ! Emmenez-le !",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "WAIT!",
+    "original_fr": "Attendez !",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "Chancellor: Who is it?",
+    "original_fr": "Chancelier : Qui va l{TAG:3C} ?!",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "{MARLE}: Father!",
+    "original_fr": "{MARLE} : Père !!",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "King: Nadia!",
+    "original_fr": "Roi de Gardia : Marledia !",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "Chancellor: Princess!",
+    "original_fr": "Chancelier : Votre Altesse !",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "Chancellor: You're too late!\nHis Grace has been found guilty.\nEven the King is subject to our laws.",
+    "original_fr": "Chancelier : Vous arrivez trop tard ! La sentence du roi\na été prononcée par le tribunal du peuple. Nul ne peut\nse soustraire {TAG:3C} la justice, pas même le roi !",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "{MARLE}: No, not when the whole thing was a setup!",
+    "original_fr": "{MARLE} : Non ! C'est vous qui avez tramé ce\ncomplot, chancelier !",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "Chancellor: Nonsense, the King's a crook!\nHe sold—{WAIT_KEY}\n{MARLE}: The treasure's right here!",
+    "original_fr": "Chancelier : Mais qu'est-ce que vous racontez ?\nLa vérité est que le roi a vendu...{WAIT_KEY}\n{MARLE} : Si c'est le trésor que vous voulez, il est\nici !",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "Chancellor: Impossible!",
+    "original_fr": "Chancelier : Mais c'est...!",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "{MARLE}: Give it up, Chancellor!\nYour little scheme failed.",
+    "original_fr": "{MARLE} : Avouez-vous vaincu, chancelier !",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "Chancellor: Heh heh...",
+    "original_fr": "Chancelier : Ho, ho, ho, ho...",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{MARLE}: Huh?",
+    "original_fr": "{MARLE} : ?",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "Chancellor: Hee hee hee!{WAIT_KEY}\nYou're the ones who had better give up.\nIf I can't avenge my ancestors the easy way,\nI'll do it here and now—the hard way!",
+    "original_fr": "Chancelier : Ha, ha, ha, ha...{WAIT_KEY}\nC'est plutôt vous qui devriez abandonner ! Aujourd'hui,\nje vais enfin venger mon ancêtre après tant d'années !",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "Chancellor: Super, ultra, presto, TRANSFORM-O!",
+    "original_fr": "Chancelier : Je ne supporte plus cette forme ridicule !",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "{MARLE}: Father...\nI...",
+    "original_fr": "{MARLE} : Père...\nJe...",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "King: No, don't say it.\nI was wrong to be so stubborn.",
+    "original_fr": "Roi de Gardia : Ne dis rien. Je n'aurais pas d{TAG:63} être aussi\ntêtu.",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "{MARLE}: No, I didn't even think about how you must\nhave felt.{WAIT_KEY}\nI...\nOh, I know what I want to say, but the words just\nwon't come out.",
+    "original_fr": "{MARLE} : Non, c'est ma faute, je n'ai pas compris ce\nque tu ressentais...{WAIT_KEY}\nOu plutôt si, mais je ne trouvais pas les mots...",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "King: It's the same for me.\nThere was a time when I truly thought you\nwere lost to me.{WAIT_KEY}\nBut when I think about it now, I realize\nthat it was I who abandoned you.",
+    "original_fr": "Roi de Gardia : Moi non plus. Il y a eu un temps où il m'a\nsemblé que j'allais te perdre.{WAIT_KEY}\nCependant, quand j'y ai bien réfléchi, je me suis rendu\ncompte que j'étais celui qui t'avait abandonnée.",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "{MARLE}: But I'm here now.\nWe'll talk about everything from now on.{WAIT_KEY}\nI'll ask you for advice, and tell you about {CRONO},\nand ask you about Mother, and...",
+    "original_fr": "{MARLE} : Je suis près de toi maintenant.\nDésormais, je peux tout te dire, père.{WAIT_KEY}\nJe peux discuter de toutes sortes de choses, te parler\nde {CRONO}, te demander de me parler de mère...",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "King: Ah, your mother...\nAliza...{WAIT_KEY}\nI'm ashamed to admit it, but it's taken me until now to\nunderstand what she meant with those final words.{WAIT_KEY}\n\"Someday, when Nadia is older, she'll bring someone\nshe loves to meet you. Welcome the two of them with\nopen arms.\"{WAIT_KEY}\nShe said that would make it a day you would remember\nforever.",
+    "original_fr": "Roi de Gardia : Ta mère... C'est embarrassant de\nl'avouer, mais j'ai l'impression que j'ai enfin compris\nce qu'elle m'a dit ce jour-l{TAG:3C}...{WAIT_KEY}\nCe qu'elle m'a dit juste avant de rendre son dernier\nsoupir...{WAIT_KEY}\n{TAG:64} Lorsque Marledia sera en {TAG:4A}ge de le faire, le jour\nviendra où elle te présentera la personne qu'elle\naime. {TAG:65}{WAIT_KEY}\n{TAG:64} Quand ce moment arrivera, accueille-les\nchaleureusement tous les deux... {TAG:65}{WAIT_KEY}\n{TAG:64} Ce sera un jour merveilleux et inoubliable pour toi\naussi... {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "{MARLE}: You heard her last words?{WAIT_KEY}\nKing: Of course. You were so young you\nprobably don't remember.{WAIT_KEY}\nYou kept saying, \"Daddy, I love lots of people!\nLots and lots!\"{WAIT_KEY}\nIt reassured your mother, seeing you so happy.\nShe left us with a smile on her face.",
+    "original_fr": "{MARLE} : Tu as entendu ses dernières paroles ?{WAIT_KEY}\nRoi de Gardia : Oui... Tu étais petite, alors tu ne t'en\nsouviens peut-être pas, mais...{WAIT_KEY}\nTu gambadais dans la pièce en t'écriant : {TAG:64} Papa, il\ny a beaucoup de personnes que j'aime ! Beaucoup !\nBeaucoup ! {TAG:65}{WAIT_KEY}\nTe voyant ainsi, Alice fut rassurée, sourit et rendit\nl'{TAG:4A}me...",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "{MARLE}: So that's how it was.{WAIT_KEY}\nKing: Yes, why?",
+    "original_fr": "{MARLE} : C'est ce que j'ai dit ?{WAIT_KEY}\nRoi de Gardia : Qu'y a-t-il ?",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "{MARLE}: I used to call you Daddy?{WAIT_KEY}\nKing: You did.",
+    "original_fr": "{MARLE} : Quand j'étais petite, je t'appelais\n{TAG:64} papa {TAG:65} ?{WAIT_KEY}\nRoi de Gardia : C'est exact.",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "{MARLE}: I'm sorry...Daddy.\nFor everything.",
+    "original_fr": "{MARLE} : Pardonne-moi... papa.\nJe suis vraiment désolée d'avoir été égo¿ste...",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
+    "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "{AYLA}: Where this?\nNo like this place.",
+    "original_fr": "{AYLA} : Où être ? Endroit sinistre...",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "{MARLE}: Where are we?\nI don't like this place.",
+    "original_fr": "{MARLE} : Où sommes-nous ? Je n'aime pas cet\nendroit...",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "{FROG}: To what profane place have we come?",
+    "original_fr": "{FROG} : Où sommes-nous ? Cet endroit est plutôt\nsinistre...",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "{LUCCA}: It looks like we've come to the world of\nsome other age.",
+    "original_fr": "{LUCCA} : C'est comme si notre monde confluait avec\nun autre où les époques sont différentes.",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "{ROBO}: I am unfamiliar with this location.",
+    "original_fr": "{ROBO} : Où sommes-nous ? Je ne connais pas cet\nendroit.",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "{MAGUS}: This is a great rift in time's fabric.\nThere is no stability whatsoever here.",
+    "original_fr": "{MAGUS} : C'est une déformation de la structure des\ndimensions. L'espace est totalement instable.",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "{ROBO}: My time gyro cannot acquire a stable\nreading for time or locale.",
+    "original_fr": "{ROBO} : Mon gyroscope spatio-temporel est\ndéréglé ! Il m'est impossible de déterminer\nl'endroit ou l'époque où nous sommes !",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "{LUCCA}: It looks like we've come to the world of\nsome other age.",
+    "original_fr": "{LUCCA} : C'est comme si notre monde confluait avec\nun autre où les époques sont différentes.",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "{FROG}: It seems almost a confluence of sorts, as\nif time's streams were crossed.",
+    "original_fr": "{FROG} : L'espace se distord. C'est comme si les\népoques se croisaient.",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "{MARLE}: Is space all twisted here?\nI don't understand.",
+    "original_fr": "{MARLE} : L'espace se distord ? ... Je n'y comprends\npas grand-chose.",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "{FROG}: In any case, shall we explore?",
+    "original_fr": "{FROG} : Que devrions-nous faire...?\nContinuons pour voir.",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "{LUCCA}: I don't really like this, but should we take\na look at what's here?\n",
+    "original_fr": "{LUCCA} : Que faire ? Ça ne me dit rien qui vaille,\nmais continuons.",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "{ROBO}: Shall we explore?\nI find this place intriguing already.",
+    "original_fr": "{ROBO} : Que devrions-nous faire ? Cet endroit\néveille ma curiosité. Continuons pour voir.",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "{MAGUS}: We've no guarantee we'll be able to return.\nDo we go onward?",
+    "original_fr": "{MAGUS} : Qu'allons-nous faire ? Il n'est pas certain\nque nous en sortirons indemnes, mais continuons.",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "{AYLA}: Go ahead?",
+    "original_fr": "{AYLA} : Quoi faire ? Continuer ?",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "This Gate connects to the era from which you came.\nDo you wish to return there?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "On dirait un portail menant {TAG:3C} l'époque où vous étiez.\nVoulez-vous l'utiliser ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": "There is a switch here.\nPress the switch?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Voulez-vous appuyer sur\nle bouton ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "\"Crater surveillance ladder.\"\nPress the switch?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+    "original_fr": "Il est écrit : {TAG:64} îchelle pour l'inspection du cratère {TAG:65}.\nVoulez-vous appuyer sur le bouton ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "There is a note.{WAIT_KEY}\n\"The Director of Research ought to have the security\nlock release code written down somewhere in this room.{WAIT_KEY}\n\"He's a strange one, though, always writing in codes\nand what have you. Knowing him, he probably wrote it\ndown backwards.\"",
+    "original_fr": "Il y a une note de l'administrateur...{WAIT_KEY}\n{TAG:64} Le directeur devrait avoir laissé une note sur le code\nde sécurité quelque part dans cette pièce. {TAG:65}{WAIT_KEY}\n{TAG:64} Cependant, il a l'esprit tordu... Il ne donnerait pas\nle code directement. Il faudrait peut-être le lire {TAG:3C}\nl'envers. {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "There is a note written by the Director of Research.{WAIT_KEY}\n\"Security lock release code: LLAB\nI picked it because, well...I like things that are round.\"",
+    "original_fr": "Il y a une note du directeur...{WAIT_KEY}\n{TAG:64} Le code de sécurité est L L A B. Je l'ai choisi parce\nque j'aime les trucs ronds. {TAG:65}",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "{GLYPH:384}\nSECURITY LOCK ENGAGED.",
+    "original_fr": "{GLYPH:384}\nVerrouillage de sécurité...",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "{LUCCA}: Is anybody out there!?",
+    "original_fr": "{LUCCA} : Il y a quelqu'un...?",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "{MARLE}: Help!",
+    "original_fr": "{MARLE} : Â l'aide !",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "{ROBO}: Can anyone hear us?",
+    "original_fr": "{ROBO} : Y a-t-il quelqu'un ?",
+    "translation": ""
+  },
+  {
+    "id": 25,
+    "original_en": "{AYLA}: Open door!\nOpen door NOW!",
+    "original_fr": "{AYLA} : Personne ? Ouvrir porte !\nOuvrir porte !",
+    "translation": ""
+  },
+  {
+    "id": 26,
+    "original_en": "{FROG}: Is no one out there?",
+    "original_fr": "{FROG} : Il y a quelqu'un ?",
+    "translation": ""
+  },
+  {
+    "id": 27,
+    "original_en": "{MAGUS}: Hmph.",
+    "original_fr": "{MAGUS} : Quel spectacle pitoyable...",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "{FROG}: It seems it falls on us to save the day.",
+    "original_fr": "{FROG} : C'est enfin {TAG:3C} moi de jouer.\nJe me lassais d'attendre.",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "{ROBO}: It appears everyone is all right.",
+    "original_fr": "{ROBO} : Tout le monde est sain et sauf, n'est-ce\npas ?",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "{AYLA}: You okay?\n{AYLA} help!",
+    "original_fr": "{AYLA} : Tous bien aller ? {AYLA} aider !",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "{MARLE}: Leave it to us!",
+    "original_fr": "{MARLE} : Laissez-nous nous en charger !",
+    "translation": ""
+  },
+  {
+    "id": 32,
+    "original_en": "{LUCCA}: You came!",
+    "original_fr": "{LUCCA} : Je savais que vous viendriez !",
+    "translation": ""
+  },
+  {
+    "id": 33,
+    "original_en": "{LUCCA}: We're trapped in here!\nThere should be a room to the east with a mechanism\nto release the lock. Think you can look for it?",
+    "original_fr": "{LUCCA} : Nous ne pouvons pas sortir d'ici. Il devrait\ny avoir une salle où vous pourrez ouvrir cette porte\n{TAG:3C} l'est d'ici. Essayez de la trouver !",
+    "translation": ""
+  },
+  {
+    "id": 34,
+    "original_en": "{MARLE}: Oh, thank goodness!\nI thought we were trapped for good!{WAIT_KEY}\nYou should be able to open the door from inside a\nroom to the east. Please, you have to get us out!",
+    "original_fr": "{MARLE} : Le ciel soit loué... Merci d'être venus.{WAIT_KEY}\nIl devrait y avoir une salle où vous pourrez ouvrir cette\nporte {TAG:3C} l'est d'ici. Je vous en prie, aidez-nous !",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "{ROBO}: Oh, you have come!\nThank you.{WAIT_KEY}\nThere is a room to your east from which you can\nrelease this lock. Would you be so kind as to look\nfor it?",
+    "original_fr": "{ROBO} : Quel soulagement d'entendre vos voix !{WAIT_KEY}\nIl devrait y avoir une salle où vous pourrez\ndéverrouiller cette porte {TAG:3C} l'est d'ici.{WAIT_KEY}\nPourriez-vous aller y jeter un coup d'{TAG:61}il ?",
+    "translation": ""
+  },
+  {
+    "id": 36,
+    "original_en": "{AYLA}: Oh, you come help {AYLA}!{WAIT_KEY}\nGo find place open door!\n{AYLA} no like door not open.\n{AYLA} want leave!",
+    "original_fr": "{AYLA} : {AYLA} être soulagée. Merci !{WAIT_KEY}\nClef pour ouvrir porte être quelque part. {AYLA}\ndétester être enfermée. {AYLA} vouloir sortir !",
+    "translation": ""
+  },
+  {
+    "id": 37,
+    "original_en": "{FROG}: You've come to help us!\nMy pardons.{WAIT_KEY}\nTo your east is a room from which this door can be\nopened. Might you do us the favor of searching it out?",
+    "original_fr": "{FROG} : Ah, vous allez nous aider ? Je vous en suis\nreconnaissant...{WAIT_KEY}\nIl devrait y avoir une salle où vous pourrez ouvrir cette\nporte {TAG:3C} l'est d'ici. Pourriez-vous vous en charger ?",
+    "translation": ""
+  },
+  {
+    "id": 38,
+    "original_en": "{MAGUS}: Hmph.\nDo not think I'll make a habit of this.",
+    "original_fr": "{MAGUS} : Tsst ! Je veux bien vous aider pour cette\nfois.",
+    "translation": ""
+  },
+  {
+    "id": 39,
+    "original_en": "{FROG}: Of course.\nWe'll go at once.",
+    "original_fr": "{FROG} : Entendu. Nous allons l'ouvrir tout de suite.",
+    "translation": ""
+  },
+  {
+    "id": 40,
+    "original_en": "{ROBO}: Understood.\nWe shall commence the search immediately.",
+    "original_fr": "{ROBO} : C'est entendu. Je vais la trouver.",
+    "translation": ""
+  },
+  {
+    "id": 41,
+    "original_en": "{AYLA}: Okay.\n{AYLA} find!",
+    "original_fr": "{AYLA} : D'accord ! {AYLA} chercher !",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "{MARLE}: All right.\nJust hold on a little bit longer.\nWe'll get you out!",
+    "original_fr": "{MARLE} : Entendu. Je vais vous sortir de l{TAG:3C}, je vous\nle promets ! Patientez encore un peu !",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "{GLYPH:384}\nINTRUSION DETECTED!",
+    "original_fr": "{GLYPH:384}\nAlerte ! Intrus détectés !",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "{GLYPH:384}\nINITIALIZING SECURITY LOCK\nOBSERVATION PROGRAM.",
+    "original_fr": "{GLYPH:384}\nActivation du programme de surveillance.",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "{GLYPH:384}\nLOCK RELEASE COMMAND EXECUTED BY\nUNREGISTERED ADMINISTRATOR.{WAIT_KEY}{GLYPH:384}\n\nINITIATING CONTAINMENT LOCKDOWN.",
+    "original_fr": "{GLYPH:384}\nCommande saisie par un administrateur non enregistré.\nVerrouillage activé.",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION AT EAST WING\nREQUIRED TO DISENGAGE LOCKDOWN.",
+    "original_fr": "{GLYPH:384}Pour désactiver le verrouillage,\nveuillez effectuer l'enregistrement de\nl'administrateur dans l'annexe est.",
+    "translation": ""
+  },
+  {
+    "id": 47,
+    "original_en": "{LUCCA}: It won't open.\nAre we trapped in here?",
+    "original_fr": "{LUCCA} : Elle ne veut pas s'ouvrir... N'y a-t-il pas\nd'autre issue ?!",
+    "translation": ""
+  },
+  {
+    "id": 48,
+    "original_en": "{MARLE}: It's no use, it won't open.\nIt looks like we're trapped.",
+    "original_fr": "{MARLE} : Elle ne s'ouvre pas... On dirait qu'il n'y a\npas d'autre issue. Qu'allons-nous faire ?",
+    "translation": ""
+  },
+  {
+    "id": 49,
+    "original_en": "{ROBO}: The door lock has been activated.\nIt appears we are trapped.",
+    "original_fr": "{ROBO} : La porte est verrouillée. Il semble que\nnous sommes coincés ici.",
+    "translation": ""
+  },
+  {
+    "id": 50,
+    "original_en": "{AYLA}: Door no open.\n{AYLA} no can leave?",
+    "original_fr": "{AYLA} : Porte pas s'ouvrir. {AYLA} être\ncoincée ici ?",
+    "translation": ""
+  },
+  {
+    "id": 51,
+    "original_en": "{FROG}: It's no use.\nIt would seem we're trapped.",
+    "original_fr": "{FROG} : Impossible de l'ouvrir...\nOn dirait que nous sommes coincés ici.",
+    "translation": ""
+  },
+  {
+    "id": 52,
+    "original_en": "{MAGUS}: What now?\nWe'd best do something, unless it is your\nplan to wait out our deaths here.",
+    "original_fr": "{MAGUS} : Qu'allons-nous faire ? Devrons-nous\nattendre notre mort en cet endroit ?",
+    "translation": ""
+  },
+  {
+    "id": 53,
+    "original_en": "{FROG}: What shall we do now?\nWe must think of a way to escape.",
+    "original_fr": "{FROG} : Nous devons maintenant essayer de\ntrouver un moyen de sortir d'ici...",
+    "translation": ""
+  },
+  {
+    "id": 54,
+    "original_en": "{AYLA}: How get out?",
+    "original_fr": "{AYLA} : Sortir comment ?",
+    "translation": ""
+  },
+  {
+    "id": 55,
+    "original_en": "{ROBO}: This could pose a problem.\nI do not think our strength will be\nsufficient to force our way out.",
+    "original_fr": "{ROBO} : Nous voil{TAG:3C} dans de beaux draps...\nIl semble que tous nos efforts sont vains.",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "{MARLE}: There's no way out?\nI don't want to die in here!",
+    "original_fr": "{MARLE} : Alors, on ne peut pas sortir d'ici ?\nJe n'ai pas envie de mourir dans un endroit pareil !",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "{ROBO}: The locks have been released!",
+    "original_fr": "{ROBO} : Il semble que la porte est déverrouillée.",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "{AYLA}: Door open!\nCan go out!",
+    "original_fr": "{AYLA} : Porte être ouverte ! Nous sortir !",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "{FROG}: Ah, they've released the locks!\nWe'll have to thank them properly when\nwe've the chance.",
+    "original_fr": "{FROG} : Oh, elle est déverrouillée !\nJe leur revaudrai ça !",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "{LUCCA}: All right!\nThe doors are unlocked!\nWe'll have to thank them later.",
+    "original_fr": "{LUCCA} : Hourra, la porte est ouverte !\nIls ont réussi !",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "{MARLE}: Whew, the doors are unlocked!\nThank goodness. I was really starting\nto get tired of this place!",
+    "original_fr": "{MARLE} : On dirait que la porte est ouverte !\nHourra ! Nous pouvons enfin sortir d'ici !",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "{MAGUS}: Hmm?\nIt seems another route has opened.\nShall we see what lies that way?",
+    "original_fr": "{MAGUS} : Hum...? On dirait qu'une autre voie s'est\nouverte. Voulez-vous aller voir ce qu'il en est ?",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "{MARLE}: Huh?\nAnother way opened up, too.\nWhy don't we check it out?",
+    "original_fr": "{MARLE} : Hum ? Il y a une autre issue. Voulez-vous y\njeter un coup d'{TAG:61}il ?",
+    "translation": ""
+  },
+  {
+    "id": 64,
+    "original_en": "{LUCCA}: Hmm?\nThe lasers seem to have been shut off, too.\nWhy don't we see what's this way?",
+    "original_fr": "{LUCCA} : Hum ? On dirait qu'il y a aussi une autre\nvoie. Vous ne voulez pas y jeter un coup d'{TAG:61}il ?",
+    "translation": ""
+  },
+  {
+    "id": 65,
+    "original_en": "{FROG}: Hm?\nIt looks as though another route is open.\nShall we take a look?",
+    "original_fr": "{FROG} : Hum ? On dirait que nous pouvons aussi\nsortir par l{TAG:3C}. Que diriez-vous d'y jeter un coup\nd'{TAG:61}il ?",
+    "translation": ""
+  },
+  {
+    "id": 66,
+    "original_en": "{AYLA}: Huh?\nHere open, too.\nGo look?",
+    "original_fr": "{AYLA} : Quoi ? Aussi autre passage ici.\nAller voir ?",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "{GLYPH:384}\nELIMINATE THE INTRUDERS!",
+    "original_fr": "{GLYPH:384}îliminez les intrus !",
+    "translation": ""
+  },
+  {
+    "id": 68,
+    "original_en": "{GLYPH:384}\nBOOTING SECURITY SYSTEM...",
+    "original_fr": "{GLYPH:384}Initialisation du système de sécurité...",
+    "translation": ""
+  },
+  {
+    "id": 69,
+    "original_en": "RELEASE SECURITY LOCKS?\n{TAG:38}{TAG:38}{GLYPH:394}YES{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}NO{GLYPH:397}",
+    "original_fr": "Désactiver le système de sécurité ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
+    "translation": ""
+  },
+  {
+    "id": 70,
+    "original_en": "{GLYPH:384}\nPLEASE ENTER RELEASE CODE.",
+    "original_fr": "{GLYPH:384}Veuillez saisir le code.",
+    "translation": ""
+  },
+  {
+    "id": 71,
+    "original_en": "{GLYPH:384}\nCODE CONFIRMED.\nSECURITY SYSTEM DISENGAGED.",
+    "original_fr": "{GLYPH:384}Code accepté.\nDésactivation du système de sécurité réussie.",
+    "translation": ""
+  },
+  {
+    "id": 72,
+    "original_en": "{GLYPH:384}\nERROR.\nRELEASE CODE INCORRECT.",
+    "original_fr": "{GLYPH:384}Code refusé.",
+    "translation": ""
+  },
+  {
+    "id": 73,
+    "original_en": "{GLYPH:384}\nCONFIRMING ENTRANT IDENTITIES.",
+    "original_fr": "{GLYPH:384}Analyse des personnes présentes...",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "{GLYPH:384}\nUNREGISTERED ENTRANTS.\nCOMMENCING EXTERMINATION.",
+    "original_fr": "{GLYPH:384}Identité inconnue...\nîlimination des personnes non enregistrées !",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "{GLYPH:384}\nLEVEL 1 ALERT.\nELIMINATE INTRUDERS!",
+    "original_fr": "{GLYPH:384}Alerte de niveau 1.\nîliminez les intrus !",
+    "translation": ""
+  },
+  {
+    "id": 76,
+    "original_en": "{GLYPH:384}\nLEVEL 2 ALERT.\nELIMINATE INTRUDERS!",
+    "original_fr": "{GLYPH:384}Alerte de niveau 2.\nîliminez les intrus !",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "{GLYPH:384}\nLEVEL 3 ALERT.\nELIMINATE INTRUDERS!",
+    "original_fr": "{GLYPH:384}Alerte de niveau 3.\nîliminez les intrus !",
+    "translation": ""
+  },
+  {
+    "id": 78,
+    "original_en": "{GLYPH:384}\nLEVEL 4 ALERT.\nELIMINATE INTRUDERS!",
+    "original_fr": "{GLYPH:384}Alerte de niveau 4.\nîliminez les intrus !",
+    "translation": ""
+  },
+  {
+    "id": 79,
+    "original_en": "{GLYPH:384}\nLEVEL 5 ALERT.\nELIMINATE INTRUDERS!",
+    "original_fr": "{GLYPH:384}Alerte de niveau 5.\nîliminez les intrus !",
+    "translation": ""
+  },
+  {
+    "id": 80,
+    "original_en": "{GLYPH:384}\nLEVEL 6 ALERT.\nELIMINATE INTRUDERS!",
+    "original_fr": "{GLYPH:384}Alerte de niveau 6.\nîliminez les intrus !",
+    "translation": ""
+  },
+  {
+    "id": 81,
+    "original_en": "{GLYPH:384}\nLEVEL 7 ALERT.\nELIMINATE INTRUDERS!",
+    "original_fr": "{GLYPH:384}Alerte de niveau 7.\nîliminez les intrus !",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "{GLYPH:384}\nLEVEL 8 ALERT.\nELIMINATE INTRUDERS!",
+    "original_fr": "{GLYPH:384}Alerte de niveau 8.\nîliminez les intrus !",
+    "translation": ""
+  },
+  {
+    "id": 83,
+    "original_en": "{GLYPH:384}\nLEVEL 9 ALERT.\nELIMINATE INTRUDERS!",
+    "original_fr": "{GLYPH:384}Alerte de niveau 9.\nîliminez les intrus !",
+    "translation": ""
+  },
+  {
+    "id": 84,
+    "original_en": "{GLYPH:384}\nMAXIMUM ALERT.\nELIMINATE INTRUDERS!",
+    "original_fr": "{GLYPH:384}Alerte de niveau maximum.\nîliminez les intrus !",
+    "translation": ""
+  },
+  {
+    "id": 85,
+    "original_en": "{GLYPH:384}\nFATAL ERROR.\nINTRUDER ELIMINATION FAILED.",
+    "original_fr": "{GLYPH:384}îtat d'urgence.\nîlimination des intrus impossible...",
+    "translation": ""
+  },
+  {
+    "id": 86,
+    "original_en": "{GLYPH:384}\nINITIATING SYSTEM SHUTDOWN.",
+    "original_fr": "{GLYPH:384}Arrêt du système...",
+    "translation": ""
+  },
+  {
+    "id": 87,
+    "original_en": "{LUCCA}: Just...this like so, and—done!",
+    "original_fr": "{LUCCA} : Alors... si je fais ça... et que j'appuie l{TAG:3C}...",
+    "translation": ""
+  },
+  {
+    "id": 88,
+    "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION COMPLETE.\nSECUIRTY LOCKDOWN DISENGAGED.",
+    "original_fr": "{GLYPH:384}Enregistrement de l'administrateur terminé...\nDéverrouillage des portes.",
+    "translation": ""
+  },
+  {
+    "id": 89,
+    "original_en": "{LUCCA}: All right, that ought to do it.\nThe rest is out of our hands!",
+    "original_fr": "{LUCCA} : Bien, ça devrait suffire.\nLaissons-les se charger du reste !",
+    "translation": ""
+  },
+  {
+    "id": 90,
+    "original_en": "{ROBO}: Analysis complete.\nIt is a simple program.\nThis should suffice.",
+    "original_fr": "{ROBO} : Identification terminée. Si je lance ce\nprogramme...",
+    "translation": ""
+  },
+  {
+    "id": 91,
+    "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION COMPLETE.\nSECUIRTY LOCKDOWN DISENGAGED.",
+    "original_fr": "{GLYPH:384}Enregistrement de l'administrateur terminé...\nDéverrouillage des portes.",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "{ROBO}: It seems to have worked.\nThe others should be able to manage the rest.",
+    "original_fr": "{ROBO} : On dirait que les portes ont été\ndéverrouillées. Laissons les autres se\ncharger du reste.",
+    "translation": ""
+  },
+  {
+    "id": 93,
+    "original_en": "{MARLE}: I have to do something with this, right?\nUm, let's see... Maybe I'm supposed to—here?\nIs this it?",
+    "original_fr": "{MARLE} : Que dois-je faire ? Euh...\nEt si j'appuyais ici...?",
+    "translation": ""
+  },
+  {
+    "id": 94,
+    "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION COMPLETE.\nSECUIRTY LOCKDOWN DISENGAGED.",
+    "original_fr": "{GLYPH:384}Enregistrement de l'administrateur terminé...\nDéverrouillage des portes.",
+    "translation": ""
+  },
+  {
+    "id": 95,
+    "original_en": "{MARLE}: Huh? It worked!? All right!\nI guess the rest is up to them!",
+    "original_fr": "{MARLE} : Hein ? Nous avons réussi. Ils devraient\npouvoir sortir maintenant. Laissons-les se\ncharger du reste !",
+    "translation": ""
+  },
+  {
+    "id": 96,
+    "original_en": "{FROG}: I must manipulate this somehow, correct?\nI fear it may be beyond my grasp.\nHmm... Mayhap if I do this...?",
+    "original_fr": "{FROG} : Que dois-je faire ? Hum... Je n'y comprends\npas grand-chose. Et si j'appuyais ici...?",
+    "translation": ""
+  },
+  {
+    "id": 97,
+    "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION COMPLETE.\nSECUIRTY LOCKDOWN DISENGAGED.",
+    "original_fr": "{GLYPH:384}Enregistrement de l'administrateur terminé...\nDéverrouillage des portes.",
+    "translation": ""
+  },
+  {
+    "id": 98,
+    "original_en": "{FROG}: Ah, success!\nAnd it seems our work is now done.\nThe rest is on their shoulders.",
+    "original_fr": "{FROG} : Oh, ça a fonctionné ! Nous avons accompli\nnotre t{TAG:4A}che. Laissons-les se charger du reste !",
+    "translation": ""
+  },
+  {
+    "id": 99,
+    "original_en": "{AYLA}: No understand.\nBut {AYLA} no lose!\nGrr...!",
+    "original_fr": "{AYLA} : {AYLA} pas comprendre machines.\nBobonga ! {AYLA} appuyer sur boutons !",
+    "translation": ""
+  },
+  {
+    "id": 100,
+    "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION COMPLETE.\nSECUIRTY LOCKDOWN DISENGAGED.",
+    "original_fr": "{GLYPH:384}Enregistrement de l'administrateur terminé...\nDéverrouillage des portes.",
+    "translation": ""
+  },
+  {
+    "id": 101,
+    "original_en": "{AYLA}: Oh! Good thing!\nNo fight {AYLA}!",
+    "original_fr": "{AYLA} : {AYLA} réussir ! Maintenant, amis\npouvoir continuer !",
+    "translation": ""
+  },
+  {
+    "id": 102,
+    "original_en": "{GLYPH:384}\nMwa ha ha ha ha!\nStay right where you are!",
+    "original_fr": "{GLYPH:384}Mouah, ha, ha, ha, ha !\nAttendez !",
+    "translation": ""
+  },
+  {
+    "id": 103,
+    "original_en": "{FROG}: You're...",
+    "original_fr": "{FROG} : Mais c'est...",
+    "translation": ""
+  },
+  {
+    "id": 104,
+    "original_en": "{ROBO}: You are...",
+    "original_fr": "{ROBO} : Mais c'est...",
+    "translation": ""
+  },
+  {
+    "id": 105,
+    "original_en": "{AYLA}: You...",
+    "original_fr": "{AYLA} : ...!!",
+    "translation": ""
+  },
+  {
+    "id": 106,
+    "original_en": "{MAGUS}: You...",
+    "original_fr": "{MAGUS} : Ne me dites pas que...",
+    "translation": ""
+  },
+  {
+    "id": 107,
+    "original_en": "{MARLE}: You're...",
+    "original_fr": "{MARLE} : Mais c'est...",
+    "translation": ""
+  },
+  {
+    "id": 108,
+    "original_en": "{LUCCA}: Dalton!\nYou survived!",
+    "original_fr": "{LUCCA} : Dalton ! Tu as survécu !",
+    "translation": ""
+  },
+  {
+    "id": 109,
+    "original_en": "{MARLE}: Dalton!\nYou're still alive!",
+    "original_fr": "{MARLE} : Dalton ! Tu es encore en vie !",
+    "translation": ""
+  },
+  {
+    "id": 110,
+    "original_en": "{MAGUS}: Dalton!\nSo, you still live.",
+    "original_fr": "{MAGUS} : Dalton ! Tu es toujours vivant...?",
+    "translation": ""
+  },
+  {
+    "id": 111,
+    "original_en": "{AYLA}: Dalton!\nDalton not die?",
+    "original_fr": "{AYLA} : Dalton ! Pas être mort ?",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "{ROBO}: Dalton!\nYou are still alive.",
+    "original_fr": "{ROBO} : Dalton ! Tu es donc encore en vie.",
+    "translation": ""
+  },
+  {
+    "id": 113,
+    "original_en": "Dalton: It's been quite some time, hasn't it?\nDid I startle you with my brilliant reappearance?",
+    "original_fr": "Dalton : Il y a fort longtemps que nous ne nous sommes\npas vus !  Alors, est-ce que ma magnifique résurrection\nvous surprend ?",
+    "translation": ""
+  },
+  {
+    "id": 114,
+    "original_en": "Dalton: Not even a little!?\nWell, who asked you?",
+    "original_fr": "Dalton : ...\nApparemment pas plus que ça, hein ? Vous êtes toujours\naussi rabat-joie !",
+    "translation": ""
+  },
+  {
+    "id": 115,
+    "original_en": "Dalton: If it weren't for you, I'd have been the ruler\nof an age all my own!{WAIT_KEY}\nYou robbed me of everything I'd worked so hard for!\nMy wealth, my home, my loyal underlings...\nYou took it all away!\nIt's unforgivable!{WAIT_KEY}\nSo come on! Have a taste of the suffering I've\nendured because of you!",
+    "original_fr": "Dalton : Sans vous, j'aurais pu régner sur le monde\nentier !{WAIT_KEY}\nMais vous m'avez dépouillé de tout : ma position,\nma fortune et mon royaume !{WAIT_KEY}\nJamais je ne vous le pardonnerai ! Je vais vous faire\npartager ma souffrance !",
+    "translation": ""
+  },
+  {
+    "id": 116,
+    "original_en": "Dalton: Hmph, I think that's enough for today.\nBut don't you dare think this is settled!\nJust you wait, {CRONO}!{WAIT_KEY}\nI'll raise the greatest army the world has ever seen in\nPorre, and use it to wipe your pitiful little kingdom off\nthe map!",
+    "original_fr": "Dalton : Hum, ça suffit pour aujourd'hui, mais n'allez pas\npenser que ça se terminera ainsi !{WAIT_KEY}\nJe formerai la grande armée de Palpori et un jour, je\ndétruirai votre royaume ! Ne l'oublie pas, {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 117,
+    "original_en": "Dalton: Hmph, I think that's enough for today.\nBut don't you dare think this is settled!\nJust you wait!{WAIT_KEY}\nI'll raise the greatest army the world has ever seen in\nPorre, and use it to wipe your pitiful little kingdom off\nthe map!",
+    "original_fr": "Dalton : Hum, ça suffit pour aujourd'hui, mais n'allez pas\npenser que ça se terminera ainsi !{WAIT_KEY}\nJe formerai la grande armée de Palpori et un jour,\nje détruirai votre royaume ! Ne l'oubliez pas !",
+    "translation": ""
+  },
+  {
+    "id": 118,
+    "original_en": "{GLYPH:384}\nHeh heh heh...",
+    "original_fr": "{GLYPH:384}\nHo, ho, ho, ho...",
+    "translation": ""
+  },
+  {
+    "id": 119,
+    "original_en": "{GLYPH:384}\nAh hah hah hah hah!",
+    "original_fr": "{GLYPH:384}\nHa, ha, ha, ha, ha, ha !",
+    "translation": ""
+  },
+  {
+    "id": 120,
+    "original_en": "{AYLA}: {AYLA} no lose!",
+    "original_fr": "{AYLA} : {AYLA} pas perdre !",
+    "translation": ""
+  },
+  {
+    "id": 121,
+    "original_en": "{MAGUS}: The dog yelps.",
+    "original_fr": "{MAGUS} : Qu'il aboie, peu m'importe...",
+    "translation": ""
+  },
+  {
+    "id": 122,
+    "original_en": "{MARLE}: You won't touch Guardia.\nNot if I have anything to say about it!",
+    "original_fr": "{MARLE} : Je ne laisserai pas quelqu'un comme toi\nenvahir mon royaume !",
+    "translation": ""
+  },
+  {
+    "id": 123,
+    "original_en": "{LUCCA}: You'll never be tough enough to take on\nGuardia. Not in a million years!",
+    "original_fr": "{LUCCA} : Tu n'arriveras jamais {TAG:3C} nous vaincre !",
+    "translation": ""
+  },
+  {
+    "id": 124,
+    "original_en": "{FROG}: Should such a day come, we shall be there\nto stop you!",
+    "original_fr": "{FROG} : Et quand tu essaieras, nous te vaincrons\nune fois de plus !",
+    "translation": ""
+  },
+  {
+    "id": 125,
+    "original_en": "{MARLE}: I feel someone calling me.\nI...I have to go.",
+    "original_fr": "{MARLE} : On dirait que quelqu'un m'appelle...\nJe dois y aller...",
+    "translation": ""
+  },
+  {
+    "id": 126,
+    "original_en": "{AYLA}: What wrong, {CRONO}?",
+    "original_fr": "{AYLA} : {GLYPH:392} ?",
+    "translation": ""
+  },
+  {
+    "id": 127,
+    "original_en": "{ROBO}: Sir {CRONO}, is something troubling you?",
+    "original_fr": "{ROBO} : Qu'y a-t-il, {CRONO} ?",
+    "translation": ""
+  },
+  {
+    "id": 128,
+    "original_en": "{FROG}: What is it, {CRONO}?",
+    "original_fr": "{FROG} : Qu'y a-t-il, {CRONO} ?",
+    "translation": ""
+  },
+  {
+    "id": 129,
+    "original_en": "{LUCCA}: Is something wrong, {CRONO}?",
+    "original_fr": "{LUCCA} : Qu'y a-t-il, {CRONO} ?",
+    "translation": ""
+  },
+  {
+    "id": 130,
+    "original_en": "{MARLE}: What's the matter, {CRONO}?",
+    "original_fr": "{MARLE} : Qu'y a-t-il, {CRONO} ?",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "{MARLE}: You feel like someone's...calling you?",
+    "original_fr": "{MARLE} : Quelque chose t'appelle ?",
+    "translation": ""
+  },
+  {
+    "id": 132,
+    "original_en": "{LUCCA}: Someone's...calling to you?",
+    "original_fr": "{LUCCA} : Quelque chose t'appelle ?",
+    "translation": ""
+  },
+  {
+    "id": 133,
+    "original_en": "{FROG}: Something beckons you?",
+    "original_fr": "{FROG} : Tu dis que quelque chose t'appelle...?",
+    "translation": ""
+  },
+  {
+    "id": 134,
+    "original_en": "{ROBO}: Something is calling you?",
+    "original_fr": "{ROBO} : Quelque chose t'appelle ?",
+    "translation": ""
+  },
+  {
+    "id": 135,
+    "original_en": "{AYLA}: Someone call {CRONO}?",
+    "original_fr": "{AYLA} : Quelque chose appeler {GLYPH:392} ?",
+    "translation": ""
+  },
+  {
+    "id": 136,
+    "original_en": "{MARLE}: No... All I can see are memories\nof the times I spent with {CRONO}.\nI can't...I can't go on like this!\nIt's too much to take.",
+    "original_fr": "{MARLE} : Que... Pourquoi...? Mes souvenirs de\n{CRONO} me submergent ! Non ! Je ne peux pas\nle supporter !",
+    "translation": ""
+  },
+  {
+    "id": 137,
+    "original_en": "{LUCCA}: All my memories of {CRONO} just\nkeep flashing by for some reason. Oh, {CRONO}!\nI can't take this. Can we leave?",
+    "original_fr": "{LUCCA} : Soudainement, mes souvenirs de\n{CRONO} me reviennent {TAG:3C} l'esprit... {CRONO} !\nNon ! Je ne peux pas le supporter !",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "{AYLA}: {GLYPH:392}...\n{AYLA} head just think {CRONO}.\nNo can stop!\nOh, no...",
+    "original_fr": "{AYLA} : Souvenirs de {GLYPH:392}... revenir soudain\n{TAG:3C} {AYLA}... {GLYPH:392} ! {AYLA} pas pouvoir\nsupporter !",
+    "translation": ""
+  },
+  {
+    "id": 139,
+    "original_en": "{FROG}: I...cannot be here.\nAll my memories of {CRONO} keep rushing back.\nIt's too much to bear.\nLet us go back.",
+    "original_fr": "{FROG} : Sortons... de cet endroit. Mes souvenirs de\n{CRONO} me reviennent {TAG:3C} l'esprit de leur propre gré...\nJe ne peux pas le supporter ! Partons.",
+    "translation": ""
+  },
+  {
+    "id": 140,
+    "original_en": "{ROBO}: We must go back. My memory banks are\nbecoming overloaded with memories of {CRONO}.\nI am afraid I may go haywire at this rate.",
+    "original_fr": "{ROBO} : Mes souvenirs de {CRONO}...\nenvahissent ma mémoire vive...{WAIT_KEY}\nIl y en a trop... Il semble que les données vont se\ncorrompre. Partons.",
+    "translation": ""
+  },
+  {
+    "id": 141,
+    "original_en": "{LUCCA}: Strange...\nI feel like something's tugging me forward.\nI...I have to go.",
+    "original_fr": "{LUCCA} : On dirait que je suis attirée par quelque\nchose... Je dois y aller.",
+    "translation": ""
+  },
+  {
+    "id": 142,
+    "original_en": "{MAGUS}: This is—but, no!",
+    "original_fr": "{MAGUS} : Impossible...",
+    "translation": ""
+  },
+  {
+    "id": 143,
+    "original_en": "{FROG}: What trickery is this?",
+    "original_fr": "{FROG} : Quoi ?!",
+    "translation": ""
+  },
+  {
+    "id": 144,
+    "original_en": "{ROBO}: This is not possible!",
+    "original_fr": "{ROBO} : Une telle chose est impossible.",
+    "translation": ""
+  },
+  {
+    "id": 145,
+    "original_en": "{AYLA}: {AYLA} no understand!",
+    "original_fr": "{AYLA} : Quoi ?!",
+    "translation": ""
+  },
+  {
+    "id": 146,
+    "original_en": "{LUCCA}: What's going on?",
+    "original_fr": "{LUCCA} : Impossible...",
+    "translation": ""
+  },
+  {
+    "id": 147,
+    "original_en": "{MARLE}: What's happening?",
+    "original_fr": "{MARLE} : Impossible...",
+    "translation": ""
+  },
+  {
+    "id": 148,
+    "original_en": "{LUCCA}: {MARLE}?\nWhy are there two of you!?",
+    "original_fr": "{LUCCA} : {MARLE}  ! C'est ton sosie !",
+    "translation": ""
+  },
+  {
+    "id": 149,
+    "original_en": "{AYLA}: Two {MARLE}!?",
+    "original_fr": "{AYLA} : Deux {MARLE} ?!",
+    "translation": ""
+  },
+  {
+    "id": 150,
+    "original_en": "{ROBO}: I am seeing {MARLE} twice!",
+    "original_fr": "{ROBO} : Une autre {MARLE} !",
+    "translation": ""
+  },
+  {
+    "id": 151,
+    "original_en": "{FROG}: There is another {MARLE}!",
+    "original_fr": "{FROG} : Il y a une autre {MARLE} !",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "{MAGUS}: Two of the same {MARLE}?",
+    "original_fr": "{MAGUS} : C'est un double parfait...",
+    "translation": ""
+  },
+  {
+    "id": 153,
+    "original_en": "{MARLE}: Who are you?\nAre you...me?",
+    "original_fr": "{MARLE} : Qui es-tu ? Tu es... moi ?",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "{GLYPH:384}\nOne of me is all this world needs.\nBegone, for all eternity!",
+    "original_fr": "{GLYPH:384}Ce monde n'a besoin que d'un seul moi.\nDisparais !",
+    "translation": ""
+  },
+  {
+    "id": 155,
+    "original_en": "{MARLE}: I guess...I guess I have to fight you.\nI don't want to be gone for all eternity!",
+    "original_fr": "{MARLE} : ... Nous n'avons pas le choix. Nous devons\nnous battre. Il n'est pas question que je perde !",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "{GLYPH:384}\n{MARLE}'s latent powers awakened.\nSpeed, Accuracy, and Stamina improved!",
+    "original_fr": "{GLYPH:384}Les aptitudes latentes de\n{MARLE} s'éveillent...\nSa rapidité, sa précision et\nson endurance augmentent !",
+    "translation": ""
+  },
+  {
+    "id": 157,
+    "original_en": "{MARLE}: Another {CRONO}!?",
+    "original_fr": "{MARLE} : Il y a deux {CRONO} ?!",
+    "translation": ""
+  },
+  {
+    "id": 158,
+    "original_en": "{LUCCA}: {CRONO}?\nTwo of him!?",
+    "original_fr": "{LUCCA} : Il y a... deux {CRONO} ?!",
+    "translation": ""
+  },
+  {
+    "id": 159,
+    "original_en": "{AYLA}: Two {CRONO}!?",
+    "original_fr": "{AYLA} : Deux {GLYPH:392} ?!",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "{ROBO}: There is another {CRONO}!",
+    "original_fr": "{ROBO} : Il y a deux {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 161,
+    "original_en": "{FROG}: A second {CRONO}?",
+    "original_fr": "{FROG} : Un deuxième {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "{AYLA}: You not {CRONO}!\n{CRONO} no do like that!\nNever do!",
+    "original_fr": "{AYLA} : Pas être {GLYPH:392} ! {GLYPH:392} jamais\nvouloir attaquer {AYLA} !",
+    "translation": ""
+  },
+  {
+    "id": 163,
+    "original_en": "{MARLE}: Who are you!?\nWhy do you want to fight us?",
+    "original_fr": "{MARLE} : Qui es-tu donc ?! Pourquoi veux-tu te\nbattre contre nous ?!",
+    "translation": ""
+  },
+  {
+    "id": 164,
+    "original_en": "{LUCCA}: Don't think we'll go easy on you in a fight\njust because you're {CRONO}!",
+    "original_fr": "{LUCCA} : Peu importe que tu aies l'apparence de\n{CRONO}, si tu nous attaques, tu vas voir de quel\nbois je me chauffe !",
+    "translation": ""
+  },
+  {
+    "id": 165,
+    "original_en": "{ROBO}: Identity analysis complete.\nThis is a different {CRONO} from the one we know.\nHostility detected.",
+    "original_fr": "{ROBO} : Analyse terminée. Il semble que tu es\ndifférent du {CRONO} que nous connaissons.\nTu es notre ennemi.",
+    "translation": ""
+  },
+  {
+    "id": 166,
+    "original_en": "{FROG}: Whether you are a true {CRONO} or no,\nwe'll not let you harm ours!",
+    "original_fr": "{FROG} : Même si tu es le vrai {CRONO}, nous ne\nte laisserons pas faire du mal {TAG:3C} notre {CRONO} !",
+    "translation": ""
+  },
+  {
+    "id": 167,
+    "original_en": "{MAGUS}: It is of no consequence to me whether you\nare {CRONO} or a fake. Raise your weapon against\nme, and you sign away your life.",
+    "original_fr": "{MAGUS} : Peu m'importe que tu sois le vrai ou le\nfaux, si tu oses te dresser contre moi, je vais\nt'éliminer.",
+    "translation": ""
+  },
+  {
+    "id": 168,
+    "original_en": "{GLYPH:384}\n{CRONO}'s latent powers awakened.\nSpeed, Strength, and Accuracy improved!",
+    "original_fr": "{GLYPH:384}Les aptitudes latentes de\n{CRONO} s'éveillent...\nSa rapidité, sa force et\nsa précision augmentent !",
+    "translation": ""
+  },
+  {
+    "id": 169,
+    "original_en": "{MARLE}: {LUCCA}?\nTwo of them!?",
+    "original_fr": "{MARLE} : Une autre {LUCCA} ?!",
+    "translation": ""
+  },
+  {
+    "id": 170,
+    "original_en": "{AYLA}: Two {LUCCA}!?",
+    "original_fr": "{AYLA} : Deux {LUCCA} ?!",
+    "translation": ""
+  },
+  {
+    "id": 171,
+    "original_en": "{ROBO}: {LUCCA} and...{LUCCA}?\nMy visual sensors must be producing duplicate images!",
+    "original_fr": "{ROBO} : Cette personne est identique {TAG:3C}\n{LUCCA}...!",
+    "translation": ""
+  },
+  {
+    "id": 172,
+    "original_en": "{FROG}: Another {LUCCA}!",
+    "original_fr": "{FROG} : Une autre {LUCCA} !",
+    "translation": ""
+  },
+  {
+    "id": 173,
+    "original_en": "{MAGUS}: Two of the same person?",
+    "original_fr": "{MAGUS} : Elle pourrait être sa s{TAG:61}ur jumelle...",
+    "translation": ""
+  },
+  {
+    "id": 174,
+    "original_en": "{LUCCA}: Who...who are you?\nAre you really me?",
+    "original_fr": "{LUCCA} : Qui es-tu ? Es-tu vraiment moi ?",
+    "translation": ""
+  },
+  {
+    "id": 175,
+    "original_en": "{GLYPH:384}\nYou are all that stands in the way...\nYou must die!",
+    "original_fr": "{GLYPH:384}Si seulement tu n'existais pas...\nDisparais !",
+    "translation": ""
+  },
+  {
+    "id": 176,
+    "original_en": "{LUCCA}: So much for getting along...\nLooks like we have some irreconcilable differences\nto take care of, doesn't it?",
+    "original_fr": "{LUCCA} : On dirait que nous ne sommes pas faites\npour nous entendre. Je n'en ai pas vraiment envie,\nmais je vais te vaincre !",
+    "translation": ""
+  },
+  {
+    "id": 177,
+    "original_en": "{GLYPH:384}\n{LUCCA}'s latent powers awakened.\nSpeed, Magic, and Stamina improved!",
+    "original_fr": "{GLYPH:384}Les aptitudes latentes de\n{LUCCA} s'éveillent...\nSa rapidité, sa magie et\nson endurance augmentent !",
+    "translation": ""
+  },
+  {
+    "id": 178,
+    "original_en": "Dalton: Farewell!",
+    "original_fr": "Dalton : Adieu !",
+    "translation": ""
+  },
+  {
+    "id": 179,
+    "original_en": "{GLYPH:386}: ...",
+    "original_fr": "{GLYPH:386} : ...",
+    "translation": ""
+  },
+  {
+    "id": 180,
+    "original_en": "{GLYPH:387}: ...",
+    "original_fr": "{GLYPH:387} : ...",
+    "translation": ""
+  },
+  {
+    "id": 181,
+    "original_en": "{LUCCA}: Oh, I can't believe you!\nYou can't do anything without me, can you?",
+    "original_fr": "{LUCCA} : Quelle honte ! Que feriez-vous sans moi,\nhein ?",
+    "translation": ""
+  },
+  {
+    "id": 182,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 183,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 184,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 185,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 186,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 187,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 188,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 189,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 190,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 191,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 192,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 193,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 194,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 195,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 196,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 197,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 198,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 199,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 202,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 203,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 204,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 205,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 206,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 207,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 208,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 209,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 210,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 211,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 212,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 213,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 214,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 215,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 216,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 217,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 218,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 219,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 220,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 221,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 222,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 223,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 224,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 225,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 226,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 227,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 228,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 229,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 230,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 231,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 232,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 233,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 234,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 235,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 239,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 240,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 241,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 242,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 243,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 244,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 245,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 246,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 247,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 252,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 253,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 254,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 255,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

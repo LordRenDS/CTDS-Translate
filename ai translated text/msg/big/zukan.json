@@ -1,0 +1,152 @@
+[
+  {
+    "id": 0,
+    "original_en": "Bestiary",
+    "original_fr": "Bestiaire",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "HP",
+    "original_fr": "PV",
+    "translation": ""
+  },
+  {
+    "id": 2,
+    "original_en": "Defense",
+    "original_fr": "Défense",
+    "translation": ""
+  },
+  {
+    "id": 3,
+    "original_en": "Magic Defense",
+    "original_fr": "Défense magique",
+    "translation": ""
+  },
+  {
+    "id": 4,
+    "original_en": "EXP",
+    "original_fr": "EXP",
+    "translation": ""
+  },
+  {
+    "id": 5,
+    "original_en": "TP",
+    "original_fr": "PC",
+    "translation": ""
+  },
+  {
+    "id": 6,
+    "original_en": "G",
+    "original_fr": "Argent",
+    "translation": ""
+  },
+  {
+    "id": 7,
+    "original_en": "Treasure:",
+    "original_fr": "Butin :",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Charm:",
+    "original_fr": "Séduction :",
+    "translation": ""
+  },
+  {
+    "id": 9,
+    "original_en": "Elements:",
+    "original_fr": "îléments",
+    "translation": ""
+  },
+  {
+    "id": 10,
+    "original_en": "Weak",
+    "original_fr": "Craint ",
+    "translation": ""
+  },
+  {
+    "id": 11,
+    "original_en": "Absorbs",
+    "original_fr": "Absorbe ",
+    "translation": ""
+  },
+  {
+    "id": 12,
+    "original_en": "Immune",
+    "original_fr": "Résiste",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Locales:",
+    "original_fr": "Zones principales",
+    "translation": ""
+  },
+  {
+    "id": 14,
+    "original_en": "Techs:",
+    "original_fr": "Compétences",
+    "translation": ""
+  },
+  {
+    "id": 15,
+    "original_en": "Attributes",
+    "original_fr": "Attributs",
+    "translation": ""
+  },
+  {
+    "id": 16,
+    "original_en": "Discovered:",
+    "original_fr": "Rencontrés",
+    "translation": ""
+  },
+  {
+    "id": 17,
+    "original_en": " ",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 18,
+    "original_en": "%",
+    "original_fr": "%",
+    "translation": ""
+  },
+  {
+    "id": 19,
+    "original_en": "Toggle form",
+    "original_fr": "Autre forme",
+    "translation": ""
+  },
+  {
+    "id": 20,
+    "original_en": "Toggle type",
+    "original_fr": "Variante",
+    "translation": ""
+  },
+  {
+    "id": 21,
+    "original_en": "---",
+    "original_fr": "---",
+    "translation": ""
+  },
+  {
+    "id": 22,
+    "original_en": "No. ",
+    "original_fr": "NÎ ",
+    "translation": ""
+  },
+  {
+    "id": 23,
+    "original_en": "Elements",
+    "original_fr": "îléments",
+    "translation": ""
+  },
+  {
+    "id": 24,
+    "original_en": "Techs",
+    "original_fr": "Compétences",
+    "translation": ""
+  }
+]
