@@ -1,0 +1,625 @@
+[
+  {
+    "source": "Crono",
+    "ru": "Кроно",
+    "category": "character",
+    "gender": "m",
+    "notes": "Main protagonist, silent hero"
+  },
+  {
+    "source": "Marle",
+    "ru": "Марле",
+    "category": "character",
+    "gender": "f",
+    "notes": "Princess Nadia of Guardia"
+  },
+  {
+    "source": "Princess Nadia",
+    "ru": "Принцесса Надя",
+    "category": "character",
+    "gender": "f",
+    "notes": "Marle's true royal identity"
+  },
+  {
+    "source": "Lucca",
+    "ru": "Лукка",
+    "category": "character",
+    "gender": "f",
+    "notes": "Genius inventor and Crono's childhood friend"
+  },
+  {
+    "source": "Robo",
+    "ru": "Робо",
+    "category": "character",
+    "gender": "m",
+    "notes": "Prometheus, serial number R-66Y"
+  },
+  {
+    "source": "Prometheus",
+    "ru": "Прометей",
+    "category": "character",
+    "gender": "m",
+    "notes": "Robo's factory name"
+  },
+  {
+    "source": "Frog",
+    "ru": "Фрог",
+    "category": "character",
+    "gender": "m",
+    "notes": "Noble knight turned into an anthropomorphic frog"
+  },
+  {
+    "source": "Glenn",
+    "ru": "Гленн",
+    "category": "character",
+    "gender": "m",
+    "notes": "Frog's true human name"
+  },
+  {
+    "source": "Ayla",
+    "ru": "Эйла",
+    "category": "character",
+    "gender": "f",
+    "notes": "Chief of Ioka village in 65,000,000 B.C."
+  },
+  {
+    "source": "Magus",
+    "ru": "Магус",
+    "category": "character",
+    "gender": "m",
+    "notes": "Dark Mage, former Prince Janus of Zeal"
+  },
+  {
+    "source": "Janus",
+    "ru": "Янус",
+    "category": "character",
+    "gender": "m",
+    "notes": "Young prince of Zeal, younger brother of Schala"
+  },
+  {
+    "source": "Schala",
+    "ru": "Шала",
+    "category": "character",
+    "gender": "f",
+    "notes": "Princess of the Kingdom of Zeal"
+  },
+  {
+    "source": "Queen Zeal",
+    "ru": "Королева Зил",
+    "category": "character",
+    "gender": "f",
+    "notes": "Monarch of Zeal, obsessed with Lavos"
+  },
+  {
+    "source": "Dalton",
+    "ru": "Дальтон",
+    "category": "character",
+    "gender": "m",
+    "notes": "General of Queen Zeal"
+  },
+  {
+    "source": "Gaspar",
+    "ru": "Гаспар",
+    "category": "character",
+    "gender": "m",
+    "notes": "Guru of Time, guardian of the End of Time"
+  },
+  {
+    "source": "Belthasar",
+    "ru": "Бальтазар",
+    "category": "character",
+    "gender": "m",
+    "notes": "Guru of Reason, builder of the Epoch"
+  },
+  {
+    "source": "Melchior",
+    "ru": "Мельхиор",
+    "category": "character",
+    "gender": "m",
+    "notes": "Guru of Life, legendary blacksmith of the Masamune"
+  },
+  {
+    "source": "Taban",
+    "ru": "Табан",
+    "category": "character",
+    "gender": "m",
+    "notes": "Lucca's father, master blacksmith and inventor"
+  },
+  {
+    "source": "Kino",
+    "ru": "Кино",
+    "category": "character",
+    "gender": "m",
+    "notes": "Ayla's partner and prehistoric warrior"
+  },
+  {
+    "source": "Cyrus",
+    "ru": "Сайрус",
+    "category": "character",
+    "gender": "m",
+    "notes": "Hero knight of Guardia, Glenn's mentor"
+  },
+  {
+    "source": "Ozzie",
+    "ru": "Оззи",
+    "category": "character",
+    "gender": "m",
+    "notes": "Mystic general and tactician serving Magus"
+  },
+  {
+    "source": "Slash",
+    "ru": "Слэш",
+    "category": "character",
+    "gender": "m",
+    "notes": "Mystic swordsman serving Magus"
+  },
+  {
+    "source": "Flea",
+    "ru": "Фли",
+    "category": "character",
+    "gender": "m",
+    "notes": "Mystic magician serving Magus"
+  },
+  {
+    "source": "Lavos",
+    "ru": "Лавос",
+    "category": "character",
+    "gender": "m",
+    "notes": "Extraterrestrial parasitic entity threatening earth"
+  },
+  {
+    "source": "Epoch",
+    "ru": "Эпоха",
+    "category": "character",
+    "gender": "f",
+    "notes": "Wings of Time, time machine vessel built by Belthasar"
+  },
+  {
+    "source": "Wings of Time",
+    "ru": "Крылья Времени",
+    "category": "character",
+    "gender": "n",
+    "notes": "Alternate name for the Epoch"
+  },
+  {
+    "source": "Guardia",
+    "ru": "Гардия",
+    "category": "location",
+    "gender": "f",
+    "notes": "Central human kingdom (600 A.D., 1000 A.D.)"
+  },
+  {
+    "source": "Truce",
+    "ru": "Трус",
+    "category": "location",
+    "gender": "m",
+    "notes": "Hometown village of Crono"
+  },
+  {
+    "source": "Porre",
+    "ru": "Порре",
+    "category": "location",
+    "gender": "m",
+    "notes": "Southern town in Guardia"
+  },
+  {
+    "source": "Medina",
+    "ru": "Медина",
+    "category": "location",
+    "gender": "f",
+    "notes": "Mystic village in 1000 A.D."
+  },
+  {
+    "source": "Choras",
+    "ru": "Чорас",
+    "category": "location",
+    "gender": "m",
+    "notes": "Eastern seaside town"
+  },
+  {
+    "source": "Zeal",
+    "ru": "Зил",
+    "category": "location",
+    "gender": "m",
+    "notes": "Magical floating kingdom in 12,000 B.C."
+  },
+  {
+    "source": "End of Time",
+    "ru": "Конец Времён",
+    "category": "location",
+    "gender": "m",
+    "notes": "Temporal crossroads maintained by Gaspar"
+  },
+  {
+    "source": "Black Omen",
+    "ru": "Чёрное Знамение",
+    "category": "location",
+    "gender": "n",
+    "notes": "Floating fortress of Queen Zeal"
+  },
+  {
+    "source": "Death Peak",
+    "ru": "Пик Смерти",
+    "category": "location",
+    "gender": "m",
+    "notes": "Frozen mountain summit in 2300 A.D."
+  },
+  {
+    "source": "Ocean Palace",
+    "ru": "Океанский дворец",
+    "category": "location",
+    "gender": "m",
+    "notes": "Underwater palace built to tap Lavos energy"
+  },
+  {
+    "source": "Reptite Lair",
+    "ru": "Логово рептитов",
+    "category": "location",
+    "gender": "n",
+    "notes": "Underground lair in 65,000,000 B.C."
+  },
+  {
+    "source": "Tyranno Lair",
+    "ru": "Логово Тиранно",
+    "category": "location",
+    "gender": "n",
+    "notes": "Fortress of Azala in 65,000,000 B.C."
+  },
+  {
+    "source": "Potion",
+    "ru": "Зелье",
+    "category": "item",
+    "gender": "n",
+    "notes": "Restores 50 HP"
+  },
+  {
+    "source": "Mid-Potion",
+    "ru": "Среднее зелье",
+    "category": "item",
+    "gender": "n",
+    "notes": "Restores 200 HP"
+  },
+  {
+    "source": "Hi-Potion",
+    "ru": "Большое зелье",
+    "category": "item",
+    "gender": "n",
+    "notes": "Restores 500 HP"
+  },
+  {
+    "source": "Ether",
+    "ru": "Эфир",
+    "category": "item",
+    "gender": "m",
+    "notes": "Restores 10 MP"
+  },
+  {
+    "source": "Turbo Ether",
+    "ru": "Турбо-эфир",
+    "category": "item",
+    "gender": "m",
+    "notes": "Restores 30 MP"
+  },
+  {
+    "source": "Elixir",
+    "ru": "Эликсир",
+    "category": "item",
+    "gender": "m",
+    "notes": "Fully restores HP and MP of one ally"
+  },
+  {
+    "source": "Megalixir",
+    "ru": "Мегаэликсир",
+    "category": "item",
+    "gender": "m",
+    "notes": "Fully restores HP and MP of entire party"
+  },
+  {
+    "source": "Panacea",
+    "ru": "Панацея",
+    "category": "item",
+    "gender": "f",
+    "notes": "Cures all status ailments"
+  },
+  {
+    "source": "Athenian Water",
+    "ru": "Афинская вода",
+    "category": "item",
+    "gender": "f",
+    "notes": "Revives fallen ally"
+  },
+  {
+    "source": "Shelter",
+    "ru": "Убежище",
+    "category": "item",
+    "gender": "n",
+    "notes": "Fully recovers party HP/MP at save points"
+  },
+  {
+    "source": "Lapis",
+    "ru": "Лазурит",
+    "category": "item",
+    "gender": "m",
+    "notes": "Restores 200 HP to entire party in battle"
+  },
+  {
+    "source": "Barrier Sphere",
+    "ru": "Сфера барьера",
+    "category": "item",
+    "gender": "f",
+    "notes": "Grants magic defense barrier"
+  },
+  {
+    "source": "Shield Sphere",
+    "ru": "Сфера щита",
+    "category": "item",
+    "gender": "f",
+    "notes": "Grants physical defense shield"
+  },
+  {
+    "source": "Strength Capsule",
+    "ru": "Капсула силы",
+    "category": "item",
+    "gender": "f",
+    "notes": "Permanently increases strength by 1"
+  },
+  {
+    "source": "Magic Capsule",
+    "ru": "Капсула магии",
+    "category": "item",
+    "gender": "f",
+    "notes": "Permanently increases magic by 1"
+  },
+  {
+    "source": "Speed Capsule",
+    "ru": "Капсула скорости",
+    "category": "item",
+    "gender": "f",
+    "notes": "Permanently increases speed by 1"
+  },
+  {
+    "source": "Masamune",
+    "ru": "Масамунэ",
+    "category": "item",
+    "gender": "m",
+    "notes": "Legendary holy blade of Frog, forged by Melchior"
+  },
+  {
+    "source": "Rainbow",
+    "ru": "Радуга",
+    "category": "item",
+    "gender": "f",
+    "notes": "Crono's ultimate katana, forged from Rainbow Shell"
+  },
+  {
+    "source": "Gate Key",
+    "ru": "Ключ Врат",
+    "category": "item",
+    "gender": "m",
+    "notes": "Lucca's device to stabilize time gates"
+  },
+  {
+    "source": "Chrono Trigger",
+    "ru": "Хроно Триггер",
+    "category": "item",
+    "gender": "m",
+    "notes": "Time Egg capable of altering the past"
+  },
+  {
+    "source": "Time Egg",
+    "ru": "Яйцо Времени",
+    "category": "item",
+    "gender": "n",
+    "notes": "Alternate name for Chrono Trigger"
+  },
+  {
+    "source": "Dreamstone",
+    "ru": "Камень снов",
+    "category": "item",
+    "gender": "m",
+    "notes": "Mystical red ore from 65,000,000 B.C."
+  },
+  {
+    "source": "Moon Stone",
+    "ru": "Лунный камень",
+    "category": "item",
+    "gender": "m",
+    "notes": "Solar stone depleted of solar energy"
+  },
+  {
+    "source": "Sun Stone",
+    "ru": "Солнечный камень",
+    "category": "item",
+    "gender": "m",
+    "notes": "Luminescent energy source charged over 65 million years"
+  },
+  {
+    "source": "Ruby Knife",
+    "ru": "Рубиновый нож",
+    "category": "item",
+    "gender": "m",
+    "notes": "Dagger forged by Melchior to destroy the Mammon Machine"
+  },
+  {
+    "source": "Mammon Machine",
+    "ru": "Машина Маммона",
+    "category": "item",
+    "gender": "f",
+    "notes": "Device in Zeal designed to siphon energy from Lavos"
+  },
+  {
+    "source": "Luminaire",
+    "ru": "Люминар",
+    "category": "skill",
+    "gender": "m",
+    "notes": "Crono's ultimate lightning spell"
+  },
+  {
+    "source": "Flare",
+    "ru": "Вспышка",
+    "category": "skill",
+    "gender": "f",
+    "notes": "Lucca's ultimate fire spell"
+  },
+  {
+    "source": "Fire",
+    "ru": "Огонь",
+    "category": "skill",
+    "gender": "m",
+    "notes": "Basic fire magic"
+  },
+  {
+    "source": "Fire II",
+    "ru": "Огонь II",
+    "category": "skill",
+    "gender": "m",
+    "notes": "Advanced area fire magic"
+  },
+  {
+    "source": "Ice",
+    "ru": "Лёд",
+    "category": "skill",
+    "gender": "m",
+    "notes": "Basic water/ice magic"
+  },
+  {
+    "source": "Ice II",
+    "ru": "Лёд II",
+    "category": "skill",
+    "gender": "m",
+    "notes": "Advanced area ice magic"
+  },
+  {
+    "source": "Lightning",
+    "ru": "Молния",
+    "category": "skill",
+    "gender": "f",
+    "notes": "Basic lightning magic"
+  },
+  {
+    "source": "Lightning II",
+    "ru": "Молния II",
+    "category": "skill",
+    "gender": "f",
+    "notes": "Advanced area lightning magic"
+  },
+  {
+    "source": "Dark Matter",
+    "ru": "Тёмная материя",
+    "category": "skill",
+    "gender": "f",
+    "notes": "Magus's ultimate shadow magic"
+  },
+  {
+    "source": "Cyclone",
+    "ru": "Циклон",
+    "category": "skill",
+    "gender": "m",
+    "notes": "Crono's spinning sword strike"
+  },
+  {
+    "source": "Wind Slash",
+    "ru": "Ветряной разрез",
+    "category": "skill",
+    "gender": "m",
+    "notes": "Crono's ranged air blade attack"
+  },
+  {
+    "source": "Attack",
+    "ru": "Атака",
+    "category": "system",
+    "gender": "f",
+    "notes": "Primary combat command"
+  },
+  {
+    "source": "Tech",
+    "ru": "Техника",
+    "category": "system",
+    "gender": "f",
+    "notes": "Special tech/magic ability command"
+  },
+  {
+    "source": "Combo",
+    "ru": "Комбо",
+    "category": "system",
+    "gender": "n",
+    "notes": "Dual or triple character cooperative tech"
+  },
+  {
+    "source": "Item",
+    "ru": "Предмет",
+    "category": "system",
+    "gender": "m",
+    "notes": "Inventory command in battle and menus"
+  },
+  {
+    "source": "Escape",
+    "ru": "Побег",
+    "category": "system",
+    "gender": "m",
+    "notes": "Battle retreat command"
+  },
+  {
+    "source": "Single Tech",
+    "ru": "Одиночная техника",
+    "category": "system",
+    "gender": "f",
+    "notes": "Single character tech menu category"
+  },
+  {
+    "source": "Dual Tech",
+    "ru": "Двойная техника",
+    "category": "system",
+    "gender": "f",
+    "notes": "Two character combo tech menu category"
+  },
+  {
+    "source": "Triple Tech",
+    "ru": "Тройная техника",
+    "category": "system",
+    "gender": "f",
+    "notes": "Three character combo tech menu category"
+  },
+  {
+    "source": "Save",
+    "ru": "Сохранить",
+    "category": "system",
+    "gender": "n",
+    "notes": "Game state persistence command"
+  },
+  {
+    "source": "Back",
+    "ru": "Назад",
+    "category": "system",
+    "gender": "n",
+    "notes": "UI navigation back action"
+  },
+  {
+    "source": "Miss",
+    "ru": "Промах",
+    "category": "system",
+    "gender": "m",
+    "notes": "Combat attack evasion/failure (never Скучать)"
+  },
+  {
+    "source": "Equip",
+    "ru": "Экипировать",
+    "category": "system",
+    "gender": "n",
+    "notes": "Action verb: equip gear"
+  },
+  {
+    "source": "Level Up",
+    "ru": "Новый уровень",
+    "category": "system",
+    "gender": "m",
+    "notes": "Character level advancement banner"
+  },
+  {
+    "source": "Critical",
+    "ru": "Критический удар",
+    "category": "system",
+    "gender": "m",
+    "notes": "Combat critical hit indicator"
+  }
+]
