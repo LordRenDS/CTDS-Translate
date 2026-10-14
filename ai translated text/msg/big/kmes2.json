@@ -3,997 +3,997 @@
     "id": 0,
     "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
     "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получено: {GLYPH:385}!"
   },
   {
     "id": 1,
     "original_en": "{GLYPH:384}\nOnimaru upgraded!\nObtained {GLYPH:385}!",
     "original_fr": "{GLYPH:384}\nOnimaru est devenu plus puissant !\nVous obtenez Suzaku !",
-    "translation": ""
+    "translation": "{GLYPH:384} Онимару усилен! Получено: {GLYPH:385}!"
   },
   {
     "id": 2,
     "original_en": "{GLYPH:384}\nSiren's Kiss upgraded!\nObtained {GLYPH:385}!",
     "original_fr": "{GLYPH:384}\nSirène est devenue plus puissante !\nVous obtenez Walkyrie !",
-    "translation": ""
+    "translation": "{GLYPH:384} Поцелуй сирены усилен! Получено: {GLYPH:385}!"
   },
   {
     "id": 3,
     "original_en": "{GLYPH:384}\nNova Armor upgraded!\nObtained {GLYPH:385}!",
     "original_fr": "{GLYPH:384}\nL'armure nova est devenue plus puissante !\nVous obtenez une armure lunaire !",
-    "translation": ""
+    "translation": "{GLYPH:384} Доспех «Нова» усилен! Получено: {GLYPH:385}!"
   },
   {
     "id": 4,
     "original_en": "The item inside is reacting to the pendant.\nRemove the item?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Il y a quelque chose {TAG:3C} l'intérieur qui luit {TAG:3C} l'approche du\npendentif. Voulez-vous le prendre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Предмет внутри реагирует на кулон. Забрать\nпредмет? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 5,
     "original_en": "...len...{GLYPH:405}08{GLYPH:406}{GLYPH:408}\nGle...{GLYPH:405}08{GLYPH:406}{GLYPH:408}\nGlenn...{GLYPH:405}08{GLYPH:406}{GLYPH:408}\n{GLYPH:384}\nGlenn!",
     "original_fr": "... lenn...{GLYPH:405}08{GLYPH:406}{GLYPH:408}\n\nGle...{GLYPH:405}08{GLYPH:406}{GLYPH:408}\n\nGlenn...{GLYPH:405}08{GLYPH:406}{GLYPH:408}\n{GLYPH:384}\nGlenn !",
-    "translation": ""
+    "translation": "...ленн...{GLYPH:405}08{GLYPH:406}{GLYPH:408} Гле...{GLYPH:405}08{GLYPH:406}{GLYPH:408} Гленн...{GLYPH:405}08{GLYPH:406}{GLYPH:408} {GLYPH:384} Гленн!"
   },
   {
     "id": 6,
     "original_en": "Grrrrrr!",
     "original_fr": "Grrrrrr !",
-    "translation": ""
+    "translation": "Гр-р-р-р!"
   },
   {
     "id": 7,
     "original_en": "{GLYPH:384}\nHere rests Cyrus,\nthe fool who defied {MAGUS}.",
     "original_fr": "{GLYPH:384}\nCi-g¡t Cyrus, l'homme insensé qui\nosa défier {MAGUS} au combat.",
-    "translation": ""
+    "translation": "{GLYPH:384} Здесь покоится Сайрус, безумец, дерзнувший\nбросить вызов магу по имени {MAGUS}."
   },
   {
     "id": 8,
     "original_en": "{GLYPH:384}\nHere rests the brave Sir Cyrus,\nwhose spirit lives on in his true friend, Glenn.",
     "original_fr": "{GLYPH:384}\nCi-g¡t Cyrus, le héros qui confia ses\naspirations {TAG:3C} son meilleur ami Glenn.",
-    "translation": ""
+    "translation": "{GLYPH:384} Здесь покоится храбрый сэр Сайрус, чей дух\nживёт в его верном друге Гленне."
   },
   {
     "id": 9,
     "original_en": "{ROBO}: I am unable to damage it!",
     "original_fr": "{ROBO} : Mes attaques n'ont pas le moindre effet...",
-    "translation": ""
+    "translation": "{ROBO}: Я не в силах нанести ему урон!"
   },
   {
     "id": 10,
     "original_en": "{AYLA}: Hard, like rock!",
     "original_fr": "{AYLA} : Armure trop dure !",
-    "translation": ""
+    "translation": "{AYLA}: Твёрдый, как скала!"
   },
   {
     "id": 11,
     "original_en": "{LUCCA}: It's too resilient!",
     "original_fr": "{LUCCA} : Quelle défense extraordinaire !",
-    "translation": ""
+    "translation": "{LUCCA}: Он слишком крепок!"
   },
   {
     "id": 12,
     "original_en": "{FROG}: My sword is to no avail!",
     "original_fr": "{FROG} : Hum ! Mes attaques n'ont aucun effet !",
-    "translation": ""
+    "translation": "{FROG}: Мой клинок бессилен!"
   },
   {
     "id": 13,
     "original_en": "{MARLE}: Attacks just bounce right off it!",
     "original_fr": "{MARLE} : Nos attaques ne mènent {TAG:3C} rien !",
-    "translation": ""
+    "translation": "{MARLE}: Удары просто отскакивают от него!"
   },
   {
     "id": 14,
     "original_en": "{FROG}: Cyrus...",
     "original_fr": "{FROG} : Cyrus...",
-    "translation": ""
+    "translation": "{FROG}: Сайрус..."
   },
   {
     "id": 15,
     "original_en": "{MAGUS}: ...",
     "original_fr": "{MAGUS} : ...",
-    "translation": ""
+    "translation": "{MAGUS}: ..."
   },
   {
     "id": 16,
     "original_en": "{FROG}: Cyrus!?\n'Tis I, Glenn!",
     "original_fr": "{FROG} : Cyrus ?!\nC'est moi ! Glenn !!",
-    "translation": ""
+    "translation": "{FROG}: Сайрус?! Это я, Гленн!"
   },
   {
     "id": 17,
     "original_en": "Ugh...{WAIT_KEY}\n\nGlenn...?",
     "original_fr": "...\nOh...{WAIT_KEY}\n...\nGl... enn...?",
-    "translation": ""
+    "translation": "Угх...{WAIT_KEY}\nГленн...?"
   },
   {
     "id": 18,
     "original_en": "{FROG}: Cyrus...{WAIT_KEY}\nCyrus, I have returned.{WAIT_KEY}\nI will fulfill that oath I swore so long ago,\nand my final promise to you as well.",
     "original_fr": "{FROG} : Cyrus...{WAIT_KEY}\nJe suis revenu, Cyrus, pour respecter mon serment\nde jeunesse et pour tenir la dernière promesse que\nje t'avais faite !",
-    "translation": ""
+    "translation": "{FROG}: Сайрус...{WAIT_KEY}\nСайрус, я вернулся.{WAIT_KEY}\nЯ исполню клятву, данную давным-давно, и\nпоследнее обещание, данное тебе."
   },
   {
     "id": 19,
     "original_en": "Cyrus: Glenn...{WAIT_KEY}\nThank you, for making the journey all this way.",
     "original_fr": "Cyrus : Glenn...{WAIT_KEY}\nJe...{WAIT_KEY}\nJe te félicite d'être parvenu jusqu'ici...",
-    "translation": ""
+    "translation": "Сайрус: Гленн...{WAIT_KEY}\nСпасибо, что проделал этот нелёгкий путь."
   },
   {
     "id": 20,
     "original_en": "{FROG}: Cyrus...{WAIT_KEY}\nYou must think ill of me.",
     "original_fr": "{FROG} : Oh, Cyrus...{WAIT_KEY}\nTu... me gardes rancune, n'est-ce pas ?",
-    "translation": ""
+    "translation": "{FROG}: Сайрус...{WAIT_KEY}\nТы, должно быть, презираешь меня."
   },
   {
     "id": 21,
     "original_en": "Cyrus: Hah... You think overmuch.\nYou've come far, my friend.\nI was never as fine a warrior as you are now.{WAIT_KEY}\nAs {MAGUS}'s fire consumed me, my heart burned\nwith the thoughts of all I'd left unfinished, and\nall I left behind.{WAIT_KEY}\n{MAGUS}...\nKing Guardia...\nQueen Leene...{WAIT_KEY}\nAnd of course you, my dear good friend.",
     "original_fr": "Cyrus : Ha, ha...{WAIT_KEY}\nJe n'étais pas un chevalier aussi remarquable que tu\nl'es maintenant...{WAIT_KEY}\nAlors que les flammes de {MAGUS} dévoraient mon\ncorps, mon c{TAG:61}ur sombrait dans le désarroi. Je pensais\n{TAG:3C} ceux que je laisserais derrière moi...{WAIT_KEY}\nLe roi Gardia...\nLa reine Lynne...\n{MAGUS}...{WAIT_KEY}\nEt toi, mon meilleur ami...",
-    "translation": ""
+    "translation": "Сайрус: Ха... Ты слишком много думаешь. Ты прошёл\nдолгий путь, друг мой. Я никогда не был столь\nдоблестным воином.{WAIT_KEY}\nКогда пламя владыки {MAGUS} сжигало меня, сердце\nгорело от мыслей обо всём, что я не успел...{WAIT_KEY}\n{MAGUS}... Король Гардии... Королева Лин...{WAIT_KEY}\nИ конечно же ты, мой верный добрый друг."
   },
   {
     "id": 22,
     "original_en": "Cyrus: But the skills you've honed over all this time\nare superior to any I could ever claim to know.{WAIT_KEY}\nI can rest now, knowing that all will be made right by\nyour hands.{WAIT_KEY}\nFarewell, my friend.",
     "original_fr": "Cyrus : Cependant, la force que tu as acquise au fil de\nlongues années me semble véritable...{WAIT_KEY}\nSachant cela, je peux enfin dormir pour l'éternité, l'{TAG:4A}me\nen paix...{WAIT_KEY}\nAdieu, Glenn...",
-    "translation": ""
+    "translation": "Сайрус: Но твоё воинское мастерство превосходит\nвсё, чем я когда-либо владел.{WAIT_KEY}\nТеперь я могу спать спокойно, зная, что в твоих\nруках мир обретёт надежду.{WAIT_KEY}\nПрощай, друг мой."
   },
   {
     "id": 23,
     "original_en": "{FROG}: Cyrus, wait!\nI...{WAIT_KEY}\nI...!",
     "original_fr": "{FROG} : Attends, Cyrus !\nJe...{WAIT_KEY}\nJe...!",
-    "translation": ""
+    "translation": "{FROG}: Сайрус, постой! Я...{WAIT_KEY}\nЯ!.."
   },
   {
     "id": 24,
     "original_en": "Cyrus: The Queen...\nLook after Queen Leene.{WAIT_KEY}\nFarewell, Glenn...my friend.",
     "original_fr": "Cyrus : La reine...\nPrends soin de la reine...{WAIT_KEY}\nAdieu...{WAIT_KEY}\nGlenn... mon ami...",
-    "translation": ""
+    "translation": "Сайрус: Королева... Береги королеву Лин.{WAIT_KEY}\nПрощай, Гленн... мой друг."
   },
   {
     "id": 25,
     "original_en": "{FROG}: Cyrus!",
     "original_fr": "{FROG} : Cyruuuuuuus !",
-    "translation": ""
+    "translation": "{FROG}: Сайрус!"
   },
   {
     "id": 26,
     "original_en": "{FROG}: Forgive me, Cyrus.",
     "original_fr": "{FROG} : Je suis désolé, Cyrus...",
-    "translation": ""
+    "translation": "{FROG}: Прости меня, Сайрус."
   },
   {
     "id": 27,
     "original_en": "{FROG}: Hm?",
     "original_fr": "{FROG} : ?!",
-    "translation": ""
+    "translation": "{FROG}: Хм?"
   },
   {
     "id": 28,
     "original_en": "{FROG}: The...the Masamune!?",
     "original_fr": "{FROG} : Grandléon vibre...",
-    "translation": ""
+    "translation": "{FROG}: М-Масамунэ?!"
   },
   {
     "id": 29,
     "original_en": "{FROG}: It's pulsing with strength!",
     "original_fr": "{FROG} : Elle semble déborder d'énergie !",
-    "translation": ""
+    "translation": "{FROG}: Он наполняется невиданной мощью!"
   },
   {
     "id": 30,
     "original_en": "Heh...{WAIT_KEY}\nWhat else?",
     "original_fr": "Hé, hé...{WAIT_KEY}\nC'est exact !",
-    "translation": ""
+    "translation": "Хе-хе...{WAIT_KEY}\nА как же иначе?"
   },
   {
     "id": 31,
     "original_en": "Mune: All that emotional baggage was weighing\nyou down.{WAIT_KEY}\nMasa: The Hero's strength is strength of will.{WAIT_KEY}\nMune: Can't very well save the world if you're\ndwelling on the past!{WAIT_KEY}\nMasa: Now you're truly strong!",
     "original_fr": "Léon : Tu étais tourmenté, n'est-ce pas ?{WAIT_KEY}\nGran : La force d'un héros se mesure {TAG:3C} l'aune de sa\nvolonté !{WAIT_KEY}\nLéon : Tu sais désormais que nul ne peut avancer vers\nl'avenir lorsqu'il se tourne vers les erreurs du passé.{WAIT_KEY}\nGran : Ta volonté possède désormais sa force\nvéritable !",
-    "translation": ""
+    "translation": "Мун: Вся эта тяжесть на сердце тянула тебя на\nдно.{WAIT_KEY}\nМаса: Сила Героя — это сила его воли.{WAIT_KEY}\nМун: Мир не спасти, если ты вечно оглядываешься\nна прошлое!{WAIT_KEY}\nМаса: Теперь ты по-настоящему силён!"
   },
   {
     "id": 32,
     "original_en": "{FROG}: True strength...",
     "original_fr": "{FROG} : Ma... volonté...!",
-    "translation": ""
+    "translation": "{FROG}: Истинная сила..."
   },
   {
     "id": 33,
     "original_en": "Mune: And now we can use all of our power, too!\nCan't we, Masa?",
     "original_fr": "Léon : Maintenant, nous pourrons nous aussi montrer\nnotre force sans réserve, qu'en dis-tu Gran ?",
-    "translation": ""
+    "translation": "Мун: И теперь мы тоже можем показать всю нашу\nсилу! Правда ведь, Маса?"
   },
   {
     "id": 34,
     "original_en": "Masa: You bet, Mune!",
     "original_fr": "Gran : Tu as raison, Léon !",
-    "translation": ""
+    "translation": "Маса: Ещё бы, Мун!"
   },
   {
     "id": 35,
     "original_en": "{FROG}: Ah!\nThe Masamune's true form!",
     "original_fr": "{FROG} : Je sens une force incroyable monter en\nmoi...{WAIT_KEY}\nC'est donc ça, le vrai pouvoir de Grandléon ?",
-    "translation": ""
+    "translation": "{FROG}: А-а-а! Истинный облик Масамунэ!"
   },
   {
     "id": 36,
     "original_en": "{FROG}: I must go now, Cyrus.{WAIT_KEY}\nBut I go to follow in your footsteps,\nand see done all that you had wished.",
     "original_fr": "{FROG} : Cyrus, je saurai réaliser tes aspirations...",
-    "translation": ""
+    "translation": "{FROG}: Пора в путь, Сайрус.{WAIT_KEY}\nЯ пойду по твоим стопам и исполню всё, о чём ты\nкогда-то мечтал."
   },
   {
     "id": 37,
     "original_en": "{FROG}: May my actions honor you!",
     "original_fr": "{FROG} : Ce sera...{WAIT_KEY}\n... mon cadeau d'adieu !",
-    "translation": ""
+    "translation": "{FROG}: Пусть мои поступки почтят память о тебе!"
   },
   {
     "id": 38,
     "original_en": "{FROG}: Come! Let us be on our way.",
     "original_fr": "{FROG} : Partons...",
-    "translation": ""
+    "translation": "{FROG}: Вперёд! Нам пора в дорогу."
   },
   {
     "id": 39,
     "original_en": "There's an old structure to the north.\nIt's lain in ruin for centuries.",
     "original_fr": "Au nord du village se trouvent les vestiges d'un ancien\nch{TAG:4A}teau. On dit qu'il est en ruine depuis des siècles.",
-    "translation": ""
+    "translation": "К северу отсюда стоит древнее строение. Оно\nлежит в руинах уже много веков."
   },
   {
     "id": 40,
     "original_en": "The grave of the heroic knight Sir Cyrus lies to\nthe north. He fell in battle defending our kingdom\nfrom {MAGUS}.",
     "original_fr": "Au nord du village se trouve la tombe du grand Cyrus.{WAIT_KEY}\nC'est un véritable héros qui défia le terrible {MAGUS}\nen combat singulier pour protéger le royaume de Gardia,\nil y a 400 ans.",
-    "translation": ""
+    "translation": "На севере — могила славного рыцаря Сайруса. Он\nпал в битве, защищая королевство от мага по\nимени {MAGUS}."
   },
   {
     "id": 41,
     "original_en": "Hm? You're thinking of visiting those ruins?\nI'd stay away if I were you. They're quite dangerous,\nwhat with all the structural damage underground.",
     "original_fr": "Quoi ? Vous comptez aller au ch{TAG:4A}teau en ruine ?\nMais c'est dangereux, il y a des trous partout au\nsous-sol.",
-    "translation": ""
+    "translation": "Хм? Думаете наведаться в те руины? На вашем\nместе я бы поостерёгся: подземелья полуразрушены\nи смертельно опасны."
   },
   {
     "id": 42,
     "original_en": "The tale of Sir Cyrus the Hero and his loyal\nfriend Glenn is an old one. It's been four\nhundred years since Sir Cyrus fought {MAGUS}.",
     "original_fr": "L'histoire de Cyrus, le héros qui combattit {MAGUS},\net de son ami Glenn est une légende vieille de 400 ans.",
-    "translation": ""
+    "translation": "Сказание о Сайрусе и его друге Гленне — старая\nповесть. Четыре века прошло с тех пор, как Сайрус\nбился против мага {MAGUS}."
   },
   {
     "id": 43,
     "original_en": "They say ghosts lurk in the ruins to the north!",
     "original_fr": "On dit qu'un fantôme hante les ruines situées au nord\ndu village.",
-    "translation": ""
+    "translation": "Говорят, в руинах на севере бродят призраки!"
   },
   {
     "id": 44,
     "original_en": "Another dull day...\nMaybe I should go to Guardia's Millennial Fair.",
     "original_fr": "Je m'ennuie... Je devrais peut-être aller {TAG:3C} la foire\nmillénaire du royaume de Gardia, moi aussi.",
-    "translation": ""
+    "translation": "Опять скучный денёк... Может, съездить на Ярмарку\nтысячелетия Гардии?"
   },
   {
     "id": 45,
     "original_en": "Have you heard? Talk has it those ruins to the north\nare haunted. Seems there's been ghost sightings!",
     "original_fr": "Dites, vous avez entendu ? Selon la rumeur, un fantôme\nhante le ch{TAG:4A}teau en ruine !",
-    "translation": ""
+    "translation": "Слыхали новость? Поговаривают, в северных руинах\nзавелась нечисть. Видели настоящего призрака!"
   },
   {
     "id": 46,
     "original_en": "Oh, how dreadful!",
     "original_fr": "Ça me donne la chair de poule !",
-    "translation": ""
+    "translation": "Ой, какой ужас!"
   },
   {
     "id": 47,
     "original_en": "Spirits with lingering worldly attachments are drawn\nto those sorts of places.",
     "original_fr": "Les fantômes qui sont toujours attachés {TAG:3C} ce monde se\nrassemblent souvent dans ce genre d'endroit...",
-    "translation": ""
+    "translation": "Души, не нашедшие покоя в этом мире, всегда\nслетаются в подобные мрачные места."
   },
   {
     "id": 48,
     "original_en": "It does get a bit boring when the world is\ntoo peaceful, wouldn't you agree?",
     "original_fr": "La vie serait d'un ennui si le monde était toujours en\npaix. Ho, ho, ho, ho !",
-    "translation": ""
+    "translation": "Когда в мире слишком спокойно, становится даже\nскучновато, не находите?"
   },
   {
     "id": 49,
     "original_en": "The anguish of tormented spirits forms an almost\ntangible cloud around the ruins to the north.",
     "original_fr": "La haine des esprits tourmentés s'accumule depuis\n400 ans, imprégnant chaque pierre des ruines du\nch{TAG:4A}teau situé au nord du village...",
-    "translation": ""
+    "translation": "Муки неупокоенных духов окутали северные руины\nпочти осязаемой мглой скорби."
   },
   {
     "id": 50,
     "original_en": "Sir Cyrus, the patron of our town, rests in a\ngrave to the north.",
     "original_fr": "La tombe du grand Cyrus, le saint patron de notre\nvillage, se trouve au nord d'ici.",
-    "translation": ""
+    "translation": "Сэр Сайрус, покровитель нашего городка, покоится\nв могиле к северу отсюда."
   },
   {
     "id": 51,
     "original_en": "Toma's off in search of the Rainbow Shell, or\nso he said before he left.",
     "original_fr": "Toma est reparti en voyage. Il a dit qu'il cherchait le\ncoquillage arc-en-ciel, ou quelque chose du genre.",
-    "translation": ""
+    "translation": "Тома отправился на поиски Радужной раковины —\nпо крайней мере, так он сказал перед уходом."
   },
   {
     "id": 52,
     "original_en": "The grave of the great explorer Toma is on the\nwestern cape. Even he never managed to find the\ntreasure known as the Rainbow Shell.",
     "original_fr": "La tombe du grand explorateur Toma est située sur le\ncap ouest. On dit que le seul trésor qu'il n'a pas réussi\n{TAG:3C} trouver est le coquillage arc-en-ciel.",
-    "translation": ""
+    "translation": "Могила великого исследователя Томы находится на\nзападном мысе. Даже ему не удалось отыскать\nлегендарную Радужную раковину."
   },
   {
     "id": 53,
     "original_en": "10 G for the night.\nWill you be staying?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "10 золотых за ночь. Останетесь до утра? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 54,
     "original_en": "You don't seem to have enough money.",
     "original_fr": "Vous n'avez pas assez d'argent.",
-    "translation": ""
+    "translation": "Похоже, у вас не хватает монет."
   },
   {
     "id": 55,
     "original_en": "Welcome!",
     "original_fr": "Bienvenue !",
-    "translation": ""
+    "translation": "Добро пожаловать!"
   },
   {
     "id": 56,
     "original_en": "Not a single sale yet!\nAnd I came all the way from Porre.{WAIT_KEY}\nPlease, won't you buy something?",
     "original_fr": "Les affaires vont mal ! Moi qui étais venu exprès de\nPalpori...{WAIT_KEY}\nAchetez-moi quelque chose, je vous en supplie !",
-    "translation": ""
+    "translation": "Ни единого покупателя за весь день! А ведь я\nпроделал весь путь из Порре.{WAIT_KEY}\nПрошу, купите хоть что-нибудь!"
   },
   {
     "id": 57,
     "original_en": "All the young 'uns are off at that Millennial Fair.\nKids these days...they're just gluttons for fun.",
     "original_fr": "Les jeunes gens du village sont partis s'amuser {TAG:3C}\nla foire du millénaire de Gardia. Ah, la jeunesse\nd'aujourd'hui...",
-    "translation": ""
+    "translation": "Вся молодёжь уехала на Ярмарку тысячелетия.\nНынешнее племя только и знает, что веселиться."
   },
   {
     "id": 58,
     "original_en": "About ten years ago, a beast was seen dragging\nsomething into the northern ruins. There was\ntalk it may have been some sort of treasure,\nbut no one knows for sure.",
     "original_fr": "On raconte qu'un monstre a emporté quelque chose\ndans les ruines situées au nord du village il y a environ\n10 ans. La rumeur dit que ce pourrait être un trésor...",
-    "translation": ""
+    "translation": "Лет десять назад чудище волокло что-то в\nсеверные руины. Болтали, будто сокровище, но кто\nзнает наверняка."
   },
   {
     "id": 59,
     "original_en": "There's something eerie about those ruins to the north.",
     "original_fr": "Le ch{TAG:4A}teau en ruine... Il y a quelque chose de sinistre\nl{TAG:3C}-bas qui ne me dit rien qui vaille.",
-    "translation": ""
+    "translation": "Есть что-то жуткое в этих руинах на севере."
   },
   {
     "id": 60,
     "original_en": "Sir Cyrus, a knight of Guardia, rests in a\ngrave to the north.",
     "original_fr": "La tombe du héros est située au nord du village.\nC'est l{TAG:3C} qu'est enterré Cyrus, un chevalier du\nroyaume de Gardia.",
-    "translation": ""
+    "translation": "Сэр Сайрус, доблестный рыцарь Гардии, покоится в\nмогиле к северу отсюда."
   },
   {
     "id": 61,
     "original_en": "Sir Cyrus's grave is just north of town.\nYou ought to go and pay your respects sometime.",
     "original_fr": "La tombe de Cyrus est au nord du village. Vous devriez\nla visiter un de ces jours !",
-    "translation": ""
+    "translation": "Могила сэра Сайруса к северу от города. Вам стоит\nсходить и отдать ему почести."
   },
   {
     "id": 62,
     "original_en": "Have you heard?\nAbout the ghost, I mean.\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Dites donc, vous avez entendu parler de ce\nfantôme ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Слышали новость? Я про призрака. {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 63,
     "original_en": "Aw, I wanted to be the first to tell you!\nOh well.",
     "original_fr": "Mince, moi qui pensais vous apprendre quelque chose...",
-    "translation": ""
+    "translation": "Эх, а я так хотел рассказать первым! Ну и ладно."
   },
   {
     "id": 64,
     "original_en": "They say a ghostly knight haunts the northern ruins!{WAIT_KEY}\nScary, eh?\nSends chills down my spine just to think of it!",
     "original_fr": "On dit qu'un fantôme {TAG:3C} l'apparence d'un preux chevalier\nd'antan hante le ch{TAG:4A}teau en ruine !{WAIT_KEY}\nÇa fait froid dans le dos, hein ?",
-    "translation": ""
+    "translation": "Говорят, в руинах бродит призрак рыцаря!{WAIT_KEY}\nЖуть, правда? У меня мурашки по коже от одной\nмысли!"
   },
   {
     "id": 65,
     "original_en": "Have you heard the tale of Sir Cyrus and his\nloyal friend?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous connaissez l'histoire du meilleur ami de\nCyrus ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Слышали историю о сэре Сайрусе и его верном\nдруге? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 66,
     "original_en": "Well, they say Sir Cyrus's best friend was a man\nnamed Glenn.{WAIT_KEY}\nSir Cyrus, of course, was killed by {MAGUS}.\nBut this Glenn, he wasn't about to let that go\nunpunished. He took up a legendary blade and\nwent straight off to avenge his friend.{WAIT_KEY}\nAh—true friendship!",
     "original_fr": "On raconte que Cyrus avait un ami appelé Glenn !{WAIT_KEY}\nAprès que Cyrus a péri aux mains de {MAGUS},\nGlenn aurait combattu l'armée du Magistère,\nbrandissant l'épée légendaire.{WAIT_KEY}\nAh, quelle belle amitié ! J'en ai les larmes aux yeux !",
-    "translation": ""
+    "translation": "Говорят, лучшим другом Сайруса был воин по имени\nГленн.{WAIT_KEY}\nСайрус погиб от руки мага по имени {MAGUS}. Но Гленн\nне оставил гибель друга безнаказанной. Взяв\nлегендарный клинок, он пошёл мстить за него.{WAIT_KEY}\nВот это настоящая дружба!"
   },
   {
     "id": 67,
     "original_en": "Oh, Toma...\nWould that you'd stay here but a little longer!",
     "original_fr": "Toma... Si seulement il pouvait rester ici pour toujours...",
-    "translation": ""
+    "translation": "Ах, Тома... Если бы ты только остался здесь\nподольше!"
   },
   {
     "id": 68,
     "original_en": "Where must Toma's travels have taken him now?",
     "original_fr": "Ah...\nJe me demande où est Toma en ce moment...",
-    "translation": ""
+    "translation": "Куда же на сей раз завели Тому его странствия?"
   },
   {
     "id": 69,
     "original_en": "Bring me another mug!",
     "original_fr": "Hips ! Un autre verre, s'il vous pla¡t !",
-    "translation": ""
+    "translation": "Налейте ещё кружечку!"
   },
   {
     "id": 70,
     "original_en": "Barkeep: Sir, I think you've had quite enough already.",
     "original_fr": "Je crois que vous avez assez bu.",
-    "translation": ""
+    "translation": "Бармен: Сударь, по-моему, вам уже хватит."
   },
   {
     "id": 71,
     "original_en": "Who're you to tell me when I've had enough?\nYou're worse than the wife! What's wrong with a\ncarpenter having a few pints in the afternoon, eh?",
     "original_fr": "La ferme ! Un charpentier peut même plus boire\nquelques petits verres en paix, maintenant ?",
-    "translation": ""
+    "translation": "Кто ты такой, чтоб указывать мне? Хуже жены! Что\nплохого, если плотник выпьет пару кружек в разгар\nдня, а?"
   },
   {
     "id": 72,
     "original_en": "Ah! So smooth and light upon the tongue...\nI could drink this all day!",
     "original_fr": "Ah, cette saveur corsée et moelleuse qui flatte le\npalais... Hum ! Je ne m'en lasserai jamais !",
-    "translation": ""
+    "translation": "Ах! До чего мягкий вкус... Я готов пить этот эль\nсутками напролёт!"
   },
   {
     "id": 73,
     "original_en": "Hm? You want to borrow my tools?{WAIT_KEY}\nWell...sure, why not? Be my guest!\nI'm a little busy, as you can see, so you'll\nneed to go and get them from my wife.",
     "original_fr": "Hein ? Vous voulez emprunter mes outils ?\nJe veux bien, mais qu'allez-vous en faire ?{WAIT_KEY}\n... Bah, peu importe. Je vais prendre encore un petit\nverre, alors allez les chercher chez moi. Vous n'avez\nqu'{TAG:3C} demander {TAG:3C} ma femme.",
-    "translation": ""
+    "translation": "Хм? Хотите одолжить мои инструменты?{WAIT_KEY}\nНу... валяйте, забирайте! Я тут немного занят, как\nвидите, так что возьмите их у моей жены."
   },
   {
     "id": 74,
     "original_en": "Huh? When do I work if I'm in here doing this\nall day? That's none of your concern!",
     "original_fr": "Hein ? Si je suis toujours {TAG:3C} la taverne, quand\nest-ce que j'ai le temps d'être charpentier ?\nÇa ne vous regarde pas !",
-    "translation": ""
+    "translation": "Чего? Когда я работаю, если пью тут весь день?\nЭто вас не касается!"
   },
   {
     "id": 75,
     "original_en": "When I grow up, I'll be a carpenter just like my dad!",
     "original_fr": "Quand je serai grand, je veux devenir charpentier,\ncomme papa !",
-    "translation": ""
+    "translation": "Когда я вырасту, стану плотником, как папа!"
   },
   {
     "id": 76,
     "original_en": "All my husband does is sit at that tavern all day,\nnursing drinks. Well, just wait till he comes home!\nHe'll be nursing a sore jaw then!",
     "original_fr": "Mon mari n'est qu'un ivrogne ! Il passe sa vie {TAG:3C} la\ntaverne ! Je vais lui dire ma façon de penser quand\nil va rentrer !",
-    "translation": ""
+    "translation": "Мой муженёк только и делает, что сидит в кабаке\nда хлещет выпивку. Ну погоди, заявится домой — я\nему устрою сладкую жизнь!"
   },
   {
     "id": 77,
     "original_en": "What? His tools?\nOh, hold on, they're right here.",
     "original_fr": "Hein ? Ses outils ? Si vous voulez, pour ce qu'il en fait,\nde toute façon. Une minute...",
-    "translation": ""
+    "translation": "Что? Его инструменты? Ой, подождите, они прямо\nздесь."
   },
   {
     "id": 78,
     "original_en": "Careful with those tools!",
     "original_fr": "Prenez-en soin.",
-    "translation": ""
+    "translation": "Поосторожнее с инструментами!"
   },
   {
     "id": 79,
     "original_en": "Robbed of my carpentry tools...\nHow am I to work without my tools?",
     "original_fr": "On a volé mes outils... Je ne peux pas travailler sans\neux.",
-    "translation": ""
+    "translation": "Обокрали! Где мои инструменты?.. Как мне теперь\nработать без них?"
   },
   {
     "id": 80,
     "original_en": "Are those...are those carpentry tools you're carrying?{WAIT_KEY}\nMight you be willing to lend them to me for a while?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Oh, vous avez des outils !{WAIT_KEY}\nVous ne pourriez pas me les donner, dites ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Неужто это инструменты у вас в руках?{WAIT_KEY}\nНе одолжите ли вы их мне ненадолго? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 81,
     "original_en": "My thanks, friend.\nNow I can finally get to work again!",
     "original_fr": "Ah, merci bien ! Avec eux, je vais pouvoir me mettre au\ntravail !",
-    "translation": ""
+    "translation": "Премного благодарен, друг. Теперь я наконец смогу\nвернуться к работе!"
   },
   {
     "id": 82,
     "original_en": "*sigh*\nOh, well...",
     "original_fr": "Dommage...",
-    "translation": ""
+    "translation": "*вздох* Ну что ж..."
   },
   {
     "id": 83,
     "original_en": "You've my thanks for lending me these tools.\n'Twas most gracious of you. Now I can finally\nget back to work!{WAIT_KEY}\nAll right! What say we start with the ruins up north?",
     "original_fr": "Merci encore de m'avoir donné ces outils. Je vais\npouvoir me mettre au travail !{WAIT_KEY}\nBon ! Je crois que je vais commencer par rénover le\nch{TAG:4A}teau en ruine !",
-    "translation": ""
+    "translation": "Спасибо, что одолжили инструменты! Вы меня\nпросто спасли. Теперь за работу!{WAIT_KEY}\nЧто ж! Начнём с починки руин на севере!"
   },
   {
     "id": 84,
     "original_en": "On your feet, you lazy do-naughts!{WAIT_KEY}\nWhatever you say, Master!",
     "original_fr": "Allez, les garçons ! Dépêchez-vous !{WAIT_KEY}\nOui, patron !",
-    "translation": ""
+    "translation": "Подъём, бездельники! За работу!{WAIT_KEY}\nСлушаемся, мастер!"
   },
   {
     "id": 85,
     "original_en": "You want the northern ruins repaired?\n2000 G ought to cover the cost.\n{TAG:38}{TAG:38}{GLYPH:394}Pay.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Don't pay.{GLYPH:397}",
     "original_fr": "Vous voulez faire rénover le ch{TAG:4A}teau en ruine ?\nCela vous co{TAG:63}tera 2000 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Хотите починить северные руины? 2000 золотых\nпокроют расходы. {TAG:38}{TAG:38}{GLYPH:394}Заплатить.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Не платить.{GLYPH:397}"
   },
   {
     "id": 86,
     "original_en": "Beg pardons, friend. Labor and lumber don't\ncome for free.",
     "original_fr": "Si vous n'avez pas l'argent, nous ne pouvons pas\ntravailler.",
-    "translation": ""
+    "translation": "Прошу прощения, друг. Но лес и рабочие руки стоят\nденег."
   },
   {
     "id": 87,
     "original_en": "We can't repair monster-infested places.\nLet us know when you've cleared a floor of beasties.\nWe'll handle the rest.",
     "original_fr": "Nous ne pouvons pas réparer les endroits où il y a des\nmonstres.{WAIT_KEY}\nRevenez me voir quand vous les aurez tous éliminés,\nnous continuerons les rénovations.",
-    "translation": ""
+    "translation": "Мы не можем работать там, где кишат монстры.\nКак перебьёте тварей на этаже — дайте знать. Мы\nпочиним остальное."
   },
   {
     "id": 88,
     "original_en": "There's nowhere left that we can repair.",
     "original_fr": "Nous avons terminé les rénovations.",
-    "translation": ""
+    "translation": "Здесь больше нечего чинить."
   },
   {
     "id": 89,
     "original_en": "We've done all we can.",
     "original_fr": "Nous avons rénové tout ce que nous avons pu.",
-    "translation": ""
+    "translation": "Мы сделали всё, что было в наших силах."
   },
   {
     "id": 90,
     "original_en": "We're only carpenter's apprentices.",
     "original_fr": "Nous sommes des apprentis charpentiers.",
-    "translation": ""
+    "translation": "Мы всего лишь подмастерья плотника."
   },
   {
     "id": 91,
     "original_en": "Our master's at the tavern.",
     "original_fr": "Notre patron est collé au comptoir de la taverne.",
-    "translation": ""
+    "translation": "Наш мастер сейчас в таверне."
   },
   {
     "id": 92,
     "original_en": "Toma: Ah, well met, {GLYPH:386}!\nI've finally stumbled upon a hint as to the\nwhereabouts of the Rainbow Shell.{WAIT_KEY}\nStill, I can't shake the feeling that things will go sour\nthis time. I fear my luck may have finally run out.\nSay, would you mind holding on to this for me?",
     "original_fr": "Toma : Bonjour, {GLYPH:386}. Je viens enfin de recevoir\nun tuyau au sujet de l'emplacement du coquillage\narc-en-ciel.{WAIT_KEY}\nNéanmoins, cette fois, j'ai un mauvais pressentiment.\nTenez, je vous confie ceci.",
-    "translation": ""
+    "translation": "Тома: Здравствуй, {GLYPH:386}! Я наконец напал на след\nРадужной раковины.{WAIT_KEY}\nНо меня не покидает дурное предчувствие. Вдруг\nудача изменила мне? Сбереги это для меня."
   },
   {
     "id": 93,
     "original_en": "Toma: Should the worst befall me, it would mean\na lot to me if you'd pour that over my headstone.{WAIT_KEY}\nA touch morbid, I know, but...I beg you.",
     "original_fr": "Toma : Si je ne rentre pas vivant, versez-le sur ma\ntombe.{WAIT_KEY}\n...\nHum, je pourrais me porter malheur, si je continue !",
-    "translation": ""
+    "translation": "Тома: Если со мной случится худшее, вылей это на\nмою могилу.{WAIT_KEY}\nЗвучит мрачновато, знаю... но я прошу тебя."
   },
   {
     "id": 94,
     "original_en": "{GLYPH:384}Here Lies the Great Explorer\nToma Levine\nSixth of Thirdmoon, 634",
     "original_fr": "{GLYPH:384}Ci-g¡t Toma Levine,\nle grand explorateur.\n6 / 3 / 634",
-    "translation": ""
+    "translation": "{GLYPH:384}Здесь покоится великий исследователь Тома\nЛевин Шестой день Третьей луны, 634 год"
   },
   {
     "id": 95,
     "original_en": "Toma: {GLYPH:386}! It's been many a day.{WAIT_KEY}\nI located the Rainbow Shell, as it were.",
     "original_fr": "Toma : Ça fait un bail, {GLYPH:386} !{WAIT_KEY}\nJ'ai finalement trouvé le coquillage arc-en-ciel.",
-    "translation": ""
+    "translation": "Тома: {GLYPH:386}! Сколько лет прошло!{WAIT_KEY}\nЯ всё-таки отыскал Радужную раковину."
   },
   {
     "id": 96,
     "original_en": "Toma: To the northwest of this cape is a large\nisland called the Giant's Claw. The Shell is there.",
     "original_fr": "Toma : Au nord-ouest de ce cap se trouve une ¡le\nsurnommée la griffe du géant. C'est sur cette ¡le\nque se trouve le coquillage arc-en-ciel.",
-    "translation": ""
+    "translation": "Тома: На северо-западе от мыса лежит остров —\nКлешня гиганта. Раковина там."
   },
   {
     "id": 97,
     "original_en": "Toma: But beware! There are droves of monsters\nafoot there.",
     "original_fr": "Toma : Toutefois, soyez prudents ! L'¡le fourmille de\nmonstres.",
-    "translation": ""
+    "translation": "Тома: Но берегитесь! Там кишат полчища чудовищ."
   },
   {
     "id": 98,
     "original_en": "Toma: Well, then, I believe this is farewell.",
     "original_fr": "Toma : Il est temps pour moi de partir.",
-    "translation": ""
+    "translation": "Тома: Ну что ж, полагаю, пришло время прощаться."
   },
   {
     "id": 99,
     "original_en": "Toma: Ah... There truly is no drink so fine as\none shared in the company of friends like you.{WAIT_KEY}\nAll the best to you!",
     "original_fr": "Toma : C'était vraiment super de prendre un dernier\nverre avec vous !{WAIT_KEY}\nAdieu...",
-    "translation": ""
+    "translation": "Тома: Ах... Нет на свете напитка слаще того, что\nразделяешь с верными друзьями.{WAIT_KEY}\nВсего вам самого доброго!"
   },
   {
     "id": 100,
     "original_en": "Toma: So, {GLYPH:386}, you beat me to the\nRainbow Shell?{WAIT_KEY}\nNo, I'm not upset. It's for the best, really.\nNo doubt I would only have ended up in the belly\nof that beast.{WAIT_KEY}\nAll right. I suppose it's time I began searching\nfor the fabled Sun Stone, then!",
     "original_fr": "Toma : Bonjour, {GLYPH:386} ! J'ai entendu dire que vous\naviez trouvé le coquillage arc-en-ciel ! Zut ! Vous m'avez\ndevancé !{WAIT_KEY}\nCe n'est pas grave. De toute façon, je n'aurais pas été\nde taille contre un dinosaure !{WAIT_KEY}\nProchain défi : trouver la légendaire pierre du soleil !",
-    "translation": ""
+    "translation": "Тома: Выходит, {GLYPH:386}, ты опередил меня с Радужной\nраковиной?{WAIT_KEY}\nЯ не в обиде, так даже лучше. Иначе я точно\nоказался бы в брюхе того чудища.{WAIT_KEY}\nЧто ж! Пожалуй, пора взяться за поиски\nлегендарного Солнечного камня!"
   },
   {
     "id": 101,
     "original_en": "Toma XIII: Do you know of the legendary Sun Stone?{WAIT_KEY}\nI discovered an ancient scroll that spoke of a\nfearsome weapon that could be made by combining\na shard of the Stone with one of the Rainbow\nShell that the original Toma once sought.",
     "original_fr": "Toma XIII : Avez-vous entendu parler de la légendaire\npierre du soleil ?{WAIT_KEY}\nOn raconte qu'on pourrait fabriquer des armes\nsurpuissantes en la combinant au coquillage\narc-en-ciel.{WAIT_KEY}\nJe l'ai découvert en lisant des manuscrits anciens.",
-    "translation": ""
+    "translation": "Тома XIII: Слыхали о Солнечном камне?{WAIT_KEY}\nВ древнем свитке сказано, что из его осколка и\nРадужной раковины, что искал предок Тома, можно\nвыковать грозное оружие."
   },
   {
     "id": 102,
     "original_en": "Fiona: My husband Marco hasn't returned from the war.{WAIT_KEY}\nBut we planted and tended these woods together,\nso I mean to do my best to protect them until the\nday he returns.",
     "original_fr": "Fiona : Mon mari, Marco, n'est toujours pas rentré de la\nguerre...{WAIT_KEY}\nC'est dans cette forêt que nous avons grandi, alors je\nveux au moins la protéger jusqu'{TAG:3C} ce qu'il revienne.",
-    "translation": ""
+    "translation": "Фиона: Мой муж Марко не вернулся с войны...{WAIT_KEY}\nМы вместе сажали этот лес, и я сберегу его, пока\nон не вернётся домой."
   },
   {
     "id": 103,
     "original_en": "Fiona: Much of this forest was destroyed in the\nwar against {MAGUS}. I toil endlessly to restore\nit by replanting trees, but they all of them wither\nand die.",
     "original_fr": "Fiona : Une grande partie de la forêt a été rasée au\ncours de la guerre contre le Magistère.{WAIT_KEY}\nJe replante des arbres pour entretenir la forêt, mais ils\nmeurent tous immédiatement...",
-    "translation": ""
+    "translation": "Фиона: Лес сгорел в войне против мага {MAGUS}. Я без\nустали сажаю молодые деревья, но все они вянут и\nгибнут."
   },
   {
     "id": 104,
     "original_en": "Fiona: Anything I plant dies before it even has a\nchance to grow. It's the work of monsters lurking\nout in that desert somewhere.",
     "original_fr": "Fiona : Quoi que je plante, tout meurt aussitôt...\nC'est l'{TAG:61}uvre des monstres qui se sont installés\nquelque part dans le désert.",
-    "translation": ""
+    "translation": "Фиона: Всё, что я сажаю, вянет на корню. Это всё\nпроделки чудовищ, засевших в пустыне."
   },
   {
     "id": 105,
     "original_en": "Fiona: This young tree is one that has been cultivated\nthroughout the ages, mysteriously resilient, that could\nsurely restore this desert to a verdant land.{WAIT_KEY}\nBut I daren't plant so small a sapling out there now.\nNot with all the monsters nesting in that cave.",
     "original_fr": "Fiona : Si je plantais ce jeune arbre aux pouvoirs\nmystérieux qui s'est transmis de génération en\ngénération, je pourrais transformer ce désert en\nforêt verdoyante, mais...{WAIT_KEY}\nJe ne voudrais pas qu'il meure lui aussi {TAG:3C} cause\ndes monstres qui ont fait leur nid dans le désert\nsouterrain...",
-    "translation": ""
+    "translation": "Фиона: Этот саженец веками хранили в нашем роду,\nв нём скрыта сила, способная возродить лес.{WAIT_KEY}\nНо я не смею сажать его в песок, пока в пещере\nгнездятся чудовища."
   },
   {
     "id": 106,
     "original_en": "Fiona: My husband Marco is finally home from the war!{WAIT_KEY}\nOh, I'm so relieved!",
     "original_fr": "Fiona : Mon mari, Marco, est rentré de la guerre contre\nl'armée du Magistère !{WAIT_KEY}\nJe...",
-    "translation": ""
+    "translation": "Фиона: Мой муж Марко вернулся с войны!{WAIT_KEY}\nКакое же это счастье!"
   },
   {
     "id": 107,
     "original_en": "Marco: Worry not, my love.\nWe won't be parted again.",
     "original_fr": "Marco : Ne t'inquiète pas. Â partir de maintenant, je\nserai toujours avec toi.",
-    "translation": ""
+    "translation": "Марко: Не тревожься, любимая. Мы больше никогда\nне расстанемся."
   },
   {
     "id": 108,
     "original_en": "Marco: The monsters in the desert cave fear water.\nThey seem vulnerable to it. But the greatest of\nthem—water or no, I could not hope to slay that\nbeast on my own.",
     "original_fr": "Marco : Il semble que les monstres du désert craignent\nl'eau. Néanmoins, je n'ai pas les moyens de les vaincre...",
-    "translation": ""
+    "translation": "Марко: Твари в пустынной пещере боятся воды. Но\nсправиться с их вожаком — даже с водой — в\nодиночку мне не под силу."
   },
   {
     "id": 109,
     "original_en": "Marco: You vanquished all the monsters?\nHowever can we thank you?",
     "original_fr": "Marco : Vous avez vaincu les monstres ? Je ne sais\ncomment vous remercier !",
-    "translation": ""
+    "translation": "Марко: Вы одолели всех монстров? Как же нам\nотблагодарить вас?"
   },
   {
     "id": 110,
     "original_en": "Marco: The monsters are defeated.\nBut our long battle to revive the\nforest has only just begun.",
     "original_fr": "Marco : Les monstres ont été éliminés, mais nous\ndevrons désormais nous battre pour que ce désert\nredevienne la forêt qu'il était auparavant.",
-    "translation": ""
+    "translation": "Марко: Чудовища повержены. Но наша долгая битва\nза возрождение леса только начинается."
   },
   {
     "id": 111,
     "original_en": "Fiona: Thank you for dealing with those foul creatures.\nNow I can set to work replanting again.{WAIT_KEY}\nAlas, I fear it will take ages to plant enough trees to\nreforest this land.{WAIT_KEY}\nAh, if only there were someone who could toil for\ncenturies on end! Then these wastes could truly\nbe made green again.",
     "original_fr": "Fiona : Je vous remercie d'avoir vaincu les monstres\npour nous. Je vais recommencer {TAG:3C} planter la forêt.{WAIT_KEY}\nToutefois, il faudra un temps incalculable pour\ntransformer le désert en forêt...{WAIT_KEY}\nSi seulement il y avait quelqu'un capable de travailler\nsans répit pendant des siècles, nous pourrions réussir...",
-    "translation": ""
+    "translation": "Фиона: Спасибо, что одолели этих тварей. Теперь я\nснова могу сажать деревья.{WAIT_KEY}\nУвы, пройдут века, прежде чем край оживёт...{WAIT_KEY}\nАх, если б нашёлся тот, кто мог бы трудиться\nвеками напролёт! Тогда бы лес вновь зазеленел."
   },
   {
     "id": 112,
     "original_en": "{ROBO}: What do you think?{WAIT_KEY}\nI could remain here and assist Madam Fiona, and\nyou could come to retrieve me here once my work\nwas complete.{WAIT_KEY}\nIs that all right?\nMay I stay behind and help?\n{TAG:38}{TAG:38}{GLYPH:394}All right.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "{ROBO} : ...{WAIT_KEY}\nJe pourrais rester ici pour aider Fiona. Vous n'aurez\nqu'{TAG:3C} venir me récupérer lorsque le désert sera\nredevenu une forêt.{WAIT_KEY}\nQu'en dites-vous ? Puis-je demeurer ici pour lui prêter\nmain-forte ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "{ROBO}: Как вы на это смотрите?{WAIT_KEY}\nЯ мог бы остаться здесь и помогать госпоже Фионе,\nа вы вернётесь за мной, когда работа завершится.{WAIT_KEY}\nВы позволите мне остаться и помочь? {TAG:38}{TAG:38}{GLYPH:394}Да,\nоставайся.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 113,
     "original_en": "Fiona: With {ROBO}'s help, my dream may well\ncome true. How can I ever thank you?",
     "original_fr": "Fiona : Gr{TAG:4A}ce {TAG:3C} {ROBO}, on dirait que je vais pouvoir\nréaliser mon rêve de replanter la forêt. Je ne sais\ncomment vous remercier.",
-    "translation": ""
+    "translation": "Фиона: С помощью героя по имени {ROBO} моя мечта\nсбудется! Чем я смогу отплатить вам?"
   },
   {
     "id": 114,
     "original_en": "This is Fiona's Shrine. Here we give thanks to Fiona\nand {ROBO} for reviving the forest scorched in the\nwar against {MAGUS} four hundred years ago.",
     "original_fr": "Bienvenue au sanctuaire de Fiona.{WAIT_KEY}\nIl est dédié {TAG:3C} Fiona et {TAG:3C} {ROBO}, gr{TAG:4A}ce {TAG:3C} qui la\nforêt qui était devenue un désert pendant la guerre\ncontre {MAGUS}, il y a 400 ans, a été replantée.",
-    "translation": ""
+    "translation": "Это Святилище Фионы. Мы славим здесь Фиону и\n{ROBO} за возрождение леса, сожжённого 400 лет\nназад на войне против {MAGUS}."
   },
   {
     "id": 115,
     "original_en": "The remains of the venerable {ROBO} are\nenshrined in the inner sanctum.",
     "original_fr": "Le corps immortel de {ROBO} est exposé au fond du\nsanctuaire.",
-    "translation": ""
+    "translation": "В священных покоях покоятся останки\nмногоуважаемого героя по имени {ROBO}."
   },
   {
     "id": 116,
     "original_en": "{ROBO}: Systems reactivated.\nWh-where am I?",
     "original_fr": "{ROBO} : Où suis-je...?",
-    "translation": ""
+    "translation": "{ROBO}: Системы перезапущены. Г-где я?"
   },
   {
     "id": 117,
     "original_en": "{ROBO}: Oh...{WAIT_KEY}\n{GLYPH:386}, how nice to finally see you again!\nOnly a few moments may have passed for you,\nbut I have been waiting for four hundred years.{WAIT_KEY}\nHowever, my efforts were worthwhile.\nThe forest is restored.{WAIT_KEY}\nNow, shall we celebrate our four hundred-year\nreunion?",
     "original_fr": "{ROBO} : Oh...{WAIT_KEY}\nOh...{WAIT_KEY}\n{GLYPH:386}...\nC'est bon de te revoir après si longtemps...{WAIT_KEY}\nAh... Pour vous, il ne s'est écoulé que quelques minutes,\nn'est-ce pas ?{WAIT_KEY}\nPour moi ce fut 400 longues années...\nNéanmoins, l'effort en valait la peine et\nla forêt est aussi verdoyante qu'avant.{WAIT_KEY}\nQue diriez-vous de célébrer nos retrouvailles après\nquatre siècles ce soir ?",
-    "translation": ""
+    "translation": "{ROBO}: О-о...{WAIT_KEY}\n{GLYPH:386}, как я рад снова видеть вас! Для вас прошло\nлишь мгновение, но я ждал четыре долгих века.{WAIT_KEY}\nОднако труды мои не пропали даром. Лес\nполностью возрождён.{WAIT_KEY}\nОтпразднуем же наше воссоединение спустя\nчетыреста лет!"
   },
   {
     "id": 118,
     "original_en": "{MARLE}: What was that?",
     "original_fr": "{MARLE} : Qu'est-ce que c'était ?",
-    "translation": ""
+    "translation": "{MARLE}: Что это было?"
   },
   {
     "id": 119,
     "original_en": "{LUCCA}: A tremor?",
     "original_fr": "{LUCCA} : Un grondement ?",
-    "translation": ""
+    "translation": "{LUCCA}: Подземный толчок?"
   },
   {
     "id": 120,
     "original_en": "{ROBO}: A sudden earthquake, perhaps?",
     "original_fr": "{ROBO} : Est-ce un tremblement de terre ?",
-    "translation": ""
+    "translation": "{ROBO}: Внезапное землетрясение?"
   },
   {
     "id": 121,
     "original_en": "{FROG}: Why does the ground tremble?",
     "original_fr": "{FROG} : Qu'est-ce que c'est ?",
-    "translation": ""
+    "translation": "{FROG}: Отчего дрожит земля?"
   },
   {
     "id": 122,
     "original_en": "{AYLA}: Ground shake!",
     "original_fr": "{AYLA} : Sol trembler !",
-    "translation": ""
+    "translation": "{AYLA}: Земля трястись!"
   },
   {
     "id": 123,
     "original_en": "{MAGUS}: ...?",
     "original_fr": "{MAGUS} : ...?",
-    "translation": ""
+    "translation": "{MAGUS}: ...?"
   },
   {
     "id": 124,
     "original_en": "{MARLE}: So that's the monster that killed all\nthe trees!",
     "original_fr": "{MARLE} : C'est donc {TAG:3C} cause de ce monstre que les\narbres meurent si rapidement !",
-    "translation": ""
+    "translation": "{MARLE}: Так вот из-за кого погибали деревья!"
   },
   {
     "id": 125,
     "original_en": "{LUCCA}: That must be the monster responsible\nfor turning this place into a desert.",
     "original_fr": "{LUCCA} : On dirait que ce monstre est {TAG:3C} l'origine de\nla désertification.",
-    "translation": ""
+    "translation": "{LUCCA}: Должно быть, именно этот монстр\nпревратил всю округу в пустыню."
   },
   {
     "id": 126,
     "original_en": "{ROBO}: The desertification here is likely\nthe result of that monster's presence.",
     "original_fr": "{ROBO} : Ce monstre est donc la cause de l'avancée\nde la désertification...",
-    "translation": ""
+    "translation": "{ROBO}: Появление пустыни, судя по всему — прямое\nследствие присутствия этого существа."
   },
   {
     "id": 127,
     "original_en": "{FROG}: So, that fell beast is what changed soil to\nsand!",
     "original_fr": "{FROG} : Ce monstre a transformé la forêt en\ndésert !",
-    "translation": ""
+    "translation": "{FROG}: Значит, эта тварь обратила землю в пепел!"
   },
   {
     "id": 128,
     "original_en": "{AYLA}: He make forest die!",
     "original_fr": "{AYLA} : Monstre changer forêt en désert !",
-    "translation": ""
+    "translation": "{AYLA}: Он убивать лес!"
   },
   {
     "id": 129,
     "original_en": "{MAGUS}: Melphyx...\nSo he's the one draining the life from this land.",
     "original_fr": "{MAGUS} : Melfiq...\nIl est donc la cause de la désertification...",
-    "translation": ""
+    "translation": "{MAGUS}: Мелфикс... Так это он высасывал жизненные\nсоки из этой земли."
   },
   {
     "id": 130,
     "original_en": "{MARLE}: But if it can move through the earth,\nit could come up...anywhere!",
     "original_fr": "{MARLE} : Mais il se déplace sous le sol...\nOn ne peut pas deviner où on le rencontrera !",
-    "translation": ""
+    "translation": "{MARLE}: Но если он движется под песком, он может\nнапасть откуда угодно!"
   },
   {
     "id": 131,
     "original_en": "{LUCCA}: It will be hard defeating a monster that\ntravels underground.",
     "original_fr": "{LUCCA} : Il sera difficile de le combattre s'il se\ndéplace sous le sol.",
-    "translation": ""
+    "translation": "{LUCCA}: Одолеть монстра, ползающего под землёй,\nбудет не так-то просто."
   },
   {
     "id": 132,
     "original_en": "{ROBO}: But, engaging monsters capable of moving\nthrough the earth is against all logical protocols!",
     "original_fr": "{ROBO} : Il peut aller et venir sous le sol, ce qui ne\nnous facilitera pas la t{TAG:4A}che.",
-    "translation": ""
+    "translation": "{ROBO}: Вступать в бой с противником под землёй\nпротиворечит стандартным боевым протоколам!"
   },
   {
     "id": 133,
     "original_en": "{FROG}: We must fight a foe that moves beneath\nthe earth? This will be no easy task!",
     "original_fr": "{FROG} : Il sera difficile de se battre contre une\ncréature qui se déplace sous le sol.",
-    "translation": ""
+    "translation": "{FROG}: Биться с тварью, что ползает под землёй?\nЗадача не из лёгких!"
   },
   {
     "id": 134,
     "original_en": "{AYLA}: Bone, move under sand!\nHard see!",
     "original_fr": "{AYLA} : Os se déplacer sous terre !\nDifficiles {TAG:3C} trouver !",
-    "translation": ""
+    "translation": "{AYLA}: Кости ползти под песком! Трудно видеть!"
   },
   {
     "id": 135,
     "original_en": "{MAGUS}: Plaguesome creature...",
     "original_fr": "{MAGUS} : ...\nCe tas d'os est une vraie plaie...",
-    "translation": ""
+    "translation": "{MAGUS}: Назойливая тварь..."
   },
   {
     "id": 136,
     "original_en": "{MARLE}: That should put a stop to the trees dying!\nFiona will be happy.",
     "original_fr": "{MARLE} : Désormais, les arbres ne mourront plus.\nFiona va être contente !",
-    "translation": ""
+    "translation": "{MARLE}: Теперь деревья перестанут гибнуть! Фиона\nбудет так рада."
   },
   {
     "id": 137,
     "original_en": "{LUCCA}: Well, we've cleared out the source of\nthe desert's spread. We should go tell Fiona.",
     "original_fr": "{LUCCA} : Nous avons éliminé la cause de la\ndésertification. Nous devrions aller avertir Fiona.",
-    "translation": ""
+    "translation": "{LUCCA}: Что ж, мы устранили причину засухи. Нужно\nобрадовать Фиону."
   },
   {
     "id": 138,
     "original_en": "{ROBO}: We have neutralized the source of the\ndesertification. We should inform Madam Fiona.",
     "original_fr": "{ROBO} : Nous devrions avoir arrêté la\ndésertification. Allons le dire {TAG:3C} Fiona.",
-    "translation": ""
+    "translation": "{ROBO}: Источник опустынивания нейтрализован.\nСледует известить госпожу Фиону."
   },
   {
     "id": 139,
     "original_en": "{FROG}: It is done. Let us tell Fiona.",
     "original_fr": "{FROG} : Tout devrait rentrer dans l'ordre.\nAllons informer Fiona.",
-    "translation": ""
+    "translation": "{FROG}: Дело сделано. Пойдём обрадуем Фиону."
   },
   {
     "id": 140,
     "original_en": "{AYLA}: Bad bone smash.\nFiona, happy!",
     "original_fr": "{AYLA} : Os être morts. Os plus détruire forêt.\nFiona être contente !",
-    "translation": ""
+    "translation": "{AYLA}: Злые кости разбиты. Фиона рада!"
   },
   {
     "id": 141,
     "original_en": "{MAGUS}: Hmph.",
     "original_fr": "{MAGUS} : Tsst !",
-    "translation": ""
+    "translation": "{MAGUS}: Хмф."
   },
   {
     "id": 142,
     "original_en": "My hats are woven from twigs rich with the\nmystical energies of the forest.",
     "original_fr": "Voici des chapeaux tressés {TAG:3C} partir de brindilles\nd'arbres aux pouvoirs mystérieux.",
-    "translation": ""
+    "translation": "Мои шляпы сплетены из веток, наполненных тайной\nсилой леса."
   },
   {
     "id": 143,
     "original_en": "We are made immortal!\nWe shall live forever with Lavos, who\nfeasts upon this planet from within.",
     "original_fr": "Je suis désormais immortelle ! Je vivrai pour l'éternité\naux côtés de Lavos, le dieu qui ronge lentement la\nplanète en son sein !",
-    "translation": ""
+    "translation": "Мы обрели бессмертие! Мы будем вечно жить рядом\nс Лавосом, пирующим соками этой планеты."
   },
   {
     "id": 144,
     "original_en": "Now he rests, and gathers strength. But in a mere\n14,000 years, he will emerge to rain destruction\nupon the earth and crown himself its King!",
     "original_fr": "Après avoir accumulé son énergie pendant encore\n140 siècles, il détruira la planète et régnera sur le\nmonde entier !",
-    "translation": ""
+    "translation": "Сейчас он дремлет, копя силы. Но пройдёт всего 14\n000 лет, и он восстанет, обрушив гибель на мир, и\nвоцарится над ним владыкой!"
   },
   {
     "id": 145,
     "original_en": "Now he rests, and gathers strength. But in a mere\n1400 years, he will emerge to rain destruction upon\nthe earth and crown himself its King!",
     "original_fr": "Après avoir accumulé son énergie pendant encore\n1400 ans, il détruira la planète et régnera sur le\nmonde entier !",
-    "translation": ""
+    "translation": "Сейчас он дремлет, копя силы. Но пройдёт всего\n1400 лет, и он восстанет, обрушив гибель на мир, и\nвоцарится над ним владыкой!"
   },
   {
     "id": 146,
     "original_en": "Now he rests, and gathers strength. But in a mere\n999 years, he will emerge to rain destruction upon\nthe earth and crown himself its King!",
     "original_fr": "Après avoir accumulé son énergie pendant encore\n999 ans, il détruira la planète et régnera sur le\nmonde entier !",
-    "translation": ""
+    "translation": "Сейчас он дремлет, копя силы. Но пройдёт всего 999\nлет, и он восстанет, обрушив гибель на мир, и\nвоцарится над ним владыкой!"
   },
   {
     "id": 147,
     "original_en": "Queen: Behold! The almighty Lavos reigns!",
     "original_fr": "Admirez cette planète où règne le grand Lavos !",
-    "translation": ""
+    "translation": "Королева: Узрите! Всемогущий Лавос правит миром!"
   },
   {
     "id": 148,
     "original_en": "The Black Omen is the path which leads to Lavos.\nIt is the conduit through which our limitless\npower flows.{WAIT_KEY}\nAs long as the almighty Lavos reigns, your\ndreams are all for naught!",
     "original_fr": "Le Songe obscur est une voie qui me relie au grand\nLavos. C'est un sanctuaire qui m'octroie un pouvoir\nillimité.{WAIT_KEY}\nTant que le grand Lavos règne, vos rêves d'avenir\nn'aboutiront {TAG:3C} rien !",
-    "translation": ""
+    "translation": "Чёрное Знамение — тропа, ведущая к Лавосу. Это\nврата, через которые течёт наша мощь.{WAIT_KEY}\nПока правит всемогущий Лавос, вашим жалким\nмечтам не суждено сбыться!"
   },
   {
     "id": 149,
     "original_en": "Sacrifice yourself to Lavos, and fulfill the\nonly purpose left to you! Mwa ha ha ha!",
     "original_fr": "Je vais vous offrir en sacrifice au grand Lavos !\nHo, ho, ho, ho, ho !",
-    "translation": ""
+    "translation": "Принесите себя в жертву Лавосу — исполните\nединственное предначертание в вашей жизни!\nХа-ха-ха-ха!"
   },
   {
     "id": 150,
     "original_en": "Queen: Fools!\nHave you not learned your lesson?",
     "original_fr": "Imbéciles ! Vous osez encore vous opposer {TAG:3C} moi ?",
-    "translation": ""
+    "translation": "Королева: Глупцы! Жизнь вас ничему не учит?"
   },
   {
     "id": 151,
     "original_en": "Return to the {EPOCH}?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous retourner sur le {EPOCH} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Вернуться на борт {EPOCH}? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 152,
     "original_en": "Queen: You maggots...{WAIT_KEY}\nI am the Queen who shall rule for all eternity at\nLavos's side. You will not stand in my way!",
     "original_fr": "Espèces de vers insignifiants...{WAIT_KEY}\nJe suis la reine qui régnera éternellement sur ce monde\naux côtés du grand Lavos. Vous oseriez vous opposer\n{TAG:3C} moi ?",
-    "translation": ""
+    "translation": "Королева: Жалкие черви...{WAIT_KEY}\nЯ — Королева, и буду править вечно подле Лавоса!\nВам не встать на моём пути!"
   },
   {
     "id": 153,
     "original_en": "{MAGUS}: You are deceived.\nA pitiable plight...\nOne deserving of mercy, at least.",
     "original_fr": "{MAGUS} : Zhyle...\nUne triste femme, captivée par Lavos.{WAIT_KEY}\nPitoyable...",
-    "translation": ""
+    "translation": "{MAGUS}: Ты ослеплена. Жалкая участь...\nЗаслуживающая хотя бы милосердной смерти."
   },
   {
     "id": 154,
     "original_en": "{MAGUS}: I will put an end to all of this!",
     "original_fr": "{MAGUS} : Je vais moi-même mettre fin {TAG:3C} tout ça !",
-    "translation": ""
+    "translation": "{MAGUS}: Я положу конец этому безумию!"
   },
   {
     "id": 155,
     "original_en": "Indulge in such arrogance in the next life!",
     "original_fr": "Repens-toi de ton orgueil dans l'au-del{TAG:3C} !",
-    "translation": ""
+    "translation": "Упивайтесь гордыней в загробном мире!"
   },
   {
     "id": 156,
     "original_en": "Queen: Mwa ha ha...{WAIT_KEY}\nAt last, Lavos stirs!{WAIT_KEY}\nBefore him, you are as grist before the wheel.\nBut, I—I shall attain immortality!",
     "original_fr": "Ho, ho, ho, ho...{WAIT_KEY}\nHa, ha, ha, ha...{WAIT_KEY}\nLe grand Lavos va enfin s'éveiller ! Devant lui, vous\nn'êtes que des nouveau-nés !{WAIT_KEY}\nMoi, je vivrai éternellement {TAG:3C} ses côtés !",
-    "translation": ""
+    "translation": "Королева: Ха-ха-ха...{WAIT_KEY}\nНаконец-то Лавос пробуждается!{WAIT_KEY}\nПеред ним вы лишь зерно под жерновами. А я обрету\nвечную жизнь!"
   },
   {
     "id": 157,
     "original_en": "Queen: Accursed prophet! Do not think I have\nforgotten your transgression at the Ocean Palace.",
     "original_fr": "Maudit sois-tu, prophète ! Je n'ai pas oublié les péchés\nque tu as commis dans le sanctuaire sous-marin.",
-    "translation": ""
+    "translation": "Королева: Проклятый пророк! Я не забыла твоё\nпредательство в Океанском дворце."
   },
   {
     "id": 158,
     "original_en": "You shall pay for it now with your life!",
     "original_fr": "Tu vas maintenant les expier, en rendant ton dernier\nsouffle !",
-    "translation": ""
+    "translation": "Ты расплатишься за это своей жизнью!"
   },
   {
     "id": 159,
     "original_en": "Queen: How dare you vermin hound my steps?",
     "original_fr": "Co... Comment osez-vous...?",
-    "translation": ""
+    "translation": "Королева: Как смеют эти жалкие букашки путаться\nу меня под ногами?"
   },
   {
     "id": 160,
     "original_en": "Oh, almighty Lavos! Lend me your power!",
     "original_fr": "ë grand Lavos ! Octroie-moi ta force !!",
-    "translation": ""
+    "translation": "О всемогущий Лавос! Даруй мне свою силу!"
   },
   {
     "id": 161,
     "original_en": "{MAGUS}: Fool. No thing, no life, can last forever.",
     "original_fr": "{MAGUS} : Ridicule... Tout ce qui existe périra un jour.\nC'est inévitable...",
-    "translation": ""
+    "translation": "{MAGUS}: Глупость. Ничто в мире не вечно."
   },
   {
     "id": 162,
     "original_en": "Pitiful creatures...\nAll of your struggling is for nothing.\nThe almighty Lavos has already drained\nthe life force from this planet.",
     "original_fr": "Vous avez beau vous démener, il est déj{TAG:3C} trop tard.\nLe grand Lavos a déj{TAG:3C} consumé la planète !",
-    "translation": ""
+    "translation": "Жалкие создания... Все ваши потуги напрасны.\nВсемогущий Лавос уже иссушил соки этой планеты."
   },
   {
     "id": 163,
     "original_en": "{GLYPH:384}\nIt is firmly sealed.",
     "original_fr": "{GLYPH:384}\nElle est solidement verrouillée...",
-    "translation": ""
+    "translation": "{GLYPH:384} Наглухо заперто."
   },
   {
     "id": 164,
     "original_en": "Ah, such fine weather!",
     "original_fr": "Il fait encore beau aujourd'hui.",
-    "translation": ""
+    "translation": "Ах, какая чудесная погодка!"
   },
   {
     "id": 165,
     "original_en": "How the Black Omen shines in the sun!{WAIT_KEY}\nTomorrow should be a beautiful day as well.",
     "original_fr": "On peut voir clairement le Songe obscur. Il devrait faire\nbeau demain aussi.",
-    "translation": ""
+    "translation": "Как ярко Чёрное Знамение сияет на солнце!{WAIT_KEY}\nЗавтра тоже должен быть погожий денёк."
   },
   {
     "id": 166,

@@ -3,1177 +3,1177 @@
     "id": 0,
     "original_en": "{GLYPH:384}\nIt is firmly sealed.",
     "original_fr": "{GLYPH:384}\nElle est solidement verrouillée...",
-    "translation": ""
+    "translation": "{GLYPH:384} Вход наглухо запечатан."
   },
   {
     "id": 1,
     "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
     "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получено: {GLYPH:385}!"
   },
   {
     "id": 2,
     "original_en": "Walk when the wind dies down, and hide\nbehind trees when it picks up strength.",
     "original_fr": "Avancez lorsque le vent est faible et réfugiez-vous\nderrière un arbre quand il souffle fort.",
-    "translation": ""
+    "translation": "Идите вперёд, когда ветер стихает, и прячьтесь\nза деревьями, когда он усиливается."
   },
   {
     "id": 3,
     "original_en": "The footing here is icy and slick. Be careful.\nFall, and you'll have to start over.",
     "original_fr": "Attention, le sol est glissant. Si vous tombez, il vous\nfaudra refaire tout le chemin jusqu'ici.",
-    "translation": ""
+    "translation": "Здесь очень скользко. Будьте осторожны! Упадёте\n— придётся начинать весь подъём сначала."
   },
   {
     "id": 4,
     "original_en": "Push the shell.\nClimb the shell.",
     "original_fr": "Si vous poussez la carapace et ensuite grimpez\ndessus...",
-    "translation": ""
+    "translation": "Толкните панцирь. Заберитесь на панцирь."
   },
   {
     "id": 5,
     "original_en": "So, you want a doppel doll of {CRONO}?\nNormally I wouldn't give out another person's doll,\nbut today I'll make an exception. 40 Silver Points.{WAIT_KEY}\nI'll give you the doll even if you lose the game,\nbut it will cost you. The longer you stay in the\ngame, the lower my price will be.{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}Play the game.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Don't play the game.{GLYPH:397}",
     "original_fr": "Vous voulez une poupée clone de {CRONO} ?{WAIT_KEY}\nHabituellement, je ne fais de double que de la\npersonne qui me le demande, mais je ferai une\nexception aujourd'hui.{WAIT_KEY}\nCela vous co{TAG:63}tera 40 points d'argent.{WAIT_KEY}\nSi vous perdez, vous obtiendrez tout de même\nla poupée, mais vous devrez aussi me payer\nde l'argent. Le montant variera selon votre\nperformance.{WAIT_KEY}\n       {GLYPH:394}Je veux essayer !{GLYPH:395}\n       {GLYPH:396}Je n'en ai pas envie.{GLYPH:397}",
-    "translation": ""
+    "translation": "Хотите куклу-двойника {CRONO}? Обычно я делаю\nкукол только заказчиков, но сделаю исключение. 40\nСеребряных очков.{WAIT_KEY}\nЯ отдам куклу, даже если проиграете, но это\nвлетит в копеечку. Чем дольше в игре, тем ниже\nбудет моя цена!{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}Сыграть.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Отказаться.{GLYPH:397}"
   },
   {
     "id": 6,
     "original_en": "Hmm, you don't have enough money. If only you'd done\na little better, I could have lowered the price.",
     "original_fr": "Vous n'avez pas assez d'argent. Si vous arrivez {TAG:3C} tenir\nplus longtemps, le prix diminuera !",
-    "translation": ""
+    "translation": "Хм-м, у вас маловато денег. Продержись вы хоть\nнемного дольше, цена была бы ниже!"
   },
   {
     "id": 7,
     "original_en": "I'll take 60,000 G.",
     "original_fr": "Ce sera 60 000 G.",
-    "translation": ""
+    "translation": "С вас 60 000 G."
   },
   {
     "id": 8,
     "original_en": "I'll take 30,000 G.",
     "original_fr": "Ce sera 30 000 G.",
-    "translation": ""
+    "translation": "С вас 30 000 G."
   },
   {
     "id": 9,
     "original_en": "I'll take 10,000 G.",
     "original_fr": "Ce sera 10 000 G.",
-    "translation": ""
+    "translation": "С вас 10 000 G."
   },
   {
     "id": 10,
     "original_en": "I'll take 5000 G.",
     "original_fr": "Ce sera 5000 G.",
-    "translation": ""
+    "translation": "С вас 5000 G."
   },
   {
     "id": 11,
     "original_en": "I'll take 2000 G.",
     "original_fr": "Ce sera 2000 G.",
-    "translation": ""
+    "translation": "С вас 2000 G."
   },
   {
     "id": 12,
     "original_en": "I'll take 1000 G.",
     "original_fr": "Ce sera 1000 G.",
-    "translation": ""
+    "translation": "С вас 1000 G."
   },
   {
     "id": 13,
     "original_en": "Slither: The boss is finally gonna settle the score\non his thirteen-generation-old family grudge!\nGee hee hee!{WAIT_KEY}\nSquirm: Yeah, he's gonna frame the King good with\nthat fake evidence! Gaw haw haw!",
     "original_fr": "Sous-fifre rampant : Le chef frétille de joie de pouvoir\nenfin se venger après 13 générations. Ki, ki, ki, ki !{WAIT_KEY}\nSous-fifre ondulant : Il dit que le roi sera condamné {TAG:3C}\nmort gr{TAG:4A}ce aux preuves qu'il a inventées. Ki, ki, ki, ki !",
-    "translation": ""
+    "translation": "Скользкий: Босс наконец-то сведёт счёты за\nтринадцативековую семейную обиду! Хи-хи-хи!{WAIT_KEY}\nЮркий: Ага, он так ловко подставит короля с этими\nфальшивыми уликами! Ха-ха-ха!"
   },
   {
     "id": 14,
     "original_en": "{MARLE}: So there is a plot!\nWe'd better hurry!",
     "original_fr": "{MARLE} : Alors il y a vraiment un complot !\nDépêchons-nous !",
-    "translation": ""
+    "translation": "{MARLE}: Значит, это заговор! Нужно спешить!"
   },
   {
     "id": 15,
     "original_en": "This is the treasury.\nNo entry permitted.",
     "original_fr": "Ceci est la trésorerie du royaume. Il est interdit d'y\npénétrer, car c'est un endroit dangereux.",
-    "translation": ""
+    "translation": "Это королевская сокровищница. Вход строго\nвоспрещён!"
   },
   {
     "id": 16,
     "original_en": "Urgh...\nA rat bit my toe.",
     "original_fr": "A¿e... Un rat m'a mordu la jambe.",
-    "translation": ""
+    "translation": "Ой-ой... Крыса укусила меня за палец!"
   },
   {
     "id": 17,
     "original_en": "Entry is forbidden!",
     "original_fr": "Nous ne pouvons pas vous laisser passer !",
-    "translation": ""
+    "translation": "Проход закрыт!"
   },
   {
     "id": 18,
     "original_en": "I'd never dreamed the Chancellor was a monster.",
     "original_fr": "Quand je pense que le chancelier était un monstre...!",
-    "translation": ""
+    "translation": "Поверить не могу, что канцлер был чудовищем..."
   },
   {
     "id": 19,
     "original_en": "{MARLE}: Let me through!",
     "original_fr": "{MARLE} : Laissez-nous passer !!",
-    "translation": ""
+    "translation": "{MARLE}: Пропустите меня!"
   },
   {
     "id": 20,
     "original_en": "I am sorry, my lady.\nNot even you may enter.",
     "original_fr": "Je suis navré, mais nous ne pouvons laisser passer\npersonne. Pas même vous, Votre Altesse.",
-    "translation": ""
+    "translation": "Простите, принцесса. Даже вам вход воспрещён."
   },
   {
     "id": 21,
     "original_en": "{MARLE}: What are you talking about?\nThe Chancellor made up the entire thing!\nThere is no heirloom!\n",
     "original_fr": "{MARLE} : Mais qu'est-ce que tu racontes ?\nIl n'y a jamais eu de trésor de famille !!{WAIT_KEY}\nC'est une histoire inventée par le chancelier !",
-    "translation": ""
+    "translation": "{MARLE}: О чём вы вообще говорите?! Канцлер всё\nвыдумал от начала до конца! Никакой реликвии не\nсуществует!"
   },
   {
     "id": 22,
     "original_en": "{MARLE}: Aha!\nThe Rainbow Shell we gave to my ancestor four\nhundred years ago must still be here.",
     "original_fr": "{MARLE} : Ah oui !{WAIT_KEY}\nTu veux dire que le coquillage arc-en-ciel que nous\navons remis {TAG:3C} mon ancêtre en l'an 600 est toujours\nquelque part ici, quatre siècles après ?",
-    "translation": ""
+    "translation": "{MARLE}: Постойте! Радужная раковина, которую мы\nотдали моему предку четыре века назад... Она же\nздесь!"
   },
   {
     "id": 23,
     "original_en": "{MARLE}: It's probably in the basement.\nLet's go!",
     "original_fr": "{MARLE} : Allons-y ! Il est s{TAG:63}rement au sous-sol !",
-    "translation": ""
+    "translation": "{MARLE}: Скорее всего, она в подземелье. Бежим\nтуда!"
   },
   {
     "id": 24,
     "original_en": "{LUCCA}: If we can find the Rainbow Shell,\nwe'll be able to prove the King's innocence!",
     "original_fr": "{LUCCA} : Si nous leur apportons le coquillage\narc-en-ciel, nous pourrons prouver son innocence !",
-    "translation": ""
+    "translation": "{LUCCA}: Если мы найдём Радужную раковину, то\nсможем доказать невиновность короля!"
   },
   {
     "id": 25,
     "original_en": "{LUCCA}: Did you forget we changed history back\nin 600 A.D.? The Rainbow Shell should still be in\nthe castle!",
     "original_fr": "{LUCCA} : Aurais-tu oublié ce que nous avons fait en\nl'an 600 ?{WAIT_KEY}\nPuisque nous avons changé le cours de l'histoire, le\ncoquillage arc-en-ciel devrait maintenant être dans\nle ch{TAG:4A}teau !",
-    "translation": ""
+    "translation": "{LUCCA}: Вы забыли, что мы изменили историю в 600\nгоду н. э.? Радужная раковина всё ещё должна\nбыть в замке!"
   },
   {
     "id": 26,
     "original_en": "{ROBO}: The Rainbow Shell will prove the King's\ninnocence.",
     "original_fr": "{ROBO} : Si nous leur apportons le coquillage\narc-en-ciel, nous pourrons prouver son innocence !",
-    "translation": ""
+    "translation": "{ROBO}: Радужная раковина докажет невиновность\nЕго Величества."
   },
   {
     "id": 27,
     "original_en": "{ROBO}: Have you forgotten our actions in 600 A.D.?\nWe altered the course of history. The Rainbow Shell\nshould be here in the castle.",
     "original_fr": "{ROBO} : Aurais-tu oublié ce que nous avons fait en\nl'an 600 ?{WAIT_KEY}\nNous avons changé le cours de l'histoire et le coquillage\narc-en-ciel devrait maintenant être dans le ch{TAG:4A}teau.",
-    "translation": ""
+    "translation": "{ROBO}: Вы забыли о наших делах в 600 году н. э.?\nМы изменили ход истории. Радужная раковина\nдолжна находиться в замке."
   },
   {
     "id": 28,
     "original_en": "{FROG}: Had we the Rainbow Shell, we could prove\nhis innocence.",
     "original_fr": "{FROG} : Si nous leur apportons le coquillage\narc-en-ciel, nous pourrons prouver son innocence !",
-    "translation": ""
+    "translation": "{FROG}: Будь у нас Радужная раковина, мы\nдоказали бы его невиновность."
   },
   {
     "id": 29,
     "original_en": "{FROG}: Have you forgotten? History is changed.\nThe shell should lie within this castle now.",
     "original_fr": "{FROG} : Aurais-tu oublié ce que nous avons fait en\nl'an 600 ?{WAIT_KEY}\nPuisque nous avons changé le cours de l'histoire, le\ncoquillage arc-en-ciel devrait maintenant être dans\nle ch{TAG:4A}teau.",
-    "translation": ""
+    "translation": "{FROG}: Ты запамятовала? История изменилась.\nРаковина ныне сокрыта в сем замке."
   },
   {
     "id": 30,
     "original_en": "{AYLA}: Take Rainbow Shell!\nSave {MARLE} father!",
     "original_fr": "{AYLA} : {AYLA} apporter coquillage\narc-en-ciel ! Sauver père de {MARLE} !",
-    "translation": ""
+    "translation": "{AYLA}: Взять Радужная раковина! Спасти отец\n{MARLE}!"
   },
   {
     "id": 31,
     "original_en": "{AYLA}: {MARLE} forget?\nAsk old king keep shell!\nRainbow Shell here now!",
     "original_fr": "{AYLA} : {MARLE} pas se souvenir ?\nNous donner coquillage au roi !{WAIT_KEY}\nCoquillage toujours dans ch{TAG:4A}teau !",
-    "translation": ""
+    "translation": "{AYLA}: {MARLE} забыла? Просить старый вождь\nберечь раковина! Радужная раковина здесь!"
   },
   {
     "id": 32,
     "original_en": "{MAGUS}: Would taking the Rainbow Shell to them\nnot resolve the issue?",
     "original_fr": "{MAGUS} : Il nous suffirait de leur apporter le\ncoquillage arc-en-ciel...",
-    "translation": ""
+    "translation": "{MAGUS}: Разве если принести им Радужную раковину,\nдело не разрешится само собой?"
   },
   {
     "id": 33,
     "original_en": "{MAGUS}: Are you such an absent-minded fool\nyou've forgotten what we did in 600 A.D. already?",
     "original_fr": "{MAGUS} : Idiote ! Aurais-tu oublié ce que nous avons\nfait en l'an 600 ?",
-    "translation": ""
+    "translation": "{MAGUS}: Ты настолько безмозглая дура, что уже\nуспела позабыть наши деяния в 600 году?"
   },
   {
     "id": 34,
     "original_en": "{MARLE}: You really won't reconsider?{WAIT_KEY}\nSoldier: No, Princess. I really won't.",
     "original_fr": "{MARLE} : Quoi que nous fassions, vous ne nous\nlaisserez pas passer ?{WAIT_KEY}\nSoldat : C'est exact.",
-    "translation": ""
+    "translation": "{MARLE}: Вы правда нас не пропустите?{WAIT_KEY}\nСтражник: Нет, принцесса. Не пропустим."
   },
   {
     "id": 35,
     "original_en": "{MARLE}: There is one other way.\nIt's a bit rough, but just follow me!",
     "original_fr": "{MARLE} : Je connais un autre chemin !\nIl n'est pas de tout repos, mais...{WAIT_KEY}\nSuivez-moi !",
-    "translation": ""
+    "translation": "{MARLE}: Есть ещё один путь. Придётся лезть в\nобход, но идите за мной!"
   },
   {
     "id": 36,
     "original_en": "What are you doing here?\nDo you want to be put on trial again?",
     "original_fr": "Qu'y a-t-il ? Vous voulez encore être mis en jugement ?",
-    "translation": ""
+    "translation": "Чего вам здесь нужно? Опять захотели оказаться\nпод судом?"
   },
   {
     "id": 37,
     "original_en": "Pierre? He's in the soldiers' quarters.",
     "original_fr": "Si c'est Pierre que vous cherchez, il est dans les\nlogements des soldats.",
-    "translation": ""
+    "translation": "Пьер? Он в солдатских казармах."
   },
   {
     "id": 38,
     "original_en": "{MARLE}: The Rainbow Shell!",
     "original_fr": "{MARLE} : Le voil{TAG:3C} ! C'est le coquillage arc-en-ciel !",
-    "translation": ""
+    "translation": "{MARLE}: Радужная раковина!"
   },
   {
     "id": 39,
     "original_en": "{LUCCA}: What's this? A letter?",
     "original_fr": "{LUCCA} : Tiens, qu'est-ce que c'est ?\nUne lettre...?",
-    "translation": ""
+    "translation": "{LUCCA}: Что это? Письмо?"
   },
   {
     "id": 40,
     "original_en": "{ROBO}: There is a letter.",
     "original_fr": "{ROBO} : Qu'est-ce que c'est que cette lettre ?",
-    "translation": ""
+    "translation": "{ROBO}: Здесь лежит письмо."
   },
   {
     "id": 41,
     "original_en": "{FROG}: There is a letter here.",
     "original_fr": "{FROG} : Une lettre dans un endroit pareil...?",
-    "translation": ""
+    "translation": "{FROG}: Здесь сокрыто письмо."
   },
   {
     "id": 42,
     "original_en": "{AYLA}: Thing here!\nPaper here, paper!",
     "original_fr": "{AYLA} : {AYLA} trouver quelque chose !\nPapier ! Papier !",
-    "translation": ""
+    "translation": "{AYLA}: Тут штука! Бумага лежит, бумага!"
   },
   {
     "id": 43,
     "original_en": "{MAGUS}: There's a letter here.\nShall I burn it?",
     "original_fr": "{MAGUS} : Il y a une lettre. Devrais-je la br{TAG:63}ler ?",
-    "translation": ""
+    "translation": "{MAGUS}: Здесь письмо. Мне сжечь его?"
   },
   {
     "id": 44,
     "original_en": "{MARLE}: To {MARLE}...{WAIT_KEY}\nDearest {MARLE},\n   I know things are not easy with your father.\nBut though it may be hard to realize now, know that\nyou will ever be his daughter.{WAIT_KEY}\nNothing can break the bonds of blood—neither\ndistance, nor words of anger. Someday you will leave\nthe nest and have children of your own. Then you will\nunderstand the truth of what I say.{WAIT_KEY}\nBlood is the sap that flows through the limbs of\na family tree. And come what may in future days,\nwe will forever be joined by that.\n{TAG:38}{TAG:38} -Queen Guardia XXI, Leene.",
     "original_fr": "{MARLE} : {TAG:64} Pour {MARLE} {TAG:65}...?{WAIT_KEY}\n{TAG:64} {MARLE}, ma chérie...\nAs-tu de bons rapports avec ton père ? {TAG:65}{WAIT_KEY}\n{TAG:64} Tu ne le comprendras peut-être pas maintenant,\nmais même si vous vous disputez, même si vous êtes\nséparés, vous resterez toujours père et fille. {TAG:65}{WAIT_KEY}\n{TAG:64} Un jour, tu auras {TAG:3C} quitter le nid de tes parents et\ndevenir une mère {TAG:3C} ton tour. {TAG:65}{WAIT_KEY}\n{TAG:64} Ce sont des choses qui ne changeront jamais, quelle\nque soit la génération. C'est justement pourquoi un lien\nnous unit tous...\n   Lynne, épouse du roi Gardia XXI {TAG:65}",
-    "translation": ""
+    "translation": "{MARLE}: Для {MARLE}...{WAIT_KEY}\n«Дорогая {MARLE}! Знаю, с отцом сейчас нелегко. Но\nзнай, хоть это и трудно понять, ты навсегда его\nдочь.{WAIT_KEY}\nУзы крови не разорвать ни расстоянием, ни злыми\nсловами. Однажды ты покинешь родное гнездо и\nродишь дитя. Тогда ты всё поймёшь.{WAIT_KEY}\nКровь — древесный сок семейного древа. И что бы\nни сулили грядущие дни, мы навеки едины этим\nначалом. {TAG:38}{TAG:38}— Линн, королева Гардии XXI»."
   },
   {
     "id": 45,
     "original_en": "{LUCCA}: Knows just what to say, doesn't she?{WAIT_KEY}\nBut we have more urgent things to think about!",
     "original_fr": "{LUCCA} : Quelle lettre admirable...\nMais ce n'est pas le moment !",
-    "translation": ""
+    "translation": "{LUCCA}: Умеет же тронуть за душу...{WAIT_KEY}\nНо сейчас есть дела поважнее!"
   },
   {
     "id": 46,
     "original_en": "{ROBO}: I have no parents or blood, so it is\ndifficult for me to comprehend the meaning.\nBut this letter seems somehow...warm.",
     "original_fr": "{ROBO} : Je n'ai pas de parents, alors je ne\ncomprends pas l'amour qu'un père ou une mère\nressent pour son enfant. Néanmoins, cette\nlettre a quelque chose de chaleureux...",
-    "translation": ""
+    "translation": "{ROBO}: У меня нет родителей и крови, поэтому мне\nтрудно до конца постичь смысл. Но от этого\nписьма веет... теплом."
   },
   {
     "id": 47,
     "original_en": "{FROG}: Queen Leene...{WAIT_KEY}\nTime wastes. Let us finish what we came to do!",
     "original_fr": "{FROG} : Votre Majesté...{WAIT_KEY}\nDépêchons-nous !",
-    "translation": ""
+    "translation": "{FROG}: Королева Линн...{WAIT_KEY}\nВремя не ждёт. Свершим же задуманное!"
   },
   {
     "id": 48,
     "original_en": "{AYLA}: Oh, leave nest!\n{AYLA} know leave nest!\nDactyl leave nest.\nTime pass, get big, leave nest!{WAIT_KEY}\n{MARLE} leave nest, too?\nBig change!",
     "original_fr": "{AYLA} : Oh, quitter nid ! {AYLA} comprendre !\nPtéranodon aussi quitter nid. Après certain temps,\nquitter nid !{WAIT_KEY}\n{MARLE} aussi quitter nid ? Bien !",
-    "translation": ""
+    "translation": "{AYLA}: О, покинуть гнездо! {AYLA} знать гнездо!\nДактиль покидать гнездо. Время идти, расти\nбольшой, улетать!{WAIT_KEY}\n{MARLE} тоже покинуть гнездо? Большие перемены!"
   },
   {
     "id": 49,
     "original_en": "{AYLA}: Leave nest!\nHave baby! Give milk!\nHave more baby!",
     "original_fr": "{AYLA} : Quitter nid ! Avoir bébé ! Donner sein !\nEnsuite, enfant quitter nid aussi !",
-    "translation": ""
+    "translation": "{AYLA}: Покинуть гнездо! Родить дитя! Кормить\nмолоком! Родить ещё дитя!"
   },
   {
     "id": 50,
     "original_en": "{AYLA}: {MARLE} ready leave nest?\nLook still small.",
     "original_fr": "{AYLA} : {MARLE} être prête {TAG:3C} quitter nid ?\nPas beaucoup de poitrine pour allaiter...",
-    "translation": ""
+    "translation": "{AYLA}: {MARLE} готова покинуть гнездо? Маловата\nещё."
   },
   {
     "id": 51,
     "original_en": "{MAGUS}: Far be it from me to interrupt this\ntouching moment, but haven't we other matters to\nattend?",
     "original_fr": "{MAGUS} : Ce n'est pas le moment de s'attendrir...",
-    "translation": ""
+    "translation": "{MAGUS}: Меньше всего мне хотелось бы прерывать\nсие трогательное мгновение, но разве у нас нет\nболее неотложных дел?"
   },
   {
     "id": 52,
     "original_en": "{MARLE}: Hang in there, Father!\nWe're coming!",
     "original_fr": "{MARLE} : Père ! J'arrive !",
-    "translation": ""
+    "translation": "{MARLE}: Держись, папа! Мы уже спешим!"
   },
   {
     "id": 53,
     "original_en": "{GLYPH:384}\nObtained Rainbow Shard!",
     "original_fr": "{GLYPH:384}\nVous obtenez un éclat irisé !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получен Осколок радуги!"
   },
   {
     "id": 54,
     "original_en": "Melchior: The properties of this material are quite\nunique. I can craft armor from it that will dampen\nthe effects of magical attacks.{WAIT_KEY}\nI could make you one highly effective prismatic dress,\nor I could make three less effective prismatic helms.{WAIT_KEY}\nWhich would you prefer?\n{TAG:38}{TAG:38}{GLYPH:394}1 prismatic dress.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}3 prismatic helms.{GLYPH:397}",
     "original_fr": "Bosch : Ce matériau est exceptionnel. Les pièces\nd'équipement qui en seront fabriquées réduiront\nles dég{TAG:4A}ts infligés par les attaques magiques.{WAIT_KEY}\nUne robe irisée serait très efficace, mais je ne peux en\nfabriquer qu'une seule. Par contre, je pourrais fabriquer\ntrois armets irisés un peu moins efficaces.{WAIT_KEY}\nQu'allez-vous choisir ?\n       {GLYPH:394}Une robe irisée{GLYPH:395}\n       {GLYPH:396}Trois armets irisés{GLYPH:397}",
-    "translation": ""
+    "translation": "Мельхиор: Свойства сего материала воистину\nуникальны! Я могу выковать из него доспех,\nсмягчающий силу магических атак.{WAIT_KEY}\nЯ могу создать отличное Радужное платье или же\nтри Радужных шлема послабее.{WAIT_KEY}\nЧто вы предпочтёте? {TAG:38}{TAG:38}{GLYPH:394}1 Радужное платье.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}3\nРадужных шлема.{GLYPH:397}"
   },
   {
     "id": 55,
     "original_en": "Melchior: The prismatic dress? Are you certain?\nOnly women will be able to equip it.\n{TAG:38}{TAG:38}{GLYPH:394}Yes, I want the dress.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No, I've changed my mind.{GLYPH:397}",
     "original_fr": "Bosch : La robe irisée ? Seules les femmes pourront la\nporter. Cela vous convient ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Мельхиор: Радужное платье? Вы уверены? Надеть\nего смогут только женщины. {TAG:38}{TAG:38}{GLYPH:394}Да, куй платье.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет,\nя передумал.{GLYPH:397}"
   },
   {
     "id": 56,
     "original_en": "Melchior: You want prismatic helms?\nYou're sure?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Bosch : Les armets irisés ? N'importe qui pourra s'en\néquiper. Cela vous convient ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Мельхиор: Желаете Радужные шлемы? Точно\nуверены? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 57,
     "original_en": "Melchior: Very well, wait right there.",
     "original_fr": "Bosch : Bien ! Attendez ! Je vais y mettre tout mon\ntalent ! Ce sera le chef-d'{TAG:61}uvre de ma vie !",
-    "translation": ""
+    "translation": "Мельхиор: Прекрасно, подождите минутку."
   },
   {
     "id": 58,
     "original_en": "Melchior: My work is complete.",
     "original_fr": "Bosch : J'ai terminé !",
-    "translation": ""
+    "translation": "Мельхиор: Моя работа окончена."
   },
   {
     "id": 59,
     "original_en": "Melchior: I finally feel like I'm doing something\nworthwhile!",
     "original_fr": "Bosch : Je suis content d'avoir pu vous être utile !",
-    "translation": ""
+    "translation": "Мельхиор: Наконец-то я чувствую, что создал\nнечто по-настоящему великое!"
   },
   {
     "id": 60,
     "original_en": "Melchior: An interesting substance...\nI could make something impressive if only I had\nanother material to combine it with.",
     "original_fr": "Bosch : Ce matériau... Si j'en faisais un alliage avec\nquelque chose d'autre, je pourrais fabriquer des\nobjets incroyables !",
-    "translation": ""
+    "translation": "Мельхиор: Любопытное вещество... Я мог бы\nсотворить шедевр, будь у меня второй материал\nдля сплава."
   },
   {
     "id": 61,
     "original_en": "Melchior: Ah, a Sun Stone!\nThat should do quite nicely.",
     "original_fr": "Bosch : Oh ! Une pierre du soleil ? Je vais en\nfaire immédiatement un alliage avec le coquillage\narc-en-ciel !",
-    "translation": ""
+    "translation": "Мельхиор: Ого, Солнечный камень! Он идеально\nподойдёт для дела."
   },
   {
     "id": 62,
     "original_en": "Melchior: Heh heh.\nDon't think that's the last of my bag of tricks.\nThese arms have some use left in them yet!",
     "original_fr": "Bosch : Hum ! J'ai encore plus d'un tour dans mon sac !\nJe suis en pleine forme !",
-    "translation": ""
+    "translation": "Мельхиор: Хе-хе. Не думайте, что это предел моего\nмастерства. Мои руки ещё ох как многое могут!"
   },
   {
     "id": 63,
     "original_en": "Welcome to Norstein Bekkler's tent of horrors!\nThe spine-tingling show is just about to start!",
     "original_fr": "Bienvenue dans la tente expérimentale de\nNorstein Bekkler ! Le spectacle terrifiant\nva bientôt commencer !",
-    "translation": ""
+    "translation": "Добро пожаловать в шатёр ужасов Норштейна\nБеклера! Леденящее кровь представление вот-вот\nначнётся!"
   },
   {
     "id": 64,
     "original_en": "How many Silver Points would you like to spend?{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}10 Points.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}40 Points.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}80 Points.{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Just came to look.{GLYPH:401}",
     "original_fr": "Combien de points d'argent voulez-vous dépenser ?{WAIT_KEY}\n       {GLYPH:394}10 points{GLYPH:395}\n       {GLYPH:396}40 points{GLYPH:397}\n       {GLYPH:398}80 points{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
-    "translation": ""
+    "translation": "Сколько Серебряных очков хотите потратить?{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}10 очков.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}40 очков.{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}80 очков.{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Я просто\nсмотрю.{GLYPH:401}"
   },
   {
     "id": 65,
     "original_en": "You can't play this game alone.\nGo and bring some friends.",
     "original_fr": "Vous ne pouvez pas jouer {TAG:3C} ce jeu si vous êtes seul.\nRevenez avec un ami !",
-    "translation": ""
+    "translation": "В эту игру нельзя играть в одиночку. Приведите с\nсобой друзей!"
   },
   {
     "id": 66,
     "original_en": "You don't have enough points.",
     "original_fr": "Vous n'avez pas assez de points.",
-    "translation": ""
+    "translation": "У вас недостаточно очков."
   },
   {
     "id": 67,
     "original_en": "You've just won yourself some cat food!\nI'll have it delivered to {CRONO}'s house.\nCats will run away if you don't feed them, you know!",
     "original_fr": "De la nourriture pour chat... Je vais l'envoyer chez\n{CRONO}. Rien de tel qu'une écuelle pleine pour faire\npasser l'envie {TAG:3C} un chat de quitter le foyer.",
-    "translation": ""
+    "translation": "Вы выиграли кошачий корм! Я велю доставить его\nдомой к {CRONO}. Кошки сбегают, если их не кормить,\nзнаете ли!"
   },
   {
     "id": 68,
     "original_en": "I'm Biggs.",
     "original_fr": "Je m'appelle Biggs.",
-    "translation": ""
+    "translation": "Я — Биггс."
   },
   {
     "id": 69,
     "original_en": "I'm Wedge.",
     "original_fr": "Je m'appelle Wedge.",
-    "translation": ""
+    "translation": "Я — Ведж."
   },
   {
     "id": 70,
     "original_en": "I'm Piette.",
     "original_fr": "Je m'appelle Pietr.",
-    "translation": ""
+    "translation": "Я — Пьетт."
   },
   {
     "id": 71,
     "original_en": "Which one is Biggs?",
     "original_fr": "Qui est Biggs ?",
-    "translation": ""
+    "translation": "Кто из них Биггс?"
   },
   {
     "id": 72,
     "original_en": "Which one is Wedge?",
     "original_fr": "Qui est Wedge ?",
-    "translation": ""
+    "translation": "Кто из них Ведж?"
   },
   {
     "id": 73,
     "original_en": "Which one is Piette?",
     "original_fr": "Qui est Pietr ?",
-    "translation": ""
+    "translation": "Кто из них Пьетт?"
   },
   {
     "id": 74,
     "original_en": "Oh, you got me!",
     "original_fr": "Vous avez l'{TAG:61}il !",
-    "translation": ""
+    "translation": "Ого, угадали!"
   },
   {
     "id": 75,
     "original_en": "It's a Poyozo doll.\nIt'll spruce up your room!",
     "original_fr": "Une poupée poyozo... Vous pourrez en décorer votre\nchambre.",
-    "translation": ""
+    "translation": "Это кукла Пойозо. Она украсит вашу комнату!"
   },
   {
     "id": 76,
     "original_en": "Mimic what you see!\nL Button: Left arm{TAG:38}{TAG:38}®R Button: Right arm\nY Button: Laugh{TAG:38}{TAG:38}{TAG:38}{TAG:38}A Button: Surprise",
     "original_fr": "Imitez votre double !\nBouton L : main gauche{TAG:38}{TAG:7A}Bouton R : main droite\nBouton Y : rire{TAG:38}{TAG:38}{TAG:38}{TAG:38}{GLYPH:128}Bouton A : étonnement",
-    "translation": ""
+    "translation": "Повторяйте движения! Кнопка L: Левая\nрука{TAG:38}{TAG:38}®Кнопка R: Правая рука Кнопка Y: Смех{TAG:38}{TAG:38}{TAG:38}{TAG:38}AКнопка\nA: Испуг"
   },
   {
     "id": 77,
     "original_en": "Start when you hear the signal after I move.{WAIT_KEY}\nAnd...action!",
     "original_fr": "Le jeu commence quand je vous fais signe et que vous\nentendez le signal sonore.{WAIT_KEY}\nÂ vos marques... Imitez !",
-    "translation": ""
+    "translation": "Начинайте по сигналу после моего движения.{WAIT_KEY}\nИ... начали!"
   },
   {
     "id": 78,
     "original_en": "Excellent!",
     "original_fr": "Parfait !",
-    "translation": ""
+    "translation": "Великолепно!"
   },
   {
     "id": 79,
     "original_en": "I'll send this doppel doll to {GLYPH:386}'s house.",
     "original_fr": "Je vais envoyer la poupée clone chez {GLYPH:386}.",
-    "translation": ""
+    "translation": "Я отправлю эту куклу-двойника в дом к {GLYPH:386}."
   },
   {
     "id": 80,
     "original_en": "I'll send this doppel doll to {CRONO}'s house.",
     "original_fr": "Je vais envoyer la poupée clone chez {CRONO}.",
-    "translation": ""
+    "translation": "Я отправлю эту куклу-двойника в дом к {CRONO}."
   },
   {
     "id": 81,
     "original_en": "Monsters will close in from above.\nThrow beanbags at them, and push them all the way\nback into the cage!",
     "original_fr": "Les monstres s'approchent peu {TAG:3C} peu de vous.\nLancez-leur une balle lestée pour les refouler\ndans la cage !",
-    "translation": ""
+    "translation": "Сверху будут наступать чудовища. Бросайте в них\nмешочки и загоняйте обратно в глубину клетки!"
   },
   {
     "id": 82,
     "original_en": "A hostage you provide will be slowly lowered into\nthe flames. You can buy time by hitting the blue\nlight to raise the rope, but let your friend get\ncharbroiled and the game's over!{WAIT_KEY}\nDefeat all the monsters before the hostage's goose\nis cooked!",
     "original_fr": "Je vais prendre un otage. Cette personne sera\nsuspendue au bout d'une corde et abaissée peu\n{TAG:3C} peu vers les flammes. Si elle se fait calciner,\ntout est perdu !{WAIT_KEY}\nFrappez l'éclat bleu pour faire un peu remonter l'otage.\nîliminez les monstres pour le sauver !",
-    "translation": ""
+    "translation": "Вашего заложника станут опускать в огонь. Бейте\nпо синему огоньку, чтоб подтянуть верёвку: если\nдруг поджарится — конец игре!{WAIT_KEY}\nОдолейте чудовищ до того, как заложник\nпревратится в жаркое!"
   },
   {
     "id": 83,
     "original_en": "Well done!\nTake this cat!",
     "original_fr": "Bravo ! Je vous offre ce chat en récompense !",
-    "translation": ""
+    "translation": "Отличная работа! Забирайте этого кота!"
   },
   {
     "id": 84,
     "original_en": "Guard: It's the apes!",
     "original_fr": "Sentinelle : Des primates !",
-    "translation": ""
+    "translation": "Стражник: Обезьяны наступают!"
   },
   {
     "id": 85,
     "original_en": "Turnkey: We're about to have a feast!\nAnd you're about to be the roast beast!\nHeh heh heh!",
     "original_fr": "Geôlier : Nous allons préparer un festin, et tu seras le\nplat principal ! Hé, hé, hé !",
-    "translation": ""
+    "translation": "Тюремщик: Скоро у нас начнётся пир! И ты будешь\nглавным жареным блюдом! Хе-хе-хе!"
   },
   {
     "id": 86,
     "original_en": "Kino: {AYLA}!{WAIT_KEY}\n{AYLA}: Kino move back!\n{AYLA} save Kino!",
     "original_fr": "Kino : {AYLA} !{WAIT_KEY}\n{AYLA} : Kino reculer ! {AYLA} sauver Kino !",
-    "translation": ""
+    "translation": "Кино: {AYLA}!{WAIT_KEY}\n{AYLA}: Кино, назад! {AYLA} спасти Кино!"
   },
   {
     "id": 87,
     "original_en": "{MARLE}: Wow!",
     "original_fr": "{MARLE} : Incroyable !",
-    "translation": ""
+    "translation": "{MARLE}: Ничего себе!"
   },
   {
     "id": 88,
     "original_en": "{LUCCA}: What are you going to do now!?",
     "original_fr": "{LUCCA} : Que comptes-tu faire maintenant que tu\nes {TAG:3C} l'intérieur, toi aussi ?",
-    "translation": ""
+    "translation": "{LUCCA}: И что ты теперь собираешься делать?!"
   },
   {
     "id": 89,
     "original_en": "{ROBO}: Her methods do not appear logical.",
     "original_fr": "{ROBO} : Je ne crois pas que cette méthode soit\nrationnelle.",
-    "translation": ""
+    "translation": "{ROBO}: В её действиях не прослеживается логики."
   },
   {
     "id": 90,
     "original_en": "{FROG}: Hmm.",
     "original_fr": "{FROG} : Hum.",
-    "translation": ""
+    "translation": "{FROG}: Хм-м."
   },
   {
     "id": 91,
     "original_en": "Kino: Kino sorry.\nAll Kino's fault.",
     "original_fr": "Kino : Désolé, {AYLA}. Faute de Kino.",
-    "translation": ""
+    "translation": "Кино: Кино виноват. Всё вина Кино."
   },
   {
     "id": 92,
     "original_en": "{AYLA}: It okay.\nKino take all Laruba person, run!",
     "original_fr": "{AYLA} : Pas grave. Kino s'enfuir avec tribu de\nLaruba !",
-    "translation": ""
+    "translation": "{AYLA}: Ничего. Кино взять все люди Ларуба и\nбежать!"
   },
   {
     "id": 93,
     "original_en": "Kino: What {AYLA} do?",
     "original_fr": "Kino : {AYLA} faire quoi ?",
-    "translation": ""
+    "translation": "Кино: Что делать {AYLA}?"
   },
   {
     "id": 94,
     "original_en": "{AYLA}: Strong live, weak die.\n{AYLA} go be strong!",
     "original_fr": "{AYLA} : Suivre loi du plus fort ! Finir conflit !",
-    "translation": ""
+    "translation": "{AYLA}: Сильный жить, слабый умирать. {AYLA} идти\nбыть сильной!"
   },
   {
     "id": 95,
     "original_en": "Kino: Kino go, too!",
     "original_fr": "Kino : Kino aller avec {AYLA} !",
-    "translation": ""
+    "translation": "Кино: Кино тоже пойти!"
   },
   {
     "id": 96,
     "original_en": "{AYLA}: Kino no come.\n{AYLA} die, Kino new Ioka chief!",
     "original_fr": "{AYLA} : Kino pas venir. Si {AYLA} perdre,\nKino devenir chef d'Ioka !",
-    "translation": ""
+    "translation": "{AYLA}: Кино не идти. Если {AYLA} погибнет, Кино\nновый вождь Иока!"
   },
   {
     "id": 97,
     "original_en": "Kino: {AYLA}...",
     "original_fr": "Kino : {AYLA}...",
-    "translation": ""
+    "translation": "Кино: {AYLA}..."
   },
   {
     "id": 98,
     "original_en": "{AYLA}: {AYLA} strong.\nNo lose!",
     "original_fr": "{AYLA} : {AYLA} être forte. Pas perdre !",
-    "translation": ""
+    "translation": "{AYLA}: {AYLA} сильная. Не проиграть!"
   },
   {
     "id": 99,
     "original_en": "Kino: Kino know.\nKino show you something!\nFollow Kino!",
     "original_fr": "Kino : Kino comprendre. Kino montrer quelque chose {TAG:3C}\n{AYLA} !",
-    "translation": ""
+    "translation": "Кино: Кино понять. Кино показать кое-что! Иди за\nКино!"
   },
   {
     "id": 100,
     "original_en": "Kino: You strong, Kino weak.\nKino jealous.",
     "original_fr": "Vous être forts. Kino être faible. Kino être jaloux.",
-    "translation": ""
+    "translation": "Кино: Вы сильные, Кино слабый. Кино завидовать."
   },
   {
     "id": 101,
     "original_en": "{LUCCA}: So Lavos arrived all this time ago...",
     "original_fr": "{LUCCA} : Lavos s'est donc écrasé {TAG:3C} cette époque...",
-    "translation": ""
+    "translation": "{LUCCA}: Значит, Лавос прибыл ещё в эту эпоху..."
   },
   {
     "id": 102,
     "original_en": "{ROBO}: It seems Lavos made his first appearance\nhere, and not in the year 600.",
     "original_fr": "{ROBO} : La naissance de Lavos a donc eu lieu {TAG:3C}\ncette époque et non en l'an 600.",
-    "translation": ""
+    "translation": "{ROBO}: Похоже, Лавос впервые явился именно сюда,\nа не в шестисотом году."
   },
   {
     "id": 103,
     "original_en": "{MARLE}: So Lavos fell to the earth in this era.",
     "original_fr": "{MARLE} : Lavos s'est donc écrasé {TAG:3C} cette époque !",
-    "translation": ""
+    "translation": "{MARLE}: Так вот когда Лавос рухнул на Землю!"
   },
   {
     "id": 104,
     "original_en": "{FROG}: Lavos was not spawned by {MAGUS}.\nIt fell from the heavens—and so long ago!",
     "original_fr": "{FROG} : Alors {MAGUS} ne l'a pas créé.\nIl est tombé du ciel {TAG:3C} une époque très lointaine...",
-    "translation": ""
+    "translation": "{FROG}: Не {MAGUS} породил Лавоса. Он пал с небес...\nи в столь далёкую эпоху!"
   },
   {
     "id": 105,
     "original_en": "{AYLA}: Lavos huge!\n{GLYPH:392} fight that?",
     "original_fr": "{AYLA} : Lavos être très gros ! {GLYPH:392} et amis\ncombattre Lavos ?",
-    "translation": ""
+    "translation": "{AYLA}: Лавос огромный! {GLYPH:392} будет драться с ним?"
   },
   {
     "id": 106,
     "original_en": "{AYLA}: {GLYPH:392}!\nWe go place Lavos fall!",
     "original_fr": "{AYLA} : {GLYPH:392} ! Aller voir endroit où Lavos\ns'écraser !",
-    "translation": ""
+    "translation": "{AYLA}: {GLYPH:392}! Идти туда, где упал Лавос!"
   },
   {
     "id": 107,
     "original_en": "{LUCCA}: She's right, we may be able to do\nsomething now! Let's go and see!",
     "original_fr": "{LUCCA} : Oui, nous pourrions peut-être faire\nquelque chose maintenant... Allons-y !",
-    "translation": ""
+    "translation": "{LUCCA}: Она права, возможно, мы сможем что-то\nсделать прямо сейчас! Идёмте!"
   },
   {
     "id": 108,
     "original_en": "{ROBO}: Lavos should be weaker now.\nWe should go and see.",
     "original_fr": "{ROBO} : Il ne devrait pas être très puissant\nmaintenant. Allons-y !",
-    "translation": ""
+    "translation": "{ROBO}: Сейчас Лавос должен быть слаб. Нам\nследует проверить."
   },
   {
     "id": 109,
     "original_en": "{MARLE}: He just arrived here. We might still\nbe able to do something. Let's go see!",
     "original_fr": "{MARLE} : Il vient tout juste de s'écraser, alors\nnous pourrions peut-être faire quelque chose !\nAllons-y !",
-    "translation": ""
+    "translation": "{MARLE}: Он только что упал сюда. Может быть, мы\nещё успеем что-то изменить! Пойдёмте!"
   },
   {
     "id": 110,
     "original_en": "{FROG}: Left to its own devices, the creature will\nburrow deep into the earth. Best defeat it now!",
     "original_fr": "{FROG} : Si nous le laissons tranquille, il grandira\ndonc sous la terre ? Si nous voulons faire quelque\nchose, c'est maintenant ou jamais !",
-    "translation": ""
+    "translation": "{FROG}: Оставим его в покое — и сия тварь\nзароется в недра земли. Сразим же её сейчас!"
   },
   {
     "id": 111,
     "original_en": "{MARLE}: There's a Gate!",
     "original_fr": "{MARLE} : Un portail !",
-    "translation": ""
+    "translation": "{MARLE}: Здесь Врата!"
   },
   {
     "id": 112,
     "original_en": "{LUCCA}: Why is there a Gate here?",
     "original_fr": "{LUCCA} : Un portail ?! Dans un endroit pareil ?",
-    "translation": ""
+    "translation": "{LUCCA}: Откуда здесь Врата?"
   },
   {
     "id": 113,
     "original_en": "{ROBO}: A Gate has formed!",
     "original_fr": "{ROBO} : Un portail !",
-    "translation": ""
+    "translation": "{ROBO}: Открылись Врата времени!"
   },
   {
     "id": 114,
     "original_en": "{FROG}: A Gate?",
     "original_fr": "{FROG} : Un portail ?",
-    "translation": ""
+    "translation": "{FROG}: Врата?"
   },
   {
     "id": 115,
     "original_en": "{AYLA}: Lavos fast!\nDeep under earth now.",
     "original_fr": "{AYLA} : Lavos être très rapide !\nDéj{TAG:3C} loin sous terre.",
-    "translation": ""
+    "translation": "{AYLA}: Лавос быстрый! Уже глубоко под землёй."
   },
   {
     "id": 116,
     "original_en": "{MARLE}: This Gate was opened by Lavos.\nHe's probably the source of all the Gates.",
     "original_fr": "{MARLE} : Ce portail est apparu {TAG:3C} cause de Lavos.\nJe parie que son pouvoir influe aussi sur les autres\nportails.",
-    "translation": ""
+    "translation": "{MARLE}: Эти Врата открыл сам Лавос. Должно быть,\nон источник всех Врат."
   },
   {
     "id": 117,
     "original_en": "{LUCCA}: Now I understand!\nThe immense energy that Lavos gives off must be\nstretching time and space. That's what's causing the\nGates!",
     "original_fr": "{LUCCA} : Ah...! J'ai compris ! L'immense énergie de\nLavos altère l'espace-temps et crée les portails.",
-    "translation": ""
+    "translation": "{LUCCA}: Теперь я всё поняла! Чудовищная энергия\nЛавоса искажает пространство и время. Вот\nоткуда берутся Врата!"
   },
   {
     "id": 118,
     "original_en": "{ROBO}: These Gates are likely the result of the\nenergy radiating from Lavos placing strains on the\nsurrounding time-space.",
     "original_fr": "{ROBO} : N'est-il pas probable que l'énergie de\nLavos déforme l'espace et crée les portails ?",
-    "translation": ""
+    "translation": "{ROBO}: Вероятно, эти Врата вызваны тем, что\nизлучаемая Лавосом энергия разрывает ткань\nпространства и времени."
   },
   {
     "id": 119,
     "original_en": "{FROG}: Might Lavos be the source of these?{WAIT_KEY}\nThat one in {MAGUS}'s keep was immense.",
     "original_fr": "{FROG} : Ce portail ne serait-il pas apparu {TAG:3C} cause\nde Lavos ?{WAIT_KEY}\nCelui du palais du Magistère était énorme.",
-    "translation": ""
+    "translation": "{FROG}: Неужто Лавос — источник сих Врат?{WAIT_KEY}\nТе, что разверзлись в цитадели {MAGUS}, были\nвоистину колоссальны."
   },
   {
     "id": 120,
     "original_en": "{AYLA}: What wrong, {GLYPH:392}?\nWant fight Lavos, go here. No?",
     "original_fr": "{AYLA} : Quoi se passer, {GLYPH:392} ?\nSi combattre Lavos, passer par portail, non ?",
-    "translation": ""
+    "translation": "{AYLA}: Что такое, {GLYPH:392}? Хочешь драться с Лавос —\nиди сюда. Разве нет?"
   },
   {
     "id": 121,
     "original_en": "{MARLE}: This is exciting!",
     "original_fr": "{MARLE} : Mon c{TAG:61}ur bat la chamade !",
-    "translation": ""
+    "translation": "{MARLE}: Дух захватывает!"
   },
   {
     "id": 122,
     "original_en": "{LUCCA}: Yeah, it was the nearest Gate to Lavos\nafter all. I have no idea where we are.",
     "original_fr": "{LUCCA} : C'est le portail le plus près de Lavos.\nJe ne sais pas où nous avons atterri.",
-    "translation": ""
+    "translation": "{LUCCA}: Да, эти Врата ближе всего к Лавосу. Даже\nне представляю, куда нас занесёт."
   },
   {
     "id": 123,
     "original_en": "{ROBO}: My time gyro reads...12,000 B.C.!\nWe are still in the very distant past.",
     "original_fr": "{ROBO} : Mon gyroscope temporel indique...\nL'an 12 000 avant le calendrier du royaume de\nGardia ?!{WAIT_KEY}\nC'est une époque terriblement ancienne.",
-    "translation": ""
+    "translation": "{ROBO}: Хроногироскоп показывает... 12 000 год до\nнашей эры! Мы всё ещё в глубокой древности."
   },
   {
     "id": 124,
     "original_en": "{FROG}: T-to where have we come?",
     "original_fr": "{FROG} : Où... Où diantre sommes-nous ?",
-    "translation": ""
+    "translation": "{FROG}: К-куда же мы попали?"
   },
   {
     "id": 125,
     "original_en": "{AYLA}: {GLYPH:392}! Where this place?",
     "original_fr": "{AYLA} : {GLYPH:392} ! Ici où ?",
-    "translation": ""
+    "translation": "{AYLA}: {GLYPH:392}! Что это за место?"
   },
   {
     "id": 126,
     "original_en": "{GLYPH:384}\nThe way is sealed.",
     "original_fr": "{GLYPH:384}\nLa voie est scellée...",
-    "translation": ""
+    "translation": "{GLYPH:384} Проход запечатан."
   },
   {
     "id": 127,
     "original_en": "Prophet: Hmm... So you came through here.",
     "original_fr": "Prophète : Hum... Alors, c'est donc de cet endroit...\nJe vois...",
-    "translation": ""
+    "translation": "Пророк: Хм... Значит, вы пришли отсюда."
   },
   {
     "id": 128,
     "original_en": "Prophet: Now, Schala...\nOnce I throw them in, you will seal the portal shut.",
     "original_fr": "Prophète : Quand je les aurai jetés dans le portail,\nérige une barrière.",
-    "translation": ""
+    "translation": "Пророк: Теперь, Шала... Как только я брошу их туда,\nзапечатай портал."
   },
   {
     "id": 129,
     "original_en": "Schala: N-no!\nYou can't make me!",
     "original_fr": "Sarah : Non !",
-    "translation": ""
+    "translation": "Шала: Н-нет! Ты не можешь заставить меня!"
   },
   {
     "id": 130,
     "original_en": "Prophet: You will obey me.\nTheir lives are at stake.",
     "original_fr": "Prophète : Si tu ne m'obéis pas, ils le paieront de leur\nvie...",
-    "translation": ""
+    "translation": "Пророк: Ты подчинишься. На кону их жизни."
   },
   {
     "id": 131,
     "original_en": "Schala: I... Very well.",
     "original_fr": "Sarah : ...\nEntendu.",
-    "translation": ""
+    "translation": "Шала: Я... Хорошо."
   },
   {
     "id": 132,
     "original_en": "Schala: Please forgive me.",
     "original_fr": "Sarah : Je suis désolée.",
-    "translation": ""
+    "translation": "Шала: Пожалуйста, простите меня."
   },
   {
     "id": 133,
     "original_en": "{MARLE}: Why did the prophet let us go?",
     "original_fr": "{MARLE} : Je me demande pourquoi ce prophète ne\nnous a pas éliminés...",
-    "translation": ""
+    "translation": "{MARLE}: Почему пророк нас отпустил?"
   },
   {
     "id": 134,
     "original_en": "{LUCCA}: The prophet could have just as easily\nkilled us.",
     "original_fr": "{LUCCA} : Si ce prophète avait voulu se débarrasser\nde nous, il aurait pu le faire...",
-    "translation": ""
+    "translation": "{LUCCA}: Пророк мог с той же лёгкостью прикончить\nнас на месте."
   },
   {
     "id": 135,
     "original_en": "{ROBO}: Why would the prophet not eliminate us?",
     "original_fr": "{ROBO} : Pourquoi le prophète ne nous a-t-il pas\néliminés ?",
-    "translation": ""
+    "translation": "{ROBO}: Почему пророк сохранил нам жизнь?"
   },
   {
     "id": 136,
     "original_en": "{FROG}: He spared our lives, true enough.\nBut something is amiss.",
     "original_fr": "{FROG} : Ce prophète nous a laissé la vie sauve.\nIl y a quelque chose de louche...",
-    "translation": ""
+    "translation": "{FROG}: Он пощадил нас, это верно. Но здесь\nкроется нечто дурное."
   },
   {
     "id": 137,
     "original_en": "{LUCCA}: The key to defeating Lavos must lie\nin that period.",
     "original_fr": "{LUCCA} : Il semble qu'il y a un moyen de vaincre\nLavos {TAG:3C} cette époque.",
-    "translation": ""
+    "translation": "{LUCCA}: Ключ к победе над Лавосом должен быть\nименно в той эпохе."
   },
   {
     "id": 138,
     "original_en": "{ROBO}: They were utilizing Lavos's power in\nthat era. The means to defeat him must be there.",
     "original_fr": "{ROBO} : Les habitants de cette époque utilisent le\npouvoir de Lavos. Il devrait donc être possible de\ntrouver une façon de le vaincre l{TAG:3C}-bas...",
-    "translation": ""
+    "translation": "{ROBO}: В той эпохе обуздали энергию Лавоса.\nСпособ одолеть его непременно сокрыт там."
   },
   {
     "id": 139,
     "original_en": "{FROG}: Where has {MAGUS} gone?\nI will not allow him to escape until he has\nanswered for the past.",
     "original_fr": "{FROG} : Et qu'est-il arrivé {TAG:3C} {MAGUS} ?\nJe ne peux pas le laisser me glisser entre les doigts.",
-    "translation": ""
+    "translation": "{FROG}: Куда же сгинул {MAGUS}? Я не позволю ему\nуйти безнаказанным за все былые прегрешения."
   },
   {
     "id": 140,
     "original_en": "{AYLA}: They take Lavos power.\nLavos get weak?",
     "original_fr": "{AYLA} : Habitants de Zhyle absorber pouvoir de\nLavos. Lavos pas devenir plus faible ?",
-    "translation": ""
+    "translation": "{AYLA}: Они забирают сила Лавос. Лавос слабеет?"
   },
   {
     "id": 141,
     "original_en": "{MARLE}: But we can't get back to that time.\nWhat should we do?",
     "original_fr": "{MARLE} : Mais nous ne pouvons pas retourner {TAG:3C}\ncette époque. Qu'allons-nous faire ?",
-    "translation": ""
+    "translation": "{MARLE}: Но мы не можем вернуться в то время. Что\nже нам делать?"
   },
   {
     "id": 142,
     "original_en": "{LUCCA}: But the Gate to that time period has\nbeen sealed off. I wonder if there's another way.",
     "original_fr": "{LUCCA} : Mais le portail menant {TAG:3C} cette époque a\nété scellé. Nous allons devoir trouver un autre moyen\nd'y arriver...",
-    "translation": ""
+    "translation": "{LUCCA}: Врата в ту эпоху наглухо запечатаны.\nИнтересно, есть ли другой путь?"
   },
   {
     "id": 143,
     "original_en": "{ROBO}: But, the Gate has been sealed shut.",
     "original_fr": "{ROBO} : Cependant, le portail est condamné.",
-    "translation": ""
+    "translation": "{ROBO}: Увы, Врата наглухо закрыты."
   },
   {
     "id": 144,
     "original_en": "{FROG}: Yet Schala has sealed the Gate,\nand with it, it would seem, our fate.",
     "original_fr": "{FROG} : Mais Sarah n'a-t-elle pas scellé le portail ?\nNous ne pouvons pas retourner l{TAG:3C}-bas.",
-    "translation": ""
+    "translation": "{FROG}: Шала запечатала Врата, а вместе с ними,\nвидно, и нашу судьбу."
   },
   {
     "id": 145,
     "original_en": "{AYLA}: No Gate.\nNo can go.",
     "original_fr": "{AYLA} : Mais nous pas pouvoir retourner l{TAG:3C}-bas.",
-    "translation": ""
+    "translation": "{AYLA}: Нет Врат. Нельзя пройти."
   },
   {
     "id": 146,
     "original_en": "{MARLE}: Wait a minute. The design from the door\nthat the pendant opened—I've seen it in other places.",
     "original_fr": "{MARLE} : Au fait, j'ai l'impression d'avoir déj{TAG:3C} vu\nl'emblème qui était sur la porte qu'on a pu ouvrir\navec mon pendentif ailleurs qu'{TAG:3C} cette époque...",
-    "translation": ""
+    "translation": "{MARLE}: Погодите-ка! Узор на двери, которую\nоткрыл кулон... Я уже видела его в других местах!"
   },
   {
     "id": 147,
     "original_en": "{LUCCA}: Wait! The crest on that sealed door...\nWe've seen it elsewhere, haven't we?",
     "original_fr": "{LUCCA} : Mais j'y pense ! N'avons-nous pas déj{TAG:3C} vu\nquelque part l'emblème qui était sur la porte qu'on\na pu ouvrir avec le pendentif ?",
-    "translation": ""
+    "translation": "{LUCCA}: Стойте! Герб на той запертой двери... Мы\nведь уже встречали его в других временах?"
   },
   {
     "id": 148,
     "original_en": "{ROBO}: Do you recall the crest on the door\nthat the pendant opened? I have seen several of\nthem in my own time.",
     "original_fr": "{ROBO} : Certaines portes {TAG:3C} mon époque sont\ndécorées du même emblème que celui sur la\nporte que nous avons ouverte gr{TAG:4A}ce au\npendentif.",
-    "translation": ""
+    "translation": "{ROBO}: Помните герб на двери, отпертой кулоном? Я\nвидел несколько таких дверей в моём времени."
   },
   {
     "id": 149,
     "original_en": "{FROG}: The emblem upon the door that pendant\nopened... Had you not seen it in other ages before?",
     "original_fr": "{FROG} : Au fait... Cette porte décorée d'un\nemblème que nous avons ouverte avec le\npendentif...{WAIT_KEY}\nN'avez-vous pas dit que vous en aviez déj{TAG:3C} vu {TAG:3C} une\nautre époque ?",
-    "translation": ""
+    "translation": "{FROG}: Герб на двери, отворённой кулоном... Не\nвстречали ли вы его в иных эпохах?"
   },
   {
     "id": 150,
     "original_en": "{MARLE}: Let's check it out, {CRONO}!",
     "original_fr": "{MARLE} : Allons vérifier, {CRONO}  !",
-    "translation": ""
+    "translation": "{MARLE}: Пойдём проверим, {CRONO}!"
   },
   {
     "id": 151,
     "original_en": "{LUCCA}: We may find our way back to that era yet!\nLet's get cracking, {CRONO}!",
     "original_fr": "{LUCCA} : Nous pourrons peut-être trouver une\nfaçon de retourner {TAG:3C} Zhyle ! Allons-y, {CRONO} !",
-    "translation": ""
+    "translation": "{LUCCA}: Мы ещё можем найти путь в ту эпоху! За\nдело, {CRONO}!"
   },
   {
     "id": 152,
     "original_en": "{ROBO}: Let us return to my time!",
     "original_fr": "{ROBO} : Allons {TAG:3C} mon époque pour voir !",
-    "translation": ""
+    "translation": "{ROBO}: Давайте вернёмся в моё время!"
   },
   {
     "id": 153,
     "original_en": "{FROG}: It seems our only hope, does it not,\n{CRONO}?",
     "original_fr": "{FROG} : Aller vérifier est la seule solution.\nQu'en dis-tu, {CRONO} ?",
-    "translation": ""
+    "translation": "{FROG}: Кажется, это наша единственная надежда,\nне так ли, {CRONO}?"
   },
   {
     "id": 154,
     "original_en": "This is it—the summit of Death Peak.",
     "original_fr": "Nous y sommes... Le sommet du mont des défunts.",
-    "translation": ""
+    "translation": "Вот она — вершина Пика Смерти."
   },
   {
     "id": 155,
     "original_en": "{MARLE}: You who fear the night and stand against\nthe darkness...\nPlease, give us your strength!",
     "original_fr": "{MARLE} : Je vous en supplie.\nOctroyez-moi votre pouvoir.\në sentiments frémissant dans la nuit...\në vie défiant les ténèbres...",
-    "translation": ""
+    "translation": "{MARLE}: Вы, страшащиеся ночи и бросающие вызов\nтьме... Умоляю, даруйте нам свою силу!"
   },
   {
     "id": 156,
     "original_en": "{LUCCA}: You who fear the night and fight the\ncoming of darkness...\nLend us strength!",
     "original_fr": "{LUCCA} : ë sentiments frémissant dans la nuit...\në vie défiant les ténèbres...\nOctroyez-moi votre pouvoir !",
-    "translation": ""
+    "translation": "{LUCCA}: Вы, страшащиеся ночи и бьющиеся с тьмой...\nДаруйте нам силу!"
   },
   {
     "id": 157,
     "original_en": "{ROBO}: Fearer of night and opposer of darkness...\nPlease grant us your power.",
     "original_fr": "{ROBO} : Je vous en prie.\nPrêtez-moi votre pouvoir.\në sentiments frémissant dans la nuit...\në vie défiant les ténèbres...",
-    "translation": ""
+    "translation": "{ROBO}: Те, кто страшится ночи и противостоит\nтьме... Прошу, даруйте нам свою мощь."
   },
   {
     "id": 158,
     "original_en": "{FROG}: You who fear the night and stand\nagainst the darkness—lend us your strength!",
     "original_fr": "{FROG} : Je vous en prie, octroyez-moi votre\npouvoir...{WAIT_KEY}\në sentiments frémissant dans la nuit !\në vie défiant les ténèbres !",
-    "translation": ""
+    "translation": "{FROG}: Вы, страшащиеся ночи и бросающие вызов\nтьме — даруйте нам свою силу!"
   },
   {
     "id": 159,
     "original_en": "{LUCCA}: {CRONO}!",
     "original_fr": "{LUCCA} : {CRONO} !",
-    "translation": ""
+    "translation": "{LUCCA}: {CRONO}!"
   },
   {
     "id": 160,
     "original_en": "{ROBO}: {CRONO}!",
     "original_fr": "{ROBO} : {CRONO} !",
-    "translation": ""
+    "translation": "{ROBO}: {CRONO}!"
   },
   {
     "id": 161,
     "original_en": "{FROG}: {CRONO}!",
     "original_fr": "{FROG} : {CRONO} !",
-    "translation": ""
+    "translation": "{FROG}: {CRONO}!"
   },
   {
     "id": 162,
     "original_en": "{AYLA}: {GLYPH:392}!",
     "original_fr": "{AYLA} : {GLYPH:392} !",
-    "translation": ""
+    "translation": "{AYLA}: {GLYPH:392}!"
   },
   {
     "id": 163,
     "original_en": "The pendant's reacting!",
     "original_fr": "Le pendentif résonne !",
-    "translation": ""
+    "translation": "Кулон откликается!"
   },
   {
     "id": 164,
     "original_en": "It...it shattered!",
     "original_fr": "Il... Il a éclaté...",
-    "translation": ""
+    "translation": "Он... он раскололся!"
   },
   {
     "id": 165,
     "original_en": "{MARLE}: But...\nWe've come so far!",
     "original_fr": "{MARLE} : Non...!\nPourquoi sommes-nous venus jusqu'ici, alors...?",
-    "translation": ""
+    "translation": "{MARLE}: Но как же так?.. Мы ведь проделали такой\nпуть!"
   },
   {
     "id": 166,
     "original_en": "{MARLE}: Please, answer me.\nDon't leave me!",
     "original_fr": "{MARLE} : Réponds-moi...\nNe me laisse pas seule...",
-    "translation": ""
+    "translation": "{MARLE}: Пожалуйста, ответь мне. Не оставляй меня!"
   },
   {
     "id": 167,
     "original_en": "{MARLE}: {CRONO}!",
     "original_fr": "{GLYPH:384}\n{CRONO} !!",
-    "translation": ""
+    "translation": "{MARLE}: {CRONO}!"
   },
   {
     "id": 168,
     "original_en": "{LUCCA}: No...\nWhat use was it to come so far?",
     "original_fr": "{LUCCA} : Non...!\nPourquoi sommes-nous venus jusqu'ici, alors...?",
-    "translation": ""
+    "translation": "{LUCCA}: Нет... Зачем же мы зашли так далеко?!"
   },
   {
     "id": 169,
     "original_en": "{LUCCA}: {CRONO}!\nSay something!\nDon't just ignore us!",
     "original_fr": "{LUCCA} : {CRONO} !\nRéponds-moi !!\nNe nous ignore pas !",
-    "translation": ""
+    "translation": "{LUCCA}: {CRONO}! Скажи хоть слово! Не молчи!"
   },
   {
     "id": 170,
     "original_en": "{FROG}: 'Twas folly to come here.\nAll this, and for naught...",
     "original_fr": "{FROG} : Non...!\nPourquoi sommes-nous venus jusqu'ici, alors...?",
-    "translation": ""
+    "translation": "{FROG}: Безумием было уповать на чудо. Столько\nтрудов — и всё впустую..."
   },
   {
     "id": 171,
     "original_en": "{FROG}: {CRONO}!\nAnswer us!",
     "original_fr": "{FROG} : {CRONO} !\nRéponds-moi !",
-    "translation": ""
+    "translation": "{FROG}: {CRONO}! Ответь нам!"
   },
   {
     "id": 172,
     "original_en": "{ROBO}: This cannot be!\nAll of our work accomplished nothing.",
     "original_fr": "{ROBO} : Non...!\nPourquoi sommes-nous venus jusqu'ici, alors...?",
-    "translation": ""
+    "translation": "{ROBO}: Этого не может быть! Все наши усилия\nобратились в прах."
   },
   {
     "id": 173,
     "original_en": "{ROBO}: {CRONO}!\nPlease answer us!",
     "original_fr": "{ROBO} : {CRONO} !\nRéponds-moi !",
-    "translation": ""
+    "translation": "{ROBO}: {CRONO}! Прошу, ответь нам!"
   },
   {
     "id": 174,
     "original_en": "{LUCCA}: Try not to be upset.\nIt was silly to think we could get him back.",
     "original_fr": "{LUCCA} : Ne sois pas triste. Tout compte fait, on ne\npeut pas ressusciter les morts...",
-    "translation": ""
+    "translation": "{LUCCA}: Не плачь... Глупо было думать, что мы\nсможем вернуть его."
   },
   {
     "id": 175,
     "original_en": "{ROBO}: Please do not despair.\nWe placed too much hope in bringing {CRONO} back.",
     "original_fr": "{ROBO} : Ne sois pas triste. Tout compte fait, on ne\npeut pas ressusciter les morts...",
-    "translation": ""
+    "translation": "{ROBO}: Прошу, не отчаивайтесь. Мы возложили\nслишком большие надежды на возвращение {CRONO}."
   },
   {
     "id": 176,
     "original_en": "{FROG}: Do not despair.\nIt was foolish to think we could cheat death.",
     "original_fr": "{FROG} : Ne sois pas triste... Cela veut-il dire que\nnous ne pouvons pas changer le destin d'une\npersonne...?",
-    "translation": ""
+    "translation": "{FROG}: Не предавайся отчаянию. Было дерзостью\nдумать, что мы обманем смерть."
   },
   {
     "id": 177,
     "original_en": "{AYLA}: No cry!\n{AYLA} miss {GLYPH:392}, too.\nSad {GLYPH:392} no come back.",
     "original_fr": "{AYLA} : Pas pleurer ! {CRONO} aussi manquer {TAG:3C}\n{AYLA} ! {AYLA} triste que {CRONO} pas\nrevenir...",
-    "translation": ""
+    "translation": "{AYLA}: Не плакать! {AYLA} тоже скучать по {GLYPH:392}.\nГрустно, что {GLYPH:392} не вернуться."
   },
   {
     "id": 178,
     "original_en": "{MARLE}: {CRONO}!\nOh, {CRONO}, you're back!",
     "original_fr": "{MARLE} : {CRONO}...\nTu es revenu !!",
-    "translation": ""
+    "translation": "{MARLE}: {CRONO}! О, {CRONO}, ты вернулся!"
   },
   {
     "id": 179,
     "original_en": "{LUCCA}: {CRONO}!\nIt's about time!",
     "original_fr": "{LUCCA} : {CRONO}...\nTu es revenu !!",
-    "translation": ""
+    "translation": "{LUCCA}: {CRONO}! Ну наконец-то!"
   },
   {
     "id": 180,
     "original_en": "{FROG}: Good of you to return, {CRONO}.",
     "original_fr": "{FROG} : {CRONO}...\nIl fait bon te revoir.",
-    "translation": ""
+    "translation": "{FROG}: Славное возвращение, {CRONO}."
   },
   {
     "id": 181,
     "original_en": "{ROBO}: Sir {CRONO}!\nWelcome back!",
     "original_fr": "{ROBO} : {CRONO}...\nTu es revenu !!",
-    "translation": ""
+    "translation": "{ROBO}: Сэр {CRONO}! С возвращением!"
   },
   {
     "id": 182,
     "original_en": "{LUCCA}: I'm so glad you're back, {CRONO}!",
     "original_fr": "{LUCCA} : Je suis si heureuse de te revoir...",
-    "translation": ""
+    "translation": "{LUCCA}: Я так счастлива, что ты вернулся, {CRONO}!"
   },
   {
     "id": 183,
     "original_en": "{FROG}: No worse for the wear, I trust?",
     "original_fr": "{FROG} : Comment te sens-tu, {CRONO} ?",
-    "translation": ""
+    "translation": "{FROG}: На тебе ни царапины, смею надеяться?"
   },
   {
     "id": 184,
     "original_en": "{ROBO}: Oh, Sir {CRONO}...\nIt is a relief to have you with us again.",
     "original_fr": "{ROBO} : Oh... {CRONO}.\nJe suis si heureux...",
-    "translation": ""
+    "translation": "{ROBO}: О, сэр {CRONO}... Какое облегчение снова\nвидеть вас с нами."
   },
   {
     "id": 185,
     "original_en": "{AYLA}: {GLYPH:392} back!\n{GLYPH:392} okay?",
     "original_fr": "{AYLA} : {GLYPH:392} revenir {TAG:3C} la vie !\n{GLYPH:392} être en pleine forme ?",
-    "translation": ""
+    "translation": "{AYLA}: {GLYPH:392} живой! {GLYPH:392} в порядке?"
   },
   {
     "id": 186,
     "original_en": "{MARLE}: We...{WAIT_KEY}\nWe were all waiting for you to come back.",
     "original_fr": "{MARLE} : Nous...{WAIT_KEY}\nNous t'avons tous attendu.",
-    "translation": ""
+    "translation": "{MARLE}: Мы...{WAIT_KEY}\nМы все ждали твоего возвращения."
   },
   {
     "id": 187,
     "original_en": "{MARLE}: You can't...{WAIT_KEY}\nDon't ever leave us like that again!",
     "original_fr": "{MARLE} : {CRONO}...{WAIT_KEY}\nNe nous quitte plus jamais...!",
-    "translation": ""
+    "translation": "{MARLE}: Ты не должен...{WAIT_KEY}\nБольше никогда не бросай нас вот так!"
   },
   {
     "id": 188,
     "original_en": "{LUCCA}: You big dummy!{WAIT_KEY}\nYou...you wouldn't believe what we had to go through\nfor you!",
     "original_fr": "{LUCCA} : Espèce d'idiot...{WAIT_KEY}\nNous t'attendions tous !",
-    "translation": ""
+    "translation": "{LUCCA}: Ах ты болван!{WAIT_KEY}\nТы... ты просто не представляешь, через что нам\nпришлось пройти ради тебя!"
   },
   {
     "id": 189,
     "original_en": "{LUCCA}: You mess up like that again...{WAIT_KEY}\nAnd you'll have to get yourself out of it!",
     "original_fr": "{LUCCA} : La prochaine fois que tu fais une bêtise...{WAIT_KEY}\nNous ne te porterons pas secours !",
-    "translation": ""
+    "translation": "{LUCCA}: Влипнешь так ещё раз...{WAIT_KEY}\nИ сам будешь выпутываться!"
   },
   {
     "id": 190,
     "original_en": "{FROG}: You should be thankful.{WAIT_KEY}\nYou are blessed, to be so loved by everyone.\nYou lucky...lucky fool.",
     "original_fr": "{FROG} : Tu es un heureux mortel...{WAIT_KEY}\nTu es adoré de tous... Espèce de veinard...",
-    "translation": ""
+    "translation": "{FROG}: Тебе стоит возблагодарить судьбу.{WAIT_KEY}\nВеликое благо — быть столь любимым всеми.\nСчастливчик... несусветный везунчик."
   },
   {
     "id": 191,
     "original_en": "{ROBO}: We have all been waiting for you!{WAIT_KEY}\n{MARLE}, and {LUCCA}, and...well, all of us!",
     "original_fr": "{ROBO} : Nous t'avons tous attendu !{WAIT_KEY}\n{MARLE}, {LUCCA}...\nTout le monde t'attendait !",
-    "translation": ""
+    "translation": "{ROBO}: Мы все так тебя ждали!{WAIT_KEY}\n{MARLE}, и {LUCCA}, и... вообще все!"
   },
   {
     "id": 192,
     "original_en": "{MAGUS}: Hmph.",
     "original_fr": "{MAGUS} : ...\nTsst !",
-    "translation": ""
+    "translation": "{MAGUS}: Хм."
   },
   {
     "id": 193,
     "original_en": "{MARLE}: A lot of things happened, {CRONO}.\nWhile you were away...\nFirst, we...and then...{WAIT_KEY}\nAnd after that I...so we...\nBut...{WAIT_KEY}\n{CRONO}!\nAre you even listening?{WAIT_KEY}\nThere's so much I still have to tell you.",
     "original_fr": "{MARLE} : Quand tu n'étais pas l{TAG:3C}, {CRONO}...\nIl s'est passé toutes sortes de choses...\nEt ensuite...{WAIT_KEY}\n... l{TAG:3C}-bas... Je...\nNous avons fait... mais...{WAIT_KEY}\n...\nDis, {CRONO} !\nTu m'écoutes ?{WAIT_KEY}\nJ'ai encore tant {TAG:3C} te dire...",
-    "translation": ""
+    "translation": "{MARLE}: Столько всего случилось, {CRONO}. Пока тебя\nне было... Сначала мы... а потом...{WAIT_KEY}\nА после я... и мы... Но...{WAIT_KEY}\n{CRONO}! Ты вообще меня слушаешь?{WAIT_KEY}\nМне ещё столько нужно тебе рассказать!"
   },
   {
     "id": 194,
     "original_en": "{LUCCA}: We had such a terrible time\nwithout you. {MARLE} was...and...\nSo then we...and even I...{WAIT_KEY}\nHey!\nYou listening, {CRONO}?{WAIT_KEY}\nI really...really can't stand you, you know!",
     "original_fr": "{LUCCA} : Pendant ton absence...\nC'était vraiment horrible...{WAIT_KEY}\n... {MARLE}, elle... beaucoup...\n... mais... Moi aussi...{WAIT_KEY}\n...\nDis, {CRONO} !\nîcoute-moi !{WAIT_KEY}\nTu n'es vraiment... qu'un idiot...",
-    "translation": ""
+    "translation": "{LUCCA}: Нам было так тяжело без тебя. {MARLE} так\nпереживала... и... Потом мы... и даже я...{WAIT_KEY}\nЭй! Ты слушаешь меня, {CRONO}?{WAIT_KEY}\nЯ просто... просто терпеть тебя не могу, ясно?!"
   },
   {
     "id": 195,
     "original_en": "{GLYPH:384}\nObtained 3 Prismatic Helms!",
     "original_fr": "{GLYPH:384}\nVous obtenez trois armets irisés !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получено: 3 Радужных шлема!"
   },
   {
     "id": 196,
