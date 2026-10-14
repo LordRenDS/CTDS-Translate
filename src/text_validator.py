@@ -1427,12 +1427,23 @@ def wrap_text_block(
 
         if auto_paginate:
             if page_lines:
-                chunk_size = max(1, max_lines)
-                chunks = [
-                    page_lines[i : i + chunk_size]
-                    for i in range(0, len(page_lines), chunk_size)
-                ]
-                page_str = "{PAGE}".join("\n".join(chunk) for chunk in chunks)
+                sub_pages: List[List[str]] = [[]]
+                for line in page_lines:
+                    sub_pages[-1].append(line)
+                    if PAGE_DELIM_PATTERN.search(line):
+                        sub_pages.append([])
+
+                paginated_subpages = []
+                for sp in sub_pages:
+                    if not sp:
+                        continue
+                    chunk_size = max(1, max_lines)
+                    chunks = [
+                        sp[i : i + chunk_size]
+                        for i in range(0, len(sp), chunk_size)
+                    ]
+                    paginated_subpages.append("{PAGE}".join("\n".join(chunk) for chunk in chunks))
+                page_str = "\n".join(paginated_subpages)
             else:
                 page_str = ""
             formatted_pages.append(page_str)
