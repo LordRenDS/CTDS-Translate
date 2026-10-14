@@ -482,6 +482,36 @@ def get_constraints_for_entry(
     if base_name == "bgm.json":
         return WINDOW_PRESETS["bgm_name"]
 
+    if base_name == "ex_monspot.json":
+        return TextWindowPreset(
+            name="ex_monspot",
+            max_width_px=136,
+            max_lines=6,
+            reflow=False,
+            font_type="big",
+            patterns=(),
+        )
+
+    if base_name == "ex_montec.json":
+        return TextWindowPreset(
+            name="ex_montec",
+            max_width_px=136,
+            max_lines=12,
+            reflow=False,
+            font_type="big",
+            patterns=(),
+        )
+
+    if base_name == "ex_itemget.json":
+        return TextWindowPreset(
+            name="ex_itemget",
+            max_width_px=136,
+            max_lines=8,
+            reflow=False,
+            font_type="big",
+            patterns=(),
+        )
+
     if base_name == "tutorial.json":
         if entry_id == 12:
             return TextWindowPreset(

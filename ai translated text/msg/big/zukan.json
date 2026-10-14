@@ -3,150 +3,150 @@
     "id": 0,
     "original_en": "Bestiary",
     "original_fr": "Bestiaire",
-    "translation": ""
+    "translation": "Бестиарий"
   },
   {
     "id": 1,
     "original_en": "HP",
     "original_fr": "PV",
-    "translation": ""
+    "translation": "ОЗ"
   },
   {
     "id": 2,
     "original_en": "Defense",
     "original_fr": "Défense",
-    "translation": ""
+    "translation": "Защита"
   },
   {
     "id": 3,
     "original_en": "Magic Defense",
     "original_fr": "Défense magique",
-    "translation": ""
+    "translation": "Маг. Защита"
   },
   {
     "id": 4,
     "original_en": "EXP",
     "original_fr": "EXP",
-    "translation": ""
+    "translation": "Опыт"
   },
   {
     "id": 5,
     "original_en": "TP",
     "original_fr": "PC",
-    "translation": ""
+    "translation": "ОТ"
   },
   {
     "id": 6,
     "original_en": "G",
     "original_fr": "Argent",
-    "translation": ""
+    "translation": "З"
   },
   {
     "id": 7,
     "original_en": "Treasure:",
     "original_fr": "Butin :",
-    "translation": ""
+    "translation": "Сокровища:"
   },
   {
     "id": 8,
     "original_en": "Charm:",
     "original_fr": "Séduction :",
-    "translation": ""
+    "translation": "Талисман:"
   },
   {
     "id": 9,
     "original_en": "Elements:",
     "original_fr": "îléments",
-    "translation": ""
+    "translation": "Элементы:"
   },
   {
     "id": 10,
     "original_en": "Weak",
     "original_fr": "Craint ",
-    "translation": ""
+    "translation": "Слабость"
   },
   {
     "id": 11,
     "original_en": "Absorbs",
     "original_fr": "Absorbe ",
-    "translation": ""
+    "translation": "Поглощает"
   },
   {
     "id": 12,
     "original_en": "Immune",
     "original_fr": "Résiste",
-    "translation": ""
+    "translation": "Имунитет"
   },
   {
     "id": 13,
     "original_en": "Locales:",
     "original_fr": "Zones principales",
-    "translation": ""
+    "translation": "Места:"
   },
   {
     "id": 14,
     "original_en": "Techs:",
     "original_fr": "Compétences",
-    "translation": ""
+    "translation": "Техники:"
   },
   {
     "id": 15,
     "original_en": "Attributes",
     "original_fr": "Attributs",
-    "translation": ""
+    "translation": "Атрибуты"
   },
   {
     "id": 16,
     "original_en": "Discovered:",
     "original_fr": "Rencontrés",
-    "translation": ""
+    "translation": "Обнар-но:"
   },
   {
     "id": 17,
     "original_en": " ",
     "original_fr": "",
-    "translation": ""
+    "translation": " "
   },
   {
     "id": 18,
     "original_en": "%",
     "original_fr": "%",
-    "translation": ""
+    "translation": "%"
   },
   {
     "id": 19,
     "original_en": "Toggle form",
     "original_fr": "Autre forme",
-    "translation": ""
+    "translation": "Смена формы"
   },
   {
     "id": 20,
     "original_en": "Toggle type",
     "original_fr": "Variante",
-    "translation": ""
+    "translation": "Смена типа"
   },
   {
     "id": 21,
     "original_en": "---",
     "original_fr": "---",
-    "translation": ""
+    "translation": "---"
   },
   {
     "id": 22,
     "original_en": "No. ",
     "original_fr": "NÎ ",
-    "translation": ""
+    "translation": "{GLYPH:132}"
   },
   {
     "id": 23,
     "original_en": "Elements",
     "original_fr": "îléments",
-    "translation": ""
+    "translation": "Элементы"
   },
   {
     "id": 24,
     "original_en": "Techs",
     "original_fr": "Compétences",
-    "translation": ""
+    "translation": "Техники"
   }
 ]
