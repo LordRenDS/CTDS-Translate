@@ -201,25 +201,25 @@
     "id": 33,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Tier 1:{TAG:7E} 100 G{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Tier 2:{TAG:7A} 500 G{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Tier 3:{TAG:70} 1000 G{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Cancel.{GLYPH:401}",
     "original_fr": "       {GLYPH:394}Niveau 1 : 100 G{GLYPH:395}\n       {GLYPH:396}Niveau 2 : 500 G{GLYPH:397}\n       {GLYPH:398}Niveau 3 : 1000 G{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
-    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 1:{TAG:7E} 100 G{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Разряд 2:{TAG:7A} 500 G{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Разряд 3:{TAG:70} 1000\nG{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 1:{TAG:7E} 100 З{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Разряд 2:{TAG:7A} 500 З{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Разряд 3:{TAG:70} 1000 З{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
   },
   {
     "id": 34,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Tier 2:{TAG:7A} 500 G{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Tier 3:{TAG:70} 1000 G{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Tier 4: 3000 G{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Cancel.{GLYPH:401}",
     "original_fr": "       {GLYPH:394}Niveau 2 : 500 G{GLYPH:395}\n       {GLYPH:396}Niveau 3 : 1000 G{GLYPH:397}\n       {GLYPH:398}Niveau 4 : 3000 G{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
-    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 2:{TAG:7A} 500 G{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Разряд 3:{TAG:70} 1000 G{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Разряд 4:\n3000 G{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 2:{TAG:7A} 500 З{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Разряд 3:{TAG:70} 1000 З{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Разряд 4:\n3000 З{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
   },
   {
     "id": 35,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Tier 3:{TAG:7F} 1000 G{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Tier 4:♀ 3000 G{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Tier 5:♀ 5000 G{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Cancel.{GLYPH:401}",
     "original_fr": "       {GLYPH:394}Niveau 3 : 1000 G{GLYPH:395}\n       {GLYPH:396}Niveau 4 : 3000 G{GLYPH:397}\n       {GLYPH:398}Niveau 5 : 5000 G{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
-    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 3:{TAG:7F} 1000 G{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Разряд 4:♀ 3000 G{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Разряд 5:♀\n5000 G{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 3:{TAG:7F} 1000 З{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Разряд 4:♀ 3000 З{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Разряд 5:♀\n5000 З{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
   },
   {
     "id": 36,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Tier 4:♀ 3000 G{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Tier 5:♀ 5000 G{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Tier 6: 10,000 G{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Cancel.{GLYPH:401}",
     "original_fr": "       {GLYPH:394}Niveau 4 : 3000 G{GLYPH:395}\n       {GLYPH:396}Niveau 5 : 5000 G{GLYPH:397}\n       {GLYPH:398}Niveau 6 : 10 000 G{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
-    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 4:♀ 3000 G{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Разряд 5:♀ 5000 G{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Разряд 6:\n10 000 G{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 4:♀ 3000 З{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Разряд 5:♀ 5000 З{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Разряд 6:\n10 000 З{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
   },
   {
     "id": 37,

@@ -3,13 +3,13 @@
     "id": 0,
     "original_en": "Defeat Lavos after reviving Crono at Death Peak.",
     "original_fr": "Après avoir ressuscité Chrono sur le mont des\ndéfunts.",
-    "translation": "Одолейте Лавоса после воскрешения Кроно на\nПике Смерти."
+    "translation": "Одолейте Лавоса после воскрешения Хроно на\nПике Смерти."
   },
   {
     "id": 1,
     "original_en": "Defeat Lavos while Crono is dead.",
     "original_fr": "Alors que Chrono est décédé.",
-    "translation": "Одолейте Лавоса, пока Кроно мёртв."
+    "translation": "Одолейте Лавоса, пока Хроно мёртв."
   },
   {
     "id": 2,
@@ -87,7 +87,7 @@
     "id": 14,
     "original_en": "This is the ending if Crono is dead. Contents\nvary according to the status of the Epoch.",
     "original_fr": "La fin si Chrono est décédé. La séquence change\nsuivant que l'équipe possède encore l'Ibis ou non.",
-    "translation": "Концовка при гибели Кроно. Содержимое зависит\nот сохранности Эпохи."
+    "translation": "Концовка при гибели Хроно. Содержимое зависит\nот сохранности Эпохи."
   },
   {
     "id": 15,

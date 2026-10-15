@@ -3,13 +3,13 @@
     "id": 0,
     "original_en": "Crono's House\n1F",
     "original_fr": "Maison de Chrono\nRDC",
-    "translation": "Дом Кроно 1 этаж"
+    "translation": "Дом Хроно 1 этаж"
   },
   {
     "id": 1,
     "original_en": "Crono's House\n2F",
     "original_fr": "Maison de Chrono\n1er étage",
-    "translation": "Дом Кроно 2 этаж"
+    "translation": "Дом Хроно 2 этаж"
   },
   {
     "id": 2,
@@ -2391,7 +2391,7 @@
     "id": 398,
     "original_en": "Crono's House\nUnspecified",
     "original_fr": "Maison de Chrono\nNon-spécifié",
-    "translation": "Дом Кроно Не указано"
+    "translation": "Дом Хроно Не указано"
   },
   {
     "id": 399,
@@ -2571,7 +2571,7 @@
     "id": 428,
     "original_en": "Death Peak\nCrono Revival Event",
     "original_fr": "Mont des défunts\nîvénement résurrection de Chrono",
-    "translation": "Пик Смерти Воскрешение Кроно"
+    "translation": "Пик Смерти Воскрешение Хроно"
   },
   {
     "id": 429,

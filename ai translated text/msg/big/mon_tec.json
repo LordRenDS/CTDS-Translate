@@ -9,7 +9,7 @@
     "id": 1,
     "original_en": "Head repairs damage.",
     "original_fr": "La tête répare les dég{TAG:4A}ts.",
-    "translation": "Голова устраняет повреждения."
+    "translation": "Голова чинит повреждения."
   },
   {
     "id": 2,
@@ -33,13 +33,13 @@
     "id": 5,
     "original_en": "Crushing Blow",
     "original_fr": "Coup mortel !",
-    "translation": "Сокрушительный удар"
+    "translation": "Дробящий удар"
   },
   {
     "id": 6,
     "original_en": "Needle Spin: Yakra's needle-launching attack",
     "original_fr": "Volée d'épines / Attaque d'épines géantes",
-    "translation": "Вихрь игл: игольная атака Якры"
+    "translation": "Вихрь игл: Атака иглами Якры"
   },
   {
     "id": 7,
@@ -57,7 +57,7 @@
     "id": 9,
     "original_en": "Grraaagh!",
     "original_fr": "Drooo...",
-    "translation": "Гр-р-ра-а!"
+    "translation": "Гр-р-ра-а-а!"
   },
   {
     "id": 10,
@@ -69,7 +69,7 @@
     "id": 11,
     "original_en": "I'll mash you to goo!",
     "original_fr": "Je vais vous déchiqueter !",
-    "translation": "Размажу вас в лепёшку!"
+    "translation": "Я сотру вас в порошок!"
   },
   {
     "id": 12,
@@ -93,199 +93,199 @@
     "id": 15,
     "original_en": "Ozzie's in a pickle!",
     "original_fr": "Vinnie est dans le pétrin !",
-    "translation": "Ozzie's in a pickle!"
+    "translation": "Оззи попал в переплёт!"
   },
   {
     "id": 16,
     "original_en": "Sand Breath: Blind",
     "original_fr": "Souffle de sable / Cécité",
-    "translation": "Sand Breath: Blind"
+    "translation": "Песчаное дыхание: Слепота"
   },
   {
     "id": 17,
     "original_en": "Triple Counter - Delta Attack",
     "original_fr": "Riposte {TAG:3C} trois : Delta",
-    "translation": "Triple Counter - Delta Attack"
+    "translation": "Тройная контратака: Дельта-Атака"
   },
   {
     "id": 18,
     "original_en": "Blood, blood, blood...",
     "original_fr": "Sang, sang, sang, sang...",
-    "translation": "Blood, blood, blood..."
+    "translation": "Кровь, кровь, кровь..."
   },
   {
     "id": 19,
     "original_en": "Death, death, death...",
     "original_fr": "Mort, mort, mort, mort...",
-    "translation": "Death, death, death..."
+    "translation": "Смерть, смерть, смерть..."
   },
   {
     "id": 20,
     "original_en": "Graaah!",
     "original_fr": "Grrrr...",
-    "translation": "Graaah!"
+    "translation": "Гра-а-а!"
   },
   {
     "id": 21,
     "original_en": "Go ahead, try and attack! See what it gets you!",
     "original_fr": "Allez ! Attaquez-moi pour voir...",
-    "translation": "Go ahead, try and attack! See what it gets you!"
+    "translation": "Давай, атакуй! Посмотрим, что выйдет!"
   },
   {
     "id": 22,
     "original_en": "Water II!",
     "original_fr": "Eauï !",
-    "translation": "Water II!"
+    "translation": "Вода II!"
   },
   {
     "id": 23,
     "original_en": "Pods revived.",
     "original_fr": "Régénération des modules",
-    "translation": "Pods revived."
+    "translation": "Коконы возродились."
   },
   {
     "id": 24,
     "original_en": "Counterattack stance disengaged.",
     "original_fr": "Interruption temporaire des ripostes",
-    "translation": "Counterattack stance disengaged."
+    "translation": "Стойка контратаки снята."
   },
   {
     "id": 25,
     "original_en": "Chemical Reaction",
     "original_fr": "Fusion chimique avec un allié",
-    "translation": "Chemical Reaction"
+    "translation": "Химическая реакция"
   },
   {
     "id": 26,
     "original_en": "Storing whirlwind energy.",
     "original_fr": "Accumulation d'énergie tourbillonnante",
-    "translation": "Storing whirlwind energy."
+    "translation": "Накопление энергии вихря."
   },
   {
     "id": 27,
     "original_en": "Whirlwind energy dissipated.",
     "original_fr": "înergie tourbillonnante dissipée",
-    "translation": "Whirlwind energy dissipated."
+    "translation": "Энергия вихря рассеялась."
   },
   {
     "id": 28,
     "original_en": "Counter - Amplifier",
     "original_fr": "Riposte : Amplificateur",
-    "translation": "Counter - Amplifier"
+    "translation": "Контратака: Усилитель"
   },
   {
     "id": 29,
     "original_en": "Vacuum Wave!",
     "original_fr": "Onde de vide !",
-    "translation": "Vacuum Wave!"
+    "translation": "Вакуумная волна!"
   },
   {
     "id": 30,
     "original_en": "What are you aiming at, you imbecile?",
     "original_fr": "C'est tout ce que tu sais faire ?",
-    "translation": "What are you aiming at, you imbecile?"
+    "translation": "Куда ты целишься, недоумок?!"
   },
   {
     "id": 31,
     "original_en": "Yah!",
     "original_fr": "Yaaah !",
-    "translation": "Yah!"
+    "translation": "Йа-а!"
   },
   {
     "id": 32,
     "original_en": "Ha ha ha ha ha!",
     "original_fr": "Ho, ho, ho, ho, ho !",
-    "translation": "Ha ha ha ha ha!"
+    "translation": "Ха-ха-ха-ха-ха!"
   },
   {
     "id": 33,
     "original_en": "Shocked!",
     "original_fr": "îlectrocuté !",
-    "translation": "Shocked!"
+    "translation": "Шок от тока!"
   },
   {
     "id": 34,
     "original_en": "Recovered from shock.",
     "original_fr": "Il n'est plus électrocuté.",
-    "translation": "Recovered from shock."
+    "translation": "Оправился от шока."
   },
   {
     "id": 35,
     "original_en": "Dark Matter: Fiendlord's strongest dark magic",
     "original_fr": "Matière obscure",
-    "translation": "Dark Matter: Fiendlord's strongest dark magic"
+    "translation": "Тёмная материя: Великая магия тьмы"
   },
   {
     "id": 36,
     "original_en": "Electric Discharge",
     "original_fr": "îmission de l'énergie électrique accumulée.",
-    "translation": "Electric Discharge"
+    "translation": "Электрический разряд"
   },
   {
     "id": 37,
     "original_en": "Wind Waltz ©: Confuse",
     "original_fr": "Valse du vent © / Confusion",
-    "translation": "Wind Waltz ©: Confuse"
+    "translation": "Вальс ветра ©: Смятение"
   },
   {
     "id": 38,
     "original_en": "Rainbow Beam ©: Blind",
     "original_fr": "Rayon spectral © / Cécité",
-    "translation": "Rainbow Beam ©: Blind"
+    "translation": "Радужный луч ©: Слепота"
   },
   {
     "id": 39,
     "original_en": "Pods disappear with Lavos Core.",
     "original_fr": "Destruction du c{TAG:61}ur de Lavos : le reste dispara¡t.",
-    "translation": "Pods disappear with Lavos Core."
+    "translation": "Коконы исчезают с Ядром Лавоса."
   },
   {
     "id": 40,
     "original_en": "MP Buster: Steals MP",
     "original_fr": "Vol de PM",
-    "translation": "MP Buster: Steals MP"
+    "translation": "Похититель ОМ: Кража ОМ"
   },
   {
     "id": 41,
     "original_en": "Magic Guard: Weak against physical attacks",
     "original_fr": "Défense magique … / Défense physique {TAG:7B}",
-    "translation": "Magic Guard: Weak against physical attacks"
+    "translation": "Маг. защита: Уязвим к физ. атакам"
   },
   {
     "id": 42,
     "original_en": "Physical Guard: Weak against magical attacks",
     "original_fr": "Défense physique … / Défense magique {TAG:7B}",
-    "translation": "Physical Guard: Weak against magical attacks"
+    "translation": "Физ. защита: Уязвим к магии"
   },
   {
     "id": 43,
     "original_en": "The Look ©: Flea's © Magic",
     "original_fr": "Regard affriolant ©",
-    "translation": "The Look ©: Flea's © Magic"
+    "translation": "Взгляд ©: Магия Фли ©"
   },
   {
     "id": 44,
     "original_en": "Crimson Rain: Sap",
     "original_fr": "Pluie sanglante / Nécrose",
-    "translation": "Crimson Rain: Sap"
+    "translation": "Алый дождь: Истощение"
   },
   {
     "id": 45,
     "original_en": "Hell Geyser: Sap",
     "original_fr": "Geyser infernal / Nécrose",
-    "translation": "Hell Geyser: Sap"
+    "translation": "Адский гейзер: Истощение"
   },
   {
     "id": 46,
     "original_en": "{MAGUS}'s Magic Defense reduced by Masamune!",
     "original_fr": "Grandléon diminue la déf. magique de Magus.",
-    "translation": "{MAGUS}'s Magic Defense reduced by Masamune!"
+    "translation": "Маг. защита {MAGUS} снижена Масамунэ!"
   },
   {
     "id": 47,
     "original_en": "{MAGUS} lowers his guard to begin casting a spell.",
     "original_fr": "Magus dissipe sa barrière pour lancer un sort.",
-    "translation": "{MAGUS} lowers his guard to begin casting a spell."
+    "translation": "{MAGUS} открылся для сотворения заклинания."
   },
   {
     "id": 48,
@@ -315,79 +315,79 @@
     "id": 52,
     "original_en": "Jab, lunge, thrust!",
     "original_fr": "Prends ça !",
-    "translation": "Jab, lunge, thrust!"
+    "translation": "Тычок, выпад, укол!"
   },
   {
     "id": 53,
     "original_en": "Barrier Change: Absorbs all but light",
     "original_fr": "Changement de barrière / Absorbe tout sauf lumière",
-    "translation": "Barrier Change: Absorbs all but light"
+    "translation": "Смена барьера: Уязвимость к молнии"
   },
   {
     "id": 54,
     "original_en": "Barrier Change: Absorbs all but shadow",
     "original_fr": "Changement de barrière / Absorbe tout sauf ténèbres",
-    "translation": "Barrier Change: Absorbs all but shadow"
+    "translation": "Смена барьера: Уязвимость к тьме"
   },
   {
     "id": 55,
     "original_en": "Barrier Change: Absorbs all but fire",
     "original_fr": "Changement de barrière / Absorbe tout sauf feu",
-    "translation": "Barrier Change: Absorbs all but fire"
+    "translation": "Смена барьера: Уязвимость к огню"
   },
   {
     "id": 56,
     "original_en": "Barrier Change: Absorbs all but water",
     "original_fr": "Changement de barrière / Absorbe tout sauf eau",
-    "translation": "Barrier Change: Absorbs all but water"
+    "translation": "Смена барьера: Уязвимость к воде"
   },
   {
     "id": 57,
     "original_en": "Defense lowered by electric shock!",
     "original_fr": "Défense {TAG:7B} lorsqu'électrocuté.",
-    "translation": "Defense lowered by electric shock!"
+    "translation": "Защита снижена разрядом тока!"
   },
   {
     "id": 58,
     "original_en": "Telepathy: Sleep",
     "original_fr": "Télépathie / Sommeil",
-    "translation": "Telepathy: Sleep"
+    "translation": "Телепатия: Сон"
   },
   {
     "id": 59,
     "original_en": "Teleport: Summons forth boulder",
     "original_fr": "Téléportation d'un rocher",
-    "translation": "Teleport: Summons forth boulder"
+    "translation": "Телепорт: Призывает валун"
   },
   {
     "id": 60,
     "original_en": "Annihilation Zone",
     "original_fr": "Zone de destruction",
-    "translation": "Annihilation Zone"
+    "translation": "Зона аннигиляции"
   },
   {
     "id": 61,
     "original_en": "Rainbow Storm: Poison cloud",
     "original_fr": "Tempête irisée / Vent toxique",
-    "translation": "Rainbow Storm: Poison cloud"
+    "translation": "Радужная буря: Ядовитое облако"
   },
   {
     "id": 62,
     "original_en": "Defense boosted when attacked!",
     "original_fr": "Défense … lorsqu'attaqué.",
-    "translation": "Defense boosted when attacked!"
+    "translation": "Защита повышается при ударе!"
   },
   {
     "id": 63,
     "original_en": "Electric Discharge",
     "original_fr": "îmission de l'énergie électrique accumulée.",
-    "translation": "Electric Discharge"
+    "translation": "Электрический разряд"
   },
   {
     "id": 64,
     "original_en": "Electric Maelstrom",
     "original_fr": "Super-décharge",
-    "translation": "Electric Maelstrom"
+    "translation": "Электрический водоворот"
   },
   {
     "id": 65,
@@ -405,61 +405,61 @@
     "id": 67,
     "original_en": "Azala's Wrath: Sap",
     "original_fr": "Ire d'Azara / Nécrose",
-    "translation": "Azala's Wrath: Sap"
+    "translation": "Гнев Азалы: Истощение"
   },
   {
     "id": 68,
     "original_en": "Lowers Defense and begins storing power.",
     "original_fr": "Levée des défenses / Accumulation de puissance",
-    "translation": "Lowers Defense and begins storing power."
+    "translation": "Снижает Защиту и копит энергию."
   },
   {
     "id": 69,
     "original_en": "Attack increased!",
     "original_fr": "Attaque …",
-    "translation": "Attack increased!"
+    "translation": "Атака увеличена!"
   },
   {
     "id": 70,
     "original_en": "Psychokinesis",
     "original_fr": "Psychokinésie",
-    "translation": "Psychokinesis"
+    "translation": "Психокинез"
   },
   {
     "id": 71,
     "original_en": "Lavos Core lowers its defenses.",
     "original_fr": "Le c{TAG:61}ur de Lavos lève les défenses.",
-    "translation": "Lavos Core lowers its defenses."
+    "translation": "Ядро Лавоса снижает защиту."
   },
   {
     "id": 72,
     "original_en": "Escaped!",
     "original_fr": "Fuite !",
-    "translation": "Escaped!"
+    "translation": "Сбежал!"
   },
   {
     "id": 73,
     "original_en": "Rising Sun",
     "original_fr": "Soleil levant",
-    "translation": "Rising Sun"
+    "translation": "Восходящее солнце"
   },
   {
     "id": 74,
     "original_en": "Imitate: Copies physical attack",
     "original_fr": "Imitation / Copie les attaques physiques !",
-    "translation": "Imitate: Copies physical attack"
+    "translation": "Подражание: Копия физ. атаки"
   },
   {
     "id": 75,
     "original_en": "Imitate: Copies tech",
     "original_fr": "Imitation / Copie les compétences !",
-    "translation": "Imitate: Copies tech"
+    "translation": "Подражание: Копия техники"
   },
   {
     "id": 76,
     "original_en": "Masa and Mune are each powerless alone.",
     "original_fr": "Séparés, Gran et Léon ne peuvent pas combattre.",
-    "translation": "Masa and Mune are each powerless alone."
+    "translation": "Маса и Мунэ бессильны поодиночке."
   },
   {
     "id": 77,
@@ -471,163 +471,163 @@
     "id": 78,
     "original_en": "Doublehand Attack - Doublehand Blaster Œ",
     "original_fr": "Deux mains : Duo explosif Œ",
-    "translation": "Doublehand Attack - Doublehand Blaster Œ"
+    "translation": "Парная атака: Двойной бластер Œ"
   },
   {
     "id": 79,
     "original_en": "Combo Attack: Reduces HP to 1",
     "original_fr": "Attaques répétées / Réduit les PV {TAG:3C} 1",
-    "translation": "Combo Attack: Reduces HP to 1"
+    "translation": "Комбо-атака: Оставляет 1 ОЗ"
   },
   {
     "id": 80,
     "original_en": "Omnilock: Disables Tech and Item commands",
     "original_fr": "Oubli total / Compétences et objets inutilisables !",
-    "translation": "Omnilock: Disables Tech and Item commands"
+    "translation": "Омниблок: Блок техник и предметов"
   },
   {
     "id": 81,
     "original_en": "Commencing arm restoration.",
     "original_fr": "Activation du circuit de réparation des bras",
-    "translation": "Commencing arm restoration."
+    "translation": "Начало восстановления руки."
   },
   {
     "id": 82,
     "original_en": "Arm Attack: Halves HP",
     "original_fr": "Bras offensif / Réduit les PV de moitié",
-    "translation": "Arm Attack: Halves HP"
+    "translation": "Удар рукой: Урон на 50% ОЗ"
   },
   {
     "id": 83,
     "original_en": "Ghul's Shield dispelled!",
     "original_fr": "Le bouclier du génie est brisé.",
-    "translation": "Ghul's Shield dispelled!"
+    "translation": "Щит гуля рассеян!"
   },
   {
     "id": 84,
     "original_en": "Defense arm restores head!",
     "original_fr": "Le bras défensif rend des PV {TAG:3C} la tête.",
-    "translation": "Defense arm restores head!"
+    "translation": "Защитная рука чинит голову!"
   },
   {
     "id": 85,
     "original_en": "10,000 Hz: Sleep",
     "original_fr": "10 000 Hz / Sommeil",
-    "translation": "10,000 Hz: Sleep"
+    "translation": "10 000 Гц: Сон"
   },
   {
     "id": 86,
     "original_en": "Lock: Disables Tech command",
     "original_fr": "Oubli / Compétences inutilisables !",
-    "translation": "Lock: Disables Tech command"
+    "translation": "Блок: Блокирует техники"
   },
   {
     "id": 87,
     "original_en": "Delta Force: Enemy triple tech",
     "original_fr": "Zone delta",
-    "translation": "Delta Force: Enemy triple tech"
+    "translation": "Дельта-сила: Тройное комбо врага"
   },
   {
     "id": 88,
     "original_en": "Iron Sphere: Halves HP",
     "original_fr": "Boulet / Réduit les PV de moitié",
-    "translation": "Iron Sphere: Halves HP"
+    "translation": "Железная сфера: Снижает ОЗ на 50%"
   },
   {
     "id": 89,
     "original_en": "Roundillo Kick",
     "original_fr": "Coup de pied roulé",
-    "translation": "Roundillo Kick"
+    "translation": "Удар Раундилло"
   },
   {
     "id": 90,
     "original_en": "Hypnowave",
     "original_fr": "Onde soporifique",
-    "translation": "Hypnowave"
+    "translation": "Гипно-волна"
   },
   {
     "id": 91,
     "original_en": "Possess: Fuses with Fallen",
     "original_fr": "Possession / Fusion avec un défunt",
-    "translation": "Possess: Fuses with Fallen"
+    "translation": "Одержимость: Слияние с Падшим"
   },
   {
     "id": 92,
     "original_en": "HP recovery magic",
     "original_fr": "Sort de guérison",
-    "translation": "HP recovery magic"
+    "translation": "Магия восстановления ОЗ"
   },
   {
     "id": 93,
     "original_en": "Combo Counter",
     "original_fr": "Riposte combo",
-    "translation": "Combo Counter"
+    "translation": "Комбо-контратака"
   },
   {
     "id": 94,
     "original_en": "Grudge",
     "original_fr": "Rancune",
-    "translation": "Grudge"
+    "translation": "Злоба"
   },
   {
     "id": 95,
     "original_en": "Evil Impulse: Enemy triple tech",
     "original_fr": "Impulsion démoniaque",
-    "translation": "Evil Impulse: Enemy triple tech"
+    "translation": "Тёмный импульс: Тройное комбо врага"
   },
   {
     "id": 96,
     "original_en": "Protected by Ghul's Shield.",
     "original_fr": "Le bouclier du génie le protège.",
-    "translation": "Protected by Ghul's Shield."
+    "translation": "Под защитой Щита гуля."
   },
   {
     "id": 97,
     "original_en": "Muscular Fusion",
     "original_fr": "Fusion musculaire",
-    "translation": "Muscular Fusion"
+    "translation": "Мышечное слияние"
   },
   {
     "id": 98,
     "original_en": "Cannot damage sandlike body!",
     "original_fr": "Impossible d'infliger des dég{TAG:4A}ts {TAG:3C} du sable.",
-    "translation": "Cannot damage sandlike body!"
+    "translation": "Песчаное тело неуязвимо к атакам!"
   },
   {
     "id": 99,
     "original_en": "Water hardens sand. Defense reduced!",
     "original_fr": "L'eau agglutine le sable. / Défense {TAG:7B}",
-    "translation": "Water hardens sand. Defense reduced!"
+    "translation": "Вода связала песок. Защита упала!"
   },
   {
     "id": 100,
     "original_en": "Heartfire Sword",
     "original_fr": "Sabre de feu ©",
-    "translation": "Heartfire Sword"
+    "translation": "Меч пламенного сердца"
   },
   {
     "id": 101,
     "original_en": "FOOLISH CRETINS...",
     "original_fr": "Inutile...",
-    "translation": "FOOLISH CRETINS..."
+    "translation": "ГЛУПЫЕ НЕДОУМКИ..."
   },
   {
     "id": 102,
     "original_en": "Mother Brain Attack Mode",
     "original_fr": "Mode d'attaque du cerveau mère activé.",
-    "translation": "Mother Brain Attack Mode"
+    "translation": "Боевой режим Материнского Мозга"
   },
   {
     "id": 103,
     "original_en": "Mother Brain running wild without displays!",
     "original_fr": "Sans moniteur, le cerveau mère s'affole.",
-    "translation": "Mother Brain running wild without displays!"
+    "translation": "Материнский Мозг буйствует без экранов!"
   },
   {
     "id": 104,
     "original_en": "Memory Reset: Lock",
     "original_fr": "Réinitialisation de la mémoire / Oubli",
-    "translation": "Memory Reset: Lock"
+    "translation": "Сброс памяти: Блок техник"
   },
   {
     "id": 105,
@@ -639,133 +639,133 @@
     "id": 106,
     "original_en": "Nereid Cyclone œ",
     "original_fr": "Tourbillon marin œ",
-    "translation": "Nereid Cyclone œ"
+    "translation": "Циклон нереиды œ"
   },
   {
     "id": 107,
     "original_en": "Sand Cyclone",
     "original_fr": "Tourbillon de sable",
-    "translation": "Sand Cyclone"
+    "translation": "Песчаный циклон"
   },
   {
     "id": 108,
     "original_en": "Golem Overlord: Um...",
     "original_fr": "Ma¡tre golem : Euh...",
-    "translation": "Golem Overlord: Um..."
+    "translation": "Владыка големов: Э-э-э..."
   },
   {
     "id": 109,
     "original_en": "Flame strengthened!",
     "original_fr": "Puissance du brasier accrue !",
-    "translation": "Flame strengthened!"
+    "translation": "Пламя разгорелось сильнее!"
   },
   {
     "id": 110,
     "original_en": "Power increased!",
     "original_fr": "Puissance accrue !",
-    "translation": "Power increased!"
+    "translation": "Сила возросла!"
   },
   {
     "id": 111,
     "original_en": "Miasma: Confuse",
     "original_fr": "Miasme / Confusion",
-    "translation": "Miasma: Confuse"
+    "translation": "Миазмы: Смятение"
   },
   {
     "id": 112,
     "original_en": "Water Surge œ",
     "original_fr": "Inondation œ",
-    "translation": "Water Surge œ"
+    "translation": "Водный всплеск œ"
   },
   {
     "id": 113,
     "original_en": "Doublehand Attack - Dark Plasma «",
     "original_fr": "Deux mains : Plasma obscur «",
-    "translation": "Doublehand Attack - Dark Plasma «"
+    "translation": "Парная атака: Тёмная плазма «"
   },
   {
     "id": 114,
     "original_en": "Gaia Magnade Œ",
     "original_fr": "Grenade magma Œ",
-    "translation": "Gaia Magnade Œ"
+    "translation": "Магма Гайи Œ"
   },
   {
     "id": 115,
     "original_en": "Darn it! Burrrp!",
     "original_fr": "Malédiction ! Prouuut !",
-    "translation": "Darn it! Burrrp!"
+    "translation": "Чёрт побери! Ик!"
   },
   {
     "id": 116,
     "original_en": "Fraternal Fusion",
     "original_fr": "Fusion fraternelle",
-    "translation": "Fraternal Fusion"
+    "translation": "Братское слияние"
   },
   {
     "id": 117,
     "original_en": "Bluuurp!: Mimic Dalton",
     "original_fr": "Imitation de Dalton / Prouuut !",
-    "translation": "Bluuurp!: Mimic Dalton"
+    "translation": "И-и-ик!: Подражание Дальтону"
   },
   {
     "id": 118,
     "original_en": "Running wild without core.",
     "original_fr": "S'enrage quand le c{TAG:61}ur est détruit.",
-    "translation": "Running wild without core."
+    "translation": "Буйствует без ядра."
   },
   {
     "id": 119,
     "original_en": "Absorbing energy from core.",
     "original_fr": "Absorption de l'énergie du c{TAG:61}ur.",
-    "translation": "Absorbing energy from core."
+    "translation": "Поглощение энергии из ядра."
   },
   {
     "id": 120,
     "original_en": "Go! ...Golem Overlord?",
     "original_fr": "Â l'attaque ! Ma¡tre golem...?",
-    "translation": "Go! ...Golem Overlord?"
+    "translation": "Вперёд! ...Владыка големов?"
   },
   {
     "id": 121,
     "original_en": "Napalm",
     "original_fr": "Bombe au napalm",
-    "translation": "Napalm"
+    "translation": "Напалм"
   },
   {
     "id": 122,
     "original_en": "Polarity Inversion: Strikes with opposing magic",
     "original_fr": "Esprit de contradiction / Sort d'élément opposé",
-    "translation": "Polarity Inversion: Strikes with opposing magic"
+    "translation": "Инверсия: Удар обратной магией"
   },
   {
     "id": 123,
     "original_en": "Wing Blow: Confuse",
     "original_fr": "Battement d'ailes/ Confusion",
-    "translation": "Wing Blow: Confuse"
+    "translation": "Взмах крыльев: Смятение"
   },
   {
     "id": 124,
     "original_en": "Dalton: Take this!",
     "original_fr": "Dalton : Tiens !",
-    "translation": "Dalton: Take this!"
+    "translation": "Дальтон: Получайте!"
   },
   {
     "id": 125,
     "original_en": "Self-destruct",
     "original_fr": "Auto-destruction",
-    "translation": "Self-destruct"
+    "translation": "Самоуничтожение"
   },
   {
     "id": 126,
     "original_en": "Shell Counter - Lavos Spawn Needles",
     "original_fr": "Riposte de la carapace / îpines",
-    "translation": "Shell Counter - Lavos Spawn Needles"
+    "translation": "Контратака панциря: Иглы Лавоса"
   },
   {
     "id": 127,
     "original_en": "Electric Mini-burst",
     "original_fr": "Petite décharge",
-    "translation": "Electric Mini-burst"
+    "translation": "Малый электроразряд"
   },
   {
     "id": 128,
@@ -777,67 +777,67 @@
     "id": 129,
     "original_en": "Needle Spin Version XIII",
     "original_fr": "Volée d'épines version XIII",
-    "translation": "Needle Spin Version XIII"
+    "translation": "Вихрь игл: Версия XIII"
   },
   {
     "id": 130,
     "original_en": "Reprogram: Confuse",
     "original_fr": "Reprogrammation / Confusion",
-    "translation": "Reprogram: Confuse"
+    "translation": "Перепрошивка: Смятение"
   },
   {
     "id": 131,
     "original_en": "I heard about you from my ancestors!",
     "original_fr": "Je l'ai appris de mon ancêtre...",
-    "translation": "I heard about you from my ancestors!"
+    "translation": "Я слышал о вас от своих предков!"
   },
   {
     "id": 132,
     "original_en": "Your weakness is...",
     "original_fr": "Votre point faible est...",
-    "translation": "Your weakness is..."
+    "translation": "Ваша слабость — это..."
   },
   {
     "id": 133,
     "original_en": "This!",
     "original_fr": "Voil{TAG:3C} !",
-    "translation": "This!"
+    "translation": "Вот это!"
   },
   {
     "id": 134,
     "original_en": "N-no... Not again...",
     "original_fr": "En... Encore vaincu...",
-    "translation": "N-no... Not again..."
+    "translation": "Н-нет... Только не снова..."
   },
   {
     "id": 135,
     "original_en": "Roulette Spin",
     "original_fr": "Mélange",
-    "translation": "Roulette Spin"
+    "translation": "Вращение рулетки"
   },
   {
     "id": 136,
     "original_en": "Roulette Stop",
     "original_fr": "Mélange terminé",
-    "translation": "Roulette Stop"
+    "translation": "Остановка рулетки"
   },
   {
     "id": 137,
     "original_en": "Counter - Flare",
     "original_fr": "Riposte : Fission",
-    "translation": "Counter - Flare"
+    "translation": "Контратака: Вспышка"
   },
   {
     "id": 138,
     "original_en": "Miss - Flame Counterattack",
     "original_fr": "Raté ! / Flammes vengeresses",
-    "translation": "Miss - Flame Counterattack"
+    "translation": "Промах: Ответное пламя"
   },
   {
     "id": 139,
     "original_en": "Cricket Chirp: Sleep",
     "original_fr": "Cri-cri / Sommeil",
-    "translation": "Cricket Chirp: Sleep"
+    "translation": "Стрекот сверчка: Сон"
   },
   {
     "id": 140,
@@ -849,121 +849,121 @@
     "id": 141,
     "original_en": "Son of the Sun is losing his light.",
     "original_fr": "Le fils du soleil perd son éclat...",
-    "translation": "Son of the Sun is losing his light."
+    "translation": "Сын Солнца теряет свой свет."
   },
   {
     "id": 142,
     "original_en": "Time Stop: Stop",
     "original_fr": "Stase temporelle / Stop",
-    "translation": "Time Stop: Stop"
+    "translation": "Остановка времени: Стоп"
   },
   {
     "id": 143,
     "original_en": "Mutant Gas: Sleep",
     "original_fr": "Gaz mutant / Sommeil",
-    "translation": "Mutant Gas: Sleep"
+    "translation": "Газ мутанта: Сон"
   },
   {
     "id": 144,
     "original_en": "Mutant Gas: Poison",
     "original_fr": "Gaz mutant / Poison",
-    "translation": "Mutant Gas: Poison"
+    "translation": "Газ мутанта: Яд"
   },
   {
     "id": 145,
     "original_en": "Scalding Steam: Sap",
     "original_fr": "Vapeur stagnante / Nécrose",
-    "translation": "Scalding Steam: Sap"
+    "translation": "Обжигающий пар: Истощение"
   },
   {
     "id": 146,
     "original_en": "Chaos Zone: Confuse",
     "original_fr": "Zone chaotique / Confusion",
-    "translation": "Chaos Zone: Confuse"
+    "translation": "Зона хаоса: Смятение"
   },
   {
     "id": 147,
     "original_en": "Blacken",
     "original_fr": "Noircissement",
-    "translation": "Blacken"
+    "translation": "Очернение"
   },
   {
     "id": 148,
     "original_en": "Point Flare",
     "original_fr": "Fission concentrée",
-    "translation": "Point Flare"
+    "translation": "Точечная вспышка"
   },
   {
     "id": 149,
     "original_en": "Closed Shield Counter - Lock",
     "original_fr": "Caché derrière son bouclier, il riposte avec Oubli.",
-    "translation": "Closed Shield Counter - Lock"
+    "translation": "Контратака щита: Блок техник"
   },
   {
     "id": 150,
     "original_en": "Lunate Barrage",
     "original_fr": "Lune vague",
-    "translation": "Lunate Barrage"
+    "translation": "Лунный шквал"
   },
   {
     "id": 151,
     "original_en": "Hurricane",
     "original_fr": "Ouragan",
-    "translation": "Hurricane"
+    "translation": "Ураган"
   },
   {
     "id": 152,
     "original_en": "Devil's Drop: Halves HP",
     "original_fr": "Largage / Réduit les PV de moitié",
-    "translation": "Devil's Drop: Halves HP"
+    "translation": "Дьявольский бросок: ОЗ -50%"
   },
   {
     "id": 153,
     "original_en": "ÊLa La LaÊ: Confuse",
     "original_fr": "Ê La, la, laaa Ê / Confusion",
-    "translation": "ÊLa La LaÊ: Confuse"
+    "translation": "«Ля-ля-ля»: Смятение"
   },
   {
     "id": 154,
     "original_en": "Osmose: Steals MP",
     "original_fr": "Succion / Absorption de quelques PM",
-    "translation": "Osmose: Steals MP"
+    "translation": "Осмос: Похищение ОМ"
   },
   {
     "id": 155,
     "original_en": "Magic sacrificed to increase Attack.",
     "original_fr": "La magie augmente son attaque.",
-    "translation": "Magic sacrificed to increase Attack."
+    "translation": "Магия отдана ради увеличения Атаки."
   },
   {
     "id": 156,
     "original_en": "Releases stored energy!",
     "original_fr": "îmission de l'énergie accumulée",
-    "translation": "Releases stored energy!"
+    "translation": "Высвобождение накопленной энергии!"
   },
   {
     "id": 157,
     "original_en": "The Mammon Machine alters all energy.",
     "original_fr": "Le réceptacle sacré transforme toute forme d'énergie.",
-    "translation": "The Mammon Machine alters all energy."
+    "translation": "Машина Маммона меняет потоки энергии."
   },
   {
     "id": 158,
     "original_en": "The Mammon Machine remains still.",
     "original_fr": "Le réceptacle sacré demeure immobile.",
-    "translation": "The Mammon Machine remains still."
+    "translation": "Машина Маммона остаётся недвижимой."
   },
   {
     "id": 159,
     "original_en": "Attack sacrificed to increase Defense.",
     "original_fr": "Les attaques physiques augmentent sa défense.",
-    "translation": "Attack sacrificed to increase Defense."
+    "translation": "Атака отдана ради увеличения Защиты."
   },
   {
     "id": 160,
     "original_en": "Life Shaver: Reduces HP to 1",
     "original_fr": "Siphon vital / Réduit les PV {TAG:3C} 1",
-    "translation": "Life Shaver: Reduces HP to 1"
+    "translation": "Бритва жизни: Оставляет 1 ОЗ"
   },
   {
     "id": 161,
@@ -975,61 +975,61 @@
     "id": 162,
     "original_en": "Dark Bomb",
     "original_fr": "Bombe obscure",
-    "translation": "Dark Bomb"
+    "translation": "Тёмная бомба"
   },
   {
     "id": 163,
     "original_en": "Lavos Spawn Needle Barrage",
     "original_fr": "îpines désordonnées",
-    "translation": "Lavos Spawn Needle Barrage"
+    "translation": "Шквал игл порождения Лавоса"
   },
   {
     "id": 164,
     "original_en": "Halation: Reduces HP to 1",
     "original_fr": "Halo / Réduit les PV {TAG:3C} 1",
-    "translation": "Halation: Reduces HP to 1"
+    "translation": "Гало: Оставляет 1 ОЗ"
   },
   {
     "id": 165,
     "original_en": "Masamune absorbs the energy.",
     "original_fr": "Grandléon absorbe l'énergie.",
-    "translation": "Masamune absorbs the energy."
+    "translation": "Масамунэ поглощает энергию."
   },
   {
     "id": 166,
     "original_en": "Gears of Darkness «",
     "original_fr": "Engrenage obscur «",
-    "translation": "Gears of Darkness «"
+    "translation": "Шестерни тьмы «"
   },
   {
     "id": 167,
     "original_en": "Heavenly Gate »",
     "original_fr": "Portail de l'empyrée »",
-    "translation": "Heavenly Gate »"
+    "translation": "Врата небес »"
   },
   {
     "id": 168,
     "original_en": "Starburst œ",
     "original_fr": "Brume hexagonale œ",
-    "translation": "Starburst œ"
+    "translation": "Взрыв звезды œ"
   },
   {
     "id": 169,
     "original_en": "Counter - MP Buster",
     "original_fr": "Riposte : Vol de PM",
-    "translation": "Counter - MP Buster"
+    "translation": "Контратака: Похититель ОМ"
   },
   {
     "id": 170,
     "original_en": "Destruction rains from the heavens!",
     "original_fr": "La désolation s'abat du ciel !",
-    "translation": "Destruction rains from the heavens!"
+    "translation": "С небес низвергается разрушение!"
   },
   {
     "id": 171,
     "original_en": "Counter - Life Shaver",
     "original_fr": "Riposte : Siphon vital",
-    "translation": "Counter - Life Shaver"
+    "translation": "Контратака: Бритва жизни"
   },
   {
     "id": 172,
@@ -1041,325 +1041,325 @@
     "id": 173,
     "original_en": "Right-hand part is storing energy.",
     "original_fr": "La partie droite accumule l'énergie.",
-    "translation": "Right-hand part is storing energy."
+    "translation": "Правая часть накапливает энергию."
   },
   {
     "id": 174,
     "original_en": "Left-hand part restores body!",
     "original_fr": "La partie gauche rend des PV.",
-    "translation": "Left-hand part restores body!"
+    "translation": "Левая часть восстанавливает тело!"
   },
   {
     "id": 175,
     "original_en": "Lavos's Magic Defense reduced by Masamune!",
     "original_fr": "Grandléon diminue la défense magique de Lavos.",
-    "translation": "Lavos's Magic Defense reduced by Masamune!"
+    "translation": "Маг. защита Лавоса снижена Масамунэ!"
   },
   {
     "id": 176,
     "original_en": "Lavos begins casting a spell.",
     "original_fr": "Lavos s'apprête {TAG:3C} lancer un sort.",
-    "translation": "Lavos begins casting a spell."
+    "translation": "Лавос начинает сотворение заклинания."
   },
   {
     "id": 177,
     "original_en": "Combined Attack - Twin Blaster",
     "original_fr": "Attaque combo : Duo explosif",
-    "translation": "Combined Attack - Twin Blaster"
+    "translation": "Совместная атака: Двойной бластер"
   },
   {
     "id": 178,
     "original_en": "Combined Attack - Dark Plasma",
     "original_fr": "Attaque combo : Plasma obscur",
-    "translation": "Combined Attack - Dark Plasma"
+    "translation": "Совместная атака: Тёмная плазма"
   },
   {
     "id": 179,
     "original_en": "Commencing repair of parts.",
     "original_fr": "Restauration des pièces",
-    "translation": "Commencing repair of parts."
+    "translation": "Начало починки компонентов."
   },
   {
     "id": 180,
     "original_en": "Defense parts restore head!",
     "original_fr": "La partie défensive régénère la tête.",
-    "translation": "Defense parts restore head!"
+    "translation": "Защитные части чинят голову!"
   },
   {
     "id": 181,
     "original_en": "Barrier Change",
     "original_fr": "Changement de barrière",
-    "translation": "Barrier Change"
+    "translation": "Смена барьера"
   },
   {
     "id": 182,
     "original_en": "Body activated!",
     "original_fr": "Activation du corps",
-    "translation": "Body activated!"
+    "translation": "Тело активировано!"
   },
   {
     "id": 183,
     "original_en": "Curse: Disables status ailment immunity",
     "original_fr": "Anti-protection / Rend vulnérable aux altérations d'état.",
-    "translation": "Curse: Disables status ailment immunity"
+    "translation": "Проклятие: Снятие защиты от недугов"
   },
   {
     "id": 184,
     "original_en": "Evil Emanation: Raises Lavos's Attack",
     "original_fr": "Radiation chtonienne / Attaque …",
-    "translation": "Evil Emanation: Raises Lavos's Attack"
+    "translation": "Тёмная эманация: Рост Атаки Лавоса"
   },
   {
     "id": 185,
     "original_en": "Laser Beams: Arms open the doors to oblivion",
     "original_fr": "îclat dévastateur  / Portail de la destruction ouvert",
-    "translation": "Laser Beams: Arms open the doors to oblivion"
+    "translation": "Лазеры: Врата в вечное забвение"
   },
   {
     "id": 186,
     "original_en": "Dark Will",
     "original_fr": "Esprit malin",
-    "translation": "Dark Will"
+    "translation": "Тёмная воля"
   },
   {
     "id": 187,
     "original_en": "Umbral Embrace",
     "original_fr": "Ombre meurtrière",
-    "translation": "Umbral Embrace"
+    "translation": "Объятия полумрака"
   },
   {
     "id": 188,
     "original_en": "Flames of War",
     "original_fr": "Flammes agressives",
-    "translation": "Flames of War"
+    "translation": "Пламя войны"
   },
   {
     "id": 189,
     "original_en": "Dark Flame's Embrace",
     "original_fr": "Ombre maligne enflammée",
-    "translation": "Dark Flame's Embrace"
+    "translation": "Объятия тёмного пламени"
   },
   {
     "id": 190,
     "original_en": "Life Grip: Arm revives body",
     "original_fr": "îlan de vie / Régénération du corps",
-    "translation": "Life Grip: Arm revives body"
+    "translation": "Хватка жизни: Рука оживляет тело"
   },
   {
     "id": 191,
     "original_en": "Lavos Core is defending!",
     "original_fr": "Le c{TAG:61}ur de Lavos se défend.",
-    "translation": "Lavos Core is defending!"
+    "translation": "Ядро Лавоса защищается!"
   },
   {
     "id": 192,
     "original_en": "Defense lowered by use of Resurrect.",
     "original_fr": "Baisse de défense due {TAG:3C} l'utilisation de Force vitale",
-    "translation": "Defense lowered by use of Resurrect."
+    "translation": "Защита снижена после воскрешения."
   },
   {
     "id": 193,
     "original_en": "Temporal Shift",
     "original_fr": "Distorsion temporelle",
-    "translation": "Temporal Shift"
+    "translation": "Временной сдвиг"
   },
   {
     "id": 194,
     "original_en": "Counters physical attack.",
     "original_fr": "Riposte aux attaques physiques",
-    "translation": "Counters physical attack."
+    "translation": "Контратака против физических атак."
   },
   {
     "id": 195,
     "original_en": "Resurrect: Revives Lavos Pods",
     "original_fr": "Force vitale / Régénération des modules",
-    "translation": "Resurrect: Revives Lavos Pods"
+    "translation": "Воскрешение: Оживляет коконы Лавоса"
   },
   {
     "id": 196,
     "original_en": "Counters magic.",
     "original_fr": "Riposte aux sorts",
-    "translation": "Counters magic."
+    "translation": "Контратака против магии."
   },
   {
     "id": 197,
     "original_en": "Lavos Core's Defense restored!",
     "original_fr": "Défense du c{TAG:61}ur rétablie",
-    "translation": "Lavos Core's Defense restored!"
+    "translation": "Защита Ядра Лавоса восстановлена!"
   },
   {
     "id": 198,
     "original_en": "Demon Star: Halves HP",
     "original_fr": "îtoile maléfique / Réduit les PV de moitié",
-    "translation": "Demon Star: Halves HP"
+    "translation": "Звезда демона: Снижает ОЗ на 50%"
   },
   {
     "id": 199,
     "original_en": "Grandstone: Ultimate physical attack",
     "original_fr": "Aérolithe / Ultime attaque physique",
-    "translation": "Grandstone: Ultimate physical attack"
+    "translation": "Грандстоун: Величайшая физ. атака"
   },
   {
     "id": 200,
     "original_en": "Diabolic Whisper: Random status ailment",
     "original_fr": "Incantation / Altération d'état aléatoire",
-    "translation": "Diabolic Whisper: Random status ailment"
+    "translation": "Шёпот дьявола: Случайный недуг"
   },
   {
     "id": 201,
     "original_en": "Dreamreaver: Ultimate magical attack",
     "original_fr": "Néant onirique / Attaque magique suprême",
-    "translation": "Dreamreaver: Ultimate magical attack"
+    "translation": "Ловец снов: Величайшая маг. атака"
   },
   {
     "id": 202,
     "original_en": "Unholy Light: Slow",
     "original_fr": "îclat pernicieux / Lenteur",
-    "translation": "Unholy Light: Slow"
+    "translation": "Нечестивый свет: Замедление"
   },
   {
     "id": 203,
     "original_en": "Immobilize: Stop",
     "original_fr": "Immobilité / Stop",
-    "translation": "Immobilize: Stop"
+    "translation": "Обездвиживание: Стоп"
   },
   {
     "id": 204,
     "original_en": "Heavenly Tears",
     "original_fr": "Larmes du ciel »",
-    "translation": "Heavenly Tears"
+    "translation": "Слёзы небес"
   },
   {
     "id": 205,
     "original_en": "Lavos Core preparing Resurrect. Defense down!",
     "original_fr": "Baisse de défense due {TAG:3C} la préparation de Force vitale",
-    "translation": "Lavos Core preparing Resurrect. Defense down!"
+    "translation": "Ядро готовит Воскрешение. Защита упала!"
   },
   {
     "id": 206,
     "original_en": "I...",
     "original_fr": "Je suis...",
-    "translation": "I..."
+    "translation": "Я..."
   },
   {
     "id": 207,
     "original_en": "Proximity Bomb",
     "original_fr": "Pyrosphère",
-    "translation": "Proximity Bomb"
+    "translation": "Контактная бомба"
   },
   {
     "id": 208,
     "original_en": "Scouter counters non-light magic.",
     "original_fr": "L'éclaireur riposte {TAG:3C} toute magie sauf lumière.",
-    "translation": "Scouter counters non-light magic."
+    "translation": "Скаут контратакует кроме магии молнии."
   },
   {
     "id": 209,
     "original_en": "Red Scouter counters non-fire magic.",
     "original_fr": "L'éclaireur rouge riposte {TAG:3C} toute magie sauf feu.",
-    "translation": "Red Scouter counters non-fire magic."
+    "translation": "Красный скаут контратакует кроме огня."
   },
   {
     "id": 210,
     "original_en": "Blue Scouter counters non-water magic.",
     "original_fr": "L'éclaireur bleu riposte {TAG:3C} toute magie sauf eau.",
-    "translation": "Blue Scouter counters non-water magic."
+    "translation": "Синий скаут контратакует кроме воды."
   },
   {
     "id": 211,
     "original_en": "Lavos Breath: Sleep",
     "original_fr": "Soupir de Lavos / Sommeil",
-    "translation": "Lavos Breath: Sleep"
+    "translation": "Дыхание Лавоса: Сон"
   },
   {
     "id": 212,
     "original_en": "Salt",
     "original_fr": "Sel",
-    "translation": "Salt"
+    "translation": "Соль"
   },
   {
     "id": 213,
     "original_en": "Shining Sphere »",
     "original_fr": "Sphère lumineuse »",
-    "translation": "Shining Sphere »"
+    "translation": "Сияющая сфера »"
   },
   {
     "id": 214,
     "original_en": "Attack: Counter employed when Center Pod not present",
     "original_fr": "Attaque combinée / Riposte si module central détruit",
-    "translation": "Attack: Counter employed when Center Pod not present"
+    "translation": "Атака: Контратака без Центр. кокона"
   },
   {
     "id": 215,
     "original_en": "Imitate: Copies light tech",
     "original_fr": "Imitation / Copie les compétences de lumière",
-    "translation": "Imitate: Copies light tech"
+    "translation": "Подражание: Копия светлой техники"
   },
   {
     "id": 216,
     "original_en": "Imitate: Copies shadow tech",
     "original_fr": "Imitation / Copie les compétences de ténèbres",
-    "translation": "Imitate: Copies shadow tech"
+    "translation": "Подражание: Копия тёмной техники"
   },
   {
     "id": 217,
     "original_en": "Imitate: Copies water tech",
     "original_fr": "Imitation / Copie les compétences d'eau",
-    "translation": "Imitate: Copies water tech"
+    "translation": "Подражание: Копия водной техники"
   },
   {
     "id": 218,
     "original_en": "Imitate: Copies fire tech",
     "original_fr": "Imitation / Copie les compétences de feu",
-    "translation": "Imitate: Copies fire tech"
+    "translation": "Подражание: Копия огненной техники"
   },
   {
     "id": 219,
     "original_en": "Golem Overlord: N-no! I...I'm scared!",
     "original_fr": "Ma¡tre golem : Au secours ! J'ai trop peur !",
-    "translation": "Golem Overlord: N-no! I...I'm scared!"
+    "translation": "Владыка големов: Н-нет! М-мне страшно!"
   },
   {
     "id": 220,
     "original_en": "Golem Overlord: I hate heights!",
     "original_fr": "Ma¡tre golem : J'ai le vertige !",
-    "translation": "Golem Overlord: I hate heights!"
+    "translation": "Владыка големов: Я боюсь высоты!"
   },
   {
     "id": 221,
     "original_en": "Golem Overlord: Take this!",
     "original_fr": "Ma¡tre golem : Voici mon sort ultra-destructeur !",
-    "translation": "Golem Overlord: Take this!"
+    "translation": "Владыка големов: Получайте!"
   },
   {
     "id": 222,
     "original_en": "Golem Overlord: 5",
     "original_fr": "Ma¡tre golem : 5...",
-    "translation": "Golem Overlord: 5"
+    "translation": "Владыка големов: 5"
   },
   {
     "id": 223,
     "original_en": "Golem Overlord: 4",
     "original_fr": "Ma¡tre golem : 4...",
-    "translation": "Golem Overlord: 4"
+    "translation": "Владыка големов: 4"
   },
   {
     "id": 224,
     "original_en": "Golem Overlord: 3",
     "original_fr": "Ma¡tre golem : 3...",
-    "translation": "Golem Overlord: 3"
+    "translation": "Владыка големов: 3"
   },
   {
     "id": 225,
     "original_en": "Golem Overlord: 2",
     "original_fr": "Ma¡tre golem : 2...",
-    "translation": "Golem Overlord: 2"
+    "translation": "Владыка големов: 2"
   },
   {
     "id": 226,
     "original_en": "Golem Overlord: 1",
     "original_fr": "Ma¡tre golem : 1...",
-    "translation": "Golem Overlord: 1"
+    "translation": "Владыка големов: 1"
   },
   {
     "id": 227,
@@ -1371,19 +1371,19 @@
     "id": 228,
     "original_en": "Boulder",
     "original_fr": "Rocher",
-    "translation": "Boulder"
+    "translation": "Валун"
   },
   {
     "id": 229,
     "original_en": "Rush: Reduces HP to 1",
     "original_fr": "Charge brutale / Réduit les PV {TAG:3C} 1",
-    "translation": "Rush: Reduces HP to 1"
+    "translation": "Натиск: Оставляет 1 ОЗ"
   },
   {
     "id": 230,
     "original_en": "Thrash",
     "original_fr": "Raclée",
-    "translation": "Thrash"
+    "translation": "Молотилка"
   },
   {
     "id": 231,
@@ -1395,25 +1395,25 @@
     "id": 232,
     "original_en": "Snowstorm œ",
     "original_fr": "Blizzard œ",
-    "translation": "Snowstorm œ"
+    "translation": "Снежная буря œ"
   },
   {
     "id": 233,
     "original_en": "Volcano",
     "original_fr": "Volcan",
-    "translation": "Volcano"
+    "translation": "Вулкан"
   },
   {
     "id": 234,
     "original_en": "Earthshaker",
     "original_fr": "Tremblement de terre",
-    "translation": "Earthshaker"
+    "translation": "Сотрясение земли"
   },
   {
     "id": 235,
     "original_en": "Soul Link: One revives the other",
     "original_fr": "Deux faces de la médaille / L'un régénère l'autre",
-    "translation": "Soul Link: One revives the other"
+    "translation": "Связь душ: Оживление напарника"
   },
   {
     "id": 236,
@@ -1425,31 +1425,31 @@
     "id": 237,
     "original_en": "Counter - Flash of Steel",
     "original_fr": "Foudroiement",
-    "translation": "Counter - Flash of Steel"
+    "translation": "Контратака: Вспышка стали"
   },
   {
     "id": 238,
     "original_en": "Whirlwind",
     "original_fr": "Taillade ouragan",
-    "translation": "Whirlwind"
+    "translation": "Вихрь"
   },
   {
     "id": 239,
     "original_en": "Defensive Stance: Boosts Defense",
     "original_fr": "Position défensive / Défense …",
-    "translation": "Defensive Stance: Boosts Defense"
+    "translation": "Оборонительная стойка: Защита выше"
   },
   {
     "id": 240,
     "original_en": "Offensive Stance: Boosts Attack",
     "original_fr": "Position offensive / Attaque …",
-    "translation": "Offensive Stance: Boosts Attack"
+    "translation": "Атакующая стойка: Атака выше"
   },
   {
     "id": 241,
     "original_en": "Counter - Tsubame Gaeshi",
     "original_fr": "Tsubame gaeshi / Riposte mortelle",
-    "translation": "Counter - Tsubame Gaeshi"
+    "translation": "Контратака: Цубамэ-Гаэси"
   },
   {
     "id": 242,
@@ -1461,25 +1461,25 @@
     "id": 243,
     "original_en": "First Aid: Heals Master-at-Arms",
     "original_fr": "Premiers soins / Régénération du mikado sabreur",
-    "translation": "First Aid: Heals Master-at-Arms"
+    "translation": "Первая помощь: Лечит Оружейника"
   },
   {
     "id": 244,
     "original_en": "Blade Dance",
     "original_fr": "Lame dansante",
-    "translation": "Blade Dance"
+    "translation": "Танец клинков"
   },
   {
     "id": 245,
     "original_en": "Focus: Boosts Attack",
     "original_fr": "Méditation / Attaque …",
-    "translation": "Focus: Boosts Attack"
+    "translation": "Концентрация: Повышает Атаку"
   },
   {
     "id": 246,
     "original_en": "Desperate Strike: Dazes opponent",
     "original_fr": "Entaille désespérée / Distraction",
-    "translation": "Desperate Strike: Dazes opponent"
+    "translation": "Отчаянный удар: Оглушение врага"
   },
   {
     "id": 247,
@@ -1491,43 +1491,43 @@
     "id": 248,
     "original_en": "Energy Blast: Line attack",
     "original_fr": "Vague d'énergie / Attaque en ligne droite",
-    "translation": "Energy Blast: Line attack"
+    "translation": "Энергозалп: Атака по линии"
   },
   {
     "id": 249,
     "original_en": "Rend",
     "original_fr": "Pourfendre",
-    "translation": "Rend"
+    "translation": "Разрыв"
   },
   {
     "id": 250,
     "original_en": "Thunderfall »",
     "original_fr": "Fulguration »",
-    "translation": "Thunderfall »"
+    "translation": "Громопад »"
   },
   {
     "id": 251,
     "original_en": "Scintillation »",
     "original_fr": "Brume décha¡née »",
-    "translation": "Scintillation »"
+    "translation": "Искрение »"
   },
   {
     "id": 252,
     "original_en": "Icefall œ",
     "original_fr": "Glace maudite œ",
-    "translation": "Icefall œ"
+    "translation": "Ледопад œ"
   },
   {
     "id": 253,
     "original_en": "Beguile: Confuse",
     "original_fr": "Charme / Confusion",
-    "translation": "Beguile: Confuse"
+    "translation": "Обольщение: Смятение"
   },
   {
     "id": 254,
     "original_en": "Icefall œ",
     "original_fr": "Glace maudite œ",
-    "translation": "Icefall œ"
+    "translation": "Ледопад œ"
   },
   {
     "id": 255,
@@ -1539,49 +1539,49 @@
     "id": 256,
     "original_en": "Obliterate: Instant KO",
     "original_fr": "Vol de vie / Mort subite",
-    "translation": "Obliterate: Instant KO"
+    "translation": "Истребление: Мгновенная смерть"
   },
   {
     "id": 257,
     "original_en": "Recuperate: Restore HP",
     "original_fr": "Récupération accrue / Regain de PV",
-    "translation": "Recuperate: Restore HP"
+    "translation": "Восстановление: Лечение ОЗ"
   },
   {
     "id": 258,
     "original_en": "Poison Mist: Poison",
     "original_fr": "Brume toxique / Poison",
-    "translation": "Poison Mist: Poison"
+    "translation": "Ядовитый туман: Яд"
   },
   {
     "id": 259,
     "original_en": "Flashbomb: Blind",
     "original_fr": "Bombe aveuglante / Cécité",
-    "translation": "Flashbomb: Blind"
+    "translation": "Светошумовая бомба: Слепота"
   },
   {
     "id": 260,
     "original_en": "Blaring Din: Lock",
     "original_fr": "Bruit assourdissant / Oubli",
-    "translation": "Blaring Din: Lock"
+    "translation": "Оглушительный рёв: Блок техник"
   },
   {
     "id": 261,
     "original_en": "Shadow Fire Œ",
     "original_fr": "Flammes maléfiques Œ",
-    "translation": "Shadow Fire Œ"
+    "translation": "Теневой огонь Œ"
   },
   {
     "id": 262,
     "original_en": "Explosion Œ",
     "original_fr": "Explosion Œ",
-    "translation": "Explosion Œ"
+    "translation": "Взрыв Œ"
   },
   {
     "id": 263,
     "original_en": "Permeate: Dispels status immunity",
     "original_fr": "îroder / Rend vulnérable aux altérations d'état",
-    "translation": "Permeate: Dispels status immunity"
+    "translation": "Проникновение: Снятие защиты"
   },
   {
     "id": 264,
@@ -1593,49 +1593,49 @@
     "id": 265,
     "original_en": "Ha ha ha!",
     "original_fr": "Ha, ha, ha, ha !",
-    "translation": "Ha ha ha!"
+    "translation": "Ха-ха-ха!"
   },
   {
     "id": 266,
     "original_en": "Fool!",
     "original_fr": "Imbéciles !",
-    "translation": "Fool!"
+    "translation": "Глупец!"
   },
   {
     "id": 267,
     "original_en": "I'll flatten you out!",
     "original_fr": "Je vais vous écraser !",
-    "translation": "I'll flatten you out!"
+    "translation": "Я раскатаю вас в лепёшку!"
   },
   {
     "id": 268,
     "original_en": "Scorch Œ",
     "original_fr": "Feu ardent Œ",
-    "translation": "Scorch Œ"
+    "translation": "Ожог Œ"
   },
   {
     "id": 269,
     "original_en": "Deep Freeze œ",
     "original_fr": "Glace frigorifiante œ",
-    "translation": "Deep Freeze œ"
+    "translation": "Глубокая заморозка œ"
   },
   {
     "id": 270,
     "original_en": "Plasma »",
     "original_fr": "Foudre plasma »",
-    "translation": "Plasma »"
+    "translation": "Плазма »"
   },
   {
     "id": 271,
     "original_en": "Nether Blast «",
     "original_fr": "Impulsion obscure «",
-    "translation": "Nether Blast «"
+    "translation": "Загробный взрыв «"
   },
   {
     "id": 272,
     "original_en": "Violent Belch: Dalton's sour grapes",
     "original_fr": "Prouuut ultime !",
-    "translation": "Violent Belch: Dalton's sour grapes"
+    "translation": "Дикая отрыжка: Злоба Дальтона"
   },
   {
     "id": 273,
@@ -1647,139 +1647,139 @@
     "id": 274,
     "original_en": "Devours dreams from a distant dimension.",
     "original_fr": "Les ténèbres engloutissent le rêve de la planète...",
-    "translation": "Devours dreams from a distant dimension."
+    "translation": "Пожирает сны из далёкого измерения."
   },
   {
     "id": 275,
     "original_en": "Pandemonium",
     "original_fr": "Rêverie fracassée",
-    "translation": "Pandemonium"
+    "translation": "Пандемониум"
   },
   {
     "id": 276,
     "original_en": "Heavenly Peal",
     "original_fr": "Cri empyréen",
-    "translation": "Heavenly Peal"
+    "translation": "Небесный раскат"
   },
   {
     "id": 277,
     "original_en": "Starfall: Devastating physical attack",
     "original_fr": "Météore / Ultime attaque physique",
-    "translation": "Starfall: Devastating physical attack"
+    "translation": "Звездопад: Разрушительная физ. атака"
   },
   {
     "id": 278,
     "original_en": "Phantasm: Devastating magical attack",
     "original_fr": "Songe illusoire / Ultime sort",
-    "translation": "Phantasm: Devastating magical attack"
+    "translation": "Фантазм: Разрушительная маг. атака"
   },
   {
     "id": 279,
     "original_en": "Dreambind: Random status ailment",
     "original_fr": "Envo{TAG:63}tement / Stop",
-    "translation": "Dreambind: Random status ailment"
+    "translation": "Оковы снов: Случайный недуг"
   },
   {
     "id": 280,
     "original_en": "Mana Reaver: Steals MP",
     "original_fr": "Sceau magique / Vol de PM",
-    "translation": "Mana Reaver: Steals MP"
+    "translation": "Жнец маны: Похищение ОМ"
   },
   {
     "id": 281,
     "original_en": "Life Reaver: Steals HP",
     "original_fr": "Sceau vital / Vol de PV",
-    "translation": "Life Reaver: Steals HP"
+    "translation": "Жнец жизни: Похищение ОЗ"
   },
   {
     "id": 282,
     "original_en": "Ice Lance œ",
     "original_fr": "Lance de glace œ",
-    "translation": "Ice Lance œ"
+    "translation": "Ледяное копьё œ"
   },
   {
     "id": 283,
     "original_en": "Incinerate Œ",
     "original_fr": "Chaleur suffocante Œ",
-    "translation": "Incinerate Œ"
+    "translation": "Испепеление Œ"
   },
   {
     "id": 284,
     "original_en": "Supernova »",
     "original_fr": "Supernova »",
-    "translation": "Supernova »"
+    "translation": "Сверхновая »"
   },
   {
     "id": 285,
     "original_en": "Gravity Sphere «",
     "original_fr": "Trou noir «",
-    "translation": "Gravity Sphere «"
+    "translation": "Гравитационная сфера «"
   },
   {
     "id": 286,
     "original_en": "The End of All and Nothing",
     "original_fr": "Fin du monde",
-    "translation": "The End of All and Nothing"
+    "translation": "Конец Всего и Ничто"
   },
   {
     "id": 287,
     "original_en": "Holy Light »",
     "original_fr": "Rayon céleste »",
-    "translation": "Holy Light »"
+    "translation": "Святой свет »"
   },
   {
     "id": 288,
     "original_en": "Thunder »",
     "original_fr": "Tonnerre fulgurant »",
-    "translation": "Thunder »"
+    "translation": "Гром »"
   },
   {
     "id": 289,
     "original_en": "Telekinesis",
     "original_fr": "Télékinésie",
-    "translation": "Telekinesis"
+    "translation": "Телекинез"
   },
   {
     "id": 290,
     "original_en": "Thunderburst »",
     "original_fr": "Chute d'éclairs »",
-    "translation": "Thunderburst »"
+    "translation": "Удар грома »"
   },
   {
     "id": 291,
     "original_en": "Overdrive",
     "original_fr": "Pleine puissance",
-    "translation": "Overdrive"
+    "translation": "Овердрайв"
   },
   {
     "id": 292,
     "original_en": "Death's Rainbow",
     "original_fr": "Arc-en-ciel létal",
-    "translation": "Death's Rainbow"
+    "translation": "Радуга смерти"
   },
   {
     "id": 293,
     "original_en": "It's not over yet!",
     "original_fr": "Je n'ai pas dit mon dernier mot !",
-    "translation": "It's not over yet!"
+    "translation": "Это ещё не конец!"
   },
   {
     "id": 294,
     "original_en": "Yah!",
     "original_fr": "Ha !",
-    "translation": "Yah!"
+    "translation": "Йа-а!"
   },
   {
     "id": 295,
     "original_en": "Second Wind",
     "original_fr": "îveil",
-    "translation": "Second Wind"
+    "translation": "Второе дыхание"
   },
   {
     "id": 296,
     "original_en": "Dreambind: Stop",
     "original_fr": "Envo{TAG:63}tement / Stop",
-    "translation": "Dreambind: Stop"
+    "translation": "Оковы снов: Стоп"
   },
   {
     "id": 297,

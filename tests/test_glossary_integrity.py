@@ -46,7 +46,7 @@ def test_core_canon_characters():
     terms = {t["source"].lower(): t for t in data if isinstance(t, dict)}
 
     expected_chars = {
-        "crono": "Кроно",
+        "crono": "Хроно",
         "marle": "Марле",
         "lucca": "Лукка",
         "robo": "Робо",

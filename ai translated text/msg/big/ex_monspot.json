@@ -129,31 +129,31 @@
     "id": 21,
     "original_en": "Middle Ages - Cathedral\nPresent - Guardia Castle",
     "original_fr": "Moyen-{TAG:5F}ge : abbaye de\nManolia\nPrésent : ch{TAG:4A}teau de Gardia",
-    "translation": "600 г. — Cathedral\n1000 г. — Guardia Castle"
+    "translation": "600 г. — Собор Манолии\n1000 г. — Замок Гардии"
   },
   {
     "id": 22,
     "original_en": "Middle Ages - Cathedral\nPresent - Guardia Castle",
     "original_fr": "Moyen-{TAG:5F}ge : abbaye de\nManolia\nPrésent : ch{TAG:4A}teau de Gardia",
-    "translation": "600 г. — Cathedral\n1000 г. — Guardia Castle"
+    "translation": "600 г. — Собор Манолии\n1000 г. — Замок Гардии"
   },
   {
     "id": 23,
     "original_en": "Middle Ages - Cathedral\nPresent - Medina",
     "original_fr": "Moyen-{TAG:5F}ge : abbaye de\nManolia\nPrésent : Médina",
-    "translation": "600 г. — Cathedral\n1000 г. — Medina"
+    "translation": "600 г. — Собор Манолии\n1000 г. — Медина"
   },
   {
     "id": 24,
     "original_en": "Middle Ages - Cathedral\nPresent - Medina",
     "original_fr": "Moyen-{TAG:5F}ge : abbaye de\nManolia\nPrésent : Médina",
-    "translation": "600 г. — Cathedral\n1000 г. — Medina"
+    "translation": "600 г. — Собор Манолии\n1000 г. — Медина"
   },
   {
     "id": 25,
     "original_en": "Middle Ages - Cathedral",
     "original_fr": "Moyen-{TAG:5F}ge : abbaye de\nManolia",
-    "translation": "600 г. — Cathedral"
+    "translation": "600 г. — Собор Манолии"
   },
   {
     "id": 26,
@@ -351,7 +351,7 @@
     "id": 58,
     "original_en": "Middle Ages - Magus's Keep\nFuture - Arris Dome\n{TAG:38}{TAG:38}{TAG:38}{TAG:70}- Sites 16 and 32",
     "original_fr": "M.-{TAG:5F}. : palais du Magistère\nFutur : dôme d'Arris,\nruines nÎ 16, ruines nÎ 32",
-    "translation": "600 г. — Замок Магуса\n2300 г. — Купол Аррис\n{TAG:38}{TAG:38}{TAG:38}{TAG:70}- Sites 16 and 32"
+    "translation": "600 г. — Замок Магуса\n2300 г. — Купол Аррис\n{TAG:38}{TAG:38}{TAG:38}{TAG:70}- Зоны 16 и 32"
   },
   {
     "id": 59,
@@ -747,7 +747,7 @@
     "id": 124,
     "original_en": "Middle Ages - Cursed Woods\nPrehistory - Hunting Range\nAntiquity - Enhasa",
     "original_fr": "M.-{TAG:5F}. : forêt aux grenouilles\nPréhist. : terrain de chasse\nAntiquité : Enhassa",
-    "translation": "600 г. — Проклятый лес\nДо н. э. — Охотничьи угодья\nДревн. — Enhasa"
+    "translation": "600 г. — Проклятый лес\nДо н. э. — Охотничьи угодья\nДревн. — Энхаса"
   },
   {
     "id": 125,
@@ -963,7 +963,7 @@
     "id": 160,
     "original_en": "Middle Ages - Cathedral",
     "original_fr": "Moyen-{TAG:5F}ge : abbaye de\nManolia",
-    "translation": "600 г. — Cathedral"
+    "translation": "600 г. — Собор Манолии"
   },
   {
     "id": 161,
@@ -1263,13 +1263,13 @@
     "id": 210,
     "original_en": "Future - Sun Temple",
     "original_fr": "Futur : temple du soleil",
-    "translation": "2300 г. — Sun Temple"
+    "translation": "2300 г. — Храм Солнца"
   },
   {
     "id": 211,
     "original_en": "Future - Sun Temple",
     "original_fr": "Futur : temple du soleil",
-    "translation": "2300 г. — Sun Temple"
+    "translation": "2300 г. — Храм Солнца"
   },
   {
     "id": 212,
@@ -1281,7 +1281,7 @@
     "id": 213,
     "original_en": "Present - Guardia Castle",
     "original_fr": "Présent : ch{TAG:4A}teau de Gardia",
-    "translation": "1000 г. — Guardia Castle"
+    "translation": "1000 г. — Замок Гардии"
   },
   {
     "id": 214,

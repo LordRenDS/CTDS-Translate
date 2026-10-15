@@ -63,43 +63,43 @@
     "id": 10,
     "original_en": "Scythe",
     "original_fr": "Faux",
-    "translation": "Scythe"
+    "translation": "Коса"
   },
   {
     "id": 11,
     "original_en": "Kick Combo",
     "original_fr": "Coups de pied",
-    "translation": "Kick Combo"
+    "translation": "Серия пинков"
   },
   {
     "id": 12,
     "original_en": "Head-butt",
     "original_fr": "Coup de tête",
-    "translation": "Head-butt"
+    "translation": "Удар головой"
   },
   {
     "id": 13,
     "original_en": "Tail Swipe",
     "original_fr": "Coup de queue",
-    "translation": "Tail Swipe"
+    "translation": "Удар хвостом"
   },
   {
     "id": 14,
     "original_en": "Jump Kick",
     "original_fr": "Coup de pied sauté",
-    "translation": "Jump Kick"
+    "translation": "Удар в прыжке"
   },
   {
     "id": 15,
     "original_en": "Hit",
     "original_fr": "Frapper",
-    "translation": "Hit"
+    "translation": "Удар"
   },
   {
     "id": 16,
     "original_en": "Sobat",
     "original_fr": "Savate",
-    "translation": "Sobat"
+    "translation": "Собат"
   },
   {
     "id": 17,
@@ -111,7 +111,7 @@
     "id": 18,
     "original_en": "Robo Punch",
     "original_fr": "Coup de poing",
-    "translation": "Robo Punch"
+    "translation": "Удар Робо"
   },
   {
     "id": 19,
@@ -123,618 +123,618 @@
     "id": 20,
     "original_en": "Hammer",
     "original_fr": "Maillet",
-    "translation": "Hammer"
+    "translation": "Молот"
   },
   {
     "id": 21,
     "original_en": "Slap",
     "original_fr": "Baffe",
-    "translation": "Slap"
+    "translation": "Пощёчина"
   },
   {
     "id": 22,
     "original_en": "Rage",
     "original_fr": "Folie furieuse",
-    "translation": "Rage"
+    "translation": "Ярость"
   },
   {
     "id": 23,
     "original_en": "Thunder Blast",
     "original_fr": "Obus foudroyant",
-    "translation": "Thunder Blast"
+    "translation": "Громовой взрыв"
   },
   {
     "id": 24,
     "original_en": "Summon Thunderbolt",
     "original_fr": "Tonnerre grondant",
-    "translation": "Summon Thunderbolt"
+    "translation": "Призыв молнии"
   },
   {
     "id": 25,
     "original_en": "Thunder Strike",
     "original_fr": "Fracas fulgurant",
-    "translation": "Thunder Strike"
+    "translation": "Удар грома"
   },
   {
     "id": 26,
     "original_en": "Naga Thunder",
     "original_fr": "©Foudre de myanne",
-    "translation": "Naga Thunder"
+    "translation": "Гром наги"
   },
   {
     "id": 27,
     "original_en": "Gorgon Thunder",
     "original_fr": "©Foudre de gorgone",
-    "translation": "Gorgon Thunder"
+    "translation": "Гром горгоны"
   },
   {
     "id": 28,
     "original_en": "Medusa Thunder",
     "original_fr": "©Foudre de méduse",
-    "translation": "Medusa Thunder"
+    "translation": "Гром медузы"
   },
   {
     "id": 29,
     "original_en": "Fiendillo Lightning",
     "original_fr": "Foudre roulée",
-    "translation": "Fiendillo Lightning"
+    "translation": "Гром фиендилло"
   },
   {
     "id": 30,
     "original_en": "Roundillo Lightning",
     "original_fr": "Foudre maboule",
-    "translation": "Roundillo Lightning"
+    "translation": "Гром раундилло"
   },
   {
     "id": 31,
     "original_en": "Fist of Light",
     "original_fr": "Poing céleste",
-    "translation": "Fist of Light"
+    "translation": "Кулак света"
   },
   {
     "id": 32,
     "original_en": "Thunder Shuriken",
     "original_fr": "Shuriken fulgurant",
-    "translation": "Thunder Shuriken"
+    "translation": "Громовой сюрикен"
   },
   {
     "id": 33,
     "original_en": "Machine Gun",
     "original_fr": "Mitrailleuse",
-    "translation": "Machine Gun"
+    "translation": "Пулемёт"
   },
   {
     "id": 34,
     "original_en": "Lightning Spear",
     "original_fr": "Entaille foudroyante",
-    "translation": "Lightning Spear"
+    "translation": "Копьё молнии"
   },
   {
     "id": 35,
     "original_en": "Empyrean Rain",
     "original_fr": "Pluie céleste",
-    "translation": "Empyrean Rain"
+    "translation": "Небесный дождь"
   },
   {
     "id": 36,
     "original_en": "Spark Bomb",
     "original_fr": "Sphère de foudre",
-    "translation": "Spark Bomb"
+    "translation": "Искристая бомба"
   },
   {
     "id": 37,
     "original_en": "Holy Charge",
     "original_fr": "Charge céleste",
-    "translation": "Holy Charge"
+    "translation": "Святой разгон"
   },
   {
     "id": 38,
     "original_en": "Heavenly Judgment",
     "original_fr": "Jugement céleste",
-    "translation": "Heavenly Judgment"
+    "translation": "Небесный суд"
   },
   {
     "id": 39,
     "original_en": "Thunder Shot",
     "original_fr": "Tir tonnant",
-    "translation": "Thunder Shot"
+    "translation": "Громовой выстрел"
   },
   {
     "id": 40,
     "original_en": "Ball Lightning",
     "original_fr": "Orbe d'éclairs",
-    "translation": "Ball Lightning"
+    "translation": "Шаровая молния"
   },
   {
     "id": 41,
     "original_en": "Light Chakram",
     "original_fr": "Chakram lumineux",
-    "translation": "Light Chakram"
+    "translation": "Светлый чакрам"
   },
   {
     "id": 42,
     "original_en": "Electrified Bite",
     "original_fr": "Crocs fulgurants",
-    "translation": "Electrified Bite"
+    "translation": "Электроукус"
   },
   {
     "id": 43,
     "original_en": "Holy Tackle",
     "original_fr": "Tacle céleste",
-    "translation": "Holy Tackle"
+    "translation": "Святой толчок"
   },
   {
     "id": 44,
     "original_en": "Electric Spines",
     "original_fr": "Corne foudroyante",
-    "translation": "Electric Spines"
+    "translation": "Электрошипы"
   },
   {
     "id": 45,
     "original_en": "Thor's Hammer",
     "original_fr": "Marteau de Thor",
-    "translation": "Thor's Hammer"
+    "translation": "Молот Тора"
   },
   {
     "id": 46,
     "original_en": "Lightning II",
     "original_fr": "Foudreï",
-    "translation": "Lightning II"
+    "translation": "Молния II"
   },
   {
     "id": 47,
     "original_en": "Lightning Storm",
     "original_fr": "Tornade fulgurante",
-    "translation": "Lightning Storm"
+    "translation": "Грозовой шторм"
   },
   {
     "id": 48,
     "original_en": "Dark Blast",
     "original_fr": "Obus ténébreux",
-    "translation": "Dark Blast"
+    "translation": "Тёмный взрыв"
   },
   {
     "id": 49,
     "original_en": "Summon Eclipse",
     "original_fr": "Obscurité totale",
-    "translation": "Summon Eclipse"
+    "translation": "Призыв затмения"
   },
   {
     "id": 50,
     "original_en": "Dark Strike",
     "original_fr": "Fracas obscur",
-    "translation": "Dark Strike"
+    "translation": "Тёмный удар"
   },
   {
     "id": 51,
     "original_en": "Naga Shadow",
     "original_fr": "©Ténèbres de myanne",
-    "translation": "Naga Shadow"
+    "translation": "Тень наги"
   },
   {
     "id": 52,
     "original_en": "Gorgon Shadow",
     "original_fr": "©Ténèbres de gorgone",
-    "translation": "Gorgon Shadow"
+    "translation": "Тень горгоны"
   },
   {
     "id": 53,
     "original_en": "Medusa Shadow",
     "original_fr": "©Ténèbres de méduse",
-    "translation": "Medusa Shadow"
+    "translation": "Тень медузы"
   },
   {
     "id": 54,
     "original_en": "Fiendillo Darkness",
     "original_fr": "Ténèbres roulées",
-    "translation": "Fiendillo Darkness"
+    "translation": "Тьма фиендилло"
   },
   {
     "id": 55,
     "original_en": "Roundillo Darkness",
     "original_fr": "Ténèbres maboules",
-    "translation": "Roundillo Darkness"
+    "translation": "Тьма раундилло"
   },
   {
     "id": 56,
     "original_en": "Fist of Darkness",
     "original_fr": "Poing ténébreux",
-    "translation": "Fist of Darkness"
+    "translation": "Кулак тьмы"
   },
   {
     "id": 57,
     "original_en": "Nether Shuriken",
     "original_fr": "Shuriken infernal",
-    "translation": "Nether Shuriken"
+    "translation": "Сюрикен преисподней"
   },
   {
     "id": 58,
     "original_en": "Bullet Barrage",
     "original_fr": "Balles dum-dum",
-    "translation": "Bullet Barrage"
+    "translation": "Пулемётный шквал"
   },
   {
     "id": 59,
     "original_en": "Abyssal Spear",
     "original_fr": "Entaille abyssale",
-    "translation": "Abyssal Spear"
+    "translation": "Копьё бездны"
   },
   {
     "id": 60,
     "original_en": "Purple Rain",
     "original_fr": "Pluie pourpre",
-    "translation": "Purple Rain"
+    "translation": "Пурпурный дождь"
   },
   {
     "id": 61,
     "original_en": "Nether Bomb",
     "original_fr": "Sphère infernale",
-    "translation": "Nether Bomb"
+    "translation": "Бомба преисподней"
   },
   {
     "id": 62,
     "original_en": "Infernal Charge",
     "original_fr": "Charge ténébreuse",
-    "translation": "Infernal Charge"
+    "translation": "Адский разгон"
   },
   {
     "id": 63,
     "original_en": "Stygian Spines",
     "original_fr": "Aiguillons infernaux",
-    "translation": "Stygian Spines"
+    "translation": "Стигийские шипы"
   },
   {
     "id": 64,
     "original_en": "Nether Shot",
     "original_fr": "Tir abyssal",
-    "translation": "Nether Shot"
+    "translation": "Выстрел преисподней"
   },
   {
     "id": 65,
     "original_en": "Umbra",
     "original_fr": "Ombre magique",
-    "translation": "Umbra"
+    "translation": "Тень"
   },
   {
     "id": 66,
     "original_en": "Black Chakram",
     "original_fr": "Chakram noir",
-    "translation": "Black Chakram"
+    "translation": "Чёрный чакрам"
   },
   {
     "id": 67,
     "original_en": "Hellish Bite",
     "original_fr": "Crocs infernaux",
-    "translation": "Hellish Bite"
+    "translation": "Адский укус"
   },
   {
     "id": 68,
     "original_en": "Infernal Tackle",
     "original_fr": "Tacle ténébreux",
-    "translation": "Infernal Tackle"
+    "translation": "Адский толчок"
   },
   {
     "id": 69,
     "original_en": "Shadow Spines",
     "original_fr": "Corne ténébreuse",
-    "translation": "Shadow Spines"
+    "translation": "Шипы тени"
   },
   {
     "id": 70,
     "original_en": "Cyclopean Hammer",
     "original_fr": "Marteau de cyclope",
-    "translation": "Cyclopean Hammer"
+    "translation": "Молот циклопа"
   },
   {
     "id": 71,
     "original_en": "Hell Geyser",
     "original_fr": "Geyser infernal",
-    "translation": "Hell Geyser"
+    "translation": "Адский гейзер"
   },
   {
     "id": 72,
     "original_en": "Hell's Gate",
     "original_fr": "Portail chtonien",
-    "translation": "Hell's Gate"
+    "translation": "Врата Ада"
   },
   {
     "id": 73,
     "original_en": "Fire Blast",
     "original_fr": "Obus ardent",
-    "translation": "Fire Blast"
+    "translation": "Огненный взрыв"
   },
   {
     "id": 74,
     "original_en": "Summon Inferno",
     "original_fr": "Colonnes de feu",
-    "translation": "Summon Inferno"
+    "translation": "Призыв инферно"
   },
   {
     "id": 75,
     "original_en": "Fire Strike",
     "original_fr": "Fracas ardent",
-    "translation": "Fire Strike"
+    "translation": "Огненный удар"
   },
   {
     "id": 76,
     "original_en": "Naga Flame",
     "original_fr": "©Flammes de myanne",
-    "translation": "Naga Flame"
+    "translation": "Огонь наги"
   },
   {
     "id": 77,
     "original_en": "Gorgon Flame",
     "original_fr": "©Flammes de gorgone",
-    "translation": "Gorgon Flame"
+    "translation": "Огонь горгоны"
   },
   {
     "id": 78,
     "original_en": "Medusa Flame",
     "original_fr": "©Flammes de méduse",
-    "translation": "Medusa Flame"
+    "translation": "Огонь медузы"
   },
   {
     "id": 79,
     "original_en": "Fiendillo Fire",
     "original_fr": "Feu roulé",
-    "translation": "Fiendillo Fire"
+    "translation": "Огонь фиендилло"
   },
   {
     "id": 80,
     "original_en": "Roundillo Fire",
     "original_fr": "Feu maboul",
-    "translation": "Roundillo Fire"
+    "translation": "Огонь раундилло"
   },
   {
     "id": 81,
     "original_en": "Fist of Flame",
     "original_fr": "Poing ardent",
-    "translation": "Fist of Flame"
+    "translation": "Кулак пламени"
   },
   {
     "id": 82,
     "original_en": "Blazing Shuriken",
     "original_fr": "Shuriken enflammé",
-    "translation": "Blazing Shuriken"
+    "translation": "Огненный сюрикен"
   },
   {
     "id": 83,
     "original_en": "Napalm",
     "original_fr": "Napalm",
-    "translation": "Napalm"
+    "translation": "Напалм"
   },
   {
     "id": 84,
     "original_en": "Ardent Spear",
     "original_fr": "Entaille br{TAG:63}lante",
-    "translation": "Ardent Spear"
+    "translation": "Пылкое копьё"
   },
   {
     "id": 85,
     "original_en": "Lava Rain",
     "original_fr": "Pluie sanglante",
-    "translation": "Lava Rain"
+    "translation": "Дождь из лавы"
   },
   {
     "id": 86,
     "original_en": "Burning Sphere",
     "original_fr": "Sphère de feu",
-    "translation": "Burning Sphere"
+    "translation": "Горящая сфера"
   },
   {
     "id": 87,
     "original_en": "Blazing Charge",
     "original_fr": "Charge enflammée",
-    "translation": "Blazing Charge"
+    "translation": "Пылающий разгон"
   },
   {
     "id": 88,
     "original_en": "Firebreath",
     "original_fr": "Lance-flammes",
-    "translation": "Firebreath"
+    "translation": "Огнедыхание"
   },
   {
     "id": 89,
     "original_en": "Fire Shot",
     "original_fr": "Tir br{TAG:63}lant",
-    "translation": "Fire Shot"
+    "translation": "Огненный выстрел"
   },
   {
     "id": 90,
     "original_en": "Mage Fire",
     "original_fr": "Feu magique",
-    "translation": "Mage Fire"
+    "translation": "Магический огонь"
   },
   {
     "id": 91,
     "original_en": "Red Chakram",
     "original_fr": "Chakram rouge",
-    "translation": "Red Chakram"
+    "translation": "Красный чакрам"
   },
   {
     "id": 92,
     "original_en": "Searing Bite",
     "original_fr": "Crocs ardents",
-    "translation": "Searing Bite"
+    "translation": "Обжигающий укус"
   },
   {
     "id": 93,
     "original_en": "Blazing Tackle",
     "original_fr": "Tacle enflammé",
-    "translation": "Blazing Tackle"
+    "translation": "Пылающий толчок"
   },
   {
     "id": 94,
     "original_en": "Flame Spines",
     "original_fr": "Corne ardente",
-    "translation": "Flame Spines"
+    "translation": "Огненные шипы"
   },
   {
     "id": 95,
     "original_en": "Vulcan Hammer",
     "original_fr": "Marteau de Vulcain",
-    "translation": "Vulcan Hammer"
+    "translation": "Вулканический молот"
   },
   {
     "id": 96,
     "original_en": "Fire II",
     "original_fr": "Feuï",
-    "translation": "Fire II"
+    "translation": "Огонь II"
   },
   {
     "id": 97,
     "original_en": "Conflagration",
     "original_fr": "Calcination",
-    "translation": "Conflagration"
+    "translation": "Пожарище"
   },
   {
     "id": 98,
     "original_en": "Aqua Blast",
     "original_fr": "Obus aqueux",
-    "translation": "Aqua Blast"
+    "translation": "Водный взрыв"
   },
   {
     "id": 99,
     "original_en": "Summon Riptide",
     "original_fr": "Torrent limoneux",
-    "translation": "Summon Riptide"
+    "translation": "Призыв водоворота"
   },
   {
     "id": 100,
     "original_en": "Water Strike",
     "original_fr": "Fracas aqueux",
-    "translation": "Water Strike"
+    "translation": "Водный удар"
   },
   {
     "id": 101,
     "original_en": "Naga Ice",
     "original_fr": "©Glace de myanne",
-    "translation": "Naga Ice"
+    "translation": "Лёд наги"
   },
   {
     "id": 102,
     "original_en": "Gorgon Ice",
     "original_fr": "©Glace de gorgone",
-    "translation": "Gorgon Ice"
+    "translation": "Лёд горгоны"
   },
   {
     "id": 103,
     "original_en": "Medusa Ice",
     "original_fr": "©Glace de méduse",
-    "translation": "Medusa Ice"
+    "translation": "Лёд медузы"
   },
   {
     "id": 104,
     "original_en": "Fiendillo Water",
     "original_fr": "Eau roulée",
-    "translation": "Fiendillo Water"
+    "translation": "Вода фиендилло"
   },
   {
     "id": 105,
     "original_en": "Roundillo Water",
     "original_fr": "Eau maboule",
-    "translation": "Roundillo Water"
+    "translation": "Вода раундилло"
   },
   {
     "id": 106,
     "original_en": "Fist of Water",
     "original_fr": "Poing diluvien",
-    "translation": "Fist of Water"
+    "translation": "Кулак воды"
   },
   {
     "id": 107,
     "original_en": "Riptide Shuriken",
     "original_fr": "Shuriken torrentiel",
-    "translation": "Riptide Shuriken"
+    "translation": "Водоворотный сюрикен"
   },
   {
     "id": 108,
     "original_en": "Hydrobomb",
     "original_fr": "Projectile aqueux",
-    "translation": "Hydrobomb"
+    "translation": "Гидробомба"
   },
   {
     "id": 109,
     "original_en": "Drenching Spear",
     "original_fr": "Entaille torrentielle",
-    "translation": "Drenching Spear"
+    "translation": "Водяное копьё"
   },
   {
     "id": 110,
     "original_en": "Frigid Rain",
     "original_fr": "Pluie glacée",
-    "translation": "Frigid Rain"
+    "translation": "Ледяной дождь"
   },
   {
     "id": 111,
     "original_en": "Ice Grenade",
     "original_fr": "Sphère de glace",
-    "translation": "Ice Grenade"
+    "translation": "Ледяная граната"
   },
   {
     "id": 112,
     "original_en": "Diluvial Charge",
     "original_fr": "Charge glacée",
-    "translation": "Diluvial Charge"
+    "translation": "Потопный разгон"
   },
   {
     "id": 113,
     "original_en": "Icepick",
     "original_fr": "Pic de glace",
-    "translation": "Icepick"
+    "translation": "Ледоруб"
   },
   {
     "id": 114,
     "original_en": "Water Shot",
     "original_fr": "Tir aqueux",
-    "translation": "Water Shot"
+    "translation": "Водный выстрел"
   },
   {
     "id": 115,
     "original_en": "Ice Sphere",
     "original_fr": "Boule de glace",
-    "translation": "Ice Sphere"
+    "translation": "Ледяная сфера"
   },
   {
     "id": 116,
     "original_en": "Blue Chakram",
     "original_fr": "Chakram bleu",
-    "translation": "Blue Chakram"
+    "translation": "Синий чакрам"
   },
   {
     "id": 117,
     "original_en": "Brine Bite",
     "original_fr": "Crocs océaniques",
-    "translation": "Brine Bite"
+    "translation": "Едкий укус"
   },
   {
     "id": 118,
     "original_en": "Diluvial Tackle",
     "original_fr": "Tacle de glace",
-    "translation": "Diluvial Tackle"
+    "translation": "Потопный толчок"
   },
   {
     "id": 119,
     "original_en": "Ice Spines",
     "original_fr": "Corne frigorifiante",
-    "translation": "Ice Spines"
+    "translation": "Ледяные шипы"
   },
   {
     "id": 120,
     "original_en": "Water Hammer",
     "original_fr": "Marteau de Poséidon",
-    "translation": "Water Hammer"
+    "translation": "Водяной молот"
   },
   {
     "id": 121,
     "original_en": "Water II",
     "original_fr": "Eauï",
-    "translation": "Water II"
+    "translation": "Вода II"
   },
   {
     "id": 122,
     "original_en": "Hailstone",
     "original_fr": "Iceberg",
-    "translation": "Hailstone"
+    "translation": "Градина"
   }
 ]

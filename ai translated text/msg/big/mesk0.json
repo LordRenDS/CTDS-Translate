@@ -99,7 +99,7 @@
     "id": 16,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}No. 1{GLYPH:402}{TAG:38}{GLYPH:403}Steel Runner{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No. 2{GLYPH:402}{TAG:38}{GLYPH:403}Green Ambler{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}No. 3{GLYPH:402}{TAG:38}{GLYPH:403}Catalack{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}No. 4{GLYPH:402}{TAG:38}{GLYPH:403}G.I. Jogger{GLYPH:401}",
     "original_fr": "       {GLYPH:394}Le coureur au masque de fer{GLYPH:395}\n       {GLYPH:396}Le saurien tra¡nard{GLYPH:397}\n       {GLYPH:398}Le joli minet{GLYPH:399}\n       {GLYPH:400}Le soldat enthousiaste{GLYPH:401}",
-    "translation": "{TAG:38}{TAG:38}{GLYPH:394}No. 1{GLYPH:402}{TAG:38}{GLYPH:403}Стальной Бегун{GLYPH:395}\\n{TAG:38}{TAG:38}{GLYPH:396}No. 2{GLYPH:402}{TAG:38}{GLYPH:403}Зелёный Тихоход{GLYPH:397}\\n{TAG:38}{TAG:38}{GLYPH:398}No. 3{GLYPH:402}{TAG:38}{GLYPH:403}Каталак{GLYPH:399}\\n{TAG:38}{TAG:38}{GLYPH:400}No. 4{GLYPH:402}{TAG:38}{GLYPH:403}Бравый Бегун{GLYPH:401}"
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}No. 1{GLYPH:402}{TAG:38}{GLYPH:403}Стальной Бегун{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No. 2{GLYPH:402}{TAG:38}{GLYPH:403}Зелёный Тихоход{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}No. 3{GLYPH:402}{TAG:38}{GLYPH:403}Каталак{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}No. 4{GLYPH:402}{TAG:38}{GLYPH:403}Бравый Бегун{GLYPH:401}"
   },
   {
     "id": 17,
@@ -441,7 +441,7 @@
     "id": 73,
     "original_en": "Let me see how many Silver Points you have\non your card... Looks like you've got {GLYPH:367}.{WAIT_KEY}\nWould you like to exchange 10 Silver Points\nfor 50 G?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous avez actuellement {GLYPH:367} point(s) d'argent.{WAIT_KEY}\nVoulez-vous échanger 10 points d'argent contre\n50 G ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Посмотрим, сколько Серебряных очков у тебя на\nкарточке... Всего {GLYPH:367}.{WAIT_KEY}\nХочешь обменять 10 Серебряных очков на 50 G?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Посмотрим, сколько Серебряных очков у тебя на\nкарточке... Всего {GLYPH:367}.{WAIT_KEY}\nХочешь обменять 10 Серебряных очков на 50 З?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 74,
