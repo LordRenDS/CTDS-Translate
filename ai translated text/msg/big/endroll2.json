@@ -1,0 +1,1550 @@
+[
+  {
+    "id": 0,
+    "original_en": "Shinji Hashimoto",
+    "original_fr": "Shinji Hashimoto",
+    "translation": "Shinji Hashimoto"
+  },
+  {
+    "id": 1,
+    "original_en": "Kazuhiko Aoki",
+    "original_fr": "Kazuhiko Aoki",
+    "translation": "Kazuhiko Aoki"
+  },
+  {
+    "id": 2,
+    "original_en": "Takashi Tokita",
+    "original_fr": "Takashi Tokita",
+    "translation": "Takashi Tokita"
+  },
+  {
+    "id": 3,
+    "original_en": "Masato Kato",
+    "original_fr": "Masato Kato",
+    "translation": "Masato Kato"
+  },
+  {
+    "id": 4,
+    "original_en": "Yasunori Mitsuda",
+    "original_fr": "Yasunori Mitsuda",
+    "translation": "Yasunori Mitsuda"
+  },
+  {
+    "id": 5,
+    "original_en": "Hiroyuki Miura",
+    "original_fr": "Hiroyuki Miura",
+    "translation": "Hiroyuki Miura"
+  },
+  {
+    "id": 6,
+    "original_en": "Takahiro Abe",
+    "original_fr": "Takahiro Abe",
+    "translation": "Takahiro Abe"
+  },
+  {
+    "id": 7,
+    "original_en": "Mieko Hoshino",
+    "original_fr": "Mieko Hoshino",
+    "translation": "Mieko Hoshino"
+  },
+  {
+    "id": 8,
+    "original_en": "Miki Akakura",
+    "original_fr": "Miki Akakura",
+    "translation": "Miki Akakura"
+  },
+  {
+    "id": 9,
+    "original_en": "Tomoko Sugiyama",
+    "original_fr": "Tomoko Sugiyama",
+    "translation": "Tomoko Sugiyama"
+  },
+  {
+    "id": 10,
+    "original_en": "Tsuyoshi Sekito",
+    "original_fr": "Tsuyoshi Sekito",
+    "translation": "Tsuyoshi Sekito"
+  },
+  {
+    "id": 11,
+    "original_en": "TOEI ANIMATION CO., LTD",
+    "original_fr": "TOEI ANIMATION CO., LTD",
+    "translation": "TOEI ANIMATION CO., LTD"
+  },
+  {
+    "id": 12,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 13,
+    "original_en": "Koji Taguchi",
+    "original_fr": "Koji Taguchi",
+    "translation": "Koji Taguchi"
+  },
+  {
+    "id": 14,
+    "original_en": "Ryutaro Sasaki",
+    "original_fr": "Ryutaro Sasaki",
+    "translation": "Ryutaro Sasaki"
+  },
+  {
+    "id": 15,
+    "original_en": "Yuka Naito",
+    "original_fr": "Yuka Naito",
+    "translation": "Yuka Naito"
+  },
+  {
+    "id": 16,
+    "original_en": "Gyotaro Sato",
+    "original_fr": "Gyotaro Sato",
+    "translation": "Gyotaro Sato"
+  },
+  {
+    "id": 17,
+    "original_en": "Yuko Kono",
+    "original_fr": "Yuko Kono",
+    "translation": "Yuko Kono"
+  },
+  {
+    "id": 18,
+    "original_en": "Kumiko Ishida",
+    "original_fr": "Kumiko Ishida",
+    "translation": "Kumiko Ishida"
+  },
+  {
+    "id": 19,
+    "original_en": "Hideki Yamamoto",
+    "original_fr": "Hideki Yamamoto",
+    "translation": "Hideki Yamamoto"
+  },
+  {
+    "id": 20,
+    "original_en": "Toshiyuki Inoue",
+    "original_fr": "Toshiyuki Inoue",
+    "translation": "Toshiyuki Inoue"
+  },
+  {
+    "id": 21,
+    "original_en": "Naoki Ooishi",
+    "original_fr": "Naoki Ooishi",
+    "translation": "Naoki Ooishi"
+  },
+  {
+    "id": 22,
+    "original_en": "Takashi Kamimura",
+    "original_fr": "Takashi Kamimura",
+    "translation": "Takashi Kamimura"
+  },
+  {
+    "id": 23,
+    "original_en": "Chiaki Yamauchi",
+    "original_fr": "Chiaki Yamauchi",
+    "translation": "Chiaki Yamauchi"
+  },
+  {
+    "id": 24,
+    "original_en": "Miki Kato",
+    "original_fr": "Miki Kato",
+    "translation": "Miki Kato"
+  },
+  {
+    "id": 25,
+    "original_en": "Ayako Kawamoto",
+    "original_fr": "Ayako Kawamoto",
+    "translation": "Ayako Kawamoto"
+  },
+  {
+    "id": 26,
+    "original_en": "Emiko Sato",
+    "original_fr": "Emiko Sato",
+    "translation": "Emiko Sato"
+  },
+  {
+    "id": 27,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "Maki Nakajima",
+    "original_fr": "Maki Nakajima",
+    "translation": "Maki Nakajima"
+  },
+  {
+    "id": 29,
+    "original_en": "Joji Hayashi",
+    "original_fr": "Joji Hayashi",
+    "translation": "Joji Hayashi"
+  },
+  {
+    "id": 30,
+    "original_en": "Yoshimasa Tanaka",
+    "original_fr": "Yoshimasa Tanaka",
+    "translation": "Yoshimasa Tanaka"
+  },
+  {
+    "id": 31,
+    "original_en": "Takashi Yamada",
+    "original_fr": "Takashi Yamada",
+    "translation": "Takashi Yamada"
+  },
+  {
+    "id": 32,
+    "original_en": "Kazuya Okamoto",
+    "original_fr": "Kazuya Okamoto",
+    "translation": "Kazuya Okamoto"
+  },
+  {
+    "id": 33,
+    "original_en": "Tomohito Kohno",
+    "original_fr": "Tomohito Kohno",
+    "translation": "Tomohito Kohno"
+  },
+  {
+    "id": 34,
+    "original_en": "Toshimitsu Umezawa",
+    "original_fr": "Toshimitsu Umezawa",
+    "translation": "Toshimitsu Umezawa"
+  },
+  {
+    "id": 35,
+    "original_en": "Toyokazu Takehara",
+    "original_fr": "Toyokazu Takehara",
+    "translation": "Toyokazu Takehara"
+  },
+  {
+    "id": 36,
+    "original_en": "Tadahiro Kaneko",
+    "original_fr": "Tadahiro Kaneko",
+    "translation": "Tadahiro Kaneko"
+  },
+  {
+    "id": 37,
+    "original_en": "Masakazu Kawanishi",
+    "original_fr": "Masakazu Kawanishi",
+    "translation": "Masakazu Kawanishi"
+  },
+  {
+    "id": 38,
+    "original_en": "Naoko Asazuma",
+    "original_fr": "Naoko Asazuma",
+    "translation": "Naoko Asazuma"
+  },
+  {
+    "id": 39,
+    "original_en": "Masamichi Takano",
+    "original_fr": "Masamichi Takano",
+    "translation": "Masamichi Takano"
+  },
+  {
+    "id": 40,
+    "original_en": "Hironobu Ota",
+    "original_fr": "Hironobu Ota",
+    "translation": "Hironobu Ota"
+  },
+  {
+    "id": 41,
+    "original_en": "Shigemitsu Hara",
+    "original_fr": "Shigemitsu Hara",
+    "translation": "Shigemitsu Hara"
+  },
+  {
+    "id": 42,
+    "original_en": "Shingo Murakami",
+    "original_fr": "Shingo Murakami",
+    "translation": "Shingo Murakami"
+  },
+  {
+    "id": 43,
+    "original_en": "Tsukasa Torigata",
+    "original_fr": "Tsukasa Torigata",
+    "translation": "Tsukasa Torigata"
+  },
+  {
+    "id": 44,
+    "original_en": "Akira Minagawa",
+    "original_fr": "Akira Minagawa",
+    "translation": "Akira Minagawa"
+  },
+  {
+    "id": 45,
+    "original_en": "Akira Hokiyama",
+    "original_fr": "Akira Hokiyama",
+    "translation": "Akira Hokiyama"
+  },
+  {
+    "id": 46,
+    "original_en": "Hironori Sato",
+    "original_fr": "Hironori Sato",
+    "translation": "Hironori Sato"
+  },
+  {
+    "id": 47,
+    "original_en": "Keigo Kouno",
+    "original_fr": "Keigo Kouno",
+    "translation": "Keigo Kouno"
+  },
+  {
+    "id": 48,
+    "original_en": "Mao Fujimura",
+    "original_fr": "Mao Fujimura",
+    "translation": "Mao Fujimura"
+  },
+  {
+    "id": 49,
+    "original_en": "Takehiro Asano",
+    "original_fr": "Takehiro Asano",
+    "translation": "Takehiro Asano"
+  },
+  {
+    "id": 50,
+    "original_en": "Mai Kitade",
+    "original_fr": "Mai Kitade",
+    "translation": "Mai Kitade"
+  },
+  {
+    "id": 51,
+    "original_en": "Yutaro Nagatomo",
+    "original_fr": "Yutaro Nagatomo",
+    "translation": "Yutaro Nagatomo"
+  },
+  {
+    "id": 52,
+    "original_en": "Natsuko Sakamoto",
+    "original_fr": "Natsuko Sakamoto",
+    "translation": "Natsuko Sakamoto"
+  },
+  {
+    "id": 53,
+    "original_en": "Yasuhiro Chida",
+    "original_fr": "Yasuhiro Chida",
+    "translation": "Yasuhiro Chida"
+  },
+  {
+    "id": 54,
+    "original_en": "Takao Toshima",
+    "original_fr": "Takao Toshima",
+    "translation": "Takao Toshima"
+  },
+  {
+    "id": 55,
+    "original_en": "Syuichi Nakazato",
+    "original_fr": "Syuichi Nakazato",
+    "translation": "Syuichi Nakazato"
+  },
+  {
+    "id": 56,
+    "original_en": "Shingo Akibayashi",
+    "original_fr": "Shingo Akibayashi",
+    "translation": "Shingo Akibayashi"
+  },
+  {
+    "id": 57,
+    "original_en": "Emi Yokomichi",
+    "original_fr": "Emi Yokomichi",
+    "translation": "Emi Yokomichi"
+  },
+  {
+    "id": 58,
+    "original_en": "Kotaro Arai",
+    "original_fr": "Kotaro Arai",
+    "translation": "Kotaro Arai"
+  },
+  {
+    "id": 59,
+    "original_en": "Yosuke Kobayashi",
+    "original_fr": "Yosuke Kobayashi",
+    "translation": "Yosuke Kobayashi"
+  },
+  {
+    "id": 60,
+    "original_en": "Masafumi Goto",
+    "original_fr": "Masafumi Goto",
+    "translation": "Masafumi Goto"
+  },
+  {
+    "id": 61,
+    "original_en": "Satomi Ohnishi",
+    "original_fr": "Satomi Ohnishi",
+    "translation": "Satomi Ohnishi"
+  },
+  {
+    "id": 62,
+    "original_en": "...and All QA Staff",
+    "original_fr": "...and All QA Staff",
+    "translation": "...и вся команда QA"
+  },
+  {
+    "id": 63,
+    "original_en": "Hideyuki Kato",
+    "original_fr": "Hideyuki Kato",
+    "translation": "Hideyuki Kato"
+  },
+  {
+    "id": 64,
+    "original_en": "Yukihiro Shibuya",
+    "original_fr": "Yukihiro Shibuya",
+    "translation": "Yukihiro Shibuya"
+  },
+  {
+    "id": 65,
+    "original_en": "Koji Yamashita",
+    "original_fr": "Koji Yamashita",
+    "translation": "Koji Yamashita"
+  },
+  {
+    "id": 66,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 67,
+    "original_en": "Toshio Murouchi",
+    "original_fr": "Toshio Murouchi",
+    "translation": "Toshio Murouchi"
+  },
+  {
+    "id": 68,
+    "original_en": "Shosaku Takabayashi",
+    "original_fr": "Shosaku Takabayashi",
+    "translation": "Shosaku Takabayashi"
+  },
+  {
+    "id": 69,
+    "original_en": "Ryuji Kudo",
+    "original_fr": "Ryuji Kudo",
+    "translation": "Ryuji Kudo"
+  },
+  {
+    "id": 70,
+    "original_en": "Kazuhito Tabuchi",
+    "original_fr": "Kazuhito Tabuchi",
+    "translation": "Kazuhito Tabuchi"
+  },
+  {
+    "id": 71,
+    "original_en": "Takeshi Kato",
+    "original_fr": "Takeshi Kato",
+    "translation": "Takeshi Kato"
+  },
+  {
+    "id": 72,
+    "original_en": "Tatsuhiko Nozaki",
+    "original_fr": "Tatsuhiko Nozaki",
+    "translation": "Tatsuhiko Nozaki"
+  },
+  {
+    "id": 73,
+    "original_en": "Hiromi Suda",
+    "original_fr": "Hiromi Suda",
+    "translation": "Hiromi Suda"
+  },
+  {
+    "id": 74,
+    "original_en": "Natsuyo Takada",
+    "original_fr": "Natsuyo Takada",
+    "translation": "Natsuyo Takada"
+  },
+  {
+    "id": 75,
+    "original_en": "...and All Support Staff",
+    "original_fr": "...and All Support Staff",
+    "translation": "...и вся служба поддержки"
+  },
+  {
+    "id": 76,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 77,
+    "original_en": "Miri Ito",
+    "original_fr": "Miri Ito",
+    "translation": "Miri Ito"
+  },
+  {
+    "id": 78,
+    "original_en": "Sueko Kogai",
+    "original_fr": "Sueko Kogai",
+    "translation": "Sueko Kogai"
+  },
+  {
+    "id": 79,
+    "original_en": "Reiko Kondo",
+    "original_fr": "Reiko Kondo",
+    "translation": "Reiko Kondo"
+  },
+  {
+    "id": 80,
+    "original_en": "Masashi Hiramatsu",
+    "original_fr": "Masashi Hiramatsu",
+    "translation": "Masashi Hiramatsu"
+  },
+  {
+    "id": 81,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 82,
+    "original_en": "Satoshi Toyoda",
+    "original_fr": "Satoshi Toyoda",
+    "translation": "Satoshi Toyoda"
+  },
+  {
+    "id": 83,
+    "original_en": "Satoko Kondo",
+    "original_fr": "Satoko Kondo",
+    "translation": "Satoko Kondo"
+  },
+  {
+    "id": 84,
+    "original_en": "Tom Slattery",
+    "original_fr": "Tom Slattery",
+    "translation": "Tom Slattery"
+  },
+  {
+    "id": 85,
+    "original_en": "(Original Translation: Ted Woolsey)",
+    "original_fr": "(Original Translation: Ted Woolsey)",
+    "translation": "(Ориг. перевод: Тед Вулси)"
+  },
+  {
+    "id": 86,
+    "original_en": "Colin Williamson",
+    "original_fr": "Colin Williamson",
+    "translation": "Colin Williamson"
+  },
+  {
+    "id": 87,
+    "original_en": "Phil Bright",
+    "original_fr": "Phil Bright",
+    "translation": "Phil Bright"
+  },
+  {
+    "id": 88,
+    "original_en": "Geneviève Marier-Howard",
+    "original_fr": "Geneviève Marier-Howard",
+    "translation": "Geneviève Marier-Howard"
+  },
+  {
+    "id": 89,
+    "original_en": "Laurent Sautière",
+    "original_fr": "Laurent Sautière",
+    "translation": "Laurent Sautière"
+  },
+  {
+    "id": 90,
+    "original_en": "Masashi Hiramatsu",
+    "original_fr": "Masashi Hiramatsu",
+    "translation": "Masashi Hiramatsu"
+  },
+  {
+    "id": 91,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 92,
+    "original_en": "David \"Ribs\" Carrillo",
+    "original_fr": "David \"Ribs\" Carrillo",
+    "translation": "David \"Ribs\" Carrillo"
+  },
+  {
+    "id": 93,
+    "original_en": "Aaron J. Adams",
+    "original_fr": "Aaron J. Adams",
+    "translation": "Aaron J. Adams"
+  },
+  {
+    "id": 94,
+    "original_en": "Mathew Clift",
+    "original_fr": "Mathew Clift",
+    "translation": "Mathew Clift"
+  },
+  {
+    "id": 95,
+    "original_en": "Alfred Holz",
+    "original_fr": "Alfred Holz",
+    "translation": "Alfred Holz"
+  },
+  {
+    "id": 96,
+    "original_en": "Keith P. Martz",
+    "original_fr": "Keith P. Martz",
+    "translation": "Keith P. Martz"
+  },
+  {
+    "id": 97,
+    "original_en": "Joshua D. Boden",
+    "original_fr": "Joshua D. Boden",
+    "translation": "Joshua D. Boden"
+  },
+  {
+    "id": 98,
+    "original_en": "Greg Buchold",
+    "original_fr": "Greg Buchold",
+    "translation": "Greg Buchold"
+  },
+  {
+    "id": 99,
+    "original_en": "Krista Corkos",
+    "original_fr": "Krista Corkos",
+    "translation": "Krista Corkos"
+  },
+  {
+    "id": 100,
+    "original_en": "Amber Elliott",
+    "original_fr": "Amber Elliott",
+    "translation": "Amber Elliott"
+  },
+  {
+    "id": 101,
+    "original_en": "Michael Gavidia",
+    "original_fr": "Michael Gavidia",
+    "translation": "Michael Gavidia"
+  },
+  {
+    "id": 102,
+    "original_en": "Jon Marcella",
+    "original_fr": "Jon Marcella",
+    "translation": "Jon Marcella"
+  },
+  {
+    "id": 103,
+    "original_en": "Jesse Blake McCann",
+    "original_fr": "Jesse Blake McCann",
+    "translation": "Jesse Blake McCann"
+  },
+  {
+    "id": 104,
+    "original_en": "Chaim Nussbaum",
+    "original_fr": "Chaim Nussbaum",
+    "translation": "Chaim Nussbaum"
+  },
+  {
+    "id": 105,
+    "original_en": "Matthew Slanchik",
+    "original_fr": "Matthew Slanchik",
+    "translation": "Matthew Slanchik"
+  },
+  {
+    "id": 106,
+    "original_en": "Christopher Wong",
+    "original_fr": "Christopher Wong",
+    "translation": "Christopher Wong"
+  },
+  {
+    "id": 107,
+    "original_en": "Elijah Smolko",
+    "original_fr": "Elijah Smolko",
+    "translation": "Elijah Smolko"
+  },
+  {
+    "id": 108,
+    "original_en": "Yutaka Sano",
+    "original_fr": "Yutaka Sano",
+    "translation": "Yutaka Sano"
+  },
+  {
+    "id": 109,
+    "original_en": "Yasu Kurosawa",
+    "original_fr": "Yasu Kurosawa",
+    "translation": "Yasu Kurosawa"
+  },
+  {
+    "id": 110,
+    "original_en": "Franko F. Fonseca",
+    "original_fr": "Franko F. Fonseca",
+    "translation": "Franko F. Fonseca"
+  },
+  {
+    "id": 111,
+    "original_en": "Micah Bravo",
+    "original_fr": "Micah Bravo",
+    "translation": "Micah Bravo"
+  },
+  {
+    "id": 112,
+    "original_en": "Carl Hidalgo",
+    "original_fr": "Carl Hidalgo",
+    "translation": "Carl Hidalgo"
+  },
+  {
+    "id": 113,
+    "original_en": "Jereme Skelton",
+    "original_fr": "Jereme Skelton",
+    "translation": "Jereme Skelton"
+  },
+  {
+    "id": 114,
+    "original_en": "Neil \"Tak\" Herrera",
+    "original_fr": "Neil \"Tak\" Herrera",
+    "translation": "Neil \"Tak\" Herrera"
+  },
+  {
+    "id": 115,
+    "original_en": "James Massey",
+    "original_fr": "James Massey",
+    "translation": "James Massey"
+  },
+  {
+    "id": 116,
+    "original_en": "Gene Messerschmitt",
+    "original_fr": "Gene Messerschmitt",
+    "translation": "Gene Messerschmitt"
+  },
+  {
+    "id": 117,
+    "original_en": "Sean Michael",
+    "original_fr": "Sean Michael",
+    "translation": "Sean Michael"
+  },
+  {
+    "id": 118,
+    "original_en": "Dana Kwon",
+    "original_fr": "Dana Kwon",
+    "translation": "Dana Kwon"
+  },
+  {
+    "id": 119,
+    "original_en": "Jesse Fuller",
+    "original_fr": "Jesse Fuller",
+    "translation": "Jesse Fuller"
+  },
+  {
+    "id": 120,
+    "original_en": "Chris Ichikawa",
+    "original_fr": "Chris Ichikawa",
+    "translation": "Chris Ichikawa"
+  },
+  {
+    "id": 121,
+    "original_en": "Jose Osio",
+    "original_fr": "Jose Osio",
+    "translation": "Jose Osio"
+  },
+  {
+    "id": 122,
+    "original_en": "Sonia Im",
+    "original_fr": "Sonia Im",
+    "translation": "Sonia Im"
+  },
+  {
+    "id": 123,
+    "original_en": "Amelia Cantlay",
+    "original_fr": "Amelia Cantlay",
+    "translation": "Amelia Cantlay"
+  },
+  {
+    "id": 124,
+    "original_en": "Klee Kuo",
+    "original_fr": "Klee Kuo",
+    "translation": "Klee Kuo"
+  },
+  {
+    "id": 125,
+    "original_en": "Yuka Diaz",
+    "original_fr": "Yuka Diaz",
+    "translation": "Yuka Diaz"
+  },
+  {
+    "id": 126,
+    "original_en": "Naoko Yamamura-Rice",
+    "original_fr": "Naoko Yamamura-Rice",
+    "translation": "Naoko Yamamura-Rice"
+  },
+  {
+    "id": 127,
+    "original_en": "Wilbur Lin",
+    "original_fr": "Wilbur Lin",
+    "translation": "Wilbur Lin"
+  },
+  {
+    "id": 128,
+    "original_en": "Emi Bliss",
+    "original_fr": "Emi Bliss",
+    "translation": "Emi Bliss"
+  },
+  {
+    "id": 129,
+    "original_en": "Miki Hamasaki",
+    "original_fr": "Miki Hamasaki",
+    "translation": "Miki Hamasaki"
+  },
+  {
+    "id": 130,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 131,
+    "original_en": "Kristina Yoon",
+    "original_fr": "Kristina Yoon",
+    "translation": "Kristina Yoon"
+  },
+  {
+    "id": 132,
+    "original_en": "Parker Sapp",
+    "original_fr": "Parker Sapp",
+    "translation": "Parker Sapp"
+  },
+  {
+    "id": 133,
+    "original_en": "Sakura Minamida",
+    "original_fr": "Sakura Minamida",
+    "translation": "Sakura Minamida"
+  },
+  {
+    "id": 134,
+    "original_en": "Charles McCarter",
+    "original_fr": "Charles McCarter",
+    "translation": "Charles McCarter"
+  },
+  {
+    "id": 135,
+    "original_en": "Tim Law",
+    "original_fr": "Tim Law",
+    "translation": "Tim Law"
+  },
+  {
+    "id": 136,
+    "original_en": "Issei Shimizu",
+    "original_fr": "Issei Shimizu",
+    "translation": "Issei Shimizu"
+  },
+  {
+    "id": 137,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 138,
+    "original_en": "Laurie Ma",
+    "original_fr": "Laurie Ma",
+    "translation": "Laurie Ma"
+  },
+  {
+    "id": 139,
+    "original_en": "Johnny Fournier",
+    "original_fr": "Johnny Fournier",
+    "translation": "Johnny Fournier"
+  },
+  {
+    "id": 140,
+    "original_en": "Max Mena",
+    "original_fr": "Max Mena",
+    "translation": "Max Mena"
+  },
+  {
+    "id": 141,
+    "original_en": "Raio Mitsuno",
+    "original_fr": "Raio Mitsuno",
+    "translation": "Raio Mitsuno"
+  },
+  {
+    "id": 142,
+    "original_en": "Maiko Sakurai",
+    "original_fr": "Maiko Sakurai",
+    "translation": "Maiko Sakurai"
+  },
+  {
+    "id": 143,
+    "original_en": "Patrick Lofstrom",
+    "original_fr": "Patrick Lofstrom",
+    "translation": "Patrick Lofstrom"
+  },
+  {
+    "id": 144,
+    "original_en": "Ron Kurtz",
+    "original_fr": "Ron Kurtz",
+    "translation": "Ron Kurtz"
+  },
+  {
+    "id": 145,
+    "original_en": "Kanji Tashiro",
+    "original_fr": "Kanji Tashiro",
+    "translation": "Kanji Tashiro"
+  },
+  {
+    "id": 146,
+    "original_en": "Pete Spiegelman",
+    "original_fr": "Pete Spiegelman",
+    "translation": "Pete Spiegelman"
+  },
+  {
+    "id": 147,
+    "original_en": "Daniel McConnell",
+    "original_fr": "Daniel McConnell",
+    "translation": "Daniel McConnell"
+  },
+  {
+    "id": 148,
+    "original_en": "John Siy",
+    "original_fr": "John Siy",
+    "translation": "John Siy"
+  },
+  {
+    "id": 149,
+    "original_en": "Johnny Lam",
+    "original_fr": "Johnny Lam",
+    "translation": "Johnny Lam"
+  },
+  {
+    "id": 150,
+    "original_en": "Eric Rosenberger",
+    "original_fr": "Eric Rosenberger",
+    "translation": "Eric Rosenberger"
+  },
+  {
+    "id": 151,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 152,
+    "original_en": "Shinji Futami",
+    "original_fr": "Shinji Futami",
+    "translation": "Shinji Futami"
+  },
+  {
+    "id": 153,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 154,
+    "original_en": "Ron Scott",
+    "original_fr": "Ron Scott",
+    "translation": "Ron Scott"
+  },
+  {
+    "id": 155,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 156,
+    "original_en": "Clinton Foy",
+    "original_fr": "Clinton Foy",
+    "translation": "Clinton Foy"
+  },
+  {
+    "id": 157,
+    "original_en": "Shinji Hashimoto",
+    "original_fr": "Shinji Hashimoto",
+    "translation": "Shinji Hashimoto"
+  },
+  {
+    "id": 158,
+    "original_en": "John Yamamoto",
+    "original_fr": "John Yamamoto",
+    "translation": "John Yamamoto"
+  },
+  {
+    "id": 159,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 160,
+    "original_en": "Yuko Tomizawa",
+    "original_fr": "Yuko Tomizawa",
+    "translation": "Yuko Tomizawa"
+  },
+  {
+    "id": 161,
+    "original_en": "Alessandro Bovenzi",
+    "original_fr": "Alessandro Bovenzi",
+    "translation": "Alessandro Bovenzi"
+  },
+  {
+    "id": 162,
+    "original_en": "André Woitczyk",
+    "original_fr": "André Woitczyk",
+    "translation": "André Woitczyk"
+  },
+  {
+    "id": 163,
+    "original_en": "Dario de Cesare",
+    "original_fr": "Dario de Cesare",
+    "translation": "Dario de Cesare"
+  },
+  {
+    "id": 164,
+    "original_en": "Lee Deneini",
+    "original_fr": "Lee Deneini",
+    "translation": "Lee Deneini"
+  },
+  {
+    "id": 165,
+    "original_en": "Daniel Mellar",
+    "original_fr": "Daniel Mellar",
+    "translation": "Daniel Mellar"
+  },
+  {
+    "id": 166,
+    "original_en": "Kevin Balon",
+    "original_fr": "Kevin Balon",
+    "translation": "Kevin Balon"
+  },
+  {
+    "id": 167,
+    "original_en": "Sumiko Okada",
+    "original_fr": "Sumiko Okada",
+    "translation": "Sumiko Okada"
+  },
+  {
+    "id": 168,
+    "original_en": "Andii Yamanaka",
+    "original_fr": "Andii Yamanaka",
+    "translation": "Andii Yamanaka"
+  },
+  {
+    "id": 169,
+    "original_en": "Douglas Brown",
+    "original_fr": "Douglas Brown",
+    "translation": "Douglas Brown"
+  },
+  {
+    "id": 170,
+    "original_en": "Sanjay Mitra",
+    "original_fr": "Sanjay Mitra",
+    "translation": "Sanjay Mitra"
+  },
+  {
+    "id": 171,
+    "original_en": "Nicholas Tampakopoulos",
+    "original_fr": "Nicholas Tampakopoulos",
+    "translation": "Nicholas Tampakopoulos"
+  },
+  {
+    "id": 172,
+    "original_en": "Jean-Baptiste Brutelle",
+    "original_fr": "Jean-Baptiste Brutelle",
+    "translation": "Jean-Baptiste Brutelle"
+  },
+  {
+    "id": 173,
+    "original_en": "Lucile Le Merle",
+    "original_fr": "Lucile Le Merle",
+    "translation": "Lucile Le Merle"
+  },
+  {
+    "id": 174,
+    "original_en": "Hélène Schwalm",
+    "original_fr": "Hélène Schwalm",
+    "translation": "Hélène Schwalm"
+  },
+  {
+    "id": 175,
+    "original_en": "Fabian Weber",
+    "original_fr": "Fabian Weber",
+    "translation": "Fabian Weber"
+  },
+  {
+    "id": 176,
+    "original_en": "Pierre Gauthier",
+    "original_fr": "Pierre Gauthier",
+    "translation": "Pierre Gauthier"
+  },
+  {
+    "id": 177,
+    "original_en": "Elisa Giribaldi",
+    "original_fr": "Elisa Giribaldi",
+    "translation": "Elisa Giribaldi"
+  },
+  {
+    "id": 178,
+    "original_en": "Stefanie Jahn",
+    "original_fr": "Stefanie Jahn",
+    "translation": "Stefanie Jahn"
+  },
+  {
+    "id": 179,
+    "original_en": "Mariona Pera i de Miguel",
+    "original_fr": "Mariona Pera i de Miguel",
+    "translation": "Mariona Pera i de Miguel"
+  },
+  {
+    "id": 180,
+    "original_en": "Robert Angerer",
+    "original_fr": "Robert Angerer",
+    "translation": "Robert Angerer"
+  },
+  {
+    "id": 181,
+    "original_en": "Gaetano Fabozzi",
+    "original_fr": "Gaetano Fabozzi",
+    "translation": "Gaetano Fabozzi"
+  },
+  {
+    "id": 182,
+    "original_en": "Thibaut Salembier",
+    "original_fr": "Thibaut Salembier",
+    "translation": "Thibaut Salembier"
+  },
+  {
+    "id": 183,
+    "original_en": "P{TAG:7C}ndaro Vargas Farias",
+    "original_fr": "P{TAG:7C}ndaro Vargas Farias",
+    "translation": "P{TAG:7C}ndaro Vargas Farias"
+  },
+  {
+    "id": 184,
+    "original_en": "Shingo Hosokawa",
+    "original_fr": "Shingo Hosokawa",
+    "translation": "Shingo Hosokawa"
+  },
+  {
+    "id": 185,
+    "original_en": "Seb Ohsan Berthelsen",
+    "original_fr": "Seb Ohsan Berthelsen",
+    "translation": "Seb Ohsan Berthelsen"
+  },
+  {
+    "id": 186,
+    "original_en": "Raúl Nieto Garc{TAG:7C}a",
+    "original_fr": "Raúl Nieto Garc{TAG:7C}a",
+    "translation": "Raúl Nieto Garc{TAG:7C}a"
+  },
+  {
+    "id": 187,
+    "original_en": "Tomoko Nunomura",
+    "original_fr": "Tomoko Nunomura",
+    "translation": "Tomoko Nunomura"
+  },
+  {
+    "id": 188,
+    "original_en": "Adrian Arnese",
+    "original_fr": "Adrian Arnese",
+    "translation": "Adrian Arnese"
+  },
+  {
+    "id": 189,
+    "original_en": "Stéphanie Journau",
+    "original_fr": "Stéphanie Journau",
+    "translation": "Stéphanie Journau"
+  },
+  {
+    "id": 190,
+    "original_en": "Alex Huhtala",
+    "original_fr": "Alex Huhtala",
+    "translation": "Alex Huhtala"
+  },
+  {
+    "id": 191,
+    "original_en": "Makoto Kotaka",
+    "original_fr": "Makoto Kotaka",
+    "translation": "Makoto Kotaka"
+  },
+  {
+    "id": 192,
+    "original_en": "David Dyett",
+    "original_fr": "David Dyett",
+    "translation": "David Dyett"
+  },
+  {
+    "id": 193,
+    "original_en": "Toby Coleman",
+    "original_fr": "Toby Coleman",
+    "translation": "Toby Coleman"
+  },
+  {
+    "id": 194,
+    "original_en": "Kevin Young",
+    "original_fr": "Kevin Young",
+    "translation": "Kevin Young"
+  },
+  {
+    "id": 195,
+    "original_en": "Doug Bone",
+    "original_fr": "Doug Bone",
+    "translation": "Doug Bone"
+  },
+  {
+    "id": 196,
+    "original_en": "Larry Sparks",
+    "original_fr": "Larry Sparks",
+    "translation": "Larry Sparks"
+  },
+  {
+    "id": 197,
+    "original_en": "Sota Hayashibara",
+    "original_fr": "Sota Hayashibara",
+    "translation": "Sota Hayashibara"
+  },
+  {
+    "id": 198,
+    "original_en": "Michael Sherlock",
+    "original_fr": "Michael Sherlock",
+    "translation": "Michael Sherlock"
+  },
+  {
+    "id": 199,
+    "original_en": "John Yamamoto",
+    "original_fr": "John Yamamoto",
+    "translation": "John Yamamoto"
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "Kenjiro Kato",
+    "original_fr": "Kenjiro Kato",
+    "translation": "Kenjiro Kato"
+  },
+  {
+    "id": 202,
+    "original_en": "Koichi Sobata",
+    "original_fr": "Koichi Sobata",
+    "translation": "Koichi Sobata"
+  },
+  {
+    "id": 203,
+    "original_en": "Takumi Douzono",
+    "original_fr": "Takumi Douzono",
+    "translation": "Takumi Douzono"
+  },
+  {
+    "id": 204,
+    "original_en": "Kazuki Fujisawa",
+    "original_fr": "Kazuki Fujisawa",
+    "translation": "Kazuki Fujisawa"
+  },
+  {
+    "id": 205,
+    "original_en": "Haruyuki Yamaguchi",
+    "original_fr": "Haruyuki Yamaguchi",
+    "translation": "Haruyuki Yamaguchi"
+  },
+  {
+    "id": 206,
+    "original_en": "Mahito Tanaka",
+    "original_fr": "Mahito Tanaka",
+    "translation": "Mahito Tanaka"
+  },
+  {
+    "id": 207,
+    "original_en": "Norihisa Jo",
+    "original_fr": "Norihisa Jo",
+    "translation": "Norihisa Jo"
+  },
+  {
+    "id": 208,
+    "original_en": "Hiroshi Usami",
+    "original_fr": "Hiroshi Usami",
+    "translation": "Hiroshi Usami"
+  },
+  {
+    "id": 209,
+    "original_en": "Tomohiro Ochiai",
+    "original_fr": "Tomohiro Ochiai",
+    "translation": "Tomohiro Ochiai"
+  },
+  {
+    "id": 210,
+    "original_en": "Daisuke Kise",
+    "original_fr": "Daisuke Kise",
+    "translation": "Daisuke Kise"
+  },
+  {
+    "id": 211,
+    "original_en": "Ichiroh Tanaka",
+    "original_fr": "Ichiroh Tanaka",
+    "translation": "Ichiroh Tanaka"
+  },
+  {
+    "id": 212,
+    "original_en": "Yuji Miyaso",
+    "original_fr": "Yuji Miyaso",
+    "translation": "Yuji Miyaso"
+  },
+  {
+    "id": 213,
+    "original_en": "Masao Ue",
+    "original_fr": "Masao Ue",
+    "translation": "Masao Ue"
+  },
+  {
+    "id": 214,
+    "original_en": "Tomoe Okuda",
+    "original_fr": "Tomoe Okuda",
+    "translation": "Tomoe Okuda"
+  },
+  {
+    "id": 215,
+    "original_en": "Yasuhumi Suzuki",
+    "original_fr": "Yasuhumi Suzuki",
+    "translation": "Yasuhumi Suzuki"
+  },
+  {
+    "id": 216,
+    "original_en": "Takahiro Imokawa",
+    "original_fr": "Takahiro Imokawa",
+    "translation": "Takahiro Imokawa"
+  },
+  {
+    "id": 217,
+    "original_en": "Yoshiaki Inoue",
+    "original_fr": "Yoshiaki Inoue",
+    "translation": "Yoshiaki Inoue"
+  },
+  {
+    "id": 218,
+    "original_en": "Taichi Shiraishi",
+    "original_fr": "Taichi Shiraishi",
+    "translation": "Taichi Shiraishi"
+  },
+  {
+    "id": 219,
+    "original_en": "Hidenori Nakamura",
+    "original_fr": "Hidenori Nakamura",
+    "translation": "Hidenori Nakamura"
+  },
+  {
+    "id": 220,
+    "original_en": "Daisuke Tanihara",
+    "original_fr": "Daisuke Tanihara",
+    "translation": "Daisuke Tanihara"
+  },
+  {
+    "id": 221,
+    "original_en": "Kenichi Kondo",
+    "original_fr": "Kenichi Kondo",
+    "translation": "Kenichi Kondo"
+  },
+  {
+    "id": 222,
+    "original_en": "Seiji Nakai",
+    "original_fr": "Seiji Nakai",
+    "translation": "Seiji Nakai"
+  },
+  {
+    "id": 223,
+    "original_en": "Taro Taniguchi",
+    "original_fr": "Taro Taniguchi",
+    "translation": "Taro Taniguchi"
+  },
+  {
+    "id": 224,
+    "original_en": "Eri Yasuda",
+    "original_fr": "Eri Yasuda",
+    "translation": "Eri Yasuda"
+  },
+  {
+    "id": 225,
+    "original_en": "Hirohito Tsujii",
+    "original_fr": "Hirohito Tsujii",
+    "translation": "Hirohito Tsujii"
+  },
+  {
+    "id": 226,
+    "original_en": "Tomokazu Hirota",
+    "original_fr": "Tomokazu Hirota",
+    "translation": "Tomokazu Hirota"
+  },
+  {
+    "id": 227,
+    "original_en": "Riyou Kinugasa",
+    "original_fr": "Riyou Kinugasa",
+    "translation": "Riyou Kinugasa"
+  },
+  {
+    "id": 228,
+    "original_en": "Masaya Tsunemoto",
+    "original_fr": "Masaya Tsunemoto",
+    "translation": "Masaya Tsunemoto"
+  },
+  {
+    "id": 229,
+    "original_en": "Hidenori Miyanaga",
+    "original_fr": "Hidenori Miyanaga",
+    "translation": "Hidenori Miyanaga"
+  },
+  {
+    "id": 230,
+    "original_en": "Takeshi Kawano",
+    "original_fr": "Takeshi Kawano",
+    "translation": "Takeshi Kawano"
+  },
+  {
+    "id": 231,
+    "original_en": "Kenta Inoue",
+    "original_fr": "Kenta Inoue",
+    "translation": "Kenta Inoue"
+  },
+  {
+    "id": 232,
+    "original_en": "Norihito Arai",
+    "original_fr": "Norihito Arai",
+    "translation": "Norihito Arai"
+  },
+  {
+    "id": 233,
+    "original_en": "Hitomi Mori",
+    "original_fr": "Hitomi Mori",
+    "translation": "Hitomi Mori"
+  },
+  {
+    "id": 234,
+    "original_en": "Yuri Kobayashi",
+    "original_fr": "Yuri Kobayashi",
+    "translation": "Yuri Kobayashi"
+  },
+  {
+    "id": 235,
+    "original_en": "Itsuji Yamada",
+    "original_fr": "Itsuji Yamada",
+    "translation": "Itsuji Yamada"
+  },
+  {
+    "id": 236,
+    "original_en": "Yoshie Nishimura",
+    "original_fr": "Yoshie Nishimura",
+    "translation": "Yoshie Nishimura"
+  },
+  {
+    "id": 237,
+    "original_en": "Shiho Sasaki",
+    "original_fr": "Shiho Sasaki",
+    "translation": "Shiho Sasaki"
+  },
+  {
+    "id": 238,
+    "original_en": "Tomohide Watanabe",
+    "original_fr": "Tomohide Watanabe",
+    "translation": "Tomohide Watanabe"
+  },
+  {
+    "id": 239,
+    "original_en": "Toshiaki Naito",
+    "original_fr": "Toshiaki Naito",
+    "translation": "Toshiaki Naito"
+  },
+  {
+    "id": 240,
+    "original_en": "Nobufumi Yamada",
+    "original_fr": "Nobufumi Yamada",
+    "translation": "Nobufumi Yamada"
+  },
+  {
+    "id": 241,
+    "original_en": "Sota Onji",
+    "original_fr": "Sota Onji",
+    "translation": "Sota Onji"
+  },
+  {
+    "id": 242,
+    "original_en": "Jyunpei Takeba",
+    "original_fr": "Jyunpei Takeba",
+    "translation": "Jyunpei Takeba"
+  },
+  {
+    "id": 243,
+    "original_en": "Tsutomu Yamada",
+    "original_fr": "Tsutomu Yamada",
+    "translation": "Tsutomu Yamada"
+  },
+  {
+    "id": 244,
+    "original_en": "Natsumi Kameoka",
+    "original_fr": "Natsumi Kameoka",
+    "translation": "Natsumi Kameoka"
+  },
+  {
+    "id": 245,
+    "original_en": "Tsukushi Izumi",
+    "original_fr": "Tsukushi Izumi",
+    "translation": "Tsukushi Izumi"
+  },
+  {
+    "id": 246,
+    "original_en": "Soshi Yoshida",
+    "original_fr": "Soshi Yoshida",
+    "translation": "Soshi Yoshida"
+  },
+  {
+    "id": 247,
+    "original_en": "Yuu Miyake",
+    "original_fr": "Yuu Miyake",
+    "translation": "Yuu Miyake"
+  },
+  {
+    "id": 248,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 249,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 250,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 251,
+    "original_en": "...and All SQUARE ENIX Staff",
+    "original_fr": "...and All SQUARE ENIX Staff",
+    "translation": "...and All SQUARE ENIX Staff"
+  },
+  {
+    "id": 252,
+    "original_en": "Hiroyuki Miura",
+    "original_fr": "Hiroyuki Miura",
+    "translation": "Hiroyuki Miura"
+  },
+  {
+    "id": 253,
+    "original_en": "Yuji Horii",
+    "original_fr": "Yuji Horii",
+    "translation": "Yuji Horii"
+  },
+  {
+    "id": 254,
+    "original_en": "Yoichi Wada",
+    "original_fr": "Yoichi Wada",
+    "translation": "Yoichi Wada"
+  },
+  {
+    "id": 255,
+    "original_en": "Keiji Honda",
+    "original_fr": "Keiji Honda",
+    "translation": "Keiji Honda"
+  },
+  {
+    "id": 256,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 257,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

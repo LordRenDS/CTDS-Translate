@@ -1,0 +1,386 @@
+[
+  {
+    "id": 0,
+    "original_en": "Flame Smidge",
+    "original_fr": "Larve ignée",
+    "translation": "Огненная кроха"
+  },
+  {
+    "id": 1,
+    "original_en": "Water Smidge",
+    "original_fr": "Larve aqueuse",
+    "translation": "Водная кроха"
+  },
+  {
+    "id": 2,
+    "original_en": "Light Smidge",
+    "original_fr": "Larve céleste",
+    "translation": "Светлая кроха"
+  },
+  {
+    "id": 3,
+    "original_en": "Shadow Smidge",
+    "original_fr": "Larve chtonienne",
+    "translation": "Тёмная кроха"
+  },
+  {
+    "id": 4,
+    "original_en": "Hercules Beetle",
+    "original_fr": "Héraclès",
+    "translation": "Жук-геркулес"
+  },
+  {
+    "id": 5,
+    "original_en": "Rhino Weevil",
+    "original_fr": "Charançon",
+    "translation": "Долгоносик"
+  },
+  {
+    "id": 6,
+    "original_en": "Holy Knight",
+    "original_fr": "Chevalier sacré",
+    "translation": "Святой рыцарь"
+  },
+  {
+    "id": 7,
+    "original_en": "Royal Guard",
+    "original_fr": "Garde",
+    "translation": "Страж короля"
+  },
+  {
+    "id": 8,
+    "original_en": "Naga",
+    "original_fr": "Myanne",
+    "translation": "Нага"
+  },
+  {
+    "id": 9,
+    "original_en": "Bladesman",
+    "original_fr": "îpéiste",
+    "translation": "Мечник"
+  },
+  {
+    "id": 10,
+    "original_en": "Aecyto Weevil",
+    "original_fr": "Coprophage",
+    "translation": "Долгоносик"
+  },
+  {
+    "id": 11,
+    "original_en": "Gorgon",
+    "original_fr": "Gorgone",
+    "translation": "Gorgon"
+  },
+  {
+    "id": 12,
+    "original_en": "Medusa",
+    "original_fr": "Méduse",
+    "translation": "Medusa"
+  },
+  {
+    "id": 13,
+    "original_en": "Fiendillo",
+    "original_fr": "Roule",
+    "translation": "Фиендилло"
+  },
+  {
+    "id": 14,
+    "original_en": "Roundillo",
+    "original_fr": "Maboul",
+    "translation": "Раундилло"
+  },
+  {
+    "id": 15,
+    "original_en": "Ogan",
+    "original_fr": "Ogan",
+    "translation": "Оган"
+  },
+  {
+    "id": 16,
+    "original_en": "Deep Ogan",
+    "original_fr": "Ombre d'ogan",
+    "translation": "Deep Ogan"
+  },
+  {
+    "id": 17,
+    "original_en": "Outlaw",
+    "original_fr": "Hors-la-loi",
+    "translation": "Разбойник"
+  },
+  {
+    "id": 18,
+    "original_en": "Ogan Youth",
+    "original_fr": "Oganox",
+    "translation": "Ogan Youth"
+  },
+  {
+    "id": 19,
+    "original_en": "Freelancer",
+    "original_fr": "Mercenaire",
+    "translation": "Наёмник"
+  },
+  {
+    "id": 20,
+    "original_en": "Roundillo Bomber",
+    "original_fr": "Bombe maboule",
+    "translation": "Roundillo Bomber"
+  },
+  {
+    "id": 21,
+    "original_en": "Ninja",
+    "original_fr": "Hanzô",
+    "translation": "Ninja"
+  },
+  {
+    "id": 22,
+    "original_en": "Version 2.0",
+    "original_fr": "Modèle 2.0",
+    "translation": "Version 2.0"
+  },
+  {
+    "id": 23,
+    "original_en": "Version 4.0",
+    "original_fr": "Modèle 4.0",
+    "translation": "Version 4.0"
+  },
+  {
+    "id": 24,
+    "original_en": "Spearman",
+    "original_fr": "Longinus",
+    "translation": "Spearman"
+  },
+  {
+    "id": 25,
+    "original_en": "Lancer",
+    "original_fr": "Squelette lancier",
+    "translation": "Копейщик"
+  },
+  {
+    "id": 26,
+    "original_en": "Prototype",
+    "original_fr": "Prototype",
+    "translation": "Prototype"
+  },
+  {
+    "id": 27,
+    "original_en": "Bone Knight",
+    "original_fr": "Chevalier osseux",
+    "translation": "Костяной рыцарь"
+  },
+  {
+    "id": 28,
+    "original_en": "Flesh Reaper",
+    "original_fr": "Trépassé",
+    "translation": "Жнец плоти"
+  },
+  {
+    "id": 29,
+    "original_en": "Macabre",
+    "original_fr": "Macchabée",
+    "translation": "Макабр"
+  },
+  {
+    "id": 30,
+    "original_en": "Deathscythe",
+    "original_fr": "Faucheur",
+    "translation": "Deathscythe"
+  },
+  {
+    "id": 31,
+    "original_en": "Bao Bao",
+    "original_fr": "Baobao",
+    "translation": "Бао-Бао"
+  },
+  {
+    "id": 32,
+    "original_en": "Gokuu",
+    "original_fr": "Goku",
+    "translation": "Gokuu"
+  },
+  {
+    "id": 33,
+    "original_en": "Crested Sprinter",
+    "original_fr": "Coureur {TAG:3C} crête",
+    "translation": "Crested Sprinter"
+  },
+  {
+    "id": 34,
+    "original_en": "Racer",
+    "original_fr": "Sprinteur",
+    "translation": "Racer"
+  },
+  {
+    "id": 35,
+    "original_en": "Terasaur",
+    "original_fr": "Ultrasaure",
+    "translation": "Теразавр"
+  },
+  {
+    "id": 36,
+    "original_en": "Parasaur",
+    "original_fr": "Skanda",
+    "translation": "Parasaur"
+  },
+  {
+    "id": 37,
+    "original_en": "Gigantosaur",
+    "original_fr": "Gigasaure",
+    "translation": "Gigantosaur"
+  },
+  {
+    "id": 38,
+    "original_en": "Cave Ape",
+    "original_fr": "Orang-outan",
+    "translation": "Пещерн. обезьяна"
+  },
+  {
+    "id": 39,
+    "original_en": "Chrysosaur",
+    "original_fr": "Chrysosaure",
+    "translation": "Хризозавр"
+  },
+  {
+    "id": 40,
+    "original_en": "Pink Imp",
+    "original_fr": "Diablotin rose",
+    "translation": "Pink Imp"
+  },
+  {
+    "id": 41,
+    "original_en": "Chaos Mage",
+    "original_fr": "Mage du chaos",
+    "translation": "Маг хаоса"
+  },
+  {
+    "id": 42,
+    "original_en": "Zealot Mage",
+    "original_fr": "Mage de Zhyle",
+    "translation": "Фанатик"
+  },
+  {
+    "id": 43,
+    "original_en": "Stone Imp",
+    "original_fr": "Diablotin gris",
+    "translation": "Каменный чёрт"
+  },
+  {
+    "id": 44,
+    "original_en": "Archmage",
+    "original_fr": "Archimage",
+    "translation": "Archmage"
+  },
+  {
+    "id": 45,
+    "original_en": "Slate Imp",
+    "original_fr": "Diablotin azur",
+    "translation": "Slate Imp"
+  },
+  {
+    "id": 46,
+    "original_en": "Gargoyle",
+    "original_fr": "Gargouille",
+    "translation": "Горгулья"
+  },
+  {
+    "id": 47,
+    "original_en": "Stone Gargoyle",
+    "original_fr": "Pétragargouille",
+    "translation": "Stone Gargoyle"
+  },
+  {
+    "id": 48,
+    "original_en": "Spirit Gargoyle",
+    "original_fr": "Gargouille occulte",
+    "translation": "Spirit Gargoyle"
+  },
+  {
+    "id": 49,
+    "original_en": "Ouroboros",
+    "original_fr": "Ouroboros",
+    "translation": "Ouroboros"
+  },
+  {
+    "id": 50,
+    "original_en": "R-70Y",
+    "original_fr": "R70-Y",
+    "translation": "R-70Y"
+  },
+  {
+    "id": 51,
+    "original_en": "Deathguard",
+    "original_fr": "Sentinelle",
+    "translation": "Страж смерти"
+  },
+  {
+    "id": 52,
+    "original_en": "Dokra",
+    "original_fr": "Dokra",
+    "translation": "Dokra"
+  },
+  {
+    "id": 53,
+    "original_en": "Uberhulk",
+    "original_fr": "Mastodonte",
+    "translation": "Uberhulk"
+  },
+  {
+    "id": 54,
+    "original_en": "Ice Demon",
+    "original_fr": "Démon algide",
+    "translation": "Ice Demon"
+  },
+  {
+    "id": 55,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 56,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 57,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 58,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 60,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 61,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 62,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 63,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  }
+]

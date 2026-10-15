@@ -1,0 +1,740 @@
+[
+  {
+    "id": 0,
+    "original_en": "Charge",
+    "original_fr": "Charge",
+    "translation": "Разгон"
+  },
+  {
+    "id": 1,
+    "original_en": "Gore",
+    "original_fr": "Coup de corne",
+    "translation": "Бодание"
+  },
+  {
+    "id": 2,
+    "original_en": "Strike",
+    "original_fr": "Taillade",
+    "translation": "Удар"
+  },
+  {
+    "id": 3,
+    "original_en": "Scratch",
+    "original_fr": "Griffes",
+    "translation": "Царапание"
+  },
+  {
+    "id": 4,
+    "original_en": "Gore",
+    "original_fr": "Coup de corne",
+    "translation": "Бодание"
+  },
+  {
+    "id": 5,
+    "original_en": "Spin Attack",
+    "original_fr": "Attaque tournoyante",
+    "translation": "Вращение"
+  },
+  {
+    "id": 6,
+    "original_en": "Punch",
+    "original_fr": "Coup de poing",
+    "translation": "Удар кулаком"
+  },
+  {
+    "id": 7,
+    "original_en": "Whirling Blade",
+    "original_fr": "îpée tournoyante",
+    "translation": "Вихрь клинка"
+  },
+  {
+    "id": 8,
+    "original_en": "Tackle",
+    "original_fr": "Tacle",
+    "translation": "Толчок"
+  },
+  {
+    "id": 9,
+    "original_en": "Jab",
+    "original_fr": "Entaille",
+    "translation": "Тычок"
+  },
+  {
+    "id": 10,
+    "original_en": "Scythe",
+    "original_fr": "Faux",
+    "translation": "Scythe"
+  },
+  {
+    "id": 11,
+    "original_en": "Kick Combo",
+    "original_fr": "Coups de pied",
+    "translation": "Kick Combo"
+  },
+  {
+    "id": 12,
+    "original_en": "Head-butt",
+    "original_fr": "Coup de tête",
+    "translation": "Head-butt"
+  },
+  {
+    "id": 13,
+    "original_en": "Tail Swipe",
+    "original_fr": "Coup de queue",
+    "translation": "Tail Swipe"
+  },
+  {
+    "id": 14,
+    "original_en": "Jump Kick",
+    "original_fr": "Coup de pied sauté",
+    "translation": "Jump Kick"
+  },
+  {
+    "id": 15,
+    "original_en": "Hit",
+    "original_fr": "Frapper",
+    "translation": "Hit"
+  },
+  {
+    "id": 16,
+    "original_en": "Sobat",
+    "original_fr": "Savate",
+    "translation": "Sobat"
+  },
+  {
+    "id": 17,
+    "original_en": "Bite",
+    "original_fr": "Morsure",
+    "translation": "Укус"
+  },
+  {
+    "id": 18,
+    "original_en": "Robo Punch",
+    "original_fr": "Coup de poing",
+    "translation": "Robo Punch"
+  },
+  {
+    "id": 19,
+    "original_en": "Charge",
+    "original_fr": "Charge",
+    "translation": "Разгон"
+  },
+  {
+    "id": 20,
+    "original_en": "Hammer",
+    "original_fr": "Maillet",
+    "translation": "Hammer"
+  },
+  {
+    "id": 21,
+    "original_en": "Slap",
+    "original_fr": "Baffe",
+    "translation": "Slap"
+  },
+  {
+    "id": 22,
+    "original_en": "Rage",
+    "original_fr": "Folie furieuse",
+    "translation": "Rage"
+  },
+  {
+    "id": 23,
+    "original_en": "Thunder Blast",
+    "original_fr": "Obus foudroyant",
+    "translation": "Thunder Blast"
+  },
+  {
+    "id": 24,
+    "original_en": "Summon Thunderbolt",
+    "original_fr": "Tonnerre grondant",
+    "translation": "Summon Thunderbolt"
+  },
+  {
+    "id": 25,
+    "original_en": "Thunder Strike",
+    "original_fr": "Fracas fulgurant",
+    "translation": "Thunder Strike"
+  },
+  {
+    "id": 26,
+    "original_en": "Naga Thunder",
+    "original_fr": "©Foudre de myanne",
+    "translation": "Naga Thunder"
+  },
+  {
+    "id": 27,
+    "original_en": "Gorgon Thunder",
+    "original_fr": "©Foudre de gorgone",
+    "translation": "Gorgon Thunder"
+  },
+  {
+    "id": 28,
+    "original_en": "Medusa Thunder",
+    "original_fr": "©Foudre de méduse",
+    "translation": "Medusa Thunder"
+  },
+  {
+    "id": 29,
+    "original_en": "Fiendillo Lightning",
+    "original_fr": "Foudre roulée",
+    "translation": "Fiendillo Lightning"
+  },
+  {
+    "id": 30,
+    "original_en": "Roundillo Lightning",
+    "original_fr": "Foudre maboule",
+    "translation": "Roundillo Lightning"
+  },
+  {
+    "id": 31,
+    "original_en": "Fist of Light",
+    "original_fr": "Poing céleste",
+    "translation": "Fist of Light"
+  },
+  {
+    "id": 32,
+    "original_en": "Thunder Shuriken",
+    "original_fr": "Shuriken fulgurant",
+    "translation": "Thunder Shuriken"
+  },
+  {
+    "id": 33,
+    "original_en": "Machine Gun",
+    "original_fr": "Mitrailleuse",
+    "translation": "Machine Gun"
+  },
+  {
+    "id": 34,
+    "original_en": "Lightning Spear",
+    "original_fr": "Entaille foudroyante",
+    "translation": "Lightning Spear"
+  },
+  {
+    "id": 35,
+    "original_en": "Empyrean Rain",
+    "original_fr": "Pluie céleste",
+    "translation": "Empyrean Rain"
+  },
+  {
+    "id": 36,
+    "original_en": "Spark Bomb",
+    "original_fr": "Sphère de foudre",
+    "translation": "Spark Bomb"
+  },
+  {
+    "id": 37,
+    "original_en": "Holy Charge",
+    "original_fr": "Charge céleste",
+    "translation": "Holy Charge"
+  },
+  {
+    "id": 38,
+    "original_en": "Heavenly Judgment",
+    "original_fr": "Jugement céleste",
+    "translation": "Heavenly Judgment"
+  },
+  {
+    "id": 39,
+    "original_en": "Thunder Shot",
+    "original_fr": "Tir tonnant",
+    "translation": "Thunder Shot"
+  },
+  {
+    "id": 40,
+    "original_en": "Ball Lightning",
+    "original_fr": "Orbe d'éclairs",
+    "translation": "Ball Lightning"
+  },
+  {
+    "id": 41,
+    "original_en": "Light Chakram",
+    "original_fr": "Chakram lumineux",
+    "translation": "Light Chakram"
+  },
+  {
+    "id": 42,
+    "original_en": "Electrified Bite",
+    "original_fr": "Crocs fulgurants",
+    "translation": "Electrified Bite"
+  },
+  {
+    "id": 43,
+    "original_en": "Holy Tackle",
+    "original_fr": "Tacle céleste",
+    "translation": "Holy Tackle"
+  },
+  {
+    "id": 44,
+    "original_en": "Electric Spines",
+    "original_fr": "Corne foudroyante",
+    "translation": "Electric Spines"
+  },
+  {
+    "id": 45,
+    "original_en": "Thor's Hammer",
+    "original_fr": "Marteau de Thor",
+    "translation": "Thor's Hammer"
+  },
+  {
+    "id": 46,
+    "original_en": "Lightning II",
+    "original_fr": "Foudreï",
+    "translation": "Lightning II"
+  },
+  {
+    "id": 47,
+    "original_en": "Lightning Storm",
+    "original_fr": "Tornade fulgurante",
+    "translation": "Lightning Storm"
+  },
+  {
+    "id": 48,
+    "original_en": "Dark Blast",
+    "original_fr": "Obus ténébreux",
+    "translation": "Dark Blast"
+  },
+  {
+    "id": 49,
+    "original_en": "Summon Eclipse",
+    "original_fr": "Obscurité totale",
+    "translation": "Summon Eclipse"
+  },
+  {
+    "id": 50,
+    "original_en": "Dark Strike",
+    "original_fr": "Fracas obscur",
+    "translation": "Dark Strike"
+  },
+  {
+    "id": 51,
+    "original_en": "Naga Shadow",
+    "original_fr": "©Ténèbres de myanne",
+    "translation": "Naga Shadow"
+  },
+  {
+    "id": 52,
+    "original_en": "Gorgon Shadow",
+    "original_fr": "©Ténèbres de gorgone",
+    "translation": "Gorgon Shadow"
+  },
+  {
+    "id": 53,
+    "original_en": "Medusa Shadow",
+    "original_fr": "©Ténèbres de méduse",
+    "translation": "Medusa Shadow"
+  },
+  {
+    "id": 54,
+    "original_en": "Fiendillo Darkness",
+    "original_fr": "Ténèbres roulées",
+    "translation": "Fiendillo Darkness"
+  },
+  {
+    "id": 55,
+    "original_en": "Roundillo Darkness",
+    "original_fr": "Ténèbres maboules",
+    "translation": "Roundillo Darkness"
+  },
+  {
+    "id": 56,
+    "original_en": "Fist of Darkness",
+    "original_fr": "Poing ténébreux",
+    "translation": "Fist of Darkness"
+  },
+  {
+    "id": 57,
+    "original_en": "Nether Shuriken",
+    "original_fr": "Shuriken infernal",
+    "translation": "Nether Shuriken"
+  },
+  {
+    "id": 58,
+    "original_en": "Bullet Barrage",
+    "original_fr": "Balles dum-dum",
+    "translation": "Bullet Barrage"
+  },
+  {
+    "id": 59,
+    "original_en": "Abyssal Spear",
+    "original_fr": "Entaille abyssale",
+    "translation": "Abyssal Spear"
+  },
+  {
+    "id": 60,
+    "original_en": "Purple Rain",
+    "original_fr": "Pluie pourpre",
+    "translation": "Purple Rain"
+  },
+  {
+    "id": 61,
+    "original_en": "Nether Bomb",
+    "original_fr": "Sphère infernale",
+    "translation": "Nether Bomb"
+  },
+  {
+    "id": 62,
+    "original_en": "Infernal Charge",
+    "original_fr": "Charge ténébreuse",
+    "translation": "Infernal Charge"
+  },
+  {
+    "id": 63,
+    "original_en": "Stygian Spines",
+    "original_fr": "Aiguillons infernaux",
+    "translation": "Stygian Spines"
+  },
+  {
+    "id": 64,
+    "original_en": "Nether Shot",
+    "original_fr": "Tir abyssal",
+    "translation": "Nether Shot"
+  },
+  {
+    "id": 65,
+    "original_en": "Umbra",
+    "original_fr": "Ombre magique",
+    "translation": "Umbra"
+  },
+  {
+    "id": 66,
+    "original_en": "Black Chakram",
+    "original_fr": "Chakram noir",
+    "translation": "Black Chakram"
+  },
+  {
+    "id": 67,
+    "original_en": "Hellish Bite",
+    "original_fr": "Crocs infernaux",
+    "translation": "Hellish Bite"
+  },
+  {
+    "id": 68,
+    "original_en": "Infernal Tackle",
+    "original_fr": "Tacle ténébreux",
+    "translation": "Infernal Tackle"
+  },
+  {
+    "id": 69,
+    "original_en": "Shadow Spines",
+    "original_fr": "Corne ténébreuse",
+    "translation": "Shadow Spines"
+  },
+  {
+    "id": 70,
+    "original_en": "Cyclopean Hammer",
+    "original_fr": "Marteau de cyclope",
+    "translation": "Cyclopean Hammer"
+  },
+  {
+    "id": 71,
+    "original_en": "Hell Geyser",
+    "original_fr": "Geyser infernal",
+    "translation": "Hell Geyser"
+  },
+  {
+    "id": 72,
+    "original_en": "Hell's Gate",
+    "original_fr": "Portail chtonien",
+    "translation": "Hell's Gate"
+  },
+  {
+    "id": 73,
+    "original_en": "Fire Blast",
+    "original_fr": "Obus ardent",
+    "translation": "Fire Blast"
+  },
+  {
+    "id": 74,
+    "original_en": "Summon Inferno",
+    "original_fr": "Colonnes de feu",
+    "translation": "Summon Inferno"
+  },
+  {
+    "id": 75,
+    "original_en": "Fire Strike",
+    "original_fr": "Fracas ardent",
+    "translation": "Fire Strike"
+  },
+  {
+    "id": 76,
+    "original_en": "Naga Flame",
+    "original_fr": "©Flammes de myanne",
+    "translation": "Naga Flame"
+  },
+  {
+    "id": 77,
+    "original_en": "Gorgon Flame",
+    "original_fr": "©Flammes de gorgone",
+    "translation": "Gorgon Flame"
+  },
+  {
+    "id": 78,
+    "original_en": "Medusa Flame",
+    "original_fr": "©Flammes de méduse",
+    "translation": "Medusa Flame"
+  },
+  {
+    "id": 79,
+    "original_en": "Fiendillo Fire",
+    "original_fr": "Feu roulé",
+    "translation": "Fiendillo Fire"
+  },
+  {
+    "id": 80,
+    "original_en": "Roundillo Fire",
+    "original_fr": "Feu maboul",
+    "translation": "Roundillo Fire"
+  },
+  {
+    "id": 81,
+    "original_en": "Fist of Flame",
+    "original_fr": "Poing ardent",
+    "translation": "Fist of Flame"
+  },
+  {
+    "id": 82,
+    "original_en": "Blazing Shuriken",
+    "original_fr": "Shuriken enflammé",
+    "translation": "Blazing Shuriken"
+  },
+  {
+    "id": 83,
+    "original_en": "Napalm",
+    "original_fr": "Napalm",
+    "translation": "Napalm"
+  },
+  {
+    "id": 84,
+    "original_en": "Ardent Spear",
+    "original_fr": "Entaille br{TAG:63}lante",
+    "translation": "Ardent Spear"
+  },
+  {
+    "id": 85,
+    "original_en": "Lava Rain",
+    "original_fr": "Pluie sanglante",
+    "translation": "Lava Rain"
+  },
+  {
+    "id": 86,
+    "original_en": "Burning Sphere",
+    "original_fr": "Sphère de feu",
+    "translation": "Burning Sphere"
+  },
+  {
+    "id": 87,
+    "original_en": "Blazing Charge",
+    "original_fr": "Charge enflammée",
+    "translation": "Blazing Charge"
+  },
+  {
+    "id": 88,
+    "original_en": "Firebreath",
+    "original_fr": "Lance-flammes",
+    "translation": "Firebreath"
+  },
+  {
+    "id": 89,
+    "original_en": "Fire Shot",
+    "original_fr": "Tir br{TAG:63}lant",
+    "translation": "Fire Shot"
+  },
+  {
+    "id": 90,
+    "original_en": "Mage Fire",
+    "original_fr": "Feu magique",
+    "translation": "Mage Fire"
+  },
+  {
+    "id": 91,
+    "original_en": "Red Chakram",
+    "original_fr": "Chakram rouge",
+    "translation": "Red Chakram"
+  },
+  {
+    "id": 92,
+    "original_en": "Searing Bite",
+    "original_fr": "Crocs ardents",
+    "translation": "Searing Bite"
+  },
+  {
+    "id": 93,
+    "original_en": "Blazing Tackle",
+    "original_fr": "Tacle enflammé",
+    "translation": "Blazing Tackle"
+  },
+  {
+    "id": 94,
+    "original_en": "Flame Spines",
+    "original_fr": "Corne ardente",
+    "translation": "Flame Spines"
+  },
+  {
+    "id": 95,
+    "original_en": "Vulcan Hammer",
+    "original_fr": "Marteau de Vulcain",
+    "translation": "Vulcan Hammer"
+  },
+  {
+    "id": 96,
+    "original_en": "Fire II",
+    "original_fr": "Feuï",
+    "translation": "Fire II"
+  },
+  {
+    "id": 97,
+    "original_en": "Conflagration",
+    "original_fr": "Calcination",
+    "translation": "Conflagration"
+  },
+  {
+    "id": 98,
+    "original_en": "Aqua Blast",
+    "original_fr": "Obus aqueux",
+    "translation": "Aqua Blast"
+  },
+  {
+    "id": 99,
+    "original_en": "Summon Riptide",
+    "original_fr": "Torrent limoneux",
+    "translation": "Summon Riptide"
+  },
+  {
+    "id": 100,
+    "original_en": "Water Strike",
+    "original_fr": "Fracas aqueux",
+    "translation": "Water Strike"
+  },
+  {
+    "id": 101,
+    "original_en": "Naga Ice",
+    "original_fr": "©Glace de myanne",
+    "translation": "Naga Ice"
+  },
+  {
+    "id": 102,
+    "original_en": "Gorgon Ice",
+    "original_fr": "©Glace de gorgone",
+    "translation": "Gorgon Ice"
+  },
+  {
+    "id": 103,
+    "original_en": "Medusa Ice",
+    "original_fr": "©Glace de méduse",
+    "translation": "Medusa Ice"
+  },
+  {
+    "id": 104,
+    "original_en": "Fiendillo Water",
+    "original_fr": "Eau roulée",
+    "translation": "Fiendillo Water"
+  },
+  {
+    "id": 105,
+    "original_en": "Roundillo Water",
+    "original_fr": "Eau maboule",
+    "translation": "Roundillo Water"
+  },
+  {
+    "id": 106,
+    "original_en": "Fist of Water",
+    "original_fr": "Poing diluvien",
+    "translation": "Fist of Water"
+  },
+  {
+    "id": 107,
+    "original_en": "Riptide Shuriken",
+    "original_fr": "Shuriken torrentiel",
+    "translation": "Riptide Shuriken"
+  },
+  {
+    "id": 108,
+    "original_en": "Hydrobomb",
+    "original_fr": "Projectile aqueux",
+    "translation": "Hydrobomb"
+  },
+  {
+    "id": 109,
+    "original_en": "Drenching Spear",
+    "original_fr": "Entaille torrentielle",
+    "translation": "Drenching Spear"
+  },
+  {
+    "id": 110,
+    "original_en": "Frigid Rain",
+    "original_fr": "Pluie glacée",
+    "translation": "Frigid Rain"
+  },
+  {
+    "id": 111,
+    "original_en": "Ice Grenade",
+    "original_fr": "Sphère de glace",
+    "translation": "Ice Grenade"
+  },
+  {
+    "id": 112,
+    "original_en": "Diluvial Charge",
+    "original_fr": "Charge glacée",
+    "translation": "Diluvial Charge"
+  },
+  {
+    "id": 113,
+    "original_en": "Icepick",
+    "original_fr": "Pic de glace",
+    "translation": "Icepick"
+  },
+  {
+    "id": 114,
+    "original_en": "Water Shot",
+    "original_fr": "Tir aqueux",
+    "translation": "Water Shot"
+  },
+  {
+    "id": 115,
+    "original_en": "Ice Sphere",
+    "original_fr": "Boule de glace",
+    "translation": "Ice Sphere"
+  },
+  {
+    "id": 116,
+    "original_en": "Blue Chakram",
+    "original_fr": "Chakram bleu",
+    "translation": "Blue Chakram"
+  },
+  {
+    "id": 117,
+    "original_en": "Brine Bite",
+    "original_fr": "Crocs océaniques",
+    "translation": "Brine Bite"
+  },
+  {
+    "id": 118,
+    "original_en": "Diluvial Tackle",
+    "original_fr": "Tacle de glace",
+    "translation": "Diluvial Tackle"
+  },
+  {
+    "id": 119,
+    "original_en": "Ice Spines",
+    "original_fr": "Corne frigorifiante",
+    "translation": "Ice Spines"
+  },
+  {
+    "id": 120,
+    "original_en": "Water Hammer",
+    "original_fr": "Marteau de Poséidon",
+    "translation": "Water Hammer"
+  },
+  {
+    "id": 121,
+    "original_en": "Water II",
+    "original_fr": "Eauï",
+    "translation": "Water II"
+  },
+  {
+    "id": 122,
+    "original_en": "Hailstone",
+    "original_fr": "Iceberg",
+    "translation": "Hailstone"
+  }
+]

@@ -1,0 +1,2024 @@
+[
+  {
+    "id": 0,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 1,
+    "original_en": "Starting equipment:\n   {CRONO}",
+    "original_fr": "îquipement de base :\nChrono",
+    "translation": "Начальное снаряжение:\n   {CRONO}"
+  },
+  {
+    "id": 2,
+    "original_en": "Shops:\n   Leene Square, etc.",
+    "original_fr": "Magasin :\nPlace de Lynne, etc.",
+    "translation": "Магазины:\n   Площадь Лины и др."
+  },
+  {
+    "id": 3,
+    "original_en": "Shops:\n   Truce, etc.\nChest:\n   Manolia Cathedral",
+    "original_fr": "Magasin :\nTruce (Présent), etc.\nCoffre :\nAbbaye de Manolia",
+    "translation": "Магазины:\n   Трус и др.\nСундук:\n   Собор Манолии"
+  },
+  {
+    "id": 4,
+    "original_en": "Shop:\n   Leene Square\nChests:\n   Prison Towers\n   Site 16",
+    "original_fr": "Magasin :\nPlace de Lynne\nCoffre :\nPrison\nRuines nÎ 16",
+    "translation": "Магазин:\n   Площадь Лины\nСундуки:\n   Тюремные башни\n   Зона 16"
+  },
+  {
+    "id": 5,
+    "original_en": "Shops:\n   Truce, etc.",
+    "original_fr": "Magasin :\nTruce (Présent), etc.",
+    "translation": "Магазины:\n   Трус и др."
+  },
+  {
+    "id": 6,
+    "original_en": "Trade:\n   Ioka Village Hut",
+    "original_fr": "Troc :\nTente d'Ioka",
+    "translation": "Обмен:\n   Хижина Иоки"
+  },
+  {
+    "id": 7,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 8,
+    "original_en": "Trade:\n   Ioka Village Hut\nCharm:\n   Megasaur",
+    "original_fr": "Troc :\nTente d'Ioka\nSéduction :\nMégasaure",
+    "translation": "Обмен:\n   Хижина Иоки\nКража:\n   Megasaur"
+  },
+  {
+    "id": 9,
+    "original_en": "Shops:\n   Algetty, etc.",
+    "original_fr": "Magasin :\nAlguetti, etc.",
+    "translation": "Магазины:\n   Альгетти и др."
+  },
+  {
+    "id": 10,
+    "original_en": "Shop:\n   Kajar\nCharm:\n   Bomber Bird",
+    "original_fr": "Magasin :\nKajar\nSéduction :\nDiablo-commando",
+    "translation": "Магазин:\n   Каджар\nКража:\n   Bomber Bird"
+  },
+  {
+    "id": 11,
+    "original_en": "Shop:\n   Surviving Village\nChest:\n   Ocean Palace",
+    "original_fr": "Magasin :\nVillage des survivants\nCoffre :\nSanctuaire sous-marin",
+    "translation": "Магазин:\n   Surviving Village\nСундук:\n   Океанский дворец"
+  },
+  {
+    "id": 12,
+    "original_en": "Chest:\n   Death Peak",
+    "original_fr": "Coffre :\nMont des défunts",
+    "translation": "Сундук:\n   Пик Смерти"
+  },
+  {
+    "id": 13,
+    "original_en": "Sealed chest:\n   Northern Ruins",
+    "original_fr": "Coffre scellé :\nCh{TAG:4A}teau en ruine",
+    "translation": "Запечатанный сундук:\n   Northern Ruins"
+  },
+  {
+    "id": 14,
+    "original_en": "Sealed chest:\n   Northern Ruins\n   (Post-upgrade)",
+    "original_fr": "Coffre scellé :\nCh{TAG:4A}teau en ruine\n(après avoir refusé de\nl'ouvrir dans le passé)",
+    "translation": "Запечатанный сундук:\n   Northern Ruins\n   (Post-upgrade)"
+  },
+  {
+    "id": 15,
+    "original_en": "Chests:\n   Abandoned Sewers\n   Derelict Factory",
+    "original_fr": "Coffre :\nAncien égout\nUsine désaffectée",
+    "translation": "Сундуки:\n   Abandoned Sewers\n   Заброшенный завод"
+  },
+  {
+    "id": 16,
+    "original_en": "Event:\n   Slash Defeated",
+    "original_fr": "îvénement :\nAprès le combat\ncontre Soja",
+    "translation": "Событие:\n   Slash Defeated"
+  },
+  {
+    "id": 17,
+    "original_en": "Starting equipment:\n   {MARLE}",
+    "original_fr": "îquipement de base :\nMarle",
+    "translation": "Начальное снаряжение:\n   {MARLE}"
+  },
+  {
+    "id": 18,
+    "original_en": "Shops:\n   Truce, etc.",
+    "original_fr": "Magasin :\nTruce (Présent), etc.",
+    "translation": "Магазины:\n   Трус и др."
+  },
+  {
+    "id": 19,
+    "original_en": "Chest:\n   Site 16",
+    "original_fr": "Coffre :\nRuines nÎ 16",
+    "translation": "Сундук:\n   Зона 16"
+  },
+  {
+    "id": 20,
+    "original_en": "Shops:\n   Truce, etc.\nChest:\n   Derelict Factory",
+    "original_fr": "Magasin :\nTruce (Présent), etc.\nCoffre :\nUsine désaffectée",
+    "translation": "Магазины:\n   Трус и др.\nСундук:\n   Заброшенный завод"
+  },
+  {
+    "id": 21,
+    "original_en": "Trade:\n   Ioka Village Hut",
+    "original_fr": "Troc :\nTente d'Ioka",
+    "translation": "Обмен:\n   Хижина Иоки"
+  },
+  {
+    "id": 22,
+    "original_en": "Trade:\n   Ioka Village Hut\nCharm:\n   Rafflesia",
+    "original_fr": "Troc :\nTente d'Ioka\nSéduction :\nRafflésie",
+    "translation": "Обмен:\n   Хижина Иоки\nКража:\n   Rafflesia"
+  },
+  {
+    "id": 23,
+    "original_en": "Shop:\n   Algetty",
+    "original_fr": "Magasin :\nAlguetti",
+    "translation": "Магазин:\n   Альгетти"
+  },
+  {
+    "id": 24,
+    "original_en": "Shop:\n   Surviving Village\nChest:\n   Ocean Palace",
+    "original_fr": "Magasin :\nVillage des survivants\nCoffre :\nSanctuaire sous-marin",
+    "translation": "Магазин:\n   Surviving Village\nСундук:\n   Океанский дворец"
+  },
+  {
+    "id": 25,
+    "original_en": "Sealed chest:\n   Northern Ruins\n   (Post-upgrade)",
+    "original_fr": "Coffre scellé :\nCh{TAG:4A}teau en ruine\n(après avoir refusé de\nl'ouvrir dans le passé)",
+    "translation": "Запечатанный сундук:\n   Northern Ruins\n   (Post-upgrade)"
+  },
+  {
+    "id": 26,
+    "original_en": "Sealed chest:\n   Northern Ruins",
+    "original_fr": "Coffre scellé :\nCh{TAG:4A}teau en ruine",
+    "translation": "Запечатанный сундук:\n   Northern Ruins"
+  },
+  {
+    "id": 27,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 28,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 29,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 30,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 31,
+    "original_en": "Starting equipment:\n   {LUCCA}",
+    "original_fr": "îquipement de base :\nLucca",
+    "translation": "Начальное снаряжение:\n   {LUCCA}"
+  },
+  {
+    "id": 32,
+    "original_en": "Shops:\n   Truce, etc.",
+    "original_fr": "Magasin :\nTruce (Moyen-{TAG:5F}ge), etc.",
+    "translation": "Магазины:\n   Трус и др."
+  },
+  {
+    "id": 33,
+    "original_en": "Shops:\n   Trann Dome, etc.",
+    "original_fr": "Magasin :\nDôme de Trann, etc.",
+    "translation": "Магазины:\n   Купол Транн, etc."
+  },
+  {
+    "id": 34,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 35,
+    "original_en": "Shops:\n   Truce, etc.\nChest:\n   Derelict Factory",
+    "original_fr": "Magasin :\nTruce (Moyen-{TAG:5F}ge), etc.\nCoffre :\nUsine désaffectée",
+    "translation": "Магазины:\n   Трус и др.\nСундук:\n   Заброшенный завод"
+  },
+  {
+    "id": 36,
+    "original_en": "Trade:\n   Ioka Village Hut",
+    "original_fr": "Troc :\nTente d'Ioka",
+    "translation": "Обмен:\n   Хижина Иоки"
+  },
+  {
+    "id": 37,
+    "original_en": "Trade:\n   Ioka Village Hut\nCharm:\n   Aecyto Weevil",
+    "original_fr": "Troc :\nTente d'Ioka\nSéduction :\nCoprophage",
+    "translation": "Обмен:\n   Хижина Иоки\nКража:\n   Aecyto Weevil"
+  },
+  {
+    "id": 38,
+    "original_en": "Shop:\n   Algetty",
+    "original_fr": "Magasin :\nAlguetti",
+    "translation": "Магазин:\n   Альгетти"
+  },
+  {
+    "id": 39,
+    "original_en": "Shop:\n   Surviving Village\nChest:\n   Ocean Palace",
+    "original_fr": "Magasin :\nVillage des survivants\nCoffre :\nSanctuaire sous-marin",
+    "translation": "Магазин:\n   Surviving Village\nСундук:\n   Океанский дворец"
+  },
+  {
+    "id": 40,
+    "original_en": "Event:\n   {LUCCA}'s House",
+    "original_fr": "îvénement :\nMaison de Lucca",
+    "translation": "Событие:\n   {LUCCA}'s House"
+  },
+  {
+    "id": 41,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 42,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 43,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 44,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 45,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 46,
+    "original_en": "Starting equipment:\n   {ROBO}",
+    "original_fr": "îquipement de base :\nRoBo",
+    "translation": "Начальное снаряжение:\n   {ROBO}"
+  },
+  {
+    "id": 47,
+    "original_en": "Shops:\n   Melchior's Cabin, etc.\nChest:\n   Derelict Factory",
+    "original_fr": "Magasin :\nDemeure de Bosch, etc.\nCoffre :\nUsine désaffectée",
+    "translation": "Магазины:\n   Melchior's Cabin, etc.\nСундук:\n   Заброшенный завод"
+  },
+  {
+    "id": 48,
+    "original_en": "Trade:\n   Ioka Village Hut",
+    "original_fr": "Coffre :\nMonts Dénadoro",
+    "translation": "Обмен:\n   Хижина Иоки"
+  },
+  {
+    "id": 49,
+    "original_en": "Trade:\n   Ioka Village Hut",
+    "original_fr": "Troc :\nTente d'Ioka",
+    "translation": "Обмен:\n   Хижина Иоки"
+  },
+  {
+    "id": 50,
+    "original_en": "Chest:\n   Fiendlord's Keep",
+    "original_fr": "Coffre :\nPalais du Magistère",
+    "translation": "Сундук:\n   Fiendlord's Keep"
+  },
+  {
+    "id": 51,
+    "original_en": "Trade:\n   Ioka Village Hut\nCharm:\n   Reptite",
+    "original_fr": "Troc :\nTente d'Ioka\nSéduction :\nSaurien",
+    "translation": "Обмен:\n   Хижина Иоки\nКража:\n   Reptite"
+  },
+  {
+    "id": 52,
+    "original_en": "Shop:\n   Algetty",
+    "original_fr": "Magasin :\nAlguetti",
+    "translation": "Магазин:\n   Альгетти"
+  },
+  {
+    "id": 53,
+    "original_en": "Shop:\n   Kajar\nCharm:\n   Gargoyle",
+    "original_fr": "Magasin :\nKajar\nSéduction :\nGargouille",
+    "translation": "Магазин:\n   Каджар\nКража:\n   Gargoyle"
+  },
+  {
+    "id": 54,
+    "original_en": "Shop:\n   Surviving Village\nChest:\n   Ocean Palace",
+    "original_fr": "Magasin :\nVillage des survivants\nCoffre :\nSanctuaire sous-marin",
+    "translation": "Магазин:\n   Surviving Village\nСундук:\n   Океанский дворец"
+  },
+  {
+    "id": 55,
+    "original_en": "Chest:\n   Death Peak",
+    "original_fr": "Coffre :\nMont des défunts",
+    "translation": "Сундук:\n   Пик Смерти"
+  },
+  {
+    "id": 56,
+    "original_en": "Event:\n   Geno Dome",
+    "original_fr": "îvénement :\nDôme de Génos",
+    "translation": "Событие:\n   Купол Гено"
+  },
+  {
+    "id": 57,
+    "original_en": "Event:\n   Geno Dome",
+    "original_fr": "îvénement :\nDôme de Génos",
+    "translation": "Событие:\n   Купол Гено"
+  },
+  {
+    "id": 58,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 59,
+    "original_en": "Starting equipment:\n   {FROG}",
+    "original_fr": "îquipement de base :\n{FROG}",
+    "translation": "Начальное снаряжение:\n   {FROG}"
+  },
+  {
+    "id": 60,
+    "original_en": "Chest:\n   Manolia Cathedral",
+    "original_fr": "Coffre :\nAbbaye de Manolia",
+    "translation": "Сундук:\n   Собор Манолии"
+  },
+  {
+    "id": 61,
+    "original_en": "Event:\n   Magic Cave",
+    "original_fr": "îvénement :\nGrotte des mystiques",
+    "translation": "Событие:\n   Magic Cave"
+  },
+  {
+    "id": 62,
+    "original_en": "Shop:\n   Algetty",
+    "original_fr": "Magasin :\nAlguetti",
+    "translation": "Магазин:\n   Альгетти"
+  },
+  {
+    "id": 63,
+    "original_en": "Chest:\n   Ocean Palace\nShop:\n   Kajar",
+    "original_fr": "Coffre :\nSanctuaire sous-marin\nMagasin :\nKajar",
+    "translation": "Сундук:\n   Океанский дворец\nМагазин:\n   Каджар"
+  },
+  {
+    "id": 64,
+    "original_en": "Shop:\n   Surviving Village\nChest:\n   Ocean Palace",
+    "original_fr": "Magasin :\nVillage des survivants\nCoffre :\nSanctuaire sous-marin",
+    "translation": "Магазин:\n   Surviving Village\nСундук:\n   Океанский дворец"
+  },
+  {
+    "id": 65,
+    "original_en": "Chest:\n   Death Peak",
+    "original_fr": "Coffre :\nMont des défunts",
+    "translation": "Сундук:\n   Пик Смерти"
+  },
+  {
+    "id": 66,
+    "original_en": "Event:\n   Northern Ruins",
+    "original_fr": "îvénement :\nCh{TAG:4A}teau en ruine",
+    "translation": "Событие:\n   Northern Ruins"
+  },
+  {
+    "id": 67,
+    "original_en": "Chest:\n   Ocean Palace",
+    "original_fr": "Coffre :\nSanctuaire sous-marin",
+    "translation": "Сундук:\n   Океанский дворец"
+  },
+  {
+    "id": 68,
+    "original_en": "{AYLA}:\n   LV 1-23",
+    "original_fr": "Niveaux 1 {TAG:3C} 23 :\nAyla",
+    "translation": "{AYLA}:\n   LV 1-23"
+  },
+  {
+    "id": 69,
+    "original_en": "{AYLA}:\n   LV 24-47",
+    "original_fr": "Niveaux 24 {TAG:3C} 47 :\nAyla",
+    "translation": "{AYLA}:\n   LV 24-47"
+  },
+  {
+    "id": 70,
+    "original_en": "{AYLA}:\n   LV 48-71",
+    "original_fr": "Niveaux 48 {TAG:3C} 71 :\nAyla",
+    "translation": "{AYLA}:\n   LV 48-71"
+  },
+  {
+    "id": 71,
+    "original_en": "{AYLA}:\n   LV 72-95",
+    "original_fr": "Niveaux 72 {TAG:3C} 95 :\nAyla",
+    "translation": "{AYLA}:\n   LV 72-95"
+  },
+  {
+    "id": 72,
+    "original_en": "{AYLA}:\n   LV 96+",
+    "original_fr": "Niveaux 96 et plus :\nAyla",
+    "translation": "{AYLA}:\n   LV 96+"
+  },
+  {
+    "id": 73,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 74,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 75,
+    "original_en": "Starting equipment:\n   {MAGUS}",
+    "original_fr": "îquipement de base :\nMagus",
+    "translation": "Начальное снаряжение:\n   {MAGUS}"
+  },
+  {
+    "id": 76,
+    "original_en": "Shop:\n   Surviving Village",
+    "original_fr": "Magasin :\nVillage des survivants",
+    "translation": "Магазин:\n   Surviving Village"
+  },
+  {
+    "id": 77,
+    "original_en": "Chest:\n   Death Peak",
+    "original_fr": "Coffre :\nMont des défunts",
+    "translation": "Сундук:\n   Пик Смерти"
+  },
+  {
+    "id": 78,
+    "original_en": "Chest:\n   Ozzie's Fort",
+    "original_fr": "Coffre :\nManoir de Vinnie",
+    "translation": "Сундук:\n   Форт Оззи"
+  },
+  {
+    "id": 79,
+    "original_en": "Charm:\n   Nu",
+    "original_fr": "Séduction :\nGnu",
+    "translation": "Кража:\n   Nu"
+  },
+  {
+    "id": 80,
+    "original_en": "Event:\n   Denadoro Mts.",
+    "original_fr": "îvénement :\nMonts Dénadoro",
+    "translation": "Событие:\n   Denadoro Mts."
+  },
+  {
+    "id": 81,
+    "original_en": "Event:\n   Cursed Woods",
+    "original_fr": "îvénement :\nForêt aux grenouilles",
+    "translation": "Событие:\n   Cursed Woods"
+  },
+  {
+    "id": 82,
+    "original_en": "Event:\n   Melchior's Cabin",
+    "original_fr": "îvénement :\nDemeure de Bosch",
+    "translation": "Событие:\n   Melchior's Cabin"
+  },
+  {
+    "id": 83,
+    "original_en": "Event:\n   Forest Ruins",
+    "original_fr": "îvénement :\nRuines sylvestres",
+    "translation": "Событие:\n   Forest Ruins"
+  },
+  {
+    "id": 84,
+    "original_en": "Charm:\n   Super Slash",
+    "original_fr": "Séduction :\nSuper Soja",
+    "translation": "Кража:\n   Super Slash"
+  },
+  {
+    "id": 85,
+    "original_en": "Event:\n   Guardia Castle\n   (Present)",
+    "original_fr": "îvénement :\nCh{TAG:4A}teau de Gardia\n(Présent)",
+    "translation": "Событие:\n   Замок Гардии\n   (Present)"
+  },
+  {
+    "id": 86,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 87,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 88,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 89,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 90,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 91,
+    "original_en": "Chest:\n   Lost Sanctum",
+    "original_fr": "Coffre :\nSanctuaire oublié",
+    "translation": "Сундук:\n   Забытое Святилище"
+  },
+  {
+    "id": 92,
+    "original_en": "Chest:\n   Lost Sanctum",
+    "original_fr": "Coffre :\nSanctuaire oublié",
+    "translation": "Сундук:\n   Забытое Святилище"
+  },
+  {
+    "id": 93,
+    "original_en": "Chest:\n   Lost Sanctum",
+    "original_fr": "Coffre :\nSanctuaire oublié",
+    "translation": "Сундук:\n   Забытое Святилище"
+  },
+  {
+    "id": 94,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 95,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 96,
+    "original_en": "Completion bonus:\n   Time's Eclipse",
+    "original_fr": "îvénement :\nTénèbres du temps",
+    "translation": "Награда за прохождение:\n   Time's Eclipse"
+  },
+  {
+    "id": 97,
+    "original_en": "Chest:\n   Dimensional Vortex",
+    "original_fr": "Coffre :\nVortex dimensionnel",
+    "translation": "Сундук:\n   Вихрь измерений"
+  },
+  {
+    "id": 98,
+    "original_en": "Chest:\n   Dimensional Vortex",
+    "original_fr": "Coffre :\nVortex dimensionnel",
+    "translation": "Сундук:\n   Вихрь измерений"
+  },
+  {
+    "id": 99,
+    "original_en": "Chest:\n   Dimensional Vortex",
+    "original_fr": "Coffre :\nVortex dimensionnel",
+    "translation": "Сундук:\n   Вихрь измерений"
+  },
+  {
+    "id": 100,
+    "original_en": "Chest:\n   Dimensional Vortex",
+    "original_fr": "Coffre :\nVortex dimensionnel",
+    "translation": "Сундук:\n   Вихрь измерений"
+  },
+  {
+    "id": 101,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 102,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 103,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 104,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 105,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 106,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 107,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 108,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 109,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 110,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 111,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 112,
+    "original_en": "Starting equipment:\n   {CRONO}\n   {MARLE}",
+    "original_fr": "îquipement de base :\nChrono\nMarle",
+    "translation": "Начальное снаряжение:\n   {CRONO}\n   {MARLE}"
+  },
+  {
+    "id": 113,
+    "original_en": "Starting equipment:\n   {LUCCA}\nShops:\n   Truce, etc.",
+    "original_fr": "îquipement de base :\nLucca\nMagasin :\nTruce (Moyen-{TAG:5F}ge), etc.",
+    "translation": "Начальное снаряжение:\n   {LUCCA}\nМагазины:\n   Трус и др."
+  },
+  {
+    "id": 114,
+    "original_en": "Starting equipment:\n   {FROG}\nShops:\n   Porre, etc.\nChests:\n   Prison Towers, etc.",
+    "original_fr": "îquipement de base :\nGren\nMagasin :\nPalpori (Présent), etc.\nCoffre :\nPrison, etc.",
+    "translation": "Начальное снаряжение:\n   {FROG}\nМагазины:\n   Порре, etc.\nСундуки:\n   Тюремные башни, etc."
+  },
+  {
+    "id": 115,
+    "original_en": "Shop:\n   Truce\nChest:\n   Manolia Cathedral",
+    "original_fr": "Magasin :\nTruce (Présent)\nCoffre :\nAbbaye de Manolia",
+    "translation": "Магазин:\n   Трус\nСундук:\n   Собор Манолии"
+  },
+  {
+    "id": 116,
+    "original_en": "Shops:\n   Trann Dome, etc.",
+    "original_fr": "Magasin :\nDôme de Trann, etc.",
+    "translation": "Магазины:\n   Купол Транн, etc."
+  },
+  {
+    "id": 117,
+    "original_en": "Starting equipment:\n   {ROBO}\nShops:\n   Truce, etc.\nChest:\n   Derelict Factory",
+    "original_fr": "îquipement de base :\nRoBo\nMagasin :\nTruce (Présent), etc.\nCoffre :\nUsine désaffectée",
+    "translation": "Начальное снаряжение:\n   {ROBO}\nМагазины:\n   Трус и др.\nСундук:\n   Заброшенный завод"
+  },
+  {
+    "id": 118,
+    "original_en": "Shops:\n   Porre, etc.\nChest:\n   Denadoro Mts.",
+    "original_fr": "Magasin :\nPalpori (Moyen-{TAG:5F}ge), etc.\nCoffre :\nMonts Dénadoro",
+    "translation": "Магазины:\n   Порре, etc.\nСундук:\n   Denadoro Mts."
+  },
+  {
+    "id": 119,
+    "original_en": "Starting equipment:\n   {AYLA}\nTrade:\n   Ioka Village Hut\nChest:\n   Reptite Lair",
+    "original_fr": "îquipement de base :\nAyla\nTroc :\nTente d'Ioka\nCoffre :\nAntre des sauriens",
+    "translation": "Начальное снаряжение:\n   {AYLA}\nОбмен:\n   Хижина Иоки\nСундук:\n   Логово рептитов"
+  },
+  {
+    "id": 120,
+    "original_en": "Chest:\n   Fiendlord's Keep",
+    "original_fr": "Coffre :\nPalais du Magistère",
+    "translation": "Сундук:\n   Fiendlord's Keep"
+  },
+  {
+    "id": 121,
+    "original_en": "Chest:\n   Fiendlord's Keep",
+    "original_fr": "Coffre :\nPalais du Magistère",
+    "translation": "Сундук:\n   Fiendlord's Keep"
+  },
+  {
+    "id": 122,
+    "original_en": "Chests:\n   Dactyl Nest, etc.",
+    "original_fr": "Coffre :\nNid des ptéranodons, etc.",
+    "translation": "Сундуки:\n   Гнездо Дактилей, etc."
+  },
+  {
+    "id": 123,
+    "original_en": "Shops:\n   Medina, etc.\nSealed chest:\n   Arris Dome",
+    "original_fr": "Magasin :\nMédina, etc.\nCoffre scellé :\nDôme d'Arris",
+    "translation": "Магазины:\n   Медина, etc.\nЗапечатанный сундук:\n   Купол Аррис"
+  },
+  {
+    "id": 124,
+    "original_en": "Shops:\n   Algetty, etc.",
+    "original_fr": "Magasin :\nAlguetti, etc.",
+    "translation": "Магазины:\n   Альгетти и др."
+  },
+  {
+    "id": 125,
+    "original_en": "Shop:\n   Kajar\nChest:\n   Mountain of Woe",
+    "original_fr": "Magasin :\nKajar\nCoffre :\nMont du tourment",
+    "translation": "Магазин:\n   Каджар\nСундук:\n   Гора Скорби"
+  },
+  {
+    "id": 126,
+    "original_en": "Shop:\n   Surviving Village\nChests:\n   Ocean Palace, etc.",
+    "original_fr": "Magasin :\nVillage des survivants\nCoffre :\nSanctuaire\nsous-marin, etc.",
+    "translation": "Магазин:\n   Surviving Village\nСундуки:\n   Океанский дворец, etc."
+  },
+  {
+    "id": 127,
+    "original_en": "Chests:\n   Black Omen, etc.",
+    "original_fr": "Coffre :\nSonge obscur, etc.",
+    "translation": "Сундуки:\n   Чёрное Знамение, etc."
+  },
+  {
+    "id": 128,
+    "original_en": "Chest:\n   Black Omen, etc.\nSealed chest:\n   Northern Ruins\nEvent:\n   Lost Sanctum\nCharm:\n   Fangbeast",
+    "original_fr": "Coffre :\nSonge obscur, etc.\nCoffre scellé :\nCh{TAG:4A}teau en ruine\nîvénement :\nSanctuaire oublié\nSéduction :\nDodu",
+    "translation": "Сундук:\n   Чёрное Знамение, etc.\nЗапечатанный сундук:\n   Northern Ruins\nСобытие:\n   Забытое Святилище\nКража:\n   Fangbeast"
+  },
+  {
+    "id": 129,
+    "original_en": "Event:\n   Guardia Castle\n   (Present)\nCharm:\n   Queen Zeal (Right Arm)",
+    "original_fr": "îvénement :\nCh{TAG:4A}teau de Gardia\n(Présent)\nSéduction :\nZhyle (bras droit)",
+    "translation": "Событие:\n   Замок Гардии\n   (Present)\nКража:\n   Queen Zeal (Right Arm)"
+  },
+  {
+    "id": 130,
+    "original_en": "Sealed chest:\n   Northern Ruins\n   (Post-upgrade)",
+    "original_fr": "Coffre scellé :\nCh{TAG:4A}teau en ruine\n(après avoir refusé de\nl'ouvrir dans le passé)",
+    "translation": "Запечатанный сундук:\n   Northern Ruins\n   (Post-upgrade)"
+  },
+  {
+    "id": 131,
+    "original_en": "Trade:\n   Ioka Village Hut",
+    "original_fr": "Troc :\nTente d'Ioka",
+    "translation": "Обмен:\n   Хижина Иоки"
+  },
+  {
+    "id": 132,
+    "original_en": "Starting equipment:\n   {MAGUS}",
+    "original_fr": "îquipement de base :\nMagus",
+    "translation": "Начальное снаряжение:\n   {MAGUS}"
+  },
+  {
+    "id": 133,
+    "original_en": "Chest:\n   Ozzie's Fort",
+    "original_fr": "Coffre :\nManoir de Vinnie",
+    "translation": "Сундук:\n   Форт Оззи"
+  },
+  {
+    "id": 134,
+    "original_en": "Sealed chest:\n   Mayor's Manor\n   (Post-upgrade)\nCharm:\n   Yakra XIII",
+    "original_fr": "Coffre scellé :\nRésidence du maire\n(après avoir refusé de\nl'ouvrir dans le passé)\nSéduction :\nYakra XIII",
+    "translation": "Запечатанный сундук:\n   Mayor's Manor\n   (Post-upgrade)\nКража:\n   Yakra XIII"
+  },
+  {
+    "id": 135,
+    "original_en": "Sealed chest:\n   Mayor's Manor\n   (Post-upgrade)\nCharm:\n   Son of the Sun",
+    "original_fr": "Coffre scellé :\nRésidence du maire\n(après avoir refusé de\nl'ouvrir dans le passé)\nSéduction :\nFils du soleil",
+    "translation": "Запечатанный сундук:\n   Mayor's Manor\n   (Post-upgrade)\nКража:\n   Son of the Sun"
+  },
+  {
+    "id": 136,
+    "original_en": "Sealed chest:\n   Truce Inn\n   (Post-upgrade)\nCharm:\n   Mother Brain",
+    "original_fr": "Coffre scellé :\nAuberge de Truce\n(Présent)\n(après avoir refusé de\nl'ouvrir dans le passé)\nSéduction :\nCerveau mère",
+    "translation": "Запечатанный сундук:\n   Трус Inn\n   (Post-upgrade)\nКража:\n   Mother Brain"
+  },
+  {
+    "id": 137,
+    "original_en": "Sealed chest:\n   Guardia Castle\n   (Present,\n   Post-upgrade)\nCharm:\n   Rust Tyranno",
+    "original_fr": "Coffre scellé :\nCh{TAG:4A}teau de Gardia\n(Présent)\n(après avoir refusé de\nl'ouvrir dans le passé)\nSéduction :\nTyrannosaure noir",
+    "translation": "Запечатанный сундук:\n   Замок Гардии\n   (Present,\n   Post-upgrade)\nКража:\n   Rust Tyranno"
+  },
+  {
+    "id": 138,
+    "original_en": "Sealed chests:\n   Porre Elder's House\n   Mayor's Manor",
+    "original_fr": "Coffre scellé :\nMaison du maire de Palpori\nRésidence du maire",
+    "translation": "Запечатанные сундуки:\n   Порре Elder's House\n   Mayor's Manor"
+  },
+  {
+    "id": 139,
+    "original_en": "Sealed chests:\n   Porre Elder's House\n   Mayor's Manor",
+    "original_fr": "Coffre scellé :\nMaison du maire de Palpori\nRésidence du maire",
+    "translation": "Запечатанные сундуки:\n   Порре Elder's House\n   Mayor's Manor"
+  },
+  {
+    "id": 140,
+    "original_en": "Sealed chest:\n   Truce Inn",
+    "original_fr": "Coffre scellé :\nAuberge de Truce",
+    "translation": "Запечатанный сундук:\n   Трус Inn"
+  },
+  {
+    "id": 141,
+    "original_en": "Sealed chest:\n   Guardia Castle",
+    "original_fr": "Coffre scellé :\nCh{TAG:4A}teau de Gardia",
+    "translation": "Запечатанный сундук:\n   Замок Гардии"
+  },
+  {
+    "id": 142,
+    "original_en": "Event:\n   {LUCCA}'s House",
+    "original_fr": "îvénement :\nMaison de Lucca",
+    "translation": "Событие:\n   {LUCCA}'s House"
+  },
+  {
+    "id": 143,
+    "original_en": "Event:\n   {LUCCA}'s House",
+    "original_fr": "îvénement :\nMaison de Lucca",
+    "translation": "Событие:\n   {LUCCA}'s House"
+  },
+  {
+    "id": 144,
+    "original_en": "Shop:\n   Lost Sanctum\nChest:\n   Lost Sanctum",
+    "original_fr": "Magasin :\nSanctuaire oublié\nCoffre :\nSanctuaire oublié",
+    "translation": "Магазин:\n   Забытое Святилище\nСундук:\n   Забытое Святилище"
+  },
+  {
+    "id": 145,
+    "original_en": "Shop:\n   Lost Sanctum\nChest:\n   Lost Sanctum",
+    "original_fr": "Magasin :\nSanctuaire oublié\nCoffre :\nSanctuaire oublié",
+    "translation": "Магазин:\n   Забытое Святилище\nСундук:\n   Забытое Святилище"
+  },
+  {
+    "id": 146,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 147,
+    "original_en": "Chest:\n   Dimensional Vortex",
+    "original_fr": "Coffre :\nVortex dimensionnel",
+    "translation": "Сундук:\n   Вихрь измерений"
+  },
+  {
+    "id": 148,
+    "original_en": "Chest:\n   Dimensional Vortex",
+    "original_fr": "Coffre :\nVortex dimensionnel",
+    "translation": "Сундук:\n   Вихрь измерений"
+  },
+  {
+    "id": 149,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 150,
+    "original_en": "Chest:\n   Dimensional Vortex",
+    "original_fr": "Coffre :\nVortex dimensionnel",
+    "translation": "Сундук:\n   Вихрь измерений"
+  },
+  {
+    "id": 151,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 152,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 153,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 154,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 155,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 156,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 157,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 158,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 159,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 160,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 161,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 162,
+    "original_en": "Starting equipment:\n   {CRONO}\n   {MARLE}\n   {LUCCA}",
+    "original_fr": "îquipement de base :\nChrono\nMarle\nLucca",
+    "translation": "Начальное снаряжение:\n   {CRONO}\n   {MARLE}\n   {LUCCA}"
+  },
+  {
+    "id": 163,
+    "original_en": "Starting equipment:\n   {FROG}\nShops:\n   Leene Square, etc.",
+    "original_fr": "îquipement de base :\nGren\nMagasin :\nPlace de Lynne, etc.",
+    "translation": "Начальное снаряжение:\n   {FROG}\nМагазины:\n   Площадь Лины и др."
+  },
+  {
+    "id": 164,
+    "original_en": "Shops:\n   Trann Dome, etc.",
+    "original_fr": "Magasin :\nDôme de Trann, etc.",
+    "translation": "Магазины:\n   Купол Транн, etc."
+  },
+  {
+    "id": 165,
+    "original_en": "Shop:\n   Porre",
+    "original_fr": "Magasin :\nPalpori (Moyen-{TAG:5F}ge)",
+    "translation": "Магазин:\n   Порре"
+  },
+  {
+    "id": 166,
+    "original_en": "Event:\n   Zenan Bridge\n   (Middle Ages)\nChest:\n   Denadoro Mts.",
+    "original_fr": "îvénement :\nPont de Zénan\n(Moyen-{TAG:5F}ge)\nCoffre :\nMonts Dénadoro",
+    "translation": "Событие:\n   Zenan Bridge\n   (Middle Ages)\nСундук:\n   Denadoro Mts."
+  },
+  {
+    "id": 167,
+    "original_en": "Starting equipment:\n   {AYLA}\nTrade:\n   Ioka Village Hut\nChest:\n   Reptite Lair",
+    "original_fr": "îquipement de base :\nAyla\nTroc :\nTente d'Ioka\nCoffre :\nAntre des sauriens",
+    "translation": "Начальное снаряжение:\n   {AYLA}\nОбмен:\n   Хижина Иоки\nСундук:\n   Логово рептитов"
+  },
+  {
+    "id": 168,
+    "original_en": "Chest:\n   Tyranno Lair",
+    "original_fr": "Coffre :\nFort Tyrannos",
+    "translation": "Сундук:\n   Логово Тиранно"
+  },
+  {
+    "id": 169,
+    "original_en": "Shops:\n   Algetty, etc.",
+    "original_fr": "Magasin :\nAlguetti, etc.",
+    "translation": "Магазины:\n   Альгетти и др."
+  },
+  {
+    "id": 170,
+    "original_en": "Shop:\n   Kajar\nChest:\n   Mountain of Woe",
+    "original_fr": "Magasin :\nKajar\nCoffre :\nMont du tourment",
+    "translation": "Магазин:\n   Каджар\nСундук:\n   Гора Скорби"
+  },
+  {
+    "id": 171,
+    "original_en": "Shop:\n   Surviving Village\nChest:\n   Ocean Palace, etc.",
+    "original_fr": "Magasin :\nVillage des survivants\nCoffre :\nSanctuaire\nsous-marin, etc.",
+    "translation": "Магазин:\n   Surviving Village\nСундук:\n   Океанский дворец, etc."
+  },
+  {
+    "id": 172,
+    "original_en": "Event:\n   Guardia Castle\n   (Present)\nCharm:\n   Queen Zeal (Left Arm)",
+    "original_fr": "îvénement :\nCh{TAG:4A}teau de Gardia\n(Présent)\nSéduction :\nZhyle (bras gauche)",
+    "translation": "Событие:\n   Замок Гардии\n   (Present)\nКража:\n   Queen Zeal (Left Arm)"
+  },
+  {
+    "id": 173,
+    "original_en": "Starting equipment:\n   {MAGUS}",
+    "original_fr": "îquipement de base :\nMagus",
+    "translation": "Начальное снаряжение:\n   {MAGUS}"
+  },
+  {
+    "id": 174,
+    "original_en": "Chest:\n   Death Peak",
+    "original_fr": "Coffre :\nMont des défunts",
+    "translation": "Сундук:\n   Пик Смерти"
+  },
+  {
+    "id": 175,
+    "original_en": "Chest:\n   Ozzie's Fort",
+    "original_fr": "Coffre :\nManoir de Vinnie",
+    "translation": "Сундук:\n   Форт Оззи"
+  },
+  {
+    "id": 176,
+    "original_en": "Event:\n   Forest Ruins\nCharm:\n   Elder Lavos Spawn\n   (Shell)",
+    "original_fr": "îvénement :\nRuines sylvestres\nSéduction :\nPupe de Lavos (carapace)",
+    "translation": "Событие:\n   Forest Ruins\nКража:\n   Elder Lavos Spawn\n   (Shell)"
+  },
+  {
+    "id": 177,
+    "original_en": "Event:\n   {LUCCA}'s House",
+    "original_fr": "îvénement :\nMaison de Lucca",
+    "translation": "Событие:\n   {LUCCA}'s House"
+  },
+  {
+    "id": 178,
+    "original_en": "Shop:\n   Fiona's Shrine\nChest:\n   Ozzie's Fort, etc.",
+    "original_fr": "Magasin :\nSanctuaire de Fiona\nCoffre :\nManoir de Vinnie, etc.",
+    "translation": "Магазин:\n   Fiona's Shrine\nСундук:\n   Форт Оззи, etc."
+  },
+  {
+    "id": 179,
+    "original_en": "Shop:\n   Fiona's Shrine\nChest:\n   Sunken Desert, etc.",
+    "original_fr": "Magasin :\nSanctuaire de Fiona\nCoffre :\nDésert souterrain, etc.",
+    "translation": "Магазин:\n   Fiona's Shrine\nСундук:\n   Затонувшая пустыня, etc."
+  },
+  {
+    "id": 180,
+    "original_en": "Shop:\n   Fiona's Shrine\nChest:\n   Mountain of Woe",
+    "original_fr": "Magasin :\nSanctuaire de Fiona\nCoffre :\nMont du tourment",
+    "translation": "Магазин:\n   Fiona's Shrine\nСундук:\n   Гора Скорби"
+  },
+  {
+    "id": 181,
+    "original_en": "Shop:\n   Fiona's Shrine\nChests:\n   Black Omen, etc.\nCharm:\n   Mega Mutant\n   (Lower Body)",
+    "original_fr": "Magasin :\nSanctuaire de Fiona\nCoffre :\nSonge obscur, etc.\nSéduction :\nMégamutant (bas)",
+    "translation": "Магазин:\n   Fiona's Shrine\nСундуки:\n   Чёрное Знамение, etc.\nКража:\n   Mega Mutant\n   (Lower Body)"
+  },
+  {
+    "id": 182,
+    "original_en": "Charm:\n   Ozzie the Great",
+    "original_fr": "Séduction :\nVinnie le Grand",
+    "translation": "Кража:\n   Ozzie the Great"
+  },
+  {
+    "id": 183,
+    "original_en": "Chest:\n   Black Omen\nCharm:\n   Elder Lavos Spawn\n   (Mouth)",
+    "original_fr": "Coffre :\nSonge obscur\nSéduction :\nPupe de Lavos (gueule)",
+    "translation": "Сундук:\n   Чёрное Знамение\nКража:\n   Elder Lavos Spawn\n   (Mouth)"
+  },
+  {
+    "id": 184,
+    "original_en": "Chest:\n   Lost Sanctum\nCharm:\n   Mudbeast",
+    "original_fr": "Coffre :\nSanctuaire oublié\nSéduction :\nTerraphage",
+    "translation": "Сундук:\n   Забытое Святилище\nКража:\n   Mudbeast"
+  },
+  {
+    "id": 185,
+    "original_en": "Chest:\n   Lost Sanctum\nCharm:\n   Blue Mudbeast",
+    "original_fr": "Coffre :\nSanctuaire oublié\nSéduction :\nTerraphage bleu",
+    "translation": "Сундук:\n   Забытое Святилище\nКража:\n   Blue Mudbeast"
+  },
+  {
+    "id": 186,
+    "original_en": "Shop:\n   Lost Sanctum\nChest:\n   Lost Sanctum",
+    "original_fr": "Magasin :\nSanctuaire oublié\nCoffre :\nSanctuaire oublié",
+    "translation": "Магазин:\n   Забытое Святилище\nСундук:\n   Забытое Святилище"
+  },
+  {
+    "id": 187,
+    "original_en": "Shop:\n   Lost Sanctum\nChest:\n   Lost Sanctum",
+    "original_fr": "Magasin :\nSanctuaire oublié\nCoffre :\nSanctuaire oublié",
+    "translation": "Магазин:\n   Забытое Святилище\nСундук:\n   Забытое Святилище"
+  },
+  {
+    "id": 188,
+    "original_en": "Chest:\n   Dimensional Vortex",
+    "original_fr": "Coffre :\nVortex dimensionnel",
+    "translation": "Сундук:\n   Вихрь измерений"
+  },
+  {
+    "id": 189,
+    "original_en": "Chest:\n   Dimensional Vortex",
+    "original_fr": "Coffre :\nVortex dimensionnel",
+    "translation": "Сундук:\n   Вихрь измерений"
+  },
+  {
+    "id": 190,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 191,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 192,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 193,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 194,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 195,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 196,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 197,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 198,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 199,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 200,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 201,
+    "original_en": "Starting equipment:\n   {CRONO}",
+    "original_fr": "îquipement de base :\nChrono",
+    "translation": "Начальное снаряжение:\n   {CRONO}"
+  },
+  {
+    "id": 202,
+    "original_en": "Starting equipment:\n   {MARLE}",
+    "original_fr": "îquipement de base :\nMarle",
+    "translation": "Начальное снаряжение:\n   {MARLE}"
+  },
+  {
+    "id": 203,
+    "original_en": "Starting equipment:\n   {FROG}\nChest:\n   Truce Canyon",
+    "original_fr": "îquipement de base :\nGren\nCoffre :\nMont Truce",
+    "translation": "Начальное снаряжение:\n   {FROG}\nСундук:\n   Трус Canyon"
+  },
+  {
+    "id": 204,
+    "original_en": "Starting equipment:\n   {ROBO}\nChest:\n   Manolia Cathedral",
+    "original_fr": "îquipement de base :\nRoBo\nCoffre :\nAbbaye de Manolia",
+    "translation": "Начальное снаряжение:\n   {ROBO}\nСундук:\n   Собор Манолии"
+  },
+  {
+    "id": 205,
+    "original_en": "Chest:\n   Heckran Cave, etc.",
+    "original_fr": "Coffre :\nGrottes d'Héclan, etc.",
+    "translation": "Сундук:\n   Пещера Хекрана, etc."
+  },
+  {
+    "id": 206,
+    "original_en": "Starting equipment:\n   {MAGUS}\nEvent:\n   North Cape",
+    "original_fr": "îquipement de base :\nMagus\nîvénement :\nCap nord",
+    "translation": "Начальное снаряжение:\n   {MAGUS}\nСобытие:\n   North Cape"
+  },
+  {
+    "id": 207,
+    "original_en": "Chests:\n   Heckran Cave, etc.",
+    "original_fr": "Coffre :\nGrottes d'Héclan, etc.",
+    "translation": "Сундуки:\n   Пещера Хекрана, etc."
+  },
+  {
+    "id": 208,
+    "original_en": "Chest:\n   Arris Dome",
+    "original_fr": "Coffre :\nDôme d'Arris",
+    "translation": "Сундук:\n   Купол Аррис"
+  },
+  {
+    "id": 209,
+    "original_en": "Sealed chest:\n   Guardia Forest\n   (Present)",
+    "original_fr": "Coffre scellé :\nForêt de Gardia (Présent)",
+    "translation": "Запечатанный сундук:\n   Guardia Forest\n   (Present)"
+  },
+  {
+    "id": 210,
+    "original_en": "Chests:\n   Magic Cave, etc.",
+    "original_fr": "Coffre :\nGrotte des mystiques,\netc.",
+    "translation": "Сундуки:\n   Magic Cave, etc."
+  },
+  {
+    "id": 211,
+    "original_en": "Chests:\n   Heckran Cave, etc.\nCharm:\n   Giga Mutant\n   (Upper Body)",
+    "original_fr": "Coffre :\nGrottes d'Héclan, etc.\nSéduction :\nGigamutant (haut)",
+    "translation": "Сундуки:\n   Пещера Хекрана, etc.\nКража:\n   Giga Mutant\n   (Upper Body)"
+  },
+  {
+    "id": 212,
+    "original_en": "Chest:\n   Denadoro Mts.",
+    "original_fr": "Coffre :\nMonts Dénadoro",
+    "translation": "Сундук:\n   Denadoro Mts."
+  },
+  {
+    "id": 213,
+    "original_en": "Chest:\n   Arris Dome\nCharm:\n   Synchrite",
+    "original_fr": "Coffre :\nDôme d'Arris\nSéduction :\nGolem des ruines",
+    "translation": "Сундук:\n   Купол Аррис\nКража:\n   Synchrite"
+  },
+  {
+    "id": 214,
+    "original_en": "Chest:\n   Denadoro Mts.",
+    "original_fr": "Coffre :\nMonts Dénadoro",
+    "translation": "Сундук:\n   Denadoro Mts."
+  },
+  {
+    "id": 215,
+    "original_en": "Sealed chest:\n   Trann Dome\nCharm:\n   Flyclops",
+    "original_fr": "Coffre scellé :\nDôme de Trann\nSéduction :\nAhrimini",
+    "translation": "Запечатанный сундук:\n   Купол Транн\nКража:\n   Flyclops"
+  },
+  {
+    "id": 216,
+    "original_en": "Starting equipment:\n   {LUCCA}",
+    "original_fr": "îquipement de base :\nLucca",
+    "translation": "Начальное снаряжение:\n   {LUCCA}"
+  },
+  {
+    "id": 217,
+    "original_en": "Sealed chest:\n   Trann Dome",
+    "original_fr": "Coffre scellé :\nDôme de Trann",
+    "translation": "Запечатанный сундук:\n   Купол Транн"
+  },
+  {
+    "id": 218,
+    "original_en": "Chest:\n   Abandoned Sewers",
+    "original_fr": "Coffre :\nAncien égout",
+    "translation": "Сундук:\n   Abandoned Sewers"
+  },
+  {
+    "id": 219,
+    "original_en": "Chest:\n   Giant's Claw",
+    "original_fr": "Coffre :\nGriffe du géant",
+    "translation": "Сундук:\n   Клык Великана"
+  },
+  {
+    "id": 220,
+    "original_en": "Event:\n   Hunting Range\nCharm:\n   Nizbel\n   Nizbel II",
+    "original_fr": "îvénement :\nTerrain de chasse\nSéduction :\nNizbel\nNizbel II",
+    "translation": "Событие:\n   Охотничьи угодья\nКража:\n   Nizbel\n   Nizbel II"
+  },
+  {
+    "id": 221,
+    "original_en": "Sealed chest:\n   Bangor Dome",
+    "original_fr": "Coffre scellé :\nDôme de Bangor",
+    "translation": "Запечатанный сундук:\n   Купол Бангор"
+  },
+  {
+    "id": 222,
+    "original_en": "Event:\n   Fiona's Shrine",
+    "original_fr": "îvénement :\nSanctuaire de Fiona",
+    "translation": "Событие:\n   Fiona's Shrine"
+  },
+  {
+    "id": 223,
+    "original_en": "Chests:\n   Site 16, etc.",
+    "original_fr": "Coffre :\nRuines nÎ 16, etc.",
+    "translation": "Сундуки:\n   Зона 16, etc."
+  },
+  {
+    "id": 224,
+    "original_en": "Starting equipment:\n   {AYLA}",
+    "original_fr": "îquipement de base :\nAyla",
+    "translation": "Начальное снаряжение:\n   {AYLA}"
+  },
+  {
+    "id": 225,
+    "original_en": "Chests:\n   Manolia Cathedral, etc.",
+    "original_fr": "Coffre :\nAbbaye de Manolia, etc.",
+    "translation": "Сундуки:\n   Собор Манолии, etc."
+  },
+  {
+    "id": 226,
+    "original_en": "Event:\n   Kajar",
+    "original_fr": "îvénement :\nKajar",
+    "translation": "Событие:\n   Каджар"
+  },
+  {
+    "id": 227,
+    "original_en": "Chest:\n   Giant's Claw",
+    "original_fr": "Coffre :\nGriffe du géant",
+    "translation": "Сундук:\n   Клык Великана"
+  },
+  {
+    "id": 228,
+    "original_en": "Event:\n   Laruba Ruins",
+    "original_fr": "îvénement :\nRuines de Laruba",
+    "translation": "Событие:\n   Laruba Ruins"
+  },
+  {
+    "id": 229,
+    "original_en": "Chest:\n   Black Omen",
+    "original_fr": "Coffre :\nSonge obscur",
+    "translation": "Сундук:\n   Чёрное Знамение"
+  },
+  {
+    "id": 230,
+    "original_en": "Event:\n   Denadoro Mts.",
+    "original_fr": "îvénement :\nMonts Dénadoro",
+    "translation": "Событие:\n   Denadoro Mts."
+  },
+  {
+    "id": 231,
+    "original_en": "Event:\n   Tata's House",
+    "original_fr": "îvénement :\nMaison de Tarta",
+    "translation": "Событие:\n   Tata's House"
+  },
+  {
+    "id": 232,
+    "original_en": "Chest:\n   Sunken Desert\nCharm:\n   Tera Mutant\n   (Upper Body)",
+    "original_fr": "Coffre :\nDésert souterrain\nSéduction :\nTéramutant (haut)",
+    "translation": "Сундук:\n   Затонувшая пустыня\nКража:\n   Tera Mutant\n   (Upper Body)"
+  },
+  {
+    "id": 233,
+    "original_en": "Charm:\n   Diva Flea",
+    "original_fr": "Séduction :\nSuper Mayo",
+    "translation": "Кража:\n   Diva Flea"
+  },
+  {
+    "id": 234,
+    "original_en": "Chest:\n   Black Omen",
+    "original_fr": "Coffre :\nSonge obscur",
+    "translation": "Сундук:\n   Чёрное Знамение"
+  },
+  {
+    "id": 235,
+    "original_en": "Chest:\n   Black Omen\nCharm:\n   Tera Mutant\n   (Lower Body)",
+    "original_fr": "Coffre :\nSonge obscur\nSéduction :\nTéramutant (bas)",
+    "translation": "Сундук:\n   Чёрное Знамение\nКража:\n   Tera Mutant\n   (Lower Body)"
+  },
+  {
+    "id": 236,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 237,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 238,
+    "original_en": "Event:\n   {LUCCA}'s House",
+    "original_fr": "îvénement :\nMaison de Lucca",
+    "translation": "Событие:\n   {LUCCA}'s House"
+  },
+  {
+    "id": 239,
+    "original_en": "Event:\n   Guardia Castle\n   (Present)",
+    "original_fr": "îvénement :\nCh{TAG:4A}teau de Gardia\n(Présent)",
+    "translation": "Событие:\n   Замок Гардии\n   (Present)"
+  },
+  {
+    "id": 240,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 241,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 242,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 243,
+    "original_en": "Event:\n   Arena of the Ages",
+    "original_fr": "îvénement :\nArène",
+    "translation": "Событие:\n   Арена Времён"
+  },
+  {
+    "id": 244,
+    "original_en": "Event:\n   Arena of the Ages",
+    "original_fr": "îvénement :\nArène",
+    "translation": "Событие:\n   Арена Времён"
+  },
+  {
+    "id": 245,
+    "original_en": "Event:\n   Arena of the Ages",
+    "original_fr": "îvénement :\nArène",
+    "translation": "Событие:\n   Арена Времён"
+  },
+  {
+    "id": 246,
+    "original_en": "Event:\n   Arena of the Ages",
+    "original_fr": "îvénement :\nArène",
+    "translation": "Событие:\n   Арена Времён"
+  },
+  {
+    "id": 247,
+    "original_en": "Event:\n   Arena of the Ages",
+    "original_fr": "îvénement :\nArène",
+    "translation": "Событие:\n   Арена Времён"
+  },
+  {
+    "id": 248,
+    "original_en": "Event:\n   Arena of the Ages",
+    "original_fr": "îvénement :\nArène",
+    "translation": "Событие:\n   Арена Времён"
+  },
+  {
+    "id": 249,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 250,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 251,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 252,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 253,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 254,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 255,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 256,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 257,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 258,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 259,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 260,
+    "original_en": "Shops:\n   Leene Square, etc.\nChests:\n   Manolia Cathedral, etc.\nWon:\n   Amanita, etc.",
+    "original_fr": "Magasin :\nPlace de Lynne, etc.\nCoffre :\nAbbaye de Manolia, etc.\nButin :\nAmanite, etc.",
+    "translation": "Магазины:\n   Площадь Лины и др.\nСундуки:\n   Собор Манолии, etc.\nВыигрыш:\n   Amanita, etc."
+  },
+  {
+    "id": 261,
+    "original_en": "Shops:\n   Trann Dome, etc.\nChests:\n   Prison Towers, etc.\nWon:\n   Boundillo, etc.\nCharm:\n   Edible Frog",
+    "original_fr": "Magasin :\nDôme de Trann, etc.\nCoffre :\nPrison, etc.\nButin :\nRoulemaboul, etc.\nSéduction :\nGrenouille",
+    "translation": "Магазины:\n   Купол Транн, etc.\nСундуки:\n   Тюремные башни, etc.\nВыигрыш:\n   Boundillo, etc.\nКража:\n   Edible Frog"
+  },
+  {
+    "id": 262,
+    "original_en": "Shops:\n   Kajar, etc.\nChests:\n   Reptite Lair, etc.\nCharm:\n   Mutant, etc.",
+    "original_fr": "Magasin :\nKajar, etc.\nCoffre :\nAntre des sauriens, etc.\nSéduction :\nMutant, etc.",
+    "translation": "Магазины:\n   Каджар, etc.\nСундуки:\n   Логово рептитов, etc.\nКража:\n   Mutant, etc."
+  },
+  {
+    "id": 263,
+    "original_en": "Shops:\n   Kajar, etc.\nChests:\n   Prison Towers, etc.\nWon:\n   Gaoler, etc.\nCharm:\n   Dondrago, etc.",
+    "original_fr": "Magasin :\nKajar, etc.\nCoffre :\nPrison, etc.\nButin :\nGhia, etc.\nSéduction :\nNérée des sables, etc.",
+    "translation": "Магазины:\n   Каджар, etc.\nСундуки:\n   Тюремные башни, etc.\nВыигрыш:\n   Gaoler, etc.\nКража:\n   Dondrago, etc."
+  },
+  {
+    "id": 264,
+    "original_en": "Shops:\n   Surviving Village, etc.\nChests:\n   Manolia Cathedral, etc.\nWon:\n   Sorcerer, etc.\nCharm:\n   Ruin Stalker, etc.",
+    "original_fr": "Magasin :\nVill. des survivants, etc.\nCoffre :\nAbbaye de Manolia, etc.\nButin :\nSorcier, etc.\nSéduction :\nPieuvre des ruines, etc.",
+    "translation": "Магазины:\n   Surviving Village, etc.\nСундуки:\n   Собор Манолии, etc.\nВыигрыш:\n   Sorcerer, etc.\nКража:\n   Ruin Stalker, etc."
+  },
+  {
+    "id": 265,
+    "original_en": "Shop:\n   Black Omen\nChests:\n   Sunken Desert, etc.\nWon:\n   Ghost Knight, etc.\nCharm:\n   Macabre",
+    "original_fr": "Magasin :\nSonge obscur\nCoffre :\nDésert souterrain, etc.\nButin :\nChevalier fantôme, etc.\nSéduction :\nMacchabée",
+    "translation": "Магазин:\n   Чёрное Знамение\nСундуки:\n   Затонувшая пустыня, etc.\nВыигрыш:\n   Ghost Knight, etc.\nКража:\n   Macabre"
+  },
+  {
+    "id": 266,
+    "original_en": "Shop:\n   Lost Sanctum\nChests:\n   Guardia Castle\n   (Present), etc.\nWon:\n   Fangbeast, etc.",
+    "original_fr": "Magasin :\nSanctuaire oublié\nCoffre :\nCh{TAG:4A}teau de Gardia\n(Présent), etc.\nButin :\nDodu, etc.",
+    "translation": "Магазин:\n   Забытое Святилище\nСундуки:\n   Замок Гардии\n   (Present), etc.\nВыигрыш:\n   Fangbeast, etc."
+  },
+  {
+    "id": 267,
+    "original_en": "Shop:\n   Black Omen\nChest:\n   Northern Ruins\nWon:\n   Cybot, etc.\nCharm:\n   Ghost Knight, etc.",
+    "original_fr": "Magasin :\nSonge obscur\nCoffre :\nCh{TAG:4A}teau en ruine, etc.\nButin : Goro, etc.\nSéduction :\nChevalier fantôme, etc.",
+    "translation": "Магазин:\n   Чёрное Знамение\nСундук:\n   Northern Ruins\nВыигрыш:\n   Cybot, etc.\nКража:\n   Ghost Knight, etc."
+  },
+  {
+    "id": 268,
+    "original_en": "Shop:\n   Lost Sanctum\nChests:\n   Guardia Castle\n   (Present), etc.\nWon:\n   Yakra XIII, etc.",
+    "original_fr": "Magasin :\nSanctuaire oublié\nCoffre :\nCh{TAG:4A}teau de Gardia\n(Présent), etc.\nButin :\nYakra XIII, etc.",
+    "translation": "Магазин:\n   Забытое Святилище\nСундуки:\n   Замок Гардии\n   (Present), etc.\nВыигрыш:\n   Yakra XIII, etc."
+  },
+  {
+    "id": 269,
+    "original_en": "Shops:\n   Leene Square, etc.\nChests:\n   Manolia Cathedral, etc.\nWon:\n   Bellbird, etc.",
+    "original_fr": "Magasin :\nPlace de Lynne, etc.\nCoffre :\nAbbaye de Manolia, etc.\nButin :\nCoucou {TAG:3C} cloche, etc.",
+    "translation": "Магазины:\n   Площадь Лины и др.\nСундуки:\n   Собор Манолии, etc.\nВыигрыш:\n   Bellbird, etc."
+  },
+  {
+    "id": 270,
+    "original_en": "Shops:\n   Leene Square, etc.\nChests:\n   Manolia Cathedral, etc.\nWon:\n   Viper, etc.\nCharm:\n   Cave Bat, etc.",
+    "original_fr": "Magasin :\nPlace de Lynne, etc.\nCoffre :\nAbbaye de Manolia, etc.\nButin :\nVipère, etc.\nSéduction :\nNoctule, etc.",
+    "translation": "Магазины:\n   Площадь Лины и др.\nСундуки:\n   Собор Манолии, etc.\nВыигрыш:\n   Viper, etc.\nКража:\n   Cave Bat, etc."
+  },
+  {
+    "id": 271,
+    "original_en": "Shops:\n   Leene Square, etc.\nChests:\n   Manolia Cathedral, etc.\nEvent:\n   Guardia Forest\n   (Middle Ages)",
+    "original_fr": "Magasin :\nPlace de Lynne, etc.\nCoffre :\nAbbaye de Manolia, etc.\nîvénement :\nForêt de Gardia\n(Moyen-{TAG:5F}ge)",
+    "translation": "Магазины:\n   Площадь Лины и др.\nСундуки:\n   Собор Манолии, etc.\nСобытие:\n   Guardia Forest\n   (Middle Ages)"
+  },
+  {
+    "id": 272,
+    "original_en": "Event:\n   Dorino Inn\nCharm:\n   Gato, etc.",
+    "original_fr": "îvénement :\nAuberge de San Dorino\nSéduction :\nGonzales, etc.",
+    "translation": "Событие:\n   Дорино Inn\nКража:\n   Gato, etc."
+  },
+  {
+    "id": 273,
+    "original_en": "Chests:\n   Fiendlord's Keep, etc.\nWon:\n   Vilepillar, etc.\nCharm:\n   Volcanite, etc.",
+    "original_fr": "Coffre :\nPalais du Magistère, etc.\nButin :\nRalcargot, etc.\nSéduction :\nVolcan, etc.",
+    "translation": "Сундуки:\n   Fiendlord's Keep, etc.\nВыигрыш:\n   Vilepillar, etc.\nКража:\n   Volcanite, etc."
+  },
+  {
+    "id": 274,
+    "original_en": "Shop:\n   Lost Sanctum\nChests:\n   Fiendlord's Keep, etc.\nWon:\n   Version 4.0, etc.\nCharm:\n   Freelancer, etc.",
+    "original_fr": "Magasin :\nSanctuaire oublié\nCoffre :\nPalais du Magistère, etc.\nButin :\nModèle 4.0, etc.\nSéduction :\nMercenaire, etc.",
+    "translation": "Магазин:\n   Забытое Святилище\nСундуки:\n   Fiendlord's Keep, etc.\nВыигрыш:\n   Version 4.0, etc.\nКража:\n   Freelancer, etc."
+  },
+  {
+    "id": 275,
+    "original_en": "Shop:\n   Lost Sanctum\nChests:\n   Mountain of Woe, etc.\nWon:\n   Deverminator EX, etc.\nCharm:\n   Hammer Ogan, etc.",
+    "original_fr": "Magasin :\nSanctuaire oublié\nCoffre :\nMont du tourment, etc.\nButin :\nDébogueur +, etc.\nSéduction :\nOgan marteleur, etc.",
+    "translation": "Магазин:\n   Забытое Святилище\nСундуки:\n   Гора Скорби, etc.\nВыигрыш:\n   Deverminator EX, etc.\nКража:\n   Hammer Ogan, etc."
+  },
+  {
+    "id": 276,
+    "original_en": "Found:\n   Guardia Forest, etc.\nCharm:\n   Blubber Hulk, etc.",
+    "original_fr": "Objet trouvé :\nForêt de Gardia, etc.\nSéduction :\nBête ventrue, etc.",
+    "translation": "Найдено:\n   Guardia Forest, etc.\nКража:\n   Blubber Hulk, etc."
+  },
+  {
+    "id": 277,
+    "original_en": "Found:\n   Dorino Residence, etc.\nCharm:\n   Azala, etc.",
+    "original_fr": "Objet trouvé :\nMaison de San Dorino, etc.\nSéduction :\nAzara, etc.",
+    "translation": "Найдено:\n   Дорино Residence, etc.\nКража:\n   Azala, etc."
+  },
+  {
+    "id": 278,
+    "original_en": "Found:\n   Denadoro Mts., etc.\nCharm:\n   Mud Imp, etc.",
+    "original_fr": "Objet trouvé :\nMonts Dénadoro, etc.\nSéduction :\nTerra-diablotin, etc.",
+    "translation": "Найдено:\n   Denadoro Mts., etc.\nКража:\n   Mud Imp, etc."
+  },
+  {
+    "id": 279,
+    "original_en": "Shop:\n   Arena of the Ages",
+    "original_fr": "Magasin :\nArène",
+    "translation": "Магазин:\n   Арена Времён"
+  },
+  {
+    "id": 280,
+    "original_en": "Shop:\n   Arena of the Ages",
+    "original_fr": "Magasin :\nArène",
+    "translation": "Магазин:\n   Арена Времён"
+  },
+  {
+    "id": 281,
+    "original_en": "Shop:\n   Arena of the Ages",
+    "original_fr": "Magasin :\nArène",
+    "translation": "Магазин:\n   Арена Времён"
+  },
+  {
+    "id": 282,
+    "original_en": "Shop:\n   Arena of the Ages",
+    "original_fr": "Magasin :\nArène",
+    "translation": "Магазин:\n   Арена Времён"
+  },
+  {
+    "id": 283,
+    "original_en": "Shop:\n   Arena of the Ages",
+    "original_fr": "Magasin :\nArène",
+    "translation": "Магазин:\n   Арена Времён"
+  },
+  {
+    "id": 284,
+    "original_en": "Shop:\n   Arena of the Ages",
+    "original_fr": "Magasin :\nArène",
+    "translation": "Магазин:\n   Арена Времён"
+  },
+  {
+    "id": 285,
+    "original_en": "Shop:\n   Arena of the Ages",
+    "original_fr": "Magasin :\nArène",
+    "translation": "Магазин:\n   Арена Времён"
+  },
+  {
+    "id": 286,
+    "original_en": "Shop:\n   Arena of the Ages",
+    "original_fr": "Magasin :\nArène",
+    "translation": "Магазин:\n   Арена Времён"
+  },
+  {
+    "id": 287,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 288,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 289,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 290,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 291,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 292,
+    "original_en": "",
+    "original_fr": "",
+    "translation": ""
+  },
+  {
+    "id": 293,
+    "original_en": "Won:\n   Reptite, etc.",
+    "original_fr": "Butin :\nSaurien, etc.",
+    "translation": "Выигрыш:\n   Reptite, etc."
+  },
+  {
+    "id": 294,
+    "original_en": "Won:\n   Bao Bao, etc.",
+    "original_fr": "Butin :\nBaobao, etc.",
+    "translation": "Выигрыш:\n   Bao Bao, etc."
+  },
+  {
+    "id": 295,
+    "original_en": "Won:\n   Crested Sprinter, etc.",
+    "original_fr": "Butin :\nCoureur {TAG:3C} crête, etc.",
+    "translation": "Выигрыш:\n   Crested Sprinter, etc."
+  },
+  {
+    "id": 296,
+    "original_en": "Won:\n   Golden Eaglet, etc.",
+    "original_fr": "Butin :\nOuhbouh doré, etc.",
+    "translation": "Выигрыш:\n   Golden Eaglet, etc."
+  },
+  {
+    "id": 297,
+    "original_en": "Event:\n   Arris Dome",
+    "original_fr": "îvénement :\nDôme d'Arris",
+    "translation": "Событие:\n   Купол Аррис"
+  },
+  {
+    "id": 298,
+    "original_en": "Event:\n   Arris Dome",
+    "original_fr": "îvénement :\nDôme d'Arris",
+    "translation": "Событие:\n   Купол Аррис"
+  },
+  {
+    "id": 299,
+    "original_en": "Event:\n   Leene Square",
+    "original_fr": "îvénement :\nPlace de Lynne",
+    "translation": "Событие:\n   Площадь Лины"
+  },
+  {
+    "id": 300,
+    "original_en": "Event:\n   Leene Square",
+    "original_fr": "îvénement :\nPlace de Lynne",
+    "translation": "Событие:\n   Площадь Лины"
+  },
+  {
+    "id": 301,
+    "original_en": "Event:\n   Guardia Castle\n   (Present)",
+    "original_fr": "îvénement :\nCh{TAG:4A}teau de Gardia\n(Présent)",
+    "translation": "Событие:\n   Замок Гардии\n   (Present)"
+  },
+  {
+    "id": 302,
+    "original_en": "Event:\n   The End of Time",
+    "original_fr": "îvénement :\nFin des temps",
+    "translation": "Событие:\n   The End of Time"
+  },
+  {
+    "id": 303,
+    "original_en": "Event:\n   Choras Residence",
+    "original_fr": "îvénement :\nMaison de Choras\n(Présent)",
+    "translation": "Событие:\n   Чорас Residence"
+  },
+  {
+    "id": 304,
+    "original_en": "Event:\n   Guardia Castle\n   (Middle Ages)\n   Snail Stop",
+    "original_fr": "îvénement :\nCh{TAG:4A}teau de Gardia\n(Moyen-{TAG:5F}ge)\nCafé de la conque",
+    "translation": "Событие:\n   Замок Гардии\n   (Middle Ages)\n   Snail Stop"
+  },
+  {
+    "id": 305,
+    "original_en": "Event:\n   Ioka Village",
+    "original_fr": "îvénement :\nIoka",
+    "translation": "Событие:\n   Ioka Village"
+  },
+  {
+    "id": 306,
+    "original_en": "Chest:\n   Site 32",
+    "original_fr": "Coffre :\nRuines nÎ 32",
+    "translation": "Сундук:\n   Site 32"
+  },
+  {
+    "id": 307,
+    "original_en": "Event:\n   Sun Temple",
+    "original_fr": "îvénement :\nTemple du soleil",
+    "translation": "Событие:\n   Sun Temple"
+  },
+  {
+    "id": 308,
+    "original_en": "Event:\n   Sun Shrine",
+    "original_fr": "îvénement :\nBerceau de la lumière",
+    "translation": "Событие:\n   Sun Shrine"
+  },
+  {
+    "id": 309,
+    "original_en": "Event:\n   Algetty",
+    "original_fr": "îvénement :\nAlguetti",
+    "translation": "Событие:\n   Альгетти"
+  },
+  {
+    "id": 310,
+    "original_en": "Event:\n   Guardia Castle\n   (Present)",
+    "original_fr": "îvénement :\nCh{TAG:4A}teau de Gardia\n(Présent)",
+    "translation": "Событие:\n   Замок Гардии\n   (Present)"
+  },
+  {
+    "id": 311,
+    "original_en": "Event:\n   Leene Square",
+    "original_fr": "îvénement :\nPlace de Lynne",
+    "translation": "Событие:\n   Площадь Лины"
+  },
+  {
+    "id": 312,
+    "original_en": "Event:\n   Choras Tavern",
+    "original_fr": "îvénement :\nTaverne de Choras",
+    "translation": "Событие:\n   Чорас Tavern"
+  },
+  {
+    "id": 313,
+    "original_en": "Won:\n   Ion Cloud",
+    "original_fr": "Butin :\nFlaque",
+    "translation": "Выигрыш:\n   Ion Cloud"
+  },
+  {
+    "id": 314,
+    "original_en": "Won:\n   Prehistoric Frog",
+    "original_fr": "Butin :\nArchéobatracien",
+    "translation": "Выигрыш:\n   Prehistoric Frog"
+  },
+  {
+    "id": 315,
+    "original_en": "Won:\n   Prehistoric Frog",
+    "original_fr": "Butin :\nArchéobatracien",
+    "translation": "Выигрыш:\n   Prehistoric Frog"
+  },
+  {
+    "id": 316,
+    "original_en": "Won:\n   Ion Cloud, etc.",
+    "original_fr": "Butin :\nFlaque, etc.",
+    "translation": "Выигрыш:\n   Ion Cloud, etc."
+  },
+  {
+    "id": 317,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 318,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 319,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 320,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 321,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 322,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 323,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 324,
+    "original_en": "Chest:\n   Lost Sanctum",
+    "original_fr": "Coffre :\nSanctuaire oublié",
+    "translation": "Сундук:\n   Забытое Святилище"
+  },
+  {
+    "id": 325,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 326,
+    "original_en": "Event:\n   Lost Sanctum",
+    "original_fr": "îvénement :\nSanctuaire oublié",
+    "translation": "Событие:\n   Забытое Святилище"
+  },
+  {
+    "id": 327,
+    "original_en": "Chest:\n   Lost Sanctum",
+    "original_fr": "Coffre :\nSanctuaire oublié",
+    "translation": "Сундук:\n   Забытое Святилище"
+  },
+  {
+    "id": 328,
+    "original_en": "Won:\n   Wonder Rock",
+    "original_fr": "Butin :\nRocher miraculeux",
+    "translation": "Выигрыш:\n   Wonder Rock"
+  },
+  {
+    "id": 329,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 330,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 331,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 332,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 333,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 334,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 335,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  },
+  {
+    "id": 336,
+    "original_en": "Dummy",
+    "original_fr": "Factice",
+    "translation": "Dummy"
+  }
+]
