@@ -3,43 +3,43 @@
     "id": 0,
     "original_en": "Flame Smidge",
     "original_fr": "Larve ignée",
-    "translation": "Огненная кроха"
+    "translation": "Огонёк"
   },
   {
     "id": 1,
     "original_en": "Water Smidge",
     "original_fr": "Larve aqueuse",
-    "translation": "Водная кроха"
+    "translation": "Капелька"
   },
   {
     "id": 2,
     "original_en": "Light Smidge",
     "original_fr": "Larve céleste",
-    "translation": "Светлая кроха"
+    "translation": "Светлячок"
   },
   {
     "id": 3,
     "original_en": "Shadow Smidge",
     "original_fr": "Larve chtonienne",
-    "translation": "Тёмная кроха"
+    "translation": "Тенёк"
   },
   {
     "id": 4,
     "original_en": "Hercules Beetle",
     "original_fr": "Héraclès",
-    "translation": "Жук-геркулес"
+    "translation": "Геркулес"
   },
   {
     "id": 5,
     "original_en": "Rhino Weevil",
     "original_fr": "Charançon",
-    "translation": "Долгоносик"
+    "translation": "Слоник"
   },
   {
     "id": 6,
     "original_en": "Holy Knight",
     "original_fr": "Chevalier sacré",
-    "translation": "Святой рыцарь"
+    "translation": "Свят. рыцарь"
   },
   {
     "id": 7,
@@ -69,13 +69,13 @@
     "id": 11,
     "original_en": "Gorgon",
     "original_fr": "Gorgone",
-    "translation": "Gorgon"
+    "translation": "Горгона"
   },
   {
     "id": 12,
     "original_en": "Medusa",
     "original_fr": "Méduse",
-    "translation": "Medusa"
+    "translation": "Медуза"
   },
   {
     "id": 13,
@@ -99,7 +99,7 @@
     "id": 16,
     "original_en": "Deep Ogan",
     "original_fr": "Ombre d'ogan",
-    "translation": "Deep Ogan"
+    "translation": "Оган глубин"
   },
   {
     "id": 17,
@@ -111,7 +111,7 @@
     "id": 18,
     "original_en": "Ogan Youth",
     "original_fr": "Oganox",
-    "translation": "Ogan Youth"
+    "translation": "Оган-юнга"
   },
   {
     "id": 19,
@@ -123,31 +123,31 @@
     "id": 20,
     "original_en": "Roundillo Bomber",
     "original_fr": "Bombe maboule",
-    "translation": "Roundillo Bomber"
+    "translation": "Бомбардир"
   },
   {
     "id": 21,
     "original_en": "Ninja",
     "original_fr": "Hanzô",
-    "translation": "Ninja"
+    "translation": "Ниндзя"
   },
   {
     "id": 22,
     "original_en": "Version 2.0",
     "original_fr": "Modèle 2.0",
-    "translation": "Version 2.0"
+    "translation": "Версия 2.0"
   },
   {
     "id": 23,
     "original_en": "Version 4.0",
     "original_fr": "Modèle 4.0",
-    "translation": "Version 4.0"
+    "translation": "Версия 4.0"
   },
   {
     "id": 24,
     "original_en": "Spearman",
     "original_fr": "Longinus",
-    "translation": "Spearman"
+    "translation": "Копейщик"
   },
   {
     "id": 25,
@@ -159,7 +159,7 @@
     "id": 26,
     "original_en": "Prototype",
     "original_fr": "Prototype",
-    "translation": "Prototype"
+    "translation": "Прототип"
   },
   {
     "id": 27,
@@ -183,7 +183,7 @@
     "id": 30,
     "original_en": "Deathscythe",
     "original_fr": "Faucheur",
-    "translation": "Deathscythe"
+    "translation": "Коса смерти"
   },
   {
     "id": 31,
@@ -195,19 +195,19 @@
     "id": 32,
     "original_en": "Gokuu",
     "original_fr": "Goku",
-    "translation": "Gokuu"
+    "translation": "Гоку"
   },
   {
     "id": 33,
     "original_en": "Crested Sprinter",
     "original_fr": "Coureur {TAG:3C} crête",
-    "translation": "Crested Sprinter"
+    "translation": "Бегун"
   },
   {
     "id": 34,
     "original_en": "Racer",
     "original_fr": "Sprinteur",
-    "translation": "Racer"
+    "translation": "Гонщик"
   },
   {
     "id": 35,
@@ -219,19 +219,19 @@
     "id": 36,
     "original_en": "Parasaur",
     "original_fr": "Skanda",
-    "translation": "Parasaur"
+    "translation": "Паразавр"
   },
   {
     "id": 37,
     "original_en": "Gigantosaur",
     "original_fr": "Gigasaure",
-    "translation": "Gigantosaur"
+    "translation": "Гигантозавр"
   },
   {
     "id": 38,
     "original_en": "Cave Ape",
     "original_fr": "Orang-outan",
-    "translation": "Пещерн. обезьяна"
+    "translation": "Пещерн. обезь."
   },
   {
     "id": 39,
@@ -243,7 +243,7 @@
     "id": 40,
     "original_en": "Pink Imp",
     "original_fr": "Diablotin rose",
-    "translation": "Pink Imp"
+    "translation": "Розов. чёрт"
   },
   {
     "id": 41,
@@ -267,13 +267,13 @@
     "id": 44,
     "original_en": "Archmage",
     "original_fr": "Archimage",
-    "translation": "Archmage"
+    "translation": "Архимаг"
   },
   {
     "id": 45,
     "original_en": "Slate Imp",
     "original_fr": "Diablotin azur",
-    "translation": "Slate Imp"
+    "translation": "Серый чёрт"
   },
   {
     "id": 46,
@@ -285,19 +285,19 @@
     "id": 47,
     "original_en": "Stone Gargoyle",
     "original_fr": "Pétragargouille",
-    "translation": "Stone Gargoyle"
+    "translation": "Кам. горгулья"
   },
   {
     "id": 48,
     "original_en": "Spirit Gargoyle",
     "original_fr": "Gargouille occulte",
-    "translation": "Spirit Gargoyle"
+    "translation": "Дух-горгулья"
   },
   {
     "id": 49,
     "original_en": "Ouroboros",
     "original_fr": "Ouroboros",
-    "translation": "Ouroboros"
+    "translation": "Уроборос"
   },
   {
     "id": 50,
@@ -315,19 +315,19 @@
     "id": 52,
     "original_en": "Dokra",
     "original_fr": "Dokra",
-    "translation": "Dokra"
+    "translation": "Докра"
   },
   {
     "id": 53,
     "original_en": "Uberhulk",
     "original_fr": "Mastodonte",
-    "translation": "Uberhulk"
+    "translation": "Супергромила"
   },
   {
     "id": 54,
     "original_en": "Ice Demon",
     "original_fr": "Démon algide",
-    "translation": "Ice Demon"
+    "translation": "Ледян. демон"
   },
   {
     "id": 55,

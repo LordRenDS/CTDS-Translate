@@ -603,7 +603,7 @@
     "id": 100,
     "original_en": "Defaults",
     "original_fr": "Rétablir",
-    "translation": "Сбросить"
+    "translation": "Сброс"
   },
   {
     "id": 101,
@@ -825,13 +825,13 @@
     "id": 137,
     "original_en": "Default",
     "original_fr": "Rétablir",
-    "translation": "Сбросить"
+    "translation": "Сброс"
   },
   {
     "id": 138,
     "original_en": "Space",
     "original_fr": "Espace",
-    "translation": "Место"
+    "translation": "Пробел"
   },
   {
     "id": 139,

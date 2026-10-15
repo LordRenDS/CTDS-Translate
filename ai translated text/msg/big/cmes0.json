@@ -81,7 +81,7 @@
     "id": 13,
     "original_en": "Mother: Oh, I almost forgot!\nHere's your allowance, dear.\nHave fun at the fair!{WAIT_KEY}{GLYPH:384}\n\nObtained 200 G!",
     "original_fr": "Gina : Ah, j'oubliais. Voici ton argent de poche.\nAllez, amuse-toi bien {TAG:3C} la foire !{WAIT_KEY}{GLYPH:384}\n\nVous obtenez 200 G !",
-    "translation": "Мама: О, я чуть не забыла! Вот твои карманные\nденьги, милый. Повеселись на ярмарке!{WAIT_KEY}{GLYPH:384}\nПолучено 200 G!"
+    "translation": "Мама: О, я чуть не забыла! Вот твои карманные\nденьги, милый. Повеселись на ярмарке!{WAIT_KEY}{GLYPH:384}\nПолучено 200 З!"
   },
   {
     "id": 14,
@@ -441,13 +441,13 @@
     "id": 73,
     "original_en": "The fare to Porre is 10 G.\nWill you be going?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous aller {TAG:3C} Palpori ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Стоимость проезда до Порре составляет 10 G. Вы\nпоедете? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Стоимость проезда до Порре составляет 10 З. Вы\nпоедете? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 74,
     "original_en": "Lodging is 10 G. Would you like to stay for the night?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous louer une chambre pour 10 G ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Проживание стоит 10 G. Хотите остаться на ночь?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Проживание стоит 10 З. Хотите остаться на ночь?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 75,
@@ -471,7 +471,7 @@
     "id": 78,
     "original_en": "Say, can you spare 10 G to buy me a drink?\n{TAG:38}{TAG:38}{GLYPH:394}Sure.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Sorry.{GLYPH:397}",
     "original_fr": "Vous me payez un petit verre, dites ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Слушай, а не найдётся ли у тебя 10 G, чтобы\nугостить меня выпивкой? {TAG:38}{TAG:38}{GLYPH:394}Конечно.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Извини.{GLYPH:397}"
+    "translation": "Слушай, а не найдётся ли у тебя 10 З, чтобы\nугостить меня выпивкой? {TAG:38}{TAG:38}{GLYPH:394}Конечно.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Извини.{GLYPH:397}"
   },
   {
     "id": 79,
@@ -603,7 +603,7 @@
     "id": 100,
     "original_en": "My, my! You've certainly got enthusiasm!\nWhy don't you take this to help you get\nyour equipment in order?{WAIT_KEY}{GLYPH:384}\n\nObtained 300 G!",
     "original_fr": "Ha, ha, ha ! Que d'enthousiasme ! Tenez, ceci vous\naidera {TAG:3C} vous équiper convenablement.{WAIT_KEY}{GLYPH:384}\n\nVous obtenez 300 G !",
-    "translation": "Ого! У тебя действительно есть энтузиазм! Почему\nбы тебе не взять это, чтобы привести свое\nснаряжение в порядок?{WAIT_KEY}{GLYPH:384} Получено 300 G!"
+    "translation": "Ого! У тебя действительно есть энтузиазм! Почему\nбы тебе не взять это, чтобы привести свое\nснаряжение в порядок?{WAIT_KEY}{GLYPH:384} Получено 300 З!"
   },
   {
     "id": 101,
@@ -879,7 +879,7 @@
     "id": 146,
     "original_en": "Toma: You an outsider, too? The name's Toma.\nI'm an explorer. And if you can spare 10 G to\nbuy this round, I'll be a storyteller, too.",
     "original_fr": "Toma : Vous n'êtes pas d'ici, vous non plus ? Je suis\nToma, l'explorateur. Si vous me payez un verre, je vous\nfilerai une bonne info.",
-    "translation": "Тома: Ты тоже чужак? Меня зовут Тома. Я\nисследователь. И если у тебя найдётся 10 G, чтобы\nпоставить всем выпивку, я ещё и рассказчиком\nбуду."
+    "translation": "Тома: Ты тоже чужак? Меня зовут Тома. Я\nисследователь. И если у тебя найдётся 10 З, чтобы\nпоставить всем выпивку, я ещё и рассказчиком\nбуду."
   },
   {
     "id": 147,
@@ -915,7 +915,7 @@
     "id": 152,
     "original_en": "Rooms are 10 G for the night.\nWill you be staying?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Номер стоит 10 G за ночь. Вы останетесь на ночь?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Номер стоит 10 З за ночь. Вы останетесь на ночь?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 153,

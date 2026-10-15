@@ -107,7 +107,7 @@ MONSTER_NAMES = {
     "Chrysosaur": "Хризозавр",
     "Crater": "Кратер",
     "Crested Fire": "Гребнистый",
-    "Crono Statue": "Статуя Кроно",
+    "Crono Statue": "Статуя Хроно",
     "Cursed Husk": "Проклятый",
     "Dalton": "Дальтон",
     "Dalton Plus": "Дальтон Плюс",
