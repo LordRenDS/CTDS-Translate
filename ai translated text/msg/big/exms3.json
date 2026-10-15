@@ -273,7 +273,7 @@
     "id": 45,
     "original_en": "{GLYPH:384}\nLOCK RELEASE COMMAND EXECUTED BY\nUNREGISTERED ADMINISTRATOR.{WAIT_KEY}{GLYPH:384}\n\nINITIATING CONTAINMENT LOCKDOWN.",
     "original_fr": "{GLYPH:384}\nCommande saisie par un administrateur non enregistré.\nVerrouillage activé.",
-    "translation": "{GLYPH:384} КОМАНДА РАЗБЛОКИРОВКИ ВЫПОЛНЕНА\nНЕЗАРЕГИСТРИРОВАННЫМ АДМИНИСТРАТОРОМ.{WAIT_KEY}\n{GLYPH:384}\nАКТИВАЦИЯ АВАРИЙНОЙ ИЗОЛЯЦИИ."
+    "translation": "{GLYPH:384} КОМАНДА РАЗБЛОКИРОВКИ ВЫПОЛНЕНА\nНЕЗАРЕГИСТРИРОВАННЫМ АДМИНИСТРАТОРОМ.{WAIT_KEY}\n{GLYPH:384} АКТИВАЦИЯ АВАРИЙНОЙ ИЗОЛЯЦИИ."
   },
   {
     "id": 46,

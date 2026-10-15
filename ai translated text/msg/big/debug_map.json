@@ -3,61 +3,61 @@
     "id": 0,
     "original_en": "Crono's House\n1F",
     "original_fr": "Maison de Chrono\nRDC",
-    "translation": "Дом Кроно\n1 этаж"
+    "translation": "Дом Кроно 1 этаж"
   },
   {
     "id": 1,
     "original_en": "Crono's House\n2F",
     "original_fr": "Maison de Chrono\n1er étage",
-    "translation": "Дом Кроно\n2 этаж"
+    "translation": "Дом Кроно 2 этаж"
   },
   {
     "id": 2,
     "original_en": "Lucca's House\n1F Hall / 1F Room",
     "original_fr": "Maison de Lucca\nRDC Corridor / RDC Salle",
-    "translation": "Дом Лукки\n1 этаж: Зал и комната"
+    "translation": "Дом Лукки 1 этаж: Зал и комната"
   },
   {
     "id": 3,
     "original_en": "Lucca's House\n1F Entrance",
     "original_fr": "Maison de Lucca\nRDC Entrée",
-    "translation": "Дом Лукки\n1 этаж: Прихожая"
+    "translation": "Дом Лукки 1 этаж: Прихожая"
   },
   {
     "id": 4,
     "original_en": "Leene Square\nCentral Plaza",
     "original_fr": "Place de Lynne\nCentre",
-    "translation": "Площадь Лины\nЦентральная площадь"
+    "translation": "Площадь Лины Центральная площадь"
   },
   {
     "id": 5,
     "original_en": "Leene Square\nGato",
     "original_fr": "Place de Lynne\nGonzales",
-    "translation": "Площадь Лины\nГонзалес"
+    "translation": "Площадь Лины Гонзалес"
   },
   {
     "id": 6,
     "original_en": "Leene Square\nPrehistoric Dancers",
     "original_fr": "Place de Lynne\nDanseurs préhistoriques",
-    "translation": "Площадь Лины\nПервобытные танцоры"
+    "translation": "Площадь Лины Первобытные танцоры"
   },
   {
     "id": 7,
     "original_en": "Leene Square\nTelepod",
     "original_fr": "Place de Lynne\nTéléporteur",
-    "translation": "Площадь Лины\nТелепод"
+    "translation": "Площадь Лины Телепод"
   },
   {
     "id": 8,
     "original_en": "Lucca's House\n2F Lara's Room",
     "original_fr": "Maison de Lucca\n1er étage Chambre de Lara",
-    "translation": "Дом Лукки\n2 этаж: Комната Лары"
+    "translation": "Дом Лукки 2 этаж: Комната Лары"
   },
   {
     "id": 9,
     "original_en": "Lucca's House\n2F Lucca's Room",
     "original_fr": "Maison de Lucca\n1er étage Chambre de Lucca",
-    "translation": "Дом Лукки\n2 этаж: Комната Лукки"
+    "translation": "Дом Лукки 2 этаж: Комната Лукки"
   },
   {
     "id": 10,
@@ -69,43 +69,43 @@
     "id": 11,
     "original_en": "Truce\nInn",
     "original_fr": "Truce\nAuberge",
-    "translation": "Трус\nГостиница"
+    "translation": "Трус Гостиница"
   },
   {
     "id": 12,
     "original_en": "Truce\nMayor's House 1F",
     "original_fr": "Truce\nMaison du maire RDC",
-    "translation": "Трус\nДом старосты, 1 этаж"
+    "translation": "Трус Дом старосты, 1 этаж"
   },
   {
     "id": 13,
     "original_en": "Truce\nMayor's House 2F",
     "original_fr": "Truce\nMaison du maire 1er étage",
-    "translation": "Трус\nДом старосты, 2 этаж"
+    "translation": "Трус Дом старосты, 2 этаж"
   },
   {
     "id": 14,
     "original_en": "Truce\nResidence A",
     "original_fr": "Truce\nRésidence A",
-    "translation": "Трус\nЖилой дом А"
+    "translation": "Трус Жилой дом А"
   },
   {
     "id": 15,
     "original_en": "Truce\nResidence B",
     "original_fr": "Truce\nRésidence B",
-    "translation": "Трус\nЖилой дом Б"
+    "translation": "Трус Жилой дом Б"
   },
   {
     "id": 16,
     "original_en": "Truce\nMerchant",
     "original_fr": "Truce\nMagasin",
-    "translation": "Трус\nЛавка торговца"
+    "translation": "Трус Лавка торговца"
   },
   {
     "id": 17,
     "original_en": "Truce\nFerry Office",
     "original_fr": "Truce\nGuichet du port",
-    "translation": "Трус\nПаромная пристань"
+    "translation": "Трус Паромная пристань"
   },
   {
     "id": 18,
@@ -117,73 +117,73 @@
     "id": 19,
     "original_en": "Guardia Forest (Present)\nTime Gate",
     "original_fr": "Forêt de Gardia (Présent)\nPortail",
-    "translation": "Лес Гардии (Настоящее)\nВрата времени"
+    "translation": "Лес Гардии (Настоящее) Врата времени"
   },
   {
     "id": 20,
     "original_en": "Guardia Castle (Present)\nCentral Hall",
     "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nGrande salle",
-    "translation": "Guardia Castle (Present)\nЦентральный зал"
+    "translation": "Guardia Castle (Present) Центральный зал"
   },
   {
     "id": 21,
     "original_en": "Guardia Castle (Present)\nKing's Bedroom",
     "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nChambre du roi",
-    "translation": "Guardia Castle (Present)\nСпальня короля"
+    "translation": "Guardia Castle (Present) Спальня короля"
   },
   {
     "id": 22,
     "original_en": "Guardia Castle (Present)\nQueen's Bedroom",
     "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nChambre de la reine",
-    "translation": "Guardia Castle (Present)\nСпальня королевы"
+    "translation": "Guardia Castle (Present) Спальня королевы"
   },
   {
     "id": 23,
     "original_en": "Guardia Castle (Present)\nDining Hall",
     "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nSalle {TAG:3C} manger",
-    "translation": "Guardia Castle (Present)\nОбеденный зал"
+    "translation": "Guardia Castle (Present) Обеденный зал"
   },
   {
     "id": 24,
     "original_en": "Guardia Castle (Present)\nSoldiers' Room",
     "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nSalle des soldats",
-    "translation": "Guardia Castle (Present)\nКазармы солдат"
+    "translation": "Guardia Castle (Present) Казармы солдат"
   },
   {
     "id": 25,
     "original_en": "Guardia Castle (Present)\nTreasury",
     "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nTrésorerie",
-    "translation": "Guardia Castle (Present)\nСокровищница"
+    "translation": "Guardia Castle (Present) Сокровищница"
   },
   {
     "id": 26,
     "original_en": "Guardia Castle (Present)\nHall of Justice",
     "original_fr": "Ch{TAG:4A}teau de Gardia (Présent)\nTribunal",
-    "translation": "Guardia Castle (Present)\nЗал правосудия"
+    "translation": "Guardia Castle (Present) Зал правосудия"
   },
   {
     "id": 27,
     "original_en": "Prison Towers\nSkywalk",
     "original_fr": "Prison\nPasserelle",
-    "translation": "Тюремные башни\nНебесный переход"
+    "translation": "Тюремные башни Небесный переход"
   },
   {
     "id": 28,
     "original_en": "Prison Towers\nGuardroom",
     "original_fr": "Prison\nSalle des gardes",
-    "translation": "Тюремные башни\nКараулка"
+    "translation": "Тюремные башни Караулка"
   },
   {
     "id": 29,
     "original_en": "Prison Towers\nExecution Chamber",
     "original_fr": "Prison\nSalle d'exécution",
-    "translation": "Тюремные башни\nПалата казни"
+    "translation": "Тюремные башни Палата казни"
   },
   {
     "id": 30,
     "original_en": "Medina\nTown Square",
     "original_fr": "Médina\nPlace principale",
-    "translation": "Медина\nГородская площадь"
+    "translation": "Медина Городская площадь"
   },
   {
     "id": 31,
@@ -195,25 +195,25 @@
     "id": 32,
     "original_en": "Medina\nMayor's House 1F",
     "original_fr": "Médina\nMaison du maire RDC",
-    "translation": "Медина\nДом старосты, 1 этаж"
+    "translation": "Медина Дом старосты, 1 этаж"
   },
   {
     "id": 33,
     "original_en": "Medina\nMayor's House 2F",
     "original_fr": "Médina\nMaison du maire 1er étage",
-    "translation": "Медина\nДом старосты, 2 этаж"
+    "translation": "Медина Дом старосты, 2 этаж"
   },
   {
     "id": 34,
     "original_en": "Medina\nInn",
     "original_fr": "Médina\nAuberge",
-    "translation": "Медина\nГостиница"
+    "translation": "Медина Гостиница"
   },
   {
     "id": 35,
     "original_en": "Medina\nResidence",
     "original_fr": "Médina\nRésidence",
-    "translation": "Медина\nЖилой дом"
+    "translation": "Медина Жилой дом"
   },
   {
     "id": 36,
@@ -225,25 +225,25 @@
     "id": 37,
     "original_en": "Guardia Castle (?)\nCentral Hall",
     "original_fr": "Ch{TAG:4A}teau de Gardia (?)\nGrande salle",
-    "translation": "Замок Гардия (?)\nЦентральный зал"
+    "translation": "Замок Гардия (?) Центральный зал"
   },
   {
     "id": 38,
     "original_en": "Medina\nMerchant",
     "original_fr": "Médina\nMagasin",
-    "translation": "Медина\nЛавка торговца"
+    "translation": "Медина Лавка торговца"
   },
   {
     "id": 39,
     "original_en": "Melchior's Cabin\n1F",
     "original_fr": "Demeure de Bosch\nRDC",
-    "translation": "Хижина Мельхиора\n1 этаж"
+    "translation": "Хижина Мельхиора 1 этаж"
   },
   {
     "id": 40,
     "original_en": "Melchior's Cabin\nB1",
     "original_fr": "Demeure de Bosch\nSS1",
-    "translation": "Хижина Мельхиора\nПодвал B1"
+    "translation": "Хижина Мельхиора Подвал B1"
   },
   {
     "id": 41,
@@ -261,19 +261,19 @@
     "id": 43,
     "original_en": "Future Leene's Square?\nUsed for ending",
     "original_fr": "Place de Lynne du Futur ?\nUtilisé dans une fin",
-    "translation": "Площадь Лины будущего?\nИспользуется в концовке"
+    "translation": "Площадь Лины будущего? Используется в концовке"
   },
   {
     "id": 44,
     "original_en": "Future Denadoro Mts.?\nUsed for ending",
     "original_fr": "Monts Dénadoro du Futur ?\nUtilisé dans une fin",
-    "translation": "Горы Денадоро будущего?\nИспользуется в концовке"
+    "translation": "Горы Денадоро будущего? Используется в концовке"
   },
   {
     "id": 45,
     "original_en": "Magus's Keep\nUsed for ending",
     "original_fr": "Palais du Magistère\nUtilisé dans une fin",
-    "translation": "Замок Магуса\nИспользуется в концовке"
+    "translation": "Замок Магуса Используется в концовке"
   },
   {
     "id": 46,
@@ -285,7 +285,7 @@
     "id": 47,
     "original_en": "Heckran Cave\nEntrance",
     "original_fr": "Grottes d'Héclan\nEntrée",
-    "translation": "Пещера Хекрана\nВход"
+    "translation": "Пещера Хекрана Вход"
   },
   {
     "id": 48,
@@ -297,43 +297,43 @@
     "id": 49,
     "original_en": "Porre\nMayor's Manor 1F",
     "original_fr": "Palpori\nRésidence du maire RDC",
-    "translation": "Порр\nMayor's Manor, 1 этаж"
+    "translation": "Порр Mayor's Manor, 1 этаж"
   },
   {
     "id": 50,
     "original_en": "Porre\nMayor's Manor 2F",
     "original_fr": "Palpori\nRésidence du maire 1er étage",
-    "translation": "Порр\nMayor's Manor, 2 этаж"
+    "translation": "Порр Mayor's Manor, 2 этаж"
   },
   {
     "id": 51,
     "original_en": "Porre\nResidence",
     "original_fr": "Palpori\nRésidence",
-    "translation": "Порр\nЖилой дом"
+    "translation": "Порр Жилой дом"
   },
   {
     "id": 52,
     "original_en": "Porre\nSnail Stop",
     "original_fr": "Palpori\nCafé de la conque",
-    "translation": "Порр\n«Улитка»"
+    "translation": "Порр «Улитка»"
   },
   {
     "id": 53,
     "original_en": "Porre\nMarket",
     "original_fr": "Palpori\nMagasin",
-    "translation": "Порр\nMarket"
+    "translation": "Порр Market"
   },
   {
     "id": 54,
     "original_en": "Porre\nInn",
     "original_fr": "Palpori\nAuberge",
-    "translation": "Порр\nГостиница"
+    "translation": "Порр Гостиница"
   },
   {
     "id": 55,
     "original_en": "Porre\nFerry Office",
     "original_fr": "Palpori\nGuichet du port",
-    "translation": "Порр\nПаромная пристань"
+    "translation": "Порр Паромная пристань"
   },
   {
     "id": 56,
@@ -345,31 +345,31 @@
     "id": 57,
     "original_en": "Choras\nMayor's Manor 1F",
     "original_fr": "Choras\nRésidence du maire RDC",
-    "translation": "Хорас\nMayor's Manor, 1 этаж"
+    "translation": "Хорас Mayor's Manor, 1 этаж"
   },
   {
     "id": 58,
     "original_en": "Choras\nMayor's Manor 1F",
     "original_fr": "Choras\nRésidence du maire 1er étage",
-    "translation": "Хорас\nMayor's Manor, 1 этаж"
+    "translation": "Хорас Mayor's Manor, 1 этаж"
   },
   {
     "id": 59,
     "original_en": "Magus's Keep\nUsed for ending?",
     "original_fr": "Palais du Magistère\nUtilisé dans une fin?",
-    "translation": "Замок Магуса\nИспользуется в концовке?"
+    "translation": "Замок Магуса Используется в концовке?"
   },
   {
     "id": 60,
     "original_en": "Choras\nResidence",
     "original_fr": "Choras\nRésidence",
-    "translation": "Хорас\nЖилой дом"
+    "translation": "Хорас Жилой дом"
   },
   {
     "id": 61,
     "original_en": "Choras\nInn (and tavern)",
     "original_fr": "Choras\nAuberge et taverne",
-    "translation": "Хорас\nГостиница (и таверна)"
+    "translation": "Хорас Гостиница (и таверна)"
   },
   {
     "id": 62,
@@ -381,61 +381,61 @@
     "id": 63,
     "original_en": "Sun Shrine\nPresent?",
     "original_fr": "Berceau de la lumière\nPrésent?",
-    "translation": "Святилище Солнца\nНастоящее?"
+    "translation": "Святилище Солнца Настоящее?"
   },
   {
     "id": 64,
     "original_en": "Hero's Grave\nEntrance",
     "original_fr": "Tombe du héros\nEntrée",
-    "translation": "Могила героя\nВход"
+    "translation": "Могила героя Вход"
   },
   {
     "id": 65,
     "original_en": "Hero's Grave\nB1",
     "original_fr": "Tombe du héros\nSS1",
-    "translation": "Могила героя\nПодвал B1"
+    "translation": "Могила героя Подвал B1"
   },
   {
     "id": 66,
     "original_en": "Hero's Grave\n2F",
     "original_fr": "Tombe du héros\n1er étage",
-    "translation": "Могила героя\n2 этаж"
+    "translation": "Могила героя 2 этаж"
   },
   {
     "id": 67,
     "original_en": "Hero's Grave\n2F Hall",
     "original_fr": "Tombe du héros\n1er étage Grande salle",
-    "translation": "Могила героя\n2 этаж: Зал"
+    "translation": "Могила героя 2 этаж: Зал"
   },
   {
     "id": 68,
     "original_en": "Hero's Grave\n2F Rear Passage",
     "original_fr": "Tombe du héros\n1er étage Passage du fond",
-    "translation": "Могила героя\n2 этаж: Задний проход"
+    "translation": "Могила героя 2 этаж: Задний проход"
   },
   {
     "id": 69,
     "original_en": "Hero's Grave\n2F Rearmost Chamber",
     "original_fr": "Tombe du héros\n1er étage Salle du fond",
-    "translation": "Могила героя\n2 этаж: Дальняя комната"
+    "translation": "Могила героя 2 этаж: Дальняя комната"
   },
   {
     "id": 70,
     "original_en": "Prison Towers\nPrison / Passage",
     "original_fr": "Prison\nPrison / Passage",
-    "translation": "Тюремные башни\nТюрьма / Коридор"
+    "translation": "Тюремные башни Тюрьма / Коридор"
   },
   {
     "id": 71,
     "original_en": "Prison Towers\nPassage/Stairs to Exec. Chamber",
     "original_fr": "Prison\nPassage / Escaliers menant {TAG:3C} la salle d'exécution",
-    "translation": "Тюремные башни\nЛестница к эшафоту"
+    "translation": "Тюремные башни Лестница к эшафоту"
   },
   {
     "id": 72,
     "original_en": "Hero's Grave\nCyrus's Chamber",
     "original_fr": "Tombe du héros\nSalle de Cyrus",
-    "translation": "Могила героя\nПокои Сайруса"
+    "translation": "Могила героя Покои Сайруса"
   },
   {
     "id": 73,
@@ -447,7 +447,7 @@
     "id": 74,
     "original_en": "Prison Towers\nOuter Wall",
     "original_fr": "Prison\nMur extérieur",
-    "translation": "Тюремные башни\nВнешняя стена"
+    "translation": "Тюремные башни Внешняя стена"
   },
   {
     "id": 75,
@@ -471,19 +471,19 @@
     "id": 78,
     "original_en": "Guardia Castle\nUsed for ending",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nUtilisé dans une fin",
-    "translation": "Замок Гардия\nИспользуется в концовке"
+    "translation": "Замок Гардия Используется в концовке"
   },
   {
     "id": 79,
     "original_en": "Leene Square\nCentral Plaza (Parade)",
     "original_fr": "Place de Lynne\nCentre (Défilé)",
-    "translation": "Площадь Лины\nЦентральная площадь (Парад)"
+    "translation": "Площадь Лины Центральная площадь (Парад)"
   },
   {
     "id": 80,
     "original_en": "Leene Square\nPlaza Rear (Parade)",
     "original_fr": "Place de Lynne\nFond (Défilé)",
-    "translation": "Площадь Лины\nЗадворки площади (Парад)"
+    "translation": "Площадь Лины Задворки площади (Парад)"
   },
   {
     "id": 81,
@@ -495,7 +495,7 @@
     "id": 82,
     "original_en": "Forest Near Fiona's Shrine\nLucca's Gate",
     "original_fr": "Forêt près du sanctuaire de Fiona\nPortail de Lucca",
-    "translation": "Лес у Святилища Фионы\nВрата Лукки"
+    "translation": "Лес у Святилища Фионы Врата Лукки"
   },
   {
     "id": 83,
@@ -507,37 +507,37 @@
     "id": 84,
     "original_en": "Leene Square\nTelepod (Parade)",
     "original_fr": "Place de Lynne\nTéléporteur (Défilé)",
-    "translation": "Площадь Лины\nТелепод (Парад)"
+    "translation": "Площадь Лины Телепод (Парад)"
   },
   {
     "id": 85,
     "original_en": "Death Peak?\n(Event)",
     "original_fr": "Mont des défunts?\n(îvénement)",
-    "translation": "Пик Смерти?\n(Событие)"
+    "translation": "Пик Смерти? (Событие)"
   },
   {
     "id": 86,
     "original_en": "Manolia Cathedral?\n(Event)",
     "original_fr": "Abbaye de Manolia?\n(îvénement)",
-    "translation": "Собор Манории?\n(Событие)"
+    "translation": "Собор Манории? (Событие)"
   },
   {
     "id": 87,
     "original_en": "Artwork\nUsed for ending",
     "original_fr": "Illustration\nUtilisé dans une fin",
-    "translation": "Галерея иллюстраций\nИспользуется в концовке"
+    "translation": "Галерея иллюстраций Используется в концовке"
   },
   {
     "id": 88,
     "original_en": "Zenan Bridge\n(Event)",
     "original_fr": "Pont de Zénan\n(îvénement)",
-    "translation": "Мост Зенан\n(Событие)"
+    "translation": "Мост Зенан (Событие)"
   },
   {
     "id": 89,
     "original_en": "Prison Towers?\nSkywalk (Event)",
     "original_fr": "Prison?\nPasserelle (îvénement)",
-    "translation": "Тюремные башни?\nНебесный переход (Событие)"
+    "translation": "Тюремные башни? Небесный переход (Событие)"
   },
   {
     "id": 90,
@@ -573,37 +573,37 @@
     "id": 95,
     "original_en": "Black Omen\nLower Level 4 (Lavos Spawn)",
     "original_fr": "Songe obscur\nNiveau plus profond 4 (Larve de Lavos)",
-    "translation": "Чёрное Знамение\nНижний ярус 4 (Отпрыск)"
+    "translation": "Чёрное Знамение Нижний ярус 4 (Отпрыск)"
   },
   {
     "id": 96,
     "original_en": "Black Omen\nLower Level (Warp 2)",
     "original_fr": "Songe obscur\nNiveau inférieur (Téléporteur 1)",
-    "translation": "Чёрное Знамение\nНижний ярус (Телепорт 2)"
+    "translation": "Чёрное Знамение Нижний ярус (Телепорт 2)"
   },
   {
     "id": 97,
     "original_en": "Black Omen\nBottom Level (Warp 2)",
     "original_fr": "Songe obscur\nProfondeurs (Téléporteur 2)",
-    "translation": "Чёрное Знамение\nНижний ярус (Телепорт 2)"
+    "translation": "Чёрное Знамение Нижний ярус (Телепорт 2)"
   },
   {
     "id": 98,
     "original_en": "Black Omen\nBottom Level (Elevator)",
     "original_fr": "Songe obscur\nProfondeurs (Ascenseur)",
-    "translation": "Чёрное Знамение\nНижний ярус (Лифт)"
+    "translation": "Чёрное Знамение Нижний ярус (Лифт)"
   },
   {
     "id": 99,
     "original_en": "Black Omen\nBottom Level (Descending)",
     "original_fr": "Songe obscur\nProfondeurs (Descente)",
-    "translation": "Чёрное Знамение\nНижний ярус (Спуск)"
+    "translation": "Чёрное Знамение Нижний ярус (Спуск)"
   },
   {
     "id": 100,
     "original_en": "Black Omen\nBottom Level (Ascending)",
     "original_fr": "Songe obscur\nProfondeurs (Montée)",
-    "translation": "Чёрное Знамение\nНижний ярус (Подъём)"
+    "translation": "Чёрное Знамение Нижний ярус (Подъём)"
   },
   {
     "id": 101,
@@ -639,7 +639,7 @@
     "id": 106,
     "original_en": "Black Omen Exterior\n(Event)",
     "original_fr": "Songe obscur Extérieur\n(îvénement)",
-    "translation": "Чёрное Знамение (Снаружи)\n(Событие)"
+    "translation": "Чёрное Знамение (Снаружи) (Событие)"
   },
   {
     "id": 107,
@@ -675,37 +675,37 @@
     "id": 112,
     "original_en": "Mountains Behind Truce\nTime Gate",
     "original_fr": "Mont de Truce\nPortail",
-    "translation": "Горы позади Труса\nВрата времени"
+    "translation": "Горы позади Труса Врата времени"
   },
   {
     "id": 113,
     "original_en": "Truce\nResidence 1",
     "original_fr": "Truce\nRésidence 1",
-    "translation": "Трус\nЖилой дом 1"
+    "translation": "Трус Жилой дом 1"
   },
   {
     "id": 114,
     "original_en": "Truce\nResidence 2 (Banta)",
     "original_fr": "Truce\nRésidence 2 (Banta)",
-    "translation": "Трус\nЖилой дом 2 (Банта)"
+    "translation": "Трус Жилой дом 2 (Банта)"
   },
   {
     "id": 115,
     "original_en": "Truce\nInn 1F",
     "original_fr": "Truce\nAuberge RDC",
-    "translation": "Трус\nГостиница, 1 этаж"
+    "translation": "Трус Гостиница, 1 этаж"
   },
   {
     "id": 116,
     "original_en": "Truce\nInn 2F",
     "original_fr": "Truce\nAuberge 1er étage",
-    "translation": "Трус\nГостиница, 2 этаж"
+    "translation": "Трус Гостиница, 2 этаж"
   },
   {
     "id": 117,
     "original_en": "Truce\nMarket",
     "original_fr": "Truce\nMagasin",
-    "translation": "Трус\nMarket"
+    "translation": "Трус Market"
   },
   {
     "id": 118,
@@ -717,121 +717,121 @@
     "id": 119,
     "original_en": "Guardia Castle\nMain Hall",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nGrande salle",
-    "translation": "Замок Гардия\nГлавный зал"
+    "translation": "Замок Гардия Главный зал"
   },
   {
     "id": 120,
     "original_en": "Guardia Castle\nKing's Chamber",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nChambre du roi",
-    "translation": "Замок Гардия\nПокои короля"
+    "translation": "Замок Гардия Покои короля"
   },
   {
     "id": 121,
     "original_en": "Guardia Castle\nPrincess's Chamber",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nChambre de la princesse",
-    "translation": "Замок Гардия\nПокои принцессы"
+    "translation": "Замок Гардия Покои принцессы"
   },
   {
     "id": 122,
     "original_en": "Guardia Castle\nDining Hall",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nSalle {TAG:3C} manger",
-    "translation": "Замок Гардия\nОбеденный зал"
+    "translation": "Замок Гардия Обеденный зал"
   },
   {
     "id": 123,
     "original_en": "Guardia Castle\nKnight's Room",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nSalle des chevaliers",
-    "translation": "Замок Гардия\nКомната рыцаря"
+    "translation": "Замок Гардия Комната рыцаря"
   },
   {
     "id": 124,
     "original_en": "Magus's Keep\nLong Passage",
     "original_fr": "Palais du Magistère\nPassage long",
-    "translation": "Замок Магуса\nДлинный коридор"
+    "translation": "Замок Магуса Длинный коридор"
   },
   {
     "id": 125,
     "original_en": "Geno Dome\nConveyer Belt (Center)",
     "original_fr": "Dôme de Génos\nTapis roulant (Centre)",
-    "translation": "Купол Джено\nКонвейер (Центр)"
+    "translation": "Купол Джено Конвейер (Центр)"
   },
   {
     "id": 126,
     "original_en": "Geno Dome\nElevator",
     "original_fr": "Dôme de Génos\nAscenseur",
-    "translation": "Купол Джено\nЛифт"
+    "translation": "Купол Джено Лифт"
   },
   {
     "id": 127,
     "original_en": "Geno Dome\nOblong Passage",
     "original_fr": "Dôme de Génos\nPassage étroit",
-    "translation": "Купол Джено\nПродолговатый коридор"
+    "translation": "Купол Джено Продолговатый коридор"
   },
   {
     "id": 128,
     "original_en": "Manolia Cathedral\nChapel",
     "original_fr": "Abbaye de Manolia\nChapelle",
-    "translation": "Собор Манории\nЧасовня"
+    "translation": "Собор Манории Часовня"
   },
   {
     "id": 129,
     "original_en": "Manolia Cathedral\nMain Hall (Front)",
     "original_fr": "Abbaye de Manolia\nSalle principale (Devant)",
-    "translation": "Собор Манории\nГлавный зал (Спереди)"
+    "translation": "Собор Манории Главный зал (Спереди)"
   },
   {
     "id": 130,
     "original_en": "Manolia Cathedral\nMain Hall (Rear)",
     "original_fr": "Abbaye de Manolia\nSalle principale (Derrière)",
-    "translation": "Собор Манории\nГлавный зал (Сзади)"
+    "translation": "Собор Манории Главный зал (Сзади)"
   },
   {
     "id": 131,
     "original_en": "Manolia Cathedral\nIn Front of Yakra's Room",
     "original_fr": "Abbaye de Manolia\nDevant la salle de Yakra",
-    "translation": "Собор Манории\nПеред покоями Якры"
+    "translation": "Собор Манории Перед покоями Якры"
   },
   {
     "id": 132,
     "original_en": "Zenan Bridge\nBroken Bridge",
     "original_fr": "Pont de Zénan\nPont en ruine",
-    "translation": "Мост Зенан\nРазрушенный мост"
+    "translation": "Мост Зенан Разрушенный мост"
   },
   {
     "id": 133,
     "original_en": "Zenan Bridge\nFood Supply Event",
     "original_fr": "Pont de Zénan\nRavitaillement",
-    "translation": "Мост Зенан\nРаздача провизии"
+    "translation": "Мост Зенан Раздача провизии"
   },
   {
     "id": 134,
     "original_en": "Zenan Bridge\nRepaired",
     "original_fr": "Pont de Zénan\nRéparé",
-    "translation": "Мост Зенан\nВосстановлено"
+    "translation": "Мост Зенан Восстановлено"
   },
   {
     "id": 135,
     "original_en": "Dorino\nResidence",
     "original_fr": "San Dorino\nRésidence",
-    "translation": "Дорино\nЖилой дом"
+    "translation": "Дорино Жилой дом"
   },
   {
     "id": 136,
     "original_en": "Dorino\nElder's House",
     "original_fr": "San Dorino\nMaison du maire",
-    "translation": "Дорино\nДом старейшины"
+    "translation": "Дорино Дом старейшины"
   },
   {
     "id": 137,
     "original_en": "Dorino\nInn",
     "original_fr": "San Dorino\nAuberge",
-    "translation": "Дорино\nГостиница"
+    "translation": "Дорино Гостиница"
   },
   {
     "id": 138,
     "original_en": "Dorino\nMarket",
     "original_fr": "San Dorino\nMagasin",
-    "translation": "Дорино\nMarket"
+    "translation": "Дорино Market"
   },
   {
     "id": 139,
@@ -843,103 +843,103 @@
     "id": 140,
     "original_en": "Cursed Woods\nFrog's Hideaway",
     "original_fr": "Forêt aux grenouilles\nRefuge de Gren",
-    "translation": "Проклятый лес\nУкрытие Фрога"
+    "translation": "Проклятый лес Укрытие Фрога"
   },
   {
     "id": 141,
     "original_en": "Denadoro Mountains\nMap 1",
     "original_fr": "Monts Dénadoro\nCarte 1",
-    "translation": "Горы Денадоро\nКарта 1"
+    "translation": "Горы Денадоро Карта 1"
   },
   {
     "id": 142,
     "original_en": "Denadoro Mountains\nMap 2",
     "original_fr": "Monts Dénadoro\nCarte 2",
-    "translation": "Горы Денадоро\nКарта 2"
+    "translation": "Горы Денадоро Карта 2"
   },
   {
     "id": 143,
     "original_en": "Denadoro Mountains\nMap 3",
     "original_fr": "Monts Dénadoro\nCarte 3",
-    "translation": "Горы Денадоро\nКарта 3"
+    "translation": "Горы Денадоро Карта 3"
   },
   {
     "id": 144,
     "original_en": "Denadoro Mountains\nMap 4",
     "original_fr": "Monts Dénadoro\nCarte 4",
-    "translation": "Горы Денадоро\nКарта 4"
+    "translation": "Горы Денадоро Карта 4"
   },
   {
     "id": 145,
     "original_en": "Denadoro Mountains\nMap 5",
     "original_fr": "Monts Dénadoro\nCarte 5",
-    "translation": "Горы Денадоро\nКарта 5"
+    "translation": "Горы Денадоро Карта 5"
   },
   {
     "id": 146,
     "original_en": "Denadoro Mountains\nMap 6",
     "original_fr": "Monts Dénadoro\nCarte 6",
-    "translation": "Горы Денадоро\nКарта 6"
+    "translation": "Горы Денадоро Карта 6"
   },
   {
     "id": 147,
     "original_en": "Denadoro Mountains\nMap 7",
     "original_fr": "Monts Dénadoro\nCarte 7",
-    "translation": "Горы Денадоро\nКарта 7"
+    "translation": "Горы Денадоро Карта 7"
   },
   {
     "id": 148,
     "original_en": "Denadoro Mountains\nMap 8",
     "original_fr": "Monts Dénadoro\nCarte 8",
-    "translation": "Горы Денадоро\nКарта 8"
+    "translation": "Горы Денадоро Карта 8"
   },
   {
     "id": 149,
     "original_en": "Denadoro Mountains\nMap 9",
     "original_fr": "Monts Dénadoro\nCarte 9",
-    "translation": "Горы Денадоро\nКарта 9"
+    "translation": "Горы Денадоро Карта 9"
   },
   {
     "id": 150,
     "original_en": "Denadoro Mountains\nMasa / Mune's Room",
     "original_fr": "Monts Dénadoro\nSalle de Gran et Léon",
-    "translation": "Горы Денадоро\nПокои Масы и Мунэ"
+    "translation": "Горы Денадоро Покои Масы и Мунэ"
   },
   {
     "id": 151,
     "original_en": "Tata's House\n1F",
     "original_fr": "Maison de Tarta\nRDC",
-    "translation": "Дом Таты\n1 этаж"
+    "translation": "Дом Таты 1 этаж"
   },
   {
     "id": 152,
     "original_en": "Tata's House\n2F",
     "original_fr": "Maison de Tarta\n1er étage",
-    "translation": "Дом Таты\n2 этаж"
+    "translation": "Дом Таты 2 этаж"
   },
   {
     "id": 153,
     "original_en": "Porre\nElder's House",
     "original_fr": "Palpori\nMaison du maire",
-    "translation": "Порр\nДом старейшины"
+    "translation": "Порр Дом старейшины"
   },
   {
     "id": 154,
     "original_en": "Porre\nTavern",
     "original_fr": "Palpori\nTaverne",
-    "translation": "Порр\nТаверна"
+    "translation": "Порр Таверна"
   },
   {
     "id": 155,
     "original_en": "Porre\nInn",
     "original_fr": "Palpori\nAuberge",
-    "translation": "Порр\nГостиница"
+    "translation": "Порр Гостиница"
   },
   {
     "id": 156,
     "original_en": "Porre\nMarket",
     "original_fr": "Palpori\nMagasin",
-    "translation": "Порр\nMarket"
+    "translation": "Порр Market"
   },
   {
     "id": 157,
@@ -951,19 +951,19 @@
     "id": 158,
     "original_en": "Sunken Desert\nEntrance",
     "original_fr": "Désert souterrain\nEntrée",
-    "translation": "Песчаная пустыня\nВход"
+    "translation": "Песчаная пустыня Вход"
   },
   {
     "id": 159,
     "original_en": "Sunken Desert\nFront",
     "original_fr": "Désert souterrain\nDevant",
-    "translation": "Песчаная пустыня\nСпереди"
+    "translation": "Песчаная пустыня Спереди"
   },
   {
     "id": 160,
     "original_en": "Sunken Desert\nMelphyx's Room",
     "original_fr": "Désert souterrain\nSalle de melfiq",
-    "translation": "Песчаная пустыня\nЛогово Мелфикса"
+    "translation": "Песчаная пустыня Логово Мелфикса"
   },
   {
     "id": 161,
@@ -975,175 +975,175 @@
     "id": 162,
     "original_en": "Magic Cave\nEntrance",
     "original_fr": "Grotte des mystiques\nEntrée",
-    "translation": "Волшебная пещера\nВход"
+    "translation": "Волшебная пещера Вход"
   },
   {
     "id": 163,
     "original_en": "Magic Cave\nInterior",
     "original_fr": "Grotte des mystiques\nIntérieur",
-    "translation": "Волшебная пещера\nВнутри"
+    "translation": "Волшебная пещера Внутри"
   },
   {
     "id": 164,
     "original_en": "Magus's Keep\nEntrance",
     "original_fr": "Palais du Magistère\nEntrée",
-    "translation": "Замок Магуса\nВход"
+    "translation": "Замок Магуса Вход"
   },
   {
     "id": 165,
     "original_en": "Magus's Keep\nUpon Entering",
     "original_fr": "Palais du Magistère\nEn entrant",
-    "translation": "Замок Магуса\nПри входе"
+    "translation": "Замок Магуса При входе"
   },
   {
     "id": 166,
     "original_en": "Magus's Keep\nTrap 1 - Guillotine",
     "original_fr": "Palais du Magistère\nPiège 1 - Guillotine",
-    "translation": "Замок Магуса\nTrap 1 — Guillotine"
+    "translation": "Замок Магуса Trap 1 — Guillotine"
   },
   {
     "id": 167,
     "original_en": "Magus's Keep\nTrap 2 - Pit",
     "original_fr": "Palais du Magistère\nPiège 2 - Trou",
-    "translation": "Замок Магуса\nTrap 2 — Pit"
+    "translation": "Замок Магуса Trap 2 — Pit"
   },
   {
     "id": 168,
     "original_en": "Magus's Keep\nSlash Battle Room",
     "original_fr": "Palais du Magistère\nSalle bataille avec Soja",
-    "translation": "Замок Магуса\nЗал битвы со Слэшем"
+    "translation": "Замок Магуса Зал битвы со Слэшем"
   },
   {
     "id": 169,
     "original_en": "Magus's Keep\nCentral Chamber",
     "original_fr": "Palais du Magistère\nSalle centrale",
-    "translation": "Замок Магуса\nЦентральная палата"
+    "translation": "Замок Магуса Центральная палата"
   },
   {
     "id": 170,
     "original_en": "Magus's Keep\nKids' Treasure Room",
     "original_fr": "Palais du Magistère\nSalle du trésor des enfants",
-    "translation": "Замок Магуса\nДетская сокровищница"
+    "translation": "Замок Магуса Детская сокровищница"
   },
   {
     "id": 171,
     "original_en": "Magus's Keep\nMagus's Chamber",
     "original_fr": "Palais du Magistère\nSalle de Magus",
-    "translation": "Замок Магуса\nПокои Магуса"
+    "translation": "Замок Магуса Покои Магуса"
   },
   {
     "id": 172,
     "original_en": "Magus's Keep\nFlea Battle Room",
     "original_fr": "Palais du Magistère\nSalle bataille avec Mayo",
-    "translation": "Замок Магуса\nЗал битвы с Фли"
+    "translation": "Замок Магуса Зал битвы с Фли"
   },
   {
     "id": 173,
     "original_en": "Magus's Keep\nOzzie Battle Room",
     "original_fr": "Palais du Magistère\nSalle bataille avec Vinnie",
-    "translation": "Замок Магуса\nЗал битвы с Оззи"
+    "translation": "Замок Магуса Зал битвы с Оззи"
   },
   {
     "id": 174,
     "original_en": "Magus's Keep\nTrap 3 - Conveyer Belt",
     "original_fr": "Palais du Magistère\nPiège 3 - Tapis roulant",
-    "translation": "Замок Магуса\nTrap 3 — Conveyer Belt"
+    "translation": "Замок Магуса Trap 3 — Conveyer Belt"
   },
   {
     "id": 175,
     "original_en": "Magus's Keep\nExterior Stairway 1",
     "original_fr": "Palais du Magistère\nExtérieur Escalier 1",
-    "translation": "Замок Магуса\nВнешняя лестница 1"
+    "translation": "Замок Магуса Внешняя лестница 1"
   },
   {
     "id": 176,
     "original_en": "Ozzie's Fort\nUpon Entering",
     "original_fr": "Manoir de Vinnie\nEn entrant",
-    "translation": "Форт Оззи\nПри входе"
+    "translation": "Форт Оззи При входе"
   },
   {
     "id": 177,
     "original_en": "Ozzie's Fort\nFailed Trap Room",
     "original_fr": "Manoir de Vinnie\nSalle Piège raté",
-    "translation": "Форт Оззи\nКомната с ловушкой"
+    "translation": "Форт Оззи Комната с ловушкой"
   },
   {
     "id": 178,
     "original_en": "Ozzie's Fort\nGuillotine Room",
     "original_fr": "Manoir de Vinnie\nSalle Guillotine",
-    "translation": "Форт Оззи\nЗал с гильотиной"
+    "translation": "Форт Оззи Зал с гильотиной"
   },
   {
     "id": 179,
     "original_en": "Ozzie's Fort\nBattle Against All Three",
     "original_fr": "Manoir de Vinnie\nBataille contre trois",
-    "translation": "Форт Оззи\nБитва с троицей"
+    "translation": "Форт Оззи Битва с троицей"
   },
   {
     "id": 180,
     "original_en": "Ozzie's Fort\nThe End of Ozzie",
     "original_fr": "Manoir de Vinnie\nMort de Vinnie",
-    "translation": "Форт Оззи\nКонец Оззи"
+    "translation": "Форт Оззи Конец Оззи"
   },
   {
     "id": 181,
     "original_en": "Castle Exterior\n(Unused)",
     "original_fr": "Extérieur du ch{TAG:4A}teau\n(Pas utilisé)",
-    "translation": "Замок (Снаружи)\n(Не используется)"
+    "translation": "Замок (Снаружи) (Не используется)"
   },
   {
     "id": 182,
     "original_en": "Ozzie's Fort\nFlea Battle Room",
     "original_fr": "Manoir de Vinnie\nSalle bataille contre Mayo",
-    "translation": "Форт Оззи\nЗал битвы с Фли"
+    "translation": "Форт Оззи Зал битвы с Фли"
   },
   {
     "id": 183,
     "original_en": "Ozzie's Fort\nSlash Battle Room",
     "original_fr": "Manoir de Vinnie\nSalle bataille contre Soja",
-    "translation": "Форт Оззи\nЗал битвы со Слэшем"
+    "translation": "Форт Оззи Зал битвы со Слэшем"
   },
   {
     "id": 184,
     "original_en": "Choras\nResidence 1",
     "original_fr": "Choras\nRésidence 1",
-    "translation": "Хорас\nЖилой дом 1"
+    "translation": "Хорас Жилой дом 1"
   },
   {
     "id": 185,
     "original_en": "Choras\nResidence 2 (Carpenter) 1F",
     "original_fr": "Choras\nRésidence 2 (Charpentier) RDC",
-    "translation": "Хорас\nResidence 2 (Carpenter), 1 этаж"
+    "translation": "Хорас Residence 2 (Carpenter), 1 этаж"
   },
   {
     "id": 186,
     "original_en": "Choras\nResidence 2 (Carpenter) 2F",
     "original_fr": "Choras\nRésidence 2 (Charpentier) 1er étage",
-    "translation": "Хорас\nResidence 2 (Carpenter), 2 этаж"
+    "translation": "Хорас Residence 2 (Carpenter), 2 этаж"
   },
   {
     "id": 187,
     "original_en": "Choras\nTavern",
     "original_fr": "Choras\nTaverne",
-    "translation": "Хорас\nТаверна"
+    "translation": "Хорас Таверна"
   },
   {
     "id": 188,
     "original_en": "Choras\nInn",
     "original_fr": "Choras\nAuberge",
-    "translation": "Хорас\nГостиница"
+    "translation": "Хорас Гостиница"
   },
   {
     "id": 189,
     "original_en": "Choras\nMarket",
     "original_fr": "Choras\nMagasin",
-    "translation": "Хорас\nMarket"
+    "translation": "Хорас Market"
   },
   {
     "id": 190,
     "original_en": "Sun Shrine\nMiddle Ages?",
     "original_fr": "Berceau de la lumière\nMoyen-{TAG:5F}ge?",
-    "translation": "Святилище Солнца\nСредневековье?"
+    "translation": "Святилище Солнца Средневековье?"
   },
   {
     "id": 191,
@@ -1167,73 +1167,73 @@
     "id": 194,
     "original_en": "Giant's Claw\nMap 1",
     "original_fr": "Griffe du géant\nCarte 1",
-    "translation": "Клык Великана\nКарта 1"
+    "translation": "Клык Великана Карта 1"
   },
   {
     "id": 195,
     "original_en": "Giant's Claw\nMap 2",
     "original_fr": "Griffe du géant\nCarte 2",
-    "translation": "Клык Великана\nКарта 2"
+    "translation": "Клык Великана Карта 2"
   },
   {
     "id": 196,
     "original_en": "Giant's Claw\nRust Tyranno Battle Room",
     "original_fr": "Griffe du géant\nSalle bataille contre tyrannosaure noir",
-    "translation": "Клык Великана\nЗал битвы: Ржавый Тиран"
+    "translation": "Клык Великана Зал битвы: Ржавый Тиран"
   },
   {
     "id": 197,
     "original_en": "Manolia Cathedral\nYakra Battle Room",
     "original_fr": "Abbaye de Manolia\nSalle bataille contre Yakra",
-    "translation": "Собор Манории\nЗал битвы с Якрой"
+    "translation": "Собор Манории Зал битвы с Якрой"
   },
   {
     "id": 198,
     "original_en": "Manolia Cathedral\nPrison Cell",
     "original_fr": "Abbaye de Manolia\nCellule",
-    "translation": "Собор Манории\nТюремная камера"
+    "translation": "Собор Манории Тюремная камера"
   },
   {
     "id": 199,
     "original_en": "Manolia Cathedral\nPhantom Room",
     "original_fr": "Abbaye de Manolia\nSalle des illusions",
-    "translation": "Собор Манории\nПризрачная комната"
+    "translation": "Собор Манории Призрачная комната"
   },
   {
     "id": 200,
     "original_en": "Manolia Cathedral\nBromide Room",
     "original_fr": "Abbaye de Manolia\nSalle du portrait de myanne",
-    "translation": "Собор Манории\nКомната с портретом"
+    "translation": "Собор Манории Комната с портретом"
   },
   {
     "id": 201,
     "original_en": "Manolia Cathedral\nMonsters' Room",
     "original_fr": "Abbaye de Manolia\nSalle des monstres",
-    "translation": "Собор Манории\nКомната монстров"
+    "translation": "Собор Манории Комната монстров"
   },
   {
     "id": 202,
     "original_en": "Manolia Cathedral\nMagus Statue",
     "original_fr": "Abbaye de Manolia\nStatue du Magistère",
-    "translation": "Собор Манории\nСтатуя Магуса"
+    "translation": "Собор Манории Статуя Магуса"
   },
   {
     "id": 203,
     "original_en": "Guardia Forest\nFrog Flashback Event",
     "original_fr": "Forêt de Gardia\nRetour en arrière de Gren",
-    "translation": "Лес Гардии\nВоспоминания Фрога"
+    "translation": "Лес Гардии Воспоминания Фрога"
   },
   {
     "id": 204,
     "original_en": "Denadoro Mountains\nFrog Flashback Event",
     "original_fr": "Monts Dénadoro\nRetour en arrière de Gren",
-    "translation": "Горы Денадоро\nВоспоминания Фрога"
+    "translation": "Горы Денадоро Воспоминания Фрога"
   },
   {
     "id": 205,
     "original_en": "Guardia Castle\nFrog Flashback Event",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nRetour en arrière de Gren",
-    "translation": "Замок Гардия\nВоспоминания Фрога"
+    "translation": "Замок Гардия Воспоминания Фрога"
   },
   {
     "id": 206,
@@ -1245,13 +1245,13 @@
     "id": 207,
     "original_en": "Bangor Dome\nGate Room",
     "original_fr": "Dôme de Bangor\nSalle du portail",
-    "translation": "Купол Бангор\nЗал Врат"
+    "translation": "Купол Бангор Зал Врат"
   },
   {
     "id": 208,
     "original_en": "Bangor Dome\nSealed Treasure Room",
     "original_fr": "Dôme de Bangor\nSalle du trésor scellé",
-    "translation": "Купол Бангор\nЗапечатанная сокровищница"
+    "translation": "Купол Бангор Запечатанная сокровищница"
   },
   {
     "id": 209,
@@ -1263,19 +1263,19 @@
     "id": 210,
     "original_en": "Trann Dome\nSealed Treasure Room",
     "original_fr": "Dôme de Trann\nSalle du trésor scellé",
-    "translation": "Купол Транн\nЗапечатанная сокровищница"
+    "translation": "Купол Транн Запечатанная сокровищница"
   },
   {
     "id": 211,
     "original_en": "Site 16\nTrann Dome Side",
     "original_fr": "Ruines nÎ 16\nCôté du dôme de Trann",
-    "translation": "Сектор 16\nСторона Купола Транн"
+    "translation": "Сектор 16 Сторона Купола Транн"
   },
   {
     "id": 212,
     "original_en": "Site 16\nArris Dome Side",
     "original_fr": "Ruines nÎ 16\nCôté du dôme d'Arris",
-    "translation": "Сектор 16\nСторона Купола Аррис"
+    "translation": "Сектор 16 Сторона Купола Аррис"
   },
   {
     "id": 213,
@@ -1287,43 +1287,43 @@
     "id": 214,
     "original_en": "Arris Dome Substructure\nPasscode Room 1",
     "original_fr": "Dôme d'Arris (sous-sol)\nSalle mot de passe 1",
-    "translation": "Недра Купола Аррис\nКомната с паролем 1"
+    "translation": "Недра Купола Аррис Комната с паролем 1"
   },
   {
     "id": 215,
     "original_en": "Arris Dome Substructure\nUpon Entering",
     "original_fr": "Dôme d'Arris (sous-sol)\nEn entrant",
-    "translation": "Недра Купола Аррис\nПри входе"
+    "translation": "Недра Купола Аррис При входе"
   },
   {
     "id": 216,
     "original_en": "Arris Dome Substructure\nPasscode Room 2",
     "original_fr": "Dôme d'Arris (sous-sol)\nSalle mot de passe 2",
-    "translation": "Недра Купола Аррис\nКомната с паролем 2"
+    "translation": "Недра Купола Аррис Комната с паролем 2"
   },
   {
     "id": 217,
     "original_en": "Arris Dome Substructure\nDay of Lavos Record Room",
     "original_fr": "Dôme d'Arris (sous-sol)\nSalle archives du jour de Lavos",
-    "translation": "Недра Купола Аррис\nАрхив: День Лавоса"
+    "translation": "Недра Купола Аррис Архив: День Лавоса"
   },
   {
     "id": 218,
     "original_en": "Arris Dome Substructure\nGuardian Battle",
     "original_fr": "Dôme d'Arris (sous-sol)\nBataille contre gardien",
-    "translation": "Недра Купола Аррис\nБитва: Страж"
+    "translation": "Недра Купола Аррис Битва: Страж"
   },
   {
     "id": 219,
     "original_en": "Arris Dome Substructure\nSealed Treasure Room",
     "original_fr": "Dôme d'Arris (sous-sol)\nSalle du trésor scellé",
-    "translation": "Недра Купола Аррис\nЗапечатанная сокровищница"
+    "translation": "Недра Купола Аррис Запечатанная сокровищница"
   },
   {
     "id": 220,
     "original_en": "Arris Dome Substructure\nRat Room",
     "original_fr": "Dôme d'Arris (sous-sol)\nSalle du rat",
-    "translation": "Недра Купола Аррис\nКомната крыс"
+    "translation": "Недра Купола Аррис Комната крыс"
   },
   {
     "id": 221,
@@ -1335,85 +1335,85 @@
     "id": 222,
     "original_en": "Site 32\nWestern Bike Parking",
     "original_fr": "Ruines nÎ 32\nStationnement ouest",
-    "translation": "Сектор 32\nЗападная стоянка байков"
+    "translation": "Сектор 32 Западная стоянка байков"
   },
   {
     "id": 223,
     "original_en": "Site 32\nRoad",
     "original_fr": "Ruines nÎ 32\nRoute",
-    "translation": "Сектор 32\nДорога"
+    "translation": "Сектор 32 Дорога"
   },
   {
     "id": 224,
     "original_en": "Site 32\nEastern Bike Parking",
     "original_fr": "Ruines nÎ 32\nStationnement est",
-    "translation": "Сектор 32\nВосточная стоянка байков"
+    "translation": "Сектор 32 Восточная стоянка байков"
   },
   {
     "id": 225,
     "original_en": "Proto Dome\nRobo's Debut",
     "original_fr": "Dôme de Prométhée\nEntrée en scène de RoBo",
-    "translation": "Купол Прото\nПоявление Робо"
+    "translation": "Купол Прото Появление Робо"
   },
   {
     "id": 226,
     "original_en": "Proto Dome\nGate Room",
     "original_fr": "Dôme de Prométhée\nSalle du portail",
-    "translation": "Купол Прото\nЗал Врат"
+    "translation": "Купол Прото Зал Врат"
   },
   {
     "id": 227,
     "original_en": "Derelict Factory\nEntrance",
     "original_fr": "Usine désaffectée\nEntrée",
-    "translation": "Заброшенный завод\nВход"
+    "translation": "Заброшенный завод Вход"
   },
   {
     "id": 228,
     "original_en": "Derelict Factory\nB1 (West)",
     "original_fr": "Usine désaffectée\nSS1 (Ouest)",
-    "translation": "Заброшенный завод\nПодвал B1 (Запад)"
+    "translation": "Заброшенный завод Подвал B1 (Запад)"
   },
   {
     "id": 229,
     "original_en": "Derelict Factory\nB2 (West)",
     "original_fr": "Usine désaffectée\nSS2 (Ouest)",
-    "translation": "Заброшенный завод\nПодвал B2 (Запад)"
+    "translation": "Заброшенный завод Подвал B2 (Запад)"
   },
   {
     "id": 230,
     "original_en": "Derelict Factory\nB1 (East)",
     "original_fr": "Usine désaffectée\nSS1 (Est)",
-    "translation": "Заброшенный завод\nПодвал B1 (Восток)"
+    "translation": "Заброшенный завод Подвал B1 (Восток)"
   },
   {
     "id": 231,
     "original_en": "Derelict Factory\nBug Room",
     "original_fr": "Usine désaffectée\nSalle des scarabogues",
-    "translation": "Заброшенный завод\nКомната жуков"
+    "translation": "Заброшенный завод Комната жуков"
   },
   {
     "id": 232,
     "original_en": "Derelict Factory\nRoom Before Crane",
     "original_fr": "Usine désaffectée\nSalle avant grue",
-    "translation": "Заброшенный завод\nКомната перед краном"
+    "translation": "Заброшенный завод Комната перед краном"
   },
   {
     "id": 233,
     "original_en": "Derelict Factory\nPasscode Acquisition",
     "original_fr": "Usine désaffectée\nObtention du mot de passe",
-    "translation": "Заброшенный завод\nПолучение пароля"
+    "translation": "Заброшенный завод Получение пароля"
   },
   {
     "id": 234,
     "original_en": "Derelict Factory\nB3 (West)",
     "original_fr": "Usine désaffectée\nSS3 (Ouest)",
-    "translation": "Заброшенный завод\nПодвал B3 (Запад)"
+    "translation": "Заброшенный завод Подвал B3 (Запад)"
   },
   {
     "id": 235,
     "original_en": "Abandoned Sewers\nEntrance",
     "original_fr": "Ancien égout\nEntrée",
-    "translation": "Заброшенный коллектор\nВход"
+    "translation": "Заброшенный коллектор Вход"
   },
   {
     "id": 236,
@@ -1425,7 +1425,7 @@
     "id": 237,
     "original_en": "(Event?)\n(Staff Room?)",
     "original_fr": "(îvénement?)\n(Salle de l'équipe?)",
-    "translation": "(Событие?)\n(Комната авторов?)"
+    "translation": "(Событие?) (Комната авторов?)"
   },
   {
     "id": 238,
@@ -1449,55 +1449,55 @@
     "id": 241,
     "original_en": "Keeper's Dome\nHallway",
     "original_fr": "Dôme du gardien\nCorridor",
-    "translation": "Купол Хранителя\nКоридор"
+    "translation": "Купол Хранителя Коридор"
   },
   {
     "id": 242,
     "original_en": "Keeper's Dome\nEpoch Storage Room",
     "original_fr": "Dôme du gardien\nSalle de l'Ibis",
-    "translation": "Купол Хранителя\nАнгар Эпохи"
+    "translation": "Купол Хранителя Ангар Эпохи"
   },
   {
     "id": 243,
     "original_en": "Death Peak\nEntrance",
     "original_fr": "Mont des défunts\nEntrée",
-    "translation": "Пик Смерти\nВход"
+    "translation": "Пик Смерти Вход"
   },
   {
     "id": 244,
     "original_en": "Death Peak\nMap 1",
     "original_fr": "Mont des défunts\nCarte 1",
-    "translation": "Пик Смерти\nКарта 1"
+    "translation": "Пик Смерти Карта 1"
   },
   {
     "id": 245,
     "original_en": "Death Peak\nMap 2",
     "original_fr": "Mont des défunts\nCarte 2",
-    "translation": "Пик Смерти\nКарта 2"
+    "translation": "Пик Смерти Карта 2"
   },
   {
     "id": 246,
     "original_en": "Death Peak\nMap 4 (Lavos Spawn - 2)",
     "original_fr": "Mont des défunts\nCarte 4 (Larve de Lavos - 2)",
-    "translation": "Пик Смерти\nMap 4 (Lavos Spawn — 2)"
+    "translation": "Пик Смерти Map 4 (Lavos Spawn — 2)"
   },
   {
     "id": 247,
     "original_en": "Geno Dome\nEntrance",
     "original_fr": "Dôme de Génos\nEntrée",
-    "translation": "Купол Джено\nВход"
+    "translation": "Купол Джено Вход"
   },
   {
     "id": 248,
     "original_en": "Geno Dome\nConveyer Belt (Front)",
     "original_fr": "Dôme de Génos\nTapis roulant (Devant)",
-    "translation": "Купол Джено\nКонвейер (Спереди)"
+    "translation": "Купол Джено Конвейер (Спереди)"
   },
   {
     "id": 249,
     "original_en": "Geno Dome\nConveyer Belt (Rear)",
     "original_fr": "Dôme de Génos\nTapis roulant (Derrière)",
-    "translation": "Купол Джено\nКонвейер (Сзади)"
+    "translation": "Купол Джено Конвейер (Сзади)"
   },
   {
     "id": 250,
@@ -1509,13 +1509,13 @@
     "id": 251,
     "original_en": "Leene Square\nCentral Plaza (Used for ending)",
     "original_fr": "Place de Lynne\nCentre (Utilisé dans une fin)",
-    "translation": "Площадь Лины\nЦентральная площадь (Финал)"
+    "translation": "Площадь Лины Центральная площадь (Финал)"
   },
   {
     "id": 252,
     "original_en": "Sun Shrine\nUnknown Era",
     "original_fr": "Berceau de la lumière\nîpoque inconnue",
-    "translation": "Святилище Солнца\nНеведомая эра"
+    "translation": "Святилище Солнца Неведомая эра"
   },
   {
     "id": 253,
@@ -1527,37 +1527,37 @@
     "id": 254,
     "original_en": "Sun Shrine\nUnknown Era",
     "original_fr": "Berceau de la lumière\nîpoque inconnue",
-    "translation": "Святилище Солнца\nНеведомая эра"
+    "translation": "Святилище Солнца Неведомая эра"
   },
   {
     "id": 255,
     "original_en": "Geno Dome\nMain Room",
     "original_fr": "Dôme de Génos\nSalle principale",
-    "translation": "Купол Джено\nГлавный зал"
+    "translation": "Купол Джено Главный зал"
   },
   {
     "id": 256,
     "original_en": "Geno Dome\nTreasure Room 1",
     "original_fr": "Dôme de Génos\nSalle au trésor 1",
-    "translation": "Купол Джено\nСокровищница 1"
+    "translation": "Купол Джено Сокровищница 1"
   },
   {
     "id": 257,
     "original_en": "Geno Dome\nTreasure Room 2",
     "original_fr": "Dôme de Génos\nSalle au trésor 2",
-    "translation": "Купол Джено\nСокровищница 2"
+    "translation": "Купол Джено Сокровищница 2"
   },
   {
     "id": 258,
     "original_en": "Derelict Factory\nCrane Code Acquisition",
     "original_fr": "Usine désaffectée\nObtention du code de la grue",
-    "translation": "Заброшенный завод\nКод управления краном"
+    "translation": "Заброшенный завод Код управления краном"
   },
   {
     "id": 259,
     "original_en": "Death Peak\nMap 6",
     "original_fr": "Mont des défunts\nCarte 6",
-    "translation": "Пик Смерти\nКарта 6"
+    "translation": "Пик Смерти Карта 6"
   },
   {
     "id": 260,
@@ -1569,25 +1569,25 @@
     "id": 261,
     "original_en": "Death Peak\nMap 5",
     "original_fr": "Mont des défunts\nCarte 5",
-    "translation": "Пик Смерти\nКарта 5"
+    "translation": "Пик Смерти Карта 5"
   },
   {
     "id": 262,
     "original_en": "Death Peak\nMap 3",
     "original_fr": "Mont des défunts\nCarte 3",
-    "translation": "Пик Смерти\nКарта 3"
+    "translation": "Пик Смерти Карта 3"
   },
   {
     "id": 263,
     "original_en": "Death Peak\nInterior (Lavos Spawn - 1)",
     "original_fr": "Mont des défunts\nIntérieur (Larve de Lavos - 1)",
-    "translation": "Пик Смерти\nInterior (Lavos Spawn — 1)"
+    "translation": "Пик Смерти Interior (Lavos Spawn — 1)"
   },
   {
     "id": 264,
     "original_en": "Death Peak\nSummit",
     "original_fr": "Mont des défunts\nCime",
-    "translation": "Пик Смерти\nВершина"
+    "translation": "Пик Смерти Вершина"
   },
   {
     "id": 265,
@@ -1599,25 +1599,25 @@
     "id": 266,
     "original_en": "Geno Dome\nRear of Oblong Passage",
     "original_fr": "Dôme de Génos\nFond du corridor étroit",
-    "translation": "Купол Джено\nКонец длинного коридора"
+    "translation": "Купол Джено Конец длинного коридора"
   },
   {
     "id": 267,
     "original_en": "Geno Dome\nMother Brain Battle",
     "original_fr": "Dôme de Génos\nBataille contre cerveau mère",
-    "translation": "Купол Джено\nБитва: Матерь-Машина"
+    "translation": "Купол Джено Битва: Матерь-Машина"
   },
   {
     "id": 268,
     "original_en": "Geno Dome\nExecution Room",
     "original_fr": "Dôme de Génos\nSalle d'exécution",
-    "translation": "Купол Джено\nКазнь"
+    "translation": "Купол Джено Казнь"
   },
   {
     "id": 269,
     "original_en": "Leene Square\nPlaza Rear (Ending)",
     "original_fr": "Place de Lynne\nArrière (Fin)",
-    "translation": "Площадь Лины\nЗадворки площади (Финал)"
+    "translation": "Площадь Лины Задворки площади (Финал)"
   },
   {
     "id": 270,
@@ -1629,25 +1629,25 @@
     "id": 271,
     "original_en": "Mystic Mountains\nGate",
     "original_fr": "Mont étrange\nPortail",
-    "translation": "Мистические горы\nВрата"
+    "translation": "Мистические горы Врата"
   },
   {
     "id": 272,
     "original_en": "Mystic Mountains\nAyla's Debut",
     "original_fr": "Mont étrange\nEntrée en scène d'Ayla",
-    "translation": "Мистические горы\nПоявление Эйлы"
+    "translation": "Мистические горы Появление Эйлы"
   },
   {
     "id": 273,
     "original_en": "Mystic Mountains\nTrail",
     "original_fr": "Mont étrange\nPassage",
-    "translation": "Мистические горы\nТропа"
+    "translation": "Мистические горы Тропа"
   },
   {
     "id": 274,
     "original_en": "Ioka Village\nChief's Hut",
     "original_fr": "Village d'Ioka\nTente du chef",
-    "translation": "Деревня Иока\nChief's Hut"
+    "translation": "Деревня Иока Chief's Hut"
   },
   {
     "id": 275,
@@ -1659,67 +1659,67 @@
     "id": 276,
     "original_en": "Ioka Village Hut\nTrading Room",
     "original_fr": "Village d'Ioka\nTente de troc",
-    "translation": "Хижина деревни Иока\nТорговая лавка"
+    "translation": "Хижина деревни Иока Торговая лавка"
   },
   {
     "id": 277,
     "original_en": "Ioka Village Hut\nHealing Room",
     "original_fr": "Village d'Ioka\nTente de guérison",
-    "translation": "Хижина деревни Иока\nЛазарет"
+    "translation": "Хижина деревни Иока Лазарет"
   },
   {
     "id": 278,
     "original_en": "Ioka Village\nVillage Center",
     "original_fr": "Village d'Ioka\nPlace du village",
-    "translation": "Деревня Иока\nЦентр деревни"
+    "translation": "Деревня Иока Центр деревни"
   },
   {
     "id": 279,
     "original_en": "Ioka Village\nVillage Center (Night)",
     "original_fr": "Village d'Ioka\nPlace du village (nuit)",
-    "translation": "Деревня Иока\nЦентр деревни (Ночь)"
+    "translation": "Деревня Иока Центр деревни (Ночь)"
   },
   {
     "id": 280,
     "original_en": "Forest Maze\nEntrance Only",
     "original_fr": "Jungle\nEntrée seulement",
-    "translation": "Forest Maze\nТолько вход"
+    "translation": "Forest Maze Только вход"
   },
   {
     "id": 281,
     "original_en": "Forest Maze\nNormal",
     "original_fr": "Jungle\nNormale",
-    "translation": "Forest Maze\nОбычный"
+    "translation": "Forest Maze Обычный"
   },
   {
     "id": 282,
     "original_en": "Reptite Lair\nEntrance",
     "original_fr": "Antre des sauriens\nEntrée",
-    "translation": "Логово рептитов\nВход"
+    "translation": "Логово рептитов Вход"
   },
   {
     "id": 283,
     "original_en": "Reptite Lair\nBeetle Room",
     "original_fr": "Antre des sauriens\nSalle des insectes",
-    "translation": "Логово рептитов\nКомната жуков"
+    "translation": "Логово рептитов Комната жуков"
   },
   {
     "id": 284,
     "original_en": "Reptite Lair\nHole 1",
     "original_fr": "Antre des sauriens\nTrou 1",
-    "translation": "Логово рептитов\nЯма 1"
+    "translation": "Логово рептитов Яма 1"
   },
   {
     "id": 285,
     "original_en": "Reptite Lair\nHole 2",
     "original_fr": "Antre des sauriens\nTrou 2",
-    "translation": "Логово рептитов\nЯма 2"
+    "translation": "Логово рептитов Яма 2"
   },
   {
     "id": 286,
     "original_en": "Reptite Lair\nHole 3",
     "original_fr": "Antre des sauriens\nTrou 3",
-    "translation": "Логово рептитов\nЯма 3"
+    "translation": "Логово рептитов Яма 3"
   },
   {
     "id": 287,
@@ -1731,7 +1731,7 @@
     "id": 288,
     "original_en": "Reptite Lair\nNizbel Battle",
     "original_fr": "Antre des sauriens\nBataille contre Nizbel",
-    "translation": "Логово рептитов\nБитва: Низбель"
+    "translation": "Логово рептитов Битва: Низбель"
   },
   {
     "id": 289,
@@ -1755,19 +1755,19 @@
     "id": 292,
     "original_en": "Dactyl Nest\nEntrance",
     "original_fr": "Nid des ptéranodons\nEntrée",
-    "translation": "Гнездо дактилей\nВход"
+    "translation": "Гнездо дактилей Вход"
   },
   {
     "id": 293,
     "original_en": "Dactyl Nest\nMountainside",
     "original_fr": "Nid des ptéranodons\nMontagne",
-    "translation": "Гнездо дактилей\nСклон горы"
+    "translation": "Гнездо дактилей Склон горы"
   },
   {
     "id": 294,
     "original_en": "Dactyl Nest\nPeak",
     "original_fr": "Nid des ptéranodons\nSommet",
-    "translation": "Гнездо дактилей\nPeak"
+    "translation": "Гнездо дактилей Peak"
   },
   {
     "id": 295,
@@ -1785,49 +1785,49 @@
     "id": 297,
     "original_en": "Tyranno Lair\nExterior",
     "original_fr": "Fort Tyrannos\nExtérieur",
-    "translation": "Логово Тирана\nСнаружи"
+    "translation": "Логово Тирана Снаружи"
   },
   {
     "id": 298,
     "original_en": "Tyranno Lair\nEntrance",
     "original_fr": "Fort Tyrannos\nEntrée",
-    "translation": "Логово Тирана\nВход"
+    "translation": "Логово Тирана Вход"
   },
   {
     "id": 299,
     "original_en": "Tyranno Lair\nAzala Face-off",
     "original_fr": "Fort Tyrannos\nConfrontation avec Azara",
-    "translation": "Логово Тирана\nСхватка с Азалой"
+    "translation": "Логово Тирана Схватка с Азалой"
   },
   {
     "id": 300,
     "original_en": "Tyranno Lair\nBlack Tyranno Battle",
     "original_fr": "Fort Tyrannos\nBataille tyrannosaure brun",
-    "translation": "Логово Тирана\nБитва: Чёрный Тиран"
+    "translation": "Логово Тирана Битва: Чёрный Тиран"
   },
   {
     "id": 301,
     "original_en": "Tyranno Lair\nInterior (Prisoners, Traps)",
     "original_fr": "Fort Tyrannos\nIntérieur (Prisoniers, Pièges)",
-    "translation": "Логово Тирана\nВнутри (Узники, ловушки)"
+    "translation": "Логово Тирана Внутри (Узники, ловушки)"
   },
   {
     "id": 302,
     "original_en": "Tyranno Lair\nInterior 2 (Switches, Passages)",
     "original_fr": "Fort Tyrannos\nIntérieur 2 (Boutons, Passages)",
-    "translation": "Логово Тирана\nВнутри 2 (Рычаги, ходы)"
+    "translation": "Логово Тирана Внутри 2 (Рычаги, ходы)"
   },
   {
     "id": 303,
     "original_en": "Tyranno Lair\nNizbel II",
     "original_fr": "Fort Tyrannos\nNizbel II",
-    "translation": "Логово Тирана\nНизбель II"
+    "translation": "Логово Тирана Низбель II"
   },
   {
     "id": 304,
     "original_en": "Tyranno Lair\nInterior 3 (Warp Point)",
     "original_fr": "Fort Tyrannos\nIntérieur 3 (Tuiles portails)",
-    "translation": "Логово Тирана\nВнутри 3 (Телепорт)"
+    "translation": "Логово Тирана Внутри 3 (Телепорт)"
   },
   {
     "id": 305,
@@ -1845,163 +1845,163 @@
     "id": 307,
     "original_en": "Black Omen\nUpper Level 1 (Mega M.)",
     "original_fr": "Songe obscur\nNiveau supérieur 1 (Mégamutant)",
-    "translation": "Чёрное Знамение\nВерхний ярус 1 (Мега-мутант)"
+    "translation": "Чёрное Знамение Верхний ярус 1 (Мега-мутант)"
   },
   {
     "id": 308,
     "original_en": "Black Omen\nUpper Level 1",
     "original_fr": "Songe obscur\nNiveau supérieur 1",
-    "translation": "Чёрное Знамение\nВерхний ярус 1"
+    "translation": "Чёрное Знамение Верхний ярус 1"
   },
   {
     "id": 309,
     "original_en": "Black Omen\nUpper Level 2",
     "original_fr": "Songe obscur\nNiveau supérieur 2",
-    "translation": "Чёрное Знамение\nВерхний ярус 2"
+    "translation": "Чёрное Знамение Верхний ярус 2"
   },
   {
     "id": 310,
     "original_en": "Black Omen\nUpper Level 3",
     "original_fr": "Songe obscur\nNiveau supérieur 3",
-    "translation": "Чёрное Знамение\nВерхний ярус 3"
+    "translation": "Чёрное Знамение Верхний ярус 3"
   },
   {
     "id": 311,
     "original_en": "Black Omen\nUpper Level 4",
     "original_fr": "Songe obscur\nNiveau supérieur 4",
-    "translation": "Чёрное Знамение\nВерхний ярус 4"
+    "translation": "Чёрное Знамение Верхний ярус 4"
   },
   {
     "id": 312,
     "original_en": "Black Omen\nMiddle Level 1",
     "original_fr": "Songe obscur\nNiveau moyen 1",
-    "translation": "Чёрное Знамение\nСредний ярус 1"
+    "translation": "Чёрное Знамение Средний ярус 1"
   },
   {
     "id": 313,
     "original_en": "Black Omen\nMiddle Level 2",
     "original_fr": "Songe obscur\nNiveau moyen 2",
-    "translation": "Чёрное Знамение\nСредний ярус 2"
+    "translation": "Чёрное Знамение Средний ярус 2"
   },
   {
     "id": 314,
     "original_en": "Black Omen\nMiddle Level 3",
     "original_fr": "Songe obscur\nNiveau moyen 3",
-    "translation": "Чёрное Знамение\nСредний ярус 3"
+    "translation": "Чёрное Знамение Средний ярус 3"
   },
   {
     "id": 315,
     "original_en": "Black Omen\nMiddle Level 4",
     "original_fr": "Songe obscur\nNiveau moyen 4",
-    "translation": "Чёрное Знамение\nСредний ярус 4"
+    "translation": "Чёрное Знамение Средний ярус 4"
   },
   {
     "id": 316,
     "original_en": "Black Omen\nMiddle Level 5",
     "original_fr": "Songe obscur\nNiveau moyen 5",
-    "translation": "Чёрное Знамение\nСредний ярус 5"
+    "translation": "Чёрное Знамение Средний ярус 5"
   },
   {
     "id": 317,
     "original_en": "Black Omen\nMiddle Level 6",
     "original_fr": "Songe obscur\nNiveau moyen 6",
-    "translation": "Чёрное Знамение\nСредний ярус 6"
+    "translation": "Чёрное Знамение Средний ярус 6"
   },
   {
     "id": 318,
     "original_en": "Black Omen\nMiddle Level 7",
     "original_fr": "Songe obscur\nNiveau moyen 7",
-    "translation": "Чёрное Знамение\nСредний ярус 7"
+    "translation": "Чёрное Знамение Средний ярус 7"
   },
   {
     "id": 319,
     "original_en": "Black Omen\nMiddle Level 8 (Warp)",
     "original_fr": "Songe obscur\nNiveau moyen 8 (Téléporteur)",
-    "translation": "Чёрное Знамение\nСредний ярус 8 (Телепорт)"
+    "translation": "Чёрное Знамение Средний ярус 8 (Телепорт)"
   },
   {
     "id": 320,
     "original_en": "Black Omen\nLower Level 1 (Warp)",
     "original_fr": "Songe obscur\nNiveau inférieur 1 (Téléporteur)",
-    "translation": "Чёрное Знамение\nНижний ярус 1 (Телепорт)"
+    "translation": "Чёрное Знамение Нижний ярус 1 (Телепорт)"
   },
   {
     "id": 321,
     "original_en": "Black Omen\nLower Level 2",
     "original_fr": "Songe obscur\nNiveau inférieur 2",
-    "translation": "Чёрное Знамение\nНижний ярус 2"
+    "translation": "Чёрное Знамение Нижний ярус 2"
   },
   {
     "id": 322,
     "original_en": "Black Omen\nLower Level 3 (Giga M.)",
     "original_fr": "Songe obscur\nNiveau inférieur 3 (Gigamutant)",
-    "translation": "Чёрное Знамение\nНижний ярус 3 (Гига-мутант)"
+    "translation": "Чёрное Знамение Нижний ярус 3 (Гига-мутант)"
   },
   {
     "id": 323,
     "original_en": "Black Omen\nBottom Level 1",
     "original_fr": "Songe obscur\nProfondeurs 1",
-    "translation": "Чёрное Знамение\nНижний ярус 1"
+    "translation": "Чёрное Знамение Нижний ярус 1"
   },
   {
     "id": 324,
     "original_en": "Black Omen\nBottom Level 2 (Terra M.)",
     "original_fr": "Songe obscur\nProfondeurs 2 (Téramutant)",
-    "translation": "Чёрное Знамение\nНижний ярус 2 (Терра-мутант)"
+    "translation": "Чёрное Знамение Нижний ярус 2 (Терра-мутант)"
   },
   {
     "id": 325,
     "original_en": "Black Omen\nBottom Level 3",
     "original_fr": "Songe obscur\nProfondeurs 3",
-    "translation": "Чёрное Знамение\nНижний ярус 3"
+    "translation": "Чёрное Знамение Нижний ярус 3"
   },
   {
     "id": 326,
     "original_en": "Sun Shrine\nUnknown Era",
     "original_fr": "Berceau de la lumière\nîpoque inconnue",
-    "translation": "Святилище Солнца\nНеведомая эра"
+    "translation": "Святилище Солнца Неведомая эра"
   },
   {
     "id": 327,
     "original_en": "Zeal Palace\nJanus's Chamber",
     "original_fr": "Palais de Zhyle\nChambre de Janus",
-    "translation": "Дворец Зил\nПокои Януса"
+    "translation": "Дворец Зил Покои Януса"
   },
   {
     "id": 328,
     "original_en": "Zeal Palace\nSealed Door (Unopened)",
     "original_fr": "Palais de Zhyle\nPorte scellée (pas ouverte)",
-    "translation": "Дворец Зил\nДверь печати (Закрыта)"
+    "translation": "Дворец Зил Дверь печати (Закрыта)"
   },
   {
     "id": 329,
     "original_en": "Zeal Palace\nSealed Door (Opened)",
     "original_fr": "Palais de Zhyle\nPorte scellée (ouverte)",
-    "translation": "Дворец Зил\nДверь печати (Открыта)"
+    "translation": "Дворец Зил Дверь печати (Открыта)"
   },
   {
     "id": 330,
     "original_en": "Zeal Palace\nMammon Machine - 1",
     "original_fr": "Palais de Zhyle\nRéceptacle sacré - 1",
-    "translation": "Дворец Зил\nМашина Маммона — 1"
+    "translation": "Дворец Зил Машина Маммона — 1"
   },
   {
     "id": 331,
     "original_en": "Zeal Palace\nQueen's Chamber - 1",
     "original_fr": "Palais de Zhyle\nChambre de la reine - 1",
-    "translation": "Дворец Зил\nПокои королевы — 1"
+    "translation": "Дворец Зил Покои королевы — 1"
   },
   {
     "id": 332,
     "original_en": "Zeal Palace\nMammon Machine - 2",
     "original_fr": "Palais de Zhyle\nRéceptacle sacré - 2",
-    "translation": "Дворец Зил\nМашина Маммона — 2"
+    "translation": "Дворец Зил Машина Маммона — 2"
   },
   {
     "id": 333,
     "original_en": "Zeal Palace\nQueen's Chamber - 2",
     "original_fr": "Palais de Zhyle\nChambre de la reine - 2",
-    "translation": "Дворец Зил\nПокои королевы — 2"
+    "translation": "Дворец Зил Покои королевы — 2"
   },
   {
     "id": 334,
@@ -2025,85 +2025,85 @@
     "id": 337,
     "original_en": "Dream Project\nStaff, Residence",
     "original_fr": "Dream Team\nîquipe, Résidence",
-    "translation": "Проект мечты\nАвторы: Жилой дом"
+    "translation": "Проект мечты Авторы: Жилой дом"
   },
   {
     "id": 338,
     "original_en": "Dream Project\nStaff, Prehistoric Forest",
     "original_fr": "Dream Team\nîquipe, Forêt préhistorique",
-    "translation": "Проект мечты\nАвторы: Первобытный лес"
+    "translation": "Проект мечты Авторы: Первобытный лес"
   },
   {
     "id": 339,
     "original_en": "Dream Project\nStaff, Ocean Palace",
     "original_fr": "Dream Team\nîquipe, Sanctuaire sous-marin",
-    "translation": "Проект мечты\nАвторы: Подводный Дворец"
+    "translation": "Проект мечты Авторы: Подводный Дворец"
   },
   {
     "id": 340,
     "original_en": "Dream Project\nStaff, Prison",
     "original_fr": "Dream Team\nîquipe, Prison",
-    "translation": "Проект мечты\nАвторы: Тюрьма"
+    "translation": "Проект мечты Авторы: Тюрьма"
   },
   {
     "id": 341,
     "original_en": "Dream Project\nStaff, Terrans",
     "original_fr": "Dream Team\nîquipe, Terriens",
-    "translation": "Проект мечты\nАвторы: Жители Земли"
+    "translation": "Проект мечты Авторы: Жители Земли"
   },
   {
     "id": 342,
     "original_en": "Dream Project\nDream Staff",
     "original_fr": "Dream Team\nîquipe",
-    "translation": "Проект мечты\nАвторы: Проект мечты"
+    "translation": "Проект мечты Авторы: Проект мечты"
   },
   {
     "id": 343,
     "original_en": "Arris Dome Substructure 4\nSupply Room",
     "original_fr": "Dôme d'Arris (sous-sol) 4\nSalle d'entreposage des vivres",
-    "translation": "Недра Купола Аррис 4\nСклад провизии"
+    "translation": "Недра Купола Аррис 4 Склад провизии"
   },
   {
     "id": 344,
     "original_en": "Lucca's House\nEnding?",
     "original_fr": "Maison de Lucca\nFin?",
-    "translation": "Дом Лукки\nКонцовка?"
+    "translation": "Дом Лукки Концовка?"
   },
   {
     "id": 345,
     "original_en": "Lavos Past Mode\nGuardian",
     "original_fr": "Lavos mode du Passé\nGardien",
-    "translation": "Лавос: режим прошлого\nСтраж"
+    "translation": "Лавос: режим прошлого Страж"
   },
   {
     "id": 346,
     "original_en": "Lavos Past Mode\nDragon Tank",
     "original_fr": "Lavos mode du Passé\nDragon d'assaut",
-    "translation": "Лавос: режим прошлого\nТанк-дракон"
+    "translation": "Лавос: режим прошлого Танк-дракон"
   },
   {
     "id": 347,
     "original_en": "Lavos Past Mode\nHeckran",
     "original_fr": "Lavos mode du Passé\nHéclan",
-    "translation": "Лавос: режим прошлого\nХекран"
+    "translation": "Лавос: режим прошлого Хекран"
   },
   {
     "id": 348,
     "original_en": "Lavos Past Mode\nZombor",
     "original_fr": "Lavos mode du passé\nAbomination",
-    "translation": "Лавос: режим прошлого\nЗомбор"
+    "translation": "Лавос: режим прошлого Зомбор"
   },
   {
     "id": 349,
     "original_en": "Lavos Past Mode\nMasa/Mune",
     "original_fr": "Lavos mode du Passé\nGran et Léon",
-    "translation": "Лавос: режим прошлого\nМаса и Мунэ"
+    "translation": "Лавос: режим прошлого Маса и Мунэ"
   },
   {
     "id": 350,
     "original_en": "Small Cave\nGate",
     "original_fr": "Petite caverne\nPortail",
-    "translation": "Малая пещера\nВрата"
+    "translation": "Малая пещера Врата"
   },
   {
     "id": 351,
@@ -2127,7 +2127,7 @@
     "id": 354,
     "original_en": "Enhasa\nPlaza",
     "original_fr": "Enhassa\nPlace",
-    "translation": "Энхаса\nПлощадь"
+    "translation": "Энхаса Площадь"
   },
   {
     "id": 355,
@@ -2139,31 +2139,31 @@
     "id": 356,
     "original_en": "Kajar\nPlaza",
     "original_fr": "Kajar\nGrande salle",
-    "translation": "Каджар\nПлощадь"
+    "translation": "Каджар Площадь"
   },
   {
     "id": 357,
     "original_en": "Kajar\nSmall Room",
     "original_fr": "Kajar\nPetite salle",
-    "translation": "Каджар\nМалая комната"
+    "translation": "Каджар Малая комната"
   },
   {
     "id": 358,
     "original_en": "Kajar\nHidden Room",
     "original_fr": "Kajar\nSalle secrète",
-    "translation": "Каджар\nТайная комната"
+    "translation": "Каджар Тайная комната"
   },
   {
     "id": 359,
     "original_en": "Kajar\nMagic Research Lab",
     "original_fr": "Kajar\nLaboratoire de recherche magique",
-    "translation": "Каджар\nЛаборатория магии"
+    "translation": "Каджар Лаборатория магии"
   },
   {
     "id": 360,
     "original_en": "Enhasa\nHidden Room",
     "original_fr": "Enhassa\nSalle secrète",
-    "translation": "Энхаса\nТайная комната"
+    "translation": "Энхаса Тайная комната"
   },
   {
     "id": 361,
@@ -2175,133 +2175,133 @@
     "id": 362,
     "original_en": "Blackbird\nLeft Wing",
     "original_fr": "Cygne noir\nAile gauche",
-    "translation": "«Чёрный дрозд»\nЛевое крыло"
+    "translation": "«Чёрный дрозд» Левое крыло"
   },
   {
     "id": 363,
     "original_en": "Blackbird\nRight Deck",
     "original_fr": "Cygne noir\nPont droit",
-    "translation": "«Чёрный дрозд»\nПравая палуба"
+    "translation": "«Чёрный дрозд» Правая палуба"
   },
   {
     "id": 364,
     "original_en": "Blackbird\nLeft Deck",
     "original_fr": "Cygne noir\nPont gauche",
-    "translation": "«Чёрный дрозд»\nЛевая палуба"
+    "translation": "«Чёрный дрозд» Левая палуба"
   },
   {
     "id": 365,
     "original_en": "Blackbird\nPanorama",
     "original_fr": "Cygne noir\nPanorama",
-    "translation": "«Чёрный дрозд»\nПанорама"
+    "translation": "«Чёрный дрозд» Панорама"
   },
   {
     "id": 366,
     "original_en": "Blackbird\nEpoch Upgrade Room",
     "original_fr": "Cygne noir\nSalle de modification de l'Ibis",
-    "translation": "«Чёрный дрозд»\nМастерская Эпохи"
+    "translation": "«Чёрный дрозд» Мастерская Эпохи"
   },
   {
     "id": 367,
     "original_en": "Blackbird\nRearward Passage",
     "original_fr": "Cygne noir\nPassage arrière",
-    "translation": "«Чёрный дрозд»\nЗадний проход"
+    "translation": "«Чёрный дрозд» Задний проход"
   },
   {
     "id": 368,
     "original_en": "Blackbird\nForward Passage",
     "original_fr": "Cygne noir\nPassage avant",
-    "translation": "«Чёрный дрозд»\nПередний проход"
+    "translation": "«Чёрный дрозд» Передний проход"
   },
   {
     "id": 369,
     "original_en": "Blackbird\nRoom 1",
     "original_fr": "Cygne noir\nSalle 1",
-    "translation": "«Чёрный дрозд»\nКомната 1"
+    "translation": "«Чёрный дрозд» Комната 1"
   },
   {
     "id": 370,
     "original_en": "Blackbird\nRoom 2",
     "original_fr": "Cygne noir\nSalle 2",
-    "translation": "«Чёрный дрозд»\nКомната 2"
+    "translation": "«Чёрный дрозд» Комната 2"
   },
   {
     "id": 371,
     "original_en": "Blackbird\nRoom 3",
     "original_fr": "Cygne noir\nSalle 3",
-    "translation": "«Чёрный дрозд»\nКомната 3"
+    "translation": "«Чёрный дрозд» Комната 3"
   },
   {
     "id": 372,
     "original_en": "Blackbird\nRoom 4",
     "original_fr": "Cygne noir\nSalle 4",
-    "translation": "«Чёрный дрозд»\nКомната 4"
+    "translation": "«Чёрный дрозд» Комната 4"
   },
   {
     "id": 373,
     "original_en": "Blackbird\nRoom 5",
     "original_fr": "Cygne noir\nSalle 5",
-    "translation": "«Чёрный дрозд»\nКомната 5"
+    "translation": "«Чёрный дрозд» Комната 5"
   },
   {
     "id": 374,
     "original_en": "Blackbird\nRoom 6",
     "original_fr": "Cygne noir\nSalle 6",
-    "translation": "«Чёрный дрозд»\nКомната 6"
+    "translation": "«Чёрный дрозд» Комната 6"
   },
   {
     "id": 375,
     "original_en": "Blackbird\nVentillation Shaft",
     "original_fr": "Cygne noir\nConduit d'aération",
-    "translation": "«Чёрный дрозд»\nВентиляционная шахта"
+    "translation": "«Чёрный дрозд» Вентиляционная шахта"
   },
   {
     "id": 376,
     "original_en": "Epoch\nIn Flight 1",
     "original_fr": "Ibis\nEn vol 1",
-    "translation": "Эпоха\nВ полёте 1"
+    "translation": "Эпоха В полёте 1"
   },
   {
     "id": 377,
     "original_en": "Dream Project\nStaff, Future Factory",
     "original_fr": "Dream Team\nîquipe, Usine du Futur",
-    "translation": "Проект мечты\nАвторы: Завод будущего"
+    "translation": "Проект мечты Авторы: Завод будущего"
   },
   {
     "id": 378,
     "original_en": "Dream Project\nEnd of Time",
     "original_fr": "Dream Team\nFin des temps",
-    "translation": "Проект мечты\nКонец Времён"
+    "translation": "Проект мечты Конец Времён"
   },
   {
     "id": 379,
     "original_en": "Algetty\nPanorama",
     "original_fr": "Alguetti\nPanorama",
-    "translation": "Альгетти\nПанорама"
+    "translation": "Альгетти Панорама"
   },
   {
     "id": 380,
     "original_en": "Algetty\nInn",
     "original_fr": "Alguetti\nAuberge",
-    "translation": "Альгетти\nГостиница"
+    "translation": "Альгетти Гостиница"
   },
   {
     "id": 381,
     "original_en": "Algetty\nElder's Room",
     "original_fr": "Alguetti\nSalle de l'ancien",
-    "translation": "Альгетти\nКомната старейшины"
+    "translation": "Альгетти Комната старейшины"
   },
   {
     "id": 382,
     "original_en": "Algetty\nResident's Room",
     "original_fr": "Alguetti\nSalle d'un habitant",
-    "translation": "Альгетти\nКомната жителя"
+    "translation": "Альгетти Комната жителя"
   },
   {
     "id": 383,
     "original_en": "Algetty\nItem Shop",
     "original_fr": "Alguetti\nMagasin",
-    "translation": "Альгетти\nЛавка предметов"
+    "translation": "Альгетти Лавка предметов"
   },
   {
     "id": 384,
@@ -2331,43 +2331,43 @@
     "id": 388,
     "original_en": "Small Cave\nFloating Continent",
     "original_fr": "Petite grotte\nContinent flottant",
-    "translation": "Малая пещера\nПарящий континент"
+    "translation": "Малая пещера Парящий континент"
   },
   {
     "id": 389,
     "original_en": "Dream Project\nStaff, Prehistoric Hut",
     "original_fr": "Dream Team\nîquipe, tente préhistorique",
-    "translation": "Проект мечты\nАвторы: Первобытная хижина"
+    "translation": "Проект мечты Авторы: Первобытная хижина"
   },
   {
     "id": 390,
     "original_en": "Dream Project\nStaff, Magus's Keep",
     "original_fr": "Dream Team\nîquipe, Palais du Magistère",
-    "translation": "Проект мечты\nАвторы: Замок Магуса"
+    "translation": "Проект мечты Авторы: Замок Магуса"
   },
   {
     "id": 391,
     "original_en": "Mountain of Woe\nStation 3",
     "original_fr": "Mont du tourment\nStation 3",
-    "translation": "Гора Скорби\nУступ 3"
+    "translation": "Гора Скорби Уступ 3"
   },
   {
     "id": 392,
     "original_en": "Mountain of Woe\nStation 5",
     "original_fr": "Mont du tourment\nStation 5",
-    "translation": "Гора Скорби\nУступ 5"
+    "translation": "Гора Скорби Уступ 5"
   },
   {
     "id": 393,
     "original_en": "Mountain of Woe\nBase",
     "original_fr": "Mont du tourment\nBase",
-    "translation": "Гора Скорби\nПодножие"
+    "translation": "Гора Скорби Подножие"
   },
   {
     "id": 394,
     "original_en": "Mountain of Woe\nStation 8",
     "original_fr": "Mont du tourment\nStation 8",
-    "translation": "Гора Скорби\nУступ 8"
+    "translation": "Гора Скорби Уступ 8"
   },
   {
     "id": 395,
@@ -2379,19 +2379,19 @@
     "id": 396,
     "original_en": "Mountain of Woe\nGiga Gaia Battle",
     "original_fr": "Mont du tourment\nBataille gigaga¿a",
-    "translation": "Гора Скорби\nБитва: Гига-Гея"
+    "translation": "Гора Скорби Битва: Гига-Гея"
   },
   {
     "id": 397,
     "original_en": "Leene Square\nUnspecified",
     "original_fr": "Place de Lynne\nNon-spécifié",
-    "translation": "Площадь Лины\nНе указано"
+    "translation": "Площадь Лины Не указано"
   },
   {
     "id": 398,
     "original_en": "Crono's House\nUnspecified",
     "original_fr": "Maison de Chrono\nNon-spécifié",
-    "translation": "Дом Кроно\nНе указано"
+    "translation": "Дом Кроно Не указано"
   },
   {
     "id": 399,
@@ -2403,109 +2403,109 @@
     "id": 400,
     "original_en": "Zeal Palace\nMain Hall",
     "original_fr": "Palais de Zhyle\nSalle principale",
-    "translation": "Дворец Зил\nГлавный зал"
+    "translation": "Дворец Зил Главный зал"
   },
   {
     "id": 401,
     "original_en": "Zeal Palace\nPassage to Janus's Room",
     "original_fr": "Palais de Zhyle\nCorridor vers la chambre de Janus",
-    "translation": "Дворец Зил\nПроход в покои Януса"
+    "translation": "Дворец Зил Проход в покои Януса"
   },
   {
     "id": 402,
     "original_en": "Zeal Palace\nSchala's Room",
     "original_fr": "Palais de Zhyle\nChambre de Sarah",
-    "translation": "Дворец Зил\nКомната Шалы"
+    "translation": "Дворец Зил Комната Шалы"
   },
   {
     "id": 403,
     "original_en": "Ocean Palace\nUpon Entering",
     "original_fr": "Sanctuaire sous-marin\nEn entrant",
-    "translation": "Подводный Дворец\nПри входе"
+    "translation": "Подводный Дворец При входе"
   },
   {
     "id": 404,
     "original_en": "Ocean Palace\nUpper Level, Main Hall",
     "original_fr": "Sanctuaire sous-marin\nNiveau supérieur, salle principale",
-    "translation": "Подводный Дворец\nВерхний ярус: Главный зал"
+    "translation": "Подводный Дворец Верхний ярус: Главный зал"
   },
   {
     "id": 405,
     "original_en": "Ocean Palace\nUpper Level, Small Room",
     "original_fr": "Sanctuaire sous-marin\nNiveau supérieur, petite salle",
-    "translation": "Подводный Дворец\nВерхний ярус: Малая комната"
+    "translation": "Подводный Дворец Верхний ярус: Малая комната"
   },
   {
     "id": 406,
     "original_en": "Ocean Palace\nUpper Level, Door Switch",
     "original_fr": "Sanctuaire sous-marin\nNiveau supérieur, bouton",
-    "translation": "Подводный Дворец\nВерхний ярус: Рычаг двери"
+    "translation": "Подводный Дворец Верхний ярус: Рычаг двери"
   },
   {
     "id": 407,
     "original_en": "Ocean Palace\nUpper Level -> Great Stair",
     "original_fr": "Sanctuaire sous-marin\nNiveau supérieur -> grand escalier",
-    "translation": "Подводный Дворец\nВерхний ярус -> Лестница"
+    "translation": "Подводный Дворец Верхний ярус -> Лестница"
   },
   {
     "id": 408,
     "original_en": "Ocean Palace\nGreat Stair",
     "original_fr": "Sanctuaire sous-marin\nGrand escalier",
-    "translation": "Подводный Дворец\nПарадная лестница"
+    "translation": "Подводный Дворец Парадная лестница"
   },
   {
     "id": 409,
     "original_en": "Ocean Palace\nGreat Stair -> Lower Level",
     "original_fr": "Sanctuaire sous-marin\nGrand escalier -> Niveau inférieur",
-    "translation": "Подводный Дворец\nПарадная лестница -> Низ"
+    "translation": "Подводный Дворец Парадная лестница -> Низ"
   },
   {
     "id": 410,
     "original_en": "Ocean Palace\nElevator (Lower Level)",
     "original_fr": "Sanctuaire sous-marin\nAscenseur (Niveau inférieur)",
-    "translation": "Подводный Дворец\nЛифт (Нижний ярус)"
+    "translation": "Подводный Дворец Лифт (Нижний ярус)"
   },
   {
     "id": 411,
     "original_en": "Ocean Palace\nLowest Level, Main Hall",
     "original_fr": "Sanctuaire sous-marin\nNiveau inférieur, salle principale",
-    "translation": "Подводный Дворец\nНижний ярус: Главный зал"
+    "translation": "Подводный Дворец Нижний ярус: Главный зал"
   },
   {
     "id": 412,
     "original_en": "Ocean Palace\nLowest Level, Passage",
     "original_fr": "Sanctuaire sous-marin\nNiveau inférieur, passage",
-    "translation": "Подводный Дворец\nНижний ярус: Коридор"
+    "translation": "Подводный Дворец Нижний ярус: Коридор"
   },
   {
     "id": 413,
     "original_en": "Ocean Palace\nGolem Battle",
     "original_fr": "Sanctuaire sous-marin\nBataille golem",
-    "translation": "Подводный Дворец\nБитва: Голем"
+    "translation": "Подводный Дворец Битва: Голем"
   },
   {
     "id": 414,
     "original_en": "Ocean Palace\nLowest Level, Mammon Machine",
     "original_fr": "Sanctuaire sous-marin\nNiveau inférieur, Réceptacle sacré",
-    "translation": "Подводный Дворец\nНижний ярус: Машина Маммона"
+    "translation": "Подводный Дворец Нижний ярус: Машина Маммона"
   },
   {
     "id": 415,
     "original_en": "Ocean Palace\nElevator (Descending)",
     "original_fr": "Sanctuaire sous-marin\nAscenseur (Descendant)",
-    "translation": "Подводный Дворец\nЛифт (Спуск)"
+    "translation": "Подводный Дворец Лифт (Спуск)"
   },
   {
     "id": 416,
     "original_en": "Ocean Palace\nElevator (Upper Level)",
     "original_fr": "Sanctuaire sous-marin\nAscenseur (Niveau supérieur)",
-    "translation": "Подводный Дворец\nЛифт (Верхний ярус)"
+    "translation": "Подводный Дворец Лифт (Верхний ярус)"
   },
   {
     "id": 417,
     "original_en": "Ocean Palace\nElevator (Bottom Level)",
     "original_fr": "Sanctuaire sous-marin\nAscenseur (Profondeurs)",
-    "translation": "Подводный Дворец\nЛифт (Нижний ярус)"
+    "translation": "Подводный Дворец Лифт (Нижний ярус)"
   },
   {
     "id": 418,
@@ -2529,37 +2529,37 @@
     "id": 421,
     "original_en": "Ocean Palace\nMammon Machine Battle",
     "original_fr": "Sanctuaire sous-marin\nBataille Réceptacle sacré",
-    "translation": "Подводный Дворец\nБитва: Машина Маммона"
+    "translation": "Подводный Дворец Битва: Машина Маммона"
   },
   {
     "id": 422,
     "original_en": "Ocean Palace\nLavos Battle (Strongest)",
     "original_fr": "Sanctuaire sous-marin\nBataille Lavos (Fort)",
-    "translation": "Подводный Дворец\nБитва с Лавосом (Макс.)"
+    "translation": "Подводный Дворец Битва с Лавосом (Макс.)"
   },
   {
     "id": 423,
     "original_en": "Surviving Village\nPlaza",
     "original_fr": "Village des survivants\nPlace du village",
-    "translation": "Уцелевшая деревня\nПлощадь"
+    "translation": "Уцелевшая деревня Площадь"
   },
   {
     "id": 424,
     "original_en": "Surviving Village\nBeds",
     "original_fr": "Village des survivants\nLits",
-    "translation": "Уцелевшая деревня\nСпальня"
+    "translation": "Уцелевшая деревня Спальня"
   },
   {
     "id": 425,
     "original_en": "Surviving Village\nItem Shop",
     "original_fr": "Village des survivants\nMagasin",
-    "translation": "Уцелевшая деревня\nЛавка предметов"
+    "translation": "Уцелевшая деревня Лавка предметов"
   },
   {
     "id": 426,
     "original_en": "Surviving Village\nResidence",
     "original_fr": "Village des survivants\nRésidence",
-    "translation": "Уцелевшая деревня\nЖилой дом"
+    "translation": "Уцелевшая деревня Жилой дом"
   },
   {
     "id": 427,
@@ -2571,13 +2571,13 @@
     "id": 428,
     "original_en": "Death Peak\nCrono Revival Event",
     "original_fr": "Mont des défunts\nîvénement résurrection de Chrono",
-    "translation": "Пик Смерти\nВоскрешение Кроно"
+    "translation": "Пик Смерти Воскрешение Кроно"
   },
   {
     "id": 429,
     "original_en": "Tyranno Lair\nImprisoned Villagers",
     "original_fr": "Fort Tyrannos\nVillageois prisonniers",
-    "translation": "Логово Тирана\nПленённые жители"
+    "translation": "Логово Тирана Пленённые жители"
   },
   {
     "id": 430,
@@ -2589,7 +2589,7 @@
     "id": 431,
     "original_en": "Epoch\nIn Flight 2",
     "original_fr": "Ibis\nEn vol 2",
-    "translation": "Эпоха\nВ полёте 2"
+    "translation": "Эпоха В полёте 2"
   },
   {
     "id": 432,
@@ -2601,85 +2601,85 @@
     "id": 433,
     "original_en": "Leene Square\nBekkler's Lab",
     "original_fr": "Place de Lynne\nTente de Bekkler",
-    "translation": "Площадь Лины\nЛаборатория Бекклера"
+    "translation": "Площадь Лины Лаборатория Бекклера"
   },
   {
     "id": 434,
     "original_en": "Magic Cave\nEntrance",
     "original_fr": "Grotte des mystiques\nEntrée",
-    "translation": "Волшебная пещера\nВход"
+    "translation": "Волшебная пещера Вход"
   },
   {
     "id": 435,
     "original_en": "Fiona's Shrine\nNearby Woods",
     "original_fr": "Sanctuaire de Fiona\nForêt",
-    "translation": "Fiona's Shrine\nБлижний лес"
+    "translation": "Fiona's Shrine Ближний лес"
   },
   {
     "id": 436,
     "original_en": "Derelict Factory\nReject Room",
     "original_fr": "Usine désaffectée\nSalle des rejets",
-    "translation": "Заброшенный завод\nКомната отходов"
+    "translation": "Заброшенный завод Комната отходов"
   },
   {
     "id": 437,
     "original_en": "Guardia Castle\nHall of Justice",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nTribunal",
-    "translation": "Замок Гардия\nЗал правосудия"
+    "translation": "Замок Гардия Зал правосудия"
   },
   {
     "id": 438,
     "original_en": "Leene Square\nPlaza Rear",
     "original_fr": "Place de Lynne\nArrière",
-    "translation": "Площадь Лины\nЗадворки площади"
+    "translation": "Площадь Лины Задворки площади"
   },
   {
     "id": 439,
     "original_en": "Guardia Castle\nTreasury",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nTrésorerie",
-    "translation": "Замок Гардия\nСокровищница"
+    "translation": "Замок Гардия Сокровищница"
   },
   {
     "id": 440,
     "original_en": "Guardia Castle\nBefore Hall of Justice",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nAvant tribunal",
-    "translation": "Замок Гардия\nПеред Залом правосудия"
+    "translation": "Замок Гардия Перед Залом правосудия"
   },
   {
     "id": 441,
     "original_en": "Blackbird\nRoom 7",
     "original_fr": "Cygne noir\nSalle 7",
-    "translation": "«Чёрный дрозд»\nКомната 7"
+    "translation": "«Чёрный дрозд» Комната 7"
   },
   {
     "id": 442,
     "original_en": "Blackbird\nRoom 8",
     "original_fr": "Cygne noir\nSalle 8",
-    "translation": "«Чёрный дрозд»\nКомната 8"
+    "translation": "«Чёрный дрозд» Комната 8"
   },
   {
     "id": 443,
     "original_en": "Blackbird\nRoom 9",
     "original_fr": "Cygne noir\nSalle 9",
-    "translation": "«Чёрный дрозд»\nКомната 9"
+    "translation": "«Чёрный дрозд» Комната 9"
   },
   {
     "id": 444,
     "original_en": "Blackbird\nRoom 10",
     "original_fr": "Cygne noir\nSalle 10",
-    "translation": "«Чёрный дрозд»\nКомната 10"
+    "translation": "«Чёрный дрозд» Комната 10"
   },
   {
     "id": 445,
     "original_en": "Magus's Keep\nExterior Stairway 2",
     "original_fr": "Palais du Magistère\nExtérieur Escalier 2",
-    "translation": "Замок Магуса\nВнешняя лестница 2"
+    "translation": "Замок Магуса Внешняя лестница 2"
   },
   {
     "id": 446,
     "original_en": "Magus's Keep\nBefore Final Magus Battle",
     "original_fr": "Palais du Magistère\nAvant dernière bataille Magus",
-    "translation": "Замок Магуса\nПеред финалом битвы с Магусом"
+    "translation": "Замок Магуса Перед финалом битвы с Магусом"
   },
   {
     "id": 447,
@@ -2691,19 +2691,19 @@
     "id": 448,
     "original_en": "Black Omen\nEntrance",
     "original_fr": "Songe obscur\nEntrée",
-    "translation": "Чёрное Знамение\nВход"
+    "translation": "Чёрное Знамение Вход"
   },
   {
     "id": 449,
     "original_en": "Black Omen\nBottom Level 5",
     "original_fr": "Songe obscur\nProfondeurs 5",
-    "translation": "Чёрное Знамение\nНижний ярус 5"
+    "translation": "Чёрное Знамение Нижний ярус 5"
   },
   {
     "id": 450,
     "original_en": "Black Omen\nBottom Level 6 (Lowest Reaches)",
     "original_fr": "Songe obscur\nProfondeurs 6 (Niveau inférieur)",
-    "translation": "Чёрное Знамение\nНижний ярус 6 (Глубины)"
+    "translation": "Чёрное Знамение Нижний ярус 6 (Глубины)"
   },
   {
     "id": 451,
@@ -2733,25 +2733,25 @@
     "id": 455,
     "original_en": "Lavos Past Mode\nNizbel",
     "original_fr": "Lavos mode du passé\nNizbel",
-    "translation": "Лавос: режим прошлого\nНизбель"
+    "translation": "Лавос: режим прошлого Низбель"
   },
   {
     "id": 456,
     "original_en": "Lavos Past Mode\nMagus",
     "original_fr": "Lavos mode du passé\nMagus",
-    "translation": "Лавос: режим прошлого\nМагус"
+    "translation": "Лавос: режим прошлого Магус"
   },
   {
     "id": 457,
     "original_en": "Lavos Past Mode\nBlack T. & Azala",
     "original_fr": "Lavos mode du passé\nTyrannosaure brun et Azara",
-    "translation": "Лавос: режим прошлого\nЧёрный Тиран и Азала"
+    "translation": "Лавос: режим прошлого Чёрный Тиран и Азала"
   },
   {
     "id": 458,
     "original_en": "Lavos Past Mode\nGiga Gaia",
     "original_fr": "Lavos mode du passé\nGigaga¿a",
-    "translation": "Лавос: режим прошлого\nГига-Гея"
+    "translation": "Лавос: режим прошлого Гига-Гея"
   },
   {
     "id": 459,
@@ -2781,157 +2781,157 @@
     "id": 463,
     "original_en": "End of Time\nGasper's Room",
     "original_fr": "Fin des temps\nSalle de Hasch",
-    "translation": "Конец Времён\nКомната Гаспара"
+    "translation": "Конец Времён Комната Гаспара"
   },
   {
     "id": 464,
     "original_en": "End of Time\nSpekkio's Room",
     "original_fr": "Fin des temps\nSalle de Specchio",
-    "translation": "Конец Времён\nКомната Спеккио"
+    "translation": "Конец Времён Комната Спеккио"
   },
   {
     "id": 465,
     "original_en": "Lavos Shell\nShell Destroyed",
     "original_fr": "Carapace de Lavos\nCarapace détruite",
-    "translation": "Оболочка Лавоса\nОболочка уничтожена"
+    "translation": "Оболочка Лавоса Оболочка уничтожена"
   },
   {
     "id": 466,
     "original_en": "Lavos Shell\nBattle vs Shell",
     "original_fr": "Carapace de Lavos\nBataille contre carapace",
-    "translation": "Оболочка Лавоса\nБитва с Оболочкой"
+    "translation": "Оболочка Лавоса Битва с Оболочкой"
   },
   {
     "id": 467,
     "original_en": "Guardia Castle\nWestern Stair",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier ouest",
-    "translation": "Замок Гардия\nЗападная лестница"
+    "translation": "Замок Гардия Западная лестница"
   },
   {
     "id": 468,
     "original_en": "Magus's Keep\nWestern Passage",
     "original_fr": "Palais du Magistère\nCorridor ouest",
-    "translation": "Замок Магуса\nЗападный коридор"
+    "translation": "Замок Магуса Западный коридор"
   },
   {
     "id": 469,
     "original_en": "Magus's Keep\nBefore Ozzie's Room",
     "original_fr": "Palais du Magistère\nAvant Salle de Vinnie",
-    "translation": "Замок Магуса\nПеред покоями Оззи"
+    "translation": "Замок Магуса Перед покоями Оззи"
   },
   {
     "id": 470,
     "original_en": "Magus's Keep\nAfter Pit Trap",
     "original_fr": "Palais du Magistère\nDevant Piège (trou)",
-    "translation": "Замок Магуса\nПосле ловушки с ямой"
+    "translation": "Замок Магуса После ловушки с ямой"
   },
   {
     "id": 471,
     "original_en": "1999\nVia Epoch",
     "original_fr": "1999\nVia Ibis",
-    "translation": "1999 г.\nНа Эпохе"
+    "translation": "1999 г. На Эпохе"
   },
   {
     "id": 472,
     "original_en": "End of Time\nEpoch",
     "original_fr": "Fin des temps\nIbis",
-    "translation": "Конец Времён\nЭпоха"
+    "translation": "Конец Времён Эпоха"
   },
   {
     "id": 473,
     "original_en": "Lavos Interior\nBefore Final Battle",
     "original_fr": "Lavos Intérieur\nAvant dernière bataille",
-    "translation": "Чрево Лавоса\nПеред финальной битвой"
+    "translation": "Чрево Лавоса Перед финальной битвой"
   },
   {
     "id": 474,
     "original_en": "Lavos Interior\nLavos Battle",
     "original_fr": "Lavos Intérieur\nBataille de Lavos",
-    "translation": "Чрево Лавоса\nБитва с Лавосом"
+    "translation": "Чрево Лавоса Битва с Лавосом"
   },
   {
     "id": 475,
     "original_en": "1999\nA Dome",
     "original_fr": "1999\nUn dôme",
-    "translation": "1999 г.\nКупол А"
+    "translation": "1999 г. Купол А"
   },
   {
     "id": 476,
     "original_en": "Epoch\nUnspecified",
     "original_fr": "Ibis\nNon-spécifié",
-    "translation": "Эпоха\nНе указано"
+    "translation": "Эпоха Не указано"
   },
   {
     "id": 477,
     "original_en": "Blackbird\nUnspecified (Dungeon)",
     "original_fr": "Cygne noir\nNon-spécifié (Donjon)",
-    "translation": "«Чёрный дрозд»\nНе указано (Подземелье)"
+    "translation": "«Чёрный дрозд» Не указано (Подземелье)"
   },
   {
     "id": 478,
     "original_en": "Lavos Interior\nLavos Core Battle",
     "original_fr": "Lavos Intérieur\nBataille c{TAG:61}ur de Lavos",
-    "translation": "Чрево Лавоса\nБитва: Ядро Лавоса"
+    "translation": "Чрево Лавоса Битва: Ядро Лавоса"
   },
   {
     "id": 479,
     "original_en": "Guardia Castle\nEastern Stair",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier est",
-    "translation": "Замок Гардия\nEastern Stair"
+    "translation": "Замок Гардия Eastern Stair"
   },
   {
     "id": 480,
     "original_en": "Blackbird\nUnspecified (Exterior)",
     "original_fr": "Cygne noir\nNon-spécifié (Extérieur)",
-    "translation": "«Чёрный дрозд»\nНе указано (Снаружи)"
+    "translation": "«Чёрный дрозд» Не указано (Снаружи)"
   },
   {
     "id": 481,
     "original_en": "Blackbird\nRoom 11",
     "original_fr": "Cygne noir\nSalle 11",
-    "translation": "«Чёрный дрозд»\nКомната 11"
+    "translation": "«Чёрный дрозд» Комната 11"
   },
   {
     "id": 482,
     "original_en": "Blackbird\nRoom 12",
     "original_fr": "Cygne noir\nSalle 12",
-    "translation": "«Чёрный дрозд»\nКомната 12"
+    "translation": "«Чёрный дрозд» Комната 12"
   },
   {
     "id": 483,
     "original_en": "Blackbird\nRoom 13",
     "original_fr": "Cygne noir\nSalle 13",
-    "translation": "«Чёрный дрозд»\nКомната 13"
+    "translation": "«Чёрный дрозд» Комната 13"
   },
   {
     "id": 484,
     "original_en": "Blackbird\nRoom 14",
     "original_fr": "Cygne noir\nSalle 14",
-    "translation": "«Чёрный дрозд»\nКомната 14"
+    "translation": "«Чёрный дрозд» Комната 14"
   },
   {
     "id": 485,
     "original_en": "Guardia Castle\nEastern Stair",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier est",
-    "translation": "Замок Гардия\nEastern Stair"
+    "translation": "Замок Гардия Eastern Stair"
   },
   {
     "id": 486,
     "original_en": "Guardia Castle\nWestern Stair",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier ouest",
-    "translation": "Замок Гардия\nЗападная лестница"
+    "translation": "Замок Гардия Западная лестница"
   },
   {
     "id": 487,
     "original_en": "Guardia Castle\nStair to Hall of Justice",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier du tribunal",
-    "translation": "Замок Гардия\nЛестница в Зал правосудия"
+    "translation": "Замок Гардия Лестница в Зал правосудия"
   },
   {
     "id": 488,
     "original_en": "Guardia Castle\nPrison Stairway",
     "original_fr": "Ch{TAG:4A}teau de Gardia\nEscalier de la prison",
-    "translation": "Замок Гардия\nТюремная лестница"
+    "translation": "Замок Гардия Тюремная лестница"
   },
   {
     "id": 489,
@@ -2955,18 +2955,18 @@
     "id": 492,
     "original_en": "Somewhere\nDestruction of Lavos",
     "original_fr": "Quelque part\nDestruction de Lavos",
-    "translation": "Неизвестно где\nУничтожение Лавоса"
+    "translation": "Неизвестно где Уничтожение Лавоса"
   },
   {
     "id": 493,
     "original_en": "Somewhere 2\nDestruction of Lavos 2",
     "original_fr": "Quelque part 2\nDestruction de Lavos 2",
-    "translation": "Неизвестно где 2\nУничтожение Лавоса 2"
+    "translation": "Неизвестно где 2 Уничтожение Лавоса 2"
   },
   {
     "id": 494,
     "original_en": "Death Peak\nLavos Spawn - 3",
     "original_fr": "Mont des défunts\nLarve de Lavos - 3",
-    "translation": "Пик Смерти\nLavos Spawn — 3"
+    "translation": "Пик Смерти Lavos Spawn — 3"
   }
 ]

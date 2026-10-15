@@ -2367,7 +2367,7 @@
     "id": 394,
     "original_en": "220 Arris Dome Substructure - Sealed Treasure Room",
     "original_fr": "220 Dôme d'Arris (sous-sol) - Salle du trésor scellé",
-    "translation": "220 Недра Купола Аррис — Запечатанная сокровищница"
+    "translation": "220 Недра Купола Аррис —\nЗапечатанная сокровищница"
   },
   {
     "id": 395,
@@ -2883,7 +2883,7 @@
     "id": 480,
     "original_en": "308 Black Omen - Upper Level 1 (Mega M.)",
     "original_fr": "308 Songe obscur - Niveau supérieur 1 (Mégamutant)",
-    "translation": "308 Чёрное Знамение — Верхний ярус 1 (Мега-мутант)"
+    "translation": "308 Чёрное Знамение — Верхний ярус 1\n(Мега-мутант)"
   },
   {
     "id": 481,
@@ -2985,7 +2985,7 @@
     "id": 497,
     "original_en": "325 Black Omen - Bottom Level 2 (Terra M.)",
     "original_fr": "325 Songe obscur - Profondeurs 2 (Téramutant)",
-    "translation": "325 Чёрное Знамение — Нижний ярус 2 (Терра-мутант)"
+    "translation": "325 Чёрное Знамение —\nНижний ярус 2 (Терра-мутант)"
   },
   {
     "id": 498,
@@ -3147,7 +3147,7 @@
     "id": 524,
     "original_en": "361 Enhasa-  Hidden Room",
     "original_fr": "361 Enhassa - Salle secrète",
-    "translation": "361 Enhasa-  Hidden Room"
+    "translation": "361 Enhasa- Hidden Room"
   },
   {
     "id": 525,
@@ -3381,49 +3381,49 @@
     "id": 563,
     "original_en": "405 Ocean Palace - Upper Level, Main Hall",
     "original_fr": "405 Sanctuaire sous-marin - Niveau supérieur, salle principale",
-    "translation": "405 Подводный Дворец — Верхний ярус: Главный зал"
+    "translation": "405 Подводный Дворец — Верхний ярус: Главный\nзал"
   },
   {
     "id": 564,
     "original_en": "406_1 Ocean Palace - Upper Level, Small Room",
     "original_fr": "406_1 Sanctuaire sous-marin - Niveau supérieur, petite salle",
-    "translation": "406_1 Подводный Дворец — Верхний ярус: Малая комната"
+    "translation": "406_1 Подводный Дворец —\nВерхний ярус: Малая комната"
   },
   {
     "id": 565,
     "original_en": "406_2 Ocean Palace - Upper Level, Small Room",
     "original_fr": "406_2 Sanctuaire sous-marin - Niveau supérieur, petite salle",
-    "translation": "406_2 Подводный Дворец — Верхний ярус: Малая комната"
+    "translation": "406_2 Подводный Дворец —\nВерхний ярус: Малая комната"
   },
   {
     "id": 566,
     "original_en": "406_3 Ocean Palace - Upper Level, Small Room",
     "original_fr": "406_3 Sanctuaire sous-marin - Niveau supérieur, petite salle",
-    "translation": "406_3 Подводный Дворец — Верхний ярус: Малая комната"
+    "translation": "406_3 Подводный Дворец —\nВерхний ярус: Малая комната"
   },
   {
     "id": 567,
     "original_en": "406_4 Ocean Palace - Upper Level, Small Room",
     "original_fr": "406_4 Sanctuaire sous-marin - Niveau supérieur, petite salle",
-    "translation": "406_4 Подводный Дворец — Верхний ярус: Малая комната"
+    "translation": "406_4 Подводный Дворец —\nВерхний ярус: Малая комната"
   },
   {
     "id": 568,
     "original_en": "406_5 Ocean Palace - Upper Level, Small Room",
     "original_fr": "406_5 Sanctuaire sous-marin - Niveau supérieur, petite salle",
-    "translation": "406_5 Подводный Дворец — Верхний ярус: Малая комната"
+    "translation": "406_5 Подводный Дворец —\nВерхний ярус: Малая комната"
   },
   {
     "id": 569,
     "original_en": "406_6 Ocean Palace - Upper Level, Small Room",
     "original_fr": "406_6 Sanctuaire sous-marin - Niveau supérieur, petite salle",
-    "translation": "406_6 Подводный Дворец — Верхний ярус: Малая комната"
+    "translation": "406_6 Подводный Дворец —\nВерхний ярус: Малая комната"
   },
   {
     "id": 570,
     "original_en": "407 Ocean Palace - Upper Level, Door Switch",
     "original_fr": "407 Sanctuaire sous-marin - Niveau supérieur, bouton",
-    "translation": "407 Подводный Дворец — Верхний ярус: Рычаг двери"
+    "translation": "407 Подводный Дворец — Верхний ярус: Рычаг\nдвери"
   },
   {
     "id": 571,
@@ -3471,7 +3471,7 @@
     "id": 578,
     "original_en": "415 Ocean Palace - Lowest Level, Mammon Machine",
     "original_fr": "415 Sanctuaire sous-marin - Niveau inférieur, Réceptacle sacré",
-    "translation": "415 Подводный Дворец — Нижний ярус: Машина Маммона"
+    "translation": "415 Подводный Дворец —\nНиз: Машина Маммона"
   },
   {
     "id": 579,
@@ -3585,7 +3585,7 @@
     "id": 597,
     "original_en": "441 Guardia Castle (Present) - Before Hall of Justice",
     "original_fr": "441 Ch{TAG:4A}teau de Gardia (Présent) - Avant tribunal",
-    "translation": "441 Guardia Castle (Present) — Перед Залом правосудия"
+    "translation": "441 Замок Гардия (Наст.) —\nПеред Залом правосудия"
   },
   {
     "id": 598,
@@ -3621,7 +3621,7 @@
     "id": 603,
     "original_en": "447 Magus's Keep  - Before Final Magus Battle",
     "original_fr": "447 Palais du Magistère - Avant dernière bataille Magus",
-    "translation": "447 Замок Магуса — Перед финалом битвы с Магусом"
+    "translation": "447 Замок Магуса — Перед финалом битвы с\nМагусом"
   },
   {
     "id": 604,

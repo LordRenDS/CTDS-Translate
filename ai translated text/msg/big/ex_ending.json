@@ -3,7 +3,7 @@
     "id": 0,
     "original_en": "Defeat Lavos after reviving Crono at Death Peak.",
     "original_fr": "Après avoir ressuscité Chrono sur le mont des\ndéfunts.",
-    "translation": "Одолейте Лавоса после воскрешения Кроно\nна Пике Смерти."
+    "translation": "Одолейте Лавоса после воскрешения Кроно на\nПике Смерти."
   },
   {
     "id": 1,
@@ -45,19 +45,19 @@
     "id": 7,
     "original_en": "Defeat Lavos after regaining the Gate Key,\nbut before giving the Masamune to Frog.",
     "original_fr": "Après avoir récupéré la clef stabilisatrice, mais\navant de rendre Grandléon {TAG:3C} Gren.",
-    "translation": "Сразите Лавоса, вернув Ключ от Врат,\nно до передачи Масамунэ Фрогу."
+    "translation": "Сразите Лавоса, вернув Ключ от Врат, но до\nпередачи Масамунэ Фрогу."
   },
   {
     "id": 8,
     "original_en": "Defeat Lavos after giving the Masamune to Frog,\nbut before facing Magus.",
     "original_fr": "Après avoir rendu Grandléon {TAG:3C} Gren, mais avant de\ncombattre Magus.",
-    "translation": "Сразите Лавоса, отдав Масамунэ Фрогу,\nно до битвы с Магусом."
+    "translation": "Сразите Лавоса, отдав Масамунэ Фрогу, но до\nбитвы с Магусом."
   },
   {
     "id": 9,
     "original_en": "Defeat Lavos after facing Magus, but before\nfacing Azala.",
     "original_fr": "Après avoir combattu Magus, mais avant de\ncombattre Azara.",
-    "translation": "Одолейте Лавоса после битвы с Магусом,\nно до сражения с Азалой."
+    "translation": "Одолейте Лавоса после битвы с Магусом, но до\nсражения с Азалой."
   },
   {
     "id": 10,
@@ -81,7 +81,7 @@
     "id": 13,
     "original_en": "This is the standard ending. Contents vary\naccording to the status of the Epoch.",
     "original_fr": "La fin normale. La séquence change suivant que\nl'équipe possède encore l'Ibis ou non.",
-    "translation": "Основная концовка игры. Содержимое зависит\nот сохранности Эпохи."
+    "translation": "Основная концовка игры. Содержимое зависит от\nсохранности Эпохи."
   },
   {
     "id": 14,
@@ -99,7 +99,7 @@
     "id": 16,
     "original_en": "Use the Telepod immediately upon returning to\nthe present.",
     "original_fr": "Examinez le portail sur le téléporteur de droite tout\nde suite après le retour dans le Présent.",
-    "translation": "Используйте телепод сразу по возвращении\nв настоящее время."
+    "translation": "Используйте телепод сразу по возвращении в\nнастоящее время."
   },
   {
     "id": 17,
@@ -111,7 +111,7 @@
     "id": 18,
     "original_en": "Face Lavos after the fight with Zombor.",
     "original_fr": "Après avoir vaincu l'abomination.",
-    "translation": "Сразитесь с Лавосом сразу после битвы\nс Зомбором."
+    "translation": "Сразитесь с Лавосом сразу после битвы с\nЗомбором."
   },
   {
     "id": 19,
@@ -141,7 +141,7 @@
     "id": 23,
     "original_en": "Go to face Lavos without entering the Gate at the\nTyranno Lair.",
     "original_fr": "Après l'arrivée de Lavos, sans passer par le cratère\nde Tyrannos.",
-    "translation": "Отправляйтесь на бой с Лавосом, минуя Врата\nв Логове Тирана."
+    "translation": "Отправляйтесь на бой с Лавосом, минуя Врата в\nЛогове Тирана."
   },
   {
     "id": 24,

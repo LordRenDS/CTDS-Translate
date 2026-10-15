@@ -561,7 +561,7 @@
     "id": 93,
     "original_en": "{GLYPH:384}\nObtained Capsule Set!{WAIT_KEY}{GLYPH:384}\n\nInside are 2 Strength Capsules,\n2 Magic Capsules, and 2 Speed Capsules!",
     "original_fr": "{GLYPH:384}\nVous obtenez un assortiment de gélules !{WAIT_KEY}{GLYPH:384}\n\nIl contient deux gélules de force, deux gélules\nde magie et deux gélules de rapidité !\n",
-    "translation": "{GLYPH:384} Получен Набор капсул!{WAIT_KEY}\n{GLYPH:384}\nВнутри лежат 2 Капсулы силы, 2 Капсулы магии и 2\nКапсулы скорости!"
+    "translation": "{GLYPH:384} Получен Набор капсул!{WAIT_KEY}\n{GLYPH:384} Внутри лежат 2 Капсулы силы, 2 Капсулы магии и\n2 Капсулы скорости!"
   },
   {
     "id": 94,

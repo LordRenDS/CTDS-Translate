@@ -219,13 +219,13 @@
     "id": 36,
     "original_en": "Attack: ",
     "original_fr": "Attaque",
-    "translation": "Атака: "
+    "translation": "Атака:"
   },
   {
     "id": 37,
     "original_en": "Defense: ",
     "original_fr": "Défense",
-    "translation": "Защита: "
+    "translation": "Защита:"
   },
   {
     "id": 38,
@@ -237,19 +237,19 @@
     "id": 39,
     "original_en": "Purchase: ",
     "original_fr": "Prix d'achat",
-    "translation": "Покупка: "
+    "translation": "Покупка:"
   },
   {
     "id": 40,
     "original_en": "Sell: ",
     "original_fr": "Prix de vente",
-    "translation": "Продажа: "
+    "translation": "Продажа:"
   },
   {
     "id": 41,
     "original_en": " G",
     "original_fr": " G",
-    "translation": " G"
+    "translation": "G"
   },
   {
     "id": 42,

@@ -597,7 +597,7 @@
     "id": 99,
     "original_en": "You very strong!\nTake this, too!{WAIT_KEY}{GLYPH:384}\n\nObtained Third Eye!",
     "original_fr": "Votre force m'éblouit ! Acceptez aussi ceci !\nGnu...{WAIT_KEY}{GLYPH:384}\n\nVous obtenez un troisième {TAG:61}il !",
-    "translation": "Ты очень сильный! Забирай и это!{WAIT_KEY}{GLYPH:384}\nПолучено: Третий глаз!"
+    "translation": "Ты очень сильный! Забирай и это!{WAIT_KEY}{GLYPH:384} Получено: Третий\nглаз!"
   },
   {
     "id": 100,
