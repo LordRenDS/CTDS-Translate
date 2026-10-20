@@ -621,5 +621,108 @@
     "category": "system",
     "gender": "m",
     "notes": "Combat critical hit indicator"
+  },
+  {
+    "source": "G",
+    "ru": "З",
+    "category": "system",
+    "notes": "Gold / Золото"
+  },
+  {
+    "source": "HP",
+    "ru": "ОЗ",
+    "category": "system"
+  },
+  {
+    "source": "MP",
+    "ru": "ОМ",
+    "category": "system"
+  },
+  {
+    "source": "Techs",
+    "ru": "Техники",
+    "category": "mechanic",
+    "notes": "Genitive: техник. Never техников"
+  },
+  {
+    "source": "Proficiencies",
+    "ru": "Типы оружия",
+    "category": "mechanic",
+    "notes": "Weapon classes/specialization. Never уровень владения"
+  },
+  {
+    "source": "Slow",
+    "ru": "Замедление",
+    "category": "status",
+    "notes": "Status effect noun"
+  },
+  {
+    "source": "Lock",
+    "ru": "Блок техник",
+    "category": "status",
+    "notes": "Prevents tech usage"
+  },
+  {
+    "source": "Stop",
+    "ru": "Стоп",
+    "category": "status"
+  },
+  {
+    "source": "Sleep",
+    "ru": "Сон",
+    "category": "status"
+  },
+  {
+    "source": "Chaos",
+    "ru": "Смятение",
+    "category": "status"
+  },
+  {
+    "source": "Poison",
+    "ru": "Яд",
+    "category": "status"
+  },
+  {
+    "source": "Weak",
+    "ru": "Слаб.",
+    "category": "zukan",
+    "notes": "Max 48px"
+  },
+  {
+    "source": "Absorbs",
+    "ru": "Поглощ.",
+    "category": "zukan",
+    "notes": "Max 48px"
+  },
+  {
+    "source": "Immune",
+    "ru": "Иммун.",
+    "category": "zukan",
+    "notes": "Max 48px"
+  },
+  {
+    "source": "Discovered",
+    "ru": "Найдено:",
+    "category": "zukan",
+    "notes": "Max 65px"
+  },
+  {
+    "source": "Music Box",
+    "ru": "Фонограф",
+    "category": "ui",
+    "notes": "Extra menu button max 95px"
+  },
+  {
+    "source": "Item Encyclopedia",
+    "ru": "Каталог предметов",
+    "category": "ui",
+    "notes": "Extra menu button max 95px"
+  },
+  {
+    "source": "Truce Inn Patron",
+    "ru": "Посетитель таверны Труса",
+    "category": "npc",
+    "gender": "m",
+    "notes": "Male patron at table speaking about fair"
   }
 ]
