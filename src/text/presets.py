@@ -2,9 +2,9 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
 import fnmatch
 import os
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
@@ -245,6 +245,46 @@ WINDOW_PRESETS: dict[str, TextWindowPreset] = {
             "small/system.json",
             "system.json",
         ),
+    ),
+    "extra_button": TextWindowPreset(
+        name="extra_button",
+        max_width_px=95,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=(),
+    ),
+    "extra_desc": TextWindowPreset(
+        name="extra_desc",
+        max_width_px=224,
+        max_lines=2,
+        reflow=True,
+        font_type="big",
+        patterns=(),
+    ),
+    "zukan_stat_label": TextWindowPreset(
+        name="zukan_stat_label",
+        max_width_px=48,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=(),
+    ),
+    "zukan_discovered": TextWindowPreset(
+        name="zukan_discovered",
+        max_width_px=65,
+        max_lines=1,
+        reflow=False,
+        font_type="big",
+        patterns=(),
+    ),
+    "status_tutorial": TextWindowPreset(
+        name="status_tutorial",
+        max_width_px=210,
+        max_lines=3,
+        reflow=False,
+        font_type="big",
+        patterns=(),
     ),
 }
 
@@ -495,6 +535,21 @@ def get_constraints_for_entry(
 
     if base_name == "bgm.json":
         return WINDOW_PRESETS["bgm_name"]
+
+    if base_name == "extra.json":
+        if 0 <= entry_id <= 15:
+            return WINDOW_PRESETS["extra_button"]
+        if 16 <= entry_id <= 31:
+            return WINDOW_PRESETS["extra_desc"]
+
+    if base_name == "zukan.json":
+        if 10 <= entry_id <= 13:
+            return WINDOW_PRESETS["zukan_stat_label"]
+        if entry_id == 16:
+            return WINDOW_PRESETS["zukan_discovered"]
+
+    if base_name == "cmes0.json" and 98 <= entry_id <= 114:
+        return WINDOW_PRESETS["status_tutorial"]
 
     if base_name == "tutorial.json":
         if entry_id == 12:
