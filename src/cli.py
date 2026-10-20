@@ -3,11 +3,16 @@
 from __future__ import annotations
 
 import argparse
+import contextlib
 import json
 import os
 import sys
 import tempfile
 
+from scripts.audit_script_translations import (
+    audit_script_directory,
+    audit_script_file,
+)
 from src.core.exceptions import CtdsError
 from src.font import (
     build_all_fonts,
@@ -341,6 +346,83 @@ def cmd_validate_text_length(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_audit_scripts(args: argparse.Namespace) -> int:
+    """Handles the 'audit-scripts' subcommand."""
+    widths = None
+    if getattr(args, "font_json", None) and os.path.isfile(args.font_json):
+        try:
+            widths = load_glyph_metrics(
+                args.font_json,
+                getattr(args, "cyrillic_json", None)
+                if getattr(args, "cyrillic_json", None) and os.path.isfile(args.cyrillic_json)
+                else None,
+            )
+        except Exception:
+            widths = None
+
+    if getattr(args, "file", None):
+        if not os.path.isfile(args.file):
+            print(f"Error: JSON file not found: {args.file}")
+            return 1
+        res = audit_script_file(
+            file_path=args.file,
+            glyph_widths=widths,
+            preset=getattr(args, "preset", "auto"),
+            field=getattr(args, "field", "translation"),
+        )
+        print(f"=== Script QA Audit Report: {args.file} ===")
+        print(f"Total entries: {res['total_entries']}")
+        print(f"Violations found: {res['violations_count']}")
+        if res["violations"]:
+            print("\nViolations:")
+            for v in res["violations"]:
+                print(f"  - {v}")
+            return 1
+        return 0
+
+    json_dirs = getattr(args, "json_dir", None)
+    if not json_dirs:
+        json_dirs = ["translated text"]
+
+    total_files = 0
+    total_entries = 0
+    total_violations = 0
+    all_violations: list[str] = []
+
+    for d in json_dirs:
+        if not os.path.isdir(d):
+            print(f"Warning: Directory not found, skipping: {d}")
+            continue
+        res = audit_script_directory(
+            dir_path=d,
+            glyph_widths=widths,
+            preset=getattr(args, "preset", "auto"),
+            field=getattr(args, "field", "translation"),
+            verbose=getattr(args, "verbose", False),
+        )
+        total_files += res["total_files"]
+        total_entries += res["scanned_entries"]
+        total_violations += res["total_violations"]
+        all_violations.extend(res["violations"])
+
+    print("=== Script QA Audit Summary ===")
+    print(f"Scanned {total_files} files, {total_entries} entries.")
+    print(f"Total violations found: {total_violations}")
+    if all_violations:
+        print("\nViolations detected:")
+        display_limit = len(all_violations) if getattr(args, "verbose", False) else min(50, len(all_violations))
+        for v in all_violations[:display_limit]:
+            print(f"  - {v}")
+        if len(all_violations) > display_limit:
+            print(
+                f"  ... and {len(all_violations) - display_limit} more violations (use --verbose to see all)."
+            )
+        return 1
+
+    print("SUCCESS: 0 QA violations detected across all checked files.")
+    return 0
+
+
 def cmd_dump_graphics(args: argparse.Namespace) -> int:
     """Handles the 'dump-graphics' subcommand."""
     if args.screen:
@@ -395,10 +477,11 @@ def cmd_dump_graphics(args: argparse.Namespace) -> int:
             return 1
 
         rom_data = args.rom_data.replace("\\", "/")
-        if normalized.startswith(rom_data):
-            rel = os.path.relpath(normalized, rom_data)
-        else:
-            rel = os.path.basename(normalized)
+        rel = (
+            os.path.relpath(normalized, rom_data)
+            if normalized.startswith(rom_data)
+            else os.path.basename(normalized)
+        )
 
         out_png = os.path.join(args.out, rel + ".png")
         out_json = os.path.join(args.out, rel + ".json")
@@ -482,7 +565,7 @@ def cmd_build_graphics(args: argparse.Namespace) -> int:
         if not rel_stem:
             rel_stem = os.path.splitext(os.path.basename(screen_path))[0]
 
-        with open(meta_json_path, "r", encoding="utf-8") as f:
+        with open(meta_json_path, encoding="utf-8") as f:
             meta = json.load(f)
 
         if meta.get("format") == "NCGR":
@@ -763,6 +846,49 @@ def create_parser() -> argparse.ArgumentParser:
         )
 
     # dump-graphics
+    # audit-scripts
+    p_audit = subparsers.add_parser(
+        "audit-scripts",
+        help="Audit dialogue and UI translation files for choice formatting, subpage overflows, banned terms, and gender mismatches",
+    )
+    p_audit.add_argument(
+        "--json-dir",
+        action="append",
+        default=None,
+        help="Directory containing JSON files to audit (can be specified multiple times; default: 'translated text')",
+    )
+    p_audit.add_argument(
+        "--file",
+        default=None,
+        help="Optional path to a single JSON file to audit",
+    )
+    p_audit.add_argument(
+        "--preset",
+        default="auto",
+        help="Window preset name or 'auto' (default: 'auto')",
+    )
+    p_audit.add_argument(
+        "--field",
+        default="translation",
+        help="JSON field to validate (default: 'translation')",
+    )
+    p_audit.add_argument(
+        "--verbose",
+        action="store_true",
+        default=False,
+        help="Print all individual violations in detail",
+    )
+    p_audit.add_argument(
+        "--font-json",
+        default="extracted fonts/msg/big/msgcmn.json",
+        help="Path to base font metrics JSON",
+    )
+    p_audit.add_argument(
+        "--cyrillic-json",
+        default="assets/fonts/cyrillic_big.json",
+        help="Path to Cyrillic font metrics JSON",
+    )
+
     p_dump_gfx = subparsers.add_parser(
         "dump-graphics",
         help="Dump background screen graphics to PNG and JSON descriptors",
@@ -870,15 +996,11 @@ def main(argv: list[str] | None = None) -> int:
         Exit code (0 for success, non-zero for error).
     """
     if hasattr(sys.stdout, "reconfigure"):
-        try:
+        with contextlib.suppress(Exception):
             sys.stdout.reconfigure(errors="backslashreplace")
-        except Exception:
-            pass
     if hasattr(sys.stderr, "reconfigure"):
-        try:
+        with contextlib.suppress(Exception):
             sys.stderr.reconfigure(errors="backslashreplace")
-        except Exception:
-            pass
 
     parser = create_parser()
     args = parser.parse_args(argv if argv is not None else sys.argv[1:])
@@ -896,6 +1018,7 @@ def main(argv: list[str] | None = None) -> int:
         "inject-cyrillic-font": cmd_inject_cyrillic_font,
         "build-rom": cmd_build_rom,
         "roundtrip": cmd_roundtrip,
+        "audit-scripts": cmd_audit_scripts,
         "validate-text-length": cmd_validate_text_length,
         "validate-text-lenght": cmd_validate_text_length,
         "dump-graphics": cmd_dump_graphics,
