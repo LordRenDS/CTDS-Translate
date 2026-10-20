@@ -2033,11 +2033,70 @@ def test_menu_and_tutorial_status_ui_constraints():
     assert len(rep_tuto["warnings"]) == 0
 
 
+def test_subpage_wait_key_resets_line_width():
+    """When {WAIT_KEY} occurs after a long line, the text immediately following
+    {WAIT_KEY} starts on line 1 of the new sub-page with 0px initial width.
+    """
+    widths = {c: 10 for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"}
+    widths[" "] = 5
+
+    # With max_width_px = 65:
+    # "aaa aaa" = 3*10 + 5 + 3*10 = 65px (fits line 1 of sub-page 1)
+    # "bbb bbb" = 3*10 + 5 + 3*10 = 65px (fits line 1 of sub-page 2)
+    # If {WAIT_KEY} isolates sub-pages, both fit without line-wrapping.
+    # Without sub-page isolation, combined line width is 135px > 65px, causing false overflow/wrapping.
+    text = "aaa aaa{WAIT_KEY}bbb bbb"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=65, max_lines=3, reflow=True)
+    assert warnings == []
+    assert formatted == "aaa aaa{WAIT_KEY}bbb bbb"
+
+    # Multi-line sub-page following {WAIT_KEY}:
+    # "ccc ccc ccc" = 30 + 5 + 30 + 5 + 30 = 100px (> 65px)
+    # Should wrap to "ccc ccc" (65px) and "ccc" (30px) starting from line 1 of sub-page 2.
+    text2 = "aaa aaa{WAIT_KEY}ccc ccc ccc"
+    formatted2, warnings2 = wrap_text_block(text2, widths, max_width_px=65, max_lines=3, reflow=True)
+    assert warnings2 == []
+    assert formatted2 == "aaa aaa{WAIT_KEY}ccc ccc\nccc"
 
 
+def test_subpage_line_count_independent_check():
+    """When a text has two blocks separated by {WAIT_KEY}, with 2 lines before
+    and 2 lines after, total lines per sub-page is 2 (fits 3-line max without warning).
+    If the second block has 4 lines, a warning is raised specifically for the second sub-page.
+    """
+    widths = {c: 10 for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"}
+    widths[" "] = 5
+
+    # 2 lines before {WAIT_KEY}, 2 lines after {WAIT_KEY} (max_lines = 3)
+    text_ok = "Line one\nLine two{WAIT_KEY}Line three\nLine four"
+    formatted_ok, warnings_ok = wrap_text_block(text_ok, widths, max_width_px=200, max_lines=3, reflow=False)
+    assert warnings_ok == []
+    assert "{WAIT_KEY}" in formatted_ok
+
+    # 2 lines before {WAIT_KEY}, 4 lines after {WAIT_KEY} (max_lines = 3)
+    text_warn = "Line one\nLine two{WAIT_KEY}Line three\nLine four\nLine five\nLine six"
+    formatted_warn, warnings_warn = wrap_text_block(text_warn, widths, max_width_px=200, max_lines=3, reflow=False)
+    assert len(warnings_warn) == 1
+    assert "4 lines" in warnings_warn[0]
+    assert "{WAIT_KEY}" in formatted_warn
 
 
+def test_wait_key_does_not_collapse_into_space():
+    """When reflow is enabled, {WAIT_KEY} is preserved and not replaced with space
+    or merged with surrounding words.
+    """
+    widths = {c: 10 for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"}
+    widths[" "] = 5
 
+    text = "First block words{WAIT_KEY}Second block words"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=200, reflow=True)
+    assert "{WAIT_KEY}" in formatted
+    assert "words Second" not in formatted
+    assert formatted == "First block words{WAIT_KEY}Second block words"
 
-
+    # Also verify under force=True that {WAIT_KEY} is never collapsed into a space
+    formatted_force, _ = wrap_text_block(text, widths, max_width_px=200, reflow=True, force=True)
+    assert "{WAIT_KEY}" in formatted_force
+    assert "words Second" not in formatted_force
+    assert formatted_force == "First block words{WAIT_KEY}Second block words"
 

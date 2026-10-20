@@ -21,6 +21,7 @@ __all__ = [
     "PAGE_DELIM_PATTERN",
     "RUS_CONSONANTS",
     "RUS_VOWELS",
+    "SUBPAGE_DELIMITER_PATTERN",
     "collapse_hyphenated_breaks",
     "split_word_carry",
     "wrap_line_to_width",
@@ -36,6 +37,7 @@ HYPHEN_BREAK_PATTERN = re.compile(
 )
 
 PAGE_DELIM_PATTERN = re.compile(r"(\{PAGE\}|\{WAIT_KEY\}|\{GLYPH:407\}|\{GLYPH:408\})")
+SUBPAGE_DELIMITER_PATTERN = re.compile(r"(\{WAIT_KEY\}|\{PAGE\}|\{GLYPH:407\}|\{GLYPH:408\})")
 CHOICE_TAG_PATTERN = re.compile(r"\{GLYPH:(39[4-9]|40[0-3])\}")
 CHOICE_MAX_WIDTH_PX = 110
 
@@ -325,6 +327,115 @@ def _check_subpage_lines(lines: list[str], max_lines: int) -> list[str]:
     return warnings
 
 
+def _format_subpage(
+    subpage: str,
+    glyph_widths: dict[str, int],
+    max_width_px: int = 220,
+    max_lines: int = 3,
+    auto_paginate: bool = False,
+    hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
+    reflow: bool = True,
+    force: bool = False,
+    carry: str | None = None,
+) -> tuple[str, list[str]]:
+    """Formats and validates an individual sub-page block.
+
+    Args:
+        subpage: Sub-page string between delimiters.
+        glyph_widths: Mapping from character to pixel width.
+        max_width_px: Maximum pixel width allowed per line.
+        max_lines: Maximum lines allowed per page/dialog box.
+        auto_paginate: If True, split into pages with {PAGE} when exceeding max_lines.
+        hero_name_width_px: Estimated pixel width for dynamic hero tokens.
+        reflow: If True, collapse single line breaks and re-wrap paragraphs.
+        force: If True, collapse all line breaks into a single flow.
+        carry: Optional word hyphenation mode ("geo" or "syllable").
+
+    Returns:
+        Tuple of (formatted_subpage, list_of_warnings).
+    """
+    if not subpage:
+        return "", []
+
+    if force:
+        clean_text = collapse_hyphenated_breaks(subpage)
+        clean_text = re.sub(r"\r?\n|\{LINE\}", " ", clean_text)
+        clean_text = re.sub(r" +", " ", clean_text).strip()
+        if not clean_text:
+            return "", []
+
+        page_lines = wrap_line_to_width(
+            clean_text,
+            glyph_widths,
+            max_width_px=max_width_px,
+            hero_name_width_px=hero_name_width_px,
+            carry=carry,
+        )
+    elif max_lines == 1:
+        raw_lines = re.split(r"\r?\n|\{LINE\}", subpage)
+        page_lines = []
+        for rl in raw_lines:
+            if rl.strip() or rl == "":
+                page_lines.extend(
+                    wrap_line_to_width(
+                        rl,
+                        glyph_widths,
+                        max_width_px=max_width_px,
+                        hero_name_width_px=hero_name_width_px,
+                        carry=carry,
+                    )
+                )
+        if not page_lines and subpage:
+            page_lines = [subpage]
+    elif reflow:
+        paragraphs = re.split(r"(?:\r?\n){2,}", subpage)
+        page_lines = []
+        for para in paragraphs:
+            p_clean = collapse_hyphenated_breaks(para)
+            p_clean = re.sub(r"\r?\n|\{LINE\}", " ", p_clean)
+            p_clean = re.sub(r" +", " ", p_clean).strip()
+            if p_clean:
+                page_lines.extend(
+                    wrap_line_to_width(
+                        p_clean,
+                        glyph_widths,
+                        max_width_px=max_width_px,
+                        hero_name_width_px=hero_name_width_px,
+                        carry=carry,
+                    )
+                )
+    else:
+        raw_lines = re.split(r"\r?\n|\{LINE\}", subpage)
+        page_lines = []
+        for raw_line in raw_lines:
+            page_lines.extend(
+                wrap_line_to_width(
+                    raw_line,
+                    glyph_widths,
+                    max_width_px=max_width_px,
+                    hero_name_width_px=hero_name_width_px,
+                    carry=carry,
+                )
+            )
+
+    warnings: list[str] = []
+    if auto_paginate:
+        if page_lines:
+            chunk_size = max(1, max_lines)
+            chunks = [
+                page_lines[i : i + chunk_size]
+                for i in range(0, len(page_lines), chunk_size)
+            ]
+            formatted_subpage = "{PAGE}".join("\n".join(chunk) for chunk in chunks)
+        else:
+            formatted_subpage = ""
+    else:
+        warnings.extend(_check_subpage_lines(page_lines, max_lines))
+        formatted_subpage = "\n".join(page_lines)
+
+    return formatted_subpage, warnings
+
+
 def wrap_text_block(
     text: str,
     glyph_widths: dict[str, int],
@@ -338,9 +449,9 @@ def wrap_text_block(
 ) -> tuple[str, list[str]]:
     """Word-wraps dialogue text and optionally paginates across dialog boxes.
 
-    Preserves existing {PAGE} delimiters unless force=True or lines overflow in reflow mode.
-    When force=True or lines overflow (and reflow=True), completely collapses text
-    (stripping {PAGE} and line breaks) and repacks words sequentially into lines.
+    Preserves existing sub-page delimiters ({WAIT_KEY}, {PAGE}, {GLYPH:407}, {GLYPH:408})
+    unless force=True collapses {PAGE} for re-pagination. Text blocks between delimiters
+    are wrapped and validated as independent sub-pages.
 
     Args:
         text: Full dialogue or description text block.
@@ -352,7 +463,7 @@ def wrap_text_block(
         hero_name_width_px: Estimated pixel width for dynamic hero tokens (default 30px).
         reflow: If True, collapse ragged single line breaks and re-wrap paragraphs.
                 If False, preserve existing line breaks if within width.
-        force: If True, force complete text collapse and repacking even if lines fit.
+        force: If True, force complete text collapse and repacking across {PAGE}.
         carry: Optional word hyphenation mode ("geo" or "syllable").
 
     Returns:
@@ -361,98 +472,35 @@ def wrap_text_block(
     if not text:
         return "", []
 
-    raw_lines_all = re.split(r"\r?\n|\{LINE\}|\{PAGE\}", text)
-    has_overflow = any(
-        calculate_line_width_px(line, glyph_widths, hero_name_width_px=hero_name_width_px) > max_width_px
-        for line in raw_lines_all
-    )
+    text_to_process = re.sub(r"\{PAGE\}", " ", text) if force else text
 
-    if force or (has_overflow and reflow):
-        clean_text = collapse_hyphenated_breaks(text)
-        clean_text = re.sub(r"\{PAGE\}|\r?\n|\{LINE\}", " ", clean_text)
-        clean_text = re.sub(r" +", " ", clean_text).strip()
-        if not clean_text:
-            return "", []
+    parts = re.split(SUBPAGE_DELIMITER_PATTERN, text_to_process)
+    subpages = parts[0::2]
+    delimiters = parts[1::2]
 
-        lines = wrap_line_to_width(
-            clean_text,
-            glyph_widths,
+    formatted_subpages: list[str] = []
+    all_warnings: list[str] = []
+
+    for subpage in subpages:
+        f_sub, w_sub = _format_subpage(
+            subpage,
+            glyph_widths=glyph_widths,
             max_width_px=max_width_px,
+            max_lines=max_lines,
+            auto_paginate=auto_paginate,
             hero_name_width_px=hero_name_width_px,
+            reflow=reflow,
+            force=force,
             carry=carry,
         )
+        formatted_subpages.append(f_sub)
+        all_warnings.extend(w_sub)
 
-        warnings: list[str] = []
-        if auto_paginate:
-            chunk_size = max(1, max_lines)
-            chunks = [
-                lines[i : i + chunk_size]
-                for i in range(0, len(lines), chunk_size)
-            ]
-            formatted_text = "{PAGE}".join("\n".join(chunk) for chunk in chunks)
-        else:
-            warnings.extend(_check_subpage_lines(lines, max_lines))
-            formatted_text = "\n".join(lines)
-        return formatted_text, warnings
+    result_parts: list[str] = []
+    for i, f_sub in enumerate(formatted_subpages):
+        result_parts.append(f_sub)
+        if i < len(delimiters):
+            result_parts.append(delimiters[i])
 
-    raw_pages = text.split("{PAGE}")
-    formatted_pages: list[str] = []
-    warnings: list[str] = []
-
-    for raw_page in raw_pages:
-        page_lines: list[str] = []
-        if max_lines == 1:
-            raw_lines = re.split(r"\r?\n|\{LINE\}", raw_page)
-            page_lines = [rl for rl in raw_lines if rl.strip() or rl == ""]
-            if not page_lines and raw_page:
-                page_lines = [raw_page]
-        elif reflow:
-            paragraphs = re.split(
-                r"(?:\r?\n){2,}|(?<=\{WAIT_KEY\})\s*\r?\n|(?<=\{GLYPH:407\})\s*\r?\n",
-                raw_page,
-            )
-            for para in paragraphs:
-                p_clean = collapse_hyphenated_breaks(para)
-                p_clean = re.sub(r"\r?\n|\{LINE\}", " ", p_clean)
-                p_clean = re.sub(r" +", " ", p_clean).strip()
-                if p_clean:
-                    page_lines.extend(
-                        wrap_line_to_width(
-                            p_clean,
-                            glyph_widths,
-                            max_width_px=max_width_px,
-                            hero_name_width_px=hero_name_width_px,
-                            carry=carry,
-                        )
-                    )
-        else:
-            raw_lines = re.split(r"\r?\n|\{LINE\}", raw_page)
-            for raw_line in raw_lines:
-                page_lines.extend(
-                    wrap_line_to_width(
-                        raw_line,
-                        glyph_widths,
-                        max_width_px=max_width_px,
-                        hero_name_width_px=hero_name_width_px,
-                        carry=carry,
-                    )
-                )
-
-        if auto_paginate:
-            if page_lines:
-                chunk_size = max(1, max_lines)
-                chunks = [
-                    page_lines[i : i + chunk_size]
-                    for i in range(0, len(page_lines), chunk_size)
-                ]
-                page_str = "{PAGE}".join("\n".join(chunk) for chunk in chunks)
-            else:
-                page_str = ""
-            formatted_pages.append(page_str)
-        else:
-            warnings.extend(_check_subpage_lines(page_lines, max_lines))
-            page_str = "\n".join(page_lines)
-            formatted_pages.append(page_str)
-
-    formatted_text = "{PAGE}".join(formatted_pages)
-    return formatted_text, warnings
+    formatted_text = "".join(result_parts)
+    return formatted_text, all_warnings
