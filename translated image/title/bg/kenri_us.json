@@ -1,0 +1,19 @@
+{
+  "is_8bpp": false,
+  "is_affine": false,
+  "tile_count": 88,
+  "raw_tile_count": 88,
+  "width_tiles": 32,
+  "height_tiles": 24,
+  "width_px": 256,
+  "height_px": 192,
+  "flags": 768,
+  "extra_data": "",
+  "color_count": 128,
+  "ncg_layers": 1,
+  "ncl_layers": 0,
+  "nsc_layers": 0,
+  "ncg_path": "D:\\Workspace\\Programing\\translate\\CTDS\\extracted rom\\data\\title\\bg\\kenri_us_ncg.bin",
+  "ncl_path": "D:\\Workspace\\Programing\\translate\\CTDS\\extracted rom\\data\\title\\bg\\kenri_us_ncl.bin",
+  "nsc_path": "D:\\Workspace\\Programing\\translate\\CTDS\\extracted rom\\data\\title\\bg\\kenri_us_nsc.bin"
+}
