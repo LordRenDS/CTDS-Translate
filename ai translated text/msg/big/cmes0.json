@@ -447,7 +447,7 @@
     "id": 74,
     "original_en": "Lodging is 10 G. Would you like to stay for the night?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous louer une chambre pour 10 G ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Проживание стоит 10 З. Хотите остаться на ночь?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Ночлег стоит 10 З. Желаете остановиться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 75,
@@ -555,7 +555,7 @@
     "id": 92,
     "original_en": "Weapons come in a variety of flavors—swords,\nbows, and guns, to name a few.{WAIT_KEY}\nHowever, that doesn't mean you can just pick and\nchoose. You must be proficient with a weapon to use\nit, and everyone's proficiencies are different.{WAIT_KEY}\nArmor is divided into three categories: helms, body\narmor, and accessories. You can only equip armor\nthat fits your own body properly.{WAIT_KEY}\nThe effects of accessories vary greatly, so you'll\nneed to weigh their benefits carefully when deciding\nwhich to equip.{WAIT_KEY}\nOh, and keep in mind that swords inflict greater\ndamage as your Strength increases. Missile weapons,\non the other hand, benefit from better Accuracy.{WAIT_KEY}\nThe higher your Accuracy, the more damage you\nwill deal when attacking with a bow or gun.",
     "original_fr": "Il existe plusieurs types d'armes, comme des sabres,\ndes arbalètes ou des pistolets. Cependant, chaque\npersonne a une spécialité et ne peut utiliser que le\ntype d'arme qui lui est propre.{WAIT_KEY}\nIl y a trois catégories de protections : celles qui se\nportent sur la tête, celles qui se portent sur le corps\net les accessoires.{WAIT_KEY}\nTout comme les armes, vous ne pouvez vous équiper\nque des protections qui vous conviennent.{WAIT_KEY}\nDe nombreux accessoires possèdent des\ncaractéristiques spéciales, alors essayez-en\nplusieurs.{WAIT_KEY}\nSachez aussi qu'augmenter sa force permet d'infliger\nplus de dég{TAG:4A}ts avec des armes de mêlée telles que le\nsabre.{WAIT_KEY}\nLa puissance des armes {TAG:3C} distance, comme l'arbalète et\nle pistolet, dépend quant {TAG:3C} elle de la précision.",
-    "translation": "Оружие бывает самых разных видов — мечи, луки и ружья, и так далее и тому подобное.{WAIT_KEY}Герои владеют только своим типом: Кроно мечами, Марле луками, Лукка ружьями. У каждого своя специализация.{WAIT_KEY}Броня делится на три категории: шлемы, нагрудные доспехи и щиты. И каждый может носить только то, что ему подходит.{WAIT_KEY}Эффекты уборов очень разнообразны, поэтому внимательно читайте их описания, прежде чем надевать.{WAIT_KEY}Да, и ещё: у нас в гардеробе есть кое-что полезное. Дистанционное оружие выигрывает в дальности.{WAIT_KEY}И чем дальше цель, тем слабее урон от обычной атаки, но лукам и ружьям всё равно."
+    "translation": "Оружие бывает самых разных видов — мечи, луки и\nружья, и это лишь малая часть.{WAIT_KEY}Однако каждый владеет только своим типом: Кроно\n— мечами, Марле — луками, Лукка — ружьями. У\nкаждого своя специализация.{WAIT_KEY}Броня делится на три категории: шлемы, нагрудные\nдоспехи и аксессуары. Вы можете надевать только\nто, что подходит.{WAIT_KEY}Эффекты аксессуаров очень разнообразны, поэтому\nтщательно взвешивайте их преимущества, прежде\nчем надевать.{WAIT_KEY}Кстати, мечи наносят больше урона по мере роста\nСилы. Дистанционное же оружие выигрывает от\nТочности.{WAIT_KEY}Чем выше Точность, тем больше урона наносится\nпри атаке из лука или ружья."
   },
   {
     "id": 93,
@@ -639,7 +639,7 @@
     "id": 106,
     "original_en": "Slow\n   Lengthens the waiting time between turns.",
     "original_fr": "Lenteur :\nVous devrez attendre plus longtemps avant de pouvoir\nagir.",
-    "translation": "Замедление\n   Увеличивает время ожидания между ходами."
+    "translation": "Замедление\n   Увеличивает время ожидания\n   между ходами."
   },
   {
     "id": 107,
@@ -915,7 +915,7 @@
     "id": 152,
     "original_en": "Rooms are 10 G for the night.\nWill you be staying?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Номер стоит 10 З за ночь. Вы останетесь на ночь?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Ночлег стоит 10 З за ночь. Желаете остановиться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 153,

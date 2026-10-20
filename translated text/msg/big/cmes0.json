@@ -81,7 +81,7 @@
     "id": 13,
     "original_en": "Mother: Oh, I almost forgot!\nHere's your allowance, dear.\nHave fun at the fair!{WAIT_KEY}{GLYPH:384}\n\nObtained 200 G!",
     "original_fr": "Gina : Ah, j'oubliais. Voici ton argent de poche.\nAllez, amuse-toi bien {TAG:3C} la foire !{WAIT_KEY}{GLYPH:384}\n\nVous obtenez 200 G !",
-    "translation": "Мама: О, я чуть не забыла! Вот твои карманные\nденьги, милый. Повеселись на ярмарке!{WAIT_KEY}{GLYPH:384} Получено 200 G!"
+    "translation": "Мама: О, я чуть не забыла! Вот твои карманные\nденьги, милый. Повеселись на ярмарке!{WAIT_KEY}{GLYPH:384} Получено 200 З!"
   },
   {
     "id": 14,
@@ -447,7 +447,7 @@
     "id": 74,
     "original_en": "Lodging is 10 G. Would you like to stay for the night?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous louer une chambre pour 10 G ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Проживание стоит 10 G. Хотите остаться на ночь?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Ночлег стоит 10 З. Желаете остановиться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 75,
@@ -603,7 +603,7 @@
     "id": 100,
     "original_en": "My, my! You've certainly got enthusiasm!\nWhy don't you take this to help you get\nyour equipment in order?{WAIT_KEY}{GLYPH:384}\n\nObtained 300 G!",
     "original_fr": "Ha, ha, ha ! Que d'enthousiasme ! Tenez, ceci vous\naidera {TAG:3C} vous équiper convenablement.{WAIT_KEY}{GLYPH:384}\n\nVous obtenez 300 G !",
-    "translation": "Ого! У тебя действительно есть энтузиазм!\nПочему бы тебе не взять это, чтобы привести\nсвое снаряжение в порядок?{WAIT_KEY}{GLYPH:384} Получено 300 G!"
+    "translation": "Ого! У тебя действительно есть энтузиазм!\nПочему бы тебе не взять это, чтобы привести\nсвое снаряжение в порядок?{WAIT_KEY}{GLYPH:384} Получено 300 З!"
   },
   {
     "id": 101,
@@ -639,7 +639,7 @@
     "id": 106,
     "original_en": "Slow\n   Lengthens the waiting time between turns.",
     "original_fr": "Lenteur :\nVous devrez attendre plus longtemps avant de pouvoir\nagir.",
-    "translation": "Замедление\nУвеличивает время ожидания между ходами."
+    "translation": "Замедление\n   Увеличивает время ожидания\n   между ходами."
   },
   {
     "id": 107,
@@ -915,7 +915,7 @@
     "id": 152,
     "original_en": "Rooms are 10 G for the night.\nWill you be staying?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Номер стоит 10 G за ночь. Вы останетесь на ночь?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Ночлег стоит 10 З за ночь. Желаете остановиться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 153,
