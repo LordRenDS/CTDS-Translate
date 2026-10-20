@@ -51,7 +51,7 @@
     "id": 8,
     "original_en": "Poison",
     "original_fr": "Poison",
-    "translation": "Яд"
+    "translation": "Зелье"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "id": 11,
     "original_en": "Confuse",
     "original_fr": "Confusion",
-    "translation": "Смятение"
+    "translation": "Контужен"
   },
   {
     "id": 12,
@@ -159,7 +159,7 @@
     "id": 26,
     "original_en": "!",
     "original_fr": " !",
-    "translation": "!"
+    "translation": ""
   },
   {
     "id": 27,
@@ -189,13 +189,13 @@
     "id": 31,
     "original_en": "°",
     "original_fr": "°",
-    "translation": "°"
+    "translation": ""
   },
   {
     "id": 32,
     "original_en": "{GLYPH:389}'s level\nincreased!",
     "original_fr": "Le niveau de {GLYPH:389}\naugmente !",
-    "translation": "{GLYPH:389} уровень увеличился!"
+    "translation": "{GLYPH:389} уровень\nувеличился!"
   },
   {
     "id": 33,
@@ -207,19 +207,19 @@
     "id": 34,
     "original_en": "♪",
     "original_fr": "♪",
-    "translation": "♪"
+    "translation": ""
   },
   {
     "id": 35,
     "original_en": "{GLYPH:389} learned ",
     "original_fr": "{GLYPH:389} apprend",
-    "translation": "{GLYPH:389} изучил"
+    "translation": "{GLYPH:389} изучил "
   },
   {
     "id": 36,
     "original_en": "!",
     "original_fr": " !",
-    "translation": "!"
+    "translation": ""
   },
   {
     "id": 37,
@@ -285,13 +285,13 @@
     "id": 47,
     "original_en": "Enemy has nothing to give but gratitude.",
     "original_fr": "Ça ne lui a pas plu...",
-    "translation": "Враг не может дать ничего, кроме\nблагодарности."
+    "translation": "Враг не может дать ничего,\nкроме благодарности."
   },
   {
     "id": 48,
     "original_en": "{GLYPH:391}    {GLYPH:367}/{GLYPH:367}",
     "original_fr": "{GLYPH:391} PV {GLYPH:367}/{GLYPH:367}",
-    "translation": "{GLYPH:391} {GLYPH:367}/{GLYPH:367}"
+    "translation": ""
   },
   {
     "id": 49,

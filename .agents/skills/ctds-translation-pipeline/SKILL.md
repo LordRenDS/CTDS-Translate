@@ -9,6 +9,14 @@ Project-specific workspace skill for translating, reverse engineering, and rebui
 
 ---
 
+> [!IMPORTANT]
+> **Text Workspace Partitioning & Strict Isolation Policy**:
+> - **`translated text/`**: Author's independent manual translation workspace. AI agents, batch reflow tools, and automated QA scripts must **NEVER** overwrite, batch-reflow, or synchronize this directory with AI translations.
+> - **`ai translated text/`**: Canonical active workspace for all AI-assisted translation, dialogue proofreading, line-wrap reflow, QA audit, and test ROM builds (16,334 entries across 75 files).
+> - **`extracted text/`**: Clean reference dump of original English and French retail ROM strings directly from the game. Read-only.
+
+---
+
 ## 1. CLI Commands Reference (`src/cli.py`)
 
 All pipeline operations are executed via `python src/cli.py <command> [options]`.
@@ -79,26 +87,26 @@ python src/cli.py dump-graphics --all
 Calculates pixel widths using proportional Variable Width Font (VWF) metrics, checks dialogue page limits, and automatically wraps/reflows text.
 
 ```powershell
-# Dry-run validation of a single file:
-python src/cli.py validate-text-length --file "translated text/menu.json"
+# Dry-run validation of a single file in AI translation workspace:
+python src/cli.py validate-text-length --file "ai translated text/msg/big/menu.json"
 
-# Auto-fix line breaks and reflow dialogue across an entire folder:
-python src/cli.py validate-text-length --json-dir "translated text" --fix
+# Auto-fix line breaks and reflow dialogue across AI translation directory:
+python src/cli.py validate-text-length --json-dir "ai translated text" --fix
 
 # Auto-fix a single dialogue file with page splitting:
-python src/cli.py validate-text-length --file "translated text/msg01.json" --fix --paginate
+python src/cli.py validate-text-length --file "ai translated text/msg/big/msg01.json" --fix --paginate
 
 # Validate with explicit preset override:
-python src/cli.py validate-text-length --file "translated text/custom.json" --preset tutorial
+python src/cli.py validate-text-length --file "ai translated text/msg/big/custom.json" --preset tutorial
 
 # Validate with custom width and line limits:
-python src/cli.py validate-text-length --file "translated text/shop.json" --max-width 160 --max-lines 2 --fix
+python src/cli.py validate-text-length --file "ai translated text/msg/big/shop.json" --max-width 160 --max-lines 2 --fix
 ```
 
 | Flag | Default | Description |
 | :--- | :--- | :--- |
 | `--file`, `--json-file` | `None` | Path to a single JSON translation file (overrides `--json-dir`). |
-| `--json-dir` | `translated text` | Directory containing JSON translation files. |
+| `--json-dir` | `translated text` | Directory containing JSON translation files (specify `ai translated text` for AI workspace). |
 | `--preset` | `auto` | Window preset (`auto` selects preset based on filename pattern). |
 | `--fix` | `False` | Apply wrapping/reflow fixes and write back to JSON files. |
 | `--out` | `None` | Optional output directory to write fixed files without overwriting source. |
@@ -144,8 +152,8 @@ python src/cli.py unpack --nds "rom/Chrono Trigger (Europe) (En,Fr).nds" --out "
 # 2. Dump all text messages to JSON:
 python src/cli.py dump-text --rom-data "extracted rom/data" --out "extracted text"
 
-# 3. Insert translated JSON text back to ROM:
-python src/cli.py insert-text --json-dir "translated text" --rom-data "extracted rom/data"
+# 3. Insert translated JSON text back to ROM (from AI translation workspace):
+python src/cli.py insert-text --json-dir "ai translated text" --rom-data "extracted rom/data"
 
 # 4. Rebuild localized NDS ROM preserving clean header/timings:
 python src/cli.py build-rom --extracted "extracted rom" --base "rom/Chrono Trigger (Europe) (En,Fr).nds" --out "rom/Chrono Trigger (Russian).nds"
@@ -377,11 +385,11 @@ When implementing translation or graphics updates, follow this end-to-end execut
 
 ```mermaid
 graph TD
-    A["1. Edit JSON Translations / PNG Graphics"] --> B["2. Validate Text Length & VWF Reflow<br/><code>python src/cli.py validate-text-length --fix</code>"]
+    A["1. Edit JSON Translations (ai translated text) / PNG Graphics"] --> B["2. Validate Text Length & VWF Reflow<br/><code>python src/cli.py validate-text-length --json-dir 'ai translated text' --fix</code>"]
     B --> C["3. Validate Sprite Constraints & Sync Cells<br/><code>CTDS_NCER_editor</code>"]
     C --> D["4. Rebuild Graphics & NCER Cells<br/><code>python src/cli.py build-graphics --ncer</code>"]
     D --> E["5. Inject Cyrillic Font Glyphs<br/><code>python src/cli.py inject-cyrillic-font</code>"]
-    E --> F["6. Insert Translated Text<br/><code>python src/cli.py insert-text</code>"]
-    F --> G["7. Build Localized ROM<br/><code>python src/cli.py build-rom</code>"]
+    E --> F["6. Insert Translated Text<br/><code>python src/cli.py insert-text --json-dir 'ai translated text'</code>"]
+    F --> G["7. Build Localized ROM<br/><code>python src/cli.py build-rom --out 'rom/Chrono Trigger (Russian).nds'</code>"]
     G --> H["8. Run Automated Test Suite<br/><code>pytest tests/</code>"]
 ```

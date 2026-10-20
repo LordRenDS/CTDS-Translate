@@ -49,6 +49,13 @@ The codebase is organized into modular subpackages under `src/`:
 - `src/graphics/`: LZ10 compression, NCLR palette matching, NCGR/NSCR tilemaps, and NCER sprite engines.
 - `src/cli.py`: Unified command-line interface entry point.
 
+## Translation Workspaces & Directories
+
+The project partitions game text across three dedicated workspaces:
+- **`translated text/`**: Author's manual translation workspace. Reserved for the project author's human-crafted translation. AI tools and automated batch scripts must never overwrite or synchronize this directory.
+- **`ai translated text/`**: Active AI-assisted translation workspace. Used for full-script AI translations, dialogue proofreading, line-wrap reflow, QA validation, and game test builds.
+- **`extracted text/`**: Clean reference dump of original English and French strings directly from the European retail ROM. Read-only.
+
 ## CLI Usage
 
 Run the CLI using `python src/cli.py <subcommand> [options]`.
@@ -62,7 +69,7 @@ Run the CLI using `python src/cli.py <subcommand> [options]`.
 
 - **Build Patched ROM**:
   ```bash
-  python src/cli.py build-rom --base-nds "rom/Chrono Trigger (Europe) (En,Fr).nds" --rom-data "extracted rom" --out "build/ctds_ru.nds"
+  python src/cli.py build-rom --extracted "extracted rom" --base "rom/Chrono Trigger (Europe) (En,Fr).nds" --out "rom/Chrono Trigger (Russian).nds"
   ```
 
 ### Script & Dialogue Operations
@@ -72,14 +79,19 @@ Run the CLI using `python src/cli.py <subcommand> [options]`.
   python src/cli.py dump-text --rom-data "extracted rom/data" --out "extracted text"
   ```
 
-- **Insert Translated Text**:
+- **Insert Translated Text (AI-assisted workspace)**:
   ```bash
-  python src/cli.py insert-text --json-dir "translated text" --rom-data "extracted rom/data"
+  python src/cli.py insert-text --json-dir "ai translated text" --rom-data "extracted rom/data"
   ```
 
 - **Validate & Reflow Dialogue Length**:
   ```bash
-  python src/cli.py validate-text-length --json-dir "translated text" --font-metrics "extracted fonts/font_metrics.json" --preset standard_dialogue --auto-fix
+  python src/cli.py validate-text-length --json-dir "ai translated text" --fix
+  ```
+
+- **Audit Translations for QA Violations**:
+  ```bash
+  python src/cli.py audit-scripts --json-dir "ai translated text"
   ```
 
 ### Font Operations
@@ -108,7 +120,7 @@ Run the CLI using `python src/cli.py <subcommand> [options]`.
 
 - **Build Graphics**:
   ```bash
-  python src/cli.py build-graphics --img-dir "translated image" --rom-data "extracted rom/data"
+  python src/cli.py build-graphics --image-dir "translated image" --meta-dir "extracted image" --rom-data "extracted rom/data"
   ```
 
 ### Verification & Roundtrip
@@ -132,6 +144,7 @@ Run specific test modules:
 pytest tests/test_core_exceptions.py -v
 pytest tests/test_char_map.py -v
 pytest tests/test_text_validator.py -v
+pytest tests/test_script_auditor.py -v
 ```
 
 ## Linting and Type Checking

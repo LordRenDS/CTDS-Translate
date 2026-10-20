@@ -321,13 +321,13 @@
     "id": 53,
     "original_en": "W",
     "original_fr": "V",
-    "translation": "В"
+    "translation": ""
   },
   {
     "id": 54,
     "original_en": "L",
     "original_fr": "D",
-    "translation": "П"
+    "translation": ""
   },
   {
     "id": 55,
@@ -453,7 +453,7 @@
     "id": 75,
     "original_en": "DS",
     "original_fr": "MODE DS",
-    "translation": "DS"
+    "translation": ""
   },
   {
     "id": 76,
@@ -471,7 +471,7 @@
     "id": 78,
     "original_en": "This mode utilizes the classic\none-screen battle interface.\n\nStylus controls cannot be\nused in combat, but enemy\nand ally status information\nappears on the lower screen.",
     "original_fr": "En mode classique, l'affichage\noriginal a été reproduit.\n\nVous pourrez désormais aussi\nvérifier l'état des ennemis\net de vos personnages sur\nl'écran inférieur.",
-    "translation": "Классический режим.\nОдин экран в бою. Стилус\nнедоступен, но статус\nотряда и врагов показан\nна нижнем экране."
+    "translation": "Этот режим использует\nклассический интерфейс\nбитвы с одним экраном.\nУправление стилусом\nневозможно в бою, но вся\nинформация отображается\nна нижнем экране."
   },
   {
     "id": 79,
@@ -495,13 +495,13 @@
     "id": 82,
     "original_en": "\nTime flows constantly in battle,\nallowing for fast-paced combat.\n",
     "original_fr": "Le temps s'écoule constamment.\nLes batailles en seront d'autant\nplus palpitantes.",
-    "translation": "Время течёт постоянно в бою,\nчто позволяет вести\nдинамичные сражения."
+    "translation": "Время течет постоянно в бою,\nчто позволяет вести\nдинамичные сражения."
   },
   {
     "id": 83,
     "original_en": "Time freezes while you select\nitems or techs from windows,\nallowing you to carefully plan\nyour battle strategy.",
     "original_fr": "Le temps s'arrête quand vous\nchoisissez un objet ou une\ncompétence. Vous pourrez\ncombattre sans vous presser.",
-    "translation": "Время замирает при выборе\nпредметов и техник в меню,\nпозволяя обдумать тактику и\nход сражения."
+    "translation": "Время останавливается пока\nвы выбираете предметы или\nтехники, что позволяет\nпланировать боевую стратегию."
   },
   {
     "id": 84,
@@ -573,13 +573,13 @@
     "id": 95,
     "original_en": " ",
     "original_fr": "",
-    "translation": " "
+    "translation": ""
   },
   {
     "id": 96,
     "original_en": "Ending No.",
     "original_fr": "{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{GLYPH:132}Fin nÎ ",
-    "translation": "Концовка No."
+    "translation": "Концовка {GLYPH:132}"
   },
   {
     "id": 97,
@@ -591,7 +591,7 @@
     "id": 98,
     "original_en": " ",
     "original_fr": "",
-    "translation": " "
+    "translation": ""
   },
   {
     "id": 99,

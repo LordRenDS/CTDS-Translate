@@ -33,7 +33,7 @@
     "id": 5,
     "original_en": "Magic +2",
     "original_fr": "Magie +2",
-    "translation": "Магия +2"
+    "translation": ""
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "id": 9,
     "original_en": "1.5° damage to\nmagical beings",
     "original_fr": "Dég{TAG:4A}ts aux créat.\nmagiques +50%",
-    "translation": "Урон °1,5 по\nмагич. целям"
+    "translation": ""
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "id": 14,
     "original_en": "4° damage for\ncritical hits",
     "original_fr": "Coups critiques :\ndég{TAG:4A}ts °4",
-    "translation": "Урон °4 при\nкрит. ударе"
+    "translation": ""
   },
   {
     "id": 15,
@@ -99,7 +99,7 @@
     "id": 16,
     "original_en": "Speed +2",
     "original_fr": "Rapidité +2",
-    "translation": "Скор. +2"
+    "translation": ""
   },
   {
     "id": 17,
@@ -147,7 +147,7 @@
     "id": 24,
     "original_en": "Inflicts Slow",
     "original_fr": "Inflige\nLenteur",
-    "translation": "Наносит Замедл."
+    "translation": ""
   },
   {
     "id": 25,
@@ -159,7 +159,7 @@
     "id": 26,
     "original_en": "Inflicts Stop",
     "original_fr": "Inflige Stop",
-    "translation": "Наносит Стоп"
+    "translation": ""
   },
   {
     "id": 27,
@@ -213,7 +213,7 @@
     "id": 35,
     "original_en": "Inflicts Stop\non robots",
     "original_fr": "Inflige Stop\naux machines",
-    "translation": "Стоп против\nроботов"
+    "translation": ""
   },
   {
     "id": 36,
@@ -237,19 +237,19 @@
     "id": 39,
     "original_en": "Inflicts Confuse",
     "original_fr": "Inflige\nConfusion",
-    "translation": "Наносит\nСмятение"
+    "translation": ""
   },
   {
     "id": 40,
     "original_en": "Random damage",
     "original_fr": "Dég{TAG:4A}ts aléatoires",
-    "translation": "Случайный урон"
+    "translation": ""
   },
   {
     "id": 41,
     "original_en": "Halves enemy HP",
     "original_fr": "Réduit parfois\nles PV de moitié",
-    "translation": "Уменьшает ОЗ\nврага на 50%"
+    "translation": ""
   },
   {
     "id": 42,
@@ -345,7 +345,7 @@
     "id": 57,
     "original_en": "Damage based on\nlast digit of HP",
     "original_fr": "Dég{TAG:4A}ts basés sur\nles PV du porteur",
-    "translation": "Урон зависит\nот конца ОЗ"
+    "translation": ""
   },
   {
     "id": 58,
@@ -381,13 +381,13 @@
     "id": 63,
     "original_en": "1.5° damage to\nmagical beings",
     "original_fr": "Dég{TAG:4A}ts aux créat.\nmagiques +50%",
-    "translation": "Урон °1,5 по\nмагич. целям"
+    "translation": ""
   },
   {
     "id": 64,
     "original_en": "Magic +4",
     "original_fr": "Magie +4",
-    "translation": "Магия +4"
+    "translation": ""
   },
   {
     "id": 65,
@@ -405,7 +405,7 @@
     "id": 67,
     "original_en": "2° damage to\nmagical beings",
     "original_fr": "Dég{TAG:4A}ts aux créat.\nmagiques +100%",
-    "translation": "Урон °2 по\nмагич. целям"
+    "translation": ""
   },
   {
     "id": 68,
@@ -429,13 +429,13 @@
     "id": 71,
     "original_en": "Inflicts Confuse",
     "original_fr": "Inflige\nConfusion",
-    "translation": "Наносит\nСмятение"
+    "translation": ""
   },
   {
     "id": 72,
     "original_en": "9999 damage\nfor critical hits",
     "original_fr": "Coups critiques :\n9999 pts dég{TAG:4A}ts",
-    "translation": "9999 урона\nпри крит. ударе"
+    "translation": ""
   },
   {
     "id": 73,
@@ -471,7 +471,7 @@
     "id": 78,
     "original_en": "Damage boost\nwhen allies KO'd",
     "original_fr": "Coma d'un allié :\nattaque …",
-    "translation": "Урон растёт,\nесли пал союзник"
+    "translation": ""
   },
   {
     "id": 79,
@@ -501,7 +501,7 @@
     "id": 83,
     "original_en": "Speed +3",
     "original_fr": "Rapidité +3",
-    "translation": "Скор. +3"
+    "translation": ""
   },
   {
     "id": 84,
@@ -513,31 +513,31 @@
     "id": 85,
     "original_en": "Critical rate: 70%",
     "original_fr": "Coups critiques :\n70%",
-    "translation": "Шанс крита: 70%"
+    "translation": ""
   },
   {
     "id": 86,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 87,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 88,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 89,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 90,
@@ -549,19 +549,19 @@
     "id": 91,
     "original_en": "Inflicts Confuse",
     "original_fr": "Inflige\nConfusion",
-    "translation": "Наносит\nСмятение"
+    "translation": ""
   },
   {
     "id": 92,
     "original_en": "Speed +3",
     "original_fr": "Rapidité +3",
-    "translation": "Скор. +3"
+    "translation": ""
   },
   {
     "id": 93,
     "original_en": "Strength +5",
     "original_fr": "Force +5",
-    "translation": "Сила +5"
+    "translation": ""
   },
   {
     "id": 94,
@@ -573,97 +573,97 @@
     "id": 95,
     "original_en": "Inflicts Stop",
     "original_fr": "Inflige Stop",
-    "translation": "Наносит Стоп"
+    "translation": ""
   },
   {
     "id": 96,
     "original_en": "Critical rate: 90%",
     "original_fr": "Coups critiques :\n90%",
-    "translation": "Шанс крита: 90%"
+    "translation": ""
   },
   {
     "id": 97,
     "original_en": "Deals 777 damage",
     "original_fr": "Toujours 777 pts\nde dég{TAG:4A}ts",
-    "translation": "Наносит ровно\n777 урона"
+    "translation": ""
   },
   {
     "id": 98,
     "original_en": "Damage based on\nlast digit of MP",
     "original_fr": "Dég{TAG:4A}ts basés sur\nles PM du porteur",
-    "translation": "Урон зависит\nот конца ОМ"
+    "translation": ""
   },
   {
     "id": 99,
     "original_en": "May deal 9999\ndamage",
     "original_fr": "Parfois 9999 pts\nde dég{TAG:4A}ts",
-    "translation": "Может нанести\n9999 урона"
+    "translation": ""
   },
   {
     "id": 100,
     "original_en": "4° damage for\ncritical hits",
     "original_fr": "Coups critiques :\ndég{TAG:4A}ts °4",
-    "translation": "Урон °4 при\nкрит. ударе"
+    "translation": ""
   },
   {
     "id": 101,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 102,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 103,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 104,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 105,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 106,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 107,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 108,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 109,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 110,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 111,
@@ -717,13 +717,13 @@
     "id": 119,
     "original_en": "Halves Œ",
     "original_fr": "Dég{TAG:4A}ts Œ -50%",
-    "translation": "Урон Œ -50%"
+    "translation": ""
   },
   {
     "id": 120,
     "original_en": "Magic Defense +5",
     "original_fr": "Défense\nmagique +5",
-    "translation": "Маг. защита +5"
+    "translation": ""
   },
   {
     "id": 121,
@@ -741,7 +741,7 @@
     "id": 123,
     "original_en": "Magic Defense +5",
     "original_fr": "Défense\nmagique +5",
-    "translation": "Маг. защита +5"
+    "translation": ""
   },
   {
     "id": 124,
@@ -765,31 +765,31 @@
     "id": 127,
     "original_en": "Magic Defense +10",
     "original_fr": "Défense\nmagique +10",
-    "translation": "Маг. защита +10"
+    "translation": ""
   },
   {
     "id": 128,
     "original_en": "Status immunity",
     "original_fr": "Protège des\naltérations d'état",
-    "translation": "Иммунитет к\nнедугам"
+    "translation": ""
   },
   {
     "id": 129,
     "original_en": "Auto-Barrier",
     "original_fr": "Auto-Barrière",
-    "translation": "Авто-Барьер"
+    "translation": ""
   },
   {
     "id": 130,
     "original_en": "Magic Defense +10",
     "original_fr": "Défense\nmagique +10",
-    "translation": "Маг. защита +10"
+    "translation": ""
   },
   {
     "id": 131,
     "original_en": "Reduces Œ\ndamage to 20%",
     "original_fr": "Dég{TAG:4A}ts Œ -80%",
-    "translation": "Урон Œ -80%"
+    "translation": ""
   },
   {
     "id": 132,
@@ -807,163 +807,163 @@
     "id": 134,
     "original_en": "Absorbs »",
     "original_fr": "Absorbe dég{TAG:4A}ts »",
-    "translation": "Поглощает »"
+    "translation": ""
   },
   {
     "id": 135,
     "original_en": "Absorbs «",
     "original_fr": "Absorbe dég{TAG:4A}ts «",
-    "translation": "Поглощает «"
+    "translation": ""
   },
   {
     "id": 136,
     "original_en": "Absorbs œ",
     "original_fr": "Absorbe dég{TAG:4A}ts œ",
-    "translation": "Поглощает œ"
+    "translation": ""
   },
   {
     "id": 137,
     "original_en": "Absorbs Œ",
     "original_fr": "Absorbe dég{TAG:4A}ts Œ",
-    "translation": "Поглощает Œ"
+    "translation": ""
   },
   {
     "id": 138,
     "original_en": "Absorbs 50% of »",
     "original_fr": "Absorbe 50% des\ndég{TAG:4A}ts »",
-    "translation": "Поглощает 50%\nурона »"
+    "translation": ""
   },
   {
     "id": 139,
     "original_en": "Absorbs 50% of «",
     "original_fr": "Absorbe 50% des\ndég{TAG:4A}ts «",
-    "translation": "Поглощает 50%\nурона «"
+    "translation": ""
   },
   {
     "id": 140,
     "original_en": "Absorbs 50% of œ",
     "original_fr": "Absorbe 50% des\ndég{TAG:4A}ts œ",
-    "translation": "Поглощает 50%\nурона œ"
+    "translation": ""
   },
   {
     "id": 141,
     "original_en": "Absorbs 50% of Œ",
     "original_fr": "Absorbe 50% des\ndég{TAG:4A}ts Œ",
-    "translation": "Поглощает 50%\nурона Œ"
+    "translation": ""
   },
   {
     "id": 142,
     "original_en": "Speed +2\nHalves Œ",
     "original_fr": "Rapidité +2 et\ndég{TAG:4A}ts Œ -50%",
-    "translation": "Скор. +2\nУрон Œ -50%"
+    "translation": ""
   },
   {
     "id": 143,
     "original_en": "Speed +3\nHalves Œ",
     "original_fr": "Rapidité +3 et\ndég{TAG:4A}ts Œ -50%",
-    "translation": "Скор. +3\nУрон Œ -50%"
+    "translation": ""
   },
   {
     "id": 144,
     "original_en": "Strength +10",
     "original_fr": "Force +10",
-    "translation": "Сила +10"
+    "translation": ""
   },
   {
     "id": 145,
     "original_en": "Magic +10",
     "original_fr": "Magie +10",
-    "translation": "Магия +10"
+    "translation": ""
   },
   {
     "id": 146,
     "original_en": "Speed + 3\nStrength +3",
     "original_fr": "Rapidité +3 et\nforce +3",
-    "translation": "Скор. +3\nСила +3"
+    "translation": ""
   },
   {
     "id": 147,
     "original_en": "Stamina +10\nMagic Defense +10",
     "original_fr": "Endurance +10 et\ndéf. magique +10",
-    "translation": "Выносл. +10\nМаг. защита +10"
+    "translation": ""
   },
   {
     "id": 148,
     "original_en": "Auto-Protect\nAuto-Barrier",
     "original_fr": "Auto-Bouclier\nAuto-Barrière",
-    "translation": "Авто-Защита\nАвто-Барьер"
+    "translation": ""
   },
   {
     "id": 149,
     "original_en": "Elemental immunity",
     "original_fr": "Annule dég{TAG:4A}ts\nélémentaires",
-    "translation": "Иммунитет к\nстихиям"
+    "translation": ""
   },
   {
     "id": 150,
     "original_en": "Magic Defense +20\nAuto-Barrier",
     "original_fr": "Déf. magique +20\nAuto-Barrière",
-    "translation": "Маг. защита +20\nАвто-Барьер"
+    "translation": ""
   },
   {
     "id": 151,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 152,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 153,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 154,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 155,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 156,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 157,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 158,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 159,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 160,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 161,
@@ -1035,7 +1035,7 @@
     "id": 172,
     "original_en": "Magic Defense +9\nStatus immunity",
     "original_fr": "Déf. mag. +9 et\nprot. altér. d'état",
-    "translation": "Маг. защита +9\nЗащита от недуг."
+    "translation": ""
   },
   {
     "id": 173,
@@ -1047,157 +1047,157 @@
     "id": 174,
     "original_en": "Halves «",
     "original_fr": "Dég{TAG:4A}ts « -50%",
-    "translation": "Урон « -50%"
+    "translation": ""
   },
   {
     "id": 175,
     "original_en": "Status immunity",
     "original_fr": "Protège des\naltérations d'état",
-    "translation": "Иммунитет к\nнедугам"
+    "translation": ""
   },
   {
     "id": 176,
     "original_en": "Auto-Protect",
     "original_fr": "Auto-Bouclier",
-    "translation": "Авто-Защита"
+    "translation": ""
   },
   {
     "id": 177,
     "original_en": "Magic Defense +10",
     "original_fr": "Défense\nmagique +10",
-    "translation": "Маг. защита +10"
+    "translation": ""
   },
   {
     "id": 178,
     "original_en": "Prevents Confuse",
     "original_fr": "Protège contre\nConfusion",
-    "translation": "Защита от\nСмятения"
+    "translation": ""
   },
   {
     "id": 179,
     "original_en": "Prevents Lock",
     "original_fr": "Protège contre\nOubli",
-    "translation": "Защита от\nБлока техник"
+    "translation": ""
   },
   {
     "id": 180,
     "original_en": "Prevents Stop\nand Slow",
     "original_fr": "Protège contre\nStop et Lenteur",
-    "translation": "Защита от\nСтопа и Замедл."
+    "translation": ""
   },
   {
     "id": 181,
     "original_en": "Status immunity",
     "original_fr": "Protège des\naltérations d'état",
-    "translation": "Иммунитет к\nнедугам"
+    "translation": ""
   },
   {
     "id": 182,
     "original_en": "???",
     "original_fr": "???",
-    "translation": "???"
+    "translation": ""
   },
   {
     "id": 183,
     "original_en": "Auto-Haste",
     "original_fr": "Auto-Célérité",
-    "translation": "Авто-Спешка"
+    "translation": ""
   },
   {
     "id": 184,
     "original_en": "Halves »",
     "original_fr": "Dég{TAG:4A}ts » -50%",
-    "translation": "Урон » -50%"
+    "translation": ""
   },
   {
     "id": 185,
     "original_en": "Halves œ",
     "original_fr": "Dég{TAG:4A}ts œ -50%",
-    "translation": "Урон œ -50%"
+    "translation": ""
   },
   {
     "id": 186,
     "original_en": "Strength +5",
     "original_fr": "Force +5",
-    "translation": "Сила +5"
+    "translation": ""
   },
   {
     "id": 187,
     "original_en": "Magic +5",
     "original_fr": "Magie +5",
-    "translation": "Магия +5"
+    "translation": ""
   },
   {
     "id": 188,
     "original_en": "Damage boost\nStatus immunity",
     "original_fr": "C. critiques …/Prot.\ndes altér. d'état",
-    "translation": "Бонус к урону\nЗащита от недуг."
+    "translation": ""
   },
   {
     "id": 189,
     "original_en": "Auto-Haste\nStatus immunity",
     "original_fr": "Auto-Célérité/Prot.\ndes altér. d'état",
-    "translation": "Авто-Спешка\nЗащита от недуг."
+    "translation": ""
   },
   {
     "id": 190,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 191,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 192,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 193,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 194,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 195,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 196,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 197,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 198,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 199,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 200,
@@ -1209,211 +1209,211 @@
     "id": 201,
     "original_en": "Speed +1",
     "original_fr": "Rapidité +1",
-    "translation": "Скор. +1"
+    "translation": ""
   },
   {
     "id": 202,
     "original_en": "Accuracy +2",
     "original_fr": "Précision +2",
-    "translation": "Точность +2"
+    "translation": ""
   },
   {
     "id": 203,
     "original_en": "Strength +2",
     "original_fr": "Force +2",
-    "translation": "Сила +2"
+    "translation": ""
   },
   {
     "id": 204,
     "original_en": "Stamina +2",
     "original_fr": "Endurance +2",
-    "translation": "Выносл. +2"
+    "translation": ""
   },
   {
     "id": 205,
     "original_en": "Magic +2",
     "original_fr": "Magie +2",
-    "translation": "Магия +2"
+    "translation": ""
   },
   {
     "id": 206,
     "original_en": "Status immunity",
     "original_fr": "Protège des\naltérations d'état",
-    "translation": "Иммунитет к\nнедугам"
+    "translation": ""
   },
   {
     "id": 207,
     "original_en": "Speed +3",
     "original_fr": "Rapidité +3",
-    "translation": "Скор. +3"
+    "translation": ""
   },
   {
     "id": 208,
     "original_en": "Accuracy +10",
     "original_fr": "Précision +10",
-    "translation": "Точность +10"
+    "translation": ""
   },
   {
     "id": 209,
     "original_en": "Strength +6",
     "original_fr": "Force +6",
-    "translation": "Сила +6"
+    "translation": ""
   },
   {
     "id": 210,
     "original_en": "Magic +6",
     "original_fr": "Magie +6",
-    "translation": "Магия +6"
+    "translation": ""
   },
   {
     "id": 211,
     "original_en": "Magic Defense +10",
     "original_fr": "Défense\nmagique +10",
-    "translation": "Маг. защита +10"
+    "translation": ""
   },
   {
     "id": 212,
     "original_en": "Max HP +25%",
     "original_fr": "PV max +25%",
-    "translation": "Макс. ОЗ +25%"
+    "translation": ""
   },
   {
     "id": 213,
     "original_en": "Max HP +50%",
     "original_fr": "PV max +50%",
-    "translation": "Макс. ОЗ +50%"
+    "translation": ""
   },
   {
     "id": 214,
     "original_en": "50% MP costs",
     "original_fr": "PM requis -50%",
-    "translation": "Расход ОМ -50%"
+    "translation": ""
   },
   {
     "id": 215,
     "original_en": "25% MP costs",
     "original_fr": "PM requis -75%",
-    "translation": "Расход ОМ -75%"
+    "translation": ""
   },
   {
     "id": 216,
     "original_en": "Reveals enemy HP",
     "original_fr": "Affiche les PV\nde la cible",
-    "translation": "Показывает ОЗ\nврагов"
+    "translation": ""
   },
   {
     "id": 217,
     "original_en": "Charm rate …",
     "original_fr": "Efficacité de\nSéduction …",
-    "translation": "Шанс кражи …"
+    "translation": ""
   },
   {
     "id": 218,
     "original_en": "Counter rate: 50% ",
     "original_fr": "Riposte : 50%",
-    "translation": "Контратака: 50%"
+    "translation": ""
   },
   {
     "id": 219,
     "original_en": "Counter rate: 80%",
     "original_fr": "Riposte : 80%",
-    "translation": "Контратака: 80%"
+    "translation": ""
   },
   {
     "id": 220,
     "original_en": "Doubles Evasion",
     "original_fr": "Esquive °2",
-    "translation": "Уклонение x2"
+    "translation": ""
   },
   {
     "id": 221,
     "original_en": "Turns EXP into G",
     "original_fr": "Transforme les\nEXP en G",
-    "translation": "Опыт в золото"
+    "translation": ""
   },
   {
     "id": 222,
     "original_en": "Auto-Raise\n(one time only)",
     "original_fr": "Relève du Coma\n1 fois par combat",
-    "translation": "Воскрешение\n(один раз)"
+    "translation": ""
   },
   {
     "id": 223,
     "original_en": "Auto-Berserk\nAuto-Protect",
     "original_fr": "Auto-Furie\nAuto-Bouclier",
-    "translation": "Авто-Берсерк\nАвто-Защита"
+    "translation": ""
   },
   {
     "id": 224,
     "original_en": "Strength +4",
     "original_fr": "Force +4",
-    "translation": "Сила +4"
+    "translation": ""
   },
   {
     "id": 225,
     "original_en": "Speed +2",
     "original_fr": "Rapidité +2",
-    "translation": "Скор. +2"
+    "translation": ""
   },
   {
     "id": 226,
     "original_en": "Enables use of\nEternal Darkness",
     "original_fr": "Ténèbres sans fin\ndisponible",
-    "translation": "Комбо «Тьма\nВечности»"
+    "translation": ""
   },
   {
     "id": 227,
     "original_en": "Enables use of\nOmega Flare",
     "original_fr": "Fission oméga\ndisponible",
-    "translation": "Комбо «Омега-\nВспышка»"
+    "translation": ""
   },
   {
     "id": 228,
     "original_en": "Enables use of\nSpin Strike",
     "original_fr": "Piqué mégatonne\ndisponible",
-    "translation": "Комбо «Вихрь-\nУдар»"
+    "translation": ""
   },
   {
     "id": 229,
     "original_en": "Enables use of\nPoyozo Dance",
     "original_fr": "Danse poyozo\ndisponible",
-    "translation": "Комбо «Танец\nПойозо»"
+    "translation": ""
   },
   {
     "id": 230,
     "original_en": "Enables use of\nMaster Mune",
     "original_fr": "Songe grandiose\ndisponible",
-    "translation": "Комбо «Мастер\nМунэ»"
+    "translation": ""
   },
   {
     "id": 231,
     "original_en": "Masamune crit. % …",
     "original_fr": "C. critiques avec\nGrandléon …",
-    "translation": "Крит Масамунэ …"
+    "translation": ""
   },
   {
     "id": 232,
     "original_en": "Stamina +6",
     "original_fr": "Endurance +6",
-    "translation": "Выносл. +6"
+    "translation": ""
   },
   {
     "id": 233,
     "original_en": "Magic Defense +12",
     "original_fr": "Défense\nmagique +12",
-    "translation": "Маг. защита +12"
+    "translation": ""
   },
   {
     "id": 234,
     "original_en": "Magic +5\nMagic Defense +5",
     "original_fr": "Magie et défense\nmagique +5",
-    "translation": "Магия +5\nМаг. защита +5"
+    "translation": ""
   },
   {
     "id": 235,
     "original_en": "Strength +10\nStamina +10",
     "original_fr": "Force et\nendurance +10",
-    "translation": "Сила +10\nВыносл. +10"
+    "translation": ""
   },
   {
     "id": 236,
@@ -1431,127 +1431,127 @@
     "id": 238,
     "original_en": "Damage boost",
     "original_fr": "Puissance des\nattaques …",
-    "translation": "Бонус к урону"
+    "translation": ""
   },
   {
     "id": 239,
     "original_en": "Major dmg. boost",
     "original_fr": "Puissance des\nattaques ……",
-    "translation": "Большой урон"
+    "translation": ""
   },
   {
     "id": 240,
     "original_en": "Critical rate …\nCounter rate: 50%",
     "original_fr": "Coups critiques …\nRiposte : 50%",
-    "translation": "Крит. удар …\nКонтратака: 50%"
+    "translation": ""
   },
   {
     "id": 241,
     "original_en": "Masamune crit. % …\nHalves MP costs",
     "original_fr": "Crit. Grandléon …\nPM requis -50%",
-    "translation": "Крит Масамунэ …\nРасход ОМ -50%"
+    "translation": ""
   },
   {
     "id": 242,
     "original_en": "Critical rate …",
     "original_fr": "Coups critiques …",
-    "translation": "Крит. удар …"
+    "translation": ""
   },
   {
     "id": 243,
     "original_en": "Sets enemy HP to 1",
     "original_fr": "Réduit PV de\nla cible {TAG:3C} 1",
-    "translation": "Оставляет 1 ОЗ\nврагу"
+    "translation": ""
   },
   {
     "id": 244,
     "original_en": "Counter rate: 25%\nfor non-»",
     "original_fr": "Riposte : 25% sauf\nattaques »",
-    "translation": "Контратака 25%\nкроме атак »"
+    "translation": ""
   },
   {
     "id": 245,
     "original_en": "Counter rate: 25%\nfor non-œ",
     "original_fr": "Riposte : 25% sauf\nattaques œ",
-    "translation": "Контратака 25%\nкроме атак œ"
+    "translation": ""
   },
   {
     "id": 246,
     "original_en": "Counter rate: 25%\nfor non-Œ",
     "original_fr": "Riposte : 25% sauf\nattaques Œ",
-    "translation": "Контратака 25%\nкроме атак Œ"
+    "translation": ""
   },
   {
     "id": 247,
     "original_en": "Counter rate: 25%\nfor non-«",
     "original_fr": "Riposte : 25% sauf\nattaques «",
-    "translation": "Контратака 25%\nкроме атак «"
+    "translation": ""
   },
   {
     "id": 248,
     "original_en": "Counter rate: 25%\nfor non-physical",
     "original_fr": "Riposte : 25% sauf\natt. physiques",
-    "translation": "Контратака 25%\nпри маг. уроне"
+    "translation": ""
   },
   {
     "id": 249,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 250,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 251,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 252,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 253,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 254,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 255,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 256,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 257,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 258,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 259,
@@ -1563,253 +1563,253 @@
     "id": 260,
     "original_en": "Restores 50 HP",
     "original_fr": "Rend 50 PV.",
-    "translation": "Лечит 50 ОЗ"
+    "translation": ""
   },
   {
     "id": 261,
     "original_en": "Restores 200 HP",
     "original_fr": "Rend 200 PV.",
-    "translation": "Лечит 200 ОЗ"
+    "translation": ""
   },
   {
     "id": 262,
     "original_en": "Restores 500 HP",
     "original_fr": "Rend 500 PV.",
-    "translation": "Лечит 500 ОЗ"
+    "translation": ""
   },
   {
     "id": 263,
     "original_en": "Restores 10 MP",
     "original_fr": "Rend 10 PM.",
-    "translation": "Лечит 10 ОМ"
+    "translation": ""
   },
   {
     "id": 264,
     "original_en": "Restores 30 MP",
     "original_fr": "Rend 30 PM.",
-    "translation": "Лечит 30 ОМ"
+    "translation": ""
   },
   {
     "id": 265,
     "original_en": "Restores 60 MP",
     "original_fr": "Rend 60 PM.",
-    "translation": "Лечит 60 ОМ"
+    "translation": ""
   },
   {
     "id": 266,
     "original_en": "Fully restores\nHP and MP",
     "original_fr": "Rend tous les PV et PM.",
-    "translation": "Полное лечение\nОЗ и ОМ"
+    "translation": ""
   },
   {
     "id": 267,
     "original_en": "Fully restores MP",
     "original_fr": "Rend tous les PM.",
-    "translation": "Полное лечение\nОМ"
+    "translation": ""
   },
   {
     "id": 268,
     "original_en": "Fully restores\nparty's HP and MP",
     "original_fr": "Rend tous leurs PV\net PM aux alliés.",
-    "translation": "Полное лечение\nОЗ/ОМ отряда"
+    "translation": ""
   },
   {
     "id": 269,
     "original_en": "Removes status\nailments",
     "original_fr": "Guérit les\naltérations d'état.",
-    "translation": "Снимает все\nнедуги"
+    "translation": ""
   },
   {
     "id": 270,
     "original_en": "Revives KO'd ally",
     "original_fr": "Relève du Coma.",
-    "translation": "Оживляет\nсоюзника"
+    "translation": ""
   },
   {
     "id": 271,
     "original_en": "Fully restores HP,\nMP at save point",
     "original_fr": "Restaure PV et PM si\nsauvegarde possible.",
-    "translation": "Лечит ОЗ и ОМ в\nточках сохр."
+    "translation": ""
   },
   {
     "id": 272,
     "original_en": "Restores HP or MP",
     "original_fr": "Rend des PV\net/ou des PM.",
-    "translation": "Лечит ОЗ или ОМ"
+    "translation": ""
   },
   {
     "id": 273,
     "original_en": "Restores 200 HP\nto entire party",
     "original_fr": "Rend 200 PV aux alliés.",
-    "translation": "Лечит 200 ОЗ\nвсему отряду"
+    "translation": ""
   },
   {
     "id": 274,
     "original_en": "Casts Barrier",
     "original_fr": "Auto-Barrière",
-    "translation": "Накладывает\nБарьер"
+    "translation": ""
   },
   {
     "id": 275,
     "original_en": "Casts Protect",
     "original_fr": "Auto-Bouclier",
-    "translation": "Накладывает\nЗащиту"
+    "translation": ""
   },
   {
     "id": 276,
     "original_en": "Permanently raises\nStrength by 1",
     "original_fr": "Augmente la force\nd'un point.",
-    "translation": "Навсегда +1 к\nСиле"
+    "translation": ""
   },
   {
     "id": 277,
     "original_en": "Permanently raises\nMagic by 1",
     "original_fr": "Augmente la magie\nd'un point.",
-    "translation": "Навсегда +1 к\nМагии"
+    "translation": ""
   },
   {
     "id": 278,
     "original_en": "Permanently raises\nSpeed by 1",
     "original_fr": "Augmente la rapidité\nd'un point.",
-    "translation": "Навсегда +1 к\nСкорости"
+    "translation": ""
   },
   {
     "id": 279,
     "original_en": "Restores some HP\nto monster",
     "original_fr": "Rend quelques PV.\n(Arène)",
-    "translation": "Лечит немного ОЗ\nмонстру"
+    "translation": ""
   },
   {
     "id": 280,
     "original_en": "Causes monster\nto use Œ tech",
     "original_fr": "Permet d'utiliser une\ncompétence. Œ (Arène)",
-    "translation": "Монстр применит\nтехнику Œ"
+    "translation": ""
   },
   {
     "id": 281,
     "original_en": "Causes monster\nto use œ tech",
     "original_fr": "Permet d'utiliser une\ncompétence. œ (Arène)",
-    "translation": "Монстр применит\nтехнику œ"
+    "translation": ""
   },
   {
     "id": 282,
     "original_en": "Causes monster\nto use « tech",
     "original_fr": "Permet d'utiliser une\ncompétence. « (Arène)",
-    "translation": "Монстр применит\nтехнику «"
+    "translation": ""
   },
   {
     "id": 283,
     "original_en": "Causes monster\nto use » tech",
     "original_fr": "Permet d'utiliser une\ncompétence. » (Arène)",
-    "translation": "Монстр применит\nтехнику »"
+    "translation": ""
   },
   {
     "id": 284,
     "original_en": "Temporarily raises\nStrength by 5",
     "original_fr": "Force +5 temporairement\n(Arène)",
-    "translation": "Сила +5 в\nтечение боя"
+    "translation": ""
   },
   {
     "id": 285,
     "original_en": "Damage reduction",
     "original_fr": "Dég{TAG:4A}ts -33%\n(Arène)",
-    "translation": "Снижение урона"
+    "translation": ""
   },
   {
     "id": 286,
     "original_en": "4° damage for\ncritical hits",
     "original_fr": "Coups critiques :\ndég{TAG:4A}ts °4",
-    "translation": "Урон °4 при\nкрит. ударе"
+    "translation": ""
   },
   {
     "id": 287,
     "original_en": "Restores 250 HP",
     "original_fr": "Rend 250 PV.",
-    "translation": "Лечит 250 ОЗ"
+    "translation": ""
   },
   {
     "id": 288,
     "original_en": "Removes status\nailments",
     "original_fr": "Guérit les\naltérations d'état.",
-    "translation": "Снимает все\nнедуги"
+    "translation": ""
   },
   {
     "id": 289,
     "original_en": "Restores 20 MP",
     "original_fr": "Rend 20 PM.",
-    "translation": "Лечит 20 ОМ"
+    "translation": ""
   },
   {
     "id": 290,
     "original_en": "Restores 150 HP",
     "original_fr": "Rend 150 PV.",
-    "translation": "Лечит 150 ОЗ"
+    "translation": ""
   },
   {
     "id": 291,
     "original_en": "Restores 40 MP",
     "original_fr": "Rend 40 PM.",
-    "translation": "Лечит 40 ОМ"
+    "translation": ""
   },
   {
     "id": 292,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 293,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 294,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 295,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 296,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 297,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 298,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 299,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 300,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 301,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 302,

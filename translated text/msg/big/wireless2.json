@@ -3,156 +3,156 @@
     "id": 0,
     "original_en": "{GLYPH:374}'s {GLYPH:391} steps into the Pit\non the side of Player 1.",
     "original_fr": "Dans le côté gauche, nous avons... {GLYPH:391} !\nJ1 : {GLYPH:374}",
-    "translation": "{GLYPH:374}: {GLYPH:391} выходит на арену\nна стороне Игрока 1."
+    "translation": ""
   },
   {
     "id": 1,
     "original_en": "{GLYPH:374}'s {GLYPH:391} steps into the Pit\non the side of Player 2.",
     "original_fr": "Et dans le côté droit, nous avons... {GLYPH:391} !\nJ2 : {GLYPH:374}",
-    "translation": "{GLYPH:374}: {GLYPH:391} выходит на арену\nна стороне Игрока 2."
+    "translation": ""
   },
   {
     "id": 2,
     "original_en": "{GLYPH:374}'s {GLYPH:391} attacks!",
     "original_fr": "{GLYPH:391}, de {GLYPH:374},\npasse {TAG:3C} l'offensive !",
-    "translation": "{GLYPH:374}: {GLYPH:391} атакует!"
+    "translation": ""
   },
   {
     "id": 3,
     "original_en": "{GLYPH:374}'s {GLYPH:391} attacks!",
     "original_fr": "{GLYPH:391}, de {GLYPH:374},\ns'avance...",
-    "translation": "{GLYPH:374}: {GLYPH:391} атакует!"
+    "translation": ""
   },
   {
     "id": 4,
     "original_en": "{GLYPH:374}'s {GLYPH:391} attacks!",
     "original_fr": "{GLYPH:391} attaque !\nQue nous réserve {GLYPH:374} ?",
-    "translation": "{GLYPH:374}: {GLYPH:391} атакует!"
+    "translation": ""
   },
   {
     "id": 5,
     "original_en": "{GLYPH:390}!",
     "original_fr": "{GLYPH:390} !",
-    "translation": "{GLYPH:390}!"
+    "translation": ""
   },
   {
     "id": 6,
     "original_en": "{GLYPH:390}!",
     "original_fr": "{GLYPH:390} !",
-    "translation": "{GLYPH:390}!"
+    "translation": ""
   },
   {
     "id": 7,
     "original_en": "{GLYPH:390}!\nCritical hit!",
     "original_fr": "{GLYPH:390} !\nC'est un coup critique !",
-    "translation": "{GLYPH:390}!\nКритический удар!"
+    "translation": ""
   },
   {
     "id": 8,
     "original_en": "{GLYPH:367} damage!",
     "original_fr": "{GLYPH:367} point(s) de dég{TAG:4A}ts !",
-    "translation": "{GLYPH:367} урона!"
+    "translation": ""
   },
   {
     "id": 9,
     "original_en": "{GLYPH:374}'s {GLYPH:391}\nhas acquired a status ailment!",
     "original_fr": "Oh... {GLYPH:391} a l'air mal en point.",
-    "translation": "{GLYPH:374}: питомец {GLYPH:391}\nполучает негативный статус!"
+    "translation": ""
   },
   {
     "id": 10,
     "original_en": "{GLYPH:374}'s {GLYPH:391} has won the battle!",
     "original_fr": "{GLYPH:391}, de {GLYPH:374},\nremporte la victoire !",
-    "translation": "{GLYPH:374}: {GLYPH:391} побеждает в бою!"
+    "translation": ""
   },
   {
     "id": 11,
     "original_en": "{GLYPH:390}!\nMiss!",
     "original_fr": "{GLYPH:390} !\nNon ! Son adversaire esquive !",
-    "translation": "{GLYPH:390}!\nПромах!"
+    "translation": ""
   },
   {
     "id": 12,
     "original_en": "{GLYPH:374}'s {GLYPH:391} has fallen quiet.",
     "original_fr": "{GLYPH:391}, de {GLYPH:374},\nest imperturbable.",
-    "translation": "{GLYPH:374}: питомец {GLYPH:391} повержен."
+    "translation": ""
   },
   {
     "id": 13,
     "original_en": "Please select a fighter.",
     "original_fr": "Choisissez le monstre qui combattra pour vous.",
-    "translation": "Пожалуйста, выберите бойца."
+    "translation": ""
   },
   {
     "id": 14,
     "original_en": "{GLYPH:374}'s {GLYPH:391} knows no fire-based techs.",
     "original_fr": "{GLYPH:391}, de {GLYPH:374},\nne conna¡t pas de compétence de feu !",
-    "translation": "{GLYPH:374}: {GLYPH:391} не знает техник огня."
+    "translation": ""
   },
   {
     "id": 15,
     "original_en": "{GLYPH:374}'s {GLYPH:391}\nknows no water-based techs.",
     "original_fr": "{GLYPH:391}, de {GLYPH:374},\nne conna¡t pas de compétence d'eau !",
-    "translation": "{GLYPH:374}: {GLYPH:391}\nне знает техник воды."
+    "translation": ""
   },
   {
     "id": 16,
     "original_en": "{GLYPH:374}'s {GLYPH:391}\nknows no light-based techs.",
     "original_fr": "{GLYPH:391}, de {GLYPH:374},\nne conna¡t pas de compétence de lumière !",
-    "translation": "{GLYPH:374}: {GLYPH:391}\nне знает техник света."
+    "translation": ""
   },
   {
     "id": 17,
     "original_en": "{GLYPH:374}'s {GLYPH:391}\nknows no shadow-based techs.",
     "original_fr": "{GLYPH:391}, de {GLYPH:374},\nne conna¡t pas de compétence de ténèbres !",
-    "translation": "{GLYPH:374}: {GLYPH:391}\nне знает техник тьмы."
+    "translation": ""
   },
   {
     "id": 18,
     "original_en": "{GLYPH:367} damage!\n{GLYPH:374}'s {GLYPH:391} is blinded!",
     "original_fr": "{GLYPH:367} point(s) de dég{TAG:4A}ts !\n{GLYPH:391}, de {GLYPH:374},\nsubit l'altération d'état Cécité !",
-    "translation": "{GLYPH:367} урона!\n{GLYPH:374}: {GLYPH:391} ослеплён!"
+    "translation": ""
   },
   {
     "id": 19,
     "original_en": "{GLYPH:367} damage!\n{GLYPH:374}'s {GLYPH:391} is confused!",
     "original_fr": "{GLYPH:367} point(s) de dég{TAG:4A}ts !\n{GLYPH:391} , de {GLYPH:374},\nsubit l'altération d'état Confusion !",
-    "translation": "{GLYPH:367} урона!\n{GLYPH:374}: {GLYPH:391} в замешательстве!"
+    "translation": ""
   },
   {
     "id": 20,
     "original_en": "{GLYPH:367} damage!\n{GLYPH:374}'s {GLYPH:391} is slowed!",
     "original_fr": "{GLYPH:367} point(s) de dég{TAG:4A}ts !\n{GLYPH:391}, de {GLYPH:374},\nsubit l'altération d'état Lenteur !",
-    "translation": "{GLYPH:367} урона!\n{GLYPH:374}: {GLYPH:391} замедлен!"
+    "translation": ""
   },
   {
     "id": 21,
     "original_en": "P1",
     "original_fr": "J1",
-    "translation": "И1"
+    "translation": ""
   },
   {
     "id": 22,
     "original_en": "{TAG:38}P2",
     "original_fr": "{TAG:38}J2",
-    "translation": "{TAG:38}И2"
+    "translation": ""
   },
   {
     "id": 23,
     "original_en": "/",
     "original_fr": "/",
-    "translation": "/"
+    "translation": ""
   },
   {
     "id": 24,
     "original_en": "???",
     "original_fr": "???",
-    "translation": "???"
+    "translation": ""
   },
   {
     "id": 25,
     "original_en": "NPC",
     "original_fr": "PNJ",
-    "translation": "NPC"
+    "translation": ""
   }
 ]

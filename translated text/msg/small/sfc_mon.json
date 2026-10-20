@@ -9,7 +9,7 @@
     "id": 1,
     "original_en": "Reptite",
     "original_fr": "Saurien",
-    "translation": "Рептит"
+    "translation": "Ящерица"
   },
   {
     "id": 2,
@@ -33,7 +33,7 @@
     "id": 5,
     "original_en": "Underling",
     "original_fr": "Sous-fifre violet",
-    "translation": "Прислужник"
+    "translation": "Подопечный"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "id": 10,
     "original_en": "Mammon Machine",
     "original_fr": "Rèceptacle sacrè",
-    "translation": "Машина Маммона"
+    "translation": "Священный Сосуд"
   },
   {
     "id": 11,
@@ -75,25 +75,25 @@
     "id": 12,
     "original_en": "Blue Imp",
     "original_fr": "Diablotin bleu",
-    "translation": "Синий чёрт"
+    "translation": "Голубой Чёрт"
   },
   {
     "id": 13,
     "original_en": "Green Imp",
     "original_fr": "Diablotin vert",
-    "translation": "Зелёный чёрт"
+    "translation": "Зелёный Чёрт"
   },
   {
     "id": 14,
     "original_en": "Stone Imp",
     "original_fr": "Diablotin gris",
-    "translation": "Каменный чёрт"
+    "translation": "Каменный Чёрт"
   },
   {
     "id": 15,
     "original_en": "Mud Imp",
     "original_fr": "Terra-diablotin",
-    "translation": "Грязевой чёрт"
+    "translation": "Грязевой Чёрт"
   },
   {
     "id": 16,
@@ -111,13 +111,13 @@
     "id": 18,
     "original_en": "Boundillo",
     "original_fr": "Roulemaboul",
-    "translation": "Баундилло"
+    "translation": "Баунддилло"
   },
   {
     "id": 19,
     "original_en": "Roundillo Rider",
     "original_fr": "Cavalier maboul",
-    "translation": "Всадник"
+    "translation": "Всадник Раунд-о"
   },
   {
     "id": 20,
@@ -129,19 +129,19 @@
     "id": 21,
     "original_en": "Blue Eaglet",
     "original_fr": "Ouhbouh bleu",
-    "translation": "Синий орёл"
+    "translation": "Голубой Орёл"
   },
   {
     "id": 22,
     "original_en": "Golden Eaglet",
     "original_fr": "Ouhbouh dorè",
-    "translation": "Золотой орёл"
+    "translation": "Золотой Орёл"
   },
   {
     "id": 23,
     "original_en": "Red Eaglet",
     "original_fr": "Ouhbouh rouge",
-    "translation": "Красный орёл"
+    "translation": "Красный Орёл"
   },
   {
     "id": 24,
@@ -153,19 +153,19 @@
     "id": 25,
     "original_en": "Gilded Bellbird",
     "original_fr": "Calamitè",
-    "translation": "Злат. звонарь"
+    "translation": "Позолоч. Звонарь"
   },
   {
     "id": 26,
     "original_en": "Imp Hawk",
     "original_fr": "Diablotin volant",
-    "translation": "Чёртокрыл"
+    "translation": "Летающий Чёрт"
   },
   {
     "id": 27,
     "original_en": "Bomber Bird",
     "original_fr": "Diablo-commando",
-    "translation": "Бомбардир"
+    "translation": "Птица-бомбардир"
   },
   {
     "id": 28,
@@ -207,19 +207,19 @@
     "id": 34,
     "original_en": "Ruin Stalker",
     "original_fr": "Pieuvre des ruines",
-    "translation": "Охотник руин"
+    "translation": "Руинный Охотник"
   },
   {
     "id": 35,
     "original_en": "Cave Stalker",
     "original_fr": "Spèlèopieuvre",
-    "translation": "Пещерн. ловец"
+    "translation": "Пещерный Охотник"
   },
   {
     "id": 36,
     "original_en": "White Horror",
     "original_fr": "Albinos",
-    "translation": "Белый ужас"
+    "translation": "Белый Ужас"
   },
   {
     "id": 37,
@@ -237,25 +237,25 @@
     "id": 39,
     "original_en": "Floral Horror",
     "original_fr": "Cytinelle",
-    "translation": "Цвет. ужас"
+    "translation": "Цветочный Ужас"
   },
   {
     "id": 40,
     "original_en": "Death Lily",
     "original_fr": "Fleur des cimes",
-    "translation": "Лилия смерти"
+    "translation": "Лилия Смерти"
   },
   {
     "id": 41,
     "original_en": "Blood Yolk",
     "original_fr": "ûuf carnivore",
-    "translation": "Кровав. желток"
+    "translation": "Кровавый Желток"
   },
   {
     "id": 42,
     "original_en": "Egg Ooze",
     "original_fr": "ûuf craquè",
-    "translation": "Яйцо слизи"
+    "translation": "Яйцо Слизи"
   },
   {
     "id": 43,
@@ -279,37 +279,37 @@
     "id": 46,
     "original_en": "Lancer",
     "original_fr": "Squelette lancier",
-    "translation": "Копейщик"
+    "translation": "Лансер"
   },
   {
     "id": 47,
     "original_en": "Macabre",
     "original_fr": "Macchabèe",
-    "translation": "Макабр"
+    "translation": "Мрачный"
   },
   {
     "id": 48,
     "original_en": "Flesh Reaper",
     "original_fr": "Trèpassè",
-    "translation": "Жнец плоти"
+    "translation": "Жнец Плоти"
   },
   {
     "id": 49,
     "original_en": "Royal Guard",
     "original_fr": "Garde",
-    "translation": "Страж короля"
+    "translation": "Корол-ая Охрана"
   },
   {
     "id": 50,
     "original_en": "Ghost Knight",
     "original_fr": "Chevalier fantüme",
-    "translation": "Рыцарь-призрак"
+    "translation": "Призр-ый Рыцарь"
   },
   {
     "id": 51,
     "original_en": "Freelancer",
     "original_fr": "Mercenaire",
-    "translation": "Наёмник"
+    "translation": "Фрилансер"
   },
   {
     "id": 52,
@@ -321,7 +321,7 @@
     "id": 53,
     "original_en": "Giga Mutant",
     "original_fr": "Gigamutant",
-    "translation": "Гига-мутант"
+    "translation": "Гига Мутант"
   },
   {
     "id": 54,
@@ -333,7 +333,7 @@
     "id": 55,
     "original_en": "Tera Mutant",
     "original_fr": "Tèramutant",
-    "translation": "Тера-мутант"
+    "translation": "Тера Мутант"
   },
   {
     "id": 56,
@@ -357,7 +357,7 @@
     "id": 59,
     "original_en": "Zealot Mage",
     "original_fr": "Mage de Zhyle",
-    "translation": "Фанатик"
+    "translation": "Маг-фанатик"
   },
   {
     "id": 60,
@@ -369,7 +369,7 @@
     "id": 61,
     "original_en": "Reptite",
     "original_fr": "Saurien violet",
-    "translation": "Рептит"
+    "translation": "Ящерица"
   },
   {
     "id": 62,
@@ -399,7 +399,7 @@
     "id": 66,
     "original_en": "Watcher",
     "original_fr": "Vagabond",
-    "translation": "Страж"
+    "translation": "Наблюдатель"
   },
   {
     "id": 67,
@@ -417,127 +417,127 @@
     "id": 69,
     "original_en": "Djinn Bottle",
     "original_fr": "Klein",
-    "translation": "Кувшин джинна"
+    "translation": "Бутылка Джинна"
   },
   {
     "id": 70,
     "original_en": "Aecyto Weevil",
     "original_fr": "Coprophage",
-    "translation": "Долгоносик"
+    "translation": ""
   },
   {
     "id": 71,
     "original_en": "Rhino Weevil",
     "original_fr": "Charan«on",
-    "translation": "Слоник"
+    "translation": ""
   },
   {
     "id": 72,
     "original_en": "Diablo",
     "original_fr": "Diabolos",
-    "translation": "Диабло"
+    "translation": ""
   },
   {
     "id": 73,
     "original_en": "Gargoyle",
     "original_fr": "Gargouille",
-    "translation": "Горгулья"
+    "translation": ""
   },
   {
     "id": 74,
     "original_en": "Blue Gargoyle",
     "original_fr": "Gargouille bleue",
-    "translation": "Синяя горгулья"
+    "translation": ""
   },
   {
     "id": 75,
     "original_en": "Underling",
     "original_fr": "Sous-fifre",
-    "translation": "Прислужник"
+    "translation": ""
   },
   {
     "id": 76,
     "original_en": "Edible Frog",
     "original_fr": "Grenouille",
-    "translation": "Лягушка"
+    "translation": ""
   },
   {
     "id": 77,
     "original_en": "Prehistoric Frog",
     "original_fr": "Archèobatracien",
-    "translation": "Древн. жаба"
+    "translation": ""
   },
   {
     "id": 78,
     "original_en": "Prehistoric Frog",
     "original_fr": "Archèobatracien",
-    "translation": "Древн. жаба"
+    "translation": ""
   },
   {
     "id": 79,
     "original_en": "Bullfrog",
     "original_fr": "Orphelin",
-    "translation": "Жаба-бык"
+    "translation": ""
   },
   {
     "id": 80,
     "original_en": "Mad Bat",
     "original_fr": "Chauve-souris",
-    "translation": "Бешен. мышь"
+    "translation": ""
   },
   {
     "id": 81,
     "original_en": "Vampire Bat",
     "original_fr": "Vampire",
-    "translation": "Вампир"
+    "translation": ""
   },
   {
     "id": 82,
     "original_en": "Scouter",
     "original_fr": "çclaireur",
-    "translation": "Скаут"
+    "translation": ""
   },
   {
     "id": 83,
     "original_en": "Flyclops",
     "original_fr": "Ahrimini",
-    "translation": "Мухоглаз"
+    "translation": ""
   },
   {
     "id": 84,
     "original_en": "Exterminator",
     "original_fr": "Chasse-souris",
-    "translation": "Истребитель"
+    "translation": ""
   },
   {
     "id": 85,
     "original_en": "Deverminator",
     "original_fr": "Dèbogueur",
-    "translation": "Дезинсектор"
+    "translation": ""
   },
   {
     "id": 86,
     "original_en": "Deverminator EX",
     "original_fr": "Dèbogueur +",
-    "translation": "Дезинсект. EX"
+    "translation": ""
   },
   {
     "id": 87,
     "original_en": "Sorcerer",
     "original_fr": "Sorcier",
-    "translation": "Колдун"
+    "translation": ""
   },
   {
     "id": 88,
     "original_en": "Djinn",
     "original_fr": "Djinn",
-    "translation": "Джинн"
+    "translation": ""
   },
   {
     "id": 89,
     "original_en": "Ghul",
     "original_fr": "Gènie",
-    "translation": "Гуль"
+    "translation": ""
   },
   {
     "id": 90,
@@ -549,31 +549,31 @@
     "id": 91,
     "original_en": "Crater",
     "original_fr": "Cratêre",
-    "translation": "Кратер"
+    "translation": ""
   },
   {
     "id": 92,
     "original_en": "Volcanite",
     "original_fr": "Volcan",
-    "translation": "Вулканит"
+    "translation": ""
   },
   {
     "id": 93,
     "original_en": "Mossback",
     "original_fr": "Aide-baobao",
-    "translation": "Мшистый"
+    "translation": ""
   },
   {
     "id": 94,
     "original_en": "Amanita",
     "original_fr": "Amanite",
-    "translation": "Мухомор"
+    "translation": ""
   },
   {
     "id": 95,
     "original_en": "Rubble",
     "original_fr": "Rocher",
-    "translation": "Булыжник"
+    "translation": ""
   },
   {
     "id": 96,
@@ -585,19 +585,19 @@
     "id": 97,
     "original_en": "Schist",
     "original_fr": "Schiste",
-    "translation": "Сланец"
+    "translation": ""
   },
   {
     "id": 98,
     "original_en": "Schist",
     "original_fr": "Schiste",
-    "translation": "Сланец"
+    "translation": ""
   },
   {
     "id": 99,
     "original_en": "Dondrago",
     "original_fr": "Nèrèe",
-    "translation": "Дондраго"
+    "translation": ""
   },
   {
     "id": 100,
@@ -609,55 +609,55 @@
     "id": 101,
     "original_en": "Sandrago",
     "original_fr": "Nèrèe des sables",
-    "translation": "Сандраго"
+    "translation": ""
   },
   {
     "id": 102,
     "original_en": "Shadow",
     "original_fr": "Silhouette",
-    "translation": "Тень"
+    "translation": ""
   },
   {
     "id": 103,
     "original_en": "Empty",
     "original_fr": "Vide",
-    "translation": "Пустота"
+    "translation": ""
   },
   {
     "id": 104,
     "original_en": "Soul",
     "original_fr": "Base",
-    "translation": "Душа"
+    "translation": ""
   },
   {
     "id": 105,
     "original_en": "Acid",
     "original_fr": "Acide",
-    "translation": "Кислота"
+    "translation": ""
   },
   {
     "id": 106,
     "original_en": "Alkali",
     "original_fr": "Alcali",
-    "translation": "Щёлочь"
+    "translation": ""
   },
   {
     "id": 107,
     "original_en": "Ion Cloud",
     "original_fr": "Flaque",
-    "translation": "Ион. облако"
+    "translation": ""
   },
   {
     "id": 108,
     "original_en": "Ion Cloud",
     "original_fr": "Flaque",
-    "translation": "Ион. облако"
+    "translation": ""
   },
   {
     "id": 109,
     "original_en": "Monk",
     "original_fr": "Augure",
-    "translation": "Монах"
+    "translation": ""
   },
   {
     "id": 110,
@@ -669,49 +669,49 @@
     "id": 111,
     "original_en": "Elder Lavos Spawn",
     "original_fr": "Pupe de Lavos",
-    "translation": "Порождение"
+    "translation": ""
   },
   {
     "id": 112,
     "original_en": "Warrior",
     "original_fr": "Kahrvina",
-    "translation": "Воин"
+    "translation": ""
   },
   {
     "id": 113,
     "original_en": "Ogan",
     "original_fr": "Ogan",
-    "translation": "Оган"
+    "translation": ""
   },
   {
     "id": 114,
     "original_en": "Monster",
     "original_fr": "Monstre",
-    "translation": "Монстр"
+    "translation": ""
   },
   {
     "id": 115,
     "original_en": "Cave Bat",
     "original_fr": "Noctule",
-    "translation": "Пещерн. мышь"
+    "translation": ""
   },
   {
     "id": 116,
     "original_en": "Ogan",
     "original_fr": "Ogan marteleur",
-    "translation": "Оган"
+    "translation": ""
   },
   {
     "id": 117,
     "original_en": "Servant",
     "original_fr": "Ogre rouge",
-    "translation": "Слуга"
+    "translation": ""
   },
   {
     "id": 118,
     "original_en": "Servant",
     "original_fr": "Ogre",
-    "translation": "Слуга"
+    "translation": ""
   },
   {
     "id": 119,
@@ -729,55 +729,55 @@
     "id": 121,
     "original_en": "Bao Bao",
     "original_fr": "Baobao",
-    "translation": "Бао-Бао"
+    "translation": ""
   },
   {
     "id": 122,
     "original_en": "Cave Ape",
     "original_fr": "Orang-outan",
-    "translation": "Пещерн. обезь."
+    "translation": ""
   },
   {
     "id": 123,
     "original_en": "Megasaur",
     "original_fr": "Mègasaure",
-    "translation": "Мегазавр"
+    "translation": ""
   },
   {
     "id": 124,
     "original_en": "Gaoler",
     "original_fr": "Ghia",
-    "translation": "Тюремщик"
+    "translation": ""
   },
   {
     "id": 125,
     "original_en": "Mudbeast",
     "original_fr": "Terraphage",
-    "translation": "Грязезверь"
+    "translation": ""
   },
   {
     "id": 126,
     "original_en": "Blue Mudbeast",
     "original_fr": "Terraphage bleu",
-    "translation": "Грязезверь"
+    "translation": ""
   },
   {
     "id": 127,
     "original_en": "Red Mudbeast",
     "original_fr": "Terraphage rouge",
-    "translation": "Грязезверь"
+    "translation": ""
   },
   {
     "id": 128,
     "original_en": "Turret",
     "original_fr": "Tourelle",
-    "translation": "Турель"
+    "translation": ""
   },
   {
     "id": 129,
     "original_en": "Lizardactyl",
     "original_fr": "Lèzardactyle",
-    "translation": "Ящеродактиль"
+    "translation": ""
   },
   {
     "id": 130,
@@ -789,277 +789,277 @@
     "id": 131,
     "original_en": "Avian Rex",
     "original_fr": "Archèoptèryx",
-    "translation": "Птицезавр"
+    "translation": ""
   },
   {
     "id": 132,
     "original_en": "Narble",
     "original_fr": "Nohè",
-    "translation": "Нарбл"
+    "translation": ""
   },
   {
     "id": 133,
     "original_en": "Ghaj",
     "original_fr": "Gazou",
-    "translation": "Гай"
+    "translation": ""
   },
   {
     "id": 134,
     "original_en": "Rat",
     "original_fr": "Rat",
-    "translation": "Крыса"
+    "translation": ""
   },
   {
     "id": 135,
     "original_en": "Grimling",
     "original_fr": "Rat bleu",
-    "translation": "Гримлинг"
+    "translation": ""
   },
   {
     "id": 136,
     "original_en": "Crested Sprinter",
     "original_fr": "Coureur ô crùte",
-    "translation": "Бегун"
+    "translation": ""
   },
   {
     "id": 137,
     "original_en": "Version 2.0",
     "original_fr": "Modêle 2.0",
-    "translation": "Версия 2.0"
+    "translation": ""
   },
   {
     "id": 138,
     "original_en": "Version 3.0",
     "original_fr": "Modêle 3.0",
-    "translation": "Версия 3.0"
+    "translation": ""
   },
   {
     "id": 139,
     "original_en": "Version 4.0",
     "original_fr": "Modêle 4.0",
-    "translation": "Версия 4.0"
+    "translation": ""
   },
   {
     "id": 140,
     "original_en": "Bug",
     "original_fr": "Scarabogue",
-    "translation": "Жук"
+    "translation": ""
   },
   {
     "id": 141,
     "original_en": "Scarab",
     "original_fr": "Scarabèe",
-    "translation": "Скарабей"
+    "translation": ""
   },
   {
     "id": 142,
     "original_en": "Fangbeast",
     "original_fr": "Dodu",
-    "translation": "Клыкозверь"
+    "translation": ""
   },
   {
     "id": 143,
     "original_en": "Cyrus",
     "original_fr": "Cyrus",
-    "translation": "Сайрус"
+    "translation": ""
   },
   {
     "id": 144,
     "original_en": "Yakra",
     "original_fr": "Yakra",
-    "translation": "Якра"
+    "translation": ""
   },
   {
     "id": 145,
     "original_en": "Prehistoric Frog",
     "original_fr": "Archèobatracien",
-    "translation": "Древн. жаба"
+    "translation": ""
   },
   {
     "id": 146,
     "original_en": "Gato",
     "original_fr": "Gonzales",
-    "translation": "Гато"
+    "translation": ""
   },
   {
     "id": 147,
     "original_en": "Dragon Tank",
     "original_fr": "Dragon d'assaut",
-    "translation": "Дракон-танк"
+    "translation": ""
   },
   {
     "id": 148,
     "original_en": "Wheel",
     "original_fr": "Roues",
-    "translation": "Колесо"
+    "translation": ""
   },
   {
     "id": 149,
     "original_en": "Golem",
     "original_fr": "Golem de Dalton",
-    "translation": "Голем"
+    "translation": ""
   },
   {
     "id": 150,
     "original_en": "Synchrite",
     "original_fr": "Golem des ruines",
-    "translation": "Синхрит"
+    "translation": ""
   },
   {
     "id": 151,
     "original_en": "Masa",
     "original_fr": "Gran",
-    "translation": "Маса"
+    "translation": ""
   },
   {
     "id": 152,
     "original_en": "Mune",
     "original_fr": "Lèon",
-    "translation": "Мунэ"
+    "translation": ""
   },
   {
     "id": 153,
     "original_en": "Masa & Mune",
     "original_fr": "Gran et Lèon",
-    "translation": "Маса и Мунэ"
+    "translation": ""
   },
   {
     "id": 154,
     "original_en": "Azala",
     "original_fr": "Azara",
-    "translation": "Азала"
+    "translation": ""
   },
   {
     "id": 155,
     "original_en": "Nizbel",
     "original_fr": "Nizbel",
-    "translation": "Низбель"
+    "translation": ""
   },
   {
     "id": 156,
     "original_en": "Nizbel II",
     "original_fr": "Nizbel II",
-    "translation": "Низбель II"
+    "translation": ""
   },
   {
     "id": 157,
     "original_en": "Slash",
     "original_fr": "Soja",
-    "translation": "Слэш"
+    "translation": ""
   },
   {
     "id": 158,
     "original_en": "Slash",
     "original_fr": "Soja",
-    "translation": "Слэш"
+    "translation": ""
   },
   {
     "id": 159,
     "original_en": "Flea",
     "original_fr": "Mayo",
-    "translation": "Фли"
+    "translation": ""
   },
   {
     "id": 160,
     "original_en": "Diva Flea",
     "original_fr": "Super Mayo",
-    "translation": "Дива Фли"
+    "translation": ""
   },
   {
     "id": 161,
     "original_en": "Dalton",
     "original_fr": "Dalton",
-    "translation": "Дальтон"
+    "translation": ""
   },
   {
     "id": 162,
     "original_en": "King Dalton",
     "original_fr": "Roi Dalton",
-    "translation": "Дальтон"
+    "translation": ""
   },
   {
     "id": 163,
     "original_en": "Mutant",
     "original_fr": "Mutant",
-    "translation": "Мутант"
+    "translation": ""
   },
   {
     "id": 164,
     "original_en": "Metal Mutant",
     "original_fr": "Mutant mètallique",
-    "translation": "Мутант"
+    "translation": ""
   },
   {
     "id": 165,
     "original_en": "Super Slash",
     "original_fr": "Super Soja",
-    "translation": "Супер-Слэш"
+    "translation": ""
   },
   {
     "id": 166,
     "original_en": "Ozzie",
     "original_fr": "Vinnie",
-    "translation": "Оззи"
+    "translation": ""
   },
   {
     "id": 167,
     "original_en": "Ozzie",
     "original_fr": "Vinnie",
-    "translation": "Оззи"
+    "translation": ""
   },
   {
     "id": 168,
     "original_en": "Ozzie the Great",
     "original_fr": "Vinnie le Grand",
-    "translation": "Великий Оззи"
+    "translation": ""
   },
   {
     "id": 169,
     "original_en": "Heckran",
     "original_fr": "Hèclan",
-    "translation": "Хекран"
+    "translation": ""
   },
   {
     "id": 170,
     "original_en": "Aecytosaur",
     "original_fr": "Acytosaure",
-    "translation": "Аэцитозавр"
+    "translation": ""
   },
   {
     "id": 171,
     "original_en": "Aecytonyx",
     "original_fr": "Acytonyx",
-    "translation": "Аэцитоникс"
+    "translation": ""
   },
   {
     "id": 172,
     "original_en": "Fossil Ape",
     "original_fr": "Gorille ailè",
-    "translation": "Ископаемое"
+    "translation": ""
   },
   {
     "id": 173,
     "original_en": "Tank Head",
     "original_fr": "Tùte",
-    "translation": "Голова танка"
+    "translation": ""
   },
   {
     "id": 174,
     "original_en": "Frog King",
     "original_fr": "Roi des crapauds",
-    "translation": "Король-жаб"
+    "translation": ""
   },
   {
     "id": 175,
     "original_en": "Imp Priest",
     "original_fr": "Prùtre diablotin",
-    "translation": "Чёрт-жрец"
+    "translation": ""
   },
   {
     "id": 176,
     "original_en": "Queen Zeal",
     "original_fr": "Zhyle",
-    "translation": "Королева Зил"
+    "translation": ""
   },
   {
     "id": 177,
@@ -1077,7 +1077,7 @@
     "id": 179,
     "original_en": "Zombor",
     "original_fr": "Abomination",
-    "translation": "Зомбор"
+    "translation": ""
   },
   {
     "id": 180,
@@ -1101,13 +1101,13 @@
     "id": 183,
     "original_en": "Display",
     "original_fr": "Moniteur",
-    "translation": "Дисплей"
+    "translation": ""
   },
   {
     "id": 184,
     "original_en": "Mega Mutant",
     "original_fr": "Mègamutant",
-    "translation": "Мега-мутант"
+    "translation": ""
   },
   {
     "id": 185,
@@ -1119,31 +1119,31 @@
     "id": 186,
     "original_en": "Super Slash",
     "original_fr": "Super Soja",
-    "translation": "Супер-Слэш"
+    "translation": ""
   },
   {
     "id": 187,
     "original_en": "Diva Flea",
     "original_fr": "Super Mayo",
-    "translation": "Дива Фли"
+    "translation": ""
   },
   {
     "id": 188,
     "original_en": "Black Tyranno",
     "original_fr": "Tyrannosaure",
-    "translation": "Чёрн. Тиранно"
+    "translation": ""
   },
   {
     "id": 189,
     "original_en": "Rust Tyranno",
     "original_fr": "Tyrannosaure noir",
-    "translation": "Ржав. Тиранно"
+    "translation": ""
   },
   {
     "id": 190,
     "original_en": "Mother Brain",
     "original_fr": "Cerveau mêre",
-    "translation": "Матерь-Мозг"
+    "translation": ""
   },
   {
     "id": 191,
@@ -1155,67 +1155,67 @@
     "id": 192,
     "original_en": "Atropos XR",
     "original_fr": "Atropos 145",
-    "translation": "Атропа XR"
+    "translation": ""
   },
   {
     "id": 193,
     "original_en": "Cybot",
     "original_fr": "Goro",
-    "translation": "Кибот"
+    "translation": ""
   },
   {
     "id": 194,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 195,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 196,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 197,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 198,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 199,
     "original_en": "Yakra XIII",
     "original_fr": "Yakra XIII",
-    "translation": "Якра XIII"
+    "translation": ""
   },
   {
     "id": 200,
     "original_en": "Blubber Hulk",
     "original_fr": "Bùte ventrue",
-    "translation": "Жировик"
+    "translation": ""
   },
   {
     "id": 201,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 202,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 203,
@@ -1233,31 +1233,31 @@
     "id": 205,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 206,
     "original_en": "Lavos Core",
     "original_fr": "Cïur de Lavos",
-    "translation": "Ядро Лавоса"
+    "translation": ""
   },
   {
     "id": 207,
     "original_en": "Pod",
     "original_fr": "Module",
-    "translation": "Кокон"
+    "translation": ""
   },
   {
     "id": 208,
     "original_en": "Byte",
     "original_fr": "Drone",
-    "translation": "Байт"
+    "translation": ""
   },
   {
     "id": 209,
     "original_en": "Giga Gaia",
     "original_fr": "Giga-GaÉa",
-    "translation": "Гига-Гайя"
+    "translation": ""
   },
   {
     "id": 210,
@@ -1275,25 +1275,25 @@
     "id": 212,
     "original_en": "Guardian",
     "original_fr": "Gardien",
-    "translation": "Страж"
+    "translation": ""
   },
   {
     "id": 213,
     "original_en": "Red Scouter",
     "original_fr": "çclaireur rouge",
-    "translation": "Красн. скаут"
+    "translation": ""
   },
   {
     "id": 214,
     "original_en": "Blue Scouter",
     "original_fr": "çclaireur bleu",
-    "translation": "Синий скаут"
+    "translation": ""
   },
   {
     "id": 215,
     "original_en": "Lavos Spawn",
     "original_fr": "Larve de Lavos",
-    "translation": "Порождение"
+    "translation": ""
   },
   {
     "id": 216,
@@ -1305,7 +1305,7 @@
     "id": 217,
     "original_en": "Laser Guard",
     "original_fr": "Tourelle laser",
-    "translation": "Лазерн. страж"
+    "translation": ""
   },
   {
     "id": 218,
@@ -1347,79 +1347,79 @@
     "id": 224,
     "original_en": "Spekkio",
     "original_fr": "Specchio",
-    "translation": "Спеккио"
+    "translation": ""
   },
   {
     "id": 225,
     "original_en": "Spekkio",
     "original_fr": "Specchio",
-    "translation": "Спеккио"
+    "translation": ""
   },
   {
     "id": 226,
     "original_en": "Spekkio",
     "original_fr": "Specchio",
-    "translation": "Спеккио"
+    "translation": ""
   },
   {
     "id": 227,
     "original_en": "Spekkio",
     "original_fr": "Specchio",
-    "translation": "Спеккио"
+    "translation": ""
   },
   {
     "id": 228,
     "original_en": "Spekkio",
     "original_fr": "Specchio",
-    "translation": "Спеккио"
+    "translation": ""
   },
   {
     "id": 229,
     "original_en": "Spekkio",
     "original_fr": "Specchio",
-    "translation": "Спеккио"
+    "translation": ""
   },
   {
     "id": 230,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 231,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 232,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 233,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 234,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 235,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 236,
     "original_en": "Lavos",
     "original_fr": "Lavos",
-    "translation": "Лавос"
+    "translation": ""
   },
   {
     "id": 237,
@@ -1431,7 +1431,7 @@
     "id": 238,
     "original_en": "Vilepillar",
     "original_fr": "Ralcargot",
-    "translation": "Злоцвет"
+    "translation": ""
   },
   {
     "id": 239,
@@ -1443,7 +1443,7 @@
     "id": 240,
     "original_en": "Flea?",
     "original_fr": "Mayo ?",
-    "translation": "Фли?"
+    "translation": ""
   },
   {
     "id": 241,
@@ -1455,31 +1455,31 @@
     "id": 242,
     "original_en": "Roundillo Bomber",
     "original_fr": "Bombe maboule",
-    "translation": "Бомбардир"
+    "translation": ""
   },
   {
     "id": 243,
     "original_en": "Golem Overlord",
     "original_fr": "Maëtre golem",
-    "translation": "Владыка"
+    "translation": ""
   },
   {
     "id": 244,
     "original_en": "Monster",
     "original_fr": "Monstre",
-    "translation": "Монстр"
+    "translation": ""
   },
   {
     "id": 245,
     "original_en": "Daltonite",
     "original_fr": "Soldat de Dalton",
-    "translation": "Дальтонит"
+    "translation": ""
   },
   {
     "id": 246,
     "original_en": "Son of the Sun",
     "original_fr": "Fils du soleil",
-    "translation": "Сын Солнца"
+    "translation": ""
   },
   {
     "id": 247,
@@ -1491,19 +1491,19 @@
     "id": 248,
     "original_en": "R-Series",
     "original_fr": "AndroÉde sèrie R",
-    "translation": "Серия R"
+    "translation": ""
   },
   {
     "id": 249,
     "original_en": "Magus",
     "original_fr": "Magus",
-    "translation": "Магус"
+    "translation": ""
   },
   {
     "id": 250,
     "original_en": "Magus",
     "original_fr": "Magus",
-    "translation": "Магус"
+    "translation": ""
   },
   {
     "id": 251,
@@ -1515,43 +1515,43 @@
     "id": 252,
     "original_en": "Steel Shade",
     "original_fr": "Ombre noire",
-    "translation": "Стальн. тень"
+    "translation": ""
   },
   {
     "id": 253,
     "original_en": "Alabaster Shade",
     "original_fr": "Ombre blanche",
-    "translation": "Белая тень"
+    "translation": ""
   },
   {
     "id": 254,
     "original_en": "Crimson Shade",
     "original_fr": "Ombre rouge",
-    "translation": "Алая тень"
+    "translation": ""
   },
   {
     "id": 255,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 256,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 257,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 258,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 259,
@@ -1563,720 +1563,720 @@
     "id": 260,
     "original_en": "Exile",
     "original_fr": "Exilè",
-    "translation": "Изгнанник"
+    "translation": ""
   },
   {
     "id": 261,
     "original_en": "Slate Imp",
     "original_fr": "Diablotin azur",
-    "translation": "Серый чёрт"
+    "translation": ""
   },
   {
     "id": 262,
     "original_en": "Pink Imp",
     "original_fr": "Diablotin rose",
-    "translation": "Розов. чёрт"
+    "translation": ""
   },
   {
     "id": 263,
     "original_en": "Wonder Rock",
     "original_fr": "Rocher miraculeux",
-    "translation": "Чудо-камень"
+    "translation": ""
   },
   {
     "id": 264,
     "original_en": "Deathcreeper",
     "original_fr": "Ème du trèpas",
-    "translation": "Ползун"
+    "translation": ""
   },
   {
     "id": 265,
     "original_en": "Jackpot",
     "original_fr": "Jackpot",
-    "translation": "Джекпот"
+    "translation": ""
   },
   {
     "id": 266,
     "original_en": "Ogan Chieftain",
     "original_fr": "Chef ogan",
-    "translation": "Вождь оганов"
+    "translation": ""
   },
   {
     "id": 267,
     "original_en": "Ogan Youth",
     "original_fr": "Oganox",
-    "translation": "Оган-юнга"
+    "translation": ""
   },
   {
     "id": 268,
     "original_en": "Ogan Youth",
     "original_fr": "Oganox marteleur",
-    "translation": "Оган-юнга"
+    "translation": ""
   },
   {
     "id": 269,
     "original_en": "Kingfrog",
     "original_fr": "Sieur Batracien",
-    "translation": "Король-жаб"
+    "translation": ""
   },
   {
     "id": 270,
     "original_en": "Dire Rat",
     "original_fr": "Rat gèant",
-    "translation": "Лютокрыса"
+    "translation": ""
   },
   {
     "id": 271,
     "original_en": "Black Bat",
     "original_fr": "Vampire gris",
-    "translation": "Чёрная мышь"
+    "translation": ""
   },
   {
     "id": 272,
     "original_en": "Chrysosaur",
     "original_fr": "Chrysosaure",
-    "translation": "Хризозавр"
+    "translation": ""
   },
   {
     "id": 273,
     "original_en": "Pterranyx",
     "original_fr": "Ptèranyx",
-    "translation": "Птераникс"
+    "translation": ""
   },
   {
     "id": 274,
     "original_en": "Twin Snake",
     "original_fr": "Hydre verte",
-    "translation": "Змеи"
+    "translation": ""
   },
   {
     "id": 275,
     "original_en": "Hercules Beetle",
     "original_fr": "Colèoptêre d'airain",
-    "translation": "Геркулес"
+    "translation": ""
   },
   {
     "id": 276,
     "original_en": "Jadewing",
     "original_fr": "Ouhbouh vert",
-    "translation": "Нефритокрыл"
+    "translation": ""
   },
   {
     "id": 277,
     "original_en": "Deathguard",
     "original_fr": "Sentinelle",
-    "translation": "Страж смерти"
+    "translation": ""
   },
   {
     "id": 278,
     "original_en": "Bone Knight",
     "original_fr": "Chevalier osseux",
-    "translation": "Костяной рыцарь"
+    "translation": ""
   },
   {
     "id": 279,
     "original_en": "Soul Stalker",
     "original_fr": "Ème perdue",
-    "translation": "Ловец душ"
+    "translation": ""
   },
   {
     "id": 280,
     "original_en": "Chaos Mage",
     "original_fr": "Mage du chaos",
-    "translation": "Маг хаоса"
+    "translation": ""
   },
   {
     "id": 281,
     "original_en": "Snowbeast",
     "original_fr": "Bùte du blizzard",
-    "translation": "Снежн. зверь"
+    "translation": ""
   },
   {
     "id": 282,
     "original_en": "Red Ghaj",
     "original_fr": "Crèature abyssale",
-    "translation": "Красный гай"
+    "translation": ""
   },
   {
     "id": 283,
     "original_en": "Fireball",
     "original_fr": "Boule de feu",
-    "translation": "Огнен. шар"
+    "translation": ""
   },
   {
     "id": 284,
     "original_en": "Prototype",
     "original_fr": "Prototype",
-    "translation": "Прототип"
+    "translation": ""
   },
   {
     "id": 285,
     "original_en": "Searcher",
     "original_fr": "ûil chercheur",
-    "translation": "Искатель"
+    "translation": ""
   },
   {
     "id": 286,
     "original_en": "Iron Maiden",
     "original_fr": "Golem d'acier",
-    "translation": "Дева"
+    "translation": ""
   },
   {
     "id": 287,
     "original_en": "Goldhammer",
     "original_fr": "Ogon marteleur",
-    "translation": "Златомолот"
+    "translation": ""
   },
   {
     "id": 288,
     "original_en": "Nu Guardian",
     "original_fr": "Gnu gardien",
-    "translation": "Страж Ню"
+    "translation": ""
   },
   {
     "id": 289,
     "original_en": "Nu Master",
     "original_fr": "Gnu expert",
-    "translation": "Мастер Ню"
+    "translation": ""
   },
   {
     "id": 290,
     "original_en": "Archaeofang",
     "original_fr": "Dinocroc",
-    "translation": "Археоклык"
+    "translation": ""
   },
   {
     "id": 291,
     "original_en": "Archaeofang",
     "original_fr": "Dinocroc",
-    "translation": "Археоклык"
+    "translation": ""
   },
   {
     "id": 292,
     "original_en": "Master-at-Arms",
     "original_fr": "Mikado sabreur",
-    "translation": "Оружейник"
+    "translation": ""
   },
   {
     "id": 293,
     "original_en": "Bladesman",
     "original_fr": "çpèiste",
-    "translation": "Мечник"
+    "translation": ""
   },
   {
     "id": 294,
     "original_en": "Once-King Dalton ",
     "original_fr": "Dalton le Grand",
-    "translation": "Дальтон"
+    "translation": ""
   },
   {
     "id": 295,
     "original_en": "Eggsterminator",
     "original_fr": "Sphèrule auxiliaire",
-    "translation": "Яйцеборец"
+    "translation": ""
   },
   {
     "id": 296,
     "original_en": "Dream Devourer",
     "original_fr": "Onirophage",
-    "translation": "Пожиратель"
+    "translation": ""
   },
   {
     "id": 297,
     "original_en": "Magus Effect",
     "original_fr": "Effet de Magus",
-    "translation": "Эффект"
+    "translation": ""
   },
   {
     "id": 298,
     "original_en": "Crono Statue",
     "original_fr": "Statue de Chrono",
-    "translation": "Статуя Хроно"
+    "translation": ""
   },
   {
     "id": 299,
     "original_en": "Marle Statue",
     "original_fr": "Statue de Marle",
-    "translation": "Статуя"
+    "translation": ""
   },
   {
     "id": 300,
     "original_en": "Lucca Statue",
     "original_fr": "Statue de Lucca",
-    "translation": "Статуя Лукки"
+    "translation": ""
   },
   {
     "id": 301,
     "original_en": "Robo Statue",
     "original_fr": "Statue de RoBo",
-    "translation": "Статуя Робо"
+    "translation": ""
   },
   {
     "id": 302,
     "original_en": "Frog Statue",
     "original_fr": "Statue de Gren",
-    "translation": "Статуя Фрога"
+    "translation": ""
   },
   {
     "id": 303,
     "original_en": "Ayla Statue",
     "original_fr": "Statue de Ayla",
-    "translation": "Статуя Эйлы"
+    "translation": ""
   },
   {
     "id": 304,
     "original_en": "Magus Statue",
     "original_fr": "Statue de Magus",
-    "translation": "Статуя"
+    "translation": ""
   },
   {
     "id": 305,
     "original_en": "Dummy",
     "original_fr": "Hèraclês",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 306,
     "original_en": "Dummy",
     "original_fr": "Chevalier sacrè",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 307,
     "original_en": "Dummy",
     "original_fr": "Gorgone",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 308,
     "original_en": "Dummy",
     "original_fr": "Mèduse",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 309,
     "original_en": "Dummy",
     "original_fr": "Ombre d'ogan",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 310,
     "original_en": "Dummy",
     "original_fr": "Hanzü",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 311,
     "original_en": "Dummy",
     "original_fr": "Longinus",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 312,
     "original_en": "Dummy",
     "original_fr": "Faucheur",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 313,
     "original_en": "Dummy",
     "original_fr": "Goku",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 314,
     "original_en": "Dummy",
     "original_fr": "Sprinteur",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 315,
     "original_en": "Dummy",
     "original_fr": "Skanda",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 316,
     "original_en": "Dummy",
     "original_fr": "Gigasaure",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 317,
     "original_en": "Dummy",
     "original_fr": "Archimage",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 318,
     "original_en": "Dummy",
     "original_fr": "Pètragargouille",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 319,
     "original_en": "Dummy",
     "original_fr": "Gargouille occulte",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 320,
     "original_en": "Dummy",
     "original_fr": "Ouroboros",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 321,
     "original_en": "Dummy",
     "original_fr": "R70-Y",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 322,
     "original_en": "Dummy",
     "original_fr": "Dokra",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 323,
     "original_en": "Dummy",
     "original_fr": "Mastodonte",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 324,
     "original_en": "Dummy",
     "original_fr": "Dèmon algide",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 325,
     "original_en": "Dummy",
     "original_fr": "Larve ignèe",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 326,
     "original_en": "Dummy",
     "original_fr": "Larve aqueuse",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 327,
     "original_en": "Dummy",
     "original_fr": "Larve cèleste",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 328,
     "original_en": "Dummy",
     "original_fr": "Larve chtonienne",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 329,
     "original_en": "Dummy",
     "original_fr": "Macchabèe",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 330,
     "original_en": "Dummy",
     "original_fr": "Trèpassè",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 331,
     "original_en": "Dummy",
     "original_fr": "Pierre irisèe",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 332,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 333,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 334,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 335,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 336,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 337,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 338,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 339,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 340,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 341,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 342,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 343,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 344,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 345,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 346,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 347,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 348,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 349,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 350,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 351,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 352,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 353,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 354,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 355,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 356,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 357,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 358,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 359,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 360,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 361,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 362,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 363,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 364,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 365,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 366,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 367,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 368,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 369,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 370,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 371,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 372,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 373,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 374,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 375,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 376,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 377,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 378,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   },
   {
     "id": 379,
     "original_en": "Dummy",
     "original_fr": "Factice",
-    "translation": "Пустышка"
+    "translation": ""
   }
 ]

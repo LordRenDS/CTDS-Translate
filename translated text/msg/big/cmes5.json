@@ -3,235 +3,235 @@
     "id": 0,
     "original_en": "The range of effect varies between techs.",
     "original_fr": "Les compétences que vous utilisez pendant les combats\nont différentes portées et aires d'effet.",
-    "translation": "Область действия у техник бывает разной."
+    "translation": ""
   },
   {
     "id": 1,
     "original_en": "Some techs affect an area surrounding the target,\ndealing damage to all enemies in the vicinity.",
     "original_fr": "Parlons d'abord des attaques qui infligent des dég{TAG:4A}ts\nde zone.",
-    "translation": "Некоторые техники бьют по области вокруг цели,\nнанося урон всем врагам поблизости."
+    "translation": ""
   },
   {
     "id": 2,
     "original_en": "For example, target this little beastie...",
     "original_fr": "Elles sont centrées sur un ennemi et affectent\négalement ceux qui se trouvent autour de lui.\nPar exemple, si vous ciblez celui-ci...",
-    "translation": "К примеру, выберем этого мелкого гада..."
+    "translation": ""
   },
   {
     "id": 3,
     "original_en": "...and your attack will hit the neighboring\nmonster as well, since it is within range.",
     "original_fr": "... vous pourrez infliger des dég{TAG:4A}ts {TAG:3C} deux monstres.",
-    "translation": "...и атака заденет соседнего монстра, ведь тот\nоказался в радиусе поражения."
+    "translation": ""
   },
   {
     "id": 4,
     "original_en": "But if you target this one in the center...",
     "original_fr": "Mais si vous ciblez celui du milieu...",
-    "translation": "Но если нацелиться на того, что в центре..."
+    "translation": ""
   },
   {
     "id": 5,
     "original_en": "...you can hit all three at once!\nUse the tech's reach to your advantage.",
     "original_fr": "... vous pourrez infliger des dég{TAG:4A}ts {TAG:3C} trois monstres en\nmême temps. Comme vous le voyez, il est important de\nbien choisir sa cible.",
-    "translation": "...то можно сразить сразу троих! Используйте\nдальность техник себе на пользу."
+    "translation": ""
   },
   {
     "id": 6,
     "original_en": "Next, there are techs that hit enemies along\na straight line.",
     "original_fr": "Ensuite, parlons des attaques qui infligent des dég{TAG:4A}ts\naux ennemis en ligne droite.",
-    "translation": "Далее идут техники, поражающие врагов по прямой\nлинии."
+    "translation": ""
   },
   {
     "id": 7,
     "original_en": "These types of techs come in two varieties.\nLet's take a look at the first one.",
     "original_fr": "Il en existe deux types différents.",
-    "translation": "Такие техники бывают двух видов. Взглянем на\nпервый из них."
+    "translation": ""
   },
   {
     "id": 8,
     "original_en": "This type of tech allows you to attack all the\nenemies located on a straight line extending\nfrom you and passing through your target.\nIn this case, it would strike three enemies.",
     "original_fr": "Le premier type inflige des dég{TAG:4A}ts {TAG:3C} tous les ennemis\nsitués en ligne droite, soit, dans le cas présent, trois\nennemis.",
-    "translation": "Эта техника поражает всех врагов на прямой линии\nот вас сквозь цель. В данном случае под удар\nпопадут трое."
+    "translation": ""
   },
   {
     "id": 9,
     "original_en": "You could target any one of the enemies along\nthe line and the effect would be the same.",
     "original_fr": "Vous pouvez alors cibler n'importe quel ennemi de la\nligne pour obtenir le même effet.",
-    "translation": "Вы можете выбрать любого врага на этой линии, и\nэффект будет совершенно одинаковым."
+    "translation": ""
   },
   {
     "id": 10,
     "original_en": "Now let's see the other variety.",
     "original_fr": "Le deuxième type inflige des dég{TAG:4A}ts uniquement aux\nennemis situés entre vous et la cible sélectionnée.",
-    "translation": "А теперь взглянем на другой вид."
+    "translation": ""
   },
   {
     "id": 11,
     "original_en": "A tech like this only allows you to hit enemies\nalong the line that connects you and your target.",
     "original_fr": "Il vaut donc mieux choisir l'ennemi le plus éloigné pour\nétendre la ligne au maximum.",
-    "translation": "Такая техника бьёт лишь по врагам на отрезке,\nсоединяющем вас и вашу цель."
+    "translation": ""
   },
   {
     "id": 12,
     "original_en": "If you target the farthest enemy, you can still\ndeal damage to all three.",
     "original_fr": "Ainsi, dans le cas présent, vous pouvez infliger des\ndég{TAG:4A}ts {TAG:3C} trois ennemis en même temps, comme dans\nl'exemple précédent.",
-    "translation": "Если выбрать самого дальнего врага, урон всё\nравно получат все трое."
+    "translation": ""
   },
   {
     "id": 13,
     "original_en": "But select this one, and that's all you'll get!",
     "original_fr": "Par contre, si vous ciblez l'ennemi le plus proche,\nvotre attaque n'atteindra pas ceux qui se trouvent\nderrière lui.",
-    "translation": "Но выбери вы ближнего — и достанется лишь ему!"
+    "translation": ""
   },
   {
     "id": 14,
     "original_en": "A third type of tech strikes all enemies along\na horizontal line passing through your target.",
     "original_fr": "Parlons maintenant des attaques qui infligent des\ndég{TAG:4A}ts aux ennemis en ligne horizontale.",
-    "translation": "Третий вид техник поражает всех врагов по\nгоризонтальной линии сквозь цель."
+    "translation": ""
   },
   {
     "id": 15,
     "original_en": "All that matters is that your enemies form a line.",
     "original_fr": "Dans ce cas, si les ennemis sont alignés\nhorizontalement...",
-    "translation": "Главное, чтобы ваши враги стояли в один ряд."
+    "translation": ""
   },
   {
     "id": 16,
     "original_en": "The final pattern puts you at the center of the\nattack zone.",
     "original_fr": "La dernière catégorie d'attaque est celle qui inflige des\ndég{TAG:4A}ts aux ennemis situés près de vous.",
-    "translation": "Последний же тип ставит вас в самый центр\nобласти поражения."
+    "translation": ""
   },
   {
     "id": 17,
     "original_en": "You can't use an attack like this if there are\nno enemies within range.",
     "original_fr": "Vous ne pouvez pas utiliser ce type d'attaque\nlorsque les ennemis sont trop loin, comme c'est\nle cas actuellement.",
-    "translation": "Такую атаку бесполезно применять, если\nпоблизости нет ни единого врага."
+    "translation": ""
   },
   {
     "id": 18,
     "original_en": "But if you find yourself surrounded, using one\nof these techs will allow you to deal damage to\nall of the enemies in the circle around you.",
     "original_fr": "Cependant, si les ennemis sont {TAG:3C} l'intérieur de la zone\nd'effet, vous pourrez tous les atteindre !",
-    "translation": "Но если вы окружены, эта техника позволит\nпоразить всех врагов, стоящих кольцом вокруг вас."
+    "translation": ""
   },
   {
     "id": 19,
     "original_en": "As long as they do, targeting any of them\nwill have the same effect.",
     "original_fr": "... vous pouvez cibler n'importe lequel d'entre eux.",
-    "translation": "Пока они в ряду, выбор любого из них приведёт к\nточно такому же результату."
+    "translation": ""
   },
   {
     "id": 20,
     "original_en": "Queen: I know what you have seen.\nIt is your futures that slumber in this hall.\nDestiny, in its essential form.{WAIT_KEY}\nAll the dreams that might have been.\nAll the happiness, and sorrow, you might have known.\nYour tomorrow, as it has been witnessed.",
     "original_fr": "Reine : Mouah, ha, ha, ha... Votre futur sommeille ici...{WAIT_KEY}\nLes rêves encore irréalisés... Les joies et les peines...\nTout ce qui appartient {TAG:3C} votre avenir !",
-    "translation": "Королева: Я знаю, что вы узрели. В этой зале\nпокоится ваше грядущее. Судьба в её чистейшем\nвоплощении.{WAIT_KEY}\nВсе несбывшиеся грёзы. Вся радость и скорбь, что\nвам суждено познать. Ваше завтра, явленное\nвоочию."
+    "translation": ""
   },
   {
     "id": 21,
     "original_en": "Queen: The Black Omen transcends time and space,\ndrifting through the all and nothing, waiting\nfor Lavos to awaken.{WAIT_KEY}\nDestiny has led you here, and here you shall remain.\nUnless you can defeat me and bring down the Omen,\nthere is no future for you!",
     "original_fr": "Reine : Le Songe obscur traverse les dimensions\ntemporelles, attendant patiemment l'éveil de Lavos...{WAIT_KEY}\nIl est l'inéluctable et ultime destination de votre avenir.{WAIT_KEY}\nÂ moins de me vaincre et d'arrêter le Songe obscur,\nvous n'avez pas de lendemain !",
-    "translation": "Королева: Чёрное Знамение парит вне времени и\nпространства, блуждая сквозь всё и ничто в\nожидании пробуждения Лавоса.{WAIT_KEY}\nСудьба привела вас сюда, и здесь вы останетесь.\nЕсли не одолеете меня и не сразите Знамение,\nбудущего у вас нет!"
+    "translation": ""
   },
   {
     "id": 22,
     "original_en": "Queen: Come, children! Lavos slumbers. \nI will guide you into the depths of his dream.{WAIT_KEY}\nDid I say dream? I meant, of course, his eternal\nnightmare!",
     "original_fr": "Reine : Venez, enfants de l'Homme !\nJe vous invite {TAG:3C} pénétrer dans le sommeil de Lavos...{WAIT_KEY}\nDans l'éternel Songe obscur...!",
-    "translation": "Королева: Идите же, дети! Лавос дремлет. Я\nпроведу вас в глубины его сна.{WAIT_KEY}\nСна, сказала я? Разумеется, я имела в виду его\nвечный кошмар!"
+    "translation": ""
   },
   {
     "id": 23,
     "original_en": "Queen: Argh! My powers don't seem to work here!{WAIT_KEY}\nAh, but I've a better idea! I can feed you to the\nMammon Machine!{WAIT_KEY}\nYou'll be made one with the Omen, Lavos—and me!",
     "original_fr": "Reine : Je ne peux pas faire appel {TAG:3C} mon pouvoir ici...{WAIT_KEY}\nAh, je viens d'avoir une bonne idée. Je vais vous jeter\ndans le réceptacle sacré ! Vous devriez être heureux...{WAIT_KEY}\nVous allez devenir une partie de ce vaisseau !\nUne partie de moi ! Une partie de Lavos !",
-    "translation": "Королева: Агрх! Мои силы здесь бессильны!{WAIT_KEY}\nВпрочем, есть мысль получше! Я скормлю вас\nМашине Маммона!{WAIT_KEY}\nВы станете едины со Знамением, Лавосом — и со\nмной!"
+    "translation": ""
   },
   {
     "id": 24,
     "original_en": "{GLYPH:384}\nObtained Moon Stone!",
     "original_fr": "{GLYPH:384}\nVous obtenez la pierre obscure !",
-    "translation": "{GLYPH:384} Получен Лунный камень!"
+    "translation": ""
   },
   {
     "id": 25,
     "original_en": "{LUCCA}: This is the ancient Sun Stone?\nIt looks like it's been drained of all its energy.",
     "original_fr": "{LUCCA} : Est-ce la pierre du soleil de l'Antiquité ?\nElle ne brille plus du tout après tant de temps...",
-    "translation": "{LUCCA}: Это и есть древний Солнечный камень?\nКажется, из него улетучилась вся энергия."
+    "translation": ""
   },
   {
     "id": 26,
     "original_en": "We could probably recharge it with sunlight,\nbut that would take aeons.",
     "original_fr": "Nous pourrions peut-être lui redonner son éclat en la\nlaissant au soleil, mais ça prendrait probablement des\nmillions d'années.",
-    "translation": "Мы могли бы напитать его солнечным светом, но на\nэто уйдут эоны."
+    "translation": ""
   },
   {
     "id": 27,
     "original_en": "{ROBO}: This is the Sun Stone of antiquity?\nIt appears to have lost the light it once possessed.",
     "original_fr": "{ROBO} : Est-ce la pierre du soleil de l'Antiquité ?\nTant de temps s'est écoulé, on dirait qu'elle ne brille\nplus du tout...",
-    "translation": "{ROBO}: Это древний Солнечный камень? Похоже, он\nутратил былой свет."
+    "translation": ""
   },
   {
     "id": 28,
     "original_en": "However, it may be possible to recharge it by exposing\nit to sunlight for a long enough period of time. By my\nbest estimate, it would require a minimum of 65 million\nyears of constant exposure.",
     "original_fr": "Nous pourrions peut-être lui redonner son éclat en la\nlaissant au soleil.{WAIT_KEY}\nSelon mes calculs, plus de 65 000 000 d'années seraient\nnécessaires.",
-    "translation": "Впрочем, его можно зарядить на солнце. По моим\nрасчётам, потребуется не менее 65 миллионов лет\nна свету."
+    "translation": ""
   },
   {
     "id": 29,
     "original_en": "{MAGUS}: So this is the Sun Stone.\nIts power has been lost over these long years.",
     "original_fr": "{MAGUS} : Ah, voil{TAG:3C} la pierre du soleil.\nAurait-elle perdu son éclat après tant d'années ?",
-    "translation": "{MAGUS}: Значит, таков Солнечный камень. За долгие\nэпохи его мощь угасла."
+    "translation": ""
   },
   {
     "id": 30,
     "original_en": "With the sun's energy, it could likely be renewed.{WAIT_KEY}\nBut that would take at least 65 million years.",
     "original_fr": "Nous pourrions peut-être le lui redonner en la laissant\nau soleil.{WAIT_KEY}\nCependant, ça prendrait plus de 65 000 000 d'années.",
-    "translation": "Энергия солнца могла бы возродить его.{WAIT_KEY}\nНо на это уйдёт не меньше 65 миллионов лет."
+    "translation": ""
   },
   {
     "id": 31,
     "original_en": "{MARLE}: Is this the Sun Stone?\nThere's no light left in it.",
     "original_fr": "{MARLE} : N'est-ce pas la pierre du soleil de\nl'Antiquité ? Elle ne brille plus, par contre...",
-    "translation": "{MARLE}: Это Солнечный камень? В нём совсем не\nосталось света."
+    "translation": ""
   },
   {
     "id": 32,
     "original_en": "Maybe if we let it bask in constant sunlight again,\nit will get its glow back. Might take a while, though.",
     "original_fr": "On pourrait peut-être lui redonner son éclat en\nla laissant au soleil, mais il faudrait des millions\nd'années pour que ça fonctionne !",
-    "translation": "Может, если он вновь понежится под солнцем,\nсияние вернётся? Правда, времени уйдёт уйма."
+    "translation": ""
   },
   {
     "id": 33,
     "original_en": "{FROG}: Is this the Sun Stone of old?\nIts flame has long since faded, I fear.",
     "original_fr": "{FROG} : Est-ce la pierre du soleil de l'Antiquité ?\nElle ne brille plus du tout.",
-    "translation": "{FROG}: Неужто древний Солнечный камень? Боюсь,\nпламя его давно угасло."
+    "translation": ""
   },
   {
     "id": 34,
     "original_en": "Mayhap the sun could rekindle it, given time to do\nits work. But how many long years would that require?",
     "original_fr": "Nous pourrions peut-être lui redonner son éclat en la\nlaissant au soleil. Combien de temps lui faudrait-il pour\nabsorber l'énergie du soleil ?",
-    "translation": "Быть может, солнце и оживит его, дай ему срок. Но\nсколько же долгих лет на сие потребны?"
+    "translation": ""
   },
   {
     "id": 35,
     "original_en": "That girl {LUCCA} was over in the square going on\nabout how she'd made the discovery of a lifetime.",
     "original_fr": "{LUCCA} a annoncé qu'elle ferait la présentation du\nsiècle {TAG:3C} la foire du millénaire.",
-    "translation": "{LUCCA} рассказывала на площади, что совершила\nвеличайшее открытие в своей жизни."
+    "translation": ""
   },
   {
     "id": 36,
     "original_en": "Heh heh...\nA man's never too old to collect Silver Points!",
     "original_fr": "Ha, ha, on n'est jamais trop vieux pour accumuler des\npoints d'argent !",
-    "translation": "Хе-хе... Человек никогда не бывает слишком стар,\nчтобы копить Серебряные очки!"
+    "translation": ""
   },
   {
     "id": 37,
     "original_en": "Hmm... I was looking forward to the King's\nparade, but it still hasn't gotten underway.\nI wonder if something's wrong?",
     "original_fr": "Au fait... Le défilé du roi n'a toujours pas commencé.\nJ'ai h{TAG:4A}te de le voir... Je me demande ce qui se passe.",
-    "translation": "Хм... Я так ждал королевского парада, а он всё\nникак не начнётся. Неужто что-то случилось?"
+    "translation": ""
   },
   {
     "id": 38,
     "original_en": "Something tells me I'm as happy now as I'll ever be.",
     "original_fr": "Je suis si heureuse maintenant que j'aimerais parfois\nque le temps s'arrête...",
-    "translation": "Что-то мне подсказывает: счастливее, чем сейчас,\nмне уже никогда не быть."
+    "translation": ""
   },
   {
     "id": 39,
