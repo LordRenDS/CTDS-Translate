@@ -651,13 +651,13 @@
     "id": 108,
     "original_en": "Which do you prefer?\n{TAG:38}{TAG:38}{GLYPH:394}Mode 1: Turbo Boosts available.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Mode 2: No Turbo Boosts,{GLYPH:402}\n{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:7A}{GLYPH:403}L Button, R Button spin camera.{GLYPH:397}",
     "original_fr": "Quel type de course préférez-vous ?\n       {GLYPH:394}Mode nÎ 1 avec turbo{GLYPH:395}\n       {GLYPH:396}Mode nÎ 2 sans turbo{GLYPH:402}\n         {GLYPH:403}(Caméra : bouton R / bouton L){GLYPH:397}",
-    "translation": ""
+    "translation": "Какой режим выберете?\n{TAG:38}{TAG:38}{GLYPH:394}Режим 1: С турбо.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Режим 2: Без турбо.{GLYPH:397}"
   },
   {
     "id": 109,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Mode 1: Turbo Boosts available.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Mode 2: No Turbo Boosts,{GLYPH:402}\n{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:7A}{GLYPH:403}L Button, R Button spin camera.{GLYPH:397}",
     "original_fr": "       {GLYPH:394}Mode nÎ 1 avec turbo{GLYPH:395}\n       {GLYPH:396}Mode nÎ 2 sans turbo{GLYPH:402}\n         {GLYPH:403}(Caméra : bouton R / bouton L){GLYPH:397}",
-    "translation": ""
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Режим 1: С турбо.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Режим 2: Без турбо.{GLYPH:397}"
   },
   {
     "id": 110,

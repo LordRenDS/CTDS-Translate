@@ -551,6 +551,26 @@ def get_constraints_for_entry(
     if base_name == "cmes0.json" and 98 <= entry_id <= 114:
         return WINDOW_PRESETS["status_tutorial"]
 
+    if base_name == "ques0.json" and 44 <= entry_id <= 78:
+        return TextWindowPreset(
+            name="quiz_choices",
+            max_width_px=238,
+            max_lines=4,
+            reflow=False,
+            font_type="big",
+            patterns=(),
+        )
+
+    if base_name == "ex_montec.json":
+        return TextWindowPreset(
+            name="ex_montec",
+            max_width_px=136,
+            max_lines=10,
+            reflow=False,
+            font_type="big",
+            patterns=(),
+        )
+
     if base_name == "tutorial.json":
         if entry_id == 12:
             return TextWindowPreset(

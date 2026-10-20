@@ -11,6 +11,7 @@ Audits dialogue and UI translation JSON files across the repository to detect:
 from __future__ import annotations
 
 import argparse
+import contextlib
 import json
 import os
 import re
@@ -50,14 +51,18 @@ BANNED_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
 )
 
 # 2. Choice tag pairs and regexes
-CHOICE_OPEN_TAGS: re.Pattern[str] = re.compile(r"\{GLYPH:(394|396|398|400|402)\}")
+CHOICE_OPEN_TAGS: re.Pattern[str] = re.compile(r"\{GLYPH:(394|396|398|400)\}")
 CHOICE_PAIRS: tuple[tuple[int, int], ...] = (
     (394, 395),
     (396, 397),
     (398, 399),
     (400, 401),
-    (402, 403),
 )
+CHOICE_PAIR_PATTERNS: tuple[tuple[int, re.Pattern[str]], ...] = tuple(
+    (open_id, re.compile(rf"\{{GLYPH:{open_id}\}}(.*?)\{{GLYPH:{close_id}\}}", re.DOTALL))
+    for open_id, close_id in CHOICE_PAIRS
+)
+PREC_STRIP_REGEX: re.Pattern[str] = re.compile(r"(?:\{TAG:38\}|[ \t])+$")
 
 # 3. Sub-page boundary split pattern
 SUBPAGE_SPLIT: re.Pattern[str] = re.compile(r"\{WAIT_KEY\}|\{PAGE\}|\{GLYPH:407\}|\{GLYPH:408\}")
@@ -151,15 +156,16 @@ def audit_script_entry(
     for m in CHOICE_OPEN_TAGS.finditer(text):
         tag = m.group(0)
         preceding = text[: m.start()]
-        prec_stripped = re.sub(r"(?:\{TAG:38\}|[ \t])+$", "", preceding)
-        if not prec_stripped.endswith(("\n", "\r")):
+        prec_stripped = PREC_STRIP_REGEX.sub("", preceding)
+        if prec_stripped and not prec_stripped.endswith(
+            ("\n", "\r", "{WAIT_KEY}", "{PAGE}", "{GLYPH:407}", "{GLYPH:408}")
+        ):
             violations.append(
                 f"Choice tag {tag} is missing leading newline (must start on a new line with \\n)"
             )
 
     # 2b. Internal newlines within choice option blocks
-    for open_id, close_id in CHOICE_PAIRS:
-        pair_pat = re.compile(rf"\{{GLYPH:{open_id}\}}(.*?)\{{GLYPH:{close_id}\}}", re.DOTALL)
+    for open_id, pair_pat in CHOICE_PAIR_PATTERNS:
         for pm in pair_pat.finditer(text):
             inner = pm.group(1)
             if "\n" in inner or "\r" in inner or "{LINE}" in inner:
@@ -355,6 +361,13 @@ def main(argv: list[str] | None = None) -> int:
     Returns:
         Exit code: 0 if no violations found, 1 if violations exist or an error occurred.
     """
+    if hasattr(sys.stdout, "reconfigure"):
+        with contextlib.suppress(Exception):
+            sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    if hasattr(sys.stderr, "reconfigure"):
+        with contextlib.suppress(Exception):
+            sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
     parser = argparse.ArgumentParser(
         prog="audit_script_translations",
         description="Static Script QA Auditor for Chrono Trigger DS Translations",

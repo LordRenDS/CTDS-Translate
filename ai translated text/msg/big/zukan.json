@@ -63,19 +63,19 @@
     "id": 10,
     "original_en": "Weak",
     "original_fr": "Craint ",
-    "translation": "Слабость"
+    "translation": "Слаб."
   },
   {
     "id": 11,
     "original_en": "Absorbs",
     "original_fr": "Absorbe ",
-    "translation": "Поглощает"
+    "translation": "Поглощ."
   },
   {
     "id": 12,
     "original_en": "Immune",
     "original_fr": "Résiste",
-    "translation": "Имунитет"
+    "translation": "Иммун."
   },
   {
     "id": 13,
@@ -99,7 +99,7 @@
     "id": 16,
     "original_en": "Discovered:",
     "original_fr": "Rencontrés",
-    "translation": "Обнар-но:"
+    "translation": "Найдено:"
   },
   {
     "id": 17,

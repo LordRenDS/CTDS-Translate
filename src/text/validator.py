@@ -4,8 +4,8 @@ from __future__ import annotations
 
 import json
 import os
-from pathlib import Path
 import re
+from pathlib import Path
 from typing import Any
 
 from src.text.metrics import (
@@ -77,13 +77,6 @@ def validate_and_format_file(
         fix = False
 
     effective_preset = get_preset_for_file(str(file_path), explicit_preset=preset)
-    effective_max_width_px = (
-        max_width_px if max_width_px is not None else effective_preset.max_width_px
-    )
-    effective_max_lines = (
-        max_lines if max_lines is not None else effective_preset.max_lines
-    )
-    effective_reflow = reflow if reflow is not None else effective_preset.reflow
 
     active_base_widths = font_widths if font_widths is not None else glyph_widths
     if active_base_widths is None:
@@ -101,7 +94,7 @@ def validate_and_format_file(
         except Exception:
             small_widths = None
 
-    with open(file_path, "r", encoding="utf-8") as f:
+    with open(file_path, encoding="utf-8") as f:
         data = json.load(f)
 
     if isinstance(data, list):
@@ -144,7 +137,9 @@ def validate_and_format_file(
         )
 
         # Check overflows in original lines
-        raw_pages = text.split("{PAGE}")
+        raw_pages = re.split(
+            r"\{PAGE\}|\{WAIT_KEY\}|\{GLYPH:407\}|\{GLYPH:408\}", text
+        )
         for raw_page in raw_pages:
             raw_lines = re.split(r"\r?\n|\{LINE\}", raw_page)
             if field in ("original_en", "original_fr") and entry_max_lines == 1 and len(raw_lines) > 1:

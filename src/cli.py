@@ -997,10 +997,10 @@ def main(argv: list[str] | None = None) -> int:
     """
     if hasattr(sys.stdout, "reconfigure"):
         with contextlib.suppress(Exception):
-            sys.stdout.reconfigure(errors="backslashreplace")
+            sys.stdout.reconfigure(encoding="utf-8", errors="backslashreplace")
     if hasattr(sys.stderr, "reconfigure"):
         with contextlib.suppress(Exception):
-            sys.stderr.reconfigure(errors="backslashreplace")
+            sys.stderr.reconfigure(encoding="utf-8", errors="backslashreplace")
 
     parser = create_parser()
     args = parser.parse_args(argv if argv is not None else sys.argv[1:])

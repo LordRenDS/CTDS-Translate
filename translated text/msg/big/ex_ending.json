@@ -15,7 +15,7 @@
     "id": 2,
     "original_en": "Defeat Lavos in the Ocean Palace or immediately\nupon starting New Game +.",
     "original_fr": "Au tout début d'une nouvelle partie ™ ou dans le\nsanctuaire sous-marin.",
-    "translation": "Победите Лавоса в Океанском Дворце или\nсразу же после начала режима Новая Игра +."
+    "translation": "Победите Лавоса в Океанском Дворце или сразу\nже после начала режима Новая Игра +."
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "id": 4,
     "original_en": "Defeat Lavos after visiting the End of Time,\nbut before returning to the Middle Ages.",
     "original_fr": "Après être allé {TAG:3C} la Fin des temps, mais avant de\nretourner au Moyen-{TAG:5F}ge.",
-    "translation": "Победите Лавоса после посещения\nКонца Времени, но до возвращения в\nСредневековье."
+    "translation": "Победите Лавоса после посещения Конца\nВремени, но до возвращения в Средневековье."
   },
   {
     "id": 5,
@@ -51,13 +51,13 @@
     "id": 8,
     "original_en": "Defeat Lavos after giving the Masamune to Frog,\nbut before facing Magus.",
     "original_fr": "Après avoir rendu Grandléon {TAG:3C} Gren, mais avant de\ncombattre Magus.",
-    "translation": "Победите Лавоса, отдав Масамуне Фрогу,\nно до того, как сразитесь с Магусом."
+    "translation": "Победите Лавоса, отдав Масамуне Фрогу, но до\nтого, как сразитесь с Магусом."
   },
   {
     "id": 9,
     "original_en": "Defeat Lavos after facing Magus, but before\nfacing Azala.",
     "original_fr": "Après avoir combattu Magus, mais avant de\ncombattre Azara.",
-    "translation": "Победите Лавоса после того, как сразитесь\nс Магусом, но до того, как сразитесь с Азалой."
+    "translation": "Победите Лавоса после того, как сразитесь с\nМагусом, но до того, как сразитесь с Азалой."
   },
   {
     "id": 10,
@@ -69,7 +69,7 @@
     "id": 11,
     "original_en": "Defeat Lavos after Schala opens the sealed door,\nbut before restoring light to the pendant.",
     "original_fr": "Après que Sarah ouvre la porte scellée, mais avant\nde réactiver le pendentif.",
-    "translation": "Победите Лавоса после снятия Шалой печати,\nно до восстановления света в кулоне."
+    "translation": "Победите Лавоса после снятия Шалой печати, но\nдо восстановления света в кулоне."
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "id": 17,
     "original_en": "Use the bucket to warp to Lavos upon reaching\nthe End of Time.",
     "original_fr": "Examinez le seau après avoir atteint la Fin des\ntemps.",
-    "translation": "Используйте ведро, чтобы переместиться\nк Лавосу после достижения Конца Времени."
+    "translation": "Используйте ведро, чтобы переместиться к\nЛавосу после достижения Конца Времени."
   },
   {
     "id": 18,

@@ -195,7 +195,7 @@
     "id": 32,
     "original_en": "{GLYPH:389}'s level\nincreased!",
     "original_fr": "Le niveau de {GLYPH:389}\naugmente !",
-    "translation": "{GLYPH:389} уровень\nувеличился!"
+    "translation": "{GLYPH:389} уровень увеличился!"
   },
   {
     "id": 33,
@@ -213,7 +213,7 @@
     "id": 35,
     "original_en": "{GLYPH:389} learned ",
     "original_fr": "{GLYPH:389} apprend",
-    "translation": "{GLYPH:389} изучил "
+    "translation": "{GLYPH:389} изучил"
   },
   {
     "id": 36,
@@ -285,7 +285,7 @@
     "id": 47,
     "original_en": "Enemy has nothing to give but gratitude.",
     "original_fr": "Ça ne lui a pas plu...",
-    "translation": "Враг не может дать ничего,\nкроме благодарности."
+    "translation": "Враг не может дать ничего, кроме\nблагодарности."
   },
   {
     "id": 48,

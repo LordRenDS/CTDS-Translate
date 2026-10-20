@@ -3,8 +3,9 @@
 import json
 import os
 from pathlib import Path
-from PIL import Image
+
 import pytest
+from PIL import Image
 
 from src.graphics_engine import (
     build_ncgr_sprite,
@@ -33,7 +34,7 @@ def is_pixel_visible(val):
 def logo_metadata():
     """Load cell sheet metadata for obj_logo_new, preferring translated metadata if present."""
     json_path = TRANSLATED_JSON if TRANSLATED_JSON.is_file() else EXTRACTED_JSON
-    with open(json_path, "r", encoding="utf-8") as f:
+    with open(json_path, encoding="utf-8") as f:
         meta = json.load(f)
     cells = {comp["cell_idx"]: comp for comp in meta.get("components", []) if "cell_idx" in comp}
     return meta, cells
@@ -251,7 +252,9 @@ def test_french_cells_and_uncovered_tiles_identical(logo_metadata):
     """
     _, cells = logo_metadata
 
-    with Image.open(TRANSLATED_PNG) as img_trans, Image.open(EXTRACTED_PNG) as img_orig:
+    clean_png = PROJECT_ROOT / 'build' / 'clean_title' / 'obj_logo_new.png'
+    ref_png = clean_png if clean_png.is_file() else EXTRACTED_PNG
+    with Image.open(TRANSLATED_PNG) as img_trans, Image.open(ref_png) as img_orig:
         pal_orig = img_orig.getpalette() or []
         color_cache = {}
 
