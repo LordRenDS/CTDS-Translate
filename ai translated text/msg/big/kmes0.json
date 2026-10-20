@@ -261,7 +261,7 @@
     "id": 43,
     "original_en": "A classified document has been left lying on the floor.{WAIT_KEY}\nRead it?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Il y a un document secret sur le sol...{WAIT_KEY}\nVoulez-vous le lire ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Секретный документ валяется на полу.{WAIT_KEY}\nПрочесть его? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Секретный документ валяется на полу.{WAIT_KEY}Прочесть его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 44,
@@ -273,7 +273,7 @@
     "id": 45,
     "original_en": "H-help me, please!{WAIT_KEY}\nFree him from the guillotine?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Aidez-moi !{WAIT_KEY}\nVoulez-vous lui porter secours ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "П-помогите, прошу!{WAIT_KEY}\nОсвободить его из гильотины? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "П-помогите, прошу!{WAIT_KEY}Освободить его из гильотины?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 46,
@@ -381,7 +381,7 @@
     "id": 63,
     "original_en": "Commander: Lord {CRONO}! What word?{WAIT_KEY}\nGive him the food?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Capitaine : Qu'y a-t-il, sire {CRONO} ?{WAIT_KEY}\nVoulez-vous lui donner les vivres du chef cuisinier ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Капитан: Сэр {CRONO}! Что слышно?{WAIT_KEY}\nОтдать ему припасы шеф-повара? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Капитан: Сэр {CRONO}! Что слышно?{WAIT_KEY}Отдать ему припасы шеф-повара?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 64,
@@ -453,7 +453,7 @@
     "id": 75,
     "original_en": "Commander: As you can see, Lord {CRONO}, it's all\nmy men can do to hold this line.{WAIT_KEY}\nMight you lend your blade to our battle as well?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Capitaine : Comme vous pouvez le constater, nos\ntroupes ont beaucoup souffert...{WAIT_KEY}\nSire {CRONO}, nous prêterez-vous main-forte ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Капитан: Как видите, сэр {CRONO}, мои люди из\nпоследних сил держат оборону.{WAIT_KEY}\nНе поможете ли нам своим клинком в бою? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Капитан: Как видите, сэр {CRONO}, мои люди из\nпоследних сил держат оборону.{WAIT_KEY}Не поможете ли нам своим клинком в бою?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 76,
@@ -621,7 +621,7 @@
     "id": 103,
     "original_en": "Melchior: Oh, you've come to see me!\nWell, by all means, have a look at my collection.{WAIT_KEY}\nCould I interest you in a weapon?\nI'll give you a special price.\n{TAG:38}{TAG:38}{GLYPH:394}Yes, I'd like to buy one.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No, I'm not interested.{GLYPH:397}",
     "original_fr": "Bosch : Oh, vous êtes venus me rendre visite !\nVous devriez jeter un coup d'{TAG:61}il {TAG:3C} ma collection.{WAIT_KEY}\nSeriez-vous intéressés par une des armes que j'ai\nfabriquées ? Je vous ferai un prix d'ami !\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Мельхиор: О, вы пришли навестить меня! Взгляните\nна мою коллекцию.{WAIT_KEY}\nНе желаете приобрести оружие? Сделаю вам особую\nскидку. {TAG:38}{TAG:38}{GLYPH:394}Да, хочу купить.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет, не интересует.{GLYPH:397}"
+    "translation": "Мельхиор: О, вы пришли навестить меня! Взгляните\nна мою коллекцию.{WAIT_KEY}Не желаете приобрести оружие? Сделаю вам особую\nскидку.\n{TAG:38}{TAG:38}{GLYPH:394}Да, хочу купить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет, не интересует.{GLYPH:397}"
   },
   {
     "id": 104,
@@ -777,7 +777,7 @@
     "id": 129,
     "original_en": "Melchior: Well, let us just say I doubt you'll ever\nfind any. But if you should, I'll be more than happy\nto repair the Masamune. Keep it with you until then.{WAIT_KEY}\nSo, would you like to buy anything?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Bosch : Hum, je ne crois pas que ce soit possible, mais\nsi par miracle vous trouvez une pierre onirique, cette\nbrillante pierre rouge, je réparerai Grandléon pour vous.\nEn attendant, gardez l'épée avec vous.{WAIT_KEY}\nVoulez-vous acheter quelque chose ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Мельхиор: Сомневаюсь, что вы найдёте его. Но если\nвдруг — я с радостью починю Масамунэ. Храните\nего у себя.{WAIT_KEY}\nЖелаете что-нибудь приобрести? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Мельхиор: Сомневаюсь, что вы найдёте его. Но если\nвдруг — я с радостью починю Масамунэ. Храните\nего у себя.{WAIT_KEY}Желаете что-нибудь приобрести?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 130,
@@ -831,7 +831,7 @@
     "id": 138,
     "original_en": "Melchior: A sword can be used as a tool for\nending lives or as one for saving them. It\nall depends on the one who wields it. Be sure\nyou wield yours for the proper reason.{WAIT_KEY}\nWould you like to buy something?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Bosch : Une épée peut ôter une vie ou la sauver, selon\nle c{TAG:61}ur de celui qui la manie. Ne l'utilisez pas {TAG:3C} mauvais\nescient.{WAIT_KEY}\nVoulez-vous acheter quelque chose ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Мельхиор: Мечом можно отнять жизнь, а можно и\nспасти. Всё зависит от того, в чьих он руках. Помни\nоб этом.{WAIT_KEY}\nЖелаете что-нибудь купить? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Мельхиор: Мечом можно отнять жизнь, а можно и\nспасти. Всё зависит от того, в чьих он руках. Помни\nоб этом.{WAIT_KEY}Желаете что-нибудь купить?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 139,
@@ -1017,7 +1017,7 @@
     "id": 169,
     "original_en": "You folks hungry?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Hum, vous en voulez ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Проголодались? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Проголодались?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 170,
@@ -1077,7 +1077,7 @@
     "id": 179,
     "original_en": "10 G per night. Care to stay?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous louer une chambre pour 10 G ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "10 золотых за ночь. Желаете отдохнуть? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "10 золотых за ночь. Желаете отдохнуть?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 180,
@@ -1089,7 +1089,7 @@
     "id": 181,
     "original_en": "No room here for humans. \nScat!\n{TAG:38}{TAG:38}{GLYPH:394}Give up.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Plead.{GLYPH:397}",
     "original_fr": "On n'a pas de chambres pour les humains !\nDu vent !\n       {GLYPH:394}Abandonner{GLYPH:395}\n       {GLYPH:396}Supplier{GLYPH:397}",
-    "translation": "Для людей комнат нет. Брысь! {TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
+    "translation": "Для людей\nкомнат нет. Брысь!\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
   },
   {
     "id": 182,
@@ -1101,7 +1101,7 @@
     "id": 183,
     "original_en": "200 G for the night.\nWant me to put you up?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 200 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "200 золотых за ночь. Пустить переночевать? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "200 золотых за\nночь. Пустить переночевать?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 184,
@@ -1125,7 +1125,7 @@
     "id": 187,
     "original_en": "I got nothing to sell to humans.\nGet out of here!\n{TAG:38}{TAG:38}{GLYPH:394}Give up.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Plead.{GLYPH:397}",
     "original_fr": "Je n'ai rien {TAG:3C} vendre {TAG:3C} des humains.\nDu vent !\n       {GLYPH:394}Abandonner{GLYPH:395}\n       {GLYPH:396}Supplier{GLYPH:397}",
-    "translation": "Мне нечего продавать людям. Проваливайте!\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
+    "translation": "Мне нечего\nпродавать людям. Проваливайте!\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
   },
   {
     "id": 188,
@@ -1407,7 +1407,7 @@
     "id": 234,
     "original_en": "Jump in?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous sauter ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Прыгнуть? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Прыгнуть?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 235,

@@ -99,19 +99,19 @@
     "id": 16,
     "original_en": "This Gate connects to the era from which you came.\nDo you wish to return there?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "On dirait un portail menant {TAG:3C} l'époque où vous étiez.\nVoulez-vous l'utiliser ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Эти Врата ведут обратно в вашу эпоху. Желаете\nвернуться? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Эти Врата ведут обратно в вашу эпоху. Желаете\nвернуться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 17,
     "original_en": "There is a switch here.\nPress the switch?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous appuyer sur\nle bouton ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Здесь есть переключатель. Нажать его? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Здесь есть\nпереключатель. Нажать его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 18,
     "original_en": "\"Crater surveillance ladder.\"\nPress the switch?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Il est écrit : {TAG:64} îchelle pour l'inspection du cratère {TAG:65}.\nVoulez-vous appuyer sur le bouton ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "«Лестница наблюдения за кратером». Нажать\nпереключатель? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "«Лестница наблюдения за кратером». Нажать\nпереключатель?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 19,
@@ -417,7 +417,7 @@
     "id": 69,
     "original_en": "RELEASE SECURITY LOCKS?\n{TAG:38}{TAG:38}{GLYPH:394}YES{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}NO{GLYPH:397}",
     "original_fr": "Désactiver le système de sécurité ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "СНЯТЬ БЛОКИРОВКУ БЕЗОПАСНОСТИ? {TAG:38}{TAG:38}{GLYPH:394}ДА{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}НЕТ{GLYPH:397}"
+    "translation": "СНЯТЬ БЛОКИРОВКУ БЕЗОПАСНОСТИ?\n{TAG:38}{TAG:38}{GLYPH:394}ДА{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}НЕТ{GLYPH:397}"
   },
   {
     "id": 70,

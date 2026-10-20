@@ -15,19 +15,19 @@
     "id": 2,
     "original_en": "™COMPLETION DATA",
     "original_fr": "™Partie finie",
-    "translation": "СТАТИСТИКА ПРОХОЖДЕНИЯ"
+    "translation": "ИТОГИ ПРОХОЖДЕНИЯ"
   },
   {
     "id": 3,
     "original_en": "Enemies encountered:",
     "original_fr": "Monstres rencontrés",
-    "translation": "Повстречавшиеся враги:"
+    "translation": "Встреченные враги:"
   },
   {
     "id": 4,
     "original_en": "Items obtained:",
     "original_fr": "Objets obtenus",
-    "translation": "Полученные предметы:"
+    "translation": "Собрано предметов:"
   },
   {
     "id": 5,
@@ -39,7 +39,7 @@
     "id": 6,
     "original_en": "Save count:",
     "original_fr": "Nombre de sauvegardes",
-    "translation": "Количество сохранений:"
+    "translation": "Число сохранений:"
   },
   {
     "id": 7,

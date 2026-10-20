@@ -3,240 +3,240 @@
     "id": 0,
     "original_en": "Crono",
     "original_fr": "Chrono",
-    "translation": ""
+    "translation": "Хроно"
   },
   {
     "id": 1,
     "original_en": "Marle",
     "original_fr": "Marle",
-    "translation": ""
+    "translation": "Марль"
   },
   {
     "id": 2,
     "original_en": "Lucca",
     "original_fr": "Lucca",
-    "translation": ""
+    "translation": "Лукка"
   },
   {
     "id": 3,
     "original_en": "Robo",
     "original_fr": "RoBo",
-    "translation": ""
+    "translation": "Робо"
   },
   {
     "id": 4,
     "original_en": "Frog",
     "original_fr": "Gren",
-    "translation": ""
+    "translation": "Фрог"
   },
   {
     "id": 5,
     "original_en": "Ayla",
     "original_fr": "Ayla",
-    "translation": ""
+    "translation": "Эйла"
   },
   {
     "id": 6,
     "original_en": "Magus",
     "original_fr": "Magus",
-    "translation": ""
+    "translation": "Магус"
   },
   {
     "id": 7,
     "original_en": "Ice and Flame",
     "original_fr": "Duo Antipodes",
-    "translation": ""
+    "translation": "Лёд и пламя"
   },
   {
     "id": 8,
     "original_en": "Ayla's Entrance",
     "original_fr": "L'entrée en scène d'Ayla",
-    "translation": ""
+    "translation": "Появление Эйлы"
   },
   {
     "id": 9,
     "original_en": "Ayla and the Dactyl",
     "original_fr": "Ayla et le ptéranodon",
-    "translation": ""
+    "translation": "Эйла и дактиль"
   },
   {
     "id": 10,
     "original_en": "Chief, Fly High",
     "original_fr": "Chef voler !",
-    "translation": ""
+    "translation": "Вождь, взлетай!"
   },
   {
     "id": 11,
     "original_en": "The Epoch",
     "original_fr": "Ibis",
-    "translation": ""
+    "translation": "Эпоха"
   },
   {
     "id": 12,
     "original_en": "Smiling Princess",
     "original_fr": "Le sourire de la princesse",
-    "translation": ""
+    "translation": "Улыбающаяся принцесса"
   },
   {
     "id": 13,
     "original_en": "Into the Maw of Darkness",
     "original_fr": "Le repaire d'un vieil ennemi",
-    "translation": ""
+    "translation": "В пасть тьмы"
   },
   {
     "id": 14,
     "original_en": "Wings of Time",
     "original_fr": "Le vaisseau qui traverse le temps",
-    "translation": ""
+    "translation": "Крылья времени"
   },
   {
     "id": 15,
     "original_en": "Wedding Ceremony",
     "original_fr": "Les noces",
-    "translation": ""
+    "translation": "Свадебная церемония"
   },
   {
     "id": 16,
     "original_en": "Crono Sketch",
     "original_fr": "Croquis de Chrono",
-    "translation": ""
+    "translation": "Набросок Хроно"
   },
   {
     "id": 17,
     "original_en": "Marle Sketch",
     "original_fr": "Croquis de Marle",
-    "translation": ""
+    "translation": "Набросок Марль"
   },
   {
     "id": 18,
     "original_en": "Lucca Sketch",
     "original_fr": "Croquis de Lucca",
-    "translation": ""
+    "translation": "Набросок Лукки"
   },
   {
     "id": 19,
     "original_en": "Robo Sketch",
     "original_fr": "Croquis de RoBo",
-    "translation": ""
+    "translation": "Набросок Робо"
   },
   {
     "id": 20,
     "original_en": "Frog Sketch",
     "original_fr": "Croquis de Gren",
-    "translation": ""
+    "translation": "Набросок Фрога"
   },
   {
     "id": 21,
     "original_en": "Ayla Sketch",
     "original_fr": "Croquis d'Ayla",
-    "translation": ""
+    "translation": "Набросок Эйлы"
   },
   {
     "id": 22,
     "original_en": "Magus Sketch",
     "original_fr": "Croquis de Magus",
-    "translation": ""
+    "translation": "Набросок Магуса"
   },
   {
     "id": 23,
     "original_en": "Dungeon Battle",
     "original_fr": "Bataille dans un donjon",
-    "translation": ""
+    "translation": "Битва в подземелье"
   },
   {
     "id": 24,
     "original_en": "Combo Attack",
     "original_fr": "Attaque combo",
-    "translation": ""
+    "translation": "Парная атака"
   },
   {
     "id": 25,
     "original_en": "Fiendlord Face-off",
     "original_fr": "Bataille contre Magus",
-    "translation": ""
+    "translation": "Схватка с Владыкой тьмы"
   },
   {
     "id": 26,
     "original_en": "Dactyl Riders",
     "original_fr": "Sur le dos du ptéranodon",
-    "translation": ""
+    "translation": "Наездники на дактилях"
   },
   {
     "id": 27,
     "original_en": "Epoch, Away!",
     "original_fr": "L'envol de l'Ibis",
-    "translation": ""
+    "translation": "Эпоха, на взлёт!"
   },
   {
     "id": 28,
     "original_en": "The Forest Camp",
     "original_fr": "Campement dans la forêt",
-    "translation": ""
+    "translation": "Ночлег в лесу"
   },
   {
     "id": 29,
     "original_en": "Beneath Starlit Skies",
     "original_fr": "Sous le ciel étoilé",
-    "translation": ""
+    "translation": "Под звёздным небом"
   },
   {
     "id": 30,
     "original_en": "Reflections",
     "original_fr": "Réflexions",
-    "translation": ""
+    "translation": "Размышления"
   },
   {
     "id": 31,
     "original_en": "What Comes to Pass",
     "original_fr": "Le cours du temps",
-    "translation": ""
+    "translation": "Что суждено случиться"
   },
   {
     "id": 32,
     "original_en": "Misfortune Falls",
     "original_fr": "Calamité",
-    "translation": ""
+    "translation": "Грянувшее несчастье"
   },
   {
     "id": 33,
     "original_en": "Robo in Disrepair",
     "original_fr": "Lucca répare RoBo",
-    "translation": ""
+    "translation": "Робо в беде"
   },
   {
     "id": 34,
     "original_en": "The Mighty Ayla",
     "original_fr": "Ayla, la force de la Nature",
-    "translation": ""
+    "translation": "Могучая Эйла"
   },
   {
     "id": 35,
     "original_en": "The Masamune Unsheathed",
     "original_fr": "Â l'attaque, Grandléon !",
-    "translation": ""
+    "translation": "Обнажённый Масамунэ"
   },
   {
     "id": 36,
     "original_en": "Before the Fiendlord",
     "original_fr": "L'entrée en scène de Magus",
-    "translation": ""
+    "translation": "Перед Владыкой тьмы"
   },
   {
     "id": 37,
     "original_en": "Flight of the Dactyls",
     "original_fr": "Sur le dos du ptéranodon",
-    "translation": ""
+    "translation": "Полёт дактилей"
   },
   {
     "id": 38,
     "original_en": "The Epoch's Maiden Flight",
     "original_fr": "L'envol de l'Ibis",
-    "translation": ""
+    "translation": "Первый полёт Эпохи"
   },
   {
     "id": 39,
     "original_en": "Prophecy Fulfilled",
     "original_fr": "Prophétie réalisée",
-    "translation": ""
+    "translation": "Свершившееся пророчество"
   }
 ]

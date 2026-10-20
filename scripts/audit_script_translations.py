@@ -62,7 +62,7 @@ CHOICE_PAIR_PATTERNS: tuple[tuple[int, re.Pattern[str]], ...] = tuple(
     (open_id, re.compile(rf"\{{GLYPH:{open_id}\}}(.*?)\{{GLYPH:{close_id}\}}", re.DOTALL))
     for open_id, close_id in CHOICE_PAIRS
 )
-PREC_STRIP_REGEX: re.Pattern[str] = re.compile(r"(?:\{TAG:38\}|[ \t])+$")
+PREC_STRIP_REGEX: re.Pattern[str] = re.compile(r"(?:\{TAG:38\}|®|[ \t])+$")
 
 # 3. Sub-page boundary split pattern
 SUBPAGE_SPLIT: re.Pattern[str] = re.compile(r"\{WAIT_KEY\}|\{PAGE\}|\{GLYPH:407\}|\{GLYPH:408\}")
@@ -181,6 +181,7 @@ def audit_script_entry(
             str(file_path),
             entry_id=entry_id if isinstance(entry_id, int) else 0,
             explicit_preset=preset,
+            entry_dict=entry,
         )
     else:
         preset_key = preset if preset and preset != "auto" else "dialogue"
@@ -191,7 +192,7 @@ def audit_script_entry(
     # Check 3: Sub-page line overflows between {WAIT_KEY} / {PAGE}
     subpages = SUBPAGE_SPLIT.split(text)
     for idx, sp in enumerate(subpages):
-        sp_clean = sp.rstrip("\r\n")
+        sp_clean = sp.strip("\r\n")
         if not sp_clean.strip():
             continue
         raw_lines = sp_clean.split("\n")
@@ -211,9 +212,15 @@ def audit_script_entry(
         else:
             line_count = len(raw_lines)
 
-        if line_count > max_lines:
+        subpage_max_lines = (
+            4
+            if CHOICE_OPEN_TAGS.search(sp)
+            and effective_preset.name.startswith(("dialogue", "status_tutorial"))
+            else max_lines
+        )
+        if line_count > subpage_max_lines:
             violations.append(
-                f"Sub-page line overflow: Sub-page {idx + 1} has {line_count} lines (max allowed: {max_lines})"
+                f"Sub-page line overflow: Sub-page {idx + 1} has {line_count} lines (max allowed: {subpage_max_lines})"
             )
 
     # Check 4: NPC Gender Mismatches (feminine past-tense verbs in male speech blocks)
@@ -414,13 +421,13 @@ def main(argv: list[str] | None = None) -> int:
 
     # Load metrics if available
     widths = None
-    if getattr(args, "font_json", None) and os.path.isfile(args.font_json):
+    font_path = getattr(args, "font_json", None) or "extracted fonts/msg/big/msgcmn.json"
+    cyr_path = getattr(args, "cyrillic_json", None) or "assets/fonts/cyrillic_big.json"
+    if os.path.isfile(font_path):
         try:
             widths = load_glyph_metrics(
-                args.font_json,
-                getattr(args, "cyrillic_json", None)
-                if getattr(args, "cyrillic_json", None) and os.path.isfile(args.cyrillic_json)
-                else None,
+                font_path,
+                cyr_path if os.path.isfile(cyr_path) else None,
             )
         except Exception:
             widths = None

@@ -9,7 +9,7 @@
     "id": 1,
     "original_en": "Stable Master: You want a rundown of the place?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : Voulez-vous en savoir plus ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Рассказать, что здесь к чему? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Рассказать обо всём?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 2,
@@ -39,13 +39,13 @@
     "id": 6,
     "original_en": "Stable Master: Got the itch to raise yourself a\nmonster, eh?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : Vous voulez essayer d'élever un monstre,\nn'est-ce pas ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Зачесались руки вырастить монстра?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Зачесались\nруки вырастить монстра?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 7,
     "original_en": "Stable Master: Like that one, do you?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : Ce monstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Приглянулся этот малыш? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Приглянулся этот малыш?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 8,
@@ -129,7 +129,7 @@
     "id": 21,
     "original_en": "Pit Boss: What do you say?\nWant to enter a monster battle?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Employé de l'arène : Voulez-vous prendre part {TAG:3C} une\nbataille ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Распорядитель: Хотите выставить монстра на бой?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Распорядитель: Хотите выставить\nмонстра на бой?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 22,
@@ -159,7 +159,7 @@
     "id": 26,
     "original_en": "Pit Boss: What kind of battle would you like to enter?\n{TAG:38}{TAG:38}{GLYPH:394}Prize match.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Interdimensional battle.{GLYPH:402} {GLYPH:403}(Wireless battle){GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Cancel.{GLYPH:399}",
     "original_fr": "Employé de l'arène : Choisissez un type de bataille.\n       {GLYPH:394}Tournoi de l'arène{GLYPH:395}\n       {GLYPH:396}Communication sans fil{GLYPH:397}\n       {GLYPH:398}Annuler{GLYPH:399}",
-    "translation": "Распорядитель: В какой битве хотите\nучаствовать? {TAG:38}{TAG:38}{GLYPH:394}Призовой матч.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Битва измерений.{GLYPH:402}\n{GLYPH:403}(Связь){GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Отмена.{GLYPH:399}"
+    "translation": "Распорядитель: Какую битву выберете?\n{TAG:38}{TAG:38}{GLYPH:394}Призовой бой.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Битва эпох.{GLYPH:402} {GLYPH:403}(Связь){GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Отмена.{GLYPH:399}"
   },
   {
     "id": 27,
@@ -189,13 +189,13 @@
     "id": 31,
     "original_en": "Return to the End of Time?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous retourner {TAG:3C} la Fin des temps ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Вернуться в Конец Времён? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Вернуться в Конец Времён?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 32,
     "original_en": "Return to the title screen?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous retourner {TAG:3C} l'écran-titre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Вернуться на титульный экран? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Вернуться на титульный экран?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 33,
@@ -207,19 +207,19 @@
     "id": 34,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Tier 2:{TAG:7A} 500 G{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Tier 3:{TAG:70} 1000 G{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Tier 4: 3000 G{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Cancel.{GLYPH:401}",
     "original_fr": "       {GLYPH:394}Niveau 2 : 500 G{GLYPH:395}\n       {GLYPH:396}Niveau 3 : 1000 G{GLYPH:397}\n       {GLYPH:398}Niveau 4 : 3000 G{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
-    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 2:{TAG:7A} 500 З{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Разряд 3:{TAG:70} 1000 З{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Разряд 4:\n3000 З{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 2:{TAG:7A} 500 З{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Разряд 3:{TAG:70} 1000 З{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Разряд 4: 3000 З{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
   },
   {
     "id": 35,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Tier 3:{TAG:7F} 1000 G{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Tier 4:♀ 3000 G{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Tier 5:♀ 5000 G{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Cancel.{GLYPH:401}",
     "original_fr": "       {GLYPH:394}Niveau 3 : 1000 G{GLYPH:395}\n       {GLYPH:396}Niveau 4 : 3000 G{GLYPH:397}\n       {GLYPH:398}Niveau 5 : 5000 G{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
-    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 3:{TAG:7F} 1000 З{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Разряд 4:♀ 3000 З{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Разряд 5:♀\n5000 З{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 3:{TAG:7F} 1000 З{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Разряд 4:♀ 3000 З{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Разряд 5:♀ 5000 З{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
   },
   {
     "id": 36,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Tier 4:♀ 3000 G{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Tier 5:♀ 5000 G{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Tier 6: 10,000 G{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Cancel.{GLYPH:401}",
     "original_fr": "       {GLYPH:394}Niveau 4 : 3000 G{GLYPH:395}\n       {GLYPH:396}Niveau 5 : 5000 G{GLYPH:397}\n       {GLYPH:398}Niveau 6 : 10 000 G{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
-    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 4:♀ 3000 З{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Разряд 5:♀ 5000 З{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Разряд 6:\n10 000 З{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Разряд 4:♀ 3000 З{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Разряд 5:♀ 5000 З{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Разряд 6: 10 000 З{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Отмена.{GLYPH:401}"
   },
   {
     "id": 37,
@@ -261,37 +261,37 @@
     "id": 43,
     "original_en": "Pit Boss: You want to enter a Tier 1 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
     "original_fr": "Employé de l'arène : Une bataille de niveau 1 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Распорядитель: Начать бой Разряда 1? {TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
+    "translation": "Распорядитель: Начать бой Разряда 1?\n{TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
   },
   {
     "id": 44,
     "original_en": "Pit Boss: You want to enter a Tier 2 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
     "original_fr": "Employé de l'arène : Une bataille de niveau 2 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Распорядитель: Начать бой Разряда 2? {TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
+    "translation": "Распорядитель: Начать бой Разряда 2?\n{TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
   },
   {
     "id": 45,
     "original_en": "Pit Boss: You want to enter a Tier 3 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
     "original_fr": "Employé de l'arène : Une bataille de niveau 3 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Распорядитель: Начать бой Разряда 3? {TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
+    "translation": "Распорядитель: Начать бой Разряда 3?\n{TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
   },
   {
     "id": 46,
     "original_en": "Pit Boss: You want to enter a Tier 4 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
     "original_fr": "Employé de l'arène : Une bataille de niveau 4 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Распорядитель: Начать бой Разряда 4? {TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
+    "translation": "Распорядитель: Начать бой Разряда 4?\n{TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
   },
   {
     "id": 47,
     "original_en": "Pit Boss: You want to enter a Tier 5 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
     "original_fr": "Employé de l'arène : Une bataille de niveau 5 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Распорядитель: Начать бой Разряда 5? {TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
+    "translation": "Распорядитель: Начать бой Разряда 5?\n{TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
   },
   {
     "id": 48,
     "original_en": "Pit Boss: You want to enter a Tier 6 battle?\n{TAG:38}{TAG:38}{GLYPH:394}Enter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Cancel.{GLYPH:397}",
     "original_fr": "Employé de l'arène : Une bataille de niveau 6 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Распорядитель: Начать бой Разряда 6? {TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
+    "translation": "Распорядитель: Начать бой Разряда 6?\n{TAG:38}{TAG:38}{GLYPH:394}Вступить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отмена.{GLYPH:397}"
   },
   {
     "id": 49,
@@ -399,25 +399,25 @@
     "id": 66,
     "original_en": "Stable Master: That's a flame smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : C'est une larve ignée. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Это огненный кроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Это огненный\nкроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 67,
     "original_en": "Stable Master: That's a water smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : C'est une larve aqueuse. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Это водный кроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Это водный\nкроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 68,
     "original_en": "Stable Master: That's a light smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : C'est une larve céleste. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Это светлый кроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Это светлый\nкроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 69,
     "original_en": "Stable Master: That's a shadow smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : C'est une larve chtonienne. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Это теневой кроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Это теневой\nкроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 70,

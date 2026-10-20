@@ -69,7 +69,7 @@
     "id": 11,
     "original_en": "Soldier: She is fully operational, Lord Dalton!",
     "original_fr": "Soldat : Tout est en ordre, sire Dalton !",
-    "translation": "Солдат: Машина полностью исправна, лорд Дальто-\nн!"
+    "translation": "Солдат: Машина полностью исправна, лорд\nДальтон!"
   },
   {
     "id": 12,
@@ -81,7 +81,7 @@
     "id": 13,
     "original_en": "Dalton: Hm? Those clothes...{WAIT_KEY}\nYou must be the ones the prophet said would come to\ninterfere!",
     "original_fr": "Dalton : Hum ? Ces tenues...{WAIT_KEY}\nJe vois, vous êtes donc ceux qui veulent contrecarrer\nnos plans, comme l'a prédit le prophète...",
-    "translation": "Дальтон: Хм? Эти лохмотья...{WAIT_KEY}\nВы, должно быть, те самые наглецы, о чьём вмеша-\nтельстве\nпредупреждал Пророк!"
+    "translation": "Дальтон: Хм? Эти лохмотья...{WAIT_KEY}Вы, должно быть, те самые наглецы, о чьём\nвмешательстве предупреждал Пророк!"
   },
   {
     "id": 14,
@@ -207,7 +207,7 @@
     "id": 34,
     "original_en": "{ROBO}: Our money has also been stolen!",
     "original_fr": "{ROBO} : Même notre argent a été subtilisé !",
-    "translation": "{ROBO}: Наши финансовые средства также украден-\nы!"
+    "translation": "{ROBO}: Наши финансовые средства также\nукрадены!"
   },
   {
     "id": 35,
@@ -387,7 +387,7 @@
     "id": 64,
     "original_en": "{ROBO}: What shall we do, {GLYPH:386}?\n{TAG:38}{TAG:38}{GLYPH:394}Pretend to be sick.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Think of another plan.{GLYPH:397}",
     "original_fr": "{ROBO} : As-tu une idée, {GLYPH:386} ?\n       {GLYPH:394}Faire semblant d'être malade !{GLYPH:395}\n       {GLYPH:396}Continuer de réfléchir...{GLYPH:397}",
-    "translation": "{ROBO}: Каковы будут указания, {GLYPH:386}?\n{TAG:38}{TAG:38}{GLYPH:394}Имитировать недомогание.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Разработать другой план.{GLYPH:397}"
+    "translation": "{ROBO}: Что будем делать, {GLYPH:386}?\n{TAG:38}{TAG:38}{GLYPH:394}Притвориться больным.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Придумать иной план.{GLYPH:397}"
   },
   {
     "id": 65,
@@ -513,19 +513,19 @@
     "id": 85,
     "original_en": "{LUCCA}: We can spy down on them through the\ngrates!",
     "original_fr": "{LUCCA} : D'ici, nous pouvons épier ce qui se passe\ndans le vaisseau.",
-    "translation": "{LUCCA}: Мы можем подглядывать за ними сквозь ре-\nшётки!"
+    "translation": "{LUCCA}: Мы можем подглядывать за ними сквозь\nрешётки!"
   },
   {
     "id": 86,
     "original_en": "{ROBO}: We can observe the enemy from the\nvantage point of these grates.",
     "original_fr": "{ROBO} : En jetant un coup d'{TAG:61}il ici, nous pourrons\nétablir la position de l'ennemi.",
-    "translation": "{ROBO}: Мы можем вести наблюдение за противник-\nом\nчерез эти вентиляционные решётки."
+    "translation": "{ROBO}: Мы можем вести наблюдение за\nпротивником через эти вентиляционные решётки."
   },
   {
     "id": 87,
     "original_en": "{FROG}: We can spy upon our captors from here.",
     "original_fr": "{FROG} : D'ici, nous saurons les mouvements de\nl'ennemi...",
-    "translation": "{FROG}: Отсюда можно следить за нашими плените-\nлями."
+    "translation": "{FROG}: Отсюда можно следить за нашими\nпленителями."
   },
   {
     "id": 88,
@@ -543,7 +543,7 @@
     "id": 90,
     "original_en": "Dalton: Pay close attention to what you're doing!\nThis is to be my royal Airthrone!",
     "original_fr": "Dalton : Ne b{TAG:4A}clez pas votre travail ! Il s'agit du trône\nvolant de Sa Nouvelle Majesté Dalton !",
-    "translation": "Дальтон: Смотрите в оба, что делаете!\nЭто судно станет моим венценосным Воздухотрон-\nом!"
+    "translation": "Дальтон: Смотрите в оба, что делаете! Это судно\nстанет моим венценосным Воздухотроном!"
   },
   {
     "id": 91,
@@ -597,19 +597,19 @@
     "id": 99,
     "original_en": "{ROBO}: Are we going to leave the rest of\nour things behind?\n®®{GLYPH:394}It doesn't matter.{GLYPH:395}\n®®{GLYPH:396}Go back.{GLYPH:397}",
     "original_fr": "{ROBO} : Nous n'avons pas encore récupéré tout ce\nqui nous avait été volé.\n       {GLYPH:394}Continuer{GLYPH:395}\n       {GLYPH:396}Faire demi-tour{GLYPH:397}",
-    "translation": "{ROBO}: Мы оставим остальные вещи позади?\n®{GLYPH:394}Не имеет значения.{GLYPH:395}\n®{GLYPH:396}Вернуться.{GLYPH:397}"
+    "translation": "{ROBO}: Мы оставим остальные вещи позади?\n®®{GLYPH:394}Не имеет значения.{GLYPH:395}\n®®{GLYPH:396}Вернуться.{GLYPH:397}"
   },
   {
     "id": 100,
     "original_en": "{FROG}: We've still not retrieved all of our\npossessions. Do you mean to leave them?\n{TAG:38}{TAG:38}{GLYPH:394}It doesn't matter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Go back.{GLYPH:397}",
     "original_fr": "{FROG} : Nous n'avons pas encore récupéré tout ce\nqui nous avait été volé.\n       {GLYPH:394}Continuer{GLYPH:395}\n       {GLYPH:396}Faire demi-tour{GLYPH:397}",
-    "translation": "{FROG}: Мы ещё не вернули всё наше имущество.\nТы и впрямь намерен бросить его?\n{TAG:38}{TAG:38}{GLYPH:394}Неважно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Назад.{GLYPH:397}"
+    "translation": "{FROG}: Мы ещё не вернули всё наше имущество. Ты\nи впрямь намерен бросить его?\n{TAG:38}{TAG:38}{GLYPH:394}Неважно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Назад.{GLYPH:397}"
   },
   {
     "id": 101,
     "original_en": "{AYLA}: Some stuff still gone!\nNo need?\n{TAG:38}{TAG:38}{GLYPH:394}It doesn't matter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Go back.{GLYPH:397}",
     "original_fr": "{AYLA} : Pas encore tout récupéré !\n\n       {GLYPH:394}Continuer{GLYPH:395}\n       {GLYPH:396}Faire demi-tour{GLYPH:397}",
-    "translation": "{AYLA}: Вещи ещё остаться там!\nНе надо?\n{TAG:38}{TAG:38}{GLYPH:394}Неважно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Назад.{GLYPH:397}"
+    "translation": "{AYLA}: Вещи ещё\nостаться там! Не надо?\n{TAG:38}{TAG:38}{GLYPH:394}Неважно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Назад.{GLYPH:397}"
   },
   {
     "id": 102,
@@ -669,13 +669,13 @@
     "id": 111,
     "original_en": "Dalton: The Aero-Dalton Imperial!{WAIT_KEY}\nAnd those meddlesome interlopers shall be her\nfirst victims!",
     "original_fr": "Dalton : Le Trône Céleste de Dalton !{WAIT_KEY}\nBien ! Voil{TAG:3C} mes premiers sacrifices !",
-    "translation": "Дальтон: «Аэро-Дальтон Империал»!{WAIT_KEY}\nИ эти назойливые букашки станут его первыми жер-\nтвами!"
+    "translation": "Дальтон: «Аэро-Дальтон Империал»!{WAIT_KEY}И эти назойливые букашки станут его первыми\nжертвами!"
   },
   {
     "id": 112,
     "original_en": "Dalton: Aero-Dalton Imperial, prepare for takeoff!",
     "original_fr": "Dalton : Vole, Trône Céleste !",
-    "translation": "Дальтон: «Аэро-Дальтон Империал», приготовить-\nся к взлёту!"
+    "translation": "Дальтон: «Аэро-Дальтон Империал»,\nприготовиться к взлёту!"
   },
   {
     "id": 113,
@@ -753,7 +753,7 @@
     "id": 125,
     "original_en": "Dalton: And you, I'm afraid, are excess baggage!\nHa ha ha ha!",
     "original_fr": "Dalton : Mouah, ha, ha, ha ! Cette fois, j'en ai vraiment\nfini avec vous !",
-    "translation": "Дальтон: А вы, к великому сожалению, лишний балл-\nаст!\nХа-ха-ха-ха!"
+    "translation": "Дальтон: А вы, к великому сожалению, лишний\nбалласт! Ха-ха-ха-ха!"
   },
   {
     "id": 126,
@@ -885,13 +885,13 @@
     "id": 147,
     "original_en": "{LUCCA}: More importantly, how do we control\nthis thing?",
     "original_fr": "{LUCCA} : Comment faire pour le piloter ?!",
-    "translation": "{LUCCA}: Но важнее другое: как управлять этой махи-\nной?!"
+    "translation": "{LUCCA}: Но важнее другое: как управлять этой\nмахиной?!"
   },
   {
     "id": 148,
     "original_en": "{ROBO}: More importantly, we need to determine\nthe flight controls before we crash.",
     "original_fr": "{ROBO} : Si nous ne trouvons pas rapidement\ncomment le piloter, nous allons nous écraser...",
-    "translation": "{ROBO}: Первостепенная задача: освоить управлен-\nие\nдо того, как мы разобьёмся."
+    "translation": "{ROBO}: Первостепенная задача: освоить\nуправление до того, как мы разобьёмся."
   },
   {
     "id": 149,
@@ -915,7 +915,7 @@
     "id": 152,
     "original_en": "{ROBO}: These instruments are all unfamiliar.",
     "original_fr": "{ROBO} : Je n'ai jamais utilisé ce genre\nd'instruments de bord...",
-    "translation": "{ROBO}: Все эти приборы мне совершенно не знаком-\nы."
+    "translation": "{ROBO}: Все эти приборы мне совершенно не\nзнакомы."
   },
   {
     "id": 153,
@@ -987,7 +987,7 @@
     "id": 164,
     "original_en": "{ROBO}: I should have linked it to my CPU.",
     "original_fr": "{ROBO} : J'aurais d{TAG:63} me connecter directement au\n{EPOCH}.",
-    "translation": "{ROBO}: Мне следовало подключить управление нап-\nрямую\nк моему процессору."
+    "translation": "{ROBO}: Мне следовало подключить управление\nнапрямую к моему процессору."
   },
   {
     "id": 165,
@@ -1005,7 +1005,7 @@
     "id": 167,
     "original_en": "{ROBO}: I believe this is what you refer to\nas a \"blessing in the midst of disaster.\"\nIt may not have been our intent, but we have gained\nthe means to fly!",
     "original_fr": "{ROBO} : Ce fut un mal pour un bien, finalement.\nLe {EPOCH} a gagné des ailes par un coup du sort !",
-    "translation": "{ROBO}: Полагаю, это именно то, что люди называ-\nют\n«не было бы счастья, да несчастье помогло».\nМы не планировали этого, но теперь обрели крылья!"
+    "translation": "{ROBO}: Полагаю, это именно то, что люди\nназывают «не было бы счастья, да несчастье\nпомогло». Мы не планировали этого, но теперь\nобрели крылья!"
   },
   {
     "id": 168,

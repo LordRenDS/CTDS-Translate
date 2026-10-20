@@ -3,1093 +3,1093 @@
     "id": 0,
     "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
     "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получено: {GLYPH:385}!"
   },
   {
     "id": 1,
     "original_en": "{AYLA}: Where this?\nNo like this place.",
     "original_fr": "{AYLA} : Où être ? Endroit sinistre...",
-    "translation": ""
+    "translation": "{AYLA}: Где это? Не нравиться это место."
   },
   {
     "id": 2,
     "original_en": "{MARLE}: Where are we?\nI don't like this place.",
     "original_fr": "{MARLE} : Où sommes-nous ? Je n'aime pas cet\nendroit...",
-    "translation": ""
+    "translation": "{MARLE}: Где мы? Мне совсем не нравится это место..."
   },
   {
     "id": 3,
     "original_en": "{FROG}: To what profane place have we come?",
     "original_fr": "{FROG} : Où sommes-nous ? Cet endroit est plutôt\nsinistre...",
-    "translation": ""
+    "translation": "{FROG}: Что это за проклятое место, куда мы\nзабрели?"
   },
   {
     "id": 4,
     "original_en": "{LUCCA}: It looks like we've come to the world of\nsome other age.",
     "original_fr": "{LUCCA} : C'est comme si notre monde confluait avec\nun autre où les époques sont différentes.",
-    "translation": ""
+    "translation": "{LUCCA}: Похоже, мы очутились в мире иной эпохи."
   },
   {
     "id": 5,
     "original_en": "{ROBO}: I am unfamiliar with this location.",
     "original_fr": "{ROBO} : Où sommes-nous ? Je ne connais pas cet\nendroit.",
-    "translation": ""
+    "translation": "{ROBO}: Данная локация отсутствует в моей базе\nданных."
   },
   {
     "id": 6,
     "original_en": "{MAGUS}: This is a great rift in time's fabric.\nThere is no stability whatsoever here.",
     "original_fr": "{MAGUS} : C'est une déformation de la structure des\ndimensions. L'espace est totalement instable.",
-    "translation": ""
+    "translation": "{MAGUS}: Это великий разлом в ткани времени. Здесь\nнет ни капли стабильности."
   },
   {
     "id": 7,
     "original_en": "{ROBO}: My time gyro cannot acquire a stable\nreading for time or locale.",
     "original_fr": "{ROBO} : Mon gyroscope spatio-temporel est\ndéréglé ! Il m'est impossible de déterminer\nl'endroit ou l'époque où nous sommes !",
-    "translation": ""
+    "translation": "{ROBO}: Мой темпоральный гироскоп не может\nопределить ни координаты времени, ни\nместоположение."
   },
   {
     "id": 8,
     "original_en": "{LUCCA}: It looks like we've come to the world of\nsome other age.",
     "original_fr": "{LUCCA} : C'est comme si notre monde confluait avec\nun autre où les époques sont différentes.",
-    "translation": ""
+    "translation": "{LUCCA}: Похоже, мы очутились в мире иной эпохи."
   },
   {
     "id": 9,
     "original_en": "{FROG}: It seems almost a confluence of sorts, as\nif time's streams were crossed.",
     "original_fr": "{FROG} : L'espace se distord. C'est comme si les\népoques se croisaient.",
-    "translation": ""
+    "translation": "{FROG}: Похоже на слияние временных потоков,\nбудто они переплелись меж собой."
   },
   {
     "id": 10,
     "original_en": "{MARLE}: Is space all twisted here?\nI don't understand.",
     "original_fr": "{MARLE} : L'espace se distord ? ... Je n'y comprends\npas grand-chose.",
-    "translation": ""
+    "translation": "{MARLE}: Неужели само пространство здесь\nискажено? Я ничего не понимаю..."
   },
   {
     "id": 11,
     "original_en": "{FROG}: In any case, shall we explore?",
     "original_fr": "{FROG} : Que devrions-nous faire...?\nContinuons pour voir.",
-    "translation": ""
+    "translation": "{FROG}: Так или иначе, осмотримся вокруг?"
   },
   {
     "id": 12,
     "original_en": "{LUCCA}: I don't really like this, but should we take\na look at what's here?\n",
     "original_fr": "{LUCCA} : Que faire ? Ça ne me dit rien qui vaille,\nmais continuons.",
-    "translation": ""
+    "translation": "{LUCCA}: Мне это совсем не по душе, но может,\nвсё-таки осмотримся?"
   },
   {
     "id": 13,
     "original_en": "{ROBO}: Shall we explore?\nI find this place intriguing already.",
     "original_fr": "{ROBO} : Que devrions-nous faire ? Cet endroit\néveille ma curiosité. Continuons pour voir.",
-    "translation": ""
+    "translation": "{ROBO}: Исследуем территорию? Это место уже\nвызывает у меня научный интерес."
   },
   {
     "id": 14,
     "original_en": "{MAGUS}: We've no guarantee we'll be able to return.\nDo we go onward?",
     "original_fr": "{MAGUS} : Qu'allons-nous faire ? Il n'est pas certain\nque nous en sortirons indemnes, mais continuons.",
-    "translation": ""
+    "translation": "{MAGUS}: Никто не гарантирует, что мы сможем\nвернуться. Идём дальше?"
   },
   {
     "id": 15,
     "original_en": "{AYLA}: Go ahead?",
     "original_fr": "{AYLA} : Quoi faire ? Continuer ?",
-    "translation": ""
+    "translation": "{AYLA}: Идти вперёд?"
   },
   {
     "id": 16,
     "original_en": "This Gate connects to the era from which you came.\nDo you wish to return there?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "On dirait un portail menant {TAG:3C} l'époque où vous étiez.\nVoulez-vous l'utiliser ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Эти Врата ведут обратно в вашу эпоху. Желаете\nвернуться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 17,
     "original_en": "There is a switch here.\nPress the switch?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous appuyer sur\nle bouton ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Здесь есть\nпереключатель. Нажать его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 18,
     "original_en": "\"Crater surveillance ladder.\"\nPress the switch?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Il est écrit : {TAG:64} îchelle pour l'inspection du cratère {TAG:65}.\nVoulez-vous appuyer sur le bouton ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "«Лестница наблюдения за кратером». Нажать\nпереключатель?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 19,
     "original_en": "There is a note.{WAIT_KEY}\n\"The Director of Research ought to have the security\nlock release code written down somewhere in this room.{WAIT_KEY}\n\"He's a strange one, though, always writing in codes\nand what have you. Knowing him, he probably wrote it\ndown backwards.\"",
     "original_fr": "Il y a une note de l'administrateur...{WAIT_KEY}\n{TAG:64} Le directeur devrait avoir laissé une note sur le code\nde sécurité quelque part dans cette pièce. {TAG:65}{WAIT_KEY}\n{TAG:64} Cependant, il a l'esprit tordu... Il ne donnerait pas\nle code directement. Il faudrait peut-être le lire {TAG:3C}\nl'envers. {TAG:65}",
-    "translation": ""
+    "translation": "Здесь лежит записка.{WAIT_KEY}\n«Код снятия блокировки должен быть записан\nдиректором где-то в этой комнате.{WAIT_KEY}\nПравда, он с причудами — вечно всё шифрует. Зная\nего, он наверняка записал его задом наперёд»."
   },
   {
     "id": 20,
     "original_en": "There is a note written by the Director of Research.{WAIT_KEY}\n\"Security lock release code: LLAB\nI picked it because, well...I like things that are round.\"",
     "original_fr": "Il y a une note du directeur...{WAIT_KEY}\n{TAG:64} Le code de sécurité est L L A B. Je l'ai choisi parce\nque j'aime les trucs ronds. {TAG:65}",
-    "translation": ""
+    "translation": "Записка директора исследовательского отдела...{WAIT_KEY}\n«Код снятия блокировки: LLAB. Я выбрал его,\nпотому что люблю всё круглое»."
   },
   {
     "id": 21,
     "original_en": "{GLYPH:384}\nSECURITY LOCK ENGAGED.",
     "original_fr": "{GLYPH:384}\nVerrouillage de sécurité...",
-    "translation": ""
+    "translation": "{GLYPH:384} БЛОКИРОВКА БЕЗОПАСНОСТИ ВКЛЮЧЕНА."
   },
   {
     "id": 22,
     "original_en": "{LUCCA}: Is anybody out there!?",
     "original_fr": "{LUCCA} : Il y a quelqu'un...?",
-    "translation": ""
+    "translation": "{LUCCA}: Эй, есть там кто-нибудь?!"
   },
   {
     "id": 23,
     "original_en": "{MARLE}: Help!",
     "original_fr": "{MARLE} : Â l'aide !",
-    "translation": ""
+    "translation": "{MARLE}: Помогите!"
   },
   {
     "id": 24,
     "original_en": "{ROBO}: Can anyone hear us?",
     "original_fr": "{ROBO} : Y a-t-il quelqu'un ?",
-    "translation": ""
+    "translation": "{ROBO}: Кто-нибудь нас слышит?"
   },
   {
     "id": 25,
     "original_en": "{AYLA}: Open door!\nOpen door NOW!",
     "original_fr": "{AYLA} : Personne ? Ouvrir porte !\nOuvrir porte !",
-    "translation": ""
+    "translation": "{AYLA}: Открыть дверь! Открыть дверь СЕЙЧАС ЖЕ!"
   },
   {
     "id": 26,
     "original_en": "{FROG}: Is no one out there?",
     "original_fr": "{FROG} : Il y a quelqu'un ?",
-    "translation": ""
+    "translation": "{FROG}: Неужто снаружи никого нет?"
   },
   {
     "id": 27,
     "original_en": "{MAGUS}: Hmph.",
     "original_fr": "{MAGUS} : Quel spectacle pitoyable...",
-    "translation": ""
+    "translation": "{MAGUS}: Хмф."
   },
   {
     "id": 28,
     "original_en": "{FROG}: It seems it falls on us to save the day.",
     "original_fr": "{FROG} : C'est enfin {TAG:3C} moi de jouer.\nJe me lassais d'attendre.",
-    "translation": ""
+    "translation": "{FROG}: Похоже, спасение вновь ложится на наши\nплечи."
   },
   {
     "id": 29,
     "original_en": "{ROBO}: It appears everyone is all right.",
     "original_fr": "{ROBO} : Tout le monde est sain et sauf, n'est-ce\npas ?",
-    "translation": ""
+    "translation": "{ROBO}: Судя по всему, все целы и невредимы."
   },
   {
     "id": 30,
     "original_en": "{AYLA}: You okay?\n{AYLA} help!",
     "original_fr": "{AYLA} : Tous bien aller ? {AYLA} aider !",
-    "translation": ""
+    "translation": "{AYLA}: Вы в порядке? {AYLA} помочь!"
   },
   {
     "id": 31,
     "original_en": "{MARLE}: Leave it to us!",
     "original_fr": "{MARLE} : Laissez-nous nous en charger !",
-    "translation": ""
+    "translation": "{MARLE}: Предоставьте это нам!"
   },
   {
     "id": 32,
     "original_en": "{LUCCA}: You came!",
     "original_fr": "{LUCCA} : Je savais que vous viendriez !",
-    "translation": ""
+    "translation": "{LUCCA}: Вы пришли!"
   },
   {
     "id": 33,
     "original_en": "{LUCCA}: We're trapped in here!\nThere should be a room to the east with a mechanism\nto release the lock. Think you can look for it?",
     "original_fr": "{LUCCA} : Nous ne pouvons pas sortir d'ici. Il devrait\ny avoir une salle où vous pourrez ouvrir cette porte\n{TAG:3C} l'est d'ici. Essayez de la trouver !",
-    "translation": ""
+    "translation": "{LUCCA}: Мы оказались в ловушке! На востоке должна\nбыть комната с механизмом снятия блокировки.\nПоищете её?"
   },
   {
     "id": 34,
     "original_en": "{MARLE}: Oh, thank goodness!\nI thought we were trapped for good!{WAIT_KEY}\nYou should be able to open the door from inside a\nroom to the east. Please, you have to get us out!",
     "original_fr": "{MARLE} : Le ciel soit loué... Merci d'être venus.{WAIT_KEY}\nIl devrait y avoir une salle où vous pourrez ouvrir cette\nporte {TAG:3C} l'est d'ici. Je vous en prie, aidez-nous !",
-    "translation": ""
+    "translation": "{MARLE}: О, хвала небесам! Я думала, мы застряли\nтут навечно!{WAIT_KEY}\nДверь можно открыть из комнаты на востоке.\nПрошу, вытащите нас отсюда!"
   },
   {
     "id": 35,
     "original_en": "{ROBO}: Oh, you have come!\nThank you.{WAIT_KEY}\nThere is a room to your east from which you can\nrelease this lock. Would you be so kind as to look\nfor it?",
     "original_fr": "{ROBO} : Quel soulagement d'entendre vos voix !{WAIT_KEY}\nIl devrait y avoir une salle où vous pourrez\ndéverrouiller cette porte {TAG:3C} l'est d'ici.{WAIT_KEY}\nPourriez-vous aller y jeter un coup d'{TAG:61}il ?",
-    "translation": ""
+    "translation": "{ROBO}: О, вы пришли! Благодарю вас.{WAIT_KEY}\nК востоку от вас есть помещение, откуда можно\nснять блокировку. Не будете ли вы столь любезны\nразыскать его?"
   },
   {
     "id": 36,
     "original_en": "{AYLA}: Oh, you come help {AYLA}!{WAIT_KEY}\nGo find place open door!\n{AYLA} no like door not open.\n{AYLA} want leave!",
     "original_fr": "{AYLA} : {AYLA} être soulagée. Merci !{WAIT_KEY}\nClef pour ouvrir porte être quelque part. {AYLA}\ndétester être enfermée. {AYLA} vouloir sortir !",
-    "translation": ""
+    "translation": "{AYLA}: О, вы прийти помочь {AYLA}!{WAIT_KEY}\nИдите искать, где открыть дверь! {AYLA} не\nлюбить закрытые двери. {AYLA} хотеть наружу!"
   },
   {
     "id": 37,
     "original_en": "{FROG}: You've come to help us!\nMy pardons.{WAIT_KEY}\nTo your east is a room from which this door can be\nopened. Might you do us the favor of searching it out?",
     "original_fr": "{FROG} : Ah, vous allez nous aider ? Je vous en suis\nreconnaissant...{WAIT_KEY}\nIl devrait y avoir une salle où vous pourrez ouvrir cette\nporte {TAG:3C} l'est d'ici. Pourriez-vous vous en charger ?",
-    "translation": ""
+    "translation": "{FROG}: Вы пришли нам на выручку! Прошу прощения\nза оплошность.{WAIT_KEY}\nК востоку от вас есть зал, откуда открывается\nдверь. Не окажете ли услугу отыскать его?"
   },
   {
     "id": 38,
     "original_en": "{MAGUS}: Hmph.\nDo not think I'll make a habit of this.",
     "original_fr": "{MAGUS} : Tsst ! Je veux bien vous aider pour cette\nfois.",
-    "translation": ""
+    "translation": "{MAGUS}: Хмф. И не надейтесь, что это войдёт у меня\nв привычку."
   },
   {
     "id": 39,
     "original_en": "{FROG}: Of course.\nWe'll go at once.",
     "original_fr": "{FROG} : Entendu. Nous allons l'ouvrir tout de suite.",
-    "translation": ""
+    "translation": "{FROG}: Разумеется. Мы немедленно выступаем."
   },
   {
     "id": 40,
     "original_en": "{ROBO}: Understood.\nWe shall commence the search immediately.",
     "original_fr": "{ROBO} : C'est entendu. Je vais la trouver.",
-    "translation": ""
+    "translation": "{ROBO}: Принято. Приступаем к поискам немедленно."
   },
   {
     "id": 41,
     "original_en": "{AYLA}: Okay.\n{AYLA} find!",
     "original_fr": "{AYLA} : D'accord ! {AYLA} chercher !",
-    "translation": ""
+    "translation": "{AYLA}: Ладно. {AYLA} найти!"
   },
   {
     "id": 42,
     "original_en": "{MARLE}: All right.\nJust hold on a little bit longer.\nWe'll get you out!",
     "original_fr": "{MARLE} : Entendu. Je vais vous sortir de l{TAG:3C}, je vous\nle promets ! Patientez encore un peu !",
-    "translation": ""
+    "translation": "{MARLE}: Хорошо. Потерпите ещё чуточку, мы вас\nвытащим!"
   },
   {
     "id": 43,
     "original_en": "{GLYPH:384}\nINTRUSION DETECTED!",
     "original_fr": "{GLYPH:384}\nAlerte ! Intrus détectés !",
-    "translation": ""
+    "translation": "{GLYPH:384} ОБНАРУЖЕНО ВТОРЖЕНИЕ!"
   },
   {
     "id": 44,
     "original_en": "{GLYPH:384}\nINITIALIZING SECURITY LOCK\nOBSERVATION PROGRAM.",
     "original_fr": "{GLYPH:384}\nActivation du programme de surveillance.",
-    "translation": ""
+    "translation": "{GLYPH:384} ЗАПУСК ПРОГРАММЫ НАБЛЮДЕНИЯ СИСТЕМЫ\nБЕЗОПАСНОСТИ."
   },
   {
     "id": 45,
     "original_en": "{GLYPH:384}\nLOCK RELEASE COMMAND EXECUTED BY\nUNREGISTERED ADMINISTRATOR.{WAIT_KEY}{GLYPH:384}\n\nINITIATING CONTAINMENT LOCKDOWN.",
     "original_fr": "{GLYPH:384}\nCommande saisie par un administrateur non enregistré.\nVerrouillage activé.",
-    "translation": ""
+    "translation": "{GLYPH:384} КОМАНДА РАЗБЛОКИРОВКИ ВЫПОЛНЕНА\nНЕЗАРЕГИСТРИРОВАННЫМ АДМИНИСТРАТОРОМ.{WAIT_KEY}\n{GLYPH:384} АКТИВАЦИЯ АВАРИЙНОЙ ИЗОЛЯЦИИ."
   },
   {
     "id": 46,
     "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION AT EAST WING\nREQUIRED TO DISENGAGE LOCKDOWN.",
     "original_fr": "{GLYPH:384}Pour désactiver le verrouillage,\nveuillez effectuer l'enregistrement de\nl'administrateur dans l'annexe est.",
-    "translation": ""
+    "translation": "{GLYPH:384} ДЛЯ СНЯТИЯ ИЗОЛЯЦИИ ТРЕБУЕТСЯ РЕГИСТРАЦИЯ\nАДМИНИСТРАТОРА В ВОСТОЧНОМ КРЫЛЕ."
   },
   {
     "id": 47,
     "original_en": "{LUCCA}: It won't open.\nAre we trapped in here?",
     "original_fr": "{LUCCA} : Elle ne veut pas s'ouvrir... N'y a-t-il pas\nd'autre issue ?!",
-    "translation": ""
+    "translation": "{LUCCA}: Не открывается... Мы что, заперты здесь?!"
   },
   {
     "id": 48,
     "original_en": "{MARLE}: It's no use, it won't open.\nIt looks like we're trapped.",
     "original_fr": "{MARLE} : Elle ne s'ouvre pas... On dirait qu'il n'y a\npas d'autre issue. Qu'allons-nous faire ?",
-    "translation": ""
+    "translation": "{MARLE}: Бесполезно, не открывается! Кажется, мы в\nловушке."
   },
   {
     "id": 49,
     "original_en": "{ROBO}: The door lock has been activated.\nIt appears we are trapped.",
     "original_fr": "{ROBO} : La porte est verrouillée. Il semble que\nnous sommes coincés ici.",
-    "translation": ""
+    "translation": "{ROBO}: Замок активирован. Похоже, мы\nзаблокированы."
   },
   {
     "id": 50,
     "original_en": "{AYLA}: Door no open.\n{AYLA} no can leave?",
     "original_fr": "{AYLA} : Porte pas s'ouvrir. {AYLA} être\ncoincée ici ?",
-    "translation": ""
+    "translation": "{AYLA}: Дверь не открываться. {AYLA} не может\nвыйти?"
   },
   {
     "id": 51,
     "original_en": "{FROG}: It's no use.\nIt would seem we're trapped.",
     "original_fr": "{FROG} : Impossible de l'ouvrir...\nOn dirait que nous sommes coincés ici.",
-    "translation": ""
+    "translation": "{FROG}: Всё тщетно. Похоже, мы в западне."
   },
   {
     "id": 52,
     "original_en": "{MAGUS}: What now?\nWe'd best do something, unless it is your\nplan to wait out our deaths here.",
     "original_fr": "{MAGUS} : Qu'allons-nous faire ? Devrons-nous\nattendre notre mort en cet endroit ?",
-    "translation": ""
+    "translation": "{MAGUS}: И что теперь? Лучше бы что-то\nпредпринять, если только в ваши планы не входит\nпокорно дожидаться смерти."
   },
   {
     "id": 53,
     "original_en": "{FROG}: What shall we do now?\nWe must think of a way to escape.",
     "original_fr": "{FROG} : Nous devons maintenant essayer de\ntrouver un moyen de sortir d'ici...",
-    "translation": ""
+    "translation": "{FROG}: Что нам теперь делать? Нужно придумать,\nкак выбраться отсюда."
   },
   {
     "id": 54,
     "original_en": "{AYLA}: How get out?",
     "original_fr": "{AYLA} : Sortir comment ?",
-    "translation": ""
+    "translation": "{AYLA}: Как выбраться?"
   },
   {
     "id": 55,
     "original_en": "{ROBO}: This could pose a problem.\nI do not think our strength will be\nsufficient to force our way out.",
     "original_fr": "{ROBO} : Nous voil{TAG:3C} dans de beaux draps...\nIl semble que tous nos efforts sont vains.",
-    "translation": ""
+    "translation": "{ROBO}: Возникло непредвиденное осложнение.\nБоюсь, грубой силы будет недостаточно, чтобы\nвыломать эту дверь."
   },
   {
     "id": 56,
     "original_en": "{MARLE}: There's no way out?\nI don't want to die in here!",
     "original_fr": "{MARLE} : Alors, on ne peut pas sortir d'ici ?\nJe n'ai pas envie de mourir dans un endroit pareil !",
-    "translation": ""
+    "translation": "{MARLE}: Выхода нет?.. Я не хочу умирать здесь!"
   },
   {
     "id": 57,
     "original_en": "{ROBO}: The locks have been released!",
     "original_fr": "{ROBO} : Il semble que la porte est déverrouillée.",
-    "translation": ""
+    "translation": "{ROBO}: Блокировка снята!"
   },
   {
     "id": 58,
     "original_en": "{AYLA}: Door open!\nCan go out!",
     "original_fr": "{AYLA} : Porte être ouverte ! Nous sortir !",
-    "translation": ""
+    "translation": "{AYLA}: Дверь открыта! Можно идти!"
   },
   {
     "id": 59,
     "original_en": "{FROG}: Ah, they've released the locks!\nWe'll have to thank them properly when\nwe've the chance.",
     "original_fr": "{FROG} : Oh, elle est déverrouillée !\nJe leur revaudrai ça !",
-    "translation": ""
+    "translation": "{FROG}: Они открыли замки! Надо будет\nотблагодарить их при встрече."
   },
   {
     "id": 60,
     "original_en": "{LUCCA}: All right!\nThe doors are unlocked!\nWe'll have to thank them later.",
     "original_fr": "{LUCCA} : Hourra, la porte est ouverte !\nIls ont réussi !",
-    "translation": ""
+    "translation": "{LUCCA}: Ура! Двери открылись! Надо будет\nпоблагодарить их потом."
   },
   {
     "id": 61,
     "original_en": "{MARLE}: Whew, the doors are unlocked!\nThank goodness. I was really starting\nto get tired of this place!",
     "original_fr": "{MARLE} : On dirait que la porte est ouverte !\nHourra ! Nous pouvons enfin sortir d'ici !",
-    "translation": ""
+    "translation": "{MARLE}: Фух, двери открыты! Какое счастье, мне\nуже осточертело сидеть тут!"
   },
   {
     "id": 62,
     "original_en": "{MAGUS}: Hmm?\nIt seems another route has opened.\nShall we see what lies that way?",
     "original_fr": "{MAGUS} : Hum...? On dirait qu'une autre voie s'est\nouverte. Voulez-vous aller voir ce qu'il en est ?",
-    "translation": ""
+    "translation": "{MAGUS}: Хм? Кажется, открылся другой проход.\nПосмотрим, что там?"
   },
   {
     "id": 63,
     "original_en": "{MARLE}: Huh?\nAnother way opened up, too.\nWhy don't we check it out?",
     "original_fr": "{MARLE} : Hum ? Il y a une autre issue. Voulez-vous y\njeter un coup d'{TAG:61}il ?",
-    "translation": ""
+    "translation": "{MARLE}: А? Открылся ещё один проход. Почему бы не\nразведать, куда он ведёт?"
   },
   {
     "id": 64,
     "original_en": "{LUCCA}: Hmm?\nThe lasers seem to have been shut off, too.\nWhy don't we see what's this way?",
     "original_fr": "{LUCCA} : Hum ? On dirait qu'il y a aussi une autre\nvoie. Vous ne voulez pas y jeter un coup d'{TAG:61}il ?",
-    "translation": ""
+    "translation": "{LUCCA}: Хм? Лазеры тоже отключились. Пойдём\nглянем, что там?"
   },
   {
     "id": 65,
     "original_en": "{FROG}: Hm?\nIt looks as though another route is open.\nShall we take a look?",
     "original_fr": "{FROG} : Hum ? On dirait que nous pouvons aussi\nsortir par l{TAG:3C}. Que diriez-vous d'y jeter un coup\nd'{TAG:61}il ?",
-    "translation": ""
+    "translation": "{FROG}: Хм? Похоже, открылся иной путь. Взглянем,\nчто там?"
   },
   {
     "id": 66,
     "original_en": "{AYLA}: Huh?\nHere open, too.\nGo look?",
     "original_fr": "{AYLA} : Quoi ? Aussi autre passage ici.\nAller voir ?",
-    "translation": ""
+    "translation": "{AYLA}: А? Тут тоже открыто. Идти смотреть?"
   },
   {
     "id": 67,
     "original_en": "{GLYPH:384}\nELIMINATE THE INTRUDERS!",
     "original_fr": "{GLYPH:384}îliminez les intrus !",
-    "translation": ""
+    "translation": "{GLYPH:384} УНИЧТОЖИТЬ НАРУШИТЕЛЕЙ!"
   },
   {
     "id": 68,
     "original_en": "{GLYPH:384}\nBOOTING SECURITY SYSTEM...",
     "original_fr": "{GLYPH:384}Initialisation du système de sécurité...",
-    "translation": ""
+    "translation": "{GLYPH:384} ЗАГРУЗКА СИСТЕМЫ БЕЗОПАСНОСТИ..."
   },
   {
     "id": 69,
     "original_en": "RELEASE SECURITY LOCKS?\n{TAG:38}{TAG:38}{GLYPH:394}YES{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}NO{GLYPH:397}",
     "original_fr": "Désactiver le système de sécurité ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "СНЯТЬ БЛОКИРОВКУ БЕЗОПАСНОСТИ?\n{TAG:38}{TAG:38}{GLYPH:394}ДА{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}НЕТ{GLYPH:397}"
   },
   {
     "id": 70,
     "original_en": "{GLYPH:384}\nPLEASE ENTER RELEASE CODE.",
     "original_fr": "{GLYPH:384}Veuillez saisir le code.",
-    "translation": ""
+    "translation": "{GLYPH:384} ВВЕДИТЕ КОД РАЗБЛОКИРОВКИ."
   },
   {
     "id": 71,
     "original_en": "{GLYPH:384}\nCODE CONFIRMED.\nSECURITY SYSTEM DISENGAGED.",
     "original_fr": "{GLYPH:384}Code accepté.\nDésactivation du système de sécurité réussie.",
-    "translation": ""
+    "translation": "{GLYPH:384} КОД ПОДТВЕРЖДЁН. СИСТЕМА БЕЗОПАСНОСТИ\nОТКЛЮЧЕНА."
   },
   {
     "id": 72,
     "original_en": "{GLYPH:384}\nERROR.\nRELEASE CODE INCORRECT.",
     "original_fr": "{GLYPH:384}Code refusé.",
-    "translation": ""
+    "translation": "{GLYPH:384} ОШИБКА. НЕВЕРНЫЙ КОД РАЗБЛОКИРОВКИ."
   },
   {
     "id": 73,
     "original_en": "{GLYPH:384}\nCONFIRMING ENTRANT IDENTITIES.",
     "original_fr": "{GLYPH:384}Analyse des personnes présentes...",
-    "translation": ""
+    "translation": "{GLYPH:384} ИДЕНТИФИКАЦИЯ ВОШЕДШИХ СУБЪЕКТОВ."
   },
   {
     "id": 74,
     "original_en": "{GLYPH:384}\nUNREGISTERED ENTRANTS.\nCOMMENCING EXTERMINATION.",
     "original_fr": "{GLYPH:384}Identité inconnue...\nîlimination des personnes non enregistrées !",
-    "translation": ""
+    "translation": "{GLYPH:384} НЕОПОЗНАННЫЕ ОБЪЕКТЫ. ПРИСТУПИТЬ К\nЛИКВИДАЦИИ."
   },
   {
     "id": 75,
     "original_en": "{GLYPH:384}\nLEVEL 1 ALERT.\nELIMINATE INTRUDERS!",
     "original_fr": "{GLYPH:384}Alerte de niveau 1.\nîliminez les intrus !",
-    "translation": ""
+    "translation": "{GLYPH:384} ТРЕВОГА УРОВНЯ 1. УНИЧТОЖИТЬ НАРУШИТЕЛЕЙ!"
   },
   {
     "id": 76,
     "original_en": "{GLYPH:384}\nLEVEL 2 ALERT.\nELIMINATE INTRUDERS!",
     "original_fr": "{GLYPH:384}Alerte de niveau 2.\nîliminez les intrus !",
-    "translation": ""
+    "translation": "{GLYPH:384} ТРЕВОГА УРОВНЯ 2. УНИЧТОЖИТЬ НАРУШИТЕЛЕЙ!"
   },
   {
     "id": 77,
     "original_en": "{GLYPH:384}\nLEVEL 3 ALERT.\nELIMINATE INTRUDERS!",
     "original_fr": "{GLYPH:384}Alerte de niveau 3.\nîliminez les intrus !",
-    "translation": ""
+    "translation": "{GLYPH:384} ТРЕВОГА УРОВНЯ 3. УНИЧТОЖИТЬ НАРУШИТЕЛЕЙ!"
   },
   {
     "id": 78,
     "original_en": "{GLYPH:384}\nLEVEL 4 ALERT.\nELIMINATE INTRUDERS!",
     "original_fr": "{GLYPH:384}Alerte de niveau 4.\nîliminez les intrus !",
-    "translation": ""
+    "translation": "{GLYPH:384} ТРЕВОГА УРОВНЯ 4. УНИЧТОЖИТЬ НАРУШИТЕЛЕЙ!"
   },
   {
     "id": 79,
     "original_en": "{GLYPH:384}\nLEVEL 5 ALERT.\nELIMINATE INTRUDERS!",
     "original_fr": "{GLYPH:384}Alerte de niveau 5.\nîliminez les intrus !",
-    "translation": ""
+    "translation": "{GLYPH:384} ТРЕВОГА УРОВНЯ 5. УНИЧТОЖИТЬ НАРУШИТЕЛЕЙ!"
   },
   {
     "id": 80,
     "original_en": "{GLYPH:384}\nLEVEL 6 ALERT.\nELIMINATE INTRUDERS!",
     "original_fr": "{GLYPH:384}Alerte de niveau 6.\nîliminez les intrus !",
-    "translation": ""
+    "translation": "{GLYPH:384} ТРЕВОГА УРОВНЯ 6. УНИЧТОЖИТЬ НАРУШИТЕЛЕЙ!"
   },
   {
     "id": 81,
     "original_en": "{GLYPH:384}\nLEVEL 7 ALERT.\nELIMINATE INTRUDERS!",
     "original_fr": "{GLYPH:384}Alerte de niveau 7.\nîliminez les intrus !",
-    "translation": ""
+    "translation": "{GLYPH:384} ТРЕВОГА УРОВНЯ 7. УНИЧТОЖИТЬ НАРУШИТЕЛЕЙ!"
   },
   {
     "id": 82,
     "original_en": "{GLYPH:384}\nLEVEL 8 ALERT.\nELIMINATE INTRUDERS!",
     "original_fr": "{GLYPH:384}Alerte de niveau 8.\nîliminez les intrus !",
-    "translation": ""
+    "translation": "{GLYPH:384} ТРЕВОГА УРОВНЯ 8. УНИЧТОЖИТЬ НАРУШИТЕЛЕЙ!"
   },
   {
     "id": 83,
     "original_en": "{GLYPH:384}\nLEVEL 9 ALERT.\nELIMINATE INTRUDERS!",
     "original_fr": "{GLYPH:384}Alerte de niveau 9.\nîliminez les intrus !",
-    "translation": ""
+    "translation": "{GLYPH:384} ТРЕВОГА УРОВНЯ 9. УНИЧТОЖИТЬ НАРУШИТЕЛЕЙ!"
   },
   {
     "id": 84,
     "original_en": "{GLYPH:384}\nMAXIMUM ALERT.\nELIMINATE INTRUDERS!",
     "original_fr": "{GLYPH:384}Alerte de niveau maximum.\nîliminez les intrus !",
-    "translation": ""
+    "translation": "{GLYPH:384} МАКСИМАЛЬНЫЙ УРОВЕНЬ ТРЕВОГИ. УНИЧТОЖИТЬ\nНАРУШИТЕЛЕЙ!"
   },
   {
     "id": 85,
     "original_en": "{GLYPH:384}\nFATAL ERROR.\nINTRUDER ELIMINATION FAILED.",
     "original_fr": "{GLYPH:384}îtat d'urgence.\nîlimination des intrus impossible...",
-    "translation": ""
+    "translation": "{GLYPH:384} КРИТИЧЕСКИЙ СБОЙ. ЛИКВИДАЦИЯ НАРУШИТЕЛЕЙ НЕ\nУДАЛАСЬ."
   },
   {
     "id": 86,
     "original_en": "{GLYPH:384}\nINITIATING SYSTEM SHUTDOWN.",
     "original_fr": "{GLYPH:384}Arrêt du système...",
-    "translation": ""
+    "translation": "{GLYPH:384} ЗАВЕРШЕНИЕ РАБОТЫ СИСТЕМЫ."
   },
   {
     "id": 87,
     "original_en": "{LUCCA}: Just...this like so, and—done!",
     "original_fr": "{LUCCA} : Alors... si je fais ça... et que j'appuie l{TAG:3C}...",
-    "translation": ""
+    "translation": "{LUCCA}: Вот так... повернуть сюда... и готово!"
   },
   {
     "id": 88,
     "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION COMPLETE.\nSECUIRTY LOCKDOWN DISENGAGED.",
     "original_fr": "{GLYPH:384}Enregistrement de l'administrateur terminé...\nDéverrouillage des portes.",
-    "translation": ""
+    "translation": "{GLYPH:384} РЕГИСТРАЦИЯ АДМИНИСТРАТОРА ЗАВЕРШЕНА.\nАВАРИЙНАЯ ИЗОЛЯЦИЯ СНЯТА."
   },
   {
     "id": 89,
     "original_en": "{LUCCA}: All right, that ought to do it.\nThe rest is out of our hands!",
     "original_fr": "{LUCCA} : Bien, ça devrait suffire.\nLaissons-les se charger du reste !",
-    "translation": ""
+    "translation": "{LUCCA}: Отлично, это должно сработать. Остальное\nуже не в нашей власти!"
   },
   {
     "id": 90,
     "original_en": "{ROBO}: Analysis complete.\nIt is a simple program.\nThis should suffice.",
     "original_fr": "{ROBO} : Identification terminée. Si je lance ce\nprogramme...",
-    "translation": ""
+    "translation": "{ROBO}: Анализ завершён. Простая программа. Этого\nдолжно быть достаточно."
   },
   {
     "id": 91,
     "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION COMPLETE.\nSECUIRTY LOCKDOWN DISENGAGED.",
     "original_fr": "{GLYPH:384}Enregistrement de l'administrateur terminé...\nDéverrouillage des portes.",
-    "translation": ""
+    "translation": "{GLYPH:384} РЕГИСТРАЦИЯ АДМИНИСТРАТОРА ЗАВЕРШЕНА.\nАВАРИЙНАЯ ИЗОЛЯЦИЯ СНЯТА."
   },
   {
     "id": 92,
     "original_en": "{ROBO}: It seems to have worked.\nThe others should be able to manage the rest.",
     "original_fr": "{ROBO} : On dirait que les portes ont été\ndéverrouillées. Laissons les autres se\ncharger du reste.",
-    "translation": ""
+    "translation": "{ROBO}: Похоже, сработало. С остальным остальные\nдолжны справиться сами."
   },
   {
     "id": 93,
     "original_en": "{MARLE}: I have to do something with this, right?\nUm, let's see... Maybe I'm supposed to—here?\nIs this it?",
     "original_fr": "{MARLE} : Que dois-je faire ? Euh...\nEt si j'appuyais ici...?",
-    "translation": ""
+    "translation": "{MARLE}: Мне нужно что-то сделать с этим, да? Так,\nпосмотрим... Может, нажать сюда? Вот так?"
   },
   {
     "id": 94,
     "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION COMPLETE.\nSECUIRTY LOCKDOWN DISENGAGED.",
     "original_fr": "{GLYPH:384}Enregistrement de l'administrateur terminé...\nDéverrouillage des portes.",
-    "translation": ""
+    "translation": "{GLYPH:384} РЕГИСТРАЦИЯ АДМИНИСТРАТОРА ЗАВЕРШЕНА.\nАВАРИЙНАЯ ИЗОЛЯЦИЯ СНЯТА."
   },
   {
     "id": 95,
     "original_en": "{MARLE}: Huh? It worked!? All right!\nI guess the rest is up to them!",
     "original_fr": "{MARLE} : Hein ? Nous avons réussi. Ils devraient\npouvoir sortir maintenant. Laissons-les se\ncharger du reste !",
-    "translation": ""
+    "translation": "{MARLE}: Ой! Сработало?! Ура! Думаю, дальше они\nсправятся сами!"
   },
   {
     "id": 96,
     "original_en": "{FROG}: I must manipulate this somehow, correct?\nI fear it may be beyond my grasp.\nHmm... Mayhap if I do this...?",
     "original_fr": "{FROG} : Que dois-je faire ? Hum... Je n'y comprends\npas grand-chose. Et si j'appuyais ici...?",
-    "translation": ""
+    "translation": "{FROG}: Мне должно как-то совладать с сим\nустройством? Боюсь, сие выше моего разумения.\nХм... Быть может, если повернуть так...?"
   },
   {
     "id": 97,
     "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION COMPLETE.\nSECUIRTY LOCKDOWN DISENGAGED.",
     "original_fr": "{GLYPH:384}Enregistrement de l'administrateur terminé...\nDéverrouillage des portes.",
-    "translation": ""
+    "translation": "{GLYPH:384} РЕГИСТРАЦИЯ АДМИНИСТРАТОРА ЗАВЕРШЕНА.\nАВАРИЙНАЯ ИЗОЛЯЦИЯ СНЯТА."
   },
   {
     "id": 98,
     "original_en": "{FROG}: Ah, success!\nAnd it seems our work is now done.\nThe rest is on their shoulders.",
     "original_fr": "{FROG} : Oh, ça a fonctionné ! Nous avons accompli\nnotre t{TAG:4A}che. Laissons-les se charger du reste !",
-    "translation": ""
+    "translation": "{FROG}: Получилось! Похоже, наш долг исполнен.\nОстальное ложится на их плечи."
   },
   {
     "id": 99,
     "original_en": "{AYLA}: No understand.\nBut {AYLA} no lose!\nGrr...!",
     "original_fr": "{AYLA} : {AYLA} pas comprendre machines.\nBobonga ! {AYLA} appuyer sur boutons !",
-    "translation": ""
+    "translation": "{AYLA}: Не понимать. Но {AYLA} не сдаваться!\nГр-р-р...!"
   },
   {
     "id": 100,
     "original_en": "{GLYPH:384}\nADMINISTRATOR REGISTRATION COMPLETE.\nSECUIRTY LOCKDOWN DISENGAGED.",
     "original_fr": "{GLYPH:384}Enregistrement de l'administrateur terminé...\nDéverrouillage des portes.",
-    "translation": ""
+    "translation": "{GLYPH:384} РЕГИСТРАЦИЯ АДМИНИСТРАТОРА ЗАВЕРШЕНА.\nАВАРИЙНАЯ ИЗОЛЯЦИЯ СНЯТА."
   },
   {
     "id": 101,
     "original_en": "{AYLA}: Oh! Good thing!\nNo fight {AYLA}!",
     "original_fr": "{AYLA} : {AYLA} réussir ! Maintenant, amis\npouvoir continuer !",
-    "translation": ""
+    "translation": "{AYLA}: О! Хорошая штука! Не драться с {AYLA}!"
   },
   {
     "id": 102,
     "original_en": "{GLYPH:384}\nMwa ha ha ha ha!\nStay right where you are!",
     "original_fr": "{GLYPH:384}Mouah, ha, ha, ha, ha !\nAttendez !",
-    "translation": ""
+    "translation": "{GLYPH:384} Муа-ха-ха-ха-ха! Стоять на месте!"
   },
   {
     "id": 103,
     "original_en": "{FROG}: You're...",
     "original_fr": "{FROG} : Mais c'est...",
-    "translation": ""
+    "translation": "{FROG}: Ты же..."
   },
   {
     "id": 104,
     "original_en": "{ROBO}: You are...",
     "original_fr": "{ROBO} : Mais c'est...",
-    "translation": ""
+    "translation": "{ROBO}: Вы..."
   },
   {
     "id": 105,
     "original_en": "{AYLA}: You...",
     "original_fr": "{AYLA} : ...!!",
-    "translation": ""
+    "translation": "{AYLA}: Ты..."
   },
   {
     "id": 106,
     "original_en": "{MAGUS}: You...",
     "original_fr": "{MAGUS} : Ne me dites pas que...",
-    "translation": ""
+    "translation": "{MAGUS}: Ты..."
   },
   {
     "id": 107,
     "original_en": "{MARLE}: You're...",
     "original_fr": "{MARLE} : Mais c'est...",
-    "translation": ""
+    "translation": "{MARLE}: Ты же..."
   },
   {
     "id": 108,
     "original_en": "{LUCCA}: Dalton!\nYou survived!",
     "original_fr": "{LUCCA} : Dalton ! Tu as survécu !",
-    "translation": ""
+    "translation": "{LUCCA}: Далтон! Ты выжил?!"
   },
   {
     "id": 109,
     "original_en": "{MARLE}: Dalton!\nYou're still alive!",
     "original_fr": "{MARLE} : Dalton ! Tu es encore en vie !",
-    "translation": ""
+    "translation": "{MARLE}: Далтон! Ты всё ещё жив?!"
   },
   {
     "id": 110,
     "original_en": "{MAGUS}: Dalton!\nSo, you still live.",
     "original_fr": "{MAGUS} : Dalton ! Tu es toujours vivant...?",
-    "translation": ""
+    "translation": "{MAGUS}: Далтон... Значит, ты ещё жив."
   },
   {
     "id": 111,
     "original_en": "{AYLA}: Dalton!\nDalton not die?",
     "original_fr": "{AYLA} : Dalton ! Pas être mort ?",
-    "translation": ""
+    "translation": "{AYLA}: Далтон! Далтон не умереть?"
   },
   {
     "id": 112,
     "original_en": "{ROBO}: Dalton!\nYou are still alive.",
     "original_fr": "{ROBO} : Dalton ! Tu es donc encore en vie.",
-    "translation": ""
+    "translation": "{ROBO}: Далтон! Вы всё ещё функционируете."
   },
   {
     "id": 113,
     "original_en": "Dalton: It's been quite some time, hasn't it?\nDid I startle you with my brilliant reappearance?",
     "original_fr": "Dalton : Il y a fort longtemps que nous ne nous sommes\npas vus !  Alors, est-ce que ma magnifique résurrection\nvous surprend ?",
-    "translation": ""
+    "translation": "Далтон: Давненько не виделись, а? Что,\nостолбенели от моего блестящего появления?"
   },
   {
     "id": 114,
     "original_en": "Dalton: Not even a little!?\nWell, who asked you?",
     "original_fr": "Dalton : ...\nApparemment pas plus que ça, hein ? Vous êtes toujours\naussi rabat-joie !",
-    "translation": ""
+    "translation": "Далтон: Что, ни капельки?! Да кто вообще вас\nспрашивал?!"
   },
   {
     "id": 115,
     "original_en": "Dalton: If it weren't for you, I'd have been the ruler\nof an age all my own!{WAIT_KEY}\nYou robbed me of everything I'd worked so hard for!\nMy wealth, my home, my loyal underlings...\nYou took it all away!\nIt's unforgivable!{WAIT_KEY}\nSo come on! Have a taste of the suffering I've\nendured because of you!",
     "original_fr": "Dalton : Sans vous, j'aurais pu régner sur le monde\nentier !{WAIT_KEY}\nMais vous m'avez dépouillé de tout : ma position,\nma fortune et mon royaume !{WAIT_KEY}\nJamais je ne vous le pardonnerai ! Je vais vous faire\npartager ma souffrance !",
-    "translation": ""
+    "translation": "Далтон: Если бы не вы, я стал бы владыкой\nсобственной эпохи!{WAIT_KEY}\nВы отняли у меня всё, что я нажил непосильным\nтрудом! Моё богатство, мой дворец, моих верных\nслуг... Вы всё отняли! Этому нет прощения!{WAIT_KEY}\nНу давайте же! Изведайте те страдания, что я\nпретерпел из-за вас!"
   },
   {
     "id": 116,
     "original_en": "Dalton: Hmph, I think that's enough for today.\nBut don't you dare think this is settled!\nJust you wait, {CRONO}!{WAIT_KEY}\nI'll raise the greatest army the world has ever seen in\nPorre, and use it to wipe your pitiful little kingdom off\nthe map!",
     "original_fr": "Dalton : Hum, ça suffit pour aujourd'hui, mais n'allez pas\npenser que ça se terminera ainsi !{WAIT_KEY}\nJe formerai la grande armée de Palpori et un jour, je\ndétruirai votre royaume ! Ne l'oublie pas, {CRONO} !",
-    "translation": ""
+    "translation": "Далтон: Хмф, на сегодня с вас хватит. Но даже не\nдумайте, что мы в расчёте! Ты ещё пожалеешь,\n{CRONO}!{WAIT_KEY}\nЯ создам в Порре величайшую армию в истории и\nсотру ваше жалкое королевство с лица земли!"
   },
   {
     "id": 117,
     "original_en": "Dalton: Hmph, I think that's enough for today.\nBut don't you dare think this is settled!\nJust you wait!{WAIT_KEY}\nI'll raise the greatest army the world has ever seen in\nPorre, and use it to wipe your pitiful little kingdom off\nthe map!",
     "original_fr": "Dalton : Hum, ça suffit pour aujourd'hui, mais n'allez pas\npenser que ça se terminera ainsi !{WAIT_KEY}\nJe formerai la grande armée de Palpori et un jour,\nje détruirai votre royaume ! Ne l'oubliez pas !",
-    "translation": ""
+    "translation": "Далтон: Хмф, на сегодня с вас хватит. Но даже не\nдумайте, что мы в расчёте! Погодите у меня!{WAIT_KEY}\nЯ создам в Порре величайшую армию в истории и\nсотру ваше жалкое королевство с лица земли!"
   },
   {
     "id": 118,
     "original_en": "{GLYPH:384}\nHeh heh heh...",
     "original_fr": "{GLYPH:384}\nHo, ho, ho, ho...",
-    "translation": ""
+    "translation": "{GLYPH:384} Хе-хе-хе..."
   },
   {
     "id": 119,
     "original_en": "{GLYPH:384}\nAh hah hah hah hah!",
     "original_fr": "{GLYPH:384}\nHa, ha, ha, ha, ha, ha !",
-    "translation": ""
+    "translation": "{GLYPH:384} А-ха-ха-ха-ха!"
   },
   {
     "id": 120,
     "original_en": "{AYLA}: {AYLA} no lose!",
     "original_fr": "{AYLA} : {AYLA} pas perdre !",
-    "translation": ""
+    "translation": "{AYLA}: {AYLA} не проиграет!"
   },
   {
     "id": 121,
     "original_en": "{MAGUS}: The dog yelps.",
     "original_fr": "{MAGUS} : Qu'il aboie, peu m'importe...",
-    "translation": ""
+    "translation": "{MAGUS}: Тявканье побитого пса."
   },
   {
     "id": 122,
     "original_en": "{MARLE}: You won't touch Guardia.\nNot if I have anything to say about it!",
     "original_fr": "{MARLE} : Je ne laisserai pas quelqu'un comme toi\nenvahir mon royaume !",
-    "translation": ""
+    "translation": "{MARLE}: Ты пальцем не тронешь Гардию! Я ни за что\nэтого не допущу!"
   },
   {
     "id": 123,
     "original_en": "{LUCCA}: You'll never be tough enough to take on\nGuardia. Not in a million years!",
     "original_fr": "{LUCCA} : Tu n'arriveras jamais {TAG:3C} nous vaincre !",
-    "translation": ""
+    "translation": "{LUCCA}: Кишка у тебя тонка тягаться с Гардией! Ни\nв жизнь у тебя ничего не выйдет!"
   },
   {
     "id": 124,
     "original_en": "{FROG}: Should such a day come, we shall be there\nto stop you!",
     "original_fr": "{FROG} : Et quand tu essaieras, nous te vaincrons\nune fois de plus !",
-    "translation": ""
+    "translation": "{FROG}: Коли наступит сей день, мы встанем на\nтвоём пути и сокрушим тебя!"
   },
   {
     "id": 125,
     "original_en": "{MARLE}: I feel someone calling me.\nI...I have to go.",
     "original_fr": "{MARLE} : On dirait que quelqu'un m'appelle...\nJe dois y aller...",
-    "translation": ""
+    "translation": "{MARLE}: Я чувствую, что кто-то зовёт меня. Мне...\nмне нужно идти."
   },
   {
     "id": 126,
     "original_en": "{AYLA}: What wrong, {CRONO}?",
     "original_fr": "{AYLA} : {GLYPH:392} ?",
-    "translation": ""
+    "translation": "{AYLA}: Что такое, {CRONO}?"
   },
   {
     "id": 127,
     "original_en": "{ROBO}: Sir {CRONO}, is something troubling you?",
     "original_fr": "{ROBO} : Qu'y a-t-il, {CRONO} ?",
-    "translation": ""
+    "translation": "{ROBO}: Сэр {CRONO}, вас что-то тревожит?"
   },
   {
     "id": 128,
     "original_en": "{FROG}: What is it, {CRONO}?",
     "original_fr": "{FROG} : Qu'y a-t-il, {CRONO} ?",
-    "translation": ""
+    "translation": "{FROG}: Что с тобой, {CRONO}?"
   },
   {
     "id": 129,
     "original_en": "{LUCCA}: Is something wrong, {CRONO}?",
     "original_fr": "{LUCCA} : Qu'y a-t-il, {CRONO} ?",
-    "translation": ""
+    "translation": "{LUCCA}: Что-то не так, {CRONO}?"
   },
   {
     "id": 130,
     "original_en": "{MARLE}: What's the matter, {CRONO}?",
     "original_fr": "{MARLE} : Qu'y a-t-il, {CRONO} ?",
-    "translation": ""
+    "translation": "{MARLE}: Что случилось, {CRONO}?"
   },
   {
     "id": 131,
     "original_en": "{MARLE}: You feel like someone's...calling you?",
     "original_fr": "{MARLE} : Quelque chose t'appelle ?",
-    "translation": ""
+    "translation": "{MARLE}: Тебе кажется, будто кто-то... зовёт тебя?"
   },
   {
     "id": 132,
     "original_en": "{LUCCA}: Someone's...calling to you?",
     "original_fr": "{LUCCA} : Quelque chose t'appelle ?",
-    "translation": ""
+    "translation": "{LUCCA}: Тебя кто-то... зовёт?"
   },
   {
     "id": 133,
     "original_en": "{FROG}: Something beckons you?",
     "original_fr": "{FROG} : Tu dis que quelque chose t'appelle...?",
-    "translation": ""
+    "translation": "{FROG}: Тебя что-то манит к себе?"
   },
   {
     "id": 134,
     "original_en": "{ROBO}: Something is calling you?",
     "original_fr": "{ROBO} : Quelque chose t'appelle ?",
-    "translation": ""
+    "translation": "{ROBO}: Вас что-то призывает?"
   },
   {
     "id": 135,
     "original_en": "{AYLA}: Someone call {CRONO}?",
     "original_fr": "{AYLA} : Quelque chose appeler {GLYPH:392} ?",
-    "translation": ""
+    "translation": "{AYLA}: Кто-то звать {CRONO}?"
   },
   {
     "id": 136,
     "original_en": "{MARLE}: No... All I can see are memories\nof the times I spent with {CRONO}.\nI can't...I can't go on like this!\nIt's too much to take.",
     "original_fr": "{MARLE} : Que... Pourquoi...? Mes souvenirs de\n{CRONO} me submergent ! Non ! Je ne peux pas\nle supporter !",
-    "translation": ""
+    "translation": "{MARLE}: Нет... Перед глазами лишь воспоминания о\nвремени, что я провела с {CRONO}. Я больше не могу\nтак... Это выше моих сил!"
   },
   {
     "id": 137,
     "original_en": "{LUCCA}: All my memories of {CRONO} just\nkeep flashing by for some reason. Oh, {CRONO}!\nI can't take this. Can we leave?",
     "original_fr": "{LUCCA} : Soudainement, mes souvenirs de\n{CRONO} me reviennent {TAG:3C} l'esprit... {CRONO} !\nNon ! Je ne peux pas le supporter !",
-    "translation": ""
+    "translation": "{LUCCA}: Воспоминания о {CRONO} вспыхивают в голове\nодно за другим... Ох, {CRONO}! Я так больше не могу.\nПожалуйста, уйдём отсюда!"
   },
   {
     "id": 138,
     "original_en": "{AYLA}: {GLYPH:392}...\n{AYLA} head just think {CRONO}.\nNo can stop!\nOh, no...",
     "original_fr": "{AYLA} : Souvenirs de {GLYPH:392}... revenir soudain\n{TAG:3C} {AYLA}... {GLYPH:392} ! {AYLA} pas pouvoir\nsupporter !",
-    "translation": ""
+    "translation": "{AYLA}: {GLYPH:392}... В голове {AYLA} только мысли о {CRONO}.\nНе могу остановить! Ох, нет..."
   },
   {
     "id": 139,
     "original_en": "{FROG}: I...cannot be here.\nAll my memories of {CRONO} keep rushing back.\nIt's too much to bear.\nLet us go back.",
     "original_fr": "{FROG} : Sortons... de cet endroit. Mes souvenirs de\n{CRONO} me reviennent {TAG:3C} l'esprit de leur propre gré...\nJe ne peux pas le supporter ! Partons.",
-    "translation": ""
+    "translation": "{FROG}: Я... не могу быть здесь. Воспоминания о\n{CRONO} нахлынули с новой силой. Тяжко мне нести\nсие бремя. Вернёмся назад."
   },
   {
     "id": 140,
     "original_en": "{ROBO}: We must go back. My memory banks are\nbecoming overloaded with memories of {CRONO}.\nI am afraid I may go haywire at this rate.",
     "original_fr": "{ROBO} : Mes souvenirs de {CRONO}...\nenvahissent ma mémoire vive...{WAIT_KEY}\nIl y en a trop... Il semble que les données vont se\ncorrompre. Partons.",
-    "translation": ""
+    "translation": "{ROBO}: Нам необходимо вернуться. Мои блоки\nпамяти перегружены данными о {CRONO}. Опасаюсь\nкритического сбоя в системе."
   },
   {
     "id": 141,
     "original_en": "{LUCCA}: Strange...\nI feel like something's tugging me forward.\nI...I have to go.",
     "original_fr": "{LUCCA} : On dirait que je suis attirée par quelque\nchose... Je dois y aller.",
-    "translation": ""
+    "translation": "{LUCCA}: Странно... Чувствую, будто меня тянет\nвперёд. Мне... мне нужно идти."
   },
   {
     "id": 142,
     "original_en": "{MAGUS}: This is—but, no!",
     "original_fr": "{MAGUS} : Impossible...",
-    "translation": ""
+    "translation": "{MAGUS}: Это же... Не может быть!"
   },
   {
     "id": 143,
     "original_en": "{FROG}: What trickery is this?",
     "original_fr": "{FROG} : Quoi ?!",
-    "translation": ""
+    "translation": "{FROG}: Что за дьявольское наваждение?!"
   },
   {
     "id": 144,
     "original_en": "{ROBO}: This is not possible!",
     "original_fr": "{ROBO} : Une telle chose est impossible.",
-    "translation": ""
+    "translation": "{ROBO}: Это невозможно!"
   },
   {
     "id": 145,
     "original_en": "{AYLA}: {AYLA} no understand!",
     "original_fr": "{AYLA} : Quoi ?!",
-    "translation": ""
+    "translation": "{AYLA}: {AYLA} не понимать!"
   },
   {
     "id": 146,
     "original_en": "{LUCCA}: What's going on?",
     "original_fr": "{LUCCA} : Impossible...",
-    "translation": ""
+    "translation": "{LUCCA}: Да что здесь происходит?!"
   },
   {
     "id": 147,
     "original_en": "{MARLE}: What's happening?",
     "original_fr": "{MARLE} : Impossible...",
-    "translation": ""
+    "translation": "{MARLE}: Что происходит?!"
   },
   {
     "id": 148,
     "original_en": "{LUCCA}: {MARLE}?\nWhy are there two of you!?",
     "original_fr": "{LUCCA} : {MARLE}  ! C'est ton sosie !",
-    "translation": ""
+    "translation": "{LUCCA}: {MARLE}? Почему вас двое?!"
   },
   {
     "id": 149,
     "original_en": "{AYLA}: Two {MARLE}!?",
     "original_fr": "{AYLA} : Deux {MARLE} ?!",
-    "translation": ""
+    "translation": "{AYLA}: Две {MARLE}?!"
   },
   {
     "id": 150,
     "original_en": "{ROBO}: I am seeing {MARLE} twice!",
     "original_fr": "{ROBO} : Une autre {MARLE} !",
-    "translation": ""
+    "translation": "{ROBO}: Мои сенсоры фиксируют двух {MARLE}!"
   },
   {
     "id": 151,
     "original_en": "{FROG}: There is another {MARLE}!",
     "original_fr": "{FROG} : Il y a une autre {MARLE} !",
-    "translation": ""
+    "translation": "{FROG}: Ещё одна {MARLE}!"
   },
   {
     "id": 152,
     "original_en": "{MAGUS}: Two of the same {MARLE}?",
     "original_fr": "{MAGUS} : C'est un double parfait...",
-    "translation": ""
+    "translation": "{MAGUS}: Две одинаковых {MARLE}?"
   },
   {
     "id": 153,
     "original_en": "{MARLE}: Who are you?\nAre you...me?",
     "original_fr": "{MARLE} : Qui es-tu ? Tu es... moi ?",
-    "translation": ""
+    "translation": "{MARLE}: Кто ты? Ты... это я?"
   },
   {
     "id": 154,
     "original_en": "{GLYPH:384}\nOne of me is all this world needs.\nBegone, for all eternity!",
     "original_fr": "{GLYPH:384}Ce monde n'a besoin que d'un seul moi.\nDisparais !",
-    "translation": ""
+    "translation": "{GLYPH:384} Этому миру нужна лишь одна я. Сгинь в небытие\nна веки вечные!"
   },
   {
     "id": 155,
     "original_en": "{MARLE}: I guess...I guess I have to fight you.\nI don't want to be gone for all eternity!",
     "original_fr": "{MARLE} : ... Nous n'avons pas le choix. Nous devons\nnous battre. Il n'est pas question que je perde !",
-    "translation": ""
+    "translation": "{MARLE}: Похоже... придётся сразиться с тобой. Я не\nсобираюсь сгинуть в небытии!"
   },
   {
     "id": 156,
     "original_en": "{GLYPH:384}\n{MARLE}'s latent powers awakened.\nSpeed, Accuracy, and Stamina improved!",
     "original_fr": "{GLYPH:384}Les aptitudes latentes de\n{MARLE} s'éveillent...\nSa rapidité, sa précision et\nson endurance augmentent !",
-    "translation": ""
+    "translation": "{GLYPH:384} Скрытые силы {MARLE} пробудились! Скорость,\nМеткость и Выносливость возросли!"
   },
   {
     "id": 157,
     "original_en": "{MARLE}: Another {CRONO}!?",
     "original_fr": "{MARLE} : Il y a deux {CRONO} ?!",
-    "translation": ""
+    "translation": "{MARLE}: Ещё один {CRONO}?!"
   },
   {
     "id": 158,
     "original_en": "{LUCCA}: {CRONO}?\nTwo of him!?",
     "original_fr": "{LUCCA} : Il y a... deux {CRONO} ?!",
-    "translation": ""
+    "translation": "{LUCCA}: {CRONO}? Их двое?!"
   },
   {
     "id": 159,
     "original_en": "{AYLA}: Two {CRONO}!?",
     "original_fr": "{AYLA} : Deux {GLYPH:392} ?!",
-    "translation": ""
+    "translation": "{AYLA}: Две {CRONO}?!"
   },
   {
     "id": 160,
     "original_en": "{ROBO}: There is another {CRONO}!",
     "original_fr": "{ROBO} : Il y a deux {CRONO} !",
-    "translation": ""
+    "translation": "{ROBO}: Обнаружен второй {CRONO}!"
   },
   {
     "id": 161,
     "original_en": "{FROG}: A second {CRONO}?",
     "original_fr": "{FROG} : Un deuxième {CRONO} !",
-    "translation": ""
+    "translation": "{FROG}: Второй {CRONO}?!"
   },
   {
     "id": 162,
     "original_en": "{AYLA}: You not {CRONO}!\n{CRONO} no do like that!\nNever do!",
     "original_fr": "{AYLA} : Pas être {GLYPH:392} ! {GLYPH:392} jamais\nvouloir attaquer {AYLA} !",
-    "translation": ""
+    "translation": "{AYLA}: Ты не {CRONO}! {CRONO} так не поступать!\nНикогда!"
   },
   {
     "id": 163,
     "original_en": "{MARLE}: Who are you!?\nWhy do you want to fight us?",
     "original_fr": "{MARLE} : Qui es-tu donc ?! Pourquoi veux-tu te\nbattre contre nous ?!",
-    "translation": ""
+    "translation": "{MARLE}: Кто ты такой?! Зачем ты нападаешь на\nнас?!"
   },
   {
     "id": 164,
     "original_en": "{LUCCA}: Don't think we'll go easy on you in a fight\njust because you're {CRONO}!",
     "original_fr": "{LUCCA} : Peu importe que tu aies l'apparence de\n{CRONO}, si tu nous attaques, tu vas voir de quel\nbois je me chauffe !",
-    "translation": ""
+    "translation": "{LUCCA}: Не думай, что мы будем поддаваться в\nбою только потому, что ты выглядишь как {CRONO}!"
   },
   {
     "id": 165,
     "original_en": "{ROBO}: Identity analysis complete.\nThis is a different {CRONO} from the one we know.\nHostility detected.",
     "original_fr": "{ROBO} : Analyse terminée. Il semble que tu es\ndifférent du {CRONO} que nous connaissons.\nTu es notre ennemi.",
-    "translation": ""
+    "translation": "{ROBO}: Анализ идентичности завершён. Данный\nсубъект отличен от нашего {CRONO}. Зафиксирована\nвраждебность!"
   },
   {
     "id": 166,
     "original_en": "{FROG}: Whether you are a true {CRONO} or no,\nwe'll not let you harm ours!",
     "original_fr": "{FROG} : Même si tu es le vrai {CRONO}, nous ne\nte laisserons pas faire du mal {TAG:3C} notre {CRONO} !",
-    "translation": ""
+    "translation": "{FROG}: Настоящий ты {CRONO} или нет, мы не\nпозволим тебе причинить вред нашему другу!"
   },
   {
     "id": 167,
     "original_en": "{MAGUS}: It is of no consequence to me whether you\nare {CRONO} or a fake. Raise your weapon against\nme, and you sign away your life.",
     "original_fr": "{MAGUS} : Peu m'importe que tu sois le vrai ou le\nfaux, si tu oses te dresser contre moi, je vais\nt'éliminer.",
-    "translation": ""
+    "translation": "{MAGUS}: Мне всё равно, {CRONO} ты или фальшивка.\nОбнажи против меня клинок — и ты распрощаешься\nс жизнью."
   },
   {
     "id": 168,
     "original_en": "{GLYPH:384}\n{CRONO}'s latent powers awakened.\nSpeed, Strength, and Accuracy improved!",
     "original_fr": "{GLYPH:384}Les aptitudes latentes de\n{CRONO} s'éveillent...\nSa rapidité, sa force et\nsa précision augmentent !",
-    "translation": ""
+    "translation": "{GLYPH:384} Скрытые силы {CRONO} пробудились! Скорость,\nСила и Меткость возросли!"
   },
   {
     "id": 169,
     "original_en": "{MARLE}: {LUCCA}?\nTwo of them!?",
     "original_fr": "{MARLE} : Une autre {LUCCA} ?!",
-    "translation": ""
+    "translation": "{MARLE}: {LUCCA}? Их двое?!"
   },
   {
     "id": 170,
     "original_en": "{AYLA}: Two {LUCCA}!?",
     "original_fr": "{AYLA} : Deux {LUCCA} ?!",
-    "translation": ""
+    "translation": "{AYLA}: Две {LUCCA}?!"
   },
   {
     "id": 171,
     "original_en": "{ROBO}: {LUCCA} and...{LUCCA}?\nMy visual sensors must be producing duplicate images!",
     "original_fr": "{ROBO} : Cette personne est identique {TAG:3C}\n{LUCCA}...!",
-    "translation": ""
+    "translation": "{ROBO}: {LUCCA} и... {LUCCA}? Мои зрительные сенсоры\nдвоят изображение!"
   },
   {
     "id": 172,
     "original_en": "{FROG}: Another {LUCCA}!",
     "original_fr": "{FROG} : Une autre {LUCCA} !",
-    "translation": ""
+    "translation": "{FROG}: Ещё одна {LUCCA}!"
   },
   {
     "id": 173,
     "original_en": "{MAGUS}: Two of the same person?",
     "original_fr": "{MAGUS} : Elle pourrait être sa s{TAG:61}ur jumelle...",
-    "translation": ""
+    "translation": "{MAGUS}: Два одинаковых человека?"
   },
   {
     "id": 174,
     "original_en": "{LUCCA}: Who...who are you?\nAre you really me?",
     "original_fr": "{LUCCA} : Qui es-tu ? Es-tu vraiment moi ?",
-    "translation": ""
+    "translation": "{LUCCA}: Кто... кто ты такая? Неужели ты и вправду\n— я?"
   },
   {
     "id": 175,
     "original_en": "{GLYPH:384}\nYou are all that stands in the way...\nYou must die!",
     "original_fr": "{GLYPH:384}Si seulement tu n'existais pas...\nDisparais !",
-    "translation": ""
+    "translation": "{GLYPH:384} Ты — единственная преграда на пути... Ты\nдолжна умереть!"
   },
   {
     "id": 176,
     "original_en": "{LUCCA}: So much for getting along...\nLooks like we have some irreconcilable differences\nto take care of, doesn't it?",
     "original_fr": "{LUCCA} : On dirait que nous ne sommes pas faites\npour nous entendre. Je n'en ai pas vraiment envie,\nmais je vais te vaincre !",
-    "translation": ""
+    "translation": "{LUCCA}: Ну вот, мирно договориться не выйдет...\nПохоже, у нас возникли непримиримые разногласия,\nкоторые пора разрешить!"
   },
   {
     "id": 177,
     "original_en": "{GLYPH:384}\n{LUCCA}'s latent powers awakened.\nSpeed, Magic, and Stamina improved!",
     "original_fr": "{GLYPH:384}Les aptitudes latentes de\n{LUCCA} s'éveillent...\nSa rapidité, sa magie et\nson endurance augmentent !",
-    "translation": ""
+    "translation": "{GLYPH:384} Скрытые силы {LUCCA} пробудились! Скорость,\nМагия и Выносливость возросли!"
   },
   {
     "id": 178,
     "original_en": "Dalton: Farewell!",
     "original_fr": "Dalton : Adieu !",
-    "translation": ""
+    "translation": "Далтон: Бывайте!"
   },
   {
     "id": 179,
     "original_en": "{GLYPH:386}: ...",
     "original_fr": "{GLYPH:386} : ...",
-    "translation": ""
+    "translation": "{GLYPH:386}: ..."
   },
   {
     "id": 180,
     "original_en": "{GLYPH:387}: ...",
     "original_fr": "{GLYPH:387} : ...",
-    "translation": ""
+    "translation": "{GLYPH:387}: ..."
   },
   {
     "id": 181,
     "original_en": "{LUCCA}: Oh, I can't believe you!\nYou can't do anything without me, can you?",
     "original_fr": "{LUCCA} : Quelle honte ! Que feriez-vous sans moi,\nhein ?",
-    "translation": ""
+    "translation": "{LUCCA}: Ох, ну что за напасть! Вы и шагу без меня\nступить не можете, да?"
   },
   {
     "id": 182,

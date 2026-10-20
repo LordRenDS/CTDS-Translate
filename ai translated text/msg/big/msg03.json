@@ -33,7 +33,7 @@
     "id": 5,
     "original_en": "Do you like plants, traveler?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Aimez-vous les plantes, voyageurs ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Любишь ли ты растения, путник? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Любишь ли ты растения, путник?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "id": 8,
     "original_en": "Oh, what shall I do?\n{TAG:38}{TAG:38}{GLYPH:394}Burn it.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Grow it in secret.{GLYPH:397}",
     "original_fr": "Que devrais-je faire ?\n       {GLYPH:394}Le br{TAG:63}ler !{GLYPH:395}\n       {GLYPH:396}Le planter quelque part{GLYPH:402}\n       {GLYPH:403}en secret...{GLYPH:397}",
-    "translation": "Ох, что же мне делать? {TAG:38}{TAG:38}{GLYPH:394}Сжечь его.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Вырастить\nтайно.{GLYPH:397}"
+    "translation": "Ох, что же мне делать?\n{TAG:38}{TAG:38}{GLYPH:394}Сжечь его.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Вырастить тайно.{GLYPH:397}"
   },
   {
     "id": 9,
@@ -195,7 +195,7 @@
     "id": 32,
     "original_en": "Oh, itchy...\nCould you...scratch my back?\n{TAG:38}{TAG:38}{GLYPH:394}Sure!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No way!{GLYPH:397}",
     "original_fr": "Pourriez-vous...\nPourriez-vous me gratter le dos ?\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
-    "translation": "Ох, как чешется... Не могли бы вы... почесать мне\nспинку? {TAG:38}{TAG:38}{GLYPH:394}Конечно!{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Ни за что!{GLYPH:397}"
+    "translation": "Ох, как чешется... Не могли бы вы... почесать мне\nспинку?\n{TAG:38}{TAG:38}{GLYPH:394}Конечно!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ни за что!{GLYPH:397}"
   },
   {
     "id": 33,
@@ -255,7 +255,7 @@
     "id": 42,
     "original_en": "The Mammon Machine?\nYou came to see it?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "ätes-vous venus admirer le réceptacle sacré,\nvous aussi ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Машина Маммона? Вы пришли взглянуть на неё?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Машина Маммона? Вы\nпришли взглянуть на неё?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 43,

@@ -195,13 +195,13 @@
     "id": 32,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Up.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Down.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Cancel.{GLYPH:399}",
     "original_fr": "       {GLYPH:394}Haut{GLYPH:395}\n       {GLYPH:396}Bas{GLYPH:397}\n       {GLYPH:398}Annuler{GLYPH:399}",
-    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Вверх.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Вниз.{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Отмена.{GLYPH:399}"
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Вверх.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Вниз.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Отмена.{GLYPH:399}"
   },
   {
     "id": 33,
     "original_en": "{GLYPH:384}\nLeft - Laboratory\nRight - Factory{WAIT_KEY}{GLYPH:384}\nDANGER - RISK OF DEATH\nDeactivation of factory conveyor belt forbidden.\nStopping the belt will activate the security\nsystem, which could result in loss of life.",
     "original_fr": "{GLYPH:144}{TAG:38}{TAG:38}{TAG:7A}Laboratoire\n{TAG:38}{TAG:38}{TAG:38}Usine{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:7A}♪{WAIT_KEY}\nAttention de ne pas arrêter le tapis roulant de l'usine.\nCeci activerait les mesures de sécurité et pourrait être\ndangereux.",
-    "translation": "{GLYPH:384} Налево — Лаборатория Направо — Завод{WAIT_KEY}{GLYPH:384}\nОПАСНОСТЬ ДЛЯ ЖИЗНИ Отключение конвейера\nзавода запрещено. Остановка активирует\nохранную систему, что может привести к гибели."
+    "translation": "{GLYPH:384} Налево — Лаборатория Направо — Завод{WAIT_KEY}{GLYPH:384} ОПАСНОСТЬ! Отключение конвейера завода\nзапрещено. Остановка активирует охрану,\nчто может привести к гибели."
   },
   {
     "id": 34,

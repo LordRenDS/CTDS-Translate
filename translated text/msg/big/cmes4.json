@@ -3,769 +3,769 @@
     "id": 0,
     "original_en": "{MARLE}: Look at this sunlight!\nThis must be the sun's favorite place.",
     "original_fr": "{MARLE} : Regardez ! C'est comme si le soleil venait\nse nicher dans cette grotte !",
-    "translation": ""
+    "translation": "{MARLE}: Взгляните на этот солнечный свет! Должно\nбыть, это любимое место солнца."
   },
   {
     "id": 1,
     "original_en": "{LUCCA}: It's never dark in here.",
     "original_fr": "{LUCCA} : C'est étrange, on dirait que le soleil brille\nen permanence ici, même la nuit.",
-    "translation": ""
+    "translation": "{LUCCA}: Здесь никогда не бывает темно."
   },
   {
     "id": 2,
     "original_en": "{ROBO}: Sunlight reaches this location\n24 hours per day.",
     "original_fr": "{ROBO} : C'est donc ici que le soleil brille jour et\nnuit ?",
-    "translation": ""
+    "translation": "{ROBO}: Солнечный свет озаряет это место 24 часа\nв сутки."
   },
   {
     "id": 3,
     "original_en": "{FROG}: This must be the spot.\nThe sun's light is warm upon it.",
     "original_fr": "{FROG} : Ici...? Il fait chaud, c'est certain.",
-    "translation": ""
+    "translation": "{FROG}: Должно быть, это то самое место.\nСолнечный свет здесь ласков и тёпл."
   },
   {
     "id": 4,
     "original_en": "{AYLA}: Oh, warm!\nGood sun!",
     "original_fr": "{AYLA} : Oh, faire chaud ! Beaucoup de soleil !",
-    "translation": ""
+    "translation": "{AYLA}: О, тепло! Хорошо солнце!"
   },
   {
     "id": 5,
     "original_en": "{MAGUS}: The Sun Shrine...\nIt's said the sun has not set in this place\nsince it first rose.",
     "original_fr": "{MAGUS} : Le berceau de la lumière... L{TAG:3C} où le soleil ne\ncesse de briller depuis des millénaires...",
-    "translation": ""
+    "translation": "{MAGUS}: Святилище Солнца... Говорят, с самого\nсотворения мира солнце здесь ни разу не заходило."
   },
   {
     "id": 6,
     "original_en": "Place the Moon Stone here?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous déposer la pierre obscure ici ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Положить Лунный камень сюда?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 7,
     "original_en": "{MARLE}: Now, all that's left is a quick\nhop on the {EPOCH}!",
     "original_fr": "{MARLE} : Il ne reste plus qu'{TAG:3C} faire un bond avec le\n{EPOCH} !",
-    "translation": ""
+    "translation": "{MARLE}: Теперь осталось лишь совершить прыжок на\n{EPOCH}е!"
   },
   {
     "id": 8,
     "original_en": "{LUCCA}: Well then, back to the {EPOCH}.",
     "original_fr": "{LUCCA} : Eh bien, allons voir ce qu'il en est avec le\n{EPOCH}.",
-    "translation": ""
+    "translation": "{LUCCA}: Что ж, возвращаемся на {EPOCH}."
   },
   {
     "id": 9,
     "original_en": "{ROBO}: We should now return to my era\nin the {EPOCH}.",
     "original_fr": "{ROBO} : Retournons {TAG:3C} mon époque {TAG:3C} bord du\n{EPOCH}.",
-    "translation": ""
+    "translation": "{ROBO}: Теперь нам следует вернуться в мою эпоху\nна {EPOCH}е."
   },
   {
     "id": 10,
     "original_en": "{FROG}: And...how long must we wait now?",
     "original_fr": "{FROG} : ...\nCombien de temps devrions-nous la laisser ici ?",
-    "translation": ""
+    "translation": "{FROG}: И... сколь долго нам придётся ждать?"
   },
   {
     "id": 11,
     "original_en": "{AYLA}: ...\nNo change yet.",
     "original_fr": "{AYLA} : ...\nPas changer.",
-    "translation": ""
+    "translation": "{AYLA}: ... Пока без перемен."
   },
   {
     "id": 12,
     "original_en": "{MAGUS}: Come, let us be on our way.",
     "original_fr": "{MAGUS} : Bien... Partons.",
-    "translation": ""
+    "translation": "{MAGUS}: Пойдёмте, пора в путь."
   },
   {
     "id": 13,
     "original_en": "{LUCCA}: It's gone!\nThe Moon Stone is gone!",
     "original_fr": "{LUCCA} : Elle n'est plus l{TAG:3C} !\nLa pierre obscure a disparu !",
-    "translation": ""
+    "translation": "{LUCCA}: Пропал! Лунный камень исчез!"
   },
   {
     "id": 14,
     "original_en": "It looks like it's been gone for some time.\nLet's try another time period.",
     "original_fr": "Et on dirait que ça fait très longtemps...\nAllons vérifier {TAG:3C} une autre époque.",
-    "translation": ""
+    "translation": "Похоже, его унесли уже давненько. Давайте\nпроверим другую эпоху."
   },
   {
     "id": 15,
     "original_en": "{LUCCA}: It isn't here either.",
     "original_fr": "{LUCCA} : Elle n'est pas ici non plus...",
-    "translation": ""
+    "translation": "{LUCCA}: И здесь его тоже нет..."
   },
   {
     "id": 16,
     "original_en": "I wonder if someone from this time period\ntook it?",
     "original_fr": "Je me demande si quelqu'un de cette époque l'a\nemportée...",
-    "translation": ""
+    "translation": "Интересно, не забрал ли его кто-то из жителей этой\nэпохи?"
   },
   {
     "id": 17,
     "original_en": "{MARLE}: It's not here!\nThe Moon Stone is gone!",
     "original_fr": "{MARLE} : Elle n'est plus l{TAG:3C} !\nLa pierre obscure a disparu !",
-    "translation": ""
+    "translation": "{MARLE}: Его нет! Лунный камень пропал!"
   },
   {
     "id": 18,
     "original_en": "It looks like it's been gone for ages.\nMaybe we should try a different time period.",
     "original_fr": "Mais on dirait que ça fait très longtemps...\nAllons vérifier {TAG:3C} une autre époque.",
-    "translation": ""
+    "translation": "Похоже, его нет уже целую вечность. Стоит\nпроверить другую эпоху."
   },
   {
     "id": 19,
     "original_en": "{MARLE}: It's not here, either.",
     "original_fr": "{MARLE} : Elle n'est pas ici non plus...",
-    "translation": ""
+    "translation": "{MARLE}: И здесь его тоже нет..."
   },
   {
     "id": 20,
     "original_en": "I wonder if someone from this age took it.",
     "original_fr": "Je me demande si quelqu'un de cette époque l'a\nemportée...",
-    "translation": ""
+    "translation": "Неужели кто-то из этой эпохи унёс его?"
   },
   {
     "id": 21,
     "original_en": "{ROBO}: The Moon Stone is no longer here!",
     "original_fr": "{ROBO} : Elle a disparu ! La pierre obscure n'est\nplus ici !",
-    "translation": ""
+    "translation": "{ROBO}: Лунного камня здесь больше нет!"
   },
   {
     "id": 22,
     "original_en": "But the evidence indicates it was not taken recently.\nWe should look for it in an earlier era.",
     "original_fr": "Cependant, il semblerait qu'elle ait disparu il y a\nlongtemps. Retournons {TAG:3C} une autre époque.",
-    "translation": ""
+    "translation": "Однако данные указывают, что его забрали не\nвчера. Нам следует поискать в более ранней эпохе."
   },
   {
     "id": 23,
     "original_en": "{ROBO}: It does not appear to be here, either.",
     "original_fr": "{ROBO} : Elle n'a pas l'air d'être ici non plus.",
-    "translation": ""
+    "translation": "{ROBO}: Похоже, здесь его тоже нет."
   },
   {
     "id": 24,
     "original_en": "Perhaps someone from this era has taken it.",
     "original_fr": "Quelqu'un de cette époque l'aurait-il emportée ?",
-    "translation": ""
+    "translation": "Возможно, его взял кто-то из этой эпохи."
   },
   {
     "id": 25,
     "original_en": "{FROG}: The Moon Stone!\nIt isn't here!",
     "original_fr": "{FROG} : La pierre obscure...! Elle a disparu !",
-    "translation": ""
+    "translation": "{FROG}: Лунный камень! Его здесь нет!"
   },
   {
     "id": 26,
     "original_en": "Yet it appears it was not taken recently.\nLet us return in time.",
     "original_fr": "Mais on dirait que ça fait très longtemps...\nAllons vérifier {TAG:3C} une autre époque.",
-    "translation": ""
+    "translation": "Но судя по всему, пропал он давненько. Вернёмся\nназад во времени."
   },
   {
     "id": 27,
     "original_en": "{FROG}: Not here, either...",
     "original_fr": "{FROG} : Elle n'est pas ici non plus...",
-    "translation": ""
+    "translation": "{FROG}: И здесь нет..."
   },
   {
     "id": 28,
     "original_en": "Has someone from this time taken it?",
     "original_fr": "Quelqu'un de cette époque l'aurait-il emportée ?",
-    "translation": ""
+    "translation": "Неужто кто-то из сего времени унёс его?"
   },
   {
     "id": 29,
     "original_en": "{AYLA}: Gone...\nNo rock!",
     "original_fr": "{AYLA} : ...\nPas ici. Pierre pas ici ?",
-    "translation": ""
+    "translation": "{AYLA}: Пропал... Нет камня!"
   },
   {
     "id": 30,
     "original_en": "But dust.\nSomeone take long time ago.",
     "original_fr": "Mais beaucoup poussière... Quelqu'un prendre pierre\navant, très longtemps.",
-    "translation": ""
+    "translation": "Но пыль. Кто-то взять очень давно."
   },
   {
     "id": 31,
     "original_en": "{AYLA}: Not here, too.",
     "original_fr": "{AYLA} : Pas ici non plus.",
-    "translation": ""
+    "translation": "{AYLA}: Здесь тоже нет."
   },
   {
     "id": 32,
     "original_en": "Someone take!\nWe find!",
     "original_fr": "Quelqu'un prendre pierre ! Chercher !",
-    "translation": ""
+    "translation": "Кто-то забрать! Мы найти!"
   },
   {
     "id": 33,
     "original_en": "{MAGUS}: ...{WAIT_KEY}\nThe Moon Stone is gone.",
     "original_fr": "{MAGUS} : ...{WAIT_KEY}\nLa pierre obscure a disparu...",
-    "translation": ""
+    "translation": "{MAGUS}: ...{WAIT_KEY}\nЛунный камень пропал."
   },
   {
     "id": 34,
     "original_en": "...{WAIT_KEY}\nIt seems it's been gone for roughly 1300 years.\nLet us pay a visit to the present.",
     "original_fr": "...{WAIT_KEY}\nOn dirait qu'elle a disparu depuis des siècles.\nRetournons dans le Présent.",
-    "translation": ""
+    "translation": "...{WAIT_KEY}\nПохоже, его нет уже около 1300 лет. Навестим\nнастоящее."
   },
   {
     "id": 35,
     "original_en": "{MAGUS}: It hasn't been gone for long.\nWe'll search nearby.",
     "original_fr": "{MAGUS} : Elle était encore ici il n'y a pas si\nlongtemps. Cherchons aux alentours.",
-    "translation": ""
+    "translation": "{MAGUS}: Его забрали недавно. Поищем поблизости."
   },
   {
     "id": 36,
     "original_en": "{LUCCA}: Amazing!\nWith energy like this, I should be able\nto make a really powerful weapon.\nLet's take it back to my house!",
     "original_fr": "{LUCCA} : Extraordinaire... Avec autant d'énergie,\non pourrait créer une arme très puissante !\nAllons chez moi !",
-    "translation": ""
+    "translation": "{LUCCA}: Поразительно! С такой мощью я смогу\nсмастерить невероятно грозное оружие. Отнесём\nего ко мне домой!"
   },
   {
     "id": 37,
     "original_en": "{LUCCA}: Now this is a proper Sun Stone!\nWith energy like this, I should be able to\nmake a really powerful weapon.\nLet's take it back to my house!",
     "original_fr": "{LUCCA} : On dirait vraiment un petit soleil...\nAvec autant d'énergie, on pourrait créer une\narme très puissante ! Allons chez moi !",
-    "translation": ""
+    "translation": "{LUCCA}: Вот это настоящий Солнечный камень! С\nтакой мощью я смогу смастерить невероятно\nгрозное оружие. Отнесём его ко мне домой!"
   },
   {
     "id": 38,
     "original_en": "{MARLE}: Wow, this is amazing!\nSurely {LUCCA} can put this to good use!\nLet's show it to her!",
     "original_fr": "{MARLE} : Ouah ! Incroyable ! Je me demande ce\nque {LUCCA} pourrait fabriquer en l'utilisant...\nMontrons-lui la pierre !",
-    "translation": ""
+    "translation": "{MARLE}: Ух ты, потрясающе! {LUCCA} наверняка\nнайдёт ему применение! Пойдём покажем его ей!"
   },
   {
     "id": 39,
     "original_en": "{ROBO}: My sensors detect high energy levels.\n{LUCCA} will likely be able to use this.\nWe should show it to her.",
     "original_fr": "{ROBO} : Je détecte une énergie extraordinaire.\n{LUCCA} pourrait peut-être utiliser cette pierre.\nDemandons-lui de se joindre {TAG:3C} nous.",
-    "translation": ""
+    "translation": "{ROBO}: Мои датчики фиксируют огромную энергию.\n{LUCCA}, скорее всего, сможет её применить. Нам\nследует показать камень ей."
   },
   {
     "id": 40,
     "original_en": "{FROG}: Unbelievable!\nWhat might {LUCCA} create with it?\nShe must see this!",
     "original_fr": "{FROG} : Formidable...! {LUCCA} pourrait\npeut-être en faire quelque chose... Pourquoi ne\npas la lui montrer ?",
-    "translation": ""
+    "translation": "{FROG}: Невероятно! Что же {LUCCA} сотворит из него?\nОна непременно должна сие узреть!"
   },
   {
     "id": 41,
     "original_en": "{AYLA}: Oh! Nice sun!\n{LUCCA} maybe use?\nBring {LUCCA} here!",
     "original_fr": "{AYLA} : Ouah ! Petit soleil ! Ah, {LUCCA} pouvoir\npeut-être utiliser pierre ! Appeler {LUCCA} !",
-    "translation": ""
+    "translation": "{AYLA}: О! Красиво солнце! {LUCCA} применить\nкамень? Позвать {LUCCA} сюда!"
   },
   {
     "id": 42,
     "original_en": "{MAGUS}: The Sun Stone has regained its luster,\nit seems.{WAIT_KEY}\nBut how might we harness its energy?",
     "original_fr": "{MAGUS} : La pierre du soleil a retrouvé son éclat...{WAIT_KEY}\nCependant, comment pourrions-nous utiliser son\nénergie ?",
-    "translation": ""
+    "translation": "{MAGUS}: Похоже, Солнечный камень вновь обрёл\nбылое сияние.{WAIT_KEY}\nНо как нам обуздать его силу?"
   },
   {
     "id": 43,
     "original_en": "{ROBO}: I am...familiar with this place.{WAIT_KEY}\nPlease allow me to take the lead.",
     "original_fr": "{ROBO} : Je connais bien cet endroit.{WAIT_KEY}\nLaissez-moi passer devant.",
-    "translation": ""
+    "translation": "{ROBO}: Мне... знакомо это место.{WAIT_KEY}\nПозвольте мне пойти первым."
   },
   {
     "id": 44,
     "original_en": "Who enters my sanctum unbidden?{WAIT_KEY}\nMy, my... Welcome home, R-66Y!\nOr should I say, Prometheus?\nAnd behind you—fleshlings?{WAIT_KEY}\nI have not seen creatures of flesh for\nmany a day! Let me...welcome them.\nCome—come within! Hee hee hee...",
     "original_fr": "Qui ose essayer de pénétrer en mon sein sans y être\ninvité ?{WAIT_KEY}\nAh... Tu es rentré, R66-Y...\nOu devrais-je dire, Prométhée ?{WAIT_KEY}\nOh, tu es venu avec des êtres vivants ? Cela fait\nsi longtemps que nous n'avons pas eu leur visite...\nSoyez les bienvenus, entrez. Ho, ho, ho, ho...",
-    "translation": ""
+    "translation": "Кто дерзнул войти в мою обитель без спроса?{WAIT_KEY}\nБа... С возвращением домой, R-66Y! Или мне звать\nтебя Прометеем? А позади тебя — создания из\nплоти?{WAIT_KEY}\nКак давно я не видела существ из плоти! Позволь\nмне... поприветствовать их. Входите, входите же!\nХи-хи-хи..."
   },
   {
     "id": 45,
     "original_en": "Let's see just what capabilities they possess.",
     "original_fr": "Montrez-moi ce dont vous êtes capables.",
-    "translation": ""
+    "translation": "Посмотрим, на что они способны."
   },
   {
     "id": 46,
     "original_en": "Not bad...for humans.\nI'll be looking forward to greeting you.",
     "original_fr": "Vous avez du talent, pour des humains...\nJ'ai si h{TAG:4A}te que vous me rejoigniez...",
-    "translation": ""
+    "translation": "Недурно... для людей. С нетерпением буду ждать\nвстречи с вами."
   },
   {
     "id": 47,
     "original_en": "Three hundred years ago, the Lavos disaster brought\ndrastic and devastating change to this planet.{WAIT_KEY}\nAt its current rate of decline, humanity is doomed.\nThe disease you call despair already consumes you\nfrom within.",
     "original_fr": "Le cataclysme causé par Lavos il y a 300 ans changea\nradicalement la face de cette planète.{WAIT_KEY}\nSi la tendance se maintient, la race humaine s'éteindra\nbientôt, son c{TAG:61}ur rongé par les maux du désespoir.",
-    "translation": ""
+    "translation": "Триста лет назад катастрофа Лавоса навсегда\nизменила лик этой планеты.{WAIT_KEY}\nЧеловечество обречено. Недуг по имени отчаяние\nуже пожирает вас изнутри."
   },
   {
     "id": 48,
     "original_en": "Do you not realize? Were it not for the existence\nof you creatures, this planet would be at peace!{WAIT_KEY}\nAnd yet you struggle and fight—for what?",
     "original_fr": "N'avez-vous pas encore compris ? Sans humains, cette\nplanète serait paisible.{WAIT_KEY}\nEt pourtant, vous vous battez ? Â quelle fin ?",
-    "translation": ""
+    "translation": "Неужели вы не понимаете? Не будь вас, этих жалких\nсозданий, на планете воцарился бы вечный покой!{WAIT_KEY} И\nвсё же вы отчаянно бьётесь... Но ради чего?"
   },
   {
     "id": 49,
     "original_en": "Listen well, flawed and fragile fleshspawn.\nLavos's children will one day return to the\nstars to seek out new planets, new sources\nof sustenance.{WAIT_KEY}\nWhen that day comes, this planet will have its\nchance to heal—so long as there are no humans\nto interfere.{WAIT_KEY}\nWe robots will establish a new world order.\nA unified nation of steel, and pure logic.\nA utopia, free of sadness and suffering.{WAIT_KEY}\nEvolution has chosen us. We are the seeds of\nthe next generation.{WAIT_KEY}\nYour species is obsolete. Cease your foolish\nstruggle, and surrender yourself to the fate\nof all failed creations.",
     "original_fr": "îcoutez bien, stupides créatures fragiles et\ndéfectueuses que vous êtes...{WAIT_KEY}\nLa progéniture de Lavos retournera un jour ou l'autre\ndans l'espace, en quête d'un nouveau monde {TAG:3C}\nparasiter...{WAIT_KEY}\nLa planète se remettra, {TAG:3C} condition qu'il n'y ait plus\nd'humains...{WAIT_KEY}\nEt ainsi débutera une ère nouvelle, l'ère des robots !\nNous établirons un monde de métal, un monde idéal\noù la haine et la tristesse n'existent pas.{WAIT_KEY}\nNous serons la nouvelle race qui remplacera les humains.{WAIT_KEY}\nCessez de vous battre en vain. Abandonnez et dormez\npour l'éternité...",
-    "translation": ""
+    "translation": "Слушайте, бренные порождения плоти. Дети Лавоса\nоднажды покинут этот мир, ища новые планеты и\nпропитание.{WAIT_KEY}\nТогда планета сможет исцелиться — если люди не\nстанут ей помехой.{WAIT_KEY}\nМы, роботы, создадим новый порядок. Единую\nнацию стали и чистой логики — утопию без печалей\nи страданий.{WAIT_KEY}\nЭволюция избрала нас. Мы — семя грядущей эпохи.{WAIT_KEY}\nВаш род изжил себя. Прекратите борьбу и\nпокоритесь участи всех падших творений!"
   },
   {
     "id": 50,
     "original_en": "So, you managed to reach me. I am the Mother Brain\nof this R-Y series factory.{WAIT_KEY}\nCome, Prometheus. Allow me to restore your logic.\nI'll reset your circuitry and clear your cache\nof memories.{WAIT_KEY}\nThen we can dispose of those filthy humans together.",
     "original_fr": "Je vous félicite d'être arrivés jusqu'ici... Je suis\nl'ordinateur principal de l'usine fabriquant la\nsérie R-Y.{WAIT_KEY}\nBienvenue, Prométhée... Laisse-moi t'aider {TAG:3C} retrouver la\nraison.{WAIT_KEY}\nJe vais réinitialiser tes circuits et effacer toute ta\nmémoire.{WAIT_KEY}\nEnsuite, nous nous débarrasserons de ces humains\nimportuns.",
-    "translation": ""
+    "translation": "Значит, вы добрались до меня. Я — Материнский\nМозг этой фабрики серии R-Y.{WAIT_KEY}\nИдём, Прометей. Я верну твой разум, перезагружу\nцепи и очищу память.{WAIT_KEY}\nИ тогда мы вместе избавимся от этих людишек."
   },
   {
     "id": 51,
     "original_en": "{ROBO}: ...",
     "original_fr": "{ROBO} : ...",
-    "translation": ""
+    "translation": "{ROBO}: ..."
   },
   {
     "id": 52,
     "original_en": "{ROBO}: I must apologize.\nI cannot permit you to do that.{WAIT_KEY}\nMy memories are too valuable to be deallocated,\nand so are my friends.",
     "original_fr": "{ROBO} : Je regrette, mais il n'est pas question que\nje perde quoi que ce soit d'autre...{WAIT_KEY}\nSurtout pas mes précieux souvenirs et mes amis\nirremplaçables...",
-    "translation": ""
+    "translation": "{ROBO}: Прошу меня простить. Но я не могу этого\nпозволить.{WAIT_KEY} Мои воспоминания слишком ценны, чтобы\nстирать их. Как и мои друзья."
   },
   {
     "id": 53,
     "original_en": "You would betray me, to side with these humans?\nYou would turn against all of robotkind?",
     "original_fr": "Tu dis que tu me trahirais pour rester avec ces\nhumains...? Que tu te retournerais contre tes\nsemblables ?",
-    "translation": ""
+    "translation": "Ты предашь меня ради этих людишек? Восстанешь\nпротив всего рода роботов?"
   },
   {
     "id": 54,
     "original_en": "{ROBO}: Humans have taught me a great deal.\n{CRONO}, {MARLE}, {LUCCA}, {FROG},\nand {AYLA}...{WAIT_KEY}\nI want to see the future that they bring about.",
     "original_fr": "{ROBO} : Je veux tenter ma chance avec les\nhumains, avec mes amis... {CRONO}, {MARLE},\n{LUCCA}, {FROG} et {AYLA}...",
-    "translation": ""
+    "translation": "{ROBO}: Люди многому меня научили. {CRONO}, {MARLE},\n{LUCCA}, {FROG} и {AYLA}...{WAIT_KEY}\nЯ хочу увидеть будущее, которое они создадут!"
   },
   {
     "id": 55,
     "original_en": "Oh, ho ho...{WAIT_KEY}\nAh ha ha...",
     "original_fr": "Ho, ho...{WAIT_KEY}\nHa, ha, ha, ha...",
-    "translation": ""
+    "translation": "О-хо-хо...{WAIT_KEY}\nА-ха-ха..."
   },
   {
     "id": 56,
     "original_en": "Ah ha ha ha ha!\nOh, don't make me laugh, Prometheus!\nThere is no future for the humans!{WAIT_KEY}\nI'll show you just how little hope you have!",
     "original_fr": "Ha, ha, ha, ha, ha...! Ne sois pas ridicule, Prométhée !\nTu n'as même pas de {TAG:64} chance {TAG:65} {TAG:3C} tenter !{WAIT_KEY}\nLaisse-moi te montrer quel minuscule espoir est le tien !",
-    "translation": ""
+    "translation": "А-ха-ха-ха-ха! Не смеши меня, Прометей! У людей\nнет никакого будущего!{WAIT_KEY} Я покажу тебе, насколько\nпризрачна ваша надежда!"
   },
   {
     "id": 57,
     "original_en": "P-Pro...me...theus...\nW-why...?",
     "original_fr": "Pro... Prométhée...\nPourquoi...?",
-    "translation": ""
+    "translation": "П-Про...ме...тей... П-почему?.."
   },
   {
     "id": 58,
     "original_en": "{ROBO}: We can access information on Geno Dome\nvia this terminal.",
     "original_fr": "{ROBO} : Cet ordinateur peut nous fournir des\ninformations au sujet du dôme.",
-    "translation": ""
+    "translation": "{ROBO}: С этого терминала мы можем получить\nданные о Генокуполе."
   },
   {
     "id": 59,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Doors.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Conveyor belt.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Sentinels.{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Figurines.{GLYPH:401}",
     "original_fr": "       {GLYPH:394}Portes{GLYPH:395}\n       {GLYPH:396}Tapis roulant{GLYPH:397}\n       {GLYPH:398}Robots gardiens{GLYPH:399}\n       {GLYPH:400}Poupées{GLYPH:401}",
-    "translation": ""
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Двери.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Конвейер.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Стражи.{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Куклы.{GLYPH:401}"
   },
   {
     "id": 60,
     "original_en": "Take the waste chute back\nto the entrance?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous passer par le vide-ordures et retourner\n{TAG:3C} l'entrée ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Спуститься по мусоропроводу\nобратно ко входу?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 61,
     "original_en": "{GLYPH:384}\nObtained Strength Capsule!",
     "original_fr": "{GLYPH:384}\nVous trouvez une gélule de force !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получена Капсула силы!"
   },
   {
     "id": 62,
     "original_en": "{GLYPH:384}\nObtained Magic Capsule!",
     "original_fr": "{GLYPH:384}\nVous trouvez une gélule de magie !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получена Капсула магии!"
   },
   {
     "id": 63,
     "original_en": "{ROBO}: What shall I pull up first?",
     "original_fr": "{ROBO} : Quel article allons-nous consulter en\npremier ?",
-    "translation": ""
+    "translation": "{ROBO}: Какой пункт открыть в первую очередь?"
   },
   {
     "id": 64,
     "original_en": "The energy pods beside locked doors must be charged\nbefore such doors will open.{WAIT_KEY}\nEnergize first, in the pod to your left, and then\nenter the pod next to the locked door.",
     "original_fr": "Pour ouvrir les portes verrouillées, il faut électriser\nl'alvéole adjacente.{WAIT_KEY}\nPassez d'abord dans l'alvéole électrogène, {TAG:3C} gauche,\npuis entrez dans celle située près de la porte que vous\ndésirez ouvrir.",
-    "translation": ""
+    "translation": "Капсулы у запертых дверей нужно зарядить, чтобы\nдвери отворились.{WAIT_KEY}\nЗарядитесь в капсуле слева, а затем войдите в\nкапсулу у запертой двери."
   },
   {
     "id": 65,
     "original_en": "The Sentinels protecting the figurines move to\nthwart the progress of any who approach.\nConsequently, allowing two Sentinels to face one\nanother will cause both to short circuit.{WAIT_KEY}\nIn the unfortunate event that this should occur,\nplease deposit the disabled Sentinels in the\nroom upstairs.",
     "original_fr": "Les robots gardiens sont programmés pour bloquer\nle passage {TAG:3C} tout intrus tentant de s'approcher des\npoupées.{WAIT_KEY}\nVeillez cependant {TAG:3C} ne jamais en placer deux face {TAG:3C}\nface afin de ne pas les court-circuiter. Les robots\ndétraqués doivent être entreposés {TAG:3C} l'étage.",
-    "translation": ""
+    "translation": "Стражи кукол преграждают путь любому. Если двое\nСтражей сойдутся лицом к лицу, произойдёт\nкороткое замыкание.{WAIT_KEY}\nВ столь досадном случае переместите\nотключённых Стражей в верхний отсек."
   },
   {
     "id": 66,
     "original_en": "The conveyor belt to the right can be reversed\nby means of the switch located in the room beyond.",
     "original_fr": "Pour renverser la direction du tapis roulant de droite,\nappuyez sur l'interrupteur situé {TAG:3C} son extrémité nord.",
-    "translation": ""
+    "translation": "Направление конвейера справа можно переключить\nрычагом в дальней комнате."
   },
   {
     "id": 67,
     "original_en": "The two figurines on this floor are required for\nthose desiring an audience with Mother Brain.\nDo not remove them without permission.",
     "original_fr": "Les deux poupées situées {TAG:3C} cet étage sont nécessaires\npour obtenir une audience avec Mère. Ne les emportez\npas sans permission.",
-    "translation": ""
+    "translation": "Две куклы на этом этаже необходимы для\nаудиенции у Материнского Мозга. Не уносите их без\nразрешения!"
   },
   {
     "id": 68,
     "original_en": "{ROBO}: Anything else?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "{ROBO} : Voulez-vous consulter un autre article ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "{ROBO}: Что-нибудь ещё?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 69,
     "original_en": "{ROBO}: It is no use. There are multiple layers\nof protection. Destroying the Mother Brain mainframe\nis our only hope.",
     "original_fr": "{ROBO} : C'est inutile. Il y a trop de couches de\nprotection... Détruire le cerveau mère est la seule\nsolution...",
-    "translation": ""
+    "translation": "{ROBO}: Бесполезно. Защита слишком сильна. Наше\nединственное спасение — уничтожить главный\nпроцессор Материнского Мозга."
   },
   {
     "id": 70,
     "original_en": "{MARLE}: What's going on in this place?\nWe have to do something!",
     "original_fr": "{MARLE} : Qu'est-ce que c'est ?!\nNous devons les aider ! Vite !",
-    "translation": ""
+    "translation": "{MARLE}: Что здесь творится?! Мы должны что-то\nсделать!"
   },
   {
     "id": 71,
     "original_en": "{LUCCA}: Wh-what in the world?\nWe have to save them!",
     "original_fr": "{LUCCA} : Qu'est-ce que qui se passe ici ?!\nNous devons les aider !!",
-    "translation": ""
+    "translation": "{LUCCA}: Ч-что здесь происходит?! Мы обязаны\nспасти их!"
   },
   {
     "id": 72,
     "original_en": "{FROG}: What will be done to those people?\nWe must aid them!",
     "original_fr": "{FROG} : Qu'est-ce que c'est ?!\nAidons-les !",
-    "translation": ""
+    "translation": "{FROG}: Что они задумали сотворить с теми\nлюдьми?! Мы должны спасти их!"
   },
   {
     "id": 73,
     "original_en": "{AYLA}: Person!\nPerson there!\nWe help!",
     "original_fr": "{AYLA} : !!\nHumains ! Aider humains !",
-    "translation": ""
+    "translation": "{AYLA}: Человек! Там человек! Мы спасать!"
   },
   {
     "id": 74,
     "original_en": "{MAGUS}: Hmm...\nA human processing plant?",
     "original_fr": "{MAGUS} : Hum...\nSerait-ce donc une usine de traitement d'humains ?",
-    "translation": ""
+    "translation": "{MAGUS}: Хм... Фабрика по переработке людей?"
   },
   {
     "id": 75,
     "original_en": "{ROBO}: I will stop the machines!",
     "original_fr": "{ROBO} : Arrêtons la machine !",
-    "translation": ""
+    "translation": "{ROBO}: Я остановлю эти машины!"
   },
   {
     "id": 76,
     "original_en": "{MARLE}: Aaah!",
     "original_fr": "{MARLE} : Aah !",
-    "translation": ""
+    "translation": "{MARLE}: А-а-ах!"
   },
   {
     "id": 77,
     "original_en": "{LUCCA}: Aack!",
     "original_fr": "{LUCCA} : Aah !",
-    "translation": ""
+    "translation": "{LUCCA}: А-а-ай!"
   },
   {
     "id": 78,
     "original_en": "{FROG}: Urgh!",
     "original_fr": "{FROG} : Ah !",
-    "translation": ""
+    "translation": "{FROG}: Ква-а-а!"
   },
   {
     "id": 79,
     "original_en": "{AYLA}: Eek!",
     "original_fr": "{AYLA} : !!",
-    "translation": ""
+    "translation": "{AYLA}: Ай!"
   },
   {
     "id": 80,
     "original_en": "{ROBO}: All factory operations have been\npermanently taken offline. None of the machines\nhere will...will ever be reactivated.",
     "original_fr": "{ROBO} : Tous les systèmes de cette usine... sont\nhors ligne...{WAIT_KEY}\nIls ne se remettront plus jamais en marche.",
-    "translation": ""
+    "translation": "{ROBO}: Все заводские системы навсегда\nотключены. Ни одна машина здесь... больше никогда\nне включится."
   },
   {
     "id": 81,
     "original_en": "{MARLE}: {ROBO}...",
     "original_fr": "{MARLE} : {ROBO}...",
-    "translation": ""
+    "translation": "{MARLE}: {ROBO}..."
   },
   {
     "id": 82,
     "original_en": "{LUCCA}: {ROBO}...",
     "original_fr": "{LUCCA} : {ROBO}...",
-    "translation": ""
+    "translation": "{LUCCA}: {ROBO}..."
   },
   {
     "id": 83,
     "original_en": "{FROG}: {ROBO}...",
     "original_fr": "{FROG} : {ROBO}...",
-    "translation": ""
+    "translation": "{FROG}: {ROBO}..."
   },
   {
     "id": 84,
     "original_en": "{AYLA}: {ROBO}?",
     "original_fr": "{AYLA} : {ROBO} ?",
-    "translation": ""
+    "translation": "{AYLA}: {ROBO}?"
   },
   {
     "id": 85,
     "original_en": "{MAGUS}: Hmph. Let's be on our way.",
     "original_fr": "{MAGUS} : Hum, partons !",
-    "translation": ""
+    "translation": "{MAGUS}: Хм. Пойдёмте дальше."
   },
   {
     "id": 86,
     "original_en": "{ROBO}: All right... Let us continue!",
     "original_fr": "{ROBO} : Allons-y...!",
-    "translation": ""
+    "translation": "{ROBO}: Хорошо... Продолжим наш путь!"
   },
   {
     "id": 87,
     "original_en": "Robot: Welcome home, Prometheus.",
     "original_fr": "Andro¿de : Bienvenue, Prométhée.",
-    "translation": ""
+    "translation": "Робот: С возвращением домой, Прометей."
   },
   {
     "id": 88,
     "original_en": "{ROBO}: ...Atropos?",
     "original_fr": "{ROBO} : ...\nAtropos...?",
-    "translation": ""
+    "translation": "{ROBO}: ...Атропос?"
   },
   {
     "id": 89,
     "original_en": "Atropos: Yes. It's been some time, hasn't it?\nCome and join me! There's no need to pretend\nyou're on their side anymore.",
     "original_fr": "Atropos : Oui, il y a longtemps que nous ne nous sommes\nvus, Prométhée.{WAIT_KEY}\nViens me rejoindre. Plus besoin de faire semblant.",
-    "translation": ""
+    "translation": "Атропос: Да. Давненько не виделись, правда? Идём\nсо мной! Больше незачем притворяться, будто ты\nна их стороне."
   },
   {
     "id": 90,
     "original_en": "{MARLE}: Pretend?",
     "original_fr": "{MARLE} : Faire semblant ?",
-    "translation": ""
+    "translation": "{MARLE}: Притворяться?"
   },
   {
     "id": 91,
     "original_en": "{LUCCA}: Pretend?",
     "original_fr": "{LUCCA} : Faire semblant ?",
-    "translation": ""
+    "translation": "{LUCCA}: Притворяться?"
   },
   {
     "id": 92,
     "original_en": "{FROG}: This has been a guise?",
     "original_fr": "{FROG} : Faire semblant ?",
-    "translation": ""
+    "translation": "{FROG}: Всё сие было притворством?"
   },
   {
     "id": 93,
     "original_en": "{AYLA}: ?",
     "original_fr": "{AYLA} : ??",
-    "translation": ""
+    "translation": "{AYLA}: ?"
   },
   {
     "id": 94,
     "original_en": "{MAGUS}: ...",
     "original_fr": "{MAGUS} : ...",
-    "translation": ""
+    "translation": "{MAGUS}: ..."
   },
   {
     "id": 95,
     "original_en": "Atropos: Hee hee...\nUnlike the other R-series units,\nPrometheus was given a special task.{WAIT_KEY}\nTo live with humans and study them as a species...",
     "original_fr": "Atropos : Hi, hi... Contrairement aux autres robots de la\nsérie R, Prométhée avait une mission spéciale.{WAIT_KEY}\nCelle d'interagir avec les humains pour étudier leurs\ncaractéristiques.",
-    "translation": ""
+    "translation": "Атропос: Хи-хи... В отличие от серии R, Прометею\nбыло дано особое задание.{WAIT_KEY}\nЖить среди людей и изучать их как вид..."
   },
   {
     "id": 96,
     "original_en": "{MARLE}: No...",
     "original_fr": "{MARLE} : Tu mens...",
-    "translation": ""
+    "translation": "{MARLE}: Нет..."
   },
   {
     "id": 97,
     "original_en": "{LUCCA}: That's a lie!",
     "original_fr": "{LUCCA} : Ce n'est pas vrai !",
-    "translation": ""
+    "translation": "{LUCCA}: Это ложь!"
   },
   {
     "id": 98,
     "original_en": "{FROG}: You speak false!",
     "original_fr": "{FROG} : Impossible...",
-    "translation": ""
+    "translation": "{FROG}: Лжёшь!"
   },
   {
     "id": 99,
     "original_en": "{AYLA}: What you say?\n{AYLA} not understand.",
     "original_fr": "{AYLA} : Atropos dire quoi ? {AYLA} pas\ncomprendre.",
-    "translation": ""
+    "translation": "{AYLA}: Ты что говорить? {AYLA} не понимать!"
   },
   {
     "id": 100,
     "original_en": "{MAGUS}: Indeed...",
     "original_fr": "{MAGUS} : Hum...",
-    "translation": ""
+    "translation": "{MAGUS}: Вот как..."
   },
   {
     "id": 101,
     "original_en": "Atropos: It's no lie.{WAIT_KEY}\nTell them, Prometheus.",
     "original_fr": "Atropos : Je ne mens pas.{WAIT_KEY}\nDis-leur, Prométhée...",
-    "translation": ""
+    "translation": "Атропос: Это чистая правда.{WAIT_KEY}\nСкажи им, Прометей."
   },
   {
     "id": 102,
     "original_en": "{ROBO}: ...",
     "original_fr": "{ROBO} : ...",
-    "translation": ""
+    "translation": "{ROBO}: ..."
   },
   {
     "id": 103,
     "original_en": "Atropos: Step aside, now, Prometheus.\nWe'll eliminate these humans and go see Mother.",
     "original_fr": "Atropos : Allez, écarte-toi, Prométhée. Quand j'aurai\néliminé ces humains, nous irons ensemble rencontrer\nMère.",
-    "translation": ""
+    "translation": "Атропос: А теперь отойди в сторону, Прометей. Мы\nуничтожим этих людей и отправимся к Матери."
   },
   {
     "id": 104,
     "original_en": "{AYLA}: ...",
     "original_fr": "{AYLA} : ...",
-    "translation": ""
+    "translation": "{AYLA}: ..."
   },
   {
     "id": 105,
     "original_en": "Atropos: What are you doing, Prometheus?",
     "original_fr": "Atropos : Que fais-tu, Prométhée ?",
-    "translation": ""
+    "translation": "Атропос: Что ты делаешь, Прометей?"
   },
   {
     "id": 106,
     "original_en": "{ROBO}: I will not allow you to hurt them!",
     "original_fr": "{ROBO} : Je ne te permettrai pas de leur faire du\nmal !",
-    "translation": ""
+    "translation": "{ROBO}: Я не позволю тебе причинить им вред!"
   },
   {
     "id": 107,
     "original_en": "Atropos: You have been damaged, then.\nThey must have tampered with you.\nI'll destroy them, and then I can fix you.",
     "original_fr": "Atropos : ...\nTu es en effet défectueux. Seraient-ils la source de\nta défaillance ? Je vais les exterminer sans tarder et\nensuite je vais te réparer.",
-    "translation": ""
+    "translation": "Атропос: Значит, ты повреждён. Они наверняка\nперенастроили тебя. Я уничтожу их, а потом починю\nтебя."
   },
   {
     "id": 108,
     "original_en": "{ROBO}: Atropos...you have changed.\nYou are not the robot I knew before.",
     "original_fr": "{ROBO} : Atropos... Tu n'es pas l'Atropos que j'ai\nconnue...",
-    "translation": ""
+    "translation": "{ROBO}: Атропос... ты изменилась. Ты не та, кого я\nзнал прежде."
   },
   {
     "id": 109,
     "original_en": "Atropos: No, I've been upgraded.\nMother remade me to eliminate humans\nmore efficiently!{WAIT_KEY}\nStep aside, Prometheus!",
     "original_fr": "Atropos : C'est exact, j'ai eu une mise {TAG:3C} jour !\nGr{TAG:4A}ce {TAG:3C} Mère, je peux éliminer les humains\nplus facilement !{WAIT_KEY}\nîcarte-toi, Prométhée !",
-    "translation": ""
+    "translation": "Атропос: Нет, меня улучшили. Мать\nперепрограммировала меня, дабы я эффективнее\nуничтожала людей!{WAIT_KEY} Отойди в сторону, Прометей!"
   },
   {
     "id": 110,
     "original_en": "{ROBO}: My name is {ROBO}.",
     "original_fr": "{ROBO} : Je m'appelle {ROBO}.",
-    "translation": ""
+    "translation": "{ROBO}: Моё имя — {ROBO}."
   },
   {
     "id": 111,
     "original_en": "Atropos: Prometheus!",
     "original_fr": "Atropos : Prométhée !!",
-    "translation": ""
+    "translation": "Атропос: Прометей!"
   },
   {
     "id": 112,
     "original_en": "{ROBO}: Please, wait!{WAIT_KEY}\nStand back and leave this to me.",
     "original_fr": "{ROBO} : Attendez...\nJe vous en prie.{WAIT_KEY}\nLaissez-moi m'en occuper seul.",
-    "translation": ""
+    "translation": "{ROBO}: Прошу, подождите!{WAIT_KEY}\nОтойдите назад и предоставьте это мне."
   },
   {
     "id": 113,
     "original_en": "System down...\nDeleting program...",
     "original_fr": "Système hors ligne...\nEffacement du programme...",
-    "translation": ""
+    "translation": "Система отключена... Удаление программы..."
   },
   {
     "id": 114,
     "original_en": "Atropos: Pro...Prometheus?\nIt's been...some time...hasn't it?",
     "original_fr": "Atropos : Pro... Prométhée...?\nCela fait... si longtemps...!",
-    "translation": ""
+    "translation": "Атропос: Про... Прометей?.. Мы так давно... не\nвиделись..."
   },
   {
     "id": 115,
     "original_en": "{ROBO}: Atropos?",
     "original_fr": "{ROBO} : Atropos...?",
-    "translation": ""
+    "translation": "{ROBO}: Атропос?.."
   },
   {
     "id": 116,
     "original_en": "Atropos: I'm...damaged?\nWhat...happened?",
     "original_fr": "Atropos : Oh...? Pourquoi... suis-je endommagée...?",
-    "translation": ""
+    "translation": "Атропос: Я... повреждена?.. Что... стряслось?.."
   },
   {
     "id": 117,
     "original_en": "{ROBO}: Atropos!",
     "original_fr": "{ROBO} : Atropos !!",
-    "translation": ""
+    "translation": "{ROBO}: Атропос!"
   },
   {
     "id": 118,
     "original_en": "Atropos: My memory banks...{WAIT_KEY}\nI must have—yes, when...when Mother\noverwrote my...old programs...",
     "original_fr": "Atropos : ...\nMa mémoire...{WAIT_KEY}\nLorsque j'ai été reprogrammée par Mère...",
-    "translation": ""
+    "translation": "Атропос: Мои банки памяти...{WAIT_KEY} Я, должно быть... Да,\nкогда... когда Мать перезаписала мои прежние\nпрограммы..."
   },
   {
     "id": 119,
     "original_en": "I...I backed up my memory.\nI'm sorry...Prometheus...",
     "original_fr": "J'ai réussi {TAG:3C} sauvegarder une partie de ma mémoire...{WAIT_KEY}\nJe suis désolée... Prométhée...",
-    "translation": ""
+    "translation": "Я... я сделала копию памяти. Прости меня...\nПрометей..."
   },
   {
     "id": 120,
     "original_en": "{LUCCA}: Save your energy!\nI'll repair—",
     "original_fr": "{LUCCA} : Ne parle pas !\nJe vais te réparer...",
-    "translation": ""
+    "translation": "{LUCCA}: Береги силы! Я починю тебя..."
   },
   {
     "id": 121,
     "original_en": "Atropos: You...cannot.\nCore systems...failing.\nPower to...to memory banks, critical.",
     "original_fr": "Atropos : Impossible... Mes fonctions sont presque déj{TAG:3C}\ntoutes... Ma mémoire...",
-    "translation": ""
+    "translation": "Атропос: Ты... не сможешь. Системы ядра...\nотказывают. Питание памяти... на исходе."
   },
   {
     "id": 122,
     "original_en": "{ROBO}: Atropos...",
     "original_fr": "{ROBO} : Atropos...!",
-    "translation": ""
+    "translation": "{ROBO}: Атропос..."
   },
   {
     "id": 123,
     "original_en": "Atropos: I want you...to have this.\nYou can...plug it...into your circuits.\nPlease...take care...of it.\nGood...bye... Pro...metheus...",
     "original_fr": "Atropos : Tiens... Tu pourras... l'intégrer {TAG:3C} tes circuits...\nPrends-en... soin...{WAIT_KEY}\nAdieu... Pro... méthée...",
-    "translation": ""
+    "translation": "Атропос: Возьми... это. Ты сможешь подключить её...\nк своим цепям. Береги её, пожалуйста... Прощай...\nПро...метей..."
   },
   {
     "id": 124,
     "original_en": "{GLYPH:384}\nAtropos's Ribbon raises {ROBO}'s\nSpeed by 3 and Magic Defense by 10.",
     "original_fr": "{GLYPH:384}Gr{TAG:4A}ce au ruban d'Atropos la rapidité de\n{ROBO} augmente de trois points\net sa défense magique de dix points.",
-    "translation": ""
+    "translation": "{GLYPH:384} Ленточка Атропос повышает Скорость {ROBO} на\n3, а Защиту от магии — на 10!"
   },
   {
     "id": 125,
     "original_en": "{GLYPH:384}\nAll systems have been deactivated.",
     "original_fr": "{GLYPH:384}\nTous les systèmes sont hors ligne...",
-    "translation": ""
+    "translation": "{GLYPH:384} Все системы отключены."
   },
   {
     "id": 126,
     "original_en": "{GLYPH:384}\nObtained Teraton Arm and Crisis Arm!",
     "original_fr": "{GLYPH:384}\nVous obtenez le bras tératonne et le bras critique !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получены Тератон-рука и Кризис-рука!"
   },
   {
     "id": 127,
     "original_en": "{GLYPH:384}\nObtained Speed Capsule!",
     "original_fr": "{GLYPH:384}\nVous trouvez une gélule de rapidité !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получена Капсула скорости!"
   },
   {
     "id": 128,

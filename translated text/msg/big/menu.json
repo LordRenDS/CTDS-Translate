@@ -21,7 +21,7 @@
     "id": 3,
     "original_en": "/",
     "original_fr": "/",
-    "translation": ""
+    "translation": "/"
   },
   {
     "id": 4,
@@ -45,19 +45,19 @@
     "id": 7,
     "original_en": "+",
     "original_fr": "+",
-    "translation": ""
+    "translation": "+"
   },
   {
     "id": 8,
     "original_en": "-",
     "original_fr": "-",
-    "translation": ""
+    "translation": "-"
   },
   {
     "id": 9,
     "original_en": " ♪",
     "original_fr": "♪",
-    "translation": ""
+    "translation": " ♪"
   },
   {
     "id": 10,
@@ -69,79 +69,79 @@
     "id": 11,
     "original_en": "{TAG:3E}",
     "original_fr": "{TAG:3E}",
-    "translation": ""
+    "translation": "{TAG:3E}"
   },
   {
     "id": 12,
     "original_en": "{TAG:3E}",
     "original_fr": "{TAG:3E}",
-    "translation": ""
+    "translation": "{TAG:3E}"
   },
   {
     "id": 13,
     "original_en": "{TAG:3E}",
     "original_fr": "{TAG:3E}",
-    "translation": ""
+    "translation": "{TAG:3E}"
   },
   {
     "id": 14,
     "original_en": "{TAG:3E}",
     "original_fr": "{TAG:3E}",
-    "translation": ""
+    "translation": "{TAG:3E}"
   },
   {
     "id": 15,
     "original_en": "{TAG:3E}",
     "original_fr": "{TAG:3E}",
-    "translation": ""
+    "translation": "{TAG:3E}"
   },
   {
     "id": 16,
     "original_en": "{TAG:3E}",
     "original_fr": "{TAG:3E}",
-    "translation": ""
+    "translation": "{TAG:3E}"
   },
   {
     "id": 17,
     "original_en": "{TAG:3E}",
     "original_fr": "{TAG:3E}",
-    "translation": ""
+    "translation": "{TAG:3E}"
   },
   {
     "id": 18,
     "original_en": "{TAG:3E}",
     "original_fr": "{TAG:3E}",
-    "translation": ""
+    "translation": "{TAG:3E}"
   },
   {
     "id": 19,
     "original_en": "{TAG:3E}",
     "original_fr": "{TAG:3E}",
-    "translation": ""
+    "translation": "{TAG:3E}"
   },
   {
     "id": 20,
     "original_en": "{TAG:3E}",
     "original_fr": "{TAG:3E}",
-    "translation": ""
+    "translation": "{TAG:3E}"
   },
   {
     "id": 21,
     "original_en": "{TAG:3E}",
     "original_fr": "{TAG:3E}",
-    "translation": ""
+    "translation": "{TAG:3E}"
   },
   {
     "id": 22,
     "original_en": "<ICON_DEF>",
     "original_fr": "<ICON_DEF>",
-    "translation": ""
+    "translation": "<ICON_DEF>"
   },
   {
     "id": 23,
     "original_en": "™",
     "original_fr": "™",
-    "translation": ""
+    "translation": "™"
   },
   {
     "id": 24,
@@ -231,7 +231,7 @@
     "id": 38,
     "original_en": "? ? ?",
     "original_fr": "???",
-    "translation": ""
+    "translation": "? ? ?"
   },
   {
     "id": 39,
@@ -603,7 +603,7 @@
     "id": 100,
     "original_en": "Defaults",
     "original_fr": "Rétablir",
-    "translation": "Сбросить"
+    "translation": "Сброс"
   },
   {
     "id": 101,
@@ -789,7 +789,7 @@
     "id": 131,
     "original_en": "E",
     "original_fr": "î",
-    "translation": ""
+    "translation": "E"
   },
   {
     "id": 132,
@@ -819,19 +819,19 @@
     "id": 136,
     "original_en": "Â {TAG:3C}",
     "original_fr": "Â/{TAG:3C}",
-    "translation": ""
+    "translation": "Â {TAG:3C}"
   },
   {
     "id": 137,
     "original_en": "Default",
     "original_fr": "Rétablir",
-    "translation": "Сбросить"
+    "translation": "Сброс"
   },
   {
     "id": 138,
     "original_en": "Space",
     "original_fr": "Espace",
-    "translation": "Место"
+    "translation": "Пробел"
   },
   {
     "id": 139,

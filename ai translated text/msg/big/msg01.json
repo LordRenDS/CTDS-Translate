@@ -99,7 +99,7 @@
     "id": 16,
     "original_en": "{LUCCA}: What should we do, {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Go with the frog.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Refuse.{GLYPH:397}",
     "original_fr": "{LUCCA} : Qu'allons-nous faire {CRONO} ?\n       {GLYPH:394}Accompagner la grenouille{GLYPH:395}\n       {GLYPH:396}Refuser de l'accompagner{GLYPH:397}",
-    "translation": "{LUCCA}: Что будем делать, {CRONO}? {TAG:38}{TAG:38}{GLYPH:394}Пойти с\nлягушкой.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Отказаться.{GLYPH:397}"
+    "translation": "{LUCCA}: Что будем делать, {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Пойти с лягушкой.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отказаться.{GLYPH:397}"
   },
   {
     "id": 17,
@@ -465,7 +465,7 @@
     "id": 77,
     "original_en": "Will you stay?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous reposer ? ©\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Остановитесь на ночлег? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Остановитесь на ночлег?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 78,
@@ -501,7 +501,7 @@
     "id": 83,
     "original_en": "Want to hear something interesting?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous voulez que je vous dise un secret ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Хотите узнать кое-что интересное? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Хотите узнать кое-что интересное?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 84,
@@ -525,7 +525,7 @@
     "id": 87,
     "original_en": "Have you met the Hero already?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Avez-vous déj{TAG:3C} rencontré le héros ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Вы уже встречали Героя? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Вы уже встречали Героя?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 88,
@@ -603,7 +603,7 @@
     "id": 100,
     "original_en": "What say you? Can you spare 30 G?\n{TAG:38}{TAG:38}{GLYPH:394}All right.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Sorry.{GLYPH:397}",
     "original_fr": "Qu'en dites-vous ?\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
-    "translation": "Что скажете? Найдётся 30 золотых? {TAG:38}{TAG:38}{GLYPH:394}Ладно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Прости.{GLYPH:397}"
+    "translation": "Что скажете? Найдётся 30 золотых?\n{TAG:38}{TAG:38}{GLYPH:394}Ладно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Прости.{GLYPH:397}"
   },
   {
     "id": 101,
@@ -1065,7 +1065,7 @@
     "id": 177,
     "original_en": "Have you heard the latest?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous le saviez ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Слышали последние новости? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Слышали последние новости?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 178,
@@ -1101,7 +1101,7 @@
     "id": 183,
     "original_en": "Toma: Oh, we meet again.\nWhat say you buy me a drink?\n{TAG:38}{TAG:38}{GLYPH:394}Sure.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No way.{GLYPH:397}",
     "original_fr": "Toma : Oh, comme on se retrouve ! Que diriez-vous de\nme payer un verre ?\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
-    "translation": "Тома: О, снова встретились. Не угостите\nстаканчиком? {TAG:38}{TAG:38}{GLYPH:394}Ладно.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Ни за что.{GLYPH:397}"
+    "translation": "Тома: О, снова встретились. Не угостите\nстаканчиком?\n{TAG:38}{TAG:38}{GLYPH:394}Ладно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ни за что.{GLYPH:397}"
   },
   {
     "id": 184,
@@ -1137,7 +1137,7 @@
     "id": 189,
     "original_en": "Won't you do an old man a favor and trade it to me?\nI'll give you something good in exchange.\n{TAG:38}{TAG:38}{GLYPH:394}All right.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}I don't need your rubbish.{GLYPH:397}",
     "original_fr": "Je pourrais vous l'échanger contre quelque chose de\nbien... Qu'en dites-vous ?\n       {GLYPH:394}Faire l'échange{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
-    "translation": "Сделай одолжение старику, выменяй его мне? Я дам\nтебе кое-что ценное взамен. {TAG:38}{TAG:38}{GLYPH:394}Ладно.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Не нужна\nмне твоя рухлядь.{GLYPH:397}"
+    "translation": "Сделай одолжение старику, выменяй его мне? Я дам\nтебе кое-что ценное взамен.\n{TAG:38}{TAG:38}{GLYPH:394}Ладно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Мне не нужна рухлядь.{GLYPH:397}"
   },
   {
     "id": 190,

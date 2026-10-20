@@ -33,7 +33,7 @@
     "id": 5,
     "original_en": "Ozzie: Welcome, Glenn! Or should I say, Sir Froggy?\nMwa ha ha! Never expected to see you here.\nAre those your replacements for Cyrus?{WAIT_KEY}\nLord {MAGUS} is a tad busy right now.\nYou'll have to take up your business with me.{WAIT_KEY}\nAfter you take it up with the master swordsman\nSlash, and Flea, the magician, that is. Oh, right...",
     "original_fr": "Vinnie : Sois le bienvenu, Glenn. Non, attends, tu n'es\nqu'une grenouille désormais.{WAIT_KEY}\nSont-ce les remplaçants de Cyrus ?{WAIT_KEY}\nSon Excellence est actuellement en plein milieu d'un\nrituel important. Je serai votre adversaire.{WAIT_KEY}\nSi vous arrivez {TAG:3C} vaincre d'abord Soja, l'épéiste des\nténèbres, Mayo, le mage du néant, ainsi que...",
-    "translation": "Оззи: Добро пожаловать, Гленн! Или величать тебя\nсэром Лягушонком? Ха-ха-ха! Не ожидал увидеть\nтебя здесь.\nЭти оборванцы — твоя замена Сайрусу?{WAIT_KEY}\nВладыка {MAGUS} сейчас немного занят.\nТак что все дела придётся улаживать со мной.{WAIT_KEY}\nТочнее, сначала с мастером клинка Слэшем\nи магом Фли. Ах да, чуть не забыл..."
+    "translation": "Оззи: Добро пожаловать, Гленн! Или величать тебя\nсэром Лягушонком? Ха-ха-ха! Не ожидал тебя здесь.\nЭти оборванцы — твоя замена Сайрусу?{WAIT_KEY}Владыка {MAGUS} сейчас немного занят.\nТак что все дела придётся улаживать со мной.{WAIT_KEY}Точнее, сначала с мастером клинка Слэшем\nи магом Фли. Ах да, чуть не забыл..."
   },
   {
     "id": 6,
@@ -537,7 +537,7 @@
     "id": 89,
     "original_en": "{FROG}: There are things I'd never have obtained!",
     "original_fr": "{FROG} : ... que j'ai pu obtenir ceci !",
-    "translation": "{FROG}: Мне никогда бы не обрести то, чем я влад-\nею ныне!"
+    "translation": "{FROG}: Мне никогда бы не обрести то, чем я\nвладею ныне!"
   },
   {
     "id": 90,
@@ -561,7 +561,7 @@
     "id": 93,
     "original_en": "{MAGUS}: Your skill with the Masamune is that great\nalready?",
     "original_fr": "{MAGUS} : Grandléon... Tu la ma¡trises {TAG:3C} ce point...",
-    "translation": "{MAGUS}: Неужели твоё мастерство владения Масам-\nунэ\nуже настолько возросло?"
+    "translation": "{MAGUS}: Неужели твоё мастерство владения\nМасамунэ уже настолько возросло?"
   },
   {
     "id": 94,
@@ -579,7 +579,7 @@
     "id": 96,
     "original_en": "{ROBO}: Large-scale energy reaction detected!",
     "original_fr": "{ROBO} : Une puissante réaction énergétique !",
-    "translation": "{ROBO}: Зафиксирован колоссальный всплеск энерги-\nи!"
+    "translation": "{ROBO}: Зафиксирован колоссальный всплеск\nэнергии!"
   },
   {
     "id": 97,
@@ -609,13 +609,13 @@
     "id": 101,
     "original_en": "{ROBO}: Awaken? I do not understand.\nAccording to the records, Lavos was created here,\nat this precise moment.",
     "original_fr": "{ROBO} : Se réveiller ? Selon les archives,\nLavos est né {TAG:3C} cet instant précis...",
-    "translation": "{ROBO}: Пробуждаться? Данные не сходятся.\nСогласно хроникам, Лавос был сотворён именно зд-\nесь\nи в это самое мгновение."
+    "translation": "{ROBO}: Пробуждаться? Данные не сходятся.\nСогласно хроникам, Лавос был сотворён именно\nздесь и в это самое мгновение."
   },
   {
     "id": 102,
     "original_en": "{MAGUS}: You fools!\nI but summoned him!{WAIT_KEY}\nHe has dwelt within the earth for aeons, absorbing\nthe land's energy and growing ever stronger!",
     "original_fr": "{MAGUS} : Imbéciles ! Je n'ai fait que l'invoquer !{WAIT_KEY}\nIl existe depuis des lustres, loin sous la terre,\ncontinuant de cro¡tre lentement au fur et {TAG:3C}\nmesure qu'il absorbe l'énergie de la planète !",
-    "translation": "{MAGUS}: Глупцы!\nЯ лишь призвал его!{WAIT_KEY}\nОн спал в недрах земли бесчисленные эпохи,\nпоглощая силу планеты и становясь всё могуществ-\nеннее!"
+    "translation": "{MAGUS}: Глупцы! Я лишь призвал его!{WAIT_KEY}Он спал в недрах земли бесчисленные эпохи,\nпоглощая силу планеты и становясь всё\nмогущественнее!"
   },
   {
     "id": 103,
@@ -639,7 +639,7 @@
     "id": 106,
     "original_en": "{FROG}: What is this energy in the air?",
     "original_fr": "{FROG} : Qu'est-ce que c'est ?!",
-    "translation": "{FROG}: Что за страшная мощь сгустилась в возду-\nхе?"
+    "translation": "{FROG}: Что за страшная мощь сгустилась в\nвоздухе?"
   },
   {
     "id": 107,
@@ -657,7 +657,7 @@
     "id": 109,
     "original_en": "{ROBO}: I am detecting the emergence of a Gate of\ntheoretically improbable proportions!",
     "original_fr": "{ROBO} : Impossible ! Un portail d'une taille pareille\nest inconcevable !",
-    "translation": "{ROBO}: Регистрирую возникновение Врат теоретич-\nески\nневероятных масштабов!"
+    "translation": "{ROBO}: Регистрирую возникновение Врат\nтеоретически невероятных масштабов!"
   },
   {
     "id": 110,
@@ -831,7 +831,7 @@
     "id": 138,
     "original_en": "Spekkio: Hm?{WAIT_KEY}\nOh, you've got it in you, don't you?\nThat must be why the old guy let you through.{WAIT_KEY}\nSee, a long, long time before you were born,\nthere was a kingdom where magic flourished.\nEveryone there could use it!{WAIT_KEY}\nBut the people abused their powers, and ended\nup destroyin' the place. After that, there wasn't\nanyone left who could use magic—well, exceptin'\nfiends, of course.{WAIT_KEY}\nBut you have it! That inner strength, I mean.\nMagic needs power of the heart.\nThat's where it flows from.{WAIT_KEY}\nThere're four types of magic: fire, water, light,\nand shadow. Not everyone's got the same type.",
     "original_fr": "Specchio : Hum ?{WAIT_KEY}\nVous possédez le pouvoir de l'{TAG:4A}me...{WAIT_KEY}\nAh, c'est pour ça que le vieillard vous a laissés entrer\nici.{WAIT_KEY}\nBien avant votre naissance, il y avait un royaume qui\nprospérait gr{TAG:4A}ce {TAG:3C} la magie... Tous ceux qui y habitaient\npouvaient s'en servir.{WAIT_KEY}\nCependant, ils en devinrent dépendants et le royaume\nfut détruit... Par la suite, personne ne put utiliser la\nmagie, {TAG:3C} part les mystiques, évidemment.{WAIT_KEY}\nToutefois, vous l'avez, cette force de l'{TAG:4A}me, et c'est\nd'elle que la magie tire son pouvoir.{WAIT_KEY}\nElle est divisée en quatre éléments : lumière, ténèbres,\nfeu et eau.",
-    "translation": "Спеккио: Хм?{WAIT_KEY}\nОго, а в вас есть искра, да?\nНе зря старик впустил вас сюда.{WAIT_KEY}\nВидите ли, давным-давно, задолго до вашего рож-\nдения,\nбыло королевство, где процветала магия.\nВладели ею буквально все!{WAIT_KEY}\nНо люди злоупотребили своей мощью и погубили\nтот край. С тех пор не осталось никого, кто мог бы\nтворить заклинания... кроме мистиков, разумеется.{WAIT_KEY}\nНо в вас есть эта сила! Сила духа, я имею в виду.\nМагии нужна мощь сердца. Оттуда она и\nчерпается.{WAIT_KEY}\nСуществует четыре стихии: огонь, вода, свет\nи тьма. И у каждого предрасположенность к своей."
+    "translation": "Спеккио: Хм?{WAIT_KEY}Ого, а в вас есть искра, да? Не зря старик впустил\nвас сюда.{WAIT_KEY}Видите ли, давным-давно, задолго до вашего\nрождения, было королевство, где процветала\nмагия. Владели ею буквально все!{WAIT_KEY}Но люди злоупотребили своей мощью и погубили тот\nкрай. С тех пор не осталось никого, кто мог бы\nтворить заклинания... кроме мистиков, разумеется.{WAIT_KEY}Но в вас есть эта сила! Сила духа, я имею в виду.\nМагии нужна мощь сердца. Оттуда она и\nчерпается.{WAIT_KEY}Существует четыре стихии: огонь, вода, свет и\nтьма. И у каждого предрасположенность к своей."
   },
   {
     "id": 139,
@@ -855,19 +855,19 @@
     "id": 142,
     "original_en": "Spekkio: What's with this big clunky thing?\nSorry, buddy. But, well...you aren't alive.{WAIT_KEY}\nYou've got great inner strength, for what it's worth.\nIt's just...you aren't descended from the ancient magic\nusers, so you're never goin' to be able to cast spells.{WAIT_KEY}\nYour laser weapons and whatnot should suffice, though.\nThey can inflict shadow damage, kind of like shadow\nmagic.",
     "original_fr": "Specchio : L'élément de cette énorme poupée est...\nDis, tu n'es pas un être vivant.{WAIT_KEY}\nTon {TAG:4A}me est forte, toi aussi, mais puisque tu n'es pas\nun descendant de ces anciens magiciens, tu ne peux\npas utiliser la magie.{WAIT_KEY}\nCependant, tes lasers ont un pouvoir très destructif\nqui ressemble {TAG:3C} celui de l'élément ténèbres.",
-    "translation": "Спеккио: А это ещё что за неуклюжая груда железа?\nИзвини, дружище. Но... ты ведь не живой.{WAIT_KEY}\nВнутренней мощи в тебе хоть отбавляй, врать не\nстану.\nВот только в жилах твоих нет крови древних чаро-\nдеев,\nтак что заклинаниям тебя не научить.{WAIT_KEY}\nНо твоих лазеров и пушек вполне должно хватить.\nОни бьют тьмой — считай, та же тёмная магия."
+    "translation": "Спеккио: А это ещё что за неуклюжая груда железа?\nИзвини, дружище. Но... ты ведь не живой.{WAIT_KEY}Внутренней мощи в тебе хоть отбавляй, врать не\nстану. Вот только в жилах твоих нет крови древних\nчародеев, так что заклинаниям тебя не научить.{WAIT_KEY}Но твоих лазеров и пушек вполне должно хватить.\nОни бьют тьмой — считай, та же тёмная магия."
   },
   {
     "id": 143,
     "original_en": "Spekkio: By the way, it's not just magic—everything\nis made up of those four elements.",
     "original_fr": "Specchio : Et ce n'est pas seulement la magie, tout ce\nqui existe est constitué d'un mélange de ces quatre\néléments.",
-    "translation": "Спеккио: Кстати говоря, не только магия — абсолю-\nтно\nвсё в этом мире соткано из этих четырёх стихий."
+    "translation": "Спеккио: Кстати говоря, не только магия —\nабсолютно всё в этом мире соткано из этих\nчетырёх стихий."
   },
   {
     "id": 144,
     "original_en": "Spekkio: All right. Starting from the door, circle\nclockwise along the walls of my room three times\nand say \"I want to use magic!\" over and over in\nyour head.{WAIT_KEY}\nDon't lose track, now. Three times!\nDon't want you churnin' yourselves into butter.",
     "original_fr": "Specchio : En priant silencieusement {TAG:64} Je veux utiliser\nla magie ! {TAG:65}, faites trois fois le tour de cette pièce dans\nle sens des aiguilles d'une montre, en commençant\ndevant la porte !{WAIT_KEY}\nNe faites pas d'erreur, surtout !",
-    "translation": "Спеккио: Так, слушайте сюда. Начиная от двери,\nобойдите по часовой стрелке вдоль стен моей ком-\nнаты\nтри круга и повторяйте про себя: «Хочу владеть\nмагией!»{WAIT_KEY}\nСмотрите не сбейтесь со счёта! Ровно три круга!\nНе то превратитесь в кусок масла."
+    "translation": "Спеккио: Так, слушайте сюда. Начиная от двери,\nобойдите по часовой стрелке вдоль стен моей\nкомнаты три круга и повторяйте про себя: «Хочу\nвладеть магией!»{WAIT_KEY}Смотрите не сбейтесь со счёта! Ровно три круга! Не\nто превратитесь в кусок масла."
   },
   {
     "id": 145,
@@ -927,7 +927,7 @@
     "id": 154,
     "original_en": "Spekkio: What do you want?\nYou lookin' for some practice?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Specchio : Qu'y a-t-il ? Vous voulez vous mesurer\n{TAG:3C} moi ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Спеккио: Чего желаете?\nРешили потренироваться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Спеккио: Чего\nжелаете? Решили потренироваться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 155,
@@ -993,7 +993,7 @@
     "id": 165,
     "original_en": "Spekkio: Hey there, sweetheart!{WAIT_KEY}\nUnfortunately, you were born before magic existed,\nso casting spells is right out. But if it's any\nconsolation, you seem to have plenty of other assets.\nAhem.",
     "original_fr": "Specchio : Quelle jolie créature que voil{TAG:3C} !{WAIT_KEY}\nMalheureusement, ma chérie, tu es née avant l'ère des\nmagiciens. Tu es canon, mais tu ne peux pas utiliser la\nmagie.",
-    "translation": "Спеккио: Приветик, милашка!{WAIT_KEY}\nК сожалению, ты родилась задолго до появления\nмагии,\nтак что заклинания отпадают. Но если это тебя\nутешит,\nпрочих достоинств у тебя более чем достаточно.\nКхм."
+    "translation": "Спеккио: Приветик, дорогуша!{WAIT_KEY}\nУвы, ты родилась задолго до появления магии,\nтак что заклинания тебе не светят. Но не грусти:\nу тебя и без магии масса достоинств. Кхм."
   },
   {
     "id": 166,
@@ -1011,7 +1011,7 @@
     "id": 168,
     "original_en": "Spekkio: Hey, that spiky-haired fellow hasn't\nbeen coming around lately.",
     "original_fr": "Specchio : Hum ? Il y a un moment que je n'ai pas vu le\ngarçon aux cheveux pointus.",
-    "translation": "Спеккио: Слушайте, а тот паренёк с торчащими вол-\nосами\nчто-то давненько ко мне не заглядывал."
+    "translation": "Спеккио: Слушайте, а тот паренёк с торчащими\nволосами что-то давненько ко мне не заглядывал."
   },
   {
     "id": 169,
@@ -1029,25 +1029,25 @@
     "id": 171,
     "original_en": "{GLYPH:384}\nSpekkio's choice set!{WAIT_KEY}{GLYPH:384}\n\nObtained 1 Magic Capsule and 5 Mid-Ethers!",
     "original_fr": "{GLYPH:384}\nVous obtenez l'assortiment flexible\nde Specchio !{WAIT_KEY}{GLYPH:384}\n\nUne gélule de magie et cinq super-éthers !",
-    "translation": "{GLYPH:384}\nОтборный набор от Спеккио!{WAIT_KEY}{GLYPH:384}\n\nПолучено: Капсула магии (1 шт.) и Средний эфир (5\nшт.)!"
+    "translation": "{GLYPH:384} Фирменный набор от Спеккио!{WAIT_KEY}{GLYPH:384}\nПолучена 1 Магическая капсула и 5 Средних эфиров!"
   },
   {
     "id": 172,
     "original_en": "{GLYPH:384}\nSpekkio's healthy choice set!{WAIT_KEY}{GLYPH:384}\n\nObtained 1 Magic Capsule and 5 Hi-Ethers!",
     "original_fr": "{GLYPH:384}\nVous obtenez l'assortiment sain\nde Specchio !{WAIT_KEY}{GLYPH:384}\n\nUne gélule de magie et cinq méga-éthers !",
-    "translation": "{GLYPH:384}\nОсобо полезный набор от Спеккио!{WAIT_KEY}{GLYPH:384}\n\nПолучено: Капсула магии (1 шт.) и Большой эфир (5\nшт.)!"
+    "translation": "{GLYPH:384} Оздоровительный набор от Спеккио!{WAIT_KEY}{GLYPH:384}\nПолучена 1 Магическая капсула и 5 Высших эфиров!"
   },
   {
     "id": 173,
     "original_en": "{GLYPH:384}\nSpekkio's gratuity set!{WAIT_KEY}{GLYPH:384}\n\nObtained 1 Magic Capsule, 1 Speed Capsule,\n1 Strength Capsule, and 10 Elixirs!",
     "original_fr": "{GLYPH:384}\nVous obtenez l'assortiment gracieux\nde Specchio !{WAIT_KEY}{GLYPH:384}\n\nUne gélule de magie, une gélule de rapidité,\nune gélule de force et dix élixirs !",
-    "translation": "{GLYPH:384}\nЩедрый наградной набор от Спеккио!{WAIT_KEY}{GLYPH:384}\n\nПолучено: Капсула магии (1), Капсула скорости (1),\nКапсула силы (1) и Эликсир (10 шт.)!"
+    "translation": "{GLYPH:384} Набор благодарности от Спеккио!{WAIT_KEY}{GLYPH:384}\nПолучено: Капсула магии, Капсула скорости,\nКапсула силы и 10 Эликсиров!"
   },
   {
     "id": 174,
     "original_en": "{GLYPH:384}\nSpekkio's cheer and joy set!{WAIT_KEY}{GLYPH:384}\n\nObtained 10 Magic Capsules, 10 Speed Capsules,\n10 Strength Capsules, and 10 Megalixirs!{WAIT_KEY}{GLYPH:384}\n\nReceived enough of Spekkio's praise\nto last a year!",
     "original_fr": "{GLYPH:384}\nVous obtenez l'assortiment joyeux\nde Specchio !{WAIT_KEY}{GLYPH:384}\n\nDix gélules de magie, dix gélules de rapidité,\ndix gélules de force et dix ultra-élixirs...!{WAIT_KEY}{GLYPH:384}\n\nIl y a de quoi faire pendant un an !",
-    "translation": "{GLYPH:384}\nПраздничный триумфальный набор от Спеккио!{WAIT_KEY}{GLYPH:384}\n\nПолучено: Капсулы магии (10), Капсулы скорости\n(10),\nКапсулы силы (10) и Мегаэликсир (10 шт.)!{WAIT_KEY}{GLYPH:384}\n\nПохвалы от Спеккио получено столько,\nчто хватит на целый год вперёд!"
+    "translation": "{GLYPH:384} Набор восторга и ликования от Спеккио!{WAIT_KEY}{GLYPH:384}\nПолучено по 10 Капсул магии, скорости и силы,\nа также 10 Мегаэликсиров!{WAIT_KEY}{GLYPH:384}\nПохвалы от Спеккио получено столько,\nчто хватит на целый год вперёд!"
   },
   {
     "id": 175,

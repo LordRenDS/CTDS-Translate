@@ -39,7 +39,7 @@
     "id": 6,
     "original_en": "Place the Moon Stone here?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous déposer la pierre obscure ici ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Положить Лунный камень сюда? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Положить Лунный камень сюда?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 7,
@@ -357,13 +357,13 @@
     "id": 59,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Doors.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Conveyor belt.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Sentinels.{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Figurines.{GLYPH:401}",
     "original_fr": "       {GLYPH:394}Portes{GLYPH:395}\n       {GLYPH:396}Tapis roulant{GLYPH:397}\n       {GLYPH:398}Robots gardiens{GLYPH:399}\n       {GLYPH:400}Poupées{GLYPH:401}",
-    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Двери.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Конвейер.{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Стражи.{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Куклы.{GLYPH:401}"
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Двери.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Конвейер.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Стражи.{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Куклы.{GLYPH:401}"
   },
   {
     "id": 60,
     "original_en": "Take the waste chute back\nto the entrance?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous passer par le vide-ordures et retourner\n{TAG:3C} l'entrée ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Спуститься по мусоропроводу обратно ко входу?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Спуститься по мусоропроводу\nобратно ко входу?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 61,
@@ -411,7 +411,7 @@
     "id": 68,
     "original_en": "{ROBO}: Anything else?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "{ROBO} : Voulez-vous consulter un autre article ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "{ROBO}: Что-нибудь ещё? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "{ROBO}: Что-нибудь ещё?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 69,

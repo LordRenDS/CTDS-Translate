@@ -165,7 +165,7 @@
     "id": 27,
     "original_en": "Haruyuki Nishida: Hey, do you think there\nwill be a sequel?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Haruyuki Nishida, création des monstres :\nVous croyez qu'il y aura un Chrono Trigger 2 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Харуюки Нисида: Слушай, как думаешь, будет\nсиквел? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Харуюки Нисида: Слушай, как думаешь, будет\nсиквел?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 28,
@@ -315,7 +315,7 @@
     "id": 52,
     "original_en": "Yukio Nakatani: Thanks for playing!\nAre you a girl?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Yukio Nakatani : Merci d'avoir joué ! Au fait, êtes-vous\nune fille ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Юкио Накатани: Спасибо за игру! Ты девушка? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Юкио Накатани: Спасибо\nза игру! Ты девушка?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 53,

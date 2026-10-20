@@ -321,13 +321,13 @@
     "id": 53,
     "original_en": "W",
     "original_fr": "V",
-    "translation": ""
+    "translation": "В"
   },
   {
     "id": 54,
     "original_en": "L",
     "original_fr": "D",
-    "translation": ""
+    "translation": "П"
   },
   {
     "id": 55,
@@ -453,7 +453,7 @@
     "id": 75,
     "original_en": "DS",
     "original_fr": "MODE DS",
-    "translation": ""
+    "translation": "DS"
   },
   {
     "id": 76,
@@ -495,7 +495,7 @@
     "id": 82,
     "original_en": "\nTime flows constantly in battle,\nallowing for fast-paced combat.\n",
     "original_fr": "Le temps s'écoule constamment.\nLes batailles en seront d'autant\nplus palpitantes.",
-    "translation": "Время течет постоянно в бою,\nчто позволяет вести\nдинамичные сражения."
+    "translation": "Время течёт постоянно в бою,\nчто позволяет вести\nдинамичные сражения."
   },
   {
     "id": 83,
@@ -573,13 +573,13 @@
     "id": 95,
     "original_en": " ",
     "original_fr": "",
-    "translation": ""
+    "translation": " "
   },
   {
     "id": 96,
     "original_en": "Ending No.",
     "original_fr": "{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{GLYPH:132}Fin nÎ ",
-    "translation": "Концовка {GLYPH:132}"
+    "translation": "Концовка No."
   },
   {
     "id": 97,
@@ -591,7 +591,7 @@
     "id": 98,
     "original_en": " ",
     "original_fr": "",
-    "translation": ""
+    "translation": " "
   },
   {
     "id": 99,

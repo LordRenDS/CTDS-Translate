@@ -903,7 +903,7 @@
     "id": 150,
     "original_en": "{MAGUS}: You wish to fight me?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "{MAGUS} : Vous désirez vraiment m'affronter ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "{MAGUS}: Хотите сразиться со мной? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "{MAGUS}: Хотите сразиться со мной?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 151,
@@ -1071,7 +1071,7 @@
     "id": 178,
     "original_en": "Rest for the night?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous reposer ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Переночевать здесь? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Переночевать здесь?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 179,
@@ -1095,7 +1095,7 @@
     "id": 182,
     "original_en": "The Guru of Life gave me this sapling, but I fear\nthere's no place for it in this desolate world.{WAIT_KEY}\nWhat should I do?\n{TAG:38}{TAG:38}{GLYPH:394}Burn it,{GLYPH:402} {GLYPH:403}it's a mercy.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Plant it, with hope.{GLYPH:397}",
     "original_fr": "Le sage de la vie m'a donné ce jeune arbre, mais il n'a\npeut-être plus aucune utilité dans un monde désolé et\nmourant.{WAIT_KEY}\nOh, que devrais-je faire ?\n       {GLYPH:394}Br{TAG:63}lez-le,{GLYPH:402} {GLYPH:403}s'il ne sert {TAG:3C} rien.{GLYPH:395}\n       {GLYPH:396}Plantez-le quelque part,{GLYPH:402}\n       {GLYPH:403}avec espoir.{GLYPH:397}",
-    "translation": "Мудрец Жизни дал мне этот росток, но боюсь, в\nэтом мёртвом мире ему не выжить.{WAIT_KEY}\nЧто же мне делать? {TAG:38}{TAG:38}{GLYPH:394}Сжечь его,{GLYPH:402} {GLYPH:403}из жалости.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Посадить с надеждой.{GLYPH:397}"
+    "translation": "Гуру Жизни доверил мне этот росток, но боюсь,\nв этом гиблом мире ему не выжить.{WAIT_KEY}Что мне делать?\n{TAG:38}{TAG:38}{GLYPH:394}Сжечь,{GLYPH:402} {GLYPH:403}из жалости.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Посадить с надеждой.{GLYPH:397}"
   },
   {
     "id": 183,

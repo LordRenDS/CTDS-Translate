@@ -111,7 +111,7 @@
     "id": 18,
     "original_en": "20 G, paid in advance.\nWould you like to stay?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 20 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "20 З, предоплата. Желаете переночевать? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "20 З,\nпредоплата. Желаете переночевать?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 19,
@@ -129,7 +129,7 @@
     "id": 21,
     "original_en": "A one-way ticket is 10 G.\nYou want one?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Un billet vous co{TAG:63}tera 10 G.\nVoulez-vous en acheter un ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Билет в один конец стоит 10 З. Берёте? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Билет в один конец\nстоит 10 З. Берёте?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 22,
@@ -171,7 +171,7 @@
     "id": 28,
     "original_en": "Give you 10 G if you spin around three times and\ncluck like a chicken!\n{TAG:38}{TAG:38}{GLYPH:394}Okay.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No thanks.{GLYPH:397}",
     "original_fr": "Si tu fais trois pirouettes en poussant un cocorico,\nje te donnerai 10 G. Alors, qu'en dis-tu ?\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
-    "translation": "Дам 10 З, если обернёшься три раза и покудахчешь\nкурицей! {TAG:38}{TAG:38}{GLYPH:394}Ладно.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет уж.{GLYPH:397}"
+    "translation": "Дам 10 З, если обернёшься три раза и покудахчешь\nкурицей!\n{TAG:38}{TAG:38}{GLYPH:394}Ладно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет уж.{GLYPH:397}"
   },
   {
     "id": 29,
@@ -567,7 +567,7 @@
     "id": 94,
     "original_en": "I might let some go for, say, 9,900 G.\nHow's about it?\n{TAG:38}{TAG:38}{GLYPH:394}Sold.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No thanks.{GLYPH:397}",
     "original_fr": "Je pourrais peut-être vous en vendre pour 9900 G.\nAlors, ça vous intéresse ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Могу уступить кусочек, скажем, за 9900 З. По\nрукам? {TAG:38}{TAG:38}{GLYPH:394}По рукам.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет, спасибо.{GLYPH:397}"
+    "translation": "Могу уступить кусочек, скажем, за 9900 З. По\nрукам?\n{TAG:38}{TAG:38}{GLYPH:394}По рукам.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет, спасибо.{GLYPH:397}"
   },
   {
     "id": 95,
@@ -615,7 +615,7 @@
     "id": 102,
     "original_en": "The item inside is reacting to the pendant.\nRemove the item?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Il y a quelque chose {TAG:3C} l'intérieur qui luit {TAG:3C} l'approche du\npendentif. Voulez-vous le prendre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Предмет внутри откликается на кулон. Забрать\nпредмет? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Предмет внутри откликается на кулон. Забрать\nпредмет?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 103,
@@ -657,7 +657,7 @@
     "id": 109,
     "original_en": "Might you part with it for 10,000 G?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Take it for free.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}No.{GLYPH:399}",
     "original_fr": "Voulez-vous me le vendre pour 10 000 G ?\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Le lui donner gratuitement{GLYPH:397}\n       {GLYPH:398}Refuser{GLYPH:399}",
-    "translation": "Не уступите ли его за 10 000 З? {TAG:38}{TAG:38}{GLYPH:394}Продать.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отдать даром.{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}Отказать.{GLYPH:399}"
+    "translation": "Не уступите ли его за 10 000 З?\n{TAG:38}{TAG:38}{GLYPH:394}Продать.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отдать даром.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}Отказать.{GLYPH:399}"
   },
   {
     "id": 110,

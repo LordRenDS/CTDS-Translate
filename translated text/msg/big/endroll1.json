@@ -3,13 +3,13 @@
     "id": 0,
     "original_en": "Executive Producer",
     "original_fr": "Executive Producer",
-    "translation": ""
+    "translation": "Исполнительный продюсер"
   },
   {
     "id": 1,
     "original_en": "Supervisors",
     "original_fr": "Supervisors",
-    "translation": ""
+    "translation": "Кураторы проекта"
   },
   {
     "id": 2,
@@ -21,91 +21,91 @@
     "id": 3,
     "original_en": "Supervisor & Story Planner",
     "original_fr": "Supervisor & Story Planner",
-    "translation": ""
+    "translation": "Куратор и сценарист"
   },
   {
     "id": 4,
     "original_en": "Sound Supervisor",
     "original_fr": "Sound Supervisor",
-    "translation": ""
+    "translation": "Звуковой куратор"
   },
   {
     "id": 5,
     "original_en": "Producer",
     "original_fr": "Producer",
-    "translation": ""
+    "translation": "Продюсер"
   },
   {
     "id": 6,
     "original_en": "Assistant Producer",
     "original_fr": "Assistant Producer",
-    "translation": ""
+    "translation": "Помощник продюсера"
   },
   {
     "id": 7,
     "original_en": "Art Director",
     "original_fr": "Art Director",
-    "translation": ""
+    "translation": "Художественный директор"
   },
   {
     "id": 8,
     "original_en": "Project Manager",
     "original_fr": "Project Manager",
-    "translation": ""
+    "translation": "Менеджер проекта"
   },
   {
     "id": 9,
     "original_en": "Project Assistant",
     "original_fr": "Project Assistant",
-    "translation": ""
+    "translation": "Ассистент проекта"
   },
   {
     "id": 10,
     "original_en": "Movie Sound Composer",
     "original_fr": "Movie Sound Composer",
-    "translation": ""
+    "translation": "Композитор видеороликов"
   },
   {
     "id": 11,
     "original_en": "Animation Production",
     "original_fr": "Animation Production",
-    "translation": ""
+    "translation": "Производство анимации"
   },
   {
     "id": 12,
     "original_en": "Publicity Division",
     "original_fr": "Publicity Division",
-    "translation": ""
+    "translation": "Отдел рекламы и связей"
   },
   {
     "id": 13,
     "original_en": "Corporate Executive Manager",
     "original_fr": "Corporate Executive Manager",
-    "translation": ""
+    "translation": "Корпоративный директор"
   },
   {
     "id": 14,
     "original_en": "Senior Producer",
     "original_fr": "Senior Producer",
-    "translation": ""
+    "translation": "Старший продюсер"
   },
   {
     "id": 15,
     "original_en": "Producer",
     "original_fr": "Producer",
-    "translation": ""
+    "translation": "Продюсер"
   },
   {
     "id": 16,
     "original_en": "Publicity Staff",
     "original_fr": "Publicity Staff",
-    "translation": ""
+    "translation": "Сотрудники отдела рекламы"
   },
   {
     "id": 17,
     "original_en": "Media Coordinators",
     "original_fr": "Media Coordinators",
-    "translation": ""
+    "translation": "Координаторы СМИ"
   },
   {
     "id": 18,
@@ -129,7 +129,7 @@
     "id": 21,
     "original_en": "Artwork Coordinators",
     "original_fr": "Artwork Coordinators",
-    "translation": ""
+    "translation": "Координаторы графики"
   },
   {
     "id": 22,
@@ -141,7 +141,7 @@
     "id": 23,
     "original_en": "Web Coordinators",
     "original_fr": "Web Coordinators",
-    "translation": ""
+    "translation": "Веб-координаторы"
   },
   {
     "id": 24,
@@ -153,7 +153,7 @@
     "id": 25,
     "original_en": "Overseas Coordinators",
     "original_fr": "Overseas Coordinators",
-    "translation": ""
+    "translation": "Зарубежные координаторы"
   },
   {
     "id": 26,
@@ -165,25 +165,25 @@
     "id": 27,
     "original_en": "Quality Assurance",
     "original_fr": "Quality Assurance",
-    "translation": ""
+    "translation": "Контроль качества (QA)"
   },
   {
     "id": 28,
     "original_en": "Coordinator",
     "original_fr": "Coordinator",
-    "translation": ""
+    "translation": "Координатор"
   },
   {
     "id": 29,
     "original_en": "Planner",
     "original_fr": "Planner",
-    "translation": ""
+    "translation": "Сценарист / Планировщик"
   },
   {
     "id": 30,
     "original_en": "Assistant Coordinators",
     "original_fr": "Assistant Coordinators",
-    "translation": ""
+    "translation": "Помощники координатора"
   },
   {
     "id": 31,
@@ -195,7 +195,7 @@
     "id": 32,
     "original_en": "Technical Engineers",
     "original_fr": "Technical Engineers",
-    "translation": ""
+    "translation": "Технические инженеры"
   },
   {
     "id": 33,
@@ -219,7 +219,7 @@
     "id": 36,
     "original_en": "Technical Assistants",
     "original_fr": "Technical Assistants",
-    "translation": ""
+    "translation": "Технические ассистенты"
   },
   {
     "id": 37,
@@ -231,13 +231,13 @@
     "id": 38,
     "original_en": "Senior Tester",
     "original_fr": "Senior Tester",
-    "translation": ""
+    "translation": "Старший тестировщик"
   },
   {
     "id": 39,
     "original_en": "Testers",
     "original_fr": "Testers",
-    "translation": ""
+    "translation": "Тестировщики"
   },
   {
     "id": 40,
@@ -381,49 +381,49 @@
     "id": 63,
     "original_en": "Manager",
     "original_fr": "Manager",
-    "translation": ""
+    "translation": "Менеджер"
   },
   {
     "id": 64,
     "original_en": "Senior Manager",
     "original_fr": "Senior Manager",
-    "translation": ""
+    "translation": "Старший менеджер"
   },
   {
     "id": 65,
     "original_en": "General Manager",
     "original_fr": "General Manager",
-    "translation": ""
+    "translation": "Генеральный менеджер"
   },
   {
     "id": 66,
     "original_en": "Community & Service Division",
     "original_fr": "Community & Service Division",
-    "translation": ""
+    "translation": "Служба сообщества"
   },
   {
     "id": 67,
     "original_en": "Director",
     "original_fr": "Director",
-    "translation": ""
+    "translation": "Режиссёр / Руководитель"
   },
   {
     "id": 68,
     "original_en": "Customer Service Director",
     "original_fr": "Customer Service Director",
-    "translation": ""
+    "translation": "Глава службы поддержки"
   },
   {
     "id": 69,
     "original_en": "Information Center Manager",
     "original_fr": "Information Center Manager",
-    "translation": ""
+    "translation": "Руководитель инфоцентра"
   },
   {
     "id": 70,
     "original_en": "Back-End Support Staff",
     "original_fr": "Back-End Support Staff",
-    "translation": ""
+    "translation": "Техническая поддержка"
   },
   {
     "id": 71,
@@ -459,13 +459,13 @@
     "id": 76,
     "original_en": "Ratings Section",
     "original_fr": "Ratings Section",
-    "translation": ""
+    "translation": "Отдел возрастных рейтингов"
   },
   {
     "id": 77,
     "original_en": "Ratings Advisors",
     "original_fr": "Ratings Advisors",
-    "translation": ""
+    "translation": "Консультанты по рейтингам"
   },
   {
     "id": 78,
@@ -483,31 +483,31 @@
     "id": 80,
     "original_en": "Ratings Section Manager",
     "original_fr": "Ratings Section Manager",
-    "translation": ""
+    "translation": "Глава отдела рейтингов"
   },
   {
     "id": 81,
     "original_en": "Localization",
     "original_fr": "Localization",
-    "translation": ""
+    "translation": "Локализация"
   },
   {
     "id": 82,
     "original_en": "Localization Director",
     "original_fr": "Localization Director",
-    "translation": ""
+    "translation": "Руководитель локализации"
   },
   {
     "id": 83,
     "original_en": "Localization Supervisor",
     "original_fr": "Localization Supervisor",
-    "translation": ""
+    "translation": "Куратор локализации"
   },
   {
     "id": 84,
     "original_en": "Revised English Translation",
     "original_fr": "Revised English Translation",
-    "translation": ""
+    "translation": "Новая редакция перевода"
   },
   {
     "id": 85,
@@ -519,79 +519,79 @@
     "id": 86,
     "original_en": "English Editor",
     "original_fr": "English Editor",
-    "translation": ""
+    "translation": "Английский редактор"
   },
   {
     "id": 87,
     "original_en": "English Manual Translation",
     "original_fr": "English Manual Translation",
-    "translation": ""
+    "translation": "Перевод руководства"
   },
   {
     "id": 88,
     "original_en": "French Translation",
     "original_fr": "French Translation",
-    "translation": ""
+    "translation": "Французский перевод"
   },
   {
     "id": 89,
     "original_en": "French Editor",
     "original_fr": "French Editor",
-    "translation": ""
+    "translation": "Французский редактор"
   },
   {
     "id": 90,
     "original_en": "Senior Manager",
     "original_fr": "Senior Manager",
-    "translation": ""
+    "translation": "Старший менеджер"
   },
   {
     "id": 91,
     "original_en": "SQUARE ENIX, INC.",
     "original_fr": "SQUARE ENIX, INC.",
-    "translation": ""
+    "translation": "SQUARE ENIX, INC."
   },
   {
     "id": 92,
     "original_en": "Senior Quality Assurance Manager",
     "original_fr": "Senior Quality Assurance Manager",
-    "translation": ""
+    "translation": "Старший менеджер QA"
   },
   {
     "id": 93,
     "original_en": "Assistant QA Manager",
     "original_fr": "Assistant QA Manager",
-    "translation": ""
+    "translation": "Помощник менеджера QA"
   },
   {
     "id": 94,
     "original_en": "Senior QA Coordinator",
     "original_fr": "Senior QA Coordinator",
-    "translation": ""
+    "translation": "Старший координатор QA"
   },
   {
     "id": 95,
     "original_en": "QA Coordinator",
     "original_fr": "QA Coordinator",
-    "translation": ""
+    "translation": "Координатор QA"
   },
   {
     "id": 96,
     "original_en": "QA Administrator",
     "original_fr": "QA Administrator",
-    "translation": ""
+    "translation": "Администратор QA"
   },
   {
     "id": 97,
     "original_en": "QA Associate",
     "original_fr": "QA Associate",
-    "translation": ""
+    "translation": "Специалист QA"
   },
   {
     "id": 98,
     "original_en": "QA Team",
     "original_fr": "QA Team",
-    "translation": ""
+    "translation": "Команда отдела QA"
   },
   {
     "id": 99,
@@ -645,37 +645,37 @@
     "id": 107,
     "original_en": "QA Translator",
     "original_fr": "QA Translator",
-    "translation": ""
+    "translation": "Переводчик отдела QA"
   },
   {
     "id": 108,
     "original_en": "Localization & QA Director",
     "original_fr": "Localization & QA Director",
-    "translation": ""
+    "translation": "Директор локализации и QA"
   },
   {
     "id": 109,
     "original_en": "Executive Director of Community & Service",
     "original_fr": "Executive Director of Community & Service",
-    "translation": ""
+    "translation": "Директор службы поддержки"
   },
   {
     "id": 110,
     "original_en": "Senior Manager of Operations",
     "original_fr": "Senior Manager of Operations",
-    "translation": ""
+    "translation": "Старший операционный менеджер"
   },
   {
     "id": 111,
     "original_en": "Information Center Manager",
     "original_fr": "Information Center Manager",
-    "translation": ""
+    "translation": "Руководитель инфоцентра"
   },
   {
     "id": 112,
     "original_en": "Information Center Supervisors",
     "original_fr": "Information Center Supervisors",
-    "translation": ""
+    "translation": "Кураторы инфоцентра"
   },
   {
     "id": 113,
@@ -687,7 +687,7 @@
     "id": 114,
     "original_en": "Information Center Representatives",
     "original_fr": "Information Center Representatives",
-    "translation": ""
+    "translation": "Сотрудники инфоцентра"
   },
   {
     "id": 115,
@@ -705,19 +705,19 @@
     "id": 117,
     "original_en": "Operations Support Manager",
     "original_fr": "Operations Support Manager",
-    "translation": ""
+    "translation": "Менеджер поддержки"
   },
   {
     "id": 118,
     "original_en": "Operations Support Supervisor",
     "original_fr": "Operations Support Supervisor",
-    "translation": ""
+    "translation": "Куратор техподдержки"
   },
   {
     "id": 119,
     "original_en": "Operations Support Agents",
     "original_fr": "Operations Support Agents",
-    "translation": ""
+    "translation": "Агенты техподдержки"
   },
   {
     "id": 120,
@@ -735,13 +735,13 @@
     "id": 122,
     "original_en": "Public Relations & Project Coordination",
     "original_fr": "Public Relations & Project Coordination",
-    "translation": ""
+    "translation": "Связи с общественностью и QA"
   },
   {
     "id": 123,
     "original_en": "Public Relations",
     "original_fr": "Public Relations",
-    "translation": ""
+    "translation": "Связи с общественностью"
   },
   {
     "id": 124,
@@ -753,7 +753,7 @@
     "id": 125,
     "original_en": "Project Coordination",
     "original_fr": "Project Coordination",
-    "translation": ""
+    "translation": "Координация проекта"
   },
   {
     "id": 126,
@@ -771,7 +771,7 @@
     "id": 128,
     "original_en": "Project Coordination",
     "original_fr": "Project Coordination",
-    "translation": ""
+    "translation": "Координация проекта"
   },
   {
     "id": 129,
@@ -783,13 +783,13 @@
     "id": 130,
     "original_en": "Product Marketing & ",
     "original_fr": "Product Marketing & ",
-    "translation": ""
+    "translation": "Product Marketing &"
   },
   {
     "id": 131,
     "original_en": "Marketing Communications",
     "original_fr": "Marketing Communications",
-    "translation": ""
+    "translation": "Маркетинговые связи"
   },
   {
     "id": 132,
@@ -825,13 +825,13 @@
     "id": 137,
     "original_en": "Product Marketing & ",
     "original_fr": "Product Marketing & ",
-    "translation": ""
+    "translation": "Product Marketing &"
   },
   {
     "id": 138,
     "original_en": "Marketing Communications",
     "original_fr": "Marketing Communications",
-    "translation": ""
+    "translation": "Маркетинговые связи"
   },
   {
     "id": 139,
@@ -867,7 +867,7 @@
     "id": 144,
     "original_en": "Sales",
     "original_fr": "Sales",
-    "translation": ""
+    "translation": "Отдел продаж"
   },
   {
     "id": 145,
@@ -909,79 +909,79 @@
     "id": 151,
     "original_en": "Executive Director,",
     "original_fr": "Executive Director,",
-    "translation": ""
+    "translation": "Исполнительный директор,"
   },
   {
     "id": 152,
     "original_en": "Sales & Marketing",
     "original_fr": "Sales & Marketing",
-    "translation": ""
+    "translation": "Продажи и маркетинг"
   },
   {
     "id": 153,
     "original_en": "Senior Vice President,",
     "original_fr": "Senior Vice President,",
-    "translation": ""
+    "translation": "Старший вице-президент,"
   },
   {
     "id": 154,
     "original_en": "Sales & Marketing",
     "original_fr": "Sales & Marketing",
-    "translation": ""
+    "translation": "Продажи и маркетинг"
   },
   {
     "id": 155,
     "original_en": "Vice President of Legal Affairs &",
     "original_fr": "Vice President of Legal Affairs &",
-    "translation": ""
+    "translation": "Вице-президент по юр. делам и"
   },
   {
     "id": 156,
     "original_en": "General Counsel",
     "original_fr": "General Counsel",
-    "translation": ""
+    "translation": "Юрисконсульт"
   },
   {
     "id": 157,
     "original_en": "Senior Vice President",
     "original_fr": "Senior Vice President",
-    "translation": ""
+    "translation": "Старший вице-президент"
   },
   {
     "id": 158,
     "original_en": "President & CEO",
     "original_fr": "President & CEO",
-    "translation": ""
+    "translation": "Президент и ген. директор"
   },
   {
     "id": 159,
     "original_en": "SQUARE ENIX, LTD.",
     "original_fr": "SQUARE ENIX, LTD.",
-    "translation": ""
+    "translation": "SQUARE ENIX, LTD."
   },
   {
     "id": 160,
     "original_en": "Localisation Producer",
     "original_fr": "Localisation Producer",
-    "translation": ""
+    "translation": "Продюсер локализации"
   },
   {
     "id": 161,
     "original_en": "Assistant Localisation Producer",
     "original_fr": "Assistant Localisation Producer",
-    "translation": ""
+    "translation": "Ассистент продюсера"
   },
   {
     "id": 162,
     "original_en": "Chief of QA",
     "original_fr": "Chief of QA",
-    "translation": ""
+    "translation": "Руководитель отдела QA"
   },
   {
     "id": 163,
     "original_en": "Assistant QA Managers",
     "original_fr": "Assistant QA Managers",
-    "translation": ""
+    "translation": "Помощники менеджера QA"
   },
   {
     "id": 164,
@@ -993,19 +993,19 @@
     "id": 165,
     "original_en": "QA Lead",
     "original_fr": "QA Lead",
-    "translation": ""
+    "translation": "Ведущий тестировщик"
   },
   {
     "id": 166,
     "original_en": "French QA Coordinator",
     "original_fr": "French QA Coordinator",
-    "translation": ""
+    "translation": "Координатор фр. QA"
   },
   {
     "id": 167,
     "original_en": "QA Translators",
     "original_fr": "QA Translators",
-    "translation": ""
+    "translation": "Переводчики QA"
   },
   {
     "id": 168,
@@ -1017,7 +1017,7 @@
     "id": 169,
     "original_en": "UK QA Team",
     "original_fr": "UK QA Team",
-    "translation": ""
+    "translation": "Британская команда QA"
   },
   {
     "id": 170,
@@ -1035,7 +1035,7 @@
     "id": 172,
     "original_en": "French QA Team",
     "original_fr": "French QA Team",
-    "translation": ""
+    "translation": "Французская команда QA"
   },
   {
     "id": 173,
@@ -1059,7 +1059,7 @@
     "id": 176,
     "original_en": "Localisation Team",
     "original_fr": "Localisation Team",
-    "translation": ""
+    "translation": "Команда локализации"
   },
   {
     "id": 177,
@@ -1083,7 +1083,7 @@
     "id": 180,
     "original_en": "QA Team",
     "original_fr": "QA Team",
-    "translation": ""
+    "translation": "Команда отдела QA"
   },
   {
     "id": 181,
@@ -1107,121 +1107,121 @@
     "id": 184,
     "original_en": "Assistant Production Manager",
     "original_fr": "Assistant Production Manager",
-    "translation": ""
+    "translation": "Ассистент менеджера"
   },
   {
     "id": 185,
     "original_en": "Production Manager",
     "original_fr": "Production Manager",
-    "translation": ""
+    "translation": "Менеджер производства"
   },
   {
     "id": 186,
     "original_en": "Marketing & PR Assistant",
     "original_fr": "Marketing & PR Assistant",
-    "translation": ""
+    "translation": "Ассистент по связям и PR"
   },
   {
     "id": 187,
     "original_en": "International Marketing Co-ordinator",
     "original_fr": "International Marketing Co-ordinator",
-    "translation": ""
+    "translation": "Координатор маркетинга"
   },
   {
     "id": 188,
     "original_en": "Senior Product Manager",
     "original_fr": "Senior Product Manager",
-    "translation": ""
+    "translation": "Старший продакт-менеджер"
   },
   {
     "id": 189,
     "original_en": "Marketing Communications Manager",
     "original_fr": "Marketing Communications Manager",
-    "translation": ""
+    "translation": "Менеджер по рекламе"
   },
   {
     "id": 190,
     "original_en": "PR Manager",
     "original_fr": "PR Manager",
-    "translation": ""
+    "translation": "PR-менеджер"
   },
   {
     "id": 191,
     "original_en": "Marketing Director",
     "original_fr": "Marketing Director",
-    "translation": ""
+    "translation": "Директор по маркетингу"
   },
   {
     "id": 192,
     "original_en": "European Marketing Director",
     "original_fr": "European Marketing Director",
-    "translation": ""
+    "translation": "Директор маркетинга в ЕС"
   },
   {
     "id": 193,
     "original_en": "Operations Manager",
     "original_fr": "Operations Manager",
-    "translation": ""
+    "translation": "Операционный менеджер"
   },
   {
     "id": 194,
     "original_en": "Sales Manager",
     "original_fr": "Sales Manager",
-    "translation": ""
+    "translation": "Менеджер по продажам"
   },
   {
     "id": 195,
     "original_en": "UK Sales Director",
     "original_fr": "UK Sales Director",
-    "translation": ""
+    "translation": "Директор по продажам в UK"
   },
   {
     "id": 196,
     "original_en": "Vice-President Marketing",
     "original_fr": "Vice-President Marketing",
-    "translation": ""
+    "translation": "Вице-президент маркетинга"
   },
   {
     "id": 197,
     "original_en": "Vice-President Administration",
     "original_fr": "Vice-President Administration",
-    "translation": ""
+    "translation": "Вице-президент управления"
   },
   {
     "id": 198,
     "original_en": "Co-COO",
     "original_fr": "Co-COO",
-    "translation": ""
+    "translation": "Со-исполнительный директор"
   },
   {
     "id": 199,
     "original_en": "President & CEO",
     "original_fr": "President & CEO",
-    "translation": ""
+    "translation": "Президент и ген. директор"
   },
   {
     "id": 200,
     "original_en": "TOSE CO., LTD.",
     "original_fr": "TOSE CO., LTD.",
-    "translation": ""
+    "translation": "TOSE CO., LTD."
   },
   {
     "id": 201,
     "original_en": "Director",
     "original_fr": "Director",
-    "translation": ""
+    "translation": "Режиссёр / Руководитель"
   },
   {
     "id": 202,
     "original_en": "Assistant Director",
     "original_fr": "Assistant Director",
-    "translation": ""
+    "translation": "Assistant Director"
   },
   {
     "id": 203,
     "original_en": "Planners",
     "original_fr": "Planners",
-    "translation": ""
+    "translation": "Геймдизайнеры"
   },
   {
     "id": 204,
@@ -1233,7 +1233,7 @@
     "id": 205,
     "original_en": "Programmers",
     "original_fr": "Programmers",
-    "translation": ""
+    "translation": "Программисты"
   },
   {
     "id": 206,
@@ -1329,25 +1329,25 @@
     "id": 221,
     "original_en": "Technical Advisor",
     "original_fr": "Technical Advisor",
-    "translation": ""
+    "translation": "Технический консультант"
   },
   {
     "id": 222,
     "original_en": "Designer",
     "original_fr": "Designer",
-    "translation": ""
+    "translation": "Дизайнер"
   },
   {
     "id": 223,
     "original_en": "Design Advisor",
     "original_fr": "Design Advisor",
-    "translation": ""
+    "translation": "Консультант по дизайну"
   },
   {
     "id": 224,
     "original_en": "Sound Editors",
     "original_fr": "Sound Editors",
-    "translation": ""
+    "translation": "Звукорежиссёры"
   },
   {
     "id": 225,
@@ -1377,13 +1377,13 @@
     "id": 229,
     "original_en": "Sound Advisor",
     "original_fr": "Sound Advisor",
-    "translation": ""
+    "translation": "Звуковой консультант"
   },
   {
     "id": 230,
     "original_en": "Playtesters",
     "original_fr": "Playtesters",
-    "translation": ""
+    "translation": "Тестировщики игрового процесса"
   },
   {
     "id": 231,
@@ -1413,7 +1413,7 @@
     "id": 235,
     "original_en": "Special Thanks",
     "original_fr": "Special Thanks",
-    "translation": ""
+    "translation": "Особая благодарность"
   },
   {
     "id": 236,
@@ -1515,19 +1515,19 @@
     "id": 252,
     "original_en": "Director",
     "original_fr": "Director",
-    "translation": ""
+    "translation": "Режиссёр / Руководитель"
   },
   {
     "id": 253,
     "original_en": "Supervisor",
     "original_fr": "Supervisor",
-    "translation": ""
+    "translation": "Куратор"
   },
   {
     "id": 254,
     "original_en": "Production Executives",
     "original_fr": "Production Executives",
-    "translation": ""
+    "translation": "Руководство производства"
   },
   {
     "id": 255,

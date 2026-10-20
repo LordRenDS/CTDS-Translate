@@ -15,7 +15,7 @@
     "id": 2,
     "original_en": "Soldier: Civilians aren't allowed in here.\nWhy don't you go enjoy the festival like the other kids?",
     "original_fr": "Soldat : Les civils ne sont pas admis {TAG:3C} l'intérieur du\nch{TAG:4A}teau. Va t'amuser {TAG:3C} la foire, petit !",
-    "translation": "Стражник: Гражданским сюда вход воспрещён.\nШли бы вы на ярмарку веселиться, как все остальн-\nые дети."
+    "translation": "Стражник: Гражданским сюда вход воспрещён. Шли\nбы вы на ярмарку веселиться, как все остальные\nдети."
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "id": 4,
     "original_en": "Chancellor: Are you all right?\nWhere on earth have you been?{WAIT_KEY}\nWe'd heard you were abducted!\nWe had soldiers combing the entire kingdom for you!",
     "original_fr": "Chancelier : Vous n'avez rien ? Où étiez-vous donc\npassée ?!{WAIT_KEY}\nOn nous a dit que vous aviez été enlevée ! Nous avons\nenvoyé des soldats passer le royaume entier au peigne\nfin pour vous retrouver !",
-    "translation": "Канцлер: Вы невредимы?!\nГде вас носило, ради всего святого?!{WAIT_KEY}\nДо нас дошли вести, что вас похитили!\nСтража прочесала всё королевство в ваших поиска-\nх!"
+    "translation": "Канцлер: Вы невредимы?! Где вас носило, ради\nвсего святого?!{WAIT_KEY}До нас дошли вести, что вас похитили! Стража\nпрочесала всё королевство в ваших поисках!"
   },
   {
     "id": 5,
@@ -45,7 +45,7 @@
     "id": 7,
     "original_en": "Chancellor: Seize him! Seize the filthy terrorist!\nHe deceived our Princess and plotted to overthrow\nthe Crown!",
     "original_fr": "Chancelier : Arrêtez-le ! Ce voyou a trompé la princesse\nMarledia et projette de renverser le trône !",
-    "translation": "Канцлер: Схватить его! Схватить гнусного мятежни-\nка!\nОн обманом вскружил голову Принцессе и замыслил\nсвергнуть корону!"
+    "translation": "Канцлер: Схватить его! Схватить мятежника!\nОн вскружил голову Принцессе и замыслил\nсвергнуть корону!"
   },
   {
     "id": 8,
@@ -117,7 +117,7 @@
     "id": 19,
     "original_en": "{MARLE}: That man is my friend, and you will treat\nhim as such.",
     "original_fr": "{MARLE} : Je leur suis redevable ! Ils sont mes\ninvités ! Accueillez-les comme il se doit !",
-    "translation": "{MARLE}: Этот человек — мой друг, и вы будете обр-\nащаться\nс ним с должным почтением."
+    "translation": "{MARLE}: Этот человек — мой друг, и вы будете\nобращаться с ним с должным почтением."
   },
   {
     "id": 20,
@@ -147,7 +147,7 @@
     "id": 24,
     "original_en": "Chancellor: On your knees!\nHis Grace King Guardia XXXIII comes before you!",
     "original_fr": "Chancelier : Prosternez-vous devant Sa Majesté, le roi\nGardia XXXIII !",
-    "translation": "Канцлер: На колени!\nЕго Величество король Гардия XXXIII предстал пер-\nед вами!"
+    "translation": "Канцлер: На колени! Его Величество король Гардия\nXXXIII предстал перед вами!"
   },
   {
     "id": 25,
@@ -291,7 +291,7 @@
     "id": 48,
     "original_en": "Chancellor: But your father refused.\nSaid he could not leave his work unattended.{WAIT_KEY}\nHe left you, young, innocent, and knowing\nnothing of death, to watch over her alone.",
     "original_fr": "Chancelier : Il a dit qu'il était occupé {TAG:3C} gouverner le\nroyaume et n'est pas allé la voir...{WAIT_KEY}\nVous avez veillé {TAG:3C} son chevet, n'étant encore qu'une\nenfant qui ne comprenait toujours pas ce qu'était la\nmort...",
-    "translation": "Канцлер: Но ваш отец наотрез отказался.\nСказал, что не может бросить государственные\nдела.{WAIT_KEY}\nОн оставил вас, юную, невинную девочку, ещё ниче-\nго\nне знающую о смерти, дежурить у её смертного од-\nра в одиночестве."
+    "translation": "Канцлер: Но ваш отец наотрез отказался. Сказал,\nчто не может бросить государственные дела.{WAIT_KEY}Он оставил вас, юную, невинную девочку, ещё\nничего не знающую о смерти, дежурить у её\nсмертного одра в одиночестве."
   },
   {
     "id": 49,
@@ -309,7 +309,7 @@
     "id": 51,
     "original_en": "Chancellor: Please, I speak too much.\nDo not let it trouble you, Your Highness!",
     "original_fr": "Chancelier : Ah, ce n'est que mon avis !\nNe vous en préoccupez pas, Votre Altesse !",
-    "translation": "Канцлер: Умоляю, я сболтнул лишнее.\nНе принимайте это близко к сердцу, Ваше Высочес-\nтво!"
+    "translation": "Канцлер: Умоляю, я сболтнул лишнее. Не принимайте\nэто близко к сердцу, Ваше Высочество!"
   },
   {
     "id": 52,
@@ -327,7 +327,7 @@
     "id": 54,
     "original_en": "King: What have you come here for?\nI thought you had no more use for this place!",
     "original_fr": "Roi de Gardia : Que... Que viens-tu faire ici ?\nTu ne devrais pas avoir besoin de moi !",
-    "translation": "Король: Зачем ты явилась сюда?\nМне казалось, тебе больше нет дела до этого дом-\nа!"
+    "translation": "Король: Зачем ты явилась сюда? Мне казалось,\nтебе больше нет дела до этого дома!"
   },
   {
     "id": 55,
@@ -423,19 +423,19 @@
     "id": 70,
     "original_en": "Sorry 'bout my wife.\nThe old lady runs the kitchens.\nGotta tread softly around here!{WAIT_KEY}\nShe knows how to cook a goose better than anyone,\nbut she's also got a temper that'll cook your goose.\nSeems to run in the family.",
     "original_fr": "Veuillez l'excuser. Ma femme est en charge de la cuisine.{WAIT_KEY}\nC'est un vrai cordon-bleu, mais elle a un tempérament\nviolent... Il para¡t qu'elle le tient d'un de ses ancêtres.",
-    "translation": "Уж простите мою благоверную.\nСтаруха заправляет всей кухней.\nТут приходится ходить на цыпочках!{WAIT_KEY}\nОна умеет зажарить гуся лучше любого шефа,\nно и задать жару может так, что костей не соберё-\nшь.\nЭто у них семейное."
+    "translation": "Уж простите мою благоверную. Старуха заправляет\nвсей кухней. Тут приходится ходить на цыпочках!{WAIT_KEY}Она умеет зажарить гуся лучше любого шефа, но и\nзадать жару может так, что костей не соберёшь.\nЭто у них семейное."
   },
   {
     "id": 71,
     "original_en": "Preparations for the Millennial Fair's evening\ncelebration are underway.",
     "original_fr": "Nous nous préparons pour la fête du millénaire.",
-    "translation": "Идёт полным ходом подготовка к вечернему празд-\nнеству\nЯрмарки тысячелетия."
+    "translation": "Идёт полным ходом подготовка к вечернему\nпразднеству Ярмарки тысячелетия."
   },
   {
     "id": 72,
     "original_en": "The chief cook's ancestor served in the war against\nthe Fiendlord—served food, I mean. As a wise man once\nsaid, \"Can't wage war on an empty stomach!\"",
     "original_fr": "On raconte qu'un ancêtre de la cuisinière a contribué {TAG:3C}\nl'effort de guerre contre {MAGUS}, le Magistère.",
-    "translation": "Предок нашего шеф-повара воевал против Владыки\nмистиков... то есть кашеварил на фронте. Как гова-\nривал мудрец:\n«На голодный желудок войну не выиграешь!»"
+    "translation": "Предок повара воевал против Владыки мистиков...\nто есть кашеварил. Как говаривал мудрец:\n«На голодный желудок войну не выиграешь!»"
   },
   {
     "id": 73,
@@ -483,7 +483,7 @@
     "id": 80,
     "original_en": "Since it is our millennial anniversary, the King has,\nfor the time being, ordered probation for {CRONO}.",
     "original_fr": "Le roi a décidé d'octroyer un sursis aux condamnés en\nl'honneur du millénaire de la fondation du royaume.",
-    "translation": "По случаю тысячелетнего юбилея Король пока расп-\nорядился\nотпустить {CRONO} под надзор."
+    "translation": "По случаю тысячелетнего юбилея Король пока\nраспорядился отпустить {CRONO} под надзор."
   },
   {
     "id": 81,
@@ -501,7 +501,7 @@
     "id": 83,
     "original_en": "Without our Princess, it's almost as though the light\nis gone from these halls.",
     "original_fr": "Quand la princesse Marledia n'est pas l{TAG:3C}, le ch{TAG:4A}teau\nsemble endormi.",
-    "translation": "Без нашей Принцессы в этих залах словно погас ве-\nсь свет."
+    "translation": "Без нашей Принцессы в этих залах словно погас\nвесь свет."
   },
   {
     "id": 84,
@@ -513,13 +513,13 @@
     "id": 85,
     "original_en": "Princess Nadia's the very image of her late mother.\nI suspect that's why the King's so strict with her.",
     "original_fr": "La princesse Marledia est le portrait craché de sa mère,\nla reine Alice. C'est sans doute pour cette raison que le\nroi est si strict avec elle.",
-    "translation": "Принцесса Надя — точная копия своей покойной ма-\nтушки.\nПолагаю, именно поэтому Король столь строг с нею."
+    "translation": "Принцесса Надя — точная копия своей покойной\nматушки. Полагаю, именно поэтому Король столь\nстрог с нею."
   },
   {
     "id": 86,
     "original_en": "The Millennial Fair celebration is set to begin,\nbut with the King in his current state...",
     "original_fr": "Il était prévu de célébrer le millénaire de la fondation du\nroyaume, mais avec le roi dans un tel état...",
-    "translation": "Празднество Ярмарки тысячелетия вот-вот начнё-\nтся,\nно в таком состоянии Короля..."
+    "translation": "Празднество Ярмарки тысячелетия вот-вот\nначнётся, но в таком состоянии Короля..."
   },
   {
     "id": 87,
@@ -543,25 +543,25 @@
     "id": 90,
     "original_en": "I'm Pierre, royal legal counsel.{WAIT_KEY}\nThe King has been terribly distraught since the\nPrincess ran off. It took some time, but I was able\nto convince him that no kidnapping took place.{WAIT_KEY}\nThe Chancellor, on the other hand...\nHe has been acting quite strangely.\nWe were just discussing that now.",
     "original_fr": "Je suis Pierre, l'avocat. Depuis que la princesse\nMarledia a quitté le ch{TAG:4A}teau, le roi a complètement\nsombré dans la mélancolie...{WAIT_KEY}\nIl a daigné m'écouter et il a compris que la princesse\nn'avait pas été enlevée.{WAIT_KEY}\nCela m'aura pris du temps, mais j'aurai enfin accompli ma\nmission.{WAIT_KEY}\nNéanmoins, le chancelier agit toujours de façon bizarre.\nNous discutons de cette affaire.",
-    "translation": "Я Пьер, королевский законник.{WAIT_KEY}\nКороль места себе не находил от горя, когда Прин-\nцесса\nсбежала. Потребовалось время, но мне удалось убе-\nдить\nего, что никакого похищения не было.{WAIT_KEY}\nА вот Канцлер, напротив...\nОн ведёт себя крайне подозрительно.\nМы как раз обсуждали это."
+    "translation": "Я Пьер, королевский законник.{WAIT_KEY}Король места себе не находил от горя, пока мне не\nудалось убедить его, что похищения не было.{WAIT_KEY}А вот Канцлер, напротив... Он ведёт себя крайне\nподозрительно. Мы как раз обсуждали это."
   },
   {
     "id": 91,
     "original_en": "It was right around the time he ordered that\nDragon Tank to be built. That was when the\nChancellor started to act differently.",
     "original_fr": "C'est lorsque le chancelier a ordonné la construction\ndu dragon d'assaut que nous avons commencé {TAG:3C} nous\nposer des questions.",
-    "translation": "Всё началось примерно тогда, когда он отдал при-\nказ\nпостроить Дракон-танк. Именно тогда Канцлер ст-\nал\nсам не свой."
+    "translation": "Всё началось примерно тогда, когда он отдал\nприказ построить Дракон-танк. Именно тогда\nКанцлер стал сам не свой."
   },
   {
     "id": 92,
     "original_en": "The Chancellor hired all of the guards who manned\nthe prison towers.",
     "original_fr": "Les soldats qui patrouillaient dans la prison ont tous\nété engagés par l'intermédiaire du chancelier.",
-    "translation": "Канцлер лично нанимал всех стражников, охранявш-\nих\nтюремные башни."
+    "translation": "Канцлер лично нанимал всех стражников,\nохранявших тюремные башни."
   },
   {
     "id": 93,
     "original_en": "Those prison guards were an odd bunch.{WAIT_KEY}\nEven we would get cold stares from time to time.\nAnd those eyes... It's like they weren't even human!",
     "original_fr": "Les soldats de la prison étaient vraiment sinistres.{WAIT_KEY}\nParfois, ils nous observaient d'un air glacial. On aurait\njuré que leurs yeux n'étaient pas humains.",
-    "translation": "Те тюремные охранники были странным сбродом.{WAIT_KEY}\nДаже мы то и дело ловили на себе их ледяные взгл-\nяды.\nА глаза... Словно они и вовсе не были людьми!"
+    "translation": "Те тюремные охранники были странным сбродом.{WAIT_KEY}Даже мы то и дело ловили на себе их ледяные\nвзгляды. А глаза... Словно они и вовсе не были\nлюдьми!"
   },
   {
     "id": 94,
@@ -633,7 +633,7 @@
     "id": 105,
     "original_en": "King: How could you?{WAIT_KEY}\nGiving me something this spicy when you know\nquite well I have high blood pressure!",
     "original_fr": "Roi de Gardia : Aaaah...{WAIT_KEY}\nComment oses-tu me donner un plat aussi épicé...?!\nTu sais pourtant que c'est mauvais pour ma tension !",
-    "translation": "Король: Да как ты посмела?!{WAIT_KEY}\nПритащить мне такую острую дрянь, прекрасно зн-\nая,\nчто у меня высокое давление!"
+    "translation": "Король: Да как ты посмела?!{WAIT_KEY}Притащить мне такую острую дрянь, прекрасно\nзная, что у меня высокое давление!"
   },
   {
     "id": 106,
@@ -645,7 +645,7 @@
     "id": 107,
     "original_en": "King: This is the last straw!\nNow I truly know how much you hate me!",
     "original_fr": "Roi de Gardia : Voil{TAG:3C} la goutte qui fait déborder le\nvase ! Désormais, je sais vraiment {TAG:3C} quel point tu\nme détestes !",
-    "translation": "Король: Это последняя капля!\nТеперь я воочию вижу, как сильно ты меня ненавид-\nишь!"
+    "translation": "Король: Это последняя капля! Теперь я воочию вижу,\nкак сильно ты меня ненавидишь!"
   },
   {
     "id": 108,
@@ -681,7 +681,7 @@
     "id": 113,
     "original_en": "Chancellor: Why not give His Grace a gift to soothe\nhis mood?{WAIT_KEY}\nHe seems to have a taste for spiced jerky lately.",
     "original_fr": "Ah, pourquoi ne pas offrir un cadeau au roi ? Son plat\npréféré, par exemple...{WAIT_KEY}\nRécemment, Sa Majesté a un faible pour le jambon épicé.",
-    "translation": "Канцлер: Почему бы не поднести Его Величеству уг-\nощение,\nдабы смягчить его гнев?{WAIT_KEY}\nВ последнее время он питал слабость к вяленому\nмясу со специями."
+    "translation": "Канцлер: Почему бы не поднести Его Величеству\nугощение, дабы смягчить его гнев?{WAIT_KEY}В последнее время он питал слабость к вяленому\nмясу со специями."
   },
   {
     "id": 114,
@@ -705,7 +705,7 @@
     "id": 117,
     "original_en": "His Grace is deeply troubled by Princess Nadia.",
     "original_fr": "Le roi se fait beaucoup de souci pour la princesse\nMarledia.",
-    "translation": "Его Величество глубоко подавлен ссорой с Принцес-\nсой Надей."
+    "translation": "Его Величество глубоко подавлен ссорой с\nПринцессой Надей."
   },
   {
     "id": 118,
@@ -765,7 +765,7 @@
     "id": 127,
     "original_en": "The verdict is about to be handed down.\nThe Chancellor has ordered that no one be\nallowed to enter or leave.",
     "original_fr": "Le verdict sera rendu sous peu. Par ordre du\nchancelier, personne ne peut passer d'ici l{TAG:3C}.",
-    "translation": "Приговор вот-вот огласят.\nКанцлер приказал никого не впускать и не выпуска-\nть."
+    "translation": "Приговор вот-вот огласят. Канцлер приказал никого\nне впускать и не выпускать."
   },
   {
     "id": 128,
@@ -801,7 +801,7 @@
     "id": 133,
     "original_en": "It seems the real Chancellor was all right.\nHe sped off to the soldiers' quarters saying\nhe needed to make preparations for the parade.",
     "original_fr": "Le vrai chancelier est sain et sauf. Il est parti\norganiser le défilé au clair de lune dans la salle\ndes soldats.",
-    "translation": "Похоже, с настоящим Канцлером всё в полном поря-\nдке.\nОн вихрем умчался в казармы, твердя,\nчто ему нужно готовить парад."
+    "translation": "Похоже, с настоящим Канцлером всё в полном\nпорядке. Он вихрем умчался в казармы, твердя,\nчто ему нужно готовить парад."
   },
   {
     "id": 134,
@@ -825,7 +825,7 @@
     "id": 137,
     "original_en": "I'm Pierre, the lawyer.{WAIT_KEY}\nI've been planning the parade with the Chancellor.",
     "original_fr": "Je suis Pierre, l'avocat.{WAIT_KEY}\nJ'organise depuis longtemps le défilé au clair de lune\navec le chancelier.",
-    "translation": "Я Пьер, адвокат.{WAIT_KEY}\nМы как раз планировали парад вместе с Канцлеро-\nм."
+    "translation": "Я Пьер, адвокат.{WAIT_KEY}Мы как раз планировали парад вместе с\nКанцлером."
   },
   {
     "id": 138,
@@ -849,13 +849,13 @@
     "id": 141,
     "original_en": "This will be the kind of parade to make\nanyone feel like a kid again.",
     "original_fr": "C'est le genre de défilé qui nous ramène tous en\nenfance.",
-    "translation": "На этом параде всякий взрослый снова почувству-\nет себя ребёнком."
+    "translation": "На этом параде всякий взрослый снова\nпочувствует себя ребёнком."
   },
   {
     "id": 142,
     "original_en": "We'd best start with our Princess's fitness training!",
     "original_fr": "Il faut commencer par l'éducation physique !",
-    "translation": "Нам лучше всего начать с физподготовки Принцесс-\nы!"
+    "translation": "Нам лучше всего начать с физподготовки\nПринцессы!"
   },
   {
     "id": 143,
@@ -867,7 +867,7 @@
     "id": 144,
     "original_en": "No, the first thing we need to do is start all\nover with discipline!",
     "original_fr": "Que nenni ! Il faut d'abord inculquer la discipline !",
-    "translation": "Ничего подобного! Начать следует с железной дис-\nциплины!"
+    "translation": "Ничего подобного! Начать следует с железной\nдисциплины!"
   },
   {
     "id": 145,
@@ -885,7 +885,7 @@
     "id": 147,
     "original_en": "How could I not have seen that the Chancellor\nwas a beast?",
     "original_fr": "J'ai du mal {TAG:3C} croire que personne ne se soit aperçu que\nle chancelier était un monstre...",
-    "translation": "Как же я сразу не разглядел, что Канцлер был обо-\nротнем?!"
+    "translation": "Как же я сразу не разглядел, что Канцлер был\nоборотнем?!"
   },
   {
     "id": 148,
@@ -1041,7 +1041,7 @@
     "id": 173,
     "original_en": "The item inside is reacting to the pendant.\nRemove the item?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Il y a quelque chose {TAG:3C} l'intérieur qui luit {TAG:3C} l'approche du\npendentif. Voulez-vous le prendre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Предмет внутри реагирует на кулон.\nИзвлечь предмет?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Предмет внутри реагирует на кулон. Извлечь\nпредмет?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 174,

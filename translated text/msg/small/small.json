@@ -3,25 +3,25 @@
     "id": 0,
     "original_en": "/",
     "original_fr": "/",
-    "translation": ""
+    "translation": "/"
   },
   {
     "id": 1,
     "original_en": "+",
     "original_fr": "+",
-    "translation": ""
+    "translation": "+"
   },
   {
     "id": 2,
     "original_en": "-",
     "original_fr": "-",
-    "translation": ""
+    "translation": "-"
   },
   {
     "id": 3,
     "original_en": "DS",
     "original_fr": "DS",
-    "translation": ""
+    "translation": "DS"
   },
   {
     "id": 4,
@@ -105,43 +105,43 @@
     "id": 17,
     "original_en": "JPN",
     "original_fr": "ENG",
-    "translation": ""
+    "translation": "ЯПН"
   },
   {
     "id": 18,
     "original_en": "ENG",
     "original_fr": "FRA",
-    "translation": ""
+    "translation": "АНГ"
   },
   {
     "id": 19,
     "original_en": "JAPANESE",
     "original_fr": "ENGLISH",
-    "translation": ""
+    "translation": "ЯПОНСКИЙ"
   },
   {
     "id": 20,
     "original_en": "ENGLISH",
     "original_fr": "FRANÇAIS",
-    "translation": ""
+    "translation": "АНГЛИЙСКИЙ"
   },
   {
     "id": 21,
     "original_en": " ",
     "original_fr": "{GLYPH:339}",
-    "translation": ""
+    "translation": " "
   },
   {
     "id": 22,
     "original_en": "/",
     "original_fr": "/",
-    "translation": ""
+    "translation": "/"
   },
   {
     "id": 23,
     "original_en": ":",
     "original_fr": ":",
-    "translation": ""
+    "translation": ":"
   },
   {
     "id": 24,
@@ -159,7 +159,7 @@
     "id": 26,
     "original_en": "àà",
     "original_fr": "àà",
-    "translation": ""
+    "translation": "àà"
   },
   {
     "id": 27,
@@ -219,25 +219,25 @@
     "id": 36,
     "original_en": "???",
     "original_fr": "???",
-    "translation": ""
+    "translation": "???"
   },
   {
     "id": 37,
     "original_en": "---",
     "original_fr": "---",
-    "translation": ""
+    "translation": "---"
   },
   {
     "id": 38,
     "original_en": "(",
     "original_fr": "(",
-    "translation": ""
+    "translation": "("
   },
   {
     "id": 39,
     "original_en": ")",
     "original_fr": ")",
-    "translation": ""
+    "translation": ")"
   },
   {
     "id": 40,

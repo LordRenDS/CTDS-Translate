@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import fnmatch
 import os
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -571,6 +572,16 @@ def get_constraints_for_entry(
             patterns=(),
         )
 
+    if base_name == "ex_itemget.json":
+        return TextWindowPreset(
+            name="ex_itemget",
+            max_width_px=136,
+            max_lines=8,
+            reflow=True,
+            font_type="big",
+            patterns=(),
+        )
+
     if base_name == "tutorial.json":
         if entry_id == 12:
             return TextWindowPreset(
@@ -896,6 +907,34 @@ def get_constraints_for_entry(
                     reflow=False,
                     font_type="big",
                     patterns=(),
+                )
+
+    if entry_dict is not None and base_preset.name in ("dialogue", "status_tutorial"):
+        trans_or_orig = entry_dict.get("translation") or entry_dict.get("original_en") or ""
+        if "{GLYPH:394}" in trans_or_orig or "{GLYPH:396}" in trans_or_orig:
+            return TextWindowPreset(
+                name=f"{base_preset.name}_choice",
+                max_width_px=base_preset.max_width_px,
+                max_lines=4,
+                reflow=base_preset.reflow,
+                font_type=base_preset.font_type,
+                patterns=base_preset.patterns,
+            )
+        orig = entry_dict.get("original_en") or entry_dict.get("en") or ""
+        if orig:
+            orig_sps = re.split(r"\{WAIT_KEY\}|\{PAGE\}|\{GLYPH:407\}|\{GLYPH:408\}", orig)
+            en_max = max(
+                (len([l for l in sp.strip("\r\n").split("\n") if l.strip()]) for sp in orig_sps),
+                default=0,
+            )
+            if en_max >= 4:
+                return TextWindowPreset(
+                    name=f"{base_preset.name}_en{en_max}",
+                    max_width_px=base_preset.max_width_px,
+                    max_lines=en_max,
+                    reflow=base_preset.reflow,
+                    font_type=base_preset.font_type,
+                    patterns=base_preset.patterns,
                 )
 
     return base_preset

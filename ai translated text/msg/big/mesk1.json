@@ -33,7 +33,7 @@
     "id": 5,
     "original_en": "So, you want a doppel doll of {CRONO}?\nNormally I wouldn't give out another person's doll,\nbut today I'll make an exception. 40 Silver Points.{WAIT_KEY}\nI'll give you the doll even if you lose the game,\nbut it will cost you. The longer you stay in the\ngame, the lower my price will be.{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}Play the game.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Don't play the game.{GLYPH:397}",
     "original_fr": "Vous voulez une poupée clone de {CRONO} ?{WAIT_KEY}\nHabituellement, je ne fais de double que de la\npersonne qui me le demande, mais je ferai une\nexception aujourd'hui.{WAIT_KEY}\nCela vous co{TAG:63}tera 40 points d'argent.{WAIT_KEY}\nSi vous perdez, vous obtiendrez tout de même\nla poupée, mais vous devrez aussi me payer\nde l'argent. Le montant variera selon votre\nperformance.{WAIT_KEY}\n       {GLYPH:394}Je veux essayer !{GLYPH:395}\n       {GLYPH:396}Je n'en ai pas envie.{GLYPH:397}",
-    "translation": "Хотите куклу-двойника {CRONO}? Обычно я делаю\nкукол только заказчиков, но сделаю исключение. 40\nСеребряных очков.{WAIT_KEY}\nЯ отдам куклу, даже если проиграете, но это\nвлетит в копеечку. Чем дольше в игре, тем ниже\nбудет моя цена!{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}Сыграть.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Отказаться.{GLYPH:397}"
+    "translation": "Хотите куклу-двойника {CRONO}? Обычно я делаю\nкукол только заказчиков, но сделаю исключение. 40\nСеребряных очков.{WAIT_KEY}\nЯ отдам куклу, даже если проиграете, но это\nвлетит в копеечку. Чем дольше в игре, тем ниже\nбудет моя цена!{WAIT_KEY}{TAG:38}{TAG:38}{GLYPH:394}Сыграть.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отказаться.{GLYPH:397}"
   },
   {
     "id": 6,
@@ -327,19 +327,19 @@
     "id": 54,
     "original_en": "Melchior: The properties of this material are quite\nunique. I can craft armor from it that will dampen\nthe effects of magical attacks.{WAIT_KEY}\nI could make you one highly effective prismatic dress,\nor I could make three less effective prismatic helms.{WAIT_KEY}\nWhich would you prefer?\n{TAG:38}{TAG:38}{GLYPH:394}1 prismatic dress.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}3 prismatic helms.{GLYPH:397}",
     "original_fr": "Bosch : Ce matériau est exceptionnel. Les pièces\nd'équipement qui en seront fabriquées réduiront\nles dég{TAG:4A}ts infligés par les attaques magiques.{WAIT_KEY}\nUne robe irisée serait très efficace, mais je ne peux en\nfabriquer qu'une seule. Par contre, je pourrais fabriquer\ntrois armets irisés un peu moins efficaces.{WAIT_KEY}\nQu'allez-vous choisir ?\n       {GLYPH:394}Une robe irisée{GLYPH:395}\n       {GLYPH:396}Trois armets irisés{GLYPH:397}",
-    "translation": "Мельхиор: Свойства сего материала воистину\nуникальны! Я могу выковать из него доспех,\nсмягчающий силу магических атак.{WAIT_KEY}\nЯ могу создать отличное Радужное платье или же\nтри Радужных шлема послабее.{WAIT_KEY}\nЧто вы предпочтёте? {TAG:38}{TAG:38}{GLYPH:394}1 Радужное платье.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}3\nРадужных шлема.{GLYPH:397}"
+    "translation": "Мельхиор: Свойства сего материала воистину\nуникальны! Я могу выковать из него доспех,\nсмягчающий силу магических атак.{WAIT_KEY}\nЯ могу создать отличное Радужное платье или же\nтри Радужных шлема послабее.{WAIT_KEY}Что вы предпочтёте?\n{TAG:38}{TAG:38}{GLYPH:394}1 Радужное платье.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}3 Радужных шлема.{GLYPH:397}"
   },
   {
     "id": 55,
     "original_en": "Melchior: The prismatic dress? Are you certain?\nOnly women will be able to equip it.\n{TAG:38}{TAG:38}{GLYPH:394}Yes, I want the dress.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No, I've changed my mind.{GLYPH:397}",
     "original_fr": "Bosch : La robe irisée ? Seules les femmes pourront la\nporter. Cela vous convient ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Мельхиор: Радужное платье? Вы уверены? Надеть\nего смогут только женщины. {TAG:38}{TAG:38}{GLYPH:394}Да, куй платье.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет,\nя передумал.{GLYPH:397}"
+    "translation": "Мельхиор: Радужное платье? Вы уверены? Надеть\nего смогут только женщины.\n{TAG:38}{TAG:38}{GLYPH:394}Да, куй платье.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет, я передумал.{GLYPH:397}"
   },
   {
     "id": 56,
     "original_en": "Melchior: You want prismatic helms?\nYou're sure?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Bosch : Les armets irisés ? N'importe qui pourra s'en\néquiper. Cela vous convient ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Мельхиор: Желаете Радужные шлемы? Точно\nуверены? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Мельхиор: Желаете Радужные шлемы? Точно\nуверены?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 57,
@@ -387,7 +387,7 @@
     "id": 64,
     "original_en": "How many Silver Points would you like to spend?{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}10 Points.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}40 Points.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}80 Points.{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Just came to look.{GLYPH:401}",
     "original_fr": "Combien de points d'argent voulez-vous dépenser ?{WAIT_KEY}\n       {GLYPH:394}10 points{GLYPH:395}\n       {GLYPH:396}40 points{GLYPH:397}\n       {GLYPH:398}80 points{GLYPH:399}\n       {GLYPH:400}Annuler{GLYPH:401}",
-    "translation": "Сколько Серебряных очков хотите потратить?{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}10 очков.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}40 очков.{GLYPH:397} {TAG:38}{TAG:38}{GLYPH:398}80 очков.{GLYPH:399} {TAG:38}{TAG:38}{GLYPH:400}Я просто\nсмотрю.{GLYPH:401}"
+    "translation": "Сколько Серебряных очков хотите потратить?{WAIT_KEY}{TAG:38}{TAG:38}{GLYPH:394}10 очков.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}40 очков.{GLYPH:397}\n{TAG:38}{TAG:38}{GLYPH:398}80 очков.{GLYPH:399}\n{TAG:38}{TAG:38}{GLYPH:400}Я просто смотрю.{GLYPH:401}"
   },
   {
     "id": 65,
@@ -459,7 +459,7 @@
     "id": 76,
     "original_en": "Mimic what you see!\nL Button: Left arm{TAG:38}{TAG:38}®R Button: Right arm\nY Button: Laugh{TAG:38}{TAG:38}{TAG:38}{TAG:38}A Button: Surprise",
     "original_fr": "Imitez votre double !\nBouton L : main gauche{TAG:38}{TAG:7A}Bouton R : main droite\nBouton Y : rire{TAG:38}{TAG:38}{TAG:38}{TAG:38}{GLYPH:128}Bouton A : étonnement",
-    "translation": "Повторяйте движения! Кнопка L: Левая\nрука{TAG:38}{TAG:38}®Кнопка R: Правая рука Кнопка Y: Смех{TAG:38}{TAG:38}{TAG:38}{TAG:38}AКнопка\nA: Испуг"
+    "translation": "Повторяйте движения!\nКнопка L: Левая рука{TAG:38}{TAG:38}®Кнопка R: Правая рука\nКнопка Y: Смех{TAG:38}{TAG:38}{TAG:38}{TAG:38}Кнопка A: Испуг"
   },
   {
     "id": 77,

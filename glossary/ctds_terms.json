@@ -724,5 +724,15 @@
     "category": "npc",
     "gender": "m",
     "notes": "Male patron at table speaking about fair"
+  },
+  {
+    "source": "Confuse",
+    "ru": "Смятение",
+    "category": "status"
+  },
+  {
+    "source": "Blind",
+    "ru": "Слепота",
+    "category": "status"
   }
 ]

@@ -87,7 +87,7 @@
     "id": 14,
     "original_en": "{ROBO}: Offensive capabilities...incalculable!",
     "original_fr": "{ROBO} : Impossibilité de mesurer la puissance\nd'attaque ?!",
-    "translation": "{ROBO}: Боевой потенциал... не поддаётся исчислен-\nию!"
+    "translation": "{ROBO}: Боевой потенциал... не поддаётся\nисчислению!"
   },
   {
     "id": 15,
@@ -135,7 +135,7 @@
     "id": 22,
     "original_en": "{FROG}: {GLYPH:386}! Do you truly mean to do this?\n{TAG:38}{TAG:38}{GLYPH:394}Fight!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Flee for now.{GLYPH:397}",
     "original_fr": "{FROG} : Tu veux vraiment y aller, {GLYPH:386} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "{FROG}: {GLYPH:386}! Ты и впрямь намерен биться?\n{TAG:38}{TAG:38}{GLYPH:394}В бой!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Пока отступить.{GLYPH:397}"
+    "translation": "{FROG}: {GLYPH:386}! Ты готов к этой битве?\n{TAG:38}{TAG:38}{GLYPH:394}В бой!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Пока отступить.{GLYPH:397}"
   },
   {
     "id": 23,
@@ -147,7 +147,7 @@
     "id": 24,
     "original_en": "{MAGUS}: Hmph. You grow hesitant?\n{TAG:38}{TAG:38}{GLYPH:394}Fight!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Flee for now.{GLYPH:397}",
     "original_fr": "{MAGUS} : Hésitez-vous ? Qu'allez-vous faire ?\n       {GLYPH:394}Combattre !{GLYPH:395}\n       {GLYPH:396}Fuir !{GLYPH:397}",
-    "translation": "{MAGUS}: Хм. В твоём сердце поселился страх?\n{TAG:38}{TAG:38}{GLYPH:394}В бой!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Пока отступить.{GLYPH:397}"
+    "translation": "{MAGUS}: Хм. Ты струсил?\n{TAG:38}{TAG:38}{GLYPH:394}В бой!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Пока отступить.{GLYPH:397}"
   },
   {
     "id": 25,
@@ -369,7 +369,7 @@
     "id": 61,
     "original_en": "Director: Evacuate to the shelter dome!",
     "original_fr": "Directeur : Que tout le personnel se réfugie dans le\ndôme protecteur !",
-    "translation": "Директор: Всем немедленно эвакуироваться в спас-\nательный купол!"
+    "translation": "Директор: Всем немедленно эвакуироваться в\nспасательный купол!"
   },
   {
     "id": 62,
@@ -411,7 +411,7 @@
     "id": 68,
     "original_en": "{ROBO}: Unbelievable energy readings!\nIt is as if the total mental energy of all\nhumans who ever lived were being amplified!",
     "original_fr": "{ROBO} : Je n'ai jamais vu une telle énergie !\nÇa ressemble {TAG:3C} une force mentale humaine\namplifiée {TAG:3C} l'extrême !",
-    "translation": "{ROBO}: Невероятные показатели энергии!\nСловно совокупная ментальная мощь всех людей,\nкогда-либо живших на свете, многократно усилила-\nсь!"
+    "translation": "{ROBO}: Невероятные показатели энергии! Словно\nментальная мощь всех людей, когда-либо живших,\nмногократно усилилась!"
   },
   {
     "id": 69,
@@ -435,13 +435,13 @@
     "id": 72,
     "original_en": "{LUCCA}: Interdimensional travel at warp speed!",
     "original_fr": "{LUCCA} : Il traverse l'espace dimensionnel {TAG:3C} une\nvitesse phénoménale !",
-    "translation": "{LUCCA}: Межпространственный полёт на сверхскоро-\nсти!"
+    "translation": "{LUCCA}: Межпространственный полёт на\nсверхскорости!"
   },
   {
     "id": 73,
     "original_en": "{ROBO}: Even in my time, we did not have vehicles\ncapable of time travel!",
     "original_fr": "{ROBO} : Et dire qu'il n'y avait même pas de\nvéhicules spatio-temporels {TAG:3C} mon époque !",
-    "translation": "{ROBO}: Даже в мою эпоху не существовало аппара-\nтов,\nспособных перемещаться во времени!"
+    "translation": "{ROBO}: Даже в мою эпоху не существовало\nаппаратов, способных перемещаться во времени!"
   },
   {
     "id": 74,
@@ -483,7 +483,7 @@
     "id": 80,
     "original_en": "{FROG}: We must find {CRONO}, regardless of\nwhat fate may have befallen him.",
     "original_fr": "{FROG} : Allons chercher {CRONO}, qu'il soit mort\nou vivant...",
-    "translation": "{FROG}: Мы обязаны отыскать {CRONO}, какая бы уч-\nасть\nни постигла его."
+    "translation": "{FROG}: Мы обязаны отыскать {CRONO}, какая бы\nучасть ни постигла его."
   },
   {
     "id": 81,
@@ -537,7 +537,7 @@
     "id": 89,
     "original_en": "{ROBO}: It is enormous!\nI detect a tremendous amount of mental energy!",
     "original_fr": "{ROBO} : Il est gigantesque ! Il s'en dégage une\nimmense quantité d'énergie spirituelle !",
-    "translation": "{ROBO}: Колоссальные размеры!\nЯ регистрирую чудовищный объём ментальной энер-\nгии!"
+    "translation": "{ROBO}: Колоссальные размеры! Я регистрирую\nчудовищный объём ментальной энергии!"
   },
   {
     "id": 90,
@@ -627,13 +627,13 @@
     "id": 104,
     "original_en": "{MAGUS}: Have you even a reason to believe this\nmight succeed?",
     "original_fr": "{MAGUS} : ätes-vous certains que cela\nfonctionnera ?",
-    "translation": "{MAGUS}: У вас есть хоть одна веская причина полаг-\nать,\nчто эта безумная затея увенчается успехом?"
+    "translation": "{MAGUS}: У вас есть хоть одна веская причина\nполагать, что эта безумная затея увенчается\nуспехом?"
   },
   {
     "id": 105,
     "original_en": "{MAGUS}: I suppose our odds of defeating him\nin open combat are no greater.",
     "original_fr": "{MAGUS} : Nous n'avons aucune chance en\ncombattant Lavos directement...",
-    "translation": "{MAGUS}: Впрочем, наши шансы одолеть его в откры-\nтом бою\nничуть не выше."
+    "translation": "{MAGUS}: Впрочем, наши шансы одолеть его в\nоткрытом бою ничуть не выше."
   },
   {
     "id": 106,
@@ -687,7 +687,7 @@
     "id": 114,
     "original_en": "{ROBO}: I am unable to ascertain any other plan\nwith a higher chance of success.",
     "original_fr": "{ROBO} : Nous n'avons certainement aucune autre\nchance de réussir.",
-    "translation": "{ROBO}: Мне не удаётся найти иного плана\nс более высокой вероятностью благополучного исх-\nода."
+    "translation": "{ROBO}: Мне не удаётся найти иного плана с более\nвысокой вероятностью благополучного исхода."
   },
   {
     "id": 115,
@@ -921,25 +921,25 @@
     "id": 153,
     "original_en": "{LUCCA}: Now I understand.{WAIT_KEY}\nIt lives on a planet for as long as possible,\nselecting the most desirable life forms, allowing\nthem to advance and then harvesting their DNA.{WAIT_KEY}\nThe young it gave birth to on Death Peak must\nhave all of that DNA. Eventually they'll migrate\nto other planets, and repeat the cycle.",
     "original_fr": "{LUCCA} : J'ai compris quel est son objectif...{WAIT_KEY}\nC'est un parasite. Pendant des millions d'années, il\nchoisit avec soin et accumule les meilleurs éléments\ndes êtres vivants d'une planète...{WAIT_KEY}\nIl engendre ensuite des larves portant ces gènes sur le\nmont des défunts, puis se rend vers une autre planète...",
-    "translation": "{LUCCA}: Теперь я всё поняла.{WAIT_KEY}\nОн паразитирует на планете столько, сколько воз-\nможно,\nотбирая самые жизнеспособные организмы, позвол-\nяя им\nэволюционировать, а затем пожинает их ДНК.{WAIT_KEY}\nПотомство, порождённое им на Пике Смерти,\nнесёт в себе весь этот генетический материал. Ра-\nно\nили поздно они улетят на другие планеты и повто-\nрят цикл."
+    "translation": "{LUCCA}: Теперь я всё поняла.{WAIT_KEY}Он паразитирует на планете, отбирая самые\nжизнеспособные организмы, давая им развиваться,\nа затем пожинает их ДНК.{WAIT_KEY}Потомство на Пике Смерти несёт в себе весь этот\nматериал. Рано или поздно они улетят на другие\nпланеты и повторят цикл."
   },
   {
     "id": 154,
     "original_en": "{ROBO}: That was Lavos's goal!{WAIT_KEY}\nStoring and analyzing the genetic code of every\ncreature on the planet...{WAIT_KEY}\nHe aimed to use it all to induce self-evolution into\nthe ultimate form of life!",
     "original_fr": "{ROBO} : C'était donc l'objectif de Lavos...!{WAIT_KEY}\nIl voulait obtenir une copie des gènes de tous les êtres\nvivants de la planète...{WAIT_KEY}\nEt ce, pour pouvoir évoluer lui-même !",
-    "translation": "{ROBO}: Так вот какова была цель Лавоса!{WAIT_KEY}\nНакапливать и расшифровывать генетический код\nкаждого\nсущества на планете...{WAIT_KEY}\nОн стремился использовать всё это, чтобы вызва-\nть\nсамоэволюцию в совершенную форму жизни!"
+    "translation": "{ROBO}: Так вот какова была цель Лавоса!{WAIT_KEY}Накапливать и расшифровывать генетический код\nкаждого существа на планете...{WAIT_KEY}Он стремился использовать всё это, чтобы\nвызвать самоэволюцию в совершенную форму\nжизни!"
   },
   {
     "id": 155,
     "original_en": "{FROG}: What manner of evil is this?{WAIT_KEY}\nIt looks to possess the strength of every bird\nand beast ever to have lived upon this earth.\nThat must be the reason it is here!{WAIT_KEY}\nYes! And in its sleep, it hoarded what it\ngleaned from all our progress!",
     "original_fr": "{FROG} : Qu'est-ce qui se passe...?!{WAIT_KEY}\nUn instant, ne me dites pas qu'il a les pouvoirs de tous\nles êtres vivants...?{WAIT_KEY}\nJe vois ! Il a donc accumulé pendant son sommeil les\ngènes de tous les habitants de la planète...!",
-    "translation": "{FROG}: Что за немыслимое злодейство?{WAIT_KEY}\nПохоже, в нём заключена сила всякой птицы и звер-\nя,\nкогда-либо ходивших по этой земле.\nВот ради чего он здесь пребывал!{WAIT_KEY}\nДа! И всё это время, пока он спал, он жадно крал\nплоды\nнашего общего развития!"
+    "translation": "{FROG}: Что за немыслимое злодейство?{WAIT_KEY}Похоже, в нём заключена сила всякой птицы и\nзверя, когда-либо ходивших по этой земле. Вот\nради чего он здесь пребывал!{WAIT_KEY}Да! И всё это время, пока он спал, он жадно крал\nплоды нашего общего развития!"
   },
   {
     "id": 156,
     "original_en": "{MAGUS}: ...{WAIT_KEY}\nSo... Since the dawn of time, it has slept\nunderground, guiding the evolution of this\nplanet's life toward its own foul purpose.",
     "original_fr": "{MAGUS} : ...{WAIT_KEY}\nIl a dormi sous le sol, faisant sienne l'évolution de tous\nles êtres vivants de cette planète depuis l'aube des\ntemps...",
-    "translation": "{MAGUS}: ...{WAIT_KEY}\nЗначит... С незапамятных времён он спал под земл-\nёй,\nнаправляя эволюцию всей жизни планеты к своей\nсобственной\nгнусной цели."
+    "translation": "{MAGUS}: ...{WAIT_KEY}Значит... С незапамятных времён он спал под\nземлёй, направляя эволюцию всей жизни планеты к\nсвоей собственной гнусной цели."
   },
   {
     "id": 157,
@@ -957,7 +957,7 @@
     "id": 159,
     "original_en": "{MARLE}: This thing is the reason we're all here?",
     "original_fr": "{MARLE} : On aurait vécu pour lui ?!",
-    "translation": "{MARLE}: И из-за этого чудовища мы все здесь оказ-\nались?"
+    "translation": "{MARLE}: И из-за этого чудовища мы все здесь\nоказались?"
   },
   {
     "id": 160,
@@ -981,7 +981,7 @@
     "id": 163,
     "original_en": "{AYLA}: {AYLA} no run!\nHate lose, hate run more!",
     "original_fr": "{AYLA} : {AYLA} pas fuir ! {AYLA} détester\nfuir plus que perdre !",
-    "translation": "{AYLA}: {AYLA} не бежать!\nНенавидеть проигрыш, бежать ненавидеть ещё бол-\nьше!"
+    "translation": "{AYLA}: {AYLA} не бежать! Ненавидеть проигрыш,\nбежать ненавидеть ещё больше!"
   },
   {
     "id": 164,
@@ -1077,13 +1077,13 @@
     "id": 179,
     "original_en": "{LUCCA}: Hey, look at the time-space monitor!\nIt looks like something's happening in other ages, too!",
     "original_fr": "{LUCCA} : Regardez le moniteur spatio-temporel !\nOn dirait que quelque chose se produit aussi aux\nautres époques.",
-    "translation": "{LUCCA}: Эй, взгляните на монитор пространства-вр-\nемени!\nПохоже, в других эпохах тоже что-то происходит!"
+    "translation": "{LUCCA}: Эй, взгляните на монитор\nпространства-времени! Похоже, в других эпохах\nтоже что-то происходит!"
   },
   {
     "id": 180,
     "original_en": "{ROBO}: Look at the {EPOCH}'s time-space\nmonitor! There is activity in other ages as well.",
     "original_fr": "{ROBO} : Regardez le moniteur spatio-temporel du\n{EPOCH} ! On dirait que quelque chose se produit\naussi aux autres époques.",
-    "translation": "{ROBO}: Взгляните на пространственно-временной\nмонитор\n{EPOCH}! В других эпохах также зафиксирована акт-\nивность."
+    "translation": "{ROBO}: Взгляните на пространственно-временной\nмонитор {EPOCH}! В других эпохах также\nзафиксирована активность."
   },
   {
     "id": 181,
@@ -1107,13 +1107,13 @@
     "id": 184,
     "original_en": "{ROBO}: The space-time balance appears to be\nslipping off its axes.",
     "original_fr": "{ROBO} : Il semble que l'équilibre du temps\ncommence {TAG:3C} se rompre.",
-    "translation": "{ROBO}: Баланс пространства и времени, по-видим-\nому,\nсмещается со своих осей."
+    "translation": "{ROBO}: Баланс пространства и времени,\nпо-видимому, смещается со своих осей."
   },
   {
     "id": 185,
     "original_en": "{MAGUS}: Is Lavos's hand in this as well?",
     "original_fr": "{MAGUS} : Est-ce encore une manigance de Lavos ?",
-    "translation": "{MAGUS}: Неужели и здесь не обошлось без руки Лаво-\nса?"
+    "translation": "{MAGUS}: Неужели и здесь не обошлось без руки\nЛавоса?"
   },
   {
     "id": 186,

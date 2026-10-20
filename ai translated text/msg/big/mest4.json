@@ -15,7 +15,7 @@
     "id": 2,
     "original_en": "Soldier: I've not seen your face before.\nAnd those outlandish clothes! Wouldn't be\none of the Fiendlord's agents, would we?{WAIT_KEY}\nSoldier: Ha! Fat chance. Look at him!\nThat boy's not built to lift a sword,\nlet alone serve in the Fiendlord's army.{WAIT_KEY}\nSoldier: Heh. Suppose you're right.\nNow run along, boy, before we're forced\nto lock you up in the towers!{WAIT_KEY}\nWoman's Voice: Stop that at once!",
     "original_fr": "Soldat : D'où tu viens, toi ? Ta tête me revient pas !\nQuel accoutrement ridicule ! On te prendrait presque\npour un soldat de l'armée du Magistère...{WAIT_KEY}\nSoldat : ... S'il était pas aussi chétif !{WAIT_KEY}\nSoldat : Allez, déguerpis ! Si on te voit tra¡ner dans le\ncoin, on te jette au cachot !{WAIT_KEY}\nAssez !",
-    "translation": "Стражник: Я раньше не видел твоего лица.\nДа и эти нелепые лохмотья! Уж не лазутчик ли\nты Владыки мистиков?{WAIT_KEY}\nСтражник: Ха! Да брось. Ты только погляди на него!\nЭтот сопляк и меч-то едва поднимет, куда ему\nслужить в войске Владыки мистиков!{WAIT_KEY}\nСтражник: Хех. Пожалуй, ты прав.\nА ну проваливай отсюда, малец, пока мы не запер-\nли\nтебя в темнице замка!{WAIT_KEY}\nЖенский голос: Немедленно прекратите!"
+    "translation": "Стражник: Я раньше не видел твоего лица. Да и эти\nнелепые лохмотья! Уж не лазутчик ли ты Владыки\nмистиков?{WAIT_KEY}Стражник: Ха! Да брось. Ты только погляди на него!\nЭтот сопляк и меч-то едва поднимет, куда ему\nслужить в войске Владыки мистиков!{WAIT_KEY}Стражник: Хех. Пожалуй, ты прав. А ну проваливай\nотсюда, малец, пока мы не заперли тебя в темнице\nзамка!{WAIT_KEY}Женский голос: Немедленно прекратите!"
   },
   {
     "id": 3,
@@ -57,13 +57,13 @@
     "id": 9,
     "original_en": "Please pardon us.\nWe'd no idea you were Her Majesty's guest.",
     "original_fr": "Veuillez pardonner notre impolitesse. Nous ne pouvions\npas deviner que vous étiez l'invité de la reine.",
-    "translation": "Простите нас, пожалуйста.\nМы и подумать не могли, что вы гость Её Величест-\nва."
+    "translation": "Простите нас, пожалуйста. Мы и подумать не\nмогли, что вы гость Её Величества."
   },
   {
     "id": 10,
     "original_en": "I envy you, to be favored by the Queen.",
     "original_fr": "Vous avez de la chance, il n'est pas donné {TAG:3C} tout le\nmonde de côtoyer la reine.",
-    "translation": "Завидую я тебе — удостоиться такой милости Кор-\nолевы!"
+    "translation": "Завидую я тебе — удостоиться такой милости\nКоролевы!"
   },
   {
     "id": 11,
@@ -81,7 +81,7 @@
     "id": 13,
     "original_en": "King: I am to understand that you played some\nrole in helping to rescue my lady wife.\nI owe you a debt of gratitude.{WAIT_KEY}\nMight you know what befell Leene?\nShe has been acting rather oddly since her return.{WAIT_KEY}\nAnd she seems to have lost the coral hairpin she\nalways wore. She always treasured that thing so.{WAIT_KEY}\nForgive me, you must be tired. Please, rest in the\nknights' quarters down the stairs to the left.\nI'll speak to the Commander.",
     "original_fr": "Roi : Oh, vous êtes celui qui a aidé Lynne lors de sa\nmésaventure ? Je vous remercie du fond du c{TAG:61}ur.{WAIT_KEY}\nMais que lui est-il arrivé ? Elle a l'air différente.{WAIT_KEY}\nIl semble même qu'elle a perdu la barrette en corail\nqu'elle porte toujours dans ses cheveux. Elle qui y\ntenait tellement...{WAIT_KEY}\nAh, pardonnez-moi, vous devez être fatigué. Allez donc\nvous reposer dans la salle des chevaliers au sous-sol,\n{TAG:3C} gauche. Je parlerai de vous au capitaine.",
-    "translation": "Король: Насколько мне известно, ты сыграл не посл-\nеднюю\nроль в спасении моей дражайшей супруги.\nЯ искренне благодарен тебе.{WAIT_KEY}\nБыть может, тебе ведомо, что приключилось с Лин-\nой?\nС момента своего возвращения она ведёт себя\nвесьма странно.{WAIT_KEY}\nК тому же куда-то пропала её коралловая заколка,\nкоторую она всегда носила и которой так\nдорожила.{WAIT_KEY}\nВпрочем, прости мою болтовню, ты наверняка уст-\nал.\nОтдохни в покоях рыцарей вниз по лестнице налев-\nо.\nА я пока потолкую с Командующим."
+    "translation": "Король: Насколько мне известно, ты сыграл не\nпоследнюю роль в спасении моей дражайшей\nсупруги. Я искренне благодарен тебе.{WAIT_KEY}Быть может, тебе ведомо, что приключилось с\nЛиной? С момента своего возвращения она ведёт\nсебя весьма странно.{WAIT_KEY}К тому же куда-то пропала её коралловая заколка,\nкоторую она всегда носила и которой так\nдорожила.{WAIT_KEY}Впрочем, прости мою болтовню, ты наверняка\nустал. Отдохни в покоях рыцарей вниз по лестнице\nналево. А я пока потолкую с Командующим."
   },
   {
     "id": 14,
@@ -123,13 +123,13 @@
     "id": 20,
     "original_en": "You're the one who saved our Queen?\nI'd expected one a bit more...dashing.",
     "original_fr": "Oh, alors c'est vous qui avez porté secours {TAG:3C} la reine ?\nVous n'avez pourtant pas l'air de pouvoir aider qui que\nce soit.",
-    "translation": "Так это ты спас нашу Королеву?\nЯ-то ожидал увидеть кого-то... более представите-\nльного."
+    "translation": "Так это ты спас нашу Королеву? Я-то ожидал\nувидеть кого-то... более представительного."
   },
   {
     "id": 21,
     "original_en": "It's been over ten years since Her Majesty first\ncame to this castle, but she's scarce aged a day.{WAIT_KEY}\nIn fact, she looks even younger now than she did\nbefore her disappearance!",
     "original_fr": "La reine a épousé le roi il y a une dizaine d'années...\nElle para¡t aussi jeune maintenant qu'{TAG:3C} l'époque.{WAIT_KEY}\nD'ailleurs, depuis son retour, on dirait qu'elle a même\nrajeuni...",
-    "translation": "Прошло уже более десяти лет с тех пор, как Её Вел-\nичество\nвпервые переступила порог этого замка, но годы\nсловно не властны над ней.{WAIT_KEY}\nСказать по правде, сейчас она выглядит даже мо-\nложе,\nчем до своего таинственного исчезновения!"
+    "translation": "Прошло уже более десяти лет с тех пор, как Её\nВеличество впервые переступила порог этого\nзамка, но годы словно не властны над ней.{WAIT_KEY}Сказать по правде, сейчас она выглядит даже\nмоложе, чем до своего таинственного исчезновения!"
   },
   {
     "id": 22,
@@ -183,7 +183,7 @@
     "id": 30,
     "original_en": "{MARLE}: We were only together for that short time\nat the fair, but somehow I knew you'd come for me.",
     "original_fr": "{MARLE} : Nous venons {TAG:3C} peine de nous rencontrer,\nmais tu es venu me chercher.",
-    "translation": "{MARLE}: Хоть мы и провели вместе совсем немного\nвремени\nна ярмарке, я почему-то знала, что ты придёшь за\nмной."
+    "translation": "{MARLE}: Хоть мы и провели совсем мало времени\nна ярмарке, я знала, что ты придёшь за мной."
   },
   {
     "id": 31,
@@ -219,7 +219,7 @@
     "id": 36,
     "original_en": "By the way, did Her Majesty seem somehow...not\nherself?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Dites, vous ne trouvez pas que la reine se comporte\nétrangement ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Кстати говоря, вам не показалось, что Её Величес-\nтво\nсама не своя?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Кстати говоря, вам не показалось, что\nЕё Величество сама не своя?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 37,
@@ -231,7 +231,7 @@
     "id": 38,
     "original_en": "Truly? Perhaps I worry overmuch.",
     "original_fr": "Ah bon...",
-    "translation": "Неужто показалось? Должно быть, я просто чересч-\nур\nмнительна."
+    "translation": "Неужто показалось? Должно быть, я просто\nчересчур мнительна."
   },
   {
     "id": 39,
@@ -243,7 +243,7 @@
     "id": 40,
     "original_en": "You didn't engage in any...untoward behavior, did you?\n{TAG:38}{TAG:38}{GLYPH:394}Of course not!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Well...yes.{GLYPH:397}",
     "original_fr": "Ne me dites pas que...\n       {GLYPH:394}Bien s{TAG:63}r que non !{GLYPH:395}\n       {GLYPH:396}Si...{GLYPH:397}",
-    "translation": "Вы ведь не позволили себе никаких... непристойных\nвольностей, правда?\n{TAG:38}{TAG:38}{GLYPH:394}Конечно же нет!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ну... вообще-то да.{GLYPH:397}"
+    "translation": "Вы ведь не вели себя... неподобающе?\n{TAG:38}{TAG:38}{GLYPH:394}Конечно же нет!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ну... вообще-то да.{GLYPH:397}"
   },
   {
     "id": 41,
@@ -255,7 +255,7 @@
     "id": 42,
     "original_en": "Oh, my! Speak of this to no one, or there will be\nterrible consequences. I've not heard a thing!",
     "original_fr": "Oh ! Si on venait {TAG:3C} le savoir, ce serait terrible !\nJe ferai comme si je n'avais rien entendu !",
-    "translation": "О боги! Никому ни словечка об этом, иначе быть бе-\nде!\nЯ ничего от вас не слышала!"
+    "translation": "О боги! Никому ни словечка об этом, иначе быть\nбеде! Я ничего от вас не слышала!"
   },
   {
     "id": 43,
@@ -285,7 +285,7 @@
     "id": 47,
     "original_en": "This dining hall is for members of the knighthood,\nbut you're welcome at our tables.\nEat your fill before you go!",
     "original_fr": "Ici, c'est la salle {TAG:3C} manger des soldats. Asseyez-vous\net grignotez quelque chose, vous aussi.",
-    "translation": "Эта трапезная предназначена для рыцарей орден-\nа,\nно мы рады приветствовать вас за нашими стола-\nми.\nПодкрепитесь как следует перед дорогой!"
+    "translation": "Трапезная предназначена для рыцарей ордена,\nно мы рады приветствовать вас за столом.\nПодкрепитесь как следует перед дорогой!"
   },
   {
     "id": 48,
@@ -345,7 +345,7 @@
     "id": 57,
     "original_en": "Oh... What in the name of all that's good is this\n\"eyes cream\" that Her Majesty so wishes I prepare?",
     "original_fr": "Mais que peuvent bien être ces {TAG:64} crêpes {TAG:65} que la reine\nveut manger ?",
-    "translation": "Ох... Что во имя всех святых за «мо-ро-же-но-е»\nтакое,\nкоторое Её Величество так настойчиво требовала\nприготовить?"
+    "translation": "Ох... Что за «мороженое» такое во имя святых,\nкоторое Её Величество требовала приготовить?"
   },
   {
     "id": 58,
@@ -363,7 +363,7 @@
     "id": 60,
     "original_en": "Commander: My men and I risk our lives in this war!\nIs it so much to ask that you keep us fed?\nQuickly, now!",
     "original_fr": "Capitaine : Nous risquons nos vies {TAG:3C} combattre !\nDépêchez-vous de nous apporter notre d¡ner !",
-    "translation": "Командующий: Мы с воинами рискуем жизнями в эт-\nой войне!\nНеужели так трудно вовремя накормить солдат?!\nПошевеливайтесь!"
+    "translation": "Командующий: Мы с воинами рискуем жизнями в\nэтой войне! Неужели так трудно вовремя накормить\nсолдат?! Пошевеливайтесь!"
   },
   {
     "id": 61,
@@ -417,7 +417,7 @@
     "id": 69,
     "original_en": "Zenan Bridge is our last line of defense.\nIt must hold, even should it mean our lives!",
     "original_fr": "Le pont de Zénan est notre dernière ligne de défense.\nNous devons le défendre {TAG:3C} tout prix !",
-    "translation": "Мост Зенан — наш последний рубеж обороны.\nМы обязаны удержать его, пусть даже ценой жизн-\nей!"
+    "translation": "Мост Зенан — наш последний рубеж обороны. Мы\nобязаны удержать его, пусть даже ценой жизней!"
   },
   {
     "id": 70,
@@ -465,7 +465,7 @@
     "id": 77,
     "original_en": "Sir Cyrus was Commander of the knighthood, sworn\nto protect the King and Queen with his own blade.{WAIT_KEY}\nTen years ago, he and a lone friend departed on a\nquest, and no one has heard from them since.",
     "original_fr": "Sire Cyrus était le capitaine des chevaliers.\nIl protégeait toujours lui-même le roi et la reine...{WAIT_KEY}\nCependant, il y a près de dix ans, il a quitté le ch{TAG:4A}teau\navec un ami et personne ne l'a revu depuis.",
-    "translation": "Сэр Сайрус был Командующим рыцарей, поклявшим-\nся\nзащищать Короля и Королеву ценой жизни.{WAIT_KEY}\nДесять лет назад он вместе с верным другом отп-\nравился\nв поход, и с тех пор о них никто ничего не слышал."
+    "translation": "Сэр Сайрус был Командующим рыцарей,\nпоклявшимся защищать Короля и Королеву ценой\nжизни.{WAIT_KEY}Десять лет назад он вместе с верным другом\nотправился в поход, и с тех пор о них никто ничего\nне слышал."
   },
   {
     "id": 78,
@@ -495,13 +495,13 @@
     "id": 82,
     "original_en": "Just between you and I, the Chancellor has been\nacting strangely these days. I've spied him sneaking\nout of the castle time and time again.",
     "original_fr": "Entre vous et moi, il y a quelque chose d'étrange chez\nle chancelier, ces derniers temps. Il para¡t qu'il sort\nsouvent furtivement du ch{TAG:4A}teau...",
-    "translation": "Только между нами: Канцлер в последнее время ве-\nдёт\nсебя очень странно. Я не раз видел, как он тайком\nвыскальзывал из замка под покровом сумерек."
+    "translation": "Между нами: Канцлер в последнее время ведёт\nсебя очень странно. Я не раз видел, как он\nтайком покидал замок под покровом сумерек."
   },
   {
     "id": 83,
     "original_en": "The only thing I've noticed out of the ordinary\nas of late is that the Queen's personal guard,\nthat froggish creature, has not been around.{WAIT_KEY}\nThey say a curse turned him into a frog, but I\nquestion the truth of that. No doubt he's been\none of the Fiendlord's spies all along!",
     "original_fr": "En parlant de choses bizarres, il y a longtemps qu'on\nn'a pas vu le garde du corps de la reine, cet homme\n{TAG:3C} l'apparence d'une grenouille.{WAIT_KEY}\nOn dit que c'est un mauvais sort qui l'a changé en\nbatracien il y a des années, mais j'ai du mal {TAG:3C} croire\nune histoire pareille. Il était peut-être un espion du\nMagistère...",
-    "translation": "Единственная странность за последнее время —\nисчезновение личного телохранителя Королевы,\nтого лягушкоподобного создания.{WAIT_KEY}\nБолтают, будто злое проклятие обратило его в жа-\nбу,\nно я в эти сказки не верю. Наверняка он всё это\nвремя был шпионом Владыки мистиков!"
+    "translation": "Единственная странность за последнее время —\nисчезновение личного телохранителя Королевы,\nтого лягушкоподобного создания.{WAIT_KEY}Болтают, будто злое проклятие обратило его в\nжабу, но я в эти сказки не верю. Наверняка он всё\nэто время был шпионом Владыки мистиков!"
   },
   {
     "id": 84,
@@ -573,7 +573,7 @@
     "id": 95,
     "original_en": "King: You cannot know how I worried, Leene.",
     "original_fr": "Roi de Gardia : J'étais inquiet, Lynne.",
-    "translation": "Король: Ты не представляешь, как я извёлся от тр-\nевоги,\nЛина."
+    "translation": "Король: Ты не представляешь, как я извёлся от\nтревоги, Лина."
   },
   {
     "id": 96,
@@ -657,13 +657,13 @@
     "id": 109,
     "original_en": "{MARLE}: My name is really Nadia.\nMy father's King Guardia XXXIII.{WAIT_KEY}\nI just wanted to go to the fair and have fun\nlike everyone else! But if you'd known who I\nreally was...",
     "original_fr": "{MARLE} : Je m'appelle Marledia. Mon père est le roi\nGardia XXXIII...{WAIT_KEY}\nJ'enviais les autres filles de pouvoir aller s'amuser {TAG:3C} la\nfoire en compagnie de garçons.",
-    "translation": "{MARLE}: Моё настоящее имя — Надя.\nМой отец — король Гардия XXXIII.{WAIT_KEY}\nМне просто хотелось пойти на ярмарку и повеселит-\nься,\nкак обычной девчонке! Но если бы ты знал, кто я..."
+    "translation": "{MARLE}: Моё настоящее имя — Надя. Мой отец —\nкороль Гардия XXXIII.{WAIT_KEY}Мне просто хотелось пойти на ярмарку и\nповеселиться, как обычной девчонке! Но если бы ты\nзнал, кто я..."
   },
   {
     "id": 110,
     "original_en": "{MARLE}: You wouldn't have shown me around\nthe fair, would you {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Probably not.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Yes, I would have.{GLYPH:397}",
     "original_fr": "{MARLE} : Tu aurais refusé de m'accompagner si tu\navais su qui je suis, n'est-ce pas ?\n       {GLYPH:394}Probablement...{GLYPH:395}\n       {GLYPH:396}Pas du tout !{GLYPH:397}",
-    "translation": "{MARLE}: Ты ведь не стал бы гулять со мной по ярма-\nрке,\nправда, {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Пожалуй, нет.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Всё равно стал бы.{GLYPH:397}"
+    "translation": "{MARLE}: Ты ведь не стал бы гулять со мной\nпо ярмарке, правда, {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Вряд ли.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Всё равно стал бы.{GLYPH:397}"
   },
   {
     "id": 111,
@@ -687,31 +687,31 @@
     "id": 114,
     "original_en": "Chancellor: Yakra... That vile beast!\nImpersonating me and kidnapping the Queen!{WAIT_KEY}\nWe must institute a stricter criminal justice system\nin this kingdom to ensure such fiends never threaten\nthe royal family's safety again.",
     "original_fr": "Chancelier : Ce Yakra de malheur ! Comment a-t-il pu me\nremplacer et enlever Sa Majesté...?{WAIT_KEY}\nNotre royaume doit {TAG:3C} tout prix construire un tribunal et\nune prison afin de juger ce genre de criminels !",
-    "translation": "Канцлер: Якра... Мерзкое отродье!\nПрикинуться мной и похитить Королеву!{WAIT_KEY}\nМы обязаны ужесточить уголовное правосудие\nв королевстве, дабы подобные твари впредь никог-\nда\nне угрожали венценосной семье."
+    "translation": "Канцлер: Якра... Мерзкое отродье! Прикинуться мной\nи похитить Королеву!{WAIT_KEY}Мы обязаны ужесточить уголовное правосудие в\nкоролевстве, дабы подобные твари впредь\nникогда не угрожали венценосной семье."
   },
   {
     "id": 115,
     "original_en": "Chancellor: My, you could be Queen Leene's twin!",
     "original_fr": "Oh, cette jeune fille est le portrait de Sa Majesté !",
-    "translation": "Канцлер: Батюшки, да вы же вылитая Королева Ли-\nна!"
+    "translation": "Канцлер: Батюшки, да вы же вылитая Королева\nЛина!"
   },
   {
     "id": 116,
     "original_en": "King: You have my deepest gratitude, Lord {CRONO}.\nBut I wonder... Who, then, was that girl we found in\nthe canyon?",
     "original_fr": "Je vous remercie, sire {CRONO}. Cependant, qui est\ndonc la jeune fille qui a été trouvée sur le mont de\nTruce ?",
-    "translation": "Король: Прими мою глубочайшую благодарность, ло-\nрд {CRONO}.\nНо мне всё же любопытно... Кем же была та дева,\nнайденная нами в каньоне?"
+    "translation": "Король: Прими мою глубочайшую благодарность,\nлорд {CRONO}. Но мне всё же любопытно... Кем же\nбыла та дева, найденная нами в каньоне?"
   },
   {
     "id": 117,
     "original_en": "King: Ah, good! You are safe.\nEven to look again now, you are the ghostly image\nof Leene. Your manner, on the other hand...{WAIT_KEY}\nWell, never us mind that.\nYou've done me a great service.\nIf there is aught I might do for you,\nsimply speak it and it will be done.",
     "original_fr": "Je suis heureux de vous voir saine et sauve.\nVous ressemblez {TAG:3C} Lynne, certes, mais votre\npersonnalité est complètement différente...{WAIT_KEY}\nQuoi qu'il en soit, je vous suis tous redevable. Si un jour\nvous en avez besoin, je vous offrirai mon aide.",
-    "translation": "Король: Ах, как славно! Ты невредима.\nДаже сейчас, глядя на тебя, я вижу точнейший обр-\nаз\nЛины. Хотя твои манеры, с другой стороны...{WAIT_KEY}\nВпрочем, пустое.\nТы оказала мне величайшую услугу.\nКоли я могу сделать что-то для тебя — лишь скаж-\nи,\nи всё будет исполнено."
+    "translation": "Король: Ах, как славно! Ты невредима. Даже сейчас,\nглядя на тебя, я вижу точнейший образ Лины. Хотя\nтвои манеры, с другой стороны...{WAIT_KEY}Впрочем, пустое. Ты оказала мне величайшую\nуслугу. Коли я могу сделать что-то для тебя —\nлишь скажи, и всё будет исполнено."
   },
   {
     "id": 118,
     "original_en": "{MARLE}: You must be the real Queen Leene!",
     "original_fr": "{MARLE} : Alors, c'est vous, la vraie Lynne ?",
-    "translation": "{MARLE}: Вы, должно быть, настоящая Королева Лин-\nа!"
+    "translation": "{MARLE}: Вы, должно быть, настоящая Королева\nЛина!"
   },
   {
     "id": 119,
@@ -813,7 +813,7 @@
     "id": 135,
     "original_en": "King: I see. So, you wish for me to safeguard the shell\nyou found on that island within the castle for future\ngenerations.",
     "original_fr": "Roi de Gardia : Je vois. Vous voulez que je garde\nl'énorme coquillage qui est sur cette ¡le pour les\ngénérations futures ?",
-    "translation": "Король: Понимаю. Значит, вы просите меня сохрани-\nть\nнайденную вами на том острове раковину в сокров-\nищнице\nзамка для будущих поколений."
+    "translation": "Король: Понимаю. Значит, вы просите меня сберечь\nнайденную вами на том острове раковину в нашей\nсокровищнице для будущих поколений."
   },
   {
     "id": 136,
@@ -903,7 +903,7 @@
     "id": 150,
     "original_en": "Chancellor: Lord {CRONO}! The great Hero has\nappeared, from the very pages of legend!{WAIT_KEY}\nHe arrived not long ago, then left to meet the King.",
     "original_fr": "Oh, sire {CRONO} ! Le héros légendaire est enfin\napparu !{WAIT_KEY}\nIl vient tout juste de passer par ici pour aller voir le roi.",
-    "translation": "Канцлер: Лорд {CRONO}! Великий Герой из древних\nсказаний явился наяву!{WAIT_KEY}\nОн прибыл совсем недавно и пошёл на приём к Коро-\nлю."
+    "translation": "Канцлер: Лорд {CRONO}! Великий Герой из древних\nсказаний явился наяву!{WAIT_KEY}Он прибыл совсем недавно и пошёл на приём к\nКоролю."
   },
   {
     "id": 151,
@@ -927,7 +927,7 @@
     "id": 154,
     "original_en": "I'm so ashamed.{WAIT_KEY}\nI gave that boy the boot, thinking him no more than\nsome peasant brat. How was I to know he was the\nlegendary Hero?{WAIT_KEY}\nEven still, he forgave me.\nCompassion to rival courage—a Hero, indeed!",
     "original_fr": "Comme j'ai honte...{WAIT_KEY}\nAu début, je croyais qu'il n'était qu'un gamin malpropre,\nalors je lui ai refusé d'entrer. Je ne m'étais pas rendu\ncompte qu'il était le héros...{WAIT_KEY}\nCependant, il m'a pardonné. Sa générosité est digne du\nhéros !",
-    "translation": "Как же мне стыдно...{WAIT_KEY}\nЯ выставил того мальчика взашей, приняв за обыч-\nного\nдеревенского оборванца. Откуда мне было знать,\nчто он и есть легендарный Герой?!{WAIT_KEY}\nИ всё же он простил меня.\nМилосердие под стать отваге — истинный Герой!"
+    "translation": "Как же мне стыдно...{WAIT_KEY}Я выставил того мальчика взашей, приняв за\nобычного деревенского оборванца. Откуда мне\nбыло знать, что он и есть легендарный Герой?!{WAIT_KEY}И всё же он простил меня. Милосердие под стать\nотваге — истинный Герой!"
   },
   {
     "id": 155,
@@ -939,7 +939,7 @@
     "id": 156,
     "original_en": "King: Oh, {CRONO}...\nHave I grown too old for all this?{WAIT_KEY}\nWith Sir Cyrus nowhere to be found, all our hope\nrests on the shoulder of that boy who bears the\nHero's Badge.{WAIT_KEY}\nHe has gone to the southern continent now, to search\nfor the sword that can slay {MAGUS}.",
     "original_fr": "Oh, {CRONO}... Je crois que je me fais vieux...{WAIT_KEY}\nNous n'avons aucune nouvelle de Cyrus, alors ce jeune\nhomme qui porte la médaille est notre seul espoir...{WAIT_KEY}\nIl est parti sur le continent sud {TAG:3C} la recherche de l'épée\nlégendaire qui pourra vaincre {MAGUS}, le Magistère.",
-    "translation": "Король: Ох, {CRONO}...\nНеужто я стал слишком стар для ратных дел?{WAIT_KEY}\nКогда сэр Сайрус сгинул без вести, вся наша наде-\nжда\nлегла на плечи того отрока со Знаком Героя.{WAIT_KEY}\nТеперь он отправился на южный континент на поис-\nки\nклинка, способного сразить {MAGUS}."
+    "translation": "Король: Ох, {CRONO}... Неужто я стал слишком стар\nдля ратных дел?{WAIT_KEY}Когда сэр Сайрус сгинул без вести, вся наша\nнадежда легла на плечи того отрока со Знаком\nГероя.{WAIT_KEY}Теперь он отправился на южный континент на\nпоиски клинка, способного сразить {MAGUS}."
   },
   {
     "id": 157,
@@ -957,25 +957,25 @@
     "id": 159,
     "original_en": "The Master of Kitchens has his hands full, trying to\nget food to the front lines while making sure the King\nkeeps up his strength.",
     "original_fr": "Le chef cuisinier essaie d'envoyer des vivres au front\ntout en prenant soin du roi. Il n'a pas un moment de\nrépit !",
-    "translation": "Шеф-повар сбился с ног: пытается и еду на передо-\nвую\nотправить, и Королю сил прибавить целебными бул-\nьонами."
+    "translation": "Шеф-повар сбился с ног: пытается и еду на\nпередовую отправить, и Королю сил прибавить\nцелебными бульонами."
   },
   {
     "id": 160,
     "original_en": "Beg pardons, my lord, the beds are all taken.",
     "original_fr": "Je suis désolée, tous les lits sont occupés.",
-    "translation": "Простите великодушно, сударь, но все постели зан-\nяты."
+    "translation": "Простите великодушно, сударь, но все постели\nзаняты."
   },
   {
     "id": 161,
     "original_en": "Even the Commander himself has gone to the front\nlines to fight.",
     "original_fr": "J'ai honte d'être alité alors que le capitaine est sur le\nfront...",
-    "translation": "Даже сам Командующий лично отправился сражат-\nься\nна передовую."
+    "translation": "Даже сам Командующий лично отправился\nсражаться на передовую."
   },
   {
     "id": 162,
     "original_en": "The Fiendlord has brought three fearsome generals\nonto the field of battle.",
     "original_fr": "Le Magistère a finalement fait appel {TAG:3C} ses trois fameux\ngénéraux...",
-    "translation": "Владыка мистиков бросил на поле брани трёх ужа-\nсающих\nгенералов."
+    "translation": "Владыка мистиков бросил на поле брани трёх\nужасающих генералов."
   },
   {
     "id": 163,
@@ -1005,7 +1005,7 @@
     "id": 167,
     "original_en": "The wounded pour in faster than we can nurse them\nback to health.",
     "original_fr": "Il nous arrive plus de blessés qu'on ne peut en traiter.",
-    "translation": "Раненых несут быстрее, чем мы успеваем перевяз-\nывать."
+    "translation": "Раненых несут быстрее, чем мы успеваем\nперевязывать."
   },
   {
     "id": 168,
@@ -1035,7 +1035,7 @@
     "id": 172,
     "original_en": "Master of Kitchens: Hmph. Serves him right, thinking\nyou men with swords are the only ones protecting this\nkingdom!",
     "original_fr": "Cuisinier : Pfft, voil{TAG:3C} ce qui arrive {TAG:3C} ceux qui croient\npouvoir défendre le royaume {TAG:3C} eux seuls !",
-    "translation": "Шеф-повар: Хм. Так ему и надо! Будет знать, как\nдумать,\nбудто одни лишь вояки с мечами защищают это ко-\nролевство!"
+    "translation": "Шеф-повар: Хм. Так ему и надо! Будет знать, как\nдумать, будто одни лишь вояки с мечами\nзащищают это королевство!"
   },
   {
     "id": 173,
@@ -1047,7 +1047,7 @@
     "id": 174,
     "original_en": "Wife: Are you never going to set aside your petty feud?\nYou're grown men!\nAct like it!",
     "original_fr": "Femme du cuisinier : Jusqu'{TAG:3C} quand t'obstineras-tu {TAG:3C}\nenvenimer cette querelle ridicule ? Sois un homme !",
-    "translation": "Жена: Неужели вы никогда не отбросите свою дура-\nцкую вражду?!\nВы же взрослые мужики!\nВедите себя подобающе!"
+    "translation": "Жена: Неужели вы никогда не отбросите свою\nдурацкую вражду?! Вы же взрослые мужики! Ведите\nсебя подобающе!"
   },
   {
     "id": 175,
@@ -1083,13 +1083,13 @@
     "id": 180,
     "original_en": "Master of Kitchens: When you see that fool brother\nof mine...{WAIT_KEY}\nTell him he had better come back alive!",
     "original_fr": "Cuisinier : Et dites {TAG:3C} cet imbécile...{WAIT_KEY}\n... que je ne lui pardonnerai pas s'il ne revient pas\nvivant !",
-    "translation": "Шеф-повар: Когда увидите моего придурковатого\nбратца...{WAIT_KEY}\nПередайте ему, чтоб попробовал только не вернут-\nься живым!"
+    "translation": "Шеф-повар: Когда увидите моего придурковатого\nбратца...{WAIT_KEY}Передайте ему, чтоб попробовал только не\nвернуться живым!"
   },
   {
     "id": 181,
     "original_en": "Henceforth, you may come and go as you please.",
     "original_fr": "Vous pouvez désormais entrer au ch{TAG:4A}teau quand vous\nvoulez.",
-    "translation": "Отныне вы вольны входить и выходить, когда пож-\nелаете."
+    "translation": "Отныне вы вольны входить и выходить, когда\nпожелаете."
   },
   {
     "id": 182,
@@ -1107,7 +1107,7 @@
     "id": 184,
     "original_en": "Queen Leene's presence brightens these halls far\nmore than any torch could hope to do.",
     "original_fr": "L'atmosphère au ch{TAG:4A}teau est toujours plus gaie quand\nla reine Lynne est l{TAG:3C}.",
-    "translation": "Присутствие Королевы Лины озаряет эти залы ярч-\nе,\nчем сотни факелов."
+    "translation": "Присутствие Королевы Лины озаряет эти залы\nярче, чем сотни факелов."
   },
   {
     "id": 185,
@@ -1119,7 +1119,7 @@
     "id": 186,
     "original_en": "So, she wasn't our true Queen after all.",
     "original_fr": "Alors, cette jeune fille n'était pas la reine Lynne.\nJe m'en doutais.",
-    "translation": "Значит, она вовсе не была нашей истинной Королев-\nой."
+    "translation": "Значит, она вовсе не была нашей истинной\nКоролевой."
   },
   {
     "id": 187,
@@ -1131,7 +1131,7 @@
     "id": 188,
     "original_en": "She truly was the very image of our Queen.",
     "original_fr": "Cette jeune fille et la reine se ressemblent vraiment\ncomme deux gouttes d'eau. C'est surprenant !",
-    "translation": "Она и впрямь была точнейшей копией нашей Короле-\nвы."
+    "translation": "Она и впрямь была точнейшей копией нашей\nКоролевы."
   },
   {
     "id": 189,
@@ -1155,25 +1155,25 @@
     "id": 192,
     "original_en": "You mean to tell me that was not Queen Leene?{WAIT_KEY}\nAnd to think I wasted all this time whipping up a\nbatch of that \"eyes cream\" she wanted so badly!{WAIT_KEY}\nI suppose it's for the best. I cannot imagine such\na dish would have been appetizing.",
     "original_fr": "Cette jeune fille n'était pas la reine Lynne ?{WAIT_KEY}\nEt moi qui m'étais donné tant de mal pour lui préparer\nces {TAG:64} crêpes {TAG:65} qu'elle me réclamait...{WAIT_KEY}\nQu'est-ce que je vais faire de toute cette poudre de\ncraie, maintenant ?",
-    "translation": "Хотите сказать, та девица вовсе не была Королев-\nой Линой?{WAIT_KEY}\nИ подумать только: я потратил столько времени,\nпытаясь приготовить то «мороженое», о котором\nона бредила!{WAIT_KEY}\nВпрочем, оно и к лучшему. Вряд ли такое кушанье\nвообще съедобно."
+    "translation": "Хотите сказать, та девица вовсе не была\nКоролевой Линой?{WAIT_KEY}И подумать только: я потратил столько времени,\nпытаясь приготовить то «мороженое», о котором\nона бредила!{WAIT_KEY}Впрочем, оно и к лучшему. Вряд ли такое кушанье\nвообще съедобно."
   },
   {
     "id": 193,
     "original_en": "Now the Commander can concentrate on battling\nthe Fiendlord's troops.",
     "original_fr": "Maintenant, notre capitaine pourra se concentrer sur la\nguerre contre l'armée du Magistère.",
-    "translation": "Теперь Командующий может целиком сосредоточи-\nться\nна битве с войсками Владыки мистиков."
+    "translation": "Теперь Командующий может целиком\nсосредоточиться на битве с войсками Владыки\nмистиков."
   },
   {
     "id": 194,
     "original_en": "Hard to believe she really wasn't Leene.",
     "original_fr": "Je n'aurais jamais deviné que cette jeune fille n'était\npas la reine Lynne.",
-    "translation": "До сих пор с трудом верится, что она не была Лин-\nой."
+    "translation": "До сих пор с трудом верится, что она не была\nЛиной."
   },
   {
     "id": 195,
     "original_en": "I should have known. Her Majesty would never come\nhere to snack between meals as that other girl did.",
     "original_fr": "Moi je trouvais ça étrange. La reine Lynne ne viendrait\njamais ici manger en cachette.",
-    "translation": "Мне сразу следовало догадаться: Её Величество\nотродясь\nне стала бы кусочничать между трапезами, как та\nдевица."
+    "translation": "Мне сразу следовало догадаться: Её Величество\nотродясь не стала бы кусочничать, как та девица."
   },
   {
     "id": 196,
@@ -1203,19 +1203,19 @@
     "id": 200,
     "original_en": "Her Majesty's abduction was the work of the Fiendlord's\ntroops as well, it seems.",
     "original_fr": "C'était donc bien l'armée du Magistère qui avait enlevé la\nreine Lynne ?",
-    "translation": "Похищение Её Величества — тоже дело рук мистик-\nов,\nкак выяснилось."
+    "translation": "Похищение Её Величества — тоже дело рук\nмистиков, как выяснилось."
   },
   {
     "id": 201,
     "original_en": "I did not know a frog could be so brave.",
     "original_fr": "Qui aurait cru qu'un homme {TAG:3C} l'apparence d'une\ngrenouille pouvait être si courageux ?",
-    "translation": "Я и не знал, что лягушки бывают столь доблестны-\nми."
+    "translation": "Я и не знал, что лягушки бывают столь\nдоблестными."
   },
   {
     "id": 202,
     "original_en": "I still don't trust him. All that business with\naiding in the Queen's rescue could have been a\nruse to trick us into believing he is not a spy.",
     "original_fr": "Ça ne prouve en rien que cet homme {TAG:3C} l'apparence\nd'une grenouille n'est pas un espion du Magistère.\nIl a peut-être fait ça pour ne pas éveiller les\nsoupçons.",
-    "translation": "Я всё равно не доверяю ему. Вся эта помощь в спа-\nсении\nКоролевы могла быть лишь хитрой уловкой, призва-\nнной\nотвести от него подозрения в шпионаже."
+    "translation": "Я всё равно не доверяю ему. Спасение Королевы\nмогло быть лишь хитрой уловкой, призванной\nотвести от него подозрения в шпионаже."
   },
   {
     "id": 203,
@@ -1263,7 +1263,7 @@
     "id": 210,
     "original_en": "The master's stubborn and strict, but he's a good man.",
     "original_fr": "Le cuisinier est strict, mais c'est quelqu'un de bien.",
-    "translation": "Хозяин строг и упрям как бык, но человек он золот-\nой."
+    "translation": "Хозяин строг и упрям как бык, но человек он\nзолотой."
   },
   {
     "id": 211,
@@ -1293,7 +1293,7 @@
     "id": 215,
     "original_en": "Forgive me, we haven't the time to cook for you\nright now.",
     "original_fr": "Je suis désolée, nous sommes trop occupés en ce\nmoment.",
-    "translation": "Простите великодушно, нам сейчас совершенно нек-\nогда\nготовить для гостей."
+    "translation": "Простите великодушно, нам сейчас совершенно\nнекогда готовить для гостей."
   },
   {
     "id": 216,
@@ -1305,31 +1305,31 @@
     "id": 217,
     "original_en": "King: You're alive!{WAIT_KEY}\nWe sustained heavy casualties, but thanks to you,\nour battle is won. Now we must all work together\nto rebuild.{WAIT_KEY}\nIf there is ever any way this kingdom might repay\nits debt to you, I shall see it done.",
     "original_fr": "Oh, vous êtes en vie !{WAIT_KEY}\nBeaucoup ont péri, mais sans votre aide, nous aurions\nété perdus...{WAIT_KEY}\nÂ partir de maintenant, le capitaine des chevaliers et le\ncuisinier devront travailler ensemble pour protéger le\nch{TAG:4A}teau, non, le royaume !{WAIT_KEY}\nSi un jour vous avez besoin de notre aide, nous vous\nprêterons main-forte.",
-    "translation": "Король: Вы живы!{WAIT_KEY}\nМы понесли тяжёлые потери, но благодаря вам поб-\nеда\nза нами. Теперь нам всем предстоит отстроить кр-\nай\nзаново.{WAIT_KEY}\nКоли наше королевство сможет хоть чем-то отплат-\nить вам\nза великий подвиг — лишь скажите, и я исполню всё."
+    "translation": "Король: Вы живы!{WAIT_KEY}Мы понесли тяжёлые потери, но благодаря вам\nпобеда за нами. Теперь нам всем предстоит\nотстроить край заново.{WAIT_KEY}Коли наше королевство сможет хоть чем-то\nотплатить вам за великий подвиг — лишь скажите,\nи я исполню всё."
   },
   {
     "id": 218,
     "original_en": "Leene: {FROG}!{WAIT_KEY}\nSo, you aided {CRONO} and the others.{WAIT_KEY}\nYou've done a fine service for this kingdom.\nPlease, remain here for as long as you wish.\nWe would be honored by your presence.",
     "original_fr": "{FROG} !{WAIT_KEY}\nTu t'es donc joint {TAG:3C} {CRONO} et les autres ?{WAIT_KEY}\nTu as accompli ta mission admirablement. Tu seras\ntoujours le bienvenu au ch{TAG:4A}teau.",
-    "translation": "Лина: {FROG}!{WAIT_KEY}\nЗначит, ты сражался бок о бок с {CRONO} и\nостальными.{WAIT_KEY}\nТы сослужил великую службу этому королевству.\nПрошу тебя, оставайся в замке столько, сколько\nпожелаешь.\nТвоё присутствие почтит нас."
+    "translation": "Лина: {FROG}!{WAIT_KEY}Значит, ты сражался бок о бок с {CRONO} и\nостальными.{WAIT_KEY}Ты сослужил великую службу королевству. Прошу,\nоставайся в замке столько, сколько пожелаешь.\nТвоё присутствие почтит нас."
   },
   {
     "id": 219,
     "original_en": "Chancellor: I'll see that generations to come know\nthe name of {CRONO}.",
     "original_fr": "Ma famille vous sera éternellement reconnaissante !",
-    "translation": "Канцлер: Я позабочусь о том, чтобы грядущие поко-\nления\nчтили имя {CRONO}."
+    "translation": "Канцлер: Я позабочусь о том, чтобы грядущие\nпоколения чтили имя {CRONO}."
   },
   {
     "id": 220,
     "original_en": "Master of Kitchens: You served us victory.\nI but cooked the meal.{WAIT_KEY}\nAnd speaking of cooking, I've a mind to prepare\na victory feast—something truly spectacular to\ncelebrate the Fiendlord's defeat!",
     "original_fr": "Allons, allons ! C'est vous qui avez tout fait. Je me suis\ncontenté de cuisiner.{WAIT_KEY}\nJ'ai eu l'idée d'un nouveau plat pour célébrer notre\nvictoire sur l'armée du Magistère. Il sera sensationnel !",
-    "translation": "Шеф-повар: Вы преподнесли нам победу на блюде.\nА я лишь сварил похлёбку.{WAIT_KEY}\nКстати о готовке: я намерен закатить победный\nпир —\nнечто поистине грандиозное в честь разгрома Вла-\nдыки\nмистиков!"
+    "translation": "Шеф-повар: Вы преподнесли нам победу на блюде. А\nя лишь сварил похлёбку.{WAIT_KEY}Кстати о готовке: я намерен закатить победный\nпир — нечто поистине грандиозное в честь\nразгрома Владыки мистиков!"
   },
   {
     "id": 221,
     "original_en": "Commander: Our victory is owed to you.",
     "original_fr": "Nous avons vaincu l'armée du Magistère gr{TAG:4A}ce {TAG:3C}\nnotre solidarité, mais surtout gr{TAG:4A}ce {TAG:3C} vous et vos\ncompagnons, sire {CRONO}.",
-    "translation": "Командующий: Наша победа — целиком ваша заслу-\nга."
+    "translation": "Командующий: Наша победа — целиком ваша\nзаслуга."
   },
   {
     "id": 222,
@@ -1371,13 +1371,13 @@
     "id": 228,
     "original_en": "I'd feared you did not survive when I heard you never\nemerged from the Fiendlord's keep. But here you are!",
     "original_fr": "J'ai craint le pire quand j'ai entendu dire que vous\nn'étiez pas ressortis du palais du Magistère...",
-    "translation": "Я уже боялся, что вы погибли, когда узнал, что вы\nтак\nи не вышли из цитадели Владыки мистиков. Но вот\nвы здесь!"
+    "translation": "Я боялся, что вы погибли, когда вы так и не вышли\nиз цитадели Владыки мистиков. Но вот вы здесь!"
   },
   {
     "id": 229,
     "original_en": "If they had broken through at Zenan Bridge,\nthis castle would be no more than rubble.",
     "original_fr": "Si nous avions été vaincus sur le pont de Zénan,\nl'ennemi aurait sans doute aussi envahi ce ch{TAG:4A}teau.",
-    "translation": "Прорвись враг у моста Зенан — от этого замка ост-\nались бы\nодни дымящиеся руины."
+    "translation": "Прорвись враг у моста Зенан — от этого замка\nостались бы одни дымящиеся руины."
   },
   {
     "id": 230,
@@ -1431,19 +1431,19 @@
     "id": 238,
     "original_en": "The Commander and the Master of Kitchens have finally\nmade their peace. They still blush to admit it, though.",
     "original_fr": "Le capitaine des chevaliers et le chef se sont enfin\nréconciliés ! On dirait qu'ils en sont encore un peu\ngênés...",
-    "translation": "Командующий и Шеф-повар наконец-то зарыли топ-\nор войны.\nПравда, оба до сих пор краснеют, когда об этом\nзаходит речь."
+    "translation": "Командующий и Шеф-повар наконец-то зарыли\nтопор войны. Правда, оба до сих пор краснеют,\nкогда об этом заходит речь."
   },
   {
     "id": 239,
     "original_en": "King: {FROG}, I offer my thanks to you again.\nThe valor of your deeds is worthy of the name of\nknight.",
     "original_fr": "Bon travail, {FROG}. Tu es vraiment digne de porter\nle titre de chevalier.",
-    "translation": "Король: {FROG}, прими мою искреннюю признательн-\nость вновь.\nДоблесть твоих деяний воистину достойна звания\nрыцаря."
+    "translation": "Король: {FROG}, прими мою искреннюю\nпризнательность вновь. Доблесть твоих деяний\nвоистину достойна звания рыцаря."
   },
   {
     "id": 240,
     "original_en": "{FROG}: Your Majesty, please do not waste such\nwords of honor on me.",
     "original_fr": "{FROG} : Sa Majesté est trop bonne...",
-    "translation": "{FROG}: Ваше Величество, молю, не расточайте сто-\nль\nвысоких речей на столь недостойного слугу."
+    "translation": "{FROG}: Ваше Величество, молю, не расточайте\nстоль высоких речей на столь недостойного слугу."
   },
   {
     "id": 241,
@@ -1461,7 +1461,7 @@
     "id": 243,
     "original_en": "The item inside is reacting to the pendant.\nRemove the item?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Il y a quelque chose {TAG:3C} l'intérieur qui luit {TAG:3C} l'approche du\npendentif. Voulez-vous le prendre ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Предмет внутри реагирует на кулон.\nИзвлечь предмет?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Предмет внутри реагирует на кулон. Извлечь\nпредмет?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 244,

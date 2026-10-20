@@ -3,487 +3,487 @@
     "id": 0,
     "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
     "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получено: {GLYPH:385}!"
   },
   {
     "id": 1,
     "original_en": "Congratulations on finishing the game!\nYou're now a member of the Dream Team!{WAIT_KEY}\nAnd since you blew through the game so fast,\nwe've adjusted the credits to suit your style!",
     "original_fr": "Bravo ! Vous avez terminé le jeu !{WAIT_KEY}\nVous êtes maintenant un membre de la {TAG:64} Dream Team {TAG:65}\nvous aussi. Félicitations !{WAIT_KEY}\nNous allons vous présenter un générique qui convient\n{TAG:3C} quelqu'un dont l'impatience lui a fait terminer le jeu\naussi rapidement. C'est parti !",
-    "translation": ""
+    "translation": "Поздравляем с прохождением игры! Теперь ты тоже\nв «Команде мечты»!{WAIT_KEY}\nИ раз уж ты пронёсся сквозь игру так быстро, мы\nподогнали титры под твои темпы!"
   },
   {
     "id": 2,
     "original_en": "Akira Toriyama: Hey! Sasuke! Kikka!\nPop's working on games, too!\nAre you seeing this?\nIsn't this great?",
     "original_fr": "Akira Toriyama : Hé ! Sasuke ! Kikka ! Papa a aussi\ntravaillé sur ce jeu !{WAIT_KEY}\nVous regardez, dites ? C'est formidable, non ?!",
-    "translation": ""
+    "translation": "Акира Торияма: Эй! Саскэ! Кикка! Папа ведь тоже\nделал эту игру! Вы смотрите? Правда здорово\nполучилось?!"
   },
   {
     "id": 3,
     "original_en": "Yuji Horii: Wow, the years sure do fly by.\nThis game was first released in 1995!",
     "original_fr": "Y{TAG:63}ji Horii : Ce jeu est sorti pour la première fois en\n1995, vous savez ! Ça fait drôlement longtemps !",
-    "translation": ""
+    "translation": "Юдзи Хории: Ого, как же летит время... Впервые эта\nигра вышла ещё в 1995 году!"
   },
   {
     "id": 4,
     "original_en": "Hironobu Sakaguchi: Boy, it used to be\nthat I'd get thinner after each game.\nNow I'm gaining weight instead.\nAck! I must be getting old.",
     "original_fr": "Hironobu Sakaguchi : Avant, chaque projet me faisait\nmaigrir, mais depuis quelque temps, j'ai pris du poids.\nHum ! Ça doit être l'{TAG:4A}ge !",
-    "translation": ""
+    "translation": "Хиронобу Сакагути: Эх, бывало, я худел после\nкаждой выпущенной игры. А теперь вот только\nтолстею. Ох, старею, видать!"
   },
   {
     "id": 5,
     "original_en": "Kazuhiko Aoki: Guess what?\nI hit the 100,000 yen jackpot!",
     "original_fr": "Kazuhiko Aoki : J'ai gagné 100 000 yen {TAG:3C} la loterie de fin\nd'année !",
-    "translation": ""
+    "translation": "Кадзухико Аоки: Прикиньте что? Я сорвал куш в сто\nтысяч иен!"
   },
   {
     "id": 6,
     "original_en": "Ken Narita: Love was in the air...but then\nthe engines cut out.\n*sigh*",
     "original_fr": "Ken Narita : Je suis tombé amoureux plusieurs fois,\nmais je n'ai pas trouvé l'{TAG:4A}me s{TAG:61}ur...",
-    "translation": ""
+    "translation": "Кэн Нарита: Любовь витала в воздухе... но внезапно\nзаглохли движки. *вздох*"
   },
   {
     "id": 7,
     "original_en": "Hiroyuki Ito: Heh heh... The Tyranno Lair?\nYup, it was my bright idea to put the switch\nin the mouth! Sorry 'bout that.",
     "original_fr": "Hiroyuki Itô : Le fort Tyrannos ? C'était mon idée de\nmettre le bouton dans la gueule ! Désolé ! Co{TAG:4A}{TAG:4A} !",
-    "translation": ""
+    "translation": "Хироюки Ито: Хе-хе... Логово Тиранно? Ага, это была\nмоя гениальная идея сунуть рычаг в пасть\nдинозавру! Простите, если что!"
   },
   {
     "id": 8,
     "original_en": "Kazuo Suzuki: I'm the consummate professional.",
     "original_fr": "Kazuo Suzuki : Moi, je suis un artisan !",
-    "translation": ""
+    "translation": "Кадзуо Судзуки: Я профессионал до мозга костей."
   },
   {
     "id": 9,
     "original_en": "Shun Moriya: I've been working 24 hours a day!",
     "original_fr": "Shun Moriya : Je travaille 24 heures sur 24.",
-    "translation": ""
+    "translation": "Сюн Мория: Я пахал двадцать четыре часа в сутки!"
   },
   {
     "id": 10,
     "original_en": "Masanori Hoshino: Hey, they promised\nto name this game Hoshino Trigger!",
     "original_fr": "Masanori Hoshino : Â la base, ce jeu devait s'appeler\nHoshino Trigger !{WAIT_KEY}\nDans mes rêves, hé, hé !",
-    "translation": ""
+    "translation": "Масанори Хосино: Эй, они ведь обещали назвать эту\nигру «Hoshino Trigger»!"
   },
   {
     "id": 11,
     "original_en": "Mami Kawai: Oops!\nDid I forget to insert a few parts again?\nI'm so sorry, it won't happen again!",
     "original_fr": "Mami Kawai : Oh ?! J'ai encore oublié des pièces ?!\nSnif, snif... Puis-je les ajouter maintenant ?",
-    "translation": ""
+    "translation": "Мами Каваи: Ой! Я опять забыла вставить парочку\nдеталек?! Простите-простите, больше такое не\nповторится!"
   },
   {
     "id": 12,
     "original_en": "Taizo Mamo: What are you lookin' at, buddy?\nTryin' to start something'?\nC'mon, bring it on!",
     "original_fr": "Taizô Mamo : ... Hein ? Mais quessé qu'tu fais ?\nFiche-moi 'a paix !! Tu veux que j'te sacre une volée ?!",
-    "translation": ""
+    "translation": "Таидзо Мамо: Чего уставился, парень? На рожон\nлезешь? Ну давай, покажи, на что способен!"
   },
   {
     "id": 13,
     "original_en": "Don't look for me.\n{TAG:38}{TAG:38}{TAG:38}{TAG:38} Hiroko Yamamoto",
     "original_fr": "{GLYPH:384}\nN'essayez pas de me trouver.\n- Hiroto Yamamoto",
-    "translation": ""
+    "translation": "Не ищите меня. {TAG:38}{TAG:38}{TAG:38}{TAG:38} Хироко Ямамото"
   },
   {
     "id": 14,
     "original_en": "Minoru Akao: Ah, I love a good quest!\nDon't you?",
     "original_fr": "Minoru Akao : J'aime les voyages et aussi m'amuser !\nFaut profiter de la vie !",
-    "translation": ""
+    "translation": "Минору Акао: Эх, люблю славные приключения! А ты?"
   },
   {
     "id": 15,
     "original_en": "Eiji Nakamura: Congrats on finishing the game!\nWhy don't you spend some time outside tomorrow?",
     "original_fr": "Eiji Nakamura : Félicitations !! Mais j'espère que vous ne\npassez pas tout votre temps devant l'écran !",
-    "translation": ""
+    "translation": "Эйдзи Накамура: С победой! А не пойти ли тебе\nзавтра погулять на улице?"
   },
   {
     "id": 16,
     "original_en": "Katsuhisa Higuchi: Legendary programmer, 29,\nseeks that special someone. Not quite Hero\nmaterial, but still the stuff of legend.\nWaiting for those cards and letters.",
     "original_fr": "Katsuhisa Higuchi : Programmeur légendaire, 29 ans.\nJe n'ai pas réussi {TAG:3C} devenir un héros, seulement {TAG:3C}\ndevenir une légende.{WAIT_KEY}\nEnvoyez-moi vos lettres.",
-    "translation": ""
+    "translation": "Кацухиса Хигути: Программист-легенда, 29 лет,\nищет свою половинку. На звание героя не тяну, но\nдо легенды дотянул. Жду писем и открыток!"
   },
   {
     "id": 17,
     "original_en": "Kenichi Nishi: Man, that was a long haul.\nI got my first gray hair working on this game.\nLost weight, too.",
     "original_fr": "Ken'ichi Nishi : C'était un long projet. J'en ai eu mes\npremiers cheveux blancs et j'ai perdu du poids.",
-    "translation": ""
+    "translation": "Кэнъити Ниси: Ох, это был долгий забег. На этой\nигре у меня вылез первый седой волос. Да и в весе\nсбавил."
   },
   {
     "id": 18,
     "original_en": "Hey out there in TV land! How're we doing today?\nIt's me, Manabu Daishima! Let's all buy games, okay?\nNone of this renting and borrowing stuff!",
     "original_fr": "Salut {TAG:3C} vous, de l'autre côté de l'écran ! Ça va ?\nJe m'appelle Manabu Daishima ! N'oubliez pas !\nIl faut acheter les jeux, pas les emprunter !",
-    "translation": ""
+    "translation": "Привет по ту сторону экрана! Как поживаете? Это\nМанабу Даисима! Покупайте игры, ладно? Хватит\nуже брать у друзей да напрокат!"
   },
   {
     "id": 19,
     "original_en": "Shinichiro Okaniwa: I can't even remember the\nlast time I cut my hair. Look how long it is!\nBetter get myself to a barber.",
     "original_fr": "Shin'ichirô Okaniwa : Hé, hé... Je ne me suis pas coupé\nles cheveux pendant si longtemps, ils sont devenus\naussi longs que ça. En route pour le coiffeur !",
-    "translation": ""
+    "translation": "Синъитиро Оканива: Я уже не помню, когда стригся\nв последний раз. Ну и космы! Пора бежать к\nпарикмахеру."
   },
   {
     "id": 20,
     "original_en": "Good job! You reached the hardest ending!\nThis is the Chrono Trigger development room.\nTake a walk around and hear what the team\nhas to say!{WAIT_KEY}\nKeizo Kokubo: I hope you and all of the staff\nwho worked on the game took something from it\nand will continue to grow and prosper, no matter\nwhat the future holds in store.{WAIT_KEY}\nCome back to see me again once you complete\nyour rounds.",
     "original_fr": "Félicitations ! Vous avez réussi {TAG:3C} terminer le jeu dans\ndes conditions très difficiles !{WAIT_KEY}\nBienvenue au bureau de l'équipe de développement.\nAllez parler aux membres de l'équipe.{WAIT_KEY}\nKeizô Kokubo : J'espère que ça aura été une expérience\nenrichissante {TAG:3C} la fois pour les joueurs et pour tous\nceux qui ont participé {TAG:3C} ce projet.{WAIT_KEY}\nRevenez me voir quand vous aurez parlé {TAG:3C} tout le\nmonde.",
-    "translation": ""
+    "translation": "С победой! Ты открыл сложнейшую концовку! Это\nкомната разработчиков Chrono Trigger. Оглядись\nвокруг и послушай, что скажет команда!{WAIT_KEY}\nКэйдзо Кокубо: Надеюсь, и ты, и все мы почерпнули\nиз этой игры нечто ценное, и вы продолжите расти\nи процветать, что бы ни готовило будущее.{WAIT_KEY}\nЗагляни ко мне снова, когда обойдёшь всех."
   },
   {
     "id": 21,
     "original_en": "Well then, open the gates to the Dream Team!",
     "original_fr": "Eh bien... Ouvrons la porte de la Dream Team !",
-    "translation": ""
+    "translation": "Что ж, отворим врата к «Команде мечты»!"
   },
   {
     "id": 22,
     "original_en": "You may proceed.\nThe project team's upper echelon awaits!",
     "original_fr": "Allez, entrez ! Les membres les plus importants de\nl'équipe vous attendent.",
-    "translation": ""
+    "translation": "Проходи. Верхушка проекта ждёт тебя!"
   },
   {
     "id": 23,
     "original_en": "Hiroshi Uchiyama: That's a pretty good\ncostume you got on there, kid!\nWait—it's really you, isn't it!?\nSorry, thought you were just a cosplayer!",
     "original_fr": "Hiroshi Uchiyama : Quel beau costume ! Vous avez\nd{TAG:63} passer des heures {TAG:3C} le fabriquer ! Hein ? Quoi ?\nVous êtes le vrai ?! Oh, désolé !",
-    "translation": ""
+    "translation": "Хироси Утияма: Отличный костюмчик, малый!\nПогоди... так ты настоящий?! Прости, я принял тебя\nза косплеера!"
   },
   {
     "id": 24,
     "original_en": "Fumi Nakashima: Did you see the little character\nanimations on the world map, ribbit? There's\nLucca reading a book, Chrono all in a rush...\nKnow what I'm talking about, ribbit?",
     "original_fr": "Fumi Nakashima : Bonjour, bonjour, co{TAG:4A}{TAG:4A} ! Vous avez\nremarqué les actions des petits personnages sur la\nmappemonde, co{TAG:4A}{TAG:4A} ? Lucca qui lit un livre, co{TAG:4A}{TAG:4A} !\nChrono qui s'impatiente, co{TAG:4A}{TAG:4A} !",
-    "translation": ""
+    "translation": "Фуми Накасима: Заметили забавные анимации\nгероев на карте мира, ква? Лукка читает книжку,\nХроно куда-то спешит... Понимаете, о чём я, ква?"
   },
   {
     "id": 25,
     "original_en": "Yasuhiko Kamata: Having 32 megs means we can\nuse a lot of graphics. Using a lot of graphics\nmeans we have to create a lot of graphics.\nWell, it was hard work, but it sure was fun!",
     "original_fr": "Yasuhiko Kamata : Ah, c'est bien d'avoir 32 Mo ! On peut\navoir deux fois plus d'images ! C'était difficile, mais je\nme suis tout de même amusé.",
-    "translation": ""
+    "translation": "Ясухико Камата: Тридцать два мегабита — это\nуйма графики! Рисовать пришлось много. Работа\nбыла тяжёлой, но очень весёлой!"
   },
   {
     "id": 26,
     "original_en": "Keita Eto: You want a buggy map repaired?\n10,000,000 G ought to cover the cost.",
     "original_fr": "Keita Etô : Vous voulez réparer une carte endommagée ?\nCela vous co{TAG:63}tera 10 000 000 G !",
-    "translation": ""
+    "translation": "Кэита Это: Хотите починить забагованную карту?\nДесять миллионов G покроют расходы."
   },
   {
     "id": 27,
     "original_en": "Haruyuki Nishida: Hey, do you think there\nwill be a sequel?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Haruyuki Nishida, création des monstres :\nVous croyez qu'il y aura un Chrono Trigger 2 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Харуюки Нисида: Слушай, как думаешь, будет\nсиквел?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 28,
     "original_en": "That'd be nice, huh?",
     "original_fr": "Ce serait génial, hein ?",
-    "translation": ""
+    "translation": "Было бы здорово, правда?"
   },
   {
     "id": 29,
     "original_en": "Kato: No storm lasts forever.{WAIT_KEY}\nEven eternity must come to an end.{WAIT_KEY}\nI think.",
     "original_fr": "Katô : Après la pluie vient le beau temps.{WAIT_KEY}\nMême l'éternité doit bien avoir une fin...{WAIT_KEY}\nEnfin, c'est ce que je crois...",
-    "translation": ""
+    "translation": "Като: Ни одна буря не длится вечно.{WAIT_KEY}\nДаже вечность когда-нибудь да кончается.{WAIT_KEY}\nМне так кажется."
   },
   {
     "id": 30,
     "original_en": "Nobuo Uematsu: siht daer naht od ot retteb\ngnihton evah I\nNow run along and play, boys and girls!",
     "original_fr": "Nobuo Uematsu : Etxet ec sap zesil en.\nEt maintenant, essayez de lire {TAG:3C} l'envers !",
-    "translation": ""
+    "translation": "Нобуо Уэмацу: отэ ьтатич как еморк, яьтяназ\nешьлоб мечен емН! А теперь бегите играть, мальчики\nи девочки!"
   },
   {
     "id": 31,
     "original_en": "Keisuke Matsuhara: Thank you, thank you,\nno applause necessary, just send money.\nI hope you enjoyed all of my events.{WAIT_KEY}\nAnother of my masterpieces will be available\nsoon, so stay tuned!",
     "original_fr": "Keisuke Matsuhara : Salut ! Vous avez aimé les scènes\nque j'ai écrites ? J'ai encore plein d'idées géniales pour\nle prochain jeu, alors ne le manquez pas !",
-    "translation": ""
+    "translation": "Кэисукэ Мацухара: Спасибо, спасибо!\nАплодисментов не надо, шлите деньги. Надеюсь,\nвам понравились мои сценки.{WAIT_KEY}\nСкоро выйдет ещё один мой шедевр, так что не\nпереключайтесь!"
   },
   {
     "id": 32,
     "original_en": "Matsuzo Itakura: Did you figure out\nmy Poyozo Dance attack?\nSee you again in another game soon!",
     "original_fr": "Matsuzô Itakura : Bonjour ! Avez-vous découvert mon\ntrio Danse de poyozo ? Â la prochaine dans un autre\njeu !",
-    "translation": ""
+    "translation": "Мацудзо Итакура: Разобрались с моей атакой\n«Танец Пойозо»? До встречи в новой игре!"
   },
   {
     "id": 33,
     "original_en": "Hasui: Shh, I'm in the middle of something\ngood here!",
     "original_fr": "Hasui : Ne me parlez pas ! Je suis occupé !",
-    "translation": ""
+    "translation": "Хасуи: Тс-с, я тут как раз занят кое-чем стоящим!"
   },
   {
     "id": 34,
     "original_en": "Akane Haruki: Please, feed me!\nI'm starving!",
     "original_fr": "Haruki Akane : J'ai faim !",
-    "translation": ""
+    "translation": "Аканэ Харуки: Пожалуйста, покормите меня! Я\nумираю с голоду!"
   },
   {
     "id": 35,
     "original_en": "Hiroki Chiba: 1-4! 1-4! Come on, 1-4!\nNoooooo! I lost again!",
     "original_fr": "Hiroki Chiba : 1-4 ! 1-4 !! 1-4 !!! 1-4 !!!!\nZut ! Encore raté !!",
-    "translation": ""
+    "translation": "Хироки Тиба: 1-4! 1-4! Ну же, 1-4! Не-е-ет! Я опять\nпроиграл!"
   },
   {
     "id": 36,
     "original_en": "Kazuhiro Ohkawa: Congratulations!\nDid you have a good time?",
     "original_fr": "Kazuhiro ëkawa : Vous avez terminé le jeu, félicitations !\nÇa vous a plu ?",
-    "translation": ""
+    "translation": "Кадзухиро Окава: Поздравляю! Хорошо провели\nвремя?"
   },
   {
     "id": 37,
     "original_en": "Akiyoshi Masuda: Kokubo and I've been practicing\nour anti-stress massages on each other instead\nof working.{WAIT_KEY}\nShoulder massages—shoulder!",
     "original_fr": "Akiyoshi Masuda : Je ne compte même plus les heures\nqu'on a passées {TAG:3C} se masser les épaules pour se\ndécontracter avec Kokubo !",
-    "translation": ""
+    "translation": "Акиёси Масуда: Мы с Кокубо вместо работы делали\nдруг другу антистрессовый массаж.{WAIT_KEY}\nМассаж плеч, да-да, именно плеч!"
   },
   {
     "id": 38,
     "original_en": "Tetsuya Takahashi: If you thought this was tough,\nyou should get a load of Final Fantasy IV!",
     "original_fr": "Tetsuya Takahashi : Cette fois j'ai pas fini au bout\ndu rouleau ! C'était dur, mais pas autant que\nFinal Fantasy IV !",
-    "translation": ""
+    "translation": "Тэцуя Такахаси: Показалось сложно? Тогда\nвзгляните на Final Fantasy IV!"
   },
   {
     "id": 39,
     "original_en": "Yoshinori Ogura: I'm just happy to have been able\nto work on this game!",
     "original_fr": "Yoshinori Ogura : Je suis heureux d'avoir pu participer\nun peu {TAG:3C} la création de ce jeu.",
-    "translation": ""
+    "translation": "Ёсинори Огура: Я просто счастлив, что мне\nдовелось поработать над этой игрой!"
   },
   {
     "id": 40,
     "original_en": "Koji Sugimoto: The jetbike race programmer's\nhigh score was 2110. Bet you can't beat that!",
     "original_fr": "Kôji Sugimoto : Il para¡t que le meilleur score des\nprogrammeurs {TAG:3C} la course {TAG:3C} moto est de 2110.",
-    "translation": ""
+    "translation": "Кодзи Сугимото: Программист гонок на турбобайках\nнабрал 2110 очков. Спорим, вам не побить!"
   },
   {
     "id": 41,
     "original_en": "Koichi Ebe: Thanks for playing Chrono Trigger\nall the way to the end. Here, have a kiss to\nremember it by!",
     "original_fr": "Kôichi Ebe : Merci d'avoir joué {TAG:3C} Chrono Trigger jusqu'{TAG:3C}\nla fin ! Vous méritez une bise ! Hmmouah !{GLYPH:145}©",
-    "translation": ""
+    "translation": "Коити Эбэ: Спасибо, что прошли Chrono Trigger до\nсамого конца. Держите поцелуй на память!"
   },
   {
     "id": 42,
     "original_en": "Toshiaki Suzuki: Uhnnn... So tired...\nBut so hungry...\nOne thing at a time...\nZzz...",
     "original_fr": "Toshiaki Suzuki : Hum... Ah, j'ai sommeil...\nOh, j'ai faim... Bah, qui dort d¡ne.",
-    "translation": ""
+    "translation": "Тосиаки Судзуки: Уф-ф... Так устал... Но так хочу\nесть... Буду решать проблемы по очереди... Хр-р-р..."
   },
   {
     "id": 43,
     "original_en": "Kiyoshi Yoshii: Ah, yes, such a moving story\nin that 128th entry to the Chrono series!{WAIT_KEY}\nWhat? Oh no, this must be the wrong era!",
     "original_fr": "Kiyoshi Yoshii : Ce 128e épisode de la série\nChrono Trigger était vraiment émouvant...{WAIT_KEY}\nAh ! On dirait que je me suis encore trompé d'époque !",
-    "translation": ""
+    "translation": "Киёси Ёсии: Ах да, какая же трогательная история\nбыла в сто двадцать восьмой части серии Chrono!{WAIT_KEY}\nЧто? О нет, я снова перепутал эпохи!"
   },
   {
     "id": 44,
     "original_en": "Tsutomu Terada: I've caught every cold that's gone\naround this year—achoo! Hey, I know you've\ngotten strong, but don't—achoo!—go picking\non my monsters now, you hear?",
     "original_fr": "Tsutomu Terada : Cette année j'ai attrapé tous les\nrhumes qu'il y avait {TAG:3C} attraper. Atchoum !! Vous êtes\nsi forts, maintenant... Atchoum ! Ne soyez pas trop\nméchants avec les monstres, d'accord ?",
-    "translation": ""
+    "translation": "Цутому Тэрада: Я подхватил все простуды года —\nапчхи! Вы стали сильными, но не вздумайте —\nапчхи! — обижать моих монстриков, ясно?"
   },
   {
     "id": 45,
     "original_en": "Tadahiro Usuda: Look closely and you'll appreciate\nthe little details on the monsters. Like—here,\ncheck out the shadow on this guy's sword! See it?",
     "original_fr": "Tadahiro Usuda : Si vous regardez attentivement, vous\nremarquerez plein de petits détails sur les monstres.\nAh, par exemple, l'ombre de l'épée de celui-ci...\nAlors, vous voyez ?",
-    "translation": ""
+    "translation": "Тадахиро Усуда: Приглядитесь, и вы оцените\nмельчайшие детали монстров. Вот, гляньте на тень\nот меча у этого парня! Видите?"
   },
   {
     "id": 46,
     "original_en": "Makoto Shimamoto: Boom!\n9999 damage!\nYou do!",
     "original_fr": "Makoto Shimamoto : Vous avez déj{TAG:3C} réussi {TAG:3C} infliger\n9999 points de dég{TAG:4A}ts ? Ça défoule !",
-    "translation": ""
+    "translation": "Макото Симамото: Бум! 9999 урона! Получилось!"
   },
   {
     "id": 47,
     "original_en": "Yasunori Mitsuda: Well, now it's my turn to set\noff on a journey to see what the world holds in store.\nI wonder if I shall ever return.",
     "original_fr": "Yasunori Mitsuda : Je vais partir en voyage dans\nun endroit très lointain... C'est la prochaine étape.\nMais je ne sais pas si je reviendrai...",
-    "translation": ""
+    "translation": "Ясунори Мицуда: Что ж, теперь моя очередь\nотправиться в странствие и повидать мир.\nИнтересно, суждено ли мне вернуться."
   },
   {
     "id": 48,
     "original_en": "Kazumi Kobayashi: I've lost 22 pounds working\non this game.",
     "original_fr": "Kazumi Kobayashi : J'ai maigri... J'ai perdu 10 kilos...",
-    "translation": ""
+    "translation": "Кадзуми Кобаяси: Работая над этой игрой, я\nсбросил десять килограммов."
   },
   {
     "id": 49,
     "original_en": "Kaname: I'm just a map design n00b.\nBut my dad's a pro gamer.\nHe pwns n00bs at the arcade.",
     "original_fr": "Kaname : Je suis apprenti créateur de cartes.\nMon superviseur ? Il est parti jouer {TAG:3C} la salle\nd'arcades.",
-    "translation": ""
+    "translation": "Канамэ: Я пока ещё новичок в дизайне карт. А вот\nмой отец — прогеймер. Он разносит всех на игровых\nавтоматах!"
   },
   {
     "id": 50,
     "original_en": "Hirokatsu Sasaki: Ever since I started growing\nout my hair, I've been getting a lot of\nattention...from guys! I can't believe it!",
     "original_fr": "Hirokatsu Sasaki : Depuis que je me suis laissé pousser\nles cheveux, je me fais souvent aborder dans la rue...\npar des hommes ! Quel choc !",
-    "translation": ""
+    "translation": "Хирокацу Сасаки: С тех пор как я отрастил волосы,\nна меня обращают кучу внимания... парни! Просто\nповерить не могу!"
   },
   {
     "id": 51,
     "original_en": "Sorry, it's a bad makeup day for Takashi Tokita.",
     "original_fr": "Ah, pardon, je ne porte pas de masque...{WAIT_KEY}\nC'est Takashi Tokita, {TAG:3C} la mode de Liverpool.",
-    "translation": ""
+    "translation": "Простите, у Такаси Токиты неудачный день для\nнанесения макияжа."
   },
   {
     "id": 52,
     "original_en": "Yukio Nakatani: Thanks for playing!\nAre you a girl?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Yukio Nakatani : Merci d'avoir joué ! Au fait, êtes-vous\nune fille ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Юкио Накатани: Спасибо\nза игру! Ты девушка?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 53,
     "original_en": "Akihiko Matsui: What did you think?\nI hope you had a good time!\nSee you in another game!",
     "original_fr": "Akihiko Matsui : Alors, qu'en dites-vous ? Si le jeu vous a\nplu, je suis heureux. Â la prochaine dans un autre jeu !",
-    "translation": ""
+    "translation": "Акихико Мацуи: Ну как тебе? Надеюсь, тебе\nпонравилось! Увидимся в других играх!"
   },
   {
     "id": 54,
     "original_en": "Tetsuya Nomura: 3...{GLYPH:405}08{GLYPH:406}\n2... {GLYPH:405}08{GLYPH:406}1...{GLYPH:405}08{GLYPH:406}\nRESET!",
     "original_fr": "Tetsuya Nomura : 3...{GLYPH:405}08{GLYPH:406}\n2...{GLYPH:405}08{GLYPH:406}\n1...{GLYPH:405}08{GLYPH:406}\nRedémarrage de la console !",
-    "translation": ""
+    "translation": "Тэцуя Номура: 3...{GLYPH:405}08{GLYPH:406} 2... {GLYPH:405}08{GLYPH:406}1...{GLYPH:405}08{GLYPH:406} ПЕРЕЗАГРУЗКА!"
   },
   {
     "id": 55,
     "original_en": "Just joking!",
     "original_fr": "Je plaisante !",
-    "translation": ""
+    "translation": "Шучу!"
   },
   {
     "id": 56,
     "original_en": "Yasuyuki Honne: This was my first project.\nWhew, was I ever nervous!\nWhat a relief it's over!",
     "original_fr": "Yasuyuki Honne : C'était mon premier projet.\nJ'étais si nerveux !",
-    "translation": ""
+    "translation": "Ясуюки Хоннэ: Это был мой первый проект. Ух, как\nже я нервничал! Какое счастье, что всё позади!"
   },
   {
     "id": 57,
     "original_en": "Shinichiro Hamasaka: I just helped the Chrono\nTrigger team a tiny bit. Good job, guys!",
     "original_fr": "Shin'ichirô Hamasaka : L'équipe de Chrono Trigger s'est\nvraiment donnée {TAG:3C} fond ! Moi, je n'ai fait que donner un\ncoup de main.",
-    "translation": ""
+    "translation": "Синъитиро Хамасака: Я лишь чуточку помог команде\nChrono Trigger. Отличная работа, ребята!"
   },
   {
     "id": 58,
     "original_en": "Yoshinori Kitase: There are more than ten\ndifferent endings. Have you seen them all?\nThe ending you get depends on when you\nchallenge Lavos.",
     "original_fr": "Yoshinori Kitase : Il y a plus de 10 fins différentes.\nElles varient en fonction d'où et de quand vous\ncombattez Lavos !{WAIT_KEY}\nLes avez-vous toutes vues ?",
-    "translation": ""
+    "translation": "Ёсинори Китасэ: В игре свыше десяти концовок. Ты\nоткрыл их все? Концовка зависит от того, в какой\nмомент ты бросишь вызов Лавосу."
   },
   {
     "id": 59,
     "original_en": "Yusuke Naora: How was the art?\nI had a blast working on it!",
     "original_fr": "Y{TAG:63}suke Naora : C'était un plaisir de participer {TAG:3C} ce\nprojet. J'espère que mes dessins vous ont plu.",
-    "translation": ""
+    "translation": "Юсукэ Наора: Как вам графика? Я получил море\nудовольствия от работы!"
   },
   {
     "id": 60,
     "original_en": "Takayuki Ohtachi: Well done!",
     "original_fr": "Takayuki ëtachi : Bon travail !",
-    "translation": ""
+    "translation": "Такаюки Отати: Отличная работа!"
   },
   {
     "id": 61,
     "original_en": "Kezuka: Better find the switch soon or\nit'll all go up in flames!",
     "original_fr": "Kezuka : Si vous ne trouvez pas l'interrupteur\nrapidement, tout va br{TAG:63}ler !",
-    "translation": ""
+    "translation": "Кэдзука: Скорее найди переключатель, иначе всё\nвзлетит на воздух!"
   },
   {
     "id": 62,
     "original_en": "{ROBO}: I realized something during these\npast four hundred years.{WAIT_KEY}\nI believe we may have been incorrect in our\nassumption that Lavos was responsible for the\ncreation of the Gates.",
     "original_fr": "{ROBO} : Après avoir passé 400 ans ici, je me suis\nrendu compte de quelque chose.{WAIT_KEY}\nNous pensions que les portails étaient des distorsions\ncausées par le pouvoir de Lavos, mais je crois que\nnous avions tort.",
-    "translation": ""
+    "translation": "{ROBO}: За эти четыреста лет я кое-что осознал.{WAIT_KEY}\nКажется, мы ошибались, полагая, будто за\nпоявление Врат ответственен Лавос."
   },
   {
     "id": 63,
     "original_en": "{MARLE}: What do you mean?",
     "original_fr": "{MARLE} : Que veux-tu dire par l{TAG:3C} ?",
-    "translation": ""
+    "translation": "{MARLE}: Что ты имеешь в виду?"
   },
   {
     "id": 64,
     "original_en": "{ROBO}: It is not a certainty, but I have\ncome to believe it possible that some entity\nwished for us to witness these events.{WAIT_KEY}\nPerhaps it wanted us to see all of these\nvarious ages. Alternately, it may have wished\nto see them for itself.{WAIT_KEY}\nIt seems almost as though it was reflecting\non the days of its past.",
     "original_fr": "{ROBO} : Je ne peux pas en être certain, mais\nquelqu'un ne voulait-il pas nous montrer quelque\nchose, en nous faisant voyager {TAG:3C} travers les\n{TAG:4A}ges par ces portails...?{WAIT_KEY}\nOu encore, cette personne voulait peut-être le voir de\nses propres yeux, pour se souvenir de ce qu'elle avait\nvécu...",
-    "translation": ""
+    "translation": "{ROBO}: Я не могу утверждать наверняка, но пришёл\nк мысли, что некая сущность желала, чтобы мы\nстали свидетелями сих событий.{WAIT_KEY}\nБыть может, она хотела показать нам эти эпохи.\nИли же стремилась взглянуть на них сама.{WAIT_KEY}\nБудто бы она вспоминала дни своего былого."
   },
   {
     "id": 65,
     "original_en": "{AYLA}: {AYLA} know.\nPerson die, see life pass by.\nElder say!",
     "original_fr": "{AYLA} : {AYLA} comprendre. Légende dire que\nlorsque quelqu'un mourir, voir tous souvenirs !",
-    "translation": ""
+    "translation": "{AYLA}: {AYLA} знать. Человек умирать — видеть\nвся жизнь. Старейшина говорить!"
   },
   {
     "id": 66,
     "original_en": "{FROG}: Before death claims a man, he is\nmade to bear witness a second time to those\nmemories engraved most deeply upon his heart.{WAIT_KEY}\nThere may be fond memories among them, yes.\nBut often as not, the ones which grieve us\nare the most profound.",
     "original_fr": "{FROG} : On raconte qu'au décès d'une personne,\nles souvenirs gravés au plus profond de son c{TAG:61}ur\npendant sa vie lui reviennent {TAG:3C} l'esprit, les uns après\nles autres.{WAIT_KEY}\nCe sont parfois des souvenirs heureux, mais dans la\nplupart des cas, ce sont des souvenirs tristes.",
-    "translation": ""
+    "translation": "{FROG}: Перед тем как смерть настигнет человека,\nему суждено вновь узреть воспоминания, глубже\nвсего запечатлённые в его сердце.{WAIT_KEY}\nСреди них бывают и светлые, да. Но чаще всего\nсамые глубокие — те, что причиняют нам скорбь."
   },
   {
     "id": 67,
     "original_en": "{ROBO}: Knowing the end is approaching\nlikely reactivates dormant feelings of regret,\nand desire to return to moments in the past.",
     "original_fr": "{ROBO} : Ce sont sans doute les moments les plus\nmémorables de notre existence, ceux que l'on voudrait\nrevivre ou ceux que l'on voudrait changer...",
-    "translation": ""
+    "translation": "{ROBO}: Осознание скорого конца пробуждает\nдремавшее чувство сожаления и жажду вернуться в\nмоменты далёкого прошлого."
   },
   {
     "id": 68,
     "original_en": "{MARLE}: Do you suppose that will happen when\nour time comes?{WAIT_KEY}\n{LUCCA}: Probably... Who knows?{WAIT_KEY}\n{MARLE}: Is there a point in time you'd want\nto return to, {LUCCA}?",
     "original_fr": "{MARLE} : Je me demande si ça m'arrivera aussi\nquand je vais mourir...{WAIT_KEY}\n{LUCCA} : Sans doute.{WAIT_KEY}\n{MARLE} : Y a-t-il quelque chose dans ta vie que tu\nvoudrais changer, {LUCCA} ?",
-    "translation": ""
+    "translation": "{MARLE}: Думаете, так случится и с нами, когда\nпробьёт наш час?{WAIT_KEY}\n{LUCCA}: Наверное... Кто знает?{WAIT_KEY}\n{MARLE}: Есть ли в твоём прошлом миг, в который ты\nхотела бы вернуться, {LUCCA}?"
   },
   {
     "id": 69,
     "original_en": "{LUCCA}: I—no, not...not really.{WAIT_KEY}\n{MARLE}: I'm sorry, I probably shouldn't have asked.",
     "original_fr": "{LUCCA} : Je... Non... Pas vraiment.{WAIT_KEY}\n{MARLE} : Désolée... Je n'aurais pas d{TAG:63} te le\ndemander ?",
-    "translation": ""
+    "translation": "{LUCCA}: Я... нет, пожалуй... не особо.{WAIT_KEY}\n{MARLE}: Прости, мне не стоило спрашивать."
   },
   {
     "id": 70,
     "original_en": "{LUCCA}: No, it's okay. It's just something I\ndon't like to think about too much.",
     "original_fr": "{LUCCA} : J'essaie de ne pas trop y penser.",
-    "translation": ""
+    "translation": "{LUCCA}: Всё в порядке. Просто мне не очень хочется\nоб этом вспоминать."
   },
   {
     "id": 71,
     "original_en": "{FROG}: But even if Lavos did not open the\nGates, his fate is clearly bound to that of the\none who did.{WAIT_KEY}\nLavos has played a role in every age we've seen.",
     "original_fr": "{FROG} : La personne {TAG:3C} qui appartiennent ces\nsouvenirs doit avoir toute une connexion avec\nLavos.{WAIT_KEY}\nIls sont tous liés {TAG:3C} ce dernier, quelle que soit l'époque.",
-    "translation": ""
+    "translation": "{FROG}: Но даже если не Лавос открыл Врата, его\nсудьба сплетена с тем, кто сотворил их.{WAIT_KEY}\nЛавос оставил след во всех виденных эпохах."
   },
   {
     "id": 72,
     "original_en": "{MAGUS}: Who do you think it is?",
     "original_fr": "{MAGUS} : ...\nAlors, qui est donc cette personne ?",
-    "translation": ""
+    "translation": "{MAGUS}: И кто же это, по-вашему?"
   },
   {
     "id": 73,
     "original_en": "{ROBO}: It is unknown to me whose memories\nthese are. It is likely an entity greater than\nany of us.{WAIT_KEY}\nPerhaps we will not know until our journey has\ncome to an end.\n{GLYPH:405}08{GLYPH:406}Shall we turn in for the night?",
     "original_fr": "{ROBO} : Je ne sais pas {TAG:3C} qui ils appartiennent.\nCe n'est peut-être pas une personne... mais plutôt\nune entité beaucoup plus grande.{WAIT_KEY}\nIl est possible que nous ne le sachions que lorsque\nnotre aventure se terminera. {GLYPH:405}08{GLYPH:406}Nous devrions sans\ndoute dormir...",
-    "translation": ""
+    "translation": "{ROBO}: Мне неведомо, чьи это воспоминания.\nДолжно быть, некая сущность превыше всех нас.{WAIT_KEY}\nБыть может, мы узнаем это лишь тогда, когда наш\nпуть подойдёт к концу. {GLYPH:405}08{GLYPH:406}Не пора ли нам отдохнуть?"
   },
   {
     "id": 74,
     "original_en": "{ROBO}: You can give her my legs!\nThey are lightweight, with a highly compact\nform factor and exceptional balance.{WAIT_KEY}\nYou could mount some treads on me instead.\nAnything would be fine.",
     "original_fr": "{ROBO} : Je lui donnerai mes jambes ! Elles sont très\nstables et peu encombrantes. Tu n'as qu'{TAG:3C} me donner\nun système de propulsion {TAG:3C} chenilles, et...",
-    "translation": ""
+    "translation": "{ROBO}: Вы можете взять мои ноги! Они лёгкие,\nкомпактные и великолепно держат баланс.{WAIT_KEY}\nА мне взамен установите какие-нибудь гусеницы.\nПодойдёт всё что угодно."
   },
   {
     "id": 75,
     "original_en": "{ROBO}: Please do not be sad, {LUCCA}.",
     "original_fr": "{ROBO} : Ne sois pas si triste.",
-    "translation": ""
+    "translation": "{ROBO}: Прошу, не грусти, {LUCCA}."
   },
   {
     "id": 76,
     "original_en": "{LUCCA}: Thank you.\nYou're such a good friend.",
     "original_fr": "{LUCCA} : Je te remercie. J'ai un ami si généreux...",
-    "translation": ""
+    "translation": "{LUCCA}: Спасибо тебе. Ты такой замечательный\nдруг."
   },
   {
     "id": 77,
     "original_en": "{ROBO}: A good...friend?\nYou called me your friend?\nBut...I am only a robot.",
     "original_fr": "{ROBO} : Un ami...\nMoi, un robot...?",
-    "translation": ""
+    "translation": "{ROBO}: Замечательный... друг? Ты назвала меня\nсвоим другом? Но... я ведь всего лишь робот."
   },
   {
     "id": 78,
     "original_en": "{ROBO}: That was always weighing on\nyour mind, was it not, {LUCCA}?\nYou are always thinking of others.",
     "original_fr": "{ROBO} : Cela te tourmentait pendant tout ce\ntemps... Tu as bon c{TAG:61}ur, {LUCCA}.",
-    "translation": ""
+    "translation": "{ROBO}: Это ведь всё время тяготило тебя, {LUCCA}?\nТы всегда заботишься о других."
   },
   {
     "id": 79,
     "original_en": "{ROBO}: I have a present for you.\nIt is a piece of amber I created using\nsap from the trees in this forest.{WAIT_KEY}\nIt required four hundred years and a\ngreat deal of pressurization to make.\nI hope you will find it useful.",
     "original_fr": "{ROBO} : Je veux te donner quelque chose. C'est un\nmorceau d'ambre que j'ai créé en faisant durcir la\nrésine des arbres de la forêt.{WAIT_KEY}\nIl m'a fallu 400 années pour le fabriquer. J'espère qu'il\nte sera utile.",
-    "translation": ""
+    "translation": "{ROBO}: У меня есть для тебя подарок. Это кусочек\nянтаря, который я создал из смолы деревьев этого\nлеса.{WAIT_KEY}\nПотребовалось 400 лет и колоссальное давление,\nчтобы получить его. Надеюсь, он тебе пригодится."
   },
   {
     "id": 80,
     "original_en": "{LUCCA}: {ROBO}...\nYou're so sweet. Thank you.",
     "original_fr": "{LUCCA} : Merci beaucoup, {ROBO}...",
-    "translation": ""
+    "translation": "{LUCCA}: {ROBO}... Ты такое сокровище. Спасибо."
   },
   {
     "id": 81,

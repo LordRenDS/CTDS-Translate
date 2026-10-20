@@ -63,7 +63,7 @@
     "id": 10,
     "original_en": "Try and guess the next winner?\n{TAG:38}{TAG:38}{GLYPH:394}Sure!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Not this time.{GLYPH:397}",
     "original_fr": "Voulez-vous prédire qui gagnera la course ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Угадать следующего победителя? {TAG:38}{TAG:38}{GLYPH:394}Конечно!{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Не\nсейчас.{GLYPH:397}"
+    "translation": "Угадать следующего победителя?\n{TAG:38}{TAG:38}{GLYPH:394}Конечно!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Не сейчас.{GLYPH:397}"
   },
   {
     "id": 11,
@@ -171,13 +171,13 @@
     "id": 28,
     "original_en": "Melchior the swordsmith, at your service!\nMight I interest you in one of my fine blades?{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}Take a look.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No, thanks.{GLYPH:397}",
     "original_fr": "Je suis Bosch, le forgeron. Voulez-vous acheter une\ndes armes que j'ai fabriquées ?{WAIT_KEY}\n       {GLYPH:394}Jeter un coup d'{TAG:61}il{GLYPH:395}\n       {GLYPH:396}Laisser tomber{GLYPH:397}",
-    "translation": "Кузнец Мельхиор к вашим услугам! Не желаете\nвзглянуть на мои клинки?{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}Взглянуть.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет, спасибо.{GLYPH:397}"
+    "translation": "Кузнец Мельхиор к вашим услугам! Не желаете\nвзглянуть на мои клинки?{WAIT_KEY}{TAG:38}{TAG:38}{GLYPH:394}Взглянуть.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет, спасибо.{GLYPH:397}"
   },
   {
     "id": 29,
     "original_en": "By the way...{WAIT_KEY}\nIs there any chance you could talk that young lady\ninto selling her pendant to me?\n{TAG:38}{TAG:38}{GLYPH:394}I'll try.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Sorry.{GLYPH:397}",
     "original_fr": "Au fait...{WAIT_KEY}\nPourriez-vous convaincre la jeune fille qui vous\naccompagne de me vendre son pendentif ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Кстати говоря...{WAIT_KEY}\nНе мог бы ты уговорить барышню продать мне этот\nкулон? {TAG:38}{TAG:38}{GLYPH:394}Я попробую.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Простите.{GLYPH:397}"
+    "translation": "Кстати говоря...{WAIT_KEY}Не мог бы ты уговорить барышню продать мне этот\nкулон?\n{TAG:38}{TAG:38}{GLYPH:394}Я попробую.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Простите.{GLYPH:397}"
   },
   {
     "id": 30,
@@ -249,7 +249,7 @@
     "id": 41,
     "original_en": "Girl: Oh, thank goodness! My pendant!\nI know it doesn't look like much, but\nit has a lot of sentimental value.{WAIT_KEY}\nMay I have it back?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Jeune fille : Oh, tu as retrouvé mon pendentif ?\nIl est vieux, mais il m'est très précieux.{WAIT_KEY}\nPourrais-je le ravoir ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Девушка: О, слава небесам! Мой кулон! Он выглядит\nпростенько, но мне очень дорог.{WAIT_KEY}\nВернёшь его мне? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Девушка: О, слава небесам! Мой кулон! Он выглядит\nпростенько, но мне очень дорог.{WAIT_KEY}Вернёшь его мне?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 42,
@@ -261,13 +261,13 @@
     "id": 43,
     "original_en": "Thank you.{WAIT_KEY}\nYou must live in this town. I came to see the fair.\nAwfully boring wandering around alone, though, isn't it?{WAIT_KEY}\nHey, why don't we walk around together for a while?\nWouldn't that be great?\n{TAG:38}{TAG:38}{GLYPH:394}Sure.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Sorry.{GLYPH:397}",
     "original_fr": "Dis, tu es de ce village, pas vrai ? Je suis venue\nm'amuser {TAG:3C} la foire, mais toute seule, ce n'est pas\nmarrant.{WAIT_KEY}\nTu veux bien m'accompagner ?\nS'il te pla¡t !\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Спасибо.{WAIT_KEY}\nТы ведь живёшь здесь? А я пришла на ярмарку.\nТолько одной бродить ужасно скучно, правда?{WAIT_KEY}\nСлушай, давай погуляем вместе? Здорово ведь\nбудет! {TAG:38}{TAG:38}{GLYPH:394}Давай.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Прости.{GLYPH:397}"
+    "translation": "Спасибо.{WAIT_KEY}\nТы ведь живёшь здесь? А я пришла на ярмарку.\nТолько одной бродить ужасно скучно, правда?{WAIT_KEY}Слушай, давай погуляем вместе? Здорово ведь\nбудет!\n{TAG:38}{TAG:38}{GLYPH:394}Давай.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Прости.{GLYPH:397}"
   },
   {
     "id": 44,
     "original_en": "Girl: Oh, please!\nI'm all alone, and I don't know anyone around here!\n{TAG:38}{TAG:38}{GLYPH:394}Okay, fine.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Jeune fille : Oh, allons ! Tu refuserais de porter secours\n{TAG:3C} une jeune fille en détresse ?\n       {GLYPH:394}Accompagner la jeune fille{GLYPH:395}\n       {GLYPH:396}Refuser de l'accompagner{GLYPH:397}",
-    "translation": "Девушка: Ну пожалуйста! Я тут совсем одна и\nникого не знаю! {TAG:38}{TAG:38}{GLYPH:394}Ладно, пойдём.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Девушка: Ну пожалуйста! Я тут совсем одна и\nникого не знаю!\n{TAG:38}{TAG:38}{GLYPH:394}Ладно, пойдём.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 45,
@@ -441,7 +441,7 @@
     "id": 73,
     "original_en": "Let me see how many Silver Points you have\non your card... Looks like you've got {GLYPH:367}.{WAIT_KEY}\nWould you like to exchange 10 Silver Points\nfor 50 G?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous avez actuellement {GLYPH:367} point(s) d'argent.{WAIT_KEY}\nVoulez-vous échanger 10 points d'argent contre\n50 G ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Посмотрим, сколько Серебряных очков у тебя на\nкарточке... Всего {GLYPH:367}.{WAIT_KEY}\nХочешь обменять 10 Серебряных очков на 50 З?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Посмотрим, сколько Серебряных очков у тебя на\nкарточке... Всего {GLYPH:367}.{WAIT_KEY}Хочешь обменять 10 Серебряных\nочков на 50 З?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 74,
@@ -459,7 +459,7 @@
     "id": 76,
     "original_en": "Oh hoh hoh... There's nothing like a good fair!\nSay, have you heard the gossip?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Ho, ho, ho ! J'aime les foires ! Au fait, avez-vous\nentendu les dernières nouvelles ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "О-хо-хо... Нет ничего лучше доброй ярмарки! Кстати,\nслыхал свежие сплетни? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "О-хо-хо... Нет ничего лучше доброй ярмарки! Кстати,\nслыхал свежие сплетни?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 77,
@@ -849,7 +849,7 @@
     "id": 141,
     "original_en": "Chancellor: Is this true?\nWho was responsible for initiating contact?\n{TAG:38}{TAG:38}{GLYPH:394}I was.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{MARLE} was.{GLYPH:397}",
     "original_fr": "Chancelier : Est-ce vraiment ce qui s'est passé ?\nQui a pris l'initiative ?\n       {GLYPH:394}Moi{GLYPH:395}\n       {GLYPH:396}{MARLE}{GLYPH:397}",
-    "translation": "Канцлер: Правда ли это? Кто первый заговорил? {TAG:38}{TAG:38}{GLYPH:394}Я.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{MARLE}.{GLYPH:397}"
+    "translation": "Канцлер: Правда ли\nэто? Кто первый заговорил?\n{TAG:38}{TAG:38}{GLYPH:394}Я.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{MARLE}.{GLYPH:397}"
   },
   {
     "id": 142,
@@ -957,7 +957,7 @@
     "id": 159,
     "original_en": "Chancellor: Have you ever stolen anything?\n{TAG:38}{TAG:38}{GLYPH:394}I have.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No, never!{GLYPH:397}",
     "original_fr": "Chancelier : As-tu déj{TAG:3C} commis un vol ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Канцлер: Доводилось ли тебе воровать? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Никогда!{GLYPH:397}"
+    "translation": "Канцлер: Доводилось ли тебе воровать?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Никогда!{GLYPH:397}"
   },
   {
     "id": 160,
@@ -993,7 +993,7 @@
     "id": 165,
     "original_en": "Chancellor: Pardon me, but I believe the motive\nwas quite clear: greed.{WAIT_KEY}\nHer fortune did tempt you, did it not,\n{CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}No.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Yes.{GLYPH:397}",
     "original_fr": "Chancelier : Désolé de vous contredire, mais...\nEt si le motif était sa fortune ?{WAIT_KEY}\nTu en voulais {TAG:3C} ses richesses, n'est-ce pas,\n{CRONO} ?\n       {GLYPH:394}Non{GLYPH:395}\n       {GLYPH:396}Oui{GLYPH:397}",
-    "translation": "Канцлер: Прошу прощения, но мотив налицо:\nалчность!{WAIT_KEY}\nЕё богатства манили тебя, верно, {CRONO}? {TAG:38}{TAG:38}{GLYPH:394}Нет.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Да.{GLYPH:397}"
+    "translation": "Канцлер: Прошу прощения, но мотив налицо:\nалчность!{WAIT_KEY}Её богатства манили\nтебя, верно, {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Нет.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Да.{GLYPH:397}"
   },
   {
     "id": 166,
@@ -1011,7 +1011,7 @@
     "id": 168,
     "original_en": "Chancellor: Are you sure?\nYou weren't in the least bit tempted?\n{TAG:38}{TAG:38}{GLYPH:394}Not at all.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Just a bit.{GLYPH:397}",
     "original_fr": "Chancelier : Alors, sa fortune ne t'intéresse vraiment\npas du tout ?\n       {GLYPH:394}Pas du tout{GLYPH:395}\n       {GLYPH:396}Un peu{GLYPH:397}",
-    "translation": "Канцлер: Ты уверен? И ни капельки не соблазнился?\n{TAG:38}{TAG:38}{GLYPH:394}Ни капельки.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Ну, чуть-чуть.{GLYPH:397}"
+    "translation": "Канцлер: Ты уверен? И\nни капельки не соблазнился?\n{TAG:38}{TAG:38}{GLYPH:394}Ни капельки.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ну, чуть-чуть.{GLYPH:397}"
   },
   {
     "id": 169,
@@ -1197,7 +1197,7 @@
     "id": 199,
     "original_en": "{GLYPH:384}\nA message is scrawled in blood here.{WAIT_KEY}{GLYPH:384}\n\"Beware the jugglers in the Fiendlord's keep!\nStrike them, and they tighten their defense\nagainst blows. Cast spells upon them, and they\nstrengthen their defense against magic.\"",
     "original_fr": "{GLYPH:384}\nIl a écrit un message avec son propre sang...{WAIT_KEY}\n{TAG:64} Les jongleurs du palais du Magistère deviennent\nplus résistants {TAG:3C} chaque coup qu'on leur porte... {TAG:65}",
-    "translation": "{GLYPH:384} Здесь кровью нацарапано послание...{WAIT_KEY}{GLYPH:384}\n«Опасайтесь жонглёров в замке Владыки демонов!\nБейте их — и окрепнет защита от ударов. Бейте\nмагией — и окрепнет защита от магии!»"
+    "translation": "{GLYPH:384} Здесь кровью нацарапано послание...{WAIT_KEY}{GLYPH:384} «Опасайтесь жонглёров в замке Владыки!\nБейте их — окрепнет защита от ударов. Бейте\nмагией — окрепнет защита от магии!»"
   },
   {
     "id": 200,

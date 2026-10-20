@@ -609,7 +609,7 @@
     "id": 101,
     "original_en": "Strange Construct: *mumble mumble*?\n{TAG:38}{TAG:38}{GLYPH:394}Take off.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Get off.{GLYPH:397}",
     "original_fr": "Créature étrange : Zzz... Hmm...?\n       {GLYPH:394}Mettre la machine en marche{GLYPH:395}\n       {GLYPH:396}Descendre{GLYPH:397}",
-    "translation": "Странное создание: *бу-бу-бу*? {TAG:38}{TAG:38}{GLYPH:394}Взлететь.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Сойти.{GLYPH:397}"
+    "translation": "Странное создание: *бу-бу-бу*?\n{TAG:38}{TAG:38}{GLYPH:394}Взлететь.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Сойти.{GLYPH:397}"
   },
   {
     "id": 102,
@@ -705,7 +705,7 @@
     "id": 117,
     "original_en": "Switch the construct off?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous appuyer sur l'interrupteur ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Отключить создание? {TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Отключить создание?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 118,
@@ -723,7 +723,7 @@
     "id": 120,
     "original_en": "What will you do?\n{TAG:38}{TAG:38}{GLYPH:394}Escape.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Remain here.{GLYPH:397}",
     "original_fr": "Qu'allez-vous faire ?\n       {GLYPH:394}Sortir{GLYPH:395}\n       {GLYPH:396}Rester ici{GLYPH:397}",
-    "translation": "Что вы сделаете? {TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Остаться.{GLYPH:397}"
+    "translation": "Что вы сделаете?\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Остаться.{GLYPH:397}"
   },
   {
     "id": 121,
@@ -741,7 +741,7 @@
     "id": 123,
     "original_en": "What will you do?\n{TAG:38}{TAG:38}{GLYPH:394}Shop.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Just chat.{GLYPH:397}",
     "original_fr": "Qu'allez-vous faire ?\n       {GLYPH:394}Faire des achats{GLYPH:395}\n       {GLYPH:396}Juste dire bonjour{GLYPH:397}",
-    "translation": "Что вы сделаете? {TAG:38}{TAG:38}{GLYPH:394}Купить.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}Уйти.{GLYPH:397}"
+    "translation": "Что вы сделаете?\n{TAG:38}{TAG:38}{GLYPH:394}Купить.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Уйти.{GLYPH:397}"
   },
   {
     "id": 124,

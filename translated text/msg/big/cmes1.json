@@ -3,661 +3,661 @@
     "id": 0,
     "original_en": "Hold it right there!",
     "original_fr": "Un instant !",
-    "translation": ""
+    "translation": "Стоять на месте!"
   },
   {
     "id": 1,
     "original_en": "Robots: Oh!",
     "original_fr": "Robot : Ah !",
-    "translation": ""
+    "translation": "Роботы: О-о-о!"
   },
   {
     "id": 2,
     "original_en": "Robots: Bro!",
     "original_fr": "Robot : Johnny !",
-    "translation": ""
+    "translation": "Роботы: Джонни!"
   },
   {
     "id": 3,
     "original_en": "Bro: Thanks for the intro, boys!",
     "original_fr": "Johnny : Désolé de vous avoir fait attendre !",
-    "translation": ""
+    "translation": "Джонни: Спасибо за представление, парни!"
   },
   {
     "id": 4,
     "original_en": "Bro: You lowlifes can call me Johnny.\nI'm the leader of this pack.{WAIT_KEY}\nNow listen up. The ruined highway up ahead's the only\nroad you've got. You wanna reach the other side?\nThen you're gonna hafta ride—in a race against me,\nthat is!",
     "original_fr": "Johnny : Moi, c'est Johnny. Je suis le chef de cette\nbande.{WAIT_KEY}\nSi tu veux traverser ces ruines, tu devras me battre {TAG:3C}\nla course sur l'ancienne autoroute.",
-    "translation": ""
+    "translation": "Джонни: Для вас, салаг, я просто Джонни. Я здесь\nвожак этой стаи.{WAIT_KEY}\nСлушайте сюда. Шоссе впереди — единственная\nдорога. Хотите на ту сторону? Тогда придётся\nпрокатиться — и обогнать меня в гонке!"
   },
   {
     "id": 5,
     "original_en": "Johnny: I'll let you use that jetbike, 'cause that's\nthe kinda guy I am. Don't sweat it—and don't you\ndare chicken out, babe!",
     "original_fr": "Johnny : Je vais te prêter cette moto. Ce n'est pas le\nmoment de te dégonfler ! Vas-y {TAG:3C} fond !",
-    "translation": ""
+    "translation": "Джонни: Я позволю тебе взять этот джетбайк, ведь\nя парень широкой души. Не дрейфь — и даже не\nдумай струсить, детка!"
   },
   {
     "id": 6,
     "original_en": "Robot: Bro, Bro, he's the man!\nIf he can't do it, no one can!",
     "original_fr": "Robot : Johnny est trop fort !\nTrop fort !",
-    "translation": ""
+    "translation": "Робот: Братуха, братуха, круче всех! Ждёт его во\nвсём успех!"
   },
   {
     "id": 7,
     "original_en": "Robot: Winning does that to Johnny's hair.",
     "original_fr": "Robot : Johnny est trop rapide !\nTrop rapide !",
-    "translation": ""
+    "translation": "Робот: От вкуса победы у Джонни даже причёска\nблестит!"
   },
   {
     "id": 8,
     "original_en": "Robot: Bro, Bro, he's so fast!\nYou came in dead last!",
     "original_fr": "Robot : T'es trop nul !\nTrop nul !",
-    "translation": ""
+    "translation": "Робот: Братуха, братуха, летит стрелой! А ты\nприплёлся в пыли за кормой!"
   },
   {
     "id": 9,
     "original_en": "Robot: Give it up! Go home!",
     "original_fr": "Robot : Johnny est trop cool !\nTrop cool !",
-    "translation": ""
+    "translation": "Робот: Сдавайся! Вали домой!"
   },
   {
     "id": 10,
     "original_en": "Robot: Bro, Bro, he's so fast!\nHe came in...dead last?",
     "original_fr": "Robot : Johnny a perdu !\nPerdu !",
-    "translation": ""
+    "translation": "Робот: Братуха, братуха, летит стрелой! Он\nпришёл... самым последним?!"
   },
   {
     "id": 11,
     "original_en": "Robot: Hey, you're not bad!",
     "original_fr": "Robot : Toi aussi t'es trop fort !\nTrop fort !",
-    "translation": ""
+    "translation": "Робот: Эй, а ты неплох!"
   },
   {
     "id": 12,
     "original_en": "Johnny: So...\nDo you shiny axels know how to ride?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Johnny : Au fait, tu sais comment conduire une\nmoto ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Джонни: Ну что, блестящие шестерёнки, водить-то\nвы умеете?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 13,
     "original_en": "Johnny: Need some pointers?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Johnny : Tu veux quelques conseils ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Джонни: Нужен инструктаж?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 14,
     "original_en": "Johnny: All right, listen up and let Johnny tell you\nhow it's done!{WAIT_KEY}\nThe gas is on auto, so there's only one speed—fast!\nUse the +Control Pad to steer up and down.{WAIT_KEY}\nPress the B Button for a Turbo Boost.\nI'll give you 3 of them. The \"B\" icons in\nthe bottom right corner show how many\nyou've got left.{WAIT_KEY}\nHeads up, though!\nAfter you use one, you can't use another\nuntil the gauge above the icons refills.{WAIT_KEY}\nYou can check your position from the\nfinish line at the bottom of the screen.\nNow show me what you've got, babe!",
     "original_fr": "Johnny : îcoute bien ce que le grand Johnny a {TAG:3C} te\ndire !{WAIT_KEY}\nL'accélérateur est toujours activé, alors tu iras\ntoujours vers l'avant, pas besoin de t'inquiéter.\nAppuie vers le haut ou le bas sur la manette +\npour te déplacer.{WAIT_KEY}\nAppuie sur le bouton B pour utiliser une accélération\nturbo. Tu peux en utiliser trois, comme l'indiquent les\nicônes en bas {TAG:3C} droite de l'écran.{WAIT_KEY}\nMais attention ! Après avoir utilisé une accélération\nturbo, tu devras attendre que la jauge au-dessus de\nl'icône soit remplie pour en utiliser une autre.{WAIT_KEY}\nGarde l'{TAG:61}il sur ta position au bas de l'écran.\nAlors, montre-moi ce dont tu es capable !",
-    "translation": ""
+    "translation": "Джонни: Слушай сюда — Джонни научит, как надо\nрулить!{WAIT_KEY}\nГаз на авто, скорость одна — запредельная!\nИспользуй кнопку направления вверх и вниз.{WAIT_KEY}\nЖми кнопку B для турбо-ускорения. Я даю 3 штуки.\nЗначки «B» в правом нижнем углу показывают\nостаток.{WAIT_KEY}\nНо гляди в оба! После одного турбо нельзя включить\nследующее, пока не заполнится шкала над\nзначками.{WAIT_KEY}\nРасстояние до финиша смотри внизу экрана. А\nтеперь покажи, на что способен, детка!"
   },
   {
     "id": 15,
     "original_en": "Johnny: You beat me? I don't get it!\nWell, you can come challenge me again anytime.\nWe'll ride the wind, babe!",
     "original_fr": "Johnny : Â charge de revanche ! Reviens me voir quand\ntu voudras des sensations fortes !",
-    "translation": ""
+    "translation": "Джонни: Ты меня обогнал?! Не верю своим глазам!\nЧто ж, приходи на реванш в любое время. Погоняем с\nветерком, детка!"
   },
   {
     "id": 16,
     "original_en": "Johnny: My granny rides faster than that!\nHop on again, babe—if you think you can handle it.",
     "original_fr": "Johnny : C'était trop nul ! Si tu veux réessayer, remonte\nsur la moto.",
-    "translation": ""
+    "translation": "Джонни: Моя бабуля и то гоняет быстрее!\nЗапрыгивай в седло, детка — если кишка не тонка."
   },
   {
     "id": 17,
     "original_en": "Johnny: Hey, where's that spiky-headed bro?\nNo {CRONO}, no race. I only ride with him.",
     "original_fr": "Johnny : Qu'est-il arrivé au mec aux cheveux pointus ?\nJe refuse de faire une course contre quelqu'un d'autre\nque {CRONO}.",
-    "translation": ""
+    "translation": "Джонни: Эй, а где тот колючий братуха? Без {CRONO}\nгонки не будет. Я гоняю только с ним."
   },
   {
     "id": 18,
     "original_en": "Johnny: Ha! What a joke! If that's the best you can do,\nyou can walk your way across the ruins! Better watch\nout for all those monsters, though...{WAIT_KEY}\nRide again if you think you can handle it, chump!",
     "original_fr": "Johnny : Pfft ! Si tu abandonnes, tu peux toujours\nmarcher, mais gare aux monstres !{WAIT_KEY}\nSi tu veux essayer de me battre, monte {TAG:3C} moto.",
-    "translation": ""
+    "translation": "Джонни: Ха! Ну и смех! Если это твой предел, топай\nчерез руины пешком! Только берегись, там полно\nголодных монстров...{WAIT_KEY}\nЕсли надумаешь рискнуть снова — садись за руль,\nсалага!"
   },
   {
     "id": 19,
     "original_en": "Johnny: Hey! Looks like you got your hands on\nsomething spiffy! That baby can record your\nhottest scores. Ask Rx-xR for the lowdown.",
     "original_fr": "Johnny : Oh, on dirait que tu as trouvé un truc\nintéressant ! Tu pourras désormais enregistrer\ntes scores.{WAIT_KEY}\nSi tu veux en savoir plus, parle {TAG:3C} mon pote !",
-    "translation": ""
+    "translation": "Джонни: Опа! Раздобыл классную штуковину! Эта\nкрошка записывает лучшие рекорды. Спроси у\nRx-xR, он всё растолкует."
   },
   {
     "id": 20,
     "original_en": "Rx-xR: Greetings, racing life forms!\nI am Rx-xR, the Record Keeper.\nI'll record your 3 highest scores.{WAIT_KEY}\nThere are two ways you can race Johnny.\nWhich would you prefer?",
     "original_fr": "RX-XR : Bonjour ! Je suis RX-XR ! Je tiendrai l'historique\nde vos courses ! Vos trois meilleurs scores seront\nenregistrés !{WAIT_KEY}\nIl y a deux types de courses, lequel préférez-vous ?",
-    "translation": ""
+    "translation": "Rx-xR: Приветствую, гонщики! Я — Rx-xR, хранитель\nрекордов. Я фиксирую 3 ваших лучших результата.{WAIT_KEY}\nЕсть два варианта гонки с Джонни. Какой\nпредпочитаете?"
   },
   {
     "id": 21,
     "original_en": "Rx-xR: Impressive! That's a new high score!\nYou've got some skills, don't you?",
     "original_fr": "RX-XR : Ouah ! C'est un nouveau record ! Félicitations !",
-    "translation": ""
+    "translation": "Rx-xR: Впечатляет! Новый рекорд! А у вас отличные\nнавыки вождения!"
   },
   {
     "id": 22,
     "original_en": "1st{GLYPH:141}{TAG:38}{GLYPH:367} pts.\n2nd{TAG:38}{GLYPH:367} pts.\n3rd{TAG:70}{TAG:38}{GLYPH:367} pts.",
     "original_fr": "Première place{TAG:38}{GLYPH:128}{GLYPH:367} points\nDeuxième place{TAG:38}{TAG:7E}{GLYPH:367} points\nTroisième place{TAG:38}{GLYPH:142}{GLYPH:367} points",
-    "translation": ""
+    "translation": "1-е{GLYPH:141}{TAG:38}{GLYPH:367} очк. 2-е{TAG:38}{GLYPH:367} очк. 3-е{TAG:70}{TAG:38}{GLYPH:367} очк."
   },
   {
     "id": 23,
     "original_en": "Rx-xR: Unbelievable! You broke the 1500-point barrier!\nI've only got one of these, but it's all yours!",
     "original_fr": "RX-XR : Ouah ! Vous avez obtenu plus de 1500 points !\nJe n'en ai qu'une, mais je vous la donne !",
-    "translation": ""
+    "translation": "Rx-xR: Невероятно! Рубеж в 1500 очков взят! У меня\nосталась всего одна такая штука, но она ваша!"
   },
   {
     "id": 24,
     "original_en": "{GLYPH:384}\nObtained Strength Capsule!",
     "original_fr": "{GLYPH:384}\nVous obtenez une gélule de force !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получена Капсула силы!"
   },
   {
     "id": 25,
     "original_en": "Rx-xR: Amazing! You were burning up the road!\nTake this!",
     "original_fr": "RX-XR : Ouah ! Quelle course palpitante !\nVoici votre récompense !",
-    "translation": ""
+    "translation": "Rx-xR: Потрясающе! Вы просто зажгли на трассе!\nВозьмите это!"
   },
   {
     "id": 26,
     "original_en": "{GLYPH:384}\nObtained Hi-Potion!",
     "original_fr": "{GLYPH:384}\nVous obtenez une méga-potion !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получено Большое зелье!"
   },
   {
     "id": 27,
     "original_en": "{GLYPH:384}\nObtained Ether!",
     "original_fr": "{GLYPH:384}\nVous obtenez un éther !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получен Эфир!"
   },
   {
     "id": 28,
     "original_en": "{GLYPH:384}\nObtained Mid-Ether!",
     "original_fr": "{GLYPH:384}\nVous obtenez un super-éther !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получен Средний эфир!"
   },
   {
     "id": 29,
     "original_en": "Rx-xR: Lucky 777! You don't see that every day!\nYou deserve a really big bonus for that!{WAIT_KEY}{GLYPH:384}\n\nObtained 10 Mid-Ethers!",
     "original_fr": "RX-XR : Ouah ! 777 points pile-poil ! Vous méritez une\nsuperbe récompense !{WAIT_KEY}{GLYPH:384}\n\nVous obtenez dix super-éthers !!",
-    "translation": ""
+    "translation": "Rx-xR: Счастливые 777! Редкая удача! За это\nполагается солидная награда!{WAIT_KEY}{GLYPH:384} Получено 10\nСредних эфиров!"
   },
   {
     "id": 30,
     "original_en": "Rx-xR: Jumping anaconda! You broke the 2000-point\nmark!{WAIT_KEY}\nTake these—and don't use 'em all in one place!",
     "original_fr": "RX-XR : Ouah ! Formidable ! Vous avez obtenu plus de\n2000 points ! Voici votre récompense !",
-    "translation": ""
+    "translation": "Rx-xR: Святые шестерёнки! Вы перевалили за 2000\nочков!{WAIT_KEY}\nЗабирайте награду — и не спустите всё сразу!"
   },
   {
     "id": 31,
     "original_en": "{GLYPH:384}\nObtained 5 Ethers!",
     "original_fr": "{GLYPH:384}\nVous obtenez cinq éthers !",
-    "translation": ""
+    "translation": "{GLYPH:384} Получено 5 Эфиров!"
   },
   {
     "id": 32,
     "original_en": "Rx-xR: Beautiful! Over 1300 points!\nLet me slap some of these on ya!{WAIT_KEY}{GLYPH:384}\n\nObtained 5 Mid-Potions.",
     "original_fr": "RX-RX : Bravo ! Vous avez obtenu plus de 1300 points !\nVoici votre récompense !{WAIT_KEY}{GLYPH:384}\n\nVous recevez cinq super-potions !",
-    "translation": ""
+    "translation": "Rx-xR: Великолепно! Больше 1300 очков! Держите\nзаслуженную награду!{WAIT_KEY}{GLYPH:384} Получено 5 Средних зелий!"
   },
   {
     "id": 33,
     "original_en": "{MARLE}: What's this thing?",
     "original_fr": "{MARLE} : Qu'est-ce que c'est ?",
-    "translation": ""
+    "translation": "{MARLE}: Что это за штука?"
   },
   {
     "id": 34,
     "original_en": "{LUCCA}: It's in bad shape...but it looks like a\nhumanoid robot! Incredible!",
     "original_fr": "{LUCCA} : Incroyable... Un andro¿de parfait...!\nOn dirait qu'il est détraqué, mais...",
-    "translation": ""
+    "translation": "{LUCCA}: Он сильно повреждён... но это самый\nнастоящий человекоподобный робот! Невероятно!"
   },
   {
     "id": 35,
     "original_en": "{LUCCA}: Hmm...\nI think I can fix it.",
     "original_fr": "{LUCCA} : ...\nJe peux peut-être le réparer.",
-    "translation": ""
+    "translation": "{LUCCA}: Хм... Думаю, я смогу его починить."
   },
   {
     "id": 36,
     "original_en": "{MARLE}: What!? Fix it?\nWhat if it attacks us like the other ones?",
     "original_fr": "{MARLE} : Hein ? Le réparer...? Mais il pourrait nous\nattaquer comme les autres robots l'ont fait !",
-    "translation": ""
+    "translation": "{MARLE}: Что?! Починить? А если он набросится на\nнас, как те остальные?"
   },
   {
     "id": 37,
     "original_en": "{LUCCA}: I'll make sure it won't.\nRobots don't attack of their own free will, you know.",
     "original_fr": "{LUCCA} : Je vais faire en sorte qu'il ne le fasse pas.\nLes robots ne nous veulent pas vraiment de mal...",
-    "translation": ""
+    "translation": "{LUCCA}: Я прослежу, чтобы этого не случилось.\nРоботы ведь не нападают по своей воле."
   },
   {
     "id": 38,
     "original_en": "They only do it because humans make them that way.",
     "original_fr": "Ce sont des humains qui les ont conçus ainsi.",
-    "translation": ""
+    "translation": "Они делают это лишь потому, что люди их такими\nсоздали."
   },
   {
     "id": 39,
     "original_en": "{MARLE}: {LUCCA}... You really feel for them, don't you?",
     "original_fr": "{MARLE} : ...\nTu comprends les robots, n'est-ce pas, {LUCCA} ?",
-    "translation": ""
+    "translation": "{MARLE}: {LUCCA}... Ты и правда им сочувствуешь, да?"
   },
   {
     "id": 40,
     "original_en": "{LUCCA}: I'd better get to work.",
     "original_fr": "{LUCCA} : Je vais me mettre au travail.",
-    "translation": ""
+    "translation": "{LUCCA}: Ладно, пора за работу."
   },
   {
     "id": 41,
     "original_en": "{LUCCA}: All right, that should do it!{WAIT_KEY}\nI'm going to give it some juice!",
     "original_fr": "{LUCCA} : Je crois que c'est bon !{WAIT_KEY}\nMettons-le en marche !",
-    "translation": ""
+    "translation": "{LUCCA}: Так, должно сработать!{WAIT_KEY}\nПодаю питание!"
   },
   {
     "id": 42,
     "original_en": "Robot: ...",
     "original_fr": "Andro¿de : ...",
-    "translation": ""
+    "translation": "Робот: ..."
   },
   {
     "id": 43,
     "original_en": "{MARLE}: Good morning!",
     "original_fr": "{MARLE} : Bonjour !",
-    "translation": ""
+    "translation": "{MARLE}: Доброе утро!"
   },
   {
     "id": 44,
     "original_en": "Robot: G-good...{WAIT_KEY}\nGood morning, mistress.\nWhat is your command?",
     "original_fr": "Andro¿de : Bon...{WAIT_KEY}\nBonjour, ma¡tre.\nJe suis {TAG:3C} vos ordres.",
-    "translation": ""
+    "translation": "Робот: Д-доброе...{WAIT_KEY}\nДоброе утро, госпожа. Каковы будут указания?"
   },
   {
     "id": 45,
     "original_en": "{MARLE}: I'm not your mistress, I'm {MARLE}!",
     "original_fr": "{MARLE} : Je ne suis pas ton ma¡tre.\nJe m'appelle {MARLE} !",
-    "translation": ""
+    "translation": "{MARLE}: Я тебе не госпожа, я — {MARLE}!"
   },
   {
     "id": 46,
     "original_en": "This is {CRONO}...",
     "original_fr": "Voici {CRONO}...",
-    "translation": ""
+    "translation": "Это — {CRONO}..."
   },
   {
     "id": 47,
     "original_en": "...and that's {LUCCA}, the one who fixed you!",
     "original_fr": "... et {LUCCA}, celle qui t'a réparé !",
-    "translation": ""
+    "translation": "...а это {LUCCA}, она тебя починила!"
   },
   {
     "id": 48,
     "original_en": "Robot: Understood.\nMadam {LUCCA} restored my circuits.",
     "original_fr": "Andro¿de : Je comprends.\nC'est mademoiselle {LUCCA} qui m'a réparé.",
-    "translation": ""
+    "translation": "Робот: Принято. Госпожа {LUCCA} восстановила мои\nцепи."
   },
   {
     "id": 49,
     "original_en": "{LUCCA}: Just \"{LUCCA}\" will do.",
     "original_fr": "{LUCCA} : Appelle-moi {LUCCA}.",
-    "translation": ""
+    "translation": "{LUCCA}: Можно просто «{LUCCA}»."
   },
   {
     "id": 50,
     "original_en": "Robot: That manner of address could potentially cause\noffense. I am incapable of offensive speech.\n",
     "original_fr": "Andro¿de : N'utiliser que votre prénom serait impoli.\nJe ne peux pas le faire.",
-    "translation": ""
+    "translation": "Робот: Подобное обращение может быть сочтено\nоскорбительным. Моя программа исключает\nпроявление неуважения."
   },
   {
     "id": 51,
     "original_en": "{LUCCA}: Well, some of us don't like it when\npeople are so formal all the time.\nIsn't that right, {MARLE}?",
     "original_fr": "{LUCCA} : Il est parfois impoli d'utiliser des titres.\nPas vrai, {MARLE} ?",
-    "translation": ""
+    "translation": "{LUCCA}: Знаешь, не всем нравится, когда с ними\nразговаривают столь официально. Правда ведь,\n{MARLE}?"
   },
   {
     "id": 52,
     "original_en": "{MARLE}: Hee hee!",
     "original_fr": "{MARLE} : Hi, hi !",
-    "translation": ""
+    "translation": "{MARLE}: Хи-хи!"
   },
   {
     "id": 53,
     "original_en": "Robot: Understood, {LUCCA}.",
     "original_fr": "Andro¿de : Entendu, {LUCCA}.",
-    "translation": ""
+    "translation": "Робот: Принято, {LUCCA}."
   },
   {
     "id": 54,
     "original_en": "{LUCCA}: All right, so what's your name?",
     "original_fr": "{LUCCA} : Bien ! Et quel est ton nom ?",
-    "translation": ""
+    "translation": "{LUCCA}: Отлично. Так как тебя зовут?"
   },
   {
     "id": 55,
     "original_en": "Robot: Name? Perhaps you are referring to my\nserial number. My serial number is R-66Y.",
     "original_fr": "Andro¿de : Mon nom ?\nMon numéro de série est R66-Y.",
-    "translation": ""
+    "translation": "Робот: Имя? Вероятно, вы имеете в виду серийный\nномер. Мой номер — R-66Y."
   },
   {
     "id": 56,
     "original_en": "{LUCCA}: R-66Y? Cool!",
     "original_fr": "{LUCCA} : R66-Y ? C'est plutôt cool comme nom !",
-    "translation": ""
+    "translation": "{LUCCA}: R-66Y? Здорово!"
   },
   {
     "id": 57,
     "original_en": "{MARLE}: Cool? What are you talking about?\nThat won't do at all!",
     "original_fr": "{MARLE} : Hein ?\nPas du tout ! C'est pas joli !",
-    "translation": ""
+    "translation": "{MARLE}: Здорово? Да о чём ты? Это же никуда не\nгодится!"
   },
   {
     "id": 58,
     "original_en": "{MARLE}: Come on, {CRONO}!\nLet's give him a better name!",
     "original_fr": "{MARLE} : Dis, {CRONO}, donnons-lui un meilleur\nnom ! Je me demande ce qui lui conviendrait...",
-    "translation": ""
+    "translation": "{MARLE}: Ну же, {CRONO}! Давай придумаем ему имя\nполучше!"
   },
   {
     "id": 59,
     "original_en": "{MARLE}: {ROBO}...\nYes, {ROBO}...that's perfect!",
     "original_fr": "{MARLE} : Oh, {ROBO}...?\nD'accord, c'est pas mal.",
-    "translation": ""
+    "translation": "{MARLE}: {ROBO}... Да, {ROBO}... идеальное имя!"
   },
   {
     "id": 60,
     "original_en": "{MARLE}: Your new name is {ROBO}, okay?",
     "original_fr": "{MARLE} : Ça te va ? Ton nom est {ROBO} !",
-    "translation": ""
+    "translation": "{MARLE}: Теперь тебя зовут {ROBO}, договорились?"
   },
   {
     "id": 61,
     "original_en": "Robot: My name is...{ROBO}.\nData storage complete.",
     "original_fr": "Andro¿de : Je m'appelle... {ROBO}.\nEnregistrement des données terminé.",
-    "translation": ""
+    "translation": "Робот: Моё имя... {ROBO}. Сохранение данных\nзавершено."
   },
   {
     "id": 62,
     "original_en": "{LUCCA}: Hey {ROBO}, there's something I was\nhoping you could...",
     "original_fr": "{LUCCA} : Dis, {ROBO}, je voulais te poser une\nquestion...",
-    "translation": ""
+    "translation": "{LUCCA}: Послушай, {ROBO}, я хотела кое о чём тебя\nспросить..."
   },
   {
     "id": 63,
     "original_en": "{ROBO}: ...{WAIT_KEY}\nWhat...happened here?",
     "original_fr": "{ROBO} : ...{WAIT_KEY}\nQue...\nQue s'est-il passé ?",
-    "translation": ""
+    "translation": "{ROBO}: ...{WAIT_KEY}\nЧто... здесь произошло?"
   },
   {
     "id": 64,
     "original_en": "{ROBO}: This dome contained many humans and\nothers like me.",
     "original_fr": "{ROBO} : Il devrait y avoir plusieurs humains ainsi\nque d'autres andro¿des comme moi dans ce dôme.",
-    "translation": ""
+    "translation": "{ROBO}: В этом куполе находилось множество людей\nи других роботов моей серии."
   },
   {
     "id": 65,
     "original_en": "{LUCCA}: Oh dear. This is kind of hard to say, but\nI think something awful happened while you were out.\nI...I don't think anyone else is left.",
     "original_fr": "{LUCCA} : Je suis désolée, {ROBO}...\nQuelque chose a d{TAG:63} arriver aux humains qui\nvivaient ici pendant que tu étais en panne.",
-    "translation": ""
+    "translation": "{LUCCA}: Ох... Пока ты был отключён, случилась беда.\nМне тяжело об этом говорить, но... боюсь, здесь\nникого больше не осталось."
   },
   {
     "id": 66,
     "original_en": "{ROBO}: ...{WAIT_KEY}\nI...see.",
     "original_fr": "{ROBO} : ...{WAIT_KEY}\nJe vois...",
-    "translation": ""
+    "translation": "{ROBO}: ...{WAIT_KEY}\nЯ... понял."
   },
   {
     "id": 67,
     "original_en": "{ROBO}: What about yourselves?",
     "original_fr": "{ROBO} : Alors, pourquoi êtes-vous ici ?",
-    "translation": ""
+    "translation": "{ROBO}: А откуда здесь вы?"
   },
   {
     "id": 68,
     "original_en": "{LUCCA}: We came through a Gate—a, uh, time\nwarp—from the year 1000.",
     "original_fr": "{LUCCA} : Nous avons traversé une distorsion\nspatio-temporelle, une sorte de portail, en\nl'an 1000 et nous nous sommes retrouvés ici.",
-    "translation": ""
+    "translation": "{LUCCA}: Мы прошли сквозь Врата — своего рода\nразлом во времени — прямиком из 1000 года."
   },
   {
     "id": 69,
     "original_en": "{MARLE}: We learned there was a Gate here when\nwe went to Arris Dome.",
     "original_fr": "{MARLE} : En explorant le dôme d'Arris, nous avons\ndécouvert qu'il y avait un autre portail ici.",
-    "translation": ""
+    "translation": "{MARLE}: Мы узнали об этих Вратах, когда побывали\nв Куполе Аррис."
   },
   {
     "id": 70,
     "original_en": "{LUCCA}: And then we found you when we came\nlooking for the Gate!",
     "original_fr": "{LUCCA} : Et quand nous sommes arrivés, nous\nt'avons trouvé, en panne.",
-    "translation": ""
+    "translation": "{LUCCA}: А отправившись на поиски Врат, нашли тебя!"
   },
   {
     "id": 71,
     "original_en": "{MARLE}: But the door to the inner chamber is\nsealed shut, so it looks like we're out of luck.",
     "original_fr": "{MARLE} : Malheureusement, cette porte ne veut pas\ns'ouvrir alors nous ne pouvons pas aller plus loin.",
-    "translation": ""
+    "translation": "{MARLE}: Но дверь во внутренний отсек заперта\nнаглухо, так что нам не пройти."
   },
   {
     "id": 72,
     "original_en": "{ROBO}: The dome's power has been shut off\ncompletely.",
     "original_fr": "{ROBO} : Il semble qu'il n'y a plus de courant.",
-    "translation": ""
+    "translation": "{ROBO}: Питание купола полностью отключено."
   },
   {
     "id": 73,
     "original_en": "{ROBO}: The factory to the north contains an\nemergency power generator for this dome.\nI can bypass security to activate it.\nShall we go there?",
     "original_fr": "{ROBO} : Il y a une génératrice d'urgence reliée au\ndôme dans l'usine située au nord d'ici.{WAIT_KEY}\nJe peux désactiver les mesures de sécurité qui la\nprotègent.",
-    "translation": ""
+    "translation": "{ROBO}: На фабрике к северу есть генератор. Я смогу\nзапустить его в обход защиты. Отправимся туда?"
   },
   {
     "id": 74,
     "original_en": "{MARLE}: You'd do that for us?",
     "original_fr": "{MARLE} : Vraiment ?",
-    "translation": ""
+    "translation": "{MARLE}: Ты сделаешь это ради нас?"
   },
   {
     "id": 75,
     "original_en": "{ROBO}: You repaired me.\nNow it is my turn to be of assistance.{WAIT_KEY}\nHowever, the generator will produce power for only\na short time. Someone must remain here to open the\ndoor as soon as power is restored to the dome.",
     "original_fr": "{ROBO} : Vous m'avez réparé. Cette fois, c'est moi\nqui vous serai utile. Cependant, je ne sais pas combien\nde temps la génératrice fonctionnera.{WAIT_KEY}\nQuelqu'un devra rester ici pour ouvrir la porte dès que\nle courant sera rétabli.",
-    "translation": ""
+    "translation": "{ROBO}: Вы починили меня. Теперь моя очередь\nоказать содействие.{WAIT_KEY}\nОднако генератор проработает недолго. Кто-то\nдолжен остаться здесь и открыть дверь сразу при\nподаче питания."
   },
   {
     "id": 76,
     "original_en": "{LUCCA}: {MARLE} or I can stay.",
     "original_fr": "{LUCCA} : Alors, {MARLE} ou moi restera ici.",
-    "translation": ""
+    "translation": "{LUCCA}: Остаться может {MARLE} или я."
   },
   {
     "id": 77,
     "original_en": "Who will stay behind?\n{TAG:38}{TAG:38}{GLYPH:394}{MARLE}.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{LUCCA}.{GLYPH:397}",
     "original_fr": "Qui restera pour ouvrir la porte ?\n       {GLYPH:394}{MARLE}{GLYPH:395}\n       {GLYPH:396}{LUCCA}{GLYPH:397}",
-    "translation": ""
+    "translation": "Кто останется здесь?\n{TAG:38}{TAG:38}{GLYPH:394}{MARLE}.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{LUCCA}.{GLYPH:397}"
   },
   {
     "id": 78,
     "original_en": "{MARLE}: Okay. Be careful, {CRONO}!",
     "original_fr": "{MARLE} : Entendu ! Sois prudent, {CRONO} !",
-    "translation": ""
+    "translation": "{MARLE}: Хорошо. Будь осторожен, {CRONO}!"
   },
   {
     "id": 79,
     "original_en": "{LUCCA}: Right. I'll handle things here!",
     "original_fr": "{LUCCA} : D'accord ! Je me charge de la porte !",
-    "translation": ""
+    "translation": "{LUCCA}: Договорились! Я прослежу за дверью!"
   },
   {
     "id": 80,
     "original_en": "{MARLE}: Finally! You can't imagine how boring\nit's been here. Can I take {LUCCA}'s place?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "{MARLE} : Ouf ! Je m'ennuyais. Je peux prendre la\nplace de {LUCCA} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "{MARLE}: Ну наконец-то! Какая же здесь скука! Можно\nя пойду вместо {LUCCA}?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 81,
     "original_en": "{LUCCA}: Guess you need my genius after all,\nhuh?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "{LUCCA} : Tu as besoin de mon génie finalement,\npas vrai ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "{LUCCA}: Вижу, без\nмоего гения никак, а?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 82,
     "original_en": "{MARLE}: Okay... I'll wait here.",
     "original_fr": "{MARLE} : D'accord, je vais vous attendre.",
-    "translation": ""
+    "translation": "{MARLE}: Ладно... Я подожду здесь."
   },
   {
     "id": 83,
     "original_en": "{LUCCA}: Oh, all right...",
     "original_fr": "{LUCCA} : Bon, d'accord...",
-    "translation": ""
+    "translation": "{LUCCA}: Эх, ну ладно..."
   },
   {
     "id": 84,
     "original_en": "{MARLE}: The door won't budge.",
     "original_fr": "{MARLE} : La porte ne veut pas s'ouvrir.",
-    "translation": ""
+    "translation": "{MARLE}: Дверь ни с места."
   },
   {
     "id": 85,
     "original_en": "{ROBO}: C-can you...fix me?",
     "original_fr": "{ROBO} : Pourras-tu... me ré... parer ?",
-    "translation": ""
+    "translation": "{ROBO}: С-сможешь... починить меня?"
   },
   {
     "id": 86,
     "original_en": "{LUCCA}: Shh, don't try to talk.",
     "original_fr": "{LUCCA} : Ne parle pas, ça ira.",
-    "translation": ""
+    "translation": "{LUCCA}: Тсс, помолчи, не трать силы."
   },
   {
     "id": 87,
     "original_en": "{ROBO}: You are trying to...change the world?",
     "original_fr": "{ROBO} : Vous... voulez changer le monde ?",
-    "translation": ""
+    "translation": "{ROBO}: Вы стремитесь... изменить мир?"
   },
   {
     "id": 88,
     "original_en": "{LUCCA}: I don't know how far we'll get,\nbut that's the plan.",
     "original_fr": "{LUCCA} : Oui, mais je ne sais pas si nous y\narriverons...",
-    "translation": ""
+    "translation": "{LUCCA}: Не знаю, насколько далеко мы зайдём, но\nплан именно такой."
   },
   {
     "id": 89,
     "original_en": "Anyway, {ROBO}, what do you want to do after\nI finish repairing you?",
     "original_fr": "Au fait, {ROBO}, que veux-tu faire quand tu seras\nréparé ?",
-    "translation": ""
+    "translation": "И вообще, {ROBO}, чем ты хочешь заняться, когда я\nзакончу ремонт?"
   },
   {
     "id": 90,
     "original_en": "{ROBO}: What do I...want to do?",
     "original_fr": "{ROBO} : Ce que je... veux faire ?",
-    "translation": ""
+    "translation": "{ROBO}: Чем я... хочу заняться?"
   },
   {
     "id": 91,
     "original_en": "{LUCCA}: Yeah. I mean, you were stuck here all this\ntime. There must be a lot of things you want to do,\nright?",
     "original_fr": "{LUCCA} : Oui, quoi, tu es resté ici pendant des\nlustres en panne, il doit y avoir plein de choses\nque tu veux accomplir, non ?",
-    "translation": ""
+    "translation": "{LUCCA}: Ты ведь так долго был заперт здесь.\nНаверняка есть куча вещей, которые тебе хотелось\nбы сделать, да?"
   },
   {
     "id": 92,
     "original_en": "{ROBO}: No one has ever asked me that before,\n{LUCCA}.",
     "original_fr": "{ROBO} : Personne ne m'avait jamais posé une telle\nquestion, {LUCCA}...",
-    "translation": ""
+    "translation": "{ROBO}: Мне ещё никто никогда не задавал таких\nвопросов, {LUCCA}."
   },
   {
     "id": 93,
     "original_en": "{ROBO}: Good morning!",
     "original_fr": "{ROBO} : Bonjour.",
-    "translation": ""
+    "translation": "{ROBO}: Доброе утро!"
   },
   {
     "id": 94,
     "original_en": "{MARLE}: {ROBO}!\nThank goodness, you're all right!",
     "original_fr": "{MARLE} : {ROBO} !\nJe suis si heureuse que tu ailles mieux !",
-    "translation": ""
+    "translation": "{MARLE}: {ROBO}! Слава богу, ты в порядке!"
   },
   {
     "id": 95,
     "original_en": "{MARLE}: {LUCCA}, you're incredible!",
     "original_fr": "{MARLE} : Beau travail, {LUCCA} !",
-    "translation": ""
+    "translation": "{MARLE}: {LUCCA}, ты просто невероятна!"
   },
   {
     "id": 96,
     "original_en": "{LUCCA}: Well, let's hope I never have to do that\nagain!",
     "original_fr": "{LUCCA} : Ce fut une opération un tantinet\ncompliquée !",
-    "translation": ""
+    "translation": "{LUCCA}: Что ж, надеюсь, мне больше никогда не\nпридётся повторять подобное!"
   },
   {
     "id": 97,
     "original_en": "{ROBO}: {LUCCA}, I have arrived at an answer\nto your question. I want to go with you.",
     "original_fr": "{ROBO} : {LUCCA}, je sais ce que je veux faire.\nJe veux vous accompagner.",
-    "translation": ""
+    "translation": "{ROBO}: {LUCCA}, я нашёл ответ на твой вопрос. Я\nхочу пойти с вами."
   },
   {
     "id": 98,
     "original_en": "{MARLE}: Really? You mean it?",
     "original_fr": "{MARLE} : Hein ? Vraiment ?",
-    "translation": ""
+    "translation": "{MARLE}: Правда? Ты серьёзно?"
   },
   {
     "id": 99,
     "original_en": "{ROBO}: There is nothing left for me here.\nI want to help you.{WAIT_KEY}\nTogether, we might be able to give the life on this\nplanet a chance.",
     "original_fr": "{ROBO} : Je veux vous aider {TAG:3C} redonner espoir aux\nhumains, {TAG:3C} redonner vie {TAG:3C} cette planète.",
-    "translation": ""
+    "translation": "{ROBO}: Здесь для меня ничего не осталось. Я хочу\nпомочь вам.{WAIT_KEY}\nБыть может, вместе мы сможем подарить жизни на\nэтой планете шанс."
   },
   {
     "id": 100,
     "original_en": "{LUCCA}: Then let's go!\nThe Gate's right through there!",
     "original_fr": "{LUCCA} : Alors, allons-y ! Le portail est l{TAG:3C}-bas !",
-    "translation": ""
+    "translation": "{LUCCA}: Тогда вперёд! Врата прямо там!"
   },
   {
     "id": 101,
     "original_en": "{LUCCA}: Here we go!",
     "original_fr": "{LUCCA} : C'est parti !",
-    "translation": ""
+    "translation": "{LUCCA}: Поехали!"
   },
   {
     "id": 102,
     "original_en": "Rest in the Enertron?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous reposer dans l'énergiseur ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Отдохнуть в Энертроне?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 103,
     "original_en": "{GLYPH:384}\nHP and MP restored!",
     "original_fr": "{GLYPH:384}\nRégénération des PV et des PM !",
-    "translation": ""
+    "translation": "{GLYPH:384} ОЗ и ОМ восстановлены!"
   },
   {
     "id": 104,
     "original_en": "{GLYPH:384}\n...But you're still as hungry as before.",
     "original_fr": "{GLYPH:384}\nMais ça ne remplit pas l'estomac !",
-    "translation": ""
+    "translation": "{GLYPH:384} ...Но чувство голода никуда не делось."
   },
   {
     "id": 105,
     "original_en": "Rx-xR: Do you want to change the race mode?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "RX-XR : Voulez-vous changer le type de course ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": ""
+    "translation": "Rx-xR: Желаете сменить режим гонки?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 106,
     "original_en": "Rx-xR: Well, shut me down!\nYou scored over 2300 points!\nYou're amazing! Incredible! Unbelievable!\nThis calls for an unbelievably great prize!",
     "original_fr": "RX-XR : Ouah ! Vous avez obtenu plus de 2300 points !\nToutes mes félicitations ! Voici votre méga-récompense !",
-    "translation": ""
+    "translation": "Rx-xR: Разрази меня разряд! Более 2300 очков!\nПотрясающе! Поразительно! Невероятно! За это\nположен фантастический приз!"
   },
   {
     "id": 107,
     "original_en": "{GLYPH:384}\nObtained 5 Hi-Ethers!",
     "original_fr": "{GLYPH:384}\nVous obtenez cinq méga-éthers !!",
-    "translation": ""
+    "translation": "{GLYPH:384} Получено 5 Больших эфиров!"
   },
   {
     "id": 108,
     "original_en": "Which do you prefer?\n{TAG:38}{TAG:38}{GLYPH:394}Mode 1: Turbo Boosts available.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Mode 2: No Turbo Boosts,{GLYPH:402}\n{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:7A}{GLYPH:403}L Button, R Button spin camera.{GLYPH:397}",
     "original_fr": "Quel type de course préférez-vous ?\n       {GLYPH:394}Mode nÎ 1 avec turbo{GLYPH:395}\n       {GLYPH:396}Mode nÎ 2 sans turbo{GLYPH:402}\n         {GLYPH:403}(Caméra : bouton R / bouton L){GLYPH:397}",
-    "translation": "Какой режим выберете?\n{TAG:38}{TAG:38}{GLYPH:394}Режим 1: С турбо.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Режим 2: Без турбо.{GLYPH:397}"
+    "translation": "Какой выберете?\n{TAG:38}{TAG:38}{GLYPH:394}Режим 1: Турбо.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Режим 2: Без турбо,{GLYPH:402} {TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:7A}{GLYPH:403}L/R вращают камеру.{GLYPH:397}"
   },
   {
     "id": 109,
     "original_en": "{TAG:38}{TAG:38}{GLYPH:394}Mode 1: Turbo Boosts available.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Mode 2: No Turbo Boosts,{GLYPH:402}\n{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:7A}{GLYPH:403}L Button, R Button spin camera.{GLYPH:397}",
     "original_fr": "       {GLYPH:394}Mode nÎ 1 avec turbo{GLYPH:395}\n       {GLYPH:396}Mode nÎ 2 sans turbo{GLYPH:402}\n         {GLYPH:403}(Caméra : bouton R / bouton L){GLYPH:397}",
-    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Режим 1: С турбо.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Режим 2: Без турбо.{GLYPH:397}"
+    "translation": "{TAG:38}{TAG:38}{GLYPH:394}Режим 1: Турбо.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Режим 2: Без турбо,{GLYPH:402} {TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:7A}{GLYPH:403}L/R вращают камеру.{GLYPH:397}"
   },
   {
     "id": 110,

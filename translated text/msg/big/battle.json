@@ -51,7 +51,7 @@
     "id": 8,
     "original_en": "Poison",
     "original_fr": "Poison",
-    "translation": "Зелье"
+    "translation": "Яд"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "id": 11,
     "original_en": "Confuse",
     "original_fr": "Confusion",
-    "translation": "Контужен"
+    "translation": "Смятение"
   },
   {
     "id": 12,
@@ -159,7 +159,7 @@
     "id": 26,
     "original_en": "!",
     "original_fr": " !",
-    "translation": ""
+    "translation": "!"
   },
   {
     "id": 27,
@@ -189,7 +189,7 @@
     "id": 31,
     "original_en": "°",
     "original_fr": "°",
-    "translation": ""
+    "translation": "°"
   },
   {
     "id": 32,
@@ -207,7 +207,7 @@
     "id": 34,
     "original_en": "♪",
     "original_fr": "♪",
-    "translation": ""
+    "translation": "♪"
   },
   {
     "id": 35,
@@ -219,7 +219,7 @@
     "id": 36,
     "original_en": "!",
     "original_fr": " !",
-    "translation": ""
+    "translation": "!"
   },
   {
     "id": 37,
@@ -291,7 +291,7 @@
     "id": 48,
     "original_en": "{GLYPH:391}    {GLYPH:367}/{GLYPH:367}",
     "original_fr": "{GLYPH:391} PV {GLYPH:367}/{GLYPH:367}",
-    "translation": ""
+    "translation": "{GLYPH:391} {GLYPH:367}/{GLYPH:367}"
   },
   {
     "id": 49,
