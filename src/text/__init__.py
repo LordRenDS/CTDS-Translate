@@ -24,6 +24,7 @@ from src.text.presets import (
 )
 from src.text.reflow import (
     CHOICE_MAX_WIDTH_PX,
+    CHOICE_OPTION_PATTERN,
     CHOICE_TAG_PATTERN,
     COMPOUND_KA_PREFIXES,
     COMPOUND_TO_PREFIXES,
@@ -32,7 +33,9 @@ from src.text.reflow import (
     PAGE_DELIM_PATTERN,
     RUS_CONSONANTS,
     RUS_VOWELS,
+    SUBPAGE_DELIMITER_PATTERN,
     collapse_hyphenated_breaks,
+    format_choice_block,
     split_word_carry,
     wrap_line_to_width,
     wrap_text_block,
@@ -44,6 +47,7 @@ from src.text.validator import (
 
 __all__ = [
     "CHOICE_MAX_WIDTH_PX",
+    "CHOICE_OPTION_PATTERN",
     "CHOICE_TAG_PATTERN",
     "COMPOUND_KA_PREFIXES",
     "COMPOUND_TO_PREFIXES",
@@ -60,11 +64,13 @@ __all__ = [
     "PLACEHOLDER_PATTERN",
     "RUS_CONSONANTS",
     "RUS_VOWELS",
+    "SUBPAGE_DELIMITER_PATTERN",
     "TAG_REGEX",
     "TextWindowPreset",
     "WINDOW_PRESETS",
     "calculate_line_width_px",
     "collapse_hyphenated_breaks",
+    "format_choice_block",
     "get_constraints_for_entry",
     "get_preset_for_file",
     "load_glyph_metrics",

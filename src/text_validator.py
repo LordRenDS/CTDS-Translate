@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from src.text import (
     CHOICE_MAX_WIDTH_PX,
+    CHOICE_OPTION_PATTERN,
     CHOICE_TAG_PATTERN,
     COMPOUND_KA_PREFIXES,
     COMPOUND_TO_PREFIXES,
@@ -11,7 +12,6 @@ from src.text import (
     DEFAULT_HERO_NAME_WIDTH_PX,
     DEFAULT_SPACE_WIDTH_PX,
     GLYPH_PATTERN,
-    GlyphWidths,
     HERO_PATTERN,
     HERO_TOKENS,
     HYPHEN_BREAK_PATTERN,
@@ -21,10 +21,12 @@ from src.text import (
     RUS_CONSONANTS,
     RUS_VOWELS,
     TAG_REGEX,
-    TextWindowPreset,
     WINDOW_PRESETS,
+    GlyphWidths,
+    TextWindowPreset,
     calculate_line_width_px,
     collapse_hyphenated_breaks,
+    format_choice_block,
     get_constraints_for_entry,
     get_preset_for_file,
     load_glyph_metrics,
@@ -38,6 +40,7 @@ from src.text import (
 
 __all__ = [
     "CHOICE_MAX_WIDTH_PX",
+    "CHOICE_OPTION_PATTERN",
     "CHOICE_TAG_PATTERN",
     "COMPOUND_KA_PREFIXES",
     "COMPOUND_TO_PREFIXES",
@@ -59,6 +62,7 @@ __all__ = [
     "WINDOW_PRESETS",
     "calculate_line_width_px",
     "collapse_hyphenated_breaks",
+    "format_choice_block",
     "get_constraints_for_entry",
     "get_preset_for_file",
     "load_glyph_metrics",

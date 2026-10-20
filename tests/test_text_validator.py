@@ -2037,7 +2037,7 @@ def test_subpage_wait_key_resets_line_width():
     """When {WAIT_KEY} occurs after a long line, the text immediately following
     {WAIT_KEY} starts on line 1 of the new sub-page with 0px initial width.
     """
-    widths = {c: 10 for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"}
+    widths = dict.fromkeys("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 10)
     widths[" "] = 5
 
     # With max_width_px = 65:
@@ -2064,7 +2064,7 @@ def test_subpage_line_count_independent_check():
     and 2 lines after, total lines per sub-page is 2 (fits 3-line max without warning).
     If the second block has 4 lines, a warning is raised specifically for the second sub-page.
     """
-    widths = {c: 10 for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"}
+    widths = dict.fromkeys("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 10)
     widths[" "] = 5
 
     # 2 lines before {WAIT_KEY}, 2 lines after {WAIT_KEY} (max_lines = 3)
@@ -2085,7 +2085,7 @@ def test_wait_key_does_not_collapse_into_space():
     """When reflow is enabled, {WAIT_KEY} is preserved and not replaced with space
     or merged with surrounding words.
     """
-    widths = {c: 10 for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"}
+    widths = dict.fromkeys("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 10)
     widths[" "] = 5
 
     text = "First block words{WAIT_KEY}Second block words"
@@ -2100,3 +2100,59 @@ def test_wait_key_does_not_collapse_into_space():
     assert "words Second" not in formatted_force
     assert formatted_force == "First block words{WAIT_KEY}Second block words"
 
+
+
+def test_choice_options_preceded_by_newline_and_tag38():
+    """Verify dialogue choice options are placed on dedicated lines with \\n{TAG:38}{TAG:38}."""
+    widths = dict.fromkeys("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ?.", 10)
+    widths[" "] = 5
+
+    text = "Question? {TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395} {TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=220, max_lines=3, reflow=True)
+    assert formatted == "Question?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}"
+    assert warnings == []
+
+
+def test_choice_internal_newline_collapsed_to_space():
+    """Verify internal newlines within choice option text are collapsed to single spaces."""
+    widths = dict.fromkeys("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!", 5)
+    widths[" "] = 3
+
+    text = "{GLYPH:394}Play\nme a sad one!{GLYPH:395}"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=220, max_lines=3, reflow=True)
+    assert formatted == "{GLYPH:394}Play me a sad one!{GLYPH:395}"
+    assert warnings == []
+
+
+def test_choice_width_exceeding_110px_warning():
+    """Verify warning is emitted if choice option text width exceeds CHOICE_MAX_WIDTH_PX (110px)."""
+    widths = dict.fromkeys("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 10)
+    widths[" "] = 5
+
+    # 38 characters * 10px = 380px > 110px
+    text = "{GLYPH:394}VeryLongChoiceOptionTextExceedingLimit{GLYPH:395}"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=220, max_lines=3, reflow=True)
+    assert len(warnings) > 0
+    assert any("Choice option" in w and "110" in w for w in warnings)
+
+
+def test_choice_internal_newline_collapsed_when_reflow_false():
+    """Verify internal newline is collapsed even when reflow=False to protect touch button parsing."""
+    widths = dict.fromkeys("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!", 5)
+    widths[" "] = 3
+
+    text = "{GLYPH:394}Play\nme a sad one!{GLYPH:395}"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=220, max_lines=3, reflow=False)
+    assert formatted == "{GLYPH:394}Play me a sad one!{GLYPH:395}"
+    assert warnings == []
+
+
+def test_choice_internal_line_tag_collapsed_to_space():
+    """Verify internal {LINE} tag is collapsed to single space."""
+    widths = dict.fromkeys("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!", 5)
+    widths[" "] = 3
+
+    text = "{GLYPH:394}Play{LINE}me a sad one!{GLYPH:395}"
+    formatted, warnings = wrap_text_block(text, widths, max_width_px=220, max_lines=3, reflow=True)
+    assert formatted == "{GLYPH:394}Play me a sad one!{GLYPH:395}"
+    assert warnings == []

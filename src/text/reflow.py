@@ -13,6 +13,7 @@ from src.text.metrics import (
 
 __all__ = [
     "CHOICE_MAX_WIDTH_PX",
+    "CHOICE_OPTION_PATTERN",
     "CHOICE_TAG_PATTERN",
     "COMPOUND_KA_PREFIXES",
     "COMPOUND_TO_PREFIXES",
@@ -23,6 +24,7 @@ __all__ = [
     "RUS_VOWELS",
     "SUBPAGE_DELIMITER_PATTERN",
     "collapse_hyphenated_breaks",
+    "format_choice_block",
     "split_word_carry",
     "wrap_line_to_width",
     "wrap_text_block",
@@ -36,10 +38,18 @@ HYPHEN_BREAK_PATTERN = re.compile(
     r"([a-zA-Zа-яА-ЯёЁ]+)-\s*(?:\r?\n|\{LINE\}|\{PAGE\})\s*(?:(?:\r?\n|\{LINE\}|\{PAGE\})\s*)*([a-zA-Zа-яА-ЯёЁ]+)"
 )
 
-PAGE_DELIM_PATTERN = re.compile(r"(\{PAGE\}|\{WAIT_KEY\}|\{GLYPH:407\}|\{GLYPH:408\})")
 SUBPAGE_DELIMITER_PATTERN = re.compile(r"(\{WAIT_KEY\}|\{PAGE\}|\{GLYPH:407\}|\{GLYPH:408\})")
+PAGE_DELIM_PATTERN = SUBPAGE_DELIMITER_PATTERN
 CHOICE_TAG_PATTERN = re.compile(r"\{GLYPH:(39[4-9]|40[0-3])\}")
 CHOICE_MAX_WIDTH_PX = 110
+CHOICE_OPTION_PATTERN = re.compile(
+    r"\{GLYPH:394\}(?P<c394>.*?)\{GLYPH:395\}"
+    r"|\{GLYPH:396\}(?P<c396>.*?)\{GLYPH:397\}"
+    r"|\{GLYPH:398\}(?P<c398>.*?)\{GLYPH:399\}"
+    r"|\{GLYPH:400\}(?P<c400>.*?)\{GLYPH:401\}"
+    r"|\{GLYPH:402\}(?P<c402>.*?)\{GLYPH:403\}",
+    re.DOTALL,
+)
 
 COMPOUND_TO_PREFIXES = frozenset({
     "что", "кто", "где", "как", "куда", "когда", "почему", "зачем", "откуда",
@@ -95,22 +105,28 @@ def _is_genuine_compound(prefix: str, remainder: str) -> bool:
     if p_lower in {"кое", "кой"}:
         return True
 
-    if p_lower == "по":
-        if (
-            r_lower.endswith(("ому", "ему", "ски", "цки", "ьи", "ыни"))
-            or r_lower in {"латыни", "памяти", "пустому"}
-        ):
-            return True
+    if p_lower == "по" and (
+        r_lower.endswith(("ому", "ему", "ски", "цки", "ьи", "ыни"))
+        or r_lower in {"латыни", "памяти", "пустому"}
+    ):
+        return True
 
     if p_lower == "во" and r_lower in {"первых", "вторых"}:
         return True
 
-    if p_lower == "в" and r_lower in {
-        "третьих", "четвертых", "пятых", "шестых", "седьмых", "восьмых", "девятых", "десятых"
-    }:
-        return True
-
-    return False
+    return bool(
+        p_lower == "в"
+        and r_lower in {
+            "третьих",
+            "четвертых",
+            "пятых",
+            "шестых",
+            "седьмых",
+            "восьмых",
+            "девятых",
+            "десятых",
+        }
+    )
 
 
 def split_word_carry(
@@ -321,10 +337,163 @@ def _check_subpage_lines(lines: list[str], max_lines: int) -> list[str]:
             sub_pages.append([])
 
     for sp in sub_pages:
-        non_empty = [l for l in sp if l.strip()]
+        non_empty = [line for line in sp if line.strip()]
         if len(non_empty) > max_lines:
             warnings.append(f"Page has {len(non_empty)} lines (exceeds max {max_lines})")
     return warnings
+
+
+def format_choice_block(
+    subpage: str,
+    glyph_widths: dict[str, int],
+    max_width_px: int = 220,
+    max_lines: int = 3,
+    auto_paginate: bool = False,
+    hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
+    reflow: bool = True,
+    force: bool = False,
+    carry: str | None = None,
+) -> tuple[str, list[str]] | None:
+    """Formats dialogue choice blocks according to Nintendo DS touch screen invariants.
+
+    Ensures that dialogue choice options ({GLYPH:394}..{GLYPH:403}) are placed on dedicated
+    lines below prompt text with \n{TAG:38}{TAG:38} indentation, sanitizes internal newlines
+    within choice options to prevent touch screen parsing corruption, and validates choice
+    widths against CHOICE_MAX_WIDTH_PX (110px).
+
+    Args:
+        subpage: Sub-page string potentially containing dialogue choices.
+        glyph_widths: Mapping from character to pixel width.
+        max_width_px: Maximum pixel width allowed per line.
+        max_lines: Maximum lines allowed per page/dialog box.
+        auto_paginate: If True, split into pages with {PAGE} when exceeding max_lines.
+        hero_name_width_px: Estimated pixel width for dynamic hero tokens.
+        reflow: If True, collapse single line breaks and re-wrap prompt text.
+        force: If True, collapse all line breaks in prompt into a single flow.
+        carry: Optional word hyphenation mode ("geo" or "syllable").
+
+    Returns:
+        Tuple of (formatted_subpage, list_of_warnings) if choices were detected and formatted,
+        or None if no choice blocks were found in subpage.
+    """
+    matches = list(CHOICE_OPTION_PATTERN.finditer(subpage))
+    if not matches:
+        return None
+
+    first_m = matches[0]
+    prompt_raw = subpage[: first_m.start()]
+
+    m_indent = re.search(r"((?:\{TAG:38\}|\s)+)$", prompt_raw)
+    if m_indent:
+        indent_raw = m_indent.group(1)
+        prompt_text = prompt_raw[: m_indent.start()]
+    else:
+        indent_raw = ""
+        prompt_text = prompt_raw
+
+    prompt_clean = prompt_text.strip()
+    if "{TAG:38}" in indent_raw:
+        indent = "{TAG:38}{TAG:38}"
+    elif len(indent_raw.strip(" \t")) == 0 and len(indent_raw) >= 2:
+        indent = indent_raw.rstrip("\r\n")
+    elif prompt_clean:
+        indent = "{TAG:38}{TAG:38}"
+    else:
+        indent = ""
+
+    warnings: list[str] = []
+    choice_lines: list[str] = []
+
+    for m in matches:
+        if m.group("c394") is not None:
+            open_tag, close_tag, inner = "394", "395", m.group("c394")
+        elif m.group("c396") is not None:
+            open_tag, close_tag, inner = "396", "397", m.group("c396")
+        elif m.group("c398") is not None:
+            open_tag, close_tag, inner = "398", "399", m.group("c398")
+        elif m.group("c400") is not None:
+            open_tag, close_tag, inner = "400", "401", m.group("c400")
+        else:
+            open_tag, close_tag, inner = "402", "403", m.group("c402")
+
+        clean_inner = collapse_hyphenated_breaks(inner)
+        clean_inner = re.sub(r"\r?\n|\{LINE\}", " ", clean_inner)
+        clean_inner = re.sub(r" +", " ", clean_inner).strip()
+
+        w = calculate_line_width_px(clean_inner, glyph_widths, hero_name_width_px=hero_name_width_px)
+        if w > CHOICE_MAX_WIDTH_PX:
+            warnings.append(
+                f"Choice option '{clean_inner}' has width {w}px (exceeds max {CHOICE_MAX_WIDTH_PX}px)"
+            )
+
+        choice_lines.append(f"{indent}{{GLYPH:{open_tag}}}{clean_inner}{{GLYPH:{close_tag}}}")
+
+    prompt_lines: list[str] = []
+    if prompt_clean:
+        if force or reflow:
+            p_text = collapse_hyphenated_breaks(prompt_clean)
+            p_text = re.sub(r"\r?\n|\{LINE\}", " ", p_text)
+            p_text = re.sub(r" +", " ", p_text).strip()
+            if p_text:
+                prompt_lines = wrap_line_to_width(
+                    p_text,
+                    glyph_widths,
+                    max_width_px=max_width_px,
+                    hero_name_width_px=hero_name_width_px,
+                    carry=carry,
+                )
+        else:
+            raw_lines = re.split(r"\r?\n|\{LINE\}", prompt_clean)
+            for rl in raw_lines:
+                prompt_lines.extend(
+                    wrap_line_to_width(
+                        rl,
+                        glyph_widths,
+                        max_width_px=max_width_px,
+                        hero_name_width_px=hero_name_width_px,
+                        carry=carry,
+                    )
+                )
+
+    page_lines = prompt_lines + choice_lines
+
+    if auto_paginate:
+        if len(page_lines) <= max_lines:
+            formatted_subpage = "\n".join(page_lines)
+        else:
+            avail_prompt = max(0, max_lines - len(choice_lines))
+            if prompt_lines:
+                if avail_prompt > 0 and len(prompt_lines) > avail_prompt:
+                    overflow_prompt = prompt_lines[:-avail_prompt]
+                    final_prompt = prompt_lines[-avail_prompt:]
+                elif avail_prompt == 0:
+                    overflow_prompt = prompt_lines
+                    final_prompt = []
+                else:
+                    overflow_prompt = []
+                    final_prompt = prompt_lines
+
+                pages: list[str] = []
+                if overflow_prompt:
+                    chunk_size = max(1, max_lines)
+                    for i in range(0, len(overflow_prompt), chunk_size):
+                        pages.append("\n".join(overflow_prompt[i : i + chunk_size]))
+
+                final_page_lines = final_prompt + choice_lines
+                pages.append("\n".join(final_page_lines))
+                formatted_subpage = "{PAGE}".join(pages)
+            else:
+                chunk_size = max(1, max_lines)
+                chunks = [
+                    choice_lines[i : i + chunk_size]
+                    for i in range(0, len(choice_lines), chunk_size)
+                ]
+                formatted_subpage = "{PAGE}".join("\n".join(c) for c in chunks)
+    else:
+        warnings.extend(_check_subpage_lines(page_lines, max_lines))
+        formatted_subpage = "\n".join(page_lines)
+
+    return formatted_subpage, warnings
 
 
 def _format_subpage(
@@ -356,6 +525,21 @@ def _format_subpage(
     """
     if not subpage:
         return "", []
+
+    if CHOICE_TAG_PATTERN.search(subpage):
+        choice_res = format_choice_block(
+            subpage,
+            glyph_widths=glyph_widths,
+            max_width_px=max_width_px,
+            max_lines=max_lines,
+            auto_paginate=auto_paginate,
+            hero_name_width_px=hero_name_width_px,
+            reflow=reflow,
+            force=force,
+            carry=carry,
+        )
+        if choice_res is not None:
+            return choice_res
 
     if force:
         clean_text = collapse_hyphenated_breaks(subpage)
