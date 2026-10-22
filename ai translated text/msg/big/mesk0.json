@@ -75,7 +75,7 @@
     "id": 12,
     "original_en": "And the winner of the last race was...{WAIT_KEY}\nSteel Runner!",
     "original_fr": "Le gagnant de la course précédente est...{WAIT_KEY}\nLe coureur au masque de fer !",
-    "translation": "И победителем прошлого забега стал...{WAIT_KEY}\nЖелезный Бегун!"
+    "translation": "И победителем прошлого забега стал...{WAIT_KEY}\nСтальной Бегун!"
   },
   {
     "id": 13,
@@ -87,13 +87,13 @@
     "id": 14,
     "original_en": "And the winner of the last race was...{WAIT_KEY}\nCatalack!",
     "original_fr": "Le gagnant de la course précédente est...{WAIT_KEY}\nLe joli minet !",
-    "translation": "И победителем прошлого забега стал...{WAIT_KEY}\nКот-Спринтер!"
+    "translation": "И победителем прошлого забега стал...{WAIT_KEY}\nКаталак!"
   },
   {
     "id": 15,
     "original_en": "And the winner of the last race was...{WAIT_KEY}\nG.I. Jogger!",
     "original_fr": "Le gagnant de la course précédente est...{WAIT_KEY}\nLe soldat enthousiaste !",
-    "translation": "И победителем прошлого забега стал...{WAIT_KEY}\nБравый Солдат!"
+    "translation": "И победителем прошлого забега стал...{WAIT_KEY}\nБравый Бегун!"
   },
   {
     "id": 16,
@@ -117,7 +117,7 @@
     "id": 19,
     "original_en": "I've got a feeling that Steel Runner just might pull it\noff today.",
     "original_fr": "J'ai le pressentiment que le coureur au masque de fer\nva tenter quelque chose aujourd'hui.",
-    "translation": "Чует моё сердце, Железный Бегун сегодня покажет\nкласс!"
+    "translation": "Чует моё сердце, Стальной Бегун сегодня покажет\nкласс!"
   },
   {
     "id": 20,
@@ -129,13 +129,13 @@
     "id": 21,
     "original_en": "That Catalack's got promise!",
     "original_fr": "Le joli minet est une valeur s{TAG:63}re !",
-    "translation": "А этот Кот-Спринтер подаёт большие надежды!"
+    "translation": "А этот Каталак подаёт большие надежды!"
   },
   {
     "id": 22,
     "original_en": "That one on G.I. Jogger's right...\nThat's gonna be our winner!",
     "original_fr": "Le soldat enthousiaste a l'air en pleine forme !",
-    "translation": "Тот парень справа от Бравого Солдата... Вот он\nточно победит!"
+    "translation": "Видишь, где стоит Бравый Бегун? Участник справа\nот него сегодня точно победит!"
   },
   {
     "id": 23,
