@@ -197,3 +197,63 @@ def test_cli_audit_scripts_command(tmp_path: Path) -> None:
     # Bad file should exit 1
     exit_bad = main(["audit-scripts", "--file", str(bad_file)])
     assert exit_bad == 1
+
+
+def test_detects_token_case_suffixes() -> None:
+    """Flags dynamic hero/ship tokens with attached Russian case endings or apostrophes."""
+    for bad in [
+        "Изобретение {LUCCA}и уже готово.",
+        "Прыжок на {EPOCH}е!",
+        "Замок {MAGUS}'а возвышается на востоке.",
+        "Камень в лапе {FROG}а!",
+    ]:
+        v = audit_script_entry({"id": 1, "translation": bad})
+        assert any("token" in msg.lower() or "суффикс" in msg.lower() for msg in v), f"Failed to flag: {bad}"
+
+    # Nominative token with punctuation or space should NOT be flagged
+    for good in [
+        "Изобретение создала {LUCCA}!",
+        "Полёт на машине «{EPOCH}».",
+        "Замок чародея {MAGUS} возвышается на востоке.",
+    ]:
+        assert len(audit_script_entry({"id": 1, "translation": good})) == 0
+
+
+def test_detects_non_canonical_protagonist_and_racer_names() -> None:
+    """Flags non-canonical 'Хроно' (except 'Хроно Триггер' and compounds) and non-canonical fair racer names."""
+    # Non-canonical protagonist name should be flagged
+    v_crono = audit_script_entry({"id": 1, "translation": "Воскрешение Хроно на Пике Смерти"})
+    assert any("хроно" in msg.lower() for msg in v_crono), f"Expected 'Хроно' violation, got: {v_crono}"
+
+    # Allowed 'Хроно Триггер' and compound words should NOT be flagged
+    for allowed in [
+        "Это Хроно Триггер",
+        "Хроногироскоп работает",
+        "Воскрешение Кроно на Пике Смерти",
+    ]:
+        assert len(audit_script_entry({"id": 2, "translation": allowed})) == 0, f"Unexpectedly flagged: {allowed}"
+
+    # Non-canonical fair racer names should be flagged
+    for bad_racer in [
+        "Железный Бегун",
+        "Кот-Спринтер",
+        "Бравый Солдат",
+        "Бегун-солдат",
+        "Стальной бегун",
+        "Зелёный тихоход",
+    ]:
+        v_racer = audit_script_entry({"id": 3, "translation": f"На старте {bad_racer}!"})
+        assert any("racer" in msg.lower() or "бегун" in msg.lower() for msg in v_racer), (
+            f"Failed to flag racer: {bad_racer}"
+        )
+
+    # Canonical fair racer names should NOT be flagged
+    for canonical_racer in [
+        "Стальной Бегун",
+        "Зелёный Тихоход",
+        "Каталак",
+        "Бравый Бегун",
+    ]:
+        assert len(audit_script_entry({"id": 4, "translation": f"На старте {canonical_racer}!"})) == 0, (
+            f"Unexpectedly flagged canonical racer: {canonical_racer}"
+        )

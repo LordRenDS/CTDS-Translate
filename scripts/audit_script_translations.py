@@ -48,6 +48,20 @@ BANNED_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
         re.compile(r"Медленно\s+Увеличивает", re.IGNORECASE),
         "banned merged status pattern 'Медленно Увеличивает' found in translation (use 'Замедление')",
     ),
+    (
+        re.compile(r"\{(?:CRONO|MARLE|LUCCA|ROBO|FROG|AYLA|MAGUS|EPOCH)\}['’`-]?[а-яёА-ЯЁa-zA-Z]+"),
+        "dynamic token has attached case ending/suffix (rephrase sentence so token stands in Nominative case)",
+    ),
+    (
+        re.compile(
+            r"\b(?:Железный\s+Бегун|Кот-Спринтер|Бравый\s+Солдат|Бравого\s+Солдата|Бегун-солдат|Стальной\s+бегун|Зелёный\s+тихоход)\b"
+        ),
+        "non-canonical Millennial Fair racer name found (use Стальной Бегун, Зелёный Тихоход, Каталак, Бравый Бегун)",
+    ),
+    (
+        re.compile(r"\bХроно\b(?!\s*Триггер)"),
+        "non-canonical protagonist name 'Хроно' found (use 'Кроно'; only 'Хроно Триггер' is allowed with Х)",
+    ),
 )
 
 # 2. Choice tag pairs and regexes

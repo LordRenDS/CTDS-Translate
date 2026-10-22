@@ -46,7 +46,7 @@ def test_core_canon_characters():
     terms = {t["source"].lower(): t for t in data if isinstance(t, dict)}
 
     expected_chars = {
-        "crono": "Хроно",
+        "crono": "Кроно",
         "marle": "Марле",
         "lucca": "Лукка",
         "robo": "Робо",
@@ -91,3 +91,18 @@ def test_core_items_and_skills():
         assert ru_expected in terms[en_term]["ru"], (
             f"Expected {ru_expected} in {en_term} translation, got: {terms[en_term]['ru']}"
         )
+
+
+def test_fair_racers_in_glossary():
+    with open(GLOSSARY_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    terms = {t["source"].lower(): t for t in data if isinstance(t, dict)}
+    expected_racers = {
+        "steel runner": "Стальной Бегун",
+        "green ambler": "Зелёный Тихоход",
+        "catalack": "Каталак",
+        "g.i. jogger": "Бравый Бегун",
+    }
+    for en_name, ru_expected in expected_racers.items():
+        assert en_name in terms, f"Missing fair racer in glossary: {en_name}"
+        assert terms[en_name]["ru"] == ru_expected

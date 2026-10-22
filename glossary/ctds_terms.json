@@ -1,7 +1,7 @@
 [
   {
     "source": "Crono",
-    "ru": "Хроно",
+    "ru": "Кроно",
     "category": "character",
     "gender": "m",
     "notes": "Main protagonist, silent hero"
@@ -734,5 +734,33 @@
     "source": "Blind",
     "ru": "Слепота",
     "category": "status"
+  },
+  {
+    "source": "Steel Runner",
+    "ru": "Стальной Бегун",
+    "category": "npc",
+    "gender": "m",
+    "notes": "Millennial Fair footrace competitor No. 1"
+  },
+  {
+    "source": "Green Ambler",
+    "ru": "Зелёный Тихоход",
+    "category": "npc",
+    "gender": "m",
+    "notes": "Millennial Fair footrace competitor No. 2"
+  },
+  {
+    "source": "Catalack",
+    "ru": "Каталак",
+    "category": "npc",
+    "gender": "m",
+    "notes": "Millennial Fair footrace competitor No. 3"
+  },
+  {
+    "source": "G.I. Jogger",
+    "ru": "Бравый Бегун",
+    "category": "npc",
+    "gender": "m",
+    "notes": "Millennial Fair footrace competitor No. 4"
   }
 ]
