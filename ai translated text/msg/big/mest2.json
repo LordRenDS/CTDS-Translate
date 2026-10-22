@@ -507,7 +507,7 @@
     "id": 84,
     "original_en": "{ROBO}: The {EPOCH}'s space-time compass has\ngone haywire!",
     "original_fr": "{ROBO} : Le gyroscope temporel du {EPOCH}\ns'affole !",
-    "translation": "{ROBO}: Пространственно-временной компас\n{EPOCH} вышел из строя!"
+    "translation": "{ROBO}: Пространственно-временной компас\nкорабля «{EPOCH}» вышел из строя!"
   },
   {
     "id": 85,
@@ -573,37 +573,37 @@
     "id": 95,
     "original_en": "{FROG}: We stand no chance if we face him head on.{WAIT_KEY}\nWe must use the {EPOCH} to breach his armor!",
     "original_fr": "{FROG} : L'affronter tel quel serait une perte de\ntemps !{WAIT_KEY}\nPourquoi ne pas pénétrer de force {TAG:3C} l'intérieur avec le\n{EPOCH} ?",
-    "translation": "{FROG}: В лобовой схватке у нас нет шансов.{WAIT_KEY}\nМы должны протаранить его броню с помощью\n{EPOCH}!"
+    "translation": "{FROG}: В лобовой схватке у нас нет шансов.{WAIT_KEY}\nМы должны протаранить его броню на корабле\n«{EPOCH}»!"
   },
   {
     "id": 96,
     "original_en": "{MARLE}: Let's bust through Lavos's shell with\nthe {EPOCH}!",
     "original_fr": "{MARLE} : Pénétrons de force {TAG:3C} l'intérieur de Lavos\navec le {EPOCH} !",
-    "translation": "{MARLE}: Давайте пробьём панцирь Лавоса на\n{EPOCH}!"
+    "translation": "{MARLE}: Давайте пробьём панцирь Лавоса на\nкорабле «{EPOCH}»!"
   },
   {
     "id": 97,
     "original_en": "{ROBO}: We will be unable to damage it from here.{WAIT_KEY}\nWhy do we not penetrate his shell with the {EPOCH}\nand attack from within?",
     "original_fr": "{ROBO} : Attaquer la carapace de Lavos n'aurait\nque peu d'effet.{WAIT_KEY}\nQue diriez-vous de pénétrer {TAG:3C} l'intérieur avec le\n{EPOCH} pour mieux le combattre ?",
-    "translation": "{ROBO}: Снаружи мы не сможем нанести ему вреда.{WAIT_KEY}\nПочему бы не пробить его панцирь корпусом {EPOCH}\nи не атаковать изнутри?"
+    "translation": "{ROBO}: Снаружи мы не сможем нанести ему вреда.{WAIT_KEY}\nПочему бы не пробить его панцирь корпусом корабля\n«{EPOCH}» и не атаковать изнутри?"
   },
   {
     "id": 98,
     "original_en": "{LUCCA}: Wonder if we can burst through his\nouter shell with the {EPOCH}?",
     "original_fr": "{LUCCA} : Je me demande si nous ne pourrions pas\npénétrer en force {TAG:3C} l'intérieur de Lavos {TAG:3C} l'aide du\n{EPOCH}...",
-    "translation": "{LUCCA}: Интересно, сможем ли мы проломить\nего внешний панцирь с помощью {EPOCH}?"
+    "translation": "{LUCCA}: Интересно, сможем ли мы проломить\nего внешний панцирь на корабле «{EPOCH}»?"
   },
   {
     "id": 99,
     "original_en": "{LUCCA}: It might destroy the {EPOCH}!\nOf course, there's no telling if we'll make it, either.",
     "original_fr": "{LUCCA} : Le {EPOCH} pourrait être détruit !\nJe ne sais même pas si nous pourrions survivre\nau choc...",
-    "translation": "{LUCCA}: Это может уничтожить саму {EPOCH}!\nДа и мы сами вряд ли уцелеем, если что-то пойдёт\nне так."
+    "translation": "{LUCCA}: Это может уничтожить сам корабль\n«{EPOCH}»! Да и мы сами вряд ли уцелеем, если\nчто-то пойдёт не так."
   },
   {
     "id": 100,
     "original_en": "{ROBO}: The {EPOCH}'s durability is roughly\nequivalent to that of Lavos's armor, but I cannot\nbe sure that we will withstand the impact.",
     "original_fr": "{ROBO} : La dureté de la carapace de Lavos est {TAG:3C}\npeu près équivalente {TAG:3C} celle de la coque du {EPOCH},\nmais je ne sais pas si nous pourrions survivre au choc\nde l'impact...",
-    "translation": "{ROBO}: Прочность корпуса {EPOCH} сопоставима\nс бронёй Лавоса, однако я не могу гарантировать,\nчто мы выдержим столь сокрушительный удар."
+    "translation": "{ROBO}: Прочность корпуса корабля «{EPOCH}»\nсопоставима с бронёй Лавоса, однако я не могу\nручаться, что мы выдержим удар."
   },
   {
     "id": 101,
@@ -639,7 +639,7 @@
     "id": 106,
     "original_en": "{MARLE}: Let's put our trust in the {EPOCH}!",
     "original_fr": "{MARLE} : Faisons confiance au {EPOCH} !",
-    "translation": "{MARLE}: Давайте доверимся {EPOCH}!"
+    "translation": "{MARLE}: Давайте доверимся кораблю «{EPOCH}»!"
   },
   {
     "id": 107,
@@ -651,7 +651,7 @@
     "id": 108,
     "original_en": "{ROBO}: The odds of success are abysmally low.{WAIT_KEY}\nBut perhaps by combining the energy of the\n{EPOCH} with our own...",
     "original_fr": "{ROBO} : Nos chances de succès sont très faibles...{WAIT_KEY}\nSi nous unissions notre énergie spirituelle {TAG:3C} celle du\n{EPOCH}, alors peut-être...",
-    "translation": "{ROBO}: Вероятность успеха ничтожно мала.{WAIT_KEY}\nОднако если объединить энергию {EPOCH}\nс нашей собственной..."
+    "translation": "{ROBO}: Вероятность успеха ничтожно мала.{WAIT_KEY}\nОднако если объединить энергию корабля\n«{EPOCH}» с нашей собственной..."
   },
   {
     "id": 109,
@@ -867,7 +867,7 @@
     "id": 144,
     "original_en": "{FROG}: This is one dreadful place.\nEven more ghastly than {MAGUS}'s keep...",
     "original_fr": "{FROG} : Cet endroit me donne encore plus la chair\nde poule que le palais du Magistère...",
-    "translation": "{FROG}: Зловещее же это место.\nКуда мрачнее даже цитадели {MAGUS}..."
+    "translation": "{FROG}: Зловещее же это место. Куда мрачнее даже\nцитадели, где обитает {MAGUS}..."
   },
   {
     "id": 145,
@@ -1017,7 +1017,7 @@
     "id": 169,
     "original_en": "{ROBO}: I was given life by human hands.{WAIT_KEY}\nBut life is life!\nI am no different from {LUCCA} and the others.",
     "original_fr": "{ROBO} : C'est l'Homme qui m'a créé...{WAIT_KEY}\nNéanmoins, je suis vivant malgré tout !\nComme {LUCCA} et les autres...",
-    "translation": "{ROBO}: Человеческие руки вдохнули в меня жизнь.{WAIT_KEY}\nНо жизнь есть жизнь!\nЯ ничем не отличаюсь от {LUCCA} и остальных."
+    "translation": "{ROBO}: Человеческие руки вдохнули в меня жизнь.{WAIT_KEY}\nНо жизнь есть жизнь!\nИ я такой же живой, как {LUCCA} и остальные."
   },
   {
     "id": 170,
@@ -1041,7 +1041,7 @@
     "id": 173,
     "original_en": "{AYLA}: {AYLA} no lose!\nThis {AYLA} home!",
     "original_fr": "{AYLA} : {AYLA} pas perdre !\nNous être vie de planète !",
-    "translation": "{AYLA}: {AYLA} не проиграть!\nЭто дом {AYLA}!"
+    "translation": "{AYLA}: {AYLA} не проиграть!\nЗдесь живёт {AYLA}!"
   },
   {
     "id": 174,
@@ -1083,7 +1083,7 @@
     "id": 180,
     "original_en": "{ROBO}: Look at the {EPOCH}'s time-space\nmonitor! There is activity in other ages as well.",
     "original_fr": "{ROBO} : Regardez le moniteur spatio-temporel du\n{EPOCH} ! On dirait que quelque chose se produit\naussi aux autres époques.",
-    "translation": "{ROBO}: Взгляните на пространственно-временной\nмонитор {EPOCH}! В других эпохах также\nзафиксирована активность."
+    "translation": "{ROBO}: Взгляните на пространственно-временной\nмонитор корабля «{EPOCH}»! В других эпохах\nтакже зафиксирована активность."
   },
   {
     "id": 181,

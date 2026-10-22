@@ -225,7 +225,7 @@
     "id": 37,
     "original_en": "Mother: Well, this is a pleasant surprise!\nI've never seen you bring any girls around except\nfor {LUCCA}. Who's this pretty new friend?",
     "original_fr": "Gina : Oh ! {CRONO} n'a pas l'habitude de ramener\nd'autres jeunes filles que {LUCCA} {TAG:3C} la maison.\nComment t'appelles-tu ?",
-    "translation": "Мама: Ну, вот это приятный сюрприз! Я никогда не\nвидела, чтобы ты приводил сюда девушек, кроме\n{LUCCA}. Кто эта новая симпатичная подруга?"
+    "translation": "Мама: Вот так приятный сюрприз! Раньше из\nдевушек к нам заглядывала только {LUCCA}. А кто\nэта новая симпатичная подруга?"
   },
   {
     "id": 38,
@@ -267,7 +267,7 @@
     "id": 44,
     "original_en": "Mother: Goodness...\nIs this one of {LUCCA}'s inventions?",
     "original_fr": "Gina : Oh ! Est-ce une des inventions de {LUCCA} ?",
-    "translation": "Мама: Боже мой... Это одно из изобретений {LUCCA}?"
+    "translation": "Мама: Боже мой... Это очередное чудо техники,\nкоторое изобрела {LUCCA}?"
   },
   {
     "id": 45,
@@ -957,7 +957,7 @@
     "id": 159,
     "original_en": "Just as I was preparing to put the finishing touches\non Leene's Bell, our King was wounded by {MAGUS}'s\nfiends in battle. It's enough to make a man lose his\nwill to work.",
     "original_fr": "J'ai presque terminé la cloche, mais... Les forces du\nMagistère ont infligé une défaite écrasante {TAG:3C} notre\narmée et le roi a été blessé. Je n'ai plus le c{TAG:61}ur {TAG:3C}\ntravailler...",
-    "translation": "Как раз когда я завершал работу над Колоколом Лине,\nнаш Король был ранен мистиками {MAGUS}.\nПосле такого опускаются руки."
+    "translation": "Я уже почти доделал Колокол Лин, когда мистики,\nкоторыми командует {MAGUS}, ранили в бою Короля.\nПосле такого просто руки опускаются."
   },
   {
     "id": 160,

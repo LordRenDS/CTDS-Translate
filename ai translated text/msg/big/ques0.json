@@ -45,7 +45,7 @@
     "id": 7,
     "original_en": "There is a statue behind {MAGUS} when you fight him\nin his keep. How many arms does this statue have?",
     "original_fr": "Quand vous combattez {MAGUS} dans son palais,\nil y a une statue derrière lui. Combien de bras\na-t-elle ?",
-    "translation": "За спиной {MAGUS}'а в его замке стоит статуя.\nСколько у этой статуи рук?"
+    "translation": "В замке, где правит {MAGUS}, за его спиной стоит\nстатуя. Сколько у неё рук?"
   },
   {
     "id": 8,
@@ -57,7 +57,7 @@
     "id": 9,
     "original_en": "What is the name of the device {LUCCA} invented to\nstabilize Gates?",
     "original_fr": "Quelle invention de {LUCCA} permet d'utiliser les\nportails en toute sécurité ?",
-    "translation": "Как называется прибор, изобретённый {LUCCA}й для\nстабилизации Врат?"
+    "translation": "Как называется прибор, который изобрела {LUCCA}\nдля стабилизации Врат?"
   },
   {
     "id": 10,
@@ -75,13 +75,13 @@
     "id": 12,
     "original_en": "What is {FROG}'s true name?",
     "original_fr": "Quel est le vrai nom de {FROG} ?",
-    "translation": "Каково настоящее имя {FROG}а?"
+    "translation": "Какое настоящее имя носит {FROG}?"
   },
   {
     "id": 13,
     "original_en": "Which other tech has the same effect as {FROG}'s \nFrog Squash?",
     "original_fr": "Quelle compétence a le même effet que la compétence\nCrapaud écrasant de {FROG} ?",
-    "translation": "Какая техника обладает тем же свойством, что и\n«Удар жабы» {FROG}а?"
+    "translation": "Какая техника действует так же, как «Пресс\nФрога», которым владеет {FROG}?"
   },
   {
     "id": 14,
@@ -105,19 +105,19 @@
     "id": 17,
     "original_en": "What is {MAGUS}'s true name?",
     "original_fr": "Quel est le vrai nom de {MAGUS} ?",
-    "translation": "Каково истинное имя {MAGUS}'а?"
+    "translation": "Какое истинное имя в детстве носил {MAGUS}?"
   },
   {
     "id": 18,
     "original_en": "What is the name of {MAGUS}'s sister?",
     "original_fr": "Quel est le nom de la s{TAG:61}ur de {MAGUS} ?",
-    "translation": "Как зовут сестру {MAGUS}'а?"
+    "translation": "Как зовут сестру, чей младший брат — {MAGUS}?"
   },
   {
     "id": 19,
     "original_en": "What is the name of the cat {MAGUS} had as a child?",
     "original_fr": "Quel est le nom du chat que {MAGUS} avait quand il\nétait jeune ?",
-    "translation": "Как звали кота, жившего у {MAGUS}'а в детстве?"
+    "translation": "Как звали кота, которого в детстве приручил\n{MAGUS}?"
   },
   {
     "id": 20,
@@ -141,7 +141,7 @@
     "id": 23,
     "original_en": "What is the name of the Ioka villager {AYLA} likes\nbest?",
     "original_fr": "Quel est le nom de l'habitant d'Ioka préféré de\n{AYLA} ?",
-    "translation": "Кто из жителей деревни Иока больше всех нравится\n{AYLA}?"
+    "translation": "Кто из жителей деревни Иока милее всех для вождя\nпо имени {AYLA}?"
   },
   {
     "id": 24,
@@ -171,7 +171,7 @@
     "id": 28,
     "original_en": "Which of {MAGUS}'s three generals is skilled at\nswordplay?",
     "original_fr": "Quel général de {MAGUS} est habile {TAG:3C} l'épée ?",
-    "translation": "Кто из трёх генералов {MAGUS}'а искусно владеет\nмечом?"
+    "translation": "Кто из трёх генералов, которыми командует\n{MAGUS}, искусно владеет мечом?"
   },
   {
     "id": 29,
@@ -189,7 +189,7 @@
     "id": 31,
     "original_en": "What does Dalton dub the upgraded {EPOCH}?",
     "original_fr": "Quel nom Dalton a-t-il donné au {EPOCH} ?",
-    "translation": "Как Дальтон нарёк улучшенную {EPOCH}у?"
+    "translation": "Какое имя Дальтон дал кораблю «{EPOCH}» после\nперестройки?"
   },
   {
     "id": 32,
@@ -225,7 +225,7 @@
     "id": 37,
     "original_en": "What is the name of {LUCCA}'s mother?",
     "original_fr": "Quel est le nom de la mère de {CRONO} ?",
-    "translation": "Как зовут мать {LUCCA}и?"
+    "translation": "Как зовут маму, чья дочь — {LUCCA}?"
   },
   {
     "id": 38,

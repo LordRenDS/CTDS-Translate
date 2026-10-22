@@ -45,19 +45,19 @@
     "id": 7,
     "original_en": "{MARLE}: Now, all that's left is a quick\nhop on the {EPOCH}!",
     "original_fr": "{MARLE} : Il ne reste plus qu'{TAG:3C} faire un bond avec le\n{EPOCH} !",
-    "translation": "{MARLE}: Теперь осталось лишь совершить прыжок на\n{EPOCH}е!"
+    "translation": "{MARLE}: Теперь осталось лишь совершить прыжок на\nборту корабля «{EPOCH}»!"
   },
   {
     "id": 8,
     "original_en": "{LUCCA}: Well then, back to the {EPOCH}.",
     "original_fr": "{LUCCA} : Eh bien, allons voir ce qu'il en est avec le\n{EPOCH}.",
-    "translation": "{LUCCA}: Что ж, возвращаемся на {EPOCH}."
+    "translation": "{LUCCA}: Что ж, возвращаемся на корабль\n«{EPOCH}»."
   },
   {
     "id": 9,
     "original_en": "{ROBO}: We should now return to my era\nin the {EPOCH}.",
     "original_fr": "{ROBO} : Retournons {TAG:3C} mon époque {TAG:3C} bord du\n{EPOCH}.",
-    "translation": "{ROBO}: Теперь нам следует вернуться в мою эпоху\nна {EPOCH}е."
+    "translation": "{ROBO}: Теперь нам следует вернуться в мою эпоху\nна борту корабля «{EPOCH}»."
   },
   {
     "id": 10,
@@ -249,7 +249,7 @@
     "id": 41,
     "original_en": "{AYLA}: Oh! Nice sun!\n{LUCCA} maybe use?\nBring {LUCCA} here!",
     "original_fr": "{AYLA} : Ouah ! Petit soleil ! Ah, {LUCCA} pouvoir\npeut-être utiliser pierre ! Appeler {LUCCA} !",
-    "translation": "{AYLA}: О! Красиво солнце! {LUCCA} применить\nкамень? Позвать {LUCCA} сюда!"
+    "translation": "{AYLA}: О! Красиво солнце! {LUCCA} применить\nкамень? Пусть {LUCCA} идёт сюда!"
   },
   {
     "id": 42,

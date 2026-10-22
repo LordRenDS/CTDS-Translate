@@ -939,7 +939,7 @@
     "id": 156,
     "original_en": "King: Oh, {CRONO}...\nHave I grown too old for all this?{WAIT_KEY}\nWith Sir Cyrus nowhere to be found, all our hope\nrests on the shoulder of that boy who bears the\nHero's Badge.{WAIT_KEY}\nHe has gone to the southern continent now, to search\nfor the sword that can slay {MAGUS}.",
     "original_fr": "Oh, {CRONO}... Je crois que je me fais vieux...{WAIT_KEY}\nNous n'avons aucune nouvelle de Cyrus, alors ce jeune\nhomme qui porte la médaille est notre seul espoir...{WAIT_KEY}\nIl est parti sur le continent sud {TAG:3C} la recherche de l'épée\nlégendaire qui pourra vaincre {MAGUS}, le Magistère.",
-    "translation": "Король: Ох, {CRONO}... Неужто я стал слишком стар\nдля ратных дел?{WAIT_KEY}Когда сэр Сайрус сгинул без вести, вся наша\nнадежда легла на плечи того отрока со Знаком\nГероя.{WAIT_KEY}Теперь он отправился на южный континент на\nпоиски клинка, способного сразить {MAGUS}."
+    "translation": "Король: Ох, {CRONO}... Неужто я стал слишком стар\nдля ратных дел?{WAIT_KEY}Когда сэр Сайрус сгинул без вести, вся наша\nнадежда легла на плечи того отрока со Знаком\nГероя.{WAIT_KEY}Теперь он отправился на южный континент искать\nклинок, от которого падёт {MAGUS}."
   },
   {
     "id": 157,
@@ -1365,7 +1365,7 @@
     "id": 227,
     "original_en": "Oh, how I envy you!\nTo be able to say you defeated {MAGUS}!",
     "original_fr": "Vous avez vraiment de la chance...{WAIT_KEY}\nEt dire que vous avez vaincu le Magistère !",
-    "translation": "О, как я завидую вам!\nИметь право гордо заявить, что вы повергли\n{MAGUS}!"
+    "translation": "О, как я завидую вам!\nИметь право гордо заявить, что сам {MAGUS}\nповержен вами!"
   },
   {
     "id": 228,

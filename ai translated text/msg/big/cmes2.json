@@ -717,13 +717,13 @@
     "id": 119,
     "original_en": "{MARLE}: {CRONO}, let's go find {AYLA}!",
     "original_fr": "{MARLE} : {CRONO} !\nAllons parler {TAG:3C} {AYLA} !",
-    "translation": "{MARLE}: {CRONO}, пойдём найдём {AYLA}!"
+    "translation": "{MARLE}: {CRONO}, пойдём выясним, где сейчас {AYLA}!"
   },
   {
     "id": 120,
     "original_en": "{LUCCA}: This is bad!\nWe have to go see {AYLA}!",
     "original_fr": "{LUCCA} : La situation est sérieuse !\nAllons parler {TAG:3C} {AYLA} !",
-    "translation": "{LUCCA}: Дело плохо! Нужно срочно найти {AYLA}!"
+    "translation": "{LUCCA}: Дело плохо! Скорее туда, где {AYLA}!"
   },
   {
     "id": 121,
@@ -867,7 +867,7 @@
     "id": 144,
     "original_en": "Azala: And so the hairless apes arrive!\nAh, and these new ones appear cut from\na finer cloth than {AYLA}.{WAIT_KEY}\nPerfect! This should make things easier.\nTell me, apes, what is the purpose of this device?",
     "original_fr": "Azara : Voil{TAG:3C} les primates...{WAIT_KEY}\nTiens, vous n'avez pas l'air d'être des membres de la\ntribu de {AYLA}...",
-    "translation": "Азала: А вот и бесшёрстные обезьяны! О, а эти\nновенькие сделаны из куда более тонкого теста,\nчем {AYLA}.{WAIT_KEY}\nПрекрасно! Это всё упрощает. Отвечайте: для чего\nвам эта штуковина?"
+    "translation": "Азала: А вот и бесшёрстные обезьяны! О, да по\nсравнению с новенькими {AYLA} — просто дикарка.{WAIT_KEY}\nПрекрасно! Это всё упрощает. Отвечайте: для чего\nвам эта штуковина?"
   },
   {
     "id": 145,

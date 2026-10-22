@@ -225,7 +225,7 @@
     "id": 37,
     "original_en": "Elder: Go Tyranno Lair!?\nTyranno Lair, reptite castle!\nDanger. Even {AYLA} danger!\n{AYLA} want die?",
     "original_fr": "Ancien : {AYLA} vouloir aller au fort Tyrannos ?!\nFort Tyrannos être repaire des sauriens ! Dangereux !\n{AYLA} vouloir mourir ?",
-    "translation": "Старейшина: В Логово Тиранно?! В крепость ящеров!\nОпасно! Даже для {AYLA} опасно! {AYLA} умереть\nхочет?"
+    "translation": "Старейшина: В Логово Тиранно?! В крепость ящеров!\nОпасно! Там даже {AYLA} в опасности! {AYLA}\nумереть хочет?"
   },
   {
     "id": 38,
@@ -279,13 +279,13 @@
     "id": 46,
     "original_en": "Elder: You take care {AYLA}.",
     "original_fr": "Ancien : Vous prendre soin de {AYLA}...",
-    "translation": "Старейшина: Берегите {AYLA}..."
+    "translation": "Старейшина: Смотрите, чтобы {AYLA} была в\nцелости..."
   },
   {
     "id": 47,
     "original_en": "Elder: Reptites gone.\nAll because {AYLA}.",
     "original_fr": "Ancien : Sauriens dispara¡tre. {AYLA} faire\ndispara¡tre sauriens.",
-    "translation": "Старейшина: Рептиты сгинули. И всё благодаря\n{AYLA}."
+    "translation": "Старейшина: Рептиты сгинули. Это всё {AYLA}\nпостаралась."
   },
   {
     "id": 48,
@@ -933,7 +933,7 @@
     "id": 155,
     "original_en": "Ozzie: Arise, my fearsome guardians!{WAIT_KEY}\nSlash 'em to shreds! No one's taking back the treasure\nI stole fair and square from {MAGUS}'s keep!",
     "original_fr": "Vinnie : Venez, mes serviteurs !{WAIT_KEY}\nMettez en pièces les personnes qui essaient de voler le\ntrésor que j'ai rapporté du palais du Magistère !",
-    "translation": "Оззи: Восстаньте, грозные стражи!{WAIT_KEY}\nВ клочья их! Никто не отнимет сокровища, что я\nунёс из замка владыки {MAGUS}!"
+    "translation": "Оззи: Восстаньте, грозные стражи!{WAIT_KEY}\nВ клочья их! Никто не отнимет сокровища, что я\nчестно увёл из замка, где правил {MAGUS}!"
   },
   {
     "id": 156,

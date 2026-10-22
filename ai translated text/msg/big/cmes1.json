@@ -483,7 +483,7 @@
     "id": 80,
     "original_en": "{MARLE}: Finally! You can't imagine how boring\nit's been here. Can I take {LUCCA}'s place?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "{MARLE} : Ouf ! Je m'ennuyais. Je peux prendre la\nplace de {LUCCA} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "{MARLE}: Ну наконец-то! Какая же здесь скука! Можно\nя пойду вместо {LUCCA}?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "{MARLE}: Наконец-то! Тут такая скука! Пусть {LUCCA}\nостанется здесь, а я пойду с вами?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 81,

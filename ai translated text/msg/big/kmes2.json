@@ -129,7 +129,7 @@
     "id": 21,
     "original_en": "Cyrus: Hah... You think overmuch.\nYou've come far, my friend.\nI was never as fine a warrior as you are now.{WAIT_KEY}\nAs {MAGUS}'s fire consumed me, my heart burned\nwith the thoughts of all I'd left unfinished, and\nall I left behind.{WAIT_KEY}\n{MAGUS}...\nKing Guardia...\nQueen Leene...{WAIT_KEY}\nAnd of course you, my dear good friend.",
     "original_fr": "Cyrus : Ha, ha...{WAIT_KEY}\nJe n'étais pas un chevalier aussi remarquable que tu\nl'es maintenant...{WAIT_KEY}\nAlors que les flammes de {MAGUS} dévoraient mon\ncorps, mon c{TAG:61}ur sombrait dans le désarroi. Je pensais\n{TAG:3C} ceux que je laisserais derrière moi...{WAIT_KEY}\nLe roi Gardia...\nLa reine Lynne...\n{MAGUS}...{WAIT_KEY}\nEt toi, mon meilleur ami...",
-    "translation": "Сайрус: Ха... Ты слишком много думаешь. Ты прошёл\nдолгий путь, друг мой. Я никогда не был столь\nдоблестным воином.{WAIT_KEY}\nКогда пламя владыки {MAGUS} сжигало меня, сердце\nгорело от мыслей обо всём, что я не успел...{WAIT_KEY}\n{MAGUS}... Король Гардии... Королева Лин...{WAIT_KEY}\nИ конечно же ты, мой верный добрый друг."
+    "translation": "Сайрус: Ха... Ты слишком много думаешь. Ты прошёл\nдолгий путь, друг мой. Я никогда не был столь\nдоблестным воином.{WAIT_KEY}\nКогда {MAGUS} сжигал меня своим пламенем, сердце\nгорело от мыслей обо всём, что я не успел...{WAIT_KEY}\n{MAGUS}... Король Гардии... Королева Лин...{WAIT_KEY}\nИ конечно же ты, мой верный добрый друг."
   },
   {
     "id": 22,
@@ -255,7 +255,7 @@
     "id": 42,
     "original_en": "The tale of Sir Cyrus the Hero and his loyal\nfriend Glenn is an old one. It's been four\nhundred years since Sir Cyrus fought {MAGUS}.",
     "original_fr": "L'histoire de Cyrus, le héros qui combattit {MAGUS},\net de son ami Glenn est une légende vieille de 400 ans.",
-    "translation": "Сказание о Сайрусе и его друге Гленне — старая\nповесть. Четыре века прошло с тех пор, как Сайрус\nбился против мага {MAGUS}."
+    "translation": "Сказание о Сайрусе и его друге Гленне — старая\nповесть. Четыре века прошло с тех пор, как Сайрус\nбился против мага по имени {MAGUS}."
   },
   {
     "id": 43,
@@ -621,7 +621,7 @@
     "id": 103,
     "original_en": "Fiona: Much of this forest was destroyed in the\nwar against {MAGUS}. I toil endlessly to restore\nit by replanting trees, but they all of them wither\nand die.",
     "original_fr": "Fiona : Une grande partie de la forêt a été rasée au\ncours de la guerre contre le Magistère.{WAIT_KEY}\nJe replante des arbres pour entretenir la forêt, mais ils\nmeurent tous immédiatement...",
-    "translation": "Фиона: Лес сгорел в войне против мага {MAGUS}. Я без\nустали сажаю молодые деревья, но все они вянут и\nгибнут."
+    "translation": "Фиона: Лес сгорел в войне, что развязал {MAGUS}. Я\nбез устали сажаю молодые деревья, но все они\nвянут и гибнут."
   },
   {
     "id": 104,
@@ -687,7 +687,7 @@
     "id": 114,
     "original_en": "This is Fiona's Shrine. Here we give thanks to Fiona\nand {ROBO} for reviving the forest scorched in the\nwar against {MAGUS} four hundred years ago.",
     "original_fr": "Bienvenue au sanctuaire de Fiona.{WAIT_KEY}\nIl est dédié {TAG:3C} Fiona et {TAG:3C} {ROBO}, gr{TAG:4A}ce {TAG:3C} qui la\nforêt qui était devenue un désert pendant la guerre\ncontre {MAGUS}, il y a 400 ans, a été replantée.",
-    "translation": "Это Святилище Фионы. Мы славим здесь Фиону и\n{ROBO} за возрождение леса, сожжённого 400 лет\nназад на войне против {MAGUS}."
+    "translation": "Это Святилище Фионы. Мы славим здесь Фиону и\n{ROBO} за возрождение леса, сожжённого 400 лет\nназад в войне, что развязал {MAGUS}."
   },
   {
     "id": 115,
@@ -909,7 +909,7 @@
     "id": 151,
     "original_en": "Return to the {EPOCH}?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous retourner sur le {EPOCH} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Вернуться на борт {EPOCH}?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Вернуться на корабль «{EPOCH}»?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 152,

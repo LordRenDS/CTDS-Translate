@@ -45,13 +45,13 @@
     "id": 7,
     "original_en": "Taban: Oh! {LUCCA}'s friends!",
     "original_fr": "Taban : Oh ! Vous êtes les amis de {LUCCA}, n'est-ce\npas ?",
-    "translation": "Табан: О! Друзья {LUCCA}!"
+    "translation": "Табан: О! Друзья, о которых говорила {LUCCA}!"
   },
   {
     "id": 8,
     "original_en": "If you see {LUCCA}, tell her to drop by sometime.",
     "original_fr": "Quand vous verrez {LUCCA}, dites-lui de venir me\nvoir de temps en temps.",
-    "translation": "Если увидите {LUCCA}, скажите ей, чтобы\nзаглядывала домой почаще."
+    "translation": "Если вам встретится {LUCCA}, передайте ей, чтобы\nзаглядывала домой почаще."
   },
   {
     "id": 9,
@@ -369,7 +369,7 @@
     "id": 61,
     "original_en": "{MARLE}: {CRONO}, let's take him back to\n{LUCCA}!",
     "original_fr": "{MARLE} : {CRONO} ! Ramenons-le {TAG:3C} {LUCCA} !",
-    "translation": "{MARLE}: {CRONO}, скорее отнесём его к {LUCCA}!"
+    "translation": "{MARLE}: {CRONO}, скорее отнесём его туда, где\nждёт {LUCCA}!"
   },
   {
     "id": 62,

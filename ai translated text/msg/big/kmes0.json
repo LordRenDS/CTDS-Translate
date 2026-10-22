@@ -231,7 +231,7 @@
     "id": 38,
     "original_en": "{LUCCA}: This is what happens to fools who\nstand in the way of the mighty {LUCCA}!{WAIT_KEY}\n{GLYPH:384}\nHa ha ha ha!",
     "original_fr": "{LUCCA} : Voil{TAG:3C} ce qui arrive aux idiots qui font\nobstacle {TAG:3C} {LUCCA}, la grande inventrice !{WAIT_KEY}{GLYPH:384}\n\nHo, ho, ho, ho, ho !",
-    "translation": "{LUCCA}: Вот что ждёт глупцов, вставших на пути\nвеликой {LUCCA}!{WAIT_KEY}\n{GLYPH:384} Ха-ха-ха-ха!"
+    "translation": "{LUCCA}: Вот что ждёт глупцов, когда на их пути\nвстаёт великая {LUCCA}!{WAIT_KEY}\n{GLYPH:384} Ха-ха-ха-ха!"
   },
   {
     "id": 39,
@@ -525,7 +525,7 @@
     "id": 87,
     "original_en": "I'm Ozzie, one of Lord {MAGUS}'s three generals!\nAnd to his enemies, I grant death!",
     "original_fr": "Je suis Vinnie, un des trois généraux du Magistère !\nMort aux ennemis de Son Excellence {MAGUS} !",
-    "translation": "Я Оззи, один из трёх генералов владыки {MAGUS}! И\nврагам его несу лишь смерть!"
+    "translation": "Я Оззи, один из трёх генералов, которыми\nповелевает владыка {MAGUS}! И врагам его я несу\nсмерть!"
   },
   {
     "id": 88,
@@ -1437,13 +1437,13 @@
     "id": 239,
     "original_en": "{MARLE}: If we go to the Middle Ages and stop\n{MAGUS}, can we change history?",
     "original_fr": "{MARLE} : Si on retournait au Moyen-{TAG:5F}ge pour\nvaincre {MAGUS}, pourrait-on changer l'histoire ?",
-    "translation": "{MARLE}: Если мы вернёмся в Средние века и\nостановим {MAGUS}, мы изменим историю?"
+    "translation": "{MARLE}: Если мы вернёмся в Средние века, и {MAGUS}\nбудет остановлен, мы изменим историю?"
   },
   {
     "id": 240,
     "original_en": "{ROBO}: If we were to defeat {MAGUS} in\nthe Middle Ages, might it be possible for us to\nchange history?",
     "original_fr": "{ROBO} : Si nous arrivons {TAG:3C} vaincre {MAGUS} au\nMoyen-{TAG:5F}ge, l'histoire changera-t-elle ?",
-    "translation": "{ROBO}: Если мы одолеем {MAGUS} в Средних веках,\nудастся ли нам изменить ход истории?"
+    "translation": "{ROBO}: Если {MAGUS} в Средних веках потерпит от\nнас поражение, сумеем ли мы изменить ход\nистории?"
   },
   {
     "id": 241,

@@ -141,7 +141,7 @@
     "id": 23,
     "original_en": "Slash: Unbelievable!\nBut to fall fighting for Lord {MAGUS}...",
     "original_fr": "Soja : Bravo...! Je m'avoue vaincu...",
-    "translation": "Слэш: Невероятно!.. Но пасть в бою за Владыку\n{MAGUS}..."
+    "translation": "Слэш: Невероятно!.. Но пасть в бою за дело, что\nведёт Владыка {MAGUS}..."
   },
   {
     "id": 24,
@@ -495,7 +495,7 @@
     "id": 82,
     "original_en": "{FROG}: Time is our enemy now.\nWe must hurry to {MAGUS}!",
     "original_fr": "{FROG} : Nous n'avons pas une minute {TAG:3C} perdre !\nDépêchons-nous de trouver {MAGUS} !",
-    "translation": "{FROG}: Теперь время играет против нас.\nНужно спешить к {MAGUS}!"
+    "translation": "{FROG}: Теперь время играет против нас.\nНужно спешить туда, где {MAGUS}!"
   },
   {
     "id": 83,

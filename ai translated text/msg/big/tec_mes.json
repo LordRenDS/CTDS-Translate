@@ -543,7 +543,7 @@
     "id": 90,
     "original_en": "Launch {FROG} to strike an enemy.",
     "original_fr": "Transpercer les ennemis en ligne droite.",
-    "translation": "Запустить {FROG} и ударить врагов."
+    "translation": "{FROG} летит во врагов живым снарядом."
   },
   {
     "id": 91,
@@ -567,7 +567,7 @@
     "id": 94,
     "original_en": "Hit enemy with a spinning kick.",
     "original_fr": "Lancer {AYLA} sur un ennemi.",
-    "translation": "Запустить {AYLA} во врагов."
+    "translation": "{AYLA} летит во врагов живым снарядом."
   },
   {
     "id": 95,
@@ -585,7 +585,7 @@
     "id": 97,
     "original_en": "Drop {AYLA} on an enemy.",
     "original_fr": "Faire tomber {AYLA} sur un ennemi.",
-    "translation": "Скинуть {AYLA} на врага."
+    "translation": "{AYLA} обрушивается сверху на врага."
   },
   {
     "id": 98,

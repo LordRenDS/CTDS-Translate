@@ -279,7 +279,7 @@
     "id": 46,
     "original_en": "{GLYPH:384}\nThe rock glows in {FROG}'s hand.",
     "original_fr": "{GLYPH:384}\nLa pierre brille d'un vif éclat dans\nla main de {FROG} !",
-    "translation": "{GLYPH:384} Камень ярко вспыхивает в лапе {FROG}а!"
+    "translation": "{GLYPH:384} {FROG} берёт камень, и тот ярко вспыхивает!"
   },
   {
     "id": 47,

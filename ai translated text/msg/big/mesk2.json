@@ -177,7 +177,7 @@
     "id": 29,
     "original_en": "King Guardia XXI: You defeated {MAGUS}'s troops,\nand restored peace to the realm in the year 600.",
     "original_fr": "Gardia XXI : Ils ont vaincu l'armée du Magistère.\nLa paix règne de nouveau dans le monde en l'an 600.",
-    "translation": "Король Гардия XXI: Вы разбили войско {MAGUS} и\nвернули мир на наши земли в 600 году."
+    "translation": "Король Гардия XXI: Вы разбили войско, что вёл\n{MAGUS}, и вернули мир на наши земли в 600 году."
   },
   {
     "id": 30,
@@ -435,7 +435,7 @@
     "id": 72,
     "original_en": "{MARLE}: You're my distant ancestor.\nSo you'd better have strong, healthy kids\nor I'll be in trouble!{WAIT_KEY}\nKino: Heh heh!\nNo worry.\n{AYLA} MUCH energy!{WAIT_KEY}\n{MARLE}: Yeah, she does!",
     "original_fr": "{MARLE} : Tu es mon ancêtre très lointain. J'espère\nque tu auras des enfants en bonne santé. Sinon, je\npourrais avoir des ennuis !{WAIT_KEY}\nKino : Hé, hé... Pas de problème ! {AYLA} avoir\nbeaucoup d'énergie !{WAIT_KEY}\n{MARLE} : Tu as raison !",
-    "translation": "{MARLE}: Ты моя далёкая прародительница. Так что\nрасти сильных и здоровых детей, иначе мне\nнесдобровать!{WAIT_KEY}\nКино: Хе-хе! Не бойся. У {AYLA} ОЧЕНЬ много сил!{WAIT_KEY}\n{MARLE}: Уж в этом я не сомневаюсь!"
+    "translation": "{MARLE}: Ты моя далёкая прародительница. Так что\nрасти сильных и здоровых детей, иначе мне\nнесдобровать!{WAIT_KEY}\nКино: Хе-хе! Не бойся. {AYLA} ОЧЕНЬ сильная!{WAIT_KEY}\n{MARLE}: Уж в этом я не сомневаюсь!"
   },
   {
     "id": 73,
@@ -573,7 +573,7 @@
     "id": 95,
     "original_en": "{LUCCA}: We should probably dismantle the\n{EPOCH}, shouldn't we? We'd never be able\nto see any of the others again, though.",
     "original_fr": "{LUCCA} : Nous ferions probablement mieux de\ndétruire le {EPOCH}. îvidemment, ça signifie\nque nous ne pourrions plus aller voir nos amis...",
-    "translation": "{LUCCA}: Наверное, нам стоит разобрать {EPOCH}?\nЖаль только, мы больше никогда не сможем\nувидеть наших друзей."
+    "translation": "{LUCCA}: Наверное, нам стоит разобрать корабль\n«{EPOCH}»? Жаль только, мы больше никогда не\nсможем увидеть наших друзей."
   },
   {
     "id": 96,

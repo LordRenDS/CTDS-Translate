@@ -561,13 +561,13 @@
     "id": 93,
     "original_en": "{LUCCA}: Oh, no!\nHe's messing around with the {EPOCH}!",
     "original_fr": "{LUCCA} : Hé ! Ils sont en train de modifier le\n{EPOCH} !",
-    "translation": "{LUCCA}: О нет!\nОн ковыряется в {EPOCH}!"
+    "translation": "{LUCCA}: О нет!\nОн переделывает наш корабль «{EPOCH}»!"
   },
   {
     "id": 94,
     "original_en": "{ROBO}: It appears they are modifying the\n{EPOCH}.",
     "original_fr": "{ROBO} : Il semble qu'ils sont en train de trafiquer\nle {EPOCH}.",
-    "translation": "{ROBO}: Судя по всему, они модифицируют {EPOCH}."
+    "translation": "{ROBO}: Судя по всему, они модифицируют корабль\n«{EPOCH}»."
   },
   {
     "id": 95,
@@ -579,7 +579,7 @@
     "id": 96,
     "original_en": "{AYLA}: They do something {EPOCH}!",
     "original_fr": "{AYLA} : Eux changer {EPOCH} !",
-    "translation": "{AYLA}: Они делать что-то с {EPOCH}!"
+    "translation": "{AYLA}: Корабль «{EPOCH}»! Они что-то с ним\nделать!"
   },
   {
     "id": 97,
@@ -801,7 +801,7 @@
     "id": 133,
     "original_en": "{ROBO}: We must reclaim the {EPOCH}!",
     "original_fr": "{ROBO} : Nous allons récupérer le {EPOCH} !",
-    "translation": "{ROBO}: Мы обязаны вернуть {EPOCH}!"
+    "translation": "{ROBO}: Мы обязаны вернуть корабль «{EPOCH}»!"
   },
   {
     "id": 134,
@@ -813,7 +813,7 @@
     "id": 135,
     "original_en": "{AYLA}: Go {EPOCH}, now!",
     "original_fr": "{AYLA} : {AYLA} venir maintenant, {EPOCH} !",
-    "translation": "{AYLA}: Бежать на {EPOCH}, живо!"
+    "translation": "{AYLA}: Бежать на корабль «{EPOCH}», живо!"
   },
   {
     "id": 136,
@@ -1029,7 +1029,7 @@
     "id": 171,
     "original_en": "{AYLA}: !{WAIT_KEY}\nFind {AYLA} stuff!",
     "original_fr": "{AYLA} : !!{WAIT_KEY}\n{AYLA} trouver objets !",
-    "translation": "{AYLA}: !{WAIT_KEY}\nНайти вещи {AYLA}!"
+    "translation": "{AYLA}: !{WAIT_KEY}\n{AYLA} найти свои вещи!"
   },
   {
     "id": 172,

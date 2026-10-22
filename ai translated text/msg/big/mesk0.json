@@ -339,7 +339,7 @@
     "id": 56,
     "original_en": "Go straight ahead if you want to try your hand\nagainst {LUCCA}'s bipedal robot battler, Gato.\nYou can win Silver Points if you beat him!",
     "original_fr": "Par ici pour ceux qui veulent combattre Gonzales, le\nrobot bipède inventé par {LUCCA} ! Si vous arrivez {TAG:3C}\nle vaincre, vous obtiendrez des points d'argent !",
-    "translation": "Ступайте прямо, коль хотите сразиться с Гато —\nшагающим боевым роботом, изобретением {LUCCA}и.\nЗа победу над ним дают Серебряные очки!"
+    "translation": "Ступайте прямо, коль хотите сразиться с Гато —\nшагающим боевым роботом, которого создала\n{LUCCA}. За победу над ним дают Серебряные очки!"
   },
   {
     "id": 57,
@@ -375,7 +375,7 @@
     "id": 62,
     "original_en": "{LUCCA}'s device is all set up now, you know.\nJust go straight, to the back of the square.",
     "original_fr": "L'invention de {LUCCA} est prête.\nElle est installée au nord de la place.",
-    "translation": "Изобретение {LUCCA}и уже готово к показу. Ступайте\nпрямо, в самый конец площади."
+    "translation": "{LUCCA} уже подготовила своё изобретение к показу.\nСтупайте прямо, в самый конец площади."
   },
   {
     "id": 63,
@@ -489,7 +489,7 @@
     "id": 81,
     "original_en": "Taban: ...and you'll be teleported here!{WAIT_KEY}\nThis fantastic machine is the masterwork of my\nbeautiful and brilliant daughter, {LUCCA}!",
     "original_fr": "Taban : ... vous serez téléporté ici !{WAIT_KEY}\nC'est l'invention de ma brillante et ravissante fille\nunique, {LUCCA} !",
-    "translation": "Табан: ...и в мгновение ока перенестись сюда!{WAIT_KEY}\nСей дивный прибор — шедевр моей красавицы и\nгениальной дочери, {LUCCA}и!"
+    "translation": "Табан: ...и в мгновение ока перенестись сюда!{WAIT_KEY}\nСей дивный прибор сотворила моя красавица и\nумница дочка — {LUCCA}!"
   },
   {
     "id": 82,
@@ -795,7 +795,7 @@
     "id": 132,
     "original_en": "I suppose even {LUCCA}'s inventions are bound to\nwork sometimes.",
     "original_fr": "Les inventions de {LUCCA} fonctionnent aussi de\ntemps en temps.",
-    "translation": "Похоже, даже изобретения {LUCCA}и иногда\nработают как надо."
+    "translation": "Похоже, даже приборы, которые мастерит {LUCCA},\nиногда работают как надо."
   },
   {
     "id": 133,
@@ -867,7 +867,7 @@
     "id": 144,
     "original_en": "Chancellor: Having subdued the Princess,\nthe defendant then coerced her into visiting \n{LUCCA}'s little sideshow. There were countless\nwitnesses to this.{WAIT_KEY}\nShortly thereafter, both the Princess and\nthe defendant vanished. If that is not\ncriminal abduction, I don't know what is.",
     "original_fr": "Chancelier : Ensuite, tu as emmené la princesse assister\nau spectacle de {LUCCA} et de son père.{WAIT_KEY}\nPlusieurs personnes peuvent en témoigner.{WAIT_KEY}\nC'est {TAG:3C} ce moment que vous avez tous les deux\ndisparu... Si cela ne constitue pas un enlèvement,\nqu'est-ce donc ?",
-    "translation": "Канцлер: Окрутив Принцессу, подсудимый заманил\nеё на балаганное представление {LUCCA}и. Тому\nесть бесчисленные свидетели!{WAIT_KEY}\nА вскоре и Принцесса, и подсудимый исчезли. Если\nэто не похищение, то что же тогда?!"
+    "translation": "Канцлер: Окрутив Принцессу, подсудимый заманил\nеё на балаганное шоу, что устроила {LUCCA}. Тому\nесть бесчисленные свидетели!{WAIT_KEY}\nА вскоре и Принцесса, и подсудимый исчезли. Если\nэто не похищение, то что же тогда?!"
   },
   {
     "id": 145,
@@ -1191,7 +1191,7 @@
     "id": 198,
     "original_en": "{FROG}: Henceforth, I claim them as my own!\nI shall slay the Fiendlord {MAGUS} and restore our\nhonor!",
     "original_fr": "{FROG} : Je me vengerai de {MAGUS} !",
-    "translation": "{FROG}: Отныне они пребудут со мной! Я сражу\nВладыку демонов {MAGUS}а и верну нашу честь!"
+    "translation": "{FROG}: Отныне они пребудут со мной! Падёт от\nмоей руки Владыка демонов {MAGUS}, и честь наша\nбудет восстановлена!"
   },
   {
     "id": 199,

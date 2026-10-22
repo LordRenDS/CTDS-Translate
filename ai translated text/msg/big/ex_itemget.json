@@ -243,7 +243,7 @@
     "id": 40,
     "original_en": "Event:\n   {LUCCA}'s House",
     "original_fr": "îvénement :\nMaison de Lucca",
-    "translation": "Событие:\n   Дом {LUCCA}"
+    "translation": "Событие:\n   Дом, где живёт {LUCCA}"
   },
   {
     "id": 41,
@@ -855,13 +855,13 @@
     "id": 142,
     "original_en": "Event:\n   {LUCCA}'s House",
     "original_fr": "îvénement :\nMaison de Lucca",
-    "translation": "Событие:\n   Дом {LUCCA}"
+    "translation": "Событие:\n   Дом, где живёт {LUCCA}"
   },
   {
     "id": 143,
     "original_en": "Event:\n   {LUCCA}'s House",
     "original_fr": "îvénement :\nMaison de Lucca",
-    "translation": "Событие:\n   Дом {LUCCA}"
+    "translation": "Событие:\n   Дом, где живёт {LUCCA}"
   },
   {
     "id": 144,
@@ -1065,7 +1065,7 @@
     "id": 177,
     "original_en": "Event:\n   {LUCCA}'s House",
     "original_fr": "îvénement :\nMaison de Lucca",
-    "translation": "Событие:\n   Дом {LUCCA}"
+    "translation": "Событие:\n   Дом, где живёт {LUCCA}"
   },
   {
     "id": 178,
@@ -1431,7 +1431,7 @@
     "id": 238,
     "original_en": "Event:\n   {LUCCA}'s House",
     "original_fr": "îvénement :\nMaison de Lucca",
-    "translation": "Событие:\n   Дом {LUCCA}"
+    "translation": "Событие:\n   Дом, где живёт {LUCCA}"
   },
   {
     "id": 239,

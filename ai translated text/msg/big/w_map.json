@@ -27,7 +27,7 @@
     "id": 4,
     "original_en": "{LUCCA}'s House",
     "original_fr": "Maison de {LUCCA}",
-    "translation": "Дом {LUCCA}"
+    "translation": "Дом, где живёт {LUCCA}"
   },
   {
     "id": 5,
@@ -483,7 +483,7 @@
     "id": 80,
     "original_en": "{AYLA}'s Hut",
     "original_fr": "Tente de {AYLA}",
-    "translation": "Хижина {AYLA}"
+    "translation": "Хижина, где живёт {AYLA}"
   },
   {
     "id": 81,

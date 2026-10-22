@@ -969,7 +969,7 @@
     "id": 161,
     "original_en": "{ROBO}: {EPOCH} engines engaged!",
     "original_fr": "{ROBO} : Mise en marche du {EPOCH} !",
-    "translation": "{ROBO}: Двигатели {EPOCH} запущены!"
+    "translation": "{ROBO}: Двигатели корабля «{EPOCH}» запущены!"
   },
   {
     "id": 162,
@@ -993,7 +993,7 @@
     "id": 165,
     "original_en": "Board the {EPOCH}?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous monter {TAG:3C} bord du {EPOCH} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Взойти на борт {EPOCH}?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Взойти на борт корабля «{EPOCH}»?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 166,
@@ -1311,7 +1311,7 @@
     "id": 218,
     "original_en": "The fortress of one of {MAGUS}'s three former\ngenerals in the Middle Ages...",
     "original_fr": "L'endroit où se sont réfugiés les trois anciens généraux\nde {MAGUS} au Moyen-{TAG:5F}ge...",
-    "translation": "Крепость одного из трёх бывших генералов {MAGUS} в\nСредние века..."
+    "translation": "Крепость одного из трёх бывших генералов,\nкоторыми в Средние века командовал {MAGUS}..."
   },
   {
     "id": 219,
@@ -1329,7 +1329,7 @@
     "id": 221,
     "original_en": "The restless spirit of a proud knight,\nslain by {MAGUS} in the Middle Ages,\nand lingering even in the present...",
     "original_fr": "L'{TAG:4A}me d'un fier chevalier qui a péri des mains de\n{MAGUS} au Moyen-{TAG:5F}ge et qui erre toujours dans\nle Présent...",
-    "translation": "Мятущийся дух благородного рыцаря, павшего от\nруки {MAGUS} в Средние века и не нашедшего покоя\nдаже в настоящем..."
+    "translation": "Мятущийся дух гордого рыцаря, которого в Средние\nвека погубил {MAGUS}, не находит покоя даже в\nнастоящем..."
   },
   {
     "id": 222,
@@ -1377,7 +1377,7 @@
     "id": 229,
     "original_en": "Old Man: What luster!\nIs that the Masamune?{WAIT_KEY}\nIn the Middle Ages, there is one who is\nfated to slay {MAGUS} with that blade.\nCan none among you wield it?",
     "original_fr": "Vieil homme : Cet éclat... Gran... Grandléon ?{WAIT_KEY}\nIl devrait y avoir quelqu'un au Moyen-{TAG:5F}ge qui doit\nvaincre le Magistère {TAG:3C} l'aide de cette épée.\nPourriez-vous vous en charger ?",
-    "translation": "Старик: Какой блеск! Неужто это Масамунэ?{WAIT_KEY}В Средних веках есть тот, кому предначертано\nсразить {MAGUS} этим клинком. Неужели никто из вас\nне способен поднять его?"
+    "translation": "Старик: Какой блеск! Неужто это Масамунэ?{WAIT_KEY}В Средних веках живёт тот, от чьего клинка по\nволе судьбы падёт {MAGUS}. Неужели никто из вас\nне способен поднять его?"
   },
   {
     "id": 230,

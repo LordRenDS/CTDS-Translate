@@ -369,7 +369,7 @@
     "id": 61,
     "original_en": "This house belongs to Dorino's village elder.{WAIT_KEY}\nMy, that is unusual garb you wear!\nAre you outlanders?\nDid you come fleeing {MAGUS}'s fiends, too?",
     "original_fr": "Bienvenue {TAG:3C} la maison du maire de San Dorino.{WAIT_KEY}\nVous n'avez pas l'air d'être de la région. Avez-vous été\nchassés de votre contrée par l'armée du Magistère ?",
-    "translation": "Это дом старосты деревни Дорино.{WAIT_KEY}\nОго, какие у вас необычные наряды! Вы\nчужеземцы? Тоже спасаетесь от орд {MAGUS}'а?"
+    "translation": "Это дом старосты деревни Дорино.{WAIT_KEY}\nОго, какие у вас необычные наряды! Вы\nчужеземцы? Тоже спасаетесь от орд, что ведёт\n{MAGUS}?"
   },
   {
     "id": 62,
@@ -387,13 +387,13 @@
     "id": 64,
     "original_en": "{MAGUS}'s three generals fled.\nI've heard they're hiding on some island.{WAIT_KEY}\nWill we never rid this world of evildoers?",
     "original_fr": "J'ai entendu dire que les trois serviteurs du Magistère\nse sont enfuis et se sont réfugiés sur une ¡le quelque\npart...{WAIT_KEY}\nNe serons-nous jamais débarrassés de ces sous-fifres\nmalfaisants...?",
-    "translation": "Все три генерала {MAGUS}'а сбежали. Слышал, они\nпрячутся на каком-то острове.{WAIT_KEY}\nНеужели наш мир никогда не избавится от злодеев?"
+    "translation": "Все три генерала, которыми командовал {MAGUS},\nсбежали. Слышал, они прячутся на каком-то\nострове.{WAIT_KEY}\nНеужели наш мир никогда не избавится от злодеев?"
   },
   {
     "id": 65,
     "original_en": "{MAGUS}'s keep sits on an island to the east.\nThe sheer cliffs surrounding it make it inaccessible.",
     "original_fr": "Le palais du Magistère est situé {TAG:3C} l'est d'ici, sur une ¡le\nbordée de falaises si escarpées que personne ne peut\nl'atteindre.",
-    "translation": "Замок {MAGUS}'а возвышается на острове к востоку.\nКрутые отвесные скалы делают его неприступным."
+    "translation": "Замок, где правит {MAGUS}, возвышается на острове\nк востоку. Отвесные скалы делают его\nнеприступным."
   },
   {
     "id": 66,
@@ -975,7 +975,7 @@
     "id": 162,
     "original_en": "{FROG}: I do not know how far my skills will\ncarry me, but I will put them to the test.\nLet us go to {MAGUS}'s keep.",
     "original_fr": "{FROG} : Je ne sais pas si j'arriverai {TAG:3C} le vaincre,\nmais... Allons ensemble au palais du Magistère.",
-    "translation": "{FROG}: Не ведаю, сколь далеко заведут меня мои\nумения, но я испытаю их в деле. Идём к замку\n{MAGUS}'а."
+    "translation": "{FROG}: Не ведаю, сколь далеко заведут меня мои\nумения, но я испытаю их в деле. Идём в замок,\nгде засел {MAGUS}."
   },
   {
     "id": 163,
@@ -1089,13 +1089,13 @@
     "id": 181,
     "original_en": "Have you heard about the Magic Cave?\nThe one east of the Denadoro Mountains?{WAIT_KEY}\nI saw a sheer rock wall there part like a castle gate,\nand then a host of fiends strolled right in!{WAIT_KEY}\nBest leave {MAGUS} and his cronies to their own\ndevices though, less'n you want trouble.",
     "original_fr": "Connaissez-vous la grotte des mystiques située {TAG:3C} l'est\ndes monts Dénadoro ?{WAIT_KEY}\nJ'ai vu le flanc de la montagne s'ouvrir et des mystiques\ny pénétrer !{WAIT_KEY}\nCependant, quand il s'agit du Magistère, qui s'y frotte,\ns'y pique, comme on dit.",
-    "translation": "Слыхали про Пещеру магии, ту, что к востоку от гор\nДенадоро?{WAIT_KEY}\nЯ видел, как скала разошлась словно ворота, и\nтолпа чудищ вошла прямо внутрь!{WAIT_KEY}\nНо лучше не связываться с {MAGUS}'ом и его бандой,\nесли не ищете себе погибели."
+    "translation": "Слыхали про Пещеру магии, ту, что к востоку от гор\nДенадоро?{WAIT_KEY}\nЯ видел, как скала разошлась словно ворота, и\nтолпа чудищ вошла прямо внутрь!{WAIT_KEY}\nНо там заправляет {MAGUS} со своей шайкой — не\nсуйтесь туда, коль жизнь дорога."
   },
   {
     "id": 182,
     "original_en": "A slimy frog-man bested {MAGUS}?{WAIT_KEY}\nI'd have gone and slew the fiend myself if'n\nI'd known it would be that easy! ",
     "original_fr": "Alors, cet étrange homme-grenouille a vaincu le\nMagistère ?{WAIT_KEY}\nS'il a pu le faire, j'aurais d{TAG:63} m'en charger moi-même !\nPfft !",
-    "translation": "Скользкий человек-лягушка одолел {MAGUS}'а?!{WAIT_KEY}\nЗнал бы, что это так просто, сам пошёл бы и\nприкончил гада!"
+    "translation": "Скользкий человек-лягушка победил, и {MAGUS}\nповержен?!{WAIT_KEY}\nЗнал бы, что это так просто, сам пошёл бы и\nприкончил гада!"
   },
   {
     "id": 183,
