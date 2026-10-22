@@ -177,7 +177,7 @@
     "id": 29,
     "original_en": "{LUCCA}: We'd like to borrow this doll for a bit.",
     "original_fr": "{LUCCA} : Nous allons emprunter la poupée de\n{CRONO}.",
-    "translation": "{LUCCA}: Мы бы хотели одолжить эту куклу ненадолго."
+    "translation": "{LUCCA}: Мы бы хотели одолжить эту куклу\nненадолго."
   },
   {
     "id": 30,
@@ -1029,13 +1029,13 @@
     "id": 171,
     "original_en": "{LUCCA}: S-sorry, I should be more humble in front\nof—",
     "original_fr": "{LUCCA} : Euh, pardonnez-moi...",
-    "translation": "{LUCCA}: П-простите, мне следовало быть скромнее перед—"
+    "translation": "{LUCCA}: П-простите, мне следовало быть скромнее\nперед—"
   },
   {
     "id": 172,
     "original_en": "{MARLE}: Enough already! I'm a princess, but what's\nthat mean? I can't do anything special.{WAIT_KEY}\nBut you—you're incredible!\nI'd trade my name for your genius in a heartbeat!",
     "original_fr": "{MARLE} : Allez, tu peux me tutoyer ! Et puis, tu es\nun génie, {LUCCA}. Je suis peut-être une princesse,\nmais je n'ai pas de talent particulier.",
-    "translation": "{MARLE}: Да хватит уже! Ну принцесса я, и что с того?\nЯ ведь ничего особенного не умею.{WAIT_KEY}\nА вот ты — невероятная!\nЯ бы не задумываясь променяла свой титул на твой гений!"
+    "translation": "{MARLE}: Да хватит уже! Ну принцесса я, и что\nс того? Я ведь ничего особенного не умею.{WAIT_KEY}\nА вот ты — невероятная! Я бы не задумываясь\nпроменяла свой титул на твой гений!"
   },
   {
     "id": 173,
