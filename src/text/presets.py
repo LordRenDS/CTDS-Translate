@@ -572,12 +572,22 @@ def get_constraints_for_entry(
             patterns=(),
         )
 
+    if base_name == "ex_monspot.json":
+        return TextWindowPreset(
+            name="ex_monspot",
+            max_width_px=136,
+            max_lines=6,
+            reflow=False,
+            font_type="big",
+            patterns=(),
+        )
+
     if base_name == "ex_itemget.json":
         return TextWindowPreset(
             name="ex_itemget",
             max_width_px=136,
             max_lines=8,
-            reflow=True,
+            reflow=False,
             font_type="big",
             patterns=(),
         )

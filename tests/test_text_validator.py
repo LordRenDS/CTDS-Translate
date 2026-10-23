@@ -2212,3 +2212,12 @@ def test_status_tutorial_constraints():
     assert c.max_lines == 3
     assert c.reflow is False
     assert c.font_type == "big"
+
+
+def test_presets_structured_lists():
+    """Verify ex_itemget.json and ex_monspot.json disable reflow to preserve structured list layout."""
+    c_itemget = get_constraints_for_entry("ex_itemget.json", 0)
+    assert c_itemget.reflow is False
+
+    c_monspot = get_constraints_for_entry("ex_monspot.json", 0)
+    assert c_monspot.reflow is False
