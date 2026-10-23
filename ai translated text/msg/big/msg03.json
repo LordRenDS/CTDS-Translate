@@ -3,7 +3,7 @@
     "id": 0,
     "original_en": "This is the Queen's palace, and the center of the\nMagic Kingdom of Zeal.{WAIT_KEY}\nWhich is to say, this is the center of the universe.",
     "original_fr": "Bienvenue au palais royal, le c{TAG:61}ur du royaume de\nZhyle...{WAIT_KEY}\nAutrement dit, bienvenue au centre de l'univers !",
-    "translation": "Это дворец Королевы и средоточие Магического\nКоролевства Зил.{WAIT_KEY}\nИными словами, это центр вселенной."
+    "translation": "Это дворец Королевы и средоточие Магического\nКоролевства Зил.{WAIT_KEY}Иными словами, это центр вселенной."
   },
   {
     "id": 1,
@@ -21,13 +21,13 @@
     "id": 3,
     "original_en": "Your pendant—it looks identical to Lady Schala's!{WAIT_KEY}\nI heard that when Lady Schala communes with the\nMammon Machine, her pendant glows with a strange\nlight.",
     "original_fr": "Oh, ce pendentif... Il ressemble beaucoup {TAG:3C} celui de\nmademoiselle Sarah.{WAIT_KEY}\nJ'ai entendu dire que ce dernier émet une lueur\nmystérieuse quand mademoiselle Sarah communie\navec le réceptacle sacré.",
-    "translation": "Ваша подвеска... точь-в-точь как у госпожи Шалы!{WAIT_KEY}\nГоворят, когда госпожа Шала соединяется с\nМашиной Маммона, её подвеска сияет загадочным\nсветом."
+    "translation": "Ваша подвеска... точь-в-точь как у госпожи Шалы!{WAIT_KEY}Говорят, когда госпожа Шала соединяется с\nМашиной Маммона, её подвеска сияет загадочным\nсветом."
   },
   {
     "id": 4,
     "original_en": "My, what strange clothes!\nYou must be travelers from afar.{WAIT_KEY}\nUse the Font of Recovery if you'd like to\nrecuperate from your long journey.",
     "original_fr": "Oh, comme vous portez d'étranges vêtements !\nVous devez venir de très loin.{WAIT_KEY}\nRécupérez donc de la fatigue du voyage gr{TAG:4A}ce {TAG:3C} cette\nsource régénératrice.",
-    "translation": "Ох, какие странные одежды! Вы, должно быть,\nпутники из далёких краёв.{WAIT_KEY}\nЕсли хотите отдохнуть после долгого пути,\nвоспользуйтесь Источником исцеления."
+    "translation": "Ох, какие странные одежды! Вы, должно быть,\nпутники из далёких краёв.{WAIT_KEY}Если хотите отдохнуть после долгого пути,\nвоспользуйтесь Источником исцеления."
   },
   {
     "id": 5,
@@ -45,7 +45,7 @@
     "id": 7,
     "original_en": "Oh, I love them, too!{WAIT_KEY}\nBut the Queen ordered me to burn this tiny\nsapling I received from the Guru of Life.{WAIT_KEY}\nHe said it was a special tree, with powers\nto restore the earth.",
     "original_fr": "Oh, je les adore, moi aussi !{WAIT_KEY}\nCependant, la reine m'a ordonné de br{TAG:63}ler ce jeune\narbre que m'a donné le sage de la vie...{WAIT_KEY}\nCe dernier m'a pourtant dit que l'arbre avait l'étrange\npouvoir de protéger la végétation...",
-    "translation": "О, я тоже их люблю!{WAIT_KEY}\nНо Королева приказала мне сжечь этот росток,\nкоторый мне дал Мудрец Жизни.{WAIT_KEY}\nОн сказал, что это особое дерево, способное\nисцелить и возродить землю."
+    "translation": "О, я тоже их люблю!{WAIT_KEY}Но Королева приказала мне сжечь этот росток,\nкоторый мне дал Мудрец Жизни.{WAIT_KEY}Он сказал, что это особое дерево, способное\nисцелить и возродить землю."
   },
   {
     "id": 8,
@@ -63,7 +63,7 @@
     "id": 10,
     "original_en": "You're right!\nQueen's orders though they may be, it wouldn't\ndo to burn a gift from the Guru of Life.{WAIT_KEY}\nVery well, then. I'll care for it somewhere\nsafe and secret. Someday it just may help\nsomeone else who loves the earth and trees.",
     "original_fr": "Vous avez raison ! Même si la reine me l'ordonne, je ne\npeux pas br{TAG:63}ler quelque chose que m'a donné le sage\nde la vie...{WAIT_KEY}\nJe vais planter ce jeune arbre quelque part et en\nprendre grand soin.{WAIT_KEY}\nIl sera peut-être utile un jour {TAG:3C} quelqu'un qui voudra\nprotéger l'environnement.",
-    "translation": "Ты прав! Пусть это приказ Королевы, но сжигать\nдар Мудреца Жизни было бы преступлением.{WAIT_KEY}\nЧто ж, я тайно сберегу его. Быть может, однажды\nон поможет тому, кто любит землю и деревья так\nже, как я."
+    "translation": "Ты прав! Пусть это приказ Королевы, но сжигать\nдар Мудреца Жизни было бы преступлением.{WAIT_KEY}Что ж, я тайно сберегу его. Быть может, однажды\nон поможет тому, кто любит землю и деревья так\nже, как я."
   },
   {
     "id": 11,
@@ -75,7 +75,7 @@
     "id": 12,
     "original_en": "The Queen's two children, Lady Schala and Lord Janus,\nget along so well.{WAIT_KEY}\nIf only young Lord Janus would open up to others...",
     "original_fr": "Les deux enfants de la reine, mademoiselle Sarah et\nJanus, s'entendent très bien ensemble.{WAIT_KEY}\nSi seulement Janus pouvait ouvrir son c{TAG:61}ur {TAG:3C} d'autres\npersonnes que mademoiselle Sarah...",
-    "translation": "Дети Королевы, госпожа Шала и юный Янус, так\nпривязаны друг к другу.{WAIT_KEY}\nЕсли бы только юный Янус мог открыться и другим\nлюдям..."
+    "translation": "Дети Королевы, госпожа Шала и юный Янус, так\nпривязаны друг к другу.{WAIT_KEY}Если бы только юный Янус мог открыться и другим\nлюдям..."
   },
   {
     "id": 13,
@@ -87,19 +87,19 @@
     "id": 14,
     "original_en": "The Queen's counsel, Lord Dalton, was in charge of\nthe Ocean Palace's construction until a wandering\nprophet arrived and took over.{WAIT_KEY}\nLord Dalton's in a foul mood these days.\nBest avoid him if you can.",
     "original_fr": "Auparavant, Dalton, le bras droit de la reine, était\nen charge du projet du sanctuaire sous-marin,\nmais maintenant, le prophète errant l'a remplacé.{WAIT_KEY}\nDalton est de très mauvaise humeur, alors vous feriez\nmieux de l'éviter pendant quelque temps.",
-    "translation": "Советник Дальтон руководил стройкой Океанского\nдворца, пока странствующий пророк не сместил\nего.{WAIT_KEY} Дальтон сейчас в ярости, лучше не злить его."
+    "translation": "Советник Дальтон руководил стройкой Океанского\nдворца, пока странствующий пророк не сместил\nего.{WAIT_KEY}Дальтон сейчас в ярости, лучше не злить его."
   },
   {
     "id": 15,
     "original_en": "That man appeared only recently, but he earned the\nQueen's trust quickly with his startlingly accurate\npredictions.{WAIT_KEY}\nHis origins are a mystery. He's not one of us\nEnlightened Ones, but nor is he an Earthbound\nOne. From where could such a man have come?",
     "original_fr": "Ce prophète est arrivé au palais il y a peu de temps et a\nacquis la confiance de la reine par des prédictions qui\nse sont avérées justes.{WAIT_KEY}\nPersonne ne sait d'où il vient. Il n'est pas un illuminé\ncomme nous et il va sans dire qu'il n'est pas un terrien\nnon plus... Hum...",
-    "translation": "Этот пророк недавно появился, но быстро заслужил\nдоверие Королевы предсказаниями.{WAIT_KEY}\nОн не Просветлённый и не Приземлённый. Откуда же\nон явился?"
+    "translation": "Этот пророк недавно появился, но быстро заслужил\nдоверие Королевы предсказаниями.{WAIT_KEY}Он не Просветлённый и не Приземлённый. Откуда же\nон явился?"
   },
   {
     "id": 16,
     "original_en": "The completion of the Ocean Palace will secure\neverlasting glory for the kingdom of Zeal.{WAIT_KEY}\nThere will be no more fear or sadness, only\neternal peace.",
     "original_fr": "Quand le sanctuaire sous-marin sera terminé, le\nroyaume de Zhyle sera enveloppé par la lumière\néternelle...{WAIT_KEY}\nIl n'y aura plus de peur ni de tristesse. Seule la sérénité\nsans fin nous attend.",
-    "translation": "Завершение Океанского дворца принесёт вечную\nславу королевству Зил.{WAIT_KEY}\nБольше не будет ни страха, ни печали — лишь\nвечный покой."
+    "translation": "Завершение Океанского дворца принесёт вечную\nславу королевству Зил.{WAIT_KEY}Больше не будет ни страха, ни печали — лишь\nвечный покой."
   },
   {
     "id": 17,
@@ -117,43 +117,43 @@
     "id": 19,
     "original_en": "The Queen must have borne a great deal of pain\nand sorrow in silence.{WAIT_KEY}\nProgress requires equal sacrifice.\nMuch must have been given to allow\nZeal to attain the glory it now knows.",
     "original_fr": "La reine a s{TAG:63}rement enduré seule un chagrin et une\ndouleur indicibles.{WAIT_KEY}\nLe prix {TAG:3C} payer pour l'acquisition d'un grand pouvoir est\nsouvent très élevé. C'est au sacrifice de la reine que\nnous devons ce que le royaume est devenu aujourd'hui.",
-    "translation": "Королеве, должно быть, пришлось молча снести\nнемало боли и горя.{WAIT_KEY}\nПрогресс требует соразмерных жертв. Многое\nпришлось отдать, чтобы Зил достиг своего\nнынешнего величия."
+    "translation": "Королеве, должно быть, пришлось молча снести\nнемало боли и горя.{WAIT_KEY}Прогресс требует соразмерных жертв. Многое\nпришлось отдать, чтобы Зил достиг своего\nнынешнего величия."
   },
   {
     "id": 20,
     "original_en": "That wandering prophet is amazing.\nEvery prophecy to escape his lips has come to pass.{WAIT_KEY}\nIt's as though he already knows the events to come.\nUnnerving, is it not?",
     "original_fr": "Ce prophète errant peut vraiment prédire l'avenir !\nSes prédictions sont toujours justes !{WAIT_KEY}\nC'est comme s'il savait d'avance ce qui allait arriver...\nC'est un peu troublant.",
-    "translation": "Этот бродячий пророк поразителен. Каждое его\nпророчество сбылось до единого слова.{WAIT_KEY}\nОн словно наперёд знает всё грядущее. Жутковато,\nправда?"
+    "translation": "Этот бродячий пророк поразителен. Каждое его\nпророчество сбылось до единого слова.{WAIT_KEY}Он словно наперёд знает всё грядущее. Жутковато,\nправда?"
   },
   {
     "id": 21,
     "original_en": "They say that Gaspar, the Guru of Time,\ncontinues his work on some deserted island.{WAIT_KEY}\nHe strives to make a \"Time Egg,\" or some such\nnonsense. But no one has seen him for years.",
     "original_fr": "On raconte que Hasch, le sage du temps, continue ses\nrecherches dans la solitude, sur une petite ¡le, quelque\npart.{WAIT_KEY}\nIl serait en train de fabriquer un {TAG:64} {TAG:61}uf de temps {TAG:65}, ou\nquelque chose du genre... Personne ne l'a vu depuis\nplusieurs années...",
-    "translation": "Говорят, Гаспар, Мудрец Времени, продолжает\nисследования на необитаемом острове.{WAIT_KEY}\nОн мастерит «Яйцо Времени» или что-то вроде.\nНо его уже много лет никто не видел."
+    "translation": "Говорят, Гаспар, Мудрец Времени, продолжает\nисследования на необитаемом острове.{WAIT_KEY}Он мастерит «Яйцо Времени» или что-то вроде.\nНо его уже много лет никто не видел."
   },
   {
     "id": 22,
     "original_en": "Even Belthasar, who designed the Blackbird and\nthe Ocean Palace, has vanished.{WAIT_KEY}\nHow strange that the three Gurus who guided Zeal\nto its present glory have all disappeared at once.",
     "original_fr": "On ne sait pas non plus où est passé Gasch, le sage\nde la raison, celui qui a conçu le Cygne noir et le\nsanctuaire sous-marin.{WAIT_KEY}\nQui aurait cru que les trois sages qui ont guidé le\nroyaume de Zhyle se cacheraient tous...?",
-    "translation": "Даже Бальтазар, создавший «Чёрного Дрозда» и\nОкеанский дворец, бесследно исчез.{WAIT_KEY}\nКак странно: все три Мудреца, приведшие Зил к\nнынешнему величию, пропали разом."
+    "translation": "Даже Бальтазар, создавший «Чёрного Дрозда» и\nОкеанский дворец, бесследно исчез.{WAIT_KEY}Как странно: все три Мудреца, приведшие Зил к\nнынешнему величию, пропали разом."
   },
   {
     "id": 23,
     "original_en": "Beings that are born of dreams must always return\nto them in the end.{WAIT_KEY}\nBut at times, people's dreams and prayers call\nupon the power of Lavos and are made reality.",
     "original_fr": "Il y a aussi des créatures qui naissent de rêves et y\nretourneront un jour...{WAIT_KEY}\nParfois, les souhaits et les désirs des gens peuvent\ndevenir réalité par le biais du pouvoir de Lavos.",
-    "translation": "Создания, рождённые из снов, в конце концов\nдолжны вернуться в сны.{WAIT_KEY}\nНо порою чаяния и молитвы людей взывают к силе\nЛавоса и обретают плоть."
+    "translation": "Создания, рождённые из снов, в конце концов\nдолжны вернуться в сны.{WAIT_KEY}Но порою чаяния и молитвы людей взывают к силе\nЛавоса и обретают плоть."
   },
   {
     "id": 24,
     "original_en": "You'd do best to speak to the Queen or the Gurus\nif you wish to learn of the Mammon Machine and the\nOcean Palace.{WAIT_KEY}\nBut just between you and I, I'd not place much faith\nin any answers Her Majesty gave you right now.\nShe's been...different as of late.",
     "original_fr": "Si vous voulez en savoir plus au sujet du réceptacle\nsacré ou du sanctuaire sous-marin, vous devriez vous\nadresser aux trois sages ou {TAG:3C} la reine.{WAIT_KEY}\nMais entre vous et moi, je ne sais pas quelles sortes de\nréponses la reine vous donnerait actuellement...",
-    "translation": "Если хотите узнать о Машине Маммона и Океанском\nдворце, лучше спросите Королеву или Мудрецов.{WAIT_KEY}\nНо, говоря между нами, я бы не слишком доверял\nсловам Её Величества. В последнее время она\nстала... совсем другой."
+    "translation": "Если хотите узнать о Машине Маммона и Океанском\nдворце, лучше спросите Королеву или Мудрецов.{WAIT_KEY}Но, говоря между нами, я бы не слишком доверял\nсловам Её Величества. В последнее время она\nстала... совсем другой."
   },
   {
     "id": 25,
     "original_en": "Listen to me. The earth is alive, and always has\nbeen. She changes slowly, so you never see it.\nFrom flat lands into mountains, from mountains\ninto seas...{WAIT_KEY}\nA way may someday open even to the forbidden shrine\nin the north, or to the Sun Temple—but it could take\nuntold years.",
     "original_fr": "îcoutez bien, la planète est vivante. Au cours des\nmillénaires, elle se transforme lentement... Les plaines\ndeviennent des montagnes... Les montagnes deviennent\ndes océans...{WAIT_KEY}\nAprès des dizaines de milliers d'années, il serait\nprobablement possible d'atteindre des endroits qui\nsont actuellement inaccessibles, tel que le sanctuaire\ndu nord ou le berceau de la lumière.",
-    "translation": "Послушай: земля всегда была живой. Она меняется\nмедленно: равнины становятся горами, горы\nуходят на дно морское...{WAIT_KEY}\nБыть может, когда-то откроется путь в запретный\nхрам на севере или в Храм Солнца — но на это\nуйдут века."
+    "translation": "Послушай: земля всегда была живой. Она меняется\nмедленно: равнины становятся горами, горы\nуходят на дно морское...{WAIT_KEY}Быть может, когда-то откроется путь в запретный\nхрам на севере или в Храм Солнца — но на это\nуйдут века."
   },
   {
     "id": 26,
@@ -201,7 +201,7 @@
     "id": 33,
     "original_en": "...{WAIT_KEY}\nHow mean...",
     "original_fr": "...{WAIT_KEY}\nVous êtes méchants...",
-    "translation": "...{WAIT_KEY}\nКак жестоко..."
+    "translation": "...{WAIT_KEY}Как жестоко..."
   },
   {
     "id": 34,
@@ -213,7 +213,7 @@
     "id": 35,
     "original_en": "Uhnnn... Oh, right there!\nYou got it.{WAIT_KEY}\nAhhh...",
     "original_fr": "Oui...\nL{TAG:3C}, l{TAG:3C}...{WAIT_KEY}\nAah...!",
-    "translation": "У-у-ух... Да, прямо там! Попали в точку.{WAIT_KEY}\nА-а-ах..."
+    "translation": "У-у-ух... Да, прямо там! Попали в точку.{WAIT_KEY}А-а-ах..."
   },
   {
     "id": 36,
@@ -231,13 +231,13 @@
     "id": 38,
     "original_en": "That pendant of yours...{WAIT_KEY}\nIt looks like Lady Schala's, but it doesn't glow like hers.",
     "original_fr": "Oh, ce pendentif que vous portez...{WAIT_KEY}\nIl ressemble beaucoup {TAG:3C} celui de mademoiselle\nSarah.{WAIT_KEY}\nCependant, il n'en a pas l'éclat mystérieux.",
-    "translation": "Ваша подвеска...{WAIT_KEY}\nОна точь-в-точь как у госпожи Шалы, но почему-то\nне светится."
+    "translation": "Ваша подвеска...{WAIT_KEY}Она точь-в-точь как у госпожи Шалы, но почему-то\nне светится."
   },
   {
     "id": 39,
     "original_en": "Lady Schala's pendant was made from the\nsame red stone as the Mammon Machine.{WAIT_KEY}\nWhen she prays to the device, the pendant glows\nwith an unearthly light.",
     "original_fr": "On dit que le pendentif de mademoiselle Sarah a été\nfabriqué {TAG:3C} partir de la même pierre rouge que celle\nqui a été utilisée pour créer le réceptacle sacré.{WAIT_KEY}\nQuand mademoiselle Sarah communie avec ce dernier,\nson pendentif émet une lueur étrange.",
-    "translation": "Подвеска госпожи Шалы создана из того же\nкрасного камня, что и Машина Маммона.{WAIT_KEY}\nКогда она молится пред машиной, подвеска\nозаряется неземным сиянием."
+    "translation": "Подвеска госпожи Шалы создана из того же\nкрасного камня, что и Машина Маммона.{WAIT_KEY}Когда она молится пред машиной, подвеска\nозаряется неземным сиянием."
   },
   {
     "id": 40,
@@ -255,7 +255,7 @@
     "id": 42,
     "original_en": "The Mammon Machine?\nYou came to see it?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "ätes-vous venus admirer le réceptacle sacré,\nvous aussi ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Машина Маммона? Вы\nпришли взглянуть на неё?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Машина Маммона? Вы пришли взглянуть на неё?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 43,
@@ -285,7 +285,7 @@
     "id": 47,
     "original_en": "The prophet's aura is clouded with hatred and sorrow.{WAIT_KEY}\nIf he does not free himself of those emotions, he'll\ndestroy himself and those he loves along with him.",
     "original_fr": "L'aura du prophète est remplie de haine et de chagrin...{WAIT_KEY}\nS'il continue ainsi, il se détruira lui-même et entra¡nera\naussi avec lui ceux qui lui sont chers...",
-    "translation": "Аура пророка омрачена ненавистью и скорбью.{WAIT_KEY}\nЕсли он не избавится от этих терзаний, он погубит\nи себя, и всех, кто ему дорог."
+    "translation": "Аура пророка омрачена ненавистью и скорбью.{WAIT_KEY}Если он не избавится от этих терзаний, он погубит\nи себя, и всех, кто ему дорог."
   },
   {
     "id": 48,
@@ -315,25 +315,25 @@
     "id": 52,
     "original_en": "Oh, that pendant...\nIt looks just like Lady Schala's.{WAIT_KEY}\nWhen she clutches her pendant and prays to the\nMammon Machine, the pendant radiates a strange\nlight.{WAIT_KEY}\nIt's almost as if it was speaking to the device in\na language only the two of them could understand.",
     "original_fr": "Oh, ce pendentif... Il ressemble beaucoup {TAG:3C} celui de\nmademoiselle Sarah.{WAIT_KEY}\nIl émet une lueur mystérieuse quand mademoiselle Sarah\ncommunie avec le réceptacle sacré.{WAIT_KEY}\nC'est comme s'ils se parlaient dans un langage secret.",
-    "translation": "О, эта подвеска... Она точь-в-точь как у госпожи\nШалы.{WAIT_KEY}\nКогда она сжимает её в руках и молится Машине\nМаммона, подвеска излучает странный свет.{WAIT_KEY}\nСловно они говорят на неведомом языке, понятном\nлишь им двоим."
+    "translation": "О, эта подвеска... Она точь-в-точь как у госпожи\nШалы.{WAIT_KEY}Когда она сжимает её в руках и молится Машине\nМаммона, подвеска излучает странный свет.{WAIT_KEY}Словно они говорят на неведомом языке, понятном\nлишь им двоим."
   },
   {
     "id": 53,
     "original_en": "The three Gurus constructed the Mammon Machine\nfrom a reddish stone that had been kept in the\nroyal treasury for generations.{WAIT_KEY}\nThe Guru of Life, Melchior, was in charge of the\nplans and conducted a great deal of research on\nthe nature of Lavos. But now—well, I'm sure you\nknow the rest.",
     "original_fr": "Les trois sages ont fabriqué le réceptacle sacré\n{TAG:3C} partir d'une pierre rouge transmise depuis des\ngénérations dans la famille royale.{WAIT_KEY}\nLe sage de la vie, qui était en charge du projet,\na beaucoup étudié Lavos. Et ensuite...",
-    "translation": "Трое Мудрецов создали Машину Маммона из\nкрасноватого камня снов.{WAIT_KEY} С тех самых пор её\nчудовищная мощь не угасает ни на миг."
+    "translation": "Трое Мудрецов создали Машину Маммона из\nкрасноватого камня снов.{WAIT_KEY}С тех самых пор её чудовищная мощь не угасает ни\nна миг."
   },
   {
     "id": 54,
     "original_en": "Operating the Mammon Machine requires magic\npowerful enough to regulate the energy the\nmachine extracts.{WAIT_KEY}\nExcepting the Gurus, Lady Schala is the only one\nwith such power.",
     "original_fr": "Il faut posséder des pouvoirs magiques puissants afin\nde ma¡triser l'énergie qu'extrait le réceptacle sacré.{WAIT_KEY}\nÂ part les trois sages, seule mademoiselle Sarah peut\nactuellement le man{TAG:61}uvrer.",
-    "translation": "Управлять Машиной Маммона под силу лишь тому,\nкто одарён величайшей магией.{WAIT_KEY}\nЕсли не считать Мудрецов, такой силой обладает\nлишь госпожа Шала."
+    "translation": "Управлять Машиной Маммона под силу лишь тому,\nкто одарён величайшей магией.{WAIT_KEY}Если не считать Мудрецов, такой силой обладает\nлишь госпожа Шала."
   },
   {
     "id": 55,
     "original_en": "When the Mammon Machine was finished, the Queen\nbecame a different person almost overnight—a much\ncolder one.{WAIT_KEY}\nJust between us, I heard that any who oppose\nHer Majesty—and not just the Earthbound\nOnes—vanish and are never heard from again.",
     "original_fr": "Depuis la création du réceptacle sacré, la reine est\ndevenue froide, comme si elle était une personne\ndifférente.{WAIT_KEY}\nEntre vous et moi, les rumeurs racontent que non\nseulement les terriens, mais aussi les illuminés sont\nexécutés s'ils s'opposent {TAG:3C} ses plans...",
-    "translation": "С появлением Машины Маммона Королева вмиг стала\nледяной и бессердечной.{WAIT_KEY}\nМежду нами говоря, все, кто перечит ей — даже из\nПросветлённых, — пропадают навек."
+    "translation": "С появлением Машины Маммона Королева вмиг стала\nледяной и бессердечной.{WAIT_KEY}Между нами говоря, все, кто перечит ей — даже из\nПросветлённых, — пропадают навек."
   },
   {
     "id": 56,
@@ -345,13 +345,13 @@
     "id": 57,
     "original_en": "If the Mammon Machine is moved to the Ocean Palace,\nwe can extract even more energy from Lavos.\nThe dream of eternal life will be made possible!{WAIT_KEY}\nOh, almighty Queen!\nOur kingdom will reign for all eternity!",
     "original_fr": "En transférant le réceptacle sacré dans le sanctuaire\nsous-marin, nous pourrons obtenir encore plus\nd'énergie du grand Lavos.{WAIT_KEY}\nNotre rêve ultime d'immortalité deviendra réalité !{WAIT_KEY}\në reine glorieuse ! Le royaume de Zhyle sera éternel !!",
-    "translation": "Перенеся Машину Маммона в Океанский дворец, мы\nполучим ещё больше энергии Лавоса. Мечта о вечной\nжизни станет явью!{WAIT_KEY}\nО, всемогущая Королева! Наше королевство\nпребудет вовек!"
+    "translation": "Перенеся Машину Маммона в Океанский дворец, мы\nполучим ещё больше энергии Лавоса. Мечта о вечной\nжизни станет явью!{WAIT_KEY}О, всемогущая Королева! Наше королевство\nпребудет вовек!"
   },
   {
     "id": 58,
     "original_en": "That glow!{WAIT_KEY}\nThat's the pendant the Gurus made for Lady Schala!\nHow did you come to have that?",
     "original_fr": "Oh, cet éclat...?!{WAIT_KEY}\nIl n'y a pas de doute, c'est le pendentif que les\nsages ont fabriqué pour mademoiselle Sarah !\nComment êtes-vous entrés en sa possession ?!",
-    "translation": "Это сияние!{WAIT_KEY} Это же подвеска, созданная\nМудрецами для госпожи Шалы! Откуда она у вас?!"
+    "translation": "Это сияние!{WAIT_KEY}Это же подвеска, созданная Мудрецами для\nгоспожи Шалы! Откуда она у вас?!"
   },
   {
     "id": 59,
@@ -459,7 +459,7 @@
     "id": 76,
     "original_en": "Schala: It's an amulet containing my prayers.\nIf something should happen, it will keep you safe.{WAIT_KEY}\nI wish that I could remain with you always.\nBut Mother has other plans.",
     "original_fr": "Sarah : Une amulette qui renferme mes prières.\nSi le pire venait {TAG:3C} se produire, elle te protégera.{WAIT_KEY}\nJ'aimerais pouvoir toujours demeurer {TAG:3C} tes côtés...\nCependant, les plans de notre mère...",
-    "translation": "Шала: Амулет, в котором заключены мои молитвы.\nЕсли стрясётся беда, он защитит тебя.{WAIT_KEY}\nКак бы я хотела остаться с тобой навсегда. Но у\nматушки другие планы."
+    "translation": "Шала: Амулет, в котором заключены мои молитвы.\nЕсли стрясётся беда, он защитит тебя.{WAIT_KEY}Как бы я хотела остаться с тобой навсегда. Но у\nматушки другие планы."
   },
   {
     "id": 77,
@@ -471,7 +471,7 @@
     "id": 78,
     "original_en": "Schala: ...{WAIT_KEY}\nEven still...\nForgive me, Janus.",
     "original_fr": "Sarah : ...{WAIT_KEY}\nToutefois, je... Je suis désolée, Janus...",
-    "translation": "Шала: ...{WAIT_KEY}\nИ всё же... Прости меня, Янус."
+    "translation": "Шала: ...{WAIT_KEY}И всё же... Прости меня, Янус."
   },
   {
     "id": 79,
@@ -585,7 +585,7 @@
     "id": 97,
     "original_en": "Queen: Mwa ha ha...\nFear not! I won't kill you—not immediately, that is.{WAIT_KEY}\nI'll allow you to sample every type of pain and fear\nimaginable first. By the time we're through, you'll be\nbegging us to end your suffering.{WAIT_KEY}\nAh, what a delicious diversion!",
     "original_fr": "Reine : Ha, ha, ha, ha... Rassurez-vous, je ne vous\néliminerai pas tout de suite...{WAIT_KEY}\nJe vais d'abord vous faire go{TAG:63}ter la tristesse,\nla souffrance et la terreur ! Vous regretterez\namèrement de vous être opposés {TAG:3C} mes plans.{WAIT_KEY}\nHo, ho, ho, ho...\nMouah, ha, ha, ha...!",
-    "translation": "Королева: Ха-ха-ха... Не бойтесь, я не убью вас — во\nвсяком случае, не сразу.{WAIT_KEY}\nСперва вы изведаете всю боль и неописуемый ужас,\nумоляя избавить вас от страданий.{WAIT_KEY}\nКакая восхитительная забава!"
+    "translation": "Королева: Ха-ха-ха... Не бойтесь, я не убью вас — во\nвсяком случае, не сразу.{WAIT_KEY}Сперва вы изведаете всю боль и неописуемый ужас,\nумоляя избавить вас от страданий.{WAIT_KEY}Какая восхитительная забава!"
   },
   {
     "id": 98,
@@ -609,7 +609,7 @@
     "id": 101,
     "original_en": "Schala: Don't worry about me.\nI'll be fine.{WAIT_KEY}\nAnd they just might be able to rescue Melchior.",
     "original_fr": "Sarah : Ne t'inquiète pas.{WAIT_KEY}\nD'ailleurs, ces gens pourraient aider le sage...",
-    "translation": "Шала: Не беспокойся обо мне, со мной всё будет\nхорошо.{WAIT_KEY} К тому же у них подвеска, точь-в-точь как\nмоя..."
+    "translation": "Шала: Не беспокойся обо мне, со мной всё будет\nхорошо.{WAIT_KEY}К тому же у них подвеска, точь-в-точь как моя..."
   },
   {
     "id": 102,
@@ -621,13 +621,13 @@
     "id": 103,
     "original_en": "Schala: Are you all right?\nQuickly, you must flee the palace!{WAIT_KEY}\nAnd if you can, please—free the Guru of Life!",
     "original_fr": "Sarah : Vous n'avez rien ? Vite, enfuyez-vous du palais.{WAIT_KEY}\nEnsuite, si vous en êtes capables, aidez le sage de la\nvie, je vous en supplie...",
-    "translation": "Шала: Вы целы? Быстрее, бегите из дворца!{WAIT_KEY}\nИ освободите Мудреца Жизни!"
+    "translation": "Шала: Вы целы? Быстрее, бегите из дворца!{WAIT_KEY}И освободите Мудреца Жизни!"
   },
   {
     "id": 104,
     "original_en": "Schala: He was sent to the Mountain of Woe\nfor opposing my mother's plan.{WAIT_KEY}\nPlease! You must help him!",
     "original_fr": "Sarah : Il a été emprisonné sur le mont du tourment\nparce qu'il s'opposait aux plans de la reine...{WAIT_KEY}\nS'il vous pla¡t, sauvez-le...",
-    "translation": "Шала: Матушка сослала его на Гору Скорби за то,\nчто он воспротивился её замыслу.{WAIT_KEY}\nУмоляю вас, помогите ему!"
+    "translation": "Шала: Матушка сослала его на Гору Скорби за то,\nчто он воспротивился её замыслу.{WAIT_KEY}Умоляю вас, помогите ему!"
   },
   {
     "id": 105,
@@ -663,7 +663,7 @@
     "id": 110,
     "original_en": "Prophet: Hmph.\nVery well...I'll spare their lives.{WAIT_KEY}\nBut in return, you will cooperate with me, Schala.",
     "original_fr": "Prophète : ... Hum.\nBien, je leur laisserai la vie sauve.{WAIT_KEY}\nMais en échange, tu vas m'aider, Sarah...",
-    "translation": "Пророк: Хмф. Ну хорошо... Я пощажу их жизни.{WAIT_KEY} Но\nвзамен ты будешь беспрекословно повиноваться\nмне, Шала."
+    "translation": "Пророк: Хмф. Ну хорошо... Я пощажу их жизни.{WAIT_KEY}Но взамен ты будешь беспрекословно повиноваться\nмне, Шала."
   },
   {
     "id": 111,
@@ -687,19 +687,19 @@
     "id": 114,
     "original_en": "Our kingdom will be shrouded in the glorious\nlight of eternity.{WAIT_KEY}\nThere will be no more sadness or fear, only\npeace everlasting.",
     "original_fr": "Le royaume de Zhyle sera enveloppé par la lumière\néternelle...{WAIT_KEY}\nIl n'y aura plus ni peur ni tristesse, seule une sérénité\nsans fin.",
-    "translation": "Наше королевство озарится дивным светом\nвечности.{WAIT_KEY} Больше не будет ни печали, ни страха —\nлишь вечный покой."
+    "translation": "Наше королевство озарится дивным светом\nвечности.{WAIT_KEY}Больше не будет ни печали, ни страха — лишь\nвечный покой."
   },
   {
     "id": 115,
     "original_en": "The Queen and Lady Schala both have descended\nto the Ocean Palace.{WAIT_KEY}\nIn a short time, we Enlightened Ones will finally\nattain immortality.",
     "original_fr": "Sa Majesté est descendue dans le sanctuaire\nsous-marin accompagnée de mademoiselle Sarah.{WAIT_KEY}\nNous allons enfin obtenir la vie éternelle.",
-    "translation": "Королева и госпожа Шала обе спустились в\nОкеанский дворец.{WAIT_KEY} Совсем скоро мы,\nПросветлённые, обретём бессмертие."
+    "translation": "Королева и госпожа Шала обе спустились в\nОкеанский дворец.{WAIT_KEY}Совсем скоро мы, Просветлённые, обретём\nбессмертие."
   },
   {
     "id": 116,
     "original_en": "The portal to the Ocean Palace is in Her Majesty's\naudience chamber.{WAIT_KEY}\nIt will not be long before the day when any may\ngaze upon the resplendent new Mammon Machine.",
     "original_fr": "On dit que l'entrée du sanctuaire sous-marin est située\ndans la salle d'audience de la reine.{WAIT_KEY}\nBientôt, tous pourront admirer l'éclat étincelant du\nnouveau réceptacle sacré !",
-    "translation": "Портал в Океанский дворец находится в тронном\nзале Её Величества.{WAIT_KEY} Скоро всякий сможет\nлицезреть новую, сияющую Машину Маммона."
+    "translation": "Портал в Океанский дворец находится в тронном\nзале Её Величества.{WAIT_KEY}Скоро всякий сможет лицезреть новую, сияющую\nМашину Маммона."
   },
   {
     "id": 117,
@@ -819,7 +819,7 @@
     "id": 136,
     "original_en": "Queen: Don't stop, Schala!\nWe've only a little longer to go!{WAIT_KEY}\nImmortality will be ours!\nZeal will have the eternal glory it deserves!",
     "original_fr": "Reine : Continue, Sarah ! Nous y sommes presque...{WAIT_KEY}\nJ'obtiendrai la vie éternelle ! La lumière divine\nenveloppera le royaume de Zhyle !",
-    "translation": "Королева: Не останавливайся, Шала! Осталось\nсовсем чуть-чуть!{WAIT_KEY}\nБессмертие станет нашим! Зил обретет\nзаслуженную вечную славу!"
+    "translation": "Королева: Не останавливайся, Шала! Осталось\nсовсем чуть-чуть!{WAIT_KEY}Бессмертие станет нашим! Зил обретет\nзаслуженную вечную славу!"
   },
   {
     "id": 137,
@@ -831,7 +831,7 @@
     "id": 138,
     "original_en": "This is the Mammon Machine altar.{WAIT_KEY}\nNow is the time if you want to turn back, nu.",
     "original_fr": "Ceci est l'autel du réceptacle sacré...{WAIT_KEY}\nIl est encore temps de faire demi-tour, gnu...",
-    "translation": "Это алтарь Машины Маммона.{WAIT_KEY}\nЕсли хотите повернуть назад, самое время, ну."
+    "translation": "Это алтарь Машины Маммона.{WAIT_KEY}Если хотите повернуть назад, самое время, ну."
   },
   {
     "id": 139,
@@ -843,7 +843,7 @@
     "id": 140,
     "original_en": "{LUCCA}: We just made it in time!{WAIT_KEY}\nIt's a pity, but I'm afraid we have to shut\ndown that machine for good!",
     "original_fr": "{LUCCA} : On dirait que nous sommes arrivés {TAG:3C}\ntemps ! C'est un peu dommage, mais je vais\narrêter cette machine !",
-    "translation": "{LUCCA}: Мы как раз вовремя!{WAIT_KEY}\nЖаль, конечно, но эту машину придётся вырубить\nраз и навсегда!"
+    "translation": "{LUCCA}: Мы как раз вовремя!{WAIT_KEY}Жаль, конечно, но эту машину придётся вырубить\nраз и навсегда!"
   },
   {
     "id": 141,
@@ -987,7 +987,7 @@
     "id": 164,
     "original_en": "{MAGUS}: I swore on that day long ago that\nI'd destroy you, no matter the price!{WAIT_KEY}\nIt is time to fulfill that vow.\nFeel my wrath, Lavos!",
     "original_fr": "{MAGUS} : En ce jour lointain, j'ai juré que je\nt'écraserais de mes propres mains !{WAIT_KEY}\nMême si je devais tout perdre pour y arriver !{WAIT_KEY}\nLe moment est enfin venu de respecter mon serment.\nMeurs, Lavos !!",
-    "translation": "{MAGUS}: В тот далёкий день я поклялся, что\nуничтожу тебя любой ценой!{WAIT_KEY}\nПришло время исполнить эту клятву. Узри мою\nярость, Лавос!"
+    "translation": "{MAGUS}: В тот далёкий день я поклялся, что\nуничтожу тебя любой ценой!{WAIT_KEY}Пришло время исполнить эту клятву. Узри мою\nярость, Лавос!"
   },
   {
     "id": 165,
@@ -1005,13 +1005,13 @@
     "id": 167,
     "original_en": "Schala: Mother, please stop this madness!{WAIT_KEY}\nThis power can only end in ruin!",
     "original_fr": "Sarah : Mère, arrêtez !{WAIT_KEY}\nCe pouvoir n'apporte que des malheurs ! Je ne veux\nplus...",
-    "translation": "Шала: Матушка, молю, остановите это безумие!{WAIT_KEY}\nЭта сила принесёт лишь погибель!"
+    "translation": "Шала: Матушка, молю, остановите это безумие!{WAIT_KEY}Эта сила принесёт лишь погибель!"
   },
   {
     "id": 168,
     "original_en": "Queen: Step aside, Schala!{WAIT_KEY}\nThe almighty life force of Lavos flows through us all.\nYou are a part of it. You cannot change that fate now!{WAIT_KEY}\nOppose me, and I will destroy you!",
     "original_fr": "Reine : îcarte-toi, Sarah ! La glorieuse force vitale du\ngrand Lavos respire en moi... Tu en fais aussi partie.{WAIT_KEY}\nTu ne peux plus changer le destin ! Si tu comptes me\nfaire obstacle, je t'éliminerai comme les autres !",
-    "translation": "Королева: Прочь с дороги, Шала!{WAIT_KEY}\nВеликая сила Лавоса течёт во всех нас. Ты — её\nчасть, и судьбу не изменить!{WAIT_KEY}\nВстанешь на моём пути — и я сотру тебя в порошок!"
+    "translation": "Королева: Прочь с дороги, Шала!{WAIT_KEY}Великая сила Лавоса течёт во всех нас. Ты — её\nчасть, и судьбу не изменить!{WAIT_KEY}Встанешь на моём пути — и я сотру тебя в порошок!"
   },
   {
     "id": 169,
@@ -1059,19 +1059,19 @@
     "id": 176,
     "original_en": "{MAGUS}: Ungh...\nI won't... I won't be beaten!{WAIT_KEY}\nI endured the darkness alone...for the sole purpose\nof defeating you!",
     "original_fr": "{MAGUS} : Ngaaah... Tu ne me vaincras pas...!{WAIT_KEY}\nJ'ai vécu seul dans les ténèbres afin de t'abattre,\nLavos !",
-    "translation": "{MAGUS}: Унгх... Я не... я не сдамся!{WAIT_KEY}\nЯ сносил тьму в одиночестве лишь ради того,\nчтобы сразить тебя!"
+    "translation": "{MAGUS}: Унгх... Я не... я не сдамся!{WAIT_KEY}Я сносил тьму в одиночестве лишь ради того,\nчтобы сразить тебя!"
   },
   {
     "id": 177,
     "original_en": "{MAGUS}: Take this, Lavos!{WAIT_KEY}\nGraaah!",
     "original_fr": "{MAGUS} : Prends ça !{WAIT_KEY}\nRaaah...!",
-    "translation": "{MAGUS}: Получай, Лавос!{WAIT_KEY}\nГра-а-ах!"
+    "translation": "{MAGUS}: Получай, Лавос!{WAIT_KEY}Гра-а-ах!"
   },
   {
     "id": 178,
     "original_en": "{MAGUS}: What!?\nNo effect at all?{WAIT_KEY}\nAaaaugh!",
     "original_fr": "{MAGUS} : Comment...?! Ça n'a aucun effet ?!{WAIT_KEY}\nAaah !",
-    "translation": "{MAGUS}: Что?! Никакого урона?!{WAIT_KEY}\nА-а-аугх!"
+    "translation": "{MAGUS}: Что?! Никакого урона?!{WAIT_KEY}А-а-аугх!"
   },
   {
     "id": 179,
@@ -1083,7 +1083,7 @@
     "id": 180,
     "original_en": "Queen: I shall give you a gift.\nEternal life, as part of Lavos!{WAIT_KEY}\nUwa ha ha ha!",
     "original_fr": "Reine : Je t'offre un cadeau. Reçois la vie éternelle... en\nne faisant qu'un avec le grand Lavos !{WAIT_KEY}\nHo, ho, ho, ho...!\nHa, ha, ha, ha, ha !",
-    "translation": "Королева: Я преподнесу тебе щедрый дар. Вечную\nжизнь в лоне самого Лавоса!{WAIT_KEY}\nУа-ха-ха-ха!"
+    "translation": "Королева: Я преподнесу тебе щедрый дар. Вечную\nжизнь в лоне самого Лавоса!{WAIT_KEY}Уа-ха-ха-ха!"
   },
   {
     "id": 181,
@@ -1155,7 +1155,7 @@
     "id": 192,
     "original_en": "Queen: {CRONO}, is it?\nWhy not do as Schala says, and run away,\ntail betwixt your legs?{WAIT_KEY}\nIs your life not precious to you?\nHee hee hee! Mwa ha ha ha ha!",
     "original_fr": "Reine : {CRONO}, c'est ça ? Pourquoi ne t'enfuis-tu\npas la queue entre les jambes, comme te le suggère\nSarah ?{WAIT_KEY}\nNe tiens-tu pas {TAG:3C} la vie ?\nHo, ho, ho, ho...\nHa, ha, ha, ha, ha...!",
-    "translation": "Королева: Значит, {CRONO}? Почему бы тебе не\nпослушать Шалу и не сбежать, поджав хвост?{WAIT_KEY}\nИли жизнь тебе не дорога? Хи-хи-хи! Ха-ха-ха-ха!"
+    "translation": "Королева: Значит, {CRONO}? Почему бы тебе не\nпослушать Шалу и не сбежать, поджав хвост?{WAIT_KEY}Или жизнь тебе не дорога? Хи-хи-хи! Ха-ха-ха-ха!"
   },
   {
     "id": 193,
@@ -1167,7 +1167,7 @@
     "id": 194,
     "original_en": "Queen: You've still not given up?\nWhat do you hope to do?{WAIT_KEY}\nYou would challenge Lavos alone,\nwith that battered body of yours?",
     "original_fr": "Reine : Oh, tu veux te battre ? Qu'espères-tu\naccomplir ?{WAIT_KEY}\nTu comptes défier le grand Lavos seul et blessé ?",
-    "translation": "Королева: Ты всё ещё не сдался? На что ты\nнадеешься?{WAIT_KEY}\nБросить вызов Лавосу в одиночку, своим\nизраненным телом?"
+    "translation": "Королева: Ты всё ещё не сдался? На что ты\nнадеешься?{WAIT_KEY}Бросить вызов Лавосу в одиночку, своим\nизраненным телом?"
   },
   {
     "id": 195,
@@ -1227,7 +1227,7 @@
     "id": 204,
     "original_en": "{MARLE}: {CRONO}?\nWhere's {CRONO}!?{WAIT_KEY}\nNooooooo!",
     "original_fr": "{MARLE} : {CRONO}...? Où est {CRONO}...?!{WAIT_KEY}\nNoooon...!!",
-    "translation": "{MARLE}: {CRONO}? Где {CRONO}?!{WAIT_KEY}\nНе-е-е-е-ет!"
+    "translation": "{MARLE}: {CRONO}? Где {CRONO}?!{WAIT_KEY}Не-е-е-е-ет!"
   },
   {
     "id": 205,
@@ -1239,13 +1239,13 @@
     "id": 206,
     "original_en": "{ROBO}: The structure is collapsing!{WAIT_KEY}\nWe must prioritize our escape!",
     "original_fr": "{ROBO} : Le sanctuaire s'écroule !{WAIT_KEY}\nNotre priorité est de nous enfuir de cet endroit !",
-    "translation": "{ROBO}: Всё вокруг рушится!{WAIT_KEY}\nМы должны немедленно спасаться!"
+    "translation": "{ROBO}: Всё вокруг рушится!{WAIT_KEY}Мы должны немедленно спасаться!"
   },
   {
     "id": 207,
     "original_en": "{FROG}: Urgh...!{WAIT_KEY}\nWe must think only of our escape for now!\nThe palace threatens to collapse!",
     "original_fr": "{FROG} : Aah...!{WAIT_KEY}\nPour l'instant, nous devons plutôt penser {TAG:3C} sortir d'ici\nvivants ! Le sanctuaire ne tiendra pas longtemps !",
-    "translation": "{FROG}: Ургх!..{WAIT_KEY}\nСейчас нужно думать только о спасении! Дворец\nвот-вот рухнет!"
+    "translation": "{FROG}: Ургх!..{WAIT_KEY}Сейчас нужно думать только о спасении! Дворец\nвот-вот рухнет!"
   },
   {
     "id": 208,
@@ -1269,13 +1269,13 @@
     "id": 211,
     "original_en": "Schala: I know you will not be able to forgive her, but...{WAIT_KEY}\nPlease, do not hate my mother, or our kingdom.",
     "original_fr": "Sarah : Je sais que ce qu'elle a fait est impardonnable...{WAIT_KEY}\nMais je vous en prie, n'en veuillez pas {TAG:3C} ma mère...\nN'ha¿ssez pas notre royaume...",
-    "translation": "Шала: Я знаю, вы не сможете простить её, но...{WAIT_KEY}\nПрошу, не держите зла на мою мать и на наше\nкоролевство."
+    "translation": "Шала: Я знаю, вы не сможете простить её, но...{WAIT_KEY}Прошу, не держите зла на мою мать и на наше\nкоролевство."
   },
   {
     "id": 212,
     "original_en": "Schala: I'm so sorry!{WAIT_KEY}\nNow, quickly—to the surface!",
     "original_fr": "Sarah : Je suis désolée...!{WAIT_KEY}\nEt maintenant, vers la surface...!",
-    "translation": "Шала: Мне так жаль!{WAIT_KEY}\nА теперь скорее — на поверхность!"
+    "translation": "Шала: Мне так жаль!{WAIT_KEY}А теперь скорее — на поверхность!"
   },
   {
     "id": 213,
@@ -1299,7 +1299,7 @@
     "id": 216,
     "original_en": "{LUCCA}: The Chrono Trigger...\nThe Guru's Time Egg!{WAIT_KEY}\nThose...those are our past selves!\nWe're really back—right at that instant!",
     "original_fr": "{LUCCA} : Le Chrono Trigger... L'{TAG:61}uf de temps...!{WAIT_KEY}\nC'est nous, dans le passé ?! Nous avons vraiment réussi\n{TAG:3C} retourner en arrière ! Â cet instant précis...!",
-    "translation": "{LUCCA}: Хроно Триггер... Яйцо Времени Мудреца!{WAIT_KEY}\nЭто... это же мы из прошлого! Мы вернулись — ровно\nв тот самый миг!"
+    "translation": "{LUCCA}: Хроно Триггер... Яйцо Времени Мудреца!{WAIT_KEY}Это... это же мы из прошлого! Мы вернулись — ровно\nв тот самый миг!"
   },
   {
     "id": 217,
@@ -1335,7 +1335,7 @@
     "id": 222,
     "original_en": "{MARLE}: {CRONO}?{WAIT_KEY}\nIt's {CRONO}!\n{CRONO}, you're alive!",
     "original_fr": "{MARLE} : {CRONO}...?{WAIT_KEY}\nC'est {CRONO}...! Tu es en vie, n'est-ce pas,\n{CRONO} ?!",
-    "translation": "{MARLE}: {CRONO}?{WAIT_KEY}\nЭто {CRONO}! {CRONO}, ты жив!"
+    "translation": "{MARLE}: {CRONO}?{WAIT_KEY}Это {CRONO}! {CRONO}, ты жив!"
   },
   {
     "id": 223,
@@ -1377,7 +1377,7 @@
     "id": 229,
     "original_en": "{MAGUS}: It was all for naught...{WAIT_KEY}\nWe changed nothing.",
     "original_fr": "{MAGUS} : Pitoyable... J'ai été incapable de changer\nquoi que ce soit en fin de compte...",
-    "translation": "{MAGUS}: Всё было впустую...{WAIT_KEY}\nМы ничего не изменили."
+    "translation": "{MAGUS}: Всё было впустую...{WAIT_KEY}Мы ничего не изменили."
   },
   {
     "id": 230,
@@ -1395,7 +1395,7 @@
     "id": 232,
     "original_en": "Queen: So, Melchior?\nYou see, the Mammon Machine functions flawlessly.{WAIT_KEY}\nYour worries were for naught.",
     "original_fr": "Reine : Alors, Bosch ? Comme tu peux le voir, le\nréceptacle sacré est parfait.{WAIT_KEY}\nIl semblerait que vous vous inquiétiez pour rien, toi et\ntes compagnons.",
-    "translation": "Королева: Ну что, Мельхиор? Как видишь, Машина\nМаммона работает безупречно.{WAIT_KEY}\nВсе ваши тревоги были напрасны."
+    "translation": "Королева: Ну что, Мельхиор? Как видишь, Машина\nМаммона работает безупречно.{WAIT_KEY}Все ваши тревоги были напрасны."
   },
   {
     "id": 233,
@@ -1413,13 +1413,13 @@
     "id": 235,
     "original_en": "Queen: Behold, foolish ones!{WAIT_KEY}\nThe great Lavos awakens!\nThe sun shall never set on the glory of Zeal!",
     "original_fr": "Reine : Observez bien, sages insensés !{WAIT_KEY}\nVoici le réveil du grand Lavos ! L'ère de gloire de notre\nroyaume commence maintenant !",
-    "translation": "Королева: Узрите же, безумцы!{WAIT_KEY}\nВеликий Лавос пробуждается! Солнце никогда не\nзайдёт над славой Зила!"
+    "translation": "Королева: Узрите же, безумцы!{WAIT_KEY}Великий Лавос пробуждается! Солнце никогда не\nзайдёт над славой Зила!"
   },
   {
     "id": 236,
     "original_en": "Gaspar: What's this?\nA dimensional vortex!?{WAIT_KEY}\nBelthasar: We were right, then!\nThis power is beyond human control!",
     "original_fr": "Hasch : Oh...! Une distorsion dimensionnelle...?!{WAIT_KEY}\nGasch : Nous avions donc raison ! Il est impossible pour\nl'Homme de ma¡triser ce pouvoir !",
-    "translation": "Гаспар: Что это? Пространственный вихрь?!{WAIT_KEY}\nБальтазар: Мы были правы! Эту мощь человеку не\nобуздать!"
+    "translation": "Гаспар: Что это? Пространственный вихрь?!{WAIT_KEY}Бальтазар: Мы были правы! Эту мощь человеку не\nобуздать!"
   },
   {
     "id": 237,

@@ -189,7 +189,7 @@
     "id": 31,
     "original_en": "Old Man: Pardon me, I didn't even tell you my name.\nI'm Doan, a descendant of the former director of this\ninformation center—in the days when it still was one.{WAIT_KEY}\nThis dome's substructure holds a supercomputer and\na food storage facility. But the robot guards are still\nactive and will not let us through.{WAIT_KEY}\nIronic, is it not?\nWe starve right atop our own stores of food.",
     "original_fr": "Vieil homme : Je m'appelle Don. Désolé de ne pas m'être\nprésenté plus tôt. Je suis un descendant du directeur\nde cet ancien centre d'information.{WAIT_KEY}\nDans le sous-sol de ce dôme, vous trouverez entre\nautres un ordinateur {TAG:3C} grande capacité et un entrepôt\nde provisions.{WAIT_KEY}\nMalheureusement, le robot gardien est toujours actif et\nnous ne pouvons pas nous en approcher. Quelle ironie...",
-    "translation": "Старик: Прошу прощения, я не представился. Я —\nДоан, потомок директора этого инфоцентра... в те\nвремена, когда он ещё работал.{WAIT_KEY}В нижних ярусах купола расположены склады еды и\nсуперкомпьютер. Но охранные роботы активны\nи никого туда не пускают.{WAIT_KEY}Ирония судьбы, не правда ли? Мы медленно\nумираем от голода прямо над собственными\nхранилищами с едой."
+    "translation": "Старик: Прошу прощения, я не представился. Я —\nДоан, потомок директора этого инфоцентра... в те\nвремена, когда он ещё работал.{WAIT_KEY}В нижних ярусах купола расположены склады еды и\nсуперкомпьютер. Но охранные роботы активны и\nникого туда не пускают.{WAIT_KEY}Ирония судьбы, не правда ли? Мы медленно\nумираем от голода прямо над собственными\nхранилищами с едой."
   },
   {
     "id": 32,
@@ -309,7 +309,7 @@
     "id": 51,
     "original_en": "My husband left for the food storage facility down\nbelow.{WAIT_KEY}\nWe haven't seen him since.",
     "original_fr": "Mon mari est descendu au sous-sol pour essayer de\ntrouver l'entrepôt de provisions...{WAIT_KEY}\nOn ne l'a pas revu depuis...",
-    "translation": "Мой муж отправился вниз, к хранилищам с едой...{WAIT_KEY} С\nтех пор мы его не видели."
+    "translation": "Мой муж отправился вниз, к хранилищам с едой...{WAIT_KEY}С тех пор мы его не видели."
   },
   {
     "id": 52,
@@ -405,7 +405,7 @@
     "id": 67,
     "original_en": "{MARLE}: No! It can't be!\nI won't believe it!",
     "original_fr": "{MARLE} : C'est horrible ! Horrible !\nC'est impossible !",
-    "translation": "{MARLE}: Нет! Не может быть! Я ни за что в это не по-\nверю!"
+    "translation": "{MARLE}: Нет! Не может быть! Я ни за что в это не\nповерю!"
   },
   {
     "id": 68,
@@ -567,7 +567,7 @@
     "id": 94,
     "original_en": "Doan: Hope...\nThere's a word I haven't heard in some time.\nIt does have a comforting ring to it, though.{WAIT_KEY}\nI don't know what kind of seed this is,\nbut I'll do my best to grow it.",
     "original_fr": "Don : Joyeux ? Je n'ai jamais entendu ce mot, mais il est\nagréable {TAG:3C} l'oreille...{WAIT_KEY}\nJe ne sais pas quelle sorte de graines elles sont, mais\nnous les planterons pour voir.",
-    "translation": "Доан: Надежда... Давно я не слышал этого слова. Но\nзвучит оно тепло и ободряюще.{WAIT_KEY} Не знаю, что это за\nсемя, но я приложу все силы, чтобы взрастить его."
+    "translation": "Доан: Надежда... Давно я не слышал этого слова. Но\nзвучит оно тепло и ободряюще.{WAIT_KEY}Не знаю, что это за семя, но я приложу все силы,\nчтобы взрастить его."
   },
   {
     "id": 95,
@@ -591,7 +591,7 @@
     "id": 98,
     "original_en": "Doan: It's the key to a jetbike parked at the Site 32\nruins.{WAIT_KEY}\nI used to ride it when I was young.\nHopefully it still works.",
     "original_fr": "Don : C'est la clef de la moto que j'utilisais quand j'étais\njeune. Je l'ai laissée {TAG:3C} l'entrée des ruines. J'espère\nqu'elle fonctionne toujours...",
-    "translation": "Доан: Это ключ от реактивного байка, стоящего в\nразвалинах Зоны 32.{WAIT_KEY} Я гонял на нём в молодости.\nНадеюсь, он всё ещё на ходу."
+    "translation": "Доан: Это ключ от реактивного байка, стоящего в\nразвалинах Зоны 32.{WAIT_KEY}Я гонял на нём в молодости. Надеюсь, он всё ещё на\nходу."
   },
   {
     "id": 99,
@@ -603,7 +603,7 @@
     "id": 100,
     "original_en": "So my husband, he's...gone.{WAIT_KEY}\nBut he left me precious gifts.\nThat seed...and our child.",
     "original_fr": "Alors mon mari est...{WAIT_KEY}\nIl m'a laissé quelque chose de précieux : ces graines\net... cet enfant.",
-    "translation": "Значит, моего мужа больше... нет.{WAIT_KEY} Но он оставил мне\nбесценные дары. Это семя... и наше дитя."
+    "translation": "Значит, моего мужа больше... нет.{WAIT_KEY}Но он оставил мне бесценные дары. Это семя... и\nнаше дитя."
   },
   {
     "id": 101,
@@ -831,7 +831,7 @@
     "id": 138,
     "original_en": "{FROG}: You've returned!\nHave you a need for my sword?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "{FROG} : Vous ne pouvez aller nulle part sans un\nchevalier comme moi, n'est-ce pas ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "{FROG}: Вы вернулись! Нужен\nли вам мой клинок?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "{FROG}: Вы вернулись! Нужен ли вам мой клинок?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 139,
@@ -849,7 +849,7 @@
     "id": 141,
     "original_en": "{AYLA}: {AYLA} go.\nBoring here.\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "{AYLA} : {AYLA} combattre !\nIci être ennuyant ! Alors ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "{AYLA}: {AYLA}\nидти. Здесь скука.\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "{AYLA}: {AYLA} идти. Здесь скука.\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 142,
@@ -891,19 +891,19 @@
     "id": 148,
     "original_en": "Go to the Day of Lavos,\n1999 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous rendre au Jour de Lavos,\nen l'an 1999 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Отправиться в День Лавоса,\n1999 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Отправиться в День Лавоса, 1999 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 149,
     "original_en": "Go to Proto Dome,\n2300 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous rendre au dôme de Prométhée,\nen l'an 2300 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Отправиться в купол Прото,\n2300 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Отправиться в купол Прото, 2300 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 150,
     "original_en": "Go to Medina Village,\n1000 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous rendre {TAG:3C} Médina,\nen l'an 1000 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Отправиться в деревню Медина,\n1000 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Отправиться в деревню Медина, 1000 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 151,
@@ -915,25 +915,25 @@
     "id": 152,
     "original_en": "Go to Leene Square,\n1000 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous rendre {TAG:3C} la place de Lynne,\nen l'an 1000 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Отправиться на площадь Лины,\n1000 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Отправиться на площадь Лины, 1000 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 153,
     "original_en": "Go to Truce Canyon,\n600 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous rendre au mont de Truce,\nen l'an 600 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Отправиться в каньон Труса,\n600 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Отправиться в каньон Труса, 600 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 154,
     "original_en": "Go to Guardia Forest,\n1000 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous rendre {TAG:3C} la forêt de Gardia,\nen l'an 1000 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Отправиться в лес Гардии,\n1000 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Отправиться в лес Гардии, 1000 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 155,
     "original_en": "Go to Bangor Dome,\n2300 A.D.?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous rendre au dôme de Bangor,\nen l'an 2300 ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Отправиться в купол Бангор,\n2300 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Отправиться в купол Бангор, 2300 год н. э.?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 156,
@@ -1041,7 +1041,7 @@
     "id": 173,
     "original_en": "If I just keep saving up money, someday it'll come in\nhandy.{WAIT_KEY}\nThat's what that guy who left to cross the ruins used\nto say.",
     "original_fr": "îpargnez votre argent, un jour, il vous sera utile.{WAIT_KEY}\nC'était ce que disait le monsieur qui est allé dans l'autre\ndôme.",
-    "translation": "Если продолжать копить деньги, когда-нибудь они\nточно пригодятся.{WAIT_KEY} Так всегда говорил тот парень,\nчто ушёл через руины."
+    "translation": "Если продолжать копить деньги, когда-нибудь они\nточно пригодятся.{WAIT_KEY}Так всегда говорил тот парень, что ушёл через\nруины."
   },
   {
     "id": 174,
@@ -1053,7 +1053,7 @@
     "id": 175,
     "original_en": "Old Man: ...{WAIT_KEY}\nI see. How terrible...{WAIT_KEY}\nThere's little I can do for you, but let me honor him\nwith a song.{WAIT_KEY}\nI'll call it...\"Memories of {CRONO}.\"",
     "original_fr": "Vieil homme : ...{WAIT_KEY}\nJe vois...{WAIT_KEY}\nJe ne peux pas faire grand-chose, mais je vais vous\noffrir cette mélodie. Je l'appelle...{WAIT_KEY}\n{TAG:64} En mémoire de {CRONO} {TAG:65}...",
-    "translation": "Старик: ...{WAIT_KEY} Понимаю. Какая трагедия...{WAIT_KEY} Мало чем я\nмогу вам помочь, но позвольте почтить его память\nпесней.{WAIT_KEY} Я назову её... «Воспоминания о {CRONO}»."
+    "translation": "Старик: ...{WAIT_KEY}Понимаю. Какая трагедия...{WAIT_KEY}Мало чем я могу вам помочь, но позвольте почтить\nего память песней.{WAIT_KEY}Я назову её... «Воспоминания о {CRONO}»."
   },
   {
     "id": 176,
@@ -1107,7 +1107,7 @@
     "id": 184,
     "original_en": "Old Man: The Guru of Time, you say?{WAIT_KEY}\nI know of him.\nBut what business have you with the Guru of Time?",
     "original_fr": "Vieil homme : Le sage du temps...?{WAIT_KEY}\nOui, j'ai déj{TAG:3C} entendu parler de lui, mais que lui\nvoulez-vous donc ?",
-    "translation": "Старик: Гуру Времени, говорите?{WAIT_KEY} Я слыхал о нём. Но\nкакое дело у вас к Гуру Времени?"
+    "translation": "Старик: Гуру Времени, говорите?{WAIT_KEY}Я слыхал о нём. Но какое дело у вас к Гуру\nВремени?"
   },
   {
     "id": 185,
@@ -1185,7 +1185,7 @@
     "id": 197,
     "original_en": "{MARLE}: Wait, then...{WAIT_KEY}\nDoes that mean you're Gaspar?\nThe Guru of Time?",
     "original_fr": "{MARLE} : Alors...{WAIT_KEY}\nC'est vous, Hasch, le sage du temps ?",
-    "translation": "{MARLE}: Погодите, значит...{WAIT_KEY} Вы и есть Гаспар? Гуру\nВремени?!"
+    "translation": "{MARLE}: Погодите, значит...{WAIT_KEY}Вы и есть Гаспар? Гуру Времени?!"
   },
   {
     "id": 198,
@@ -1209,7 +1209,7 @@
     "id": 201,
     "original_en": "Old Man: Ah ha ha...{WAIT_KEY}\nYes, I believe that is what they used to call me.{WAIT_KEY}\nBut that was long, long ago.",
     "original_fr": "Vieil homme : Hum...{WAIT_KEY}\nJ'ai aussi l'impression que j'ai porté ce nom...\nOui, il y a de cela très longtemps...",
-    "translation": "Старик: Ха-ха-ха...{WAIT_KEY} Да, кажется, когда-то меня так\nи величали.{WAIT_KEY} Но было это давным-давно."
+    "translation": "Старик: Ха-ха-ха...{WAIT_KEY}Да, кажется, когда-то меня так и величали.{WAIT_KEY}Но было это давным-давно."
   },
   {
     "id": 202,
@@ -1239,7 +1239,7 @@
     "id": 206,
     "original_en": "{FROG}: That fool...{WAIT_KEY}\nNo man so young should have to die.",
     "original_fr": "{FROG} : Cet idiot...{WAIT_KEY}\nLes plus jeunes ne devraient pas partir les premiers...",
-    "translation": "{FROG}: Глупец...{WAIT_KEY} Никому не должно погибать в столь\nюные лета."
+    "translation": "{FROG}: Глупец...{WAIT_KEY}Никому не должно погибать в столь юные лета."
   },
   {
     "id": 207,
@@ -1251,7 +1251,7 @@
     "id": 208,
     "original_en": "{MAGUS}: That boy's existence is of no consequence.{WAIT_KEY}\nMy attention is focused elsewhere.",
     "original_fr": "{MAGUS} : Peu importe s'il est l{TAG:3C} ou non, du moment\nque je peux vaincre Lavos...",
-    "translation": "{MAGUS}: Судьба этого мальчишки не имеет значения.{WAIT_KEY}\nМой взор устремлён к иным целям."
+    "translation": "{MAGUS}: Судьба этого мальчишки не имеет значения.{WAIT_KEY}Мой взор устремлён к иным целям."
   },
   {
     "id": 209,
@@ -1365,7 +1365,7 @@
     "id": 227,
     "original_en": "Old Man: Dreamstone?{WAIT_KEY}\nYes, I remember that word.\nIt's an incredibly ancient mineral, if I recall.{WAIT_KEY}\nHave you considered searching for some in the\nprehistoric era?",
     "original_fr": "Vieil homme : Une pierre onirique...?{WAIT_KEY}\nCela me dit quelque chose. Il s'agit d'une pierre très,\ntrès ancienne, pour ne pas dire préhistorique...!{WAIT_KEY}\nNe devriez-vous pas pouvoir en trouver en allant dans\nla Préhistoire ?",
-    "translation": "Старик: Камень снов?{WAIT_KEY} Да, припоминаю такое слово.\nНевероятно древний минерал, если память мне не\nизменяет.{WAIT_KEY} Не думали поискать его в первобытной\nэпохе?"
+    "translation": "Старик: Камень снов?{WAIT_KEY}Да, припоминаю такое слово. Невероятно древний\nминерал, если память мне не изменяет.{WAIT_KEY}Не думали поискать его в первобытной эпохе?"
   },
   {
     "id": 228,
@@ -1377,7 +1377,7 @@
     "id": 229,
     "original_en": "Old Man: What luster!\nIs that the Masamune?{WAIT_KEY}\nIn the Middle Ages, there is one who is\nfated to slay {MAGUS} with that blade.\nCan none among you wield it?",
     "original_fr": "Vieil homme : Cet éclat... Gran... Grandléon ?{WAIT_KEY}\nIl devrait y avoir quelqu'un au Moyen-{TAG:5F}ge qui doit\nvaincre le Magistère {TAG:3C} l'aide de cette épée.\nPourriez-vous vous en charger ?",
-    "translation": "Старик: Какой блеск! Неужто это Масамунэ?{WAIT_KEY}В Средних веках живёт тот, от чьего клинка по\nволе судьбы падёт {MAGUS}. Неужели никто из вас\nне способен поднять его?"
+    "translation": "Старик: Какой блеск! Неужто это Масамунэ?{WAIT_KEY}В Средних веках живёт тот, от чьего клинка по\nволе судьбы падёт {MAGUS}. Неужели никто из вас не\nспособен поднять его?"
   },
   {
     "id": 230,
@@ -1401,7 +1401,7 @@
     "id": 233,
     "original_en": "There's no one here.{WAIT_KEY}\nIs this...the End of Time?",
     "original_fr": "Il n'y a rien... Cet endroit...{WAIT_KEY}\nEst-ce la Fin des temps...?",
-    "translation": "Никого нет...{WAIT_KEY} Неужели это... Конец Времён?"
+    "translation": "Никого нет...{WAIT_KEY}Неужели это... Конец Времён?"
   },
   {
     "id": 234,
@@ -1413,7 +1413,7 @@
     "id": 235,
     "original_en": "{MARLE}: Father...{WAIT_KEY}\nI wonder how you're doing now.",
     "original_fr": "{MARLE} : Mon père...{WAIT_KEY}\nJe me demande comment il va...",
-    "translation": "{MARLE}: Отец...{WAIT_KEY} Как ты там сейчас без меня?"
+    "translation": "{MARLE}: Отец...{WAIT_KEY}Как ты там сейчас без меня?"
   },
   {
     "id": 236,
@@ -1425,7 +1425,7 @@
     "id": 237,
     "original_en": "{FROG}: The spirit of a proud knight...{WAIT_KEY}\nCould it be?",
     "original_fr": "{FROG} : L'{TAG:4A}me d'un chevalier qui erre...{WAIT_KEY}\nSe pourrait-il que ce soit...",
-    "translation": "{FROG}: Дух благородного рыцаря...{WAIT_KEY} Неужто это он?"
+    "translation": "{FROG}: Дух благородного рыцаря...{WAIT_KEY}Неужто это он?"
   },
   {
     "id": 238,
@@ -1515,7 +1515,7 @@
     "id": 252,
     "original_en": "Old Man: As it were, the bucket here has seemed a\nbit...different as of late. It's still connected to the\nDay of Lavos, of course, but...there's more.{WAIT_KEY}\nA great power flows into it from some distant plane,\nfar beyond even the darkened borders of Time's\nEclipse.{WAIT_KEY}\nIt's a power similar to that of Lavos, but not entirely\nthe same—a fearsome presence, to be sure. And yet\nI sense longing and loneliness there as well.{WAIT_KEY}\nIt may well be another terrible foe awaits you in\nthat place. If you have a mind to face it, by all\nmeans go—but I cannot say I recommend it.",
     "original_fr": "Vieil homme : Â vrai dire, il y a quelque chose d'étrange {TAG:3C}\npropos du seau ces derniers temps. Il mène toujours au\n{TAG:64} Jour de Lavos {TAG:65}, mais...{WAIT_KEY}\nC'est comme si une force énorme s'y déversait d'une\nautre dimension lointaine... des ténèbres profondes\ndu temps...{WAIT_KEY}\nOn dirait qu'elle ressemble {TAG:3C} celle de Lavos, mais plus\nredoutable encore. Pourtant, j'y décèle une sorte de\ntriste solitude...{WAIT_KEY}\nUne nouvelle et terrible créature vous attend peut-être\ndans une autre dimension.{WAIT_KEY}\nSi vous êtes prêts {TAG:3C} l'affronter, allez voir ce qu'il en\nest. Cependant, je ne vous le recommande guère.",
-    "translation": "Старик: Видите ли, здешнее ведро в последнее\nвремя ведёт себя... странно. Оно связано с Днём\nЛавоса, но... теперь там есть кое-что ещё.{WAIT_KEY}Колоссальная мощь струится в него из далёкого\nплана бытия, лежащего далеко за сумрачными\nпределами Затмения Времён.{WAIT_KEY}Эта сила схожа с силой Лавоса, но не равна ей —\nпугающее присутствие. И всё же я ощущаю там\nглубокую тоску и одиночество.{WAIT_KEY}Вполне возможно, там вас ждёт ещё один грозный\nвраг. Дерзнёте бросить вызов — ступайте,\nно одобрить такое безрассудство я не могу."
+    "translation": "Старик: Видите ли, здешнее ведро в последнее\nвремя ведёт себя... странно. Оно связано с Днём\nЛавоса, но... теперь там есть кое-что ещё.{WAIT_KEY}Колоссальная мощь струится в него из далёкого\nплана бытия, лежащего далеко за сумрачными\nпределами Затмения Времён.{WAIT_KEY}Эта сила схожа с силой Лавоса, но не равна ей —\nпугающее присутствие. И всё же я ощущаю там\nглубокую тоску и одиночество.{WAIT_KEY}Вполне возможно, там вас ждёт ещё один грозный\nвраг. Дерзнёте бросить вызов — ступайте, но\nодобрить такое безрассудство я не могу."
   },
   {
     "id": 253,
@@ -1533,6 +1533,6 @@
     "id": 255,
     "original_en": "Go to the Arena of the Ages,\nbeyond the flow of time?\n®®{GLYPH:394}Yes.{GLYPH:395}\n®®{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous vous rendre {TAG:3C} l'arène\ninterdimensionnelle ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Отправиться на Арену Веков,\nза пределы потока времени?\n®®{GLYPH:394}Да.{GLYPH:395}\n®®{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Отправиться на Арену Веков, за пределы потока\nвремени?\n®®{GLYPH:394}Да.{GLYPH:395}\n®®{GLYPH:396}Нет.{GLYPH:397}"
   }
 ]

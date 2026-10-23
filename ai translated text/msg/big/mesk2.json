@@ -69,7 +69,7 @@
     "id": 11,
     "original_en": "{MARLE}: How can you all be so heartless?{WAIT_KEY}\n{LUCCA}: Death is a fate we can't escape,\n{MARLE}. Someday we'll all pass away.",
     "original_fr": "{MARLE} : Ils n'ont donc pas de c{TAG:61}ur ?!{WAIT_KEY}\n{LUCCA} : Nous mourrons tous un jour, {MARLE}...\nC'est notre destin.",
-    "translation": "{MARLE}: Как вы можете быть столь бессердечны?{WAIT_KEY}\n{LUCCA}: От смерти никому не уйти, {MARLE}. Рано или\nпоздно наш час пробьёт."
+    "translation": "{MARLE}: Как вы можете быть столь бессердечны?{WAIT_KEY}{LUCCA}: От смерти никому не уйти, {MARLE}. Рано или\nпоздно наш час пробьёт."
   },
   {
     "id": 12,
@@ -81,7 +81,7 @@
     "id": 13,
     "original_en": "Old Man: There's something—{WAIT_KEY}\nHave they all left already?",
     "original_fr": "Vieil homme : Vous avez...\nIls sont déj{TAG:3C} tous partis ?",
-    "translation": "Старик: Постойте же...{WAIT_KEY}\nОни что, уже ушли?"
+    "translation": "Старик: Постойте же...{WAIT_KEY}Они что, уже ушли?"
   },
   {
     "id": 14,
@@ -129,13 +129,13 @@
     "id": 21,
     "original_en": "King: What do you think of that, Chancellor?{WAIT_KEY}\nChancellor: If I may speak freely, Your Grace, I\nthink your daughter is quite clearly delusional.\n{CRONO}'s deeds have impacted the entire kingdom.",
     "original_fr": "Roi de Gardia : ätes-vous d'accord, chancelier ?{WAIT_KEY}\nChancelier : Non. Les actions de {CRONO} et de ses\ncompagnons ont beaucoup influencé le royaume.",
-    "translation": "Король: Что скажете на это, канцлер?{WAIT_KEY}\nКанцлер: С вашего позволения, Ваше Величество,\nпринцесса явно бредит. Поступки {CRONO} повлияли\nна всё королевство!"
+    "translation": "Король: Что скажете на это, канцлер?{WAIT_KEY}Канцлер: С вашего позволения, Ваше Величество,\nпринцесса явно бредит. Поступки {CRONO} повлияли\nна всё королевство!"
   },
   {
     "id": 22,
     "original_en": "King: Would you agree, Pierre?{WAIT_KEY}\nPierre: Hardly, Your Grace. Young {CRONO}'s actions\nhave impacted the whole kingdom.",
     "original_fr": "Roi de Gardia : ätes-vous d'accord, Pierre ?{WAIT_KEY}\nPierre : Non, Votre Majesté. Les actions de {CRONO}\net de ses compagnons ont beaucoup influencé le\nroyaume.",
-    "translation": "Король: Ты согласен, Пьер?{WAIT_KEY}\nПьер: Едва ли, Ваше Величество. Деяния {CRONO}\nвсколыхнули всё королевство!"
+    "translation": "Король: Ты согласен, Пьер?{WAIT_KEY}Пьер: Едва ли, Ваше Величество. Деяния {CRONO}\nвсколыхнули всё королевство!"
   },
   {
     "id": 23,
@@ -237,7 +237,7 @@
     "id": 39,
     "original_en": "Chancellor: Y-yes, Your Grace.{WAIT_KEY}\nKing Guardia XXXIII: Then you've reason to celebrate.\nThe victory is theirs. Your children, and theirs as\nwell, now live in a world with a brighter future.",
     "original_fr": "Chancelier : Euh, oui, Votre Majesté.{WAIT_KEY}\nRoi de Gardia : Alors, célébrez, vous aussi ! Le petit-fils\ndu petit-fils du petit-fils de votre petit-fils et tous ses\ndescendants vivront s{TAG:63}rement heureux !",
-    "translation": "Канцлер: Д-да, Ваше Величество.{WAIT_KEY}\nГардия XXXIII: Празднуйте же! Сия победа\nпринадлежит им. Ваши дети и их потомки будут\nжить в светлом и прекрасном мире!"
+    "translation": "Канцлер: Д-да, Ваше Величество.{WAIT_KEY}Гардия XXXIII: Празднуйте же! Сия победа\nпринадлежит им. Ваши дети и их потомки будут\nжить в светлом и прекрасном мире!"
   },
   {
     "id": 40,
@@ -261,7 +261,7 @@
     "id": 43,
     "original_en": "{MARLE}: Father!\nThe townspeople are acting strangely.{WAIT_KEY}\nKing: Calm down, Nadia. Where have you been?\nI see you've been hopping around dressed like\na human again.",
     "original_fr": "{MARLE} : Père ! Les villageois agissent bizarrement.{WAIT_KEY}\nRoi de Gardia : Où étais-tu passée, Marledia ? Arrête de\nt'amuser {TAG:3C} sautiller partout et calme-toi un peu. Ah, je\nvois que tu t'es encore déguisée en être humain...",
-    "translation": "{MARLE}: Отец! Горожане ведут себя очень странно.{WAIT_KEY}\nКороль: Успокойся, Надя. Где ты пропадала? Опять\nскачешь, вырядившись человеком?"
+    "translation": "{MARLE}: Отец! Горожане ведут себя очень странно.{WAIT_KEY}Король: Успокойся, Надя. Где ты пропадала? Опять\nскачешь, вырядившись человеком?"
   },
   {
     "id": 44,
@@ -357,7 +357,7 @@
     "id": 59,
     "original_en": "Lara: Oh, {CRONO}!\nThe King says you saved the future!{WAIT_KEY}\nTo think—my daughter's own best friend!\nWait till I tell my friends!",
     "original_fr": "Lara : Ah, {CRONO} ! Le roi a dit que tu as sauvé le\nFutur !{WAIT_KEY}\nDire que tu es l'ami d'enfance de {LUCCA} !\nQuand je vais raconter ça {TAG:3C} mes amies...!",
-    "translation": "Лара: О, {CRONO}! Король сказал, что ты спас\nбудущее!{WAIT_KEY}\nПодумать только — лучший друг моей дочери! Вот\nподруги обзавидуются!"
+    "translation": "Лара: О, {CRONO}! Король сказал, что ты спас\nбудущее!{WAIT_KEY}Подумать только — лучший друг моей дочери! Вот\nподруги обзавидуются!"
   },
   {
     "id": 60,
@@ -393,7 +393,7 @@
     "id": 65,
     "original_en": "Melchior: I don't suspect there will be much need\nfor weapons anymore. My days as a smith may be\nat an end.{WAIT_KEY}\nBut looking up at that beautiful sky, it's hard to\nbe worried about something like that.",
     "original_fr": "Bosch : Nous n'aurons peut-être plus besoin d'armes\ndans cette nouvelle ère.{WAIT_KEY}\nJe ne pourrai plus être Bosch, le forgeron, mais quand\nje regarde le ciel étoilé, cela n'a plus d'importance.",
-    "translation": "Мельхиор: Вряд ли людям ещё понадобится оружие.\nМоим дням в роли кузнеца настал конец.{WAIT_KEY}\nНо глядя на это звёздное небо, сложно печалиться\nо таких вещах."
+    "translation": "Мельхиор: Вряд ли людям ещё понадобится оружие.\nМоим дням в роли кузнеца настал конец.{WAIT_KEY}Но глядя на это звёздное небо, сложно печалиться\nо таких вещах."
   },
   {
     "id": 66,
@@ -435,7 +435,7 @@
     "id": 72,
     "original_en": "{MARLE}: You're my distant ancestor.\nSo you'd better have strong, healthy kids\nor I'll be in trouble!{WAIT_KEY}\nKino: Heh heh!\nNo worry.\n{AYLA} MUCH energy!{WAIT_KEY}\n{MARLE}: Yeah, she does!",
     "original_fr": "{MARLE} : Tu es mon ancêtre très lointain. J'espère\nque tu auras des enfants en bonne santé. Sinon, je\npourrais avoir des ennuis !{WAIT_KEY}\nKino : Hé, hé... Pas de problème ! {AYLA} avoir\nbeaucoup d'énergie !{WAIT_KEY}\n{MARLE} : Tu as raison !",
-    "translation": "{MARLE}: Ты моя далёкая прародительница. Так что\nрасти сильных и здоровых детей, иначе мне\nнесдобровать!{WAIT_KEY}\nКино: Хе-хе! Не бойся. {AYLA} ОЧЕНЬ сильная!{WAIT_KEY}\n{MARLE}: Уж в этом я не сомневаюсь!"
+    "translation": "{MARLE}: Ты моя далёкая прародительница. Так что\nрасти сильных и здоровых детей, иначе мне\nнесдобровать!{WAIT_KEY}Кино: Хе-хе! Не бойся. {AYLA} ОЧЕНЬ сильная!{WAIT_KEY}{MARLE}: Уж в этом я не сомневаюсь!"
   },
   {
     "id": 73,
@@ -453,7 +453,7 @@
     "id": 75,
     "original_en": "{FROG}: Exuberant folk. And to think,\nwe may all have descended from them!{WAIT_KEY}\nWell, Your Majesty, Queen Leene awaits.\nWe, too, should take our leave.",
     "original_fr": "{FROG} : Ils ont un caractère exubérant ! C'est un\npeu perturbant de se dire qu'ils sont peut-être nos\nancêtres...{WAIT_KEY}\nVenez, Votre Majesté. La reine Lynne vous attend.\nRentrons.",
-    "translation": "{FROG}: Буйный народец. Подумать только, мы все\nпроизошли от них!{WAIT_KEY}\nЧто ж, Ваше Высочество, королева Линн ждёт. Нам\nтоже пора откланяться."
+    "translation": "{FROG}: Буйный народец. Подумать только, мы все\nпроизошли от них!{WAIT_KEY}Что ж, Ваше Высочество, королева Линн ждёт. Нам\nтоже пора откланяться."
   },
   {
     "id": 76,
@@ -465,7 +465,7 @@
     "id": 77,
     "original_en": "{FROG}: ...{WAIT_KEY}\nI've always felt farewells were best kept brief.",
     "original_fr": "{FROG} : ...{WAIT_KEY}\nLes mots d'adieu les plus courts sont les meilleurs.",
-    "translation": "{FROG}: ...{WAIT_KEY}\nЯ всегда считал, что прощания должны быть\nкраткими."
+    "translation": "{FROG}: ...{WAIT_KEY}Я всегда считал, что прощания должны быть\nкраткими."
   },
   {
     "id": 78,
@@ -507,13 +507,13 @@
     "id": 84,
     "original_en": "{ROBO}: So, you realized.{WAIT_KEY}\n{MARLE}: Realized what?",
     "original_fr": "{ROBO} : Elle s'en est donc rendu compte.{WAIT_KEY}\n{MARLE} : Rendu compte de quoi ?",
-    "translation": "{ROBO}: Значит, ты поняла.{WAIT_KEY}\n{MARLE}: Что поняла?"
+    "translation": "{ROBO}: Значит, ты поняла.{WAIT_KEY}{MARLE}: Что поняла?"
   },
   {
     "id": 85,
     "original_en": "{LUCCA}: ...{WAIT_KEY}\n{ROBO} was born in a bleak future.\nWhen we defeated Lavos, we changed history.\nThe world will never be ruined now.{WAIT_KEY}\n{ROBO}...may not exist in the new future.",
     "original_fr": "{LUCCA} : ...{WAIT_KEY}\n{ROBO} a été fabriqué dans le Futur en ruine...\nCependant, puisque nous avons vaincu Lavos,\nnous avons changé l'histoire.{WAIT_KEY}\nBref, dans le nouveau Futur, il est possible que\n{ROBO}...",
-    "translation": "{LUCCA}: ...{WAIT_KEY}\n{ROBO} был рождён в мрачном будущем. Победив\nЛавоса, мы изменили историю. Теперь тот кошмар\nникогда не настанет.{WAIT_KEY}\nИ {ROBO}... может не оказаться в новом будущем."
+    "translation": "{LUCCA}: ...{WAIT_KEY}{ROBO} был рождён в мрачном будущем. Победив\nЛавоса, мы изменили историю. Теперь тот кошмар\nникогда не настанет.{WAIT_KEY}И {ROBO}... может не оказаться в новом будущем."
   },
   {
     "id": 86,
@@ -531,7 +531,7 @@
     "id": 88,
     "original_en": "{ROBO}: ...{WAIT_KEY}\nYou are the one who taught me to consider the\nfeelings of others in that manner, {LUCCA}.\nI am grateful for that.",
     "original_fr": "{ROBO} : ...{WAIT_KEY}\nTu m'as aussi appris comment être prévenant,\n{LUCCA}. Je te suis très reconnaissant.",
-    "translation": "{ROBO}: ...{WAIT_KEY}\nЭто ты научила меня понимать чувства других,\n{LUCCA}. Я бесконечно благодарен тебе за это."
+    "translation": "{ROBO}: ...{WAIT_KEY}Это ты научила меня понимать чувства других,\n{LUCCA}. Я бесконечно благодарен тебе за это."
   },
   {
     "id": 89,
@@ -645,7 +645,7 @@
     "id": 107,
     "original_en": "{LUCCA}: Yeah. I get the feeling that...entity is\nfinally at rest, too.{WAIT_KEY}\n{MARLE}: Yes, I feel it, too.",
     "original_fr": "{LUCCA} : On dirait que nous avons sauvé cette\nentité.{WAIT_KEY}\n{MARLE} : Oui, je le sens moi aussi. Son souffle...",
-    "translation": "{LUCCA}: Да. Мне кажется, та сущность наконец-то\nобрела вечный покой.{WAIT_KEY}\n{MARLE}: Да, я тоже это чувствую."
+    "translation": "{LUCCA}: Да. Мне кажется, та сущность наконец-то\nобрела вечный покой.{WAIT_KEY}{MARLE}: Да, я тоже это чувствую."
   },
   {
     "id": 108,
@@ -687,13 +687,13 @@
     "id": 114,
     "original_en": "{MARLE}: You're the man from the End of Time.{WAIT_KEY}\nGaspar: You left behind the Time Egg.\nThe Time Egg, you see, is...{WAIT_KEY}\nBlah, blah, blah...\nBlah, blah, blah...{GLYPH:407}\nBlah, blah, blah...\nBlah, blah, blah...{GLYPH:407}\nBlah, blah, blah...\nBlah, blah, blah...\n{GLYPH:405}06{GLYPH:406}Do you understand?",
     "original_fr": "{MARLE} : Le vieil homme de la Fin des temps...{WAIT_KEY}\nHasch : Vous avez oublié l'{TAG:61}uf de temps ! Il sert {TAG:3C}...{WAIT_KEY}\nBla, bla, bla...\nBla, bla, bla...{GLYPH:407}\nBla, bla, bla...\nBla, bla, bla...{GLYPH:407}\nBla, bla, bla...\nBla, bla, bla...{GLYPH:405}06{GLYPH:406}\nVoil{TAG:3C} tout.",
-    "translation": "{MARLE}: Вы тот старик с Конца Времён.{WAIT_KEY}\nГаспар: Вы оставили Яйцо Времени. Видите ли, Яйцо\nВремени...{WAIT_KEY}\nБла-бла-бла... Бла-бла-бла...{GLYPH:407}\nБла-бла-бла... Бла-бла-бла...{GLYPH:407}\nБла-бла-бла... Бла-бла-бла... {GLYPH:405}06{GLYPH:406}Вам всё понятно?"
+    "translation": "{MARLE}: Вы тот старик с Конца Времён.{WAIT_KEY}Гаспар: Вы оставили Яйцо Времени. Видите ли, Яйцо\nВремени...{WAIT_KEY}Бла-бла-бла... Бла-бла-бла...{GLYPH:407}Бла-бла-бла... Бла-бла-бла...{GLYPH:407}Бла-бла-бла... Бла-бла-бла... {GLYPH:405}06{GLYPH:406}Вам всё понятно?"
   },
   {
     "id": 115,
     "original_en": "{MARLE}: So, in other words...we can get\n{CRONO} back?{WAIT_KEY}\nGaspar: Yes, it is possible.",
     "original_fr": "{MARLE} : Vous voulez dire que nous pourrions\nrendre la vie {TAG:3C} {CRONO}...?{WAIT_KEY}\nHasch : Oui, c'est possible.",
-    "translation": "{MARLE}: Значит, иными словами... мы можем вернуть\n{CRONO}?{WAIT_KEY}\nГаспар: Да, это возможно."
+    "translation": "{MARLE}: Значит, иными словами... мы можем вернуть\n{CRONO}?{WAIT_KEY}Гаспар: Да, это возможно."
   },
   {
     "id": 116,
@@ -711,7 +711,7 @@
     "id": 118,
     "original_en": "{LUCCA}: Why don't you stay here with your dad?{WAIT_KEY}\n{MARLE}: But...{WAIT_KEY}\n{LUCCA}: Don't worry!\nI'll bring the big dummy back!",
     "original_fr": "{LUCCA} : Reste ici avec ton père.{WAIT_KEY}\n{MARLE} : Mais...{WAIT_KEY}\n{LUCCA} : Je ramènerai cet idiot de {CRONO} avec\nmoi sans faute !",
-    "translation": "{LUCCA}: Почему бы тебе не побыть с отцом?{WAIT_KEY}\n{MARLE}: Но...{WAIT_KEY}\n{LUCCA}: Не переживай! Я обязательно верну этого\nувальня!"
+    "translation": "{LUCCA}: Почему бы тебе не побыть с отцом?{WAIT_KEY}{MARLE}: Но...{WAIT_KEY}{LUCCA}: Не переживай! Я обязательно верну этого\nувальня!"
   },
   {
     "id": 119,
@@ -729,7 +729,7 @@
     "id": 121,
     "original_en": "{AYLA}: Give Time Egg!{WAIT_KEY}\nGaspar: How many times must I ask you to calm down?\nYou won't be able to bring him back if you're in such a\nrush.",
     "original_fr": "{AYLA} : Hasch donner {TAG:61}uf de temps {TAG:3C} {AYLA} !{WAIT_KEY}\nHasch : Un peu de calme ! Si tu te presses autant, tu ne\npourras pas lui rendre la vie.",
-    "translation": "{AYLA}: Отдать Яйцо Времени!{WAIT_KEY}\nГаспар: Сколько раз просить тебя успокоиться?\nЕсли будешь так спешить, вернуть его не удастся."
+    "translation": "{AYLA}: Отдать Яйцо Времени!{WAIT_KEY}Гаспар: Сколько раз просить тебя успокоиться?\nЕсли будешь так спешить, вернуть его не удастся."
   },
   {
     "id": 122,
@@ -753,7 +753,7 @@
     "id": 125,
     "original_en": "That Time Egg of his can revive him!{WAIT_KEY}\n{LUCCA}: Revive who?\nYou mean {CRONO}?",
     "original_fr": "L'{TAG:61}uf de temps qu'il détient permet de rendre la vie.{WAIT_KEY}\n{LUCCA} : Rendre la vie ? Â {CRONO} ?!",
-    "translation": "Его Яйцо Времени способно оживить его!{WAIT_KEY}\n{LUCCA}: Оживить кого? Ты про {CRONO}?"
+    "translation": "Его Яйцо Времени способно оживить его!{WAIT_KEY}{LUCCA}: Оживить кого? Ты про {CRONO}?"
   },
   {
     "id": 126,
@@ -771,7 +771,7 @@
     "id": 128,
     "original_en": "{MARLE}: They're gone.{WAIT_KEY}\n{LUCCA}: Could that have been...{FROG}?",
     "original_fr": "{MARLE} : Il est déj{TAG:3C} parti.{WAIT_KEY}\n{LUCCA} : Se pourrait-il que ce soit... {FROG} ?",
-    "translation": "{MARLE}: Они исчезли.{WAIT_KEY}\n{LUCCA}: Неужели это был... {FROG}?"
+    "translation": "{MARLE}: Они исчезли.{WAIT_KEY}{LUCCA}: Неужели это был... {FROG}?"
   },
   {
     "id": 129,
@@ -801,7 +801,7 @@
     "id": 133,
     "original_en": "{MARLE}: That's—{WAIT_KEY}\nKing: Nadia's Bell. A replacement for Leene's Bell,\nwhich has rung for the last four hundred years. \nHenceforth, Nadia's Bell will ring proudly instead.",
     "original_fr": "{MARLE} : Mais c'est...!{WAIT_KEY}\nRoi de Gardia : C'est la cloche de Marledia !{WAIT_KEY}\nElle remplacera la cloche de Lynne qui a veillé sur notre\nroyaume pendant 400 ans. Désormais, c'est la cloche de\nMarledia qui rythmera les jours paisibles de Gardia.",
-    "translation": "{MARLE}: Это же...{WAIT_KEY}\nКороль: Колокол Нади. Он заменит Колокол Линн,\nзвонивший целых четыреста лет. Отныне над\nземлями будет звучать Колокол Нади."
+    "translation": "{MARLE}: Это же...{WAIT_KEY}Король: Колокол Нади. Он заменит Колокол Линн,\nзвонивший целых четыреста лет. Отныне над\nземлями будет звучать Колокол Нади."
   },
   {
     "id": 134,
@@ -837,7 +837,7 @@
     "id": 139,
     "original_en": "Taban: Phew!\nMade it just in time!\nShall I fire a few off?{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\nKing: No, Taban, not now.\nActually, I could really use your—{GLYPH:405}08{GLYPH:406}{GLYPH:408}",
     "original_fr": "Taban : Votre Majesté ! Je suis arrivé {TAG:3C} temps !\nJe vais lancer un feu d'artifice !{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\nRoi de Gardia : Non, Taban. Je suis désolé, mais ce n'est\npas le moment...{GLYPH:405}08{GLYPH:406}{GLYPH:408}",
-    "translation": "Табан: Уф! Успел как раз вовремя! Запустить\nпарочку?{GLYPH:405}0c{GLYPH:406}{GLYPH:407}\nКороль: Нет, Табан, не сейчас. По правде говоря,\nмне бы очень пригодилась...{GLYPH:405}08{GLYPH:406}{GLYPH:408}"
+    "translation": "Табан: Уф! Успел как раз вовремя! Запустить\nпарочку?{GLYPH:405}0c{GLYPH:406}{GLYPH:407}Король: Нет, Табан, не сейчас. По правде говоря,\nмне бы очень пригодилась...{GLYPH:405}08{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 140,

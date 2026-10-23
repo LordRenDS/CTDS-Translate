@@ -99,7 +99,7 @@
     "id": 16,
     "original_en": "Oh, how many times do I have to tell that filthy...{WAIT_KEY}\nIf he won't quiet down, I'll quiet him down!\nOpen the door!",
     "original_fr": "J'ai dit {TAG:64} La ferme ! {TAG:65}, tu es sourd ou quoi ? Je vais te\nfaire taire, tu vas voir ! Ouvre la porte !",
-    "translation": "Сколько раз повторять этому паршивцу...{WAIT_KEY}\nНе хочет по-хорошему — живо успокою! Открывай\nдверь!"
+    "translation": "Сколько раз повторять этому паршивцу...{WAIT_KEY}Не хочет по-хорошему — живо успокою! Открывай\nдверь!"
   },
   {
     "id": 17,
@@ -231,7 +231,7 @@
     "id": 38,
     "original_en": "{LUCCA}: This is what happens to fools who\nstand in the way of the mighty {LUCCA}!{WAIT_KEY}\n{GLYPH:384}\nHa ha ha ha!",
     "original_fr": "{LUCCA} : Voil{TAG:3C} ce qui arrive aux idiots qui font\nobstacle {TAG:3C} {LUCCA}, la grande inventrice !{WAIT_KEY}{GLYPH:384}\n\nHo, ho, ho, ho, ho !",
-    "translation": "{LUCCA}: Вот что ждёт глупцов, когда на их пути\nвстаёт великая {LUCCA}!{WAIT_KEY}\n{GLYPH:384} Ха-ха-ха-ха!"
+    "translation": "{LUCCA}: Вот что ждёт глупцов, когда на их пути\nвстаёт великая {LUCCA}!{WAIT_KEY}{GLYPH:384} Ха-ха-ха-ха!"
   },
   {
     "id": 39,
@@ -267,7 +267,7 @@
     "id": 44,
     "original_en": "{TAG:38}{TAG:38}{TAG:38}{TAG:38}  Dragon Tank Design Specifications\n\n{TAG:38}{TAG:7F}Attention: Warden of the Guardia Castle Prisons{WAIT_KEY}\nThe head of the tank is equipped with the capacity\nto repair damage done to the body—an ingenious\nmarvel of engineering.{WAIT_KEY}\nThe head has also been enhanced with a shield to\nprevent damage by lightning and fire, leaving it\nvulnerable only to attacks with weapons such as\nswords and pistols.{WAIT_KEY}\nIn short, your tank should be effectively invincible,\nprovided no crazed lunatic gets the bright idea to\nrun up and try to hack away at its head with a sword.\n{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}   Guardia Royal Arms Commission",
     "original_fr": "Â l'attention du geôlier de la prison royale de Gardia :\n\nPlans du dragon d'assaut{WAIT_KEY}\nLa tête du dragon d'assaut est munie d'un dispositif qui\nrépare les dég{TAG:4A}ts infligés au reste du corps.{WAIT_KEY}\nTant qu'elle est en état de marche, le dragon peut donc\nêtre considéré comme invincible.{WAIT_KEY}\nUn bouclier spécial la protège du feu et des foudres du\nciel, mais elle reste néanmoins vulnérable aux attaques\nphysiques.\n   - Atelier royal du génie militaire de Gardia",
-    "translation": "{TAG:38}{TAG:38}{TAG:38}{TAG:38} Чертежи Дракона-танка {TAG:38}{TAG:7F}Начальнику тюрьмы\nзамка Гардия{WAIT_KEY}\nГолова танка чинит повреждения корпуса — чудо\nинженерной мысли.{WAIT_KEY}\nОна защищена от молнии и огня, но уязвима к\nатакам холодным оружием.{WAIT_KEY}\nТанк неуязвим, если только безумец не\nдодумается рубить саблей его башню. {TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38} Королевский\nарсенал Гардии"
+    "translation": "{TAG:38}{TAG:38}{TAG:38}{TAG:38} Чертежи Дракона-танка {TAG:38}{TAG:7F}Начальнику тюрьмы\nзамка Гардия{WAIT_KEY}Голова танка чинит повреждения корпуса — чудо\nинженерной мысли.{WAIT_KEY}Она защищена от молнии и огня, но уязвима к\nатакам холодным оружием.{WAIT_KEY}Танк неуязвим, если только безумец не\nдодумается рубить саблей его башню. {TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38}{TAG:38} Королевский\nарсенал Гардии"
   },
   {
     "id": 45,
@@ -279,7 +279,7 @@
     "id": 46,
     "original_en": "Thank you. That was close!{WAIT_KEY}\nI'm Fritz. My father runs the market in Truce.\nStop by if you're ever in the area!",
     "original_fr": "Je vous remercie de m'avoir sauvé la vie !\nJe m'appelle Fritz.{WAIT_KEY}\nMon père tient le magasin de Truce. Venez me rendre\nvisite si vous en avez l'occasion !",
-    "translation": "Спасибо! Это было на волосок от гибели!{WAIT_KEY}\nЯ — Фриц. Мой отец держит лавку в Трусе.\nЗагляните к нам, если будете поблизости!"
+    "translation": "Спасибо! Это было на волосок от гибели!{WAIT_KEY}Я — Фриц. Мой отец держит лавку в Трусе.\nЗагляните к нам, если будете поблизости!"
   },
   {
     "id": 47,
@@ -387,7 +387,7 @@
     "id": 64,
     "original_en": "Commander: Food! He's brought us food!{WAIT_KEY}\nIt was my brother?\nI see. He's saved us all.",
     "original_fr": "Capitaine : Des vivres ?!{WAIT_KEY}\nJe vois, il m'a pardonné...",
-    "translation": "Капитан: Еда! Он принёс нам еду!{WAIT_KEY}\nЭто от брата? Понятно. Он спас всех нас."
+    "translation": "Капитан: Еда! Он принёс нам еду!{WAIT_KEY}Это от брата? Понятно. Он спас всех нас."
   },
   {
     "id": 65,
@@ -459,7 +459,7 @@
     "id": 76,
     "original_en": "Commander: You have my most profound gratitude.\nThe Fiendlord's troops are positioned just beyond\nthe bridge.{WAIT_KEY}\nTake this with you.\nMay it keep you safe!",
     "original_fr": "Capitaine : Je vous remercie ! L'armée du Magistère est\nde l'autre côté du pont. Tenez, ceci devrait vous être\nutile !",
-    "translation": "Капитан: Моя глубочайшая благодарность. Войска\nдемонов засели на том конце моста.{WAIT_KEY}\nВозьмите это с собой. Пусть оно сбережёт вам\nжизнь!"
+    "translation": "Капитан: Моя глубочайшая благодарность. Войска\nдемонов засели на том конце моста.{WAIT_KEY}Возьмите это с собой. Пусть оно сбережёт вам\nжизнь!"
   },
   {
     "id": 77,
@@ -717,7 +717,7 @@
     "id": 119,
     "original_en": "Melchior: ...{WAIT_KEY}\nThat...is a very long story.",
     "original_fr": "Bosch : ...{WAIT_KEY}\nC'est... une longue histoire...",
-    "translation": "Мельхиор: ...{WAIT_KEY}\nЭто... очень долгая история."
+    "translation": "Мельхиор: ...{WAIT_KEY}Это... очень долгая история."
   },
   {
     "id": 120,
@@ -771,7 +771,7 @@
     "id": 128,
     "original_en": "Melchior: It's nowhere to be found anymore.\nIt was a glittering red stone, once valued even\nmore than gold.{WAIT_KEY}\nUnfortunately, that was long, long ago.\nLonger even than you could imagine...",
     "original_fr": "Bosch : Je doute que vous puissiez en trouver. C'était\nune pierre rouge brillante autrefois plus précieuse que\nl'or.{WAIT_KEY}\nMais c'était il y a très, très longtemps... Plus longtemps\nque vous ne pourriez vous l'imaginer.",
-    "translation": "Мельхиор: Его нынче нигде не сыскать. Это был\nсияющий красный камень, ценившийся дороже\nзолота.{WAIT_KEY}\nУвы, это было давным-давно. Намного раньше, чем\nвы можете вообразить..."
+    "translation": "Мельхиор: Его нынче нигде не сыскать. Это был\nсияющий красный камень, ценившийся дороже\nзолота.{WAIT_KEY}Увы, это было давным-давно. Намного раньше, чем\nвы можете вообразить..."
   },
   {
     "id": 129,
@@ -885,7 +885,7 @@
     "id": 147,
     "original_en": "Melchior: Of course, the dreamstone must be\nrefined if we are to repair the Masamune.\nBut that is not all. The blade itself must\nbe activated as well.{WAIT_KEY}\nYou work on the dreamstone.\nI will take care of the sword.",
     "original_fr": "Bosch : Pour restaurer Grandléon, il sera non seulement\nnécessaire d'affiner la pierre onirique, mais aussi de\nrendre vie {TAG:3C} l'épée elle-même.{WAIT_KEY}\nAffine la pierre pour moi et je m'occuperai du reste.",
-    "translation": "Мельхиор: Чтобы починить Масамунэ, нужно\nобработать камень снов. Но мало того: надо\nпробудить сам клинок.{WAIT_KEY}\nЗаймитесь камнем снов. А я позабочусь о мече."
+    "translation": "Мельхиор: Чтобы починить Масамунэ, нужно\nобработать камень снов. Но мало того: надо\nпробудить сам клинок.{WAIT_KEY}Займитесь камнем снов. А я позабочусь о мече."
   },
   {
     "id": 148,
@@ -1089,7 +1089,7 @@
     "id": 181,
     "original_en": "No room here for humans. \nScat!\n{TAG:38}{TAG:38}{GLYPH:394}Give up.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Plead.{GLYPH:397}",
     "original_fr": "On n'a pas de chambres pour les humains !\nDu vent !\n       {GLYPH:394}Abandonner{GLYPH:395}\n       {GLYPH:396}Supplier{GLYPH:397}",
-    "translation": "Для людей\nкомнат нет. Брысь!\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
+    "translation": "Для людей комнат нет. Брысь!\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
   },
   {
     "id": 182,
@@ -1101,7 +1101,7 @@
     "id": 183,
     "original_en": "200 G for the night.\nWant me to put you up?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 200 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "200 золотых за\nночь. Пустить переночевать?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "200 золотых за ночь. Пустить переночевать?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 184,
@@ -1125,7 +1125,7 @@
     "id": 187,
     "original_en": "I got nothing to sell to humans.\nGet out of here!\n{TAG:38}{TAG:38}{GLYPH:394}Give up.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Plead.{GLYPH:397}",
     "original_fr": "Je n'ai rien {TAG:3C} vendre {TAG:3C} des humains.\nDu vent !\n       {GLYPH:394}Abandonner{GLYPH:395}\n       {GLYPH:396}Supplier{GLYPH:397}",
-    "translation": "Мне нечего\nпродавать людям. Проваливайте!\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
+    "translation": "Мне нечего продавать людям. Проваливайте!\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
   },
   {
     "id": 188,
@@ -1203,7 +1203,7 @@
     "id": 200,
     "original_en": "A fearsome beast lives in the cave on the mountain\nto the west. Only magic can harm it. I doubt a human\nwould be able to make it through, not being able to\nuse magic and all.{WAIT_KEY}\nWell, I better get back to tidying up before Ozzie\nVIII catches me!",
     "original_fr": "Une créature habite dans les grottes de la montagne\n{TAG:3C} l'ouest. Seules les attaques magiques peuvent lui\ninfliger des dég{TAG:4A}ts.{WAIT_KEY}\nCeux qui ne peuvent pas utiliser la magie auraient du mal\n{TAG:3C} traverser ces grottes.{WAIT_KEY}\nBon, je dois terminer le ménage avant que Vinnie VIII ne\nme trouve.",
-    "translation": "В пещере на западной горе живёт страшный зверь.\nЛишь магия ранит его. Человеку там не пройти — вы\nведь магией не владеете.{WAIT_KEY}\nЛадно, пойду приберусь, пока Оззи VIII меня не\nзастукал!"
+    "translation": "В пещере на западной горе живёт страшный зверь.\nЛишь магия ранит его. Человеку там не пройти — вы\nведь магией не владеете.{WAIT_KEY}Ладно, пойду приберусь, пока Оззи VIII меня не\nзастукал!"
   },
   {
     "id": 201,
@@ -1221,7 +1221,7 @@
     "id": 203,
     "original_en": "Oh, great Ozzie...{WAIT_KEY}\nHmph!",
     "original_fr": "Ah ! Vinnie, notre seigneur !{WAIT_KEY}\n... Pfft !",
-    "translation": "О, великий Оззи...{WAIT_KEY}\nТьфу!"
+    "translation": "О, великий Оззи...{WAIT_KEY}Тьфу!"
   },
   {
     "id": 204,
@@ -1281,7 +1281,7 @@
     "id": 213,
     "original_en": "I'm Ozzie VIII, the leader of this village.\nMy great-great-great-great-great-grandfather\nfought against the humans at the side of the\nFiendlord himself.{WAIT_KEY}\nOh, great Fiendlord... Why didn't you exterminate\nthe human race four centuries ago when you had\nthe chance?",
     "original_fr": "Je suis Vinnie VIII, le maire du village de Médina !\nMon ancêtre a combattu les humains et était le\nbras droit du Magistère {MAGUS}.{WAIT_KEY}\nAh, pourquoi notre seigneur n'a-t-il pas exterminé les\nhumains il y a 400 ans ?",
-    "translation": "Я Оззи VIII, глава этой деревни. Мой\nпра-пра-пра-пра-прадед сражался с людьми бок о\nбок с самим Владыкой демонов.{WAIT_KEY}\nО великий Владыка... Почему вы не уничтожили\nлюдской род четыре века назад, когда был шанс?"
+    "translation": "Я Оззи VIII, глава этой деревни. Мой\nпра-пра-пра-пра-прадед сражался с людьми бок о\nбок с самим Владыкой демонов.{WAIT_KEY}О великий Владыка... Почему вы не уничтожили\nлюдской род четыре века назад, когда был шанс?"
   },
   {
     "id": 214,
@@ -1293,7 +1293,7 @@
     "id": 215,
     "original_en": "Ozzie VIII: Yes, sir! I'm scrubbing as hard as I can!\nI'm not slacking off, I swear!{WAIT_KEY}\n*sniffle*\nWhy's he gotta be so mean?",
     "original_fr": "Vinnie VIII : Oui, je nettoie de mon mieux ! Je travaille\ndur, c'est vrai !{WAIT_KEY}\n... Snif ! Il n'y a pas besoin de me tourmenter ainsi...",
-    "translation": "Оззи VIII: Слушаюсь, сэр! Я тру изо всех сил! Я не\nленюсь, честное слово!{WAIT_KEY}\n*всхлип* И чего он вечно такой злой?"
+    "translation": "Оззи VIII: Слушаюсь, сэр! Я тру изо всех сил! Я не\nленюсь, честное слово!{WAIT_KEY}*всхлип* И чего он вечно такой злой?"
   },
   {
     "id": 216,

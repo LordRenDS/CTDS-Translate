@@ -3,7 +3,7 @@
     "id": 0,
     "original_en": "Man: Welcome to the Arena of the Ages!{WAIT_KEY}\nThis coliseum hosts battles between monsters\nfrom all across time. I'm the stable master.",
     "original_fr": "??? : Bienvenue {TAG:3C} l'arène, l'endroit où se rassemblent\ndes gens de différentes époques pour faire combattre\ndes monstres. Je suis un instructeur.",
-    "translation": "Мужчина: Добро пожаловать на Арену Веков!{WAIT_KEY}\nВ этом колизее бьются монстры со всех эпох. А я —\nсмотритель стойл."
+    "translation": "Мужчина: Добро пожаловать на Арену Веков!{WAIT_KEY}В этом колизее бьются монстры со всех эпох. А я —\nсмотритель стойл."
   },
   {
     "id": 1,
@@ -15,7 +15,7 @@
     "id": 2,
     "original_en": "Stable Master: These are the monster stables.\nWe raise 'em up strong here. Even monsters need\ntraining if they want to be tough!{WAIT_KEY}\nWhat do we train 'em for, you ask?\nWhy, for fighting, of course!\nThen we set 'em against each other in the Pit.",
     "original_fr": "Instructeur : Dans l'arène, vous pouvez entra¡ner des\nmonstres et les rendre puissants !{WAIT_KEY}\nDans quel but ? Mais pour les faire combattre d'autres\nmonstres, pardi !",
-    "translation": "Смотритель: Это стойла монстров. Мы растим их\nсильными. Даже чудищам нужны тренировки, чтобы\nстать грозными бойцами!{WAIT_KEY}\nДля чего мы их растим, спросите вы? Да для битв,\nсамо собой! Затем мы стравливаем их в Бойцовской\nяме."
+    "translation": "Смотритель: Это стойла монстров. Мы растим их\nсильными. Даже чудищам нужны тренировки, чтобы\nстать грозными бойцами!{WAIT_KEY}Для чего мы их растим, спросите вы? Да для битв,\nсамо собой! Затем мы стравливаем их в Бойцовской\nяме."
   },
   {
     "id": 3,
@@ -27,19 +27,19 @@
     "id": 4,
     "original_en": "There are a lot of specialized items that we use for\ntraining and battling beasts, and he deals in the tools\nof the trade. You'll want to talk to him later on.{WAIT_KEY}\nWell, that's the meat and bones of it.\nYou'll catch on quick, don't you worry.{WAIT_KEY}\nOh, one more thing, though—this is important.",
     "original_fr": "Il vous faudra des objets spéciaux pour entra¡ner ou\nfaire combattre un monstre. Vous devriez aller jeter un\ncoup d'{TAG:61}il {TAG:3C} ses marchandises plus tard.{WAIT_KEY}\nAlors, vous avez compris ? Bah, vous vous y habituerez\nbien assez vite.{WAIT_KEY}\nAh oui ! Il y a quelque chose que vous ne devez pas\noublier.",
-    "translation": "Для тренировок и битв нужно немало особых вещей,\nа он как раз торгует всем необходимым.\nОбязательно загляните к нему позже.{WAIT_KEY}\nНу вот, в общих чертах как-то так. Не переживайте,\nбыстро освоитесь.{WAIT_KEY}\nА, и ещё кое-что... Это важно."
+    "translation": "Для тренировок и битв нужно немало особых вещей,\nа он как раз торгует всем необходимым.\nОбязательно загляните к нему позже.{WAIT_KEY}Ну вот, в общих чертах как-то так. Не переживайте,\nбыстро освоитесь.{WAIT_KEY}А, и ещё кое-что... Это важно."
   },
   {
     "id": 5,
     "original_en": "Stable Master: One of them learn-by-doing types, eh?\nWell, you've got me here if you need anything.\nYou should be all right.{WAIT_KEY}\nOh, but there is one more thing I should tell you.",
     "original_fr": "Instructeur : Vous préférez apprendre sur le tas,\nc'est ça ? Bah, je suis l{TAG:3C} pour vous aider.\nVous devriez pouvoir vous débrouiller.{WAIT_KEY}\nToutefois, il y a quelque chose que vous ne devez pas\noublier.",
-    "translation": "Смотритель: Из тех, кто учится на деле, а? Что ж,\nесли что понадобится — я здесь. Не пропадёте.{WAIT_KEY}\nНо я должен сказать вам ещё кое-что."
+    "translation": "Смотритель: Из тех, кто учится на деле, а? Что ж,\nесли что понадобится — я здесь. Не пропадёте.{WAIT_KEY}Но я должен сказать вам ещё кое-что."
   },
   {
     "id": 6,
     "original_en": "Stable Master: Got the itch to raise yourself a\nmonster, eh?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : Vous voulez essayer d'élever un monstre,\nn'est-ce pas ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Зачесались\nруки вырастить монстра?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Зачесались руки вырастить монстра?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 7,
@@ -99,7 +99,7 @@
     "id": 16,
     "original_en": "Stable Master: Your monster's safely on its way.\nI take it you'll be off again as well?{WAIT_KEY}\nYour little darling should return before too long.\nGive it some time and then check back.",
     "original_fr": "Instructeur : Votre monstre a l'air d'être parti sans\nproblème. Allez-vous retourner {TAG:3C} votre aventure ?{WAIT_KEY}\nRevenez un peu plus tard, il sera sans doute rentré.",
-    "translation": "Смотритель: Ваш монстр уже в пути. Полагаю, вы\nтоже ненадолго отлучитесь?{WAIT_KEY}\nВаш любимец вернётся довольно скоро. Дайте ему\nвремя и загляните позже."
+    "translation": "Смотритель: Ваш монстр уже в пути. Полагаю, вы\nтоже ненадолго отлучитесь?{WAIT_KEY}Ваш любимец вернётся довольно скоро. Дайте ему\nвремя и загляните позже."
   },
   {
     "id": 17,
@@ -123,13 +123,13 @@
     "id": 20,
     "original_en": "Pit Boss: This must be your first time, no?\nThis is the Pit, where monsters put their training\nto the test.{WAIT_KEY}\nWant to see how strong the one you've raised is?{WAIT_KEY}\nYou can let it fight another one of our monsters\nin a prize match, or set it against an opponent's\nmonster in an interdimensional battle via DS Wireless\nCommunications.",
     "original_fr": "Employé de l'arène : C'est votre première visite ?\nBienvenue {TAG:3C} l'arène, l'endroit où les monstres\ns'affrontent en duel !{WAIT_KEY}\nVous pouvez y mesurer la force de votre monstre !{WAIT_KEY}\nIl existe deux types de batailles. Vous pouvez lui faire\ncombattre les monstres enregistrés {TAG:3C} l'arène dans un\ntournoi.{WAIT_KEY}\nVous pouvez aussi combattre les monstres d'autres\njoueurs gr{TAG:4A}ce {TAG:3C} la communication sans fil !",
-    "translation": "Распорядитель: Вы здесь впервые, верно? Это\nБойцовская яма, где чудища проверяют силы в\nнастоящем бою.{WAIT_KEY}\nХотите узнать, насколько силён питомец?{WAIT_KEY}\nВы можете выставить его в призовом матче или\nсразиться с другим игроком в битве по\nбеспроводной связи DS."
+    "translation": "Распорядитель: Вы здесь впервые, верно? Это\nБойцовская яма, где чудища проверяют силы в\nнастоящем бою.{WAIT_KEY}Хотите узнать, насколько силён питомец?{WAIT_KEY}Вы можете выставить его в призовом матче или\nсразиться с другим игроком в битве по\nбеспроводной связи DS."
   },
   {
     "id": 21,
     "original_en": "Pit Boss: What do you say?\nWant to enter a monster battle?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Employé de l'arène : Voulez-vous prendre part {TAG:3C} une\nbataille ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Распорядитель: Хотите выставить\nмонстра на бой?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Распорядитель: Хотите выставить монстра на бой?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 22,
@@ -141,7 +141,7 @@
     "id": 23,
     "original_en": "Pit Boss: Excellent! Just select a tier and I'll sign\nyou up.{WAIT_KEY}\nHigher tiered battles have higher entrance fees and\noffer better prizes, but the entrants are usually\nstronger. Which tier would you like to compete in?",
     "original_fr": "Employé de l'arène : Choisissez avec soin le niveau de la\nbataille {TAG:3C} laquelle vous voulez prendre part. Des frais\nde participation s'appliquent.{WAIT_KEY}\nPlus le niveau est élevé, plus les récompenses en valent\nla peine, mais votre adversaire sera évidemment plus\nféroce !",
-    "translation": "Распорядитель: Отлично! Выберите разряд, и я вас\nзапишу.{WAIT_KEY}\nВ высших разрядах плата выше и призы ценнее, но\nи соперники куда сильнее. В каком разряде\nжелаете сразиться?"
+    "translation": "Распорядитель: Отлично! Выберите разряд, и я вас\nзапишу.{WAIT_KEY}В высших разрядах плата выше и призы ценнее, но\nи соперники куда сильнее. В каком разряде\nжелаете сразиться?"
   },
   {
     "id": 24,
@@ -183,7 +183,7 @@
     "id": 30,
     "original_en": "Stable Master: Oh... But if you came from somewhere\nother than the End of Time, we can't have you keeping\nrecords of this place, now can we?{WAIT_KEY}\nTell you what. If you came here from somewhere else,\nI'll add a note of what happened here to the last\nrecord you made, whenever and wherever that was.{WAIT_KEY}\nThat would be more convenient for you anyway,\nwouldn't it?\n",
     "original_fr": "Instructeur : Cependant, si vous venez d'ailleurs, je ne\npeux pas vous dire l'emplacement de l'arène...{WAIT_KEY}\nVous oublierez tout ce qui s'est passé ici {TAG:3C} l'instant\nmême où vous sortirez.{WAIT_KEY}\nVous ne voulez pas que ça se produise ? Eh bien,\nsauvegardez votre aventure avant de partir.\nJe vais enregistrer vos souvenirs dans votre\nsauvegarde la plus récente.{WAIT_KEY}\nC'est très avantageux pour vous, n'est-ce pas ?",
-    "translation": "Смотритель: Ох... Если вы пришли не из Конца\nВремён, записать здешние дела не выйдет,{WAIT_KEY}\nне так ли? Но если вы явились откуда-то ещё, я\nвнесу отметку в вашу прошлую запись,{WAIT_KEY}\nгде бы и когда бы она ни была сделана. Так ведь\nвам будет куда удобнее, правда?"
+    "translation": "Смотритель: Ох... Если вы пришли не из Конца\nВремён, записать здешние дела не выйдет,{WAIT_KEY}не так ли? Но если вы явились откуда-то ещё, я\nвнесу отметку в вашу прошлую запись,{WAIT_KEY}где бы и когда бы она ни была сделана. Так ведь\nвам будет куда удобнее, правда?"
   },
   {
     "id": 31,
@@ -231,25 +231,25 @@
     "id": 38,
     "original_en": "{GLYPH:384}\nMonster trainer's starter kit!{WAIT_KEY}{GLYPH:384}\nObtained Slops, Flameclaw, Seafang,\nDuskeye, Luxwing, Hawk Talon,\nShield Cloak, and Feral Wrath!",
     "original_fr": "{GLYPH:384}\nVous obtenez un assortiment d'objets de l'arène !{WAIT_KEY}{GLYPH:384}\nIl contient un sachet de p{TAG:4A}ture, une griffe ardente,\nun croc aqueux, un {TAG:61}il ténébreux, une aile lumineuse,\ndes serres d'aigle, une cape protectrice\net une fiole de force sauvage.",
-    "translation": "{GLYPH:384} Набор начинающего тренера монстров!{WAIT_KEY}\n{GLYPH:384} Получено: Помои, Коготь пламени, Клык глубин, Око\nтьмы, Крыло света, Коготь ястреба, Плащ щита и\nДикая ярость!"
+    "translation": "{GLYPH:384} Набор начинающего тренера монстров!{WAIT_KEY}{GLYPH:384} Получено: Помои, Коготь пламени, Клык глубин, Око\nтьмы, Крыло света, Коготь ястреба, Плащ щита и\nДикая ярость!"
   },
   {
     "id": 39,
     "original_en": "Stable Master: The items in that starter kit are things\nyou'll need while you're raising that monster.{WAIT_KEY}\nFor instance, you'll need to give your monster an item\nto carry with it when you send it off for training.\nThe one you give it will determine the outcome of its\nefforts.{WAIT_KEY}\nYou can also pass items to your monster during duels\nin the Pit. You know—help the critter out.{WAIT_KEY}\nIf you run out, you can buy more from the merchant\nover there. Best to stock up in advance, though!{WAIT_KEY}\nOh, and I suppose I should explain a bit about training,\ntoo.{WAIT_KEY}\nIf you decide to send your monster out for training,\nyou'll have to choose an era. Sending it to different\neras will cause it to grow in different ways.{WAIT_KEY}\nOf course, you can only send it to time periods that\nyou've already visited. So if you want your monster\nto progress in its training, you'd best progress\nwith your quest!",
     "original_fr": "Instructeur : Ces objets sont essentiels pour l'élevage\nde monstres.{WAIT_KEY}\nPar exemple, donnez-en un {TAG:3C} votre monstre quand il\npart s'entra¡ner. Les résultats de son entra¡nement\nvarieront selon celui que vous avez choisi.{WAIT_KEY}\nEn outre, vous pouvez aussi en donner {TAG:3C} votre monstre\npendant une bataille pour l'aider.{WAIT_KEY}\nSi vous voulez vous procurer plus d'objets, achetez-en\n{TAG:3C} la boutique du gnu.{WAIT_KEY}\nAh, laissez-moi maintenant vous parler un peu plus de\nl'entra¡nement de votre monstre.{WAIT_KEY}\nVous devrez également choisir l'époque où il ira\ns'entra¡ner. Ce choix influe aussi sur l'évolution\nde ses caractéristiques.{WAIT_KEY}\nCependant, vous ne pouvez choisir que parmi les\népoques que vous avez vous-même visitées, ce qui\nveut dire que de nouvelles options d'entra¡nement\nvous seront offertes au cours de votre aventure.",
-    "translation": "Смотритель: Вещи из набора понадобятся вам для\nвоспитания вашего питомца.{WAIT_KEY}\nСнаряжая монстра на тренировку, дайте ему с\nсобой предмет. От этого зависят его успехи.{WAIT_KEY}\nТакже предметы можно передавать монстру в\nдуэлях в Яме — чтобы помочь малышу.{WAIT_KEY}\nЕсли припасы иссякнут, купите ещё у торговца.\nХотя лучше запастись впрок заранее!{WAIT_KEY}\nИ мне стоит рассказать о самих тренировках.{WAIT_KEY}\nОтправляя монстра, вы должны выбрать эпоху. В\nразных временах он растёт по-разному.{WAIT_KEY}\nПослать его можно лишь в знакомые вам эпохи.\nХотите вырастить чемпиона — странствуйте\nдальше!"
+    "translation": "Смотритель: Вещи из набора понадобятся вам для\nвоспитания вашего питомца.{WAIT_KEY}Снаряжая монстра на тренировку, дайте ему с\nсобой предмет. От этого зависят его успехи.{WAIT_KEY}Также предметы можно передавать монстру в\nдуэлях в Яме — чтобы помочь малышу.{WAIT_KEY}Если припасы иссякнут, купите ещё у торговца.\nХотя лучше запастись впрок заранее!{WAIT_KEY}И мне стоит рассказать о самих тренировках.{WAIT_KEY}Отправляя монстра, вы должны выбрать эпоху. В\nразных временах он растёт по-разному.{WAIT_KEY}Послать его можно лишь в знакомые вам эпохи.\nХотите вырастить чемпиона — странствуйте\nдальше!"
   },
   {
     "id": 40,
     "original_en": "Stable Master: That orange one's got fire affinity.\nBlue, water affinity. Yellow, light.\nAnd purple, shadow.{WAIT_KEY}\nThey're just smidges, now—itsy-bitsy monsters.\nBut go on, take your pick!",
     "original_fr": "Instructeur : Elles ont chacune une affinité élémentaire\ndifférente suivant leur couleur. Rouge pour le feu,\nbleu pour l'eau, jaune pour la lumière et violet pour\nles ténèbres.{WAIT_KEY}\nCe ne sont encore que des larves, mais elles ont du\npotentiel. Allez, faites votre choix.",
-    "translation": "Смотритель: Тот оранжевый — стихия огня. Синий —\nстихия воды. Жёлтый — света. А фиолетовый —\nстихия тьмы.{WAIT_KEY}\nПока они лишь крохи, совсем крохотные чудища. Но\nдавайте же, выбирайте любого!"
+    "translation": "Смотритель: Тот оранжевый — стихия огня. Синий —\nстихия воды. Жёлтый — света. А фиолетовый —\nстихия тьмы.{WAIT_KEY}Пока они лишь крохи, совсем крохотные чудища. Но\nдавайте же, выбирайте любого!"
   },
   {
     "id": 41,
     "original_en": "Time flows a little differently here.\nMight call it a different dimension altogether.{WAIT_KEY}\nIf you came from the End of Time, that old man can\nprobably keep things straight for you. But if you\ncame from anywhere else, everything that happened\nhere will be washed away the second you leave.{WAIT_KEY}\nIf you don't want that to happen, you'd best save\nyour progress over there before you go.",
     "original_fr": "L'arène est dans une dimension différente de la vôtre\net le flot du temps n'est pas exactement le même.{WAIT_KEY}\nSi vous avez atteint cet endroit en passant par la Fin\ndes temps, vous pourrez y retourner sans problème\ngr{TAG:4A}ce aux talents du vieil homme qui y réside.{WAIT_KEY}\nVous pouvez aussi sauvegarder votre partie ici.",
-    "translation": "Время здесь течёт совсем по-другому. Можно\nсказать, это вовсе иное измерение.{WAIT_KEY}\nЕсли вы пришли из Конца Времён, старик сохранит\nвсё. Но если из другого места, всё исчезнет,{WAIT_KEY}\nстоит вам только покинуть здешний покой. Так что\nобязательно сохранитесь перед уходом."
+    "translation": "Время здесь течёт совсем по-другому. Можно\nсказать, это вовсе иное измерение.{WAIT_KEY}Если вы пришли из Конца Времён, старик сохранит\nвсё. Но если из другого места, всё исчезнет,{WAIT_KEY}стоит вам только покинуть здешний покой. Так что\nобязательно сохранитесь перед уходом."
   },
   {
     "id": 42,
@@ -303,19 +303,19 @@
     "id": 50,
     "original_en": "Stable Master: Oh, hello there!\nWe're doing some maintenance here, unfortunately.\nThe facilities are closed at the moment.{WAIT_KEY}\nThings should be back to normal before too long,\nbut why don't you take care of any other business\nyou have in the meantime?",
     "original_fr": "Instructeur : Bienvenue {TAG:3C} l'arène... Euh...{WAIT_KEY}\nVoil{TAG:3C} qui est un peu embarrassant... Â vrai dire, l'arène\nest actuellement fermée. Nous rouvrirons bientôt, mais\npour l'instant, retournez {TAG:3C} votre aventure.",
-    "translation": "Смотритель: О, приветствую! К сожалению, у нас\nсейчас уборка и ремонт. Стойла временно закрыты.{WAIT_KEY}\nСкоро всё вернётся на круги своя, а пока займитесь\nдругими делами."
+    "translation": "Смотритель: О, приветствую! К сожалению, у нас\nсейчас уборка и ремонт. Стойла временно закрыты.{WAIT_KEY}Скоро всё вернётся на круги своя, а пока займитесь\nдругими делами."
   },
   {
     "id": 51,
     "original_en": "Man: Oh, is this your first visit?\nWelcome to the Arena of the Ages!{WAIT_KEY}\nThis coliseum hosts battles between monsters\nfrom all across time. Unfortunately, we're doing\nsome maintenance now. The facilities are closed.{WAIT_KEY}\nThings should be back to normal before too long,\nso why don't you take care of any other business\nyou have in the meantime and check back later?",
     "original_fr": "??? : Tiens, de la visite ! Bienvenue {TAG:3C} l'arène, l'endroit où\nse rassemblent des gens de différentes époques pour\nfaire combattre des monstres.{WAIT_KEY}\nMalheureusement, l'arène est actuellement fermée.\nNous rouvrirons bientôt, mais pour l'instant, retournez\n{TAG:3C} votre aventure.",
-    "translation": "Мужчина: О, вы здесь впервые? Добро пожаловать\nна Арену Веков!{WAIT_KEY}\nВ этом колизее бьются монстры со всех эпох. Увы,\nсейчас у нас перерыв на техобслуживание.\nЗаведение временно закрыто.{WAIT_KEY}\nСкоро всё заработает, так что пока займитесь\nсвоими делами и загляните позже!"
+    "translation": "Мужчина: О, вы здесь впервые? Добро пожаловать\nна Арену Веков!{WAIT_KEY}В этом колизее бьются монстры со всех эпох. Увы,\nсейчас у нас перерыв на техобслуживание.\nЗаведение временно закрыто.{WAIT_KEY}Скоро всё заработает, так что пока займитесь\nсвоими делами и загляните позже!"
   },
   {
     "id": 52,
     "original_en": "Have you earned your monster's trust?{WAIT_KEY}\nIf your monster doesn't trust you very much, it\nprobably won't use the items you give it in battle.{WAIT_KEY}\nYou'll gain more trust the more your monster fights.\nLet it do some training and fight a few battles and\nyou'll start to develop a better bond.",
     "original_fr": "Votre monstre vous fait-il confiance ?{WAIT_KEY}\nSi ce n'est pas le cas, il ne voudra pas utiliser les\nobjets que vous lui donnez pendant la bataille.{WAIT_KEY}\nVous gagnerez sa confiance au fil des combats, alors\nfaites-le s'entra¡ner et combattre le plus possible !",
-    "translation": "Заслужили ли вы доверие своего монстра?{WAIT_KEY}\nЕсли питомец не доверяет вам, он вряд ли станет\nиспользовать данные вами предметы в бою.{WAIT_KEY}\nДоверие растёт по мере участия в схватках.\nТренируйте его, почаще выставляйте на арену, и\nсвязь меж вами станет крепче."
+    "translation": "Заслужили ли вы доверие своего монстра?{WAIT_KEY}Если питомец не доверяет вам, он вряд ли станет\nиспользовать данные вами предметы в бою.{WAIT_KEY}Доверие растёт по мере участия в схватках.\nТренируйте его, почаще выставляйте на арену, и\nсвязь меж вами станет крепче."
   },
   {
     "id": 53,
@@ -327,7 +327,7 @@
     "id": 54,
     "original_en": "Do you know your monster's elemental affinity?\nYou have to pay attention to that when it's dueling,\nyou know.{WAIT_KEY}\nMonsters do more damage when they use techs that\nmatch their own affinities. But if they use a tech\nthat matches their opponent's affinity, it won't be\nvery effective.",
     "original_fr": "Quel est l'élément de votre monstre ?{WAIT_KEY}\nVous devez faire attention aux affinités élémentaires\nlors d'une bataille.{WAIT_KEY}\nVotre monstre infligera plus de dég{TAG:4A}ts s'il utilise une\ncompétence de son propre élément.{WAIT_KEY}\nPar contre, s'il utilise une compétence du même élément\nque celui de son adversaire, il infligera moins de dég{TAG:4A}ts.",
-    "translation": "Знаете ли вы стихию своего монстра? За этим\nнужно зорко следить в дуэлях.{WAIT_KEY}\nМонстры бьют больнее техниками своей стихии. Но\nтехника чужой стихии будет малоэффективна."
+    "translation": "Знаете ли вы стихию своего монстра? За этим\nнужно зорко следить в дуэлях.{WAIT_KEY}Монстры бьют больнее техниками своей стихии. Но\nтехника чужой стихии будет малоэффективна."
   },
   {
     "id": 55,
@@ -339,7 +339,7 @@
     "id": 56,
     "original_en": "Has your monster learned any techs yet?\nMine finally learned a fire tech.{WAIT_KEY}\nMy dad told me the item your monster takes with it\nwhen you send it out to train affects what it learns.\nI gave mine a flameclaw.",
     "original_fr": "Est-ce que votre monstre a appris une compétence ?\nLe mien a enfin appris une compétence de feu !{WAIT_KEY}\nJe lui avais donné une griffe ardente ! Papa m'avait dit\nque l'objet qu'on donne {TAG:3C} un monstre quand il part\ns'entra¡ner a une influence sur ce genre de choses...",
-    "translation": "Ваш монстр выучил какие-нибудь техники? Мой\nнаконец-то освоил огненную атаку.{WAIT_KEY}\nОтец сказал, что предмет, взятый на тренировку,\nнапрямую влияет на выученные навыки. Я дал\nсвоему коготь пламени."
+    "translation": "Ваш монстр выучил какие-нибудь техники? Мой\nнаконец-то освоил огненную атаку.{WAIT_KEY}Отец сказал, что предмет, взятый на тренировку,\nнапрямую влияет на выученные навыки. Я дал\nсвоему коготь пламени."
   },
   {
     "id": 57,
@@ -399,25 +399,25 @@
     "id": 66,
     "original_en": "Stable Master: That's a flame smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : C'est une larve ignée. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Это огненный\nкроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Это огненный кроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 67,
     "original_en": "Stable Master: That's a water smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : C'est une larve aqueuse. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Это водный\nкроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Это водный кроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 68,
     "original_en": "Stable Master: That's a light smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : C'est une larve céleste. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Это светлый\nкроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Это светлый кроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 69,
     "original_en": "Stable Master: That's a shadow smidge.\nIs that the one you want?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Instructeur : C'est une larve chtonienne. Est-ce que ce\nmonstre vous pla¡t ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Смотритель: Это теневой\nкроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Смотритель: Это теневой кроха. Хотите взять его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 70,
@@ -441,7 +441,7 @@
     "id": 73,
     "original_en": "Pit Boss: Let me explain how combat works here.\nAll fights in the Pit are one-on-one matches between\nmonsters.{WAIT_KEY}\nOnce the battle begins, each monster will attack its\nopponent automatically. You can't issue commands,\nbut you can support your monster to help give it a\nfighting chance.{WAIT_KEY}\nPass your monster the right items at the right time,\nand it can use them to unleash abilities it knows or\nheal its wounds.{WAIT_KEY}\nYour monster won't necessarily use an item you give it\nright away, though. And once you've given an item to a\nmonster, it's gone for good—even if the monster\nnever uses it.{WAIT_KEY}\nYou can always pass your monster a new item, even if\nit's already holding one. But if you do, the old item will\nbe lost for good. So always think carefully about which\nitems to give it, and when.{WAIT_KEY}\nBest of luck to you!",
     "original_fr": "Employé de l'arène : Lors d'une bataille, les monstres\ns'affrontent en duel et attaquent automatiquement leur\nadversaire.{WAIT_KEY}\nCependant, sans votre aide, votre monstre pourrait\navoir du mal {TAG:3C} gagner. Donnez-lui un objet pour lui\npermettre d'utiliser les compétences qu'il a apprises\nou de récupérer des PV !{WAIT_KEY}\nEn lui prêtant main-forte, vous pourriez lui donner\nl'avantage !{WAIT_KEY}\nToutefois, votre monstre n'utilisera pas nécessairement\nl'objet que vous lui avez donné immédiatement.{WAIT_KEY}\nDe plus, vous ne pouvez pas récupérer un objet après\nl'avoir offert {TAG:3C} votre monstre, alors attention ! Si vous\nlui en donnez un autre avant qu'il n'utilise le précédent,\nce dernier sera perdu.",
-    "translation": "Распорядитель: Позвольте объяснить правила. Все\nбои в Яме — это дуэли монстров один на один.{WAIT_KEY}\nС началом битвы каждый монстр атакует сам.\nКомандовать нельзя, но вы можете помочь\nпитомцу,{WAIT_KEY}\nдав ему шанс победить. Передайте монстру\nпредмет — и он применит навык или исцелит раны.{WAIT_KEY}\nВпрочем, боец не всегда использует вещь сразу. И\nучтите: отданный предмет уже не вернуть,{WAIT_KEY}\nдаже если питомец так им и не воспользуется.\nДадите новую вещь — прежняя пропадёт навсегда.{WAIT_KEY}\nТак что думайте, что и когда давать. Удачи!"
+    "translation": "Распорядитель: Позвольте объяснить правила. Все\nбои в Яме — это дуэли монстров один на один.{WAIT_KEY}С началом битвы каждый монстр атакует сам.\nКомандовать нельзя, но вы можете помочь\nпитомцу,{WAIT_KEY}дав ему шанс победить. Передайте монстру\nпредмет — и он применит навык или исцелит раны.{WAIT_KEY}Впрочем, боец не всегда использует вещь сразу. И\nучтите: отданный предмет уже не вернуть,{WAIT_KEY}даже если питомец так им и не воспользуется.\nДадите новую вещь — прежняя пропадёт навсегда.{WAIT_KEY}Так что думайте, что и когда давать. Удачи!"
   },
   {
     "id": 74,

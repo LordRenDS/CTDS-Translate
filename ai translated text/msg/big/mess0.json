@@ -111,7 +111,7 @@
     "id": 18,
     "original_en": "20 G, paid in advance.\nWould you like to stay?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 20 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "20 З,\nпредоплата. Желаете переночевать?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "20 З, предоплата. Желаете переночевать?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 19,
@@ -129,7 +129,7 @@
     "id": 21,
     "original_en": "A one-way ticket is 10 G.\nYou want one?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Un billet vous co{TAG:63}tera 10 G.\nVoulez-vous en acheter un ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Билет в один конец\nстоит 10 З. Берёте?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Билет в один конец стоит 10 З. Берёте?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 22,
@@ -327,7 +327,7 @@
     "id": 54,
     "original_en": "Tata bears the Hero's Badge.{WAIT_KEY}\nAt first I thought it for a fake,\nbut it's the genuine article.\nHe truly is the Hero of legend!{WAIT_KEY}\nI suspect he's combing the Denadoro Mountains\nto the north even now, searching for the sword\nthe legends speak of.",
     "original_fr": "Tarta possède la médaille du héros !{WAIT_KEY}\nJe croyais d'abord que c'était une copie, mais c'est la\nvraie ! Tarta est réellement le héros !{WAIT_KEY}\nEn ce moment même, il doit être {TAG:3C} la recherche de l'épée\nlégendaire dans les monts Dénadoro au nord d'ici.",
-    "translation": "У Таты Значок Героя!{WAIT_KEY}\nСперва я подумал, что это подделка, но знак\nоказался подлинным. Он воистину легендарный\nГерой!{WAIT_KEY}\nКажется, сейчас он прочёсывает горы Денадоро на\nсевере в поисках легендарного меча."
+    "translation": "У Таты Значок Героя!{WAIT_KEY}Сперва я подумал, что это подделка, но знак\nоказался подлинным. Он воистину легендарный\nГерой!{WAIT_KEY}Кажется, сейчас он прочёсывает горы Денадоро на\nсевере в поисках легендарного меча."
   },
   {
     "id": 55,
@@ -417,13 +417,13 @@
     "id": 69,
     "original_en": "My own son, the legendary Hero!\nSeems I sired myself a champion.\nCan't say I truly see it, but I don't\ns'pose I ought to question good fortune.{WAIT_KEY}\nFather of the Hero!\nHeh heh... I like the ring of it.",
     "original_fr": "On dit que mon fiston est le héros. Ce doit être un de\nde ces cas où {TAG:64} noire géline pond blanc {TAG:61}uf {TAG:65}, hein ?\nJ'ai quand même du mal {TAG:3C} y croire...{WAIT_KEY}\nBah, être le père du héros n'est pas mal du tout...\nHé, hé, hé !",
-    "translation": "Мой сынишка — легендарный Герой! Выходит, я\nвырастил чемпиона, хе-хе! На такую удачу грех\nжаловаться.{WAIT_KEY}\nОтец Героя! Звучит-то как гордо!"
+    "translation": "Мой сынишка — легендарный Герой! Выходит, я\nвырастил чемпиона, хе-хе! На такую удачу грех\nжаловаться.{WAIT_KEY}Отец Героя! Звучит-то как гордо!"
   },
   {
     "id": 70,
     "original_en": "Tata: For...forgive me.\nTruth be told, I plucked this badge from the\nfloor of the tavern. Some besotted froggish\nfellow dropped it as he stumbled out.{WAIT_KEY}\nI thought to sell it, see, but then everyone\nstarted calling me the Hero when they saw it,\nand, well...I didn't know what to do but go\nalong with it.",
     "original_fr": "Tarta : Je... Je suis désolé... C'est un homme {TAG:3C}\nl'apparence de grenouille qui l'a laissée tomber\n{TAG:3C} la taverne alors qu'il était saoul.{WAIT_KEY}\nJe pensais que je pourrais la revendre {TAG:3C} prix fort\nen ville, mais tout le monde s'est mis {TAG:3C} me traiter\nen héros, alors j'ai décidé de jouer le jeu...",
-    "translation": "Тата: П-простите меня... Я подобрал этот значок в\nтаверне. Какой-то пьяный лягух обронил его.{WAIT_KEY}\nЯ думал продать его, но меня стали звать Героем.\nНу а я... я просто подыграл."
+    "translation": "Тата: П-простите меня... Я подобрал этот значок в\nтаверне. Какой-то пьяный лягух обронил его.{WAIT_KEY}Я думал продать его, но меня стали звать Героем.\nНу а я... я просто подыграл."
   },
   {
     "id": 71,
@@ -459,7 +459,7 @@
     "id": 76,
     "original_en": "Worry not, he's my grandson!\nHe won't let a little thing like this\nspell the end to his great deeds.{WAIT_KEY}\nHe told me already, his next goal is to\nbecome the legendary sea captain Bluebeard!\nHa ha ha!",
     "original_fr": "Ne vous faites pas de souci pour mon petit-fils, il n'est\npas du genre {TAG:3C} se laisser décourager par si peu ! Il me\nl'a confié, son prochain objectif est de devenir un marin\nlégendaire ! Ha, ha, ha !",
-    "translation": "Не бойтесь, он ведь мой внук! Такой пустяк не\nсломит его дух.{WAIT_KEY}\nОн уже решил стать легендарным капитаном Синей\nБородой! Ха-ха-ха!"
+    "translation": "Не бойтесь, он ведь мой внук! Такой пустяк не\nсломит его дух.{WAIT_KEY}Он уже решил стать легендарным капитаном Синей\nБородой! Ха-ха-ха!"
   },
   {
     "id": 77,
@@ -597,7 +597,7 @@
     "id": 99,
     "original_en": "You very strong!\nTake this, too!{WAIT_KEY}{GLYPH:384}\n\nObtained Third Eye!",
     "original_fr": "Votre force m'éblouit ! Acceptez aussi ceci !\nGnu...{WAIT_KEY}{GLYPH:384}\n\nVous obtenez un troisième {TAG:61}il !",
-    "translation": "Ты очень сильный! Забирай и это!{WAIT_KEY}{GLYPH:384} Получено: Третий\nглаз!"
+    "translation": "Ты очень сильный! Забирай и это!{WAIT_KEY}{GLYPH:384} Получено: Третий глаз!"
   },
   {
     "id": 100,

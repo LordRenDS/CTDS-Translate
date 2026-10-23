@@ -15,7 +15,7 @@
     "id": 2,
     "original_en": "{ROBO}: Energy reading at 100!\n200, and increasing!",
     "original_fr": "{ROBO} : Niveau d'énergie {TAG:3C} 100 ! 200...!\nIl continue de monter !",
-    "translation": "{ROBO}: Уровень энергии: 100 единиц!\n200, и продолжает расти!"
+    "translation": "{ROBO}: Уровень энергии: 100 единиц! 200, и\nпродолжает расти!"
   },
   {
     "id": 3,
@@ -51,7 +51,7 @@
     "id": 8,
     "original_en": "{ROBO}: 1999 A.D.! Date confirmed!\nThe time is 1:24!\nThis is the precise moment!",
     "original_fr": "{ROBO} : Nous sommes en l'an 1999 {TAG:3C} 01:24 !\nIl n'y a pas d'erreur !",
-    "translation": "{ROBO}: 1999 год н. э.! Дата подтверждена!\nВремя: 1:24!\nЭто то самое мгновение!"
+    "translation": "{ROBO}: 1999 год н. э.! Дата подтверждена! Время:\n1:24! Это то самое мгновение!"
   },
   {
     "id": 9,
@@ -63,7 +63,7 @@
     "id": 10,
     "original_en": "{AYLA}: He strong!\nStrong, strong, strong!",
     "original_fr": "{AYLA} : Fort ! Très fort !",
-    "translation": "{AYLA}: Он сильный!\nСильный, сильный, очень сильный!"
+    "translation": "{AYLA}: Он сильный! Сильный, сильный, очень\nсильный!"
   },
   {
     "id": 11,
@@ -93,7 +93,7 @@
     "id": 15,
     "original_en": "{FROG}: Sweet mercy...\nThe size of it!",
     "original_fr": "{FROG} : Il est... gigantesque...",
-    "translation": "{FROG}: Милосердные небеса...\nКаких же он исполинских размеров!"
+    "translation": "{FROG}: Милосердные небеса... Каких же он\nисполинских размеров!"
   },
   {
     "id": 16,
@@ -153,7 +153,7 @@
     "id": 25,
     "original_en": "{MARLE}: You're right!\nFor Doan and the others, too!",
     "original_fr": "{MARLE} : Tu as raison ! Nous combattrons aussi\npour Don et les autres !",
-    "translation": "{MARLE}: Ты прав!\nРади Доана и всех остальных — вперёд!"
+    "translation": "{MARLE}: Ты прав! Ради Доана и всех остальных —\nвперёд!"
   },
   {
     "id": 26,
@@ -177,13 +177,13 @@
     "id": 29,
     "original_en": "{AYLA}: {AYLA} no run!\n{AYLA} fight!",
     "original_fr": "{AYLA} : {AYLA} pas fuir !\n{AYLA} se battre !",
-    "translation": "{AYLA}: {AYLA} не бежать!\n{AYLA} драться!"
+    "translation": "{AYLA}: {AYLA} не бежать! {AYLA} драться!"
   },
   {
     "id": 30,
     "original_en": "{MAGUS}: Finally, I shall destroy you for good\nand all!",
     "original_fr": "{MAGUS} : Cette fois, je vais te détruire !",
-    "translation": "{MAGUS}: Наконец-то я сотру тебя с лица земли\nраз и навсегда!"
+    "translation": "{MAGUS}: Наконец-то я сотру тебя с лица земли раз и\nнавсегда!"
   },
   {
     "id": 31,
@@ -219,7 +219,7 @@
     "id": 36,
     "original_en": "{AYLA}: Lavos lose!\n{AYLA} most strong!",
     "original_fr": "{AYLA} : {AYLA} vaincre Lavos !\n{AYLA} être plus forte !!",
-    "translation": "{AYLA}: Лавос проиграть!\n{AYLA} самая сильная!"
+    "translation": "{AYLA}: Лавос проиграть! {AYLA} самая сильная!"
   },
   {
     "id": 37,
@@ -243,13 +243,13 @@
     "id": 40,
     "original_en": "{ROBO}: Did that hole result from the damage\nwe inflicted?",
     "original_fr": "{ROBO} : On dirait que nous avons fait un trou...",
-    "translation": "{ROBO}: Данное отверстие образовалось\nв результате нанесённых нами повреждений?"
+    "translation": "{ROBO}: Данное отверстие образовалось в\nрезультате нанесённых нами повреждений?"
   },
   {
     "id": 41,
     "original_en": "{FROG}: That hole...\nDid we open that?",
     "original_fr": "{FROG} : Nous avons fait un trou...",
-    "translation": "{FROG}: Эта брешь...\nНеужто наших рук дело?"
+    "translation": "{FROG}: Эта брешь... Неужто наших рук дело?"
   },
   {
     "id": 42,
@@ -267,13 +267,13 @@
     "id": 44,
     "original_en": "{MARLE}: This couldn't be enough to have\ndone in something so strong!",
     "original_fr": "{MARLE} : Mais je doute que ça suffise...",
-    "translation": "{MARLE}: Этого явно недостаточно,\nчтобы уничтожить столь могучее чудище!"
+    "translation": "{MARLE}: Этого явно недостаточно, чтобы\nуничтожить столь могучее чудище!"
   },
   {
     "id": 45,
     "original_en": "{LUCCA}: I wish it were over, but I get the\nfeeling it's not.",
     "original_fr": "{LUCCA} : Je serais heureuse que ce soit maintenant\nfini, mais...",
-    "translation": "{LUCCA}: Мне бы хотелось верить, что всё позади,\nно сердце подсказывает: это ещё не конец."
+    "translation": "{LUCCA}: Мне бы хотелось верить, что всё позади, но\nсердце подсказывает: это ещё не конец."
   },
   {
     "id": 46,
@@ -285,19 +285,19 @@
     "id": 47,
     "original_en": "{FROG}: I cannot think this the end of such\na creature.",
     "original_fr": "{FROG} : Cependant, on dirait que ce n'est pas\nencore fini...",
-    "translation": "{FROG}: Не верится мне, что такая тварь\nмогла столь просто погибнуть."
+    "translation": "{FROG}: Не верится мне, что такая тварь могла\nстоль просто погибнуть."
   },
   {
     "id": 48,
     "original_en": "{AYLA}: This, Lavos shell.\nInside, still strong!",
     "original_fr": "{AYLA} : Carapace de Lavos morte, mais intérieur\nencore vivant !",
-    "translation": "{AYLA}: Это панцирь Лавос.\nВнутри всё ещё сильный!"
+    "translation": "{AYLA}: Это панцирь Лавос. Внутри всё ещё сильный!"
   },
   {
     "id": 49,
     "original_en": "{MAGUS}: Be wary!\nThe end is yet far.",
     "original_fr": "{MAGUS} : Mais il est encore trop tôt pour se\nréjouir...",
-    "translation": "{MAGUS}: Будьте начеку!\nДо развязки ещё далеко."
+    "translation": "{MAGUS}: Будьте начеку! До развязки ещё далеко."
   },
   {
     "id": 50,
@@ -309,19 +309,19 @@
     "id": 51,
     "original_en": "{LUCCA}: Ugh...\nI guess we don't have a choice.",
     "original_fr": "{LUCCA} : Nous n'avons pas d'autre choix que d'aller\n{TAG:3C} l'intérieur...",
-    "translation": "{LUCCA}: Ох...\nПохоже, выбора у нас нет."
+    "translation": "{LUCCA}: Ох... Похоже, выбора у нас нет."
   },
   {
     "id": 52,
     "original_en": "{ROBO}: We must enter the interior and destroy\nits core!",
     "original_fr": "{ROBO} : Nous devons pénétrer {TAG:3C} l'intérieur et\nvaincre le c{TAG:61}ur !",
-    "translation": "{ROBO}: Мы должны проникнуть внутрь\nи уничтожить его ядро!"
+    "translation": "{ROBO}: Мы должны проникнуть внутрь и уничтожить\nего ядро!"
   },
   {
     "id": 53,
     "original_en": "{FROG}: These plates are but its armor!\nWhat we need destroy lies within.",
     "original_fr": "{FROG} : Après tout, cette carapace n'est que son\narmure. Nous devons détruire ce qu'il y a {TAG:3C} l'intérieur !",
-    "translation": "{FROG}: Эти пластины — лишь броня!\nТо, что нам должно сразить, сокрыто внутри."
+    "translation": "{FROG}: Эти пластины — лишь броня! То, что нам\nдолжно сразить, сокрыто внутри."
   },
   {
     "id": 54,
@@ -333,25 +333,25 @@
     "id": 55,
     "original_en": "{MAGUS}: I will sever the wick of your life's\ncandle, Lavos!",
     "original_fr": "{MAGUS} : Je vais mettre fin {TAG:3C} ton existence,\nLavos...!",
-    "translation": "{MAGUS}: Я угашу фитиль свечи твоей жизни,\nЛавос!"
+    "translation": "{MAGUS}: Я угашу фитиль свечи твоей жизни, Лавос!"
   },
   {
     "id": 56,
     "original_en": "Operator: Tr-Truce!\nDirect impact on Truce!",
     "original_fr": "Opérateur : Tr... Truce a été touchée de plein fouet !!",
-    "translation": "Оператор: Т-Трус!\nПрямое попадание по Трусу!"
+    "translation": "Оператор: Т-Трус! Прямое попадание по Трусу!"
   },
   {
     "id": 57,
     "original_en": "Director: Calm yourself!\nGive me a full status update!",
     "original_fr": "Directeur : Calmez-vous ! Dans quel état sont les autres\nvilles ?",
-    "translation": "Директор: Возьмите себя в руки!\nДоложите полную сводку обстановки!"
+    "translation": "Директор: Возьмите себя в руки! Доложите полную\nсводку обстановки!"
   },
   {
     "id": 58,
     "original_en": "Operator: Porre...Choras...Medina!{WAIT_KEY}\nThey've all been destroyed!",
     "original_fr": "Opérateur : Palpori...! Choras...! Médina...!{WAIT_KEY}\nElles ont toutes été détruites !",
-    "translation": "Оператор: Порре... Чорас... Медина!{WAIT_KEY}\nВсе они стёрты с лица земли!"
+    "translation": "Оператор: Порре... Чорас... Медина!{WAIT_KEY}Все они стёрты с лица земли!"
   },
   {
     "id": 59,
@@ -375,13 +375,13 @@
     "id": 62,
     "original_en": "Operator: Director!\nSir, you must come with us!",
     "original_fr": "Opérateur : Monsieur le directeur ?",
-    "translation": "Оператор: Директор!\nСэр, вы должны идти с нами!"
+    "translation": "Оператор: Директор! Сэр, вы должны идти с нами!"
   },
   {
     "id": 63,
     "original_en": "Director: There's no time!\nGet moving!",
     "original_fr": "Directeur : Il n'y a pas de temps {TAG:3C} perdre !\nDépêchez-vous !",
-    "translation": "Директор: Нет времени!\nУходите немедленно!"
+    "translation": "Директор: Нет времени! Уходите немедленно!"
   },
   {
     "id": 64,
@@ -393,7 +393,7 @@
     "id": 65,
     "original_en": "Director: ...{WAIT_KEY}\nLavos...",
     "original_fr": "Directeur : ...{WAIT_KEY}\nLavos...",
-    "translation": "Директор: ...{WAIT_KEY}\nЛавос..."
+    "translation": "Директор: ...{WAIT_KEY}Лавос..."
   },
   {
     "id": 66,
@@ -453,7 +453,7 @@
     "id": 75,
     "original_en": "{AYLA}: This great!\nFast, fast!",
     "original_fr": "{AYLA} : {EPOCH} être très puissant !\n{EPOCH} très rapide !",
-    "translation": "{AYLA}: Здорово!\nБыстро, очень быстро!"
+    "translation": "{AYLA}: Здорово! Быстро, очень быстро!"
   },
   {
     "id": 76,
@@ -465,7 +465,7 @@
     "id": 77,
     "original_en": "{MARLE}: {CRONO}'s gotta be somewhere!\nI'll find him!",
     "original_fr": "{MARLE} : {CRONO} doit bien être quelque part !\nJe vais le chercher !!",
-    "translation": "{MARLE}: {CRONO} должен быть где-то здесь!\nЯ найду его!"
+    "translation": "{MARLE}: {CRONO} должен быть где-то здесь! Я найду\nего!"
   },
   {
     "id": 78,
@@ -489,7 +489,7 @@
     "id": 81,
     "original_en": "{AYLA}: Find {CRONO}!\n{CRONO} alive!\n{AYLA} know!",
     "original_fr": "{AYLA} : {AYLA} chercher {GLYPH:392} !\n{GLYPH:392} toujours en vie !",
-    "translation": "{AYLA}: Найти {CRONO}!\n{CRONO} живой!\n{AYLA} знать!"
+    "translation": "{AYLA}: Найти {CRONO}! {CRONO} живой! {AYLA} знать!"
   },
   {
     "id": 82,
@@ -501,13 +501,13 @@
     "id": 83,
     "original_en": "{LUCCA}: Impossible!\nI'm picking up interference from an enormous Gate!\nCould it be Lavos!?",
     "original_fr": "{LUCCA} : Un portail énorme ?! Non...\nLavos ?!",
-    "translation": "{LUCCA}: Быть не может!\nЯ улавливаю возмущения от колоссальных Врат!\nНеужели это Лавос?!"
+    "translation": "{LUCCA}: Быть не может! Я улавливаю возмущения от\nколоссальных Врат! Неужели это Лавос?!"
   },
   {
     "id": 84,
     "original_en": "{ROBO}: The {EPOCH}'s space-time compass has\ngone haywire!",
     "original_fr": "{ROBO} : Le gyroscope temporel du {EPOCH}\ns'affole !",
-    "translation": "{ROBO}: Пространственно-временной компас\nкорабля «{EPOCH}» вышел из строя!"
+    "translation": "{ROBO}: Пространственно-временной компас корабля\n«{EPOCH}» вышел из строя!"
   },
   {
     "id": 85,
@@ -531,7 +531,7 @@
     "id": 88,
     "original_en": "{LUCCA}: It feels like we're going to get\nsucked in there.",
     "original_fr": "{LUCCA} : Quelle présence imposante !\nJ'ai l'impression d'être aspirée rien qu'{TAG:3C} le regarder...",
-    "translation": "{LUCCA}: Такое чувство, будто нас вот-вот\nзатянет туда."
+    "translation": "{LUCCA}: Такое чувство, будто нас вот-вот затянет\nтуда."
   },
   {
     "id": 89,
@@ -543,13 +543,13 @@
     "id": 90,
     "original_en": "{FROG}: D-Death's Ferry?\nHas it come for us?",
     "original_fr": "{FROG} : Cette chose semble sortie tout droit du\nmonde des ténèbres...",
-    "translation": "{FROG}: Л-ладья Смерти?.. Неужто она явилась\nпо наши души?"
+    "translation": "{FROG}: Л-ладья Смерти?.. Неужто она явилась по\nнаши души?"
   },
   {
     "id": 91,
     "original_en": "{AYLA}: {AYLA} no like boat.\nBoat no like {AYLA}!",
     "original_fr": "{AYLA} : {AYLA} ha¿r chose flottante !\nChose flottante ha¿r {AYLA} et amis !",
-    "translation": "{AYLA}: {AYLA} не любить лодка.\nЛодка не любить {AYLA}!"
+    "translation": "{AYLA}: {AYLA} не любить лодка. Лодка не любить\n{AYLA}!"
   },
   {
     "id": 92,
@@ -573,7 +573,7 @@
     "id": 95,
     "original_en": "{FROG}: We stand no chance if we face him head on.{WAIT_KEY}\nWe must use the {EPOCH} to breach his armor!",
     "original_fr": "{FROG} : L'affronter tel quel serait une perte de\ntemps !{WAIT_KEY}\nPourquoi ne pas pénétrer de force {TAG:3C} l'intérieur avec le\n{EPOCH} ?",
-    "translation": "{FROG}: В лобовой схватке у нас нет шансов.{WAIT_KEY}\nМы должны протаранить его броню на корабле\n«{EPOCH}»!"
+    "translation": "{FROG}: В лобовой схватке у нас нет шансов.{WAIT_KEY}Мы должны протаранить его броню на корабле\n«{EPOCH}»!"
   },
   {
     "id": 96,
@@ -585,13 +585,13 @@
     "id": 97,
     "original_en": "{ROBO}: We will be unable to damage it from here.{WAIT_KEY}\nWhy do we not penetrate his shell with the {EPOCH}\nand attack from within?",
     "original_fr": "{ROBO} : Attaquer la carapace de Lavos n'aurait\nque peu d'effet.{WAIT_KEY}\nQue diriez-vous de pénétrer {TAG:3C} l'intérieur avec le\n{EPOCH} pour mieux le combattre ?",
-    "translation": "{ROBO}: Снаружи мы не сможем нанести ему вреда.{WAIT_KEY}\nПочему бы не пробить его панцирь корпусом корабля\n«{EPOCH}» и не атаковать изнутри?"
+    "translation": "{ROBO}: Снаружи мы не сможем нанести ему вреда.{WAIT_KEY}Почему бы не пробить его панцирь корпусом корабля\n«{EPOCH}» и не атаковать изнутри?"
   },
   {
     "id": 98,
     "original_en": "{LUCCA}: Wonder if we can burst through his\nouter shell with the {EPOCH}?",
     "original_fr": "{LUCCA} : Je me demande si nous ne pourrions pas\npénétrer en force {TAG:3C} l'intérieur de Lavos {TAG:3C} l'aide du\n{EPOCH}...",
-    "translation": "{LUCCA}: Интересно, сможем ли мы проломить\nего внешний панцирь на корабле «{EPOCH}»?"
+    "translation": "{LUCCA}: Интересно, сможем ли мы проломить его\nвнешний панцирь на корабле «{EPOCH}»?"
   },
   {
     "id": 99,
@@ -615,13 +615,13 @@
     "id": 102,
     "original_en": "{FROG}: Should we err in this, we'll have no\nsecond chance.",
     "original_fr": "{FROG} : Nous risquerions d'y rester...",
-    "translation": "{FROG}: Ежели мы оступимся, второго шанса\nнам уже не представится."
+    "translation": "{FROG}: Ежели мы оступимся, второго шанса нам уже\nне представится."
   },
   {
     "id": 103,
     "original_en": "{AYLA}: That okay!?\n{EPOCH} not die!?",
     "original_fr": "{AYLA} : Pas dangereux ?! {EPOCH} pas mourir ?!",
-    "translation": "{AYLA}: Это ничего?!\n{EPOCH} не умереть?!"
+    "translation": "{AYLA}: Это ничего?! {EPOCH} не умереть?!"
   },
   {
     "id": 104,
@@ -651,19 +651,19 @@
     "id": 108,
     "original_en": "{ROBO}: The odds of success are abysmally low.{WAIT_KEY}\nBut perhaps by combining the energy of the\n{EPOCH} with our own...",
     "original_fr": "{ROBO} : Nos chances de succès sont très faibles...{WAIT_KEY}\nSi nous unissions notre énergie spirituelle {TAG:3C} celle du\n{EPOCH}, alors peut-être...",
-    "translation": "{ROBO}: Вероятность успеха ничтожно мала.{WAIT_KEY}\nОднако если объединить энергию корабля\n«{EPOCH}» с нашей собственной..."
+    "translation": "{ROBO}: Вероятность успеха ничтожно мала.{WAIT_KEY}Однако если объединить энергию корабля\n«{EPOCH}» с нашей собственной..."
   },
   {
     "id": 109,
     "original_en": "{FROG}: We've no choice!\nIf we're to slay this beast, we must break through!",
     "original_fr": "{FROG} : Pour vaincre cette créature, nous n'avons\npas d'autre choix que de la combattre de l'intérieur...!",
-    "translation": "{FROG}: Выбора нет!\nЕсли мы хотим сразить это чудовище, мы обязаны\nпробиться!"
+    "translation": "{FROG}: Выбора нет! Если мы хотим сразить это\nчудовище, мы обязаны пробиться!"
   },
   {
     "id": 110,
     "original_en": "{AYLA}: {EPOCH} win!\n{AYLA} win, too!",
     "original_fr": "{AYLA} : {EPOCH} pas perdre !\n{AYLA} pas perdre non plus !",
-    "translation": "{AYLA}: {EPOCH} победить!\n{AYLA} тоже победить!"
+    "translation": "{AYLA}: {EPOCH} победить! {AYLA} тоже победить!"
   },
   {
     "id": 111,
@@ -675,7 +675,7 @@
     "id": 112,
     "original_en": "{MARLE}: Please, {EPOCH}!\nDo this for us!",
     "original_fr": "{MARLE} : Nous comptons sur toi, {EPOCH} !",
-    "translation": "{MARLE}: Пожалуйста, {EPOCH}!\nСделай это ради нас!"
+    "translation": "{MARLE}: Пожалуйста, {EPOCH}! Сделай это ради нас!"
   },
   {
     "id": 113,
@@ -699,7 +699,7 @@
     "id": 116,
     "original_en": "{AYLA}: Okay!\n{AYLA} try!\n{EPOCH} try, too!!",
     "original_fr": "{AYLA} : Bien ! {AYLA} faire de son mieux !\n{EPOCH} aussi faire de son mieux !",
-    "translation": "{AYLA}: Ладно!\n{AYLA} стараться!\n{EPOCH} тоже стараться!!"
+    "translation": "{AYLA}: Ладно! {AYLA} стараться! {EPOCH} тоже\nстараться!!"
   },
   {
     "id": 117,
@@ -711,7 +711,7 @@
     "id": 118,
     "original_en": "{LUCCA}: We believe in you,\n{EPOCH}!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
     "original_fr": "{LUCCA} : Nous croyons en toi, {EPOCH} !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
-    "translation": "{LUCCA}: Мы верим в тебя,\n{EPOCH}!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}"
+    "translation": "{LUCCA}: Мы верим в тебя, {EPOCH}!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 119,
@@ -729,7 +729,7 @@
     "id": 121,
     "original_en": "{AYLA}: {AYLA} not give up!\n{EPOCH} not give up, too!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
     "original_fr": "{AYLA} : {AYLA} pas perdre !\n{EPOCH} pas perdre non plus !!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
-    "translation": "{AYLA}: {AYLA} не сдаваться!\n{EPOCH} тоже не сдаваться!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}"
+    "translation": "{AYLA}: {AYLA} не сдаваться! {EPOCH} тоже не\nсдаваться!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 122,
@@ -741,13 +741,13 @@
     "id": 123,
     "original_en": "{MARLE}: All right, everyone!\nLet's do this!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
     "original_fr": "{MARLE} : Allons-y !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
-    "translation": "{MARLE}: Ну что, друзья!\nСделаем это!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}"
+    "translation": "{MARLE}: Ну что, друзья! Сделаем это!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 124,
     "original_en": "{LUCCA}: {EPOCH}, don't let\nus down!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
     "original_fr": "{LUCCA} : Nous comptons sur toi, {EPOCH} !{GLYPH:405}0c{GLYPH:406}{GLYPH:408}",
-    "translation": "{LUCCA}: {EPOCH}, не подведи\nнас!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}"
+    "translation": "{LUCCA}: {EPOCH}, не подведи нас!{GLYPH:405}0c{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 125,
@@ -813,7 +813,7 @@
     "id": 135,
     "original_en": "{FROG}: We made it.\nWe beat the odds.",
     "original_fr": "{FROG} : ... Nous y sommes parvenus.",
-    "translation": "{FROG}: Мы прорвались.\nСудьба нам улыбнулась."
+    "translation": "{FROG}: Мы прорвались. Судьба нам улыбнулась."
   },
   {
     "id": 136,
@@ -837,7 +837,7 @@
     "id": 139,
     "original_en": "{AYLA}: {EPOCH}...\n{AYLA} proud!",
     "original_fr": "{AYLA} : {EPOCH} bien se battre !",
-    "translation": "{AYLA}: {EPOCH}...\n{AYLA} гордиться!"
+    "translation": "{AYLA}: {EPOCH}... {AYLA} гордиться!"
   },
   {
     "id": 140,
@@ -861,7 +861,7 @@
     "id": 143,
     "original_en": "{ROBO}: According to my sensors, we are close\nto the core!",
     "original_fr": "{ROBO} : Je détecte que nous sommes près du\ncentre !",
-    "translation": "{ROBO}: Согласно моим сенсорам,\nмы находимся в непосредственной близости к ядру!"
+    "translation": "{ROBO}: Согласно моим сенсорам, мы находимся в\nнепосредственной близости к ядру!"
   },
   {
     "id": 144,
@@ -873,7 +873,7 @@
     "id": 145,
     "original_en": "{AYLA}: !{WAIT_KEY}\nLavos smell get strong!",
     "original_fr": "{AYLA} : !!{WAIT_KEY}\nOdeur de Lavos devenir plus forte !",
-    "translation": "{AYLA}: !{WAIT_KEY}\nЗапах Лавос становиться сильный!"
+    "translation": "{AYLA}: !{WAIT_KEY}Запах Лавос становиться сильный!"
   },
   {
     "id": 146,
@@ -891,13 +891,13 @@
     "id": 148,
     "original_en": "{ROBO}: Amazing...\nIt possesses the DNA of every organism that has\never dwelt on this planet!",
     "original_fr": "{ROBO} : Je n'arrive pas {TAG:3C} y croire...! Il possède les\ngènes de tous les êtres vivants qui ont existé depuis\nl'apparition de la vie sur la planète !",
-    "translation": "{ROBO}: Невероятно...\nОн содержит ДНК каждого живого организма,\nкогда-либо обитавшего на этой планете!"
+    "translation": "{ROBO}: Невероятно... Он содержит ДНК каждого\nживого организма, когда-либо обитавшего на этой\nпланете!"
   },
   {
     "id": 149,
     "original_en": "{FROG}: Cyrus...\nStand with me in this battle!",
     "original_fr": "{FROG} : Combats {TAG:3C} mes côtés, Cyrus...!",
-    "translation": "{FROG}: Сайрус...\nПребудь со мной в этой битве!"
+    "translation": "{FROG}: Сайрус... Пребудь со мной в этой битве!"
   },
   {
     "id": 150,
@@ -909,13 +909,13 @@
     "id": 151,
     "original_en": "{MAGUS}: At last...\nYou meet your end, Lavos!",
     "original_fr": "{MAGUS} : Cette fois, je te le promets...\nJe vais en finir avec toi...!",
-    "translation": "{MAGUS}: Наконец-то...\nНастал твой смертный час, Лавос!"
+    "translation": "{MAGUS}: Наконец-то... Настал твой смертный час,\nЛавос!"
   },
   {
     "id": 152,
     "original_en": "{MARLE}: It's...humanoid.{WAIT_KEY}\nCould...could it have acquired the powers\nof every creature on this planet?",
     "original_fr": "{MARLE} : Il est de forme humano¿de...{WAIT_KEY}\nIl... Serait-il possible qu'il possède la force de tous les\nêtres vivants de la planète...?",
-    "translation": "{MARLE}: Он... человекоподобный.{WAIT_KEY}\nНеужели... неужели он вобрал в себя мощь\nвсех живых созданий этой планеты?"
+    "translation": "{MARLE}: Он... человекоподобный.{WAIT_KEY}Неужели... неужели он вобрал в себя мощь всех\nживых созданий этой планеты?"
   },
   {
     "id": 153,
@@ -945,13 +945,13 @@
     "id": 157,
     "original_en": "{AYLA}: Smell like reptite, dactyl,\nNizbel...{WAIT_KEY}\nSmell like {AYLA}, {GLYPH:386}!\nSmell like everyone!{WAIT_KEY}\nSmell like all thing!\nPerson, beast, all!",
     "original_fr": "{AYLA} : Lavos être nous ! ätre sauriens,\nptéranodons, Nizbel...!{WAIT_KEY}\nLavos sentir comme {AYLA}, {GLYPH:386}, tous,\ntous...!{WAIT_KEY}\nLavos sentir comme tous êtres vivants de planète !",
-    "translation": "{AYLA}: Пахнет рептит, дактиль,\nНизбель...{WAIT_KEY}\nПахнет {AYLA}, {GLYPH:386}!\nПахнет всеми!{WAIT_KEY}\nПахнет всё живое!\nЧеловек, зверь, всё!"
+    "translation": "{AYLA}: Пахнет рептит, дактиль, Низбель...{WAIT_KEY}Пахнет {AYLA}, {GLYPH:386}! Пахнет всеми!{WAIT_KEY}Пахнет всё живое! Человек, зверь, всё!"
   },
   {
     "id": 158,
     "original_en": "{ROBO}: His offensive capabilities are...{WAIT_KEY}\nIncalculable!\nMy sensors are overheating!",
     "original_fr": "{ROBO} : Sa puissance d'attaque est...{WAIT_KEY}\nAh, impossible {TAG:3C} mesurer ! Mes capteurs s'affolent !",
-    "translation": "{ROBO}: Его наступательный потенциал...{WAIT_KEY}\nНе поддаётся расчётам!\nМои датчики перегреваются!"
+    "translation": "{ROBO}: Его наступательный потенциал...{WAIT_KEY}Не поддаётся расчётам! Мои датчики\nперегреваются!"
   },
   {
     "id": 159,
@@ -963,19 +963,19 @@
     "id": 160,
     "original_en": "{MAGUS}: We were but sown for him to reap.\nAll of humanity...{WAIT_KEY}\nOr, rather, all life on this planet.",
     "original_fr": "{MAGUS} : Nous ne sommes, en quelque sorte, qu'une\nmoisson abondante que Lavos a récoltée...{WAIT_KEY}\nTous les êtres humains, non...{WAIT_KEY}\nTous les êtres vivants de cette planète...",
-    "translation": "{MAGUS}: Мы были лишь семенем, взращённым ему на\nжатву.\nВсё человечество...{WAIT_KEY}\nВернее, вся жизнь на этой планете."
+    "translation": "{MAGUS}: Мы были лишь семенем, взращённым ему на\nжатву. Всё человечество...{WAIT_KEY}Вернее, вся жизнь на этой планете."
   },
   {
     "id": 161,
     "original_en": "{LUCCA}: It's a parasite!\nSleeping within the earth all this time,\nstealing all our progress!",
     "original_fr": "{LUCCA} : Il a utilisé l'évolution des êtres vivants\nde notre planète pendant si longtemps juste en\ndormant ? Quel égo¿ste...!",
-    "translation": "{LUCCA}: Он просто паразит!\nСпал всё это время в недрах земли,\nпожирая плоды наших трудов!"
+    "translation": "{LUCCA}: Он просто паразит! Спал всё это время в\nнедрах земли, пожирая плоды наших трудов!"
   },
   {
     "id": 162,
     "original_en": "{FROG}: Such a vile being...\nWe do not live for your ends!",
     "original_fr": "{FROG} : Dites-moi que je rêve... Nous ne vivons pas\npour satisfaire tes besoins, Lavos !",
-    "translation": "{FROG}: Мерзкое отродье...\nМы живём не ради твоих гнусных прихотей!"
+    "translation": "{FROG}: Мерзкое отродье... Мы живём не ради твоих\nгнусных прихотей!"
   },
   {
     "id": 163,
@@ -987,7 +987,7 @@
     "id": 164,
     "original_en": "{MARLE}: This planet is our home!\nLeene's, Doan's...everyone's!",
     "original_fr": "{MARLE} : C'est notre planète !",
-    "translation": "{MARLE}: Эта планета — наш дом!\nЛины, Доана... каждого из нас!"
+    "translation": "{MARLE}: Эта планета — наш дом! Лины, Доана...\nкаждого из нас!"
   },
   {
     "id": 165,
@@ -1017,7 +1017,7 @@
     "id": 169,
     "original_en": "{ROBO}: I was given life by human hands.{WAIT_KEY}\nBut life is life!\nI am no different from {LUCCA} and the others.",
     "original_fr": "{ROBO} : C'est l'Homme qui m'a créé...{WAIT_KEY}\nNéanmoins, je suis vivant malgré tout !\nComme {LUCCA} et les autres...",
-    "translation": "{ROBO}: Человеческие руки вдохнули в меня жизнь.{WAIT_KEY}\nНо жизнь есть жизнь!\nИ я такой же живой, как {LUCCA} и остальные."
+    "translation": "{ROBO}: Человеческие руки вдохнули в меня жизнь.{WAIT_KEY}Но жизнь есть жизнь! И я такой же живой, как {LUCCA}\nи остальные."
   },
   {
     "id": 170,
@@ -1041,19 +1041,19 @@
     "id": 173,
     "original_en": "{AYLA}: {AYLA} no lose!\nThis {AYLA} home!",
     "original_fr": "{AYLA} : {AYLA} pas perdre !\nNous être vie de planète !",
-    "translation": "{AYLA}: {AYLA} не проиграть!\nЗдесь живёт {AYLA}!"
+    "translation": "{AYLA}: {AYLA} не проиграть! Здесь живёт {AYLA}!"
   },
   {
     "id": 174,
     "original_en": "Not Lavos home!\nLavos lose!",
     "original_fr": "Lavos pas être vie de planète !",
-    "translation": "Не дом Лавос!\nЛавос проиграть!"
+    "translation": "Не дом Лавос! Лавос проиграть!"
   },
   {
     "id": 175,
     "original_en": "{MAGUS}: ...{WAIT_KEY}\nAt last, our final meeting...",
     "original_fr": "{MAGUS} : ...{WAIT_KEY}\nCette fois, je te vaincrai pour de bon...",
-    "translation": "{MAGUS}: ...{WAIT_KEY}\nНаконец-то настал час нашей последней встречи..."
+    "translation": "{MAGUS}: ...{WAIT_KEY}Наконец-то настал час нашей последней встречи..."
   },
   {
     "id": 176,
@@ -1065,13 +1065,13 @@
     "id": 177,
     "original_en": "{GLYPH:384}\nLavos enters attack mode!",
     "original_fr": "{GLYPH:384}\nLavos entre en mode d'attaque !",
-    "translation": "{GLYPH:384}\nЛавос переходит в режим атаки!"
+    "translation": "{GLYPH:384} Лавос переходит в режим атаки!"
   },
   {
     "id": 178,
     "original_en": "{GLYPH:384}\nLavos changes attack modes!",
     "original_fr": "{GLYPH:384}\nLavos change son mode d'attaque !",
-    "translation": "{GLYPH:384}\nЛавос меняет боевой режим!"
+    "translation": "{GLYPH:384} Лавос меняет боевой режим!"
   },
   {
     "id": 179,
@@ -1089,19 +1089,19 @@
     "id": 181,
     "original_en": "{MARLE}: Uh-oh! Look at that screen!\nIt looks like something is happening!",
     "original_fr": "{MARLE} : Oh, non ! Regardez cet écran ! On dirait\nque quelque chose se produit aussi aux autres\népoques !",
-    "translation": "{MARLE}: Ой-ой! Посмотрите на этот экран!\nКажется, что-то происходит!"
+    "translation": "{MARLE}: Ой-ой! Посмотрите на этот экран! Кажется,\nчто-то происходит!"
   },
   {
     "id": 182,
     "original_en": "{AYLA}: Look, look!\nSomething strange!",
     "original_fr": "{AYLA} : Regarder écran ! îtrange !",
-    "translation": "{AYLA}: Смотреть, смотреть!\nЧто-то странное!"
+    "translation": "{AYLA}: Смотреть, смотреть! Что-то странное!"
   },
   {
     "id": 183,
     "original_en": "{FROG}: A vortex has appeared.\nBut why?",
     "original_fr": "{FROG} : Un vortex est soudainement apparu.\nQue se passe-t-il ?",
-    "translation": "{FROG}: Возник пространственный вихрь.\nНо почему?"
+    "translation": "{FROG}: Возник пространственный вихрь. Но почему?"
   },
   {
     "id": 184,
@@ -1119,7 +1119,7 @@
     "id": 186,
     "original_en": "{AYLA}: {AYLA} not understand.\nThink too much, head go boom.",
     "original_fr": "{AYLA} : {AYLA} pas comprendre !\nTête de {AYLA} exploser !",
-    "translation": "{AYLA}: {AYLA} не понимать.\nМного думать — голова делать бум."
+    "translation": "{AYLA}: {AYLA} не понимать. Много думать — голова\nделать бум."
   },
   {
     "id": 187,
@@ -1131,7 +1131,7 @@
     "id": 188,
     "original_en": "{LUCCA}: We need to hurry and do something about\nLavos!",
     "original_fr": "{LUCCA} : Nous devons nous occuper de\nLavos au plus vite !",
-    "translation": "{LUCCA}: Нам нужно поторопиться и покончить\nс Лавосом!"
+    "translation": "{LUCCA}: Нам нужно поторопиться и покончить с\nЛавосом!"
   },
   {
     "id": 189,

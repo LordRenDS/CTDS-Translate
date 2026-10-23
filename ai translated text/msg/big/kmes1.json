@@ -189,7 +189,7 @@
     "id": 31,
     "original_en": "{AYLA}: ...{WAIT_KEY}\n{AYLA} sorry.",
     "original_fr": "{AYLA} : ...{WAIT_KEY}\n{AYLA} être désolée. {AYLA} pas faire\nattention.",
-    "translation": "{AYLA}: ...{WAIT_KEY}\n{AYLA} виновата."
+    "translation": "{AYLA}: ...{WAIT_KEY}{AYLA} виновата."
   },
   {
     "id": 32,
@@ -201,7 +201,7 @@
     "id": 33,
     "original_en": "{AYLA}: {AYLA} alive, {AYLA} fight!{WAIT_KEY}\nWin, live. Lose, die. That rule.\nNo can change rule.{WAIT_KEY}\nOld man breathe, but dead inside!",
     "original_fr": "{AYLA} : Si {AYLA} vivante, {AYLA} se\nbattre !{WAIT_KEY}\nVainqueur vivre, perdant mourir. Loi du plus fort.\nSauriens et humains obéir {TAG:3C} loi du plus fort.{WAIT_KEY}\nSi tribu de Laruba se cacher, pas mourir... mais pas\nvivre non plus !",
-    "translation": "{AYLA}: {AYLA} жива — {AYLA} драться!{WAIT_KEY}\nПобедил — живи. Проиграл — умри. Таков закон.\nЗакон нельзя менять.{WAIT_KEY}\nСтарик дышать, но внутри мёртв!"
+    "translation": "{AYLA}: {AYLA} жива — {AYLA} драться!{WAIT_KEY}Победил — живи. Проиграл — умри. Таков закон.\nЗакон нельзя менять.{WAIT_KEY}Старик дышать, но внутри мёртв!"
   },
   {
     "id": 34,
@@ -213,7 +213,7 @@
     "id": 35,
     "original_en": "{AYLA}: No! Strong!\nFight, get more strong!{WAIT_KEY}\n{AYLA} help. But now, need dactyl.\nGive dactyl!",
     "original_fr": "{AYLA} : Non ! {AYLA} pas combattre parce que\nêtre forte, {AYLA} devenir forte parce que\ncombattre !{WAIT_KEY}\nTribu d'Ioka aider tribu de Laruba, mais besoin de\nptéranodons ! Prêter ptéranodons {TAG:3C} {AYLA} !",
-    "translation": "{AYLA}: Нет! Сильные!{WAIT_KEY}\nДраться — стать сильней! {AYLA} помочь. Но сейчас\nнужен дактил. Дать дактила!"
+    "translation": "{AYLA}: Нет! Сильные!{WAIT_KEY}Драться — стать сильней! {AYLA} помочь. Но сейчас\nнужен дактил. Дать дактила!"
   },
   {
     "id": 36,
@@ -303,7 +303,7 @@
     "id": 50,
     "original_en": "Nu... What? What the matter?\nI was sound asleep, nu!\nCan a Nu not get some rest?{WAIT_KEY}\nI change {GLYPH:386}'s name, so please let me go back\nto my dreams, nu.",
     "original_fr": "Quoi ? Que se passe-t-il ? Moi qui dormais si\npaisiblement... Gnu...{WAIT_KEY}\nJe vais permettre {TAG:3C} {GLYPH:386} de changer son nom,\nalors laissez-moi dormir, d'accord ?",
-    "translation": "Ню... Что? В чём дело? Я же так крепко спал, ню!\nДайте поспать бедному Ню!{WAIT_KEY}\nЯ сменю имя герою по имени {GLYPH:386}, только верните меня\nв мир снов, ню."
+    "translation": "Ню... Что? В чём дело? Я же так крепко спал, ню!\nДайте поспать бедному Ню!{WAIT_KEY}Я сменю имя герою по имени {GLYPH:386}, только верните меня\nв мир снов, ню."
   },
   {
     "id": 51,
@@ -345,7 +345,7 @@
     "id": 57,
     "original_en": "The Gurus of Time and Reason are missing,\nand Lady Schala along with them.{WAIT_KEY}\nAre there none now who can stop the Queen?",
     "original_fr": "Personne ne sait où sont le sage de la raison et le sage\ndu temps, et maintenant voil{TAG:3C} que mademoiselle Sarah\ns'est fait enlever !{WAIT_KEY}\nEst-il désormais impossible d'arrêter la reine ?",
-    "translation": "Гуру Времени и Гуру Разума пропали без вести, а\nвместе с ними и госпожа Шала.{WAIT_KEY}\nНеужто некому остановить Королеву?"
+    "translation": "Гуру Времени и Гуру Разума пропали без вести, а\nвместе с ними и госпожа Шала.{WAIT_KEY}Неужто некому остановить Королеву?"
   },
   {
     "id": 58,
@@ -375,13 +375,13 @@
     "id": 62,
     "original_en": "The Queen has installed the Mammon Machine in\nthe Ocean Palace in an attempt to absorb Lavos's\nenergy, but is there not peril in such a thing?{WAIT_KEY}\nThe Guru of Life said as much, but it only led\nher to imprison him upon the Mountain of Woe.\nI fear there's little we can do.",
     "original_fr": "La reine a installé le réceptacle sacré dans le\nsanctuaire sous-marin pour extraire encore plus\nd'énergie de Lavos... Est-ce vraiment une bonne\nidée ?{WAIT_KEY}\nLe sage de la vie qui a dit que ce serait dangereux\na été emprisonné sur le mont du tourment. Nous ne\npouvons plus rien faire...",
-    "translation": "Королева ставит Машину Маммона в Океанский\nдворец, чтоб черпать мощь Лавоса... Но разве это\nне смертельно опасно?{WAIT_KEY}\nГуру Жизни предостерегал её, но она заточила его\nна Горе Скорби. Боюсь, мы бессильны помочь."
+    "translation": "Королева ставит Машину Маммона в Океанский\nдворец, чтоб черпать мощь Лавоса... Но разве это\nне смертельно опасно?{WAIT_KEY}Гуру Жизни предостерегал её, но она заточила его\nна Горе Скорби. Боюсь, мы бессильны помочь."
   },
   {
     "id": 63,
     "original_en": "Elder: The Guru of Life said that young Lord Janus\npossessed power within him exceeding even that of\nLady Schala.{WAIT_KEY}\nBut then the Queen lost her mind, and the young\nlord grew to hate that power and all the suffering\nit causes Lady Schala. Now he hides it, denies it,\nand shuts it from his thoughts.",
     "original_fr": "Ancien : Selon les sages, Janus recèlerait en lui un\npouvoir magique extraordinaire encore plus grand que\ncelui de mademoiselle Sarah.{WAIT_KEY}\nCependant, il déteste ce pouvoir qui rend la reine folle\net fait souffrir mademoiselle Sarah. C'est pourquoi il le\nrefoule et a fermé son c{TAG:61}ur aux autres.",
-    "translation": "Старейшина: Гуру Жизни говорил, что лорд Янус\nнаделён силой даже большей, чем Шала.{WAIT_KEY}\nНо Королева сошла с ума, и юный лорд\nвозненавидел свой дар. Теперь он скрывает силу и\nзакрыл своё сердце."
+    "translation": "Старейшина: Гуру Жизни говорил, что лорд Янус\nнаделён силой даже большей, чем Шала.{WAIT_KEY}Но Королева сошла с ума, и юный лорд\nвозненавидел свой дар. Теперь он скрывает силу и\nзакрыл своё сердце."
   },
   {
     "id": 64,
@@ -507,7 +507,7 @@
     "id": 84,
     "original_en": "Melchior: Indeed, I am none other.\nBut how do you know my name?\nI do not believe we've met.{WAIT_KEY}\nMore pressingly, what of the Queen and\nthe Ocean Palace? Do you know what has\nhappened?",
     "original_fr": "Bosch : Effectivement, je m'appelle Bosch... Mais\npourquoi connaissez-vous mon nom ? Je ne me\nsouviens pas vous avoir déj{TAG:3C} rencontrés.{WAIT_KEY}\nToutefois, ce qui m'importe le plus est de savoir ce\nqu'il en est de la reine et des plans pour le sanctuaire\nsous-marin. ätes-vous au courant de la situation ?",
-    "translation": "Мельхиор: Да, это действительно я. Но откуда вы\nзнаете моё имя? Не припомню, чтобы мы\nвстречались.{WAIT_KEY}\nНо важнее другое: что с Королевой и Океанским\nдворцом? Вам известно, что произошло?"
+    "translation": "Мельхиор: Да, это действительно я. Но откуда вы\nзнаете моё имя? Не припомню, чтобы мы\nвстречались.{WAIT_KEY}Но важнее другое: что с Королевой и Океанским\nдворцом? Вам известно, что произошло?"
   },
   {
     "id": 85,
@@ -519,7 +519,7 @@
     "id": 86,
     "original_en": "Melchior: It seems the more energy the\nMammon Machine absorbs, the further the\nQueen descends into madness.{WAIT_KEY}\nThe immortal Lavos is overtaking her soul\nfrom within his slumber beneath the waves.",
     "original_fr": "Bosch : Plus la quantité d'énergie que le réceptacle\nsacré absorbe augmente, plus la reine perd la raison...{WAIT_KEY}\nSon {TAG:4A}me est engloutie par Lavos, le dieu éternel qui\nsommeille au fond de l'océan...",
-    "translation": "Мельхиор: Чем больше энергии поглощает Машина\nМаммона, тем глубже Королева погружается в\nбезумие.{WAIT_KEY}\nБессмертный Лавос подчиняет её душу, пока сам\nдремлет на дне морском."
+    "translation": "Мельхиор: Чем больше энергии поглощает Машина\nМаммона, тем глубже Королева погружается в\nбезумие.{WAIT_KEY}Бессмертный Лавос подчиняет её душу, пока сам\nдремлет на дне морском."
   },
   {
     "id": 87,
@@ -531,7 +531,7 @@
     "id": 88,
     "original_en": "Melchior: Lavos sleeps deep underground,\nconsuming the energy of this planet.{WAIT_KEY}\nBrought so near, the Mammon Machine could\nvery well awaken him!",
     "original_fr": "Bosch : Lavos dévore la planète tout en sommeillant au\nfond de l'océan.{WAIT_KEY}\nInstaller le réceptacle sacré si près de lui dans le\nsanctuaire sous-marin pourrait le réveiller !",
-    "translation": "Мельхиор: Лавос спит глубоко под землёй, пожирая\nэнергию нашей планеты.{WAIT_KEY}\nМашина Маммона так близко к нему, что может\nразбудить его в любой миг!"
+    "translation": "Мельхиор: Лавос спит глубоко под землёй, пожирая\nэнергию нашей планеты.{WAIT_KEY}Машина Маммона так близко к нему, что может\nразбудить его в любой миг!"
   },
   {
     "id": 89,
@@ -573,13 +573,13 @@
     "id": 95,
     "original_en": "Schala: Do not degrade yourselves.\nWe Enlightened Ones were once the same as you.{WAIT_KEY}\nThe only difference is that we are now puppets\nof Lavos.",
     "original_fr": "Sarah : Je vous en prie, cessez de vous dénigrer...\nLes illuminés étaient autrefois comme les terriens.\nAujourd'hui, la puissance de Lavos attise notre soif\nde pouvoir et voile notre jugement...",
-    "translation": "Шала: Не унижайте себя. Просвещённые когда-то\nбыли такими же, как вы.{WAIT_KEY}\nНо теперь мы стали марионетками Лавоса."
+    "translation": "Шала: Не унижайте себя. Просвещённые когда-то\nбыли такими же, как вы.{WAIT_KEY}Но теперь мы стали марионетками Лавоса."
   },
   {
     "id": 96,
     "original_en": "Schala: Melchior...\nWhen the Mountain fell, I knew I would find you here.{WAIT_KEY}\nMelchior: But is it safe for you to leave the palace?",
     "original_fr": "Sarah : Bosch... Je pensais bien vous trouver ici après\nla chute du mont du tourment.{WAIT_KEY}\nBosch : Avez-vous la permission de sortir du palais ?",
-    "translation": "Шала: Мельхиор... Когда Гора пала, я знала, что\nнайду вас здесь.{WAIT_KEY}\nМельхиор: Но безопасно ли вам покидать дворец?"
+    "translation": "Шала: Мельхиор... Когда Гора пала, я знала, что\nнайду вас здесь.{WAIT_KEY}Мельхиор: Но безопасно ли вам покидать дворец?"
   },
   {
     "id": 97,
@@ -609,7 +609,7 @@
     "id": 101,
     "original_en": "Schala: Dalton!{WAIT_KEY}\nDalton: It would be quite an...inconvenience\nif you failed to activate the machine.",
     "original_fr": "Sarah : Dalton !{WAIT_KEY}\nDalton : Il serait f{TAG:4A}cheux que vous refusiez de faire\nfonctionner le réceptacle sacré, ma chère Sarah.",
-    "translation": "Шала: Далтон!{WAIT_KEY}\nДалтон: Было бы весьма... прискорбно, если б вы\nотказались запустить машину."
+    "translation": "Шала: Далтон!{WAIT_KEY}Далтон: Было бы весьма... прискорбно, если б вы\nотказались запустить машину."
   },
   {
     "id": 102,
@@ -873,7 +873,7 @@
     "id": 145,
     "original_en": "Ozzie: Welcome and well met!\nThis's the great Ozzie's—{WAIT_KEY}\nWhat!?",
     "original_fr": "Vinnie : Bienvenue au manoir du Grand Vinnie,\nle Magistère !\n...{WAIT_KEY}{GLYPH:384}\n\n?!",
-    "translation": "Оззи: Добро пожаловать! Перед вами великий Оззи...{WAIT_KEY}\nЧто?!"
+    "translation": "Оззи: Добро пожаловать! Перед вами великий Оззи...{WAIT_KEY}Что?!"
   },
   {
     "id": 146,
@@ -933,7 +933,7 @@
     "id": 155,
     "original_en": "Ozzie: Arise, my fearsome guardians!{WAIT_KEY}\nSlash 'em to shreds! No one's taking back the treasure\nI stole fair and square from {MAGUS}'s keep!",
     "original_fr": "Vinnie : Venez, mes serviteurs !{WAIT_KEY}\nMettez en pièces les personnes qui essaient de voler le\ntrésor que j'ai rapporté du palais du Magistère !",
-    "translation": "Оззи: Восстаньте, грозные стражи!{WAIT_KEY}\nВ клочья их! Никто не отнимет сокровища, что я\nчестно увёл из замка, где правил {MAGUS}!"
+    "translation": "Оззи: Восстаньте, грозные стражи!{WAIT_KEY}В клочья их! Никто не отнимет сокровища, что я\nчестно увёл из замка, где правил {MAGUS}!"
   },
   {
     "id": 156,
@@ -957,7 +957,7 @@
     "id": 159,
     "original_en": "Ozzie: You pesky low-down good-for-nothings!\nCan't take a hint, eh?{WAIT_KEY}\nGuess I know what I have to do now!",
     "original_fr": "Vinnie : Vous commencez {TAG:3C} m'embêter sérieusement !{WAIT_KEY}\nSi c'est comme ça...",
-    "translation": "Оззи: Ах вы, приставучие ничтожества! Никак не\nуймётесь?{WAIT_KEY}\nЧто ж, я знаю, что делать!"
+    "translation": "Оззи: Ах вы, приставучие ничтожества! Никак не\nуймётесь?{WAIT_KEY}Что ж, я знаю, что делать!"
   },
   {
     "id": 160,
@@ -1017,7 +1017,7 @@
     "id": 169,
     "original_en": "Ozzie: D-don't you people ever give up?{WAIT_KEY}\nWell, looks like there's only one choice...",
     "original_fr": "Vinnie : Vous m'avez encore suivi ?{WAIT_KEY}\nVous l'aurez voulu...",
-    "translation": "Оззи: Д-да вы вообще когда-нибудь отстанете?!{WAIT_KEY}\nЧто ж, выбор у меня невелик..."
+    "translation": "Оззи: Д-да вы вообще когда-нибудь отстанете?!{WAIT_KEY}Что ж, выбор у меня невелик..."
   },
   {
     "id": 170,
@@ -1131,7 +1131,7 @@
     "id": 188,
     "original_en": "Ozzie: {MAGUS}... You really have it out for\nme, don't you? We fought side by side!\nYou said you wanted to create a world for fiends!\nIt was all a lie, wasn't it? You used me!{WAIT_KEY}\n{MAGUS}: I sought power, nothing more.\nSurely the howling of those bitter winds\ndoes not escape your ear?\nThe end draws nigh.",
     "original_fr": "Vinnie : {MAGUS}... Tiens-tu tant {TAG:3C} me vaincre ?\nTu nous as donc menti quand tu disais vouloir\ncréer un monde meilleur pour les mystiques ?!{WAIT_KEY}\n{MAGUS} : Tsst ! Je voulais plus de pouvoir, voil{TAG:3C}\ntout. Tu peux les entendre, toi aussi, n'est-ce pas ?\nLes hurlements du vent sombre...",
-    "translation": "Оззи: {MAGUS}... Ты ополчился на меня? А ведь мы\nдрались плечом к плечу! Ты обещал мир! Всё было\nложью? Ты использовал меня!{WAIT_KEY}\n{MAGUS}: Я искал лишь силу, ничего более. Неужто ты\nне слышишь вой зловещих ветров? Конец уже близок."
+    "translation": "Оззи: {MAGUS}... Ты ополчился на меня? А ведь мы\nдрались плечом к плечу! Ты обещал мир! Всё было\nложью? Ты использовал меня!{WAIT_KEY}{MAGUS}: Я искал лишь силу, ничего более. Неужто ты\nне слышишь вой зловещих ветров? Конец уже близок."
   },
   {
     "id": 189,

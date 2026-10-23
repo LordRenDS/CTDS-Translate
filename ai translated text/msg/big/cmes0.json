@@ -111,7 +111,7 @@
     "id": 18,
     "original_en": "{MARLE}: He...he's great.{WAIT_KEY}\nB-better than great.",
     "original_fr": "{MARLE} : Euh... oui, il va bien.",
-    "translation": "{MARLE}: Он... он замечательный.{WAIT_KEY}\nЛ-лучше не бывает."
+    "translation": "{MARLE}: Он... он замечательный.{WAIT_KEY}Л-лучше не бывает."
   },
   {
     "id": 19,
@@ -135,7 +135,7 @@
     "id": 22,
     "original_en": "{AYLA}: ...{WAIT_KEY}\n{GLYPH:392}...okay.",
     "original_fr": "{AYLA} : ...{WAIT_KEY}\n{GLYPH:392}... bien.",
-    "translation": "{AYLA}: ...{WAIT_KEY}\n{GLYPH:392}... ладно."
+    "translation": "{AYLA}: ...{WAIT_KEY}{GLYPH:392}... ладно."
   },
   {
     "id": 23,
@@ -423,7 +423,7 @@
     "id": 70,
     "original_en": "Elaine: If only my dear Fritz would return...\nI'd ask for nothing more. He left on a journey,\nand he's not yet returned.",
     "original_fr": "îlaine : Fritz, mon fiancé, n'est toujours pas rentré de\nvoyage... Je donnerais tout pour être {TAG:3C} ses côtés.\nJe n'ai besoin de rien d'autre que lui...",
-    "translation": "Погоди минутку, слышишь?\nМузыка! Должно быть, уже началась\nЯрмарка тысячелетия!"
+    "translation": "Погоди минутку, слышишь? Музыка! Должно быть,\nуже началась Ярмарка тысячелетия!"
   },
   {
     "id": 71,
@@ -441,7 +441,7 @@
     "id": 73,
     "original_en": "The fare to Porre is 10 G.\nWill you be going?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous aller {TAG:3C} Palpori ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Стоимость проезда до Порре\n— 10 З. Вы поедете?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Стоимость проезда до Порре — 10 З. Вы поедете?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 74,
@@ -465,7 +465,7 @@
     "id": 77,
     "original_en": "Incredible, isn't it? The shops, the events—I've\nnever seen a festival like it!",
     "original_fr": "C'est formidable, hein ? On y vend tout plein de trucs\ndifférents et il y a tellement d'attractions ! Un vrai\nfestival !",
-    "translation": "Невероятно, правда? Магазины, развлечения —\nя никогда не видел такого фестиваля!"
+    "translation": "Невероятно, правда? Магазины, развлечения — я\nникогда не видел такого фестиваля!"
   },
   {
     "id": 78,
@@ -693,7 +693,7 @@
     "id": 115,
     "original_en": "Hold down the L Button and R Button to escape from\nbattle. He who fights and runs away lives to fight\nanother day!{WAIT_KEY}\nOf course, he who always runs away will never get\nany stronger, so don't flee from every battle just\nbecause you can.{WAIT_KEY}\nOh, and let me explain the Equipment menu, too.\nThe number next to the Sword icon indicates Attack.\nThe number beside the Shield icon indicates Defense.{WAIT_KEY}\nDefense represents how effectively physical attacks\ncan be resisted. Magic Defense, on the other hand,\nis used to resist magical attacks.{WAIT_KEY}\nIf your Magic Defense is 40, for example,\nmagic damage dealt to you will be reduced\nby 40%.{WAIT_KEY}\nStars in place of a number beside any attribute\nmean that the attribute has reached its highest\npossible value.",
     "original_fr": "Maintenez le bouton R et le bouton L appuyés pour fuir\nun combat. Il est parfois important de le faire. Un repli\nstratégique, en quelque sorte !{WAIT_KEY}\nMais attention, si vous ne faites que fuir, vous\nresterez faible et ne deviendrez jamais plus fort.{WAIT_KEY}\nEt maintenant, je vais vous donner un peu plus\nd'informations au sujet du menu d'équipement.{WAIT_KEY}\nLe nombre après l'icône en forme d'épée indique votre\nattaque, alors que celui après l'icône en forme de\nbouclier représente votre défense.{WAIT_KEY}\nLa défense influe sur les dég{TAG:4A}ts que vous subissez\ndes attaques physiques.{WAIT_KEY}\nPour vous défendre contre les sorts, vous avez besoin\nde défense magique. Par exemple, si vous avez une\ndéfense magique de 40, les dég{TAG:4A}ts infligés par les\nattaques magiques seront réduits de 40%.{WAIT_KEY}\nSi le nombre qui suit une caractéristique se transforme\nen étoiles, c'est qu'il a atteint le maximum.",
-    "translation": "Удерживайте кнопки L и R, чтобы выйти из\nсражения. Тот, кто бежит с поля боя, живёт,\nчтобы сражаться вновь!{WAIT_KEY}Конечно, тот, кто всегда убегает, никогда не\nстанет сильнее, так что не стоит бежать из\nкаждого боя только ради спасения.{WAIT_KEY}Ах да, объясню ещё работу меню «Снаряжение».\nЧисло рядом со значком меча означает атаку,\nа число рядом со значком щита — защиту.{WAIT_KEY}Защита показывает, насколько эффективно\nвы выдерживаете физические атаки. Магическая\nзащита отражает заклинания врагов.{WAIT_KEY}Если магическая защита равна 40, урон от магии,\nнаносимый вам, будет уменьшен на 40%.{WAIT_KEY}Звёздочки вместо числа у любого параметра\nозначают, что он достиг максимального\nвозможного значения."
+    "translation": "Удерживайте кнопки L и R, чтобы выйти из\nсражения. Тот, кто бежит с поля боя, живёт, чтобы\nсражаться вновь!{WAIT_KEY}Конечно, тот, кто всегда убегает, никогда не\nстанет сильнее, так что не стоит бежать из\nкаждого боя только ради спасения.{WAIT_KEY}Ах да, объясню ещё работу меню «Снаряжение».\nЧисло рядом со значком меча означает атаку, а\nчисло рядом со значком щита — защиту.{WAIT_KEY}Защита показывает, насколько эффективно вы\nвыдерживаете физические атаки. Магическая\nзащита отражает заклинания врагов.{WAIT_KEY}Если магическая защита равна 40, урон от магии,\nнаносимый вам, будет уменьшен на 40%.{WAIT_KEY}Звёздочки вместо числа у любого параметра\nозначают, что он достиг максимального\nвозможного значения."
   },
   {
     "id": 116,
@@ -741,7 +741,7 @@
     "id": 123,
     "original_en": "Fritz: Now, {CRONO}, down to business.\nPlease, won't you buy something?",
     "original_fr": "Fritz : Bon, {CRONO} ! Les affaires sont les affaires !\nQue diriez-vous de faire quelques achats ?",
-    "translation": "Фриц: Ну что ж, {CRONO}, перейдём к\nделу. Пожалуйста, может, купишь что-нибудь?"
+    "translation": "Фриц: Ну что ж, {CRONO}, перейдём к делу.\nПожалуйста, может, купишь что-нибудь?"
   },
   {
     "id": 124,
@@ -825,7 +825,7 @@
     "id": 137,
     "original_en": "Where are you, you say? You some sort of simpleton?\nEven a half-wit should know this land for Guardia!{WAIT_KEY}\nOur kingdom wages war with the Fiendlord's army day\nand night, fighting to restore the realm's peace.",
     "original_fr": "{TAG:64} Où sommes-nous ? {TAG:65} Quelle question stupide !\nDans le royaume de Gardia, pardi !{WAIT_KEY}\nNous nous battons jour et nuit contre l'armée du\nMagistère pour rétablir la paix !",
-    "translation": "Где ты, говоришь? Ты что, какой-то простак? Даже\nполуидиот должен знать, что эта земля — Гардия!{WAIT_KEY}Наше королевство ведёт войну с армией Повелителя\nДемонов день и ночь, сражаясь за\nвосстановление мира в королевстве."
+    "translation": "Где ты, говоришь? Ты что, какой-то простак? Даже\nполуидиот должен знать, что эта земля — Гардия!{WAIT_KEY}Наше королевство ведёт войну с армией Повелителя\nДемонов день и ночь, сражаясь за восстановление\nмира в королевстве."
   },
   {
     "id": 138,
@@ -915,7 +915,7 @@
     "id": 152,
     "original_en": "Rooms are 10 G for the night.\nWill you be staying?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Ночлег стоит 10 З\nза ночь. Желаете остановиться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Ночлег стоит 10 З за ночь. Желаете остановиться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 153,
@@ -1035,7 +1035,7 @@
     "id": 172,
     "original_en": "{MARLE}: Enough already! I'm a princess, but what's\nthat mean? I can't do anything special.{WAIT_KEY}\nBut you—you're incredible!\nI'd trade my name for your genius in a heartbeat!",
     "original_fr": "{MARLE} : Allez, tu peux me tutoyer ! Et puis, tu es\nun génie, {LUCCA}. Je suis peut-être une princesse,\nmais je n'ai pas de talent particulier.",
-    "translation": "{MARLE}: Да хватит уже! Ну принцесса я, и что\nс того? Я ведь ничего особенного не умею.{WAIT_KEY}\nА вот ты — невероятная! Я бы не задумываясь\nпроменяла свой титул на твой гений!"
+    "translation": "{MARLE}: Да хватит уже! Ну принцесса я, и что с\nтого? Я ведь ничего особенного не умею.{WAIT_KEY}А вот ты — невероятная! Я бы не задумываясь\nпроменяла свой титул на твой гений!"
   },
   {
     "id": 173,
@@ -1341,7 +1341,7 @@
     "id": 223,
     "original_en": "Shall I teach you the basics of battle\ncommands?\n{TAG:38}{TAG:38}{GLYPH:394}Yes, please.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Maybe later.{GLYPH:397}",
     "original_fr": "Voulez-vous que je vous explique les commandes de\nbase des combats ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Хочешь, я обучу\nтебя основам боевых команд?\n{TAG:38}{TAG:38}{GLYPH:394}Да, пожалуйста.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Может, позже.{GLYPH:397}"
+    "translation": "Хочешь, я обучу тебя основам боевых команд?\n{TAG:38}{TAG:38}{GLYPH:394}Да, пожалуйста.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Может, позже.{GLYPH:397}"
   },
   {
     "id": 224,
@@ -1359,7 +1359,7 @@
     "id": 226,
     "original_en": "\"A Treatise on Game Modes.\"\nRead the document?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous lire le rapport intitulé\n{TAG:64} Les modes de combat {TAG:65} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "«О режимах игры».\nПрочесть этот документ?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "«О режимах игры». Прочесть этот документ?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 227,

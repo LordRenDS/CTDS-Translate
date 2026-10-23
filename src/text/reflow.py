@@ -383,7 +383,7 @@ def format_choice_block(
     first_m = matches[0]
     prompt_raw = subpage[: first_m.start()]
 
-    m_indent = re.search(r"((?:\{TAG:38\}|\s)+)$", prompt_raw)
+    m_indent = re.search(r"((?:\{TAG:38\}|®|\s)+)$", prompt_raw)
     if m_indent:
         indent_raw = m_indent.group(1)
         prompt_text = prompt_raw[: m_indent.start()]
@@ -394,6 +394,8 @@ def format_choice_block(
     prompt_clean = prompt_text.strip()
     if "{TAG:38}" in indent_raw:
         indent = "{TAG:38}{TAG:38}"
+    elif "®" in indent_raw:
+        indent = "®®"
     elif len(indent_raw.strip(" \t")) == 0 and len(indent_raw) >= 2:
         indent = indent_raw.rstrip("\r\n")
     elif prompt_clean:

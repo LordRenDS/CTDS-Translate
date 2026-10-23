@@ -9,7 +9,7 @@
     "id": 1,
     "original_en": "...that we might reclaim the future for ourselves,\nin Your name.{WAIT_KEY}\nOh, how delicious—I mean, delightful-looking you are!",
     "original_fr": "Nous prions pour qu'un jour, bientôt, nous puissions\nrétablir notre avenir... Oh, comme vous avez l'air déli...{WAIT_KEY}\nEuh, ce n'est rien. Ho, ho, ho, ho.",
-    "translation": "...дабы мы вернули будущее во имя Твоё.{WAIT_KEY}\nОй, как же аппетитно — то есть прелестно вы\nвыглядите!"
+    "translation": "...дабы мы вернули будущее во имя Твоё.{WAIT_KEY}Ой, как же аппетитно — то есть прелестно вы\nвыглядите!"
   },
   {
     "id": 2,
@@ -63,13 +63,13 @@
     "id": 10,
     "original_en": "You've come to save the Queen?{WAIT_KEY}\nThe fiends' lair lies within, it would seem.\nWill you accompany me?",
     "original_fr": "ätes-vous vous aussi venus porter secours {TAG:3C} la reine ?{WAIT_KEY}\nOn dirait que cet endroit est le nid des monstres.\nQue diriez-vous de m'accompagner ?",
-    "translation": "Вы пришли спасти Королеву?{WAIT_KEY}\nПохоже, логово тварей внутри. Пойдёте со мной?"
+    "translation": "Вы пришли спасти Королеву?{WAIT_KEY}Похоже, логово тварей внутри. Пойдёте со мной?"
   },
   {
     "id": 11,
     "original_en": "{LUCCA}: You... You're a...{WAIT_KEY}\n{CRONO}, it's a giant talking frog!\nYou...you know I can't stand frogs!",
     "original_fr": "{LUCCA} : C'est une...?!{WAIT_KEY}\n{CRONO}, tu sais bien que je ne supporte pas les\ngrenouilles...!",
-    "translation": "{LUCCA}: Ты... Ты...{WAIT_KEY}\n{CRONO}, это гигантская говорящая лягушка! Ты... ты\nже знаешь, я терпеть не могу лягушек!"
+    "translation": "{LUCCA}: Ты... Ты...{WAIT_KEY}{CRONO}, это гигантская говорящая лягушка! Ты... ты\nже знаешь, я терпеть не могу лягушек!"
   },
   {
     "id": 12,
@@ -141,7 +141,7 @@
     "id": 23,
     "original_en": "In this world, there are no rains that fail to\nlift—no nights that are not dispelled by dawn.{WAIT_KEY}\nWhat's important is to trust in those you love,\nand never to abandon hope.{WAIT_KEY}\nThat person you cherish is no doubt watching over\nyou from some distant place.",
     "original_fr": "Dans ce monde, il n'y a pas de pluie éternelle, et même\nla nuit la plus noire finit par voir la lueur de l'aube.{WAIT_KEY}\nL'important est de croire en ceux qui vous sont chers\net de ne jamais abandonner.{WAIT_KEY}\nJe suis certaine que ceux qui vous aiment, où qu'ils\nsoient, veillent sur vous.",
-    "translation": "В этом мире нет дождя, который бы не кончился —\nи нет ночи, которую не сменил бы рассвет.{WAIT_KEY}\nГлавное — верить в тех, кого любишь, и никогда не\nтерять надежду.{WAIT_KEY}\nТот, кто тебе дорог, непременно оберегает тебя\nоткуда-то издалека."
+    "translation": "В этом мире нет дождя, который бы не кончился —\nи нет ночи, которую не сменил бы рассвет.{WAIT_KEY}Главное — верить в тех, кого любишь, и никогда не\nтерять надежду.{WAIT_KEY}Тот, кто тебе дорог, непременно оберегает тебя\nоткуда-то издалека."
   },
   {
     "id": 24,
@@ -165,7 +165,7 @@
     "id": 27,
     "original_en": "Zzz... Zzz...{WAIT_KEY}\nNo... Stop that, you idiot...\nI said a million times, that one's just a decoy...",
     "original_fr": "Zzz... Zzz...{WAIT_KEY}\nNon, pas ça, idiot... Je t'ai pourtant dit que ce n'était\npas un vrai...",
-    "translation": "Хр-р... Хр-р...{WAIT_KEY}\nНет... Прекрати, идиот... Я же миллион раз повторял\n— это просто приманка..."
+    "translation": "Хр-р... Хр-р...{WAIT_KEY}Нет... Прекрати, идиот... Я же миллион раз повторял\n— это просто приманка..."
   },
   {
     "id": 28,
@@ -297,13 +297,13 @@
     "id": 49,
     "original_en": "The Hero has come at last?{WAIT_KEY}\nThen I suppose it is only a matter of time before\nthe epic battle begins.",
     "original_fr": "Alors il para¡t que le héros légendaire est apparu ?{WAIT_KEY}\nLe moment du combat qui entrera dans l'histoire est\ndonc finalement arrivé...",
-    "translation": "Герой наконец-то явился?{WAIT_KEY}\nЗначит, великая битва — лишь вопрос времени."
+    "translation": "Герой наконец-то явился?{WAIT_KEY}Значит, великая битва — лишь вопрос времени."
   },
   {
     "id": 50,
     "original_en": "Peace at last, thanks be to the Hero!{WAIT_KEY}\nHurrah for the Hero!\nHurrah for Guardia!",
     "original_fr": "On dirait bien que la paix sera enfin rétablie, et ce,\ngr{TAG:4A}ce au héros.{WAIT_KEY}\nVive le héros ! Vive le royaume de Gardia !",
-    "translation": "Мир наконец настал, хвала Герою!{WAIT_KEY}\nДа здравствует Герой! Слава Гардии!"
+    "translation": "Мир наконец настал, хвала Герою!{WAIT_KEY}Да здравствует Герой! Слава Гардии!"
   },
   {
     "id": 51,
@@ -315,13 +315,13 @@
     "id": 52,
     "original_en": "Is it true that His Majesty suffered injury?{WAIT_KEY}\nOh, what will become of us and our kingdom now?",
     "original_fr": "Les rumeurs racontent que le roi a été blessé...\nEst-ce vrai ?{WAIT_KEY}\nOh, qu'adviendra-t-il de notre royaume ? Qu'allons-nous\ndevenir ?",
-    "translation": "Правда ли, что Его Величество ранен?{WAIT_KEY}\nОх, что же теперь станет с нами и нашим\nкоролевством?"
+    "translation": "Правда ли, что Его Величество ранен?{WAIT_KEY}Ох, что же теперь станет с нами и нашим\nкоролевством?"
   },
   {
     "id": 53,
     "original_en": "Oh, where could Sir Cyrus be?{WAIT_KEY}\nSurely he hasn't deserted the kingdom?",
     "original_fr": "Ah, où est donc sire Cyrus ?{WAIT_KEY}\nNon... Il ne se serait tout de même pas enfui,\nabandonnant notre royaume ?",
-    "translation": "Ох, где же сэр Сайрус?{WAIT_KEY}\nОн ведь не мог бросить королевство на произвол\nсудьбы?"
+    "translation": "Ох, где же сэр Сайрус?{WAIT_KEY}Он ведь не мог бросить королевство на произвол\nсудьбы?"
   },
   {
     "id": 54,
@@ -333,13 +333,13 @@
     "id": 55,
     "original_en": "I heard talk that the Hero was Sir Cyrus's friend.{WAIT_KEY}\nAh, he must be a truly handsome knight!",
     "original_fr": "On dit que le héros actuel était un ami de sire Cyrus.{WAIT_KEY}\nAh, je suis certaine qu'il est un magnifique chevalier !",
-    "translation": "Поговаривают, Герой был другом сэра Сайруса.{WAIT_KEY}\nАх, он наверняка писаный красавец-рыцарь!"
+    "translation": "Поговаривают, Герой был другом сэра Сайруса.{WAIT_KEY}Ах, он наверняка писаный красавец-рыцарь!"
   },
   {
     "id": 56,
     "original_en": "{FROG}: ...{WAIT_KEY}\n...",
     "original_fr": "{FROG} : ...{WAIT_KEY}\n...",
-    "translation": "{FROG}: ...{WAIT_KEY}\n..."
+    "translation": "{FROG}: ...{WAIT_KEY}..."
   },
   {
     "id": 57,
@@ -351,7 +351,7 @@
     "id": 58,
     "original_en": "Mother says I'm not to play outside because it's\ndangerous with all the monsters.{WAIT_KEY}\nI'm so bored!",
     "original_fr": "Maman dit que je peux pas jouer dehors parce qu'il y a\nbeaucoup de monstres près d'ici.{WAIT_KEY}\nJe m'ennuie !",
-    "translation": "Мама запрещает мне играть на улице: говорит, там\nопасно из-за чудовищ.{WAIT_KEY}\nМне так скучно!"
+    "translation": "Мама запрещает мне играть на улице: говорит, там\nопасно из-за чудовищ.{WAIT_KEY}Мне так скучно!"
   },
   {
     "id": 59,
@@ -363,13 +363,13 @@
     "id": 60,
     "original_en": "That {MAGUS} survived and is in hiding now,\nso I hear.{WAIT_KEY}\nWe cannot let that fiend escape!\nThink of all the soldiers who fell.",
     "original_fr": "Il para¡t que le Magistère est toujours en vie et se\ncache quelque part...{WAIT_KEY}\nAu nom de tous les soldats qui ont péri au combat,\non ne peut pas le laisser s'échapper !",
-    "translation": "Слыхал я, будто {MAGUS} выжил и затаился.{WAIT_KEY}\nНельзя дать злодею уйти! Подумайте о павших\nвоинах!"
+    "translation": "Слыхал я, будто {MAGUS} выжил и затаился.{WAIT_KEY}Нельзя дать злодею уйти! Подумайте о павших\nвоинах!"
   },
   {
     "id": 61,
     "original_en": "This house belongs to Dorino's village elder.{WAIT_KEY}\nMy, that is unusual garb you wear!\nAre you outlanders?\nDid you come fleeing {MAGUS}'s fiends, too?",
     "original_fr": "Bienvenue {TAG:3C} la maison du maire de San Dorino.{WAIT_KEY}\nVous n'avez pas l'air d'être de la région. Avez-vous été\nchassés de votre contrée par l'armée du Magistère ?",
-    "translation": "Это дом старосты деревни Дорино.{WAIT_KEY}\nОго, какие у вас необычные наряды! Вы\nчужеземцы? Тоже спасаетесь от орд, что ведёт\n{MAGUS}?"
+    "translation": "Это дом старосты деревни Дорино.{WAIT_KEY}Ого, какие у вас необычные наряды! Вы\nчужеземцы? Тоже спасаетесь от орд, что ведёт\n{MAGUS}?"
   },
   {
     "id": 62,
@@ -381,13 +381,13 @@
     "id": 63,
     "original_en": "{MAGUS} commands three fearsome generals:\nOzzie, Flea, and Slash.{WAIT_KEY}\nBest stay far away from the lot of them.\nThere's not a drop of humanity to be found\namongst them—they're fiends through and\nthrough.",
     "original_fr": "Le Magistère a trois terribles serviteurs : Vinnie, Mayo\net Soja.{WAIT_KEY}\nDans la mesure du possible, vous feriez mieux de ne pas\navoir affaire {TAG:3C} eux. Ce sont des monstres sans c{TAG:61}ur.",
-    "translation": "{MAGUS} командует тремя грозными генералами:\nОззи, Фли и Слэшем.{WAIT_KEY}\nДержитесь от них подальше. В них нет ни капли\nчеловечности — они чудовища до мозга костей."
+    "translation": "{MAGUS} командует тремя грозными генералами:\nОззи, Фли и Слэшем.{WAIT_KEY}Держитесь от них подальше. В них нет ни капли\nчеловечности — они чудовища до мозга костей."
   },
   {
     "id": 64,
     "original_en": "{MAGUS}'s three generals fled.\nI've heard they're hiding on some island.{WAIT_KEY}\nWill we never rid this world of evildoers?",
     "original_fr": "J'ai entendu dire que les trois serviteurs du Magistère\nse sont enfuis et se sont réfugiés sur une ¡le quelque\npart...{WAIT_KEY}\nNe serons-nous jamais débarrassés de ces sous-fifres\nmalfaisants...?",
-    "translation": "Все три генерала, которыми командовал {MAGUS},\nсбежали. Слышал, они прячутся на каком-то\nострове.{WAIT_KEY}\nНеужели наш мир никогда не избавится от злодеев?"
+    "translation": "Все три генерала, которыми командовал {MAGUS},\nсбежали. Слышал, они прячутся на каком-то\nострове.{WAIT_KEY}Неужели наш мир никогда не избавится от злодеев?"
   },
   {
     "id": 65,
@@ -405,19 +405,19 @@
     "id": 67,
     "original_en": "Behold!{WAIT_KEY}\nThe legendary Hero, sword in hand!{WAIT_KEY}\nAh...\nJust once, I wish I could be in the Hero's shoes!",
     "original_fr": "Regardez...!{WAIT_KEY}\nLe héros légendaire et sa fameuse épée !{WAIT_KEY}\nAh, j'aimerais tant qu'on parle de moi ainsi, ne serait-ce\nqu'une fois !",
-    "translation": "Взгляните!{WAIT_KEY}\nЛегендарный Герой с мечом в руке!{WAIT_KEY}\nАх... Хоть разок бы оказаться на его месте!"
+    "translation": "Взгляните!{WAIT_KEY}Легендарный Герой с мечом в руке!{WAIT_KEY}Ах... Хоть разок бы оказаться на его месте!"
   },
   {
     "id": 68,
     "original_en": "The Hero's here to save us!{WAIT_KEY}\nHe's strong and he'll stop all the bad monsters!",
     "original_fr": "Le héros est apparu !{WAIT_KEY}\nC'est un homme très très fort qui va battre les\nméchants pour nous !",
-    "translation": "Герой пришёл спасти нас!{WAIT_KEY}\nОн сильный и накажет всех злых чудищ!"
+    "translation": "Герой пришёл спасти нас!{WAIT_KEY}Он сильный и накажет всех злых чудищ!"
   },
   {
     "id": 69,
     "original_en": "Village Elder: The item I seek is the mythical\nRainbow Shell.{WAIT_KEY}\nHere's some money to cover your expenses.\nYou'll have the rest when you've retrieved it.\nI am counting on you, Toma.",
     "original_fr": "Maire : Je veux que tu trouves le mythique coquillage\narc-en-ciel pour moi...{WAIT_KEY}\nVoici une avance. Je compte sur toi, Toma !",
-    "translation": "Староста: Предмет, который я ищу — мифическая\nРадужная раковина.{WAIT_KEY}\nВот деньги на расходы. Остальное получишь, когда\nдобудешь её. Я рассчитываю на тебя, Тома."
+    "translation": "Староста: Предмет, который я ищу — мифическая\nРадужная раковина.{WAIT_KEY}Вот деньги на расходы. Остальное получишь, когда\nдобудешь её. Я рассчитываю на тебя, Тома."
   },
   {
     "id": 70,
@@ -447,13 +447,13 @@
     "id": 74,
     "original_en": "Village Elder: With the Rainbow Shell, we could\nmake prismatic armor to guard against magic.{WAIT_KEY}\nYet I worry I may have misplaced my trust in that\nyoung man. He claims to be a great explorer, but\nwas I right to believe him?",
     "original_fr": "Maire : Si seulement nous avions le coquillage\narc-en-ciel, nous pourrions fabriquer d'incomparables\npièces d'équipement permettant de se protéger contre\nla magie.{WAIT_KEY}\nCependant, je me demande si j'ai bien fait de faire\nconfiance {TAG:3C} ce jeune blanc-bec... Il prétend être un\ngrand explorateur, mais...",
-    "translation": "Староста: С Радужной раковиной мы могли бы\nсоздать радужную броню для защиты от чар.{WAIT_KEY}\nНо боюсь, не зря ли я доверился этому юнцу. Он\nтвердит, что он великий исследователь, но стоило\nли ему верить?"
+    "translation": "Староста: С Радужной раковиной мы могли бы\nсоздать радужную броню для защиты от чар.{WAIT_KEY}Но боюсь, не зря ли я доверился этому юнцу. Он\nтвердит, что он великий исследователь, но стоило\nли ему верить?"
   },
   {
     "id": 75,
     "original_en": "Village Elder: Legendary explorer, he says.\nThe lying, no-good thief!{WAIT_KEY}\nHe used all the money, but still can't find\nwhat I asked for. He may as well have robbed\nme at knifepoint!",
     "original_fr": "Maire : Ce Toma n'est pas du tout un grand explorateur !\nIl n'est qu'un menteur et un imbécile !{WAIT_KEY}\nNon seulement il n'a pas trouvé ce que je lui avais\ndemandé, mais en plus il a dépensé toute l'avance\nque je lui avais donnée ! C'est un imposteur !",
-    "translation": "Староста: Легендарный исследователь, как же!\nЛживый, никчёмный воришка!{WAIT_KEY}\nСпустил все деньги, а раковину так и не нашёл! С\nтем же успехом мог бы просто ограбить меня!"
+    "translation": "Староста: Легендарный исследователь, как же!\nЛживый, никчёмный воришка!{WAIT_KEY}Спустил все деньги, а раковину так и не нашёл! С\nтем же успехом мог бы просто ограбить меня!"
   },
   {
     "id": 76,
@@ -489,7 +489,7 @@
     "id": 81,
     "original_en": "Are the rumors true?\nIs the Fiendlord's army truly closing in?{WAIT_KEY}\nWell, the mythical Hero has appeared, so I'm sure\nwe'll be all right!",
     "original_fr": "Les rumeurs racontent que l'armée du Magistère est sur\nle point de nous envahir. Je me demande si elles disent\nvrai...{WAIT_KEY}\nToutefois, le héros légendaire est apparu alors nous\nn'avons plus rien {TAG:3C} craindre, n'est-ce pas ?",
-    "translation": "Правду ли болтают? Неужто армия Владыки\nДемонов подступает?{WAIT_KEY}\nНо раз явился легендарный Герой, с нами всё будет\nв порядке!"
+    "translation": "Правду ли болтают? Неужто армия Владыки\nДемонов подступает?{WAIT_KEY}Но раз явился легендарный Герой, с нами всё будет\nв порядке!"
   },
   {
     "id": 82,
@@ -537,7 +537,7 @@
     "id": 89,
     "original_en": "Oh... I haven't met him, either.{WAIT_KEY}\nI wonder what the champion of the world looks like.\nI'm so thrilled to see!",
     "original_fr": "Ah bon... Moi non plus.{WAIT_KEY}\nJe me demande quelle sorte d'homme il peut bien être,\nce héros qui va sauver le monde... J'en ai les larmes\naux yeux !",
-    "translation": "Ох... Я тоже его ещё не видела.{WAIT_KEY}\nИнтересно, как выглядит спаситель нашего мира?\nТак не терпится увидеть!"
+    "translation": "Ох... Я тоже его ещё не видела.{WAIT_KEY}Интересно, как выглядит спаситель нашего мира?\nТак не терпится увидеть!"
   },
   {
     "id": 90,
@@ -561,7 +561,7 @@
     "id": 93,
     "original_en": "Proprietor: You're looking for the Hero?{WAIT_KEY}\nYou might have better luck down south, in the village\nof Porre. That's where they say he's from.",
     "original_fr": "Patron : Vous êtes {TAG:3C} la recherche du héros ?\nAlors allez au village de Palpori, au sud d'ici.{WAIT_KEY}\nOn dit que c'est {TAG:3C} cet endroit qu'il est apparu.",
-    "translation": "Трактирщик: Ищете Героя?{WAIT_KEY}\nПопробуйте поискать на юге, в деревне Порре.\nГоворят, он родом именно оттуда."
+    "translation": "Трактирщик: Ищете Героя?{WAIT_KEY}Попробуйте поискать на юге, в деревне Порре.\nГоворят, он родом именно оттуда."
   },
   {
     "id": 94,
@@ -573,25 +573,25 @@
     "id": 95,
     "original_en": "Proprietor: Ha!\n{MAGUS} is gone!{WAIT_KEY}\nNow there's nothing to fear!\nIt's time to celebrate!",
     "original_fr": "Patron : Ah, le Magistère a eu ce qu'il méritait !{WAIT_KEY}\nDésormais, nous pourrons boire en toute tranquillité !\nSanté !",
-    "translation": "Трактирщик: Ха! {MAGUS} повержен!{WAIT_KEY}\nТеперь бояться нечего! Время праздновать!"
+    "translation": "Трактирщик: Ха! {MAGUS} повержен!{WAIT_KEY}Теперь бояться нечего! Время праздновать!"
   },
   {
     "id": 96,
     "original_en": "Many people visit inns. If you're searching for someone,\ninns are a fine place to ask.{WAIT_KEY}\nBy the way, did you know whirlwind energy\nwill dissipate if it's hit with a wind slash?\nNature has a way of balancing things out.",
     "original_fr": "Toutes sortes de gens passent par l'auberge. Si vous\ncherchez quelqu'un, vous devriez sans doute vous\nadresser au patron.{WAIT_KEY}\nAu fait, saviez-vous que si vous utilisez une rafale\ncinglante, l'énergie tourbillonnante sera dissipée ?{WAIT_KEY}\nLa nature est constituée de l'équilibre et l'harmonie de\ntoutes choses.",
-    "translation": "В тавернах всегда людно. Если кого-то ищете,\nлучшего места для расспросов не найти.{WAIT_KEY}\nКстати, знаете ли вы, что вихревую энергию можно\nрассеять Ветряным разрезом? Природа всегда всё\nуравновешивает."
+    "translation": "В тавернах всегда людно. Если кого-то ищете,\nлучшего места для расспросов не найти.{WAIT_KEY}Кстати, знаете ли вы, что вихревую энергию можно\nрассеять Ветряным разрезом? Природа всегда всё\nуравновешивает."
   },
   {
     "id": 97,
     "original_en": "{MAGUS} is trying to summon a terrible evil.\nIf he succeeds, there will be no quarter for us.\nWe'll all perish.{WAIT_KEY}\nThat's why I mean to keep hiding in the bottom of this\nmug. Hic!",
     "original_fr": "On raconte que le Magistère tente de faire venir en ce\nmonde une puissance maléfique prodigieuse...{WAIT_KEY}\nS'il y parvient, nous périrons tous, peu importe où nous\nnous enfuirons...{WAIT_KEY}\nC'est pour cette raison que moi, j'ai décidé de fuir dans\nmon verre. Hic !",
-    "translation": "{MAGUS} пытается призвать ужасное зло. Если у него\nвыйдет, пощады не будет никому. Мы все погибнем.{WAIT_KEY}\nВот почему я предпочитаю прятаться на дне этой\nкружки. Ик!"
+    "translation": "{MAGUS} пытается призвать ужасное зло. Если у него\nвыйдет, пощады не будет никому. Мы все погибнем.{WAIT_KEY}Вот почему я предпочитаю прятаться на дне этой\nкружки. Ик!"
   },
   {
     "id": 98,
     "original_en": "{MAGUS}'s plan was thwarted. Now we should all be\nsafe no matter what we do!{WAIT_KEY}\nThat's why I mean to keep looking for paradise in the\nbottom of this mug. Hic!",
     "original_fr": "Il semble qu'on soit parvenu tant bien que mal {TAG:3C}\nempêcher le Magistère de créer cette créature\nmaléfique.{WAIT_KEY}\nDésormais, nous sommes en sécurité, peu importe où\nnous allons et peu importe ce que nous faisons !{WAIT_KEY}\nC'est pour cette raison que moi, j'irai au paradis en\nbuvant ! Hic !",
-    "translation": "{MAGUS} повержен! Теперь нам ничто не грозит, что\nбы ни случилось!{WAIT_KEY}\nВот почему я продолжу искать рай на дне этой\nкружки. Ик!"
+    "translation": "{MAGUS} повержен! Теперь нам ничто не грозит, что\nбы ни случилось!{WAIT_KEY}Вот почему я продолжу искать рай на дне этой\nкружки. Ик!"
   },
   {
     "id": 99,
@@ -651,7 +651,7 @@
     "id": 108,
     "original_en": "Toma: I'll be waiting to see you when all is through.\nTreat me to another round when next we meet!{WAIT_KEY}\nI promise I'll make it worth your while.\nHeh heh...",
     "original_fr": "Toma : Je vous attendrai... Â notre prochaine rencontre,\noffrez-moi un dernier verre.{WAIT_KEY}\nJe vous donnerai une bonne info... Hé, hé !",
-    "translation": "Тома: Буду ждать встречи, когда всё закончится.\nУгостишь меня ещё стаканчиком при встрече!{WAIT_KEY}\nОбещаю, ты не пожалеешь. Хе-хе..."
+    "translation": "Тома: Буду ждать встречи, когда всё закончится.\nУгостишь меня ещё стаканчиком при встрече!{WAIT_KEY}Обещаю, ты не пожалеешь. Хе-хе..."
   },
   {
     "id": 109,
@@ -687,7 +687,7 @@
     "id": 114,
     "original_en": "{FROG}: ...{WAIT_KEY}\nI see.",
     "original_fr": "{FROG} : ...{WAIT_KEY}\nJe vois...",
-    "translation": "{FROG}: ...{WAIT_KEY}\nПонимаю."
+    "translation": "{FROG}: ...{WAIT_KEY}Понимаю."
   },
   {
     "id": 115,
@@ -723,7 +723,7 @@
     "id": 120,
     "original_en": "{FROG}: To fight him would require the legendary\nMasamune, which is—no, it matters little.{WAIT_KEY}\nEven had I the blade, I've no right to wield it.",
     "original_fr": "{FROG} : Grandléon, l'épée légendaire nécessaire\npour combattre {MAGUS}, elle est... Peu importe.{WAIT_KEY}\nMême si je l'avais, je serais indigne de la manier.",
-    "translation": "{FROG}: Чтобы сразиться с ним, нужен легендарный\nклинок Масамунэ, а он... Впрочем, неважно.{WAIT_KEY}\nДаже будь он у меня, я недостоин держать его в\nруках."
+    "translation": "{FROG}: Чтобы сразиться с ним, нужен легендарный\nклинок Масамунэ, а он... Впрочем, неважно.{WAIT_KEY}Даже будь он у меня, я недостоин держать его в\nруках."
   },
   {
     "id": 121,
@@ -795,7 +795,7 @@
     "id": 132,
     "original_en": "{MARLE}: Melchior?\nThat guy from Medina Village?{WAIT_KEY}\nWhat does this mean, {CRONO}?",
     "original_fr": "{MARLE} : Bosch ? Notre Bosch ? Celui de Médina...?{WAIT_KEY}\nQu'est-ce que ça signifie, {CRONO} ?",
-    "translation": "{MARLE}: Мельхиор? Тот кузнец из деревни Медина?{WAIT_KEY}\nЧто всё это значит, {CRONO}?"
+    "translation": "{MARLE}: Мельхиор? Тот кузнец из деревни Медина?{WAIT_KEY}Что всё это значит, {CRONO}?"
   },
   {
     "id": 133,
@@ -831,13 +831,13 @@
     "id": 138,
     "original_en": "Glenn: Cyrus!\nYour sword...!{WAIT_KEY}\nThe Masamune!",
     "original_fr": "Glenn : Cyrus ! L'épée...?!{WAIT_KEY}\nGrandléon...!!",
-    "translation": "Гленн: Сайрус! Твой меч...!{WAIT_KEY}\nМасамунэ!"
+    "translation": "Гленн: Сайрус! Твой меч...!{WAIT_KEY}Масамунэ!"
   },
   {
     "id": 139,
     "original_en": "Ozzie: Gah ha ha...\nIs that the best you can do?{WAIT_KEY}\nWithout your sword, you're nothing!",
     "original_fr": "Vinnie : Mouah, ha, ha, ha ! Qu'y a-t-il ? Est-ce tout ce\ndont vous êtes capables ?{WAIT_KEY}\nMaintenant que l'épée légendaire est brisée, vous ne\npouvez plus rien contre nous !",
-    "translation": "Оззи: Га-ха-ха... И это всё, на что вы способны?{WAIT_KEY}\nБез своего меча ты — пустое место!"
+    "translation": "Оззи: Га-ха-ха... И это всё, на что вы способны?{WAIT_KEY}Без своего меча ты — пустое место!"
   },
   {
     "id": 140,
@@ -897,13 +897,13 @@
     "id": 149,
     "original_en": "Cyrus: Run...run, Glenn.{WAIT_KEY}\nThe Queen...\nTake care of...Queen Leene.\nI...beg...{WAIT_KEY}\n...",
     "original_fr": "Cyrus : Fuis... Glenn...{WAIT_KEY}\nLa reine... Protège... la reine Lynne...\nJe compte sur...{WAIT_KEY}\n...",
-    "translation": "Сайрус: Беги... беги, Гленн.{WAIT_KEY}\nКоролева... Защити... королеву Линн. Я... молю тебя...{WAIT_KEY}\n..."
+    "translation": "Сайрус: Беги... беги, Гленн.{WAIT_KEY}Королева... Защити... королеву Линн. Я... молю тебя...{WAIT_KEY}..."
   },
   {
     "id": 150,
     "original_en": "Glenn: Cyrus!\nCyrus!?{WAIT_KEY}\nNooooo!",
     "original_fr": "Glenn : Cy... Cyrus ?!{WAIT_KEY}\nCyrus !!",
-    "translation": "Гленн: Сайрус! Сайрус?!{WAIT_KEY}\nНе-е-ет!"
+    "translation": "Гленн: Сайрус! Сайрус?!{WAIT_KEY}Не-е-ет!"
   },
   {
     "id": 151,
@@ -963,7 +963,7 @@
     "id": 160,
     "original_en": "{FROG}: Ten long years have passed.{WAIT_KEY}\nHave I the strength?\nOh, Cyrus...",
     "original_fr": "{FROG} : 10 ans se sont déj{TAG:3C} écoulés depuis...{WAIT_KEY}\nPourrais-je y arriver...? Moi...?\nOh, Cyrus...",
-    "translation": "{FROG}: Минуло долгих десять лет.{WAIT_KEY}\nХватит ли мне сил? О, Сайрус..."
+    "translation": "{FROG}: Минуло долгих десять лет.{WAIT_KEY}Хватит ли мне сил? О, Сайрус..."
   },
   {
     "id": 161,
@@ -975,7 +975,7 @@
     "id": 162,
     "original_en": "{FROG}: I do not know how far my skills will\ncarry me, but I will put them to the test.\nLet us go to {MAGUS}'s keep.",
     "original_fr": "{FROG} : Je ne sais pas si j'arriverai {TAG:3C} le vaincre,\nmais... Allons ensemble au palais du Magistère.",
-    "translation": "{FROG}: Не ведаю, сколь далеко заведут меня мои\nумения, но я испытаю их в деле. Идём в замок,\nгде засел {MAGUS}."
+    "translation": "{FROG}: Не ведаю, сколь далеко заведут меня мои\nумения, но я испытаю их в деле. Идём в замок, где\nзасел {MAGUS}."
   },
   {
     "id": 163,
@@ -1017,25 +1017,25 @@
     "id": 169,
     "original_en": "That sure was an ugly fr—ahem.{WAIT_KEY}\nI meant, such a magnificent frog!\nSure to be a great hero or chancellor someday!",
     "original_fr": "Elle était vraiment monstrueuse, cette gren...\nEuh...{WAIT_KEY}\nJe veux dire, elle était vraiment magnifique, cette\ngrenouille. Elle deviendra s{TAG:63}rement un héros ou le\nchancelier un jour...!",
-    "translation": "Ну и уродливая же ляг... кхм.{WAIT_KEY}\nЯ хотел сказать, какая стать! В будущем\nнаверняка станет героем или канцлером!"
+    "translation": "Ну и уродливая же ляг... кхм.{WAIT_KEY}Я хотел сказать, какая стать! В будущем\nнаверняка станет героем или канцлером!"
   },
   {
     "id": 170,
     "original_en": "Proprietress: I've not seen little Tata lately.\nI wonder where he's gone off to.{WAIT_KEY}\nI suppose I should count my blessings.\nThings are a lot quieter without that\nbrat around causing trouble.",
     "original_fr": "Patronne : Je me demande où est passé Tarta.\nÇa fait un moment qu'on ne l'a pas vu...{WAIT_KEY}\nNéanmoins, sans ce petit polisson, je peux enfin\nrespirer.",
-    "translation": "Хозяйка: Что-то я давно не видела малыша Тату.\nКуда он запропастился?{WAIT_KEY}\nХотя радоваться надо — без этого сорванца и его\nпроделок стало куда спокойнее."
+    "translation": "Хозяйка: Что-то я давно не видела малыша Тату.\nКуда он запропастился?{WAIT_KEY}Хотя радоваться надо — без этого сорванца и его\nпроделок стало куда спокойнее."
   },
   {
     "id": 171,
     "original_en": "Proprietress: Tata came home, it seems.\nAnd here it was so peaceful in the village without him!{WAIT_KEY}\nBut I'm glad he's all right.\nI'd almost started to miss him, and he'd caused a lot\nof worry.",
     "original_fr": "Patronne : On dirait que Tarta est rentré. Le village\nétait pourtant si paisible, pendant son absence...{WAIT_KEY}\nToutefois, je suis heureuse qu'il soit sain et sauf.\nTout était un peu trop tranquille sans lui. Et puis,\nson père s'inquiétait tant {TAG:3C} son sujet...",
-    "translation": "Хозяйка: Кажется, Тата вернулся домой. А ведь в\nдеревне было так тихо без него!{WAIT_KEY}\nНо я рада, что с ним всё в порядке. Я даже скучать\nначала, да и шуму он наделал."
+    "translation": "Хозяйка: Кажется, Тата вернулся домой. А ведь в\nдеревне было так тихо без него!{WAIT_KEY}Но я рада, что с ним всё в порядке. Я даже скучать\nначала, да и шуму он наделал."
   },
   {
     "id": 172,
     "original_en": "Proprietress: I have a little dream of my own, you know.\nHee hee...{WAIT_KEY}\nI wonder if I could be a good mother to that boy?",
     "original_fr": "Patronne : Moi aussi, j'ai un rêve... Hi, hi...{WAIT_KEY}\nJe me demande si je pourrais être une bonne mère pour\nce petit...",
-    "translation": "Хозяйка: Знаете, у меня ведь тоже есть мечта.\nХи-хи...{WAIT_KEY}\nИнтересно, смогла бы я стать хорошей матерью\nэтому мальчугану?"
+    "translation": "Хозяйка: Знаете, у меня ведь тоже есть мечта.\nХи-хи...{WAIT_KEY}Интересно, смогла бы я стать хорошей матерью\nэтому мальчугану?"
   },
   {
     "id": 173,
@@ -1047,7 +1047,7 @@
     "id": 174,
     "original_en": "So, Tata was only a fraud after all.\nAlways causing trouble, that one.{WAIT_KEY}\nBut if he's not the Hero, then where's the real one?",
     "original_fr": "Je savais bien que Tarta n'était pas un vrai héros.\nCe n'est qu'un petit galopin !{WAIT_KEY}\nCependant, est-ce que ça veut dire qu'il existe un\nvéritable héros quelque part ?",
-    "translation": "Выходит, Тата всё-таки был самозванцем. Вечно\nот него одни неприятности.{WAIT_KEY}\nНо если он не Герой, то где же настоящий?"
+    "translation": "Выходит, Тата всё-таки был самозванцем. Вечно\nот него одни неприятности.{WAIT_KEY}Но если он не Герой, то где же настоящий?"
   },
   {
     "id": 175,
@@ -1089,13 +1089,13 @@
     "id": 181,
     "original_en": "Have you heard about the Magic Cave?\nThe one east of the Denadoro Mountains?{WAIT_KEY}\nI saw a sheer rock wall there part like a castle gate,\nand then a host of fiends strolled right in!{WAIT_KEY}\nBest leave {MAGUS} and his cronies to their own\ndevices though, less'n you want trouble.",
     "original_fr": "Connaissez-vous la grotte des mystiques située {TAG:3C} l'est\ndes monts Dénadoro ?{WAIT_KEY}\nJ'ai vu le flanc de la montagne s'ouvrir et des mystiques\ny pénétrer !{WAIT_KEY}\nCependant, quand il s'agit du Magistère, qui s'y frotte,\ns'y pique, comme on dit.",
-    "translation": "Слыхали про Пещеру магии, ту, что к востоку от гор\nДенадоро?{WAIT_KEY}\nЯ видел, как скала разошлась словно ворота, и\nтолпа чудищ вошла прямо внутрь!{WAIT_KEY}\nНо там заправляет {MAGUS} со своей шайкой — не\nсуйтесь туда, коль жизнь дорога."
+    "translation": "Слыхали про Пещеру магии, ту, что к востоку от гор\nДенадоро?{WAIT_KEY}Я видел, как скала разошлась словно ворота, и\nтолпа чудищ вошла прямо внутрь!{WAIT_KEY}Но там заправляет {MAGUS} со своей шайкой — не\nсуйтесь туда, коль жизнь дорога."
   },
   {
     "id": 182,
     "original_en": "A slimy frog-man bested {MAGUS}?{WAIT_KEY}\nI'd have gone and slew the fiend myself if'n\nI'd known it would be that easy! ",
     "original_fr": "Alors, cet étrange homme-grenouille a vaincu le\nMagistère ?{WAIT_KEY}\nS'il a pu le faire, j'aurais d{TAG:63} m'en charger moi-même !\nPfft !",
-    "translation": "Скользкий человек-лягушка победил, и {MAGUS}\nповержен?!{WAIT_KEY}\nЗнал бы, что это так просто, сам пошёл бы и\nприкончил гада!"
+    "translation": "Скользкий человек-лягушка победил, и {MAGUS}\nповержен?!{WAIT_KEY}Знал бы, что это так просто, сам пошёл бы и\nприкончил гада!"
   },
   {
     "id": 183,
@@ -1113,13 +1113,13 @@
     "id": 185,
     "original_en": "Toma: I tracked down the Rainbow Shell that the\nDorino elder hired me to find. It's on a small island,\nit seems.{WAIT_KEY}\nBut there's the rub.\nI don't know which one!{WAIT_KEY}\nThe money he fronted me is all gone, too.\nOh, what should I do?",
     "original_fr": "Toma : J'ai réussi {TAG:3C} découvrir que le coquillage\narc-en-ciel que le maire de San Dorino recherche\nest sur une ¡le, quelque part, mais...{WAIT_KEY}\nJe n'ai pas la moindre idée d'où elle peut bien se\ntrouver, cette ¡le.{WAIT_KEY}\nDe plus, j'ai déj{TAG:3C} dépensé toute l'avance que m'avait\ndonnée le maire. Que vais-je faire...?",
-    "translation": "Тома: Я выследил Радужную раковину, которую\nпоручил найти староста Дорино. Похоже, она на\nостровке.{WAIT_KEY}\nНо вот незадача: я не знаю, на каком именно!{WAIT_KEY}\nДа и задаток, что он выдал мне, уже тю-тю. Ох,\nчто же делать?"
+    "translation": "Тома: Я выследил Радужную раковину, которую\nпоручил найти староста Дорино. Похоже, она на\nостровке.{WAIT_KEY}Но вот незадача: я не знаю, на каком именно!{WAIT_KEY}Да и задаток, что он выдал мне, уже тю-тю. Ох,\nчто же делать?"
   },
   {
     "id": 186,
     "original_en": "Toma: Miser!{WAIT_KEY}\nHmph, let's see if I've enough of that money the elder\nfronted me to cover another mug.",
     "original_fr": "Toma : Pfft, comme vous êtes avares.{WAIT_KEY}\nJe me demande s'il me reste assez de l'avance du maire\npour me payer un verre...",
-    "translation": "Тома: Жмоты!{WAIT_KEY}\nХмф, гляну-ка, осталось ли у меня от задатка хоть\nна кружечку."
+    "translation": "Тома: Жмоты!{WAIT_KEY}Хмф, гляну-ка, осталось ли у меня от задатка хоть\nна кружечку."
   },
   {
     "id": 187,
@@ -1149,13 +1149,13 @@
     "id": 191,
     "original_en": "Truly, you mean it?{WAIT_KEY}\nYahoo! Oh, what a glorious day!\nNow then, just wait right there.\nNo need to get impatient.",
     "original_fr": "Vraiment ? Vraiment ?!{WAIT_KEY}\nYoupi ! Attendez un instant !",
-    "translation": "Правда? Не шутишь?{WAIT_KEY}\nИ-их-ху! Какой прекрасный день! А теперь постой\nздесь. Не торопись."
+    "translation": "Правда? Не шутишь?{WAIT_KEY}И-их-ху! Какой прекрасный день! А теперь постой\nздесь. Не торопись."
   },
   {
     "id": 192,
     "original_en": "It's unlocked. Feel free to take what's inside.{WAIT_KEY}\nAnd I'll be taking this bromide!\nHee hee...",
     "original_fr": "J'ai déverrouillé le tiroir, alors ne vous gênez pas !{WAIT_KEY}\nMoi, je prendrai le portrait ! © Ho, ho, ho, ho !",
-    "translation": "Отперто. Забирай всё, что внутри.{WAIT_KEY}\nА я заберу этот снимок! Хи-хи..."
+    "translation": "Отперто. Забирай всё, что внутри.{WAIT_KEY}А я заберу этот снимок! Хи-хи..."
   },
   {
     "id": 193,

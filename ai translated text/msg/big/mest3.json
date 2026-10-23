@@ -3,43 +3,43 @@
     "id": 0,
     "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
     "original_fr": "{GLYPH:384}\nObtenu : {GLYPH:385} !",
-    "translation": "{GLYPH:384}\nПолучен предмет: {GLYPH:385}!"
+    "translation": "{GLYPH:384} Получен предмет: {GLYPH:385}!"
   },
   {
     "id": 1,
     "original_en": "{GLYPH:384}\nObtained {GLYPH:385}!",
     "original_fr": "{GLYPH:384}\nTrouvé : {GLYPH:385} !",
-    "translation": "{GLYPH:384}\nПолучен предмет: {GLYPH:385}!"
+    "translation": "{GLYPH:384} Получен предмет: {GLYPH:385}!"
   },
   {
     "id": 2,
     "original_en": "{GLYPH:384}\nRecovered money!",
     "original_fr": "{GLYPH:384}\nVous récupérez votre argent !",
-    "translation": "{GLYPH:384}\nДеньги возвращены!"
+    "translation": "{GLYPH:384} Деньги возвращены!"
   },
   {
     "id": 3,
     "original_en": "{GLYPH:384}\nRecovered party inventory!",
     "original_fr": "{GLYPH:384}\nVous récupérez vos objets !",
-    "translation": "{GLYPH:384}\nСнаряжение отряда возвращено!"
+    "translation": "{GLYPH:384} Снаряжение отряда возвращено!"
   },
   {
     "id": 4,
     "original_en": "{GLYPH:384}\nRecovered {GLYPH:386}'s equipment!",
     "original_fr": "{GLYPH:384}\nVous récupérez l'équipement de {GLYPH:386} !",
-    "translation": "{GLYPH:384}\nЭкипировка {GLYPH:386} возвращена!"
+    "translation": "{GLYPH:384} Экипировка {GLYPH:386} возвращена!"
   },
   {
     "id": 5,
     "original_en": "{GLYPH:384}\nRecovered {GLYPH:387}'s equipment!",
     "original_fr": "{GLYPH:384}\nVous récupérez l'équipement de {GLYPH:387} !",
-    "translation": "{GLYPH:384}\nЭкипировка {GLYPH:387} возвращена!"
+    "translation": "{GLYPH:384} Экипировка {GLYPH:387} возвращена!"
   },
   {
     "id": 6,
     "original_en": "{GLYPH:384}\nRecovered {GLYPH:388}'s equipment!",
     "original_fr": "{GLYPH:384}\nVous récupérez l'équipement de {GLYPH:388} !",
-    "translation": "{GLYPH:384}\nЭкипировка {GLYPH:388} возвращена!"
+    "translation": "{GLYPH:384} Экипировка {GLYPH:388} возвращена!"
   },
   {
     "id": 7,
@@ -75,7 +75,7 @@
     "id": 12,
     "original_en": "Dalton: Of course she is, you blundering idiot!\nWere she not, we'd all be in trouble.{WAIT_KEY}\nYou!\nWhat are you doing there?",
     "original_fr": "Dalton : J'espère bien ! Vous avez intérêt {TAG:3C} le\nbichonner !{WAIT_KEY}\nQui sont ces gens ?",
-    "translation": "Дальтон: Само собой, безмозглый ты болван!\nА не то нам всем не поздоровилось бы.{WAIT_KEY}\nЭй, ты!\nЧто ты там вынюхиваешь?"
+    "translation": "Дальтон: Само собой, безмозглый ты болван! А не\nто нам всем не поздоровилось бы.{WAIT_KEY}Эй, ты! Что ты там вынюхиваешь?"
   },
   {
     "id": 13,
@@ -87,13 +87,13 @@
     "id": 14,
     "original_en": "Dalton: I think I shall watch for the time being,\nand see how he plays his hand.",
     "original_fr": "Dalton : Je suis curieux de voir ce qu'il va faire,\nmaintenant.",
-    "translation": "Дальтон: Пожалуй, пока я просто понаблюдаю\nза тем, как он поведёт свою игру."
+    "translation": "Дальтон: Пожалуй, пока я просто понаблюдаю за\nтем, как он поведёт свою игру."
   },
   {
     "id": 15,
     "original_en": "Dalton: Not that I suspect he'll tip his cards so easily.\nHa!",
     "original_fr": "Dalton : Je l'imagine mal lever le masque aussi\nfacilement. Ha !",
-    "translation": "Дальтон: Впрочем, вряд ли он так просто раскроет\nсвои карты.\nХа!"
+    "translation": "Дальтон: Впрочем, вряд ли он так просто раскроет\nсвои карты. Ха!"
   },
   {
     "id": 16,
@@ -159,7 +159,7 @@
     "id": 26,
     "original_en": "{AYLA}: Weapon! Armor!\nAll gone!",
     "original_fr": "{AYLA} : Quelqu'un voler équipement !",
-    "translation": "{AYLA}: Оружие! Броня!\nВсё пропало!"
+    "translation": "{AYLA}: Оружие! Броня! Всё пропало!"
   },
   {
     "id": 27,
@@ -213,13 +213,13 @@
     "id": 35,
     "original_en": "{FROG}: Confound it!\nOur money, too!",
     "original_fr": "{FROG} : Malédiction ! Même notre argent !",
-    "translation": "{FROG}: Проклятье!\nДеньги тоже забрали!"
+    "translation": "{FROG}: Проклятье! Деньги тоже забрали!"
   },
   {
     "id": 36,
     "original_en": "{AYLA}: Stuff trade for any stuff...\nCall money? That gone, too!",
     "original_fr": "{AYLA} : Pièces de métal pour troquer avoir aussi\ndisparu !",
-    "translation": "{AYLA}: Вещь менять на любая вещь...\nДеньги звать? Тоже нет!"
+    "translation": "{AYLA}: Вещь менять на любая вещь... Деньги звать?\nТоже нет!"
   },
   {
     "id": 37,
@@ -249,7 +249,7 @@
     "id": 41,
     "original_en": "{AYLA}: {AYLA} still can fight!\nGo find weapon!\nFight bad man!",
     "original_fr": "{AYLA} : {AYLA} pouvoir se battre !\n{AYLA} récupérer armes ! Vaincre garde !",
-    "translation": "{AYLA}: {AYLA} всё ещё мочь драться!\nИдти искать оружие!\nБить плохой человек!"
+    "translation": "{AYLA}: {AYLA} всё ещё мочь драться! Идти искать\nоружие! Бить плохой человек!"
   },
   {
     "id": 42,
@@ -285,7 +285,7 @@
     "id": 47,
     "original_en": "{MARLE}: We're in the sky!\nThis must be...",
     "original_fr": "{MARLE} : Le ciel ! Alors, nous sommes sur...",
-    "translation": "{MARLE}: Мы в небесах!\nЭто, должно быть..."
+    "translation": "{MARLE}: Мы в небесах! Это, должно быть..."
   },
   {
     "id": 48,
@@ -303,13 +303,13 @@
     "id": 50,
     "original_en": "{FROG}: The sky!\nWe've been taken onto...",
     "original_fr": "{FROG} : Quoi, le ciel ?! Alors, nous sommes sur...",
-    "translation": "{FROG}: Небо!\nНас затащили на борт..."
+    "translation": "{FROG}: Небо! Нас затащили на борт..."
   },
   {
     "id": 51,
     "original_en": "{AYLA}: Sky!\nSky!\nThis sky!",
     "original_fr": "{AYLA} : Ciel ! Ciel !",
-    "translation": "{AYLA}: Небо!\nНебо!\nЭто небо!"
+    "translation": "{AYLA}: Небо! Небо! Это небо!"
   },
   {
     "id": 52,
@@ -369,7 +369,7 @@
     "id": 61,
     "original_en": "Guard: Heh. Like watching sheep.\nThey can't try anything without weapons.",
     "original_fr": "Garde : Vous n'êtes pas près de sortir d'ici !\nÂ moins d'apprendre {TAG:3C} voler, ha, ha !",
-    "translation": "Стражник: Хех. Словно овец пасти.\nБез оружия они и пальцем шевельнуть не посмеют."
+    "translation": "Стражник: Хех. Словно овец пасти. Без оружия они и\nпальцем шевельнуть не посмеют."
   },
   {
     "id": 62,
@@ -405,7 +405,7 @@
     "id": 67,
     "original_en": "Guard: Yeah, right!\nNot falling for that again.",
     "original_fr": "Garde : Tsst ! Vous ne m'aurez pas comme ça !",
-    "translation": "Стражник: Ага, держи карман шире!\nЯ на эту уловку больше не куплюсь."
+    "translation": "Стражник: Ага, держи карман шире! Я на эту уловку\nбольше не куплюсь."
   },
   {
     "id": 68,
@@ -429,49 +429,49 @@
     "id": 71,
     "original_en": "{GLYPH:386} is escaping!\n{GLYPH:386} is escaping!",
     "original_fr": "Alerte ! Les prisonniers s'échappent !",
-    "translation": "{GLYPH:386} бежит!\n{GLYPH:386} бежит!"
+    "translation": "{GLYPH:386} бежит! {GLYPH:386} бежит!"
   },
   {
     "id": 72,
     "original_en": "{LUCCA}: Ah, right!\nWe'll trick the guard.",
     "original_fr": "{LUCCA} : Ah, je vois. Nous allons attirer le garde.",
-    "translation": "{LUCCA}: Точно!\nМы одурачим стражника!"
+    "translation": "{LUCCA}: Точно! Мы одурачим стражника!"
   },
   {
     "id": 73,
     "original_en": "{ROBO}: I see.\nWe will catch the guard off guard.",
     "original_fr": "{ROBO} : Je vois, nous allons endormir la vigilance\ndu garde.",
-    "translation": "{ROBO}: Понятно.\nМы застигнем охранника врасплох."
+    "translation": "{ROBO}: Понятно. Мы застигнем охранника врасплох."
   },
   {
     "id": 74,
     "original_en": "{FROG}: Ah, I see.\nGet the guard in here, and catch him unawares!",
     "original_fr": "{FROG} : Je vois, tu veux attirer le garde.",
-    "translation": "{FROG}: Прекрасно задумано.\nЗаманим стражника внутрь и оглушим его!"
+    "translation": "{FROG}: Прекрасно задумано. Заманим стражника\nвнутрь и оглушим его!"
   },
   {
     "id": 75,
     "original_en": "{AYLA}: {AYLA} healthy!{WAIT_KEY}\nBut {GLYPH:386} want sick, then sick.",
     "original_fr": "{AYLA} : {AYLA} pas être malade !{WAIT_KEY}\nMais si {GLYPH:386} vouloir que {AYLA} faire\nsemblant, d'accord.",
-    "translation": "{AYLA}: {AYLA} здоровая!{WAIT_KEY}\nНо раз {GLYPH:386} хотеть больной — будет больной."
+    "translation": "{AYLA}: {AYLA} здоровая!{WAIT_KEY}Но раз {GLYPH:386} хотеть больной — будет больной."
   },
   {
     "id": 76,
     "original_en": "{LUCCA}: Urrrgghh!\nThe pain... THE PAIN!",
     "original_fr": "{LUCCA} : Ouh ! J'ai mal...!",
-    "translation": "{LUCCA}: О-о-ох!\nКакая боль... КАКАЯ БОЛЬ!"
+    "translation": "{LUCCA}: О-о-ох! Какая боль... КАКАЯ БОЛЬ!"
   },
   {
     "id": 77,
     "original_en": "{ROBO}: System error!\nCannot read boot sector!\nAbort, retry, fail?\nPlease, help!",
     "original_fr": "{ROBO} : Alerte ! Perte de contrôle !\nDemande assistance immédiate !",
-    "translation": "{ROBO}: Системная ошибка!\nСбой чтения загрузочного сектора!\nПрервать, повторить, отмена?\nПомогите, пожалуйста!"
+    "translation": "{ROBO}: Системная ошибка! Сбой чтения\nзагрузочного сектора! Прервать, повторить,\nотмена? Помогите, пожалуйста!"
   },
   {
     "id": 78,
     "original_en": "{FROG}: Owww!\nOh, my belly button...\nThe pain!",
     "original_fr": "{FROG} : A¿e ! Mon ventre ! J'ai mal !",
-    "translation": "{FROG}: О-о-ох!\nМой пупок... Как же сводит живот!\nКакая мука!"
+    "translation": "{FROG}: О-о-ох! Мой пупок... Как же сводит живот!\nКакая мука!"
   },
   {
     "id": 79,
@@ -501,13 +501,13 @@
     "id": 83,
     "original_en": "{FROG}: Fool.\nFrogs have no belly buttons!",
     "original_fr": "{FROG} : Pfft ! Il faut vraiment être idiot pour se\nfaire avoir par cette ruse !",
-    "translation": "{FROG}: Глупец.\nУ лягушек отродясь не бывало пупков!"
+    "translation": "{FROG}: Глупец. У лягушек отродясь не бывало\nпупков!"
   },
   {
     "id": 84,
     "original_en": "{AYLA}: ...{WAIT_KEY}\n{AYLA} no like lie.",
     "original_fr": "{AYLA} : ...{WAIT_KEY}\n{AYLA} pas aimer mentir...",
-    "translation": "{AYLA}: ...{WAIT_KEY}\n{AYLA} не любить врать."
+    "translation": "{AYLA}: ...{WAIT_KEY}{AYLA} не любить врать."
   },
   {
     "id": 85,
@@ -561,7 +561,7 @@
     "id": 93,
     "original_en": "{LUCCA}: Oh, no!\nHe's messing around with the {EPOCH}!",
     "original_fr": "{LUCCA} : Hé ! Ils sont en train de modifier le\n{EPOCH} !",
-    "translation": "{LUCCA}: О нет!\nОн переделывает наш корабль «{EPOCH}»!"
+    "translation": "{LUCCA}: О нет! Он переделывает наш корабль\n«{EPOCH}»!"
   },
   {
     "id": 94,
@@ -609,7 +609,7 @@
     "id": 101,
     "original_en": "{AYLA}: Some stuff still gone!\nNo need?\n{TAG:38}{TAG:38}{GLYPH:394}It doesn't matter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Go back.{GLYPH:397}",
     "original_fr": "{AYLA} : Pas encore tout récupéré !\n\n       {GLYPH:394}Continuer{GLYPH:395}\n       {GLYPH:396}Faire demi-tour{GLYPH:397}",
-    "translation": "{AYLA}: Вещи ещё\nостаться там! Не надо?\n{TAG:38}{TAG:38}{GLYPH:394}Неважно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Назад.{GLYPH:397}"
+    "translation": "{AYLA}: Вещи ещё остаться там! Не надо?\n{TAG:38}{TAG:38}{GLYPH:394}Неважно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Назад.{GLYPH:397}"
   },
   {
     "id": 102,
@@ -657,13 +657,13 @@
     "id": 109,
     "original_en": "Mwa ha ha...{WAIT_KEY}\nAt last!\nIt is ready!",
     "original_fr": "Ha, ha, ha...{WAIT_KEY}\nC'est enfin terminé !",
-    "translation": "Ха-ха-ха...{WAIT_KEY}\nНаконец-то!\nВсё готово!"
+    "translation": "Ха-ха-ха...{WAIT_KEY}Наконец-то! Всё готово!"
   },
   {
     "id": 110,
     "original_en": "Dalton: See these beautiful wings!\nThis is a throne truly fit for a king!\nI name it...",
     "original_fr": "Dalton : Admirez ces ailes magnifiques ! Voil{TAG:3C} le véritable\ntrône de Sa Nouvelle Majesté Dalton ! Je vais l'appeler...",
-    "translation": "Дальтон: Полюбуйтесь на эти великолепные крылья!\nЭто трон, поистине достойный владыки!\nИ нарекаю я его..."
+    "translation": "Дальтон: Полюбуйтесь на эти великолепные крылья!\nЭто трон, поистине достойный владыки! И нарекаю\nя его..."
   },
   {
     "id": 111,
@@ -693,7 +693,7 @@
     "id": 115,
     "original_en": "Dalton: Ha ha ha!\nYes, there we go!",
     "original_fr": "Dalton : Ha, ha, ha ! Oui, c'est ça !",
-    "translation": "Дальтон: Ха-ха-ха!\nДа, вот теперь самое то!"
+    "translation": "Дальтон: Ха-ха-ха! Да, вот теперь самое то!"
   },
   {
     "id": 116,
@@ -705,7 +705,7 @@
     "id": 117,
     "original_en": "Dalton: Aero-Dalton Imperial!{WAIT_KEY}\nAway!",
     "original_fr": "Dalton : En avant, Trône Céleste !",
-    "translation": "Дальтон: «Аэро-Дальтон Империал»!{WAIT_KEY}\nНа взлёт!"
+    "translation": "Дальтон: «Аэро-Дальтон Империал»!{WAIT_KEY}На взлёт!"
   },
   {
     "id": 118,
@@ -747,7 +747,7 @@
     "id": 124,
     "original_en": "Dalton: Her name is not the {EPOCH}!\nIt's the Aero-Dalton Imperial!",
     "original_fr": "Dalton : Ce n'est pas le {EPOCH}, c'est le Trône\nCéleste de Dalton !",
-    "translation": "Дальтон: Её зовут вовсе не {EPOCH}!\nЕё имя — «Аэро-Дальтон Империал»!"
+    "translation": "Дальтон: Её зовут вовсе не {EPOCH}! Её имя —\n«Аэро-Дальтон Империал»!"
   },
   {
     "id": 125,
@@ -789,7 +789,7 @@
     "id": 131,
     "original_en": "Dalton: Mwa ha ha!\nYes, squirm about like the worms you are!",
     "original_fr": "Dalton : Mouah, ha, ha, ha ! C'est ça, tortillez-vous\ncomme des vers !",
-    "translation": "Дальтон: Ха-ха-ха!\nДа, извивайтесь под ногами, жалкие черви!"
+    "translation": "Дальтон: Ха-ха-ха! Да, извивайтесь под ногами,\nжалкие черви!"
   },
   {
     "id": 132,
@@ -819,7 +819,7 @@
     "id": 136,
     "original_en": "{MARLE}: It's all your fault!{WAIT_KEY}\n{CRONO}...{WAIT_KEY}\nGive back {CRONO}!",
     "original_fr": "{MARLE} : Tout est de votre faute...!{WAIT_KEY}\n{CRONO}...{WAIT_KEY}\nRendez-moi {CRONO} !!",
-    "translation": "{MARLE}: Это всё из-за тебя!{WAIT_KEY}\n{CRONO}...{WAIT_KEY}\nВерни {CRONO}!"
+    "translation": "{MARLE}: Это всё из-за тебя!{WAIT_KEY}{CRONO}...{WAIT_KEY}Верни {CRONO}!"
   },
   {
     "id": 137,
@@ -933,25 +933,25 @@
     "id": 155,
     "original_en": "{MARLE}: {GLYPH:386}!\nTry hitting that Y Button!",
     "original_fr": "{MARLE} : {GLYPH:386} ! Ce serait pas le bouton Y,\nl{TAG:3C} ?!",
-    "translation": "{MARLE}: {GLYPH:386}!\nЖми на кнопку Y!"
+    "translation": "{MARLE}: {GLYPH:386}! Жми на кнопку Y!"
   },
   {
     "id": 156,
     "original_en": "{LUCCA}: {GLYPH:386}!\nTry hitting that Y Button!",
     "original_fr": "{LUCCA} : {GLYPH:386} ! Appuie sur le bouton Y, l{TAG:3C} !",
-    "translation": "{LUCCA}: {GLYPH:386}!\nЖми на кнопку Y!"
+    "translation": "{LUCCA}: {GLYPH:386}! Жми на кнопку Y!"
   },
   {
     "id": 157,
     "original_en": "{ROBO}: {GLYPH:386}!\nPlease press that Y Button!",
     "original_fr": "{ROBO} : {GLYPH:386} ! Essaie d'appuyer sur le\nbouton Y pour voir !",
-    "translation": "{ROBO}: {GLYPH:386}!\nПожалуйста, нажмите кнопку Y!"
+    "translation": "{ROBO}: {GLYPH:386}! Пожалуйста, нажмите кнопку Y!"
   },
   {
     "id": 158,
     "original_en": "{FROG}: {GLYPH:386}!\nIs it not that Y Button?",
     "original_fr": "{FROG} : {GLYPH:386} ! Essaie d'appuyer sur le\nbouton Y, l{TAG:3C} !",
-    "translation": "{FROG}: {GLYPH:386}!\nНе кнопка ли Y нам нужна?"
+    "translation": "{FROG}: {GLYPH:386}! Не кнопка ли Y нам нужна?"
   },
   {
     "id": 159,
@@ -963,7 +963,7 @@
     "id": 160,
     "original_en": "{LUCCA}: Then, the X Button!\nTry the X Button!",
     "original_fr": "{LUCCA} : Et le bouton X, l{TAG:3C} ?!",
-    "translation": "{LUCCA}: Тогда жми кнопку X!\nКнопку X давай!"
+    "translation": "{LUCCA}: Тогда жми кнопку X! Кнопку X давай!"
   },
   {
     "id": 161,
@@ -993,13 +993,13 @@
     "id": 165,
     "original_en": "{FROG}: Incredible!\nMayhap we even owe him a touch of gratitude for this!",
     "original_fr": "{FROG} : C'est incroyable ! Ha, ha ! Ce gredin nous\naura finalement rendu un grand service !",
-    "translation": "{FROG}: Невероятно!\nПожалуй, мы даже в долгу перед этим шутом!"
+    "translation": "{FROG}: Невероятно! Пожалуй, мы даже в долгу\nперед этим шутом!"
   },
   {
     "id": 166,
     "original_en": "{AYLA}: {EPOCH} happy!\n{EPOCH}...become bird!",
     "original_fr": "{AYLA} : {EPOCH} être en bon état !\n{EPOCH} être devenu oiseau !",
-    "translation": "{AYLA}: {EPOCH} рада!\n{EPOCH}... стать птица!"
+    "translation": "{AYLA}: {EPOCH} рада! {EPOCH}... стать птица!"
   },
   {
     "id": 167,
@@ -1017,19 +1017,19 @@
     "id": 169,
     "original_en": "{LUCCA}: !{WAIT_KEY}\nOur things!",
     "original_fr": "{LUCCA} : !!{WAIT_KEY}\nVoil{TAG:3C} nos objets !",
-    "translation": "{LUCCA}: !{WAIT_KEY}\nНаши вещи!"
+    "translation": "{LUCCA}: !{WAIT_KEY}Наши вещи!"
   },
   {
     "id": 170,
     "original_en": "{ROBO}: !{WAIT_KEY}\nOur possessions!",
     "original_fr": "{ROBO} : !!{WAIT_KEY}\nCe sont nos objets !",
-    "translation": "{ROBO}: !{WAIT_KEY}\nНаше имущество!"
+    "translation": "{ROBO}: !{WAIT_KEY}Наше имущество!"
   },
   {
     "id": 171,
     "original_en": "{AYLA}: !{WAIT_KEY}\nFind {AYLA} stuff!",
     "original_fr": "{AYLA} : !!{WAIT_KEY}\n{AYLA} trouver objets !",
-    "translation": "{AYLA}: !{WAIT_KEY}\n{AYLA} найти свои вещи!"
+    "translation": "{AYLA}: !{WAIT_KEY}{AYLA} найти свои вещи!"
   },
   {
     "id": 172,
@@ -1071,7 +1071,7 @@
     "id": 178,
     "original_en": "{ROBO}: Presumably, it is still within the\nBlackbird's hold.",
     "original_fr": "{ROBO} : Il est probablement resté {TAG:3C} bord du\nCygne noir...",
-    "translation": "{ROBO}: Предположительно, они так и остались\nв трюме «Чёрного дрозда»."
+    "translation": "{ROBO}: Предположительно, они так и остались в\nтрюме «Чёрного дрозда»."
   },
   {
     "id": 179,
@@ -1101,7 +1101,7 @@
     "id": 183,
     "original_en": "{ROBO}: The {EPOCH} returned to us unscathed.\nI am certain that {CRONO} will as well.",
     "original_fr": "{ROBO} : Le {EPOCH} est indemne. Je suis certain\nque {CRONO} est sain et sauf, lui aussi...",
-    "translation": "{ROBO}: {EPOCH} вернулась к нам невредимой.\nЯ убеждён, что и {CRONO} непременно вернётся."
+    "translation": "{ROBO}: {EPOCH} вернулась к нам невредимой. Я\nубеждён, что и {CRONO} непременно вернётся."
   },
   {
     "id": 184,
@@ -1113,13 +1113,13 @@
     "id": 185,
     "original_en": "{AYLA}: {GLYPH:392} strong!\n{GLYPH:392} no die!",
     "original_fr": "{AYLA} : {GLYPH:392} être fort !\n{GLYPH:392} pas mourir !",
-    "translation": "{AYLA}: {GLYPH:392} сильный!\n{GLYPH:392} не умереть!"
+    "translation": "{AYLA}: {GLYPH:392} сильный! {GLYPH:392} не умереть!"
   },
   {
     "id": 186,
     "original_en": "{GLYPH:384}\nIt's empty!",
     "original_fr": "{GLYPH:384}\nIl est vide !",
-    "translation": "{GLYPH:384}\nЗдесь пусто!"
+    "translation": "{GLYPH:384} Здесь пусто!"
   },
   {
     "id": 187,

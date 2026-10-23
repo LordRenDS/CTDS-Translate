@@ -105,7 +105,7 @@
     "id": 17,
     "original_en": "Woman: You strong.\nWhat name?{WAIT_KEY}\n{GLYPH:392} name? Good name.\nMe name? Me...",
     "original_fr": "Femme : Toi être fort. Toi t'appeler comment ?{WAIT_KEY}\n{GLYPH:392}, hein ?\nJoli nom. Moi...",
-    "translation": "Женщина: Ты сильный. Как звать?{WAIT_KEY}\n{GLYPH:392}? Хорошее имя. Моё имя? Я..."
+    "translation": "Женщина: Ты сильный. Как звать?{WAIT_KEY}{GLYPH:392}? Хорошее имя. Моё имя? Я..."
   },
   {
     "id": 18,
@@ -321,7 +321,7 @@
     "id": 53,
     "original_en": "Drink happy water?\nDrink, feel good!\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous vouloir boire eau de courage ? Eau de courage\nrendre fort !\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Пить огненную воду?\nВыпьешь — хорошо!\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Пить огненную воду? Выпьешь — хорошо!\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 54,
@@ -333,7 +333,7 @@
     "id": 55,
     "original_en": "Kino: Where you from?\nWhy you here?{WAIT_KEY}\nKino no like you!",
     "original_fr": "Kino : Vous venir d'où ? Pourquoi vous venir ici ?{WAIT_KEY}\nKino pas aimer vous !",
-    "translation": "Кино: Вы откуда? Зачем сюда пришли?{WAIT_KEY}\nКино вас не любить!"
+    "translation": "Кино: Вы откуда? Зачем сюда пришли?{WAIT_KEY}Кино вас не любить!"
   },
   {
     "id": 56,
@@ -447,7 +447,7 @@
     "id": 74,
     "original_en": "{MARLE}: This is great!\nC'mon {CRONO}. Let's dance!\n{TAG:38}{TAG:38}{GLYPH:394}Sure.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Nah.{GLYPH:397}",
     "original_fr": "{MARLE} : C'est génial ! © Viens, {CRONO}, danse\navec moi !\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
-    "translation": "{MARLE}: Как весело!\nПойдём, {CRONO}, потанцуем!\n{TAG:38}{TAG:38}{GLYPH:394}Конечно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Неохота.{GLYPH:397}"
+    "translation": "{MARLE}: Как весело! Пойдём, {CRONO}, потанцуем!\n{TAG:38}{TAG:38}{GLYPH:394}Конечно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Неохота.{GLYPH:397}"
   },
   {
     "id": 75,
@@ -537,7 +537,7 @@
     "id": 89,
     "original_en": "Rare, red rock. Have rock, mean strong person.\n{AYLA} most strong Ioka village.\nSo {AYLA} rock!{WAIT_KEY}\n{GLYPH:392} want, {GLYPH:392} challenge {AYLA}!\nWin, {AYLA} give.",
     "original_fr": "Pierre rouge être très rare. Preuve de force !\n{AYLA} être plus forte d'Ioka, alors {AYLA}\navoir pierre rouge.{WAIT_KEY}\nSi {GLYPH:392} battre {AYLA}, {AYLA} donner\npierre rouge {TAG:3C} {GLYPH:392}.",
-    "translation": "Редкий красный камень. Знак силы. {AYLA} самая\nсильная в Иоке. У {AYLA} камень!{WAIT_KEY}\nЕсли {GLYPH:392} хотеть — пусть {GLYPH:392} бросит вызов {AYLA}!\nПобедишь — {AYLA} отдаст."
+    "translation": "Редкий красный камень. Знак силы. {AYLA} самая\nсильная в Иоке. У {AYLA} камень!{WAIT_KEY}Если {GLYPH:392} хотеть — пусть {GLYPH:392} бросит вызов {AYLA}!\nПобедишь — {AYLA} отдаст."
   },
   {
     "id": 90,
@@ -579,7 +579,7 @@
     "id": 96,
     "original_en": "{AYLA}: What?\n{GLYPH:392} give up?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No way!{GLYPH:397}",
     "original_fr": "{AYLA} : Quoi ?\n{GLYPH:392} abandonner ?!\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "{AYLA}: Что?\n{GLYPH:392} сдаваться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ни за что!{GLYPH:397}"
+    "translation": "{AYLA}: Что? {GLYPH:392} сдаваться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ни за что!{GLYPH:397}"
   },
   {
     "id": 97,
@@ -645,7 +645,7 @@
     "id": 107,
     "original_en": "{LUCCA}: Uhnnn... My head...{WAIT_KEY}\nI did what last night!? Liar!\nOh...but why does my head hurt like this?",
     "original_fr": "{LUCCA} : Ooooh... J'ai mal au ventre...{WAIT_KEY}\nHein ? Qu'est-ce que tu dis ? Je n'ai rien fait de tel !\nCe n'est pas vrai !{WAIT_KEY}\n...\nMais, j'ai tout de même l'estomac {TAG:3C} l'envers...",
-    "translation": "{LUCCA}: О-о-ох... Моя голова...{WAIT_KEY}\nЧто я делала вчера?! Не ври! Ох... но почему голова\nтак раскалывается?"
+    "translation": "{LUCCA}: О-о-ох... Моя голова...{WAIT_KEY}Что я делала вчера?! Не ври! Ох... но почему голова\nтак раскалывается?"
   },
   {
     "id": 108,
@@ -867,7 +867,7 @@
     "id": 144,
     "original_en": "Azala: And so the hairless apes arrive!\nAh, and these new ones appear cut from\na finer cloth than {AYLA}.{WAIT_KEY}\nPerfect! This should make things easier.\nTell me, apes, what is the purpose of this device?",
     "original_fr": "Azara : Voil{TAG:3C} les primates...{WAIT_KEY}\nTiens, vous n'avez pas l'air d'être des membres de la\ntribu de {AYLA}...",
-    "translation": "Азала: А вот и бесшёрстные обезьяны! О, да по\nсравнению с новенькими {AYLA} — просто дикарка.{WAIT_KEY}\nПрекрасно! Это всё упрощает. Отвечайте: для чего\nвам эта штуковина?"
+    "translation": "Азала: А вот и бесшёрстные обезьяны! О, да по\nсравнению с новенькими {AYLA} — просто дикарка.{WAIT_KEY}Прекрасно! Это всё упрощает. Отвечайте: для чего\nвам эта штуковина?"
   },
   {
     "id": 145,
@@ -1227,7 +1227,7 @@
     "id": 204,
     "original_en": "{AYLA}: {AYLA} want see {CRONO}, go\nMystic Mountain. You there, fall down hurt.{WAIT_KEY}\n{AYLA} carry back hut.",
     "original_fr": "{AYLA} : {AYLA} vouloir voir {GLYPH:392}.\n{AYLA} aller sur montagne étrange et\ntrouver {GLYPH:392} avec amis, blessés.{WAIT_KEY}\n{AYLA} transporter {GLYPH:392} et amis ici.",
-    "translation": "{AYLA}: {AYLA} хотеть видеть {CRONO}, пошла на гору\nЧудес. Вы там упасть, ранены.{WAIT_KEY}\n{AYLA} принести в хижину."
+    "translation": "{AYLA}: {AYLA} хотеть видеть {CRONO}, пошла на гору\nЧудес. Вы там упасть, ранены.{WAIT_KEY}{AYLA} принести в хижину."
   },
   {
     "id": 205,
@@ -1287,7 +1287,7 @@
     "id": 214,
     "original_en": "Kino: {GLYPH:392} okay now?\n{AYLA} busy, try find Laruba village.{WAIT_KEY}\nFind village, fight reptites together.\nBig fight, last fight!\nBeat all reptites or reptites beat us all!",
     "original_fr": "Kino : {GLYPH:392} et amis aller mieux ? {AYLA} être\npartie chercher tribu de Laruba.{WAIT_KEY}\nIoka et Laruba combattre sauriens ensemble ! Si Ioka et\nLaruba pas détruire sauriens, sauriens détruire Ioka et\nLaruba !",
-    "translation": "Кино: {GLYPH:392} уже лучше? {AYLA} занята, ищет деревню\nЛаруба.{WAIT_KEY}\nНайдёт деревню — вместе бить рептитов. Большой\nбой, последний бой! Побьём всех рептитов, или они\nпобьют нас!"
+    "translation": "Кино: {GLYPH:392} уже лучше? {AYLA} занята, ищет деревню\nЛаруба.{WAIT_KEY}Найдёт деревню — вместе бить рептитов. Большой\nбой, последний бой! Побьём всех рептитов, или они\nпобьют нас!"
   },
   {
     "id": 215,
@@ -1359,7 +1359,7 @@
     "id": 226,
     "original_en": "Go hunt hunting range.\nGet petal, fang, horn, feather!{WAIT_KEY}\nWhen rain, rare monster come out!\nRare one, good hunt!",
     "original_fr": "Trouver pétales, crocs, cornes et plumes sur terrain de\nchasse !{WAIT_KEY}\nSi pluie tomber, monstre rare appara¡tre ! Monstre rare\nêtre très bonne prise !",
-    "translation": "Иди на охоту на угодья. Добудешь лепесток, клык,\nрог, перо!{WAIT_KEY}\nПойдёт дождь — выйдет редкий зверь! Редкий\nзверь — славная добыча!"
+    "translation": "Иди на охоту на угодья. Добудешь лепесток, клык,\nрог, перо!{WAIT_KEY}Пойдёт дождь — выйдет редкий зверь! Редкий\nзверь — славная добыча!"
   },
   {
     "id": 227,
@@ -1389,13 +1389,13 @@
     "id": 231,
     "original_en": "Petal and fang, trade Ruby Gun.\nPetal and horn, trade Shaman's Bow.\nPetal and feather, trade Stone Arm.\nFang and horn, trade Mammoth Tusk.{WAIT_KEY}\nFang and feather, trade Ruby Vest.\nHorn and feather, trade Stone Helm.{WAIT_KEY}\nI tell you good thing!\nRuby Vest strong against fire.\nNot too hot when wear.",
     "original_fr": "Troquer pétales et crocs contre pistolet {TAG:3C} rubis.\nTroquer pétales et cornes contre arc de shaman.\nTroquer pétales et plumes contre bras de pierre.{WAIT_KEY}\nTroquer crocs et cornes contre sabre d'ivoire.\nTroquer crocs et plumes contre veste de rubis.\nTroquer cornes et plumes contre armet de pierre.{WAIT_KEY}\nBon conseil : veste de rubis résister feu.\nPas br{TAG:63}ler quand porter.",
-    "translation": "Лепесток и клык — Рубин. пистолет. Лепесток и рог\n— Лук шамана. Лепесток и перо — Каменная рука.\nКлык и рог — Бивень мамонта.{WAIT_KEY}\nКлык и перо — Рубинов. жилет. Рог и перо —\nКаменный шлем.{WAIT_KEY}\nСкажу тебе полезную вещь! Рубинов. жилет держит\nогонь. В нём не жарко."
+    "translation": "Лепесток и клык — Рубин. пистолет. Лепесток и рог\n— Лук шамана. Лепесток и перо — Каменная рука.\nКлык и рог — Бивень мамонта.{WAIT_KEY}Клык и перо — Рубинов. жилет. Рог и перо —\nКаменный шлем.{WAIT_KEY}Скажу тебе полезную вещь! Рубинов. жилет держит\nогонь. В нём не жарко."
   },
   {
     "id": 232,
     "original_en": "Petal and fang, trade Dreamstone Gun.\nPetal and horn, trade Dreamstone Bow.\nPetal and feather, trade Magma Hand.\nFang and horn, trade Primeval Blade.{WAIT_KEY}\nFang and feather, trade Ruby Vest.\nHorn and feather, trade Stone Helm.{WAIT_KEY}\nI tell you good thing!\nRuby Vest strong against fire.\nNot too hot when wear.",
     "original_fr": "Troquer pétales et crocs contre pistolet onirique.\nTroquer pétales et cornes contre arc onirique.\nTroquer pétales et plumes contre bras de magma.{WAIT_KEY}\nTroquer crocs et cornes contre sabre antique.\nTroquer crocs et plumes contre veste de rubis.\nTroquer cornes et plumes contre armet de pierre.{WAIT_KEY}\nBon conseil : veste de rubis résister feu.\nPas br{TAG:63}ler quand porter.",
-    "translation": "Лепесток и клык — Пистолет снов. Лепесток и рог —\nЛук снов. Лепесток и перо — Магма-рука. Клык и рог\n— Древний клинок.{WAIT_KEY}\nКлык и перо — Рубинов. жилет. Рог и перо —\nКаменный шлем.{WAIT_KEY}\nСкажу тебе полезную вещь! Рубинов. жилет держит\nогонь. В нём не жарко."
+    "translation": "Лепесток и клык — Пистолет снов. Лепесток и рог —\nЛук снов. Лепесток и перо — Магма-рука. Клык и рог\n— Древний клинок.{WAIT_KEY}Клык и перо — Рубинов. жилет. Рог и перо —\nКаменный шлем.{WAIT_KEY}Скажу тебе полезную вещь! Рубинов. жилет держит\nогонь. В нём не жарко."
   },
   {
     "id": 233,

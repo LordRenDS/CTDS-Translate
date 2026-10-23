@@ -51,7 +51,7 @@
     "id": 8,
     "original_en": "{FROG}: Anybody here?\n...Apparently not.{WAIT_KEY}\nBut it looks to be a village of sorts, does it not?\nMayhap a search will turn up some people.",
     "original_fr": "{FROG} : On dirait qu'il n'y a personne ici.{WAIT_KEY}\nCependant, cet endroit a l'air d'être un village.\nEn cherchant aux alentours, nous trouverons\npeut-être quelqu'un.",
-    "translation": "{FROG}: Есть здесь кто-нибудь? ...Похоже, ни души.{WAIT_KEY}\nОднако это место смахивает на деревню. Быть\nможет, кто-то бродит поблизости?"
+    "translation": "{FROG}: Есть здесь кто-нибудь? ...Похоже, ни души.{WAIT_KEY}Однако это место смахивает на деревню. Быть\nможет, кто-то бродит поблизости?"
   },
   {
     "id": 9,
@@ -75,7 +75,7 @@
     "id": 12,
     "original_en": "{MARLE}: Is anybody here?{WAIT_KEY}\nI guess not.\nBut this is a village, isn't it?\nIt sure looks like one.\nLet's look around!",
     "original_fr": "{MARLE} : On dirait qu'il n'y a personne. Mais c'est\nbien un village, n'est-ce pas ? Allons explorer les\nalentours !",
-    "translation": "{MARLE}: Здесь есть кто-нибудь?{WAIT_KEY}\nКажется, никого. Но ведь это деревня, правда?\nМожет, поищем вокруг?"
+    "translation": "{MARLE}: Здесь есть кто-нибудь?{WAIT_KEY}Кажется, никого. Но ведь это деревня, правда?\nМожет, поищем вокруг?"
   },
   {
     "id": 13,
@@ -243,7 +243,7 @@
     "id": 40,
     "original_en": "We're free at last! Prisoners in our homes no more!\nAfter all these long years of suffering...{WAIT_KEY}\nCome out, everyone!\nThe monsters are gone for good!",
     "original_fr": "Hourra ! Après de longues années de souffrance, nous\nsommes libres !{WAIT_KEY}\nVenez tous ! Nous pouvons sortir ! Ils ont éliminé les\nmonstres de la forêt !",
-    "translation": "Мы наконец-то свободны! Больше не узники в\nдомах! После стольких долгих лет страданий...{WAIT_KEY}\nВыходите все! Монстры ушли навсегда!"
+    "translation": "Мы наконец-то свободны! Больше не узники в\nдомах! После стольких долгих лет страданий...{WAIT_KEY}Выходите все! Монстры ушли навсегда!"
   },
   {
     "id": 41,
@@ -297,7 +297,7 @@
     "id": 49,
     "original_en": "I, uh—well, I mean, provided you've the time and all,\nbut...being as strong as you are, I don't suppose you'd\nbe willing to lend an ear when we've need of some help,\nwould you?{WAIT_KEY}\nWe wouldn't ask you to work for free, of course.\nWe're prepared to compensate you for your efforts,\nand I think it would be worth your while.\nWhat do you say?",
     "original_fr": "Dites... Puisque votre bravoure est sans pareille,\npourriez-vous nous rendre quelques services ?{WAIT_KEY}\nPas gratuitement, bien s{TAG:63}r. Nous comptons vous donner\nune récompense appropriée. C'est une bonne affaire, je\nvous assure. Alors, qu'en dites-vous ?",
-    "translation": "Я, э-э... коль у вас найдётся время... Вы столь\nсильны, не согласитесь ли выслушать нас, когда\nнам понадобится помощь?{WAIT_KEY}\nМы не просим помогать даром. Мы щедро\nвознаградим вас за труды, вы не останетесь в\nобиде. Что скажете?"
+    "translation": "Я, э-э... коль у вас найдётся время... Вы столь\nсильны, не согласитесь ли выслушать нас, когда\nнам понадобится помощь?{WAIT_KEY}Мы не просим помогать даром. Мы щедро\nвознаградим вас за труды, вы не останетесь в\nобиде. Что скажете?"
   },
   {
     "id": 50,
@@ -387,7 +387,7 @@
     "id": 64,
     "original_en": "You...you'd do that?\nI certainly cannot protest, but...to speak frankly,\nyou stand to gain nothing by helping us, you know?{WAIT_KEY}\nThey've far greater numbers this time.\nAnd strong as you may be, surely there's no need for\nyou to risk your lives. This is not even your village.{WAIT_KEY}\nYou've risked a great deal on our behalf already,\nand we're grateful for it. But that is enough.\nYou needn't fight all our battles for us.",
     "original_fr": "V... Vraiment ?! Ça nous tirerait du pétrin, mais... Pour\nparler franchement, vous n'avez pas quoi que ce soit\n{TAG:3C} gagner {TAG:3C} nous porter secours, n'est-ce pas ?{WAIT_KEY}\nCette fois, ils sont très nombreux. Même avec une force\ncomme la vôtre, vous ne devriez pas protéger le village\nau péril de vos vies.{WAIT_KEY}\nVous nous avez déj{TAG:3C} amplement aidés jusqu'{TAG:3C} présent.\nNous vous sommes très reconnaissants.",
-    "translation": "Вы... вы сделаете это ради нас? Я не смею\nвозражать, но по правде говоря, вы ведь ничего не\nвыгадаете от этого.{WAIT_KEY}\nНа сей раз их куда больше. И сколь бы сильны вы ни\nбыли, зачем рисковать жизнями? Это ведь даже не\nваша деревня.{WAIT_KEY}\nВы и так многим рискнули ради нас, и мы\nблагодарны. Но довольно. Вы не обязаны\nсражаться за нас во всех битвах."
+    "translation": "Вы... вы сделаете это ради нас? Я не смею\nвозражать, но по правде говоря, вы ведь ничего не\nвыгадаете от этого.{WAIT_KEY}На сей раз их куда больше. И сколь бы сильны вы ни\nбыли, зачем рисковать жизнями? Это ведь даже не\nваша деревня.{WAIT_KEY}Вы и так многим рискнули ради нас, и мы\nблагодарны. Но довольно. Вы не обязаны\nсражаться за нас во всех битвах."
   },
   {
     "id": 65,
@@ -423,13 +423,13 @@
     "id": 70,
     "original_en": "Truly? You consider us friends?{WAIT_KEY}\nWell, you'll hear no more protests from me.\nOur lives are in your hands!",
     "original_fr": "Vous feriez ça pour nous...? Entendu. Puisque vous\ninsistez, le sort du village est entre vos mains.",
-    "translation": "В самом деле? Вы считаете нас друзьями?{WAIT_KEY}\nЧто ж, не стану спорить. Если вы так настаиваете,\nмы уповаем на вашу доблесть!"
+    "translation": "В самом деле? Вы считаете нас друзьями?{WAIT_KEY}Что ж, не стану спорить. Если вы так настаиваете,\nмы уповаем на вашу доблесть!"
   },
   {
     "id": 71,
     "original_en": "You've done it!\nMagnificent!{WAIT_KEY}\nPerhaps now joy and laughter can take the place of\nfear and dread in our lives.{WAIT_KEY}\nNo words are enough to express our appreciation.\nBut know that word of your great deeds will be\nlegend in our village for generations to come.",
     "original_fr": "Ah, merveilleux ! Merci beaucoup !{WAIT_KEY}\nGr{TAG:4A}ce {TAG:3C} vous, nous pourrons vivre en paix au lieu de\nvivre dans la terreur.{WAIT_KEY}\nJe ne pourrai jamais assez vous remercier. L'histoire de\nvos exploits sera transmise dans les légendes du village\npour les générations {TAG:3C} venir.",
-    "translation": "Вы сделали это! Невероятно!{WAIT_KEY}\nБыть может, теперь радость и смех сменят страх\nв наших жизнях.{WAIT_KEY}\nСлов не хватит, чтобы выразить благодарность.\nЗнайте: молва о ваших подвигах станет легендой\nна поколения вперёд."
+    "translation": "Вы сделали это! Невероятно!{WAIT_KEY}Быть может, теперь радость и смех сменят страх\nв наших жизнях.{WAIT_KEY}Слов не хватит, чтобы выразить благодарность.\nЗнайте: молва о ваших подвигах станет легендой\nна поколения вперёд."
   },
   {
     "id": 72,
@@ -483,7 +483,7 @@
     "id": 80,
     "original_en": "There's something I was hoping you might help me with.\nA legend in our village tells of a tool known as the\nGolden Hammer, and I'd like you to search for it, if\nyou'd be willing.{WAIT_KEY}\nThe tales say it's made from the wood of a golden\ntree, but I'm afraid I can't tell you very much else.\nDo you suppose you could spare the time to search?",
     "original_fr": "J'ai une faveur {TAG:3C} vous demander. J'aimerais que vous\ntrouviez un maillet doré pour moi.{WAIT_KEY}\nNos ancêtres racontaient qu'il peut être fabriqué {TAG:3C}\npartir de bois doré... Alors, pourriez-vous le trouver ?",
-    "translation": "Я надеялся на вашу помощь. Легенда деревни\nгласит об орудии — Золотом молоте. Не поищете ли\nвы его?{WAIT_KEY}\nСказания говорят, он вытесан из золотого дерева,\nно большего я не знаю. Найдётся ли у вас время на\nпоиски?"
+    "translation": "Я надеялся на вашу помощь. Легенда деревни\nгласит об орудии — Золотом молоте. Не поищете ли\nвы его?{WAIT_KEY}Сказания говорят, он вытесан из золотого дерева,\nно большего я не знаю. Найдётся ли у вас время на\nпоиски?"
   },
   {
     "id": 81,
@@ -543,7 +543,7 @@
     "id": 90,
     "original_en": "I've need of your help.\nMy daughter has taken gravely ill, you see.{WAIT_KEY}\nDo you know of the Prismastone?\nIt's said to hold the power to cure affliction.{WAIT_KEY}\nThe tales say it sits at the peak of Mount Emerald,\neast of the Great Southern Swamp. But a guardian\nblocks the way up the mountain, and I cannot go.\nPlease, will you not retrieve it for me?",
     "original_fr": "Ma fille est gravement malade...{WAIT_KEY}\nOn dit que la pierre irisée a le pouvoir de guérir tous les\nmaux. Selon la légende, elle se trouve au sommet du\nmont verdoyant, {TAG:3C} l'est du grand marécage, mais une\nétrange créature bloque la route.{WAIT_KEY}\nPourriez-vous me la ramener ?",
-    "translation": "Мне нужна ваша помощь. Моя дочь тяжело\nзаболела...{WAIT_KEY}\nЗнаете ли вы о Камне призмы? Говорят, он способен\nисцелять недуги.{WAIT_KEY}\nОн покоится на Изумрудном пике на востоке. Но\nстраж преграждает путь, и мне не пройти. Прошу,\nпринесите камень!"
+    "translation": "Мне нужна ваша помощь. Моя дочь тяжело\nзаболела...{WAIT_KEY}Знаете ли вы о Камне призмы? Говорят, он способен\nисцелять недуги.{WAIT_KEY}Он покоится на Изумрудном пике на востоке. Но\nстраж преграждает путь, и мне не пройти. Прошу,\nпринесите камень!"
   },
   {
     "id": 91,
@@ -555,13 +555,13 @@
     "id": 92,
     "original_en": "Oh, praise be!\nMy daughter should be fine now.{WAIT_KEY}\nThis is all I have to offer you in thanks,\nbut I hope it will prove useful.\nPlease, take it.",
     "original_fr": "Ma fille est en pleine forme ! Comment pourrais-je vous\nremercier ? Vous êtes vraiment formidables !{WAIT_KEY}\nC'est tout ce que je possède, mais j'aimerais que vous\nl'acceptiez. J'espère que ça vous sera utile.",
-    "translation": "О, хвала небесам! Моя девочка теперь поправится!{WAIT_KEY}\nПрошу, возьмите это в знак моей вечной\nблагодарности!"
+    "translation": "О, хвала небесам! Моя девочка теперь поправится!{WAIT_KEY}Прошу, возьмите это в знак моей вечной\nблагодарности!"
   },
   {
     "id": 93,
     "original_en": "{GLYPH:384}\nObtained Capsule Set!{WAIT_KEY}{GLYPH:384}\n\nInside are 2 Strength Capsules,\n2 Magic Capsules, and 2 Speed Capsules!",
     "original_fr": "{GLYPH:384}\nVous obtenez un assortiment de gélules !{WAIT_KEY}{GLYPH:384}\n\nIl contient deux gélules de force, deux gélules\nde magie et deux gélules de rapidité !\n",
-    "translation": "{GLYPH:384} Получен Набор капсул!{WAIT_KEY}\n{GLYPH:384} Внутри лежат 2 Капсулы силы, 2 Капсулы магии и\n2 Капсулы скорости!"
+    "translation": "{GLYPH:384} Получен Набор капсул!{WAIT_KEY}{GLYPH:384} Внутри лежат 2 Капсулы силы, 2 Капсулы магии и\n2 Капсулы скорости!"
   },
   {
     "id": 94,
@@ -627,7 +627,7 @@
     "id": 104,
     "original_en": "You need something that will shine in the darkness?\nWell, the Prismastone is said to absorb light.{WAIT_KEY}\nPerhaps if you left a stone like that in the sun on\nsome high peak for a long time, it would absorb\nenough light to shine on its very own.",
     "original_fr": "Une pierre qui peut percer les ténèbres ?{WAIT_KEY}\nOn raconte que les gemmes comme la pierre irisée\npeuvent absorber la lumière.{WAIT_KEY}\nSi on laissait très longtemps une telle pierre dans un\nendroit ensoleillé comme le sommet d'une montagne,\nalors elle pourrait peut-être briller assez...",
-    "translation": "Нужно что-то, что озарит тьму? Говорят, Камень\nпризмы сияет ярче солнца.{WAIT_KEY}\nЕго можно найти на вершине горы."
+    "translation": "Нужно что-то, что озарит тьму? Говорят, Камень\nпризмы сияет ярче солнца.{WAIT_KEY}Его можно найти на вершине горы."
   },
   {
     "id": 105,
@@ -645,7 +645,7 @@
     "id": 107,
     "original_en": "Oh, that stone—it shines like the sun!{WAIT_KEY}\nWith that, you should be able to find your way even\nin the deepest darkness! Won't you go and see what\nlies within that darkened cave beyond the Great\nSouthern Swamp?",
     "original_fr": "Oh, cette pierre...! Quel éclat remarquable !{WAIT_KEY}\nAvec elle, vous devriez pouvoir percer même les\nténèbres les plus profondes ! Pourriez-vous aller\nvoir ce qu'il y a au-del{TAG:3C} du passage serpentin {TAG:3C}\nl'ouest du grand marécage ?",
-    "translation": "О, этот камень... Он сияет словно солнце!{WAIT_KEY}\nС таким сиянием можно смело исследовать ту\nпещеру."
+    "translation": "О, этот камень... Он сияет словно солнце!{WAIT_KEY}С таким сиянием можно смело исследовать ту\nпещеру."
   },
   {
     "id": 108,
@@ -657,7 +657,7 @@
     "id": 109,
     "original_en": "What? The cave is full of monsters?\nAnd they're planning to attack the village!?{WAIT_KEY}\nOh, no!\nWe have to call everyone together!",
     "original_fr": "Qu'est-ce que vous dites ?! Il y a un grand nombre de\nmonstres et ils s'apprêtent {TAG:3C} attaquer le village ?{WAIT_KEY}\nVoil{TAG:3C} qui est grave ! Hé, écoutez tous !",
-    "translation": "Что? Пещера кишит чудовищами?! И они замышляют\nнапасть на деревню?!{WAIT_KEY}\nО нет! Нужно скорее собрать всех вместе!"
+    "translation": "Что? Пещера кишит чудовищами?! И они замышляют\nнапасть на деревню?!{WAIT_KEY}О нет! Нужно скорее собрать всех вместе!"
   },
   {
     "id": 110,
@@ -693,13 +693,13 @@
     "id": 115,
     "original_en": "It couldn't be!\nThis is the gem I spoke of?\nMy, it certainly is gorgeous!{WAIT_KEY}\nBut wherever did you find another Prismastone?\nThere shouldn't have been more than one in the world.",
     "original_fr": "Hein, quoi ?! C'est la pierre miraculeuse dont je vous\navais parlé ? Ouah, elle est magnifique...{WAIT_KEY}\nOù avez-vous bien pu trouver une autre pierre irisée ?\nIl ne devrait pourtant bien en avoir qu'une seule !",
-    "translation": "Не может быть! Это тот самый камень, о котором я\nговорила? Боже мой, какая красота!{WAIT_KEY}\nНо где же вы отыскали второй Камень призмы?\nВедь в мире не должно было быть больше одного!"
+    "translation": "Не может быть! Это тот самый камень, о котором я\nговорила? Боже мой, какая красота!{WAIT_KEY}Но где же вы отыскали второй Камень призмы?\nВедь в мире не должно было быть больше одного!"
   },
   {
     "id": 116,
     "original_en": "You...traveled through time?\nI'm afraid I don't understand what you mean.\nBut still, I appreciate you coming to show it to me.{WAIT_KEY}\nLet me give you a little something, as a way of\nsaying thanks. Hold on, I just need to put the\nfinishing touches on it.",
     "original_fr": "... Vous avez voyagé dans le temps ? Hum, je ne\ncomprends pas. En tout cas, merci de me l'avoir\nmontrée !{WAIT_KEY}\nAh oui, J'aimerais vous offrir quelque chose pour vous\nremercier. Attendez ici.",
-    "translation": "Вы... путешествовали во времени? Боюсь, мне\nтакого не понять, но я признательна, что вы\nпришли показать мне его.{WAIT_KEY}\nПозвольте отблагодарить вас подарком.\nПодождите минутку, я только нанесу последние\nштрихи."
+    "translation": "Вы... путешествовали во времени? Боюсь, мне\nтакого не понять, но я признательна, что вы\nпришли показать мне его.{WAIT_KEY}Позвольте отблагодарить вас подарком.\nПодождите минутку, я только нанесу последние\nштрихи."
   },
   {
     "id": 117,
@@ -849,31 +849,31 @@
     "id": 141,
     "original_en": "{MARLE}: All right.\nNow we just have to wait for it to grow into a tree!\nHow long do you suppose that will take?{WAIT_KEY}\nOh! What if we came back here through the other Gate\nin the Middle Ages? Maybe it would have already grown!",
     "original_fr": "{MARLE} : C'est bon ! Mais attendre qu'il atteigne sa\ntaille adulte pourrait prendre des lustres...{WAIT_KEY}\nJ'ai une idée ! Si nous revenons ici en passant par le\nportail du Moyen-{TAG:5F}ge, il aura s{TAG:63}rement eu le temps de\ngrandir !",
-    "translation": "{MARLE}: Отлично. Теперь остаётся ждать, пока\nвырастет дерево! Как думаете, сколько времени\nуйдёт?{WAIT_KEY}\nО! А что, если вернуться сюда через другие Врата\nв Средневековье? Вдруг оно уже успеет вырасти!"
+    "translation": "{MARLE}: Отлично. Теперь остаётся ждать, пока\nвырастет дерево! Как думаете, сколько времени\nуйдёт?{WAIT_KEY}О! А что, если вернуться сюда через другие Врата\nв Средневековье? Вдруг оно уже успеет вырасти!"
   },
   {
     "id": 142,
     "original_en": "{LUCCA}: Well, we spread the sand. Now all we can\ndo is wait for it to grow into a proper tree.{WAIT_KEY}\nHey! There was a Gate to this place in the Middle\nAges, too. What if we tried going there?{WAIT_KEY}\nI really am a genius!",
     "original_fr": "{LUCCA} : Maintenant que nous avons répandu le\nsable, il ne reste plus qu'{TAG:3C} attendre patiemment\nqu'il atteigne sa maturité. Je me demande combien\nde temps ça prendra...{WAIT_KEY}\nAh, je sais ! Si nous revenons par le portail du\nMoyen-{TAG:5F}ge... Ho, ho, ho, ho ! Je suis un génie !",
-    "translation": "{LUCCA}: Песок рассыпан. Теперь остаётся только\nждать, пока дерево вырастет.{WAIT_KEY}\nПогодите-ка! В Средневековье тоже были Врата\nсюда. Что, если мы отправимся туда прямо сейчас?{WAIT_KEY}\nЯ просто гений!"
+    "translation": "{LUCCA}: Песок рассыпан. Теперь остаётся только\nждать, пока дерево вырастет.{WAIT_KEY}Погодите-ка! В Средневековье тоже были Врата\nсюда. Что, если мы отправимся туда прямо сейчас?{WAIT_KEY}Я просто гений!"
   },
   {
     "id": 143,
     "original_en": "{FROG}: There's naught we can do now but wait.\nLet us hope it truly grows to be a golden tree.\nI wonder how many long years it will take?{WAIT_KEY}\nWait... There was another Gate leading here in my\nown era. What if we were to come through it?",
     "original_fr": "{FROG} : Et maintenant, il ne reste plus qu'{TAG:3C}\nattendre qu'il grandisse. Hum, nous pourrions\npasser le reste de notre vie {TAG:3C} le faire...!{WAIT_KEY}\n... Un instant. Il y a aussi un portail au Moyen-{TAG:5F}ge.\nSi nous passons par l{TAG:3C}...",
-    "translation": "{FROG}: Ныне остаётся лишь ждать. Будем уповать,\nчто древо вырастет золотым. Сколько же долгих\nлет на сие уйдёт?{WAIT_KEY}\nПостойте... В моей эпохе сюда тоже вели Врата.\nЧто, если нам пройти через них?"
+    "translation": "{FROG}: Ныне остаётся лишь ждать. Будем уповать,\nчто древо вырастет золотым. Сколько же долгих\nлет на сие уйдёт?{WAIT_KEY}Постойте... В моей эпохе сюда тоже вели Врата.\nЧто, если нам пройти через них?"
   },
   {
     "id": 144,
     "original_en": "{ROBO}: Objective complete.\nNow we must wait for the tree to grow up.\nThat may take longer than your lifespans, though.{WAIT_KEY}\nWas there not another Gate to this place from the\nyear 600 A.D.? Surely it will have become a golden\ntree by then!",
     "original_fr": "{ROBO} : Nous avons répandu le sable. Maintenant,\nil ne reste plus qu'{TAG:3C} attendre que l'arbre grandisse.\nCependant, cela prendra beaucoup de temps et vos\nvies sont trop courtes...{WAIT_KEY}\nIl n'y a qu'une solution ! Retournons ici en passant par\nle portail de l'an 600 ! Il sera s{TAG:63}rement devenu un arbre\ndoré {TAG:3C} cette époque.",
-    "translation": "{ROBO}: Задача выполнена. Теперь остаётся ждать\nроста дерева. Впрочем, это превышает срок\nчеловеческой жизни.{WAIT_KEY}\nРазве из 600 г. н. э. сюда не вели другие Врата? К\nтому времени оно непременно станет золотым\nдревом!"
+    "translation": "{ROBO}: Задача выполнена. Теперь остаётся ждать\nроста дерева. Впрочем, это превышает срок\nчеловеческой жизни.{WAIT_KEY}Разве из 600 г. н. э. сюда не вели другие Врата? К\nтому времени оно непременно станет золотым\nдревом!"
   },
   {
     "id": 145,
     "original_en": "{AYLA}: All done.\nNow wait, tree get big!\nLong, long wait!\nMaybe {AYLA} no can wait.{WAIT_KEY}\nOh!\nOther Gate!\nGo there, maybe big tree!\n",
     "original_fr": "{AYLA} : Nous répandre sable. Maintenant, attendre\nqu'arbre grandir. Très longtemps ! Mais {AYLA} pas\nvouloir attendre !{WAIT_KEY}\nIdée ! Revenir ici par autre portail ! Portail Moyen-{TAG:5F}ge !\nArbre s{TAG:63}rement devenir grand !",
-    "translation": "{AYLA}: Всё готово. Ждать, пока дерево стать\nбольшим! Долго-долго ждать! {AYLA} не мочь ждать.{WAIT_KEY}\nО! Другие Врата! Идти туда — может, уже большое\nдерево!"
+    "translation": "{AYLA}: Всё готово. Ждать, пока дерево стать\nбольшим! Долго-долго ждать! {AYLA} не мочь ждать.{WAIT_KEY}О! Другие Врата! Идти туда — может, уже большое\nдерево!"
   },
   {
     "id": 146,
@@ -1677,7 +1677,7 @@
     "id": 279,
     "original_en": "You want to hear the secret of the Prismastone again?{WAIT_KEY}\nIt's said that if two such gems are enshrined together\nin this village's sanctuary, a divine power will merge\nthem to form a stone of even greater power.{WAIT_KEY}\nIf you ever happen to encounter a stone like that,\nbring it to me to see, won't you?",
     "original_fr": "Vous voulez que je vous dise encore une fois le\nprécieux secret de la pierre irisée ?{WAIT_KEY}\nIl para¡t que si vous placez deux pierres irisées\nsur l'autel du village, vous obtiendrez une pierre\nmiraculeuse encore plus puissante.",
-    "translation": "Хотите снова услышать тайну Камня призмы?{WAIT_KEY}\nГоворят, если положить два камня в святилище,\nбожественная сила сольёт их в ещё более\nмогущественный.{WAIT_KEY}\nЕсли вам когда-нибудь попадётся такой камень,\nпринесите показать мне, договорились?"
+    "translation": "Хотите снова услышать тайну Камня призмы?{WAIT_KEY}Говорят, если положить два камня в святилище,\nбожественная сила сольёт их в ещё более\nмогущественный.{WAIT_KEY}Если вам когда-нибудь попадётся такой камень,\nпринесите показать мне, договорились?"
   },
   {
     "id": 280,
@@ -1719,7 +1719,7 @@
     "id": 286,
     "original_en": "I guard here.\nYou no pass.{WAIT_KEY}\nYou beat me, then you can pass.",
     "original_fr": "Je suis le gardien de cet endroit. Je ne laisse passer\npersonne.{WAIT_KEY}\nCependant, si vous arrivez {TAG:3C} me vaincre, je ferai\nune exception.",
-    "translation": "Я сторожить здесь. Ты не пройти.{WAIT_KEY}\nПобедить меня — тогда пройти."
+    "translation": "Я сторожить здесь. Ты не пройти.{WAIT_KEY}Победить меня — тогда пройти."
   },
   {
     "id": 287,

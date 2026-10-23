@@ -27,7 +27,7 @@
     "id": 4,
     "original_en": "Bro: You lowlifes can call me Johnny.\nI'm the leader of this pack.{WAIT_KEY}\nNow listen up. The ruined highway up ahead's the only\nroad you've got. You wanna reach the other side?\nThen you're gonna hafta ride—in a race against me,\nthat is!",
     "original_fr": "Johnny : Moi, c'est Johnny. Je suis le chef de cette\nbande.{WAIT_KEY}\nSi tu veux traverser ces ruines, tu devras me battre {TAG:3C}\nla course sur l'ancienne autoroute.",
-    "translation": "Джонни: Для вас, салаг, я просто Джонни. Я здесь\nвожак этой стаи.{WAIT_KEY}\nСлушайте сюда. Шоссе впереди — единственная\nдорога. Хотите на ту сторону? Тогда придётся\nпрокатиться — и обогнать меня в гонке!"
+    "translation": "Джонни: Для вас, салаг, я просто Джонни. Я здесь\nвожак этой стаи.{WAIT_KEY}Слушайте сюда. Шоссе впереди — единственная\nдорога. Хотите на ту сторону? Тогда придётся\nпрокатиться — и обогнать меня в гонке!"
   },
   {
     "id": 5,
@@ -87,7 +87,7 @@
     "id": 14,
     "original_en": "Johnny: All right, listen up and let Johnny tell you\nhow it's done!{WAIT_KEY}\nThe gas is on auto, so there's only one speed—fast!\nUse the +Control Pad to steer up and down.{WAIT_KEY}\nPress the B Button for a Turbo Boost.\nI'll give you 3 of them. The \"B\" icons in\nthe bottom right corner show how many\nyou've got left.{WAIT_KEY}\nHeads up, though!\nAfter you use one, you can't use another\nuntil the gauge above the icons refills.{WAIT_KEY}\nYou can check your position from the\nfinish line at the bottom of the screen.\nNow show me what you've got, babe!",
     "original_fr": "Johnny : îcoute bien ce que le grand Johnny a {TAG:3C} te\ndire !{WAIT_KEY}\nL'accélérateur est toujours activé, alors tu iras\ntoujours vers l'avant, pas besoin de t'inquiéter.\nAppuie vers le haut ou le bas sur la manette +\npour te déplacer.{WAIT_KEY}\nAppuie sur le bouton B pour utiliser une accélération\nturbo. Tu peux en utiliser trois, comme l'indiquent les\nicônes en bas {TAG:3C} droite de l'écran.{WAIT_KEY}\nMais attention ! Après avoir utilisé une accélération\nturbo, tu devras attendre que la jauge au-dessus de\nl'icône soit remplie pour en utiliser une autre.{WAIT_KEY}\nGarde l'{TAG:61}il sur ta position au bas de l'écran.\nAlors, montre-moi ce dont tu es capable !",
-    "translation": "Джонни: Слушай сюда — Джонни научит, как надо\nрулить!{WAIT_KEY}\nГаз на авто, скорость одна — запредельная!\nИспользуй кнопку направления вверх и вниз.{WAIT_KEY}\nЖми кнопку B для турбо-ускорения. Я даю 3 штуки.\nЗначки «B» в правом нижнем углу показывают\nостаток.{WAIT_KEY}\nНо гляди в оба! После одного турбо нельзя включить\nследующее, пока не заполнится шкала над\nзначками.{WAIT_KEY}\nРасстояние до финиша смотри внизу экрана. А\nтеперь покажи, на что способен, детка!"
+    "translation": "Джонни: Слушай сюда — Джонни научит, как надо\nрулить!{WAIT_KEY}Газ на авто, скорость одна — запредельная!\nИспользуй кнопку направления вверх и вниз.{WAIT_KEY}Жми кнопку B для турбо-ускорения. Я даю 3 штуки.\nЗначки «B» в правом нижнем углу показывают\nостаток.{WAIT_KEY}Но гляди в оба! После одного турбо нельзя включить\nследующее, пока не заполнится шкала над\nзначками.{WAIT_KEY}Расстояние до финиша смотри внизу экрана. А\nтеперь покажи, на что способен, детка!"
   },
   {
     "id": 15,
@@ -111,7 +111,7 @@
     "id": 18,
     "original_en": "Johnny: Ha! What a joke! If that's the best you can do,\nyou can walk your way across the ruins! Better watch\nout for all those monsters, though...{WAIT_KEY}\nRide again if you think you can handle it, chump!",
     "original_fr": "Johnny : Pfft ! Si tu abandonnes, tu peux toujours\nmarcher, mais gare aux monstres !{WAIT_KEY}\nSi tu veux essayer de me battre, monte {TAG:3C} moto.",
-    "translation": "Джонни: Ха! Ну и смех! Если это твой предел, топай\nчерез руины пешком! Только берегись, там полно\nголодных монстров...{WAIT_KEY}\nЕсли надумаешь рискнуть снова — садись за руль,\nсалага!"
+    "translation": "Джонни: Ха! Ну и смех! Если это твой предел, топай\nчерез руины пешком! Только берегись, там полно\nголодных монстров...{WAIT_KEY}Если надумаешь рискнуть снова — садись за руль,\nсалага!"
   },
   {
     "id": 19,
@@ -123,7 +123,7 @@
     "id": 20,
     "original_en": "Rx-xR: Greetings, racing life forms!\nI am Rx-xR, the Record Keeper.\nI'll record your 3 highest scores.{WAIT_KEY}\nThere are two ways you can race Johnny.\nWhich would you prefer?",
     "original_fr": "RX-XR : Bonjour ! Je suis RX-XR ! Je tiendrai l'historique\nde vos courses ! Vos trois meilleurs scores seront\nenregistrés !{WAIT_KEY}\nIl y a deux types de courses, lequel préférez-vous ?",
-    "translation": "Rx-xR: Приветствую, гонщики! Я — Rx-xR, хранитель\nрекордов. Я фиксирую 3 ваших лучших результата.{WAIT_KEY}\nЕсть два варианта гонки с Джонни. Какой\nпредпочитаете?"
+    "translation": "Rx-xR: Приветствую, гонщики! Я — Rx-xR, хранитель\nрекордов. Я фиксирую 3 ваших лучших результата.{WAIT_KEY}Есть два варианта гонки с Джонни. Какой\nпредпочитаете?"
   },
   {
     "id": 21,
@@ -177,13 +177,13 @@
     "id": 29,
     "original_en": "Rx-xR: Lucky 777! You don't see that every day!\nYou deserve a really big bonus for that!{WAIT_KEY}{GLYPH:384}\n\nObtained 10 Mid-Ethers!",
     "original_fr": "RX-XR : Ouah ! 777 points pile-poil ! Vous méritez une\nsuperbe récompense !{WAIT_KEY}{GLYPH:384}\n\nVous obtenez dix super-éthers !!",
-    "translation": "Rx-xR: Счастливые 777! Редкая удача! За это\nполагается солидная награда!{WAIT_KEY}{GLYPH:384} Получено 10\nСредних эфиров!"
+    "translation": "Rx-xR: Счастливые 777! Редкая удача! За это\nполагается солидная награда!{WAIT_KEY}{GLYPH:384} Получено 10 Средних эфиров!"
   },
   {
     "id": 30,
     "original_en": "Rx-xR: Jumping anaconda! You broke the 2000-point\nmark!{WAIT_KEY}\nTake these—and don't use 'em all in one place!",
     "original_fr": "RX-XR : Ouah ! Formidable ! Vous avez obtenu plus de\n2000 points ! Voici votre récompense !",
-    "translation": "Rx-xR: Святые шестерёнки! Вы перевалили за 2000\nочков!{WAIT_KEY}\nЗабирайте награду — и не спустите всё сразу!"
+    "translation": "Rx-xR: Святые шестерёнки! Вы перевалили за 2000\nочков!{WAIT_KEY}Забирайте награду — и не спустите всё сразу!"
   },
   {
     "id": 31,
@@ -249,7 +249,7 @@
     "id": 41,
     "original_en": "{LUCCA}: All right, that should do it!{WAIT_KEY}\nI'm going to give it some juice!",
     "original_fr": "{LUCCA} : Je crois que c'est bon !{WAIT_KEY}\nMettons-le en marche !",
-    "translation": "{LUCCA}: Так, должно сработать!{WAIT_KEY}\nПодаю питание!"
+    "translation": "{LUCCA}: Так, должно сработать!{WAIT_KEY}Подаю питание!"
   },
   {
     "id": 42,
@@ -267,7 +267,7 @@
     "id": 44,
     "original_en": "Robot: G-good...{WAIT_KEY}\nGood morning, mistress.\nWhat is your command?",
     "original_fr": "Andro¿de : Bon...{WAIT_KEY}\nBonjour, ma¡tre.\nJe suis {TAG:3C} vos ordres.",
-    "translation": "Робот: Д-доброе...{WAIT_KEY}\nДоброе утро, госпожа. Каковы будут указания?"
+    "translation": "Робот: Д-доброе...{WAIT_KEY}Доброе утро, госпожа. Каковы будут указания?"
   },
   {
     "id": 45,
@@ -381,7 +381,7 @@
     "id": 63,
     "original_en": "{ROBO}: ...{WAIT_KEY}\nWhat...happened here?",
     "original_fr": "{ROBO} : ...{WAIT_KEY}\nQue...\nQue s'est-il passé ?",
-    "translation": "{ROBO}: ...{WAIT_KEY}\nЧто... здесь произошло?"
+    "translation": "{ROBO}: ...{WAIT_KEY}Что... здесь произошло?"
   },
   {
     "id": 64,
@@ -399,7 +399,7 @@
     "id": 66,
     "original_en": "{ROBO}: ...{WAIT_KEY}\nI...see.",
     "original_fr": "{ROBO} : ...{WAIT_KEY}\nJe vois...",
-    "translation": "{ROBO}: ...{WAIT_KEY}\nЯ... понял."
+    "translation": "{ROBO}: ...{WAIT_KEY}Я... понял."
   },
   {
     "id": 67,
@@ -453,7 +453,7 @@
     "id": 75,
     "original_en": "{ROBO}: You repaired me.\nNow it is my turn to be of assistance.{WAIT_KEY}\nHowever, the generator will produce power for only\na short time. Someone must remain here to open the\ndoor as soon as power is restored to the dome.",
     "original_fr": "{ROBO} : Vous m'avez réparé. Cette fois, c'est moi\nqui vous serai utile. Cependant, je ne sais pas combien\nde temps la génératrice fonctionnera.{WAIT_KEY}\nQuelqu'un devra rester ici pour ouvrir la porte dès que\nle courant sera rétabli.",
-    "translation": "{ROBO}: Вы починили меня. Теперь моя очередь\nоказать содействие.{WAIT_KEY}\nОднако генератор проработает недолго. Кто-то\nдолжен остаться здесь и открыть дверь сразу при\nподаче питания."
+    "translation": "{ROBO}: Вы починили меня. Теперь моя очередь\nоказать содействие.{WAIT_KEY}Однако генератор проработает недолго. Кто-то\nдолжен остаться здесь и открыть дверь сразу при\nподаче питания."
   },
   {
     "id": 76,
@@ -489,7 +489,7 @@
     "id": 81,
     "original_en": "{LUCCA}: Guess you need my genius after all,\nhuh?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "{LUCCA} : Tu as besoin de mon génie finalement,\npas vrai ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "{LUCCA}: Вижу, без\nмоего гения никак, а?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "{LUCCA}: Вижу, без моего гения никак, а?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 82,
@@ -597,7 +597,7 @@
     "id": 99,
     "original_en": "{ROBO}: There is nothing left for me here.\nI want to help you.{WAIT_KEY}\nTogether, we might be able to give the life on this\nplanet a chance.",
     "original_fr": "{ROBO} : Je veux vous aider {TAG:3C} redonner espoir aux\nhumains, {TAG:3C} redonner vie {TAG:3C} cette planète.",
-    "translation": "{ROBO}: Здесь для меня ничего не осталось. Я хочу\nпомочь вам.{WAIT_KEY}\nБыть может, вместе мы сможем подарить жизни на\nэтой планете шанс."
+    "translation": "{ROBO}: Здесь для меня ничего не осталось. Я хочу\nпомочь вам.{WAIT_KEY}Быть может, вместе мы сможем подарить жизни на\nэтой планете шанс."
   },
   {
     "id": 100,

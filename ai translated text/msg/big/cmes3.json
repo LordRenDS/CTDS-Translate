@@ -21,7 +21,7 @@
     "id": 3,
     "original_en": "{FROG}: You would go alone?{WAIT_KEY}\nI do not know what has driven you to this quest,\nbut a friend of {CRONO}'s is a friend of mine.{WAIT_KEY}\nI will not stand by while you go to your grave.",
     "original_fr": "{FROG} : Tu comptes y aller sans nous ?{WAIT_KEY}\nJe ne sais pas exactement ce qui est arrivé, mais les\namis de {CRONO} sont mes amis.{WAIT_KEY}\nJe ne te laisserai pas risquer ta vie seule.",
-    "translation": "{FROG}: Ты собралась идти одна?{WAIT_KEY}\nНе знаю, что толкнуло тебя на этот путь, но друг\n{CRONO} — мой друг.{WAIT_KEY}\nЯ не позволю тебе идти на верную гибель."
+    "translation": "{FROG}: Ты собралась идти одна?{WAIT_KEY}Не знаю, что толкнуло тебя на этот путь, но друг\n{CRONO} — мой друг.{WAIT_KEY}Я не позволю тебе идти на верную гибель."
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
     "id": 9,
     "original_en": "{FROG}: You wish to die alone, then?\nI fear I cannot allow that—not after having\naccepted your aid and hospitality.{WAIT_KEY}\nThere has been death enough on my watch.\nI'll abide no more.",
     "original_fr": "{FROG} : Tu veux donc mourir loin de tous tes\namis ? Il n'y a pas si longtemps, tu nous as porté\nsecours...{WAIT_KEY}\nAssez de gens ont péri par ma faute...",
-    "translation": "{FROG}: Хочешь погибнуть в одиночестве? Я не\nдопущу этого, приняв твою помощь и кров.{WAIT_KEY}\nСлишком многие гибли на моих глазах. Хватит с\nменя смертей."
+    "translation": "{FROG}: Хочешь погибнуть в одиночестве? Я не\nдопущу этого, приняв твою помощь и кров.{WAIT_KEY}Слишком многие гибли на моих глазах. Хватит с\nменя смертей."
   },
   {
     "id": 10,
@@ -93,7 +93,7 @@
     "id": 15,
     "original_en": "Masa: Dreamstone has been used throughout the ages.\nThe Mammon Machine and that pendant were made from\nit, and so was that knife.{WAIT_KEY}\nWe are the embodiment of Melchior's hope,\nsealed within the knife.",
     "original_fr": "Gran : Une pierre rouge a été transmise de génération\nen génération depuis des millénaires...{WAIT_KEY}\nC'est {TAG:3C} partir d'elle qu'ont été créés le pendentif, le\nréceptacle sacré... et ce couteau.{WAIT_KEY}\nNous incarnons l'espoir que Bosch a placé en cette\nlame...",
-    "translation": "Маса: Камень снов передавался сквозь века. Из\nнего созданы Машина, та подвеска и этот кинжал.{WAIT_KEY}\nМы — воплощение надежды Мельхиора,\nзаключённое в клинке."
+    "translation": "Маса: Камень снов передавался сквозь века. Из\nнего созданы Машина, та подвеска и этот кинжал.{WAIT_KEY}Мы — воплощение надежды Мельхиора,\nзаключённое в клинке."
   },
   {
     "id": 16,
@@ -297,19 +297,19 @@
     "id": 49,
     "original_en": "{LUCCA}: A black portal?{WAIT_KEY}\nA Gate!",
     "original_fr": "{LUCCA} : Une distorsion noire...{WAIT_KEY}\nUn portail...",
-    "translation": "{LUCCA}: Чёрный портал?{WAIT_KEY}\nВрата!"
+    "translation": "{LUCCA}: Чёрный портал?{WAIT_KEY}Врата!"
   },
   {
     "id": 50,
     "original_en": "{ROBO}: A black portal?{WAIT_KEY}\nIt must have been a Gate made by Lavos.",
     "original_fr": "{ROBO} : Une distorsion noire...{WAIT_KEY}\nUn portail créé par Lavos.",
-    "translation": "{ROBO}: Чёрный портал?{WAIT_KEY}\nДолжно быть, это были Врата Времени."
+    "translation": "{ROBO}: Чёрный портал?{WAIT_KEY}Должно быть, это были Врата Времени."
   },
   {
     "id": 51,
     "original_en": "{FROG}: A black portal?{WAIT_KEY}\nA Gate...",
     "original_fr": "{FROG} : Une distorsion noire...{WAIT_KEY}\nUn portail...?",
-    "translation": "{FROG}: Чёрный портал?{WAIT_KEY}\nВрата..."
+    "translation": "{FROG}: Чёрный портал?{WAIT_KEY}Врата..."
   },
   {
     "id": 52,
@@ -615,7 +615,7 @@
     "id": 102,
     "original_en": "The Sun Temple of Zeal enshrined a Sun Stone.\nSuch stones are made by bathing darkened Moon\nStones in the sun's rays.\n{WAIT_KEY}\nHarvesting enough power to create a Sun Stone of\nany worth requires ages, though, or so I've heard.",
     "original_fr": "Une pierre du soleil reposait dans le berceau de la\nlumière de Zhyle.{WAIT_KEY}\nPour en obtenir une, il faut exposer au soleil une pierre\nobscure pendant très longtemps.{WAIT_KEY}\nJ'ai entendu dire que pour en tirer un pouvoir\nsuffisant, il faut la laisser au même endroit\npendant des millénaires !",
-    "translation": "В Храме Солнца покоился Солнечный камень. Лунный\nкамень становится им, веками впитывая лучи\nсолнца.{WAIT_KEY}\nНо чтобы напитать его должной мощью, требуются\nнеисчислимые эпохи."
+    "translation": "В Храме Солнца покоился Солнечный камень. Лунный\nкамень становится им, веками впитывая лучи\nсолнца.{WAIT_KEY}Но чтобы напитать его должной мощью, требуются\nнеисчислимые эпохи."
   },
   {
     "id": 103,
@@ -687,7 +687,7 @@
     "id": 114,
     "original_en": "Hurrah!{WAIT_KEY}\nJustice!{WAIT_KEY}\nDalton's been paid his due!",
     "original_fr": "Hourra !{WAIT_KEY}\nBravo !{WAIT_KEY}\nDalton a eu ce qu'il méritait !",
-    "translation": "Ура!{WAIT_KEY}\nСправедливость!{WAIT_KEY}\nДальтон получил по заслугам!"
+    "translation": "Ура!{WAIT_KEY}Справедливость!{WAIT_KEY}Дальтон получил по заслугам!"
   },
   {
     "id": 115,
@@ -717,7 +717,7 @@
     "id": 119,
     "original_en": "Dalton: You!? You survived?\nAh! That ship outside must be yours, then, mustn't it?{WAIT_KEY}\nIt matches Belthasar's designs perfectly.",
     "original_fr": "Dalton : Hein ! Vous avez survécu ?! Vous êtes coriaces !\nAlors, le véhicule non loin d'ici vous appartient ?{WAIT_KEY}\nIl est exactement comme celui que Gasch planifiait de\nconstruire...",
-    "translation": "Дальтон: Вы?! Выжили?! А, так та птичка снаружи\nпринадлежит вам?{WAIT_KEY}\nОна в точности повторяет чертежи Бальтазара."
+    "translation": "Дальтон: Вы?! Выжили?! А, так та птичка снаружи\nпринадлежит вам?{WAIT_KEY}Она в точности повторяет чертежи Бальтазара."
   },
   {
     "id": 120,
@@ -831,19 +831,19 @@
     "id": 138,
     "original_en": "{MARLE}: You're...{WAIT_KEY}\n...Janus, aren't you?",
     "original_fr": "{MARLE} : Est-ce possible...?{WAIT_KEY}\nJanus...?",
-    "translation": "{MARLE}: Ты...{WAIT_KEY}\n...ты Янус, да?"
+    "translation": "{MARLE}: Ты...{WAIT_KEY}...ты Янус, да?"
   },
   {
     "id": 139,
     "original_en": "{LUCCA}: You...{WAIT_KEY}\nYou were...that boy.",
     "original_fr": "{LUCCA} : Serais-tu...?{WAIT_KEY}\nEst-ce possible...?",
-    "translation": "{LUCCA}: Ты...{WAIT_KEY}\nТы был тем самым мальчиком..."
+    "translation": "{LUCCA}: Ты...{WAIT_KEY}Ты был тем самым мальчиком..."
   },
   {
     "id": 140,
     "original_en": "{FROG}: You...{WAIT_KEY}\nYou were that boy!",
     "original_fr": "{FROG} : Alors, tu es...{WAIT_KEY}\nCe gamin...!",
-    "translation": "{FROG}: Ты...{WAIT_KEY}\nТы был тем мальчишкой!"
+    "translation": "{FROG}: Ты...{WAIT_KEY}Ты был тем мальчишкой!"
   },
   {
     "id": 141,
@@ -855,7 +855,7 @@
     "id": 142,
     "original_en": "{MAGUS}: I've lived only for the thought\nof slaying Lavos.{WAIT_KEY}\nEver since his rift in time's fabric stranded\nme in the Middle Ages...{WAIT_KEY}\nAnd just as I had summoned him to my castle,\nyou arrived to interfere.{WAIT_KEY}\nTo think I would be drawn through yet another\nportal, only to find myself returned to this age...{WAIT_KEY}\nIronic, is it not?{WAIT_KEY}\nBeing from the future, my knowledge of the\npast enabled me to convince the Queen that\nI was an oracle of no small power. And so\nagain I worked to draw the beast out.{WAIT_KEY}\nBut no history book could have prepared me\nfor what ensued...{WAIT_KEY}\nUnimaginable is the power of Lavos!\nBefore him, all are as leaves cast to the\nbitter winds that howl about Death's black\nwings.{WAIT_KEY}\nStay this course, and your fate will be\nthe same as that fool {CRONO}'s!",
     "original_fr": "{MAGUS} : Depuis que j'ai été aspiré par la distorsion\ncréée par Lavos et que je me suis retrouvé au\nMoyen-{TAG:5F}ge, je n'ai pensé qu'{TAG:3C} une seule chose :\nle vaincre.{WAIT_KEY}\nVous êtes venus dans mon palais et vous avez\ninterrompu mon invocation...{WAIT_KEY}\nL'ironie du sort a voulu que je me retrouve ici après\navoir été aspiré dans un autre portail...{WAIT_KEY}\nJ'ai pu utiliser mes connaissances du passé pour\nconvaincre la reine que j'étais un prophète et\nainsi m'insinuer {TAG:3C} ses côtés pour mieux attendre\nla confrontation avec Lavos.{WAIT_KEY}\nCependant, le résultat fut...{WAIT_KEY}\n...{WAIT_KEY}\nLa puissance de Lavos est inconcevable. Le sombre\nvent de la mort se décha¡ne contre ceux qui osent\ns'y opposer.{WAIT_KEY}\nSi vous continuez ainsi, vous subirez le même sort que\nvotre ami {CRONO} !",
-    "translation": "{MAGUS}: Я жил лишь мыслью об уничтожении Лавоса.{WAIT_KEY}\nС того самого дня, как временной разлом забросил\nменя в Средневековье...{WAIT_KEY}\nИ как только я призвал его в свой замок, вы\nявились и всё испортили.{WAIT_KEY}\nПодумать только: меня затянуло в новый портал, и\nя снова очутился в этой эпохе...{WAIT_KEY}\nИрония судьбы, не правда ли?{WAIT_KEY}\nЗнания о прошлом помогли мне убедить Королеву,\nчто я великий оракул. И я вновь попытался\nвыманить чудовище наружу.{WAIT_KEY}\nНо никакие хроники не могли подготовить меня к\nтому, что произошло...{WAIT_KEY}\nМощь Лавоса неописуема! Перед ним все — лишь\nпылинки, уносимые ледяным ветром Смерти.{WAIT_KEY}\nПойдёте по этому пути — и вас постигнет та же\nучасть, что и глупца {CRONO}!"
+    "translation": "{MAGUS}: Я жил лишь мыслью об уничтожении Лавоса.{WAIT_KEY}С того самого дня, как временной разлом забросил\nменя в Средневековье...{WAIT_KEY}И как только я призвал его в свой замок, вы\nявились и всё испортили.{WAIT_KEY}Подумать только: меня затянуло в новый портал, и\nя снова очутился в этой эпохе...{WAIT_KEY}Ирония судьбы, не правда ли?{WAIT_KEY}Знания о прошлом помогли мне убедить Королеву,\nчто я великий оракул. И я вновь попытался\nвыманить чудовище наружу.{WAIT_KEY}Но никакие хроники не могли подготовить меня к\nтому, что произошло...{WAIT_KEY}Мощь Лавоса неописуема! Перед ним все — лишь\nпылинки, уносимые ледяным ветром Смерти.{WAIT_KEY}Пойдёте по этому пути — и вас постигнет та же\nучасть, что и глупца {CRONO}!"
   },
   {
     "id": 143,
@@ -909,7 +909,7 @@
     "id": 151,
     "original_en": "{MARLE}: Fighting you won't gain us anything.{WAIT_KEY}\nAnd...{CRONO} wouldn't want us to.",
     "original_fr": "{MARLE} : Même si on arrivait {TAG:3C} te vaincre...{WAIT_KEY}\nÇa ne ferait pas revenir {CRONO}...",
-    "translation": "{MARLE}: Битва с тобой ничего нам не даст.{WAIT_KEY}\nИ... {CRONO} не хотел бы этого."
+    "translation": "{MARLE}: Битва с тобой ничего нам не даст.{WAIT_KEY}И... {CRONO} не хотел бы этого."
   },
   {
     "id": 152,
@@ -987,7 +987,7 @@
     "id": 164,
     "original_en": "{MAGUS}: Very well, then...{WAIT_KEY}\nBut you shall not defeat me easily!",
     "original_fr": "{MAGUS} : Très bien...{WAIT_KEY}\nMais vous ne me vaincrez pas facilement !\nVous allez comprendre pourquoi on me\ncraignait et on me surnommait le Magistère !",
-    "translation": "{MAGUS}: Что ж, прекрасно...{WAIT_KEY}\nНо победа надо мной не дастся вам легко!"
+    "translation": "{MAGUS}: Что ж, прекрасно...{WAIT_KEY}Но победа надо мной не дастся вам легко!"
   },
   {
     "id": 165,
@@ -999,7 +999,7 @@
     "id": 166,
     "original_en": "Should you wish to...to revive {CRONO}, seek...{WAIT_KEY}\nSeek Gaspar, the...the Guru of... of Time.",
     "original_fr": "Si vous voulez ramener {CRONO} {TAG:3C} la vie...\nTrouvez Hasch...{WAIT_KEY}\nTrouvez le sage du temps...",
-    "translation": "Если хотите вернуть {CRONO}... найдите...{WAIT_KEY}\nНайдите Гаспара, Мудреца... Времени..."
+    "translation": "Если хотите вернуть {CRONO}... найдите...{WAIT_KEY}Найдите Гаспара, Мудреца... Времени..."
   },
   {
     "id": 167,
@@ -1017,7 +1017,7 @@
     "id": 169,
     "original_en": "{MAGUS}: ...{WAIT_KEY}\nNever did I imagine that we would settle\nour score in this era.\nCome, let us finish this charade!",
     "original_fr": "{MAGUS} : ...{WAIT_KEY}\nJe n'aurais jamais cru que nous réglerions nos comptes\ndans cette période de l'histoire...{WAIT_KEY}\nEn garde !",
-    "translation": "{MAGUS}: ...{WAIT_KEY} Никогда бы не подумал, что мы сведём\nсчёты в этой эпохе. Что ж, покончим с этой\nкомедией!"
+    "translation": "{MAGUS}: ...{WAIT_KEY}Никогда бы не подумал, что мы сведём счёты в\nэтой эпохе. Что ж, покончим с этой комедией!"
   },
   {
     "id": 170,
@@ -1047,7 +1047,7 @@
     "id": 174,
     "original_en": "{MAGUS}: Behold.\nAll of it rests at the bottom of the sea.{WAIT_KEY}\nGone is the magical kingdom of Zeal, and all\nthe dreams and ambitions of its people.",
     "original_fr": "{MAGUS} : Regardez. Tout est au fond de l'océan...{WAIT_KEY}\nZhyle, l'éternel royaume des rêves...",
-    "translation": "{MAGUS}: Взгляните. Всё это покоится на дне\nморском.{WAIT_KEY}\nСгинуло волшебное королевство Зил, а вместе с ним\n— мечты и чаяния его народа."
+    "translation": "{MAGUS}: Взгляните. Всё это покоится на дне\nморском.{WAIT_KEY}Сгинуло волшебное королевство Зил, а вместе с ним\n— мечты и чаяния его народа."
   },
   {
     "id": 175,
@@ -1059,7 +1059,7 @@
     "id": 176,
     "original_en": "{MAGUS}: A kingdom of unrealized dreams...{WAIT_KEY}\nTo have regained it at last, only to have it\nslip through my fingers like so much sand...",
     "original_fr": "{MAGUS} : L'évanescent royaume des rêves...{WAIT_KEY}\nHum...\nQui aurait cru que je le retrouverais ainsi, pour ensuite\nle perdre de nouveau...?",
-    "translation": "{MAGUS}: Королевство несбывшихся грёз...{WAIT_KEY}\nВернуть его лишь затем, чтобы оно вновь утекло\nсквозь пальцы, словно песок..."
+    "translation": "{MAGUS}: Королевство несбывшихся грёз...{WAIT_KEY}Вернуть его лишь затем, чтобы оно вновь утекло\nсквозь пальцы, словно песок..."
   },
   {
     "id": 177,
@@ -1095,7 +1095,7 @@
     "id": 182,
     "original_en": "The Guru of Life gave me this sapling, but I fear\nthere's no place for it in this desolate world.{WAIT_KEY}\nWhat should I do?\n{TAG:38}{TAG:38}{GLYPH:394}Burn it,{GLYPH:402} {GLYPH:403}it's a mercy.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Plant it, with hope.{GLYPH:397}",
     "original_fr": "Le sage de la vie m'a donné ce jeune arbre, mais il n'a\npeut-être plus aucune utilité dans un monde désolé et\nmourant.{WAIT_KEY}\nOh, que devrais-je faire ?\n       {GLYPH:394}Br{TAG:63}lez-le,{GLYPH:402} {GLYPH:403}s'il ne sert {TAG:3C} rien.{GLYPH:395}\n       {GLYPH:396}Plantez-le quelque part,{GLYPH:402}\n       {GLYPH:403}avec espoir.{GLYPH:397}",
-    "translation": "Гуру Жизни доверил мне этот росток, но боюсь,\nв этом гиблом мире ему не выжить.{WAIT_KEY}Что мне делать?\n{TAG:38}{TAG:38}{GLYPH:394}Сжечь,{GLYPH:402} {GLYPH:403}из жалости.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Посадить с надеждой.{GLYPH:397}"
+    "translation": "Гуру Жизни доверил мне этот росток, но боюсь, в\nэтом гиблом мире ему не выжить.{WAIT_KEY}Что мне делать?\n{TAG:38}{TAG:38}{GLYPH:394}Сжечь,{GLYPH:402} {GLYPH:403}из жалости.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Посадить с надеждой.{GLYPH:397}"
   },
   {
     "id": 183,

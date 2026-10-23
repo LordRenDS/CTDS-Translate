@@ -135,7 +135,7 @@
     "id": 22,
     "original_en": "It is a most ancient legend.{WAIT_KEY}\nLong ago, hordes of vicious monsters preyed upon our\nvillage, threatening to destroy our people entirely.\nBut just when hope was lost, the most unusual of\nheroes appeared.",
     "original_fr": "Il s'agit d'une légende transmise dans notre village\ndepuis les temps immémoriaux...{WAIT_KEY}\nIl y a de cela très, très longtemps, des monstres ont\nattaqué le village, menaçant d'exterminer nos ancêtres.{WAIT_KEY}\nAlors que tous croyaient que la situation était sans\nespoir sont apparus...",
-    "translation": "То предание глубокой старины.{WAIT_KEY}\nДавным-давно орды тварей осаждали деревню,\nгрозя истребить наш народ под корень. Но когда\nнадежда угасла, явились спасители."
+    "translation": "То предание глубокой старины.{WAIT_KEY}Давным-давно орды тварей осаждали деревню,\nгрозя истребить наш народ под корень. Но когда\nнадежда угасла, явились спасители."
   },
   {
     "id": 23,
@@ -183,7 +183,7 @@
     "id": 30,
     "original_en": "I would propose a contract by which we would reward\nyou for your aid on certain tasks and errands which we\ncannot do ourselves.{WAIT_KEY}\nIf you've the strength you seem to have, I think you'd\nfind it a profitable proposition. What do you say?",
     "original_fr": "Oui, en échange de vos services, nous vous donnerons\ndes récompenses.{WAIT_KEY}\nSi vous êtes capables, je crois que c'est une bonne\naffaire... Qu'en dites-vous ?",
-    "translation": "Я предлагаю уговор: мы щедро наградим вас за\nпомощь в делах, с которыми сами не справимся.{WAIT_KEY}\nЕсли вы столь сильны, как кажетесь, выгода будет\nнемалой. Что скажете?"
+    "translation": "Я предлагаю уговор: мы щедро наградим вас за\nпомощь в делах, с которыми сами не справимся.{WAIT_KEY}Если вы столь сильны, как кажетесь, выгода будет\nнемалой. Что скажете?"
   },
   {
     "id": 31,
@@ -201,7 +201,7 @@
     "id": 33,
     "original_en": "Then we are agreed!\nAnd if it's not too sudden, I've a task for you already.{WAIT_KEY}\nThe monsters in the wood beyond have been growing\nin number as of late. Would you vanquish them for us,\nbrave heroes?",
     "original_fr": "Le pacte est conclu. Alors, sans plus tarder...{WAIT_KEY}\nPourriez-vous éliminer les monstres qui se sont\nmultipliés dans la forêt ? Nous comptons sur vous,\nprimates héro¿ques !",
-    "translation": "Тогда решено! Коли не сочтёте за дерзость, у меня\nуже есть просьба.{WAIT_KEY}\nВ лесу за деревней расплодились чудовища. Не\nсразите ли вы их для нас, храбрые герои?"
+    "translation": "Тогда решено! Коли не сочтёте за дерзость, у меня\nуже есть просьба.{WAIT_KEY}В лесу за деревней расплодились чудовища. Не\nсразите ли вы их для нас, храбрые герои?"
   },
   {
     "id": 34,
@@ -267,7 +267,7 @@
     "id": 44,
     "original_en": "You slew all of them?\nHeroes, indeed!{WAIT_KEY}\nPlease, take this as your reward.",
     "original_fr": "Oh ? Voil{TAG:3C} qui est digne de votre réputation !{WAIT_KEY}\nVoici votre récompense.",
-    "translation": "Вы перебили их всех? И впрямь настоящие герои!{WAIT_KEY}\nПрошу, примите это в награду."
+    "translation": "Вы перебили их всех? И впрямь настоящие герои!{WAIT_KEY}Прошу, примите это в награду."
   },
   {
     "id": 45,
@@ -285,7 +285,7 @@
     "id": 47,
     "original_en": "*pant* *wheeze* *gasp*\nH-heroes!\nThank goodness you're here!{WAIT_KEY}\nI've just come from across the new bridge.\nThought I'd see what lay beyond the mountains.\nWell, I saw it—a huge, eerie tower!{WAIT_KEY}\nThere wasn't a soul around the place, but I got\nthe feeling there was something frightening inside.\nGave me the creeps. I ran all the way back here!",
     "original_fr": "Ouf, ouf... Vous tombez pile !{WAIT_KEY}\nJe suis allé au-del{TAG:3C} de la montagne de l'autre côté du\nnouveau pont, mais une haute tour sinistre s'y dresse.{WAIT_KEY}\nIl n'y avait personne aux alentours, mais j'ai eu des\nfrissons rien qu'{TAG:3C} la regarder. J'ai pris peur, alors je\nme suis enfui.",
-    "translation": "*фух*... *хах*... *хрип*... Г-герои! Какое счастье,\nчто вы здесь!{WAIT_KEY}\nЯ только что перешёл новый мост. Хотел глянуть,\nчто лежит за горами. И увидел... громадную, жуткую\nбашню!{WAIT_KEY}\nВокруг ни единой души, но нутром чую — внутри\nкроется нечто ужасное. Мороз по коже! Я бежал\nобратно со всех ног!"
+    "translation": "*фух*... *хах*... *хрип*... Г-герои! Какое счастье,\nчто вы здесь!{WAIT_KEY}Я только что перешёл новый мост. Хотел глянуть,\nчто лежит за горами. И увидел... громадную, жуткую\nбашню!{WAIT_KEY}Вокруг ни единой души, но нутром чую — внутри\nкроется нечто ужасное. Мороз по коже! Я бежал\nобратно со всех ног!"
   },
   {
     "id": 48,
@@ -303,7 +303,7 @@
     "id": 50,
     "original_en": "The old legends speak of a high tower on whose\nsummit the Heavenly Idols perch, watching over\nour village.{WAIT_KEY}\nThe Heavenly Idols are our guardians, you see.\nThey are harbingers of hope, and protectors of\npeace.{WAIT_KEY}\nIf there is a tower so near to the village, then it\nis almost certainly the one. And if you felt an\nimpure presence there, something may be amiss.",
     "original_fr": "Une légende raconte que des déités tutélaires veillent\nsur notre village du haut d'une tour. Elles sont censées\nnous apporter la paix et l'espoir.{WAIT_KEY}\nSi cette tour est située près du village, ce doit être\ncelle dont parle la légende. Toutefois, puisqu'elle a\nune apparence sinistre, il est peut-être arrivé quelque\nchose d'anormal.",
-    "translation": "Древние предания говорят о высокой башне, на\nвершине коей покоятся Небесные идолы,\nохраняющие нашу деревню.{WAIT_KEY}\nНебесные идолы — наши хранители. Они несут\nнадежду и защищают наш покой.{WAIT_KEY}\nКоль близ деревни стоит башня, это наверняка она.\nИ если ты почуял там зло, то стряслось неладное."
+    "translation": "Древние предания говорят о высокой башне, на\nвершине коей покоятся Небесные идолы,\nохраняющие нашу деревню.{WAIT_KEY}Небесные идолы — наши хранители. Они несут\nнадежду и защищают наш покой.{WAIT_KEY}Коль близ деревни стоит башня, это наверняка она.\nИ если ты почуял там зло, то стряслось неладное."
   },
   {
     "id": 51,
@@ -429,7 +429,7 @@
     "id": 71,
     "original_en": "So, they truly were there after all.\nYou've earned our gratitude once again, brave heroes.{WAIT_KEY}\nThis is a thank-you of sorts, from the village to our\nchampions. I hope it serves you well.",
     "original_fr": "Alors, les déités existent vraiment...\nComment pourrais-je vous remercier...?{WAIT_KEY}\nVoici un témoignage de notre reconnaissance.\nVeuillez l'accepter.",
-    "translation": "Значит, они и впрямь там стояли. Вы вновь\nзаслужили нашу признательность!{WAIT_KEY}\nЭто скромный дар от всей деревни нашим\nзащитникам. Пусть он послужит вам верой и\nправдой."
+    "translation": "Значит, они и впрямь там стояли. Вы вновь\nзаслужили нашу признательность!{WAIT_KEY}Это скромный дар от всей деревни нашим\nзащитникам. Пусть он послужит вам верой и\nправдой."
   },
   {
     "id": 72,
@@ -447,7 +447,7 @@
     "id": 74,
     "original_en": "You want to enter the sanctuary?\nWell, you are our heroes...\nBut there are customs to be obeyed.{WAIT_KEY}\nEntrance is forbidden without the blessed Reptmark.\nWould you be kind enough to fetch it from the northern\nwood first?{WAIT_KEY}\nIf you retrieve the crest, I will allow you inside.",
     "original_fr": "Vous voulez pénétrer dans la salle de l'autel ? C'est bien\nparce que c'est vous qui le demandez...{WAIT_KEY}\nSelon la coutume du village, il vous faudra l'emblème\nsaurien pour y accéder. Vous devriez pouvoir le trouver\ndans la forêt du nord. Si vous me le rapportez, je vous\nlaisserai passer.",
-    "translation": "Хотите войти в святилище? Что ж, вы наши герои...\nНо обычаи должно блюсти.{WAIT_KEY}\nВход заказан без священного Знака рептитов. Не\nбудете ли вы добры принести его из северного\nлеса?{WAIT_KEY}\nКоль добудете герб, я пропущу вас внутрь."
+    "translation": "Хотите войти в святилище? Что ж, вы наши герои...\nНо обычаи должно блюсти.{WAIT_KEY}Вход заказан без священного Знака рептитов. Не\nбудете ли вы добры принести его из северного\nлеса?{WAIT_KEY}Коль добудете герб, я пропущу вас внутрь."
   },
   {
     "id": 75,
@@ -477,7 +477,7 @@
     "id": 79,
     "original_en": "I have a favor to ask.{WAIT_KEY}\nThere is a strange character at the base of the\nmountain to the southeast. When I spoke to him, he\ntold me he'd been waiting there for a \"strong person\"\nall alone for a long, long time.{WAIT_KEY}\nHe looks so lonely, and I think you might be able to\nhelp him. Please, won't you try and do something?",
     "original_fr": "J'ai une faveur {TAG:3C} vous demander. Au pied de la montagne\nau sud-est, il y a une créature étrange.{WAIT_KEY}\nElle est toujours seule et dit qu'elle attend des gens\nforts.{WAIT_KEY}\nVous devriez correspondre {TAG:3C} ses critères. Je vous en\nprie, aidez cette créature {TAG:3C} l'air solitaire.",
-    "translation": "У меня есть к вам просьба.{WAIT_KEY}\nУ подножия горы на юго-востоке сидит странный\nчудак. Он сказал мне, что совсем один ждёт там\n«сильного человека» уже очень, очень давно.{WAIT_KEY}\nВид у него такой одинокий... Быть может, вы\nсможете помочь ему? Прошу, поговорите с ним!"
+    "translation": "У меня есть к вам просьба.{WAIT_KEY}У подножия горы на юго-востоке сидит странный\nчудак. Он сказал мне, что совсем один ждёт там\n«сильного человека» уже очень, очень давно.{WAIT_KEY}Вид у него такой одинокий... Быть может, вы\nсможете помочь ему? Прошу, поговорите с ним!"
   },
   {
     "id": 80,
@@ -489,13 +489,13 @@
     "id": 81,
     "original_en": "You befriended him?\nOh, I knew I was right to ask you!{WAIT_KEY}\nLet me give you this for going out of your way to help\nhim.",
     "original_fr": "Vous étiez bien les gens forts qu'attendait cette\ncréature ? Je m'en doutais !{WAIT_KEY}\nJe veux vous offrir ceci en guise de remerciement.",
-    "translation": "Вы подружились с ним? О, я знал, что не ошибся,\nобратившись к вам!{WAIT_KEY}\nПримите это в благодарность за вашу заботу."
+    "translation": "Вы подружились с ним? О, я знал, что не ошибся,\nобратившись к вам!{WAIT_KEY}Примите это в благодарность за вашу заботу."
   },
   {
     "id": 82,
     "original_en": "Oh, I...I have one more request.\nWould you, um, take this to him for me?{WAIT_KEY}\nLet him eat it if he gets hungry.\nIt will give him his energy back.",
     "original_fr": "Euh... Puis-je vous demander une autre faveur ?\nS'il vous pla¡t, apportez ceci {TAG:3C} la créature !{WAIT_KEY}\nC'est un panier garni qui donne beaucoup d'énergie.\nDonnez-le-lui quand elle aura l'estomac vide.",
-    "translation": "Ах да... у меня есть ещё одна просьба. Не могли бы\nвы отнести ему кое-что?{WAIT_KEY}\nПусть поест, когда проголодается. Это придаст\nему новых сил."
+    "translation": "Ах да... у меня есть ещё одна просьба. Не могли бы\nвы отнести ему кое-что?{WAIT_KEY}Пусть поест, когда проголодается. Это придаст\nему новых сил."
   },
   {
     "id": 83,
@@ -537,7 +537,7 @@
     "id": 89,
     "original_en": "Looking for some metal, you say?{WAIT_KEY}\nI once hid a lump of steel in a box within the cave\nto the west. It was too heavy for me to carry all\nthe way back here. I can't promise it's still there,\nbut it's worth a look.",
     "original_fr": "Vous cherchez du métal ? Dans un passage {TAG:3C} l'ouest du\ngrand marécage, j'ai caché autrefois dans un coffre un\nmorceau d'acier que je n'arrivais pas {TAG:3C} transporter.{WAIT_KEY}\nIl y est peut-être encore actuellement.",
-    "translation": "Ищете металл, говорите?{WAIT_KEY}\nЯ спрятал стальной слиток в западной пещере. Он\nбыл слишком тяжёл, чтобы тащить сюда. Не знаю,\nтам ли он ещё, но глянуть стоит."
+    "translation": "Ищете металл, говорите?{WAIT_KEY}Я спрятал стальной слиток в западной пещере. Он\nбыл слишком тяжёл, чтобы тащить сюда. Не знаю,\nтам ли он ещё, но глянуть стоит."
   },
   {
     "id": 90,
@@ -579,13 +579,13 @@
     "id": 96,
     "original_en": "My neighbor has been working on building that bridge,\nbut lately he hasn't even been coming home.{WAIT_KEY}\nI don't suppose you could go and make sure he's all\nright, could you? It's not like him at all to be gone\nthis long. He always used to return at night.",
     "original_fr": "Mon voisin qui est allé construire un pont n'est pas\nencore revenu.{WAIT_KEY}\nD'habitude, il revient pourtant tous les jours...\nPourriez-vous aller voir ce qu'il en est ?",
-    "translation": "Мой сосед всё строит тот мост, но в последнее\nвремя даже домой не возвращается.{WAIT_KEY}\nНе могли бы вы проверить, всё ли с ним в порядке?\nНа него не похоже пропадать так надолго. Он\nвсегда ночевал дома."
+    "translation": "Мой сосед всё строит тот мост, но в последнее\nвремя даже домой не возвращается.{WAIT_KEY}Не могли бы вы проверить, всё ли с ним в порядке?\nНа него не похоже пропадать так надолго. Он\nвсегда ночевал дома."
   },
   {
     "id": 97,
     "original_en": "He may have always prattled on a bit much, but still...\nIt's lonely without him around.{WAIT_KEY}\nHe's building his bridge on Mount Emerald, east\nthrough the southern glade. Please, go and make\nsure he's all right.",
     "original_fr": "Même si mon voisin m'embête, je me sens un peu seul\ndepuis qu'il est parti si soudainement.{WAIT_KEY}\nJe parie qu'il est en train de construire un pont quelque\npart sur le mont verdoyant {TAG:3C} l'est de la clairière.\nJe vous en prie, allez voir ce qui lui est arrivé.",
-    "translation": "Пусть он и трепал языком без умолку, но всё же...\nБез него здесь пусто и тоскливо.{WAIT_KEY}\nОн строит мост на Изумрудном пике к востоку от\nюжной поляны. Прошу, сходите и проверьте, всё ли с\nним ладно."
+    "translation": "Пусть он и трепал языком без умолку, но всё же...\nБез него здесь пусто и тоскливо.{WAIT_KEY}Он строит мост на Изумрудном пике к востоку от\nюжной поляны. Прошу, сходите и проверьте, всё ли с\nним ладно."
   },
   {
     "id": 98,
@@ -711,7 +711,7 @@
     "id": 118,
     "original_en": "Is that the Prismastone?{WAIT_KEY}\nNow there's something that's stood the test of time!\nIf you could somehow hold that up next to the same\nstone from millions of years ago, I doubt you could\neven tell which was which!",
     "original_fr": "La pierre irisée ? Cette pierre magnifique qui date d'il y\na très longtemps, c'est ça ? Je parie qu'elle a toujours\nla même apparence, même après toutes ces années.",
-    "translation": "Это Камень призмы?{WAIT_KEY}\nВот уж что прошло сквозь века! Сравни его с таким\nже камнем миллионы лет назад, вряд ли отличишь\nодин от другого!"
+    "translation": "Это Камень призмы?{WAIT_KEY}Вот уж что прошло сквозь века! Сравни его с таким\nже камнем миллионы лет назад, вряд ли отличишь\nодин от другого!"
   },
   {
     "id": 119,
@@ -729,7 +729,7 @@
     "id": 121,
     "original_en": "It's been my lifelong dream to build a great bridge to\nspan the mountains.{WAIT_KEY}\nUnfortunately, I've had no luck acquiring the tools\nI'd need for such a task.",
     "original_fr": "Mon rêve serait de construire un pont énorme entre\ndeux montagnes.{WAIT_KEY}\nCependant, pour ce faire, il me faudrait des matériaux\nque je n'arrive pas {TAG:3C} me procurer...",
-    "translation": "Построить великий мост через горы — мечта всей\nмоей жизни.{WAIT_KEY}\nУвы, мне так и не удалось раздобыть необходимые\nдля этого инструменты."
+    "translation": "Построить великий мост через горы — мечта всей\nмоей жизни.{WAIT_KEY}Увы, мне так и не удалось раздобыть необходимые\nдля этого инструменты."
   },
   {
     "id": 122,
@@ -759,7 +759,7 @@
     "id": 126,
     "original_en": "My thanks! With all this, I should be able to make the\nbridge of my dreams a reality.{WAIT_KEY}\nHere, take this as a token of my gratitude.",
     "original_fr": "Je vous remercie ! Je crois que je vais désormais\npouvoir réaliser mon rêve de construire ce pont !{WAIT_KEY}\nAcceptez ceci en guise de remerciement.",
-    "translation": "Спасибо вам! Теперь я смогу воплотить мост своей\nмечты в реальность.{WAIT_KEY}\nВот, возьмите в знак моей признательности."
+    "translation": "Спасибо вам! Теперь я смогу воплотить мост своей\nмечты в реальность.{WAIT_KEY}Вот, возьмите в знак моей признательности."
   },
   {
     "id": 127,
@@ -999,7 +999,7 @@
     "id": 166,
     "original_en": "You remember?\nI lose. Then I train.\nThen I no lose no more.\nNext time I beat you.{WAIT_KEY}\nI wait on top of mountain.\nLots of monsters on mountain.\nYou come up!",
     "original_fr": "Vous vous souvenez ? J'ai perdu contre vous, alors\nje me suis entra¡né. Je n'ai plus jamais perdu depuis.{WAIT_KEY}\nJe vous attendrai au sommet de la montagne.\nDes monstres féroces y vivent. Pourrez-vous\nl'escalader ?{WAIT_KEY}\nSi vous y arrivez, je vous affronterai pour la dernière\nfois !",
-    "translation": "Помнить меня? Я проиграть. Потом тренироваться.\nТеперь не проигрывать. В следующий раз я побить\nвас.{WAIT_KEY}\nЯ ждать на вершине горы. На горе много монстров.\nПоднимайтесь ко мне!"
+    "translation": "Помнить меня? Я проиграть. Потом тренироваться.\nТеперь не проигрывать. В следующий раз я побить\nвас.{WAIT_KEY}Я ждать на вершине горы. На горе много монстров.\nПоднимайтесь ко мне!"
   },
   {
     "id": 167,
@@ -1065,7 +1065,7 @@
     "id": 177,
     "original_en": "Oh, you finally get here.{WAIT_KEY}\nI wait long time for you.\nI train lots and lots.\nNow I beat you.",
     "original_fr": "Vous voil{TAG:3C} enfin.{WAIT_KEY}\nJe vous attends depuis longtemps. Je me suis beaucoup\nentra¡né.{WAIT_KEY}\nCette fois, je vais vous vaincre.",
-    "translation": "О, вы наконец прийти.{WAIT_KEY}\nЯ ждать вас очень долго. Я много-много\nтренироваться. Теперь я победить вас!"
+    "translation": "О, вы наконец прийти.{WAIT_KEY}Я ждать вас очень долго. Я много-много\nтренироваться. Теперь я победить вас!"
   },
   {
     "id": 178,
@@ -1125,13 +1125,13 @@
     "id": 187,
     "original_en": "{AYLA}: Not ask, be friend!\nBe nice, help, be friend.\nTake time.{WAIT_KEY}\nBut, maybe {AYLA} be friend.",
     "original_fr": "{AYLA} : Pas pouvoir devenir amis tout de suite.\nD'abord s'entraider, ensuite être amis.",
-    "translation": "{AYLA}: Дружбу не просят! Делать добро, помогать\n— быть другом. Нужно время.{WAIT_KEY}\nНо, может, {AYLA} станет другом."
+    "translation": "{AYLA}: Дружбу не просят! Делать добро, помогать\n— быть другом. Нужно время.{WAIT_KEY}Но, может, {AYLA} станет другом."
   },
   {
     "id": 188,
     "original_en": "{ROBO}: Issuing a request is not the\nstandard protocol for initiating friendship.\nPeople become friends after spending time\ntogether through joy and hardship.{WAIT_KEY}\nBut we are acquainted now, so I believe we\nare well on the road to becoming friends.",
     "original_fr": "{ROBO} : Nous ne pouvons pas être tes amis parce\nque tu nous le demandes. C'est en partageant de\nbons moments et aussi des moments difficiles\nqu'un jour on devient amis.",
-    "translation": "{ROBO}: Запрос — не лучший протокол для\nустановления дружбы. Друзьями становятся,\nпройдя через невзгоды и радости.{WAIT_KEY}\nНо раз уж мы знакомы, полагаю, мы на верном пути\nк этому статусу."
+    "translation": "{ROBO}: Запрос — не лучший протокол для\nустановления дружбы. Друзьями становятся,\nпройдя через невзгоды и радости.{WAIT_KEY}Но раз уж мы знакомы, полагаю, мы на верном пути\nк этому статусу."
   },
   {
     "id": 189,
@@ -1353,7 +1353,7 @@
     "id": 225,
     "original_en": "Oh dear, he's hungry?{WAIT_KEY}\nWell then, will you give him this for me?",
     "original_fr": "Oh, cette créature veut de la nourriture ?{WAIT_KEY}\nDans ce cas, pourriez-vous lui donner ceci ?",
-    "translation": "Ох, он голоден?{WAIT_KEY}\nТогда передайте ему это от меня!"
+    "translation": "Ох, он голоден?{WAIT_KEY}Тогда передайте ему это от меня!"
   },
   {
     "id": 226,

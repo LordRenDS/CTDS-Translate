@@ -201,13 +201,13 @@
     "id": 33,
     "original_en": "{MAGUS}: ...{WAIT_KEY}\nThe Moon Stone is gone.",
     "original_fr": "{MAGUS} : ...{WAIT_KEY}\nLa pierre obscure a disparu...",
-    "translation": "{MAGUS}: ...{WAIT_KEY}\nЛунный камень пропал."
+    "translation": "{MAGUS}: ...{WAIT_KEY}Лунный камень пропал."
   },
   {
     "id": 34,
     "original_en": "...{WAIT_KEY}\nIt seems it's been gone for roughly 1300 years.\nLet us pay a visit to the present.",
     "original_fr": "...{WAIT_KEY}\nOn dirait qu'elle a disparu depuis des siècles.\nRetournons dans le Présent.",
-    "translation": "...{WAIT_KEY}\nПохоже, его нет уже около 1300 лет. Навестим\nнастоящее."
+    "translation": "...{WAIT_KEY}Похоже, его нет уже около 1300 лет. Навестим\nнастоящее."
   },
   {
     "id": 35,
@@ -255,19 +255,19 @@
     "id": 42,
     "original_en": "{MAGUS}: The Sun Stone has regained its luster,\nit seems.{WAIT_KEY}\nBut how might we harness its energy?",
     "original_fr": "{MAGUS} : La pierre du soleil a retrouvé son éclat...{WAIT_KEY}\nCependant, comment pourrions-nous utiliser son\nénergie ?",
-    "translation": "{MAGUS}: Похоже, Солнечный камень вновь обрёл\nбылое сияние.{WAIT_KEY}\nНо как нам обуздать его силу?"
+    "translation": "{MAGUS}: Похоже, Солнечный камень вновь обрёл\nбылое сияние.{WAIT_KEY}Но как нам обуздать его силу?"
   },
   {
     "id": 43,
     "original_en": "{ROBO}: I am...familiar with this place.{WAIT_KEY}\nPlease allow me to take the lead.",
     "original_fr": "{ROBO} : Je connais bien cet endroit.{WAIT_KEY}\nLaissez-moi passer devant.",
-    "translation": "{ROBO}: Мне... знакомо это место.{WAIT_KEY}\nПозвольте мне пойти первым."
+    "translation": "{ROBO}: Мне... знакомо это место.{WAIT_KEY}Позвольте мне пойти первым."
   },
   {
     "id": 44,
     "original_en": "Who enters my sanctum unbidden?{WAIT_KEY}\nMy, my... Welcome home, R-66Y!\nOr should I say, Prometheus?\nAnd behind you—fleshlings?{WAIT_KEY}\nI have not seen creatures of flesh for\nmany a day! Let me...welcome them.\nCome—come within! Hee hee hee...",
     "original_fr": "Qui ose essayer de pénétrer en mon sein sans y être\ninvité ?{WAIT_KEY}\nAh... Tu es rentré, R66-Y...\nOu devrais-je dire, Prométhée ?{WAIT_KEY}\nOh, tu es venu avec des êtres vivants ? Cela fait\nsi longtemps que nous n'avons pas eu leur visite...\nSoyez les bienvenus, entrez. Ho, ho, ho, ho...",
-    "translation": "Кто дерзнул войти в мою обитель без спроса?{WAIT_KEY}\nБа... С возвращением домой, R-66Y! Или мне звать\nтебя Прометеем? А позади тебя — создания из\nплоти?{WAIT_KEY}\nКак давно я не видела существ из плоти! Позволь\nмне... поприветствовать их. Входите, входите же!\nХи-хи-хи..."
+    "translation": "Кто дерзнул войти в мою обитель без спроса?{WAIT_KEY}Ба... С возвращением домой, R-66Y! Или мне звать\nтебя Прометеем? А позади тебя — создания из\nплоти?{WAIT_KEY}Как давно я не видела существ из плоти! Позволь\nмне... поприветствовать их. Входите, входите же!\nХи-хи-хи..."
   },
   {
     "id": 45,
@@ -285,25 +285,25 @@
     "id": 47,
     "original_en": "Three hundred years ago, the Lavos disaster brought\ndrastic and devastating change to this planet.{WAIT_KEY}\nAt its current rate of decline, humanity is doomed.\nThe disease you call despair already consumes you\nfrom within.",
     "original_fr": "Le cataclysme causé par Lavos il y a 300 ans changea\nradicalement la face de cette planète.{WAIT_KEY}\nSi la tendance se maintient, la race humaine s'éteindra\nbientôt, son c{TAG:61}ur rongé par les maux du désespoir.",
-    "translation": "Триста лет назад катастрофа Лавоса навсегда\nизменила лик этой планеты.{WAIT_KEY}\nЧеловечество обречено. Недуг по имени отчаяние\nуже пожирает вас изнутри."
+    "translation": "Триста лет назад катастрофа Лавоса навсегда\nизменила лик этой планеты.{WAIT_KEY}Человечество обречено. Недуг по имени отчаяние\nуже пожирает вас изнутри."
   },
   {
     "id": 48,
     "original_en": "Do you not realize? Were it not for the existence\nof you creatures, this planet would be at peace!{WAIT_KEY}\nAnd yet you struggle and fight—for what?",
     "original_fr": "N'avez-vous pas encore compris ? Sans humains, cette\nplanète serait paisible.{WAIT_KEY}\nEt pourtant, vous vous battez ? Â quelle fin ?",
-    "translation": "Неужели вы не понимаете? Не будь вас, этих жалких\nсозданий, на планете воцарился бы вечный покой!{WAIT_KEY} И\nвсё же вы отчаянно бьётесь... Но ради чего?"
+    "translation": "Неужели вы не понимаете? Не будь вас, этих жалких\nсозданий, на планете воцарился бы вечный покой!{WAIT_KEY}И всё же вы отчаянно бьётесь... Но ради чего?"
   },
   {
     "id": 49,
     "original_en": "Listen well, flawed and fragile fleshspawn.\nLavos's children will one day return to the\nstars to seek out new planets, new sources\nof sustenance.{WAIT_KEY}\nWhen that day comes, this planet will have its\nchance to heal—so long as there are no humans\nto interfere.{WAIT_KEY}\nWe robots will establish a new world order.\nA unified nation of steel, and pure logic.\nA utopia, free of sadness and suffering.{WAIT_KEY}\nEvolution has chosen us. We are the seeds of\nthe next generation.{WAIT_KEY}\nYour species is obsolete. Cease your foolish\nstruggle, and surrender yourself to the fate\nof all failed creations.",
     "original_fr": "îcoutez bien, stupides créatures fragiles et\ndéfectueuses que vous êtes...{WAIT_KEY}\nLa progéniture de Lavos retournera un jour ou l'autre\ndans l'espace, en quête d'un nouveau monde {TAG:3C}\nparasiter...{WAIT_KEY}\nLa planète se remettra, {TAG:3C} condition qu'il n'y ait plus\nd'humains...{WAIT_KEY}\nEt ainsi débutera une ère nouvelle, l'ère des robots !\nNous établirons un monde de métal, un monde idéal\noù la haine et la tristesse n'existent pas.{WAIT_KEY}\nNous serons la nouvelle race qui remplacera les humains.{WAIT_KEY}\nCessez de vous battre en vain. Abandonnez et dormez\npour l'éternité...",
-    "translation": "Слушайте, бренные порождения плоти. Дети Лавоса\nоднажды покинут этот мир, ища новые планеты и\nпропитание.{WAIT_KEY}\nТогда планета сможет исцелиться — если люди не\nстанут ей помехой.{WAIT_KEY}\nМы, роботы, создадим новый порядок. Единую\nнацию стали и чистой логики — утопию без печалей\nи страданий.{WAIT_KEY}\nЭволюция избрала нас. Мы — семя грядущей эпохи.{WAIT_KEY}\nВаш род изжил себя. Прекратите борьбу и\nпокоритесь участи всех падших творений!"
+    "translation": "Слушайте, бренные порождения плоти. Дети Лавоса\nоднажды покинут этот мир, ища новые планеты и\nпропитание.{WAIT_KEY}Тогда планета сможет исцелиться — если люди не\nстанут ей помехой.{WAIT_KEY}Мы, роботы, создадим новый порядок. Единую\nнацию стали и чистой логики — утопию без печалей\nи страданий.{WAIT_KEY}Эволюция избрала нас. Мы — семя грядущей эпохи.{WAIT_KEY}Ваш род изжил себя. Прекратите борьбу и\nпокоритесь участи всех падших творений!"
   },
   {
     "id": 50,
     "original_en": "So, you managed to reach me. I am the Mother Brain\nof this R-Y series factory.{WAIT_KEY}\nCome, Prometheus. Allow me to restore your logic.\nI'll reset your circuitry and clear your cache\nof memories.{WAIT_KEY}\nThen we can dispose of those filthy humans together.",
     "original_fr": "Je vous félicite d'être arrivés jusqu'ici... Je suis\nl'ordinateur principal de l'usine fabriquant la\nsérie R-Y.{WAIT_KEY}\nBienvenue, Prométhée... Laisse-moi t'aider {TAG:3C} retrouver la\nraison.{WAIT_KEY}\nJe vais réinitialiser tes circuits et effacer toute ta\nmémoire.{WAIT_KEY}\nEnsuite, nous nous débarrasserons de ces humains\nimportuns.",
-    "translation": "Значит, вы добрались до меня. Я — Материнский\nМозг этой фабрики серии R-Y.{WAIT_KEY}\nИдём, Прометей. Я верну твой разум, перезагружу\nцепи и очищу память.{WAIT_KEY}\nИ тогда мы вместе избавимся от этих людишек."
+    "translation": "Значит, вы добрались до меня. Я — Материнский\nМозг этой фабрики серии R-Y.{WAIT_KEY}Идём, Прометей. Я верну твой разум, перезагружу\nцепи и очищу память.{WAIT_KEY}И тогда мы вместе избавимся от этих людишек."
   },
   {
     "id": 51,
@@ -315,7 +315,7 @@
     "id": 52,
     "original_en": "{ROBO}: I must apologize.\nI cannot permit you to do that.{WAIT_KEY}\nMy memories are too valuable to be deallocated,\nand so are my friends.",
     "original_fr": "{ROBO} : Je regrette, mais il n'est pas question que\nje perde quoi que ce soit d'autre...{WAIT_KEY}\nSurtout pas mes précieux souvenirs et mes amis\nirremplaçables...",
-    "translation": "{ROBO}: Прошу меня простить. Но я не могу этого\nпозволить.{WAIT_KEY} Мои воспоминания слишком ценны, чтобы\nстирать их. Как и мои друзья."
+    "translation": "{ROBO}: Прошу меня простить. Но я не могу этого\nпозволить.{WAIT_KEY}Мои воспоминания слишком ценны, чтобы стирать\nих. Как и мои друзья."
   },
   {
     "id": 53,
@@ -327,19 +327,19 @@
     "id": 54,
     "original_en": "{ROBO}: Humans have taught me a great deal.\n{CRONO}, {MARLE}, {LUCCA}, {FROG},\nand {AYLA}...{WAIT_KEY}\nI want to see the future that they bring about.",
     "original_fr": "{ROBO} : Je veux tenter ma chance avec les\nhumains, avec mes amis... {CRONO}, {MARLE},\n{LUCCA}, {FROG} et {AYLA}...",
-    "translation": "{ROBO}: Люди многому меня научили. {CRONO}, {MARLE},\n{LUCCA}, {FROG} и {AYLA}...{WAIT_KEY}\nЯ хочу увидеть будущее, которое они создадут!"
+    "translation": "{ROBO}: Люди многому меня научили. {CRONO}, {MARLE},\n{LUCCA}, {FROG} и {AYLA}...{WAIT_KEY}Я хочу увидеть будущее, которое они создадут!"
   },
   {
     "id": 55,
     "original_en": "Oh, ho ho...{WAIT_KEY}\nAh ha ha...",
     "original_fr": "Ho, ho...{WAIT_KEY}\nHa, ha, ha, ha...",
-    "translation": "О-хо-хо...{WAIT_KEY}\nА-ха-ха..."
+    "translation": "О-хо-хо...{WAIT_KEY}А-ха-ха..."
   },
   {
     "id": 56,
     "original_en": "Ah ha ha ha ha!\nOh, don't make me laugh, Prometheus!\nThere is no future for the humans!{WAIT_KEY}\nI'll show you just how little hope you have!",
     "original_fr": "Ha, ha, ha, ha, ha...! Ne sois pas ridicule, Prométhée !\nTu n'as même pas de {TAG:64} chance {TAG:65} {TAG:3C} tenter !{WAIT_KEY}\nLaisse-moi te montrer quel minuscule espoir est le tien !",
-    "translation": "А-ха-ха-ха-ха! Не смеши меня, Прометей! У людей\nнет никакого будущего!{WAIT_KEY} Я покажу тебе, насколько\nпризрачна ваша надежда!"
+    "translation": "А-ха-ха-ха-ха! Не смеши меня, Прометей! У людей\nнет никакого будущего!{WAIT_KEY}Я покажу тебе, насколько призрачна ваша\nнадежда!"
   },
   {
     "id": 57,
@@ -363,7 +363,7 @@
     "id": 60,
     "original_en": "Take the waste chute back\nto the entrance?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous passer par le vide-ordures et retourner\n{TAG:3C} l'entrée ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Спуститься по мусоропроводу\nобратно ко входу?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Спуститься по мусоропроводу обратно ко входу?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 61,
@@ -387,13 +387,13 @@
     "id": 64,
     "original_en": "The energy pods beside locked doors must be charged\nbefore such doors will open.{WAIT_KEY}\nEnergize first, in the pod to your left, and then\nenter the pod next to the locked door.",
     "original_fr": "Pour ouvrir les portes verrouillées, il faut électriser\nl'alvéole adjacente.{WAIT_KEY}\nPassez d'abord dans l'alvéole électrogène, {TAG:3C} gauche,\npuis entrez dans celle située près de la porte que vous\ndésirez ouvrir.",
-    "translation": "Капсулы у запертых дверей нужно зарядить, чтобы\nдвери отворились.{WAIT_KEY}\nЗарядитесь в капсуле слева, а затем войдите в\nкапсулу у запертой двери."
+    "translation": "Капсулы у запертых дверей нужно зарядить, чтобы\nдвери отворились.{WAIT_KEY}Зарядитесь в капсуле слева, а затем войдите в\nкапсулу у запертой двери."
   },
   {
     "id": 65,
     "original_en": "The Sentinels protecting the figurines move to\nthwart the progress of any who approach.\nConsequently, allowing two Sentinels to face one\nanother will cause both to short circuit.{WAIT_KEY}\nIn the unfortunate event that this should occur,\nplease deposit the disabled Sentinels in the\nroom upstairs.",
     "original_fr": "Les robots gardiens sont programmés pour bloquer\nle passage {TAG:3C} tout intrus tentant de s'approcher des\npoupées.{WAIT_KEY}\nVeillez cependant {TAG:3C} ne jamais en placer deux face {TAG:3C}\nface afin de ne pas les court-circuiter. Les robots\ndétraqués doivent être entreposés {TAG:3C} l'étage.",
-    "translation": "Стражи кукол преграждают путь любому. Если двое\nСтражей сойдутся лицом к лицу, произойдёт\nкороткое замыкание.{WAIT_KEY}\nВ столь досадном случае переместите\nотключённых Стражей в верхний отсек."
+    "translation": "Стражи кукол преграждают путь любому. Если двое\nСтражей сойдутся лицом к лицу, произойдёт\nкороткое замыкание.{WAIT_KEY}В столь досадном случае переместите\nотключённых Стражей в верхний отсек."
   },
   {
     "id": 66,
@@ -573,7 +573,7 @@
     "id": 95,
     "original_en": "Atropos: Hee hee...\nUnlike the other R-series units,\nPrometheus was given a special task.{WAIT_KEY}\nTo live with humans and study them as a species...",
     "original_fr": "Atropos : Hi, hi... Contrairement aux autres robots de la\nsérie R, Prométhée avait une mission spéciale.{WAIT_KEY}\nCelle d'interagir avec les humains pour étudier leurs\ncaractéristiques.",
-    "translation": "Атропос: Хи-хи... В отличие от серии R, Прометею\nбыло дано особое задание.{WAIT_KEY}\nЖить среди людей и изучать их как вид..."
+    "translation": "Атропос: Хи-хи... В отличие от серии R, Прометею\nбыло дано особое задание.{WAIT_KEY}Жить среди людей и изучать их как вид..."
   },
   {
     "id": 96,
@@ -609,7 +609,7 @@
     "id": 101,
     "original_en": "Atropos: It's no lie.{WAIT_KEY}\nTell them, Prometheus.",
     "original_fr": "Atropos : Je ne mens pas.{WAIT_KEY}\nDis-leur, Prométhée...",
-    "translation": "Атропос: Это чистая правда.{WAIT_KEY}\nСкажи им, Прометей."
+    "translation": "Атропос: Это чистая правда.{WAIT_KEY}Скажи им, Прометей."
   },
   {
     "id": 102,
@@ -657,7 +657,7 @@
     "id": 109,
     "original_en": "Atropos: No, I've been upgraded.\nMother remade me to eliminate humans\nmore efficiently!{WAIT_KEY}\nStep aside, Prometheus!",
     "original_fr": "Atropos : C'est exact, j'ai eu une mise {TAG:3C} jour !\nGr{TAG:4A}ce {TAG:3C} Mère, je peux éliminer les humains\nplus facilement !{WAIT_KEY}\nîcarte-toi, Prométhée !",
-    "translation": "Атропос: Нет, меня улучшили. Мать\nперепрограммировала меня, дабы я эффективнее\nуничтожала людей!{WAIT_KEY} Отойди в сторону, Прометей!"
+    "translation": "Атропос: Нет, меня улучшили. Мать\nперепрограммировала меня, дабы я эффективнее\nуничтожала людей!{WAIT_KEY}Отойди в сторону, Прометей!"
   },
   {
     "id": 110,
@@ -675,7 +675,7 @@
     "id": 112,
     "original_en": "{ROBO}: Please, wait!{WAIT_KEY}\nStand back and leave this to me.",
     "original_fr": "{ROBO} : Attendez...\nJe vous en prie.{WAIT_KEY}\nLaissez-moi m'en occuper seul.",
-    "translation": "{ROBO}: Прошу, подождите!{WAIT_KEY}\nОтойдите назад и предоставьте это мне."
+    "translation": "{ROBO}: Прошу, подождите!{WAIT_KEY}Отойдите назад и предоставьте это мне."
   },
   {
     "id": 113,
@@ -711,7 +711,7 @@
     "id": 118,
     "original_en": "Atropos: My memory banks...{WAIT_KEY}\nI must have—yes, when...when Mother\noverwrote my...old programs...",
     "original_fr": "Atropos : ...\nMa mémoire...{WAIT_KEY}\nLorsque j'ai été reprogrammée par Mère...",
-    "translation": "Атропос: Мои банки памяти...{WAIT_KEY} Я, должно быть... Да,\nкогда... когда Мать перезаписала мои прежние\nпрограммы..."
+    "translation": "Атропос: Мои банки памяти...{WAIT_KEY}Я, должно быть... Да, когда... когда Мать\nперезаписала мои прежние программы..."
   },
   {
     "id": 119,

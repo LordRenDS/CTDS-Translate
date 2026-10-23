@@ -123,25 +123,25 @@
     "id": 20,
     "original_en": "Queen: I know what you have seen.\nIt is your futures that slumber in this hall.\nDestiny, in its essential form.{WAIT_KEY}\nAll the dreams that might have been.\nAll the happiness, and sorrow, you might have known.\nYour tomorrow, as it has been witnessed.",
     "original_fr": "Reine : Mouah, ha, ha, ha... Votre futur sommeille ici...{WAIT_KEY}\nLes rêves encore irréalisés... Les joies et les peines...\nTout ce qui appartient {TAG:3C} votre avenir !",
-    "translation": "Королева: Я знаю, что вы узрели. В этой зале\nпокоится ваше грядущее. Судьба в её чистейшем\nвоплощении.{WAIT_KEY}\nВсе несбывшиеся грёзы. Вся радость и скорбь, что\nвам суждено познать. Ваше завтра, явленное\nвоочию."
+    "translation": "Королева: Я знаю, что вы узрели. В этой зале\nпокоится ваше грядущее. Судьба в её чистейшем\nвоплощении.{WAIT_KEY}Все несбывшиеся грёзы. Вся радость и скорбь, что\nвам суждено познать. Ваше завтра, явленное\nвоочию."
   },
   {
     "id": 21,
     "original_en": "Queen: The Black Omen transcends time and space,\ndrifting through the all and nothing, waiting\nfor Lavos to awaken.{WAIT_KEY}\nDestiny has led you here, and here you shall remain.\nUnless you can defeat me and bring down the Omen,\nthere is no future for you!",
     "original_fr": "Reine : Le Songe obscur traverse les dimensions\ntemporelles, attendant patiemment l'éveil de Lavos...{WAIT_KEY}\nIl est l'inéluctable et ultime destination de votre avenir.{WAIT_KEY}\nÂ moins de me vaincre et d'arrêter le Songe obscur,\nvous n'avez pas de lendemain !",
-    "translation": "Королева: Чёрное Знамение парит вне времени и\nпространства, блуждая сквозь всё и ничто в\nожидании пробуждения Лавоса.{WAIT_KEY}\nСудьба привела вас сюда, и здесь вы останетесь.\nЕсли не одолеете меня и не сразите Знамение,\nбудущего у вас нет!"
+    "translation": "Королева: Чёрное Знамение парит вне времени и\nпространства, блуждая сквозь всё и ничто в\nожидании пробуждения Лавоса.{WAIT_KEY}Судьба привела вас сюда, и здесь вы останетесь.\nЕсли не одолеете меня и не сразите Знамение,\nбудущего у вас нет!"
   },
   {
     "id": 22,
     "original_en": "Queen: Come, children! Lavos slumbers. \nI will guide you into the depths of his dream.{WAIT_KEY}\nDid I say dream? I meant, of course, his eternal\nnightmare!",
     "original_fr": "Reine : Venez, enfants de l'Homme !\nJe vous invite {TAG:3C} pénétrer dans le sommeil de Lavos...{WAIT_KEY}\nDans l'éternel Songe obscur...!",
-    "translation": "Королева: Идите же, дети! Лавос дремлет. Я\nпроведу вас в глубины его сна.{WAIT_KEY}\nСна, сказала я? Разумеется, я имела в виду его\nвечный кошмар!"
+    "translation": "Королева: Идите же, дети! Лавос дремлет. Я\nпроведу вас в глубины его сна.{WAIT_KEY}Сна, сказала я? Разумеется, я имела в виду его\nвечный кошмар!"
   },
   {
     "id": 23,
     "original_en": "Queen: Argh! My powers don't seem to work here!{WAIT_KEY}\nAh, but I've a better idea! I can feed you to the\nMammon Machine!{WAIT_KEY}\nYou'll be made one with the Omen, Lavos—and me!",
     "original_fr": "Reine : Je ne peux pas faire appel {TAG:3C} mon pouvoir ici...{WAIT_KEY}\nAh, je viens d'avoir une bonne idée. Je vais vous jeter\ndans le réceptacle sacré ! Vous devriez être heureux...{WAIT_KEY}\nVous allez devenir une partie de ce vaisseau !\nUne partie de moi ! Une partie de Lavos !",
-    "translation": "Королева: Агрх! Мои силы здесь бессильны!{WAIT_KEY}\nВпрочем, есть мысль получше! Я скормлю вас\nМашине Маммона!{WAIT_KEY}\nВы станете едины со Знамением, Лавосом — и со\nмной!"
+    "translation": "Королева: Агрх! Мои силы здесь бессильны!{WAIT_KEY}Впрочем, есть мысль получше! Я скормлю вас\nМашине Маммона!{WAIT_KEY}Вы станете едины со Знамением, Лавосом — и со\nмной!"
   },
   {
     "id": 24,
@@ -183,7 +183,7 @@
     "id": 30,
     "original_en": "With the sun's energy, it could likely be renewed.{WAIT_KEY}\nBut that would take at least 65 million years.",
     "original_fr": "Nous pourrions peut-être le lui redonner en la laissant\nau soleil.{WAIT_KEY}\nCependant, ça prendrait plus de 65 000 000 d'années.",
-    "translation": "Энергия солнца могла бы возродить его.{WAIT_KEY}\nНо на это уйдёт не меньше 65 миллионов лет."
+    "translation": "Энергия солнца могла бы возродить его.{WAIT_KEY}Но на это уйдёт не меньше 65 миллионов лет."
   },
   {
     "id": 31,

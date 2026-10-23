@@ -75,25 +75,25 @@
     "id": 12,
     "original_en": "And the winner of the last race was...{WAIT_KEY}\nSteel Runner!",
     "original_fr": "Le gagnant de la course précédente est...{WAIT_KEY}\nLe coureur au masque de fer !",
-    "translation": "И победителем прошлого забега стал...{WAIT_KEY}\nСтальной Бегун!"
+    "translation": "И победителем прошлого забега стал...{WAIT_KEY}Стальной Бегун!"
   },
   {
     "id": 13,
     "original_en": "And the winner of the last race was...{WAIT_KEY}\nGreen Ambler!",
     "original_fr": "Le gagnant de la course précédente est...{WAIT_KEY}\nLe saurien tra¡nard !",
-    "translation": "И победителем прошлого забега стал...{WAIT_KEY}\nЗелёный Тихоход!"
+    "translation": "И победителем прошлого забега стал...{WAIT_KEY}Зелёный Тихоход!"
   },
   {
     "id": 14,
     "original_en": "And the winner of the last race was...{WAIT_KEY}\nCatalack!",
     "original_fr": "Le gagnant de la course précédente est...{WAIT_KEY}\nLe joli minet !",
-    "translation": "И победителем прошлого забега стал...{WAIT_KEY}\nКаталак!"
+    "translation": "И победителем прошлого забега стал...{WAIT_KEY}Каталак!"
   },
   {
     "id": 15,
     "original_en": "And the winner of the last race was...{WAIT_KEY}\nG.I. Jogger!",
     "original_fr": "Le gagnant de la course précédente est...{WAIT_KEY}\nLe soldat enthousiaste !",
-    "translation": "И победителем прошлого забега стал...{WAIT_KEY}\nБравый Бегун!"
+    "translation": "И победителем прошлого забега стал...{WAIT_KEY}Бравый Бегун!"
   },
   {
     "id": 16,
@@ -111,7 +111,7 @@
     "id": 18,
     "original_en": "There's a race underway.\nBe quiet and watch!{WAIT_KEY}\nIf you want to try and guess the next winner,\ntalk to me once the runners have lined up over\nthere after the race.",
     "original_fr": "Nous sommes en plein milieu de la course.\nTaisez-vous et regardez !{WAIT_KEY}\nSi vous voulez essayer de prédire le résultat de la\nprochaine course, revenez me parler quand les quatre\nparticipants seront alignés sur la ligne de départ.",
-    "translation": "Забег уже идёт! Тихо, смотрите!{WAIT_KEY}\nХотите сделать ставку на следующий забег —\nподойдите, когда бегуны выстроятся на линии\nстарта."
+    "translation": "Забег уже идёт! Тихо, смотрите!{WAIT_KEY}Хотите сделать ставку на следующий забег —\nподойдите, когда бегуны выстроятся на линии\nстарта."
   },
   {
     "id": 19,
@@ -165,7 +165,7 @@
     "id": 27,
     "original_en": "Oh, my! That pendant is—{WAIT_KEY}\nDear me, I haven't the money to buy a thing like that!\nKeep it safe. That is a valuable trinket you carry.\n",
     "original_fr": "Oh ! Ce pendentif !{WAIT_KEY}\nNon, je ne peux pas acheter un objet aussi précieux.\nPrenez-en grand soin.",
-    "translation": "О боги! Этот кулон...{WAIT_KEY}\nУвы, у меня не хватит денег на такую реликвию.\nБерегите его. Это бесценное сокровище."
+    "translation": "О боги! Этот кулон...{WAIT_KEY}Увы, у меня не хватит денег на такую реликвию.\nБерегите его. Это бесценное сокровище."
   },
   {
     "id": 28,
@@ -261,7 +261,7 @@
     "id": 43,
     "original_en": "Thank you.{WAIT_KEY}\nYou must live in this town. I came to see the fair.\nAwfully boring wandering around alone, though, isn't it?{WAIT_KEY}\nHey, why don't we walk around together for a while?\nWouldn't that be great?\n{TAG:38}{TAG:38}{GLYPH:394}Sure.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Sorry.{GLYPH:397}",
     "original_fr": "Dis, tu es de ce village, pas vrai ? Je suis venue\nm'amuser {TAG:3C} la foire, mais toute seule, ce n'est pas\nmarrant.{WAIT_KEY}\nTu veux bien m'accompagner ?\nS'il te pla¡t !\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Спасибо.{WAIT_KEY}\nТы ведь живёшь здесь? А я пришла на ярмарку.\nТолько одной бродить ужасно скучно, правда?{WAIT_KEY}Слушай, давай погуляем вместе? Здорово ведь\nбудет!\n{TAG:38}{TAG:38}{GLYPH:394}Давай.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Прости.{GLYPH:397}"
+    "translation": "Спасибо.{WAIT_KEY}Ты ведь живёшь здесь? А я пришла на ярмарку.\nТолько одной бродить ужасно скучно, правда?{WAIT_KEY}Слушай, давай погуляем вместе? Здорово ведь\nбудет!\n{TAG:38}{TAG:38}{GLYPH:394}Давай.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Прости.{GLYPH:397}"
   },
   {
     "id": 44,
@@ -309,7 +309,7 @@
     "id": 51,
     "original_en": "Come one, come all, to the Tent of Horrors!\nSpend your Silver Points here!\nPut your bravery to the test!{WAIT_KEY}\nLet me check how many points you have...{GLYPH:367}.\nWell, you can only spend them in here, you know!",
     "original_fr": "Voici la tente des horreurs ! Ce n'est qu'{TAG:3C} l'intérieur que\nvous pouvez utiliser vos points d'argent.{WAIT_KEY}\nVous en avez {GLYPH:367}. Mais aurez-vous le courage d'y\npénétrer ?",
-    "translation": "Подходи, налетай в Палатку Ужасов! Тратьте\nСеребряные очки только здесь! Испытайте свою\nсмелость!{WAIT_KEY}\nПосмотрим, сколько очков на карточке... {GLYPH:367}. И\nпомните, потратить их можно только здесь!"
+    "translation": "Подходи, налетай в Палатку Ужасов! Тратьте\nСеребряные очки только здесь! Испытайте свою\nсмелость!{WAIT_KEY}Посмотрим, сколько очков на карточке... {GLYPH:367}. И\nпомните, потратить их можно только здесь!"
   },
   {
     "id": 52,
@@ -327,13 +327,13 @@
     "id": 54,
     "original_en": "This Kingdom's been through some hard times, like\nthe war against the Fiendlord four hundred years ago.{WAIT_KEY}\nYou should be thankful things are so peaceful now.",
     "original_fr": "Quand on y pense, il s'en est passé des choses dans ce\nroyaume... La guerre contre l'armée de {MAGUS} il y a\n400 ans, par exemple...{WAIT_KEY}\nNous devrions tous être reconnaissants de la paix qui\nrègne aujourd'hui.",
-    "translation": "Королевство пережило тяжкие времена — взять\nхотя бы войну с Владыкой демонов 400 лет назад.{WAIT_KEY}\nНужно быть благодарными за нынешний мир."
+    "translation": "Королевство пережило тяжкие времена — взять\nхотя бы войну с Владыкой демонов 400 лет назад.{WAIT_KEY}Нужно быть благодарными за нынешний мир."
   },
   {
     "id": 55,
     "original_en": "This merchant said he'd buy accessories if they're in\ngood condition.{WAIT_KEY}\nHmm... Maybe I should sell him this old pendant of mine.",
     "original_fr": "J'ai entendu dire que ce vieil homme achète toutes\nsortes d'accessoires.{WAIT_KEY}\nHum... Je me demande s'il achète aussi des pendentifs...",
-    "translation": "Купец сказал, что скупает украшения в хорошем\nвиде.{WAIT_KEY} Хм... Может, продать ему этот старый кулон?"
+    "translation": "Купец сказал, что скупает украшения в хорошем\nвиде.{WAIT_KEY}Хм... Может, продать ему этот старый кулон?"
   },
   {
     "id": 56,
@@ -363,13 +363,13 @@
     "id": 60,
     "original_en": "I hear {LUCCA} and her father have put together\nanother crazy invention.{WAIT_KEY}\nI just hope it doesn't blow up again like the last one.",
     "original_fr": "Apparemment, {LUCCA} et son père, le forgeron, ont\nfabriqué une autre de leurs inventions bizarres.{WAIT_KEY}\nJ'espère qu'elle n'explosera pas comme la dernière fois...",
-    "translation": "Слыхал я, {LUCCA} с отцом смастерили очередную\nдиковинную штуковину.{WAIT_KEY}\nХоть бы она снова не взорвалась, как прошлая!"
+    "translation": "Слыхал я, {LUCCA} с отцом смастерили очередную\nдиковинную штуковину.{WAIT_KEY}Хоть бы она снова не взорвалась, как прошлая!"
   },
   {
     "id": 61,
     "original_en": "They ought to be ready by now.\nThey were setting up at the far end of the square.{WAIT_KEY}\n{MARLE}: Oh, I want to see it!\nCome on, {CRONO}!",
     "original_fr": "Leur invention devrait être prête, maintenant.\nIls l'ont installée {TAG:3C} l'autre bout de la place.{WAIT_KEY}\n{MARLE} : Oh, ça a l'air intéressant !\nAllons-y, {CRONO} !",
-    "translation": "Они уже должны быть готовы. Они обустроились на\nдальнем краю площади.{WAIT_KEY}\n{MARLE}: Ой, я так хочу на это взглянуть! Идём же,\n{CRONO}!"
+    "translation": "Они уже должны быть готовы. Они обустроились на\nдальнем краю площади.{WAIT_KEY}{MARLE}: Ой, я так хочу на это взглянуть! Идём же,\n{CRONO}!"
   },
   {
     "id": 62,
@@ -399,7 +399,7 @@
     "id": 66,
     "original_en": "{MARLE}: Excuse me!\nI'd like one of these.{WAIT_KEY}\nWoman: Sure, young miss.",
     "original_fr": "{MARLE} : Je voudrais ceux-l{TAG:3C}, s'il vous pla¡t !{WAIT_KEY}\nVendeuse : Voil{TAG:3C}.",
-    "translation": "{MARLE}: Простите, пожалуйста! Мне вот этих конфет.{WAIT_KEY}\nТорговка: Конечно, юная барышня."
+    "translation": "{MARLE}: Простите, пожалуйста! Мне вот этих конфет.{WAIT_KEY}Торговка: Конечно, юная барышня."
   },
   {
     "id": 67,
@@ -441,7 +441,7 @@
     "id": 73,
     "original_en": "Let me see how many Silver Points you have\non your card... Looks like you've got {GLYPH:367}.{WAIT_KEY}\nWould you like to exchange 10 Silver Points\nfor 50 G?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous avez actuellement {GLYPH:367} point(s) d'argent.{WAIT_KEY}\nVoulez-vous échanger 10 points d'argent contre\n50 G ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Посмотрим, сколько Серебряных очков у тебя на\nкарточке... Всего {GLYPH:367}.{WAIT_KEY}Хочешь обменять 10 Серебряных\nочков на 50 З?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Посмотрим, сколько Серебряных очков у тебя на\nкарточке... Всего {GLYPH:367}.{WAIT_KEY}Хочешь обменять 10 Серебряных очков на 50 З?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 74,
@@ -471,7 +471,7 @@
     "id": 78,
     "original_en": "Well, just between us, I heard that the King is\ntearing his hair out over his tomboy of a daughter!{WAIT_KEY}\nJust once, I'd like to meet her and see how wild\nshe really is.",
     "original_fr": "Entre vous et moi, il para¡t que le roi Gardia ne sait que\nfaire de sa fille qui n'est qu'un garçon manqué.{WAIT_KEY}\nCependant, j'aimerais bien voir {TAG:3C} quel point elle l'est !",
-    "translation": "Только между нами: говорят, Король просто волосы\nна себе рвёт из-за дочурки-сорванца!{WAIT_KEY} Вот бы хоть\nразок поглядеть, какая она на самом деле."
+    "translation": "Только между нами: говорят, Король просто волосы\nна себе рвёт из-за дочурки-сорванца!{WAIT_KEY}Вот бы хоть разок поглядеть, какая она на самом\nделе."
   },
   {
     "id": 79,
@@ -489,7 +489,7 @@
     "id": 81,
     "original_en": "Taban: ...and you'll be teleported here!{WAIT_KEY}\nThis fantastic machine is the masterwork of my\nbeautiful and brilliant daughter, {LUCCA}!",
     "original_fr": "Taban : ... vous serez téléporté ici !{WAIT_KEY}\nC'est l'invention de ma brillante et ravissante fille\nunique, {LUCCA} !",
-    "translation": "Табан: ...и в мгновение ока перенестись сюда!{WAIT_KEY}\nСей дивный прибор сотворила моя красавица и\nумница дочка — {LUCCA}!"
+    "translation": "Табан: ...и в мгновение ока перенестись сюда!{WAIT_KEY}Сей дивный прибор сотворила моя красавица и\nумница дочка — {LUCCA}!"
   },
   {
     "id": 82,
@@ -501,13 +501,13 @@
     "id": 83,
     "original_en": "Taban: Nothing to be afraid of, it worked just fine with\nthe cat! No reason why it shouldn't work on a human.{WAIT_KEY}\nSo relax, step on up!",
     "original_fr": "Taban : Il n'y a rien {TAG:3C} craindre ! Nous l'avons testée\navec succès avec des chats. Pas encore avec des\nhumains, mais bon...{WAIT_KEY}\nTu peux l'utiliser en toute confiance ! Allez !",
-    "translation": "Табан: Бояться нечего, на кошках сработало\nидеально! С человеком тем более всё будет в\nпорядке.{WAIT_KEY} Так что смелее, поднимайся!"
+    "translation": "Табан: Бояться нечего, на кошках сработало\nидеально! С человеком тем более всё будет в\nпорядке.{WAIT_KEY}Так что смелее, поднимайся!"
   },
   {
     "id": 84,
     "original_en": "Taban: It...it worked!\nUnbelievable! They never—{WAIT_KEY}\nAh, ahem! As I was saying, {LUCCA} has done it\nagain, ladies and gentlemen. A thrilling display of\nscience at its best!",
     "original_fr": "Taban : Tout s'est vraiment bien passé ?! Quel mir...\nEuh, je veux dire, bien entendu ! C'est une invention\nde {LUCCA}, après tout ! Formidable !",
-    "translation": "Табан: С... сработало! Невероятно! Они никогда\nпрежде не...{WAIT_KEY}\nКхм-кхм! Как я и говорил, дамы и господа, {LUCCA}\nснова совершила триумф науки!"
+    "translation": "Табан: С... сработало! Невероятно! Они никогда\nпрежде не...{WAIT_KEY}Кхм-кхм! Как я и говорил, дамы и господа, {LUCCA}\nснова совершила триумф науки!"
   },
   {
     "id": 85,
@@ -519,7 +519,7 @@
     "id": 86,
     "original_en": "{LUCCA}: I was wondering when you'd show up!\nNo one wants to try my Telepod.{WAIT_KEY}\nWould you be so kind?",
     "original_fr": "{LUCCA} : Je t'attendais ! Personne ne veut essayer\nle téléporteur.{WAIT_KEY}\nQue dirais-tu de le faire ?",
-    "translation": "{LUCCA}: А я всё думала, когда ты придёшь! Никто не\nжелает испытывать мой Телепод.{WAIT_KEY}\nОкажешь мне такую любезность?"
+    "translation": "{LUCCA}: А я всё думала, когда ты придёшь! Никто не\nжелает испытывать мой Телепод.{WAIT_KEY}Окажешь мне такую любезность?"
   },
   {
     "id": 87,
@@ -663,7 +663,7 @@
     "id": 110,
     "original_en": "{LUCCA}: The way she disappeared...\nThat couldn't have been the Telepod.{WAIT_KEY}\nThe way that rift appeared, and the way her\npendant seemed to be reacting to it...\nSomething else must have caused it all.",
     "original_fr": "{LUCCA} : La façon dont elle a disparu est différente\nde l'effet habituel du téléporteur...{WAIT_KEY}\nCette distorsion de l'espace... Le pendentif semblait y\nréagir...",
-    "translation": "{LUCCA}: То, как она исчезла... Это не работа\nТелепода.{WAIT_KEY}\nЭта вспышка, и то, как отреагировал её кулон...\nЗдесь вмешалась неведомая сила."
+    "translation": "{LUCCA}: То, как она исчезла... Это не работа\nТелепода.{WAIT_KEY}Эта вспышка, и то, как отреагировал её кулон...\nЗдесь вмешалась неведомая сила."
   },
   {
     "id": 111,
@@ -693,7 +693,7 @@
     "id": 115,
     "original_en": "{LUCCA}: It's the only way.\nI don't know where that hole leads,\nbut we've got no other choice.{WAIT_KEY}\nTaban: Let's just hope it opens up again.{WAIT_KEY}\n{LUCCA}: Well, it's worth a shot!\nThat pendant seems to be the key, so hang on\nto it, {CRONO}—and brace yourself!",
     "original_fr": "{LUCCA} : Tu as raison ! Même si on ne sait pas ce\nqu'il y a au-del{TAG:3C} de cette distorsion, je ne vois pas\nd'autre solution.{WAIT_KEY}\nTaban : Mais la distorsion pourrait ne pas appara¡tre de\nnouveau au bon moment !{WAIT_KEY}\n{LUCCA} : Ça vaut tout de même la peine d'essayer !\nLe pendentif est s{TAG:63}rement la clef, {CRONO} !\nTiens-le fermement ! La même chose devrait se\nreproduire !",
-    "translation": "{LUCCA}: Это единственный выход. Я не знаю, куда\nведёт этот разлом, но выбора нет.{WAIT_KEY}\nТабан: Лишь бы он снова открылся.{WAIT_KEY}\n{LUCCA}: Попытка не пытка! Кулон послужил ключом,\nтак что держи его крепче, {CRONO}, и приготовься!"
+    "translation": "{LUCCA}: Это единственный выход. Я не знаю, куда\nведёт этот разлом, но выбора нет.{WAIT_KEY}Табан: Лишь бы он снова открылся.{WAIT_KEY}{LUCCA}: Попытка не пытка! Кулон послужил ключом,\nтак что держи его крепче, {CRONO}, и приготовься!"
   },
   {
     "id": 116,
@@ -753,7 +753,7 @@
     "id": 125,
     "original_en": "{LUCCA}: {CRONO}, be a gentleman and take her\nhome.{WAIT_KEY}\nI still need to do a little more snooping into why that\nGate appeared.",
     "original_fr": "{LUCCA} : Raccompagne-la jusqu'au ch{TAG:4A}teau,\n{CRONO}. Escorte-la comme il faut, surtout !{WAIT_KEY}\nJe vais t{TAG:4A}cher de trouver la cause de l'apparition des\nportails.",
-    "translation": "{LUCCA}: {CRONO}, будь джентльменом и проводи её до\nдома.{WAIT_KEY}\nА мне нужно ещё кое-что разузнать о том, почему\nоткрылись эти Врата."
+    "translation": "{LUCCA}: {CRONO}, будь джентльменом и проводи её до\nдома.{WAIT_KEY}А мне нужно ещё кое-что разузнать о том, почему\nоткрылись эти Врата."
   },
   {
     "id": 126,
@@ -813,13 +813,13 @@
     "id": 135,
     "original_en": "Chancellor: Members of the court.{WAIT_KEY}\nI will now bring forth the defendant, {CRONO}, who\nis charged with the abduction of Princess Nadia.",
     "original_fr": "Chancelier : Bienvenue {TAG:3C} tous. Faisons entrer\n{CRONO}, celui que l'on accuse d'avoir enlevé\nla princesse Marledia.",
-    "translation": "Канцлер: Члены суда!{WAIT_KEY}\nЯ вызываю подсудимого {CRONO}, обвиняемого в\nвероломном похищении Принцессы Нади."
+    "translation": "Канцлер: Члены суда!{WAIT_KEY}Я вызываю подсудимого {CRONO}, обвиняемого в\nвероломном похищении Принцессы Нади."
   },
   {
     "id": 136,
     "original_en": "Chancellor: What shall be his fate?\nTo burn at the stake, perhaps?\nTo feel the Tickler, or hang upside down?{WAIT_KEY}\nOr...shall we employ the guillotine?",
     "original_fr": "Chancelier : Qu'allons-nous faire de lui...?\nLe condamner au b{TAG:63}cher ?\nLui faire subir le supplice des chatouilles ?\nLe suspendre la tête en bas ?{WAIT_KEY}\nOu encore... l'envoyer {TAG:3C} la guillotine...",
-    "translation": "Канцлер: Какова будет его кара? Сожжение на\nкостре? Пытка щекоткой? Или подвешивание за\nноги?{WAIT_KEY}\nИли... пустим в ход гильотину?"
+    "translation": "Канцлер: Какова будет его кара? Сожжение на\nкостре? Пытка щекоткой? Или подвешивание за\nноги?{WAIT_KEY}Или... пустим в ход гильотину?"
   },
   {
     "id": 137,
@@ -843,13 +843,13 @@
     "id": 140,
     "original_en": "Pierre: The prosecution would have you believe\nthat the defendant kidnapped the Princess.\nHowever, the truth is quite to the contrary.{WAIT_KEY}\nNot only was their meeting a coincidence, but\nit was the Princess herself who asked {CRONO}\nif she could join him.",
     "original_fr": "Pierre : Le procureur prétend que l'accusé a enlevé la\nprincesse avec préméditation, mais est-ce le cas ?\nNon.{WAIT_KEY}\nEn fait, c'est complètement par hasard qu'ils se sont\nrencontrés.",
-    "translation": "Пьер: Обвинение пытается убедить вас, будто мой\nподзащитный похитил Принцессу. Однако истина\nсовершенно в ином.{WAIT_KEY}\nИх встреча была случайностью, и сама Принцесса\nпопросила {CRONO} составить ей компанию!"
+    "translation": "Пьер: Обвинение пытается убедить вас, будто мой\nподзащитный похитил Принцессу. Однако истина\nсовершенно в ином.{WAIT_KEY}Их встреча была случайностью, и сама Принцесса\nпопросила {CRONO} составить ей компанию!"
   },
   {
     "id": 141,
     "original_en": "Chancellor: Is this true?\nWho was responsible for initiating contact?\n{TAG:38}{TAG:38}{GLYPH:394}I was.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{MARLE} was.{GLYPH:397}",
     "original_fr": "Chancelier : Est-ce vraiment ce qui s'est passé ?\nQui a pris l'initiative ?\n       {GLYPH:394}Moi{GLYPH:395}\n       {GLYPH:396}{MARLE}{GLYPH:397}",
-    "translation": "Канцлер: Правда ли\nэто? Кто первый заговорил?\n{TAG:38}{TAG:38}{GLYPH:394}Я.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{MARLE}.{GLYPH:397}"
+    "translation": "Канцлер: Правда ли это? Кто первый заговорил?\n{TAG:38}{TAG:38}{GLYPH:394}Я.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{MARLE}.{GLYPH:397}"
   },
   {
     "id": 142,
@@ -867,7 +867,7 @@
     "id": 144,
     "original_en": "Chancellor: Having subdued the Princess,\nthe defendant then coerced her into visiting \n{LUCCA}'s little sideshow. There were countless\nwitnesses to this.{WAIT_KEY}\nShortly thereafter, both the Princess and\nthe defendant vanished. If that is not\ncriminal abduction, I don't know what is.",
     "original_fr": "Chancelier : Ensuite, tu as emmené la princesse assister\nau spectacle de {LUCCA} et de son père.{WAIT_KEY}\nPlusieurs personnes peuvent en témoigner.{WAIT_KEY}\nC'est {TAG:3C} ce moment que vous avez tous les deux\ndisparu... Si cela ne constitue pas un enlèvement,\nqu'est-ce donc ?",
-    "translation": "Канцлер: Окрутив Принцессу, подсудимый заманил\nеё на балаганное шоу, что устроила {LUCCA}. Тому\nесть бесчисленные свидетели!{WAIT_KEY}\nА вскоре и Принцесса, и подсудимый исчезли. Если\nэто не похищение, то что же тогда?!"
+    "translation": "Канцлер: Окрутив Принцессу, подсудимый заманил\nеё на балаганное шоу, что устроила {LUCCA}. Тому\nесть бесчисленные свидетели!{WAIT_KEY}А вскоре и Принцесса, и подсудимый исчезли. Если\nэто не похищение, то что же тогда?!"
   },
   {
     "id": 145,
@@ -879,7 +879,7 @@
     "id": 146,
     "original_en": "Pierre: Objection!{WAIT_KEY}\nThis cannot possibly have any relevance to the case!",
     "original_fr": "Pierre : Objection !{WAIT_KEY}\nCela a-t-il un rapport avec notre affaire ? Non.",
-    "translation": "Пьер: Протестую!{WAIT_KEY}\nЭто не имеет никакого отношения к делу!"
+    "translation": "Пьер: Протестую!{WAIT_KEY}Это не имеет никакого отношения к делу!"
   },
   {
     "id": 147,
@@ -891,7 +891,7 @@
     "id": 148,
     "original_en": "Chancellor: {CRONO}'s character is at the very core\nof this case, Your Honor. This evidence will show that\nhis testimony cannot be trusted.{WAIT_KEY}\nPierre: Very well. We have nothing to hide.",
     "original_fr": "Chancelier : Oui. Il est indispensable de faire conna¡tre\nle caractère de l'accusé pour démontrer la {TAG:64} justesse {TAG:65}\nde son témoignage.{WAIT_KEY}\nPierre : Très bien.",
-    "translation": "Канцлер: Нрав {CRONO} — суть дела, Ваша Честь.\nУлики докажут, что его словам нельзя верить!{WAIT_KEY}\nПьер: Прекрасно. Нам нечего скрывать."
+    "translation": "Канцлер: Нрав {CRONO} — суть дела, Ваша Честь.\nУлики докажут, что его словам нельзя верить!{WAIT_KEY}Пьер: Прекрасно. Нам нечего скрывать."
   },
   {
     "id": 149,
@@ -993,7 +993,7 @@
     "id": 165,
     "original_en": "Chancellor: Pardon me, but I believe the motive\nwas quite clear: greed.{WAIT_KEY}\nHer fortune did tempt you, did it not,\n{CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}No.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Yes.{GLYPH:397}",
     "original_fr": "Chancelier : Désolé de vous contredire, mais...\nEt si le motif était sa fortune ?{WAIT_KEY}\nTu en voulais {TAG:3C} ses richesses, n'est-ce pas,\n{CRONO} ?\n       {GLYPH:394}Non{GLYPH:395}\n       {GLYPH:396}Oui{GLYPH:397}",
-    "translation": "Канцлер: Прошу прощения, но мотив налицо:\nалчность!{WAIT_KEY}Её богатства манили\nтебя, верно, {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Нет.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Да.{GLYPH:397}"
+    "translation": "Канцлер: Прошу прощения, но мотив налицо:\nалчность!{WAIT_KEY}Её богатства манили тебя, верно, {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Нет.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Да.{GLYPH:397}"
   },
   {
     "id": 166,
@@ -1011,19 +1011,19 @@
     "id": 168,
     "original_en": "Chancellor: Are you sure?\nYou weren't in the least bit tempted?\n{TAG:38}{TAG:38}{GLYPH:394}Not at all.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Just a bit.{GLYPH:397}",
     "original_fr": "Chancelier : Alors, sa fortune ne t'intéresse vraiment\npas du tout ?\n       {GLYPH:394}Pas du tout{GLYPH:395}\n       {GLYPH:396}Un peu{GLYPH:397}",
-    "translation": "Канцлер: Ты уверен? И\nни капельки не соблазнился?\n{TAG:38}{TAG:38}{GLYPH:394}Ни капельки.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ну, чуть-чуть.{GLYPH:397}"
+    "translation": "Канцлер: Ты уверен? И ни капельки не соблазнился?\n{TAG:38}{TAG:38}{GLYPH:394}Ни капельки.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ну, чуть-чуть.{GLYPH:397}"
   },
   {
     "id": 169,
     "original_en": "Chancellor: Very well.\nNo more questions, Your Honor.{WAIT_KEY}\nPierre: I believe it has been made quite\nevident that my client is a fine and virtuous\nyoung man. The defense rests, Your Honor.",
     "original_fr": "Chancelier : Hum, bien. Je n'ai pas d'autre question.{WAIT_KEY}\nPierre : Comme vous pouvez le constater, l'accusé\nest un jeune homme d'une probité irréfutable.\nJ'attends votre verdict, Votre Honneur.",
-    "translation": "Канцлер: Что ж, прекрасно. Больше вопросов нет,\nВаша Честь.{WAIT_KEY}\nПьер: Полагаю, всем стало ясно, что мой клиент —\nчестнейший молодой человек. Защита закончила."
+    "translation": "Канцлер: Что ж, прекрасно. Больше вопросов нет,\nВаша Честь.{WAIT_KEY}Пьер: Полагаю, всем стало ясно, что мой клиент —\nчестнейший молодой человек. Защита закончила."
   },
   {
     "id": 170,
     "original_en": "Chancellor: Good people, please remember\nthat the defendant claims he had no interest\nwhatsoever in the Princess's wealth.{WAIT_KEY}\nAllow me to introduce our next witness.",
     "original_fr": "Chancelier : Gardez ces paroles {TAG:3C} l'esprit ! L'accusé\nprétend que la fortune de la princesse ne l'intéresse\npas.{WAIT_KEY}\nLaissez-moi vous présenter mon prochain témoin !",
-    "translation": "Канцлер: Помните, граждане: подсудимый уверяет,\nбудто богатство Нади его ничуть не заботило.{WAIT_KEY}\nА теперь — наш следующий свидетель."
+    "translation": "Канцлер: Помните, граждане: подсудимый уверяет,\nбудто богатство Нади его ничуть не заботило.{WAIT_KEY}А теперь — наш следующий свидетель."
   },
   {
     "id": 171,
@@ -1119,7 +1119,7 @@
     "id": 186,
     "original_en": "The defendant has been found not guilty!{WAIT_KEY}\nBut even if he did not kidnap the Princess,\nthe fact remains that he aided in her flight\nfrom the castle.{WAIT_KEY}\nI sentence the accused to three days of\nsolitary confinement as punishment.",
     "original_fr": "L'accusé est déclaré innocent !{WAIT_KEY}\nCependant... Bien qu'il n'ait pas eu l'intention d'enlever\nla princesse, il est vrai qu'il était avec elle pendant un\ncertain temps.{WAIT_KEY}\nPour l'inciter {TAG:3C} réfléchir {TAG:3C} la gravité de ses actes, je le\ncondamne {TAG:3C} passer trois jours en prison !",
-    "translation": "Подсудимый признан невиновным!{WAIT_KEY}\nНо пусть он не похищал Принцессу, он\nспособствовал её побегу из замка.{WAIT_KEY}\nЯ приговариваю его к трём суткам одиночного\nзаключения в назидание."
+    "translation": "Подсудимый признан невиновным!{WAIT_KEY}Но пусть он не похищал Принцессу, он\nспособствовал её побегу из замка.{WAIT_KEY}Я приговариваю его к трём суткам одиночного\nзаключения в назидание."
   },
   {
     "id": 187,
@@ -1131,7 +1131,7 @@
     "id": 188,
     "original_en": "{MARLE}: Stop!{WAIT_KEY}\nChancellor: P-Princess Nadia!",
     "original_fr": "{MARLE} : Attendez !!{WAIT_KEY}\nChancelier : Votre Altesse...!",
-    "translation": "{MARLE}: Стойте!{WAIT_KEY}\nКанцлер: П-Принцесса Надя!"
+    "translation": "{MARLE}: Стойте!{WAIT_KEY}Канцлер: П-Принцесса Надя!"
   },
   {
     "id": 189,
@@ -1143,7 +1143,7 @@
     "id": 190,
     "original_en": "{MARLE}: But, Father—!{WAIT_KEY}\nKing: All I asked was for you to remain at the castle\nand behave like a princess.{WAIT_KEY}\nWhat's done is done.\nEven royalty must obey the laws of the land.{WAIT_KEY}\nLeave the rest up to the Chancellor and forget\nabout your little escapade in town.",
     "original_fr": "{MARLE} : Père ! îcoute-moi !{WAIT_KEY}\nRoi de Gardia : Je ne te demande que de rester\nsagement au ch{TAG:4A}teau, comme une princesse doit\nle faire.{WAIT_KEY}\nMême le roi et la princesse doivent obéir aux lois du\nroyaume... Laisse le chancelier s'occuper du reste.{WAIT_KEY}\nOublie ce qui s'est passé {TAG:3C} la foire, Marledia.",
-    "translation": "{MARLE}: Но, отец!..{WAIT_KEY}\nКороль: Я лишь просил быть в замке и вести себя\nкак подобает принцессе.{WAIT_KEY}\nЗакон один для всех, даже для королей.{WAIT_KEY}\nПредоставь всё Канцлеру и забудь об этом."
+    "translation": "{MARLE}: Но, отец!..{WAIT_KEY}Король: Я лишь просил быть в замке и вести себя\nкак подобает принцессе.{WAIT_KEY}Закон один для всех, даже для королей.{WAIT_KEY}Предоставь всё Канцлеру и забудь об этом."
   },
   {
     "id": 191,
@@ -1197,7 +1197,7 @@
     "id": 199,
     "original_en": "{GLYPH:384}\nA message is scrawled in blood here.{WAIT_KEY}{GLYPH:384}\n\"Beware the jugglers in the Fiendlord's keep!\nStrike them, and they tighten their defense\nagainst blows. Cast spells upon them, and they\nstrengthen their defense against magic.\"",
     "original_fr": "{GLYPH:384}\nIl a écrit un message avec son propre sang...{WAIT_KEY}\n{TAG:64} Les jongleurs du palais du Magistère deviennent\nplus résistants {TAG:3C} chaque coup qu'on leur porte... {TAG:65}",
-    "translation": "{GLYPH:384} Здесь кровью нацарапано послание...{WAIT_KEY}{GLYPH:384} «Опасайтесь жонглёров в замке Владыки!\nБейте их — окрепнет защита от ударов. Бейте\nмагией — окрепнет защита от магии!»"
+    "translation": "{GLYPH:384} Здесь кровью нацарапано послание...{WAIT_KEY}{GLYPH:384} «Опасайтесь жонглёров в замке Владыки! Бейте\nих — окрепнет защита от ударов. Бейте магией —\nокрепнет защита от магии!»"
   },
   {
     "id": 200,

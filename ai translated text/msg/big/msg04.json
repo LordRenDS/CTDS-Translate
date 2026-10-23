@@ -9,19 +9,19 @@
     "id": 1,
     "original_en": "Cyrus: I am. It's long past time we reclaimed the Badge\nfrom the Frog King.{WAIT_KEY}\nAnd I need to see that sword with my own eyes.",
     "original_fr": "Cyrus : Oui, Votre Majesté. Je crois qu'il est grand\ntemps que quelqu'un aille récupérer la médaille qu'a\nvolée cette grenouille dorée de malheur...{WAIT_KEY}\nEn outre, je veux essayer de confirmer moi-même\nl'existence de cette épée légendaire...",
-    "translation": "Сайрус: Да, Ваше Величество. Пора нам вернуть\nЗначок Героя у Короля Лягушек.{WAIT_KEY} К тому же я должен\nвоочию узреть тот легендарный меч."
+    "translation": "Сайрус: Да, Ваше Величество. Пора нам вернуть\nЗначок Героя у Короля Лягушек.{WAIT_KEY}К тому же я должен воочию узреть тот\nлегендарный меч."
   },
   {
     "id": 2,
     "original_en": "King: Cyrus, this kingdom has need of you.{WAIT_KEY}\nLeene and I need you as well.\nSee that you return.",
     "original_fr": "Roi de Gardia : Cyrus, le royaume a besoin de toi...{WAIT_KEY}\nEt tu es un ami précieux, pour moi comme pour Lynne.\nTu dois nous promettre que tu reviendras.",
-    "translation": "Король: Сайрус, ты нужен нашему королевству.{WAIT_KEY}\nТы нужен Лине и мне. Обещай, что вернёшься\nневредимым."
+    "translation": "Король: Сайрус, ты нужен нашему королевству.{WAIT_KEY}Ты нужен Лине и мне. Обещай, что вернёшься\nневредимым."
   },
   {
     "id": 3,
     "original_en": "Cyrus: As long as there is life in these bones,\nI shall—come what may.{WAIT_KEY}\nWell then, by your leave...",
     "original_fr": "Cyrus : Sur ma vie, j'en fais le serment. Je reviendrai,\nquoi qu'il advienne.{WAIT_KEY}\nAvec votre permission, je vais maintenant me retirer...",
-    "translation": "Сайрус: Клянусь, покуда я дышу, я непременно\nвернусь — что бы ни случилось.{WAIT_KEY} А теперь позвольте\nмне откланяться..."
+    "translation": "Сайрус: Клянусь, покуда я дышу, я непременно\nвернусь — что бы ни случилось.{WAIT_KEY}А теперь позвольте мне откланяться..."
   },
   {
     "id": 4,
@@ -75,13 +75,13 @@
     "id": 12,
     "original_en": "Cyrus: That is what I mean to do.{WAIT_KEY}\nNirvana Strike!",
     "original_fr": "Cyrus : C'est justement ce que je comptais faire !\nEn garde, grenouille dorée !{WAIT_KEY}\nEntaille nirvana !",
-    "translation": "Сайрус: Именно за этим я и пришёл.{WAIT_KEY}\nУдар Нирваны!"
+    "translation": "Сайрус: Именно за этим я и пришёл.{WAIT_KEY}Удар Нирваны!"
   },
   {
     "id": 13,
     "original_en": "GRAAAACK!\nI... I'm beaten!{WAIT_KEY}\nPfft! Filthy badge!\nDo not think I'll forget this!",
     "original_fr": "Hagyaaa...!! Haaa... Haaa... Comment oses-tu ?!{WAIT_KEY}\nCette médaille n'en vaut pas la peine ! Tu me le paieras !",
-    "translation": "КВА-А-А-АК! Я... побеждён!{WAIT_KEY}\nТьфу! Сдался мне этот грязный значок! Не думай,\nчто я это забуду!"
+    "translation": "КВА-А-А-АК! Я... побеждён!{WAIT_KEY}Тьфу! Сдался мне этот грязный значок! Не думай,\nчто я это забуду!"
   },
   {
     "id": 14,
@@ -99,7 +99,7 @@
     "id": 16,
     "original_en": "Child: Did you come to take it?\nThe Masamune, I mean.\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Enfant : ätes-vous venus chercher Grandléon,\nvous aussi ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Дитя: Вы пришли забрать\nего? Я про Масамунэ.\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Дитя: Вы пришли забрать его? Я про Масамунэ.\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 17,
@@ -189,7 +189,7 @@
     "id": 31,
     "original_en": "Mune: All right, this is it!{WAIT_KEY}\nMasa: No more games!",
     "original_fr": "Léon : Bien ! Cette fois...{WAIT_KEY}\nGran : On ne joue plus !",
-    "translation": "Мунэ: Вот теперь держитесь!{WAIT_KEY}\nМаса: Игры кончились!"
+    "translation": "Мунэ: Вот теперь держитесь!{WAIT_KEY}Маса: Игры кончились!"
   },
   {
     "id": 32,
@@ -225,7 +225,7 @@
     "id": 37,
     "original_en": "Mune: Do you think they'll fix us?{WAIT_KEY}\nWill they find our proper owner?",
     "original_fr": "Léon : Je me demande si ces gens vont nous restaurer...{WAIT_KEY}\nSauront-ils nous trouver un ma¡tre ?",
-    "translation": "Мунэ: Как думаешь, они починят нас?{WAIT_KEY}\nНайдут ли они нашего истинного хозяина?"
+    "translation": "Мунэ: Как думаешь, они починят нас?{WAIT_KEY}Найдут ли они нашего истинного хозяина?"
   },
   {
     "id": 38,
@@ -249,13 +249,13 @@
     "id": 41,
     "original_en": "{LUCCA}: So this is the Masamune.{WAIT_KEY}\nIt looks like it's been broken for ages.",
     "original_fr": "{LUCCA} : C'est Grandléon, l'épée légendaire...{WAIT_KEY}\nCependant, elle semble avoir été brisée il y a\nlongtemps...",
-    "translation": "{LUCCA}: Так вот он какой, Масамунэ.{WAIT_KEY}\nПохоже, клинок сломан уже давным-давно."
+    "translation": "{LUCCA}: Так вот он какой, Масамунэ.{WAIT_KEY}Похоже, клинок сломан уже давным-давно."
   },
   {
     "id": 42,
     "original_en": "{ROBO}: This sword is the legendary Masamune.{WAIT_KEY}\nIts appearance would indicate that a great\ndeal of time has passed since it was broken.",
     "original_fr": "{ROBO} : Grandléon, l'épée légendaire...{WAIT_KEY}\nCependant, beaucoup de temps s'est écoulé depuis\nqu'elle a été brisée.",
-    "translation": "{ROBO}: Этот клинок — легендарный Масамунэ.{WAIT_KEY} Судя\nпо его состоянию, со дня его поломки прошло\nнемало веков."
+    "translation": "{ROBO}: Этот клинок — легендарный Масамунэ.{WAIT_KEY}Судя по его состоянию, со дня его поломки прошло\nнемало веков."
   },
   {
     "id": 43,
@@ -297,7 +297,7 @@
     "id": 49,
     "original_en": "Y-you're humans?{WAIT_KEY}\nThey've hidden the Queen in the back.\nPlease rescue her!",
     "original_fr": "Quoi, des humains ?!{WAIT_KEY}\nLa reine est prisonnière un peu plus loin. Je vous en\nsupplie, portez-lui secours !",
-    "translation": "В-вы люди?!{WAIT_KEY}\nОни спрятали Королеву в глубине обители. Умоляю,\nспасите её!"
+    "translation": "В-вы люди?!{WAIT_KEY}Они спрятали Королеву в глубине обители. Умоляю,\nспасите её!"
   },
   {
     "id": 50,
@@ -333,7 +333,7 @@
     "id": 55,
     "original_en": "*belch*\nHmm? What's with the disguises?{WAIT_KEY}\nHurry up and change!\nNo need to be walking around like humans in here.",
     "original_fr": "Hum... Quoi ? Hic !{WAIT_KEY}\nReprenez vite votre forme normale, vous aussi !\nVous comptez rester déguisés en humains jusqu'{TAG:3C}\nquand ? Hic !",
-    "translation": "*ик* Хм? Вы чего в человечьем обличье?{WAIT_KEY}\nБыстро перекидывайтесь обратно! Незачем тут\nходить на двух ногах."
+    "translation": "*ик* Хм? Вы чего в человечьем обличье?{WAIT_KEY}Быстро перекидывайтесь обратно! Незачем тут\nходить на двух ногах."
   },
   {
     "id": 56,
@@ -357,25 +357,25 @@
     "id": 59,
     "original_en": "Yakra's a genius!\nHis plan to imprison the Chancellor and\ntake on his role worked like magic!{WAIT_KEY}\nNow the Queen's ours, and the castle's in an uproar.\nThis is rich!",
     "original_fr": "Le plan de ma¡tre Yakra a fonctionné {TAG:3C} merveille !\nEn prenant la place du chancelier, il a pu capturer\nla reine sans la moindre peine !{WAIT_KEY}\nÇa doit être la panique au ch{TAG:4A}teau en ce moment !\nGniark, gniark, gniark !",
-    "translation": "Якра — гений! Запереть Канцлера и занять его\nместо — план сработал как по волшебству!{WAIT_KEY}\nКоролева у нас, а в замке суматоха. Вот потеха!"
+    "translation": "Якра — гений! Запереть Канцлера и занять его\nместо — план сработал как по волшебству!{WAIT_KEY}Королева у нас, а в замке суматоха. Вот потеха!"
   },
   {
     "id": 60,
     "original_en": "Oh, how good of you to come.\nI'm sure Yakra will be pleased.{WAIT_KEY}\nPlease, pass the time in here with us until he has\na chance to come and greet you properly.",
     "original_fr": "Bienvenue. Yakra, notre ma¡tre, sera sans doute\nheureux de vous voir.{WAIT_KEY}\nVous devriez vous reposer tranquillement dans cette\npièce jusqu'{TAG:3C} ce qu'il puisse vous recevoir.",
-    "translation": "О, как мило, что вы пришли. Господин Якра будет\nочень рад.{WAIT_KEY}\nПогодите здесь, покуда он не сможет\nпоприветствовать вас как подобает."
+    "translation": "О, как мило, что вы пришли. Господин Якра будет\nочень рад.{WAIT_KEY}Погодите здесь, покуда он не сможет\nпоприветствовать вас как подобает."
   },
   {
     "id": 61,
     "original_en": "Oh, you came to rescue me? How kind of you.\nBut I assure you, there's no need.{WAIT_KEY}\nThe master of this place, Yakra, is so very kind.\nI've decided to stay here. Please, make yourselves\nat home, too!",
     "original_fr": "Vous êtes venus me porter secours, n'est-ce pas ?\nCependant, ce n'est pas la peine.{WAIT_KEY}\nMa¡tre Yakra est quelqu'un de très aimable. J'ai décidé\nde rester ici. Allez, faites comme chez vous, vous\naussi !",
-    "translation": "О, пришли меня спасти? Как мило. Но уверяю, в этом\nнет нужды.{WAIT_KEY}\nХозяин здешних мест, господин Якра, так добр. Я\nостанусь здесь. Будьте как дома!"
+    "translation": "О, пришли меня спасти? Как мило. Но уверяю, в этом\nнет нужды.{WAIT_KEY}Хозяин здешних мест, господин Якра, так добр. Я\nостанусь здесь. Будьте как дома!"
   },
   {
     "id": 62,
     "original_en": "Did you by chance come to save Queen Leene?{WAIT_KEY}\nOh, you did! That's good to know.",
     "original_fr": "Vous... Vous êtes ceux qui sont venus secourir la\nreine ?!{WAIT_KEY}\nOh, je m'en doutais bien !",
-    "translation": "Вы случайно не спасать королеву Лину явились?{WAIT_KEY}\nО, так и есть! Какая прелесть."
+    "translation": "Вы случайно не спасать королеву Лину явились?{WAIT_KEY}О, так и есть! Какая прелесть."
   },
   {
     "id": 63,
@@ -387,7 +387,7 @@
     "id": 64,
     "original_en": "Oh great {MAGUS}, {MAGUS} the Great Ê\nYour eyes are brighter than the stars Ê\nYour flowing hair, like waves atop the sea Ê{WAIT_KEY}\nEven those miserable sunny days abate Ê\nWhen we feel your seething hate Ê\nEven brightened halls hold no fear Ê\nJust so long as you are near Ê",
     "original_fr": "Ah, {MAGUS}, notre seigneur ! Ê\nAvec tes yeux scintillants Ê\nEt tes cheveux qui flottent dans le vent ! Ê{WAIT_KEY}\nPlus grand que les monts culminants Ê\nEt plus profond que l'océan Ê\nEst notre dévouement ! Ê{WAIT_KEY}\nPar tous temps, {TAG:3C} toute heure, Ê\nTu fais notre bonheur ! Ê\nMême dans les endroits tristes sans noirceur, Ê\nLorsque tu es l{TAG:3C}, nous n'avons jamais peur ! Ê",
-    "translation": "О великий {MAGUS}! О владыка {MAGUS}! Ê Твои очи\nярче полуночных звёзд, Ê Власы струятся, точно\nволны морские! Ê{WAIT_KEY}\nПред тобой меркнет солнце, коль пылает гнев! Ê В\nсветлых залах нам неведом страх, Ê Покуда ты\nрядом с нами! Ê"
+    "translation": "О великий {MAGUS}! О владыка {MAGUS}! Ê Твои очи\nярче полуночных звёзд, Ê Власы струятся, точно\nволны морские! Ê{WAIT_KEY}Пред тобой меркнет солнце, коль пылает гнев! Ê В\nсветлых залах нам неведом страх, Ê Покуда ты\nрядом с нами! Ê"
   },
   {
     "id": 65,
@@ -441,25 +441,25 @@
     "id": 73,
     "original_en": "Dalton: What's this?\nI feel something strange.{WAIT_KEY}\nCould this be...Lavos's energy!?",
     "original_fr": "Dalton : Qu'est-ce que... Quelle est cette aura sinistre\nqui grandit ?{WAIT_KEY}\nSerait-ce... la véritable énergie de Lavos...?!",
-    "translation": "Дальтон: Что это? Я чувствую нечто странное...{WAIT_KEY}\nНеужели... это мощь Лавоса?!"
+    "translation": "Дальтон: Что это? Я чувствую нечто странное...{WAIT_KEY}Неужели... это мощь Лавоса?!"
   },
   {
     "id": 74,
     "original_en": "Dalton: ...\nThis won't do at all.{WAIT_KEY}\nAll my hard work will be in vain if I die before attaining\nimmortality!",
     "original_fr": "Dalton : ...\nJ'ai comme l'impression que la situation va se g{TAG:4A}ter...{WAIT_KEY}\nJe ne tiens pas {TAG:3C} mourir juste avant d'obtenir la vie\néternelle !",
-    "translation": "Дальтон: ... Так дело не пойдёт!{WAIT_KEY}\nВсе мои труды пойдут прахом, если я погибну, так\nи не вкусив бессмертия!"
+    "translation": "Дальтон: ... Так дело не пойдёт!{WAIT_KEY}Все мои труды пойдут прахом, если я погибну, так\nи не вкусив бессмертия!"
   },
   {
     "id": 75,
     "original_en": "Dalton: It seems this is your lucky day!{WAIT_KEY}\nFarewell!",
     "original_fr": "Dalton : Bien, je fermerai les yeux sur votre affront\npour cette fois-ci !{WAIT_KEY}\nAdieu !",
-    "translation": "Дальтон: Считайте, вам крупно повезло!{WAIT_KEY}\nБывайте!"
+    "translation": "Дальтон: Считайте, вам крупно повезло!{WAIT_KEY}Бывайте!"
   },
   {
     "id": 76,
     "original_en": "If history is to change, let it change!\nIf the world is to be destroyed, so be it!{GLYPH:405}12{GLYPH:406}{GLYPH:407}\nIf I must vanish from existence to see this done,\nthen I shall welcome that fate!{GLYPH:405}14{GLYPH:406}{GLYPH:408}",
     "original_fr": "Si l'histoire doit changer, qu'elle change ! Si le monde\ndoit être détruit, peu m'importe !{GLYPH:405}12{GLYPH:406}{GLYPH:407}\nSi, pour y arriver, je dois mourir... Eh bien, cela sera\nd'autant plus intéressant !!{GLYPH:405}14{GLYPH:406}{GLYPH:408}",
-    "translation": "Пусть меняется история! Пусть гибнет мир!{GLYPH:405}12{GLYPH:406}{GLYPH:407}\nИ коль мне суждено сгинуть ради этого, я с\nрадостью приму эту участь!{GLYPH:405}14{GLYPH:406}{GLYPH:408}"
+    "translation": "Пусть меняется история! Пусть гибнет мир!{GLYPH:405}12{GLYPH:406}{GLYPH:407}И коль мне суждено сгинуть ради этого, я с\nрадостью приму эту участь!{GLYPH:405}14{GLYPH:406}{GLYPH:408}"
   },
   {
     "id": 77,

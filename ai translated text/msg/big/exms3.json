@@ -105,7 +105,7 @@
     "id": 17,
     "original_en": "There is a switch here.\nPress the switch?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous appuyer sur\nle bouton ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Здесь есть\nпереключатель. Нажать его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Здесь есть переключатель. Нажать его?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 18,
@@ -117,13 +117,13 @@
     "id": 19,
     "original_en": "There is a note.{WAIT_KEY}\n\"The Director of Research ought to have the security\nlock release code written down somewhere in this room.{WAIT_KEY}\n\"He's a strange one, though, always writing in codes\nand what have you. Knowing him, he probably wrote it\ndown backwards.\"",
     "original_fr": "Il y a une note de l'administrateur...{WAIT_KEY}\n{TAG:64} Le directeur devrait avoir laissé une note sur le code\nde sécurité quelque part dans cette pièce. {TAG:65}{WAIT_KEY}\n{TAG:64} Cependant, il a l'esprit tordu... Il ne donnerait pas\nle code directement. Il faudrait peut-être le lire {TAG:3C}\nl'envers. {TAG:65}",
-    "translation": "Здесь лежит записка.{WAIT_KEY}\n«Код снятия блокировки должен быть записан\nдиректором где-то в этой комнате.{WAIT_KEY}\nПравда, он с причудами — вечно всё шифрует. Зная\nего, он наверняка записал его задом наперёд»."
+    "translation": "Здесь лежит записка.{WAIT_KEY}«Код снятия блокировки должен быть записан\nдиректором где-то в этой комнате.{WAIT_KEY}Правда, он с причудами — вечно всё шифрует. Зная\nего, он наверняка записал его задом наперёд»."
   },
   {
     "id": 20,
     "original_en": "There is a note written by the Director of Research.{WAIT_KEY}\n\"Security lock release code: LLAB\nI picked it because, well...I like things that are round.\"",
     "original_fr": "Il y a une note du directeur...{WAIT_KEY}\n{TAG:64} Le code de sécurité est L L A B. Je l'ai choisi parce\nque j'aime les trucs ronds. {TAG:65}",
-    "translation": "Записка директора исследовательского отдела...{WAIT_KEY}\n«Код снятия блокировки: LLAB. Я выбрал его,\nпотому что люблю всё круглое»."
+    "translation": "Записка директора исследовательского отдела...{WAIT_KEY}«Код снятия блокировки: LLAB. Я выбрал его,\nпотому что люблю всё круглое»."
   },
   {
     "id": 21,
@@ -207,25 +207,25 @@
     "id": 34,
     "original_en": "{MARLE}: Oh, thank goodness!\nI thought we were trapped for good!{WAIT_KEY}\nYou should be able to open the door from inside a\nroom to the east. Please, you have to get us out!",
     "original_fr": "{MARLE} : Le ciel soit loué... Merci d'être venus.{WAIT_KEY}\nIl devrait y avoir une salle où vous pourrez ouvrir cette\nporte {TAG:3C} l'est d'ici. Je vous en prie, aidez-nous !",
-    "translation": "{MARLE}: О, хвала небесам! Я думала, мы застряли\nтут навечно!{WAIT_KEY}\nДверь можно открыть из комнаты на востоке.\nПрошу, вытащите нас отсюда!"
+    "translation": "{MARLE}: О, хвала небесам! Я думала, мы застряли\nтут навечно!{WAIT_KEY}Дверь можно открыть из комнаты на востоке.\nПрошу, вытащите нас отсюда!"
   },
   {
     "id": 35,
     "original_en": "{ROBO}: Oh, you have come!\nThank you.{WAIT_KEY}\nThere is a room to your east from which you can\nrelease this lock. Would you be so kind as to look\nfor it?",
     "original_fr": "{ROBO} : Quel soulagement d'entendre vos voix !{WAIT_KEY}\nIl devrait y avoir une salle où vous pourrez\ndéverrouiller cette porte {TAG:3C} l'est d'ici.{WAIT_KEY}\nPourriez-vous aller y jeter un coup d'{TAG:61}il ?",
-    "translation": "{ROBO}: О, вы пришли! Благодарю вас.{WAIT_KEY}\nК востоку от вас есть помещение, откуда можно\nснять блокировку. Не будете ли вы столь любезны\nразыскать его?"
+    "translation": "{ROBO}: О, вы пришли! Благодарю вас.{WAIT_KEY}К востоку от вас есть помещение, откуда можно\nснять блокировку. Не будете ли вы столь любезны\nразыскать его?"
   },
   {
     "id": 36,
     "original_en": "{AYLA}: Oh, you come help {AYLA}!{WAIT_KEY}\nGo find place open door!\n{AYLA} no like door not open.\n{AYLA} want leave!",
     "original_fr": "{AYLA} : {AYLA} être soulagée. Merci !{WAIT_KEY}\nClef pour ouvrir porte être quelque part. {AYLA}\ndétester être enfermée. {AYLA} vouloir sortir !",
-    "translation": "{AYLA}: О, вы прийти помочь {AYLA}!{WAIT_KEY}\nИдите искать, где открыть дверь! {AYLA} не\nлюбить закрытые двери. {AYLA} хотеть наружу!"
+    "translation": "{AYLA}: О, вы прийти помочь {AYLA}!{WAIT_KEY}Идите искать, где открыть дверь! {AYLA} не\nлюбить закрытые двери. {AYLA} хотеть наружу!"
   },
   {
     "id": 37,
     "original_en": "{FROG}: You've come to help us!\nMy pardons.{WAIT_KEY}\nTo your east is a room from which this door can be\nopened. Might you do us the favor of searching it out?",
     "original_fr": "{FROG} : Ah, vous allez nous aider ? Je vous en suis\nreconnaissant...{WAIT_KEY}\nIl devrait y avoir une salle où vous pourrez ouvrir cette\nporte {TAG:3C} l'est d'ici. Pourriez-vous vous en charger ?",
-    "translation": "{FROG}: Вы пришли нам на выручку! Прошу прощения\nза оплошность.{WAIT_KEY}\nК востоку от вас есть зал, откуда открывается\nдверь. Не окажете ли услугу отыскать его?"
+    "translation": "{FROG}: Вы пришли нам на выручку! Прошу прощения\nза оплошность.{WAIT_KEY}К востоку от вас есть зал, откуда открывается\nдверь. Не окажете ли услугу отыскать его?"
   },
   {
     "id": 38,
@@ -273,7 +273,7 @@
     "id": 45,
     "original_en": "{GLYPH:384}\nLOCK RELEASE COMMAND EXECUTED BY\nUNREGISTERED ADMINISTRATOR.{WAIT_KEY}{GLYPH:384}\n\nINITIATING CONTAINMENT LOCKDOWN.",
     "original_fr": "{GLYPH:384}\nCommande saisie par un administrateur non enregistré.\nVerrouillage activé.",
-    "translation": "{GLYPH:384} КОМАНДА РАЗБЛОКИРОВКИ ВЫПОЛНЕНА\nНЕЗАРЕГИСТРИРОВАННЫМ АДМИНИСТРАТОРОМ.{WAIT_KEY}\n{GLYPH:384} АКТИВАЦИЯ АВАРИЙНОЙ ИЗОЛЯЦИИ."
+    "translation": "{GLYPH:384} КОМАНДА РАЗБЛОКИРОВКИ ВЫПОЛНЕНА\nНЕЗАРЕГИСТРИРОВАННЫМ АДМИНИСТРАТОРОМ.{WAIT_KEY}{GLYPH:384} АКТИВАЦИЯ АВАРИЙНОЙ ИЗОЛЯЦИИ."
   },
   {
     "id": 46,
@@ -693,19 +693,19 @@
     "id": 115,
     "original_en": "Dalton: If it weren't for you, I'd have been the ruler\nof an age all my own!{WAIT_KEY}\nYou robbed me of everything I'd worked so hard for!\nMy wealth, my home, my loyal underlings...\nYou took it all away!\nIt's unforgivable!{WAIT_KEY}\nSo come on! Have a taste of the suffering I've\nendured because of you!",
     "original_fr": "Dalton : Sans vous, j'aurais pu régner sur le monde\nentier !{WAIT_KEY}\nMais vous m'avez dépouillé de tout : ma position,\nma fortune et mon royaume !{WAIT_KEY}\nJamais je ne vous le pardonnerai ! Je vais vous faire\npartager ma souffrance !",
-    "translation": "Далтон: Если бы не вы, я стал бы владыкой\nсобственной эпохи!{WAIT_KEY}\nВы отняли у меня всё, что я нажил непосильным\nтрудом! Моё богатство, мой дворец, моих верных\nслуг... Вы всё отняли! Этому нет прощения!{WAIT_KEY}\nНу давайте же! Изведайте те страдания, что я\nпретерпел из-за вас!"
+    "translation": "Далтон: Если бы не вы, я стал бы владыкой\nсобственной эпохи!{WAIT_KEY}Вы отняли у меня всё, что я нажил непосильным\nтрудом! Моё богатство, мой дворец, моих верных\nслуг... Вы всё отняли! Этому нет прощения!{WAIT_KEY}Ну давайте же! Изведайте те страдания, что я\nпретерпел из-за вас!"
   },
   {
     "id": 116,
     "original_en": "Dalton: Hmph, I think that's enough for today.\nBut don't you dare think this is settled!\nJust you wait, {CRONO}!{WAIT_KEY}\nI'll raise the greatest army the world has ever seen in\nPorre, and use it to wipe your pitiful little kingdom off\nthe map!",
     "original_fr": "Dalton : Hum, ça suffit pour aujourd'hui, mais n'allez pas\npenser que ça se terminera ainsi !{WAIT_KEY}\nJe formerai la grande armée de Palpori et un jour, je\ndétruirai votre royaume ! Ne l'oublie pas, {CRONO} !",
-    "translation": "Далтон: Хмф, на сегодня с вас хватит. Но даже не\nдумайте, что мы в расчёте! Ты ещё пожалеешь,\n{CRONO}!{WAIT_KEY}\nЯ создам в Порре величайшую армию в истории и\nсотру ваше жалкое королевство с лица земли!"
+    "translation": "Далтон: Хмф, на сегодня с вас хватит. Но даже не\nдумайте, что мы в расчёте! Ты ещё пожалеешь,\n{CRONO}!{WAIT_KEY}Я создам в Порре величайшую армию в истории и\nсотру ваше жалкое королевство с лица земли!"
   },
   {
     "id": 117,
     "original_en": "Dalton: Hmph, I think that's enough for today.\nBut don't you dare think this is settled!\nJust you wait!{WAIT_KEY}\nI'll raise the greatest army the world has ever seen in\nPorre, and use it to wipe your pitiful little kingdom off\nthe map!",
     "original_fr": "Dalton : Hum, ça suffit pour aujourd'hui, mais n'allez pas\npenser que ça se terminera ainsi !{WAIT_KEY}\nJe formerai la grande armée de Palpori et un jour,\nje détruirai votre royaume ! Ne l'oubliez pas !",
-    "translation": "Далтон: Хмф, на сегодня с вас хватит. Но даже не\nдумайте, что мы в расчёте! Погодите у меня!{WAIT_KEY}\nЯ создам в Порре величайшую армию в истории и\nсотру ваше жалкое королевство с лица земли!"
+    "translation": "Далтон: Хмф, на сегодня с вас хватит. Но даже не\nдумайте, что мы в расчёте! Погодите у меня!{WAIT_KEY}Я создам в Порре величайшую армию в истории и\nсотру ваше жалкое королевство с лица земли!"
   },
   {
     "id": 118,
@@ -1065,7 +1065,7 @@
     "id": 177,
     "original_en": "{GLYPH:384}\n{LUCCA}'s latent powers awakened.\nSpeed, Magic, and Stamina improved!",
     "original_fr": "{GLYPH:384}Les aptitudes latentes de\n{LUCCA} s'éveillent...\nSa rapidité, sa magie et\nson endurance augmentent !",
-    "translation": "{GLYPH:384} {LUCCA} пробуждает свои скрытые силы!\nСкорость, Магия и Выносливость возросли!"
+    "translation": "{GLYPH:384} {LUCCA} пробуждает свои скрытые силы! Скорость,\nМагия и Выносливость возросли!"
   },
   {
     "id": 178,

@@ -9,7 +9,7 @@
     "id": 1,
     "original_en": "Congratulations on finishing the game!\nYou're now a member of the Dream Team!{WAIT_KEY}\nAnd since you blew through the game so fast,\nwe've adjusted the credits to suit your style!",
     "original_fr": "Bravo ! Vous avez terminé le jeu !{WAIT_KEY}\nVous êtes maintenant un membre de la {TAG:64} Dream Team {TAG:65}\nvous aussi. Félicitations !{WAIT_KEY}\nNous allons vous présenter un générique qui convient\n{TAG:3C} quelqu'un dont l'impatience lui a fait terminer le jeu\naussi rapidement. C'est parti !",
-    "translation": "Поздравляем с прохождением игры! Теперь ты тоже\nв «Команде мечты»!{WAIT_KEY}\nИ раз уж ты пронёсся сквозь игру так быстро, мы\nподогнали титры под твои темпы!"
+    "translation": "Поздравляем с прохождением игры! Теперь ты тоже\nв «Команде мечты»!{WAIT_KEY}И раз уж ты пронёсся сквозь игру так быстро, мы\nподогнали титры под твои темпы!"
   },
   {
     "id": 2,
@@ -123,7 +123,7 @@
     "id": 20,
     "original_en": "Good job! You reached the hardest ending!\nThis is the Chrono Trigger development room.\nTake a walk around and hear what the team\nhas to say!{WAIT_KEY}\nKeizo Kokubo: I hope you and all of the staff\nwho worked on the game took something from it\nand will continue to grow and prosper, no matter\nwhat the future holds in store.{WAIT_KEY}\nCome back to see me again once you complete\nyour rounds.",
     "original_fr": "Félicitations ! Vous avez réussi {TAG:3C} terminer le jeu dans\ndes conditions très difficiles !{WAIT_KEY}\nBienvenue au bureau de l'équipe de développement.\nAllez parler aux membres de l'équipe.{WAIT_KEY}\nKeizô Kokubo : J'espère que ça aura été une expérience\nenrichissante {TAG:3C} la fois pour les joueurs et pour tous\nceux qui ont participé {TAG:3C} ce projet.{WAIT_KEY}\nRevenez me voir quand vous aurez parlé {TAG:3C} tout le\nmonde.",
-    "translation": "С победой! Ты открыл сложнейшую концовку! Это\nкомната разработчиков Chrono Trigger. Оглядись\nвокруг и послушай, что скажет команда!{WAIT_KEY}\nКэйдзо Кокубо: Надеюсь, и ты, и все мы почерпнули\nиз этой игры нечто ценное, и вы продолжите расти\nи процветать, что бы ни готовило будущее.{WAIT_KEY}\nЗагляни ко мне снова, когда обойдёшь всех."
+    "translation": "С победой! Ты открыл сложнейшую концовку! Это\nкомната разработчиков Chrono Trigger. Оглядись\nвокруг и послушай, что скажет команда!{WAIT_KEY}Кэйдзо Кокубо: Надеюсь, и ты, и все мы почерпнули\nиз этой игры нечто ценное, и вы продолжите расти\nи процветать, что бы ни готовило будущее.{WAIT_KEY}Загляни ко мне снова, когда обойдёшь всех."
   },
   {
     "id": 21,
@@ -177,7 +177,7 @@
     "id": 29,
     "original_en": "Kato: No storm lasts forever.{WAIT_KEY}\nEven eternity must come to an end.{WAIT_KEY}\nI think.",
     "original_fr": "Katô : Après la pluie vient le beau temps.{WAIT_KEY}\nMême l'éternité doit bien avoir une fin...{WAIT_KEY}\nEnfin, c'est ce que je crois...",
-    "translation": "Като: Ни одна буря не длится вечно.{WAIT_KEY}\nДаже вечность когда-нибудь да кончается.{WAIT_KEY}\nМне так кажется."
+    "translation": "Като: Ни одна буря не длится вечно.{WAIT_KEY}Даже вечность когда-нибудь да кончается.{WAIT_KEY}Мне так кажется."
   },
   {
     "id": 30,
@@ -189,7 +189,7 @@
     "id": 31,
     "original_en": "Keisuke Matsuhara: Thank you, thank you,\nno applause necessary, just send money.\nI hope you enjoyed all of my events.{WAIT_KEY}\nAnother of my masterpieces will be available\nsoon, so stay tuned!",
     "original_fr": "Keisuke Matsuhara : Salut ! Vous avez aimé les scènes\nque j'ai écrites ? J'ai encore plein d'idées géniales pour\nle prochain jeu, alors ne le manquez pas !",
-    "translation": "Кэисукэ Мацухара: Спасибо, спасибо!\nАплодисментов не надо, шлите деньги. Надеюсь,\nвам понравились мои сценки.{WAIT_KEY}\nСкоро выйдет ещё один мой шедевр, так что не\nпереключайтесь!"
+    "translation": "Кэисукэ Мацухара: Спасибо, спасибо!\nАплодисментов не надо, шлите деньги. Надеюсь,\nвам понравились мои сценки.{WAIT_KEY}Скоро выйдет ещё один мой шедевр, так что не\nпереключайтесь!"
   },
   {
     "id": 32,
@@ -225,7 +225,7 @@
     "id": 37,
     "original_en": "Akiyoshi Masuda: Kokubo and I've been practicing\nour anti-stress massages on each other instead\nof working.{WAIT_KEY}\nShoulder massages—shoulder!",
     "original_fr": "Akiyoshi Masuda : Je ne compte même plus les heures\nqu'on a passées {TAG:3C} se masser les épaules pour se\ndécontracter avec Kokubo !",
-    "translation": "Акиёси Масуда: Мы с Кокубо вместо работы делали\nдруг другу антистрессовый массаж.{WAIT_KEY}\nМассаж плеч, да-да, именно плеч!"
+    "translation": "Акиёси Масуда: Мы с Кокубо вместо работы делали\nдруг другу антистрессовый массаж.{WAIT_KEY}Массаж плеч, да-да, именно плеч!"
   },
   {
     "id": 38,
@@ -261,7 +261,7 @@
     "id": 43,
     "original_en": "Kiyoshi Yoshii: Ah, yes, such a moving story\nin that 128th entry to the Chrono series!{WAIT_KEY}\nWhat? Oh no, this must be the wrong era!",
     "original_fr": "Kiyoshi Yoshii : Ce 128e épisode de la série\nChrono Trigger était vraiment émouvant...{WAIT_KEY}\nAh ! On dirait que je me suis encore trompé d'époque !",
-    "translation": "Киёси Ёсии: Ах да, какая же трогательная история\nбыла в сто двадцать восьмой части серии Chrono!{WAIT_KEY}\nЧто? О нет, я снова перепутал эпохи!"
+    "translation": "Киёси Ёсии: Ах да, какая же трогательная история\nбыла в сто двадцать восьмой части серии Chrono!{WAIT_KEY}Что? О нет, я снова перепутал эпохи!"
   },
   {
     "id": 44,
@@ -315,7 +315,7 @@
     "id": 52,
     "original_en": "Yukio Nakatani: Thanks for playing!\nAre you a girl?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Yukio Nakatani : Merci d'avoir joué ! Au fait, êtes-vous\nune fille ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Юкио Накатани: Спасибо\nза игру! Ты девушка?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Юкио Накатани: Спасибо за игру! Ты девушка?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 53,
@@ -375,7 +375,7 @@
     "id": 62,
     "original_en": "{ROBO}: I realized something during these\npast four hundred years.{WAIT_KEY}\nI believe we may have been incorrect in our\nassumption that Lavos was responsible for the\ncreation of the Gates.",
     "original_fr": "{ROBO} : Après avoir passé 400 ans ici, je me suis\nrendu compte de quelque chose.{WAIT_KEY}\nNous pensions que les portails étaient des distorsions\ncausées par le pouvoir de Lavos, mais je crois que\nnous avions tort.",
-    "translation": "{ROBO}: За эти четыреста лет я кое-что осознал.{WAIT_KEY}\nКажется, мы ошибались, полагая, будто за\nпоявление Врат ответственен Лавос."
+    "translation": "{ROBO}: За эти четыреста лет я кое-что осознал.{WAIT_KEY}Кажется, мы ошибались, полагая, будто за\nпоявление Врат ответственен Лавос."
   },
   {
     "id": 63,
@@ -387,7 +387,7 @@
     "id": 64,
     "original_en": "{ROBO}: It is not a certainty, but I have\ncome to believe it possible that some entity\nwished for us to witness these events.{WAIT_KEY}\nPerhaps it wanted us to see all of these\nvarious ages. Alternately, it may have wished\nto see them for itself.{WAIT_KEY}\nIt seems almost as though it was reflecting\non the days of its past.",
     "original_fr": "{ROBO} : Je ne peux pas en être certain, mais\nquelqu'un ne voulait-il pas nous montrer quelque\nchose, en nous faisant voyager {TAG:3C} travers les\n{TAG:4A}ges par ces portails...?{WAIT_KEY}\nOu encore, cette personne voulait peut-être le voir de\nses propres yeux, pour se souvenir de ce qu'elle avait\nvécu...",
-    "translation": "{ROBO}: Я не могу утверждать наверняка, но пришёл\nк мысли, что некая сущность желала, чтобы мы\nстали свидетелями сих событий.{WAIT_KEY}\nБыть может, она хотела показать нам эти эпохи.\nИли же стремилась взглянуть на них сама.{WAIT_KEY}\nБудто бы она вспоминала дни своего былого."
+    "translation": "{ROBO}: Я не могу утверждать наверняка, но пришёл\nк мысли, что некая сущность желала, чтобы мы\nстали свидетелями сих событий.{WAIT_KEY}Быть может, она хотела показать нам эти эпохи.\nИли же стремилась взглянуть на них сама.{WAIT_KEY}Будто бы она вспоминала дни своего былого."
   },
   {
     "id": 65,
@@ -399,7 +399,7 @@
     "id": 66,
     "original_en": "{FROG}: Before death claims a man, he is\nmade to bear witness a second time to those\nmemories engraved most deeply upon his heart.{WAIT_KEY}\nThere may be fond memories among them, yes.\nBut often as not, the ones which grieve us\nare the most profound.",
     "original_fr": "{FROG} : On raconte qu'au décès d'une personne,\nles souvenirs gravés au plus profond de son c{TAG:61}ur\npendant sa vie lui reviennent {TAG:3C} l'esprit, les uns après\nles autres.{WAIT_KEY}\nCe sont parfois des souvenirs heureux, mais dans la\nplupart des cas, ce sont des souvenirs tristes.",
-    "translation": "{FROG}: Перед тем как смерть настигнет человека,\nему суждено вновь узреть воспоминания, глубже\nвсего запечатлённые в его сердце.{WAIT_KEY}\nСреди них бывают и светлые, да. Но чаще всего\nсамые глубокие — те, что причиняют нам скорбь."
+    "translation": "{FROG}: Перед тем как смерть настигнет человека,\nему суждено вновь узреть воспоминания, глубже\nвсего запечатлённые в его сердце.{WAIT_KEY}Среди них бывают и светлые, да. Но чаще всего\nсамые глубокие — те, что причиняют нам скорбь."
   },
   {
     "id": 67,
@@ -411,13 +411,13 @@
     "id": 68,
     "original_en": "{MARLE}: Do you suppose that will happen when\nour time comes?{WAIT_KEY}\n{LUCCA}: Probably... Who knows?{WAIT_KEY}\n{MARLE}: Is there a point in time you'd want\nto return to, {LUCCA}?",
     "original_fr": "{MARLE} : Je me demande si ça m'arrivera aussi\nquand je vais mourir...{WAIT_KEY}\n{LUCCA} : Sans doute.{WAIT_KEY}\n{MARLE} : Y a-t-il quelque chose dans ta vie que tu\nvoudrais changer, {LUCCA} ?",
-    "translation": "{MARLE}: Думаете, так случится и с нами, когда\nпробьёт наш час?{WAIT_KEY}\n{LUCCA}: Наверное... Кто знает?{WAIT_KEY}\n{MARLE}: Есть ли в твоём прошлом миг, в который ты\nхотела бы вернуться, {LUCCA}?"
+    "translation": "{MARLE}: Думаете, так случится и с нами, когда\nпробьёт наш час?{WAIT_KEY}{LUCCA}: Наверное... Кто знает?{WAIT_KEY}{MARLE}: Есть ли в твоём прошлом миг, в который ты\nхотела бы вернуться, {LUCCA}?"
   },
   {
     "id": 69,
     "original_en": "{LUCCA}: I—no, not...not really.{WAIT_KEY}\n{MARLE}: I'm sorry, I probably shouldn't have asked.",
     "original_fr": "{LUCCA} : Je... Non... Pas vraiment.{WAIT_KEY}\n{MARLE} : Désolée... Je n'aurais pas d{TAG:63} te le\ndemander ?",
-    "translation": "{LUCCA}: Я... нет, пожалуй... не особо.{WAIT_KEY}\n{MARLE}: Прости, мне не стоило спрашивать."
+    "translation": "{LUCCA}: Я... нет, пожалуй... не особо.{WAIT_KEY}{MARLE}: Прости, мне не стоило спрашивать."
   },
   {
     "id": 70,
@@ -429,7 +429,7 @@
     "id": 71,
     "original_en": "{FROG}: But even if Lavos did not open the\nGates, his fate is clearly bound to that of the\none who did.{WAIT_KEY}\nLavos has played a role in every age we've seen.",
     "original_fr": "{FROG} : La personne {TAG:3C} qui appartiennent ces\nsouvenirs doit avoir toute une connexion avec\nLavos.{WAIT_KEY}\nIls sont tous liés {TAG:3C} ce dernier, quelle que soit l'époque.",
-    "translation": "{FROG}: Но даже если не Лавос открыл Врата, его\nсудьба сплетена с тем, кто сотворил их.{WAIT_KEY}\nЛавос оставил след во всех виденных эпохах."
+    "translation": "{FROG}: Но даже если не Лавос открыл Врата, его\nсудьба сплетена с тем, кто сотворил их.{WAIT_KEY}Лавос оставил след во всех виденных эпохах."
   },
   {
     "id": 72,
@@ -441,13 +441,13 @@
     "id": 73,
     "original_en": "{ROBO}: It is unknown to me whose memories\nthese are. It is likely an entity greater than\nany of us.{WAIT_KEY}\nPerhaps we will not know until our journey has\ncome to an end.\n{GLYPH:405}08{GLYPH:406}Shall we turn in for the night?",
     "original_fr": "{ROBO} : Je ne sais pas {TAG:3C} qui ils appartiennent.\nCe n'est peut-être pas une personne... mais plutôt\nune entité beaucoup plus grande.{WAIT_KEY}\nIl est possible que nous ne le sachions que lorsque\nnotre aventure se terminera. {GLYPH:405}08{GLYPH:406}Nous devrions sans\ndoute dormir...",
-    "translation": "{ROBO}: Мне неведомо, чьи это воспоминания.\nДолжно быть, некая сущность превыше всех нас.{WAIT_KEY}\nБыть может, мы узнаем это лишь тогда, когда наш\nпуть подойдёт к концу. {GLYPH:405}08{GLYPH:406}Не пора ли нам отдохнуть?"
+    "translation": "{ROBO}: Мне неведомо, чьи это воспоминания.\nДолжно быть, некая сущность превыше всех нас.{WAIT_KEY}Быть может, мы узнаем это лишь тогда, когда наш\nпуть подойдёт к концу. {GLYPH:405}08{GLYPH:406}Не пора ли нам отдохнуть?"
   },
   {
     "id": 74,
     "original_en": "{ROBO}: You can give her my legs!\nThey are lightweight, with a highly compact\nform factor and exceptional balance.{WAIT_KEY}\nYou could mount some treads on me instead.\nAnything would be fine.",
     "original_fr": "{ROBO} : Je lui donnerai mes jambes ! Elles sont très\nstables et peu encombrantes. Tu n'as qu'{TAG:3C} me donner\nun système de propulsion {TAG:3C} chenilles, et...",
-    "translation": "{ROBO}: Вы можете взять мои ноги! Они лёгкие,\nкомпактные и великолепно держат баланс.{WAIT_KEY}\nА мне взамен установите какие-нибудь гусеницы.\nПодойдёт всё что угодно."
+    "translation": "{ROBO}: Вы можете взять мои ноги! Они лёгкие,\nкомпактные и великолепно держат баланс.{WAIT_KEY}А мне взамен установите какие-нибудь гусеницы.\nПодойдёт всё что угодно."
   },
   {
     "id": 75,
@@ -477,7 +477,7 @@
     "id": 79,
     "original_en": "{ROBO}: I have a present for you.\nIt is a piece of amber I created using\nsap from the trees in this forest.{WAIT_KEY}\nIt required four hundred years and a\ngreat deal of pressurization to make.\nI hope you will find it useful.",
     "original_fr": "{ROBO} : Je veux te donner quelque chose. C'est un\nmorceau d'ambre que j'ai créé en faisant durcir la\nrésine des arbres de la forêt.{WAIT_KEY}\nIl m'a fallu 400 années pour le fabriquer. J'espère qu'il\nte sera utile.",
-    "translation": "{ROBO}: У меня есть для тебя подарок. Это кусочек\nянтаря, который я создал из смолы деревьев этого\nлеса.{WAIT_KEY}\nПотребовалось 400 лет и колоссальное давление,\nчтобы получить его. Надеюсь, он тебе пригодится."
+    "translation": "{ROBO}: У меня есть для тебя подарок. Это кусочек\nянтаря, который я создал из смолы деревьев этого\nлеса.{WAIT_KEY}Потребовалось 400 лет и колоссальное давление,\nчтобы получить его. Надеюсь, он тебе пригодится."
   },
   {
     "id": 80,

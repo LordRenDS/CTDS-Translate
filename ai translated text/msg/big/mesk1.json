@@ -33,7 +33,7 @@
     "id": 5,
     "original_en": "So, you want a doppel doll of {CRONO}?\nNormally I wouldn't give out another person's doll,\nbut today I'll make an exception. 40 Silver Points.{WAIT_KEY}\nI'll give you the doll even if you lose the game,\nbut it will cost you. The longer you stay in the\ngame, the lower my price will be.{WAIT_KEY}\n{TAG:38}{TAG:38}{GLYPH:394}Play the game.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Don't play the game.{GLYPH:397}",
     "original_fr": "Vous voulez une poupée clone de {CRONO} ?{WAIT_KEY}\nHabituellement, je ne fais de double que de la\npersonne qui me le demande, mais je ferai une\nexception aujourd'hui.{WAIT_KEY}\nCela vous co{TAG:63}tera 40 points d'argent.{WAIT_KEY}\nSi vous perdez, vous obtiendrez tout de même\nla poupée, mais vous devrez aussi me payer\nde l'argent. Le montant variera selon votre\nperformance.{WAIT_KEY}\n       {GLYPH:394}Je veux essayer !{GLYPH:395}\n       {GLYPH:396}Je n'en ai pas envie.{GLYPH:397}",
-    "translation": "Хотите куклу-двойника {CRONO}? Обычно я делаю\nкукол только заказчиков, но сделаю исключение. 40\nСеребряных очков.{WAIT_KEY}\nЯ отдам куклу, даже если проиграете, но это\nвлетит в копеечку. Чем дольше в игре, тем ниже\nбудет моя цена!{WAIT_KEY}{TAG:38}{TAG:38}{GLYPH:394}Сыграть.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отказаться.{GLYPH:397}"
+    "translation": "Хотите куклу-двойника {CRONO}? Обычно я делаю\nкукол только заказчиков, но сделаю исключение. 40\nСеребряных очков.{WAIT_KEY}Я отдам куклу, даже если проиграете, но это\nвлетит в копеечку. Чем дольше в игре, тем ниже\nбудет моя цена!{WAIT_KEY}{TAG:38}{TAG:38}{GLYPH:394}Сыграть.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Отказаться.{GLYPH:397}"
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
     "id": 13,
     "original_en": "Slither: The boss is finally gonna settle the score\non his thirteen-generation-old family grudge!\nGee hee hee!{WAIT_KEY}\nSquirm: Yeah, he's gonna frame the King good with\nthat fake evidence! Gaw haw haw!",
     "original_fr": "Sous-fifre rampant : Le chef frétille de joie de pouvoir\nenfin se venger après 13 générations. Ki, ki, ki, ki !{WAIT_KEY}\nSous-fifre ondulant : Il dit que le roi sera condamné {TAG:3C}\nmort gr{TAG:4A}ce aux preuves qu'il a inventées. Ki, ki, ki, ki !",
-    "translation": "Скользкий: Босс наконец-то сведёт счёты за\nтринадцативековую семейную обиду! Хи-хи-хи!{WAIT_KEY}\nЮркий: Ага, он так ловко подставит короля с этими\nфальшивыми уликами! Ха-ха-ха!"
+    "translation": "Скользкий: Босс наконец-то сведёт счёты за\nтринадцативековую семейную обиду! Хи-хи-хи!{WAIT_KEY}Юркий: Ага, он так ловко подставит короля с этими\nфальшивыми уликами! Ха-ха-ха!"
   },
   {
     "id": 14,
@@ -207,7 +207,7 @@
     "id": 34,
     "original_en": "{MARLE}: You really won't reconsider?{WAIT_KEY}\nSoldier: No, Princess. I really won't.",
     "original_fr": "{MARLE} : Quoi que nous fassions, vous ne nous\nlaisserez pas passer ?{WAIT_KEY}\nSoldat : C'est exact.",
-    "translation": "{MARLE}: Вы правда нас не пропустите?{WAIT_KEY}\nСтражник: Нет, принцесса. Не пропустим."
+    "translation": "{MARLE}: Вы правда нас не пропустите?{WAIT_KEY}Стражник: Нет, принцесса. Не пропустим."
   },
   {
     "id": 35,
@@ -267,13 +267,13 @@
     "id": 44,
     "original_en": "{MARLE}: To {MARLE}...{WAIT_KEY}\nDearest {MARLE},\n   I know things are not easy with your father.\nBut though it may be hard to realize now, know that\nyou will ever be his daughter.{WAIT_KEY}\nNothing can break the bonds of blood—neither\ndistance, nor words of anger. Someday you will leave\nthe nest and have children of your own. Then you will\nunderstand the truth of what I say.{WAIT_KEY}\nBlood is the sap that flows through the limbs of\na family tree. And come what may in future days,\nwe will forever be joined by that.\n{TAG:38}{TAG:38} -Queen Guardia XXI, Leene.",
     "original_fr": "{MARLE} : {TAG:64} Pour {MARLE} {TAG:65}...?{WAIT_KEY}\n{TAG:64} {MARLE}, ma chérie...\nAs-tu de bons rapports avec ton père ? {TAG:65}{WAIT_KEY}\n{TAG:64} Tu ne le comprendras peut-être pas maintenant,\nmais même si vous vous disputez, même si vous êtes\nséparés, vous resterez toujours père et fille. {TAG:65}{WAIT_KEY}\n{TAG:64} Un jour, tu auras {TAG:3C} quitter le nid de tes parents et\ndevenir une mère {TAG:3C} ton tour. {TAG:65}{WAIT_KEY}\n{TAG:64} Ce sont des choses qui ne changeront jamais, quelle\nque soit la génération. C'est justement pourquoi un lien\nnous unit tous...\n   Lynne, épouse du roi Gardia XXI {TAG:65}",
-    "translation": "{MARLE}: Для {MARLE}...{WAIT_KEY}\n«Дорогая {MARLE}! Знаю, с отцом сейчас нелегко. Но\nзнай, хоть это и трудно понять, ты навсегда его\nдочь.{WAIT_KEY}\nУзы крови не разорвать ни расстоянием, ни злыми\nсловами. Однажды ты покинешь родное гнездо и\nродишь дитя. Тогда ты всё поймёшь.{WAIT_KEY}\nКровь — древесный сок семейного древа. И что бы\nни сулили грядущие дни, мы навеки едины этим\nначалом. {TAG:38}{TAG:38}— Линн, королева Гардии XXI»."
+    "translation": "{MARLE}: Для {MARLE}...{WAIT_KEY}«Дорогая {MARLE}! Знаю, с отцом сейчас нелегко. Но\nзнай, хоть это и трудно понять, ты навсегда его\nдочь.{WAIT_KEY}Узы крови не разорвать ни расстоянием, ни злыми\nсловами. Однажды ты покинешь родное гнездо и\nродишь дитя. Тогда ты всё поймёшь.{WAIT_KEY}Кровь — древесный сок семейного древа. И что бы\nни сулили грядущие дни, мы навеки едины этим\nначалом. {TAG:38}{TAG:38}— Линн, королева Гардии XXI»."
   },
   {
     "id": 45,
     "original_en": "{LUCCA}: Knows just what to say, doesn't she?{WAIT_KEY}\nBut we have more urgent things to think about!",
     "original_fr": "{LUCCA} : Quelle lettre admirable...\nMais ce n'est pas le moment !",
-    "translation": "{LUCCA}: Умеет же тронуть за душу...{WAIT_KEY}\nНо сейчас есть дела поважнее!"
+    "translation": "{LUCCA}: Умеет же тронуть за душу...{WAIT_KEY}Но сейчас есть дела поважнее!"
   },
   {
     "id": 46,
@@ -285,13 +285,13 @@
     "id": 47,
     "original_en": "{FROG}: Queen Leene...{WAIT_KEY}\nTime wastes. Let us finish what we came to do!",
     "original_fr": "{FROG} : Votre Majesté...{WAIT_KEY}\nDépêchons-nous !",
-    "translation": "{FROG}: Королева Линн...{WAIT_KEY}\nВремя не ждёт. Свершим же задуманное!"
+    "translation": "{FROG}: Королева Линн...{WAIT_KEY}Время не ждёт. Свершим же задуманное!"
   },
   {
     "id": 48,
     "original_en": "{AYLA}: Oh, leave nest!\n{AYLA} know leave nest!\nDactyl leave nest.\nTime pass, get big, leave nest!{WAIT_KEY}\n{MARLE} leave nest, too?\nBig change!",
     "original_fr": "{AYLA} : Oh, quitter nid ! {AYLA} comprendre !\nPtéranodon aussi quitter nid. Après certain temps,\nquitter nid !{WAIT_KEY}\n{MARLE} aussi quitter nid ? Bien !",
-    "translation": "{AYLA}: О, покинуть гнездо! {AYLA} знать гнездо!\nДактиль покидать гнездо. Время идти, расти\nбольшой, улетать!{WAIT_KEY}\n{MARLE} тоже покинуть гнездо? Большие перемены!"
+    "translation": "{AYLA}: О, покинуть гнездо! {AYLA} знать гнездо!\nДактиль покидать гнездо. Время идти, расти\nбольшой, улетать!{WAIT_KEY}{MARLE} тоже покинуть гнездо? Большие перемены!"
   },
   {
     "id": 49,
@@ -327,7 +327,7 @@
     "id": 54,
     "original_en": "Melchior: The properties of this material are quite\nunique. I can craft armor from it that will dampen\nthe effects of magical attacks.{WAIT_KEY}\nI could make you one highly effective prismatic dress,\nor I could make three less effective prismatic helms.{WAIT_KEY}\nWhich would you prefer?\n{TAG:38}{TAG:38}{GLYPH:394}1 prismatic dress.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}3 prismatic helms.{GLYPH:397}",
     "original_fr": "Bosch : Ce matériau est exceptionnel. Les pièces\nd'équipement qui en seront fabriquées réduiront\nles dég{TAG:4A}ts infligés par les attaques magiques.{WAIT_KEY}\nUne robe irisée serait très efficace, mais je ne peux en\nfabriquer qu'une seule. Par contre, je pourrais fabriquer\ntrois armets irisés un peu moins efficaces.{WAIT_KEY}\nQu'allez-vous choisir ?\n       {GLYPH:394}Une robe irisée{GLYPH:395}\n       {GLYPH:396}Trois armets irisés{GLYPH:397}",
-    "translation": "Мельхиор: Свойства сего материала воистину\nуникальны! Я могу выковать из него доспех,\nсмягчающий силу магических атак.{WAIT_KEY}\nЯ могу создать отличное Радужное платье или же\nтри Радужных шлема послабее.{WAIT_KEY}Что вы предпочтёте?\n{TAG:38}{TAG:38}{GLYPH:394}1 Радужное платье.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}3 Радужных шлема.{GLYPH:397}"
+    "translation": "Мельхиор: Свойства сего материала воистину\nуникальны! Я могу выковать из него доспех,\nсмягчающий силу магических атак.{WAIT_KEY}Я могу создать отличное Радужное платье или же\nтри Радужных шлема послабее.{WAIT_KEY}Что вы предпочтёте?\n{TAG:38}{TAG:38}{GLYPH:394}1 Радужное платье.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}3 Радужных шлема.{GLYPH:397}"
   },
   {
     "id": 55,
@@ -459,13 +459,13 @@
     "id": 76,
     "original_en": "Mimic what you see!\nL Button: Left arm{TAG:38}{TAG:38}®R Button: Right arm\nY Button: Laugh{TAG:38}{TAG:38}{TAG:38}{TAG:38}A Button: Surprise",
     "original_fr": "Imitez votre double !\nBouton L : main gauche{TAG:38}{TAG:7A}Bouton R : main droite\nBouton Y : rire{TAG:38}{TAG:38}{TAG:38}{TAG:38}{GLYPH:128}Bouton A : étonnement",
-    "translation": "Повторяйте движения!\nКнопка L: Левая рука{TAG:38}{TAG:38}®Кнопка R: Правая рука\nКнопка Y: Смех{TAG:38}{TAG:38}{TAG:38}{TAG:38}Кнопка A: Испуг"
+    "translation": "Повторяйте движения! Кнопка L: Левая\nрука{TAG:38}{TAG:38}®Кнопка R: Правая рука Кнопка Y: Смех{TAG:38}{TAG:38}{TAG:38}{TAG:38}Кнопка\nA: Испуг"
   },
   {
     "id": 77,
     "original_en": "Start when you hear the signal after I move.{WAIT_KEY}\nAnd...action!",
     "original_fr": "Le jeu commence quand je vous fais signe et que vous\nentendez le signal sonore.{WAIT_KEY}\nÂ vos marques... Imitez !",
-    "translation": "Начинайте по сигналу после моего движения.{WAIT_KEY}\nИ... начали!"
+    "translation": "Начинайте по сигналу после моего движения.{WAIT_KEY}И... начали!"
   },
   {
     "id": 78,
@@ -495,7 +495,7 @@
     "id": 82,
     "original_en": "A hostage you provide will be slowly lowered into\nthe flames. You can buy time by hitting the blue\nlight to raise the rope, but let your friend get\ncharbroiled and the game's over!{WAIT_KEY}\nDefeat all the monsters before the hostage's goose\nis cooked!",
     "original_fr": "Je vais prendre un otage. Cette personne sera\nsuspendue au bout d'une corde et abaissée peu\n{TAG:3C} peu vers les flammes. Si elle se fait calciner,\ntout est perdu !{WAIT_KEY}\nFrappez l'éclat bleu pour faire un peu remonter l'otage.\nîliminez les monstres pour le sauver !",
-    "translation": "Вашего заложника станут опускать в огонь. Бейте\nпо синему огоньку, чтоб подтянуть верёвку: если\nдруг поджарится — конец игре!{WAIT_KEY}\nОдолейте чудовищ до того, как заложник\nпревратится в жаркое!"
+    "translation": "Вашего заложника станут опускать в огонь. Бейте\nпо синему огоньку, чтоб подтянуть верёвку: если\nдруг поджарится — конец игре!{WAIT_KEY}Одолейте чудовищ до того, как заложник\nпревратится в жаркое!"
   },
   {
     "id": 83,
@@ -519,7 +519,7 @@
     "id": 86,
     "original_en": "Kino: {AYLA}!{WAIT_KEY}\n{AYLA}: Kino move back!\n{AYLA} save Kino!",
     "original_fr": "Kino : {AYLA} !{WAIT_KEY}\n{AYLA} : Kino reculer ! {AYLA} sauver Kino !",
-    "translation": "Кино: {AYLA}!{WAIT_KEY}\n{AYLA}: Кино, назад! {AYLA} спасти Кино!"
+    "translation": "Кино: {AYLA}!{WAIT_KEY}{AYLA}: Кино, назад! {AYLA} спасти Кино!"
   },
   {
     "id": 87,
@@ -717,7 +717,7 @@
     "id": 119,
     "original_en": "{FROG}: Might Lavos be the source of these?{WAIT_KEY}\nThat one in {MAGUS}'s keep was immense.",
     "original_fr": "{FROG} : Ce portail ne serait-il pas apparu {TAG:3C} cause\nde Lavos ?{WAIT_KEY}\nCelui du palais du Magistère était énorme.",
-    "translation": "{FROG}: Неужто Лавос — источник сих Врат?{WAIT_KEY}\nВрата в цитадели, где засел {MAGUS}, были\nвоистину колоссальны."
+    "translation": "{FROG}: Неужто Лавос — источник сих Врат?{WAIT_KEY}Врата в цитадели, где засел {MAGUS}, были\nвоистину колоссальны."
   },
   {
     "id": 120,
@@ -1119,37 +1119,37 @@
     "id": 186,
     "original_en": "{MARLE}: We...{WAIT_KEY}\nWe were all waiting for you to come back.",
     "original_fr": "{MARLE} : Nous...{WAIT_KEY}\nNous t'avons tous attendu.",
-    "translation": "{MARLE}: Мы...{WAIT_KEY}\nМы все ждали твоего возвращения."
+    "translation": "{MARLE}: Мы...{WAIT_KEY}Мы все ждали твоего возвращения."
   },
   {
     "id": 187,
     "original_en": "{MARLE}: You can't...{WAIT_KEY}\nDon't ever leave us like that again!",
     "original_fr": "{MARLE} : {CRONO}...{WAIT_KEY}\nNe nous quitte plus jamais...!",
-    "translation": "{MARLE}: Ты не должен...{WAIT_KEY}\nБольше никогда не бросай нас вот так!"
+    "translation": "{MARLE}: Ты не должен...{WAIT_KEY}Больше никогда не бросай нас вот так!"
   },
   {
     "id": 188,
     "original_en": "{LUCCA}: You big dummy!{WAIT_KEY}\nYou...you wouldn't believe what we had to go through\nfor you!",
     "original_fr": "{LUCCA} : Espèce d'idiot...{WAIT_KEY}\nNous t'attendions tous !",
-    "translation": "{LUCCA}: Ах ты болван!{WAIT_KEY}\nТы... ты просто не представляешь, через что нам\nпришлось пройти ради тебя!"
+    "translation": "{LUCCA}: Ах ты болван!{WAIT_KEY}Ты... ты просто не представляешь, через что нам\nпришлось пройти ради тебя!"
   },
   {
     "id": 189,
     "original_en": "{LUCCA}: You mess up like that again...{WAIT_KEY}\nAnd you'll have to get yourself out of it!",
     "original_fr": "{LUCCA} : La prochaine fois que tu fais une bêtise...{WAIT_KEY}\nNous ne te porterons pas secours !",
-    "translation": "{LUCCA}: Влипнешь так ещё раз...{WAIT_KEY}\nИ сам будешь выпутываться!"
+    "translation": "{LUCCA}: Влипнешь так ещё раз...{WAIT_KEY}И сам будешь выпутываться!"
   },
   {
     "id": 190,
     "original_en": "{FROG}: You should be thankful.{WAIT_KEY}\nYou are blessed, to be so loved by everyone.\nYou lucky...lucky fool.",
     "original_fr": "{FROG} : Tu es un heureux mortel...{WAIT_KEY}\nTu es adoré de tous... Espèce de veinard...",
-    "translation": "{FROG}: Тебе стоит возблагодарить судьбу.{WAIT_KEY}\nВеликое благо — быть столь любимым всеми.\nСчастливчик... несусветный везунчик."
+    "translation": "{FROG}: Тебе стоит возблагодарить судьбу.{WAIT_KEY}Великое благо — быть столь любимым всеми.\nСчастливчик... несусветный везунчик."
   },
   {
     "id": 191,
     "original_en": "{ROBO}: We have all been waiting for you!{WAIT_KEY}\n{MARLE}, and {LUCCA}, and...well, all of us!",
     "original_fr": "{ROBO} : Nous t'avons tous attendu !{WAIT_KEY}\n{MARLE}, {LUCCA}...\nTout le monde t'attendait !",
-    "translation": "{ROBO}: Мы все так тебя ждали!{WAIT_KEY}\n{MARLE}, и {LUCCA}, и... вообще все!"
+    "translation": "{ROBO}: Мы все так тебя ждали!{WAIT_KEY}{MARLE}, и {LUCCA}, и... вообще все!"
   },
   {
     "id": 192,
@@ -1161,13 +1161,13 @@
     "id": 193,
     "original_en": "{MARLE}: A lot of things happened, {CRONO}.\nWhile you were away...\nFirst, we...and then...{WAIT_KEY}\nAnd after that I...so we...\nBut...{WAIT_KEY}\n{CRONO}!\nAre you even listening?{WAIT_KEY}\nThere's so much I still have to tell you.",
     "original_fr": "{MARLE} : Quand tu n'étais pas l{TAG:3C}, {CRONO}...\nIl s'est passé toutes sortes de choses...\nEt ensuite...{WAIT_KEY}\n... l{TAG:3C}-bas... Je...\nNous avons fait... mais...{WAIT_KEY}\n...\nDis, {CRONO} !\nTu m'écoutes ?{WAIT_KEY}\nJ'ai encore tant {TAG:3C} te dire...",
-    "translation": "{MARLE}: Столько всего случилось, {CRONO}. Пока тебя\nне было... Сначала мы... а потом...{WAIT_KEY}\nА после я... и мы... Но...{WAIT_KEY}\n{CRONO}! Ты вообще меня слушаешь?{WAIT_KEY}\nМне ещё столько нужно тебе рассказать!"
+    "translation": "{MARLE}: Столько всего случилось, {CRONO}. Пока тебя\nне было... Сначала мы... а потом...{WAIT_KEY}А после я... и мы... Но...{WAIT_KEY}{CRONO}! Ты вообще меня слушаешь?{WAIT_KEY}Мне ещё столько нужно тебе рассказать!"
   },
   {
     "id": 194,
     "original_en": "{LUCCA}: We had such a terrible time\nwithout you. {MARLE} was...and...\nSo then we...and even I...{WAIT_KEY}\nHey!\nYou listening, {CRONO}?{WAIT_KEY}\nI really...really can't stand you, you know!",
     "original_fr": "{LUCCA} : Pendant ton absence...\nC'était vraiment horrible...{WAIT_KEY}\n... {MARLE}, elle... beaucoup...\n... mais... Moi aussi...{WAIT_KEY}\n...\nDis, {CRONO} !\nîcoute-moi !{WAIT_KEY}\nTu n'es vraiment... qu'un idiot...",
-    "translation": "{LUCCA}: Нам было так тяжело без тебя. {MARLE} так\nпереживала... и... Потом мы... и даже я...{WAIT_KEY}\nЭй! Ты слушаешь меня, {CRONO}?{WAIT_KEY}\nЯ просто... просто терпеть тебя не могу, ясно?!"
+    "translation": "{LUCCA}: Нам было так тяжело без тебя. {MARLE} так\nпереживала... и... Потом мы... и даже я...{WAIT_KEY}Эй! Ты слушаешь меня, {CRONO}?{WAIT_KEY}Я просто... просто терпеть тебя не могу, ясно?!"
   },
   {
     "id": 195,
