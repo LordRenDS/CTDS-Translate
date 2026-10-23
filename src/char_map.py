@@ -33,7 +33,7 @@ BIG_CHAR_TO_GLYPH: Dict[str, int] = {
     'ò': 345, 'ó': 346, 'ô': 79, 'ö': 347,
     'ù': 92, 'ú': 129, 'ü': 136,
     # Symbols & Punctuation
-    '—': 86, '«': 88, '»': 93, '…': 111, '¡': 87, '¿': 109,
+    '—': 86, '«': 88, '»': 93, '↑': 111, '¡': 87, '¿': 109,
     '°': 114, '™': 106, '©': 107, '®': 117, '♀': 118, '♂': 119, '♪': 120
 }
 
@@ -192,6 +192,8 @@ def detokenize_string(text: str, font_type: str = "big") -> bytes:
     Raises:
         ValueError: If text contains unknown characters or malformed tags.
     """
+    if font_type == "big":
+        text = text.replace("…", "...")
     c2g = BIG_CHAR_TO_GLYPH if font_type == "big" else SMALL_CHAR_TO_GLYPH
     out = bytearray()
     i = 0

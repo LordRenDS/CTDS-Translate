@@ -104,7 +104,7 @@ class TestCharMap(unittest.TestCase):
 
     def test_european_accents_and_symbols_roundtrip(self):
         """Verify Spanish, German, Italian accented characters and symbols roundtrip losslessly."""
-        sample_big = "ÀÁÂÇÈÉÊŒÌÍÎÏÑÒÓÔßÙÚÛÜàáâäçèéêëœîïñòóôöùú—«»…¡¿°™©®♀♂♪"
+        sample_big = "ÀÁÂÇÈÉÊŒÌÍÎÏÑÒÓÔßÙÚÛÜàáâäçèéêëœîïñòóôöùú—«»↑¡¿°™©®♀♂♪"
         encoded_big = detokenize_string(sample_big, font_type="big")
         decoded_big = tokenize_bytes(encoded_big, font_type="big")
         self.assertEqual(decoded_big, sample_big)
@@ -118,6 +118,21 @@ class TestCharMap(unittest.TestCase):
         """Verify unmapped characters raise appropriate exceptions during encoding."""
         with self.assertRaises(ValueError):
             encode_char("€", font_type="big")
+
+    def test_up_arrow_and_ellipsis_mapping(self):
+        """Verify glyph 111 maps to up-arrow '↑' and ellipsis '…' expands to three dots."""
+        # 1. detokenize_string("но…", font_type="big") produces byte sequence with three dots 0x0E, 0x0E, 0x0E rather than byte 0x6F
+        encoded_ellipsis = detokenize_string("но…", font_type="big")
+        self.assertEqual(encoded_ellipsis[-3:], b"\x0E\x0E\x0E")
+        self.assertNotIn(0x6F, encoded_ellipsis)
+
+        # 2. detokenize_string("Крит ↑", font_type="big") produces byte 0x6F (111)
+        encoded_stat = detokenize_string("Крит ↑", font_type="big")
+        self.assertIn(0x6F, encoded_stat)
+        self.assertEqual(encoded_stat[-1:], b"\x6F")
+
+        # 3. tokenize_bytes(bytes([111]), font_type="big") returns "↑"
+        self.assertEqual(tokenize_bytes(bytes([111]), font_type="big"), "↑")
 
 
 if __name__ == "__main__":
