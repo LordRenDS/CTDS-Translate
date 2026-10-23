@@ -159,7 +159,7 @@
     "id": 26,
     "original_en": "{FROG}: ...{WAIT_KEY}\nMilady...",
     "original_fr": "{FROG} : ...{WAIT_KEY}\nMadame...",
-    "translation": "{FROG}: …{WAIT_KEY}Миледи..."
+    "translation": "{FROG}: ...{WAIT_KEY}Миледи..."
   },
   {
     "id": 27,
@@ -255,7 +255,7 @@
     "id": 42,
     "original_en": "{LUCCA}: I've been busy with my research.",
     "original_fr": "{LUCCA} : Je suis plongée dans mes recherches.",
-    "translation": "{LUCCA}: Я был занят своими исследованиями."
+    "translation": "{LUCCA}: Я была занята своими исследованиями."
   },
   {
     "id": 43,
@@ -297,7 +297,7 @@
     "id": 49,
     "original_en": "Mother: Oh, forgive me, sir.\nI just thought... I mean...\nI meant no offense, Sir Knight—truly!",
     "original_fr": "Gina : Ah, je suis désolée. J'ai simplement cru que...{WAIT_KEY}\nPardonnez-moi, euh, M. Chevalier.",
-    "translation": "Мать: О, простите меня, сэр. Я просто подумала…\nТо есть… Я не хотела вас обидеть, сэр рыцарь —\nчестно!"
+    "translation": "Мать: О, простите меня, сэр. Я просто подумала...\nТо есть... Я не хотела вас обидеть, сэр рыцарь —\nчестно!"
   },
   {
     "id": 50,
@@ -825,7 +825,7 @@
     "id": 137,
     "original_en": "Where are you, you say? You some sort of simpleton?\nEven a half-wit should know this land for Guardia!{WAIT_KEY}\nOur kingdom wages war with the Fiendlord's army day\nand night, fighting to restore the realm's peace.",
     "original_fr": "{TAG:64} Où sommes-nous ? {TAG:65} Quelle question stupide !\nDans le royaume de Gardia, pardi !{WAIT_KEY}\nNous nous battons jour et nuit contre l'armée du\nMagistère pour rétablir la paix !",
-    "translation": "Где ты, говоришь? Ты что, какой-то простак? Даже\nполуидиот должен знать, что эта земля — Гардия!{WAIT_KEY}Наше королевство ведёт войну с армией Повелителя\nДемонов день день и ночь, сражаясь за\nвосстановление мира в королевстве."
+    "translation": "Где ты, говоришь? Ты что, какой-то простак? Даже\nполуидиот должен знать, что эта земля — Гардия!{WAIT_KEY}Наше королевство ведёт войну с армией Повелителя\nДемонов день и ночь, сражаясь за\nвосстановление мира в королевстве."
   },
   {
     "id": 138,
@@ -843,7 +843,7 @@
     "id": 140,
     "original_en": "Truly? You're a...wayfarer, then?\nI suppose you might not know, if that's the case.",
     "original_fr": "Quoi ?! Comment pouvez-vous ne pas le savoir ?\nVous êtes de passage par ici, c'est ça ?\nDans ce cas, vous feriez mieux de repartir.",
-    "translation": "Правда? Значит, ты… странник? Думаю, в таком\nслучае ты, возможно, и не знаешь."
+    "translation": "Правда? Значит, ты... странник? Думаю, в таком\nслучае ты, возможно, и не знаешь."
   },
   {
     "id": 141,
@@ -891,7 +891,7 @@
     "id": 148,
     "original_en": "Toma: Cheers, friend.{WAIT_KEY}\nWell then, a promise is a promise!\nIt's about the missing Queen.{WAIT_KEY}\nMy travels have taken me to the cathedral in the\nwestern wood, and there's something most peculiar\nabout that place. It's only a hunch, but—{WAIT_KEY}\nBeg your pardon?\nThey found Queen Leene in the canyon?\nHmm... It seems my suspicions were misplaced.",
     "original_fr": "Toma : Merci bien ! C'est {TAG:3C} propos de la reine qui a\ndisparu...{WAIT_KEY}\nL'abbaye qui a été construite {TAG:3C} l'ouest m'a l'air louche.{WAIT_KEY}\nHein ? Vous dites qu'on a déj{TAG:3C} retrouvé la reine sur la\nmontagne ? Hum... Vraiment...?",
-    "translation": "Тома: Будем здоровы, друг.{WAIT_KEY}Что ж, обещание есть обещание! Речь идёт о\nпропавшей королеве.{WAIT_KEY}Мои путешествия привели меня к собору в западном\nлесу, и в этом месте есть что-то весьма странное.\nЭто всего лишь догадка, но…{WAIT_KEY}Прости, что? Они нашли королеву Лину в каньоне?\nХм... Похоже, мои подозрения оказались напрасными."
+    "translation": "Тома: Будем здоровы, друг.{WAIT_KEY}Что ж, обещание есть обещание! Речь идёт о\nпропавшей королеве.{WAIT_KEY}Мои путешествия привели меня к собору в западном\nлесу, и в этом месте есть что-то весьма странное.\nЭто всего лишь догадка, но...{WAIT_KEY}Прости, что? Они нашли королеву Лину в каньоне?\nХм... Похоже, мои подозрения оказались напрасными."
   },
   {
     "id": 149,
@@ -1065,7 +1065,7 @@
     "id": 177,
     "original_en": "{LUCCA}: ...to create this Gate Key!\nIt's what's locking the Gate in place.",
     "original_fr": "{LUCCA} : ... une clef stabilisatrice !",
-    "translation": "{LUCCA}: …чтобы создать этот ключ от Врат! Именно\nон удерживает Врата на месте."
+    "translation": "{LUCCA}: ...чтобы создать этот ключ от Врат! Именно\nон удерживает Врата на месте."
   },
   {
     "id": 178,
@@ -1077,7 +1077,7 @@
     "id": 179,
     "original_en": "{LUCCA}: Either the Telepod had something to do\nwith it, or something...else made it.",
     "original_fr": "{LUCCA} : C'était peut-être un effet du téléporteur,\nou alors il a été causé par quelque chose d'autre.",
-    "translation": "{LUCCA}: Либо Телепод имел к этому какое-то\nотношение, либо это сделало что-то… другое."
+    "translation": "{LUCCA}: Либо Телепод имел к этому какое-то\nотношение, либо это сделало что-то... другое."
   },
   {
     "id": 180,

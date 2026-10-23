@@ -1305,7 +1305,7 @@
     "id": 217,
     "original_en": "Charm rate …",
     "original_fr": "Efficacité de\nSéduction …",
-    "translation": "Шанс кражи …"
+    "translation": "Шанс кражи ↑"
   },
   {
     "id": 218,
@@ -1389,7 +1389,7 @@
     "id": 231,
     "original_en": "Masamune crit. % …",
     "original_fr": "C. critiques avec\nGrandléon …",
-    "translation": "Крит Масамунэ …"
+    "translation": "Крит Масамунэ ↑"
   },
   {
     "id": 232,
@@ -1443,19 +1443,19 @@
     "id": 240,
     "original_en": "Critical rate …\nCounter rate: 50%",
     "original_fr": "Coups critiques …\nRiposte : 50%",
-    "translation": "Крит. удар …\nКонтратака: 50%"
+    "translation": "Крит. удар ↑\nКонтратака: 50%"
   },
   {
     "id": 241,
     "original_en": "Masamune crit. % …\nHalves MP costs",
     "original_fr": "Crit. Grandléon …\nPM requis -50%",
-    "translation": "Крит Масамунэ …\nРасход ОМ -50%"
+    "translation": "Крит Масамунэ ↑\nРасход ОМ -50%"
   },
   {
     "id": 242,
     "original_en": "Critical rate …",
     "original_fr": "Coups critiques …",
-    "translation": "Крит. удар …"
+    "translation": "Крит. удар ↑"
   },
   {
     "id": 243,
