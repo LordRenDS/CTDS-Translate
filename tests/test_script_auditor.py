@@ -257,3 +257,160 @@ def test_detects_non_canonical_protagonist_and_racer_names() -> None:
         assert len(audit_script_entry({"id": 4, "translation": f"На старте {canonical_racer}!"})) == 0, (
             f"Unexpectedly flagged canonical racer: {canonical_racer}"
         )
+
+
+def test_detects_new_banned_patterns() -> None:
+    """Flags 'Гейтс', 'в этой зале' / 'в эту залу', and 'Впрочем, пустое'."""
+    # 1. 'Гейтс'
+    v_gates = audit_script_entry({"id": 1, "translation": "Искажения времени называют Гейтс."})
+    assert any("гейтс" in v.lower() for v in v_gates), f"Expected 'Гейтс' violation, got: {v_gates}"
+
+    # 2. 'в этой зале' / 'в эту залу'
+    v_zale = audit_script_entry({"id": 2, "translation": "В этой зале покоится ваше грядущее."})
+    assert any("зале" in v.lower() or "залу" in v.lower() for v in v_zale), (
+        f"Expected 'в этой зале' violation, got: {v_zale}"
+    )
+
+    v_zalu = audit_script_entry({"id": 3, "translation": "Они вошли в эту залу без разрешения."})
+    assert any("зале" in v.lower() or "залу" in v.lower() for v in v_zalu), (
+        f"Expected 'в эту залу' violation, got: {v_zalu}"
+    )
+
+    # Clean forms should NOT be flagged
+    assert len(audit_script_entry({"id": 4, "translation": "В этом зале покоится ваше грядущее."})) == 0
+    assert len(audit_script_entry({"id": 5, "translation": "Без нашей Принцессы в этих залах погас свет."})) == 0
+
+    # 3. 'Впрочем, пустое'
+    v_pustoe = audit_script_entry({"id": 6, "translation": "Впрочем, пустое. Ты оказала мне величайшую услугу."})
+    assert any("пустое" in v.lower() for v in v_pustoe), f"Expected 'Впрочем, пустое' violation, got: {v_pustoe}"
+
+    # Clean 'пустое место' and alternative phrasing should NOT be flagged
+    assert len(audit_script_entry({"id": 7, "translation": "Без меча ты — пустое место!"})) == 0
+    assert len(audit_script_entry({"id": 8, "translation": "Впрочем, не будем об этом."})) == 0
+
+
+def test_detects_hanging_punctuation() -> None:
+    """Flags lines starting with hanging punctuation marks (?!, », ), ,, ;, etc.)."""
+    # 1. Flag 'логовом-\n?!' from bug report
+    entry_hanging_excl_quest = {
+        "id": 1,
+        "translation": "Кто бы мог подумать, что собор служил им логовом-\n?! Какое святотатство!",
+    }
+    v_excl_quest = audit_script_entry(entry_hanging_excl_quest)
+    assert any("hanging punctuation" in v.lower() and "?!" in v for v in v_excl_quest), (
+        f"Expected hanging '?!' violation, got: {v_excl_quest}"
+    )
+
+    # 2. Flag hanging closing guillemet '»'
+    entry_hanging_quote = {
+        "id": 2,
+        "translation": "Королева произнесла: «Мы победили\n» и улыбнулась.",
+    }
+    v_quote = audit_script_entry(entry_hanging_quote)
+    assert any("hanging punctuation" in v.lower() and "»" in v for v in v_quote), (
+        f"Expected hanging '»' violation, got: {v_quote}"
+    )
+
+    # 3. Flag hanging closing parenthesis ')'
+    entry_hanging_paren = {
+        "id": 3,
+        "translation": "Врата времени (известные также как аномалии\n) ведут в прошлое.",
+    }
+    v_paren = audit_script_entry(entry_hanging_paren)
+    assert any("hanging punctuation" in v.lower() and ")" in v for v in v_paren), (
+        f"Expected hanging ')' violation, got: {v_paren}"
+    )
+
+    # 4. Flag hanging comma ','
+    entry_hanging_comma = {
+        "id": 4,
+        "translation": "Мы победили врага\n, забрав древнее оружие.",
+    }
+    v_comma = audit_script_entry(entry_hanging_comma)
+    assert any("hanging punctuation" in v.lower() and "," in v for v in v_comma), (
+        f"Expected hanging ',' violation, got: {v_comma}"
+    )
+
+    # 5. Flag detached ellipsis after hyphen
+    entry_detached_dots = {
+        "id": 5,
+        "translation": "Мы пошли гулять в-\n...",
+    }
+    v_dots = audit_script_entry(entry_detached_dots)
+    assert any("hanging punctuation" in v.lower() for v in v_dots), (
+        f"Expected hanging dots violation, got: {v_dots}"
+    )
+
+    # Clean lines should NOT be flagged
+    clean_dialogue = {
+        "id": 6,
+        "translation": "Строка 1.\nСтрока 2.\nСтрока 3.",
+    }
+    assert len(audit_script_entry(clean_dialogue)) == 0
+
+    # Legitimate sentence-initial hesitation ellipsis should NOT be flagged
+    hesitation_dialogue = {
+        "id": 7,
+        "translation": "{FROG}: Мы сразили чудовищ, что рыскали здесь.\n...Разве они доставляли вам хлопоты?",
+    }
+    assert len(audit_script_entry(hesitation_dialogue)) == 0
+
+    dialogue_start_ellipsis = {
+        "id": 8,
+        "translation": "...Что ты имеешь в виду?",
+    }
+    assert len(audit_script_entry(dialogue_start_ellipsis)) == 0
+
+    crono_silence = {
+        "id": 9,
+        "translation": "{CRONO}: ...",
+    }
+    assert len(audit_script_entry(crono_silence)) == 0
+
+
+def test_detects_choice_prompt_line_count_parity() -> None:
+    """Flags choice prompts where Russian line count does not match English line count."""
+    # 1. EN has 2 lines, RU has 1 line -> violation
+    entry_mismatch_2_to_1 = {
+        "id": 73,
+        "original_en": "The fare to Porre is 10 G.\nWill you be going?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+        "translation": "Стоимость проезда до Порре — 10 З. Вы поедете?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}",
+    }
+    v_mismatch_1 = audit_script_entry(entry_mismatch_2_to_1)
+    assert any("choice prompt line count mismatch" in v.lower() and "EN=2 lines vs RU=1 lines" in v for v in v_mismatch_1), (
+        f"Expected 2-to-1 prompt mismatch violation, got: {v_mismatch_1}"
+    )
+
+    # 2. EN has 1 line, RU has 2 lines -> violation
+    entry_mismatch_1_to_2 = {
+        "id": 14,
+        "original_en": "Rest for a while?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+        "translation": "Хотите отдохнуть\nнемного?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}",
+    }
+    v_mismatch_2 = audit_script_entry(entry_mismatch_1_to_2)
+    assert any("choice prompt line count mismatch" in v.lower() and "EN=1 lines vs RU=2 lines" in v for v in v_mismatch_2), (
+        f"Expected 1-to-2 prompt mismatch violation, got: {v_mismatch_2}"
+    )
+
+    # 3. Matching prompt line counts (2 lines in EN and 2 lines in RU) -> clean
+    entry_matching_2_lines = {
+        "id": 73,
+        "original_en": "The fare to Porre is 10 G.\nWill you be going?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+        "translation": "Стоимость проезда до Порре — 10 З.\nВы поедете?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}",
+    }
+    assert len(audit_script_entry(entry_matching_2_lines)) == 0
+
+    # 4. Choice prompt on a second subpage after {WAIT_KEY}
+    entry_subpage_choice = {
+        "id": 100,
+        "original_en": "First page info.{WAIT_KEY}Will you take this quest?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
+        "translation": "Информация на первой странице.{WAIT_KEY}Возьмёте это задание?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}",
+    }
+    assert len(audit_script_entry(entry_subpage_choice)) == 0
+
+    # 5. Missing original_en does not fail
+    entry_no_en = {
+        "id": 14,
+        "translation": "Отдохнуть немного?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}",
+    }
+    assert len(audit_script_entry(entry_no_en)) == 0

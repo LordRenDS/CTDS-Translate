@@ -26,6 +26,7 @@ from src.text.reflow import wrap_line_to_width
 __all__ = [
     "BANNED_PATTERNS",
     "FEMININE_PAST_VERBS",
+    "HANGING_PUNCT_START",
     "KNOWN_MALE_BLOCKS",
     "KNOWN_MALE_SPEAKERS",
     "audit_script_directory",
@@ -61,6 +62,18 @@ BANNED_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
     (
         re.compile(r"\bХроно\b(?!\s*Триггер)"),
         "non-canonical protagonist name 'Хроно' found (use 'Кроно'; only 'Хроно Триггер' is allowed with Х)",
+    ),
+    (
+        re.compile(r"\bГейтс\b", re.IGNORECASE),
+        "banned transliteration 'Гейтс' found (referring to Gates; use 'Врата' or 'Вратами')",
+    ),
+    (
+        re.compile(r"\bв\s+(?:этой|эту)\s+зал[еу]?\b", re.IGNORECASE),
+        "incorrect gender form 'в этой зале/залу' found (use 'в этом зале' or 'в этой комнате')",
+    ),
+    (
+        re.compile(r"\bВпрочем,\s+пустое\b", re.IGNORECASE),
+        "stilted translation 'Впрочем, пустое' found (use 'Впрочем, не будем об этом' or 'Ну да неважно')",
     ),
 )
 
@@ -133,6 +146,30 @@ KNOWN_MALE_SPEAKERS: frozenset[str] = frozenset({
     "Lavos",
     "Лавос",
 })
+
+
+# 6. Hanging punctuation starting a line
+HANGING_PUNCT_START: re.Pattern[str] = re.compile(
+    r"(?:\r?\n|\{LINE\})[ \t]*([?!»\),;:]{1,3}|\.{2,3})(?=[ \t\wа-яА-ЯёЁ]|$)"
+)
+
+
+def _is_legitimate_ellipsis(text: str, match: re.Match[str]) -> bool:
+    """Checks whether a line-starting punctuation mark is a legitimate hesitation ellipsis."""
+    punct = match.group(1)
+    if punct not in ("...", "…"):
+        return False
+    preceding = text[: match.start()].rstrip(" \t")
+    if preceding.endswith(("-", "—", "–")):
+        return False
+    after = text[match.end() :].lstrip(" \t")
+    if not after or after.startswith(("\r", "\n", "{WAIT_KEY}", "{PAGE}", "{LINE}")):
+        return True
+    if not preceding or preceding.endswith((".", "!", "?", "…", ":", "»", '"', "'", ">", "}")):
+        return True
+    if after and (after[0].isupper() or after[0] in ("«", "—")):
+        return True
+    return False
 
 
 def audit_script_entry(
@@ -258,6 +295,44 @@ def audit_script_entry(
             violations.append(
                 f"Gender mismatch: Designated male speech block contains feminine verb '{verb}'"
             )
+
+    # Check 5: Hanging punctuation starting a line
+    for hm in HANGING_PUNCT_START.finditer(text):
+        punct = hm.group(1)
+        if not _is_legitimate_ellipsis(text, hm):
+            violations.append(f"Line starts with hanging punctuation: '{punct}'")
+
+    # Check 6: Choice prompt line count parity against original English
+    orig_en = entry.get("original_en")
+    if orig_en and isinstance(orig_en, str) and orig_en.strip() and field != "original_en":
+        has_choice_ru = bool(CHOICE_OPEN_TAGS.search(text))
+        has_choice_en = bool(CHOICE_OPEN_TAGS.search(orig_en))
+        if has_choice_ru or has_choice_en:
+            subpages_ru = [sp for sp in SUBPAGE_SPLIT.split(text) if CHOICE_OPEN_TAGS.search(sp)]
+            subpages_en = [sp for sp in SUBPAGE_SPLIT.split(orig_en) if CHOICE_OPEN_TAGS.search(sp)]
+
+            sp_ru = subpages_ru[0] if subpages_ru else ""
+            sp_en = subpages_en[0] if subpages_en else ""
+
+            m_ru = CHOICE_OPEN_TAGS.search(sp_ru)
+            m_en = CHOICE_OPEN_TAGS.search(sp_en)
+
+            prompt_ru = sp_ru[: m_ru.start()] if m_ru else sp_ru
+            prompt_en = sp_en[: m_en.start()] if m_en else sp_en
+
+            prompt_ru_clean = re.sub(r"(?:\{TAG:38\}|[ \t\r\n])+$", "", prompt_ru)
+            prompt_en_clean = re.sub(r"(?:\{TAG:38\}|[ \t\r\n])+$", "", prompt_en)
+
+            lines_ru = [l for l in prompt_ru_clean.split("\n") if l.strip()]
+            lines_en = [l for l in prompt_en_clean.split("\n") if l.strip()]
+
+            n_ru = len(lines_ru)
+            n_en = len(lines_en)
+
+            if n_ru != n_en:
+                violations.append(
+                    f"Choice prompt line count mismatch: EN={n_en} lines vs RU={n_ru} lines (causes hardware choice cursor misalignment)"
+                )
 
     return violations
 
