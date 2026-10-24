@@ -149,22 +149,35 @@ def split_word_carry(
     if TAG_REGEX.search(word):
         return None
 
-    clean_word = re.sub(r"[^\w]", "", word)
-    if len(clean_word) < 4 or len(word) < 4:
+    m_punct = re.search(r"([^\w\s]+)$", word)
+    if m_punct:
+        stem = word[: m_punct.start()]
+        trailing = m_punct.group(1)
+    else:
+        stem = word
+        trailing = ""
+
+    clean_stem = re.sub(r"[^\w]", "", stem)
+    if len(clean_stem) < 4 or len(stem) < 4:
         return None
 
-    has_rus_vowels = any(c in RUS_VOWELS for c in word)
+    has_rus_vowels = any(c in RUS_VOWELS for c in stem)
     vowels = RUS_VOWELS if has_rus_vowels else LATIN_VOWELS
 
-    # Greedily search from longest valid prefix down to minimum 2 chars
-    for k in range(len(word) - 2, 1, -1):
-        prefix = word[:k]
-        remainder = word[k:]
+    # Greedily search from longest valid prefix down to minimum 2 chars in stem
+    for k in range(len(stem) - 2, 1, -1):
+        prefix = stem[:k]
+        remainder_stem = stem[k:]
+
+        if not any(c.isalnum() for c in remainder_stem):
+            continue
 
         cand = prefix if prefix.endswith("-") else f"{prefix}-"
         cand_width = calculate_line_width_px(cand, glyph_widths)
         if cand_width > available_width_px:
             continue
+
+        remainder = f"{remainder_stem}{trailing}"
 
         if mode == "geo":
             return (cand, remainder)
@@ -173,16 +186,16 @@ def split_word_carry(
             # Both parts must contain at least one vowel
             if not any(c in vowels for c in prefix):
                 continue
-            if not any(c in vowels for c in remainder):
+            if not any(c in vowels for c in remainder_stem):
                 continue
 
             # Do not detach ь, ъ, й (they stay with preceding part)
-            if remainder[0] in "ьъйЬЪЙ":
+            if remainder_stem[0] in "ьъйЬЪЙ":
                 continue
 
             # In Russian, do not detach a consonant from its following vowel (e.g. маль-чик, not мальч-ик; мо-локо, not мол-око)
             if (
-                remainder[0].lower() in vowels
+                remainder_stem[0].lower() in vowels
                 and prefix[-1].lower() in RUS_CONSONANTS
             ):
                 continue
@@ -190,19 +203,19 @@ def split_word_carry(
             # Indivisible double consonants between vowels:
             # Do not split before double consonants (e.g. ва-нна)
             if (
-                k < len(word) - 1
-                and word[k].lower() == word[k + 1].lower()
-                and word[k].lower() in RUS_CONSONANTS
-                and word[k - 1].lower() in RUS_VOWELS
+                k < len(stem) - 1
+                and stem[k].lower() == stem[k + 1].lower()
+                and stem[k].lower() in RUS_CONSONANTS
+                and stem[k - 1].lower() in RUS_VOWELS
             ):
                 continue
 
             # Do not split after double consonants (e.g. ванн-ый)
             if (
                 k >= 2
-                and word[k - 2].lower() == word[k - 1].lower()
-                and word[k - 1].lower() in RUS_CONSONANTS
-                and word[k].lower() in RUS_VOWELS
+                and stem[k - 2].lower() == stem[k - 1].lower()
+                and stem[k - 1].lower() in RUS_CONSONANTS
+                and stem[k].lower() in RUS_VOWELS
             ):
                 continue
 
@@ -343,6 +356,69 @@ def _check_subpage_lines(lines: list[str], max_lines: int) -> list[str]:
     return warnings
 
 
+def _split_words_into_target_lines(
+    words: list[str],
+    target_lines: int,
+    glyph_widths: dict[str, int],
+    max_width_px: int,
+    hero_name_width_px: int = DEFAULT_HERO_NAME_WIDTH_PX,
+) -> list[str] | None:
+    """Attempts to partition words into exactly target_lines where each line fits max_width_px.
+
+    Optimizes for balanced line widths and punctuation boundaries.
+    """
+    if len(words) < target_lines or target_lines <= 0:
+        return None
+
+    if target_lines == 1:
+        line = " ".join(words)
+        if calculate_line_width_px(line, glyph_widths, hero_name_width_px=hero_name_width_px) <= max_width_px:
+            return [line]
+        return None
+
+    best_partition: list[str] | None = None
+    best_score = float("inf")
+
+    for i in range(1, len(words) - target_lines + 2):
+        l1 = " ".join(words[:i])
+        w1 = calculate_line_width_px(l1, glyph_widths, hero_name_width_px=hero_name_width_px)
+        if w1 > max_width_px:
+            break
+
+        rest = _split_words_into_target_lines(
+            words[i:],
+            target_lines - 1,
+            glyph_widths,
+            max_width_px,
+            hero_name_width_px=hero_name_width_px,
+        )
+        if rest is not None:
+            cand_lines = [l1] + rest
+            widths = [
+                calculate_line_width_px(line, glyph_widths, hero_name_width_px=hero_name_width_px)
+                for line in cand_lines
+            ]
+            variance = max(widths) - min(widths)
+
+            # Bonus for ending lines at punctuation marks (.?!:;» or ...)
+            punct_bonus = 0
+            curr_idx = 0
+            for line_idx in range(len(cand_lines) - 1):
+                curr_idx += len(cand_lines[line_idx].split())
+                last_w = words[curr_idx - 1]
+                if re.search(r"[.?!:»]$", last_w) or last_w.endswith("..."):
+                    punct_bonus -= 150
+                elif re.search(r"[,;]$", last_w):
+                    punct_bonus -= 30
+
+            score = variance + punct_bonus
+            if score < best_score:
+                best_score = score
+                best_partition = cand_lines
+
+    return best_partition
+
+
 def format_choice_block(
     subpage: str,
     glyph_widths: dict[str, int],
@@ -353,6 +429,7 @@ def format_choice_block(
     reflow: bool = True,
     force: bool = False,
     carry: str | None = None,
+    target_prompt_lines: int | None = None,
 ) -> tuple[str, list[str]] | None:
     """Formats dialogue choice blocks according to Nintendo DS touch screen invariants.
 
@@ -432,30 +509,114 @@ def format_choice_block(
 
     prompt_lines: list[str] = []
     if prompt_clean:
-        if force or reflow:
-            p_text = collapse_hyphenated_breaks(prompt_clean)
-            p_text = re.sub(r"\r?\n|\{LINE\}", " ", p_text)
-            p_text = re.sub(r" +", " ", p_text).strip()
-            if p_text:
-                prompt_lines = wrap_line_to_width(
-                    p_text,
-                    glyph_widths,
-                    max_width_px=max_width_px,
-                    hero_name_width_px=hero_name_width_px,
-                    carry=carry,
-                )
-        else:
-            raw_lines = re.split(r"\r?\n|\{LINE\}", prompt_clean)
-            for rl in raw_lines:
-                prompt_lines.extend(
-                    wrap_line_to_width(
-                        rl,
+        raw_lines = [
+            collapse_hyphenated_breaks(rl).strip()
+            for rl in re.split(r"\r?\n|\{LINE\}", prompt_clean)
+            if rl.strip()
+        ]
+        all_fit = bool(
+            raw_lines
+            and all(
+                calculate_line_width_px(rl, glyph_widths, hero_name_width_px=hero_name_width_px) <= max_width_px
+                for rl in raw_lines
+            )
+        )
+
+        p_text = collapse_hyphenated_breaks(prompt_clean)
+        p_text = re.sub(r"\r?\n|\{LINE\}", " ", p_text)
+        p_text = re.sub(r" +", " ", p_text).strip()
+        words = p_text.split() if p_text else []
+
+        if target_prompt_lines is not None and target_prompt_lines > 1:
+            if len(raw_lines) == target_prompt_lines and all_fit:
+                prompt_lines = raw_lines
+            elif len(raw_lines) < target_prompt_lines or not all_fit:
+                sentences = [s.strip() for s in re.split(r"(?<=[.?!])\s+", p_text) if s.strip()]
+                if (
+                    len(sentences) == target_prompt_lines
+                    and all(calculate_line_width_px(s, glyph_widths, hero_name_width_px=hero_name_width_px) <= max_width_px for s in sentences)
+                ):
+                    prompt_lines = sentences
+                else:
+                    split_cand = _split_words_into_target_lines(
+                        words,
+                        target_prompt_lines,
+                        glyph_widths,
+                        max_width_px=max_width_px,
+                        hero_name_width_px=hero_name_width_px,
+                    )
+                    if split_cand is not None:
+                        prompt_lines = split_cand
+                    elif all_fit and len(raw_lines) > 0:
+                        prompt_lines = raw_lines
+                    elif p_text:
+                        prompt_lines = wrap_line_to_width(
+                            p_text,
+                            glyph_widths,
+                            max_width_px=max_width_px,
+                            hero_name_width_px=hero_name_width_px,
+                            carry=carry,
+                        )
+            else:
+                sentences = [s.strip() for s in re.split(r"(?<=[.?!])\s+", p_text) if s.strip()]
+                if (
+                    len(sentences) == target_prompt_lines
+                    and all(calculate_line_width_px(s, glyph_widths, hero_name_width_px=hero_name_width_px) <= max_width_px for s in sentences)
+                ):
+                    prompt_lines = sentences
+                else:
+                    split_cand = _split_words_into_target_lines(
+                        words,
+                        target_prompt_lines,
+                        glyph_widths,
+                        max_width_px=max_width_px,
+                        hero_name_width_px=hero_name_width_px,
+                    )
+                    prompt_lines = split_cand if split_cand is not None else raw_lines
+        elif target_prompt_lines is None:
+            if len(raw_lines) > 1 and all_fit:
+                prompt_lines = raw_lines
+            elif force or reflow:
+                if p_text:
+                    prompt_lines = wrap_line_to_width(
+                        p_text,
                         glyph_widths,
                         max_width_px=max_width_px,
                         hero_name_width_px=hero_name_width_px,
                         carry=carry,
                     )
-                )
+            else:
+                for rl in raw_lines:
+                    prompt_lines.extend(
+                        wrap_line_to_width(
+                            rl,
+                            glyph_widths,
+                            max_width_px=max_width_px,
+                            hero_name_width_px=hero_name_width_px,
+                            carry=carry,
+                        )
+                    )
+        else:
+            if force or reflow:
+                if p_text:
+                    prompt_lines = wrap_line_to_width(
+                        p_text,
+                        glyph_widths,
+                        max_width_px=max_width_px,
+                        hero_name_width_px=hero_name_width_px,
+                        carry=carry,
+                    )
+            else:
+                for rl in raw_lines:
+                    prompt_lines.extend(
+                        wrap_line_to_width(
+                            rl,
+                            glyph_widths,
+                            max_width_px=max_width_px,
+                            hero_name_width_px=hero_name_width_px,
+                            carry=carry,
+                        )
+                    )
 
     page_lines = prompt_lines + choice_lines
 
@@ -508,6 +669,7 @@ def _format_subpage(
     reflow: bool = True,
     force: bool = False,
     carry: str | None = None,
+    target_prompt_lines: int | None = None,
 ) -> tuple[str, list[str]]:
     """Formats and validates an individual sub-page block.
 
@@ -539,6 +701,7 @@ def _format_subpage(
             reflow=reflow,
             force=force,
             carry=carry,
+            target_prompt_lines=target_prompt_lines,
         )
         if choice_res is not None:
             return choice_res
@@ -632,6 +795,7 @@ def wrap_text_block(
     reflow: bool = True,
     force: bool = False,
     carry: str | None = None,
+    target_prompt_lines: int | None = None,
 ) -> tuple[str, list[str]]:
     """Word-wraps dialogue text and optionally paginates across dialog boxes.
 
@@ -678,6 +842,7 @@ def wrap_text_block(
             reflow=reflow,
             force=force,
             carry=carry,
+            target_prompt_lines=target_prompt_lines,
         )
         formatted_subpages.append(f_sub)
         all_warnings.extend(w_sub)

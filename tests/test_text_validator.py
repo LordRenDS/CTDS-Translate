@@ -12,6 +12,7 @@ from src.text_validator import (
     validate_and_format_file,
     validate_and_format_directory,
     split_word_carry,
+    format_choice_block,
     GlyphWidths,
     HERO_TOKENS,
     TextWindowPreset,
@@ -2221,3 +2222,83 @@ def test_presets_structured_lists():
 
     c_monspot = get_constraints_for_entry("ex_monspot.json", 0)
     assert c_monspot.reflow is False
+
+
+def test_split_word_carry_preserves_trailing_punctuation():
+    """Verify that split_word_carry never isolates trailing punctuation on a new line."""
+    widths = {ch: 5 for ch in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZабвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ-?!.,;:»« "}
+
+    # 1. Word with trailing punctuation: stem has 7 chars (35px) + hyphen (5px) = 40px <= 60px.
+    # Split must retain letters in remainder, never just "?!".
+    res = split_word_carry("логовом?!", available_width_px=60, glyph_widths=widths, mode="geo")
+    assert res is not None
+    prefix, remainder = res
+    assert remainder != "?!"
+    assert remainder.endswith("?!")
+    assert any(c.isalpha() for c in remainder)
+    assert prefix == "логов-"
+    assert remainder == "ом?!"
+
+    # 2. Syllable mode also retains trailing punctuation with remainder letters
+    res_syl = split_word_carry("логовом?!", available_width_px=60, glyph_widths=widths, mode="syllable")
+    assert res_syl is not None
+    prefix_syl, rem_syl = res_syl
+    assert rem_syl != "?!"
+    assert rem_syl.endswith("?!")
+    assert any(c.isalpha() for c in rem_syl)
+
+    # 3. wrap_line_to_width: wrapping sentence with trailing punctuation never puts "?!" at line start
+    line = "Кто бы мог подумать, что собор служил им логовом?!"
+    for w in range(150, 260, 5):
+        wrapped = wrap_line_to_width(line, widths, max_width_px=w, carry="geo")
+        for subline in wrapped:
+            assert subline.strip() != "?!"
+            assert not subline.startswith("?!")
+
+
+def test_format_choice_block_preserves_prompt_lines():
+    """Verify that format_choice_block preserves prompt line count to match target EN lines."""
+    widths = dict.fromkeys("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZабвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ0123456789—?!:., ", 5)
+
+    # 1. 2-line prompt with choices (like cmes0 ID 73):
+    subpage = (
+        "Стоимость проезда до Порре — 10 З.\n"
+        "Вы поедете?\n"
+        "{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n"
+        "{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    )
+    # Default reflow=True: must NOT collapse 2-line prompt into 1 line
+    formatted, warnings = format_choice_block(subpage, widths, max_width_px=220, reflow=True)
+    lines = formatted.split("\n")
+    assert len(lines) == 4
+    assert lines[0] == "Стоимость проезда до Порре — 10 З."
+    assert lines[1] == "Вы поедете?"
+    assert "{GLYPH:394}" in lines[2]
+    assert "{GLYPH:396}" in lines[3]
+
+    # 2. 1-line prompt with target_prompt_lines=2: should split into 2 prompt lines
+    single_line_prompt = (
+        "Стоимость проезда до Порре — 10 З. Вы поедете?\n"
+        "{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n"
+        "{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    )
+    formatted_split, _ = format_choice_block(
+        single_line_prompt, widths, max_width_px=220, reflow=True, target_prompt_lines=2
+    )
+    lines_split = formatted_split.split("\n")
+    assert len(lines_split) == 4
+    assert lines_split[0] == "Стоимость проезда до Порре — 10 З."
+    assert lines_split[1] == "Вы поедете?"
+
+    # 3. 2-line prompt with mesk0 ID 141:
+    subpage_mesk = (
+        "Канцлер: Правда ли это?\n"
+        "Кто первый заговорил?\n"
+        "{TAG:38}{TAG:38}{GLYPH:394}Я.{GLYPH:395}\n"
+        "{TAG:38}{TAG:38}{GLYPH:396}{MARLE}.{GLYPH:397}"
+    )
+    formatted_mesk, _ = format_choice_block(subpage_mesk, widths, max_width_px=220, reflow=True)
+    lines_mesk = formatted_mesk.split("\n")
+    assert len(lines_mesk) == 4
+    assert lines_mesk[0] == "Канцлер: Правда ли это?"
+    assert lines_mesk[1] == "Кто первый заговорил?"
