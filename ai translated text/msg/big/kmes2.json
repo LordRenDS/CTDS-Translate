@@ -321,7 +321,7 @@
     "id": 53,
     "original_en": "10 G for the night.\nWill you be staying?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "10 золотых за ночь. Останетесь до утра?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "10 золотых за ночь.\nОстанетесь до утра?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 54,
@@ -375,7 +375,7 @@
     "id": 62,
     "original_en": "Have you heard?\nAbout the ghost, I mean.\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Dites donc, vous avez entendu parler de ce\nfantôme ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Слышали новость? Я про призрака.\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Слышали новость?\nЯ про призрака.\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 63,
@@ -675,7 +675,7 @@
     "id": 112,
     "original_en": "{ROBO}: What do you think?{WAIT_KEY}\nI could remain here and assist Madam Fiona, and\nyou could come to retrieve me here once my work\nwas complete.{WAIT_KEY}\nIs that all right?\nMay I stay behind and help?\n{TAG:38}{TAG:38}{GLYPH:394}All right.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "{ROBO} : ...{WAIT_KEY}\nJe pourrais rester ici pour aider Fiona. Vous n'aurez\nqu'{TAG:3C} venir me récupérer lorsque le désert sera\nredevenu une forêt.{WAIT_KEY}\nQu'en dites-vous ? Puis-je demeurer ici pour lui prêter\nmain-forte ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "{ROBO}: Как вы на это смотрите?{WAIT_KEY}Я мог бы остаться здесь и помогать госпоже Фионе,\nа вы вернётесь за мной, когда работа завершится.{WAIT_KEY}Вы позволите мне остаться и помочь?\n{TAG:38}{TAG:38}{GLYPH:394}Да, оставайся.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "{ROBO}: Как вы на это смотрите?{WAIT_KEY}\nЯ мог бы остаться здесь и помогать госпоже Фионе,\nа вы вернётесь за мной, когда работа завершится.{WAIT_KEY}\nВы не против?\nПозволите мне остаться и помочь?\n{TAG:38}{TAG:38}{GLYPH:394}Да, оставайся.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 113,

@@ -320,8 +320,8 @@ def audit_script_entry(
             prompt_ru = sp_ru[: m_ru.start()] if m_ru else sp_ru
             prompt_en = sp_en[: m_en.start()] if m_en else sp_en
 
-            prompt_ru_clean = re.sub(r"(?:\{TAG:38\}|[ \t\r\n])+$", "", prompt_ru)
-            prompt_en_clean = re.sub(r"(?:\{TAG:38\}|[ \t\r\n])+$", "", prompt_en)
+            prompt_ru_clean = re.sub(r"(?:\{TAG:38\}|®|[ \t\r\n])+$", "", prompt_ru)
+            prompt_en_clean = re.sub(r"(?:\{TAG:38\}|®|[ \t\r\n])+$", "", prompt_en)
 
             lines_ru = [l for l in prompt_ru_clean.split("\n") if l.strip()]
             lines_en = [l for l in prompt_en_clean.split("\n") if l.strip()]

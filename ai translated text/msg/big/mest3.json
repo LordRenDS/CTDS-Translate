@@ -597,7 +597,7 @@
     "id": 99,
     "original_en": "{ROBO}: Are we going to leave the rest of\nour things behind?\n®®{GLYPH:394}It doesn't matter.{GLYPH:395}\n®®{GLYPH:396}Go back.{GLYPH:397}",
     "original_fr": "{ROBO} : Nous n'avons pas encore récupéré tout ce\nqui nous avait été volé.\n       {GLYPH:394}Continuer{GLYPH:395}\n       {GLYPH:396}Faire demi-tour{GLYPH:397}",
-    "translation": "{ROBO}: Мы оставим остальные вещи позади?\n®®{GLYPH:394}Не имеет значения.{GLYPH:395}\n®®{GLYPH:396}Вернуться.{GLYPH:397}"
+    "translation": "{ROBO}: Мы оставим остальные\nвещи позади?\n®®{GLYPH:394}Не имеет значения.{GLYPH:395}\n®®{GLYPH:396}Вернуться.{GLYPH:397}"
   },
   {
     "id": 100,
@@ -609,7 +609,7 @@
     "id": 101,
     "original_en": "{AYLA}: Some stuff still gone!\nNo need?\n{TAG:38}{TAG:38}{GLYPH:394}It doesn't matter.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Go back.{GLYPH:397}",
     "original_fr": "{AYLA} : Pas encore tout récupéré !\n\n       {GLYPH:394}Continuer{GLYPH:395}\n       {GLYPH:396}Faire demi-tour{GLYPH:397}",
-    "translation": "{AYLA}: Вещи ещё остаться там! Не надо?\n{TAG:38}{TAG:38}{GLYPH:394}Неважно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Назад.{GLYPH:397}"
+    "translation": "{AYLA}: Вещи ещё остаться там!\nНе надо?\n{TAG:38}{TAG:38}{GLYPH:394}Неважно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Назад.{GLYPH:397}"
   },
   {
     "id": 102,

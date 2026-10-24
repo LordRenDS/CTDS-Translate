@@ -225,7 +225,7 @@
     "id": 37,
     "original_en": "The Guru of Reason is gone.\nDo you want to challenge me?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Le sage de la raison n'est plus ici. Voulez-vous vous\nmesurer {TAG:3C} moi ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Гуру Разума ушёл. Хотите сразиться со мной?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Гуру Разума ушёл.\nХотите сразиться со мной?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 38,
@@ -279,7 +279,7 @@
     "id": 46,
     "original_en": "...{WAIT_KEY}\nThat pendant you carry...\nIs that Schala's pendant?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "...{WAIT_KEY}\nGnu... Est-ce le pendentif de Sarah que vous\navez l{TAG:3C} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "...{WAIT_KEY}Этот кулон у вас... Неужели это кулон Шалы?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "...{WAIT_KEY}\nЭтот кулон у вас...\nНеужели это кулон Шалы?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 47,

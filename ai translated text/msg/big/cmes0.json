@@ -441,7 +441,7 @@
     "id": 73,
     "original_en": "The fare to Porre is 10 G.\nWill you be going?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous aller {TAG:3C} Palpori ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Стоимость проезда до Порре — 10 З. Вы поедете?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Стоимость проезда до Порре — 10 З.\nВы поедете?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 74,
@@ -915,7 +915,7 @@
     "id": 152,
     "original_en": "Rooms are 10 G for the night.\nWill you be staying?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 10 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Ночлег стоит 10 З за ночь. Желаете остановиться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Ночлег стоит 10 З за ночь.\nЖелаете остановиться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 153,
@@ -1341,7 +1341,7 @@
     "id": 223,
     "original_en": "Shall I teach you the basics of battle\ncommands?\n{TAG:38}{TAG:38}{GLYPH:394}Yes, please.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Maybe later.{GLYPH:397}",
     "original_fr": "Voulez-vous que je vous explique les commandes de\nbase des combats ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Хочешь, я обучу тебя основам боевых команд?\n{TAG:38}{TAG:38}{GLYPH:394}Да, пожалуйста.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Может, позже.{GLYPH:397}"
+    "translation": "Хочешь, я обучу тебя основам\nбоевых команд?\n{TAG:38}{TAG:38}{GLYPH:394}Да, пожалуйста.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Может, позже.{GLYPH:397}"
   },
   {
     "id": 224,
@@ -1359,7 +1359,7 @@
     "id": 226,
     "original_en": "\"A Treatise on Game Modes.\"\nRead the document?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous lire le rapport intitulé\n{TAG:64} Les modes de combat {TAG:65} ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "«О режимах игры». Прочесть этот документ?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "«О режимах игры».\nПрочесть этот документ?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 227,

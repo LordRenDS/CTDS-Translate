@@ -321,7 +321,7 @@
     "id": 53,
     "original_en": "Drink happy water?\nDrink, feel good!\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous vouloir boire eau de courage ? Eau de courage\nrendre fort !\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Пить огненную воду? Выпьешь — хорошо!\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Пить огненную воду?\nВыпьешь — хорошо!\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 54,
@@ -447,7 +447,7 @@
     "id": 74,
     "original_en": "{MARLE}: This is great!\nC'mon {CRONO}. Let's dance!\n{TAG:38}{TAG:38}{GLYPH:394}Sure.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Nah.{GLYPH:397}",
     "original_fr": "{MARLE} : C'est génial ! © Viens, {CRONO}, danse\navec moi !\n       {GLYPH:394}Accepter{GLYPH:395}\n       {GLYPH:396}Refuser{GLYPH:397}",
-    "translation": "{MARLE}: Как весело! Пойдём, {CRONO}, потанцуем!\n{TAG:38}{TAG:38}{GLYPH:394}Конечно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Неохота.{GLYPH:397}"
+    "translation": "{MARLE}: Как весело!\nПойдём, {CRONO}, потанцуем!\n{TAG:38}{TAG:38}{GLYPH:394}Конечно.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Неохота.{GLYPH:397}"
   },
   {
     "id": 75,
@@ -579,7 +579,7 @@
     "id": 96,
     "original_en": "{AYLA}: What?\n{GLYPH:392} give up?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No way!{GLYPH:397}",
     "original_fr": "{AYLA} : Quoi ?\n{GLYPH:392} abandonner ?!\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "{AYLA}: Что? {GLYPH:392} сдаваться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ни за что!{GLYPH:397}"
+    "translation": "{AYLA}: Что?\n{GLYPH:392} сдаваться?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ни за что!{GLYPH:397}"
   },
   {
     "id": 97,

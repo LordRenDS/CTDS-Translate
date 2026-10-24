@@ -1089,7 +1089,7 @@
     "id": 181,
     "original_en": "No room here for humans. \nScat!\n{TAG:38}{TAG:38}{GLYPH:394}Give up.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Plead.{GLYPH:397}",
     "original_fr": "On n'a pas de chambres pour les humains !\nDu vent !\n       {GLYPH:394}Abandonner{GLYPH:395}\n       {GLYPH:396}Supplier{GLYPH:397}",
-    "translation": "Для людей комнат нет. Брысь!\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
+    "translation": "Для людей комнат нет.\nБрысь!\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
   },
   {
     "id": 182,
@@ -1101,7 +1101,7 @@
     "id": 183,
     "original_en": "200 G for the night.\nWant me to put you up?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Voulez-vous une chambre ?\nCela vous co{TAG:63}tera 200 G.\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "200 золотых за ночь. Пустить переночевать?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "200 золотых за ночь.\nПустить переночевать?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 184,
@@ -1125,7 +1125,7 @@
     "id": 187,
     "original_en": "I got nothing to sell to humans.\nGet out of here!\n{TAG:38}{TAG:38}{GLYPH:394}Give up.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Plead.{GLYPH:397}",
     "original_fr": "Je n'ai rien {TAG:3C} vendre {TAG:3C} des humains.\nDu vent !\n       {GLYPH:394}Abandonner{GLYPH:395}\n       {GLYPH:396}Supplier{GLYPH:397}",
-    "translation": "Мне нечего продавать людям. Проваливайте!\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
+    "translation": "Мне нечего продавать людям.\nПроваливайте!\n{TAG:38}{TAG:38}{GLYPH:394}Уйти.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Умолять.{GLYPH:397}"
   },
   {
     "id": 188,

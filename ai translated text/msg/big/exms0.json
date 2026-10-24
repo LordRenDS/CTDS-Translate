@@ -261,7 +261,7 @@
     "id": 43,
     "original_en": "A new enemy waits beyond.\nWhat will you do?\n{TAG:38}{TAG:38}{GLYPH:394}Fight!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Turn back for now.{GLYPH:397}",
     "original_fr": "Un nouvel ennemi vous attend au-del{TAG:3C} du portail.\nQue voulez-vous faire ?\n       {GLYPH:394}Combattre !{GLYPH:395}\n       {GLYPH:396}Faire demi-tour...{GLYPH:397}",
-    "translation": "Впереди ждёт новый враг. Что будете делать?\n{TAG:38}{TAG:38}{GLYPH:394}В бой!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Пока отступить.{GLYPH:397}"
+    "translation": "Впереди ждёт новый враг.\nЧто будете делать?\n{TAG:38}{TAG:38}{GLYPH:394}В бой!{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Пока отступить.{GLYPH:397}"
   },
   {
     "id": 44,

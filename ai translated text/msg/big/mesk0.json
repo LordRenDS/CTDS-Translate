@@ -441,7 +441,7 @@
     "id": 73,
     "original_en": "Let me see how many Silver Points you have\non your card... Looks like you've got {GLYPH:367}.{WAIT_KEY}\nWould you like to exchange 10 Silver Points\nfor 50 G?\n{TAG:38}{TAG:38}{GLYPH:394}Yes.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}No.{GLYPH:397}",
     "original_fr": "Vous avez actuellement {GLYPH:367} point(s) d'argent.{WAIT_KEY}\nVoulez-vous échanger 10 points d'argent contre\n50 G ?\n       {GLYPH:394}Oui{GLYPH:395}\n       {GLYPH:396}Non{GLYPH:397}",
-    "translation": "Посмотрим, сколько Серебряных очков у тебя на\nкарточке... Всего {GLYPH:367}.{WAIT_KEY}Хочешь обменять 10 Серебряных очков на 50 З?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
+    "translation": "Посмотрим, сколько Серебряных очков у тебя на\nкарточке... Всего {GLYPH:367}.{WAIT_KEY}\nХочешь обменять 10 Серебряных очков\nна 50 З?\n{TAG:38}{TAG:38}{GLYPH:394}Да.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Нет.{GLYPH:397}"
   },
   {
     "id": 74,
@@ -849,7 +849,7 @@
     "id": 141,
     "original_en": "Chancellor: Is this true?\nWho was responsible for initiating contact?\n{TAG:38}{TAG:38}{GLYPH:394}I was.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{MARLE} was.{GLYPH:397}",
     "original_fr": "Chancelier : Est-ce vraiment ce qui s'est passé ?\nQui a pris l'initiative ?\n       {GLYPH:394}Moi{GLYPH:395}\n       {GLYPH:396}{MARLE}{GLYPH:397}",
-    "translation": "Канцлер: Правда ли это? Кто первый заговорил?\n{TAG:38}{TAG:38}{GLYPH:394}Я.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{MARLE}.{GLYPH:397}"
+    "translation": "Канцлер: Правда ли это?\nКто первый заговорил?\n{TAG:38}{TAG:38}{GLYPH:394}Я.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}{MARLE}.{GLYPH:397}"
   },
   {
     "id": 142,
@@ -993,7 +993,7 @@
     "id": 165,
     "original_en": "Chancellor: Pardon me, but I believe the motive\nwas quite clear: greed.{WAIT_KEY}\nHer fortune did tempt you, did it not,\n{CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}No.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Yes.{GLYPH:397}",
     "original_fr": "Chancelier : Désolé de vous contredire, mais...\nEt si le motif était sa fortune ?{WAIT_KEY}\nTu en voulais {TAG:3C} ses richesses, n'est-ce pas,\n{CRONO} ?\n       {GLYPH:394}Non{GLYPH:395}\n       {GLYPH:396}Oui{GLYPH:397}",
-    "translation": "Канцлер: Прошу прощения, но мотив налицо:\nалчность!{WAIT_KEY}Её богатства манили тебя, верно, {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Нет.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Да.{GLYPH:397}"
+    "translation": "Канцлер: Прошу прощения, но мотив налицо:\nалчность!{WAIT_KEY}\nЕё богатства манили тебя,\nверно, {CRONO}?\n{TAG:38}{TAG:38}{GLYPH:394}Нет.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Да.{GLYPH:397}"
   },
   {
     "id": 166,
@@ -1011,7 +1011,7 @@
     "id": 168,
     "original_en": "Chancellor: Are you sure?\nYou weren't in the least bit tempted?\n{TAG:38}{TAG:38}{GLYPH:394}Not at all.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Just a bit.{GLYPH:397}",
     "original_fr": "Chancelier : Alors, sa fortune ne t'intéresse vraiment\npas du tout ?\n       {GLYPH:394}Pas du tout{GLYPH:395}\n       {GLYPH:396}Un peu{GLYPH:397}",
-    "translation": "Канцлер: Ты уверен? И ни капельки не соблазнился?\n{TAG:38}{TAG:38}{GLYPH:394}Ни капельки.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ну, чуть-чуть.{GLYPH:397}"
+    "translation": "Канцлер: Ты уверен?\nИ ни капельки не соблазнился?\n{TAG:38}{TAG:38}{GLYPH:394}Ни капельки.{GLYPH:395}\n{TAG:38}{TAG:38}{GLYPH:396}Ну, чуть-чуть.{GLYPH:397}"
   },
   {
     "id": 169,
