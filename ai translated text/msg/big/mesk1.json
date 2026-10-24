@@ -459,7 +459,7 @@
     "id": 76,
     "original_en": "Mimic what you see!\nL Button: Left arm{TAG:38}{TAG:38}®R Button: Right arm\nY Button: Laugh{TAG:38}{TAG:38}{TAG:38}{TAG:38}A Button: Surprise",
     "original_fr": "Imitez votre double !\nBouton L : main gauche{TAG:38}{TAG:7A}Bouton R : main droite\nBouton Y : rire{TAG:38}{TAG:38}{TAG:38}{TAG:38}{GLYPH:128}Bouton A : étonnement",
-    "translation": "Повторяйте движения! Кнопка L: Левая\nрука{TAG:38}{TAG:38}®Кнопка R: Правая рука Кнопка Y: Смех{TAG:38}{TAG:38}{TAG:38}{TAG:38}Кнопка\nA: Испуг"
+    "translation": "Повторяйте движения!\nКнопка L: Левая рука{TAG:38}{TAG:38}®Кнопка R: Правая рука\nКнопка Y: Смех{TAG:38}{TAG:38}{TAG:38}{TAG:38}Кнопка A: Испуг"
   },
   {
     "id": 77,

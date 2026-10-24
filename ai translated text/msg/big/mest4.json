@@ -705,7 +705,7 @@
     "id": 117,
     "original_en": "King: Ah, good! You are safe.\nEven to look again now, you are the ghostly image\nof Leene. Your manner, on the other hand...{WAIT_KEY}\nWell, never us mind that.\nYou've done me a great service.\nIf there is aught I might do for you,\nsimply speak it and it will be done.",
     "original_fr": "Je suis heureux de vous voir saine et sauve.\nVous ressemblez {TAG:3C} Lynne, certes, mais votre\npersonnalité est complètement différente...{WAIT_KEY}\nQuoi qu'il en soit, je vous suis tous redevable. Si un jour\nvous en avez besoin, je vous offrirai mon aide.",
-    "translation": "Король: Ах, как славно! Ты невредима. Даже сейчас,\nглядя на тебя, я вижу точнейший образ Лины. Хотя\nтвои манеры, с другой стороны...{WAIT_KEY}Впрочем, пустое. Ты оказала мне величайшую\nуслугу. Коли я могу сделать что-то для тебя —\nлишь скажи, и всё будет исполнено."
+    "translation": "Король: Ах, как славно! Ты невредима. Даже сейчас,\nглядя на тебя, я вижу точнейший образ Лины. Хотя\nтвои манеры, с другой стороны...{WAIT_KEY}Впрочем, не будем об этом. Вы оказали мне\nвеличайшую услугу. Если я могу сделать что-то\nдля вас — лишь скажите, и всё будет исполнено."
   },
   {
     "id": 118,
@@ -1125,7 +1125,7 @@
     "id": 187,
     "original_en": "The real Queen Leene was somewhere else, then.\nIt's just as I thought.",
     "original_fr": "Cela veut dire que la vraie reine Lynne était ailleurs,\ncomme je l'avais supposé.",
-    "translation": "Выходит, настоящая Королева Лина была в другом\nместе. Всё именно так, как я и думал."
+    "translation": "Выходит, настоящая Королева Лина была в другом\nместе. Всё именно так, как я и думала."
   },
   {
     "id": 188,
@@ -1197,7 +1197,7 @@
     "id": 199,
     "original_en": "Who would have thought the cathedral their hideout?\nSuch sacrilege!",
     "original_fr": "Quand je pense que l'abbaye était le repaire de\nmonstres...!",
-    "translation": "Кто бы мог подумать, что собор служил им логовом-\n?! Какое святотатство!"
+    "translation": "Кто бы мог подумать, что собор служил\nим логовом?! Какое святотатство!"
   },
   {
     "id": 200,
